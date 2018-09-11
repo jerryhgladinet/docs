@@ -6,7 +6,7 @@
 First login to your |prodname| web portal and click the user icon (1) in the top right corner. Then click the client download button (2) and download the respective client installer package.
 
 .. note::
-  **NOTE:** It is very important that you log in to |prodname| as a user before downloading the Windows or Mac Clients. This gives you access to client installation packages that are already tied to your |prodname| installation, which makes accessing |prodname| very easy. 
+  **NOTE:** It is very important that you log in to |prodname| as a user before downloading the Windows or Mac Clients. This gives you access to client installation packages that are already tied to your |prodname| account, which makes installation and accessing |prodname| easy. 
 
 .. figure:: _static/image_s2_1_1.png
     :align: center
@@ -30,7 +30,7 @@ Ensure that you choose the appropriate download for your operating system (eg, W
 Log In to |prodname|
 =======================
 
-At the end of the installation, you will be prompted to enter your |prodname| user account credentials. These credentials will authorize your Cloud Windows Client and connect it to your |prodname| user account. Access to your Cloud Windows Client is also available under the Windows Start Menu. If the "Auto-login next time" option is selected (default), the Cloud Windows Client will be launched at Windows Startup. You can see the client icon in the lower right of the desktop or in the right-bottom notifications areas of your task bar. 
+At the end of the installation, you will be prompted to enter your |prodname| user account credentials. These credentials will authorize your |prodname| Windows Client and connect it to your |prodname| user account. Access to your Windows Client agent is also available under the Windows Start Menu. If the "Auto-login next time" option is selected (default), the Cloud Windows Client will be launched at Windows Startup. You can see the client icon in the lower right of the desktop or in the right-bottom notifications areas of your task bar. 
 
 .. figure:: _static/image_s2_1_5.png
     :align: center
@@ -42,11 +42,11 @@ Accessing Your Files and Folders
 
 There are two main ways to use |prodname| files and folders.
 
-* First there is a |prodname| Cloud Drive. 
+* First, there is a |prodname| Cloud Drive. 
 
     With the |prodname| Cloud Drive, you have direct on-demand access to your cloud storage. 
 
-* Second there are synchronization folders.
+* Second, there are synchronization folders.
 
     Outside of the Cloud Drive, if you don't want to change where your existing folders are, you can then attach local folders as an access mechanism. The attached folder will be synchronized with Cloud in a bi-directional way.
 
