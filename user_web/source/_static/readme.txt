@@ -1,0 +1,1 @@
+this is folder for static image files
