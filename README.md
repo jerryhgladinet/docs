@@ -29,8 +29,9 @@ To build the documents locally yourself.
     
 1. build the docs
 
-    1. change directory to each projects, such as admin
+    1. use a command line prompt, change directory to each projects, such as admin
     1. make html
+    1. the above can be done from either Windows environment or Linux environment
     
 ## Hosting Instruction
 
