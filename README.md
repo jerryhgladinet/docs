@@ -30,4 +30,5 @@ example RTD hosting:
 
 * web portal guide - https://centrestack.readthedocs.io/projects/web/en/latest/
 * admin guide - https://centrestack.readthedocs.io/en/latest/
+* windows client agent guide - https://centrestack.readthedocs.io/projects/windows/en/latest/
     
