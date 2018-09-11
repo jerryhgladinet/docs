@@ -25,4 +25,9 @@ To build the documents locally yourself.
     
 The easiest way to get the document is to fork this git repository into yourown, and modify the prodname parameter and then import 
 the project into Read the Docs hosting.
+
+example RTD hosting:
+
+* web portal guide - https://centrestack.readthedocs.io/projects/web/en/latest/
+* admin guide - https://centrestack.readthedocs.io/en/latest/
     
