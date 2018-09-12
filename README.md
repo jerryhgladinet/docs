@@ -36,6 +36,8 @@ To build the documents locally yourself.
     
 ## Hosting Instruction
 
+You can always build the HTML output or the PDF output and host it on your own.
+
 The easiest way to get the document is to fork this git repository into your own, and modify the prodname parameter and then import 
 the project into Read the Docs hosting.
 
