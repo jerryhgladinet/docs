@@ -1,7 +1,7 @@
 # Guide
 
 Here are CentreStack documents written in the format of reStructuredText and can be built by the Sphinx environment or import
-into Read The Docs hosting environment.
+into Read The Docs hosting environment, or built locally for HTML output or for PDF/eBook output.
 
 There is a conf.py file in each document project. There is a **prodname** parameter you can change before you build the doc into HTML files. There are two other parameters - **copyright** and **author**.
 
