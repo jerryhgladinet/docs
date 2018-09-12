@@ -42,7 +42,7 @@ You can always build the HTML output or the PDF output and host it on your own.
 The easiest way to get the document is to fork this git repository into your own, and modify the prodname parameter and then import 
 the project into Read the Docs hosting.
 
-* Document Hosting - https://readthedocs.org/
+* Product Document Hosting - https://readthedocs.org/
 
 example RTD hosting:
 
