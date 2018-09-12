@@ -13,7 +13,7 @@ prodname = 'CentreStack Server'
 
 ## Related Tools
 
-* Sphinx - http://www.sphinx-doc.org/en/master/http://www.sphinx-doc.org/en/master/
+* Sphinx - http://www.sphinx-doc.org/en/master/
 * Read The Docs - https://docs.readthedocs.io/en/latest/install.html
 * reStructuredText Primer - http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
