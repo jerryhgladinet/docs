@@ -30,6 +30,7 @@ To build the documents locally yourself.
 1. build the docs
 
     1. use a command line prompt, change directory to each projects, such as admin
+    1. go to the source folder inside and modify conf.py if necessary.  and then back to the parent directory.
     1. make html
     1. the above can be done from either Windows environment or Linux environment
     1. if you want to build pdf format, Linux environment is recommended.
