@@ -52,4 +52,5 @@ example RTD hosting:
 * windows client agent guide - https://centrestack.readthedocs.io/projects/windows/en/latest/
 * group policy settings - https://centrestack.readthedocs.io/projects/policy/en/latest/
 * file server agent - https://centrestack.readthedocs.io/projects/serveragent/en/latest/
+* mac client agent guide - https://centrestack.readthedocs.io/projects/mac/en/latest/
     
