@@ -7,7 +7,7 @@
 
 The administration of the File Server Agent is done via a Windows application (the Cloud Server Console). Most of the time, the Cloud Server Console will launch into the web browser based administration console.
 
-There are two consoles, one on the Web Portal and the other one runs natively on a local machine. The one on the Web Portal is for general administration like settings. The native console is for advanced troubleshooting.
+There are two consoles, one on the Web Portal and the other one runs natively on a local machine. The one on the Web Portal is for general administration such as managing settings. The native console is for advanced troubleshooting such as collecting audit traces.
 
 You need to log into the Windows server's console to use the |prodname| Server Agent Management Console for administration-related tasks. If you manage the Windows Server from remote locations, you can use Remote Desktop, or other remote control tools to access to the Windows server before you start the |prodname| Server Agent Management Console.
 

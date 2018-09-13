@@ -69,7 +69,7 @@ From the File Server you wish to install the File Server Agent; open a browser a
       
   SERVER AGENT DOWNLOADS ACCESS
 
-In the pop-up window, choose your Download Package from the pulldown menu and click **Go** to begin the installation.
+In the pop-up window, choose your Download Package from the pull-down menu and click **Go** to begin the installation.
 
 A window will open. Click the MSI file at the bottom of the browser to open the installer. 
 
@@ -83,7 +83,7 @@ A window will open. Click the MSI file at the bottom of the browser to open the 
     File Server agent software is capable of synchronizing three things between the local file server and remote cloud storage account.
     
     1. synchronize selected files and folders.
-    2. synchronize selected Active Directory users. 
+    2. synchronize selected Active Directory users from local to cloud.
     3. synchronize NTFS permissions on the local file server to cloud. 
     
     You can start installing file server agent from "Adding Remote Active Directory" or from "Adding Team Folder via Remote Server Agent".

@@ -9,6 +9,10 @@ machines and connect network shares on the Windows machine to
 
 It is a file server enablement to allow remote and mobile access, while at the same time, provide business continuity through file synchronization and version control. 
 
+It is also a hybrid cloud setup that allows files and folders to 
+be accessed from both local area network (file server map drive) and
+from remote locations/Cloud/Internet (via virtual mapped drive).
+
 This is |prodname| File Server Agent Administration Guide.
 
 .. note::
@@ -28,7 +32,7 @@ Businesses need ways to access local file server over the Internet from mobile d
 
 Security and control is a big concern for businesses that are sensitive to regulation and data leakage problems. The lack of granular permissions and control over file sharing in public file-sharing services is forcing companies to give up on these 3rd-party services. 
 
-They then revert to the use of virtual private networks (VPNs) to provide remote access to corporate data. However, VPN has its own problems; it is not a good fit for the modern mobility, nor is it productivity friendly. Most of the time, VPN is a headache for managed service providers, due to a dramatic increase in support tickets.
+They then revert to the use of virtual private networks (VPNs) to provide remote access to corporate data. However, VPN has its own problems; it is not a good fit for the modern mobility, nor is it productivity friendly. Most of the time, VPN is a headache for managed service providers and company IT department, for the number of VPN related support tickets.
 
 
 Security + Mobility
@@ -36,14 +40,14 @@ Security + Mobility
 
 This is why you need |prodname|; resolving issues between file-sharing requirements, mobility and remote access, while preventing the leakage of your critical data through security and control. |prodname| takes care of the following objectives:
 
-* Make the Windows file server, mobility and remote-access friendly
-* Maintain file-server accessing paradigm
+* Make the Windows file server mobility and remote-access friendly
+* Maintain file-server accessing paradigm for local and remote access
 
     - Provide NTFS security permissions
     - Allow Active Directory integration
     - Drive Mapping and on-demand access
     
-* File sync and share features integrated into a traditional network share
+* File sync and share features integrated into a traditional Windows file server network share
 
 
 Overview
@@ -53,7 +57,7 @@ Overview
 
 The |prodname| File Server Agent is client-agent software that runs on Windows machines as a background service, while connecting to |prodname| servers (typically setup in a data center away from the file server).
 
-File Server Agent allows you to turn your file servers into cloud-friendly servers to migrate the file server shares to the |prodname| environment. During this process, the existing share permissions are also migrated to |prodname|. This allows the Windows file server network share to be used locally without change, and at the same time, the network shares are synchronizing with |prodname| Server to form a Hybrid Cloud solution.
+File Server Agent allows you to turn your file servers into cloud-friendly servers to migrate the file server shares to the |prodname| environment, while maintaining the two-way synchronization for as long as you need it to be. During this process, the existing share permissions are also migrated to |prodname|. This allows the Windows file server network share to be used locally without change, and at the same time, the network shares are synchronizing with |prodname| Server to form a Hybrid Cloud solution.
 
 File Server Agent technology turns any Windows file server into a private cloud storage that can be accessed from anywhere using any device, while maintaining existing identities and permissions.
 
