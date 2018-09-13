@@ -34,6 +34,7 @@ To build the documents locally yourself.
     1. make html
     1. the above can be done from either Windows environment or Linux environment
     1. if you want to build pdf format, Linux environment is recommended.
+    1. pdf target is make latexpdf
     
 ## Hosting Instruction
 
