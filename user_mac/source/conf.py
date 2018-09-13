@@ -54,7 +54,7 @@ project = 'Mac Client User Guide'
 copyright = '2018, Gladinet, Inc.'
 author = 'Gladinet, Inc.'
 
-prodname = 'MySync'
+prodname = 'CentreStack'
 
 rst_epilog = '.. |prodname| replace:: %s' % prodname
 
