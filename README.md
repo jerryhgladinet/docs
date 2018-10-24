@@ -17,7 +17,7 @@ prodname = 'CentreStack Server'
 * Read The Docs - https://docs.readthedocs.io/en/latest/install.html
 * reStructuredText Primer - http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
-## Build Instruction
+## Build Instruction (Windows or Linux)
 
 To build the documents locally yourself.
 1. Install Sphinx
@@ -54,3 +54,19 @@ example RTD hosting:
 * file server agent - https://centrestack.readthedocs.io/projects/serveragent/en/latest/
 * mac client agent guide - https://centrestack.readthedocs.io/projects/mac/en/latest/
     
+## PDF Build Instruction on Linux (Tested on Ubuntu)
+
+In order to build the latexpdf target, it has to be done from a Linux machine and a few more modules need to be installed. Here is a captured command line history to setup a Ubuntu Sphinx latexpdf build environment.
+
+  *  sudo apt install python-pip
+  *  pip install Sphinx
+  *  pip install sphinx_rtd_theme
+  *  pip install rst2pdf
+  *  pip list --outdated
+  *  sudo apt-get install python-sphinx
+  *  sudo apt-get install fbreader
+  *  sudo apt install texlive-latex-base
+  *  sudo apt install latexmk
+  *  sudo apt-get install texlive-latex-recommended
+  *  sudo apt-get install texlive-latex-extra
+  *  sudo apt-get install texlive-fonts-recommended
