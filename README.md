@@ -19,7 +19,7 @@ prodname = 'CentreStack Server'
 
 ## Build Instruction (Windows or Linux)
 
-To build the documents locally yourself.
+To build the documents (as HTML output) locally yourself.
 1. Install Sphinx
 
     1. Install Python
