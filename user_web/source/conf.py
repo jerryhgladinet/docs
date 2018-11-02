@@ -229,7 +229,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'CentreStackWebPortalUserGuide.tex', 'CentreStack Web Portal User Guide Documentation',
+  (master_doc, 'CentreStackWebPortalUserGuide.tex', prodname+' Web Portal User Guide Documentation',
    'GreenCity Solutions', 'manual'),
 ]
 
