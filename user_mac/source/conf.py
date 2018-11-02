@@ -232,7 +232,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'CentreStackMacClientUserGuide.tex', 'CentreStack Mac Client User Guide Documentation',
-   'Gladinet, Inc.', 'manual'),
+    [author], 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
