@@ -50,10 +50,10 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Windows Client Guide'
-copyright = '2018, Gladinet, Inc.'
-author = 'Gladinet, Inc.'
+copyright = '2018, GreenCity Solutions'
+author = 'GreenCity Solutions'
 
-prodname = 'CentreStack'
+prodname = 'DIVVIED'
 
 rst_epilog = '.. |prodname| replace:: %s' % prodname
 
