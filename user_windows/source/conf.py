@@ -230,7 +230,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'CentreStackWindowsClientGuide.tex', 'CentreStack Windows Client Guide Documentation',
+  (master_doc, 'CentreStackWindowsClientGuide.tex', 'DIVVIED Windows Client Guide Documentation',
      [author], 'manual'),
 ]
 
@@ -274,7 +274,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'CentreStackWindowsClientGuide', 'CentreStack Windows Client Guide Documentation',
+  (master_doc, 'CentreStackWindowsClientGuide', 'DIVVIED Windows Client Guide Documentation',
    author, 'CentreStackWindowsClientGuide', 'One line description of project.',
    'Miscellaneous'),
 ]
