@@ -231,8 +231,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'CentreStackMacClientUserGuide.tex', 'CentreStack Mac Client User Guide Documentation',
-    [author], 'manual'),
+  (master_doc, 'CentreStackMacClientUserGuide.tex', prodname+' Mac Client User Guide Documentation',
+    author, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
