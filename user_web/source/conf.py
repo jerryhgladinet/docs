@@ -50,9 +50,9 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Web Portal User Guide'
-copyright = '2018, Gladinet, Inc.'
-author = 'Gladinet, Inc.'
-prodname = 'CentreStack'
+copyright = '2018, GreenCity Solutions'
+author = 'GreenCity Solutions'
+prodname = 'DIVVIED'
 
 rst_epilog = '.. |prodname| replace:: %s' % prodname
 
@@ -230,7 +230,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'CentreStackWebPortalUserGuide.tex', 'CentreStack Web Portal User Guide Documentation',
-   'Gladinet, Inc.', 'manual'),
+   'GreenCity Solutions', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
