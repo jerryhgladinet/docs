@@ -50,9 +50,10 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Administration Guide'
-copyright = '2018, GreenCity Solutions'
-author = 'GreenCity Solutions'
-prodname = 'DIVVIED Server'
+copyright = '2019, Corporate Shields, LLC.'
+author = 'Corporate Shields'
+
+prodname = 'NUBIA Drive'
 
 rst_epilog = '.. |prodname| replace:: %s' % prodname
 
@@ -230,8 +231,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'CentreStackAdministrationGuide.tex', 'CentreStack Administration Guide Documentation',
-   'GreenCity Solutions', 'manual'),
+  (master_doc, 'CentreStackAdministrationGuide.tex', prodname + ' Administration Guide Documentation',
+   author, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
