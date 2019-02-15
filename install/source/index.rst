@@ -7,12 +7,12 @@ Introduction
 
 Welcome to the **CentreStack Server** Installation Guide. This guide describes the installation tasks for CentreStack, the managed file synchronization and sharing solution. 
 
-CentreStack includes the CentreStack server, which runs on Windows server platform, and client agent applications for Web browsers, Microsoft Windows, Mac OS X, and for mobile platforms such as the Android and the Apple iOS operating systems.
+CentreStack includes the CentreStack server, which runs on the Microsoft Windows server platform, and client agent applications for Web browsers, Microsoft Windows, Mac OS X, and for mobile platforms such as the Android and the Apple iOS operating systems.
 
 Overview
 ==========
 
-CentreStack is a managed file sync and share solution that focuses on file server cloud-enablement. It differentiates from other file sync and share solutions (EFSS) by focusing on the security, control, file server and team collaboration. CentreStack does really well in the following areas:
+CentreStack is a managed file sync and share solution that focuses on local file server cloud-enablement. It differentiates from other file sync and share solutions (EFSS) by focusing on the security, control, file server and team collaboration. CentreStack does really well in the following areas:
 
     1. maintain security and permission of NTFS permission on files and folders.
     2. provide on-demand access that honors read-only, and write permission in real-time.
