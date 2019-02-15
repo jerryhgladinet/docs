@@ -12,7 +12,7 @@ Introduction
 
 Welcome to the CentreStack Server Deployment Guide. This guide describes
 deployment tasks for CentreStack, the managed file synchronization
-and sharing solution that focuses on cloudifying file servers.
+and sharing solution that focuses on local file server cloud-enablement.
 
 CentreStack includes the CentreStack server, which runs on
 Windows server platform, and client agent applications for Microsoft Windows, Mac OS X, 
