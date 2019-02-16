@@ -15,19 +15,19 @@ deployment tasks for CentreStack, the managed file synchronization
 and sharing solution that focuses on local file server cloud-enablement.
 
 CentreStack includes the CentreStack server, which runs on the Microsoft
-Windows server platform, and client agent applications for Microsoft Windows, Mac OS X, 
+Windows server platform, and client agent applications for Microsoft Windows, Mac OS X, web browsers, 
 Android and Apple iOS operating systems.
 
 .. note::
 
-    This guide is updated to match build 8.9.4687.39530
+    This guide is updated to match build 10.1.6296.42951
     
     
 
 Overview
 -----------------------
 
-CentreStack is a managed file sync and share solution that focuses on file server cloud-enablement. It differentiates from other file sync and share solutions (EFSS) by focusing on the security, control, file server and team collaboration. CentreStack does really well in the following areas:
+CentreStack is a managed file sync and share solution that focuses on local file server cloud-enablement. It differentiates from other file sync and share solutions (EFSS) by focusing on the security, control, file server and team collaboration. CentreStack does really well in the following areas:
 
     1. maintain security and permission of NTFS permission on files and folders.
     2. provide on-demand access that honors read-only, and write permission in real-time.
@@ -52,14 +52,14 @@ CentreStack server is pure software built on top of the Microsoft Web Platform, 
     CentreStack server fits the description of Windows
     Server "Web workload" and "Internet Web Solution". If you use
     Windows Server 2008, you can choose the Web Edition. If you use
-    Windows Server 2012 or Server 2016, you can use it for "Web workload"
+    Windows Server 2012, Server 2016 or Server 2019, you can use it for "Web workload"
     and for "Internet Web Solution".
     
-Since CentreStack  server is built on top of Microsoft Web Platform,
+Since CentreStack  server is built on top of the Microsoft Web Platform,
 it integrates very well with Microsoft components such as
-NTFS Permission, Active Directory and File Server network shares.
+NTFS Permission, Active Directory, File Server network shares, file locking and drive mapping.
 
-It provides file access and sharing functionality through client agents for PCs, Macs, File Servers, Web Browsers, and Mobile Devices.
+It provides file access and sharing functionality through client agents for remote PCs, Macs, File Servers, Web Browsers, and Mobile Devices.
 
 The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy the CentreStack.
 
@@ -67,7 +67,7 @@ The services can be deployed in flexible combinations to meet different needs. T
     
     .. image:: _static/SelfHostedCentreStackDirectShare.svg
     
-    2. Deploy in a site remote, such as Amazon Web Services EC2, Microsoft Azure, or in a Data Center where the Managed Service Provider (MSP) hosts their infrastructure:
+    2. Deploy in a remote site, such as Amazon Web Services EC2, Microsoft Azure, or in a Data Center where the Managed Service Provider (MSP) hosts their infrastructure:
     
     .. image:: _static/SelfHostedCentreStackRemoteShare.svg
 
@@ -85,7 +85,7 @@ The services can be deployed in flexible combinations to meet different needs. T
     deployment of the Self-Hosted CentreStack server and its
     related client agent applications.
 
-There are three different infrastructure components (logical components that can co-exist in same server).
+There are three different infrastructure components (logical components that can co-exist in the same server).
 In the smallest deployment unit, the different components can co-exist in one single machine (all-in-one deployment).
 
 
@@ -130,18 +130,18 @@ CentreStack Partner Portal
   Partner Portal is at http://www.centrestack.com. You will 
   download the CentreStack software to 
   start the trial process and later
-  acquire licenses to turn the trial into 
+  acquire licenses to turn the trial into a
   production environment.
   
   You can also come back to the partner portal
-  for the CentreStack software to 
+  for the CentreStack software to download and
   upgrade your existing CentreStack server
   to a later version.
 
 CentreStack Cluster - Server Farm
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  Multiple CentreStack single-machine nodes connected together by pointing to the same database and share the same configuration information from the database.
+  Multiple CentreStack single-machine nodes connected together by pointing to the same database and share the same configuration information from the database and indirectly share the persistent storage location in a symmetrical way.
   
   Indirectly, the database contains storage related information so all the nodes
   in the server farm share storage related configuration.
@@ -180,7 +180,7 @@ Tenant
         
     Tenants are created by the cluster administrator.
     
-    You can use CentreStack server in a single tenant setup. 
+    You can use CentreStack server in a single tenant setup because it is just a special case of multi-tenancy. 
     
 .. note::
     
@@ -188,7 +188,7 @@ Tenant
     storage quota and storage consumption. 
     
     From the technical side, a tenant is usually connect to an Active Directory
-    and have a bunch of connected file server agents.
+    and have a bunch of connected file server either directly or through server agents.
 
 Tenant Admin
 ^^^^^^^^^^^^^^^^^^^^
@@ -197,7 +197,7 @@ Tenant Admin
   
   This is the very first tenant account user. Usually, the Tenant User is created by Master Admin.
   
-  The Master Admin is also the Tenant Admin for his own team/company. Tenant admin can later delegate administrative tasks to other team users.
+  The Master Admin is also the Tenant Admin for his own team/company (default tenant). Tenant admin can later delegate administrative tasks to other team users.
   
   By default the cluster administrator can help the tenant administrator on the management scope.
 
@@ -208,7 +208,7 @@ Tenant User
   the tenant admin). Team users can come from 
   three different places.
   
-    1. Native CentreStack User
+    1. Native CentreStack User (created from scratch)
     2. Active Directory User from local LDAP
     3. Active Directory User from remote CentreStack Server Agent
     
@@ -218,14 +218,15 @@ Tenant User
     
 .. note::
 
-    Native CentreStack user can be mapped to Azure AD user later
+    Native CentreStack user can be mapped to Active Directory user or Azure AD user later
     if necessary.
 
 Guest User
 ^^^^^^^^^^^^^^^^^
 
   The guest users are users outside of the tenant users domain but receive file or folder shares from team user.
-  Team user creates guest users through the file sharing or folder sharing activities.
+  Team user creates guest users through the file sharing or folder sharing activities. Guest users typically
+  are external users outside of an organization that are already using CentreStack.
 
 Client Agent Software
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -233,8 +234,8 @@ Client Agent Software
   CentreStack contains various client agents which include 
   
     - Web Browser Based File Manager,
-    - Windows Desktop Client, 
-    - Windows File Server Agent Client, 
+    - Windows Desktop Client with Mapped Drive, 
+    - Windows File Server Agent with 2-way synchronization, 
     - Mac OS X client and 
     - Mobile Applications
         - iOS
@@ -249,19 +250,20 @@ Client Agent Software
 System Requirements
 --------------------
 
-CentreStack server is built on top of Microsoft Web Platform, which includes
+CentreStack server is built on top of the Microsoft Web Platform, which includes
 
     * Windows Server
-    * Internet Information Server 7/8 (IIS),
+    * Internet Information Server 7/8/10 (IIS),
     * .Net Framework 4.5+, 
     * ASP.NET
-    * SQL Server or SQL Server Express.
+    * MySQL, Microsoft SQL Server or Microsoft SQL Server Express.
 
 The base operating system can be either 
 
     - Windows Server 2008 R2, 
     - Windows Server 2012, Windows Server 2012 R2 or 
     - Windows Server 2016
+    - Windows Server 2019
 
 We recommend Windows Server 2012/2012 R2/2016 since .Net Framework 4.5/4.6 comes directly with these newer server OS platforms.
 It is easier and faster to install CentreStack software on Windows Server 2012/2012 R2 or on Windows Server 2016.
@@ -273,8 +275,8 @@ It is easier and faster to install CentreStack software on Windows Server 2012/2
     There is no need to prepare the machine beyond the clean state of the basic Operating System software.
 
 
-Windows Server 2008 (SP2/R2), 2012/R2, 2016
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Windows Server 2008 (SP2/R2), 2012/R2, 2016, 2019
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The base operating system provides the base of the Microsoft Web Platform.
 It will be loaded with the mentioned Microsoft components before the core CentreStack 
@@ -289,7 +291,7 @@ The CentreStack installer will install all the dependency Windows components.
 SQL Server / MySQL Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-SQL Server or SQL Server Express is used to store static configuration information such as the user name, email,
+Microsoft SQL Server or SQL Server Express or MySQL is used to store static configuration information such as the user name, email,
 storage configuration, files and folders sharing information and others.
 
 It is recommended the SQL Server has daily backups since it contains configuration information for the service to run properly.
@@ -297,11 +299,13 @@ It is recommended the SQL Server has daily backups since it contains configurati
 If you have SQL Server Standard Edition or SQL Server Enterprise Edition, you can take advantage of the high availability features
 like Always-On Clustering or Always-On Fail Over Group.
 
-MySQL Community Edition is also supported.
+MySQL Community Edition is also supported. 
+
+If you are setting CentreStack server up in Amazon AWS, Amazon Aurora DB is also recommended.
 
 .. note::
 
-    The CentreStack server installer is capable of installing SQL Express. If you only need a all-in-one deployment for a single server deployment, the installer can install SQL Express automatically.
+    The CentreStack server installer is capable of installing SQL Express or MySQL. If you only need an all-in-one deployment for a single server deployment, the installer can install database automatically.
 
 .Net Framework 4
 ^^^^^^^^^^^^^^^^^
@@ -315,7 +319,7 @@ We recommend .Net Framework 4.5 and above as it works better with remote clients
     The CentreStack server Installer will install .NET 4.5 and other
     dependency components automatically. 
 
-ASP.NET 4.5/4.6
+ASP.NET 4.5/4.6/4.7
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 CentreStack web browser portal user interface is written in ASP.NET, HTML and JavaScript.
@@ -344,7 +348,7 @@ Recommended Hardware Specification
 
 :Operating System: 
 
-    Windows 2008 R2, Windows 2012 or R2, Windows 2016
+    Windows 2008 R2, Windows 2012 or R2, Windows 2016, Windows 2019
     
 :CPU: 
 
