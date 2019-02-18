@@ -5,16 +5,16 @@ Deployment
 Deployment Options
 -----------------------------
 
-As documented above, CentreStack has four logical components, the database, the web node and the worker node and the storage. This section will go through
-different deployment options.
+As documented above, CentreStack has three logical components, the database, the worker node and the storage. This section will go through
+different deployment options. 
 
 All-In-One Deployment
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the simplest deployment. The database , the web node and the worker node are all on the same machine as
+This is the simplest deployment. The database , the worker node are all on the same machine as
 the storage.
 When you are serving < 1000 users or you are doing Proof-of-Concept (POC), this is the ideal deployment because of its simplicity.
-You can have the CentreStack installer install the SQL Express on the same machine before install CentreStack software and then point the database to localhost\\SQLEXPRESS.
+You can have the CentreStack installer install the SQL Express/MySQL on the same machine before install CentreStack software and then point the database to localhost\\SQLEXPRESS or local MySQL.
 In the All-In-One deployment, the storage location is typically set to a folder on local C: drive or local D: drive.
 
 The installer can install SQL EXPRESS so it is a one-click installation for convenience.
@@ -22,27 +22,27 @@ No need to do a separate SQL EXPRESS installation.
 
 .. Note::
 
-  If this is the first time you are installing CentreStack, this is the recommended setup because it is the easiest to setup and only takes 15-30 minutes on a clean machine.
+  If this is the first time you are installing CentreStack, this is the recommended setup because it is the easiest to setup and only takes 15-30 minutes on a clean machine. The installer will take care of all the installation without other manual steps.
 
 .. image:: _static/image003.png
 
-In the latest CentreStack installer, the installer is capable of doing the all-in-one installation without asking you to setup SQL Express separately.
+In the latest CentreStack installer, the installer is capable of doing the all-in-one installation without asking you to setup database separately.
 
 Single-Server Deployment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is another simple deployment. It is very similar to the All-In-One deployment. The only difference is that the file storage is off the machine instead of on the machine.
 
-The external file storage can be file storage on a UNC path or it can also be a private object storage service.
+The external file storage can be file storage on a UNC path or it can also be an object storage service.
 
-In this deployment, the SQL Server Express and the Worker Node/Web Node are still deployed on the same machine.
+In this deployment, the database and the Worker Node/Web Node are still deployed on the same machine.
 
 .. image:: _static/image004.png
 
 Two-Server Deployment
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-In the two server deployment, the SQL Server database is installed in its own server;
+In the two server deployment, the database is installed in its own server;
 away from the CentreStack worker node.
 Usually, this is an intermediate step leading to the “Three-Server Deployment” and a step towards scaling up the server farm.
 
@@ -67,20 +67,22 @@ The benefit is that if one node is down, there is another node for redundancy.
 Multiple-Machine Deployment for Scalability
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In this deployment, you will have clear separation of database ,
-the web  node and the worker node. 
+In this deployment, you will have clear separation of database , storage service, and the
+worker nodes in a farm of servers. 
 
-The database  is not a CentreStack worker node; it is just a server that runs SQL Server.
+The database  is not a CentreStack worker node; it is just a server that runs SQL Server or MySQL.
 
-The web node and the worker node are all CentreStack nodes which run the same software but functionally work different.
-Most of the time, in the multiple-machine deployment, a hardware load balancer is used and web node is not necessary.
+The worker nodes are all CentreStack nodes which run the same software.
+Most of the time, in the multiple-machine deployment, a hardware load balancer is used to distribute the load evenly.
 
 .. image:: _static/image007.png
+
+Inside a worker node, there is further division of work between a 'web node' and the rest 'worker node'.
 
 The web  nodes are used for user login. After login, the user will be re-directed to the corresponding worker node.
 (The web  node can be omitted if you have an existing Load Balancer).
 
-For the load balancing to work, all the worker nodes and web front nodes have to be on the same DNS domain and same level of sub domain
+For the load balancing to work, all the worker nodes have to be on the same DNS domain and same level of sub domain
 (for example, they can be covered by same SSL wildcard certificate, such a \*.acme.com).  The load balancing requires at least two worker nodes.
 
 *	Install the CentreStack server on the first worker node machine. Reboot and setup the cluster admin account.
