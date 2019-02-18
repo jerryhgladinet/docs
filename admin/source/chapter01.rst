@@ -6,7 +6,7 @@ The |prodname| is a managed File Sync and Share solution. It differentiates itse
 
    1. Maintaining Active Directory, security and NTFS permissions on files and folders.
    2. Providing live time sync-and-share with versioning and revision controls.
-   3.Providing On-Demand access that honors Read-Only, and Write permissions in Real-Time.
+   3. Providing On-Demand access that honors Read-Only, and Write permissions in Real-Time.
    4. Mirroring of local network shares for Team Collaboration in the Cloud.
    5. Provide drive mapping and file locking functionality for files in the Cloud.
 
