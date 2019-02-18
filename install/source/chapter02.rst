@@ -4,7 +4,7 @@
 
 .. warning::
 
-    If this is the very first time you installing CentreStack server, it is recommended you do the all-in-one installation by preparing a clean Windows 2012 R2/2016 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
+    If this is the very first time you installing CentreStack server, it is recommended you do the all-in-one installation by preparing a clean Windows 2012 R2/2016/2019 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
 
 
 Step 1: Prepare the File Storage
@@ -86,7 +86,7 @@ MySQL typically listens on TCP port 3306. Make sure this port is opened on the f
 Step 4: Prepare the CentreStack Server
 ======================================
 
-The easiest way to prepare the CentreStack server is to have a clean Windows Server 2012/R2/2016 OS with English locale and make sure the worker nodes are all in the same time zone.
+The easiest way to prepare the CentreStack server is to have a clean Windows Server 2012/R2/2016/2019 OS with English locale and make sure the worker nodes are all in the same time zone.
 
 We recommend Windows server 2012 R2 or Windows server 2016 as a preferred server OS running on a virtual machine.
 
@@ -95,6 +95,7 @@ We recommend Windows server 2012 R2 or Windows server 2016 as a preferred server
     * Windows Server 2012 
     * Windows Server 2012 R2
     * Windows Server 2016
+    * Windows Server 2019
 
 **Supported CPU**
     * 64-bit Intel or AMD x64 architecture
