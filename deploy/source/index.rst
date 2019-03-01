@@ -29,14 +29,14 @@ Overview
 
 CentreStack is a managed file sync and share solution that focuses on local file server cloud-enablement. It differentiates from other file sync and share solutions (EFSS) by focusing on the security, control, file server and team collaboration. CentreStack does really well in the following areas:
 
-    1. provide on-demand access that honors read-only, and write permission in real-time.
+    1. provide on-demand access that honors read-only and write permissions in real-time.
     2. mirror local network share on file server to team collaboration in the cloud.
     3. provide virtual drive letter mapping to the files and folders for access.
     4. provide file locking, version control, client encryption and etc features for the virtual drive.
     
 .. note::
 
-    As a summary, you can think of CentreStack as a way to elevate and turn a Windows File Server in a local area network
+    In summary, you can think of CentreStack as a way to elevate and turn a Windows File Server in a local area network
     into a Cloud/Internet facing file server solution with remote and mobile access.
 
 CentreStack server is pure software built on top of the Microsoft Web Platform, which includes:
