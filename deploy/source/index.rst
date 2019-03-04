@@ -20,7 +20,7 @@ Android and Apple iOS operating systems.
 
 .. note::
 
-    This guide is updated to match build 10.1.6296.42951
+    This guide is updated to match build 10.2.6335.43041
     
     
 
@@ -39,7 +39,7 @@ CentreStack is a managed file sync and share solution that focuses on local file
     In summary, you can think of CentreStack as a way to elevate and turn a Windows File Server in a local area network
     into a Cloud/Internet facing file server solution with remote and mobile access.
 
-CentreStack server is pure software built on top of the Microsoft Web Platform, which includes:
+The CentreStack server is a pure software built on top of the Microsoft Web Platform, which includes:
 
     * Windows Server,
     * IIS (Internet Information Server), 
