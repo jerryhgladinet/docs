@@ -11,7 +11,7 @@ Introduction
 ------------
 
 Welcome to the CentreStack Server Deployment Guide. This guide describes
-deployment tasks for CentreStack, the managed file synchronization
+deployment tasks for CentreStack, a managed file synchronization
 and sharing solution that focuses on local file server cloud-enablement.
 
 CentreStack includes the CentreStack server, which runs on the Microsoft
@@ -27,7 +27,7 @@ Android and Apple iOS operating systems.
 Overview
 -----------------------
 
-CentreStack is a managed file sync and share solution that focuses on local file server cloud-enablement. It differentiates from other file sync and share solutions (EFSS) by focusing on the security, control, file server and team collaboration. CentreStack does really well in the following areas:
+CentreStack is a managed file sync and share solution that focuses on local file server cloud-enablement. It differentiates from other file sync and share solutions (EFSS) by focusing on security, control, file server and team collaboration. CentreStack does really well in the following areas:
 
     1. provide on-demand access that honors read-only and write permissions in real-time.
     2. mirror local network share on file server to team collaboration in the cloud.
@@ -39,7 +39,7 @@ CentreStack is a managed file sync and share solution that focuses on local file
     In summary, you can think of CentreStack as a way to elevate and turn a Windows File Server in a local area network
     into a Cloud/Internet facing file server solution with remote and mobile access.
 
-CentreStack server is pure software built on top of the Microsoft Web Platform, which includes:
+The CentreStack server is pure software built on top of the Microsoft Web Platform, which includes:
 
     * Windows Server,
     * IIS (Internet Information Server), 
@@ -48,13 +48,13 @@ CentreStack server is pure software built on top of the Microsoft Web Platform, 
     
 .. note::
     
-    CentreStack server fits the description of Windows
+    The CentreStack server fits the description of Windows
     Server "Web workload" and "Internet Web Solution". If you use
     Windows Server 2008, you can choose the Web Edition. If you use
     Windows Server 2012, Server 2016 or Server 2019, you can use it for "Web workload"
     and for "Internet Web Solution".
     
-Since CentreStack  server is built on top of the Microsoft Web Platform,
+Since the CentreStack server is built on top of the Microsoft Web Platform,
 it integrates very well with Microsoft components such as
 NTFS Permission, Active Directory, File Server network shares, file locking and drive mapping.
 
@@ -74,9 +74,9 @@ The services can be deployed in flexible combinations to meet different needs. T
         
 .. note::
 
-    For Hosted-CentreStack (as compared to self-hosted CentreStack), 
-    CentreStack server is already deployed on http://www.centrestack.com . In
-    this case, you don't need to deploy CentreStack server. Instead,
+    Our Hosted version of CentreStack (as compared to our self-hosted CentreStack), 
+    the CentreStack server is already deployed on http://www.centrestack.com. In
+    this case, you don't need to deploy a CentreStack server. Instead,
     you can start using the hosted-centrestack
     web portal and client agents directly.
 
@@ -117,8 +117,8 @@ In the smallest deployment unit, the different components can co-exist in one si
     The storage component is the persistent storage location for files and folders. There are 
     two different types of storage services. One is managed by CentreStack, such as the default
     storage for the cluster and the default storage for tenants. The other is imported storage, 
-    for example, existing file server network shares that wasn't managed by CentreStack but can be 
-    imported to CentreStack for remote and mobile access.
+    for example, having existing file server network shares that aren't managed by CentreStack but can be 
+    imported into CentreStack for remote and mobile access.
 
 Terminology
 ------------
@@ -126,26 +126,24 @@ Terminology
 CentreStack Partner Portal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   
-  Partner Portal is at http://www.centrestack.com. You will 
-  download the CentreStack software to 
-  start the trial process and later
+  The Partner Portal can be found by going to http://www.centrestack.com. Click on "Partner" to sign up for your partner account log in credentials, and then you can log into your partner account at anytime. From the Partner Portal, You are able to
+  download the CentreStack software and can
+  start the trial process. Later, you can
   acquire licenses to turn the trial into a
   production environment.
   
   You can also come back to the partner portal
-  for the CentreStack software to download and
-  upgrade your existing CentreStack server
-  to a later version.
+ any time that your CentreStack software neeeds to be upgraded to a later version.
 
 CentreStack Cluster - Server Farm
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  Multiple CentreStack single-machine nodes connected together by pointing to the same database and share the same configuration information from the database and indirectly share the persistent storage location in a symmetrical way.
+  Multiple CentreStack single-machine nodes connect together by pointing to the same database and then shares the same configuration information from the database so that CentreStack can indirectly share the persistent storage location in a symmetrical way.
   
   Indirectly, the database contains storage related information so all the nodes
   in the server farm share storage related configuration.
   
-  The whole CentreStack cluster operates as if it was a single entity. The smallest cluster is a single
+  The whole CentreStack cluster operates as if it is a single entity. The smallest cluster is a single
   CentreStack worker node, which contains all the functionality and different logical nodes together.
   
   Another term for the cluster is the **CentreStack server farm**.
@@ -158,7 +156,7 @@ Master Admin/Cluster Admin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   In this guide, we refer to the admin user as the user that manages the whole CentreStack server farm. The server farm can be as
-  small as a single CentreStack server and the admin user will
+  small as a single CentreStack server. If so, the admin user will
   still need to manage it regardless of the size of the server
   farm.
   
@@ -172,22 +170,22 @@ Tenant
 ^^^^^^^^^^^^^^^^^^^
 
     CentreStack is a multi-tenant ready solution. A tenant
-    here usually is mapped to 
+    here usually is mapped to: 
     
         1. a company (if you are the company IT) 
         2. a client of yours (if you are a Managed Service Provider/MSP)
         
     Tenants are created by the cluster administrator.
     
-    You can use CentreStack server in a single tenant setup because it is just a special case of multi-tenancy. 
+    You can use the CentreStack server in a single tenant setup because it is just a special case of multi-tenancy. 
     
 .. note::
     
-    From a reporting perspective, tenant contains a number of users and also
+    From a reporting perspective, a tenant contains a number of users and also
     storage quota and storage consumption. 
     
-    From the technical side, a tenant is usually connect to an Active Directory
-    and have a bunch of connected file server either directly or through server agents.
+    From the technical side, a tenant is usually connected to an Active Directory
+    and can have a bunch of connected file servers either directly or through server agents.
 
 Tenant Admin
 ^^^^^^^^^^^^^^^^^^^^
@@ -203,40 +201,38 @@ Tenant Admin
 Tenant User
 ^^^^^^^^^^^^^^^^^^^^
 
-  The tenant user (team user) is a user inside a specific Tenant.  Team users are created by the Tenant Admin (or by cluster admin on behave of
-  the tenant admin). Team users can come from 
-  three different places.
+  The tenant user (team user) is a user inside a specific Tenant.  Team users are created by the Tenant Admin (or by cluster admin on behalf of the tenant admin). Team users can come from three different places:
   
     1. Native CentreStack User (created from scratch)
     2. Active Directory User from local LDAP
     3. Active Directory User from remote CentreStack Server Agent
     
-    Team user always belong to a specific tenant and can't span multiple tenants.
+    Team users always belong to a specific tenant and can't span multiple tenants.
     However, a team user can receive file and folder share from multiple users
     and from multiple tenants.
     
 .. note::
 
-    Native CentreStack user can be mapped to Active Directory user or Azure AD user later
+    A Native CentreStack user can be mapped to Active Directory user or Azure AD user later
     if necessary.
 
 Guest User
 ^^^^^^^^^^^^^^^^^
 
   The guest users are users outside of the tenant users domain but receive file or folder shares from team user.
-  Team user creates guest users through the file sharing or folder sharing activities. Guest users typically
+  The Team user creates guest users through the file sharing or folder sharing activities. Guest users typically
   are external users outside of an organization that are already using CentreStack.
 
 Client Agent Software
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-  CentreStack contains various client agents which include 
+  CentreStack contains various client agents which include: 
   
-    - Web Browser Based File Manager,
-    - Windows Desktop Client with Mapped Drive, 
-    - Windows File Server Agent with 2-way synchronization, 
+    - Web Browser Based File Manager
+    - Windows Desktop Client with Mapped Drive
+    - Windows File Server Agent with 2-way synchronization 
     - Mac OS X client and 
-    - Mobile Applications
+    - Mobile Applications:
         - iOS
         - Android
         - Windows Phone
@@ -249,17 +245,17 @@ Client Agent Software
 System Requirements
 --------------------
 
-CentreStack server is built on top of the Microsoft Web Platform, which includes
+CentreStack server is built on top of the Microsoft Web Platform, which includes:
 
     * Windows Server
-    * Internet Information Server 7/8/10 (IIS),
-    * .Net Framework 4.5+, 
+    * Internet Information Server 7/8/10 (IIS)
+    * .Net Framework 4.5+ 
     * ASP.NET
-    * MySQL, Microsoft SQL Server or Microsoft SQL Server Express.
+    * MySQL, Microsoft SQL Server or Microsoft SQL Server Express
 
-The base operating system can be either 
+The base operating system can be either: 
 
-    - Windows Server 2008 R2, 
+    - Windows Server 2008 R2 
     - Windows Server 2012, Windows Server 2012 R2 or 
     - Windows Server 2016
     - Windows Server 2019
@@ -290,10 +286,10 @@ The CentreStack installer will install all the dependency Windows components.
 SQL Server / MySQL Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Microsoft SQL Server or SQL Server Express or MySQL is used to store static configuration information such as the user name, email,
-storage configuration, files and folders sharing information and others.
+The Microsoft SQL Server or SQL Server Express or MySQL is used to store static configuration information such as the user name, email,
+storage configuration, files and folders, sharing information and others.
 
-It is recommended the SQL Server has daily backups since it contains configuration information for the service to run properly.
+It is recommended that the SQL Server has daily backups since it contains configuration information for the service to run properly.
 
 If you have SQL Server Standard Edition or SQL Server Enterprise Edition, you can take advantage of the high availability features
 like Always-On Clustering or Always-On Fail Over Group.
@@ -304,12 +300,12 @@ If you are setting CentreStack server up in Amazon AWS, Amazon Aurora DB is also
 
 .. note::
 
-    The CentreStack server installer is capable of installing SQL Express or MySQL. If you only need an all-in-one deployment for a single server deployment, the installer can install database automatically.
+    The CentreStack server installer is capable of installing SQL Express or MySQL. If you only need an all-in-one deployment for a single server deployment, the installer can install the database automatically.
 
 .Net Framework 4
 ^^^^^^^^^^^^^^^^^
 
-CentreStack Server is built with .Net Framework 4, with ASP.NET and WCF.
+The CentreStack Server is built with .Net Framework 4, with ASP.NET and WCF.
 
 We recommend .Net Framework 4.5 and above as it works better with remote clients that have Internet Explorer 10 or 11.
 
@@ -355,7 +351,7 @@ Recommended Hardware Specification
 
 .. note:: 
 
-    Virtual Machines are recommended. Clean machine built from base OS with English Locale is recommended. After providing the clean machine, the CentreStack Server installer will install the rest of the Windows 
+    Virtual Machines are recommended. A Clean machine built from a base OS with English Locale is recommended. After providing the clean machine, the CentreStack Server installer will install the rest of the Windows 
     system components and CentreStack components automatically. 
     The software is hypervisor neutral. The hypervisor can be Hyper-V, VMWare or others. The software can be installed on a physical
     machine as well if needed.
@@ -382,8 +378,8 @@ So, in this case the per-server capacity can be 5000 named users.
 
 .. note::
 
-    (Concurrent-User is defined as the users making requests in a 10-second period. For example,
-    if you make a request A, and I make a request B, if the time-difference between request A and request B is less than 10 seconds,
+    (A Concurrent-User is defined as the users making requests in a 10-second period. For example,
+    if you make a request A, and I make a request B, and if the time-difference between request A and request B is less than 10 seconds,
     request A and request B are concurrent).
 
 **EXAMPLE**\:  If you have 300,000 users in your company, you may need between 30-60 worker nodes (5000 – 10,000 named users for each worker node). You can scale up the memory size for each worker node to reduce
@@ -396,8 +392,8 @@ Our recommendation is to have your own load balancing device if possible.
 However, CentreStack is capable of using worker nodes (for web function only) for load-balancing if you do not have an existing load balancer. You can pick a worker node to be the node exposed for login/contact
 point and pass the actual work to others.
 
-If you have hardware load balancer such as F5, you can skip web nodes, and have F5 directly load balance to a farm of worker nodes.
-You can also use Network Load Balancing feature which is included in Windows 2012/R2/2016 for load balancing.
+If you have a hardware load balancer such as F5, you can skip web nodes, and have F5 directly load balance to a farm of worker nodes.
+You can also use the Network Load Balancing feature which is included in Windows 2012/R2/2016 for load balancing.
 
 
 Active Directory Integration
@@ -409,17 +405,17 @@ CentreStack.
 1. LDAP
 ^^^^^^^^^^^^^^
 
-First way, if the Active Directory is in the same
-Local Area Network (LAN), direct LDAP/LDAPS connection 
+For the first way, if the Active Directory is in the same
+Local Area Network (LAN), then a direct LDAP/LDAPS connection 
 is recommended. 
 
 2. Server Agent Proxy
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Second way, if the Active Directory is in a remote
-office, such as in customer's premise, away from
-CentreStack server, a client agent software "File Server Agent"
-can be installed on the remote file server and help
+For the Second way, if the Active Directory is in a remote
+office, such as on a customer's premise, away from
+the CentreStack server, then a client agent software called, "File Server Agent"
+can be installed on the remote file server to help
 import Active Directory users over to CentreStack.
 
 CentreStack allows you to connect to multiple active directory services.
@@ -428,21 +424,21 @@ CentreStack allows you to connect to multiple active directory services.
   
   **"Proxied AD User"**
   
-  It is also possible to use Active Directory from remote location where the server agent (included client software) is used. In this case "Proxied AD User" will be referred to users 
+  It is also possible to use the Active Directory from a remote location where the server agent (included client software) is used. In this case "Proxied AD User" will be referred to users 
   imported from server agent's side of the Active Directory.
   
   **"AD User"** 
   
-  "AD user" is reserved 
+  The "AD user" is reserved 
   to refer to users from local LDAP Active Directory.
   
 .. note::
 
-    When to use LDAP and when to use "Server Agent" for AD integration?
+    When should you use LDAP, and when should you use "Server Agent" for AD integration?
     
-    If AD is local to the CentreStack server, LDAP is recommended.
+    If AD is local to the CentreStack server, then LDAP is recommended.
     
-    If AD is remote, Server Agent is recommended.
+    If AD is remote, then Server Agent is recommended.
   
 
 Storage Considerations
@@ -527,8 +523,8 @@ typically it turned into the "Private On-premise" deployment.
 
 If on the other hand,
 the file servers are away from the data center, this gets turned into 
-"Business Continuity" use case, where server agent can be installed on the local file server
-and connect the local file servers to remote CentreStack server in the data center.
+"Business Continuity" use case, where the server agent can be installed on the local file server
+and connects the local file servers to the remote CentreStack server in the data center.
 
 Virtual Private Cloud
 ^^^^^^^^^^^^^^^^^^^^^^^
