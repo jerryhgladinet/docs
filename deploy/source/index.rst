@@ -542,7 +542,7 @@ Please reference multi-site deployment.
 Security Consideration
 --------------------------
 
-Access Clients and CENTRESTACK
+Access Clients and CentreStack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The access client agents will be configured with an access end point in the form of https://cloud.acme.com,
