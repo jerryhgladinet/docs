@@ -5,13 +5,13 @@
 Introduction
 --------------
 
-If you are a managed service provider that manages hundreds or thousands of end points across multiple
+If you are a managed service provider who manages hundreds or thousands of end points across multiple
 clients, it is a good option that you setup CentreStack server in a data center. 
 
-There are a couple advantages of setting the CentreStack server up in a data center.
+There are a couple advantages of setting the CentreStack server up in a data center:
 
-    1. The data center is closer to Internet backbone than a business office is, thus it has faster Internet speed.
-    2. Setting it up in a central location and in a multi-tenant fashion, it is easier to manage as compared to one-centrestack-instance-per-client setup.
+    1. The data center is closer to the Internet backbone than a business office is, thus it has faster Internet speed.
+    2. Setting it up in a central location and in a multi-tenant fashion is easier to manage as compared to a one-centrestack-instance-per-client setup.
 
 .. image:: _static/SelfHostedCentreStackRemoteShare.svg
 
@@ -19,9 +19,9 @@ There are a couple advantages of setting the CentreStack server up in a data cen
 Preparation
 ---------------------
 
-The preparation step is very similar to the On-Premise Self-Hosted.
+The preparation step is very similar to the On-Premise Self-Hosted version of CentreStack.
 
-When it comes to data center, you have several choices
+When it comes to choosing a data center, you have several options:
 
     1. a local data center you already use for hosting
     2. Amazon EC2 data center
@@ -29,10 +29,10 @@ When it comes to data center, you have several choices
     4. Any other data center that provides Windows Server
     
 
-CentreStack server is a web server, passing file and folder access between 
-remote client agents to backend file servers. Here is a list of items to prepare ahead of time.
+The CentreStack server is a web server, passing file and folder access between 
+remote client agents to backend file servers. Here are a list of items to prepare ahead of time:
 
-    1. a dedicated Windows Server machine. 
+    1. a dedicated Windows Server machine: 
         - Operating System (2016 / 2012 R2 / 2012 / 2008 R2)
         - 4G - 8G memory
         - Dual core or more cores (vCPU or CPU)
@@ -51,7 +51,7 @@ Since you can turn a test (POC) environment directly into a production environme
 Download & Install
 -------------------------
 
-After you decide and acquired the Windows Server (Usually a 
+After you decide and have acquired the Windows Server (Usually a 
 virtual machine in a data center) to install the 
 CentreStack software, you can go to the partner portal and download
 the software. 
