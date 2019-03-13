@@ -61,7 +61,7 @@ The Installer will install everything from begin to end.
 .. image:: _static/image006.png
 
 
-Please reference the following two guides for more information
+Please reference the following two guides for more information:
 
     1. `Deployment Guide <http://www.centrestack.com/Library/DeploymentGuide/index.html>`_
     2. `Installation Guide <http://www.centrestack.com/Library/InstallGuide/index.html>`_
