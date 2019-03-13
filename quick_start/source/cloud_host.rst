@@ -33,7 +33,7 @@ You can create tenants directly from the Hosted-CentreStack.
 .. image:: _static/image007.png
 
 
-Please reference Server Agent User Guide for File Server Migration.
+Please reference Server Agent User Guide for File Server Migration:
 
 `Server Agent User Guide <http://www.centrestack.com/Library/ServerAgentGuide/index.html>`_
 
