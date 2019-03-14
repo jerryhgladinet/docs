@@ -15,15 +15,15 @@ You can manage objects at different levels from one single management portal.
 3.2 Partner Portal
 ********************
 
-The Partner Portal is used primarily for managing licenses and licenses distribution among all your Servers. 
+The Partner Portal is used primarily for managing licenses and licenses distribution amongst all of your Servers. 
 
-The partner portal is located at http://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well manage the licensing of your Servers.
+The partner portal is located at http://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
 
 .. tip::
 
     Typically you will download the |prodname| software, set it up and leverage the built-in 30 day trial time to finish the setup. Towards
     the end of the trial, you assign licenses from the partner portal to your
-    Server and activate it into production.
+    Server and activate it into a production environment.
 
 Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can be managed via the Partner Portal.
 
