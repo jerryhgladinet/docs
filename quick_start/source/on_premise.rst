@@ -5,7 +5,7 @@
 Introduction
 --------------
 
-To deploye an on-premise self-hosted centrestack, the CentreStack server is directly installed in the company network. 
+To deploy an on-premise self-hosted centrestack, the CentreStack server is directly installed in the company network. 
 On one-hand, it is facing the Internet with port 443 (HTTPS) like any web server does; and on
 the other-hand, it is connecting to company internal network and IT infrastructures such as File Servers
 and Active Directory. The CentreStack server normally sits in the DMZ or behind a firewall to protect
