@@ -2,8 +2,8 @@
 Initial Configuration
 ==============================
 
-After reboot, login to the machine’s Windows Console using same admin user which was
-used to install CentreStack software. A web browser page will be displayed automatically prompting you to create
+After you reboot, login to the machine’s Windows Console using the same admin user which was
+used to install the CentreStack software. A web browser page will be displayed automatically prompting you to create
 the default admin account.
 
 .. note::
@@ -25,16 +25,16 @@ quickly.
 
 For the default admin account, we recommend using an email address not used in the Active Directory.
 It can be a real email address or a non-real one (such as admin@local). If it is a non-real email address,
-the ‘forgot password’ feature will not work if the master admin forgot password.
+the ‘forgot password’ feature will not work if the master admin forgets their password.
 
 .. note::
 
-    Why we don't recommend using Active Directory email as the default cluster admin login? 
+    Why don't we recommend using Active Directory email as the default cluster admin login? 
     
     Because
-    the active directory configuration is done by the cluster admin itself. So the cluster
+    the active directory configuration is done by the cluster admin themselves. So the cluster
     administrator needs to login to fix Active Directory issues later if there are issues in the 
-    future, such as password changed, or Active Directory server DNS name changed and etc.
+    future, such as a password changed, or Active Directory server DNS name change, etc.
     
 
-This is the only post-installation configuration screen. After that, the solution shall be fully functional .
+This is the only post-installation configuration screen. After that, the solution shall be fully functional.
