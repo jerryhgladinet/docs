@@ -21,7 +21,7 @@ You can add a tenant by clicking the 'Add Tenant' Button in the Tenant Manager
 .. image:: _static/image059.png
 
 
-Tenant Administrator will see the files and folders view by default upon initial login.
+The Tenant Administrator will see the files and folders view by default upon initial login.
 
 
 .. image:: _static/image060.png
