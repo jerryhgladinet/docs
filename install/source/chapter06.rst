@@ -4,9 +4,8 @@
 
 .. note::
 
-    Assuming you have already setup DNS to point a DNS name 
-    to the CentreStack server and you also have an SSL certificate already
-    for the DNS name. 
+    Assuming that you have already setup your DNS to point to a DNS name connected to the CentreStack server and SSL certificate already
+   purchased for the DNS name. 
     If not, you can acquire a
     SSL certificate from your SSL vendor.
     
