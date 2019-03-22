@@ -3,7 +3,7 @@ Initial Configuration
 ==============================
 
 After you reboot, login to the machine’s Windows Console using the same admin user which was
-used to install the CentreStack software. A web browser page will be displayed automatically prompting you to create
+used to install the CentreStack software. A web browser page will be displayed, automatically prompting you to create
 the default admin account.
 
 .. note::
@@ -33,8 +33,8 @@ the ‘forgot password’ feature will not work if the master admin forgets thei
     
     Because
     the active directory configuration is done by the cluster admin themselves. So the cluster
-    administrator needs to login to fix Active Directory issues later if there are issues in the 
-    future, such as a password changed, or Active Directory server DNS name change, etc.
+    administrator needs to login to fix Active Directory issues later on if there are issues in the 
+    future, such as a password change, Active Directory server DNS name change, etc.
     
 
 This is the only post-installation configuration screen. After that, the solution shall be fully functional.
