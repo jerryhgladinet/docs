@@ -32,4 +32,4 @@ The house icon **(6)** takes you to your dashboard. The **"?"** icon **(7)** is 
     
     SETTINGS AND ICONS
 
-If the small trashcan with magnifying glass icon **(9)** is visible, you can click it to access deleted files. The trashcan with the **"X" (10)** allows you to purge deleted files. The larger magnifying glass icon **(11)** lets you perform searches. The house icon **(9)** takes you to your dashboard and the  
+If the small trashcan with the magnifying glass icon **(9)** is visible, you can click it to access deleted files. The trashcan with the **"X" (10)** allows you to purge deleted files. The larger magnifying glass icon **(11)** lets you perform searches. The house icon **(9)** takes you to your dashboard.
