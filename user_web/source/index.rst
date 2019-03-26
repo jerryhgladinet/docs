@@ -9,7 +9,7 @@ Welcome to the |prodname| Web Portal User Guide. This guide describes
 web portal functionality for users in |prodname|.
 
 |prodname| is a managed file sync and share solution. It differentiates from
-other file sync and share solution (EFSS) by focusing on the security, control, 
+other file sync and share solutions (EFSS) by focusing on the security, control, 
 file server and team collaboration. |prodname| does really well in the following areas:
 
     1. Maintains NTFS security and permissions of files and folders.
@@ -21,7 +21,7 @@ file server and team collaboration. |prodname| does really well in the following
 and front end client applications for Microsoft Windows, Mac OS X, and mobile clients for the 
 Android and Apple iOS operating systems.
 
-Web portal is an important part of the solution for the following reasons. 
+The Web portal is an important part of the solution for the following reasons: 
 
     - most of the management work is done on the web portal. 
     - downloading other native client agent softwares starts from the web portal.
