@@ -44,7 +44,6 @@ Cluster Server Farm -> Cluster Worker Nodes and make sure the External URL match
 
 You can also lock it down to HTTPS/SSL only for client agents.
 
-
 .. image:: _static/image039.png
 
 At the External URL textbox, enter the public DNS name for the node.
@@ -56,15 +55,15 @@ At the External URL textbox, enter the public DNS name for the node.
     * You can bind the SSL certificate to the Default Web Site so the Default Web Site will have HTTPS binding.
 
     * Do not turn on “SSL Only” nor “Require Client Certificate”, because the web service depends on
-      localhost:80 for inter-process communications over localhost:80
+      localhost:80 for inter-process communications over localhost:80.
 
-    * If you need “SSL Only” feature, we recommend you un-bind port 80 from the external IP Address on
+    * If you need the “SSL Only” feature, we recommend you un-bind port 80 from the external IP Address on
       the “Default Web Site”. You can leave localhost: 80 binding intact.
       
       
 .. warning::
 
     CentreStack server leverage http://localhost:80 for internal inter-process communication. From outside 
-    of the firewall, they can use HTTPS to communication to the CentreStack server. From the inside of 
+    of the firewall, they can use HTTPS for communication to the CentreStack server. From the inside of 
     the CentreStack server, the port 80 HTTP protocol and the localhost will still need to be 
     available for the "Default Web Site" for internal processes to communicate to each other.
