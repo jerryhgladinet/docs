@@ -50,4 +50,4 @@ from the cluster manager web portal under hosted or self-hosted.
 
 The "Buy Now" link will take you to your CentreStack
 partner portal account and from there, you can 
-acquire licenses and give it out to your clusters.
+acquire licenses and give them out to your clusters.
