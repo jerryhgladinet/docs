@@ -6,7 +6,7 @@
 4.1 The Basics
 ******************************
 
-To access Cluster Administration features, log in to the Web Portal at the server. **The descriptions in this guide presume you are signed in as the Master Administrator** (aka., Cluster Administrator, Server Administrator). Some of the options listed may not be available if you are logged in with different permissions (e.g. Delegated Administrator). In this document the |prodname| will also be referred to as simply, Cluster Server. 
+To access your Cluster Administration features, log in to the Web Portal at the server. **The descriptions in this guide presumes that you are signed in as the Master Administrator** (aka., Cluster Administrator, Server Administrator). Some of the options listed may not be available if you are logged in with different permissions (e.g. Delegated Administrator). In this document the |prodname| will also be referred to as simply, Cluster Server. 
 
 .. tip::
 
@@ -40,7 +40,7 @@ If you need to know the version and cluster ID information for your Cluster Mana
     
     CLUSTER INFO
 
-In the center of the Dashboard screen, you can access your Tenants (Companies, Clients) and Imported Network File Shares (5).
+In the center of the Dashboard screen, you can access your Tenants (Companies, Clients) and imported Network File Shares (5).
 
 .. note::
 
