@@ -25,7 +25,7 @@ You will see download page.
 Apple AppStore
 -----------------
 
-You can use the White-Label "**Cloud Client**" from Apple AppStore.
+You can use the White-Label "**Cloud Client**" from the Apple AppStore.
 
 
 .. image:: _static/image066.png
@@ -34,7 +34,7 @@ Google Play Store
 ----------------------
 
 You can use the White-Label "**Cloud Android Client**" 
-from Google Play Store.
+from the Google Play Store.
 
 .. image:: _static/image067.png
 
@@ -43,8 +43,8 @@ License CentreStack
 ==============================
 
 When you are ready to license CentreStack, 
-the easiest way to do is to use the "Buy Now" link 
-from the cluster manager web portal.
+the easiest way to do this is to use the "buy now" link 
+from the cluster manager web portal under hosted or self-hosted.
 
 .. image:: _static/image068.png
 
