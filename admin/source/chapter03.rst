@@ -6,11 +6,11 @@
 **4.1 The Basics**
 ******************************
 
-To access your Cluster Administration features, log in to the Web Portal at the server. **The descriptions in this guide presumes that you are signed in as the Master Administrator** (aka., Cluster Administrator, Server Administrator). Some of the options listed may not be available if you are logged in with different permissions (e.g. Delegated Administrator). In this document the |prodname| will also be referred to as simply, Cluster Server. 
+To access your Cluster Administration features, log in to the Web Portal on the server. **The description in this guide presumes that you are signed in as the Master Administrator** (aka., Cluster Administrator, Server Administrator). Some of the options listed may not be available if you are logged in with different permissions (e.g. Delegated Administrator). In this document the |prodname| will also be referred to as simply, Cluster Server. 
 
 .. tip::
 
-    The Web Portal URL is the server’s DNS name, or the IP Address or localhost if you are on the server console. 
+    The Web Portal URL is the server’s DNS name, the IP Address or local host if you are on the server console. 
 
 .. figure:: _static/image_s4_1_0.png
     :align: center
@@ -19,7 +19,7 @@ To access your Cluster Administration features, log in to the Web Portal at the 
 
 .. note::
 
-    On the login screen, at the bottom there is version information, which will be useful to see which version you have installed. 
+On the bottom of the Login screen, there is version information, which will be useful to see which version you have installed. 
 
     
 The following graphic describes the various icons and components of the Administrator Dashboard and its sub sections. Please refer to it as you read this guide to determine how to access various features.
@@ -50,7 +50,7 @@ In the center of the Dashboard screen, you can access your Tenants (Companies, C
 **4.2 Importing File Shares**
 **************************
 
-To give your Tenants access to files in your local area network or from remote locations, click the Import Network Share icon **(6)**. This will take you the Import File Share screen. 
+To give your Tenants access to files in your local area network or from remote locations, click the Import Network Share icon **(6)**. This will take you to the Import File Share screen. 
 
 .. figure:: _static/image_s4_2_4.png
     :align: center
@@ -104,8 +104,8 @@ To configure this setting, you must have a DNS name and SSL certificate setup; t
 
 **Related tasks**
      
-    *  Configure the DNS registration to point a DNS name to the public static IP address of the Cluster Server
-    *  Configure the IIS “Default Web Site” to bind to an SSL certificate
+    *  Configure the DNS registration to point a DNS name to the public static IP address of the Cluster Server.
+    *  Configure the IIS “Default Web Site” to bind to an SSL certificate.
 
 
 ******************
@@ -120,7 +120,7 @@ To configure this setting, you must have a DNS name and SSL certificate setup; t
 
     A tenant is usually mapped to a client of yours, a company or a division of a company.
 
-The Cluster Server is multi-tenant capable, but can also be used for a single Tenant. To add or manage your tenants choose Tenant Manager **(1)** in your Dashboard. 
+The Cluster Server is multi-tenant capable, but can also be used for a single Tenant. To add or manage your tenants, choose Tenant Manager **(1)** in your Dashboard. 
 
 .. figure:: _static/image_s4_3_12.png
     :align: center
@@ -147,13 +147,13 @@ When changing a storage location for a Tenant; you typically manually copy the f
     
 .. warning:: 
     
-If you want to change tenant's default storage location, make sure you copy tenant's file AS-IS from the source folder to destination folder before you change the storage location here.
+If you want to change the tenant's default storage location, make sure you copy tenant's file AS-IS from the source folder to its destination folder before you change the storage location here.
 
 **Delete Tenant** 
     
 Deletes the tenant.
 
-By clicking the “Manage Tenant” **(2)** option (see above image), the Cluster Admin sees the Tenant Dashboard as well as additional options to configure Tenant settings.
+By clicking the “Manage Tenant” **(2)** option (see above image), the Cluster Admin sees the Tenant Dashboard as well as additional options to configure the Tenant settings.
 
 
 4.3.1 Tenant Management within Cluster Administration
@@ -162,7 +162,7 @@ By clicking the “Manage Tenant” **(2)** option (see above image), the Cluste
 .. 
 ::
 
-     At a high level the Cluster Administrator and Tenant Manager have almost identical controls for the Tenants within their scope; however, the Tenant Manager settings will always take precedence and override Cluster Administrator settings. Tenant Managers can give permission for Cluster Administrator to manage their tenants by enabling this option in the ``Group Policy`` > ``Common Settings`` > ``Security``.
+     At a high level, the Cluster Administrator and Tenant Manager have almost identical controls for the Tenants within their scope; however, the Tenant Manager settings will always take precedence and override Cluster Administrator settings. Tenant Managers can give permission for Cluster Administrator to manage their tenants by enabling this option in ``Group Policy`` > ``Common Settings`` > ``Security``.
      
      .. figure:: _static/image_s4_3_15.png
         :align: center
@@ -211,7 +211,7 @@ The Active Directory section can manage LDAP connections to Active Directory.
 
 .. note::
 
-    If the client/customer’s Active Directory is in a remote location, you can use “Server Agent” to connect the Active Directory (and replicate remote File Server Network Share too) to the Cluster Server. You don’t need to configure LDAP in the remote Active Directory case.
+    If the client/customer’s Active Directory is in a remote location, you can use “Server Agent” to connect the Active Directory (and replicate remote File Server Network Share to the Cluster Server. You don’t need to configure LDAP in the remote Active Directory case.
 
 
 **Backend Storage**
@@ -223,9 +223,9 @@ space can be allocated from the default backend storage.
 
 .. tip::
 
-    You can think of the Tenant Backend Storage as a "Black Box" managed by Cluster Server and you shall always use the Cluster Server interface to interact with the content inside the storage. If you can't take this "Black Box" approach for the tenant's root backend storage, you can use the following other methods, such as import file server network share.
+    You can think of the Tenant Backend Storage as a "Black Box" managed by the Cluster Server and you shall always use the Cluster Server interface to interact with the content inside the storage. If you can't take this "Black Box" approach for the tenant's root backend storage, you can use the following other methods, such as import file server network share.
 
-However, if you already have a file server that will provide the storage, it is recommend using "Import Network File Shares" to mount the file server network share to the tenant's storage space. In this case,you can leave the "Default Storage" as is, or point it to a empty location and treat it as a black box storage managed at the Cluster Server level.
+However, if you already have a file server that will provide the storage, it is recommended to use "Import Network File Shares" to mount the file server network share to the tenant's storage space. In this case,you can leave the "Default Storage" as is, or point it to an empty location and treat it as a black box storage managed at the Cluster Server level.
 
 .. figure:: _static/image_s4_3_17.png
     :align: center
@@ -264,7 +264,7 @@ the bandwidth usage for the tenant.
 
 ``Tenant Manager`` > ``[Tenant]`` > ``Access Control``
 
-In the Admin Access Control, the cluster administrator can decide the division of work between cluster administrators and the specific tenant administrator. A lot of times, the cluster administrator will help setting things up. In this case, the cluster administrator can take away some of the administrative work from the tenant administrator. 
+In the Admin Access Control, the cluster administrator can decide the division of work between cluster administrators and the specific tenant administrator. A lot of times, the cluster administrator will help with setting things up. In this case, the cluster administrator can take away some of the administrative work from the tenant administrator. 
 
 .. note::
 
@@ -281,7 +281,7 @@ In the Admin Access Control, the cluster administrator can decide the division o
 
     If checked, in the tenant administrator's management console, the "Storage Manager" will show and allow tenant administrator to mount (attach) external storage.
     
-    If the cluster administrator is setting it up for the tenant, cluster administrator can take away this privilege. 
+    If the cluster administrator is setting it up for the tenant, the cluster administrator can take away this privilege. 
     
 
 **Disable Active Directory integration**
@@ -298,7 +298,7 @@ In the Admin Access Control, the cluster administrator can decide the division o
 
 **Multi AD Domain Support**
 
-    Support multiple Active Directory in a single tenant (current tenant).
+    Support multiple Active Directories in a single tenant (current tenant).
     
     Multiple Active Directory forests support. This is not a common option because most of the time, the tenant has one forest (which can have multiple sub domains). In the case when the tenant has several Active Directory domains that are not related, multiple LDAP connection can be set up this way.
     
@@ -309,12 +309,12 @@ In the Admin Access Control, the cluster administrator can decide the division o
     
 **View and edit group policy**
 
-    Cluster administrator can decide whether to show the group policy section to this tenant.
+    The Cluster administrator can decide whether to show the group policy section to this tenant.
     
 
 **Edit tenant administrator info**
 
-    Cluster administrator can decide whether to allow tenant administrator to edit its own information, such as change email.
+   The Cluster administrator can decide whether to allow the tenant administrator to edit its own information, such as change email.
     
 
 **Disable file/folder sharing**
@@ -324,7 +324,7 @@ In the Admin Access Control, the cluster administrator can decide the division o
 
 **Allow tenant to edit branding setting**
 
-    Cluster administrator can decide whether to allow tenant administrator to have its own branding.
+   The Cluster administrator can decide whether to allow tenant administrator to have its own branding.
 
 
 **Hide migration option**
@@ -334,14 +334,12 @@ In the Admin Access Control, the cluster administrator can decide the division o
 
 **Allow creation of guest users**
 
-    Cluster administrator can control whether to allow the specific tenant to have guest users.  
+    The Cluster administrator can control whether to allow the specific tenant to have guest users.  
 
 
 **Allow tenant to increase user plan automatically**
 
-    Cluster administrator can decide whether to 
-    allow the tenant to grow user count 
-    automatically. 
+    The Cluster administrator can decide whether to allow the tenant to grow the user count automatically. 
 
 
 **Show Data-At-Rest Encryption (DARE) configuration page (Requires empty storage container)**
@@ -355,9 +353,9 @@ In the Admin Access Control, the cluster administrator can decide the division o
 
 ``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Tenant Administrators``
 
-In the administrator information page, the cluster administrator can help the tenant manager change email and user name if they need to, and also setup delegated administrators.
+In the administrator information page, the cluster administrator can help the tenant manager change their email and user name if they need to, and to also setup delegated administrators.
 
-The delegated administrators that are setup at the cluster level are users who are already in the Cluster Server and will be helping out the management of this specific tenant. Access these settings by clicking "Control Panel" (1) and choosing the "Tenant Administrators" icon. 
+The delegated administrators that are setup at the cluster level are users who are already in the Cluster Server and will be helping out the management of this specific tenant. Access these settings by clicking "Control Panel" (1) and choose the "Tenant Administrators" icon. 
 
 .. figure:: _static/image_s4_3_18.png
     :align: center
@@ -370,7 +368,7 @@ The delegated administrators that are setup at the cluster level are users who a
     default administrator in the tenant so normally they are just normal team users
     in the tenant.
     
-    However, they can elevate themselves into admin role by clicking the elevation icon that
+    However, they can elevate themselves into the admin role by clicking the elevation icon that
     is available to delegated administrators.
     
     .. figure:: _static/image_s4_3_18b.png
@@ -385,7 +383,7 @@ The delegated administrators that are setup at the cluster level are users who a
 
 If the tenant's infrastructure is in the same local area network as the Cluster Server, the Active Directory can be directly accessed and integrated from the "Local Active Directory" page. The integration is done over LDAP protocol.
 
-However, if the tenant's infrastructure is away from the Cluster Server, it is recommended using "Server Agent" to connect both the tenant's file server and Active Directory to Cluster Server.
+However, if the tenant's infrastructure is away from the Cluster Server, it is recommended using "Server Agent" to connect both the tenant's file server and Active Directory to the Cluster Server.
 
 .. tip::
 
@@ -400,11 +398,11 @@ However, if the tenant's infrastructure is away from the Cluster Server, it is r
 
 .. note::
 
-    Difference between using LDAP to connect Active Directory and using "Server Agent" to connect Active Directory.
+    The difference between using LDAP to connect Active Directory and using "Server Agent" to connect Active Directory:
     
-    Using LDAP to connect Active Directory, the assumption is that the LDAP is local in the local area network so the speed is very fast and also very reliable. So a lot of the calls and queries are directly passing through to Active Directory.
+   By using LDAP to connect Active Directory, the assumption is that the LDAP is local in the local area network so the speed is very fast and also very reliable. So a lot of the calls and queries are directly passing through to Active Directory.
     
-    Using Server Agent to connect Active Directory, the assumption is that the Active Directory is in a remote location and over the Internet so the access speed may not be fast and the Internet may not be 100 percent up and reliable. So the server agent replicates Active Directory related information over to the Cluster Server.
+    By Using Server Agent to connect Active Directory, the assumption is that the Active Directory is in a remote location and over the Internet so the access speed may not be fast and the Internet may not be 100 percent up and reliable. So the server agent replicates Active Directory related information over to the Cluster Server.
 
 
 **User Manager**
@@ -426,7 +424,7 @@ Please reference the   :ref:`Tenant Admin's User Manager section <tenant_admin_u
 
 Please reference the   :ref:`Tenant Admin's Collaboration section <tenant_admin_collaboration>`
 
-In the Team folders page, you can manage team shares, folder permissions and the underlying storage
+In the team folders page, you can manage team shares, folder permissions and the underlying storage
 configuration.
 
 .. figure:: _static/image_s4_3_19.png
@@ -483,7 +481,7 @@ The Reports section has the following sub categories
     - Upload Report
     - Storage Statistics
     - Team Folders
-    - Shared Opjects
+    - Shared Objects
     - Audit Trace
     - File Change Logging
     
@@ -542,7 +540,7 @@ The cluster administrator can use the notification manager to help the tenant se
 
 ``Tenant Manager`` > ``[Tenant]`` > ``Background Tasks``
 
-There are three different kind of background tasks.
+There are three different kind of background tasks:
 
     1. Data Seeding
     2. Storage Scan
@@ -565,11 +563,11 @@ The cluster administrator can help the tenant seed the data. For example take da
     
     DATA SEEDING
 
-Data Seeding is to take a folder from a source location and seed into a team folder. 
+Data Seeding is to take a folder from a source location and seed it into a team folder. 
 
 On the left of the dialog, it is the source folder path information.
 
-On the right side of the dialog, it is the Target team folder information. 
+On the right side of the dialog, it is the target team folder information. 
 
 If you are seeding the data into a brand new team folder, you will first go into the team folder area and create a new team folder with empty content inside, and then come back to data seeding page and select it from the team folder drop down.
 
@@ -594,7 +592,7 @@ few parameters related to who the tenant is.
     
     TENANT MANAGER SETTINGS 1
 
-"Create with Default Settings" will get it done and the tenant will get all the default setting, including the storage location allocation.
+"Create with Default Settings" will get it done and the tenant will be granted all default settings, including the storage location allocation.
 
 "Continue" allows you to customize the settings and storage location.
 
@@ -613,7 +611,7 @@ the root storage for the tenant will be at.
 
 **Automatically assign a sub-folder from cluster default tenant**
 
-When selected, the tenant's default storage will be a sub-folder inside the cluster default tenant's storage folder. It is easier to manage when you don't need per-tenant storage access credentials. This is the easiest option because if every tenant is allocate a sub-folder from the default tenant. The default tenant storage location is a single place to take care of all the storage need.
+When selected, the tenant's default storage will be a sub-folder inside the cluster default tenant's storage folder. It is easier to manage when you don't need per-tenant storage access credentials. This is the easiest option because if every tenant is allocated a sub-folder from the default tenant, then the default tenant storage location is a single place to take care of all of your storage needs.
     
 **Use existing file server or local disk as default storage**
 
@@ -626,7 +624,7 @@ Using this option, you can connect the tenant's root folder to a file server net
 
 **Use Cloud Storage as default storage**
 
-Use this option, you can connect the tenant's root folder to Amazon S3, Windows Azure Blob, OpenStack storage as well as others.
+when using this option, you can connect the tenant's root folder to Amazon S3, Windows Azure Blob, OpenStack storage as well as others.
     
 .. figure:: _static/image_s4_3_26.png
     :align: center
@@ -644,11 +642,10 @@ You can pick Amazon S3 as the target storage for the tenant if you want to.
     
     AMAZON S3
 
-After you pick the Amazon S3, the first screen it will be asking for ``Access Key`` and ``Secret Key``.
+After you pick the Amazon S3, the first screen will be asking for ``Access Key`` and ``Secret Key``.
 
 
-You will need to log into your AWS console to get the access key and secret key. You can use master access key and secret key, by default the master key has default access to all buckets. You can also create an IAM user and use the key from a specific IAM user. However, by default, the IAM user is 
-locked out of access to any bucket until bucket access policy is created and attached to the IAM user.
+You will need to log into your AWS console to get the access key and secret key. You can use master access key and secret key, by default the master key has default access to all buckets. You can also create an IAM user and use the key from a specific IAM user. However, by default, the IAM user is locked out of access to any bucket until bucket access policy is created and attached to the IAM user.
 
 If you use IAM user, here is a sample S3 Bucket access policy to grant an IAM user to a specific bucket. As shown below, the policy gives an IAM user the ability to use bucket "user3onlybucket"
 
@@ -711,7 +708,7 @@ After it is all setup properly, you can use the IAM user's access key id and sec
     
     AMAZON S3 USER'S ACCESS KEY
 
-When the correct access credential is given the next screen is to select a bucket from Amazon S3.
+When the correct access credentials are given, the next screen is to select a bucket from Amazon S3.
 
 .. figure:: _static/image226.png
     :align: center
@@ -739,7 +736,7 @@ Similar to the above Amazon S3 setup process, you can pick "Windows Azure Blob" 
     
     WINDOWS AZURE BLOB SETUP
 
-The next screen it will be asking for ``Blob URL`` and the ``Primary key``. 
+The next screen will be asking for ``Blob URL`` and the ``Primary key``. 
 
 .. figure:: _static/image230.png
     :align: center
@@ -760,7 +757,7 @@ Here is a simple mapping between azure portal and the parameters it ask for.
     
     AZURE BLOB ACCOUNT SETTINGS
 
-After you put in the account information, the next screen is to pick a container to use.
+After you put in the account information, the next screen asks to pick a container to use.
 
 .. figure:: _static/image233.png
     :align: center
@@ -776,7 +773,7 @@ After the container information is all set, the tenant account will be created.
 
 ``Cluster Manager`` > ``Cluster Admin``
 
-Cluster Admin section is to change the properties of the default administrator and also to add additional people to be the cluster administrators. Access the Cluster Admin in the panel on the righ of your Tenant Dashboard or from the Cluster Control Panel view.  
+Cluster Admin section is to change the properties of the default administrator and also to add additional people to be the cluster administrators. Access the Cluster Admin in the panel on the right of your Tenant Dashboard or from the Cluster Control Panel view.  
 
 .. figure:: _static/image_s4_4_00.png
     :align: center
@@ -843,7 +840,7 @@ This is the contents of your ‘Copyright’ statement **(2)**.
 
 .. note::
 
-    In previous builds, the best way to get icons to work is by putting the icon files on the same server and reference the icons via relative link.
+    In previous builds, the best way to get icons to work is by putting the icon files on the same server and reference the icons via a relative link.
 
     For example, you can create a sub folder under the Install Folder of the Cluster Server, such as under root/imagetest folder. The dimensions for all icons for each setting under web portal should match what is displayed for each setting. The branding of the icons and images require the icons and images with the same width/height as specified or same aspect ratio if the resolution is higher.
 
@@ -857,7 +854,7 @@ In later builds, the icons used are what-you-see-is-what-you-get and you can upl
 
 **Application Icon**
 
-From the Web portal **(1)** section of cluster branding, you can change the application icon **(2)**. This is the image that is displayed next to the product name in web portal.
+From the Web portal **(1)** section of cluster branding, you can change the application icon **(2)**. This is the image that is displayed next to the product name in the web portal.
 
 .. figure:: _static/image_s4_5_21.png
     :align: center
@@ -867,7 +864,7 @@ From the Web portal **(1)** section of cluster branding, you can change the appl
 
 **Tenant Logo (3)**
 
-This is the logo represent each tenant.
+This is where the logo that represents each tenant should be uploaded.
 
 
 **Drive Icon (4)**
@@ -932,7 +929,7 @@ Once you clicked the "Edit" button to edit the Windows Client branding informati
 
 **EULA**
 
-   This will be a rtf file format as input.
+   This will be a RTF file format as input.
 
 
 **Code Signing Certificate**
@@ -964,14 +961,14 @@ There is some preparation work required in order to create the MAC client brande
     
     MAC INSTALLATION USING BASH TRANSFORM SCRIPT
 
-The transform of Mac installation package is done by a bash transform script (transform.sh). Prior to the transform, there are some preparation work.
+The transformation of the Mac installation package is done by a bash transform script (transform.sh). Prior to the transform, there are some preparation work.
 
-Step 1 - Acquire Apple Mac Developer Account.
+Step 1 - Acquire Apple Mac Developer Account:
 
 The Mac Installer (PKG) file will need to be signed by the Apple Mac Developer Account. Otherwise the pkg will be blocked by the later Mac OS such as 10.9 or 10.10.
 
 After you acquire the Mac Developer account, you can download the signing certificates, one for signing application files and
-one for signing installer package.
+one for signing the installer packages.
 
 You can find the name of your certificates from the KeyChain Access application.
 
@@ -983,39 +980,39 @@ For example, the signing certificate names may look like these:
 
       “Developer ID Installer: Gladinet, Inc.”
 
-You can modify the transform script will use these certificates.
+You can modify the transform script to use these certificates.
 
-Step 2 - Prepare your branding information.
+Step 2 - Prepare your branding information:
 
-All the branding information such as product name and branding artworks are contained in one single directory. You can use the testbranding folder as an example and replace all the information contained inside to have all the branding information ready.
+All the branding information such as product name and branding artworks are contained in one single directory. You can use the test branding folder as an example and replace all the information contained inside to have all the branding information ready.
 
 The folder will be an input command line parameter to the transform script.
 
-Step 3 - Prepare the PKG files.
+Step 3 - Prepare the PKG files:
 
-In the standard Gladinet Mac binaries, there are a couple DMG file. DMG files are Mac image files. When you mount the DMG files, you will see a PKG file in each of the DMG file. The PKG file will be the input to the transform script.
+In the standard Gladinet Mac binaries, there are a couple DMG files. DMG files are Mac image files. When you mount the DMG files, you will see a PKG file in each of the DMG files. The PKG file will be the input to the transform script.
 
 Once you have the PKG file, the signing certificate and the branding folder, you are ready to do the transformation.
 
-Step 4 - Change the transform script to use your certificate.
+Step 4 - Change the transform script to use your certificate:
 
-Locate the two lines inside the transform script,
+Locate the two lines inside the transform script and replace these two lines to use your own certificates.
 
 .. code-block:: bash
 
     readonly SIGN_APP_STR=”Developer ID Application: Gladinet, Inc. (CX8U2YJ96P)” 
     readonly SIGN_PKG_STR=”Developer ID Installer: Gladinet, Inc.”
 
-and replace these two lines to use your own certificates.
 
-Step 5 - Apply the transform
 
-The syntax for the transform is
+Step 5 - Apply the transform:
+
+The syntax for the transform is  transform.sh branding_dir mac_pkg_file
+
 
 .. code-block:: bash
 
-    transform.sh branding_dir mac_pkg_file
-
+   
 The generated branding installer will be called output.pkg in the same folder
 
 You can read the ``transform.sh`` shell script for more details.
@@ -1026,8 +1023,8 @@ You can read the ``transform.sh`` shell script for more details.
 
 .. note::
 
-    Branding of android client can now be automated from partner portal (http://www.centrestack.com). 
-    The information here in this section is preserved for legacy reference. Please goto http://www.centrestack.com to brand Android client.
+    Branding the android client can now be automated from your partner portal (http://www.centrestack.com). 
+    The information here in this section is preserved for legacy reference. Please goto http://www.centrestack.com to brand the Android client.
 
 The branding of Android client and iOS client is done from www.centrestack.com, instead 
 of from your own  server. 
@@ -1064,12 +1061,12 @@ There are many places in the Cluster Manager that need to contact the users via 
 
 **Welcome Email for New Team User**
 
-    Team user is a regular user in a tenant. This is the email template that is sent to the user when the user account is created.
+    The team user is a regular user in a tenant. This is the email template that is sent to the user when the user account is created.
 
 
 **Welcome Email for New Guest User**
 
-    Guest user is a regular user in a tenant, that doesn't have a home directory associated. So the guest user can only operate within shared files and folders from other regular user. This is the email template that is sent to the guest user when the guest user's account was provisioned.
+    Guest user is a regular user in a tenant that doesn't have a home directory associated. So the guest user can only operate within shared files and folders from other regular users. This is the email template that is sent to the guest user when the guest user's account was provisioned.
 
 
 **Email for File/Folder Share**
@@ -1084,7 +1081,7 @@ There are many places in the Cluster Manager that need to contact the users via 
 
 **Notify external user that shared file changed**
 
-    When shared file/folder changed, this is the email that is sent to the user who receives file/folder shares.
+    When a shared file/folder changed, this is the email that is sent to the user who receives file/folder shares.
 
 
 **Admin Reset User Password Email**
@@ -1094,12 +1091,12 @@ There are many places in the Cluster Manager that need to contact the users via 
 
 **User Reset Password Email**
 
-    This is the email that sent to a user when the user reset password himself/herself.
+    This is the email that sent to a user when the user resets the password for himself/herself.
 
 
 **New Sign-in Action Email**
 
-    This is the email notification sent to the user when the user login from a specific machine.
+    This is the email notification sent to the user when the user logins from a specific machine.
 
 **Settings**
 
@@ -1131,7 +1128,7 @@ There are many places in the Cluster Server solution that the user needs to be c
 
 By default, it works out of box using the default email service with the Cluster Server's customer support email address as the sender.
 
-It is recommended that the SMTP service being setup to use your own SMTP service to send out emails.
+It is recommended that the SMTP service be setup to use your own SMTP service to send out emails.
 
 In the Authenticate User field, if your SMTP service doesn't require authentication, you can put dummy email in the field.
 
@@ -1171,7 +1168,7 @@ Cluster Server Farm has two types of nodes, one is “Worker Node” and the oth
 **Web Node**
 
 .. note::
-    In small deployment, there is no need to have web nodes. You can go straight to worker nodes
+    In a small deployment, there is no need to have web nodes. You can go straight to worker nodes
     since worker nodes by defaults are web nodes too.
 
 The Account Management, Sign-in and Load-balancing services will be installed on this physical machine (or virtual machine). Depending on the load, you may need 1 to N such nodes. Normally, we recommend for every web front node, you can have 10+ worker nodes. When you have small deployments, you can skip web front nodes and combine them into worker nodes. All the installation work is the same. If you do not need web front node, you do not need to assign them in the cluster manager.
@@ -1207,7 +1204,7 @@ Again, additional nodes can be added as the load increases. Because there is cac
 
 **Worker Node Settings**
 
-There are some settings that applies to all worker nodes. After you click on the "Settings" icon. The Advanced Setttings panel will show.
+There are some settings that apply to all worker nodes. After you click on the "Settings" icon, the Advanced Setttings panel will show.
 
 .. figure:: _static/image_s4_7_02.png
     :align: center
@@ -1219,7 +1216,7 @@ There are some settings that applies to all worker nodes. After you click on the
 
     In a production environment, almost 100% of the time you will need to check “Always force SSL on Login”. When this is checked and when the Cluster Server detects that the incoming connection is HTTP, it will do a redirect to HTTPS. If you turn on SSL, you will need to setup SSL certificate first.
 
-    However, if you have SSL-offload, such that SSL is offloaded to a hardware appliance, and after that, the incoming connection is HTTP between the hardware appliance and the Cluster Server. In this SSL-offload case, you will NOT check “Always force SSL on Login” because it will create infinite redirect loop because the incoming connection is always HTTP as far as the Cluster Server is concerned.
+    However, if you have SSL-offload, such that SSL is offloaded to a hardware appliance, and after that, the incoming connection is HTTP between the hardware appliance and the Cluster Server. In this SSL-offload case, you will NOT check “Always force SSL on Login” because it will create an infinite redirect loop because the incoming connection is always HTTP as far as the Cluster Server is concerned.
 
 
 **Always force SSL for Native Clients**
@@ -1239,15 +1236,15 @@ There are some settings that applies to all worker nodes. After you click on the
 
 .. note::
 
-    How to add worker node? 
+    How to add a worker node? 
     
-    You just go ahead to install the Cluster Server, during the installation, point the Cluster Server to the same database. Once the installation of the Cluster Server worker node is completed, reboot. The web portal page will pop up, asking you to add the worker node to the server farm.
+    You just go ahead to install the Cluster Server during the installation and point the Cluster Server to the same database. Once the installation of the Cluster Server worker node is completed, reboot. The web portal page will pop up, asking you to add the worker node to the server farm.
     
 .. warning::
 
     What if you changed the Cluster Server's Host Name?
     
-    For Windows server 2012 and later Server OS, when a server is newly provisioned, it is typically named WIN-ABCDEFG kind of hostname. Sometimes, it is desired to change the name in the Control Panel -> Systems. If the Cluster Server is already installed, changing the name will make the Cluster Server add itself again with the new name. So next time when you visit http://localhost on the Cluster Server after the server has been renamed, you will see the worker node section has both the node with the old name (which no longer exist) and the node with the new name (Which is current and good). In this case, you just need to simply remove the worker node with the old name.
+    For Windows server 2012 and later Server OS, when a server is newly provisioned, it is typically named in hostname format similar (WIN-ABCDEFG). Sometimes, it is desired to change the name in the Control Panel -> Systems. If the Cluster Server is already installed, changing the name will make the Cluster Server add itself again with the new name. So next time when you visit http://localhost on the Cluster Server after the server has been renamed, you will see the worker node section has both the node with the old name (which no longer exists) and the node with the new name (Which is current and good). In this case, you just need to simply remove the worker node with the old name.
     
 
 **Worker Node Properties**
@@ -1257,7 +1254,7 @@ There are some settings that applies to all worker nodes. After you click on the
     
     WORKER NODE PROPERTIES
 
-You may need to modify worker node properties when you setup SSL and the DNS name for the cluster.
+You may need to modify the worker node properties when you setup SSL and the DNS name for the cluster.
 
 
 **Node Name**
@@ -1269,11 +1266,9 @@ You may need to modify worker node properties when you setup SSL and the DNS nam
 
     The **External URL** needs to match the worker node’s external URL. In a production environment, this typically is in an https:// format with the node’s DNS name. 
 
-    External URL is a critical property for Email templates. Once the Cluster Server installation is finished, the dashboard will have a warning message:
+    External URL is a critical property for Email templates. Once the Cluster Server installation is finished, the dashboard will have a warning message, 'External DNS has not been configured for this worker node. Some functionality may not work properly. Config Now'
 
-    External DNS has not been configured for this worker node. Some functionality may not work properly. Config Now
-
-    The moment you finalized on the External DNS name of the Cluster Server, you must come here and configure the ExternalURL property for the Cluster Server.
+    The moment that you have finalized on the External DNS name of the Cluster Server, you must come here and configure the ExternalURL property for the Cluster Server.
 
 
 **Internal URL**
@@ -1320,7 +1315,7 @@ You may need to modify worker node properties when you setup SSL and the DNS nam
 
 **Index External Storage**
 
-    This setting will index storage services added via the "Storage Manager". The index will be written to the files table in database.
+    This setting will index storage services added via the "Storage Manager". The index will be written to the files table in the database.
     
 
 **Enable Storage Purge of Deleted User**
@@ -1335,19 +1330,19 @@ You may need to modify worker node properties when you setup SSL and the DNS nam
 
 **Enable Change Monitor for Home Drive**
 
-    If Active Directory Home Drive integration is on, this will allow the Cluster Server to monitor the changes on the home drive and notify remote client agents that files/folders changed.
+    If Active Directory Home Drive integration is on, this will allow the Cluster Server to monitor the changes on the home drive and notify remote client agents that the files/folders have changed.
 
 
 **Send daily scan email**
 
-    If storage scan is enabled, a daily scan email will be sent to the cluster administrator about the result of the scan.
+    If the storage scan is enabled, a daily scan email will be sent to the cluster administrator about the result of the scan.
 
 
 **Zone**
 
 ``Cluster Manager`` > ``Cluster Server Farm`` > ``Zone``
 
-The concept of zone is to associate worker nodes with the location of the storage. When you think about zones,
+The concept of zone is to associate your worker nodes with the location of the storage. When you think about zones,
 you will think about your storage location first.
 
 For example, I have storage in LA so I have an LA zone. I also have storage in NY so I have a NY Zone.
@@ -1371,7 +1366,7 @@ is coming from LA zone, the user will need to be assigned to LA zone.
 4.8.1 Active Users
 ^^^^^^^^^^^^^^^^^^^^^
 
-Active users reports the activity of users on the web portal. The active users report doesn't include users from windows client or other native clients because those ussers are more persistent (always there). To access this report, in the left-side menu, click ``Reports`` **(1)** then click the drop-down menu **(2)** and choose "Active Users" **(3)** from the menu. 
+Active users reports the activity of users on the web portal. The active users report doesn't include users from windows client or other native clients because those users are more persistent (always there). To access this report, in the left-side menu, click ``Reports`` **(1)** then click the drop-down menu **(2)** and choose "Active Users" **(3)** from the menu. 
 
 
 .. figure:: _static/image_s4_8_10.png
@@ -1421,17 +1416,17 @@ You can use the Node Performance to check out the worker node health and the dat
 
 **Pending Change Notification**
 
-    For the files and folders that are changed, there is change notification written to database. In general, you want to see pending queue as short as possible.
+    For the files and folders that are changed, there is change notification written to the database. In general, you want to see the pending queue as short as possible.
 
 
 **Active Node Request**
 
-    These are the clients out there contacting the server. Usually it is just for the reporting purpose.
+    These are the clients out there contacting the server. Usually it is just for reporting purposes.
 
 
 **Pending Change Polling**
 
-    This is the clients out there polling to see whether there are files and folders that are changed. Usually the smaller the better.
+    These are the clients out there polling to see whether there are files and folders that have been changed. Usually the smaller the better.
 
 
 **Active Clients**
@@ -1458,8 +1453,8 @@ Under reports you can look at the upload graphs and storage statistics.
 4.8.4 Upload Report
 ^^^^^^^^^^^^^^^^^^^^^
 
-Upload report tab shows you graphs for all the uploads that have taken place on the last sixty minutes, 24 hours,
-30 days and the whole week.
+Upload report tab shows you graphs for all the uploads that have taken place in the last sixty minutes, 24 hours,
+30 days and a whole week.
 
 .. figure:: _static/image_s4_8_40.png
     :align: center
@@ -1471,7 +1466,7 @@ Upload report tab shows you graphs for all the uploads that have taken place on 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Under storage statistics, you can see a quick overview of the overall storage statistics, size distribution
-and file type distribution pie charts, and users who have used the most storage so far.
+file type distribution pie charts, and users who have used the most storage so far.
 
 .. figure:: _static/image_s4_8_50.png
     :align: center
@@ -1482,7 +1477,7 @@ and file type distribution pie charts, and users who have used the most storage 
 4.8.6 Bandwidth Usage
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Overall bandwidth usage statistics as well as more granular tenant and user level statistics.
+This shows the overall bandwidth usage statistics as well as more granular tenant and user level statistics.
 
 .. figure:: _static/image_s4_8_60.png
     :align: center
@@ -1527,7 +1522,7 @@ After that, click on the Admin tile and then on to the "Azure AD" section.
     AZURE AD SETTINGS
 
 
-After that go to the Applications section of the company Azure AD web portal
+After that go to the Applications section of the company Azure AD web portal.
 
 .. figure:: _static/image239.png
     :align: center
@@ -1535,7 +1530,7 @@ After that go to the Applications section of the company Azure AD web portal
     AZURE APPLICATIONS SETTINGS
 
 
-Now add a "Web Application"
+Add a "Web Application"
 
 Sign On URL: 
 
@@ -1591,10 +1586,10 @@ Windows Azure Active Directory:
 
 ``Cluster Manager`` > ``Cluster Settings`` > ``Client Version Manager``
 
-For Windows Client, Mac Client and Windows Server Agent, there is auto client update feature. Each upgrade package contains
+For Windows Client, Mac Client and Windows Server Agent, there is an auto client update feature. Each upgrade package contains
 the updated clients. By clicking on the ``Publish`` button [see **(1)** below], the newer package can be published to clients out there.
 
-Every new Cluster Server upgrade contains the newer Windows client, Windows Server Agent and Mac Client. The Cluster users via manual download can get the clients that are included in the Cluster Server. However, for existing users that with previously installed clients, those older clients will not auto upgrade until the later and newer client packages are published.
+Every new Cluster Server upgrade contains the newer Windows client, Windows Server Agent and Mac Client. The Cluster users via manual download can get the clients that are included in the Cluster Server. However, for existing users with previously installed clients, those older clients will not auto upgrade until the newer client packages are published.
 
 
 **(2) Daily Upgrade Limit** 
@@ -1603,12 +1598,12 @@ Every new Cluster Server upgrade contains the newer Windows client, Windows Serv
 
 **(3) Apply to Users** 
 
-    This typically is used for testing prior to push the client out.
+    This typically is used for testing prior to pushing the client out.
 
 
 **(4) Do Not Apply to Users** 
 
-    This typically is used for testing prior to push the client out and to exclude certain users.
+    This typically is used for testing prior to pushing the client out and to exclude certain users.
 
 
 .. figure:: _static/image_s4_8_100.png
@@ -1619,9 +1614,9 @@ Every new Cluster Server upgrade contains the newer Windows client, Windows Serv
 
 .. note::
 
-    The windows client out there has a process running as a background windows service. The service will periodically check for newer upgrade in about 1-2 hours interval. Once a newer client package is published and discovered, the newer package will be downloaded. However, if the client is still actively running, the replacement and upgrade will not happen until the client application is stopped and restarted. This usually happen after Windows logoff or restart.
+    The windows client out there has a process running as a background windows service. The service will periodically check for a newer upgrade in about 1-2 hour intervals. Once a newer client package is published and discovered, the newer package will be downloaded. However, if the client is still actively running, the replacement and upgrade will not happen until the client application is stopped and restarted. This usually happens when the user logs off their Windows or restarts their desktop altogether.
     
-    If the Windows client software is actively running, the user may be seeing a message popup from the system tray area asking user if they want to restart the client software to receive the newer version.
+    If the Windows client software is actively running, the user may be seeing a message popup from the system tray area asking the user if they want to restart the client software and to receive the newer version.
     
 Once a client is published for client auto upgrade, you can use ``Unpublish`` **(5)** to stop the client auto upgrade.
 
@@ -1641,7 +1636,7 @@ Once a client is published for client auto upgrade, you can use ``Unpublish`` **
 
 ``Cluster Manager`` > ``Cluster Settings`` > ``Application Manager``
 
-You can also configure Web Apps under ‘Application Manager’ tab in Cluster Settings. This will enable the users to edit documents using the web apps. The applications here only applies to web portal based editing.
+You can also configure Web Apps under ‘Application Manager’ tab in Cluster Settings. This will enable the users to edit documents using the web apps. The applications here only apply to web portal based editing.
 
 .. figure:: _static/image_s4_8_110.png
     :align: center
@@ -1685,7 +1680,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 **Hide Login Failure Message**
 
-    When checked, the login failed message will be replaced by a very generic “Login Failed” message. When un-checked, it may return more meaningful login error, such as user-not-found, authentication-error and so on. This is a security feature if you don't want to give out too much information for hackers to guess a reason for authentication failure.
+    When checked, the login failed message will be replaced by a very generic “Login Failed” message. When un-checked, it may return a more meaningful login error, such as user-not-found, authentication-error and so on. This is a security feature if you don't want to give out too much information for hackers to guess a reason for authentication failure.
 
 
 **Hide support button**
@@ -1703,24 +1698,24 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 **Hide ‘Forgot your password’ link on login**
 
-    Most often it is used when Active Directory integration is set. The user will need to do forget-and-change password the normal Active Directory way instead of the way CentreStack provides. In this case, it is recommend to hide the "Forgot your password" link.
+    Most often it is used when Active Directory integration is set. The user will need to do a forget-and-change password the normal Active Directory way instead of the way CentreStack provides. In this case, it is recommend to hide the "Forgot your password" link.
 
 
 **Don’t retry when login failed**
 
-    Most often it is used when the Active Directory user has low failed-count on lock-out policy. When the user’s password is wrong, a few retry can lock out the user’s Active Directory account. The retry feature can be used when there is no Active Directory lock out or when the lock out count is high.
+    Most often it is used when the Active Directory user has low failed-count on lock-out policy. When the user’s password is wrong, a few retries can lock out the user’s Active Directory account. The retry feature can be used when there is no Active Directory lock out or when the lock out count is high.
 
 
 **Show ‘purge storage option’ when delete user**
 
-    By default when a user is deleted, the user’s home directory storage content is not touched for later use or review. If it is desired to delete the user’s content when the user is deleted, this can show the purge option.
+    By default, when a user is deleted, the user’s home directory storage content is not touched for later use or review. If it is desired to delete the user’s content when the user is deleted, this can show the purge option.
 
 
 **Enable Multiple AD Domain Support**
 
-    In the multi-tenant environment, you can always link one Active Directory to a tenant. However, in some cases, a single tenant may have multiple un-related Active Directory. In this case, Enable Multiple AD Domain support will be useful. 
+    In the multi-tenant environment, you can always link one Active Directory to a tenant. However, in some cases, a single tenant may have multiple un-related Active Directories. In this case, Enable Multiple AD Domain support will be useful. 
     
-    When you have multiple Active Directory from multiple forests in a specific tenant, you can turn on this option. The Cluster Server software is capable of automatically search for domains in one single forest.
+    When you have multiple Active Directory from multiple forests in a specific tenant, you can turn on this option. The Cluster Server software is capable of automatically searching for domains in one single forest.
 
     However, for multiple forests, the software will allow you to manually enter the root of each domain when this option is enabled.
 
@@ -1744,12 +1739,12 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 **Don’t send email notification to user when purge deleted content**
 
-    When user delete files. They are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification.
+    When the user delete files, they are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification.
 
 
 **Don’t send email notification to admin when purge deleted content**
 
-    When user delete files. They are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification to the administrator.
+    When the user deletes files, They are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification to the administrator.
 
 
 **Use 'Icon View' as default web file browser view**
@@ -1774,7 +1769,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 **Disable Windows Client Auto-Logon**
 
-    This is a security feature. The result is every time the windows client is done running. The next start will not remember the login token and the user will have to re-type the credential to get in.
+    This is a security feature. The result is every time the windows client is done running, the next time the user tries to login, it will not remember the login token and the user will have to re-type the credential to get in.
 
 
 **Web Browser Session Timeout (minutes, 0 - never timeout)**
@@ -1801,7 +1796,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 **Max Device Count(Concurrent Device Count) for Each User (0-Unlimited)** 
 
-    This is the number of concurrent devices connected to Cluster Server for each user. The default is not limited.
+    This is the number of concurrent devices connected to the Cluster Server for each user. The default is not limited.
 
 
 4.9.1 Performance and Throttling
@@ -1818,7 +1813,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 **Don't show file icon preview if file size is larger than(KB, 0-No icon preview)**
 
-    This is used to control iconview thumbnail generation in the web browser files and folders view. The generation of thumbnail takes CPU power from the Cluster Server. For big files, the generation of thumbnail may negatively affect system performance. So it is recommended to cap the feature to certain image size.
+    This is used to control iconview thumbnail generation in the web browser files and folders view. The generation of thumbnail takes CPU power from the Cluster Server. For big files, the generation of thumbnail may negatively affect the system performance. So it is recommended to cap the feature to a certain image size.
 
 
 **Cluster Wide Upload Bandwidth Limit(Per Worker Node, KB/Sec, 0-No Limit)**
@@ -1833,7 +1828,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 **Size limit for folder download (MB, 0-no limit)**
 
-    This is to prevent user downloading a very big folder and use up all the Cluster Server resources.
+    This is to prevent user downloading a very big folder and using up all the Cluster Server resources.
 
 
 4.9.2 Languages
@@ -1847,7 +1842,7 @@ Once an application is enabled, you will be able to see the context menu entry f
     LANGUAGE SETTINGS
 
 
-This section setup the web portal languages and also client application language
+This section sets up the web portal languages and also the client application languages
 for Windows client.
 
 
@@ -1870,19 +1865,19 @@ for Windows client.
 
 **Enable Tenant Branding**
     
-    Allow tenants in the system to have their own co-branding on a tenant-by-tenant basis. The branding can override the default Cluster wide branding when the solution is accessed via a specific URL. Most of the time, a wild card SSL certificate is used so the Cluster Server solution can be bind to different URL with a common suffix.
+    Allow tenants in the system to have their own co-branding on a tenant-by-tenant basis. The branding can override the default Cluster wide branding when the solution is accessed via a specific URL. Most of the time, a wild card SSL certificate is used so the Cluster Server solution can be binded to different URL's within a common suffix.
 
     For example \*.mycompany.com , while tenant1.mycompany.com is for tenant 1's access.
 
 
 **Only allow branded client to access**
 
-    This can lock out the generic client and only allow branded client to connect.
+    This can lock out the generic client and only allow the branded client to connect.
 
 
 **Branding Id**
 
-    This setting only apply to full-branding clients. For the full-branding client, it is possible to lock the full-branding clients to only connect to the branded Cluster Server. When set, it will lock out the white-label clients or other non-branding clients and will not allow them to connect.
+    This setting only applies to full-branding clients. For the full-branding client, it is possible to lock the full-branding clients to only connect to the branded Cluster Server. When set, it will lock out the white-label clients or other non-branding clients and will not allow them to connect.
 
 
 4.9.4 Change Log
@@ -1910,19 +1905,19 @@ for Windows client.
 
 **Email Address to Receive Cloud Monitor Messages**
 
-    From time to time, the cluster monitor service may send email about status, alert and here is the email address to receive the emails.
+    From time to time, the cluster monitor service may send an email about the status and alerts.
 
 
 **Logging DB Connection String**
 
     This is to split the file change log, device table, file index table and audit trace table out of the main database into a secondary database. The secondary database can be a Microsoft SQL Server or a MySQL Community server.
     
-    The Cluster Server database is split into core part and the logging part. The core part can store the DB connection string that connect to the secondary database. This setting used to be in the web.config file.
+    The Cluster Server database is split into the core part and the logging part. The core part can store the DB connection string that connects to the secondary database. This setting used to be in the web.config file.
 
 
 **License String** – Reserved.
 
-    This is for Cluster Servers that are isolated from the Internet and can't be activated online and has to use a license string for offline activation.
+    This is for Cluster Servers that are isolated from the Internet, can't be activated online and has to use a license string for offline activation.
 
 
 4.9.5 Anti Virus
@@ -1930,10 +1925,9 @@ for Windows client.
 
 ``Cluster Manager`` > ``Cluster Settings`` > ``Anti Virus``
 
-You can enable anti-virus protection which will ensure that the files being uploaded via the Cluster Server are scanned by the selected anti-virus
-software.
+You can enable anti-virus protection which will ensure that the files being uploaded via the Cluster Server are scanned by the selected anti-virus software.
 
-You will first need to obtain the anti-virus service that is independent from the Cluster Server, and get it directly from the anti-virus vendor. After that, you can integration the anti-virus service into the Cluster Server.
+You will first need to obtain the anti-virus service that is independent from the Cluster Server, and get it directly from the anti-virus vendor. After that, you can integrate the anti-virus service into the Cluster Server.
 
 .. figure:: _static/image_s4_9_50.png
     :align: center
@@ -1946,7 +1940,7 @@ You will first need to obtain the anti-virus service that is independent from th
 4.10 Default Group Policy
 *************************
 
-Default group policy can be applied to all tenants in the cluster. However, if the tenant also define its own group policy, the tenant policy can over ride cluster wide default group policy.
+Default group policy can be applied to all tenants in the cluster. However, if the tenant also defines its own group policy, the tenant policy can over ride cluster wide default group policy.
 
 Please reference the ``Group Policy`` in the tenant administrator section for full list of policy items.
 
@@ -1958,12 +1952,11 @@ Please reference the ``Group Policy`` in the tenant administrator section for fu
 
 
 **************
-4.11 Languages
+4.11 Language Settings
 **************
 
-We have automated translation and provide the resource files that you can use to localize the web portal and clients in the language  of your choice. If there are strings that not translated yet in the language you want, just go ahead and select the string and put in the translated string in the window for the language selected.
+We have automated translation and provided the resource files that you can use to localize the web portal and clients in the language  of your choice. If there are strings that not translated yet in the language you want, just go ahead and select the string and put in the translated string in the window for the language selected.
 
 .. figure:: _static/image_s4_11_00.png
     :align: center
-    
-    LANGUAGE SETTINGS
+
