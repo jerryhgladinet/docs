@@ -3,7 +3,7 @@
 ########################
 
 ******************************
-4.1 The Basics
+**4.1 The Basics**
 ******************************
 
 To access your Cluster Administration features, log in to the Web Portal at the server. **The descriptions in this guide presumes that you are signed in as the Master Administrator** (aka., Cluster Administrator, Server Administrator). Some of the options listed may not be available if you are logged in with different permissions (e.g. Delegated Administrator). In this document the |prodname| will also be referred to as simply, Cluster Server. 
@@ -15,7 +15,7 @@ To access your Cluster Administration features, log in to the Web Portal at the 
 .. figure:: _static/image_s4_1_0.png
     :align: center
 
-    LOGIN SCREEN
+**LOGIN SCREEN**
 
 .. note::
 
@@ -27,9 +27,9 @@ The following graphic describes the various icons and components of the Administ
 .. figure:: _static/image_s4_2_0.png
     :align: center
     
-    CLUSTER MANAGER DASHBOARD
+**CLUSTER MANAGER DASHBOARD**
 
-After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. Some of the features can be accessed several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side of the Dashboard by clicking the folder icon **(3)** in the top right of the interface you can toggle between the File Browser and Cluster Manager views. 
+After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. Some of the features can be accessed several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side of the Dashboard by clicking the folder icon. **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views. 
 
 The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. 
 The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel and Group Policies. 
@@ -38,7 +38,7 @@ If you need to know the version and cluster ID information for your Cluster Mana
 .. figure:: _static/image_s4_2_1.png
     :align: center
     
-    CLUSTER INFO
+**CLUSTER INFO**
 
 In the center of the Dashboard screen, you can access your Tenants (Companies, Clients) and imported Network File Shares (5).
 
@@ -47,7 +47,7 @@ In the center of the Dashboard screen, you can access your Tenants (Companies, C
     At a high level, the |prodname| web browser management interface allows you to manage clients (Tenants) and the connections to their file servers within a local network or a remote location.
 
 **************************
-4.2 Importing File Shares
+**4.2 Importing File Shares**
 **************************
 
 To give your Tenants access to files in your local area network or from remote locations, click the Import Network Share icon **(6)**. This will take you the Import File Share screen. 
@@ -55,7 +55,7 @@ To give your Tenants access to files in your local area network or from remote l
 .. figure:: _static/image_s4_2_4.png
     :align: center
     
-    IMPORT FILE SHARE
+**IMPORT FILE SHARE**
 
 As shown in the above image, click the dropdown list to designate which Tenant will own the file share you are accessing. This action naturally requires that you have already created at least one Tenant, unless you wish to use the Default Tenant.
 
@@ -96,7 +96,7 @@ Since the steps here are very similar to the Tenant Administration’s Team Fold
     .. figure:: _static/image_s4_3_1.png
         :align: center
         
-        EXTERNAL DNS WARNING
+**EXTERNAL DNS WARNING**
     
 External DNS (External URL) is a very important property. It is used in directing how outside remote clients connect to the Cluster Server. It is also used in various email templates. If this property is not properly configured, the email template may be using IP address or NETBIOS name as the URL link.
     
@@ -114,7 +114,9 @@ To configure this setting, you must have a DNS name and SSL certificate setup; t
 
 ``Cluster Manager`` > ``Tenant Manager``
 
-.. tip::
+
+..
+::
 
     A tenant is usually mapped to a client of yours, a company or a division of a company.
 
@@ -129,27 +131,27 @@ You can also access other important settings from this context menu **(2)**: For
 
 **Force full scan for storage quota usage**
 
-    This will start a full scan of storage usage for the Tenant. As files are uploaded, modified or deleted during daily operation, the Tenant Quota is calculated. To ensure that the quota value shown for the tenant is accurate, it is important that you occasionally force a full scan of the tenant’s quota usage.
+This will start a full scan of storage usage for the Tenant. As files are uploaded, modified or deleted during daily operation, the Tenant Quota is calculated. To ensure that the quota value shown for the tenant is accurate, it is important that you occasionally force a full scan of the tenant’s quota usage.
 
 **Change Tenant Admin Password**
 
-    Provides a method for the Cluster Administrator to assist the Tenant Administrator with resetting passwords.
+Provides a method for the Cluster Administrator to assist the Tenant Administrator with resetting passwords.
 
 **Edit Existing default storage**
 
-    When a Tenant outgrows their allocation of storage space or needs to move to a different storage location, this setting allows the Cluster Administrator to change the storage location.
+When a Tenant outgrows their allocation of storage space or needs to move to a different storage location, this setting allows the Cluster Administrator to change the storage location.
     
 .. tip:: 
     
-    When changing a storage location for a Tenant; you typically manually copy the folder to the new location then re-configure the default storage location.
+When changing a storage location for a Tenant; you typically manually copy the folder to the new location then re-configure the default storage location.
     
 .. warning:: 
     
-    If you want to change tenant's default storage location, make sure you copy tenant's file AS-IS from the source folder to destination folder before you change the storage location here.
+If you want to change tenant's default storage location, make sure you copy tenant's file AS-IS from the source folder to destination folder before you change the storage location here.
 
 **Delete Tenant** 
     
-    Deletes the tenant.
+Deletes the tenant.
 
 By clicking the “Manage Tenant” **(2)** option (see above image), the Cluster Admin sees the Tenant Dashboard as well as additional options to configure Tenant settings.
 
@@ -157,7 +159,8 @@ By clicking the “Manage Tenant” **(2)** option (see above image), the Cluste
 4.3.1 Tenant Management within Cluster Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. tip::
+.. 
+::
 
      At a high level the Cluster Administrator and Tenant Manager have almost identical controls for the Tenants within their scope; however, the Tenant Manager settings will always take precedence and override Cluster Administrator settings. Tenant Managers can give permission for Cluster Administrator to manage their tenants by enabling this option in the ``Group Policy`` > ``Common Settings`` > ``Security``.
      
@@ -299,7 +302,7 @@ In the Admin Access Control, the cluster administrator can decide the division o
     
     Multiple Active Directory forests support. This is not a common option because most of the time, the tenant has one forest (which can have multiple sub domains). In the case when the tenant has several Active Directory domains that are not related, multiple LDAP connection can be set up this way.
     
-    .. tip::
+.. tip::
     
         If you have single AD forest but contains multiple sub-domain AD domain controller, you don't need to turn on Multi-AD support. Instead, you just point the LDAP to the root forest domain controller and the root forest domain controller will find and identify the sub-domains.
 
