@@ -43,8 +43,8 @@ License CentreStack
 ==============================
 
 When you are ready to license CentreStack, 
-the easiest way to do this is to use the "buy now" link 
-from the cluster manager web portal under hosted or self-hosted.
+the easiest way to do this is to use the "purchase now" link 
+from the cluster manager web portal under the self-hosted licenses view.
 
 .. image:: _static/image068.png
 
