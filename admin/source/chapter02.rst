@@ -15,15 +15,15 @@ You can manage objects at different levels from one single management portal.
 3.2 Partner Portal
 ********************
 
-The Partner Portal is used primarily for managing licenses and licenses distribution among all your Servers. 
+The Partner Portal is used primarily for managing licenses and licenses distribution amongst all of your Servers. 
 
-The partner portal is located at http://www.centrestack.com. From the Partner Portal you can download the |prodname| software as well manage the licensing of your Servers.
+The partner portal is located at http://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
 
 .. tip::
 
     Typically you will download the |prodname| software, set it up and leverage the built-in 30 day trial time to finish the setup. Towards
     the end of the trial, you assign licenses from the partner portal to your
-    Server and activate it into production.
+    Server and activate it into a production environment.
 
 Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can be managed via the Partner Portal.
 
@@ -31,18 +31,18 @@ Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can be mana
 3.3 Self-Hosted |prodname|
 *******************************************
 
-In the User Interface, the Self-Hosted |prodname| instance is referred to as a Cluster. A Cluster can be as small as a single Server or scaled out to include multiple Servers in a server farm.
+In the User Interface, the Self-Hosted |prodname| instance is referred to as a Cluster. A Cluster can be as small as a single Server or scaled out to include multiple Servers in a Server farm.
 
 **Hosted CentreStack**
 
 In the Partner Portal, you can also manage tenants which are hosted by CentreStack (sync4share).
 This document doesn't cover Hosted CentreStack. Please refer to the Hosted
-CentreStack Administration Guide for more information on hosted options.
+CentreStack Administration Guide (https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) for more information on hosted options.
 
 **Tenants**
 
 In a |prodname| management interface, most of the time you are managing tenants. 
-It can be a single tenant when deployed for a single company. Or it can be
+It can be a single tenant when deployed for a single company, or it can be
 multiple tenants. A tenant is a management and billing scope that includes a number of users
 and a specific amount of storage. It normally maps to a company or a client of yours.
 
@@ -51,8 +51,8 @@ and a specific amount of storage. It normally maps to a company or a client of y
 In each tenant, the objects you manage include Users and Devices as well as File Server
 Network Shares for Team Folder collaboration (Team Shares).
 
-This document is focused on the management scope for a Self-Hosted |prodname|
-In the server management interface, there are two administration scopes. Cluster Administrator and Tenant Administrator.
+This document is focused on the management scope for a Self-Hosted |prodname|.
+In the server management interface, there are two administration scopes: Cluster Administrator and Tenant Administrator.
 
 ***************************
 3.4 Cluster Administrator

@@ -3,14 +3,14 @@ Web Based Management Console
 ==============================
 
 Please reference the "CentreStack Admin Guide" for more details about tenant administration.
-Here is a few points that are more important during the deployment phase.
+Here are a few points that are more important during the deployment phase.
 
-You can enter the web based management console by selecting ‘Management Console’ under user’s
+You can enter the web based management console by selecting ‘Management Console’ under the user’s
 name in the top right.
 
 .. image:: _static/image044.png
 
-After you click into the "Management Console", you will see tenant level management 
+After you click into the "Management Console", you will see the tenant level management 
 tasks.
 
 .. image:: _static/image044_1.png
@@ -30,13 +30,13 @@ maintain and manage the team folder permissions.
 Storage Manager
 ^^^^^^^^^^^^^^^^^
 
-Tenant admin can update the default (primary) storage configuration information. For example, if the default
+The tenant admin can update the default (primary) storage configuration information. For example, if the default
 storage is using Amazon S3, the tenant admin can update the S3 bucket, access key and secret key. However,
-tenant admin can not switch the default storage into a different storage service. The cluster
+the tenant admin can not switch the default storage into a different storage service. The cluster
 admin can help the tenant admin switch the default storage.
 
 Tenant admin can also add auxiliary storage by using the “Attach Storage”
-options. Default storage is the root folder of the tenant. Attached auxiliary storage is top level folders
+options. The default storage is the root folder of the tenant. Attached auxiliary storage is top level folders
 inside the root folder.
 
 .. image:: _static/image046.png
@@ -44,7 +44,7 @@ inside the root folder.
 User Manager
 ^^^^^^^^^^^^^^^^
 
-In user manager, you can create users, import users from Active Directory over LDAP or import users from
+In the user manager, you can create users, import users from Active Directory over LDAP or import users from
 Active Directory via Server Agent.
 
 .. image:: _static/image047.png
@@ -62,8 +62,8 @@ You can add full delegated admin to the list of “Cloud Administrators”.
 Active Directory Integration (Optional)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-It is optional to setup Active Directory Integration. You can get to the integration page from
-Management Console -> Advanced -> Active Directory Settings. The active directory setting
+It is optional to setup the Active Directory Integration. You can get to the integration page from
+the Management Console -> Advanced -> Active Directory Settings. The active directory setting
 here refers to local Active Directory with LDAP integration. For remote Active Directory, server
 agent can be used to connect remote file server folders and remote Active Directory.
 
@@ -72,7 +72,7 @@ agent can be used to connect remote file server folders and remote Active Direct
 .. note::
 
     If this specific tenant's Active Directory is at a remote location, please
-    use CentreStack Server Agent to connect Active Directory (No need to use
+    use the CentreStack Server Agent to connect the Active Directory (No need to use
     LDAP over Internet WAN connection).
 
 Group Policy

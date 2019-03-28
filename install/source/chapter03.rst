@@ -2,13 +2,13 @@
 3 Initial Configuration
 #########################
 
-After the reboot the Default administration configuration page will be displayed.
+After the machine reboots, the Default administration configuration page will be displayed.
 
 .. image:: _static/image_s3_1_1.png
 
-First, you will setup the cluster administrator account.
+First, setup the cluster administrator account.
 
-After it is set up, you will be in the cluster administrator's dashboard.
+After setting up the cluster administrator account, the cluster administrator's dashboard will appear by default.
 
 .. image:: _static/image_s3_1_2.png
 

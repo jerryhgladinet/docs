@@ -2,7 +2,7 @@
 7 Setup Worker Node for SSL
 #############################
 
-Login to the Web Portal as the master administrator, go to the "Cluster Manager" page. 
+Login to the Web Portal as the master administrator and go to the "Cluster Manager" page. 
 
 .. image:: _static/image_s7_1_1.png
 
@@ -18,7 +18,7 @@ Now, check **"Always force SSL on Login"** and **"Always force SSL for Native Cl
 
 .. warning::
 
-  If you use self-signed SSL certificate, the web portal is the only client that allows you to login after some SSL certificate warning. All other native clients such as Windows, mobile, and Mac clients will reject the connection.
+  If you use the self-signed SSL certificate, the web portal is the only client that allows you to login after some SSL certificate warning. All other native clients such as Windows, mobile, and Mac clients will reject the connection.
 
 .. image:: _static/image_s7_1_4.png
 

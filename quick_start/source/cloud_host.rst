@@ -5,7 +5,7 @@
 Introduction
 --------------
 
-Similar to Data-Center MSP-Hosted, CentreStack has a Cloud version that is readily hosted. 
+Similar to a Data-Center MSP-Hosted environment, CentreStack has a Cloud version that is readily hosted. 
 
 This works well for managed service providers who have smaller clients here and there. Because
 of the smaller number of total clients, the Data-Center MSP-Hosted overhead is relatively high. MSPs can 
@@ -28,12 +28,12 @@ all that you need to do is create hosted tenants. A tenant, based on business re
 Create Tenant
 --------------------------
 
-You can create tenants directly from Hosted-CentreStack.
+You can create tenants directly from the Hosted-CentreStack.
 
 .. image:: _static/image007.png
 
 
-Please reference Server Agent User Guide for File Server Migration.
+Please reference Server Agent User Guide for File Server Migration:
 
 `Server Agent User Guide <http://www.centrestack.com/Library/ServerAgentGuide/index.html>`_
 

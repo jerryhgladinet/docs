@@ -60,7 +60,7 @@ You can add users from within the User Manager or simply click the Add New User 
     
 **Server-Agent-Name**
 
-    If you already have "Server Agent" installed and the 
+    If you already have the "Server Agent" installed and the 
     server agent is actively connected to |prodname|, you will
     also see the server agents listed by name in the Add User page.
 
@@ -68,7 +68,7 @@ You can add users from within the User Manager or simply click the Add New User 
 Add Native User
 --------------------
 
-When a new user is created, the administrator will specify the amount of cloud storage the new user  is allowed to use. The email address will be to send a welcome email to the new user and will serve as his/her username.
+When a new user is created, the administrator will specify the amount of cloud storage that the new user is allowed to use. The email address will send a welcome email to the new user and will serve as his/her username.
 
 .. figure:: _static/image_s8_2_4.png
     :align: center
@@ -111,7 +111,7 @@ wizard to import Active Directory users into |prodname|.
 Add Active Directory Users from Server Agent
 ----------------------------------------------
 
-When the Server Agent is available and connect to the specific
+When the Server Agent is available and connects to the specific
 tenant in the |prodname|, the Server Agent will show up
 with the server's name at the bottom of the icon.
 
@@ -119,5 +119,5 @@ Click through the Server Agent icon, you will see the "Add User" wizard and comp
 
 .. note::
 
-     When the Active Directory is at a remote location, not directly connected to |prodname| server, Server Agent can be used to facilitate the communication. Server Agent doesn't need to be installed directly on a remote Active Directory server, the Server Agent need to be installed on a remote file server that is part of the remote Active Directory domain.
+     When the Active Directory is at a remote location, not directly connected to |prodname| server, Server Agent can be used to facilitate the communication. Server Agent doesn't need to be installed directly on a remote Active Directory server, the Server Agent needs to be installed on a remote file server that is part of the remote Active Directory domain.
 

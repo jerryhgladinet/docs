@@ -2,7 +2,7 @@
 Advanced Topics
 ==============================
 
-These advanced topics require changes to the web.config file which is critical for the smooth operation of the
+These advanced topics require changes to the web.config file which is critical for the smooth operation of
 CentreStack, therefore, it is not recommended that you change the web.config file without first consulting
 Gladinet support.
 
@@ -11,11 +11,10 @@ Split Database
 
 The database contains two types of information.
 
-The first type of information is configuration data that is relatively static. For example, user name, user email, user’s published shared
-files and folder etc. This type of information is relatively small. It can be estimated at 5000 bytes per user.
+The first type of information is the configuration data that is relatively static. For example, user name, user email, user’s published shared files and folder etc. This type of information is relatively small. It can be estimated at 5000 bytes per user.
 So if you have 2000 users, it can be estimated at 10 MB.
 
-The second type of the information is relatively more volatile. For example, the file change log, the audit trace
+The second type of information is relatively more volatile. For example, the file change log, the audit trace
 and the file list for index. It can be estimated at 100 file changes per user per day and each file change can be estimated
 at 1000 bytes for database storage. So for a 15 day (Default change log history), it can be estimated at
 100*1000*15 = 1.5MB per user for 15 day period. If you need HIPPA compliance, the default change log history can
@@ -87,7 +86,7 @@ Zone Support
 
 If you have two independent CentreStack clusters, for example, one cluster in US and one cluster in UK, you can
 use the zone support to connect the two clusters together. The advantage of using zones is the end user login
-request will be automatically be redirected to the zone the user belongs to.
+request will automatically be redirected to the zone the user belongs to.
 
 Scalability Tuning
 ----------------------
@@ -119,7 +118,7 @@ There are three parameters about max concurrent calls, concurrent sessions and c
 
 This is set in the <CENTRESTACKInstallDir>\\namespace\\web.config file
 
-There may be existing block of serviceBehaviors and behavior block there. You can simply add the serviceThrottling block. 
+There may be existing blocks of serviceBehaviors and behavior blocks there. You can simply add the serviceThrottling block. 
 
 .. code-block:: xml
 

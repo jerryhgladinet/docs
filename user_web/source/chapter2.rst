@@ -58,7 +58,7 @@ Data Storage
         - Google Cloud Storage
         - Rackspace CloudFiles
 
-When a new |prodname| account (Tenant Account) is created, any of these services can be selected to power the tenant's root storage folder. And regardless of which provider you select here, additional services can be mounted below the root of the tenants' storage tree where they will appear as a sub-folder in the root folder.
+When a new |prodname| account (Tenant Account) is created, any of these services can be selected to power the tenant's root storage folder. And, regardless of which provider you select here, additional services can be mounted below the root of the tenants' storage tree where they will appear as a sub-folder in the root folder.
 
 
 |prodname| Server Farm (Cluster)

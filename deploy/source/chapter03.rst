@@ -5,8 +5,8 @@ Installation
 Preparation
 -------------
 
-CentreStack Server software should be installed on a clean physical or virtual machine with just the base operating system.
-Our recommendation is to use Windows Server 2012/R2/2016 as the base OS with English locale.
+The CentreStack Server software should be installed on a clean physical or virtual machine with just the base operating system.
+Our recommendation is to use Windows Server 2019/2012/R2/2016 as the base OS with English locale.
 (The server side English Locale will not affect the client side of the locale choice.)
 
 If you are using Windows Server 2012 or Windows Server 2012 R2, Windows 2016 or Windows 2019,  you will get .NET Framework 4.5 and ASP.NET 4.5 (or above)
@@ -15,12 +15,12 @@ instead of .NET Framework 4 and ASP.NET 4 on Windows 2008 SP2/R2). We recommend 
 
 .. note::
 
-     .NET 4.7.2 is the latest version as of this writting
+     .NET 4.7.2 is the latest version as of this writing
 
-When you are using the latest all-in-one installer, the installer will pull in necessary components
+When you are using the latest all-in-one installer, the installer will pull in the necessary components
 and install them one-by-one automatically. On Windows 2012/R2 and later OS, many 
 system components already exist on the system waiting to be turned on by a switch, 
-so it is easier and faster to install. Typical installation time is 15-45 minutes. The installation 
+so that it is easier and faster to install. Typical installation time is 15-45 minutes. The installation 
 time varies mostly on how fast the machine can download and unzip the installer package.
 
 On Windows 2008 R2, the installer will install .NET 4.5 so the installation time on Windows 2008 R2 servers
@@ -42,11 +42,11 @@ will be a little bit longer than the one on Windows 2012 R2 server and later Win
 Start Installation
 --------------------------
 
-CentreStack Server installer is a standard Microsoft Windows Executable.
-By default it is using a GUI installer. However, command line installer is also 
+The CentreStack Server installer is a standard Microsoft Windows Executable.
+By default, it is using a GUI installer. However, the command line installer is also 
 available upon request.
-To start, you will need to obtain the installer package from http://www.centrestack.com and start the installation. You can login to the centrestack.com partner portal and go to the 
-private CentreStack section for download.
+To start, you will need to obtain the installer package from http://www.centrestack.com to start the installation. You can login to the centrestack.com partner portal and go to the 
+self-hosted CentreStack section for download.
 
 .. image:: _static/image065.png
 

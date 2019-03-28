@@ -67,7 +67,7 @@ In the Web Portal you can also just add Native |prodname| Users by clicking the 
 Files
 ======
 
-Adding files and folders can be accomplished by clicking **"Create Team Folder"**. Once the **"Team Folder Storage Locations"** view opens you can choose from many options; Existing Tenant Storage, File Servers in Local Area Network, Remote File Servers or Cloud Storage. 
+Adding files and folders can be accomplished by clicking **"Create Team Folder"**. Once the **"Team Folder Storage Locations"** view opens you can choose from many options: Existing Tenant Storage, File Servers in Local Area Network, Remote File Servers or Cloud Storage. 
 
 .. figure:: _static/image_s7_5_1.png
     :align: center
@@ -78,7 +78,7 @@ Adding files and folders can be accomplished by clicking **"Create Team Folder"*
 File Servers
 -------------
 
-If you have existing file server in the Local Area Network (LAN), you can import the network share directly to |prodname| **(1)**. Under Remote File Servers, you can install the Server Agent client **(2)** and access your file server remotely.
+If you have an existing file server in the Local Area Network (LAN), you can import the network share directly to |prodname| **(1)**. Under Remote File Servers, you can install the Server Agent client **(2)** and access your file server remotely.
 
 .. figure:: _static/image_s7_5_2.png
     :align: center
@@ -87,8 +87,8 @@ If you have existing file server in the Local Area Network (LAN), you can import
     
     .. note::
     
-        Server Agent is only required when the remote file server doesn't have direct LAN (local area network) access
-        to the |prodname|. Server Agent will be used in this case to facilitate communication between
+       The Server Agent is only required when the remote file server doesn't have direct LAN (local area network) access
+        to the |prodname|. The Server Agent will be used in this case to facilitate communication between
         the |prodname| server to the remote file server.
 
 
