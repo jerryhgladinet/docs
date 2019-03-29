@@ -71,11 +71,11 @@ To access the Tenant Storage Manager, click the 3-dot menu on the bottom right o
 
     EDITING HOME STORAGE SETTINGS
 
-Home storage is the most important property in the tenant manager. It is used in many ways, for example the users' home directory can be setup under the home storage (if the user's active directory home directory property is not used). 
+Home storage is the most important property in the tenant manager. It is used in many ways. For example, the users' home directory can be set up under the home storage (if the user's active directory home directory property is not used). 
 
 .. note::
 
-    In the field, one of the common mistake is that a tenant's root network share is mapped directly to home directory of the tenant. The home directory can not be shared from the root, so if your end goal is to turn the network share directly into a team folder, you are better off mapping the home directory to another location, and later attach the network share as a secondary folder and turn that secondary folder into a team folder.
+    In the field, one of the common mistakes is that a tenant's root network share is mapped directly to the home directory of the tenant. The home directory can not be shared from the root, so if your end goal is to turn the network share directly into a team folder, you are better off mapping the home directory to another location, and later attach the network share as a secondary folder and turn that secondary folder into a team folder.
 
 
 5.2.2 Attach Storage
@@ -106,7 +106,7 @@ After clicking the "Attach Storage" button, the Cluster Server will take some ti
 
 In the File Servers in Local Area Network section, the Cluster Server will contact Active Directory or contact network browser in the local area network to try to find file servers in the local area network. Most of the time, if firewalls and network connections are properly configured, the file server can be easily added into the system. 
 
-However, sometimes, there are some situations such as the DNS system or the NETBIOS system are not ready, in that case, file server may be discovered but it may not be connected, you can use Manual Configuration to manually connect to the file server.
+However, sometimes, there are some situations such as the DNS system or the NETBIOS system not being ready. In that case, the file server may be discovered but it may not be connected, you can use the Manual Configuration to manually connect to the file server.
 
 .. figure:: _static/image_s5_2_32.png
     :align: center
@@ -117,22 +117,22 @@ However, sometimes, there are some situations such as the DNS system or the NETB
 5.2.4 Root Folder Name
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Root folder name is the top level folder name that will show up in the tenant administrator's folder structure. We recommend the folder name being descriptive and follow the normal Windows path recommendations (For example, there are certain characters that are not allowed).  
+The Root folder name is the top level folder name that will show up in the tenant administrator's folder structure. We recommend the folder name being descriptive and follow the normal Windows path recommendations (For example, there are certain characters that are not allowed).  
 
 .. note::
 
-    Remember this folder is only showing to the tenant administrator, it is not published to the team user yet. When it is time to publish the folder to the tenant users, the name that the tenant user will see can also be defined. It is recommend that if later the folder is continue to be published as a team folder, the name there for the team folder be the same as the folder name here. It is recommended but not necessary to have the root folder name the same as published team folder name.
+    Remember this folder is only showing to the tenant administrator, it is not published to the team user yet. When it is time to publish the folder to the tenant users, the name that the tenant user will see can also be defined. It is recommended that if later on, the folder is to be published as a team folder, then the name for the team folder should be the same as the folder name here. It is recommended but not necessary to have the root folder name the same as your published team folder name.
 
 
 5.2.5 Local Storage Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the file server UNC path or local windows folder path that you will connect into the tenant administrator's root folder structure. The idea here is you will take this folder, and mount the folder into the tenant administrator's root folder structure with the name described in the "Root Folder name".
+This is the file server UNC path or local windows folder path that you will connect into the tenant administrator's root folder structure. The idea here is you will take this folder and mount the folder into the tenant administrator's root folder structure with the name described in the "Root Folder name".
 
 
 **User Name**
 
-The user name is the Windows username, either it being local Windows user or global Active Directory user, this is a Windows account that is capable of accessing the "Local Storage Location"
+The user name is the Windows username, either it being local Windows user or global Active Directory user, this is a Windows account that is capable of accessing the "Local Storage Location".
 
 
 **Password**
@@ -141,7 +141,7 @@ This is the password for the Windows user above.
 
 .. note::
 
-    We recommend this Windows user and credential being a service account, meaning the password isn't subject to the maximum password days local security policy. Otherwise when it is time to rotate or change the user password, the connection here may be broken until the password is updated to match.
+    We recommend this Windows user and their credential be set up as a service account, meaning the password isn't subject to the maximum password days via local security policy. The reason being, that, when it is time to rotate or change the user password, the connection here may be broken until the password is updated to match.
 
 
 **“Always access the storage using logon user identity”**
@@ -158,15 +158,15 @@ This is the password for the Windows user above.
 
 **“This share is a DFS share”**
 
-    If the share is a DFS share, you will check this checkbox, because DFS share has an extra layer of translation to translate back down to normal file server shares. This flag basically tell the Cluster Server to do an extra DFS translation back to SMB share before connecting to the share.
+    If the share is a DFS share, you will check this checkbox, because DFS share has an extra layer of translation to translate back down to normal file server shares. This flag basically tells the Cluster Server to do an extra DFS translation back to SMB share before connecting to the share.
 
 **“Enable Inplace Versioning”**
 
-    The underlying file server network share may not have explicit version control (It may have volume shadow copy for other purpose), this will add Cluster Server version control to the file server network share. It is independent from and not related to the volume shadow copy.
+    The underlying file server network share may not have explicit version control (it may have volume shadow copy for other purposes). This will add Cluster Server version control to the file server network share. It is independent from and not related to the volume shadow copy.
 
 .. note::
     
-    In place versioning put the old version file into a __ver__ sub folder in the same folder structure, thus the name for In-Place Versioning so the folder structure is maintained as-is, while extra old copies of the file getting stored in a specific sub folder. 
+    In place versioning will put the older version of the file into a __ver__ sub folder in the same folder structure making the name for In-Place Versioning so the folder structure is maintained as-is, while extra old copies of the file will be stored in a specific sub folder. 
 
 .. figure:: _static/image_s5_2_50.png
     :align: center
@@ -208,7 +208,7 @@ Besides local storage, you can also mount cloud storage into the system. If you 
     
     You can also turn any existing folder into a team folder. 
     
-    Team folder has a tenant administrator scope so the team folder related sharing is limited to the users inside the tenant.
+    A Team folder has a tenant administrator scope so the team folder related sharing is limited to the users inside the tenant.
 
 .. note::
 
@@ -225,14 +225,14 @@ Create Team Folder
 
 ``Tenant Management Console`` > ``Team Folder`` > ``Add New Team Folder``
 
-You can click on the "+" sign to create a new team folder
+You can click on the "+" sign to create a new team folder.
 
 .. figure:: _static/image_s5_3_11.png
     :align: center
 
     ADDING A TEAM FOLDER
 
-Once it is clicked, it shows four main sources of team folder, among other options
+Once it is clicked, it shows four main sources of team folder, among other options:
 
     - Existing Tenant Storage (default location)
     - File Servers in Local Area Network
@@ -317,7 +317,7 @@ In the Collaborators section, you can define:
 
 Display Name:
 
-    The name of the team folder
+    The name of the team folder.
     
 User List:
 
@@ -344,7 +344,7 @@ If you are leveraging native Active Directory/NTFS permission from a file server
 
 .. note::
 
-    You can think of the permissions as two different gates controlling the access to files and folders. The first gate is defined here as ``Cluster Server Folder Permission``. After this permission check, there is still check at the file server level (which is NTFS permission). 
+    You can think of the permissions as two different gates controlling the access to files and folders. The first gate is defined here as the ``Cluster Server Folder Permission``. After this permission check, there is still a check at the file server level (which is the NTFS permission). 
     
     In practice, usually it is done one way or the other. If you have decided to use NTFS natively, you can leave the permission settings here empty and not defined.
 
@@ -379,7 +379,7 @@ Here is a look at the details of the Team Folder Settings:
     
 **Disable Offline Access**
 
-    Don't allow Windows clients or Mac clients to mark folder as offline from within the team folder
+    Don't allow Windows clients or Mac clients to mark their folders as offline from within the team folder.
     
 **Synchronize folder permission automatically**
 
@@ -392,7 +392,7 @@ Here is a look at the details of the Team Folder Settings:
     
 **Don't show folder users doesn't have permissions to access**
 
-    Hide folder instead of showing users folders that they will receive "Access Denied".
+    Hide the folder instead of showing users folders that they will receive "Access Denied".
     
 **Secure Data Room**
 
@@ -494,7 +494,7 @@ The primary reason for guest user to exist is to have a secure way for external 
 
 ``Tenant Management Console`` > ``User Manager`` > ``Group Manager``
 
-When you have Active Directory integration, you will leverage Active Directory group instead of using Group Manager here. This group manager is to create group of users in a simple way. It is not as complicated as Active Directory (such as supporting nested groups) but make it easy for non-Active Directory users. This is native Cluster group. In the product, you may also see AD group from the user selection user interface and Proxied AD group from the user related interface. The AD group and the proxied AD group are not the same as the group mentioned here.
+When you have Active Directory integration, you will leverage the Active Directory group instead of using Group Manager here. This group manager is to create a group of users in a simple way. It is not as complicated as Active Directory (such as supporting nested groups) but make it easy for non-Active Directory users. This is native Cluster group. In the product, you may also see AD group from the user selection user interface and Proxied AD group from the user related interface. The AD group and the proxied AD group are not the same as the group mentioned here.
 
 .. raw:: html
 
@@ -506,7 +506,7 @@ When you have Active Directory integration, you will leverage Active Directory g
 
 ``Tenant Management Console`` > ``User Manager`` > ``Role Manager``
 
-Role Manager is to provide role based administration. For example, you may want to provide read-only permissions to some users. You can also assign some group policies to some groups of users. More and more policy items are added to the role manager so in addition to only use role manager for administration, it can be also used to define policy items for users.
+The Role Manager is to provide role based administration. For example, you may want to provide read-only permissions to some users. You can also assign some group policies to some groups of users. More and more policy items are added to the role manager so in addition to only use role manager for administration, it can be also used to define policy items for users.
 
 When creating a role, there are 4 different sections
 
