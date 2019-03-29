@@ -2,7 +2,7 @@
 Initial Configuration
 ==============================
 
-After you reboot, login to the machine’s Windows Console using the same admin user which was
+After you reboot, login to the machine’s Windows Console using the same admin user
 used to install the CentreStack software. A web browser page will be displayed, automatically prompting you to create
 the default admin account.
 
