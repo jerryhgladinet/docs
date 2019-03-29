@@ -10,7 +10,7 @@ cluster manager user interface. More specifically, the cluster manager dashboard
 For specific cluster manager and tenant manager administration interface, please reference the
 CentreStack Admin Guide.
 
-For the deployment guide, we will only show how to add tenant and what the entry web page
+For the deployment guide, we will only show how to add each tenant and what the entry web page
 looks like for a tenant administrator.
 
 Add Tenant
