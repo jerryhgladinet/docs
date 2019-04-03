@@ -11,10 +11,10 @@ different deployment options.
 All-In-One Deployment
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the simplest deployment. The database , the worker node are all on the same machine as
+This is the simplest deployment. The database , the worker nodes are all on the same machine as
 the storage.
 When you are serving < 1000 users or you are doing Proof-of-Concept (POC), this is the ideal deployment because of its simplicity.
-You can have the CentreStack installer install the SQL Express/MySQL on the same machine before install CentreStack software and then point the database to localhost\\SQLEXPRESS or local MySQL.
+You can have the CentreStack installer install the SQL Express/MySQL on the same machine before installing CentreStack software and then pointing the database to localhost\\SQLEXPRESS or local MySQL.
 In the All-In-One deployment, the storage location is typically set to a folder on local C: drive or local D: drive.
 
 The installer can install SQL EXPRESS so it is a one-click installation for convenience.
