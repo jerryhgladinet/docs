@@ -101,7 +101,7 @@ For the load balancing to work, all the worker nodes have to be on the same DNS 
 
   .. image:: _static/image008.jpg
 
-  Cluster manager is web browser based
+  Cluster manager is web browser based.
 
   .. image:: _static/image009.png
 
@@ -109,7 +109,7 @@ For the load balancing to work, all the worker nodes have to be on the same DNS 
 
   .. image:: _static/image010.png
   
-  After click the "Edit", the Edit Worker Node Dialog shows
+  After click the "Edit", the Edit Worker Node Dialog shows.
 
   .. image:: _static/image011.png
 
