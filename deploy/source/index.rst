@@ -75,7 +75,7 @@ The services can be deployed in flexible combinations to meet different needs. T
 .. note::
 
     Our Hosted version of CentreStack (as compared to our self-hosted CentreStack), 
-    the CentreStack server is already deployed on http://www.centrestack.com. In
+   is already deployed on http://www.centrestack.com. In
     this case, you don't need to deploy a CentreStack server. Instead,
     you can start using the hosted-centrestack
     web portal and client agents directly.
@@ -105,7 +105,7 @@ In the smallest deployment unit, the different components can co-exist in one si
 
       The database contains persistent information for the system.
       Database is a critical component for the smooth operation of the CentreStack server farm.
-      Local database with latency less than 10 millisecond is recommended.
+      Local database with latency less than 10 milliseconds is recommended.
       
       In order for all worker nodes be in the same server farm,
       they need to point to the same database.
