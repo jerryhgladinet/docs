@@ -4,7 +4,7 @@
 
 .. warning::
 
-    If this is the very first time you installing CentreStack server, it is recommended you do the all-in-one installation by preparing a clean Windows 2012 R2/2016/2019 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
+    If this is the very first time you are installing CentreStack server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2019/2012 R2/2016/2019 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
 
 
 Step 1: Prepare the File Storage
@@ -12,7 +12,7 @@ Step 1: Prepare the File Storage
 
 CentreStack server is about to cloudify your file storage and enable remote and mobile access, with sync and share capability. So, the first question is: What is your file storage solution?
 
-Your file storage can be a Windows File Server network share or any storage devices that support CIFS/SMB protocol. It can also be from iSCSI devices that you can mount storage directly as a drive letter in the CentreStack server. It can also be a container inside a private instance of OpenStack Swift, a bucket in Amazon S3 compatible storage, or a container from Windows Azure blob storage. You will need the basic access information ready. For example, 
+Your file storage can be a Windows File Server network share or any storage devices that supports CIFS/SMB protocol. It can also be from iSCSI devices that you can mount storage directly as a drive letter in the CentreStack server. It can also be a container inside a private instance of OpenStack Swift, a bucket in Amazon S3 compatible storage, or a container from Windows Azure blob storage. You will need the basic access information ready. For example, 
 
 **Windows File Server**
 
@@ -88,7 +88,7 @@ Step 4: Prepare the CentreStack Server
 
 The easiest way to prepare the CentreStack server is to have a clean Windows Server 2012/R2/2016/2019 OS with English locale and make sure the worker nodes are all in the same time zone.
 
-We recommend Windows server 2012 R2 or Windows server 2016 as a preferred server OS running on a virtual machine.
+We recommend Windows server 2019 2012 R2 or Windows server 2016 as a preferred server OS running on a virtual machine.
 
 **Supported Operating Systems**
     * Windows Server 2008 R2 with latest updates
@@ -130,7 +130,7 @@ CentreStack will install and then you will need to restart your system to comple
 
 .. note::
 
-    CentreStack is a multi-tenant solution. The Tenant Manager scope is defined for tenant administrator. For a multi-tenant Cluster Server system, each tenant has an administrator. For a single-tenant Cluster Server system, the default cluster administrator is also the tenant administrator
+    CentreStack is a multi-tenant solution. The Tenant Manager scope is defined for a tenant administrator. For a multi-tenant Cluster Server system, each tenant has an administrator. For a single-tenant Cluster Server system, the default cluster administrator is also the tenant administrator.
 
 For the next screen, if you have an existing database use the pull-down menu to select a different option otherwise use the default which will also install the MySQL Community Edition database.
 
