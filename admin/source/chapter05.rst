@@ -18,7 +18,7 @@ to the Active Directory.
 
     FILE SERVER CONNECTION
 
-The file server can also be remote, away from the CentreStack server, at the customer's premise. In this case, the best is to use file server agent. File server agent will be installed on the file server, and it is capable of connecting the customer's Active Directory and sync'ing both folder content and active directory over HTTPS. In this case, in the user interface, you will see "Proxied AD User" to indicate that the Active Directory user or group is coming from the file server agent.
+The file server can also be remote, away from the CentreStack server and at the customer's premise. In this case, the best is to use file server agent. File server agent will be installed on the file server, and it is capable of connecting the customer's Active Directory and sync'ing both folder content and active directory over HTTPS. In this case, in the user interface, you will see "Proxied AD User" to indicate that the Active Directory user or group is coming from the file server agent.
 
 .. figure:: _static/image103.png
     :align: center
