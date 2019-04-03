@@ -18,7 +18,7 @@ to the Active Directory.
 
     FILE SERVER CONNECTION
 
-The file server can also be remote, away from the CentreStack server, at the customer's premise. In this case, the best is to use file server agent. File server agent will be installed on the file server, and it is capable of connecting the customer's Active Directory and sync both folder content and active directory over HTTPS. In this case, in the user interface, you will see "Proxied AD User" to indicate that the Active Directory user or group is coming from the file server agent.
+The file server can also be remote, away from the CentreStack server, at the customer's premise. In this case, the best is to use file server agent. File server agent will be installed on the file server, and it is capable of connecting the customer's Active Directory and sync'ing both folder content and active directory over HTTPS. In this case, in the user interface, you will see "Proxied AD User" to indicate that the Active Directory user or group is coming from the file server agent.
 
 .. figure:: _static/image103.png
     :align: center
@@ -67,7 +67,7 @@ There are several cases here,
 AD account auto provision
 ---------------------------
 
-This is the default setting in the Advanced -> Active Directory Settings
+This is the default setting in the Advanced -> Active Directory Settings.
 
 As long as the "Don't allow user auto-creation" is not checked, Active Directory users will be allowed to go to the web portal and login. The first time the user logs in, its CentreStack account will be automatically provisioned.
 
@@ -92,7 +92,7 @@ The format of the organization unit is the OU's distinguishedName minus the DC s
 For example, the following OU's property is:
 distinguishedName	=>	OU=tenant11,DC=tsys,DC=gladinet,DC=com
 
-when it is put into the OU field, the DC suffix can be removed so only OU=tenant11 is required
+when it is put into the OU field, the DC suffix can be removed so only OU=tenant11 is required.
 
 .. note::
   OU=tenant11
@@ -103,17 +103,17 @@ when it is put into the OU field, the DC suffix can be removed so only OU=tenant
     OU PROPERTY LOCATION
 
 
-AD account auto provision, limiting to a specific AD group
+AD account auto provision, limiting to a specific AD group.
 ------------------------------------------------------------
 
-From the user manager, you can import AD group and the users in the AD group will be able to get account automatically provisioned.
+From the user manager, you can import AD group and the users in the AD group will be able to get the account automatically provisioned.
 
 .. figure:: _static/image_s6_3_03.png
     :align: center
 
     MIGRATING USERS FROM ACTIVE DIRECTORY
 
-Here is a demo video for Import AD group
+Here is a demo video for Import AD group.
 
 .. raw:: html
 
@@ -132,7 +132,7 @@ Here are  several parameters for consideration:
 Team Folder Offline Settings
 ------------------------------
 
-If you have a big team folder or several team folders that are quite big in size, it is not a good practice to enable team folder offline from the root. Instead you can choose not to enable offline or just enable a subset of sub-folders that are relatively small and at the same time, used more often. If you want to enable a subset of sub-folders within team folders for offline access, you can start by going to the folder permission section. You can access this by selecting the folder (1), in the pulldown menu (2) select "Folder Permissions", then select the edit settings icon (3) and finally select "Enable offline access for native Client" (4), and Apply the change. 
+If you have a big team folder or several team folders that are quite big in size, it is not a good practice to enable team folder offline from the root. Instead you can choose not to enable offline or just enable a subset of sub-folders that are relatively small and at the same time, used more often. If you want to enable a subset of sub-folders within team folders for offline access, you can start by going to the folder permission section. You can access this by selecting the folder (1), in the pulldown menu (2) select "Folder Permissions", then select the edit settings icon (3) and finally select "Enable offline access for native Client" (4), and apply the change. 
 
 .. figure:: _static/image_s6_4_00.png
     :align: center
@@ -152,7 +152,7 @@ User Offline Settings
 
 Upon creating users in the CentreStack system (including users imported from Active Directory), there is an offline flag upon user creation.
 
-Normally, we don't recommend check the "Enable offline access for all folders" flag, because it will try to download every single file for the user when the user is connected, which can use a lot of bandwidth and slow things down.
+Normally, we don't recommend checking the "Enable offline access for all folders" flag, because it will try to download every single file for the user when the user is connected, which can use a lot of bandwidth and slow things down.
 
 .. figure:: _static/image_s6_4_02.png
     :align: center
@@ -163,7 +163,7 @@ Normally, we don't recommend check the "Enable offline access for all folders" f
 
     This will automatically download ALL folders and files to the user’s device and automatically update them whenever they are changed anywhere in the network. This will cause a significant increase in network traffic, especially during the initial download of all folders.
 
-Without it, user can still pick and choose which folder to mark as offline.
+Without it, the user can still pick and choose which folder to mark as offline.
 
 
 User Manual Offline Settings
@@ -182,4 +182,4 @@ Summary
 
 Administrators can manage the tenant wide offline policy related to team folders and users. In the case where team folder size is small and user size is small, administrator can enable the offline flag to push files and folders to user's devices.
 
-However, in the case where team folder size is big and user number is not small, we recommend the administrator enables as less offline flags/settings as possible on the administration side, users can still do offline management themselves within their working folder on a case-by-case basis.
+However, in the case where the team folder size is big and the user number is not small, we recommend the administrator enables as less offline flags/settings as possible on the administration side. Users can still do offline management themselves within their working folder on a case-by-case basis.
