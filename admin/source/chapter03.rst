@@ -1227,7 +1227,7 @@ There are some settings that apply to all worker nodes. After you click on the "
     
     .. note::
     
-        in iOS devices, the Application Transport Security may be enforced by the operating system and HTTPS must be used for an iOS Application to connect to the Cluster Server.
+        In iOS devices, the Application Transport Security may be enforced by the operating system and HTTPS must be used for an iOS Application to connect to the Cluster Server.
 
 
 **Disable worker-node load balance**
