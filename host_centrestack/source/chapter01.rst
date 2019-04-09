@@ -2,7 +2,7 @@
 Overview of |prodname|
 ##############################
 
-|prodname| is a managed file sync and share solution. It differentiates from other file sync and share solution by focusing on the security, control and team collaboration. |prodname| does really well in the following areas:
+|prodname| is a managed file sync and share solution. It differentiates from other file sync and share solutions by focusing primarily on security, control and team collaboration. |prodname| does really well in the following areas:
 
    1. maintain Active Directory security and NTFS permission on files and folders
    2. provide on-demand access that honors read-only, and write permission in real-time
@@ -12,9 +12,9 @@ Overview of |prodname|
 Self-Hosted |prodname|
 ============================
 
-|prodname| is pure software that is built on top of the Microsoft Web Platform and is to be deployed on Microsoft Server. 
+|prodname| is pure software that is built on top of the Microsoft Web Platform and is to be deployed on a Microsoft Server. 
 
-This option gives Managed Service Provider and Enterprise IT maximum control and flexibility on how they want to combine the traditional file server security, control and the ease of use from an Internet-facing file sharing solution.
+This option gives Managed Service Providers and Enterprise IT maximum control and flexibility on how they want to combine the traditional file server security, control and the ease of use from an internet-facing file sharing solution.
 
 Hosted |prodname|
 ============================
