@@ -2,21 +2,21 @@
 Partner Portal
 #######################
 
-To start on Hosted-|prodname|, the first thing to do is to acquire a |prodname| partner account and login to the web portal
+To start the Hosted-|prodname| version, the first thing to do is to acquire a |prodname| partner account and login to the web portal.
 
 .. figure:: _static/image_s2_1_1.png
     :align: center
 
     |prodname| WEBSITE
 
-Partner Portal is the centralized place to manage the managed service provider's (MSP's) clients. The activities on the partner portal include creating Tenants, and managing Tenants. 
+The Partner Portal is the centralized place to manage the managed service provider's (MSP's) clients. The activities on the partner portal include creating Tenants and managing Tenants. 
 
 .. figure:: _static/image_s2_1_2.png
     :align: center
 
     PARTNER LOGIN
 
-After logging into the Partner Portal you can see most options be expanding the left-side menu **(1)** and choose one of the two hosting options, "Private |prodname|" **(2)**, which is for the self-hosted |prodname|, or "Hosted |prodname|" **(3)**. In the image below you can see that we have already "Branded" this account with "ACME Cloud Services" **(4)** (see "Branding" section below for more information). You can also access useful information here, such as "Compare self-hosted and hosted options" **(5)**, "Configure ConnectWise Integration" **(6)**, and "Training Videos" **(7)** to help you get started. 
+After logging into the Partner Portal, you can see most options by expanding the left-side menu. **(1)** From the collapsable menu, choose one of the two hosting options: "Private |prodname|" **(2)**, which is for the self-hosted |prodname|, or "Hosted |prodname|" **(3)**. In the image below you can see that we have already "Branded" this account with "ACME Cloud Services" **(4)** (see "Branding" section below for more information). You can also access useful information here, such as "Compare self-hosted and hosted options" **(5)**, "Configure ConnectWise Integration" **(6)**, and "Training Videos" **(7)** to help you get started. 
 
 .. figure:: _static/image_s2_1_3.png
     :align: center
@@ -33,11 +33,11 @@ Because this guide is focused on our "Hosted" solution, choose the "Hosted |prod
 Tenant Management
 ====================
 
-After you are in the Hosted |prodname| section, you are seeing the Tenant manager.
+After you are in the Hosted |prodname| section, you can view the Tenant manager.
 
 .. note::
 
-    A Tenant is usually map to a client of yours.
+    A Tenant is usually mapped to a client of yours.
 
 New Tenant
 -------------
@@ -61,12 +61,12 @@ If you need to get to the advanced section to further customize the creation of 
 Advanced Settings
 --------------------
 
-For MSPs and the Tenant internal IT staff, there is a division of work and responsibility. Sometimes managed service provider does more work and has more responsibility and sometimes the Tenant IT staff has more. The Advanced Settings defines how the work is divided between these two entities.
+For MSPs and the Tenant internal IT staff, there is a division of work and responsibility. Sometimes managed service providers do more work and have more responsibility, but other times the Tenant IT staff has more. The Advanced Settings defines how the work is divided between these two entities.
 
 - View and edit group policy
 
     Whether the Tenant itself (Tenant Administrator) can manage
-    group policy
+    group policy.
     
 - Allow Tenant to edit branding setting
 
@@ -75,11 +75,11 @@ For MSPs and the Tenant internal IT staff, there is a division of work and respo
 
 - Edit Tenant Administrator info
 
-    Tenant admin can change email and name of the Tenant administrator.
+    Tenant admin can change the email and the name of the Tenant administrator.
     
 - Allow creation of guest users
 
-    Guest user is related to files and folder sharing. This setting allows Tenant users to create guest user.
+   The Guest user is related to files and folder sharing. This setting allows Tenant users to create guest users.
     
 - Show Data-At-Rest Encryption configuration page (Requires empty storage container)
 
@@ -87,7 +87,7 @@ For MSPs and the Tenant internal IT staff, there is a division of work and respo
     
 - User License Count
 
-    By default the Tenant user count can be anything above 3 users.
+    By default, the Tenant user count can be anything above 3 users.
     
 - Hosting Data Center
 
@@ -114,7 +114,7 @@ Apply Branding to the Tenant
 ------------------------------
 
 **Default branding is applied this way:**
-Click the hamburger menu on the Tenant then choose *"Apply Partner Branding Settings"* 
+Click the hamburger menu on the Tenant, then choose *"Apply Partner Branding Settings"* 
 
 .. figure:: _static/image_s2_1_7.png
     :align: center
@@ -142,7 +142,7 @@ After the branding is created, you can apply the branding to a specific Tenant. 
 
     REPLACE THIS
 
-After that, we apply the branding and you can see the difference of before-branding and after-branding.
+After that, we can apply the branding and you can see the difference before-branding and after-branding.
 
 Before - Default
 ---------------------------
