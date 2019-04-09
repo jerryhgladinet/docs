@@ -14,7 +14,7 @@ After you click through to the "Manage Tenant" option, the tenant dashboard will
 Tenant Dashboard
 ====================
 
-The dashboard contains the two most important assets, the ``users`` and the ``Team Folders``.
+The dashboard contains the two most important assets: the ``users`` and the ``Team Folders``.
 
 .. note::
 
@@ -84,7 +84,7 @@ After you setup default branding and apply to the tenants, you can continue to f
 
     TENANT BRANDING
 
-In the ``TENANT BRANDING`` section, you can setup and  change tenant specific branding information.
+In the ``TENANT BRANDING`` section, you can setup and change tenant specific branding information.
 
 
 .. figure:: _static/image_s3_1_7.png
@@ -94,7 +94,7 @@ In the ``TENANT BRANDING`` section, you can setup and  change tenant specific br
 
 Customized URL for your business
 
-    Upon creating of the tenant, the tenant is assigned a random string of digits for the custom site. You can change the URL so it is more related to customer's business name.
+    Upon creating the tenant, the tenant is assigned a random string of digits for the custom site. You can change the URL so that it is more related to the customer's business name.
 
 
 .. figure:: _static/image_s3_1_8.png
@@ -104,7 +104,7 @@ Customized URL for your business
 
 .. note::
 
-    The ``Customized URL`` field is very important for the tenant branding. It is like a key to a list of information belong to the tenant. For tenant branding to work, the tenant will need to login to the specific URL that is assigned to them.
+    The ``Customized URL`` field is very important for the tenant branding. It is like a key to a list of information belonging to the tenant. For tenant branding to work, the tenant will need to login to the specific URL that is assigned to them.
     
 Group Policy
 ================
@@ -162,7 +162,7 @@ Single Sign-On
 
     SINGLE SIGN ON
 
-It is recommended to setup tenant specific ``custom URL`` before setup Single Sign-On since this is a tenant-specific Single Sign-On setting.
+It is recommended to setup tenant specific ``custom URL`` before setting up the Single Sign-On since this is a tenant-specific Single Sign-On setting.
 
 
 .. figure:: _static/image_s3_1_16.png
@@ -198,7 +198,7 @@ Notifications
 
     NOTIFICATIONS
 
-The Notification section defines what kind of the notifications the tenant wants to get.
+The Notification section defines what kind of notifications the tenant wants to configure.
 
 .. figure:: _static/image_s3_1_20.png
     :align: center
@@ -275,14 +275,14 @@ User manager is where to manage the users for the tenant.
 Add User
 -----------
 
-Users can be created directly with user name and email. If Server Agent is used, users can also be created from the Server Agent where Active Directory users from a remote Server Agent can be imported into |prodname|.
+Users can be created directly with user name and email. If the Server Agent is used, users can also be created from the Server Agent where Active Directory users from a remote Server Agent can be imported into |prodname|.
 
 .. figure:: _static/image_s3_1_30.png
     :align: center
 
     ADDING USERS
     
-Before Server Agent is used, you can see "Native User" and "Batch create users" two options. If you use Server Agent to connect a remote file server to this specific tenant, the remote Active Directory will also show up.
+Before the Server Agent is used, there are two options: "Native User" and "Batch create users". If you use Server Agent to connect a remote file server to this specific tenant, the remote Active Directory will also show up.
 
 .. figure:: _static/image_s3_1_31.png
     :align: center
@@ -311,7 +311,7 @@ If you have the Server Agent connected, the Server Agent can import Proxy Active
 Role Manager
 ===============
 
-Role manager can further define what each users in the tenant can do and what they can access.
+Role manager can further define what each users in the tenant can do and what they have access to.
 
 .. figure:: _static/image_s3_1_34a.png
     :align: center
@@ -336,7 +336,7 @@ Team Folder
 
     TEAM FOLDERS
 
-The idea of a Team Folder is similar to that of a local network share. Users can be assigned to a Team Folder with read, write permissions at the share level and inside the folder, at the sub-folder level, each sub-folder can define its own folder level permission.
+The idea of a Team Folder is similar to that of a local network share. Users can be assigned to a Team Folder with read and write permissions at the share level. Inside the folder, at the sub-folder level, each sub-folder can define its own folder level permissions.
 
 Add a Team Folder
 ---------------------
@@ -349,13 +349,13 @@ Add a Team Folder
 In the hosted |prodname| environment, you can create Team Folders in several different ways. 
 
 - Default Storage
-    Create a new Team Folder from scratch using default storage. It will be empty to start with and you can put files and folders inside later. 
+    Create a new Team Folder from scratch using the default storage. It will be empty to start with and you can put files and folders inside later. 
 
 - Existing Folder(s)
     Create a new folder by selecting one or more existing folders. Those selected folders will show up inside the Team Folder. 
 
 - Publish Tenant Home Storage As a Team Folder
-    The tenant's home storage will be published to users in the same tenant so they can see file and folder contents from the home storage. Some specialized folder such as folders from remote file servers or remote cloud storage services are not included in this scope. 
+    The tenant's home storage will be published to users in the same tenant so they can see file and folder contents from the home storage. Some specialized folders such as folders from remote file servers or remote cloud storage services are not included in this scope. 
 
 - Remote File Server (with Server Agent)
     Once you install the Server Agent on your remote server, you can create a Team Folder here. 
