@@ -75,7 +75,7 @@ The services can be deployed in flexible combinations to meet different needs. T
 .. note::
 
     Our Hosted version of CentreStack (as compared to our self-hosted CentreStack), 
-   is already deployed on http://www.centrestack.com. In
+    is already deployed on http://www.centrestack.com. In
     this case, you don't need to deploy a CentreStack server. Instead,
     you can start using the hosted-centrestack
     web portal and client agents directly.
