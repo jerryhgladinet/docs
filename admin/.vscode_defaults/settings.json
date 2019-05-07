@@ -1,0 +1,7 @@
+{
+    "restructuredtext.builtDocumentationPath" : "c:\\git\\docs\\admin\\build\\html",
+    "restructuredtext.confPath": "c:\\git\\docs\\admin\\source",
+    "restructuredtext.updateOnTextChanged"    : "true",
+    "restructuredtext.sphinxBuildPath": null,
+    "restructuredtext.workspaceRoot": "c:\\git\\docs\\admin"
+}
