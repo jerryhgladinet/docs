@@ -133,7 +133,7 @@ CentreStack Partner Portal
   production environment.
   
   You can also come back to the partner portal
- any time that your CentreStack software neeeds to be upgraded to a later version.
+  any time that your CentreStack software needs to be upgraded to a later version.
 
 CentreStack Cluster - Server Farm
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -201,11 +201,12 @@ Tenant Admin
 Tenant User
 ^^^^^^^^^^^^^^^^^^^^
 
-  The tenant user (team user) is a user inside a specific Tenant.  Team users are created by the Tenant Admin (or by cluster admin on behalf of the tenant admin). Team users can come from three different places:
+  The tenant user (team user) is a user inside a specific Tenant.  Team users are created by the Tenant Admin (or by cluster admin on behalf of the tenant admin). Team users can come from four different places:
   
     1. Native CentreStack User (created from scratch)
     2. Active Directory User from local LDAP
     3. Active Directory User from remote CentreStack Server Agent
+    4. Azure AD or other single-sign-on integrated identity provider
     
     Team users always belong to a specific tenant and can't span multiple tenants.
     However, a team user can receive file and folder share from multiple users
@@ -260,8 +261,8 @@ The base operating system can be either:
     - Windows Server 2016
     - Windows Server 2019
 
-We recommend Windows Server 2012/2012 R2/2016 since .Net Framework 4.5/4.6 comes directly with these newer server OS platforms.
-It is easier and faster to install CentreStack software on Windows Server 2012/2012 R2 or on Windows Server 2016.
+We recommend Windows Server 2012/2012 R2/2016/2019 since .Net Framework 4.5+ comes directly with these newer server OS platforms.
+It is easier and faster to install CentreStack software on Windows Server 2012/2012 R2 or on Windows Server 2016/2019.
 
 .. note::
 
@@ -399,7 +400,7 @@ You can also use the Network Load Balancing feature which is included in Windows
 Active Directory Integration
 -----------------------------
 
-There are two ways to connect Active Directory into
+There are three ways to connect Active Directory into
 CentreStack.
 
 1. LDAP
@@ -419,6 +420,10 @@ can be installed on the remote file server to help
 import Active Directory users over to CentreStack.
 
 CentreStack allows you to connect to multiple active directory services.
+
+3. Azure AD Support
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Via the Azure AD support, you can setup Azure AD so users can be authenticated by Azure AD instead of from a local Active Directory.
 
 .. note::
   
