@@ -132,6 +132,8 @@ CentreStack Partner Portal
   acquire licenses to turn the trial into a
   production environment.
   
+  You can manage hosted-tenants from the partner portal.
+  
   You can also come back to the partner portal
   any time that your CentreStack software needs to be upgraded to a later version.
 
