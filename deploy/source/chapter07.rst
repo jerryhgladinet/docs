@@ -2,8 +2,8 @@
 SSL (HTTPS) Configuration
 ==============================
 
-We recommend that you turn on SSL for HTTPS before you download any access clients because access clients
-need to connect to your CentreStack’s access end point. 
+We recommend that you turn on SSL for HTTPS before you download any access client agents because access client agents
+need to connect to your CentreStack’s access end point (External URL). 
 
 Even though it can connect to CentreStack via plain
 HTTP we recommend configuring SSL for HTTPS before the client connects. You can get a SSL certificate
@@ -38,6 +38,12 @@ Select the SSL certificate you have and click “OK”
   for the native clients, the connection will fail.
   
   We recommend using https://www.ssllabs.com/ to check your SSL certificate and SSL configuration.
+  
+  You can also use openssl to check SSL certificate
+  
+  .. code::
+  
+    openssl s_client -connect server.yourwebhoster.com:443
 
 Once the server certificate has been installed on the CentreStack server and bindings applied, go to the
 Cluster Server Farm -> Cluster Worker Nodes and make sure the External URL matches the HTTPS format of the DNS name given to the CentreStack server.
