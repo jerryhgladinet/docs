@@ -37,7 +37,8 @@ CentreStack is a managed file sync and share solution that focuses on local file
 .. note::
 
     In summary, you can think of CentreStack as a way to elevate and turn a Windows File Server in a local area network
-    into a Cloud/Internet facing file server solution with remote and mobile access.
+    into a Cloud/Internet facing file server solution with remote and mobile access, while at the same time, the drive mapping,
+    the NTFS permission, and file locking are preserved before and after the cloud-enablement.
 
 The CentreStack server is pure software built on top of the Microsoft Web Platform, which includes:
 
@@ -140,7 +141,7 @@ CentreStack Partner Portal
 CentreStack Cluster - Server Farm
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  Multiple CentreStack single-machine nodes connect together by pointing to the same database and then shares the same configuration information from the database so that CentreStack can indirectly share the persistent storage location in a symmetrical way.
+  Multiple CentreStack single-machine nodes connect together by pointing to the same database and then share the same configuration information from the database so that CentreStack can indirectly share the persistent storage location in a symmetrical way.
   
   Indirectly, the database contains storage related information so all the nodes
   in the server farm share storage related configuration.
@@ -225,6 +226,12 @@ Guest User
   The guest users are users outside of the tenant users domain but receive file or folder shares from team user.
   The Team user creates guest users through the file sharing or folder sharing activities. Guest users typically
   are external users outside of an organization that are already using CentreStack.
+  
+Anonymous User
+^^^^^^^^^^^^^^^^^^^^^^^
+
+   The anonymous users are a type of the guest user that doesn't require editing permission. They can receive files and folder 
+   shares and can view the file and folder share from within a web browser user interface.
 
 Client Agent Software
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -250,7 +257,7 @@ System Requirements
 
 CentreStack server is built on top of the Microsoft Web Platform, which includes:
 
-    * Windows Server
+    * Windows Server base operating system
     * Internet Information Server 7/8/10 (IIS)
     * .Net Framework 4.5+ 
     * ASP.NET
@@ -280,7 +287,7 @@ The base operating system provides the base of the Microsoft Web Platform.
 It will be loaded with the mentioned Microsoft components before the core CentreStack 
 software is installed. 
 
-The CentreStack installer will install all the dependency Windows components.
+The CentreStack installer will install and load  all the dependency Windows components.
 
 .. note::
 
