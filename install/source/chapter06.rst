@@ -13,6 +13,13 @@
     the SSL Labs site will produce a report on whether the SSL is compatible with all 
     devices such as iOS devices.
     
+    You can also use openssl to check the SSL certificates and whether or not the whole certificate
+    trust chain is completely installed on the server side.
+    
+    .. code::
+    
+        openssl s_client -connect server.yourwebhoster.com:443
+    
 You will install the SSL certificate by using the IIS Manager. Look for "Server Certificates" and double click on it.
 
 .. image:: _static/image_s6_1_1.png
