@@ -4,7 +4,7 @@
 
 .. warning::
 
-    If this is the very first time you are installing CentreStack server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2019/2012 R2/2016/2019 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
+    If this is the very first time you are installing CentreStack server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2012 R2/2016/2019 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
 
 
 Step 1: Prepare the File Storage
