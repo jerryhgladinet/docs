@@ -28,7 +28,7 @@ will be a little bit longer than the one on Windows 2012 R2 server and later Win
 
 .. note::
 
-     Clean Windows Server 2008 with SP2/R2 or Windows Server 2012/R2/2016 Machine will make the installation 
+     Clean Windows Server 2008 with SP2/R2 or Windows Server 2012/R2/2016/2019 Machine will make the installation 
      much easier and smooth. 
      
      The CentreStack server 
@@ -102,7 +102,8 @@ Supported Microsoft SQL Server versions are:
     *	SQL Server 2008 and 2008 R2 with all service packs, Express, Standard, Enterprise, and Datacenter Editions
     *	SQL Server 2012 with all service packs, Express, Standard, and Enterprise Editions.
     *	SQL Server 2014 Standard and Enterprise
-    *   SQL Server 2016
+    *     SQL Server 2016
+    *     SQL Server 2017
 
 The following database features are supported (except SQL Server Express, which supports only standalone mode):
 
