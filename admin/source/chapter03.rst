@@ -29,9 +29,12 @@ The following graphic describes the various icons and components of the Administ
     
 **CLUSTER MANAGER DASHBOARD**
 
-After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. Some of the features can be accessed several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side (or top side) of the Dashboard by clicking the folder icon. **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views. 
+After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. 
 
-The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. 
+Some of the features can be accessed several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side (or top side) of the Dashboard. 
+
+By clicking the folder icon **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views.  The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. 
+
 The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel and Group Policies. 
 If you need to know the version and cluster ID information for your Cluster Manager installation, this can be accessed by clicking the “i” **(4)**. The following image represents the Cluster Info pop-up window. 
 
@@ -40,11 +43,12 @@ If you need to know the version and cluster ID information for your Cluster Mana
     
 **CLUSTER INFO**
 
-In the center of the Dashboard screen, you can access your Tenants (Companies, Clients) and imported Network File Shares (5).
+In the center of the Dashboard screen, you can access your Tenants (Companies, Clients) and system reports.
 
 .. note::
 
-    At a high level, the |prodname| web browser management interface allows you to manage clients (Tenants) and the connections to their file servers within a local network or a remote location.
+    At a high level, the |prodname| web browser management interface allows you to manage clients (Tenants) and the overall
+    system performance and statistics reports.
 
 
         
@@ -84,7 +88,17 @@ The Cluster Server is multi-tenant capable, but can also be used for a single Te
     
     TENANT MANAGER
 
-You can also access other important settings from this context menu **(2)**: Force full scan for storage quota usage, Change Tenant Admin Password, Edit Existing Default Storage and Delete Tenant. 
+You can also access other important settings from this context menu **(2)**: 
+
+ - Manage Tenant
+ - Force full scan for storage quota usage, 
+ - Change Tenant Admin Password, 
+ - Edit Existing Default Storage and Delete Tenant. 
+ - Delete Tenant
+
+**Manage Tenant**
+
+This will drill deeper into the per-tenant management page view.
 
 **Force full scan for storage quota usage**
 
@@ -135,7 +149,10 @@ By clicking the “Manage Tenant” **(2)** option (see above image), the Cluste
     
     TENANT DASHBOARD MENUS
 
-You can navigate to different sections of Tenant Administration using the navigation menu at the top **(1)**. You can also get to different sections from the right-hand side quick links panel **(2)**.
+You can navigate to different sections of Tenant Administration using the navigation menu at the top **(1)**. 
+
+You can also get to different sections from the top side quick links panel **(2)** or the control panel inside the 
+pop up panel.
 
 
 **Tenant Dashboard**
