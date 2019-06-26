@@ -11,4 +11,4 @@ Welcome to the |prodname| Administration Guide. This guide describes administrat
   The |prodname| includes a client application for Windows File Server, which is named "Server Agent". This document is about the |prodname| itself, not about the "Server Agent".
 
 .. attention::
-  This admin guide is written for |prodname| version ``9.6.5473``
+  This admin guide is written for |prodname| version ``10.6.6800``

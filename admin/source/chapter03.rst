@@ -19,7 +19,7 @@ To access your Cluster Administration features, log in to the Web Portal on the 
 
 .. note::
 
-On the bottom of the Login screen, there is version information, which will be useful to see which version you have installed. 
+    On the bottom of the Login screen, there is version information, which will be useful to see which version you have installed. 
 
     
 The following graphic describes the various icons and components of the Administrator Dashboard and its sub sections. Please refer to it as you read this guide to determine how to access various features.
@@ -29,7 +29,7 @@ The following graphic describes the various icons and components of the Administ
     
 **CLUSTER MANAGER DASHBOARD**
 
-After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. Some of the features can be accessed several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side of the Dashboard by clicking the folder icon. **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views. 
+After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. Some of the features can be accessed several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side (or top side) of the Dashboard by clicking the folder icon. **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views. 
 
 The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. 
 The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel and Group Policies. 
@@ -46,57 +46,15 @@ In the center of the Dashboard screen, you can access your Tenants (Companies, C
 
     At a high level, the |prodname| web browser management interface allows you to manage clients (Tenants) and the connections to their file servers within a local network or a remote location.
 
-**************************
-**4.2 Importing File Shares**
-**************************
 
-To give your Tenants access to files in your local area network or from remote locations, click the Import Network Share icon **(6)**. This will take you to the Import File Share screen. 
-
-.. figure:: _static/image_s4_2_4.png
-    :align: center
-    
-**IMPORT FILE SHARE**
-
-As shown in the above image, click the dropdown list to designate which Tenant will own the file share you are accessing. This action naturally requires that you have already created at least one Tenant, unless you wish to use the Default Tenant.
-
-The first step is to decide which tenant to add the File Server Share to. If a File Server belongs to a specific Tenant but the Tenant hasn’t been created yet, you will need to create the tenant first and then proceed to import File Server Network Shares for that Tenant.
-
-.. attention::
-
-    File Servers are always at a Tenant Scope and belong to a specific Tenant. Different File Servers can belong to different Tenants.
-    
-    Users from a specific Tenant can collaborate on Team Folders, which usually have a one-to-one relationship to File Server network shares.
-    
-    The |prodname| can enable Secure Internet/Cloud Access to both File Servers in the Local Area Network and File Servers from Remote sites.
-
-
-.. note::
-
-    Q: Why import a File Server Network Share?
-    
-    A: This allows you to leverage the existing file security permissions and make it available
-    for remote and mobile access through the Cloud/Internet.
-
-
-After you pick the Tenant, choose a File Server from the local area network (LAN), or from a remote location.
-
-.. figure:: _static/image_s4_3_0.png
-    :align: center
-    
-    TENANT DASHBOARD
-
-Since the steps here are very similar to the Tenant Administration’s Team Folder Management, please reference the Tenant Admin Team Folder section for adding File Server Network Shares to a particular Tenant.
-
-.. warning::
-
-    ``Cluster Server Farm`` > ``Cluster Worker Node``
-    
-    If it is the first time you are installing the |prodname|, you may be seeing the message “External DNS has not been configured for this worker node. Some functionality may not work properly. Config Now”. 
-    
-    .. figure:: _static/image_s4_3_1.png
-        :align: center
         
 **EXTERNAL DNS WARNING**
+
+At the top left corner of the cluster dashboard (5), if you see a warning icon, it is the external dns warning indicating the external dns name is not 
+setup yet.
+
+.. figure:: _static/image_s4_2_2.png
+    :align: center
     
 External DNS (External URL) is a very important property. It is used in directing how outside remote clients connect to the Cluster Server. It is also used in various email templates. If this property is not properly configured, the email template may be using IP address or NETBIOS name as the URL link.
     
@@ -115,8 +73,7 @@ To configure this setting, you must have a DNS name and SSL certificate setup; t
 ``Cluster Manager`` > ``Tenant Manager``
 
 
-..
-::
+.. note::
 
     A tenant is usually mapped to a client of yours, a company or a division of a company.
 
@@ -143,11 +100,11 @@ When a Tenant outgrows their allocation of storage space or needs to move to a d
     
 .. tip:: 
     
-When changing a storage location for a Tenant; you typically manually copy the folder to the new location then re-configure the default storage location.
+    When changing a storage location for a Tenant; you typically manually copy the folder to the new location then re-configure the default storage location.
     
 .. warning:: 
     
-If you want to change the tenant's default storage location, make sure you copy tenant's file AS-IS from the source folder to its destination folder before you change the storage location here.
+    If you want to change the tenant's default storage location, make sure you copy tenant's file AS-IS from the source folder to its destination folder before you change the storage location here.
 
 **Delete Tenant** 
     
@@ -159,8 +116,7 @@ By clicking the “Manage Tenant” **(2)** option (see above image), the Cluste
 4.3.1 Tenant Management within Cluster Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. 
-::
+.. note::
 
      At a high level, the Cluster Administrator and Tenant Manager have almost identical controls for the Tenants within their scope; however, the Tenant Manager settings will always take precedence and override Cluster Administrator settings. Tenant Managers can give permission for Cluster Administrator to manage their tenants by enabling this option in ``Group Policy`` > ``Common Settings`` > ``Security``.
      
@@ -1951,9 +1907,9 @@ Please reference the ``Group Policy`` in the tenant administrator section for fu
 
 
 
-**************
+*******************************
 4.11 Language Settings
-**************
+*******************************
 
 We have automated translation and provided the resource files that you can use to localize the web portal and clients in the language  of your choice. If there are strings that not translated yet in the language you want, just go ahead and select the string and put in the translated string in the window for the language selected.
 
