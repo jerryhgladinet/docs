@@ -14,3 +14,13 @@ There are many settings in this panel. Here are some specifically for the Mac Cl
 
 .. image:: _static/image_s5_1_2.png
 
+*************************************
+6 Third-Party Open Source Component 
+*************************************
+
+The Mac client agent has OSXFUSE component from https://github.com/osxfuse
+
+Please review the osxfuse license.txt here
+
+https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt
+

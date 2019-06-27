@@ -5,7 +5,7 @@
 Introduction
 ==============
 
-Welcome to the |prodname| Mac OS X Client User Guide. This guide describes client functionality for users in |prodname|, the managed file synchronization and sharing solution.
+Welcome to the |prodname| Mac OS X Client User Guide. This guide describes client functionality for users in |prodname|, the managed file synchronization and sharing solution that focuses on file server cloud-enablement.
 
 
 Mac OS X Clients
@@ -17,11 +17,11 @@ Mac OS X Clients
 System Requirement
 ====================
 
-Mac OS X 10.13/10.12/10.11/10.10/10.9
+Mac OS X 10.14/10.13/10.12
 
     Mac OS X client for these OS versions are actively maintained and relesed regularlly.
     
-Mac OS X 10.7/10.8
+Mac OS X 10.7/10.8/10.9/10.10/10.11
 
     Mac OS X client for these OS versions are available but not actively maintained.
     
