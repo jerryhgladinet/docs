@@ -4,7 +4,7 @@
 
 
 .. note::
-    A tenant is usually mapped to an organization or sometimes, a service provider would call them clients. Basically a tenant is a management scope that represents an organization.
+    A tenant is usually mapped to an organization or in the case of MSP managed organization, a service provider would call them clients. Basically a tenant is a management scope that represents an organization.
 
 Tenant manager scope is defined for tenant administrator. For a multi-tenant Cluster Server system, each tenant has an administrator. For a single-tenant Cluster Server system, the default cluster administrator is also the tenant administrator.
 
@@ -22,6 +22,8 @@ From the Cluster Manager Dashboard, you can access the Tenant Manager by choosin
     Once you have selected the Tenant Manager in the left-side menu, you can access the management console directly by clicking the "Default Tenant" icon.
     
     Now the following guide will assume you are a tenant administrator, which is not the default cluster administrator.
+
+You can also login directly to the web portal as the tenant administrator instead of the default cluster administrator to get to the tenant administrator management web interface.
 
 
 **********************

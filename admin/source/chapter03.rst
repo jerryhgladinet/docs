@@ -19,7 +19,7 @@ To access your Cluster Administration features, log in to the Web Portal on the 
 
 .. note::
 
-    On the bottom of the Login screen, there is version information, which will be useful to see which version you have installed. 
+    At the bottom of the Login screen, there is version information, which will be useful to see which version you have installed. 
 
     
 The following graphic describes the various icons and components of the Administrator Dashboard and its sub sections. Please refer to it as you read this guide to determine how to access various features.
@@ -33,7 +33,14 @@ After logging in, you will see the Cluster Manager Dashboard. The small “hambu
 
 Some of the features can be accessed several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side (or top side) of the Dashboard. 
 
-By clicking the folder icon **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views.  The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. 
+By clicking the folder icon **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views.  The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. When the cluster administrator clicks the folder icon to get into the files and folder's view, the files and folders belong to the 
+default tenant. 
+
+.. note::
+
+    the cluster administrator will not be able to access files and folders that are not in the scope of the default tenant. In order to access files and folders that belong to a specific tenant, the web portal login has to be 
+    that of the tenant. So basically the cluster administrator can do administration work for a tenant that is under management. However, it is not easy for the cluster administrator to see the files and folders for that 
+    specific tenant until he/she gets the permission and the login credentials.
 
 The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel and Group Policies. 
 If you need to know the version and cluster ID information for your Cluster Manager installation, this can be accessed by clicking the “i” **(4)**. The following image represents the Cluster Info pop-up window. 
@@ -88,7 +95,7 @@ The Cluster Server is multi-tenant capable, but can also be used for a single Te
     
     TENANT MANAGER
 
-You can also access other important settings from this context menu **(2)**: 
+You can also access other important settings from this context menu **(2)** (Each tenant block has a tenant specific context menu): 
 
  - Manage Tenant
  - Force full scan for storage quota usage, 
@@ -98,7 +105,7 @@ You can also access other important settings from this context menu **(2)**:
 
 **Manage Tenant**
 
-This will drill deeper into the per-tenant management page view.
+This will drill deeper into the per-tenant management page view. By clicking the “Manage Tenant” **(2)** option (see above image), the Cluster Admin sees the Tenant Dashboard as well as additional options to configure the Tenant settings.
 
 **Force full scan for storage quota usage**
 
@@ -124,7 +131,7 @@ When a Tenant outgrows their allocation of storage space or needs to move to a d
     
 Deletes the tenant.
 
-By clicking the “Manage Tenant” **(2)** option (see above image), the Cluster Admin sees the Tenant Dashboard as well as additional options to configure the Tenant settings.
+
 
 
 4.3.1 Tenant Management within Cluster Administration
@@ -132,7 +139,7 @@ By clicking the “Manage Tenant” **(2)** option (see above image), the Cluste
 
 .. note::
 
-     At a high level, the Cluster Administrator and Tenant Manager have almost identical controls for the Tenants within their scope; however, the Tenant Manager settings will always take precedence and override Cluster Administrator settings. Tenant Managers can give permission for Cluster Administrator to manage their tenants by enabling this option in ``Group Policy`` > ``Common Settings`` > ``Security``.
+     At a high level, the Cluster Administrator and Tenant Manager have almost identical controls for the Tenants within their scope; however, the Tenant Manager settings will always take precedence and override Cluster Administrator settings. Tenant Managers can give permission for Cluster Administrator to manage their tenants by enabling this option in ``Group Policy`` > ``Common Settings`` > ``Security``. "The Allow Cluster Admin to manage my tenant" is by default checked. 
      
      .. figure:: _static/image_s4_3_15.png
         :align: center
@@ -151,8 +158,12 @@ By clicking the “Manage Tenant” **(2)** option (see above image), the Cluste
 
 You can navigate to different sections of Tenant Administration using the navigation menu at the top **(1)**. 
 
-You can also get to different sections from the top side quick links panel **(2)** or the control panel inside the 
-pop up panel.
+.. figure:: _static/image_s4_3_16b.png
+    :align: center
+    
+    TENANT DASHBOARD QUICK LINKS
+
+When the computer screen is wide enough, the right side quick links panel will also be available for quick navigation **(2)**.
 
 
 **Tenant Dashboard**
@@ -166,28 +177,57 @@ The Tenant Dashboard link directs the web page back to the Tenant Dashboard page
 
 ``Tenant Dashboard`` > ``Users``
 
+.. figure:: _static/image_s4_3_16c.png
+    :align: center
+    
+    TENANT USER MANAGER
+
 The Users section can manage Users in the Tenant.
 
 
-**Team Folders**
+**Team Folders (Shared Work Space)**
 
 ``Tenant Dashboard`` > ``Team Folders``
 
+.. figure:: _static/image_s4_3_16d.png
+    :align: center
+    
+    TEAM FOLDER
+
 Team Folders are used for team-share collaborations. Generally, Team Folders are converted from File Server Network shares. Other Team Folder sources can be Google Storage, Amazon S3 (or S3 Compatible), Amazon Cloud, Windows Azure Blob, WebDav, SharePoint, Rackspace (US or UK) and OpenStack or you can create new folders under the Tenant’s root storage.
 
+On the right side of the tenant manager web interface, there is a right side panel that has 4 items, Cloud Backup, Local Active Directory, Remote Active Directory and Backend Storage.
 
-**Active Directory**
+.. figure:: _static/image_s4_3_16e.png
+    :align: center
+    
+    RIGHT PANEL
 
-``Tenant Dashboard`` > ``Local/Remote Active Directory``
+**Cloud Backup (1)**
 
-The Active Directory section can manage LDAP connections to Active Directory. 
+``Tenant Dashboard`` > ``Cloud Backup`` 
+
+Cloud backup allows you to backup team folders in the tenant and also foldres on devices attached to the tenant.
+
+**Local Active Directory (2)**
+
+``Tenant Dashboard`` > ``Local Active Directory`` 
+
+The connection to local active directory is via LDAP over Local Area Network. If the active directory infrastructure is in the same network as the Cluster Server, this is a convenient way to connect to the active directory.
+
+**Remote Active Directory (3)**
+
+``Tenant Dashboard`` > ``Remote Active Directory`` 
+
+
+If the active directory is away from the Cluster Server, (for example, the active directory is on-premise inside a client's building, while the Cluster Server is in a data center) it is recommended to use Server Agent to connect the remote active directory.
 
 .. note::
 
     If the client/customer’s Active Directory is in a remote location, you can use “Server Agent” to connect the Active Directory (and replicate remote File Server Network Share to the Cluster Server. You don’t need to configure LDAP in the remote Active Directory case.
 
 
-**Backend Storage**
+**Backend Storage (4)**
 
 ``Tenant Dashboard`` > ``Backend Storage``
 
@@ -196,7 +236,7 @@ space can be allocated from the default backend storage.
 
 .. tip::
 
-    You can think of the Tenant Backend Storage as a "Black Box" managed by the Cluster Server and you shall always use the Cluster Server interface to interact with the content inside the storage. If you can't take this "Black Box" approach for the tenant's root backend storage, you can use the following other methods, such as import file server network share.
+    You can think of the Tenant Backend Storage as a "Black Box" managed by the Cluster Server and you shall always use the Cluster Server interface to interact with the content inside the storage. If you can't take this "Black Box" approach for the tenant's root backend storage, you can use the following other methods via the team folders, such as import file server network share.
 
 However, if you already have a file server that will provide the storage, it is recommended to use "Import Network File Shares" to mount the file server network share to the tenant's storage space. In this case,you can leave the "Default Storage" as is, or point it to an empty location and treat it as a black box storage managed at the Cluster Server level.
 
@@ -207,12 +247,12 @@ However, if you already have a file server that will provide the storage, it is 
 
 **Migrate to New Storage**
 
+.. figure:: _static/image_s4_3_16f.png
+    :align: center
+    
+    CLOUD STORAGE MIGRATE
+
 Once the tenant backend storage is set, we don't recommend changing it until it has to be changed (e.g., migrate to other location). However when you are just setting up the tenant, you can decide where your tenant's storage location is and can change between local file server storage or remote cloud storage service.
-
-
-.. note::
-
-    If the tenant infrastructure is at a remote location, it is recommended using "Server Agent" to connect the Active Directory instead of using LDAP over Internet.
 
 
 **Tenant Plan**
@@ -304,6 +344,11 @@ In the Admin Access Control, the cluster administrator can decide the division o
 
     Migration option refers to migrating remote file server(s) from remote customer location(s) to the Cluster Server. Not all clients (customers) have remote file servers, so this tenant level option may not apply all the time.
 
+**Do not show GDPR consent form**
+
+    The EU General Data Protection Regulation (GDPR) is the most important change in data privacy regulation in 20 years.  There are regulations about collecting user information and software needs to provide consent form. 
+    If you have customers in the EU, it is recommended to show the consent form.
+
 
 **Allow creation of guest users**
 
@@ -350,7 +395,7 @@ The delegated administrators that are setup at the cluster level are users who a
         MANAGE TEAM CLOUD SETTINGS
     
 
-**AD Settings**
+**More about Active Directory Settings**
 
 ``Tenant Manager`` > ``[Tenant]`` > ``Local Active Directory``
 
@@ -373,7 +418,7 @@ However, if the tenant's infrastructure is away from the Cluster Server, it is r
 
     The difference between using LDAP to connect Active Directory and using "Server Agent" to connect Active Directory:
     
-   By using LDAP to connect Active Directory, the assumption is that the LDAP is local in the local area network so the speed is very fast and also very reliable. So a lot of the calls and queries are directly passing through to Active Directory.
+    By using LDAP to connect Active Directory, the assumption is that the LDAP is local in the local area network so the speed is very fast and also very reliable. So a lot of the calls and queries are directly passing through to Active Directory.
     
     By Using Server Agent to connect Active Directory, the assumption is that the Active Directory is in a remote location and over the Internet so the access speed may not be fast and the Internet may not be 100 percent up and reliable. So the server agent replicates Active Directory related information over to the Cluster Server.
 

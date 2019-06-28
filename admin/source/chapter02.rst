@@ -15,7 +15,7 @@ You can manage objects at different levels from one single management portal.
 3.2 Partner Portal
 ********************
 
-The Partner Portal is used primarily for managing licenses and licenses distribution amongst all of your Servers. 
+The Partner Portal is used primarily for managing licenses and licenses distribution amongst all of your |prodname| Servers. 
 
 The partner portal is located at http://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
 
@@ -31,7 +31,7 @@ Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can be mana
 3.3 Self-Hosted |prodname|
 *******************************************
 
-In the User Interface, the Self-Hosted |prodname| instance is referred to as a Cluster. A Cluster can be as small as a single Server or scaled out to include multiple Servers in a Server farm.
+In the User Interface, the Self-Hosted |prodname| instance is referred to as a Cluster or a Server Farm. A Cluster can be as small as a single Server or scaled out to include multiple Servers in a Server farm.
 
 **Hosted CentreStack**
 
@@ -63,7 +63,7 @@ properties etc.
 
 In the Deployment Guide, the Cluster Administrator is often referred to as the Master
 Admin, Root Admin or just Server Administrator. Even though the Cluster Server Farm can have multiple Servers, 
-most of the time, a one-server-farm is sufficient for your use case and your user base.
+most of the time, a server-farm with one single server is sufficient for your use case and your user base.
 
 **************************
 3.5 Tenant Administrator
@@ -91,7 +91,7 @@ There are two icons related to cluster administration and tenant administration:
     
 .. hint::
 
-    Tenant(s) usually map to your organization or client.
+    Tenant(s) usually map to your organization(s) or client(s).
     
     If you are logged in as the Default Cluster Admin, you will manage the 
     tenant level scope from the "Tenant Manager" instead of using the 
