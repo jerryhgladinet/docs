@@ -17,11 +17,11 @@ You can manage objects at different levels from one single management portal.
 
 The Partner Portal is used primarily for managing licenses and licenses distribution amongst all of your |prodname| Servers. 
 
-The partner portal is located at http://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
+The partner portal is located at https://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
 
 .. tip::
 
-    Typically you will download the |prodname| software, set it up and leverage the built-in 30 day trial time to finish the setup. Towards
+    Commonly, you will download the |prodname| software, set it up and leverage the built-in 30 day trial time to finish the setup. Towards
     the end of the trial, you assign licenses from the partner portal to your
     Server and activate it into a production environment.
 
@@ -71,7 +71,7 @@ most of the time, a server-farm with one single server is sufficient for your us
 
 Tenant Administrator can manage Tenant-Wide functionalities, such as Group Policies. 
 The Cluster Admin is 
-also a Tenant Admin for the very first Tenant (Default Tenant) so the Cluster Administrator manages both Cluster Administration and Tenant Administration. 
+also a Tenant Admin for the very first Tenant (Default Tenant) so the Cluster Administrator manages both Cluster Administration and Tenant Administration (for the default tenant). 
 In the multiple-tenant case, each Tenant Administrator will be responsible
 for the Tenant’s own administration scope.
 

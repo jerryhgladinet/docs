@@ -86,7 +86,7 @@ To configure this setting, you must have a DNS name and SSL certificate setup; t
 
 .. note::
 
-    A tenant is usually mapped to a client of yours, a company or a division of a company.
+    A tenant is usually mapped to a client of yours, a company, or a division of a company.
 
 The Cluster Server is multi-tenant capable, but can also be used for a single Tenant. To add or manage your tenants, choose Tenant Manager **(1)** in your Dashboard. 
 
@@ -100,7 +100,7 @@ You can also access other important settings from this context menu **(2)** (Eac
  - Manage Tenant
  - Force full scan for storage quota usage, 
  - Change Tenant Admin Password, 
- - Edit Existing Default Storage and Delete Tenant. 
+ - Edit Existing Default Storage 
  - Delete Tenant
 
 **Manage Tenant**
@@ -196,7 +196,7 @@ The Users section can manage Users in the Tenant.
 
 Team Folders are used for team-share collaborations. Generally, Team Folders are converted from File Server Network shares. Other Team Folder sources can be Google Storage, Amazon S3 (or S3 Compatible), Amazon Cloud, Windows Azure Blob, WebDav, SharePoint, Rackspace (US or UK) and OpenStack or you can create new folders under the Tenant’s root storage.
 
-On the right side of the tenant manager web interface, there is a right side panel that has 4 items, Cloud Backup, Local Active Directory, Remote Active Directory and Backend Storage.
+On the right side of the tenant manager web interface, if the screen is wide enough, there is a right side panel that has 4 items, Cloud Backup, Local Active Directory, Remote Active Directory and Backend Storage. Otherwise 
 
 .. figure:: _static/image_s4_3_16e.png
     :align: center
@@ -207,7 +207,7 @@ On the right side of the tenant manager web interface, there is a right side pan
 
 ``Tenant Dashboard`` > ``Cloud Backup`` 
 
-Cloud backup allows you to backup team folders in the tenant and also foldres on devices attached to the tenant.
+Cloud backup allows you to backup team folders in the tenant and also folders on devices attached to the tenant.
 
 **Local Active Directory (2)**
 
@@ -297,17 +297,33 @@ In the Admin Access Control, the cluster administrator can decide the division o
     If the cluster administrator is setting it up for the tenant, the cluster administrator can take away this privilege. 
     
 
+**Edit tenant administrator info**
+
+   The Cluster administrator can decide whether to allow the tenant administrator to edit its own information, such as change email.
+   
+ 
+ 
+**Allow tenant to edit branding settings**
+
+   The Cluster administrator can decide whether to allow tenant administrator to have its own branding.
+   
+   
+**Do not show GDPR consent form**
+
+    The EU General Data Protection Regulation (GDPR) is the most important change in data privacy regulation in 20 years.  There are regulations about collecting user information and software needs to provide consent form. 
+    If you have customers in the EU, it is recommended to show the consent form.
+
+
+
+**Allow tenant to increase user plan automatically**
+
+    The Cluster administrator can decide whether to allow the tenant to grow the user count automatically. 
+
+
 **Disable Active Directory integration**
 
     If checked, this will remove AD integration for this tenant. 
 
-
-**Allow tenant to edit LDAP setting**
-
-    In the case the tenant's infrastructure is in the same LAN (Local Area Network) as the Cluster Manager, the tenant's Active Directory can be directly connected via LDAP to the Cluster Server. 
-    
-    If the cluster administrator is setting it up for the tenant, cluster administrator can take away this privilege. 
-    
 
 **Multi AD Domain Support**
 
@@ -319,15 +335,14 @@ In the Admin Access Control, the cluster administrator can decide the division o
     
         If you have single AD forest but contains multiple sub-domain AD domain controller, you don't need to turn on Multi-AD support. Instead, you just point the LDAP to the root forest domain controller and the root forest domain controller will find and identify the sub-domains.
 
+
+
     
 **View and edit group policy**
 
     The Cluster administrator can decide whether to show the group policy section to this tenant.
     
 
-**Edit tenant administrator info**
-
-   The Cluster administrator can decide whether to allow the tenant administrator to edit its own information, such as change email.
     
 
 **Disable file/folder sharing**
@@ -335,29 +350,19 @@ In the Admin Access Control, the cluster administrator can decide the division o
     Disable file and folder sharing from tenant level.
     
 
-**Allow tenant to edit branding setting**
-
-   The Cluster administrator can decide whether to allow tenant administrator to have its own branding.
-
 
 **Hide migration option**
 
     Migration option refers to migrating remote file server(s) from remote customer location(s) to the Cluster Server. Not all clients (customers) have remote file servers, so this tenant level option may not apply all the time.
 
-**Do not show GDPR consent form**
+   
+**Allow tenant to edit LDAP setting**
 
-    The EU General Data Protection Regulation (GDPR) is the most important change in data privacy regulation in 20 years.  There are regulations about collecting user information and software needs to provide consent form. 
-    If you have customers in the EU, it is recommended to show the consent form.
+    In the case the tenant's infrastructure is in the same LAN (Local Area Network) as the Cluster Manager, the tenant's Active Directory can be directly connected via LDAP to the Cluster Server. 
+    
+    If the cluster administrator is setting it up for the tenant, cluster administrator can take away this privilege. 
+    
 
-
-**Allow creation of guest users**
-
-    The Cluster administrator can control whether to allow the specific tenant to have guest users.  
-
-
-**Allow tenant to increase user plan automatically**
-
-    The Cluster administrator can decide whether to allow the tenant to grow the user count automatically. 
 
 
 **Show Data-At-Rest Encryption (DARE) configuration page (Requires empty storage container)**
@@ -365,6 +370,13 @@ In the Admin Access Control, the cluster administrator can decide the division o
     If the tenant has the required encryption of the data
     in the cloud (Cluster Server side), a DARE configuration
     page can be shown upon the first usage to set it up.
+    
+
+**Allow creation of guest users**
+
+    The Cluster administrator can control whether to allow the specific tenant to have guest users.  
+
+
     
 
 **Administrator Information**
@@ -473,7 +485,7 @@ The cluster administrator can help the tenant do the tenant-specific branding in
 
 The branding is applied by the customized URL.
 You can think of the customized URL 
-as a key to retrieve all tenant related 
+as a primary key to retrieve all tenant related 
 branding information.
 
 .. figure:: _static/image_s4_3_20a.png
@@ -498,10 +510,14 @@ The Reports section has the following sub categories
 
     - Upload Report
     - Storage Statistics
+    - Bandwidth Usage
     - Team Folders
     - Shared Objects
     - Audit Trace
     - File Change Logging
+    - Folder Permissions
+    - Distributed Locks
+    - Pending Purged Folders
     
 
 .. figure:: _static/image_s4_3_20b.png
@@ -514,7 +530,7 @@ The Reports section has the following sub categories
 
 ``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Device Manager``
 
-The cluster administrator can look at the devices in the specific tenant.
+The cluster administrator can look at the devices that have the client agent software installed and connected in the specific tenant.
 
 .. figure:: _static/image_s4_3_21.png
     :align: center
@@ -524,7 +540,7 @@ The cluster administrator can look at the devices in the specific tenant.
 
 **Application Manager**
 
-``Tenant Manager`` > ``[Tenant]`` > ``Application Manager``
+``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` >  ``Application Manager``
 
 The cluster administrator can look at the application manager for the specific tenant. 
 
@@ -533,7 +549,6 @@ setup on a per-tenant basis.
 
     - Microsoft Office Web App
     - Pixlr Web App
-    - OnlyOffice Web Application
     - Zoho Web App
 
 .. figure:: _static/image_s4_3_22.png
@@ -544,9 +559,10 @@ setup on a per-tenant basis.
 
 **Notification Manager**
 
-``Tenant Manager`` > ``[Tenant]`` > ``Notification Manager``
+``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Notifications``
 
-The cluster administrator can use the notification manager to help the tenant setup notification events.
+The cluster administrator can use the notification manager to help the tenant setup notification events. The tenant administrator will receive email notifications
+for the events subscribed.
 
 .. figure:: _static/image_s4_3_23.png
     :align: center
@@ -556,7 +572,7 @@ The cluster administrator can use the notification manager to help the tenant se
 
 **Background Tasks**
 
-``Tenant Manager`` > ``[Tenant]`` > ``Background Tasks``
+``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Background Tasks``
 
 There are three different kind of background tasks:
 
