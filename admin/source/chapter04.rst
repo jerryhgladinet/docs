@@ -30,7 +30,7 @@ You can also login directly to the web portal as the tenant administrator instea
 5.1 Tenant Dashboard
 **********************
 
-``Tenant Manager`` > ``Tenant Dashboard``
+``Tenant Manager`` > ``[Tenant]`` > ``Tenant Dashboard``
 
 This is the Tenant Dashboard.
 
@@ -43,6 +43,8 @@ This is the Tenant Dashboard.
 *********************
 5.2 Storage Manager
 *********************
+
+The Storage Manager is at the right panel of tenant dashboard when the screen is wide enough to show the right panel. It will be shown normally on a desktop screen.
 
 .. figure:: _static/image_s5_2_00.png
     :align: center
@@ -202,15 +204,21 @@ Besides local storage, you can also mount cloud storage into the system. If you 
 
 ``Tenant Management Console`` > ``Team Folder``
 
-    The team folder concept is like a network share, meaning you can define a folder and then add users and groups to the folder and thus turn it into a team shared folder. The team folder will show up in the user’s folder list when the user is added to the team folder. 
+.. figure:: _static/image_s5_3_1a.png
+    :align: center
+
+    ENTER TEAM FOLDER SECTION
     
-    When the server agent is in use, the team folder can be mapped directly to a network share from the server where the server agent is installed. 
-    
-    When a directly connected network share is used, a team folder can be mapped to a SMB/CIFS network share directly. 
-    
-    You can also turn any existing folder into a team folder. 
-    
-    A Team folder has a tenant administrator scope so the team folder related sharing is limited to the users inside the tenant.
+
+The team folder concept is like a network share, meaning you can define a folder and then add users and groups to the folder and thus turn it into a team shared folder. The team folder will show up in the user’s folder list when the user is added to the team folder. 
+
+When the server agent is in use, the team folder can be mapped directly to a network share from the server where the server agent is installed. 
+
+When a directly connected network share is used, a team folder can be mapped to a SMB/CIFS network share directly. 
+
+You can also turn any existing folder into a team folder. 
+
+A Team folder has a tenant administrator scope so the team folder related sharing is limited to the users inside the tenant.
 
 .. note::
 
@@ -249,6 +257,10 @@ Once it is clicked, it shows four main sources of team folder, among other optio
 **Existing Tenant Storage (default location)**
 
     When you pick this option to create a team folder, the team folder will be created from the default storage from scratch with an empty team folder. Usually when you want to have a team folder that is brand new and empty, you can pick this option.
+    
+    Another use case is "Existing Folder(s)", which you can pick several existing folders, which physically may not be in the same folder, but you can logically arrange them into the same
+    team folder. For example, you may want to have a short term project that put "Building A", "Blue Print A", "Budget A" , three different folders from three different places into one logical
+    team folder when a group of users collaborating on renovating building A.
 
 .. figure:: _static/image_s5_3_13.png
     :align: center
@@ -317,9 +329,6 @@ Team Folder Permission Setting
 
 In the Collaborators section, you can define:
 
-Display Name:
-
-    The name of the team folder.
     
 User List:
 
@@ -382,15 +391,16 @@ Here is a look at the details of the Team Folder Settings:
 **Disable Offline Access**
 
     Don't allow Windows clients or Mac clients to mark their folders as offline from within the team folder.
-    
-**Synchronize folder permission automatically**
-
-    If the folder is coming from a file server agent, sync the NTFS permission over to the cloud side. This is emulating NTFS permission with the Cluster Server is away from the file server across the Internet.
 
 .. figure:: _static/image_s5_3_18.png
     :align: center
 
     TEAM FOLDER SETTINGS - PERMISSIONS
+    
+**Synchronize folder permission automatically**
+
+    If the folder is coming from a file server agent, sync the NTFS permission over to the cloud side. This is emulating NTFS permission with the |prodname| Server is away from the file server across the Internet.
+
     
 **Don't show folder users doesn't have permissions to access**
 
@@ -463,17 +473,7 @@ If you have Active Directory, normally these are the users in the Active Directo
     these are the users that are imported from Server Agent, where the file server agent is remote and away from the Cluster Server in the customer's site. The customer's Active Directory domain is also remote, and the file server itself (where server agent is installed) is in the
     remote Active Directory.
 
-A create user demo video:
 
-.. raw:: html
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2WF_VSQUyKM" frameborder="0" allowfullscreen></iframe>
-
-A delete user demo video:
-
-.. raw:: html
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6rN0KVQvE2M" frameborder="0" allowfullscreen></iframe>
 
 
 5.4.2 Guest User
@@ -485,9 +485,7 @@ Guest users are users that don’t have a home directory. The only folder they h
 
 The primary reason for guest user to exist is to have a secure way for external user to collaborate and edit documents.
 
-.. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/pisaDwvdu_g" frameborder="0" allowfullscreen></iframe>
 
 
 *******************
@@ -498,9 +496,7 @@ The primary reason for guest user to exist is to have a secure way for external 
 
 When you have Active Directory integration, you will leverage the Active Directory group instead of using Group Manager here. This group manager is to create a group of users in a simple way. It is not as complicated as Active Directory (such as supporting nested groups) but make it easy for non-Active Directory users. This is native Cluster group. In the product, you may also see AD group from the user selection user interface and Proxied AD group from the user related interface. The AD group and the proxied AD group are not the same as the group mentioned here.
 
-.. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/EEoHqI9xWjI" frameborder="0" allowfullscreen></iframe>
 
 
 5.5.1 Role Manager
@@ -510,6 +506,11 @@ When you have Active Directory integration, you will leverage the Active Directo
 
 The Role Manager is to provide role based administration. For example, you may want to provide read-only permissions to some users. You can also assign some group policies to some groups of users. More and more policy items are added to the role manager so in addition to only use role manager for administration, it can be also used to define policy items for users.
 
+.. figure:: _static/image_s5_5_1a.png
+    :align: center
+
+    ROLE MANAGER ENTRY
+
 When creating a role, there are 4 different sections
 
     - Permissions
@@ -518,8 +519,8 @@ When creating a role, there are 4 different sections
     - Assigned Users/Groups
 
 
-Role Manager - Permissions
-----------------------------
+Role Manager - Create New Role
+--------------------------------
 
 You can define areas in the tenant administrator's management console and assign it into a role. 
 
@@ -553,7 +554,7 @@ Additional policies that can be assigned to a role.
 Role Manager - Assigned Users/Groups
 ------------------------------------
 
-Additional policies that can be assigned to a role.
+After the content of the role is all set, users and groups can be assigned to a role.
 
 .. figure:: _static/image_s5_5_10d.png
     :align: center

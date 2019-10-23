@@ -574,11 +574,12 @@ for the events subscribed.
 
 ``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Background Tasks``
 
-There are three different kind of background tasks:
+There are three different kind of background tasks that may take a long time to finish:
 
-    1. Data Seeding
-    2. Storage Scan
-    3. Tenant Storage Migration
+    1. Data Seeding - copying data into |prodname|
+    2. Storage Scan - do a full scan to calculate storage consumption
+    3. Tenant Storage Migration - move tenant storage from location A to location B
+    4. Anchor Migration -  move data out of Anchor and into |prodname|
 
 .. figure:: _static/image_s4_3_23a.png
     :align: center
@@ -618,7 +619,9 @@ Click on the "Plus" sign in the ``New Tenant`` to start the creation of a new te
     
     CREATING A NEW TENANT
 
-The first screen under "New Tenant" is asking for a 
+The first screen under "New Tenant" is asking for "Start from Scratch" or "Import and migrate data from  Anchor".
+
+When you select "Add New Tenant from Scratch", The next screen is asking for a 
 few parameters related to who the tenant is.
 
 .. figure:: _static/image_s4_3_24.png
@@ -626,13 +629,13 @@ few parameters related to who the tenant is.
     
     TENANT MANAGER SETTINGS 1
 
-"Create with Default Settings" will get it done and the tenant will be granted all default settings, including the storage location allocation.
+**"Create with Default Settings"** will get it done and the tenant will be granted all default settings, including the storage location allocation.
 
-"Continue" allows you to customize the settings and storage location.
+**"Continue"** allows you to customize the settings and storage location.
 
-If you pick "Continue",
+If you pick **"Continue"**,
 
-The second screen under "Add Tenant" is asking for the division of work between the cluster administrator and the tenant administrator.
+The second screen under "Add Tenant from Scratch" is asking for the division of work between the cluster administrator and the tenant administrator.
 
 .. figure:: _static/image_s4_3_24b.png
     :align: center
@@ -642,19 +645,24 @@ The second screen under "Add Tenant" is asking for the division of work between 
 The third screen under "Add Tenant" is asking where
 the root storage for the tenant will be at.
 
+.. figure:: _static/image_s4_3_25a.png
+    :align: center
+    
+    ADD TENANT STORAGE OPTIONS 1
 
 **Automatically assign a sub-folder from cluster default tenant**
 
-When selected, the tenant's default storage will be a sub-folder inside the cluster default tenant's storage folder. It is easier to manage when you don't need per-tenant storage access credentials. This is the easiest option because if every tenant is allocated a sub-folder from the default tenant, then the default tenant storage location is a single place to take care of all of your storage needs.
+When selected, the tenant's default storage will be a sub-folder inside the cluster default tenant's storage folder. It is easier to manage when you don't need per-tenant storage access credentials. This is the easiest option because if every tenant is allocated a sub-folder from the default tenant, then the default tenant storage location is a single place to take care of all of your storage needs. The storage location is sandboxed away from the default tenant so even though from a physical location's perspective, it is a sub folder of the default tenant, but the default tenant will
+not be able to see the folder from |prodname|.
     
 **Use existing file server or local disk as default storage**
 
-Using this option, you can connect the tenant's root folder to a file server network share. If you want the tenant users to continue to share file server network share from the Cluster Server, it is recommended you use the "Import Network Share" feature instead of pointing the default storage to the file server share, because the Cluster Server will assume it has 100% of the control of the storage location. 
+Using this option, you can connect the tenant's root folder to a file server network share. If you want the tenant users to continue to share file server network share outside of |prodname|, it is recommended you use the "Import Network Share" feature in "Team Folder" instead of pointing the default storage to the file server share, because the Cluster Server will assume it has 100% of the control of the storage location. 
 
 .. figure:: _static/image_s4_3_25.png
     :align: center
     
-    DEFAULT STORAGE SETTINGS
+    ADD TENANT STORAGE OPTIONS 2
 
 **Use Cloud Storage as default storage**
 
@@ -805,7 +813,7 @@ After the container information is all set, the tenant account will be created.
 4.4 Cluster Admin
 *****************
 
-``Cluster Manager`` > ``Cluster Admin``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Cluster Admin``
 
 Cluster Admin section is to change the properties of the default administrator and also to add additional people to be the cluster administrators. Access the Cluster Admin in the panel on the right of your Tenant Dashboard or from the Cluster Control Panel view.  
 
@@ -825,6 +833,12 @@ Cluster Branding is for changing the logo, bitmaps and other branding related in
 Both rely on the “Cluster Branding” to change the look-and-feel of the web portal. 
 
 Built-in branding will work with white-label clients, which upon the first connection to the cluster, will download the branding related information and  use the branding related information. As compared to full-branding service, the full branding clients will have artworks, logo bitmaps and related information burned into the client binaries.
+
+.. figure:: _static/image_s4_5_00.png
+    :align: center
+    
+    CLUSTER BRANDING
+    
 
 4.5.1 General
 ^^^^^^^^^^^^^^^
@@ -988,68 +1002,19 @@ You can configure the MAC client and MAC client installation package branding un
 
 **Installation Package Branding**
 
-There is some preparation work required in order to create the MAC client branded installation package. Please read the description and follow all the steps listed under this setting.
+You can brand the Mac software agent package as well. You will need to go to https://www.centrestack.com/, login as a partner and go to the "Branding" section to create a branding task.
+The task will be fulfilled and completed and a Mac software agent package will be available for download once the branding task completes. It may take a couple of days for the task to finish.
 
 .. figure:: _static/image_s4_5_41.png
     :align: center
     
-    MAC INSTALLATION USING BASH TRANSFORM SCRIPT
-
-The transformation of the Mac installation package is done by a bash transform script (transform.sh). Prior to the transform, there are some preparation work.
-
-Step 1 - Acquire Apple Mac Developer Account:
-
-The Mac Installer (PKG) file will need to be signed by the Apple Mac Developer Account. Otherwise the pkg will be blocked by the later Mac OS such as 10.9 or 10.10.
-
-After you acquire the Mac Developer account, you can download the signing certificates, one for signing application files and
-one for signing the installer packages.
-
-You can find the name of your certificates from the KeyChain Access application.
-
-For example, the signing certificate names may look like these:
+    MAC CLIENT BRANDING IN PARTNER PORTAL
+    
 
 .. note::
 
-      “Developer ID Application: Gladinet, Inc. (CX8U2YJ96P)”
-
-      “Developer ID Installer: Gladinet, Inc.”
-
-You can modify the transform script to use these certificates.
-
-Step 2 - Prepare your branding information:
-
-All the branding information such as product name and branding artworks are contained in one single directory. You can use the test branding folder as an example and replace all the information contained inside to have all the branding information ready.
-
-The folder will be an input command line parameter to the transform script.
-
-Step 3 - Prepare the PKG files:
-
-In the standard Gladinet Mac binaries, there are a couple DMG files. DMG files are Mac image files. When you mount the DMG files, you will see a PKG file in each of the DMG files. The PKG file will be the input to the transform script.
-
-Once you have the PKG file, the signing certificate and the branding folder, you are ready to do the transformation.
-
-Step 4 - Change the transform script to use your certificate:
-
-Locate the two lines inside the transform script and replace these two lines to use your own certificates.
-
-.. code-block:: bash
-
-    readonly SIGN_APP_STR=”Developer ID Application: Gladinet, Inc. (CX8U2YJ96P)” 
-    readonly SIGN_PKG_STR=”Developer ID Installer: Gladinet, Inc.”
-
-
-
-Step 5 - Apply the transform:
-
-The syntax for the transform is  transform.sh branding_dir mac_pkg_file
-
-
-.. code-block:: bash
-
-   
-The generated branding installer will be called output.pkg in the same folder
-
-You can read the ``transform.sh`` shell script for more details.
+    Mac software package branding is different from the Windows software package branding because the Mac software package branding will need to be done on a Mac machine. So the task will
+    be created on the partner portal but will be completed asynchronously on a Mac machine.
 
 
 4.5.5 Android Client
@@ -1058,7 +1023,7 @@ You can read the ``transform.sh`` shell script for more details.
 .. note::
 
     Branding the android client can now be automated from your partner portal (http://www.centrestack.com). 
-    The information here in this section is preserved for legacy reference. Please goto http://www.centrestack.com to brand the Android client.
+    Please goto http://www.centrestack.com to brand the Android client.
 
 The branding of Android client and iOS client is done from www.centrestack.com, instead 
 of from your own  server. 
@@ -1156,9 +1121,9 @@ You can either export the branding settings to another cluster or you can import
 4.6 Email Service
 *****************
 
-``Cluster Manager`` > ``Email Service``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Email Service``
 
-There are many places in the Cluster Server solution that the user needs to be contacted by Email. The Email service is used to set up the SMTP email service to send out the emails.
+There are many places in the |prodname| solution that the user needs to be contacted by Email. The Email service is used to set up the SMTP email service to send out the emails.
 
 By default, it works out of box using the default email service with the Cluster Server's customer support email address as the sender.
 
@@ -1190,7 +1155,7 @@ In the Authenticate User field, if your SMTP service doesn't require authenticat
 4.7 Cluster Server Farm
 ***********************
 
-``Cluster Manager`` > ``Cluster Server Farm``
+``Cluster Manager`` > ``(Worker Node) Cluster Server Farm``
 
 Cluster Server Farm has two types of nodes, one is “Worker Node” and the other is “Web Nodes”.
 
@@ -1248,16 +1213,16 @@ There are some settings that apply to all worker nodes. After you click on the "
 
 **Always force SSL on Login**
 
-    In a production environment, almost 100% of the time you will need to check “Always force SSL on Login”. When this is checked and when the Cluster Server detects that the incoming connection is HTTP, it will do a redirect to HTTPS. If you turn on SSL, you will need to setup SSL certificate first.
+    In a production environment, almost 100% of the time you will need to check “Always force SSL on Login”. When this is checked and when |prodname| detects that the incoming connection is HTTP, it will do a redirect to HTTPS. If you turn on SSL, you will need to setup SSL certificate first.
 
-    However, if you have SSL-offload, such that SSL is offloaded to a hardware appliance, and after that, the incoming connection is HTTP between the hardware appliance and the Cluster Server. In this SSL-offload case, you will NOT check “Always force SSL on Login” because it will create an infinite redirect loop because the incoming connection is always HTTP as far as the Cluster Server is concerned.
+    However, if you have SSL-offload, such that SSL is offloaded to a hardware appliance, and after that, the incoming connection is HTTP between the hardware appliance and |prodname|. In this SSL-offload case, you will NOT check “Always force SSL on Login” because it will create an infinite redirect loop because the incoming connection is always HTTP as far as the |prodname| Server is concerned.
 
 
 **Always force SSL for Native Clients**
 
     In a production environment, almost 100% of the time you will need to check “Always force SSL for Native Clients”.
 
-    Especially, in the case of SSL-Offload, you MUST check “Always force SSL for Native Clients”. Otherwise, the Cluster Server may think that the incoming connection is HTTP so it will continue to encourage the native clients (such as Windows client) to use HTTP instead of using HTTPS.
+    Especially, in the case of SSL-Offload, you MUST check “Always force SSL for Native Clients”. Otherwise, the |prodname| Server may think that the incoming connection is HTTP so it will continue to encourage the native clients (such as Windows client) to use HTTP instead of using HTTPS.
     
     .. note::
     
@@ -1396,8 +1361,31 @@ is coming from LA zone, the user will need to be assigned to LA zone.
 
 ``Cluster Manager`` > ``Reports``
 
+4.8.1 Upload Report
+^^^^^^^^^^^^^^^^^^^^^
 
-4.8.1 Active Users
+Upload report tab shows you graphs for all the uploads that have taken place in the last sixty minutes, 24 hours,
+30 days and a whole week.
+
+.. figure:: _static/image_s4_8_40.png
+    :align: center
+    
+    UPLOAD REPORT
+    
+    
+4.8.2 Storage Statistics
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Under storage statistics, you can see a quick overview of the overall storage statistics, size distribution
+file type distribution pie charts, and users who have used the most storage so far.
+
+.. figure:: _static/image_s4_8_50.png
+    :align: center
+    
+    STORAGE STATISTICS REPORT
+
+
+4.8.3 Active Users
 ^^^^^^^^^^^^^^^^^^^^^
 
 Active users reports the activity of users on the web portal. The active users report doesn't include users from windows client or other native clients because those users are more persistent (always there). To access this report, in the left-side menu, click ``Reports`` **(1)** then click the drop-down menu **(2)** and choose "Active Users" **(3)** from the menu. 
@@ -1410,13 +1398,13 @@ Active users reports the activity of users on the web portal. The active users r
     ACTIVE USERS REPORT
 
 
-4.8.2 Guest Users
+4.8.4 Guest Users
 ^^^^^^^^^^^^^^^^^^^^
 
 Other reports are also available such as Guest Users **(3)**, which are users that don't have a home directory but are invited to participate on some shared folders and shared files.
 
 
-4.8.3 Node Performance
+4.8.5 Node Performance
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can use the Node Performance to check out the worker node health and the database health.
@@ -1484,29 +1472,6 @@ You can use the Node Performance to check out the worker node health and the dat
 Under reports you can look at the upload graphs and storage statistics.
 
 
-4.8.4 Upload Report
-^^^^^^^^^^^^^^^^^^^^^
-
-Upload report tab shows you graphs for all the uploads that have taken place in the last sixty minutes, 24 hours,
-30 days and a whole week.
-
-.. figure:: _static/image_s4_8_40.png
-    :align: center
-    
-    UPLOAD REPORT
-
-
-4.8.5 Storage Statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Under storage statistics, you can see a quick overview of the overall storage statistics, size distribution
-file type distribution pie charts, and users who have used the most storage so far.
-
-.. figure:: _static/image_s4_8_50.png
-    :align: center
-    
-    STORAGE STATISTICS REPORT
-
 
 4.8.6 Bandwidth Usage
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1517,11 +1482,39 @@ This shows the overall bandwidth usage statistics as well as more granular tenan
     :align: center
     
     BANDWIDTH USAGE REPORT
+    
+
+4.8.7 System Diagnostic Report
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Click the Start Scanning button to generate system diagnostic report.
+
+.. figure:: _static/image_s4_8_71.png
+    :align: center
+    
+    GENERATE REPORT
+    
+A sample system diagnostic report is shown below.
+
+.. figure:: _static/image_s4_8_72.png
+    :align: center
+    
+    SYSTEM DIAGNOSTIC REPORT
+
+4.8.8 Audit Trace
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+This is a sample audit trace. 
+
+.. figure:: _static/image_s4_8_80.png
+    :align: center
+    
+    AUDIT TRACE
 
 
 **Cluster Settings**
 
-``Cluster Manager`` > ``Cluster Settings``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Cluster Settings``
 
 Under cluster settings, you can configure auto-client update, web applications, and other settings like 2-Step
 Verification, multiple domain support, etc..
@@ -1618,7 +1611,12 @@ Windows Azure Active Directory:
 4.8.10 (Client Version Manager) Client Auto Update
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Client Version Manager``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Client Version Manager``
+
+.. figure:: _static/image_s4_8_101.png
+    :align: center
+    
+    CLIENT VERSION MANAGER
 
 For Windows Client, Mac Client and Windows Server Agent, there is an auto client update feature. Each upgrade package contains
 the updated clients. By clicking on the ``Publish`` button [see **(1)** below], the newer package can be published to clients out there.
@@ -1658,17 +1656,27 @@ Once a client is published for client auto upgrade, you can use ``Unpublish`` **
 **Server Agent**
 
     Windows Server Agent can be separately published for auto upgrade.
+    
+.. figure:: _static/image_s4_8_102.png
+    :align: center
+    
+    SERVER AGENT AUTO UPGRADE
 
 
 **Mac Client**
 
     Mac client can be separately published for auto upgrade.
+    
+.. figure:: _static/image_s4_8_103.png
+    :align: center
+    
+    MAC CLIENT AUTO UPGRADE
 
 
 4.8.11 Application Manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Application Manager``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Application Manager``
 
 You can also configure Web Apps under ‘Application Manager’ tab in Cluster Settings. This will enable the users to edit documents using the web apps. The applications here only apply to web portal based editing.
 
@@ -1690,7 +1698,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 4.8.12 Settings
 ^^^^^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings``
 
 .. figure:: _static/image_s4_8_120.png
     :align: center
@@ -1703,7 +1711,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 4.9 Cluster Settings
 ********************
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Cluster Settings``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Cluster Settings``
 
 .. figure:: _static/image_s4_9_00.png
     :align: center
@@ -1728,6 +1736,8 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 
 **Enable Content Management Policies** – Reserved
+
+**Show file dashboard by default**
 
 
 **Hide ‘Forgot your password’ link on login**
@@ -1790,6 +1800,9 @@ Once an application is enabled, you will be able to see the context menu entry f
 
     There are two ways in the system to generate PDF preview. This setting will force the system to use one way or the other. For example, force it to use Ghostscript to generate PDF preview.
 
+**Preview pdf files with browser builtin viewer**
+
+    When selected, the PDF file will be rendered in the web browser on the web browser side. Otherwise, it is rendered on the server side first and shown to the end user in browser.
 
 **Retrieve avatar from third party service (i.e. Google)**
 
@@ -1805,6 +1818,22 @@ Once an application is enabled, you will be able to see the context menu entry f
 
     This is a security feature. The result is every time the windows client is done running, the next time the user tries to login, it will not remember the login token and the user will have to re-type the credential to get in.
 
+**Use short url**
+
+    Use shorter URL for web links generated for file/folder sharing.
+
+**Allow personal data tagging**
+
+**Attach local folder using in place versioned folder**
+
+    When synchronize folders from remote PC/Mac to |prodname|, using in place versioned folder will make the folder keep the same folder structure as the folder that is being uploaded.
+    Otherwise |prodname| manage the folder content on the server side in its own ways.
+    
+**Only allow access performance information from local host**
+
+    only allow accessing performance data from http://localhost and not from external URL.
+    
+**Show 'Import Network Share' on cluster dashboard**
 
 **Web Browser Session Timeout (minutes, 0 - never timeout)**
 
@@ -1865,10 +1894,21 @@ Once an application is enabled, you will be able to see the context menu entry f
     This is to prevent user downloading a very big folder and using up all the Cluster Server resources.
 
 
-4.9.2 Languages
+4.9.2 Timeouts and Limits
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Timeouts and Limits``
+
+.. figure:: _static/image_s4_9_21.png
+    :align: center
+    
+    TIMEOUTS AND LIMITS
+    
+
+4.9.3 Languages
 ^^^^^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Languages``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Languages``
 
 .. figure:: _static/image_s4_9_20.png
     :align: center
@@ -1880,10 +1920,10 @@ This section sets up the web portal languages and also the client application la
 for Windows client.
 
 
-4.9.3 Branding
+4.9.4 Branding
 ^^^^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Branding``
+``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Branding``
 
 .. figure:: _static/image_s4_9_30.png
     :align: center
@@ -1914,7 +1954,7 @@ for Windows client.
     This setting only applies to full-branding clients. For the full-branding client, it is possible to lock the full-branding clients to only connect to the branded Cluster Server. When set, it will lock out the white-label clients or other non-branding clients and will not allow them to connect.
 
 
-4.9.4 Change Log
+4.9.5 Change Log
 ^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Change Log``
@@ -1948,6 +1988,10 @@ for Windows client.
     
     The Cluster Server database is split into the core part and the logging part. The core part can store the DB connection string that connects to the secondary database. This setting used to be in the web.config file.
 
+4.9.6 License String
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``License String``
 
 **License String** – Reserved.
 
