@@ -642,40 +642,31 @@ Sharing Settings
 
     GROUP POLICY SHARING SETTINGS
 
-**“User must login to access shared files/folders”**
+**“Users must log in to access the content in 'Files shared with me' folder”**
 
     When sharing files and folders with users, you can force the sharing to create guest accounts for users that are not already in the system. It is more secure when asking the receiver of the share to sign in to receive shared items. This disables the anonymous sharing.
 
     If this setting is not enabled, users can share files and folders to outside email address without requiring outside user to create guest user account.
 
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/WHhN7_L2TW8" frameborder="0" allowfullscreen></iframe>
 
 
 **“Disable user's ability to share home directory content externally”**
 
     This feature disables the ability for regular user to share home directory contents for security reasons.
 
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/qAU971AIZx4" frameborder="0" allowfullscreen></iframe>
 
 
 **“Enable Internal Public Share URL”**
 
     If you have an internal public share you can use this setting to enable it.
 
-    When this is enabled, it will use the Internal URL property to generate the link.
+    When this is enabled, it will use the Internal URL property to generate a web link for shared file/folder.
 
 
 **Disable Public Link**
 
-    This will disable the public link feature in the sharing dialog.
+    This will disable the public web link feature in the sharing dialog.
 
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8fqWrzddcI" frameborder="0" allowfullscreen></iframe>
 
 
 **“Show guest user creation option”**
@@ -692,9 +683,6 @@ Sharing Settings
 
     When enabled, the user list will be displayed in the recipient's dropdown list.
 
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/fMRtzQ3RKGg" frameborder="0" allowfullscreen></iframe>
 
 
 **"Show guest user list in sharing dialog"**
@@ -711,6 +699,9 @@ Sharing Settings
 
     By default the file name or folder name is used for the share name. However, if user has many same name folders or files. Sharing them out sometimes many not know which is which. This setting allows user to change share name. For example, when sharing out a "Documents" folder, it can be named "Documents in top level folder".
 
+**"Send a copy of file sharing invitation email to share owner"**
+
+    When sending the file sharing email, sending a copy (CC) to the owner of the share (usually the sender of the email)
 
 **"Don't append email to shared object name under 'Files Shared With Me'"**
 
@@ -736,6 +727,9 @@ Sharing Settings
 
     When set, this creates an upper limit to the time a share will be available, which forces all shares to expire when this limit is reached. 
 
+**"Notify share owner n days before share expiring (0 - do not notify)"**
+
+    Notify the sender (owner) of the share before share expiration.
 
 **"Expiration Time for public links (Days):"**
 
@@ -751,6 +745,9 @@ Sharing Settings
 
     You can further limit the sharing to some domain instead of random email. For example, if your primary collaboration target is with ACME corporation and you can limit the sharing to your domain and also ACME domain.
 
+**"Only allow sending shares to the specified domain(s) (i.e. company.com;company1.com)"**
+
+    When it is set, the external sharing can only be shared to the white-list of email domains (which represent external partners, clients and etc)
 
 **“Default folder to store attachments from Outlook plugin (/folder/subfolder)”**
 
@@ -761,6 +758,14 @@ File Locking Settings
 -----------------------
 
 ```Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` > ``File Locking``
+File Locking can be accessed from the following location in the Tenant Dashboard's Group Policy section. 
+
+.. figure:: _static/image_s5_6_13.png
+    :align: center
+
+    GROUP POLICY FILE LOCKING
+    
+After you click the "File Locking" icon, here is the screen for the file locking settings details.
 
 .. figure:: _static/image_s5_6_13a.png
     :align: center
@@ -778,11 +783,9 @@ Settings under file locking applies to all clients which include desktop clients
 
 **“Lock file exclusively”**
 
-    When set, the other user won’t be able to open the file for edit or read.
+    When enabled, the locked file will be locked exclusively. When disabled, the other user who is trying to open the locked file will be notified about the lock status, but will still be able to open the file.
 
-.. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/WINfIbvZkvI" frameborder="0" allowfullscreen></iframe>
 
 
 **“Automatically open file in read only mode when file is locked and "Lock file exclusively" is not checked.”**
@@ -831,17 +834,8 @@ Settings under file locking applies to all clients which include desktop clients
     You can use this setting to specify which file types will be ignored with regard to the file-locking feature. 
 
 
-File Locking
-----------------
 
-``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` >  ``File Locking``
 
-File Locking can be accessed from the following location in the Tenant Dashboard's Group Policy section. 
-
-.. figure:: _static/image_s5_6_13.png
-    :align: center
-
-    GROUP POLICY FILE LOCKING
 
 
 Client Setting Manager
@@ -883,6 +877,21 @@ Full Speed Sync Stop Hour (default 7:00):
 Full Speed Sync Start Hour (default 20:00)
 
     Similar to the above setting, we recommend start full speed sync after working hours.
+
+
+Scheduled Sync
+++++++++++++++++++++++
+
+**Enable Scheduled Sync**
+
+    On the client side, in addition to a mapped drive (or a mac mounted volume), there is also functionality about folder synchronization. This setting can
+    control when to sync. For example, if the business has limited bandwidth to the Internet, avoid doing synchronization during the working hours 
+    can save bandwidth.
+    
+.. figure:: _static/image_s5_6_14a1.png
+    :align: center
+
+    SCHEDULED SYNC SETTINGS    
 
 
 Mapped Drive Control
@@ -1138,9 +1147,6 @@ The cloud monitoring service on the Cluster Server will be responsible for the r
 
     There are times when an admin would not want to send or see delete email notifications for purged contents.
 
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/m7rMNlo1KRI" frameborder="0" allowfullscreen></iframe>
 
 **"Include deleted but not yet purged items in storage quota"**
 
@@ -1855,11 +1861,6 @@ You can define a group of administrators here.
 
     ADDING/EDITING TENANT ADMINISTRATORS
 
-Here is a demo video for adding delegated administrators.
-
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/5I97Ft9ieFo" frameborder="0" allowfullscreen></iframe>
 
 
 ***************************
