@@ -1217,6 +1217,8 @@ This is how "User Account" settings looks when "2-Step Verification is not turne
     GROUP POLICY USER ACCOUNT SETTINGS
 
 
+
+
 Guest User
 +++++++++++++++
 
@@ -1230,9 +1232,72 @@ Account Info
 **“Allow user to edit account info”**
 
     When enabled (default), this setting allows users to edit their account information.
+    
+**“Allow proxied AD user to change native password (Non AD Password)”**
+
+    Proxied AD user refers to Active Directory users from remote server agent machine. Normally the initial password and changed password are 
+    synchronized from the server agent side periodically so the end user is always using the same Active Directory credentials to log in.
+    However, there may be cases when you want the user to break away from the old Active Directory and setup credential natively on 
+    |prodname|.
+    
+
+2-Step Verification 
+++++++++++++++++++++++
+
+.. figure:: _static/image_s5_6_21b.png
+    :align: center
+
+    GROUP POLICY USER ACCOUNT SETTINGS (Cont.)
+    
+    
+**"Enforce 2-Step Verification on users"**
+
+    Enforce 2-step verification will force the users to setup 2-step verification via Google Authenticator, Microsoft Authenticator, Amazon MFA or any app that supports the same 2-step verification algorithm.
+
+**"Do not enforce 2-Step Verification on Windows client"**
+
+    Tuning on windows client whether to enforce 2-step verification
+    
+**"Do not enforce 2-Step Verification on Mac client"**
+
+    Tuning on mac client whether to enforce 2-step verification
+
+**"Do not enforce 2-Step Verification on Mobile client"**
+
+    Tuning on windows client whether to enforce 2-step verification
+
+**"Disable 2-Step Verification"**
+
+    Disable 2-step verification. One possible use case is when 2-step verification is no longer needed or 2-step verification needs
+    to be disabled temporarily.
+    
+**"Do NOT enforce 2-Step Verification on guest users"**
+
+    Guest users may have a set of credentials to login to receive shared files and folders. This policy define whether to enforce 2-step
+    verification for them.
+    
+**"Disable option to request 2-step verification code by email"**
+
+    If user doesn't have the 2-step verification app on the mobile device, the alternative is to send the code to user's email.
+    
+**"Do not send verification code in email subject"**
+
+    If the code has to be sent over email, don't send the code in the subject line.
+
+
+
+
+
+
 
 Login Control 
 +++++++++++++++
+
+    
+.. figure:: _static/image_s5_6_21c.png
+    :align: center
+
+    GROUP POLICY USER ACCOUNT SETTINGS (Cont.)
 
 **“Account Lockout Threshold (0 - never lockout):”**
 
@@ -1255,41 +1320,6 @@ Login Control
     Determines if and when the Web Browser Session timeout, in minutes, will occur. Default is 120 minutes. 
 
 
-2-Step Verification
-+++++++++++++++++++++
-
-These settings will appear under the User Account settings only when the Cluster Manager has enabled 2-Step Verification is turned on in ``Cluster Control Panel`` > ``Settings``.
-
-.. figure:: _static/image_s5_6_21a.png
-    :align: center
-
-    2-STEP VERIFICATION SETTINGS
-
-**"Enforce 2-Step Verification on users"**
-
-    Disabled by default. When 2-Step verification is enabled, enforce it for all tenant users. 
-
-You can determine which device users are required to use 2-Step Verification by setting these options.  
-
-    * Do not enforce 2-Step Verification on Windows client
-    * Do not enforce 2-Step Verification on Mac client
-    * Do not enforce 2-Step Verification on Mobile client
-
-**Disable 2-Step Verification**
-
-    When 2-Step verification is enabled, disable it.
-
-**Do NOT enforce 2-Step Verification on guest users**
-
-    When unchecked (default), guest users are required to use 2-Step verification if it is enforced above. Enable this option if you want to allow guest users access without 2-Step verification. 
-
-**Disable option to request 2-step authentication code by mail**
-
-    When unchecked (default), users can request 2-step authentication codes by email. Enable this to remove this option. 
-
-**Do not send authentication code in email subject**
-
-    When unchecked (default), users will see the authentication code in the email subject line. Enable this to remove the authentication code from the subject line. 
 
 
 Password Policy Settings
@@ -1338,6 +1368,15 @@ Single Sign-On Settings
 
 ``Tenant Management Console`` > ``Group Policy`` > ``Account & Login`` > ``Single Sign-On``
 
+Single Sign on via SAML is a per-tenant setting. 
+
+.. figure:: _static/image_s5_6_23a.png
+    :align: center
+    
+    ACCESSING TENANT GROUP POLICY SETTINGS
+    
+
+
 .. figure:: _static/image_s5_6_23.png
     :align: center
 
@@ -1354,17 +1393,62 @@ When it comes to Single Sign-On support via SAML, there are always two parties.
 A user will be registered with the identity provider and use the service from service provider. 
 The setup here is to allow service provider (the Cluster Server) to use an identity provider.
 
+The SAML single sign on setup is mostly about matching parameters from the identity provider to the identity consumer (service provider).
+As shown in the screen capture, There are three types of identity provider, "Azure AD" , "AD FS" , and "others (generic)" that 
+pretty much covers the most used ones and the most generic ones.
+
+
+Azure AD
+----------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Account & Login`` > ``Azure AD``
+
+Azure AD integration allows users to use their Azure AD credentials to login to the Cluster Server, including web portal and native clients.
+
+You will still need to create Azure AD users as if they were local Cluster users first. After that, you can enable Azure AD integration.
+
+To enable Azure AD integration, you will need to create 
+an Azure AD native client application.
+
+.. figure:: _static/image191.png
+    :align: center
+
+    ENABLE AZURE AD INTEGRATION
+
+You will need the client id from the Azure Native Client Application
+
+.. figure:: _static/image192.png
+    :align: center
+
+    AZURE CLIENT ID FIELD
+
+You will give the Azure Native Client Application full read permission
+to the following two items
+
+    - Azure Active Directory
+    - Microsoft Graph API
+    
+.. figure:: _static/image193.png
+    :align: center
+
+    AZURE PERMISSIONS TO OTHER APPLICATIONS
+
+You will also need the domain name
+
+.. figure:: _static/image194.png
+    :align: center
+
+    AZURE DOMAIN SETTING
+    
+Others (Generic SAML)
+---------------------------
+
 Here, The IdP will be a public IdP such as SSOCircle and the SP will be the Cluster Server. The SSOCircle is used as an example to set up the IdP;
 it can work with other IdP as well.
 
 In a multi-tenant Cluster Server deployment each tenant may want to have its own SSO service. Therefore, the Single Sign On is a per-tenant setting.
 
-You can find the Single Sign-On setting under ``management console`` > ``group policy`` > ``security``.
 
-.. figure:: _static/image_s5_6_23a.png
-    :align: center
-    
-    ACCESSING TENANT GROUP POLICY SETTINGS
 
 **Step 1: Register the Cluster Server at IdP**
 
@@ -1435,51 +1519,11 @@ it will redirect back to the SP side.
     IDP SIDE SIGLE SIGNON
 
 
-Azure AD
-----------
-
-``Tenant Management Console`` > ``Group Policy`` > ``Account & Login`` > ``Azure AD``
-
-Azure AD integration allows users to use their Azure AD credentials to login to the Cluster Server, including web portal and native clients.
-
-You will still need to create Azure AD users as if they were local Cluster users first. After that, you can enable Azure AD integration.
-
-To enable Azure AD integration, you will need to create 
-an Azure AD native client application.
-
-.. figure:: _static/image191.png
-    :align: center
-
-    ENABLE AZURE AD INTEGRATION
-
-You will need the client id from the Azure Native Client Application
-
-.. figure:: _static/image192.png
-    :align: center
-
-    AZURE CLIENT ID FIELD
-
-You will give the Azure Native Client Application full read permission
-to the following two items
-
-    - Azure Active Directory
-    - Microsoft Graph API
-    
-.. figure:: _static/image193.png
-    :align: center
-
-    AZURE PERMISSIONS TO OTHER APPLICATIONS
-
-You will also need the domain name
-
-.. figure:: _static/image194.png
-    :align: center
-
-    AZURE DOMAIN SETTING
 
 
 5.6.3 Folder & Storage
 ^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 ``Tenant Management Console`` > ``Group Policy`` > ``Folder & Storage``
 
@@ -1487,38 +1531,7 @@ You will also need the domain name
     :align: center
 
     FOLDER AND STORAGE PANEL
-
-These are the settings available to the tenant manager in the Folder and Storage view.
-
-.. figure:: _static/image_s5_6_30a.png
-    :align: center
-
-    FOLDER AND STORAGE SETTINGS
-
-**Allow users to attach external cloud storage**
-
-    Disabled by default. After this is enabled, your user must log out and in again for this feature to take effect. 
-
-**Disable versioned folder**
-
-    Disabled by default. When this setting is enabled, the Versioned Folder feature will be hidden. 
-
-**Disable Trash Can**
-
-    Disabled by default. When this setting is enabled, the Trash Can feature will be hidden. 
-
-**Don't show folder that user doesn't have read permission**
-
-    Disabled by default. When this setting is enabled, users will not see folder for which they do not have permissions. 
-
-**Don't show Trash Can for non-admin user**
-
-    Disabled by default. When this setting is enabled, users will not see the Trash Can unless they are administrators. 
-
-**Do not append '(Team Folder)' to published folder.**
-
-    Disabled by default. When this setting is NOT enabled, system will automatically append '(Team Folder)' for team user. 
-
+    
 
 Home Directory
 ----------------
@@ -1550,15 +1563,29 @@ Home Directory
 
     This option supports clients and servers from previous versions of Windows that use Security Account Manager (SAM)type user accounts. 
 
+**"Publish user's home drive"**
+
+    When unchecked, the user home drive space will be allocated from enterprise storage. When checked, existing user home drives will be automatically published from Active Directory.
+
+**"Mount user's home drive as a top level folder."**
+
+    Without this option, the user's home drive from active directory mapping will become the root folder in |prodname|. However, if the user also have network shares mapped into |prodname|, those network shares
+    will appear as top level folders. So in this use case, mapping user's home folder as a top folder
+    is more in parallel to the other network shares.
+
+
 Folder and Storage Settings
 -----------------------------
 
 ``Tenant Management Console`` > ``Group Policy`` > ``Folder and Storage``
 
-.. figure:: _static/image_s5_6_31a.png
+These are the settings available to the tenant manager in the Folder and Storage view.
+
+.. figure:: _static/image_s5_6_30a.png
     :align: center
 
     FOLDER AND STORAGE SETTINGS
+
 
 **“Allow users to attach external cloud storage”**
 
@@ -1583,9 +1610,10 @@ Folder and Storage Settings
     with network share as backend storage, the user’s permission to the folders are checked natively. When this option
     is set, for those folders that users doesn’t have read permission, the folder will be hidden.
 
-.. raw:: html
+**"Don't show team folder that the user doesn't have read permission to the underlying folder"**
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/sJk0D_Zvq3k" frameborder="0" allowfullscreen></iframe>
+    In the folder listing, if the user don't have read permission, sometimes it is better off not to show 
+    the folder to the user.
   
 **Don't show Trash Can for non-admin user**
 
@@ -1631,6 +1659,31 @@ Attached Folder Settings
 
     By default, empty file (0-byte) will be skipped for syncing in attached folder.
     when enabled, those files will be synchronized.
+    
+**"Allow syncing of hidden files"**
+
+    Hidden files by default will not sync.
+
+**"Allow executable files (.exe)"**
+
+    Executable files by default will not sync.
+
+**"Allow ISO files (.iso)"**
+
+    Executable files by default will not sync.
+
+**"Allow backup files(.bck, .bkf,.rbf, .tib)"**
+
+**"Allow VMs (.hdd, .hds, .pvm, .pvs, .vdi, .vfd, .vhd, .vmc, .vmdk, .vmem, .vmsd, .vmsn, .vmss, .vmtm, .vmwarevm, .vmx, .vmxf, .vsv, .nvram, .vud, .xva)"**
+
+**"Allow application folders"**
+
+    Application folder by default will not sync.
+
+**"Allow application data folders"**
+
+    Application data folder by default will not sync.
+
 
 **Enable scheduled sync for files with following extensions**
 
@@ -1670,9 +1723,14 @@ Filters Settings
     to peek into large files to generate thumbnail and present other information. It may not be a good fit for
     cloud drive files because each peek will generate a download from cloud.
 
-**Allow file without file name extension**
+**"Allow file without file name extension"**
 
     Allow files without extension suffix to synchronize.
+    
+    
+**"Allow syncing empty file"**
+
+    This is the same setting as in the "Attached Folder" section.
 
 
 5.6.4 Client Control
@@ -1699,9 +1757,7 @@ Web Portal Settings
 
     Disabled by default. The folder download from web client will zip up the folder and download it. It is CPU intensive so if you don’t want it to be consuming too much CPU, you can disable it using this setting.
 
-.. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/F3SoPhfhs7g" frameborder="0" allowfullscreen></iframe>
 
 **“Disable Search”**
 
@@ -1735,9 +1791,6 @@ Web Portal Settings
 
     The advanced setting refers to “Create CIFS Share”, “Disable further sharing”, and “Disable Offline Access” settings.
 
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Bs8kongqi0E" frameborder="0" allowfullscreen></iframe>
 
 **"Disable 'Publish Tenant Home Storage As a Team Folder'"**
 
