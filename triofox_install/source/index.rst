@@ -11,7 +11,7 @@ Triofox includes the Triofox server, which runs on the Microsoft Windows server 
 
 See also: 
 
-.. _Triofox: https://www.triofox.com
+`Triofox <https://www.triofox.com>`_
 
 Overview
 ==========
