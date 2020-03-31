@@ -18,6 +18,9 @@ or for the managed service provider.
 
 .. image:: _static/SelfHostedCentreStackDirectShare.svg
 
+See also :
+
+`Remote File Server Access <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_
 
 Preparation
 ---------------------
