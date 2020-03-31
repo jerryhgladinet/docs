@@ -10,6 +10,7 @@ Welcome to the **Triofox** Quick Start Guide. This guide describes the installat
 Triofox includes the Triofox server, which runs on the Microsoft Windows server platform, and client agent applications for Web browsers, Microsoft Windows, Mac OS X, and for mobile platforms such as the Android and the Apple iOS operating systems.
 
 See also: 
+
 .. _Triofox: https://www.triofox.com
 
 Overview
