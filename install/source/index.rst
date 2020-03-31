@@ -38,6 +38,10 @@ The services can be deployed in flexible combinations to meet different needs. T
     
     .. image:: _static/SelfHostedCentreStackDirectShare.svg
     
+    See also:
+    
+    `File Server Remote Access <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_
+    
     2. Deploy in a site remotely, such as Amazon Web Services EC2, Microsoft Azure, or in a Data Center where the Managed Service Provider (MSP) hosts their infrastructure:
     
     .. image:: _static/SelfHostedCentreStackRemoteShare.svg
