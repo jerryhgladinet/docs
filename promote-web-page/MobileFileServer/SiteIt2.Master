@@ -1,0 +1,502 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MobileFileServer.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        <asp:ContentPlaceHolder ID="ContentTitle" runat="server">
+            Mobilize your file servers for remote access and mobile access
+        </asp:ContentPlaceHolder>
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <asp:ContentPlaceHolder ID="SEOBlockOG" runat="server">
+    <meta property="og:title" content="Self Hosted File Sharing for Private File Servers">
+    <meta property="og:description" content="Simplify file server access with a self hosted file sharing platform based on your private file server. Maintain privacy and control without sacrificing usability and performance.">
+    </asp:ContentPlaceHolder>
+    <meta property="og:image" content="https://cdn.centrestack.com/gnet/gladinet512.png">
+    <meta property="og:url" content="https://www.gladinet.com">
+    <link rel="icon" href="https://www.gladinet.com/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.centrestack.com/in6/base/base.css">
+    <script src="https://cdn.centrestack.com/in6/base/core.min.js"></script>
+    <script src="https://cdn.centrestack.com/in6/base/script.js"></script>
+
+    <asp:ContentPlaceHolder ID="SEOBlock" runat="server">
+        <meta name="keywords" content="free cloud server, cloud enable file server, cloud file server, file server in cloud, cloud storage, private cloud, cloud enterprise, cloud gateway, online storage, cloud storage" />
+        <meta name="description" content="Create free cloud servers from existing file servers with mobile device access. Use existing permissions and identities to access free cloud servers without a VPN." />
+        <script type="text/javascript">
+            var oldUrl = "https://www.gladinet.com/index_v1.htm";
+        </script>
+    </asp:ContentPlaceHolder>
+
+
+    <script type="application/ld+json">
+        { "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "name" : "Gladinet Inc",
+        "url" : "www.gladinet.com",
+        "image": "https://cdn.centrestack.com/gnet/gladinet512.png",
+        "logo": "https://www.centrestack.com/gnet/gladinet512.png"
+        }
+    </script>
+
+    <script type="text/javascript">
+
+
+        function detectIENow() {
+
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf('MSIE ');
+            var trident = ua.indexOf('Trident/');
+            var edge = ua.indexOf('Edge/');
+
+            if (msie > 0) {
+                return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+            }
+
+            if (trident > 0) {
+                var rv = ua.indexOf('rv:');
+                return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+            }
+
+            if (edge > 0) {
+                return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+            }
+
+            return false;
+        }
+
+        var ieVer = detectIENow();
+        if (!oldUrl) {
+            oldUrl = "https://www.gladinet.com/index_v1.htm";
+        }
+
+        if (ieVer != false && ieVer < 12) {
+            window.location = oldUrl;
+        }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3974710-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-3974710-2');
+    </script>
+     <link rel="stylesheet" type="text/css" href="https://cdn.centrestack.com/fonts/triofox_font2.css" />
+
+</head>
+
+<body>
+
+
+    <div class="page">
+        <header class="section rd-navbar-wrap" data-preset='{"title":"Navbar Business","category":"header","reload":true,"id":"navbar-business"}'>
+            <nav class="rd-navbar navbar-businnes">
+                <div class="navbar-container">
+                    <div class="navbar-cell">
+                        <div class="navbar-panel">
+                            <button class="navbar-switch int-hamburger novi-icon" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
+                            <div class="navbar-logo"><a class="navbar-logo-link" href="/"><img class="navbar-logo-default" src="https://cdn.centrestack.com/gnet/logo-light-199x32.png" alt="gladinet" height="27" /><img class="navbar-logo-inverse" src="https://cdn.centrestack.com/gnet/logo-light-199x32.png" alt="gladinet" height="27" /></a></div>
+                        </div>
+                    </div>
+                    <div class="navbar-cell navbar-sidebar">
+                        <ul class="navbar-navigation rd-navbar-nav">
+                            <li class="navbar-navigation-root-item ">
+                                <a class="navbar-navigation-root-link" href="javascript:void(0)">Solutions</a>
+                                <div class="navbar-navigation-megamenu rd-navbar-megamenu">
+                                    <div class="navbar-navigation-megamenu-container">
+                                        <div class="navbar-navigation-back">
+                                            <button class="navbar-navigation-back-btn">Back</button>
+                                        </div>
+                                        <div class="navbar-navigation-megamenu-row">
+                                            <ul class="navbar-navigation-megamenu-column">
+                                                <li class="navbar-navigation-megamenu-heading">Products</li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com">MSP Solution<br /><sub>www.centrestack.com</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.triofox.com">Enterprise Solution<br /> <sub>www.triofox.com</sub></a>
+                                                </li>
+                                            </ul>
+                                            <ul class="navbar-navigation-megamenu-column">
+                                                <li class="navbar-navigation-megamenu-heading">Use Cases</li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/remote-file-server-and-file-sharing/">Remote File Server Access</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/share-folder-over-internet-online/">Share Folder Over Internet</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/on-premise-file-sharing/">On Premise File Sharing</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/OnlineStorage/Share.aspx">Share Files Online</a>
+                                                </li>
+
+
+                                            </ul>
+                                            <ul class="navbar-navigation-megamenu-column">
+
+
+                                                <li class="navbar-navigation-megamenu-heading">Alternatives</li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/CloudServer/VPNAlternative.aspx">VPN Alternative</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/ftp-alternative/">FTP Alternative</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/CloudEnterprise/SelfHostedDropbox.aspx">Dropbox Alternative</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/ServiceProvider/OwnCloudAlternative.aspx">OwnCloud Alternative</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="navbar-navigation-megamenu-column">
+                                                <li class="navbar-navigation-megamenu-heading">Feature Highlights</li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/drive-mapping.html">Cloud Drive Mapping</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/file-locking.html">Cloud File Locking</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/file-synchronization.html">Folder Synchronization</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/global-workspace.html">Global Workspace</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/secure-mobile-file-access-and-file-sharing/">Secure Mobile File Access</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/CloudServer/ShareFile.aspx">File Server over Internet</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/CloudEnterprise/ActiveDirectory.aspx">Active Directory Integration</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/articles/2-step-verification.html">Two-Factor Authentication</a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/press/microsoft-dfs-integration.html">DFS Integration</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="navbar-navigation-root-item">
+                                <a class="navbar-navigation-root-link" href="https://www.centrestack.com">CentreStack</a>
+                                <div class="navbar-navigation-megamenu rd-navbar-megamenu">
+                                    <div class="navbar-navigation-megamenu-container">
+                                        <div class="navbar-navigation-back">
+                                            <button class="navbar-navigation-back-btn">Back</button>
+                                        </div>
+                                        <div class="navbar-navigation-megamenu-row">
+                                            <ul class="navbar-navigation-megamenu-column">
+                                                <li class="navbar-navigation-megamenu-heading">Main Interests</li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/CloudServer/">
+                                                        <span class="">Cloud File Server</span><br />
+                                                        <sub>simplify remote access with cloud file servers and hybrid file servers.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/secure-file-sharing/">
+                                                        <span class="">Secure File Sharing</span><br />
+                                                        <sub>secure file sharing from your file server or private cloud directly.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/file-share-sync/">
+                                                        <span class="">File Share Synchronization</span><br />
+                                                        <sub>global workspace unifies files servers from multiple branch offices.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/self-hosted-dropbox/">
+                                                        <span class="">On Premise Dropbox</span><br />
+                                                        <sub>on-premise dropbox alternative to focus first on security and mobility.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/cloud-backup/">
+                                                        <span class="">Cloud Backup</span><br />
+                                                        <sub>data protection with backup, ransomware prevention, version control and auditing.</sub>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                            <ul class="navbar-navigation-megamenu-column">
+                                                <li class="navbar-navigation-megamenu-heading">Use Cases</li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/use-case/remote-access.aspx">
+                                                        <span class="">Remote File Access</span><br />
+                                                        <sub>remote access to file servers without a VPN.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/use-case/mobile-access.aspx">
+                                                        <span class="">Mobile File Access</span><br />
+                                                        <sub>mobile access to hosted file servers.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/use-case/secure-data-transfer.aspx">
+                                                        <span class="">Secure Data Transfers</span><br />
+                                                        <sub>file sharing with granular permissions.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/use-case/transfer-large-file.aspx"><span class="">Transfer Large Files</span><br /><sub>transfer large files via web links.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/use-case/multi-site-sync.aspx">
+                                                        <span class="">Multiple Branch Offices</span><br />
+                                                        <sub>global workspace to unify branch offices.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/use-case/white-label-file-sharing.aspx">
+                                                        <span class="">White Label File Sharing</span><br />
+                                                        <sub>private and white label file sharing solutions.</sub>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.centrestack.com/use-case/self-hosted-backup.aspx">
+                                                        <span class="">Self-Hosted Backup</span><br />
+                                                        <sub>control and own your backup storage.</sub>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="navbar-navigation-root-item">
+                                <a class="navbar-navigation-root-link" href="https://www.triofox.com">Triofox</a>
+                                <div class="navbar-navigation-megamenu rd-navbar-megamenu">
+                                    <div class="navbar-navigation-megamenu-container">
+                                        <div class="navbar-navigation-back">
+                                            <button class="navbar-navigation-back-btn">Back</button>
+                                        </div>
+                                        <div class="navbar-navigation-megamenu-row">
+                                            <ul class="navbar-navigation-megamenu-column">
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/CloudServer/windows-file-server.aspx">Windows File Server<br /><sub>add cloud features to Windows file server and take it back to the future.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/file-server-cloud-remote-access/">File Server Cloud Remote Access<br /><sub>quick and easy file server remote access and mobile access without a VPN.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/move-file-server-to-cloud/">Move File Server to Cloud<br /><sub>move file server to cloud for better remote file access and cloud file sharing.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/share-file-server-over-internet/">File Server Over Internet<br /><sub>turn your file servers into online file share servers and share files over the Internet.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/CloudServer/VPNAlternative.aspx">VPN Alternative<br /><sub>alternative way to access file server remotely without using a VPN.</sub></a>
+                                                </li>
+
+
+                                            </ul>
+                                            <ul class="navbar-navigation-megamenu-column">
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/private-online-storage/">Private Online Storage<br /><sub>take online storage into your own hand.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/private-cloud-storage/">Private Cloud Storage<br /><sub>private cloud storage for compliance and centralized control.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/CloudServer/HybridCloudStorage.aspx">Hybrid Cloud Storage<br /><sub>the hybrid cloud storage solution for you.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/CloudServer/FTPFileServer.aspx">FTP Replacement<br /><sub>modern web based and mobile based file access replacing FTP.</sub></a>
+                                                </li>
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/dropbox-vs-file-server/">Dropbox vs. File Server<br /><sub>combine file server's security model with dropbox-style mobile and web access.</sub></a>
+                                                </li>
+
+
+
+                                            </ul>
+
+                                            <ul class="navbar-navigation-megamenu-column">
+                                                <li class="navbar-navigation-megamenu-item">
+                                                    <a class="navbar-navigation-megamenu-link" href="https://www.gladinet.com/enterprise-file-sharing/">Enterprise File Sharing<br /><sub>protect data ownership, compliance, privacy and security.</sub></a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="navbar-navigation-root-item">
+                                <a class="navbar-navigation-root-link" href="https://www.gladinet.com/cloudenterprise/partner.aspx">Contact</a>
+
+                            </li>
+                            <li class="navbar-navigation-root-item">
+                                <a class="navbar-navigation-root-link" href="#">Login</a>
+
+                                <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                                    <li class="navbar-navigation-back">
+                                        <button class="navbar-navigation-back-btn">Back</button>
+                                    </li>
+                                    <li class="navbar-navigation-dropdown-item">
+                                        <a class="navbar-navigation-dropdown-link" href="https://www.centrestack.com/management/partnerloginpage.aspx"><span style=" white-space: nowrap;">CentreStack Partner Portal</span></a>
+                                    </li>
+                                    <li class="navbar-navigation-dropdown-item">
+                                        <a class="navbar-navigation-dropdown-link" href="https://www.triofox.com/management/PartnerLoginpage.aspx">My TrioFox</a>
+                                    </li>
+                                    <li class="navbar-navigation-dropdown-item">
+                                        <a class="navbar-navigation-dropdown-link" href="https://www.sync4share.com/portal/loginpage.aspx">Sync4Share</a>
+                                    </li>
+                                    <li class="navbar-navigation-dropdown-item">
+                                        <a class="navbar-navigation-dropdown-link" href="https://gcloud.gladinet.com/portal/loginpage.aspx"><span style=" white-space: nowrap;">Gladinet Cloud Team Edition</span></a>
+                                    </li>
+
+
+                                </ul>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="navbar-cell">
+                        <div class="navbar-subpanel">
+                            <div class="navbar-subpanel-item">
+                                <button class="navbar-button navbar-info-button mdi-dots-vertical novi-icon" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-info-active","isolate":"[data-multi-switch]"}'></button>
+                                <div class="navbar-info">
+
+                                    <button class="btn btn-success navbar-action-button btn-sm"><span class="icon mdi mdi-phone"></span>1.888.955.6656</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+        <asp:ContentPlaceHolder ID="CoverContent" runat="server">
+            <section class="sectio bg-gradient-animated novi-background" data-preset='{"title":"Intro","category":"intro","reload":false,"id":"intro-6"}' style="padding-bottom: 0px;">
+                <div class="container">
+                    <div class="row row-30 align-items-center">
+                        <div class="col-md-7">
+                            <h1 style="max-width: 550px;" data-animate='{"class":"fadeInUp"}'>File Server Remote Access</h1>
+                            <p style="max-width: 600px;" data-animate='{"class":"fadeInUp","delay":"0.15s"}'>
+                                <span class="h6">Mobilize your
+                            workforce for quick and easy file server remote access and mobile access without a VPN.</span>
+                            </p>
+                            <div class="offset-md" data-animate='{"class":"fadeInUp","delay":"0.3s"}'><a class="btn btn-lg btn-primary btn-round btn-anis" href="https://www.triofox.com/"><span>How Does It Works</span></a></div>
+                        </div>
+                        <div class="col-md-5 d-none d-md-block d-flex align-items-end " style="margin-bottom: 0px;">
+                            <img src="https://cdn.centrestack.com/intense/images/feature619_02.png" alt="" height="599" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+
+        <section class="section-lg text-center context-dark bg-image" style="background-image: url(&quot;https://cdn.centrestack.com/triofox/image-03-1920x583.jpg&quot;)">
+            <div class="container">
+
+                <div class="row row-30 justify-content-center">
+                    <div class="col-12">
+
+                        <h5>Help employees boost mobile productivity and work from home today!</h5>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12"><a class="btn btn-lg btn-round btn-secondary" href="https://www.triofox.com/management/mytriofox/signup/">Get Started with a Free Trial</a></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <footer class="section footer bg-800 text-400 context-dark novi-background" data-preset='{"title":"Footer Business","category":"footer","reload":false,"id":"footer-business"}'>
+            <div class="container">
+                <div class="row row-30">
+                    <div class="col-sm-5 col-lg-4">
+                        <!-- Logo-->
+                        <div class="logo"><a class="logo-link" href="/"><img class="logo-image-default" src="https://www.gladinet.com/images/logo-dark-197x52.png" width="197" height="52" alt="Gladinet" /><img class="logo-image-inverse" src="https://www.gladinet.com/images/logo-dark-197x52.png" alt="Gladinet" width="197" height="52" /></a></div>
+                        <div class="offset-sm group-30 d-flex text-white"><a class="icon icon-xs icon-social int-youtube novi-icon" href="https://www.youtube.com/channel/UCyGSSJiBPjDzahPgWpGalRQ"></a><a class="icon icon-xs icon-social int-facebook novi-icon" href="https://www.facebook.com/Gladinet/"></a><a class="icon icon-xs icon-social int-twitter novi-icon" href="https://twitter.com/gladinet"></a><a class="icon icon-xs icon-social int-linkedin novi-icon" href="https://www.linkedin.com/company/gladinet"></a><a class="icon icon-xs icon-social int-star novi-icon" href="https://www.gladinet.com/self-hosted-file-sharing.html"></a></div>
+                        <div class="offset-sm media media-xxs text-white">
+                            <div class="media-left"><span class="icon icon-xs int-phone"></span></div>
+                            <div class="media-body">
+                                <ul class="list list-contact">
+                                    <li class="list-contact-item"><a class="list-contact-link" href="tel:#">+1 888 955 6656</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                        <h6>Solutions</h6>
+                        <ul class="list list-xl small font-weight-normal">
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/private-file-sharing.html">Private File Sharing</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/on-premise-file-sharing/">On Premise File Sharing</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/self-hosted-file-sharing.html">Self Hosted File Sharing</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/articles/active-directory-group-share.html">Active Directory File Sharing</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/remote-file-server-and-file-sharing/">File Server Remote Access</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/share-folder-over-internet-online/">File Share Over Internet</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/CloudEnterprise/SelfHostedDropbox.aspx">Self Hosted Dropbox Alternative</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/drive-mapping.html">Drive Mapping Over Internet</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/file-locking.html">Cloud Storage File Locking</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/share-file-server-over-internet/">File Server Over Internet</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                        <h6>Storage Options</h6>
+                        <ul class="list list-xl small font-weight-normal">
+
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/amazon-s3/">Amazon S3</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/amazon-s3/amazon-s3-file-server.htm">Amazon S3 as File Server</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/azure-storage/">Windows Azure Blob</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/p/map_azure_storage_as_virtual_drive.htm">Map Azure Blob Storage as Network Drive</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/CloudServer/windows-file-server.aspx">Windows File Server</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/articles/windows-file-server-online-sharing.html">Windows File Server Online Sharing</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/google-cloud-storage/">Google Cloud Storage</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/google-cloud-storage/google-cloud-storage-windows-desktop.htm">Google Cloud Storage on Windows Desktop</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.gladinet.com/openstack-swift/">OpenStack Swift</a></li>
+                            <li class="list-item"><a class="list-link" href="https://www.centrestack.com/cloud-file-server/">Cloud File Server</a></li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+                <hr class="divider footer-divider">
+                <div class="footer-panel">
+                    <!-- Copyright-->
+                    <p class="rights"><span>&copy; 2020&nbsp;</span><span>Gladinet</span><span>. All rights reserved.&nbsp;</span><a class="rights-link" href="/p/privacy.htm">Privacy Policy</a> | <a class="rights-link" href="/p/terms.htm">Terms</a> | <a class="rights-link" href="/p/about.htm">About</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+<div class="page-loader context-dark">
+    <div class="page-loader-container">
+        <img class="page-loader-logo" src="https://cdn.centrestack.com/gnet/logo-light-199x32.png" alt="Intense" width="199" height="32" />
+        <svg class="page-loader-progress" x="0px" y="0px" width="100" height="100" viewBox="0 0 100 100" style="visibility: hidden;">
+            <circle class="page-loader-circle clipped" cx="50" cy="50" r="48"></circle>
+        </svg>
+    </div>
+</div>
+
+</body>
+</html>
