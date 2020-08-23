@@ -139,7 +139,7 @@ Removing from Favorite
 
 On the **"Offline Favorites"** screen, you can click the **"3 Vertical Circles" (1)** and and just select unfavorate
 
-.. image:: _static/.. image:: _static/TriofoxNew020.png
+.. image:: _static/triofoxnew20.png
 
 
 Sharing
@@ -150,15 +150,15 @@ Sharing a File
 
 First tap a file you want to share. Then in the file properties view, select the **Share Icon** on the bottom of the display.
 
-.. image:: _static/.. image:: _static/TriofoxNew022.png
+.. image:: _static/triofoxnew22.png
 
 In the Sharing screen, tap the **"+"** icon to add emails for users you want to include in this share.
 
-.. image:: _static/.. image:: _static/TriofoxNew023.png
+.. image:: _static/triofoxnew23.png
 
 Add users in the **"Share to"** screen.
 
-.. image:: _static/.. image:: _static/TriofoxNew024.png
+.. image:: _static/triofoxnew24.png
 
 On the next screen you have several options:
 
@@ -170,7 +170,7 @@ On the next screen you have several options:
 
 When the sharing option has been selected press **"Share"** on the bottom right.
 
-.. image:: _static/.. image:: _static/TriofoxNew025.png
+.. image:: _static/triofoxnew25.png
 
 
 Modifying a Share
