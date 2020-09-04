@@ -5,10 +5,10 @@ Getting Started
 Introduction
 =============
 
-Welcome to the |prodname| Web Portal User Guide. This guide describes
-web portal functionality for users in |prodname|.
+Welcome to the Triofox Web Portal User Guide. This guide describes
+web portal functionality for users in Triofox.
 
-|prodname| is a managed file sync and share solution. It differentiates from
+Triofox is a managed file sync and share solution. It differentiates from
 other file sync and share solutions (EFSS) by focusing on the security, control, 
 file server and team collaboration. |prodname| does really well in the following areas:
 
@@ -17,7 +17,7 @@ file server and team collaboration. |prodname| does really well in the following
     3. Mirrors your local network share on the file server, allowing team collaboration in the cloud.
     4. Brings your Windows File Server to the cloud, maintaining security and control, while giving it modern file sync and share capability.
 
-|prodname| includes the backend |prodname| server, which runs on Windows server platform, 
+Triofox includes the backend Triofox server, which runs on Windows server platform, 
 and front end client applications for Microsoft Windows, Mac OS X, and mobile clients for the 
 Android and Apple iOS operating systems.
 
@@ -32,5 +32,5 @@ Other important features and functions of the web portal are also covered in thi
 
 .. note::
 
-    The web portal user guide is updated for version  9.6.5473.41339
+    The web portal user guide is updated for version 11.7.7941.48371
     

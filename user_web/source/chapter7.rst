@@ -15,14 +15,14 @@ Users
 Active Directory - LDAP
 ------------------------
 
-In the AD Settings view you can add your local settings. Click Edit **(1)**, then select "Enable Active Directory Integration" **(2)**. 
+In the dashboard, in the right panel, you can see the Active Directory button. You can click this to enable it.
 
-.. figure:: _static/image_s7_2_1.png
+.. figure:: _static/New003.png
     :align: center
 
     CONNECTING TO ACTIVE DIRECTORY (AD)
 
-This gives you access to all the settings fields and the Advanced Settings Tab **(3)**. Once you have filled in the settings with an Administrator User account from your Active Directory, click **APPLY** to accept your changes. 
+It will now ask for your Active Directory Domain Controller credentials and it will be setup. 
 
 
 Active Directory - Remote 
@@ -31,7 +31,7 @@ Active Directory - Remote
 If the users are coming from remote locations, away from the |prodname| server (so it is not in the same Local Area Network), the first step to take is to install the "server agent" software on a remote file server, as long as the file server is in the same remote Active Directory domain. Log into |prodname| from your File Server and download your Server Agent client. You can access this by clicking the **(+)** icon. Once this is setup on your File Server, |prodname| can access it to connect to your Remote Active Directory. 
 
 
-.. figure:: _static/image_s7_2_2.png
+.. figure:: _static/New009.png
     :align: center
 
     ACCESS YOUR SERVER AGENT CLIENT
