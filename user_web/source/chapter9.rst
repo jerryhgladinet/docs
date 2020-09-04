@@ -20,12 +20,7 @@ the client. Supported clients include:
     *	Mobile Clients for Android phones
     *   Mobile Clients for Windows Phone
 
-.. warning::
 
-    Internet Explorer 8 is supported for Team User. However
-    for any administrative works (Cluster Admin, Tenant Admin,
-    Delegate Admin), Internet Explorer 8 is no longer supported
-    for any administrative works.
     
     
 Download Client Agent Software
@@ -35,13 +30,13 @@ Most of the Mobile clients will need to be downloaded from the Apple Store, Goog
 
 The Windows and Mac client agent software can be downloaded directly from the |prodname| web portal itself. Click the small user icon (1) and then click the client download graphic (2) to get started. 
 
-.. figure:: _static/image_s9_1_1.png
+.. figure:: _static/New015.png
     :align: center
 
     ACCESSING YOUR DOWNLOADS
 
 
-.. figure:: _static/image_s9_1_2.png
+.. figure:: _static/New016.png
     :align: center
 
     DOWNLOAD CLIENT AGENT SOFTWARE

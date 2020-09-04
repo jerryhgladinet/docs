@@ -17,7 +17,8 @@ Most common, and in production,  you will be pointing your web browser at the
 Once you are in the web portal, you will be seeing the login 
 page first.
 
-.. figure:: _static/image_s4_1_1.png
+
+.. figure:: _static/New001
     :align: center 
 
     |prodname| LOGIN

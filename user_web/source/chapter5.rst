@@ -26,7 +26,7 @@ A delegated administrator is a team user most of the time. However, delegated ad
 
 Logged in as Tenant Admin, you can delegate administrators through the Control Panel of the Tenant Dashboard (1). 
 
-.. figure:: _static/image_s5_1_0.png
+.. figure:: _static/New002.png
     :align: center 
 
     TENANT ADMINISTRATORS SETTINGS
@@ -35,26 +35,15 @@ In the Tenant Administrators panel you can choose a user or AD user (2), the sel
 
 Tenant administrators can be removed by clicking the trashcan icon (4). 
 
-.. figure:: _static/image_s5_1_1.png
+.. figure:: _static/New004.png
     :align: center 
-
-    DELEGATED ADMINISTRATORS
-
-When a team user (with delegate administrator assignment) logs in, there will be a "Manage Team Cloud" link available (5). 
-
-.. figure:: _static/image_s5_2_1.png
-    :align: center
-
-    MANAGE TEAM CLOUD ACCESS
-
-And when the delegate administrator is finished managing the team cloud, they can return to their normal File Browser view by clicking "Return To My Cloud" (6).
 
 
 
 Guest User
 ===========
 
-Guest user are users that have credentials to login to |prodname|, but these users don't have home directory.
+Guest user are users that have credentials to login to Triofox, but these users don't have home directory.
 
 Anonymous User
 ===============
@@ -64,7 +53,7 @@ users can use a link to come to the web portal and see files and folders
 that are shared.
 
 
-.. figure:: _static/image_s5_2_2.png
+.. figure:: _Triofox006.png
     :align: center
 
     PUBLIC LINK

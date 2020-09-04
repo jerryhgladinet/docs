@@ -1,51 +1,48 @@
-##############
-Team Folders
-##############
+#########
+Sharing
+#########
 
-What Is A Team Folder?
+Sharing vs. Publishing
 =======================
 
-|prodname| enables the creation of team folders which are owned by the administrator and published to other |prodname|  users.
+There are two ways to share files and folders in |prodname|  – publishing and sharing.
 
-Once a folder is published, it is displayed as a team folder to the users who have access permissions. Users can access these folders from |prodname| Web or other client agents. The published folder will appear under the user's root folder, and its name will be appended with
-"(Team Folder)".
+*  **Publishing:** 
+ 
+    Only available for the administrator who can share any tenant-wide folder. It will only work with team-users in a specific |prodname| account (tenant account). Publishing a team folder can’t go outside of the tenant scope.
 
-.. figure:: _static/image_s14_1_4.png
+*  **Sharing:** 
+ 
+    Both the administrator and team-users can share files with anyone that has an email address. The recipient of the share will get an
+    email with a link to open the folder or download the file. If the email recipient is also a |prodname| Cloud user, he/she can access the shared file or folder directly from the |prodname|.
+
+    Administrators can prevent team-users from sharing if needed.
+
+Sharing Files And Folders
+==========================
+
+File Sharing
+-------------
+
+To share a file, click it and select the Share icon (1)revealed in the header of the file. You can also right click the file and select Share (2) in the context menu. Once the file is selected, if the right panel (3) is open, there is a Share link (4) there as well.
+
+.. figure:: _static/New025
     :align: center
 
-    TEAM FOLDER TAG
+    SHARING FILES
+
+After clicking ‘Share’ above, in ‘Invite People’ window, click the email field (5) and enter email addresses seperated by semicolons (;) for anyone that needs access to the file. You can also add notes (6) if required. Click CONTINUE (7). 
 
 
-Adding User Folders
-=======================
-
-Folders Created in |prodname| are Versioned Folders.
-
-|prodname| will maintain the version history of any files uploaded to versioned folders. From |prodname|, a user can download any previous versions of a file. From |prodname| Desktop/Server Agent, a user can restore previous versions of files and recover deleted files.
+    INVITE PEOPLE TO YOUR SHARE
 
 
-To create a folder right click in the File Browser window background and select **"Create Folder"** from the pop-up context menu. 
+On the second share window you have access to the share options panel where you can make important decisions such as how long you want the share to be active and how much control you want to give the user (e.g., read only, full control access). You can also make this share available to the public by get
 
-.. figure:: _static/image_s14_1_1.png
+.. figure:: _static/New026.png
     :align: center
 
-    CREATING A FOLDER
+    SHARE OPTIONS PANEL
 
 
-Attaching a Folder From the Client
-====================================
-
-Users can also Attach a Local Folder from their client. 
-
-.. figure:: _static/image_s14_1_1a.png
-    :align: center
-
-    ATTACHING A FOLDER
-
-These folders are the local folders from the local PC/Mac that |prodname| users have attached to |prodname|. Once a local folder is attached, a user can immediately access it in |prodname|. |prodname| will maintain the version history of files in the attached local folder. The local folder is also being synchronized with |prodname| ("cloud side").
-
-.. figure:: _static/image_s14_1_2.png
-    :align: center
-
-    ATTACHED LOCAL FOLDER
 
