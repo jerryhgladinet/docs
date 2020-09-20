@@ -2,94 +2,60 @@
 Users and Files
 #################
 
-After you clicked into the "management console", you will be in the dashboard for the tenant. When you are at the dashboard, the top two objects to manage are users **(1)** and folders **(2)**. If you are using an Active Directory for importing users and permissions you can connect to your Active Directory by clicking the wrench icon **(3)**.
+After you login, you will see all the folders and files you have access to in your web portal file browser. The folders can be on the local file server in your company's
+network or folders for files in the cloud for example, Amazon AWS S3 or Microsoft Azure blob.
 
-.. figure:: _static/image_s7_1_1.png
+.. figure:: _static/New077.png 
     :align: center
 
-    MANAGE USERS AND FILES
+You can double click on any folders to see all the sub-folders and files in that folder.
 
-Users
-=======
+The file browser view also have some additional options in the left panel which are listed below:
 
-Active Directory - LDAP
-------------------------
+    - All my files shows all files and folders. 
+    - Quick access shows all files recently accessed.
+    - My favorites show all files which have been marked as favorites.
+    - Shared files/folders show all files and folders shared. 
+    - Device backups shows all the devices which have been backed up.
+    - Install Windows/Mac client once clicked will take you into a window to download the clients.
+   
+More Actions
+=============
 
-In the dashboard, in the right panel, you can see the Active Directory button. You can click this to enable it.
+You can click on the three stacked dots in the upper right to see more options for example upload file or folder, create a new file or a folder etc. 
 
-.. figure:: _static/New003.png
+.. figure:: _static/New078.png 
     :align: center
 
-    CONNECTING TO ACTIVE DIRECTORY (AD)
+Icon View
+=============
 
-It will now ask for your Active Directory Domain Controller credentials and it will be setup. 
+You can also change the icon display by selecting the different view options available. 
 
-
-Active Directory - Remote 
---------------------------
-
-If the users are coming from remote locations, away from the |prodname| server (so it is not in the same Local Area Network), the first step to take is to install the "server agent" software on a remote file server, as long as the file server is in the same remote Active Directory domain. Log into |prodname| from your File Server and download your Server Agent client. You can access this by clicking the **(+)** icon. Once this is setup on your File Server, |prodname| can access it to connect to your Remote Active Directory. 
-
-
-.. figure:: _static/New009.png
+.. figure:: _static/New079.png 
     :align: center
 
-    ACCESS YOUR SERVER AGENT CLIENT
+More Info (i)
+=============
 
+You can click the (i) icon in the upper right which will display all the current activities on the content. 
 
-
-.. figure:: _static/image_s7_2_3.png
+.. figure:: _static/New080.png 
     :align: center
 
-    DOWNLOAD AND INSTALL
+'Sharing and Collaboration' tab displays the list of files and folders that have been shared. 
 
-.. note::
-
-    "Server Agent" software can import remote file server network share, and also import remote Active Directory users. Once Server Agent is installed and setup in remote location, the tenant administrator can use the Client Management Console "Migrate CIFS Shares" and "Migrate Users" **(1)** to import shares and users from Active Directory. Other actions are availible through the dropdown menu **(2)**. 
-    
-    .. figure:: _static/image_s7_3_1.png
-        :align: center
-
-        MIGRATE SHARES AND USERS
-
-    
-Other Users
-------------
-
-In the Web Portal you can also just add Native |prodname| Users by clicking the Users link. Once in the Manage Users view, click "Create or Migrate User" **(1)** and in the new window choose "Native User" **(2)**.
-
-.. figure:: _static/image_s7_4_1.png
+.. figure:: _static/New081.png 
     :align: center
 
-    ADDING A NATIVE |prodname| USER
+Plus Icon
+=============
 
-    
-Files
-======
+You can also the plus icon in the bottom right to see more options for example upload a file or folder, create a document etc. 
 
-Adding files and folders can be accomplished by clicking **"Create Team Folder"**. Once the **"Team Folder Storage Locations"** view opens you can choose from many options: Existing Tenant Storage, File Servers in Local Area Network, Remote File Servers or Cloud Storage. 
+.. figure:: _static/New082.png 
+    :align: center         
 
-.. figure:: _static/image_s7_5_1.png
-    :align: center
-
-    WAYS TO ADD STORAGE LOCATIONS
-
-
-File Servers
--------------
-
-If you have an existing file server in the Local Area Network (LAN), you can import the network share directly to |prodname| **(1)**. Under Remote File Servers, you can install the Server Agent client **(2)** and access your file server remotely.
-
-.. figure:: _static/image_s7_5_2.png
-    :align: center
-
-    ADDING REMOTE FILES
-    
-    .. note::
-    
-       The Server Agent is only required when the remote file server doesn't have direct LAN (local area network) access
-        to the |prodname|. The Server Agent will be used in this case to facilitate communication between
-        the |prodname| server to the remote file server.
 
 
     
