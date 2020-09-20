@@ -2,18 +2,21 @@
 The Web Interface
 ###################
 
-The web client interface has three panels from left to right, the left tree panel, the middle file and folder panel, and the right information panel. Many of the management functionality are done over the web portal. The web client also has the files and folder’s view.
+The web client interface has three panels from left to right, the left tree panel, the middle file and folder panel, and the right information panel. Many of the management 
+functionality are done over the web portal. The web client also has the files and folder’s view.
+
+.. figure:: _static/New089.png 
+    :align: center
 
 Normal Web Portal View (Medium Icon View)
 =======================
 
 
-.. figure:: .. figure:: _static/New017.png 
+.. figure:: _static/New017.png 
     :align: center
     
 
     WEB PORTAL VIEW
-
 
 
 Large Icon View
@@ -23,8 +26,11 @@ Inside your server, click the icon with 6 small sqaures in it. It will give you 
 
 .. figure:: _static/New018.png 
     :align: center
+    
 
-  Detail List View
+    LARGE ICON VIEW
+
+Detail List View
 =========================================
 
 In the same settings aboce, it gives you the option to view files in 'Detail List View'
@@ -36,34 +42,7 @@ In the same settings aboce, it gives you the option to view files in 'Detail Lis
 Uploading Files
 ================
 
-In |prodname|, you have different options to upload files and folders. You can upload one file at a time using the ‘Upload File’ option under Upload You can also upload folders using the ‘Upload Folder’ option under Upload. Last but not least you can also use ‘Upload Folders and Files’ to upload multiple files simultaneously, or drag & drop files from a local desktop to the |prodname| Cloud web portal to start the upload.
-
-.. warning::
-
-    Different upload methods may have different advantage and disadvantage on different web browsers and different web browser configuration, such as whether it is HTML5 enabled,
-    Java enabled or Flash enabled.
-    
-    By default, only one upload method was exposed in the web user interface. However, the tenant administrator, based on the kind of web browser the company is using and the kind of
-    configuration the web browser has, can decide which upload method to expose to the end user (Team User).
-    
-    Below is the Group Policy->Client Control->Web Portal setting administrator can control.
-    
-    .. figure:: _static/image_s11_2_1.png
-        :align: center
-
-        UPLOADER METHOD OPTIONS
-    
-    Web Browser - Disable Java Uploader
-    
-        Deselect this if your companies' desktop system web browsers use a Java Uploader.
-    
-    Web Browser - Disable Flash Uploader
-    
-        Deselect this if your company uses browsers that require Flash uploader functionality.  
-    
-    Web Browser - Disable Local Uploader
-    
-        Deselect this if your company allows the use of a local executable to upload files. 
+In Triofox, you have different options to upload files and folders. You can upload one file at a time using the ‘Upload File’ option under Upload You can also upload folders using the ‘Upload Folder’ option under Upload. Last but not least you can also use ‘Upload Folders and Files’ to upload multiple files simultaneously, or drag & drop files from a local desktop to the |prodname| Cloud web portal to start the upload.
 
 
 Upload File or Folder

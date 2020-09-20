@@ -3,27 +3,26 @@ Adding Users
 ##############
 
 
-
 Add User
 ---------
 
-Once in the dashboard, you can click on the users menu on the right panel and create a new user.
+Once in the dashboard as an admin, you can click on the users plugin in the right panel and create a new or migrate an existing user.
 
 
-.. figure:: _static/New010.png
+.. figure:: _static/New083.png
     :align: center
 
     ADDING USERS
 
 **Native User** 
 
-    Native user refers to |prodname| user that is not related
+    Native user refers to Triofox user that is not related
     to any Active Directory.
     
 **Batch create users**
 
     These are native users in a comma separated file that can 
-    be paste into a text area so the users can be batch created.
+    be pasted into a text area so the users can be batch created.
     
 **Active Directory**
 
@@ -34,17 +33,14 @@ Once in the dashboard, you can click on the users menu on the right panel and cr
 Add Native User
 --------------------
 
-When a new user is created, the administrator will specify the amount of cloud storage that the new user is allowed to use. The email address will send a welcome email to the new user and will serve as his/her username.
+When a new user is created, the administrator can specify the amount of storage that the new user is allowed to use. The email address will send a welcome email to the 
+new user and will serve as his/her username.
 
 .. figure:: _static/New011.png
     :align: center
 
     ADDING A NATIVE USER
     
-.. note::
-
-    When quota is left as zero, it means no limitation until the tenant quota limit is hit.
-
 Add Active Directory Users from LDAP
 -------------------------------------
 
@@ -59,8 +55,7 @@ If the Active Directory (LDAP) is already configured, you will see the Active Di
 
 Add Active Directory Users where those users are from local area network.
 
-.. figure:: _static/image_s8_2_5.png
-    :align: center
+
 
 
 
