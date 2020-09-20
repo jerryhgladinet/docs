@@ -18,7 +18,7 @@ Once you are in the web portal, you will be seeing the login
 page first.
 
 
-.. figure:: _static/New001.png
+.. figure:: _static/New093.png
     :align: center 
 
     Triofox LOGIN
