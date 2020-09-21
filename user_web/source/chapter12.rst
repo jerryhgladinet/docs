@@ -29,7 +29,7 @@ File Sharing
 To share a file, highlight the file and clock the 3 dots which will bring up the context menu from where you can select the share icon, (1)revealed in the header of the file. 
 You can also right click the file and select Share (2) in the context menu. Once the file is selected, if the right panel (3) is open, there is a Share link (4) there as well.
 
-.. figure:: _static/New091.png
+.. figure:: _static/New140.png
     :align: center
 
     SHARING FILES
@@ -37,7 +37,7 @@ You can also right click the file and select Share (2) in the context menu. Once
 After clicking ‘Share’ above, in ‘Invite People’ window, click the email field and enter email address(es) seperated by semicolons (;) for anyone that needs access to the file. 
 You can also add notes if required. Click CONTINUE.
 
-.. figure:: _static/New092.png
+.. figure:: _static/New141.png
     :align: center
 
     INVITE PEOPLE TO YOUR SHARE
@@ -46,7 +46,7 @@ On the second share window you have access to the share options panel where you 
 how much control you want to give the user (e.g., read only, full control access). You can also make this share available to the public by getting a public link. Also, if desired,
 you can subsribe to notifications for the share.
 
-.. figure:: _static/New026.png
+.. figure:: _static/New142.png
     :align: center
 
     SHARE OPTIONS PANEL

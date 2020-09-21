@@ -30,13 +30,13 @@ Most of the Mobile clients will need to be downloaded from the Apple Store, Goog
 
 The Windows and Mac client agent software can be downloaded directly from the Triofox web portal itself. Click the small user icon (1) and then click the client download graphic (2) to get started. 
 
-.. figure:: _static/New015.png
+.. figure:: _static/New129.png
     :align: center
 
     ACCESSING YOUR DOWNLOADS
 
 
-.. figure:: _static/New016.png
+.. figure:: _static/New130.png
     :align: center
 
     DOWNLOAD CLIENT AGENT SOFTWARE
