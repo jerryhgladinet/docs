@@ -36,7 +36,7 @@ Then click on the Admin icon
 
 Then add the user email address(s) for additional cluster administrators
 
-.. figure:: _static/New098.png
+.. figure:: _static/New146.png
     :align: center
 
 Native User
