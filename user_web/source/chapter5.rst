@@ -12,12 +12,12 @@ Cluster Administrator count as well.
 In this scope once all the file servers are discovered in your network after integration with Active Directory, you can choose a file server and see a list of all shares on that
 file server. 
 
-.. figure:: _static/New050.png
+.. figure:: _static/New094.png
     :align: center
 
 In the screenshot below, it displays all the shares on 'MEDFILE' file server.
 
-.. figure:: _static/New051.png
+.. figure:: _static/New095.png
     :align: center
 
 Delegated Administrator
@@ -26,17 +26,17 @@ Delegated Administrator
 A delegated administrator is a normal user most of the time. However, delegated administrators can be elevated to cluster administrators by adding them under Control Panel\Admin. 
 To create this type of administrator follow these steps as Cluster Admin. Click on the Control Panel in the Dashboard.
 
-.. figure:: _static/New052.png
+.. figure:: _static/New096.png
     :align: center
 
 Then click on the Admin icon
 
-.. figure:: _static/New053.png
+.. figure:: _static/New097.png
     :align: center
 
 Then add the user email address(s) for additional cluster administrators
 
-.. figure:: _static/New053.png
+.. figure:: _static/New098.png
     :align: center
 
 Native User
