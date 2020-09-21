@@ -52,7 +52,7 @@ Admin
 
 'Admin' option allows a Triofox administrator to change the default cluster admin email if desired, reset the password, and also add additional administrators.
 
-.. figure:: _static/New104.png 
+.. figure:: _static/New146.png 
     :align: center
 
 Email Service
