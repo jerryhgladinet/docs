@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteIt.master.cs" Inherits="CentreStack.Templates.SiteIt" %>
+
+
+<%@ Register Src="~/Controls/ItMainFooter.ascx" TagPrefix="uc1" TagName="MainFooter" %>
+
+<!DOCTYPE html>
+<html class="wide wow-animation scrollTo smoothscroll" lang="en">
+<head>
+    <title>
+         <asp:ContentPlaceHolder runat="server" ID="TitleContent">
+             Cloud File Servers with Secure Sharing and Cloud Mobile Access
+             </asp:ContentPlaceHolder>
+    </title>
+    <meta name="google-site-verification" content="pQpzTpJTcPcqi8cCr6s9AlHJBwwRvblu-fN44NDL0PY" />
+    <script type="application/ld+json">
+                { "@context" : "http://schema.org",
+                  "@type" : "Organization",
+                  "name" : "Gladinet CentreStack",
+                  "url" : "www.centrestack.com",
+                  "image": "http://www.centrestack.com/centrestack_icon_white.png",
+                  "sameAs" : [ 
+                    "http://www.gladinet.com/cloudenterprise/",
+                    "http://www.gladinet.com/serviceprovider/",
+                    "https://twitter.com/gladinet",
+                    "https://plus.google.com/+GladinetCloud",
+                    "https://www.facebook.com/Gladinet",
+                    "http://gladinet.blogspot.com/"
+                   ]   
+                }
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="keywords" content="intense web design multipurpose template html">
+    <meta name="date" content="Dec 26">
+    <meta name="description" content=" CentreStack approaches file server sync-and-share differently, by preserving NTFS permissions, folder structures and Active Directory user identities, with mapped drives and file locking. It's the real cloud file server you've been looking for!" />
+    <link rel="icon" href="/intense/images/favicon.ico" type="image/x-icon">
+
+    <link rel="preload" href="https://cdn.centrestack.com/intense/fonts/revicons/revicons.woff?5510888" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:300,300italic,400,700,900%7CYesteryear">
+
+    <link rel="stylesheet" href="https://local.centrestack.com/intense/css/style.css">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3974710-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-3974710-3', { 'optimize_id': 'GTM-NC4S3L9' });
+    </script>
+
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+</head>
+<body>
+    <div class="page-loader page-loader-variant-1">
+        <div>
+            <img class='img-fluid' style='margin-top: -20px; margin-left: -18px;' width='330' height='67' src='https://cdn.centrestack.com/intense/images/logo-big.png' alt='' />
+            <div class="offset-top-41 text-center">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+    <div class="page text-center">   
+        <asp:ContentPlaceHolder runat="server" ID="NavContent" />
+        <asp:ContentPlaceHolder runat="server" ID="CoverContent" />
+        <asp:ContentPlaceHolder runat="server" ID="BodyContent" />
+        <uc1:MainFooter runat="server" ID="MainFooter" />
+    </div>
+
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="https://cdn.centrestack.com/js/core.min.js"></script>
+    <script src="https://cdn.centrestack.com/js/script_it.js"> </script>
+
+    <!-- begin olark code -->
+    <script type="text/javascript" async>
+        ; (function (o, l, a, r, k, y) {
+            if (o.olark) return;
+            r = "script"; y = l.createElement(r); r = l.getElementsByTagName(r)[0];
+            y.async = 1; y.src = "//" + a; r.parentNode.insertBefore(y, r);
+            y = o.olark = function () { k.s.push(arguments); k.t.push(+new Date) };
+            y.extend = function (i, j) { y("extend", i, j) };
+            y.identify = function (i) { y("identify", k.i = i) };
+            y.configure = function (i, j) { y("configure", i, j); k.c[i] = j };
+            k = y._ = { s: [], t: [+new Date], c: {}, l: a };
+        })(window, document, "static.olark.com/jsclient/loader.js");
+        /* Add configuration calls below this comment */
+        olark.identify('6198-854-10-1857');</script>
+    <!-- end olark code -->
+</body>
+</html>
