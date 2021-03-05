@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteDark.master.cs" Inherits="NewCentreStack.Templates.SiteDark" %>
+
+<%@ Register Src="~/template19/ItMainNav.ascx" TagPrefix="uc1" TagName="MainNav" %>
+<%@ Register Src="~/template19/ItMainFooter.ascx" TagPrefix="uc1" TagName="MainFooter" %>
+<%@ Register Src="~/template19/ItBoilerHeader.ascx" TagPrefix="uc1" TagName="BoilerHeader" %>
+<%@ Register Src="~/template19/ItBoilerTail.ascx" TagPrefix="uc1" TagName="BoilerTail" %>
+
+<!DOCTYPE html>
+<html class="wide wow-animation scrollTo smoothscroll" lang="en">
+<head>
+    <title>
+        <asp:ContentPlaceHolder runat="server" ID="TitleContent">
+            Cloud File Servers with Secure Sharing and Cloud Mobile Access
+        </asp:ContentPlaceHolder>
+    </title>
+
+    <uc1:BoilerHeader runat="server" ID="BoilerHeader" />
+
+    <meta name="keywords" content="centrestack access sharing sync host backup file server">
+    <meta name="description" content="CentreStack approaches file server sync-and-share differently, by preserving NTFS permissions, folder structures and Active Directory user identities, with mapped drives and file locking. It's the real cloud file server you've been looking for!" />
+
+
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+</head>
+<body>
+    <div class="page-loader page-loader-variant-1">
+        <div>
+            <img class='img-fluid' style='margin-top: -20px; margin-left: -18px;' width='330' height='67' src='https://cdn.centrestack.com/intense/images/logo-big.png' alt='' />
+            <div class="offset-top-41 text-center">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+    <div class="page text-center">
+        <header class="page-head slider-menu-position">
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+                    <div class="rd-navbar-inner">
+
+                        <div class="rd-navbar-panel">
+
+                            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
+
+                            <div class="rd-navbar-brand">
+                                <a href="/">
+                                    <img style='margin-top: -5px; margin-left: -15px;' width='138' height='31' src='https://cdn.centrestack.com/intense/images/logo-light.png' alt='' /></a>
+                            </div>
+                        </div>
+                        <div class="rd-navbar-menu-wrap">
+                            <div class="rd-navbar-nav-wrap">
+                                <div class="rd-navbar-mobile-scroll">
+
+                                    <div class="rd-navbar-mobile-brand">
+                                        <a href="/">
+                                            <img style='margin-top: -5px; margin-left: -15px;' width='138' height='31' src='https://cdn.centrestack.com/intense/images/logo-light.png' alt='' /></a>
+                                    </div>
+
+                                    <uc1:MainNav runat="server" ID="MainNav" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <asp:ContentPlaceHolder runat="server" ID="CoverContent" />
+        <asp:ContentPlaceHolder runat="server" ID="BodyContent" />
+        <uc1:MainFooter runat="server" ID="MainFooter" />
+    </div>
+
+    <uc1:BoilerTail runat="server" ID="BoilerTail" />
+</body>
+</html>
