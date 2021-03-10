@@ -12,7 +12,7 @@ To access your Cluster Administration features, log in to the Web Portal on the 
 
     The Web Portal URL is the server’s DNS name, the IP Address or local host if you are on the server console. 
 
-.. figure:: _static/image_s4_1_0.png
+.. figure:: _static/2021newimage001.png
     :align: center
 
 **LOGIN SCREEN**
@@ -24,7 +24,7 @@ To access your Cluster Administration features, log in to the Web Portal on the 
     
 The following graphic describes the various icons and components of the Administrator Dashboard and its sub sections. Please refer to it as you read this guide to determine how to access various features.
 
-.. figure:: _static/image_s4_2_0.png
+.. figure:: _static/2021newimage003.png
     :align: center
     
 **CLUSTER MANAGER DASHBOARD**
@@ -45,7 +45,7 @@ default tenant.
 The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel and Group Policies. 
 If you need to know the version and cluster ID information for your Cluster Manager installation, this can be accessed by clicking the “i” **(4)**. The following image represents the Cluster Info pop-up window. 
 
-.. figure:: _static/image_s4_2_1.png
+.. figure:: _static/2021newimage004.png
     :align: center
     
 **CLUSTER INFO**
@@ -64,7 +64,7 @@ In the center of the Dashboard screen, you can access your Tenants (Companies, C
 At the top left corner of the cluster dashboard (5), if you see a warning icon, it is the external dns warning indicating the external dns name is not 
 setup yet.
 
-.. figure:: _static/image_s4_2_2.png
+.. figure:: _static/2021newimage005.png
     :align: center
     
 External DNS (External URL) is a very important property. It is used in directing how outside remote clients connect to the Cluster Server. It is also used in various email templates. If this property is not properly configured, the email template may be using IP address or NETBIOS name as the URL link.
