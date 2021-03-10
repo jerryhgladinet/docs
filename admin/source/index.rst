@@ -13,4 +13,4 @@ The |prodname| runs on the Windows Server platform, and includes client agent so
   The |prodname| includes a client application for Windows File Server, which is named "Server Agent". This document is about the |prodname| itself, not about the "Server Agent".
 
 .. attention::
-  This admin guide is written for |prodname| version ``10.10.7183``
+  This admin guide is written for |prodname| version ``12.2.9413.50838``
