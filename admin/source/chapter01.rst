@@ -2,7 +2,7 @@
 2 Overview of the |prodname|
 ############################################
 
-|prodname| is a mobile access and secure file sharing solution. It differentiates itself from other File Sync and Share solutions by focusing on data security, permission controls and
+|prodname| is a mobile access and secure file sharing solution. It differentiates itself from other File Sync and Share solutions by focusing on data security, permission controls and,
 file server cloud-enablements including data protection and cloud migration. |prodname| surpasses the competition in the following areas:
 
    1. Maintaining Active Directory, security and NTFS permissions on files and folders.
@@ -11,7 +11,7 @@ file server cloud-enablements including data protection and cloud migration. |pr
    4. Mirroring of local network shares for Team Collaboration in the Cloud.
    5. Provide drive mapping and file locking functionality for files in the Cloud.
 
-|prodname| is a software solution built on top of the Microsoft Web Platform. It provides file access and sharing functionality from PCs, Macs, File Servers, Web Browsers and Mobile Devices. In 
+|prodname| is a software solution built on top of the Microsoft Web Platform. It provides file access and sharing functionality from PCs, Macs, File Servers, Web Browsers, and Mobile Devices. In 
 addition, it also brings data protection and cloud migration features.
 
 The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy the |prodname|.
