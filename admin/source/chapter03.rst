@@ -22,7 +22,7 @@ To access your Cluster Administration features, log in to the Web Portal on the 
     At the bottom of the Login screen, there is version information, which will be useful to see which version you have installed. 
 
     
-The following graphic describes the various icons and components of the Administrator Dashboard and its sub sections. Please refer to it as you read this guide to determine how to access various features.
+The following graphic describes the various icons and components of the Administrator Dashboard and its sub-sections. Please refer to it as you read this guide to determine how to access various features.
 
 .. figure:: _static/2021newimage003.png
     :align: center
@@ -31,18 +31,18 @@ The following graphic describes the various icons and components of the Administ
 
 After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. 
 
-Some of the features can be accessed several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side (or top side) of the Dashboard. 
+Some of the features can be accessed in several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side (or top side) of the Dashboard. 
 
 By clicking the folder icon **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views.  The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. When the cluster administrator clicks the folder icon to get into the files and folder's view, the files and folders belong to the 
 default tenant. 
 
 .. note::
 
-    the cluster administrator will not be able to access files and folders that are not in the scope of the default tenant. In order to access files and folders that belong to a specific tenant, the web portal login has to be 
+    the cluster administrator will not be able to access files and folders that are not in the scope of the default tenant. To access files and folders that belong to a specific tenant, the web portal login has to be 
     that of the tenant. So basically the cluster administrator can do administration work for a tenant that is under management. However, it is not easy for the cluster administrator to see the files and folders for that 
     specific tenant until he/she gets the permission and the login credentials.
 
-The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel and Group Policies. 
+The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel, and Group Policies. 
 If you need to know the version and cluster ID information for your Cluster Manager installation, this can be accessed by clicking the “i” **(4)**. The following image represents the Cluster Info pop-up window. 
 
 .. figure:: _static/2021newimage004.png

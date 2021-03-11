@@ -62,7 +62,7 @@ The Cluster Administrator can manage cluster-wide functionalities, such as email
 properties etc. 
 
 In the Deployment Guide, the Cluster Administrator is often referred to as the Master
-Admin, Root Admin or just Server Administrator. Even though the Cluster Server Farm can have multiple Servers, 
+Admin, Root Admin, or just Server Administrator. Even though the Cluster Server Farm can have multiple Servers, 
 most of the time, a server-farm with one single server is sufficient for your use case and your user base.
 
 **************************
@@ -73,11 +73,11 @@ Tenant Administrator can manage Tenant-Wide functionalities, such as Group Polic
 The Cluster Admin is 
 also a Tenant Admin for the very first Tenant (Default Tenant) so the Cluster Administrator manages both Cluster Administration and Tenant Administration (for the default tenant). 
 In the multiple-tenant case, each Tenant Administrator will be responsible
-for the Tenant’s own administration scope.
+for the Tenant’s administration scope.
 
 The Cluster Administrator by default can help each Tenant Administrator manage at the tenant level.
 
-In real world scenarios, the tenant is often mapped to an organization; a client of an MSP or a customer that has many employees.
+In real-world scenarios, the tenant is often mapped to an organization; a client of an MSP or a customer that has many employees.
 
 There are two icons related to cluster administration and tenant administration:
 
@@ -94,16 +94,16 @@ There are two icons related to cluster administration and tenant administration:
     Tenant(s) usually map to your organization(s) or client(s).
     
     If you are logged in as the Default Cluster Admin, you will manage the 
-    tenant level scope from the "Tenant Manager" instead of using the 
+    tenant-level scope from the "Tenant Manager" instead of using the 
     "Tenant Manager icon".
 
 .. note::
 
-  1: All the administration work is performed via the web portal inside a web browser. Recommended browsers include Google Chrome first, followed by Firefox, Internet Explorer, Safari and Opera. (Internet Explorer requires version 9 and above and includes Microsoft Edge Browser)
+  1: All the administration work is performed via the web portal inside a web browser. Recommended browsers include Google Chrome first, followed by Firefox, Internet Explorer, Safari, and Opera. (Internet Explorer requires version 9 and above and includes Microsoft Edge Browser)
 
   2: The very first user who installed the Cluster Server is also the Cluster Admin and Tenant Admin for the Default Tenant. In order for the Cluster Admin to be familiar with the tenant functionality, the Cluster Admin
   is provided a small 3-user default account (Tenant Account).
   
   3: You can start the administration work at any time by pointing your
-  web browser to the Cluster Server's IP Address or DNS name. If you are on the 
+ web browser to the Cluster Server's IP Address or DNS name. If you are on the 
   Cluster Server console, you can even use http://localhost to get started.
