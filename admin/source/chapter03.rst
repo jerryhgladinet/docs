@@ -90,7 +90,7 @@ To configure this setting, you must have a DNS name and SSL certificate setup; t
 
 The Cluster Server is multi-tenant capable, but can also be used for a single Tenant. To add or manage your tenants, choose Tenant Manager **(1)** in your Dashboard. 
 
-.. figure:: _static/image_s4_3_12.png
+.. figure:: _static/2021newimage007.png
     :align: center
     
     TENANT MANAGER
@@ -151,14 +151,14 @@ Deletes the tenant.
 
 ``Cluster Manager`` > ``Tenant Manager`` > ``Manage Tenant`` > ``View/Actions``
 
-.. figure:: _static/image_s4_3_16.png
+.. figure:: _static/2021newimage009.png
     :align: center
     
     TENANT DASHBOARD MENUS
 
 You can navigate to different sections of Tenant Administration using the navigation menu at the top **(1)**. 
 
-.. figure:: _static/image_s4_3_16b.png
+.. figure:: _static/2021newimage010.png
     :align: center
     
     TENANT DASHBOARD QUICK LINKS
@@ -177,7 +177,7 @@ The Tenant Dashboard link directs the web page back to the Tenant Dashboard page
 
 ``Tenant Dashboard`` > ``Users``
 
-.. figure:: _static/image_s4_3_16c.png
+.. figure:: _static/2021newimage011.png
     :align: center
     
     TENANT USER MANAGER
@@ -189,7 +189,7 @@ The Users section can manage Users in the Tenant.
 
 ``Tenant Dashboard`` > ``Team Folders``
 
-.. figure:: _static/image_s4_3_16d.png
+.. figure:: _static/2021newimage012.png
     :align: center
     
     TEAM FOLDER
@@ -198,7 +198,7 @@ Team Folders are used for team-share collaborations. Generally, Team Folders are
 
 On the right side of the tenant manager web interface, if the screen is wide enough, there is a right side panel that has 4 items, Cloud Backup, Local Active Directory, Remote Active Directory and Backend Storage. Otherwise 
 
-.. figure:: _static/image_s4_3_16e.png
+.. figure:: _static/2021newimage013.png
     :align: center
     
     RIGHT PANEL
@@ -240,14 +240,14 @@ space can be allocated from the default backend storage.
 
 However, if you already have a file server that will provide the storage, it is recommended to use "Import Network File Shares" to mount the file server network share to the tenant's storage space. In this case,you can leave the "Default Storage" as is, or point it to an empty location and treat it as a black box storage managed at the Cluster Server level.
 
-.. figure:: _static/image_s4_3_17.png
+.. figure:: _static/2021newimage014.png
     :align: center
     
     CLOUD STORAGE SETTINGS
 
 **Migrate to New Storage**
 
-.. figure:: _static/image_s4_3_16f.png
+.. figure:: _static/2021newimage015.png
     :align: center
     
     CLOUD STORAGE MIGRATE
@@ -259,7 +259,7 @@ Once the tenant backend storage is set, we don't recommend changing it until it 
 
 ``Tenant Manager`` > ``[Tenant]`` > ``Tenant Plan``
 
-.. figure:: _static/image_s4_3_17b.png
+.. figure:: _static/2021newimage016.png
     :align: center
     
     TENANT PLAN SETTINGS
@@ -267,7 +267,7 @@ Once the tenant backend storage is set, we don't recommend changing it until it 
 Here in the Tenant Plan section, you can change the tenant's user plan and storage plan, and also control 
 the bandwidth usage for the tenant.
 
-.. figure:: _static/image_s4_3_17c.png
+.. figure:: _static/2021newimage017.png
     :align: center
     
     TENANT PLAN SETTINGS
@@ -285,7 +285,7 @@ In the Admin Access Control, the cluster administrator can decide the division o
     
     Or, if the cluster administrator is an enterprise IT directory, the tenant admin can be a specific division of the enterprise.
 
-.. figure:: _static/image_s4_3_17d.png
+.. figure:: _static/2021newimage018.png
     :align: center
     
     ACCESS CONTROL SETTINGS
@@ -387,7 +387,7 @@ In the administrator information page, the cluster administrator can help the te
 
 The delegated administrators that are setup at the cluster level are users who are already in the Cluster Server and will be helping out the management of this specific tenant. Access these settings by clicking "Control Panel" (1) and choose the "Tenant Administrators" icon. 
 
-.. figure:: _static/image_s4_3_18.png
+.. figure:: _static/2021newimage019.png
     :align: center
     
     TENANT ADMINISTRATORS
@@ -421,7 +421,7 @@ However, if the tenant's infrastructure is away from the Cluster Server, it is r
     
     Use LDAP AD Setting only if the AD is in the same Local Area Network.
     
-.. figure:: _static/image_s4_3_18c.png
+.. figure:: _static/2021newimage020.png
     :align: center
     
     ACTIVE DIRECTORY SETTINGS
@@ -442,7 +442,7 @@ However, if the tenant's infrastructure is away from the Cluster Server, it is r
 Please reference the   :ref:`Tenant Admin's User Manager section <tenant_admin_usermgr>`
 
 
-.. figure:: _static/image_s4_3_18d.png
+.. figure:: _static/2021newimage021.png
     :align: center
     
     TENANT ADMIN > USER MANAGER
@@ -457,7 +457,8 @@ Please reference the   :ref:`Tenant Admin's Collaboration section <tenant_admin_
 In the team folders page, you can manage team shares, folder permissions and the underlying storage
 configuration.
 
-.. figure:: _static/image_s4_3_19.png
+.. figure:: _static/2021newimage022.png
+.. figure:: _static/2021newimage023.png
     :align: center
     
     MANAGING TEAM SHARES
@@ -471,7 +472,7 @@ The group policy settings are 100% the same as those documented in the "Tenant a
 
 Please reference the   :ref:`"Tenant Admin's Group Policy section <tenant_admin_grouppolicy>`
 
-.. figure:: _static/image_s4_3_20.png
+.. figure:: _static/2021newimage024.png
     :align: center
     
     GROUP POLICY SETTINGS
@@ -488,7 +489,7 @@ You can think of the customized URL
 as a primary key to retrieve all tenant related 
 branding information.
 
-.. figure:: _static/image_s4_3_20a.png
+.. figure:: _static/2021newimage025.png
     :align: center
     
     TENANT BRANDING
@@ -520,7 +521,7 @@ The Reports section has the following sub categories
     - Pending Purged Folders
     
 
-.. figure:: _static/image_s4_3_20b.png
+.. figure:: _static/2021newimage026.png
     :align: center
     
     TENANT MANAGER REPORTS
@@ -532,7 +533,7 @@ The Reports section has the following sub categories
 
 The cluster administrator can look at the devices that have the client agent software installed and connected in the specific tenant.
 
-.. figure:: _static/image_s4_3_21.png
+.. figure:: _static/2021newimage027.png
     :align: center
     
     DEVICE MANAGER SETTINGS
@@ -551,7 +552,8 @@ setup on a per-tenant basis.
     - Pixlr Web App
     - Zoho Web App
 
-.. figure:: _static/image_s4_3_22.png
+.. figure:: _static/2021newimage028.png
+.. figure:: _static/2021newimage029.png
     :align: center
     
     APPLICATION MANAGER
@@ -564,7 +566,8 @@ setup on a per-tenant basis.
 The cluster administrator can use the notification manager to help the tenant setup notification events. The tenant administrator will receive email notifications
 for the events subscribed.
 
-.. figure:: _static/image_s4_3_23.png
+.. figure:: _static/2021newimage030.png
+.. figure:: _static/2021newimage031.png
     :align: center
     
     NOTIFICATIONS SETTINGS
@@ -581,7 +584,8 @@ There are three different kind of background tasks that may take a long time to 
     3. Tenant Storage Migration - move tenant storage from location A to location B
     4. Anchor Migration -  move data out of Anchor and into |prodname|
 
-.. figure:: _static/image_s4_3_23a.png
+.. figure:: _static/2021newimage032.png
+.. figure:: _static/2021newimage033.png
     :align: center
     
     BACKGROUND TASKS
@@ -593,7 +597,7 @@ The cluster administrator can help the tenant seed the data. For example take da
 
 ``Tenant Manager`` > ``[Tenant]`` > ``Background Tasks`` > ``Add New Data Seeding Task``
 
-.. figure:: _static/image_s4_3_23b.png
+.. figure:: _static/2021newimage034.png
     :align: center
     
     DATA SEEDING
@@ -614,7 +618,8 @@ If you are seeding the data into a brand new team folder, you will first go into
 
 Click on the "Plus" sign in the ``New Tenant`` to start the creation of a new tenant.
 
-.. figure:: _static/image_s4_3_23c.png
+.. figure:: _static/2021newimage035.png
+.. figure:: _static/2021newimage036.png
     :align: center
     
     CREATING A NEW TENANT
@@ -624,7 +629,7 @@ The first screen under "New Tenant" is asking for "Start from Scratch" or "Impor
 When you select "Add New Tenant from Scratch", The next screen is asking for a 
 few parameters related to who the tenant is.
 
-.. figure:: _static/image_s4_3_24.png
+.. figure:: _static/2021newimage037.png
     :align: center
     
     TENANT MANAGER SETTINGS 1
@@ -637,7 +642,7 @@ If you pick **"Continue"**,
 
 The second screen under "Add Tenant from Scratch" is asking for the division of work between the cluster administrator and the tenant administrator.
 
-.. figure:: _static/image_s4_3_24b.png
+.. figure:: _static/2021newimage038.png
     :align: center
     
     TENANT MANAGER SETTINGS 2
@@ -645,7 +650,7 @@ The second screen under "Add Tenant from Scratch" is asking for the division of 
 The third screen under "Add Tenant" is asking where
 the root storage for the tenant will be at.
 
-.. figure:: _static/image_s4_3_25a.png
+.. figure:: _static/2021newimage039.png
     :align: center
     
     ADD TENANT STORAGE OPTIONS 1
@@ -659,7 +664,7 @@ not be able to see the folder from |prodname|.
 
 Using this option, you can connect the tenant's root folder to a file server network share. If you want the tenant users to continue to share file server network share outside of |prodname|, it is recommended you use the "Import Network Share" feature in "Team Folder" instead of pointing the default storage to the file server share, because the Cluster Server will assume it has 100% of the control of the storage location. 
 
-.. figure:: _static/image_s4_3_25.png
+.. figure:: _static/2021newimage040.png
     :align: center
     
     ADD TENANT STORAGE OPTIONS 2
@@ -668,7 +673,8 @@ Using this option, you can connect the tenant's root folder to a file server net
 
 when using this option, you can connect the tenant's root folder to Amazon S3, Windows Azure Blob, OpenStack storage as well as others.
     
-.. figure:: _static/image_s4_3_26.png
+.. figure:: _static/2021newimage041.png
+.. figure:: _static/2021newimage042.png
     :align: center
     
     CLOUD STORAGE SETTINGS
@@ -679,7 +685,7 @@ when using this option, you can connect the tenant's root folder to Amazon S3, W
 
 You can pick Amazon S3 as the target storage for the tenant if you want to.
 
-.. figure:: _static/image_s4_3_27.png
+.. figure:: _static/2021newimage043.png
     :align: center
     
     AMAZON S3
@@ -817,7 +823,7 @@ After the container information is all set, the tenant account will be created.
 
 Cluster Admin section is to change the properties of the default administrator and also to add additional people to be the cluster administrators. Access the Cluster Admin in the panel on the right of your Tenant Dashboard or from the Cluster Control Panel view.  
 
-.. figure:: _static/image_s4_4_00.png
+.. figure:: _static/2021newimage044.png
     :align: center
     
     CLUSTER ADMIN SETTINGS
@@ -834,7 +840,7 @@ Both rely on the “Cluster Branding” to change the look-and-feel of the web p
 
 Built-in branding will work with white-label clients, which upon the first connection to the cluster, will download the branding related information and  use the branding related information. As compared to full-branding service, the full branding clients will have artworks, logo bitmaps and related information burned into the client binaries.
 
-.. figure:: _static/image_s4_5_00.png
+.. figure:: _static/2021newimage046.png
     :align: center
     
     CLUSTER BRANDING
@@ -852,7 +858,7 @@ Under the general tab you can specify the name and other settings as specified b
 
 This is where you will specify what you would like to call the product. This is the name that users will see when they login either in web portal or the client applications. To access branding settings click the branding icon **(1)** then "EDIT" **(2)** and then change the setting you want **(3)**. Don't forget to save your settings. You can also choose a color theme which you would like your users to see when they login to the portal. You can choose a color theme that is close to your company colors.
 
-.. figure:: _static/image_s4_5_01.png
+.. figure:: _static/2021newimage045.png
     :align: center
     
     CLUSTER BRANDING
@@ -861,7 +867,7 @@ This is where you will specify what you would like to call the product. This is 
 
 Users’ feedback will be delivered to this email address.
 
-.. figure:: _static/image_s4_5_01a.png
+.. figure:: _static/image_s4_3_12.png
     :align: center
     
     FEEDBACK EMAIL
@@ -871,7 +877,8 @@ Users’ feedback will be delivered to this email address.
 
 This is the URL of your ‘Home Page’ page **(1)**.
 
-.. figure:: _static/image_s4_5_01b.png
+.. figure:: _static/2021newimage047.png
+.. figure:: _static/2021newimage048.png
     :align: center
     
     HOME PAGE URL AND COPYRIGHT STATEMENT
@@ -894,7 +901,7 @@ This is the contents of your ‘Copyright’ statement **(2)**.
 
 In later builds, the icons used are what-you-see-is-what-you-get and you can upload those icon sets.
 
-.. figure:: _static/image_s4_5_20.png
+.. figure:: _static/2021newimage050.png
     :align: center
     
     WEB PORTAL SETTINGS
@@ -904,7 +911,7 @@ In later builds, the icons used are what-you-see-is-what-you-get and you can upl
 
 From the Web portal **(1)** section of cluster branding, you can change the application icon **(2)**. This is the image that is displayed next to the product name in the web portal.
 
-.. figure:: _static/image_s4_5_21.png
+.. figure:: _static/2021newimage049.png
     :align: center
     
     WEB PORTAL BRANDING
@@ -922,7 +929,7 @@ This is the icon that will be used for the cloud drive. For example in the web p
 
 **Logo Url & Login Page Left Image (5)**
 
-.. figure:: _static/image_s4_5_22.png
+.. figure:: _static/2021newimage051.png
     :align: center
     
     LOGIN PAGE ICON
@@ -936,7 +943,7 @@ Please follow the same steps for branding settings for ‘Login Background Image
 
 You can choose not to show the download link for some clients here.
 
-.. figure:: _static/image_s4_5_23.png
+.. figure:: _static/2021newimage052.png
     :align: center
     
     CLIENT DOWNLOAD SETTINGS
@@ -944,10 +951,10 @@ You can choose not to show the download link for some clients here.
 
 **Mobile Clients Download Links**
 
-Once you brand your own iOS client, Android client, Windows Phone and Windows Store application, you can point the download link to your own AppStore and Google Play locations.
+Once you brand your own iOS client and/or Android Client you can point the download link to your own AppStore and Google Play locations.
 
 
-.. figure:: _static/image_s4_5_24.png
+.. figure:: _static/2021newimage053.png
     :align: center
     
     CLIENT DOWNLOAD LINKS SETTINGS
@@ -962,14 +969,14 @@ The application icon and drive icon URLs can be specified here. Also, you can pu
 
 Windows client supports multiple languages. Some language packs are included and shipped with CentreStack. If you need to run the Windows client under a different language, you can set the UI Language there.
 
-.. figure:: _static/image_s4_5_30.png
+.. figure:: _static/2021newimage054.png
     :align: center
     
     WINDOWS CLIENT BRANDING
 
 Once you clicked the "Edit" button to edit the Windows Client branding information, you will be able to provide EULA (End User License Agreement) and Code Signing Certificate.
 
-.. figure:: _static/image_s4_5_31.png
+.. figure:: _static/2021newimage055.png
     :align: center
     
     WINDOWS CLIENT BRANDING SETTINGS
@@ -995,7 +1002,7 @@ You can configure the MAC client and MAC client installation package branding un
 
 **Client Branding**
 
-.. figure:: _static/image_s4_5_40.png
+.. figure:: _static/2021newimage056.png
     :align: center
     
     MAC CLIENT BRANDING
@@ -1101,7 +1108,7 @@ There are many places in the Cluster Manager that need to contact the users via 
 
     This is to set the reply email address. Typically the email is sent with the SMTP service set. However, if the reply address is different, you can set it here.
 
-.. figure:: _static/image_s4_5_70.png
+.. figure:: _static/2021newimage057.png
     :align: center
     
     EMAIL SETTINGS
@@ -1112,7 +1119,7 @@ There are many places in the Cluster Manager that need to contact the users via 
 
 You can either export the branding settings to another cluster or you can import branding settings from another cluster in this cluster under this setting.
 
-.. figure:: _static/image_s4_5_80.png
+.. figure:: _static/2021newimage058.png
     :align: center
     
     EXPORT/IMPORT SETTINGS
@@ -1145,7 +1152,9 @@ In the Authenticate User field, if your SMTP service doesn't require authenticat
     :SMTP Server Port
         ``587``
 
-.. figure:: _static/image_s4_6_00.png
+.. figure:: _static/2021newimage059.png
+.. figure:: _static/2021newimage060.png
+
     :align: center
     
     EMAIL SERVICE SETTINGS
@@ -1159,7 +1168,8 @@ In the Authenticate User field, if your SMTP service doesn't require authenticat
 
 Cluster Server Farm has two types of nodes, one is “Worker Node” and the other is “Web Nodes”.
 
-.. figure:: _static/image_s4_7_00.png
+.. figure:: _static/2021newimage061.png
+.. figure:: _static/2021newimage062.png
     :align: center
     
     CLUSTER SERVER FARM NODES
@@ -1205,7 +1215,7 @@ Again, additional nodes can be added as the load increases. Because there is cac
 
 There are some settings that apply to all worker nodes. After you click on the "Settings" icon, the Advanced Setttings panel will show.
 
-.. figure:: _static/image_s4_7_02.png
+.. figure:: _static/2021newimage063.png
     :align: center
     
     WORKER NODE SETTINGS
@@ -1281,7 +1291,7 @@ You may need to modify the worker node properties when you setup SSL and the DNS
 
 **Worker Node - Edit Cloud Monitor Setting**
 
-.. figure:: _static/image_s4_7_04.png
+.. figure:: _static/2021newimage064.png
     :align: center
     
     CLOUD MONITOR SETTINGS
@@ -1349,7 +1359,8 @@ For example, I have storage in LA so I have an LA zone. I also have storage in N
 You can have worker nodes from different zones as well and assign users to specific zone. If user’s home directory
 is coming from LA zone, the user will need to be assigned to LA zone.
 
-.. figure:: _static/image_s4_7_05.png
+.. figure:: _static/2021newimage065.png
+.. figure:: _static/2021newimage066.png
     :align: center
     
     CONTROL PANEL STORAGE ZONES EDITOR
@@ -1367,7 +1378,7 @@ is coming from LA zone, the user will need to be assigned to LA zone.
 Upload report tab shows you graphs for all the uploads that have taken place in the last sixty minutes, 24 hours,
 30 days and a whole week.
 
-.. figure:: _static/image_s4_8_40.png
+.. figure:: _static/2021newimage067.png
     :align: center
     
     UPLOAD REPORT
@@ -1379,7 +1390,7 @@ Upload report tab shows you graphs for all the uploads that have taken place in 
 Under storage statistics, you can see a quick overview of the overall storage statistics, size distribution
 file type distribution pie charts, and users who have used the most storage so far.
 
-.. figure:: _static/image_s4_8_50.png
+.. figure:: _static/2021newimage068.png
     :align: center
     
     STORAGE STATISTICS REPORT
@@ -1388,10 +1399,10 @@ file type distribution pie charts, and users who have used the most storage so f
 4.8.3 Active Users
 ^^^^^^^^^^^^^^^^^^^^^
 
-Active users reports the activity of users on the web portal. The active users report doesn't include users from windows client or other native clients because those users are more persistent (always there). To access this report, in the left-side menu, click ``Reports`` **(1)** then click the drop-down menu **(2)** and choose "Active Users" **(3)** from the menu. 
+Active users reports the activity of users on the web portal. The active users report doesn't include users from windows client or other native clients because those users are more persistent (always there). To access this report, you can click on the active users section in the panel near the top of the screen. 
 
 
-.. figure:: _static/image_s4_8_10.png
+.. figure:: _static/2021newimage069.png
     :align: center
     
     
@@ -1401,7 +1412,7 @@ Active users reports the activity of users on the web portal. The active users r
 4.8.4 Guest Users
 ^^^^^^^^^^^^^^^^^^^^
 
-Other reports are also available such as Guest Users **(3)**, which are users that don't have a home directory but are invited to participate on some shared folders and shared files.
+Other reports are also available such as Guest Users, which are users that don't have a home directory but are invited to participate on some shared folders and shared files.
 
 
 4.8.5 Node Performance
@@ -1409,7 +1420,7 @@ Other reports are also available such as Guest Users **(3)**, which are users th
 
 You can use the Node Performance to check out the worker node health and the database health.
 
-.. figure:: _static/image_s4_8_30.png
+.. figure:: _static/2021newimage070.png
     :align: center
     
     
@@ -1478,7 +1489,7 @@ Under reports you can look at the upload graphs and storage statistics.
 
 This shows the overall bandwidth usage statistics as well as more granular tenant and user level statistics.
 
-.. figure:: _static/image_s4_8_60.png
+.. figure:: _static/2021newimage071.png
     :align: center
     
     BANDWIDTH USAGE REPORT
@@ -1700,7 +1711,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings``
 
-.. figure:: _static/image_s4_8_120.png
+.. figure:: _static/2021newimage072.png
     :align: center
     
     CLUSTER SETTINGS
@@ -1713,7 +1724,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Cluster Settings``
 
-.. figure:: _static/image_s4_9_00.png
+.. figure:: _static/2021newimage073.png
     :align: center
     
     CLUSTER SETTINGS PERMISSIONS
@@ -1899,7 +1910,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Timeouts and Limits``
 
-.. figure:: _static/image_s4_9_21.png
+.. figure:: _static/2021newimage074.png
     :align: center
     
     TIMEOUTS AND LIMITS
@@ -2007,7 +2018,8 @@ You can enable anti-virus protection which will ensure that the files being uplo
 
 You will first need to obtain the anti-virus service that is independent from the Cluster Server, and get it directly from the anti-virus vendor. After that, you can integrate the anti-virus service into the Cluster Server.
 
-.. figure:: _static/image_s4_9_50.png
+.. figure:: _static/2021newimage075.png
+.. figure:: _static/2021newimage076.png
     :align: center
     
     ANTI-VIRUS SETTINGS
@@ -2022,7 +2034,7 @@ Default group policy can be applied to all tenants in the cluster. However, if t
 
 Please reference the ``Group Policy`` in the tenant administrator section for full list of policy items.
 
-.. figure:: _static/image_s4_10_00.png
+.. figure:: _static/2021newimage077.png
     :align: center
     
     GROUP POLICY SETTINGS
