@@ -24,7 +24,7 @@ To access your Cluster Administration features, log in to the Web Portal on the 
     
 The following graphic describes the various icons and components of the Administrator Dashboard and its sub-sections. Please refer to it as you read this guide to determine how to access various features.
 
-.. figure:: _static/2021newimage003.png
+.. figure:: _static/image_s4_2_0.png
     :align: center
     
 **CLUSTER MANAGER DASHBOARD**
@@ -198,7 +198,7 @@ Team Folders are used for team-share collaborations. Generally, Team Folders are
 
 On the right side of the tenant manager web interface, if the screen is wide enough, there is a right side panel that has 4 items, Cloud Backup, Local Active Directory, Remote Active Directory and Backend Storage. Otherwise 
 
-.. figure:: _static/2021newimage013.png
+.. figure:: _static/image_s4_3_16e.png
     :align: center
     
     RIGHT PANEL
@@ -674,7 +674,6 @@ Using this option, you can connect the tenant's root folder to a file server net
 when using this option, you can connect the tenant's root folder to Amazon S3, Windows Azure Blob, OpenStack storage as well as others.
     
 .. figure:: _static/2021newimage041.png
-.. figure:: _static/2021newimage042.png
     :align: center
     
     CLOUD STORAGE SETTINGS
