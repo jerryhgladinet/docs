@@ -12,7 +12,7 @@ Tenant Manager is completely web-based.
 
 From the Cluster Manager Dashboard, you can access the Tenant Manager by choosing it in the left-side menu **(1)**. This menu can be toggled on and off by clicking the "hamburger" menu **(2)** in the top left corner of the Dashboard. 
 
-.. figure:: _static/2021newimage78.png
+.. figure:: _static/2021newimage078.png
     :align: center
 
     CLUSTER SERVER DASHBOARD
