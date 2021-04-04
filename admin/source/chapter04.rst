@@ -4,15 +4,15 @@
 
 
 .. note::
-    A tenant is usually mapped to an organization or in the case of MSP managed organization, a service provider would call them clients. Basically a tenant is a management scope that represents an organization.
+    A tenant is usually mapped to an organization or in the case of MSP managed organization, a service provider would call them clients. Basically, a tenant is a management scope that represents an organization.
 
-Tenant manager scope is defined for tenant administrator. For a multi-tenant Cluster Server system, each tenant has an administrator. For a single-tenant Cluster Server system, the default cluster administrator is also the tenant administrator.
+Tenant manager scope is defined for tenant administrators. For a multi-tenant Cluster Server system, each tenant has an administrator. For a single-tenant Cluster Server system, the default cluster administrator is also the tenant administrator.
 
 Tenant Manager is completely web-based.
 
 From the Cluster Manager Dashboard, you can access the Tenant Manager by choosing it in the left-side menu **(1)**. This menu can be toggled on and off by clicking the "hamburger" menu **(2)** in the top left corner of the Dashboard. 
 
-.. figure:: _static/image_s5_0_00.png
+.. figure:: _static/2021newimage78.png
     :align: center
 
     CLUSTER SERVER DASHBOARD
@@ -23,7 +23,7 @@ From the Cluster Manager Dashboard, you can access the Tenant Manager by choosin
     
     Now the following guide will assume you are a tenant administrator, which is not the default cluster administrator.
 
-You can also login directly to the web portal as the tenant administrator instead of the default cluster administrator to get to the tenant administrator management web interface.
+You can also log in directly to the web portal as the tenant administrator instead of the default cluster administrator to get to the tenant administrator management web interface.
 
 
 **********************
@@ -34,7 +34,7 @@ You can also login directly to the web portal as the tenant administrator instea
 
 This is the Tenant Dashboard.
 
-.. figure:: _static/image_s5_1_00.png
+.. figure:: _static/2021newimage079.png
     :align: center
 
     TENANT DASHBOARD
@@ -44,7 +44,7 @@ This is the Tenant Dashboard.
 5.2 Storage Manager
 *********************
 
-The Storage Manager is at the right panel of tenant dashboard when the screen is wide enough to show the right panel. It will be shown normally on a desktop screen.
+The Storage Manager is at the right panel of the tenant dashboard when the screen is wide enough to show the right panel. It will be shown normally on a desktop screen.
 
 .. figure:: _static/image_s5_2_00.png
     :align: center
@@ -85,7 +85,7 @@ Home storage is the most important property in the tenant manager. It is used in
 5.2.2 Attach Storage
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Storage is an important component in the Cluster Server. you can connect the tenant to a specific storage service. For example, you can connect it to local file server storage; you can also connect the tenant to cloud storage service such as Amazon S3, Windows Azure and OpenStack Swift.
+Storage is an important component in the Cluster Server. you can connect the tenant to a specific storage service. For example, you can connect it to local file server storage; you can also connect the tenant to cloud storage services such as Amazon S3, Windows Azure, and OpenStack Swift.
 
 .. figure:: _static/image_s5_2_21.png
     :align: center
@@ -108,7 +108,7 @@ After clicking the "Attach Storage" button, the Cluster Server will take some ti
 
     LOCAL AREA NETWORK (LAN) STORAGE
 
-In the File Servers in Local Area Network section, the Cluster Server will contact Active Directory or contact network browser in the local area network to try to find file servers in the local area network. Most of the time, if firewalls and network connections are properly configured, the file server can be easily added into the system. 
+In the File Servers in Local Area Network section, the Cluster Server will contact Active Directory or contact network browser in the local area network to try to find file servers in the local area network. Most of the time, if firewalls and network connections are properly configured, the file server can be easily added to the system. 
 
 However, sometimes, there are some situations such as the DNS system or the NETBIOS system not being ready. In that case, the file server may be discovered but it may not be connected, you can use the Manual Configuration to manually connect to the file server.
 
@@ -121,7 +121,7 @@ However, sometimes, there are some situations such as the DNS system or the NETB
 5.2.4 Root Folder Name
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Root folder name is the top level folder name that will show up in the tenant administrator's folder structure. We recommend the folder name being descriptive and follow the normal Windows path recommendations (For example, there are certain characters that are not allowed).  
+The Root folder name is the top-level folder name that will show up in the tenant administrator's folder structure. We recommend the folder name being descriptive and follow the normal Windows path recommendations (For example, certain characters that are not allowed).  
 
 .. note::
 
@@ -131,7 +131,7 @@ The Root folder name is the top level folder name that will show up in the tenan
 5.2.5 Local Storage Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the file server UNC path or local windows folder path that you will connect into the tenant administrator's root folder structure. The idea here is you will take this folder and mount the folder into the tenant administrator's root folder structure with the name described in the "Root Folder name".
+This is the file server UNC path or local windows folder path that you will connect into the tenant administrator's root folder structure. The idea here is you will take this folder and mount the folder to the tenant administrator's root folder structure with the name described in the "Root Folder name".
 
 
 **User Name**
@@ -150,9 +150,9 @@ This is the password for the Windows user above.
 
 **“Always access the storage using logon user identity”**
 
-    When you have Active Directory Integration, and mount an existing file server network share in, you can select to “Always access the storage using logon user identity” so the ACL (NTFS Permission) on the file server share will be used natively. The access permission will be checked natively against the user’s Active Directory identity that is defined by the NTFS permission.
+    When you have Active Directory Integration, and mount an existing file server network share in, you can select “Always access the storage using logon user identity” so the ACL (NTFS Permission) on the file server share will be used natively. The access permission will be checked natively against the user’s Active Directory identity that is defined by the NTFS permission.
 
-    This option only applies to the "Local Storage" such as network share, DFS share, local folder and etc.
+    This option only applies to the "Local Storage" such as network share, DFS share, local folder, and etc.
 
 **“The share is from a Linux/Unix/ZFS server”**
 
@@ -162,22 +162,22 @@ This is the password for the Windows user above.
 
 **“This share is a DFS share”**
 
-    If the share is a DFS share, you will check this checkbox, because DFS share has an extra layer of translation to translate back down to normal file server shares. This flag basically tells the Cluster Server to do an extra DFS translation back to SMB share before connecting to the share.
+    If the share is a DFS share, you will check this checkbox, because DFS share has an extra layer of translation to translate back down to normal file server shares. This flag tells the Cluster Server to do an extra DFS translation back to SMB share before connecting to the share.
 
 **“Enable Inplace Versioning”**
 
-    The underlying file server network share may not have explicit version control (it may have volume shadow copy for other purposes). This will add Cluster Server version control to the file server network share. It is independent from and not related to the volume shadow copy.
+    The underlying file server network share may not have explicit version control (it may have volume shadow copy for other purposes). This will add Cluster Server version control to the file server network share. It is independent of and not related to the volume shadow copy.
 
 .. note::
     
-    In place versioning will put the older version of the file into a __ver__ sub folder in the same folder structure making the name for In-Place Versioning so the folder structure is maintained as-is, while extra old copies of the file will be stored in a specific sub folder. 
+    In place versioning will put the older version of the file into a __ver__ subfolder in the same folder structure making the name for In-Place Versioning so the folder structure is maintained as-is, while extra old copies of the file will be stored in a specific subfolder. 
 
 .. figure:: _static/image_s5_2_50.png
     :align: center
 
     IN-PLACE VERSIONING
 
-Here is a demo video showing the end result of "Enable Inplace Versioning" when the root folder ('forward slash') is mounted with the "Inplace versioning" enabled.
+Here is a demo video showing the result of "Enable Inplace Versioning" when the root folder ('forward slash') is mounted with the "Inplace versioning" enabled.
 
 .. raw:: html
 
@@ -188,7 +188,7 @@ Here is a demo video showing the end result of "Enable Inplace Versioning" when 
 5.3 Storage Manager – Cloud Storage Property
 **********************************************
 
-Besides local storage, you can also mount cloud storage into the system. If you have Amazon S3, or Amazon S3 compatible storage service, or if you have OpenStack Swift or OpenStack Swift compatible storage, you can connect it into the system. You can see the full list of storage services supported, including SoftLayer Object Storage, Google Cloud Storage, Microsoft Azure storage and more. 
+Besides local storage, you can also mount cloud storage into the system. If you have Amazon S3, or Amazon S3 compatible storage service, or if you have OpenStack Swift or OpenStack Swift compatible storage, you can connect it into the system. You can see the full list of storage services supported, including SoftLayer Object Storage, Google Cloud Storage, Microsoft Azure storage, and more. 
 
 .. figure:: _static/image_s5_3_00.png
     :align: center
@@ -204,7 +204,7 @@ Besides local storage, you can also mount cloud storage into the system. If you 
 
 ``Tenant Management Console`` > ``Team Folder``
 
-.. figure:: _static/image_s5_3_1a.png
+.. figure:: _static/2021newimage080.png
     :align: center
 
     ENTER TEAM FOLDER SECTION
@@ -214,7 +214,7 @@ The team folder concept is like a network share, meaning you can define a folder
 
 When the server agent is in use, the team folder can be mapped directly to a network share from the server where the server agent is installed. 
 
-When a directly connected network share is used, a team folder can be mapped to a SMB/CIFS network share directly. 
+When a directly connected network share is used, a team folder can be mapped to an SMB/CIFS network share directly. 
 
 You can also turn any existing folder into a team folder. 
 
@@ -224,7 +224,7 @@ A Team folder has a tenant administrator scope so the team folder related sharin
 
     By default, the files and folders that the administrator can see is hidden away from the regular team user until those folders are published to the team users. 
 
-.. figure:: _static/image_s5_3_10.png
+.. figure:: _static/2021newimage081.png
     :align: center
 
     TEAM FOLDER SETTINGS
@@ -237,7 +237,7 @@ Create Team Folder
 
 You can click on the "+" sign to create a new team folder.
 
-.. figure:: _static/image_s5_3_11.png
+.. figure:: _static/2021newimage082.png
     :align: center
 
     ADDING A TEAM FOLDER
@@ -249,7 +249,7 @@ Once it is clicked, it shows four main sources of team folder, among other optio
     - Remote File Servers
     - Cloud Storage
 
-.. figure:: _static/image_s5_3_12.png
+.. figure:: _static/2021newimage083.png
     :align: center
 
     TEAM FOLDER LOCATIONS
@@ -258,9 +258,7 @@ Once it is clicked, it shows four main sources of team folder, among other optio
 
     When you pick this option to create a team folder, the team folder will be created from the default storage from scratch with an empty team folder. Usually when you want to have a team folder that is brand new and empty, you can pick this option.
     
-    Another use case is "Existing Folder(s)", which you can pick several existing folders, which physically may not be in the same folder, but you can logically arrange them into the same
-    team folder. For example, you may want to have a short term project that put "Building A", "Blue Print A", "Budget A" , three different folders from three different places into one logical
-    team folder when a group of users collaborating on renovating building A.
+    Another use case is "Existing Folder(s)", in which you can pick several existing folders, which physically may not be in the same folder, but you can logically arrange them into the same team folder. For example, you may want to have a short term project that put "Building A", "Blue Print A", "Budget A", three different folders from three different places into one logical
 
 .. figure:: _static/image_s5_3_13.png
     :align: center
@@ -270,11 +268,11 @@ Once it is clicked, it shows four main sources of team folder, among other optio
     
 **File Servers in Local Area Network**
 
-    When you have files and folders from local area network (LAN), you can convert the network share directly into a team folder in the Cluster Server. It is a one-to-one relationship between a team folder and a network share. When you pick this option, most of the time, the Active Directory server for this tenant is also in the same Local Area Network.
+    When you have files and folders from the local area network (LAN), you can convert the network share directly into a team folder in the Cluster Server. It is a one-to-one relationship between a team folder and a network share. When you pick this option, most of the time, the Active Directory server for this tenant is also in the same Local Area Network.
     
 **Publish Tenant Home Storage As a Team Folder**
 
-    By default, the tenant's root storage folder is not published to any team user. To use an analogy, it is like a C: drive on a Windows File Server, by default it is not published as network share to users. However, if you want to make it available to users, you can pick this option. 
+    By default, the tenant's root storage folder is not published to any team user. To use an analogy, it is like a C: drive on a Windows File Server, by default it is not published as a network share to users. However, if you want to make it available to users, you can pick this option. 
 
     .. figure:: _static/image_s5_3_13a.png
         :align: center
@@ -285,14 +283,14 @@ Once it is clicked, it shows four main sources of team folder, among other optio
 
     When you have server agents installed on remote file servers, those file servers will be visible and the network shares from remote file servers will be imported to the Cluster Server.
     
-    .. figure:: _static/image_s5_3_13b.png
+    .. figure:: _static/2021newimage084.png
         :align: center
 
         REMOTE TEAM FOLDER
 
 **Cloud Storage**
 
-    You can also pick Cloud Storage as this team folder's underlying storage. As shown in the following picture, you can pick Amazon S3, Windows Azure Blob, OpenStack Swift and other cloud storage services.
+    You can also pick Cloud Storage as this team folder's underlying storage. As shown in the following picture, you can pick Amazon S3, Windows Azure Blob, OpenStack Swift, and other cloud storage services.
     
     .. figure:: _static/image_s5_3_13c.png
         :align: center
@@ -318,7 +316,8 @@ Team Folder Permission Setting
 
 ``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button``
 
-.. figure:: _static/image_s5_3_16.png
+.. figure:: _static/2021newimage085.png
+.. figure:: _static/2021newimage086.png
     :align: center
 
     EDITING FOLDER PERMISSIONS
@@ -340,10 +339,25 @@ User List:
 
 You can see what folders and files have been shared and control access to those files from this setting.
 
-.. figure:: _static/image_s5_3_16a.png
+.. figure:: _static/2021newimage087.png
     :align: center
 
     TEAM FOLDER PERMISSION SETTINGS
+
+    **Access Policy**
+
+``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button`` > ``Access Policy Tab``
+
+You can enable an access policy through this tab.
+
+.. figure:: _static/2021newimage088.png
+.. figure:: _static/2021newimage089.png
+.. figure:: _static/2021newimage090.png
+.. figure:: _static/2021newimage091.png
+.. figure:: _static/2021newimage092.png
+    :align: center
+
+    ACCESS POLICY SETTINGS
 
 **Folder Permissions**
 
@@ -359,7 +373,7 @@ If you are leveraging native Active Directory/NTFS permission from a file server
     
     In practice, usually it is done one way or the other. If you have decided to use NTFS natively, you can leave the permission settings here empty and not defined.
 
-.. figure:: _static/image_s5_3_16b.png
+.. figure:: _static/2021newimage093.png
     :align: center
 
     TEAM FOLDER PERMISSION SETTINGS
@@ -368,14 +382,14 @@ If you are leveraging native Active Directory/NTFS permission from a file server
 
 ``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button`` > ``Settings Tab``
 
-.. figure:: _static/image_s5_3_16c.png
+.. figure:: _static/2021newimage094.png
     :align: center
 
     TEAM FOLDER SETTINGS OVERVIEW
 
 Here is a look at the details of the Team Folder Settings:
 
-.. figure:: _static/image_s5_3_17.png
+.. figure:: _static/2021newimage095.png
     :align: center
 
     TEAM FOLDER SETTINGS DETAIL
@@ -392,7 +406,7 @@ Here is a look at the details of the Team Folder Settings:
 
     Don't allow Windows clients or Mac clients to mark their folders as offline from within the team folder.
 
-.. figure:: _static/image_s5_3_18.png
+.. figure:: _static/2021newimage096.png
     :align: center
 
     TEAM FOLDER SETTINGS - PERMISSIONS
@@ -406,25 +420,12 @@ Here is a look at the details of the Team Folder Settings:
 
     Hide the folder instead of showing users folders that they will receive "Access Denied".
     
-**Secure Data Room**
-
-    Don't allow download content but allow viewing directly in web browser.
-
-.. figure:: _static/image_s5_3_19.png
-    :align: center
-
-**IP White List**
-
-    Security feature to lock team folder access down to a range of IP addresses.
-
-.. figure:: _static/image_s5_3_20.png
-    :align: center
 
 **Quota and Retention Policy**
 
     Team folder can have a per-team folder retention policy.
 
-.. figure:: _static/image_s5_3_21.png
+.. figure:: _static/2021newimage097.png
     :align: center
 
     QUOTA AND RETENTION POLICY
@@ -446,14 +447,16 @@ In the Documentation, the regular user is often referenced as "Team User".
 
 The first tab is the Regular User Manager. These are the users that have full privilege of home directory, sharing and other features. 
 
-.. figure:: _static/image_s5_4_10.png
+.. figure:: _static/2021newimage098.png
+.. figure:: _static/2021newimage099.png
     :align: center
 
     USER MANAGER SETTINGS
 
 User Manager also have a list view:
 
-.. figure:: _static/image_s5_4_11.png
+.. figure:: _static/2021newimage100.png
+.. figure:: _static/2021newimage101.png
     :align: center
 
     USER MANAGER LIST/ICON VIEW TOGGLE
@@ -462,15 +465,15 @@ If you have Active Directory, normally these are the users in the Active Directo
 
   - Native User
   
-    these are the users that are created manually with an email.
+    These are the users that are created manually with an email.
     
   - AD User
   
-    these are the users that are imported from Active Directory via LDAP.
+    These are the users that are imported from Active Directory via LDAP.
     
   - Proxied AD User
   
-    these are the users that are imported from Server Agent, where the file server agent is remote and away from the Cluster Server in the customer's site. The customer's Active Directory domain is also remote, and the file server itself (where server agent is installed) is in the
+    These are the users that are imported from Server Agent, where the file server agent is remote and away from the Cluster Server in the customer's site. The customer's Active Directory domain is also remote, and the file server itself (where server agent is installed) is in the
     remote Active Directory.
 
 
@@ -506,16 +509,16 @@ When you have Active Directory integration, you will leverage the Active Directo
 
 The Role Manager is to provide role based administration. For example, you may want to provide read-only permissions to some users. You can also assign some group policies to some groups of users. More and more policy items are added to the role manager so in addition to only use role manager for administration, it can be also used to define policy items for users.
 
-.. figure:: _static/image_s5_5_1a.png
+.. figure:: _static/2021newimage102.png
     :align: center
 
     ROLE MANAGER ENTRY
 
 When creating a role, there are 4 different sections
 
-    - Permissions
     - Sharing
     - Policies
+    - Permissions
     - Assigned Users/Groups
 
 
@@ -524,39 +527,41 @@ Role Manager - Create New Role
 
 You can define areas in the tenant administrator's management console and assign it into a role. 
 
-.. figure:: _static/image_s5_5_10.png
-    :align: center
-
-    ROLE MANAGER PERMISSIONS
-
-
-Role Manager - Sharing
-------------------------
-
-additional sharing policies for the role.
-
-.. figure:: _static/image_s5_5_10b.png
+.. figure:: _static/2021newimage102.png
+.. figure:: _static/2021newimage103.png
+.. figure:: _static/2021newimage104.png
     :align: center
 
     ROLE MANAGER SHARING
 
 
 Role Manager - Policies
--------------------------
+------------------------
 
-Additional policies that can be assigned to a role.
+additional policies for the role.
 
-.. figure:: _static/image_s5_5_10c.png
+.. figure:: _static/2021newimage105.png
     :align: center
 
     ROLE MANAGER POLICIES
+
+
+Role Manager - Permissions
+-------------------------
+
+Additional Permissions that can be assigned to a role.
+
+.. figure:: _static/2021newimage106.png
+    :align: center
+
+    ROLE MANAGER PERMISSIONS
 
 Role Manager - Assigned Users/Groups
 ------------------------------------
 
 After the content of the role is all set, users and groups can be assigned to a role.
 
-.. figure:: _static/image_s5_5_10d.png
+.. figure:: _static/2021newimage107.png
     :align: center
 
     ROLE MANAGER ASSIGNED USERS/GROUPS
@@ -570,7 +575,7 @@ After the content of the role is all set, users and groups can be assigned to a 
 
 ``Tenant Management Console`` > ``Group Policy``
 
-.. figure:: _static/image_s5_6_00.png
+.. figure:: _static/2021newimage108.png
     :align: center
 
     GROUP POLICY SETTINGS
@@ -592,14 +597,14 @@ Security
 
 ``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` > ``Security``
 
-.. figure:: _static/image_s5_6_11.png
+.. figure:: _static/2021newimage109.png
     :align: center
 
     GROUP POLICY SETTINGS
 
 **“Allow Cluster Admin to manage my tenant”**
 
-    when enabled, the cluster admin will be able to use “Manage Tenant” link to manage the tenant in the tenant manager. This is very convenient for cluster administrator (typically system administrator from service provider) to provide management work to the tenant.
+    when enabled, the cluster-admin will be able to use the “Manage Tenant” link to manage the tenant in the tenant manager. This is very convenient for cluster administrators (typically system administrators from service providers) to provide management work to the tenant.
 
 
 **“Enable Authenticating User with Google Apps Credentials”**
@@ -609,21 +614,14 @@ Security
 
 **"When delegate admin login via server agent, impersonate as tenant admin"**
 
-    Server agent typically need to sync to the default tenant administrator. It is recommended when a delegate administrator setup server agent, it needs to impersonate the default tenant administrator.
-
-
-**“Access management related pages from Intranet Only”**
-
-    (This setting may only be available from cluster administrator side) 
-
-    Intranet is defined as 10.x.x.x or 192.168.x.x kind of IP addresses. Usually you can achieve the same functionality by disable the management functionality on external facing worker nodes but enable that for an internal facing worker node. But if your intranet meets certain IP address criteria, you can use this setting to achieve that goal too. It is a security feature to limit the management scope to intranet only. As mentioned above, an alternative way is to go to the cluster manager, then cluster server farm and disable the “management functionality on this node”.
+    Server agents typically need to sync to the default tenant administrator. It is recommended when a delegate administrator setup a server agent, it needs to impersonate the default tenant administrator.
 
 
 **“File upload and download must go through worker node”**
 
     (This setting may only be available from cluster administrator side)
 
-    For Amazon S3 type of cloud storage/object storage, it is recommend NOT to force file upload and download going through worker nodes, because Amazon S3 is good for offload the upload/download to between the access clients and the backend Amazon S3 storage. However, for OpenStack Swift storage, depending on how it is setup, you may want to turn this on to force File Upload/Download going through worker node for security reason.
+    For Amazon S3 type of cloud storage/object storage, it is recommended NOT to force file upload and download going through worker nodes, because Amazon S3 is good for offload the upload/download between the access clients and the backend Amazon S3 storage. However, for OpenStack Swift storage, depending on how it is set up, you may want to turn this on to force File Upload/Download going through worker node for security reasons.
 
     This setting may be checked by default. However, based on your configuration, it may not need to be checked.
 
@@ -644,15 +642,15 @@ Sharing Settings
 
 **“Users must log in to access the content in 'Files shared with me' folder”**
 
-    When sharing files and folders with users, you can force the sharing to create guest accounts for users that are not already in the system. It is more secure when asking the receiver of the share to sign in to receive shared items. This disables the anonymous sharing.
+    When sharing files and folders with users, you can force the sharing to create guest accounts for users that are not already in the system. It is more secure when asking the receiver of the share to sign in to receive shared items. This disables anonymous sharing.
 
-    If this setting is not enabled, users can share files and folders to outside email address without requiring outside user to create guest user account.
+    If this setting is not enabled, users can share files and folders to an outside email address without requiring outside users to create a guest user account.
 
 
 
 **“Disable user's ability to share home directory content externally”**
 
-    This feature disables the ability for regular user to share home directory contents for security reasons.
+    This feature disables the ability for a regular user to share home directory contents for security reasons.
 
 
 
@@ -676,7 +674,7 @@ Sharing Settings
 
 **“Enable distribution group detection in file/folder sharing's user interface”**
 
-    With active directory integration, sometimes you want to share files and folders with a distribution group. This feature allows detection of distribution group and expand the group so the sharing will be done with the users in the group, instead of using the group as a single user.
+    With active directory integration, sometimes you want to share files and folders with a distribution group. This feature allows detection of distribution group and expands the group so the sharing will be done with the users in the group, instead of using the group as a single user.
 
 
 **"Show user list in sharing dialog"**
@@ -700,8 +698,9 @@ Sharing Settings
     By default the file name or folder name is used for the share name. However, if user has many same name folders or files. Sharing them out sometimes many not know which is which. This setting allows user to change share name. For example, when sharing out a "Documents" folder, it can be named "Documents in top level folder".
 
 **"Send a copy of file sharing invitation email to share owner"**
+   
+    When sending the file-sharing email, sending a copy (CC) to the owner of the share (usually the sender of the email)
 
-    When sending the file sharing email, sending a copy (CC) to the owner of the share (usually the sender of the email)
 
 **"Don't append email to shared object name under 'Files Shared With Me'"**
 
@@ -760,7 +759,7 @@ File Locking Settings
 ```Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` > ``File Locking``
 File Locking can be accessed from the following location in the Tenant Dashboard's Group Policy section. 
 
-.. figure:: _static/image_s5_6_13.png
+.. figure:: _static/2021newimage110.png
     :align: center
 
     GROUP POLICY FILE LOCKING
@@ -778,7 +777,7 @@ Settings under file locking applies to all clients which include desktop clients
 
 **“Enable Distributed locking when accessing files”**
 
-    In the Cluster Server, there are two ways to lock files, one is manually by right clicking on a file and select “Check out”. The other way is automatic based on certain binary executables. For example, you can see Microsoft Office executable files like winword.exe and so on.
+    In the Cluster Server, there are two ways to lock files, one is manually by right-clicking on a file and select “Check out”. The other way is automatic based on certain binary executables. For example, you can see Microsoft Office executable files like winword.exe and so on.
 
 
 **“Lock file exclusively”**
@@ -795,7 +794,7 @@ Settings under file locking applies to all clients which include desktop clients
 
 **“Delay sync until file is unlocked”**
 
-    It is recommended to check this setting. Most users have habit to save files in the middle of editing. You don’t want these edit to go every time to the cloud for these intermediate saves. You want to do a save to the cloud at the end like a grand finale. So you can delay sync until file is
+    It is recommended to check this setting. Most users have the habit to save files in the middle of editing. You don’t want these edits to go every time to the cloud for these intermediate saves. You want to do a save to the cloud at the end like a grand finale. So you can delay sync until the file is
     unlocked.
 
 
@@ -843,7 +842,8 @@ Client Setting Manager
 
 ``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` >  ``Client Setting Manager``
 
-.. figure:: _static/image_s5_6_14.png
+.. figure:: _static/2021newimage111.png
+.. figure:: _static/2021newimage112.png
     :align: center
 
     GROUP POLICY CLIENT SETTING MANAGER
@@ -924,19 +924,19 @@ When starting the client, open the mounted drive automatically
 
 Do not show file change notifications
 
-    This is another feature that shows file change notification at the lower right hand corner of Windows desktop. People may find it annoying if the change notification comes in quite often.
+    This is another feature that shows file change notification at the lower right-hand corner of the Windows desktop. People may find it annoying if the change notification comes in quite often.
 
 Do not show file in-place editing/preview disabled notifications
 
-    This feature also shows file change notification at the lower right hand corner of Windows desktop. People may find it annoying if the change notification comes in quite often.
+    This feature also shows file change notifications at the lower right-hand corner of the Windows desktop. People may find it annoying if the change notification comes in quite often.
 
 Enable Inplace Open Zip File
 
-    Windows Explorer has zip built-in extension that can open a zip file when double clicked on. It maybe good for local drive but for cloud drive, that means the zip file is unzipped and re-upload back into the cloud. By default client application disables opening zip file directly in the cloud drive. 
+    Windows Explorer has a zip built-in extension that can open a zip file when double-clicked on. It may be good for the local drive but for cloud drive, that means the zip file is unzipped and re-upload back into the cloud. By default client application disables opening zip files directly in the cloud drive. 
 
 Enable Single Sign On with login windows user identity
 
-    Enable Single Sign On with Login Windows User Identity - For Windows client agent running on a Windows Desktop machine, the login windows' user's identity will be used for single sign on to the |prodname| account. 
+    Enable Single Sign-On with Login Windows User Identity - For a Windows client agent running on a Windows Desktop machine, the login windows user's identity will be used for single sign-on to the |prodname| account. 
 
 Max Size of Zip File Allowed to Open In-place (MB)
 
@@ -980,12 +980,11 @@ Disable "Check Out"
 
 Encrypt Local Cache
 
-    Once enabled, when a file is downloaded to cache, it is encrypted in-place. When an authorized user then accesses the file from the (M:) Mapped Cloud Drive, CentreStack automatically decrypts it on the fly and then returns it to the user. 
+    Once enabled, when a file is downloaded to cache, it is encrypted in place. When an authorized user then accesses the file from the (M:) Mapped Cloud Drive, CentreStack automatically decrypts it on the fly and then returns it to the user. 
 
 Disable AutoCad Optimization
 
-    By default, there is an AutoCad optimization that delays the synchronization of updated .dwg file and schedules it to sync upwards to cloud at a later time. Use this setting to disable this AutoCad optimization and make saving AutoCad .dwg files act the same as saving other regular files and lets .dwg file behavior follow other policy settings. 
-
+    By default, there is an AutoCAD optimization that delays the synchronization of the updated .dwg file and schedules it to sync upwards to the cloud at a later time. Use this setting to disable this AutoCad optimization and make saving AutoCAD .dwg files act the same as saving other regular files and lets .dwg file behavior follow other policy settings. 
 
 Large File Upload
 +++++++++++++++++++
@@ -1370,7 +1369,7 @@ Single Sign-On Settings
 
 Single Sign on via SAML is a per-tenant setting. 
 
-.. figure:: _static/image_s5_6_23a.png
+.. figure:: _static/2021newimage113.png
     :align: center
     
     ACCESSING TENANT GROUP POLICY SETTINGS
@@ -1527,7 +1526,7 @@ it will redirect back to the SP side.
 
 ``Tenant Management Console`` > ``Group Policy`` > ``Folder & Storage``
 
-.. figure:: _static/image_s5_6_30.png
+.. figure:: _static/2021newimage114.png
     :align: center
 
     FOLDER AND STORAGE PANEL
@@ -1889,7 +1888,8 @@ You can also export the group policy settings to other clusters in the environme
 
 If per-tenant branding is enabled, The tenant branding section will be available.
 
-.. figure:: _static/image_s5_7_00.png
+.. figure:: _static/2021newimage115.png
+.. figure:: _static/2021newimage116.png
     :align: center
 
     PER-TENANT BRANDING OPTIONS
@@ -1928,7 +1928,7 @@ You can see upload report, storage statistics, team folders, shared objects, aud
 5.9.1 Upload Report
 ^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: _static/image_s5_09_10.png
+.. figure:: _static/2021newimage117.png
     :align: center
 
     UPLOAD REPORT
@@ -1937,16 +1937,24 @@ You can see upload report, storage statistics, team folders, shared objects, aud
 5.9.2 Storage Statistics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: _static/image_s5_09_20.png
+.. figure:: _static/2021newimage118.png
     :align: center
 
     STORAGE STATISTICS REPORT
 
+5.9.2 Bandwidth Usage
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage119.png
+    :align: center
+
+   BANDWITH USAGE REPORT
+ 
 
 5.9.3 Team Folders
 ^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: _static/image_s5_09_30.png
+.. figure:: _static/2021newimage120.png
     :align: center
 
     TEAM FOLDERS REPORT
@@ -1955,7 +1963,7 @@ You can see upload report, storage statistics, team folders, shared objects, aud
 5.9.4 Shared Objects
 ^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: _static/image_s5_09_40.png
+.. figure:: _static/2021newimage121.png
     :align: center
 
     SHARED OBJECTS REPORT
@@ -1966,7 +1974,7 @@ You can see upload report, storage statistics, team folders, shared objects, aud
 
 Audit trace contains the management events, such as login success, login fail , shared a folder and etc.
 
-.. figure:: _static/image_s5_09_50.png
+.. figure:: _static/2021newimage122.png
     :align: center
 
     AUDIT TRACE REPORT
@@ -1979,7 +1987,7 @@ File change log is capable of search for user’s file change history. It is mos
 troubleshoot issues. For example, you can point to the file change log and say, you deleted this file on this
 day.
 
-.. figure:: _static/image_s5_09_60.png
+.. figure:: _static/2021newimage123.png
     :align: center
 
     FILE CHANGE LOGGING REPORT
@@ -1988,7 +1996,7 @@ day.
 5.9.7 Folder Permissions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: _static/image_s5_09_70.png
+.. figure:: _static/2021newimage124.png
     :align: center
 
     FOLDER PERMISSIONS REPORT
@@ -1997,7 +2005,7 @@ day.
 5.9.8 Distributed Locks
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: _static/image_s5_09_80.png
+.. figure:: _static/2021newimage125.png
     :align: center
 
     DISTRIBUTED LOCKS REPORT
@@ -2006,7 +2014,7 @@ day.
 5.9.9 Pending Purged Folder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: _static/image_s5_09_90.png
+.. figure:: _static/2021newimage126.png
     :align: center
 
     PENDING PURGED FOLDER REPORT
@@ -2126,7 +2134,8 @@ This feature is used to control BYOD (Bring your own device). For some organizat
 5.10.3 Application Manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: _static/image_s5_10_30.png
+.. figure:: _static/2021newimage127.png
+.. figure:: _static/2021newimage128.png
     :align: center
 
     CONTROL PANEL APPLICATION MANAGER
