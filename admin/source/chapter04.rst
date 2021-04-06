@@ -344,7 +344,7 @@ You can see what folders and files have been shared and control access to those 
 
     TEAM FOLDER PERMISSION SETTINGS
 
-    **Access Policy**
+ **Access Policy**
 
 ``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button`` > ``Access Policy Tab``
 
@@ -352,12 +352,51 @@ You can enable an access policy through this tab.
 
 .. figure:: _static/2021newimage088.png
 .. figure:: _static/2021newimage089.png
+    :align: center
+
+ **Client Access Policies**
+
+ Define customized access policies to restrict and allow access based on the device location. For example, a company can enable access from the internet to only Windows clients and web clients. IT can configure allow or deny client access policies from the following locations:
+
+- Access from the internet
+- Access from local network
+- Access from Anywhere
+- Access from customer-defined networks
+- Deny access from customer defined networks
+
+The above allow and deny client access policies can be configured for the following clients:
+
+-Web client
+-Web management
+-Windows client
+-Mac client
+-Mobile client
+
 .. figure:: _static/2021newimage090.png
 .. figure:: _static/2021newimage091.png
 .. figure:: _static/2021newimage092.png
     :align: center
 
+ **Share Access Policy**   
+
     ACCESS POLICY SETTINGS
+
+IT can also prevent data loss and data leakage of important company confidential shares by configuring ‘Share Access Policies’ for external users who are not company employees. Again, IT can configure allow or deny shares access policies from the following locations:
+
+-Access from the internet
+-Access from local network
+-Access from Anywhere
+-Access from customer-defined networks
+-Deny access from customer defined networks   
+
+The above allow and deny share access policies can be configured with the following conditions:
+
+-Visible
+-Permissions to list files
+-Permissions to read files
+-Permissions to create or update files and folders
+-Permissions to delete files and folders
+-Secure data room
 
 **Folder Permissions**
 
