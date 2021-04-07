@@ -339,8 +339,8 @@ User List:
 
 You can see what folders and files have been shared and control access to those files from this setting.
 
-.. figure:: _static/2021newimage087.png
-    :align: center
+.. figure:: _static/2021newimage086.png
+
 
     TEAM FOLDER PERMISSION SETTINGS
 
@@ -352,7 +352,7 @@ You can enable an access policy through this tab.
 
 .. figure:: _static/2021newimage088.png
 .. figure:: _static/2021newimage089.png
-    :align: center
+
 
  **Client Access Policies**
 
@@ -367,7 +367,7 @@ web client, web management, windows client, mac client, mobile client.
 .. figure:: _static/2021newimage090.png
 .. figure:: _static/2021newimage091.png
 .. figure:: _static/2021newimage092.png
-    :align: center
+
 
  **Share Access Policy**   
 
