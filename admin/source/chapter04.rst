@@ -358,19 +358,11 @@ You can enable an access policy through this tab.
 
  Define customized access policies to restrict and allow access based on the device location. For example, a company can enable access from the internet to only Windows clients and web clients. IT can configure allow or deny client access policies from the following locations:
 
-- Access from the internet
-- Access from local network
-- Access from Anywhere
-- Access from customer-defined networks
-- Deny access from customer defined networks
+Access from the internet, access from local network, access from Anywhere, access from customer-defined networks, deny access from customer defined networks.
 
 The above allow and deny client access policies can be configured for the following clients:
 
--Web client
--Web management
--Windows client
--Mac client
--Mobile client
+web client, web management, windows client, mac client, mobile client.
 
 .. figure:: _static/2021newimage090.png
 .. figure:: _static/2021newimage091.png
