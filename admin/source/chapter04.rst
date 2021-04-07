@@ -1977,7 +1977,7 @@ You can see upload report, storage statistics, team folders, shared objects, aud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/2021newimage119.png
-    :align: center
+
 
    BANDWITH USAGE REPORT
  
