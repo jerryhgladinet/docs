@@ -4,7 +4,7 @@
 
 After the machine reboots, the Default administration configuration page will be displayed.
 
-.. image:: _static/image_s3_1_1.png
+.. image:: _static/image_s3_1_1_v2.png
 
 First, setup the cluster administrator account.
 

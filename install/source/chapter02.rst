@@ -112,19 +112,19 @@ Step 5: Start Installation
 
 You can get the CentreStack installation package from the CentreStack partner portal (by login to http://www.centrestack.com) and get to the Private CentreStack section.
 
-.. image:: _static/image_s2_5_1.png
+.. image:: _static/image_s2_5_1_v2.png
 
 Sign into the CentreStack server console (RDP or physical console are fine) with administrator rights. Once you click the **"Download"** button on the Partner Portal, the installer will appear either in downloads or as a link at the bottom of your browser. Click the executable file to begin the installation.
 
 You will see the welcome screen.
 
-.. image:: _static/image_s2_5_2.png
+.. image:: _static/image_s2_5_2_v3.png
 
 Click 'Next'
 
 And accept the EULA
 
-.. image:: _static/image_s2_5_3.png
+.. image:: _static/image_s2_5_3_v3.png
 
 CentreStack will install and then you will need to restart your system to complete the installation. 
 
@@ -134,18 +134,18 @@ CentreStack will install and then you will need to restart your system to comple
 
 For the next screen, if you have an existing database use the pull-down menu to select a different option otherwise use the default which will also install the MySQL Community Edition database.
 
-.. image:: _static/image_s2_5_4.png
+.. image:: _static/image_s2_5_7_v2.png
 
 In the next screen, enter your Partner Account login credentials to complete the installation.
 
-.. image:: _static/image_s2_5_5.png
+.. image:: _static/image_s2_5_8_v2.png
 
 Click ‘Next’
 
-.. image:: _static/image014.png
+.. image:: _static/image_s2_5_5_v3.png
 
 And Click Install.
 
-.. image:: _static/image015.png
+.. image:: _static/image_s2_5_6_v2.png
 
 Once installation is complete, a reboot is required. Click 'Yes' on the reboot window.

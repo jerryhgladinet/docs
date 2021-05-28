@@ -12,7 +12,7 @@ the web portal as the Master Administrator.
 
 After you login to the web portal, click to the "Cluster Branding" Pages.
 
-.. image:: _static/image_s10_1_1.png
+.. image:: _static/image_s10_1_1_v2.png
 
 Please reference the "Branding" section in the `Admin Guide`__ for the self-hosted CentreStack server.
 
