@@ -5,13 +5,13 @@ CentreStack Android Client User Guide
 Introduction
 ================
 
-Welcome to the CentreStack Android Client User Guide. This guide describes the Android client application for CentreStack, the managed file synchronization and sharing solution.
+Welcome to the CentreStack Android Client User Guide. This guide describes the Android client application for CentreStack, the managed file synchronization, and sharing solution.
 
-Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, Windows 8+ and more. We have created a native Android application which you can download from the Google Play Store. This provides access to files and folders in your CentreStack account.
+Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, Windows 8+, and more. We have created a native Android application that you can download from the Google Play Store. This provides access to files and folders in your CentreStack account.
 
-There is also a white labeled CentreStack Android app called "Cloud Android Client" by Gladinet that can be distributed by service providers and enterprises to their users.
+There is also a white-labeled CentreStack Android app called "Cloud Android Client" by Gladinet that can be distributed by service providers and enterprises to their users.
 
-If you have the fully branded CentreStack Android client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack Android Client with your own company name and product logo from http://www.centrestack.com (partner portal).
+If you have the fully branded CentreStack Android client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack Android Client with your company name and product logo from http://www.centrestack.com (partner portal).
 
 Getting Started
 ------------------
@@ -36,8 +36,7 @@ Enter your User Name and tap "CONTINUE".
 
 .. image:: _static/2021NewImage004.png
 
-On the following screen, enter your Password and tap Done, to login to your server.
-
+On the following screen, enter your Password and tap Done, to log in to your server.
 
 Accessing Folders and Files
 ==============================
@@ -61,7 +60,7 @@ If you tap the **+** (plus) icon you are given several options for the folder yo
 Preview
 ----------
 
-Tap a folder to enter it for browsing, and tap a file to open it in a file previewer. From within the previewer you have a 3-dot menu in the lower-right side, that allows you to perform other actions on the file. 
+Tap a folder to enter it for browsing, and tap a file to open it in a file previewer. From within the previewer, you have a 3-dot menu on the lower-right side, that allows you to perform other actions on the file. 
 
 **(1) Download** allows you to copy the file to your downloads folder on the device.
 
@@ -82,9 +81,8 @@ Tap a folder to enter it for browsing, and tap a file to open it in a file previ
 Creating New Folders
 ======================
 
-In order to create new folders, click the **+** (plus) icon (1) on the bottom-right of the screen. Then choose the **Add Folder** icon (2), enter the folder name and click the **"CREATE"** button to create a new folder. 
+To create new folders, click the **+** (plus) icon (1) on the bottom-right of the screen. Then choose the **Add Folder** icon (2), enter the folder name, and click the **"CREATE"** button to create a new folder. 
 
-.. image:: _static/2021NewImage016.png
 
 .. image:: _static/2021NewImage007.png
 
@@ -110,11 +108,11 @@ If there is no default application for the document you are previewing (e.g., *.
 
 .. image:: _static/image_06_2.png
 
-You will be taken to the edit and collaboration screen where you will select ‘Open with’ option. For this example, I choose "Hancom Office Editor" to edit the file; but your options will vary depending on the device configuration and installed applications.
+You will be taken to the edit and collaboration screen where you will select the ‘Open with’ option. For this example, I choose "Hancom Office Editor" to edit the file; but your options will vary depending on the device configuration and installed applications.
 
 .. image:: _static/image_06_3.png
 
-Edit the file and select save; the blue checkmark in the top left corner of this example. Any changes made will be saved and you can use the back arrow to return back and continue editing more files.
+Edit the file and select save; the blue checkmark in the top left corner of this example. Any changes made will be saved and you can use the back arrow to return and continue editing more files.
 
 .. image:: _static/image_06_4.png
 
@@ -124,7 +122,7 @@ Edit the file and select save; the blue checkmark in the top left corner of this
 Working with Office Applications
 ==================================
 
-If you have offic 365 for mobile applications installed, you can access these apps from CentreStack Android. For example, if you have Excel for Android installed, when previewing a xlsx file, you will see the Excel icon. Tap the Excel icon to open the file in Excel for editing. 
+If you have office 365 for mobile applications installed, you can access these apps from CentreStack Android. For example, if you have Excel for Android installed when previewing an xlsx file, you will see the Excel icon. Tap the Excel icon to open the file in Excel for editing. 
 
 .. image:: _static/image_07_1.png
 
@@ -151,7 +149,7 @@ You can add a file to favorites by pressing the **Star Icon**. When you add a fo
 Removing from Favorite
 ------------------------
 
-To remove files from your **Offline Favorites** Access them from the top left hamburger menu, and choose **Favorites**. 
+To remove files from your **Offline Favorites** Access them from the top-left hamburger menu, and choose **Favorites**. 
 
 .. image:: _static/image_08_2.png
 
@@ -179,7 +177,8 @@ If you press **"Share manager" (3)**, you will be taken to a view of all previou
 .. image:: _static/image_09_1.png 
 
 .. important::
-    Sharing with an email user creates a **Guest User**. Each licensed user can create 3 guest user accounts. If there are 3 licensed users, then a total of 9 guest users can be added for that tenant. If the number of guest users has reached the limit, and the tenant is setup to auto grow the number of licensed users, then one more license will be added to the tenant. 
+        Sharing with an email user creates a **Guest User**. Each licensed user can create 3 guest user accounts. If there are 3 licensed users, then a total of 9 guest users can be added for that tenant. If the number of guest users has reached the limit, and the tenant is set up to auto grow the number of licensed users, then one more license will be added to the tenant. 
+
 
 If you choose the **"Share" (1)** option (see above), in the next screen, enter the email(s) of any users you want to add. Press the **">"** icon to add users to the share. 
 
@@ -260,4 +259,4 @@ To logout, click the "Hamburger" menu on the top-left of the app and press the *
 Conclusion
 ===============
 
-Gladinet’s vision is to enable access to enterprise data from anywhere using any device including mobile devices like Andoid, iPhones and iPads. The Android CentreStack application is feature rich which allows enterprise users to not only access the data but also sync and collaborate on that data. Users can access, share, edit, and perform other functions on the data when accessing from Android devices just like they do when they access it from Windows or MAC clients.
+Gladinet’s vision is to enable access to enterprise data from anywhere using any device including mobile devices like Android, iPhones, and iPads. The Android CentreStack application is feature-rich which allows enterprise users to not only access the data but also sync and collaborate on that data. Users can access, share, edit, and perform other functions on the data when accessing from Android devices just like they do when they access it from Windows or MAC clients.
