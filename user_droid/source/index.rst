@@ -23,21 +23,20 @@ Download & Install
 
 Search for Gladinet, Inc. as a publisher in ‘Play Store’ to start the download and installation.
 
-.. image:: _static/image_01_1.png
+.. image:: _static/2021NewImage001.png
 
-.. image:: _static/image_01_2.png
 
 After the install open the app from its icon. Login using your credentials.
 
-.. image:: _static/image_01_3.png
+.. image:: _static/2021NewImage002.png
+
+.. image:: _static/2021NewImage003.png
 
 Enter your User Name and tap "CONTINUE".
 
-.. image:: _static/image_01_4.png
+.. image:: _static/2021NewImage004.png
 
 On the following screen, enter your Password and tap Done, to login to your server.
-
-.. image:: _static/image_01_5.png
 
 
 Accessing Folders and Files
@@ -45,19 +44,19 @@ Accessing Folders and Files
 
 Once logged in users will see the files and folders they have access to like shown in the screen below.
 
-.. image:: _static/image_02_1.png
+.. image:: _static/2021NewImage009.png
 
 Tap on the folder to see the files and sub-folders inside. 
 
-.. image:: _static/image_02_2.png
+.. image:: _static/2021NewImage012.png
 
 You can 'Set as Favorite' a file by clicking the **star** icon next to the file as shown below. 
 
-.. image:: _static/image_02_3.png
+.. image:: _static/2021NewImage013.png
 
 If you tap the **+** (plus) icon you are given several options for the folder you are in: Upload **(1)**, capture photo **(2)**, add folder **(3)**. 
 
-.. image:: _static/image_02_4.png
+.. image:: _static/2021NewImage014.png
 
 Preview
 ----------
@@ -85,27 +84,27 @@ Creating New Folders
 
 In order to create new folders, click the **+** (plus) icon (1) on the bottom-right of the screen. Then choose the **Add Folder** icon (2), enter the folder name and click the **"CREATE"** button to create a new folder. 
 
-.. image:: _static/image_04_1.png
+.. image:: _static/2021NewImage016.png
 
-.. image:: _static/image_04_2.png
+.. image:: _static/2021NewImage007.png
 
 Uploading Files and Photos
 ============================
 
 Selecting the Upload icon **(1)** will allow users to upload existing files and photos. 
 
-.. image:: _static/image_05_1.png
+.. image:: _static/2021NewImage017.png
 
 Once you have clicked the **Upload** Icon you can browse to a folder, choose a file and click the **Upload** Icon in the lower right of the display. 
 
-.. image:: _static/image_05_2.png
+.. image:: _static/2021NewImage008.png
 
 Opening and saving an existing document
 ===========================================
 
 To edit an existing document, tap on the document in the file list to enter "Preview Mode" and tap the File Type icon (e.g., Word) on the bottom-right to open it in the appropriate application. 
 
-.. image:: _static/image_06_1.png
+.. image:: _static/2021NewImage018.png
 
 If there is no default application for the document you are previewing (e.g., *.rtf) **(1)**, then you can tap the 3-dot menu button **(2)** to open a menu. There you can choose "Open" **(3)**, which will give you several options for how you can open the file. 
 
@@ -256,7 +255,7 @@ Logging Out From CentreStack
 
 To logout, click the "Hamburger" menu on the top-left of the app and press the **"Logout"** icon at the bottom of the menu.
 
-.. image:: _static/image_11_1.png
+.. image:: _static/2021NewImage020.png
 
 Conclusion
 ===============
