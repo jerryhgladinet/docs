@@ -76,7 +76,7 @@ Tap a folder to enter it for browsing, and tap a file to open it in a file previ
 
 **(7) Word Icon** this is the mobile Microsoft Word application icon. This icon will be different depending on the file you are previewing (e.g., if it was an Excel file, the icon would be an Excel icon). If you click the icon, the file will open in that application. 
 
-.. image:: _static/image_03_1.png
+.. image:: _static/2021newimage022.png
 
 Creating New Folders
 ======================
@@ -143,7 +143,7 @@ Adding to Favorite
 
 You can add a file to favorites by pressing the **Star Icon**. When you add a folder or a file to favorite, it will be marked with a **Green Check** and will become offline-accessible.
 
-.. image:: _static/image_08_1.png
+.. image:: _static/2021NewImage023.png
 
 
 Removing from Favorite
@@ -151,11 +151,11 @@ Removing from Favorite
 
 To remove files from your **Offline Favorites** Access them from the top-left hamburger menu, and choose **Favorites**. 
 
-.. image:: _static/image_08_2.png
+.. image:: _static/2021newimage025.png
 
 In the **Offline Favorites** view you can remove files by pressing the **"X"**. Once removed, the file will not be available offline. 
 
-.. image:: _static/image_08_3.png
+.. image:: _static/2021newimage026.png
 
 
 Sharing Options
@@ -166,7 +166,7 @@ You can select the files or folders that you want to share from your Android dev
 Sharing a File
 ----------------
 
-From the file view you can long-press an item and a context menu will appear. In this context menu you can "Share" in several ways: "Share", "Get public link", "Share manager". 
+From the file view you can click the vertical ellipses near the right and a context menu will appear. In this context menu you can "Share" in several ways: "Share", "Get public link", "Share manager". 
 
 If you press **"Share" (1)**, you will be taken to the "Share/Invite User to share" screen. There you can add user emails and select various options for sharing. 
 
@@ -174,7 +174,7 @@ If you press **"Get public link" (2)**, a URL will be provided that you can use 
 
 If you press **"Share manager" (3)**, you will be taken to a view of all previous shares for this file. You can add new shares there or delete previous shares to revoke access.  
 
-.. image:: _static/image_09_1.png 
+.. image:: _static/2021newimage030.png 
 
 .. important::
         Sharing with an email user creates a **Guest User**. Each licensed user can create 3 guest user accounts. If there are 3 licensed users, then a total of 9 guest users can be added for that tenant. If the number of guest users has reached the limit, and the tenant is set up to auto grow the number of licensed users, then one more license will be added to the tenant. 
@@ -182,11 +182,11 @@ If you press **"Share manager" (3)**, you will be taken to a view of all previou
 
 If you choose the **"Share" (1)** option (see above), in the next screen, enter the email(s) of any users you want to add. Press the **">"** icon to add users to the share. 
 
-.. image:: _static/image_09_2.png
+.. image:: _static/2021newimage031.png
 
 In the next screen, you can click the yellow arrow to **"Continue as it is now"** (read-only access). Or choose **"Add user as a Guest User"** to get access to other settings. 
 
-.. image:: _static/image_09_3.png
+.. image:: _static/2021newimage028.png
 
 If you chose the default option, the user(s) you added will receive an email giving access to the shared item. 
 
@@ -207,7 +207,7 @@ Before sending your email share notification you can control how the guest user(
     - Notify user when file/folder is changed
     
 
-.. image:: _static/image_09_4.png
+.. image:: _static/2021newimage028.png
 
 
 Shared Objects Window
@@ -215,16 +215,16 @@ Shared Objects Window
 
 You can also access "Share" options from within a document preview. This can be accessed from the lower-right 3-dot menu. 
 
-.. image:: _static/image_09_5.png
+.. image:: _static/2021NewImage032.png
 
 The Share Manager 
 ---------------------
 
-On the Share Manager screen, you will see a list of any shares associated with this file. To delete a user share, click the **X** next to it. This removes the user and prevents access by that user. 
+On the Share Manager screen, you will see a list of any shares associated with this file. To delete a user share, click the **Trash Can Icon** next to it. This removes the user and prevents access by that user. 
 
 If you click the Share Menu button on the bottom-right of the screen you get other options. **Add more users** to the share list, **copy public (read-only) link** to the clipboard, **refresh the list**. 
 
-.. image:: _static/image_09_6.png
+.. image:: _static/2021NewImage033.png
 
 File Operations
 =================
@@ -246,7 +246,7 @@ Renaming a File
 
 You can rename a file or a folder using the **‘Rename’** option. Pressing **‘Rename’** will display a field to type in the new name.
 
-.. image:: _static/image_10_1.png
+.. image:: _static/2021NewImage035.png
 
 
 Logging Out From CentreStack
