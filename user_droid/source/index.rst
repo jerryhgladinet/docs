@@ -106,7 +106,7 @@ To edit an existing document, tap on the document in the file list to enter "Pre
 
 If there is no default application for the document you are previewing (e.g., *.rtf) **(1)**, then you can tap the 3-dot menu button **(2)** to open a menu. There you can choose "Open" **(3)**, which will give you several options for how you can open the file. 
 
-.. image:: _static/image_06_2.png
+.. image:: _static/2021newimage036.png
 
 You will be taken to the edit and collaboration screen where you will select the ‘Open with’ option. For this example, I choose "Hancom Office Editor" to edit the file; but your options will vary depending on the device configuration and installed applications.
 
@@ -124,15 +124,15 @@ Working with Office Applications
 
 If you have office 365 for mobile applications installed, you can access these apps from CentreStack Android. For example, if you have Excel for Android installed when previewing an xlsx file, you will see the Excel icon. Tap the Excel icon to open the file in Excel for editing. 
 
-.. image:: _static/image_07_1.png
+.. image:: _static/2021newimage037.png
 
 When you open the Excel file, you'll notice that the autosave feature is enabled by default. Once your edits are completed, you can use the Android BACK button to return to CentreStack and your changes will be saved. 
 
-.. image:: _static/image_07_2.png
+.. image:: _static/2021NewImage038.png
 
 You may need to **Refresh** to see the updated file. If you do not see an updated or current version of a file, you should tap the refresh button. To refresh any screen, select the **Refresh** icon at the top of the screen. 
 
-.. image:: _static/image_07_3.png
+.. image:: _static/2021NewImage040.png
 
 
 Marking Favorite Files 
