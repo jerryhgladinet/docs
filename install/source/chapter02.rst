@@ -110,9 +110,9 @@ We recommend Windows server 2019 2012 R2 or Windows server 2016 as a preferred s
 Step 5: Start Installation
 ============================
 
-You can get the CentreStack installation package from the CentreStack partner portal (by login to http://www.centrestack.com) and get to the Private CentreStack section.
+You can get the CentreStack installation package from the CentreStack partner portal (by logging in to http://www.centrestack.com) and get to the Private CentreStack section.
 
-.. image:: _static/image_s2_5_1_v2.png
+.. image:: _static/image_s2_5_1_v3.png
 
 Sign into the CentreStack server console (RDP or physical console are fine) with administrator rights. Once you click the **"Download"** button on the Partner Portal, the installer will appear either in downloads or as a link at the bottom of your browser. Click the executable file to begin the installation.
 
@@ -138,7 +138,7 @@ For the next screen, if you have an existing database use the pull-down menu to 
 
 In the next screen, enter your Partner Account login credentials to complete the installation.
 
-.. image:: _static/image_s2_5_8_v2.png
+.. image:: _static/image_s2_5_8_v4.png
 
 Click ‘Next’
 
@@ -148,4 +148,4 @@ And Click Install.
 
 .. image:: _static/image_s2_5_6_v2.png
 
-Once installation is complete, a reboot is required. Click 'Yes' on the reboot window.
+After the installation has been completed successfully, a reboot is required. Click 'Restart'.
