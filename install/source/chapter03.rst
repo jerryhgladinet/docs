@@ -4,9 +4,9 @@
 
 After the machine reboots, the Default administration configuration page will be displayed.
 
-.. image:: _static/image_s3_1_1_v2.png
-
 First, setup the cluster administrator account.
+
+.. image:: _static/image_s3_1_1_v4.png
 
 After setting up the cluster administrator account, the cluster administrator's dashboard will appear by default.
 

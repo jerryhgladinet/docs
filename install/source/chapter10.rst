@@ -2,7 +2,7 @@
 10 Branding
 #############
 
-You can brand web portal, Windows client, Mac client, iOS client and Android client.
+You can brand the web portal, Windows and Mac client, iOS and Android Apps.
 
 Self-Service Branding
 =======================
@@ -16,5 +16,5 @@ After you login to the web portal, click to the "Cluster Branding" Pages.
 
 Please reference the "Branding" section in the `Admin Guide`__ for the self-hosted CentreStack server.
 
-.. _Admin_Guide: https://centrestack.com/Library/AdminGuide/ 
+.. _Admin_Guide: https://centrestack.com/Library/AdminGuide/chapter03.html#cluster-branding 
 __ Admin_Guide_
