@@ -148,4 +148,4 @@ And Click Install.
 
 .. image:: _static/image_s2_5_6_v2.png
 
-Once installation is complete, a reboot is required. Click 'Restart' on the reboot window.
+After the installation has been completed successfully, a reboot is required. Click 'Restart'.

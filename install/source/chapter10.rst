@@ -2,7 +2,7 @@
 10 Branding
 #############
 
-You can brand the web portal, Windows and Mac client, iOS and Android Apps.
+You can brand the web portal, Windows and Mac clients, iOS and Android Applications.
 
 Self-Service Branding
 =======================
