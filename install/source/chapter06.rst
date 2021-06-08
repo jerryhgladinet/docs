@@ -4,10 +4,7 @@
 
 .. note::
 
-    Assuming that you have already setup your DNS to point to a DNS name connected to the CentreStack server and SSL certificate already
-   purchased for the DNS name. 
-    If not, you can acquire a
-    SSL certificate from your SSL vendor.
+    Assuming that you have already setup your DNS to point to a DNS name connected to the CentreStack server and an SSL certificate already purchased for the DNS name. If not, you can acquire an SSL certificate from your SSL vendor.
     
     We recommend using https://www.ssllabs.com/ to test your SSL setup because 
     the SSL Labs site will produce a report on whether the SSL is compatible with all 

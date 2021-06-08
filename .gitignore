@@ -1,3 +1,9 @@
 [Bb]uild/
 _[Bb]uild/
+
+### vs ###
 .vscode/
+.vs/
+
+### macOS ###
+.DS_Store
