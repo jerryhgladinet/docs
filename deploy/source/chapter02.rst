@@ -95,21 +95,23 @@ For the load balancing to work, all the worker nodes have to be on the same DNS 
 
   We recommend you setup and configure the first node and make sure it runs smoothly first, before you setup and install the second node.
 
-*	From any worker node, login to CentreStack Cluster Manager with the cluster admin account
+*	From any worker node, login to CentreStack Cluster Manager with the cluster admin account (the account you setup during the installation of the first worker node)
 
-  (the account you setup during the installation of the first worker node)
+  .. image:: _static/image008.png
 
-  .. image:: _static/image008.jpg
-
-  Cluster manager is web browser based.
+  The Cluster Manager is web browser based.
 
   .. image:: _static/image009.png
 
-*	From the Cluster Control Panel, Go to Cluster Server Farm item, click on ‘Edit’ and define all worker nodes.
+*	From the Cluster Control Panel, go to Worker Nodes.
 
   .. image:: _static/image010.png
+
+*   Click on ‘Edit’ and define all worker nodes.
+
+  .. image:: _static/image011(2).png
   
-  After click the "Edit", the Edit Worker Node Dialog shows.
+  After clicking "Edit", the Edit Worker Node Dialog shows.
 
   .. image:: _static/image011.png
 
@@ -124,8 +126,7 @@ For the load balancing to work, all the worker nodes have to be on the same DNS 
         
   **Internal URL**
     
-        The **internal URL** is the internal DNS name/URL from the internet network. The internal URL 
-        in later build is hidden. No need to edit any more.
+        The **internal URL** is the internal DNS name/URL from the internet network.
 
 
   Please DO NOT add web nodes to the Cluster Worker Node list. Most of the time when you
