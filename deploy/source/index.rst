@@ -4,10 +4,10 @@
    contain the root `toctree` directive.
 
 ==========================================
-Getting Started
+Introduction
 ==========================================
 
-Introduction
+Getting Started
 ------------
 
 Welcome to the CentreStack Server Deployment Guide. This guide describes

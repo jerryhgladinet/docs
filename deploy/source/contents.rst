@@ -8,5 +8,3 @@ CentreStack Deployment Guide - v |version|
     index
     chapter02
     chapter03
-    chapter04
-    chapter05
