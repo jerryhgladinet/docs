@@ -11,6 +11,8 @@ software and Mac client agent software.
 You can download and install desktop, server and MAC clients from the download button in the right pane after a user
 logs into the web portal.
 
+First, navigate to the File Browser. 
+
 .. image:: _static/image041.png
 
 For mobile clients, depending on the configuration, you may need to download it from Apple AppStore,
@@ -18,7 +20,7 @@ Google Play Store or from the enterprise’s own Mobile Device Management (MDM) 
 
 .. image:: _static/image042.png
 
-You will see download page.
+You will see the downloads page.
 
 .. image:: _static/image043.png
 
