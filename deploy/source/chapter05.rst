@@ -1,28 +1,9 @@
 ==============================
-Cluster Manager
+Firewall Settings
 ==============================
 
-After the initial configuration after initial installation, The cluster admin will be presented with the 
-cluster manager user interface. More specifically, the cluster manager dashboard.
+The CentreStack Server only needs port 80 (HTTP) and port 443 (HTTPS). If you unbind port 80 for external IP address
+on the “Default Web Site”, you can also close port 80 (HTTP) and leave 443 (HTTPS) as the only open port.
 
-.. image:: _static/image058.png
-
-For specific cluster manager and tenant manager administration interface, please reference the
-CentreStack Admin Guide.
-
-For the deployment guide, we will only show how to add each tenant and what the entry web page
-looks like for a tenant administrator.
-
-Add Tenant
-===============
-
-You can add a tenant by clicking the 'Add Tenant' Button in the Tenant Manager
-
-.. image:: _static/image059.png
-
-
-The Tenant Administrator will see the files and folders view by default upon initial login.
-
-
-.. image:: _static/image060.png
-
+The best practice is if you leave both port 80 and port 443 open on the CentreStack server, and use
+a firewall fronting the CentreStack server to control the access from the firewall.
