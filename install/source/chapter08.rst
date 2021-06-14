@@ -1,29 +1,52 @@
-#######################################################
-8 Verify External URL, Internal URL and the Node Name
-#######################################################
+==============================
+8 Client Agents
+==============================
 
-Verify External URL
-=====================
+Windows & Mac Client Agents
+---------------------------------
 
-It is very straight forward to verify whether or not your external URL is set correctly. You just need to point your web browser to the external URL and verify that the Login Page shows up and there is no SSL warnings.
+The CentreStack server includes the Windows Client Agent
+software and Mac client agent software.
 
-You can also verify the External URL by doing a file share to your own email address outside of the CentreStack system. A file sharing invitation will be sent to that Email address. After you receive the Email, click on the link included in the Email and make sure the link points to the External URL.
+You can download and install desktop, server and MAC clients from the download button in the right pane after a user
+logs into the web portal.
 
-.. note::
+.. image:: _static/image041.png
 
-    The external URL is used in the email sharing template. So a simple file sharing test will verify whether the External URL is setup correctly.
+For mobile clients, depending on the configuration, you may need to download it from Apple AppStore,
+Google Play Store or from the enterprise’s own Mobile Device Management (MDM) portal.
 
-Verify Internal URL
-=====================
+.. image:: _static/image042.png
 
-For the verification of Internal URL, you can use the Node Performance page to make sure the node performance information shows up. (Reports -> Node Performance).
+You will see download page.
 
-.. image:: _static/image_s8_1_1_v2.png
+.. image:: _static/image043.png
 
-Verify Node Name
-==================
+Apple AppStore
+-----------------
 
-To verify that the node name is correct, you can right click on a folder and use the **"Share"** option to verify that the email has been received and is correctly pointing to an external URL. 
+You can use the White-Label "**Cloud Client**" from the Apple AppStore.
 
-.. image:: _static/image_s8_1_2_v2.png
 
+.. image:: _static/image066.png
+
+Google Play Store
+----------------------
+
+You can use the White-Label "**Cloud Android Client**" 
+from the Google Play Store.
+
+.. image:: _static/image067.png
+
+License CentreStack
+----------------------
+
+When you are ready to license CentreStack, 
+the easiest way to do this is to use the "purchase now" link 
+from the cluster manager web portal under the self-hosted licenses view.
+
+.. image:: _static/image068.png
+
+The "Buy Now" link will take you to your CentreStack
+partner portal account and from there, you can 
+acquire licenses and give them out to your clusters.

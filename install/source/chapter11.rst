@@ -1,17 +1,20 @@
-########################
-11 Upgrade CentreStack
-########################
+#############
+11 Branding
+#############
 
-We publish updated notes to our public blog forum called `CentreStack Blog`__. It is recommended that you perform an update if your self-hosted CentreStack and clients are three months or older.
+You can brand the web portal, Windows and Mac clients, iOS and Android Applications.
 
-.. _CentreStack_Blog: http://blog.centrestack.com/ 
-__ CentreStack_Blog_
+Self-Service Branding
+=======================
 
-Using the GUI Installer to Upgrade
----------------------------------------
+The self-service branding starts with the "Cluster Manager". In order to start the branding, you will login to
+the web portal as the Master Administrator.
 
-.. image:: _static/image_s11_1_1_v2.png
+After you login to the web portal, click to the "Cluster Branding" Pages.
 
-To install an update go to your Partner Portal at https://www.centrestack.com/management/partnerloginpage.aspx and download the GUI installer. When you run the GUI installer, it will detect the existing installation and perform an upgrade.
+.. image:: _static/image_s10_1_1_v2.png
 
-.. image:: _static/image_s11_1_2_v2.png
+Please reference the "Branding" section in the `Admin Guide`__ for the self-hosted CentreStack server.
+
+.. _Admin_Guide: https://centrestack.com/Library/AdminGuide/chapter03.html#cluster-branding 
+__ Admin_Guide_
