@@ -15,14 +15,16 @@ First, navigate to the File Browser.
 
 .. image:: _static/image041.png
 
-For mobile clients, depending on the configuration, you may need to download it from Apple AppStore,
-Google Play Store or from the enterprise’s own Mobile Device Management (MDM) portal.
+In the menu at the top right, there will be an option to "Download and install desktop or server client".
 
 .. image:: _static/image042.png
 
-You will see the downloads page.
+You will then be taken to the downloads page.
 
 .. image:: _static/image043.png
+
+For mobile clients, depending on the configuration, you may need to download it from Apple AppStore,
+Google Play Store or from the enterprise’s own Mobile Device Management (MDM) portal.
 
 Apple AppStore
 -----------------
