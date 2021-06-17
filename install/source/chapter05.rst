@@ -98,7 +98,21 @@ the Management Console -> Advanced -> Active Directory Settings. The active dire
 here refers to local Active Directory with LDAP integration. For remote Active Directory, server
 agent can be used to connect remote file server folders and remote Active Directory.
 
+Click on "My Tenant".
+
 .. image:: _static/image051.png
+
+Once you reach the tenant page, click the drop down menu, and then go to the "Control Panel".
+
+.. image:: _static/image071.png
+
+On the menu that pops up, go to the "Active Directory" option.
+
+.. image:: _static/image072.png
+
+This will take you to the Active Directory Page.
+
+.. image:: _static/image073.png
 
 .. note::
 
