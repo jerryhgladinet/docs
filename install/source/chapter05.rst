@@ -34,16 +34,6 @@ Web Based Management Console
 Please reference the "CentreStack Admin Guide" for more details about tenant administration.
 Here are a few points that are more important during the deployment phase.
 
-You can enter the web based management console by selecting 'Management Console' under the user's
-name in the top right.
-
-.. image:: _static/image044.png
-
-After you click into the "Management Console", you will see the tenant level management 
-tasks.
-
-.. image:: _static/image044_1.png
-
 
 Team Folders
 ^^^^^^^^^^^^^^
@@ -54,7 +44,13 @@ users that are not assigned with a specific team folder, the team folder will no
 Team folders users can also be assigned the "Owner" permission. The owner permission allows the "owner" to
 maintain and manage the team folder permissions.
 
+You can navigate to the Team Folders by clicking on "Tenant Manager" from the dropdown menu and then clicking "My Tenant".
+
 .. image:: _static/image045.png
+
+After the page loads, click on "Team Folders".
+
+.. image:: _static/image070.png
 
 Storage Manager
 ^^^^^^^^^^^^^^^^^
@@ -64,11 +60,17 @@ storage is using Amazon S3, the tenant admin can update the S3 bucket, access ke
 the tenant admin can not switch the default storage into a different storage service. The cluster
 admin can help the tenant admin switch the default storage.
 
-Tenant admin can also add auxiliary storage by using the "Attach Storage"
-options. The default storage is the root folder of the tenant. Attached auxiliary storage is top level folders
-inside the root folder.
+First, go to the Cluster Control Panel. Then, click on "Storage Manager"
 
 .. image:: _static/image046.png
+
+This will take you to the Storage Manager page.
+
+.. image:: _static/image069.png
+
+The tenant admin can also add auxiliary storage by using the "Attach Storage"
+options. The default storage is the root folder of the tenant. Attached auxiliary storage is top level folders
+inside the root folder.
 
 User Manager
 ^^^^^^^^^^^^^^^^

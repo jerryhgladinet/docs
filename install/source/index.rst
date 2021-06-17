@@ -2,8 +2,6 @@
 1 Getting Started
 ###################
 
-Introduction
-==============
 
 Welcome to the **CentreStack Server** Installation Guide. This guide describes the installation tasks for CentreStack, the managed file synchronization and sharing solution. 
 

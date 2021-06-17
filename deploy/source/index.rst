@@ -7,8 +7,6 @@
 Introduction
 ==========================================
 
-Getting Started
-------------
 
 Welcome to the CentreStack Server Deployment Guide. This guide describes
 deployment tasks for CentreStack, a managed file synchronization
