@@ -29,7 +29,7 @@ The Tenant Administrator will see the files and folders view by default upon ini
 
 .. image:: _static/image060.png
 
-Here is the management console.
+Here is the Tenant Management Console.
 
 .. image:: _static/image_s5_1_2.png
 
@@ -75,10 +75,17 @@ User Manager
 
 In the user manager, you can create users, import users from Active Directory over LDAP or import users from
 Active Directory via Server Agent.
+Click on the arrow in the "Users" tab.
 
 .. image:: _static/image047.png
 
+Then click on "Add Users".
+
 .. image:: _static/image048.png
+
+This should take you to a menu of options to add a new user to the tenant.
+
+.. image:: _static/image075.png
 
 
 Delegate Administration
@@ -101,10 +108,6 @@ It is optional to setup the Active Directory Integration. You can get to the int
 the Management Console -> Advanced -> Active Directory Settings. The active directory setting
 here refers to local Active Directory with LDAP integration. For remote Active Directory, server
 agent can be used to connect remote file server folders and remote Active Directory.
-
-Click on "My Tenant".
-
-.. image:: _static/image051.png
 
 Once you reach the tenant page, click the drop down menu, and then go to the "Control Panel".
 
