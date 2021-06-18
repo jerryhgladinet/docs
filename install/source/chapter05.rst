@@ -96,7 +96,6 @@ Once you reach the tenant page, click the drop down menu, and then go to the "Co
 
 .. image:: _static/image071.png
 
-
 In Control Panel, Click on "Tenant Administrators".
 
 .. image:: _static/image050.png
