@@ -1,5 +1,5 @@
 ==============================
-2. Deployment
+2 Deployment
 ==============================
 
 Deployment Options
@@ -83,52 +83,20 @@ The web  nodes are used for user login. After login, the user will be re-directe
 (The web  node can be omitted if you have an existing Load Balancer).
 
 For the load balancing to work, all the worker nodes have to be on the same DNS domain and same level of sub domain
-(for example, they can be covered by same SSL wildcard certificate, such a \*.acme.com).  The load balancing requires at least two worker nodes.
+(for example, they can be covered by same SSL wildcard certificate, such as \*.acme.com).  The load balancing requires at least two worker nodes.
 
 *	Install the CentreStack server on the first worker node machine. Reboot and setup the cluster admin account.
-
-*	Install the CentreStack server on all the other work nodes.
-
-  On the database configuration window, use the same database server as the first installation.
 
 .. note::
 
   We recommend you setup and configure the first node and make sure it runs smoothly first, before you setup and install the second node.
 
-*	From any worker node, login to CentreStack Cluster Manager with the cluster admin account (the account you setup during the installation of the first worker node)
 
-  .. image:: _static/image008.png
+*	Install the CentreStack server on all the other work nodes.
 
-  The Cluster Manager is web browser based.
-
-  .. image:: _static/image009.png
-
-*	From the Cluster Control Panel, go to Worker Nodes.
-
-  .. image:: _static/image010.png
-
-*   Click on "Edit" and define all worker nodes.
-
-  .. image:: _static/image011(2).png
+  On the database configuration window, use the same database server as the first installation.
   
-  After clicking "Edit", the Edit Worker Node Dialog shows.
-
-  .. image:: _static/image011.png
-
-
-  **Node Name**
-    
-        For each worker node, the **node name** has to be the machine’s NETBIOS name (hostname).
-        
-  **External URL**
-    
-        The **External URL** is the unique URL to access the node from public internet. For example, http://node1.acme.com, http://node2.acme.com
-        
-  **Internal URL**
-    
-        The **internal URL** is the internal DNS name/URL from the internet network.
-
-
+  
   Please DO NOT add web nodes to the Cluster Worker Node list. Most of the time when you
   have a multi-worker-node design, you are servicing many users, and most of the time you have your own load balancer.
   In the case when you have your own load balancer, the web node functionality is merged into worker node. So you can have a zero-web-node
