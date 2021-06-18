@@ -93,6 +93,10 @@ Delegate Administration
 
 You can add full delegated admin to the list of "Cloud Administrators".
 Once you reach the tenant page, click the drop down menu, and then go to the "Control Panel".
+
+.. image:: _static/image071.png
+
+
 In Control Panel, Click on "Tenant Administrators".
 
 .. image:: _static/image050.png
