@@ -19,21 +19,19 @@ You can add a tenant by clicking the 'Add Tenant' Button in the Tenant Manager
 .. image:: _static/image059.png
 
 
-The Tenant Administrator will see the files and folders view by default upon initial login.
-
-
-.. image:: _static/image060.png
-
-Here is the management console.
-
-.. image:: _static/image_s5_1_2.png
-
 Web Based Management Console
 ===============================
 
 Please reference the "CentreStack Admin Guide" for more details about tenant administration.
 Here are a few points that are more important during the deployment phase.
 
+The Tenant Administrator will see the files and folders view by default upon initial login.
+
+.. image:: _static/image060.png
+
+Here is the management console.
+
+.. image:: _static/image_s5_1_2.png
 
 Team Folders
 ^^^^^^^^^^^^^^
