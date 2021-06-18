@@ -79,7 +79,7 @@ Click on the arrow in the "Users" tab.
 
 .. image:: _static/image047.png
 
-Then click on "Add Users".
+Then click on "Create or Manage Users".
 
 .. image:: _static/image048.png
 
