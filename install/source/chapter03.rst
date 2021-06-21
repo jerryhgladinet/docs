@@ -26,7 +26,7 @@ the 'forgot password' feature will not work if the master admin forgets their pa
     administrator needs to login to fix Active Directory issues later on if there are issues in the 
     future, such as a password change, Active Directory server DNS name change, etc.
 
-After setting up the cluster administrator account, the cluster administrator's dashboard will appear by default.
+After setting up the cluster administrator account, the dashboard will appear by default.
 
 .. image:: _static/image_s3_1_2.png
 
