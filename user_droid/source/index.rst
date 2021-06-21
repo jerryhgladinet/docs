@@ -78,9 +78,6 @@ Creating New Folders
 
 To create new folders, click the **+** (plus) icon (1) on the bottom-right of the screen. Then choose the **Add Folder** icon (2), enter the folder name, and click the **"CREATE"** button to create a new folder. 
 
-
-=======
->>>>>>> 45cb749149a3608186d4c06bd14f985d44aab16e
 .. image:: _static/2021NewImage007.png
 
 Uploading Files and Photos
