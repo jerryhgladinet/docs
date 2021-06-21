@@ -9,9 +9,9 @@ Welcome to the CentreStack Android Client User Guide. This guide describes the A
 
 Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, Windows 8+, and more. We have created a native Android application that you can download from the Google Play Store. This provides access to files and folders in your CentreStack account.
 
-There is also a white-labeled CentreStack Android app called "Cloud Android Client" by Gladinet that can be distributed by service providers and enterprises to their users.
+The white-labeled CentreStack Android app called “Cloud Android Client” by Gladinet that can be distributed by service providers and enterprises to their users. 
 
-If you have the fully branded CentreStack Android client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack Android Client with your company name and product logo from http://www.centrestack.com (partner portal).
+If you have the fully branded CentreStack Android client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack Android Client with your company name and product logo from http://www.centrestack.com (partner portal). 
 
 Getting Started
 ------------------
@@ -32,11 +32,11 @@ After the install open the app from its icon. Login using your credentials.
 
 .. image:: _static/2021NewImage003.png
 
-Enter your User Name and tap "CONTINUE".
+Enter Access Point (if not filled automatically) and your Username and tap “CONTINUE”. 
 
 .. image:: _static/2021NewImage004.png
 
-On the following screen, enter your Password and tap Done, to log in to your server.
+On the following screen, enter your Password and tap “SIGN IN”, to log in to your server. 
 
 Accessing Folders and Files
 ==============================
@@ -49,41 +49,35 @@ Tap on the folder to see the files and sub-folders inside.
 
 .. image:: _static/2021NewImage012.png
 
-You can 'Set as Favorite' a file by clicking the **star** icon next to the file as shown below. 
-
-.. image:: _static/2021NewImage013.png
-
 If you tap the **+** (plus) icon you are given several options for the folder you are in: Upload **(1)**, capture photo **(2)**, add folder **(3)**. 
 
 .. image:: _static/2021NewImage014.png
 
-Preview
+
+Sort Menu
 ----------
 
-Tap a folder to enter it for browsing, and tap a file to open it in a file previewer. From within the previewer, you have a 3-dot menu on the lower-right side, that allows you to perform other actions on the file. 
+In the sort menu, you can change the order of which your files are displayed.
 
-**(1) Download** allows you to copy the file to your downloads folder on the device.
+**(1) Z-A** is when your files are displayed in the opposite order of the alphabet.
 
-**(2) Delete** lets you delete the file from the folder if you have permissions to do so. 
+**(2) A-Z** lets you display your files in alphabetical order. 
 
-**(3) Share** lets you send access information to anyone with an email address. 
+**(3) Last Modified** lets your files be displayed in the order of which files have been worked on last. These files are displayed first. 
 
-**(4) Get public link** gives you a url that you can share with anyone that needs read-only access to the file. 
+**(4) Oldest** displays files that were added first at the top of your file browser. 
 
-**(5) Rename** lets you rename the file if you have permission to do so. 
+**(5) Largest** displays your files in the order of which the largest files are shown first. 
 
-**(6) Share manager** gives you access to any shares that exist for the file, where you can modify the share or delete it. 
+**(6) Smallest** displays your files in the order of which the smallest files are shown first. 
 
-**(7) Word Icon** this is the mobile Microsoft Word application icon. This icon will be different depending on the file you are previewing (e.g., if it was an Excel file, the icon would be an Excel icon). If you click the icon, the file will open in that application. 
-
-.. image:: _static/2021newimage022.png
+.. image:: _static/2021newimage043.png
 
 Creating New Folders
 ======================
 
 To create new folders, click the **+** (plus) icon (1) on the bottom-right of the screen. Then choose the **Add Folder** icon (2), enter the folder name, and click the **"CREATE"** button to create a new folder. 
 
-<<<<<<< HEAD
 
 =======
 >>>>>>> 45cb749149a3608186d4c06bd14f985d44aab16e
@@ -92,13 +86,39 @@ To create new folders, click the **+** (plus) icon (1) on the bottom-right of th
 Uploading Files and Photos
 ============================
 
-Selecting the Upload icon **(1)** will allow users to upload existing files and photos. 
+Selecting the Upload and Upload Images icons will allow users to add existing files and photos from phone storage. 
 
-.. image:: _static/2021NewImage017.png
+.. image:: _static/2021NewImage045.png
 
-Once you have clicked the **Upload** Icon you can browse to a folder, choose a file and click the **Upload** Icon in the lower right of the display. 
+Once you have clicked the **Upload** icon it will take you to a screen where you can decide where you want to upload a file from.
 
 .. image:: _static/2021NewImage008.png
+
+The camera icon in this menu allows you to upload a picture you just took. The last option shown allows you to upload a Microsoft Office file. You can choose between an Excel, Word, or Powerpoint file along with a text file.
+
+.. image:: _static/2021NewImage046.png
+
+Preview
+----------
+
+Tap a folder to enter it for browsing, and tap a file to open it in a file previewer. From within the previewer, you have a 3-dot menu on the lower-right side, that allows you to perform other actions on the file. 
+
+**(1) Download** allows you to copy the file to your downloads folder on the device.
+
+**(2) Rename** lets you rename the file if you have permission to do so.
+
+**(3) Delete** lets you delete files from the folder if you have permission to do so. 
+
+**(4) Share** lets you send access information to anyone with an email address. 
+
+**(5) Share Via** lets you share the file or folder to a third party application. For example, iMessage or WhatsApp.
+
+**(6) Get Public Link** gives you a link where anyone can access the file through that link. 
+
+**(7) Share manager** gives you access to any shares that exist for the file, where you can modify the share or delete it. 
+
+.. image:: _static/2021newimage044.png
+
 
 Opening and saving an existing document
 ===========================================
@@ -125,9 +145,7 @@ Edit the file and select save; the blue checkmark in the top left corner of this
 Working with Office Applications
 ==================================
 
-If you have office 365 for mobile applications installed, you can access these apps from CentreStack Android. For example, if you have Excel for Android installed when previewing an xlsx file, you will see the Excel icon. Tap the Excel icon to open the file in Excel for editing. 
-
-.. image:: _static/2021newimage037.png
+If you have office mobile applications installed, you can access these apps from CentreStack Android. For example, if you have Excel for Android installed when previewing an xlsx file, you will see the Excel icon. Tap the Excel icon to open the file in Excel for editing. 
 
 When you open the Excel file, you'll notice that the autosave feature is enabled by default. Once your edits are completed, you can use the Android BACK button to return to CentreStack and your changes will be saved. 
 
@@ -137,16 +155,26 @@ You may need to **Refresh** to see the updated file. If you do not see an update
 
 .. image:: _static/2021NewImage040.png
 
+If you want to open a file from the cloud drive inside of an office application, you can select the open tab and press browse. Once you do that, you can select your drive and choose a file from there. It will then open it directly into the app.
 
-Marking Favorite Files 
+.. image:: _static/2021NewImage052.png
+
+.. image:: _static/2021NewImage053.png
+
+.. image:: _static/2021NewImage054.png
+
+If you need to save an office file into the cloud drive, you can refer to this knowledge based article : https://support.centrestack.com/hc/en-us/articles/360035107053-Save-a-Document-to-Centrestack-from-Another-Android-App (only until step 5) 
+
+
+Marking As Favorite 
 ========================
 
 Adding to Favorite
 --------------------
 
-You can add a file to favorites by pressing the **Star Icon**. When you add a folder or a file to favorite, it will be marked with a **Green Check** and will become offline-accessible.
+You can add a file to favorites by pressing the **Star Icon**. When you add a folder or a file to favorite, it will be marked with a **Green Check** and will become offline-accessible. Near the top right you can see the icon that looks like a list. By clicking this you can change the view from list to grid view.
 
-.. image:: _static/2021NewImage023.png
+.. image:: _static/2021NewImage042.png
 
 
 Removing from Favorite
@@ -177,6 +205,7 @@ If you press **"Get public link" (2)**, a URL will be provided that you can use 
 
 If you press **"Share manager" (3)**, you will be taken to a view of all previous shares for this file. You can add new shares there or delete previous shares to revoke access.  
 
+If you press **"Share Via" (3)**, you will be allowed to share the file to a third party application such as gmail, or WhatsApp
 .. image:: _static/2021newimage030.png 
 
 .. important::
@@ -192,6 +221,12 @@ In the next screen, you can click the yellow arrow to **"Continue as it is now"*
 .. image:: _static/2021newimage028.png
 
 If you chose the default option, the user(s) you added will receive an email giving access to the shared item. 
+
+You can also request a file by selecting the three ellipses icon on a folder and selecting request a file. Once you select request a file, it will take you to a screen where you can choose to either share or request the file you are trying to use.
+
+.. image:: _static/2021newimage047.png
+
+.. image:: _static/2021newimage048.png
 
 
 Sharing/Protection Options
@@ -244,12 +279,25 @@ Deleting a File
 
 A file can be deleted using the **‘Delete’** option. Select **‘Delete’** from the context menu to delete a file. Once the file has been deleted it will no longer be visible in the cloud drive.
 
+.. image:: _static/2021NewImage051.png
+
 Renaming a File
 -----------------
 
 You can rename a file or a folder using the **‘Rename’** option. Pressing **‘Rename’** will display a field to type in the new name.
 
 .. image:: _static/2021NewImage035.png
+
+More Options 
+-----------------
+
+The 'copy' option allows you to copy a file and paste it into a another folder of your choosing. The 'cut' option allows you to remove a file from a certain folder and paste it into another.
+
+.. image:: _static/2021NewImage049.png
+
+The 'More Info' option allows you to look at the specifics of the file you are working on or looking at.
+
+.. image:: _static/2021NewImage050.png
 
 
 Logging Out From CentreStack
