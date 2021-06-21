@@ -42,11 +42,11 @@ users that are not assigned with a specific team folder, the team folder will no
 Team folders users can also be assigned the "Owner" permission. The owner permission allows the "owner" to
 maintain and manage the team folder permissions.
 
-You can navigate to the Team Folders by clicking on "Tenant Manager" from the dropdown menu and then clicking "My Tenant".
+You can navigate to the Team Folders by clicking on the arrow in the "Team Folders" tab from the Tenant Manager.
 
 .. image:: _static/image045.png
 
-After the page loads, click on "Team Folders".
+Here is the Team Folders page.
 
 .. image:: _static/image070.png
 
