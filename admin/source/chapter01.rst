@@ -1,5 +1,5 @@
 ############################################
-2 Overview of the |prodname|
+2 Overview of |prodname|
 ############################################
 
 |prodname| is a mobile access and secure file sharing solution. It differentiates itself from other File Sync and Share solutions by focusing on data security, permission controls and,
@@ -14,7 +14,7 @@ file server cloud-enablements including data protection and cloud migration. |pr
 |prodname| is a software solution built on top of the Microsoft Web Platform. It provides file access and sharing functionality from PCs, Macs, File Servers, Web Browsers, and Mobile Devices. In 
 addition, it also brings data protection and cloud migration features.
 
-The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy the |prodname|.
+The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy |prodname|.
 
     1. Deploy the |prodname| server in the same site as the File Servers and Active Directory domain controllers:
     
