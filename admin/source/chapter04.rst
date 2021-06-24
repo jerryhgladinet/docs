@@ -1973,7 +1973,7 @@ You can see upload report, storage statistics, team folders, shared objects, aud
 
     STORAGE STATISTICS REPORT
 
-5.9.2 Bandwidth Usage
+5.9.3 Bandwidth Usage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/2021newimage119.png
@@ -1982,7 +1982,7 @@ You can see upload report, storage statistics, team folders, shared objects, aud
    BANDWITH USAGE REPORT
  
 
-5.9.3 Team Folders
+5.9.4 Team Folders
 ^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/2021newimage120.png
@@ -1991,7 +1991,7 @@ You can see upload report, storage statistics, team folders, shared objects, aud
     TEAM FOLDERS REPORT
 
 
-5.9.4 Shared Objects
+5.9.5 Shared Objects
 ^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/2021newimage121.png
@@ -2000,7 +2000,7 @@ You can see upload report, storage statistics, team folders, shared objects, aud
     SHARED OBJECTS REPORT
 
 
-5.9.5 Audit Trace
+5.9.6 Audit Trace
 ^^^^^^^^^^^^^^^^^^^
 
 Audit trace contains the management events, such as login success, login fail , shared a folder and etc.
@@ -2011,7 +2011,7 @@ Audit trace contains the management events, such as login success, login fail , 
     AUDIT TRACE REPORT
 
 
-5.9.6 File Change Log
+5.9.7 File Change Log
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 File change log is capable of search for user’s file change history. It is most useful when helping user
@@ -2024,7 +2024,7 @@ day.
     FILE CHANGE LOGGING REPORT
 
 
-5.9.7 Folder Permissions
+5.9.8 Folder Permissions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/2021newimage124.png
@@ -2033,7 +2033,7 @@ day.
     FOLDER PERMISSIONS REPORT
 
 
-5.9.8 Distributed Locks
+5.9.9 Distributed Locks
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/2021newimage125.png
@@ -2042,7 +2042,7 @@ day.
     DISTRIBUTED LOCKS REPORT
 
 
-5.9.9 Pending Purged Folder
+5.9.10 Pending Purged Folder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/2021newimage126.png
