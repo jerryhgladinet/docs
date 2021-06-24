@@ -11,8 +11,7 @@ file server cloud-enablements including data protection and cloud migration. |pr
    4. Mirroring of local network shares for Team Collaboration in the Cloud.
    5. Provide drive mapping and file locking functionality for files in the Cloud.
 
-|prodname| is a software solution built on top of the Microsoft Web Platform. It provides file access and sharing functionality from PCs, Macs, File Servers, Web Browsers, and Mobile Devices. In 
-addition, it also brings data protection and cloud migration features.
+|prodname| is a software solution built on top of the Microsoft Web Platform. It provides file access and sharing functionality from PCs, Macs, File Servers, Web Browsers, and Mobile Devices. In addition, it also brings data protection and cloud migration features.
 
 The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy |prodname|.
 
@@ -30,7 +29,7 @@ The services can be deployed in flexible combinations to meet different needs. T
 
 
 
-Please reference the “Deployment Guide” as well as the “Installation Guide” for information on how to setup and deploy CentreStack.
+Please reference the “Installation Checklist” as well as the “Installation Guide” for information on how to setup and deploy CentreStack.
 This guide is focused on the administration of the |prodname|.
 
 .. note::

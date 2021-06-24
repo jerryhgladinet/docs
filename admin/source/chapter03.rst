@@ -78,7 +78,7 @@ To configure this setting, you must have a DNS name and SSL certificate setup; t
 
 
 ******************
-4.3 Tenant Manager
+4.2 Tenant Manager
 ******************
 
 ``Cluster Manager`` > ``Tenant Manager``
@@ -134,7 +134,7 @@ Deletes the tenant.
 
 
 
-4.3.1 Tenant Management within Cluster Administration
+4.2.1 Tenant Management within Cluster Administration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
@@ -611,7 +611,7 @@ On the right side of the dialog, it is the target team folder information.
 If you are seeding the data into a brand new team folder, you will first go into the team folder area and create a new team folder with empty content inside, and then come back to data seeding page and select it from the team folder drop down.
 
 
-4.3.2 Create a New Tenant
+4.2.2 Create a New Tenant
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Tenant Manager``
@@ -815,7 +815,7 @@ After the container information is all set, the tenant account will be created.
 
 
 *****************
-4.4 Cluster Admin
+4.3 Cluster Admin
 *****************
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Cluster Admin``
@@ -829,7 +829,7 @@ Cluster Admin section is to change the properties of the default administrator a
 
 
 ********************
-4.5 Cluster Branding
+4.4 Cluster Branding
 ********************
 
 ``Cluster Manager`` > ``Cluster Branding``
@@ -845,7 +845,7 @@ Built-in branding will work with white-label clients, which upon the first conne
     CLUSTER BRANDING
     
 
-4.5.1 General
+4.4.1 General
 ^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Branding`` > ``General``
@@ -887,7 +887,7 @@ This is the URL of your ‘Home Page’ page **(1)**.
 
 This is the contents of your ‘Copyright’ statement **(2)**.
 
-4.5.2 Web Portal
+4.4.2 Web Portal
 ^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``
@@ -959,7 +959,7 @@ Once you brand your own iOS client and/or Android Client you can point the downl
     CLIENT DOWNLOAD LINKS SETTINGS
 
 
-4.5.3 Windows Client
+4.4.3 Windows Client
 ^^^^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``
@@ -993,7 +993,7 @@ Once you clicked the "Edit" button to edit the Windows Client branding informati
     If your Code Signing certificate is already installed you can also use the option - ``Sign using cert in certificate store``
 
 
-4.5.4 MAC Client
+4.4.4 MAC Client
 ^^^^^^^^^^^^^^^^^^
 
 You can configure the MAC client and MAC client installation package branding under here.
@@ -1023,7 +1023,7 @@ The task will be fulfilled and completed and a Mac software agent package will b
     be created on the partner portal but will be completed asynchronously on a Mac machine.
 
 
-4.5.5 Android Client
+4.4.5 Android Client
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
@@ -1040,7 +1040,7 @@ of from your own  server.
     ANDROID CLIENT BRANDING
 
 
-4.5.6 iOS Client
+4.4.6 iOS Client
 ^^^^^^^^^^^^^^^^^^
 
 .. note::
@@ -1053,7 +1053,7 @@ As shown in the above picture, you can generate branding task and request for An
 and iOS branding.
 
 
-4.5.7 Emails
+4.4.7 Emails
 ^^^^^^^^^^^^^^^
 
 There are many places in the Cluster Manager that need to contact the users via email. So the “Emails” tab is used to set up the email templates used for contacting users via email.
@@ -1113,7 +1113,7 @@ There are many places in the Cluster Manager that need to contact the users via 
     EMAIL SETTINGS
 
 
-4.5.8 Export/Import
+4.4.8 Export/Import
 ^^^^^^^^^^^^^^^^^^^^^^
 
 You can either export the branding settings to another cluster or you can import branding settings from another cluster in this cluster under this setting.
@@ -1124,7 +1124,7 @@ You can either export the branding settings to another cluster or you can import
     EXPORT/IMPORT SETTINGS
 
 *****************
-4.6 Email Service
+4.5 Email Service
 *****************
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Email Service``
@@ -1160,7 +1160,7 @@ In the Authenticate User field, if your SMTP service doesn't require authenticat
 
 
 ***********************
-4.7 Cluster Server Farm
+4.6 Cluster Server Farm
 ***********************
 
 ``Cluster Manager`` > ``(Worker Node) Cluster Server Farm``
@@ -1366,12 +1366,12 @@ is coming from LA zone, the user will need to be assigned to LA zone.
 
 
 ***********
-4.8 Reports
+4.7 Reports
 ***********
 
 ``Cluster Manager`` > ``Reports``
 
-4.8.1 Upload Report
+4.7.1 Upload Report
 ^^^^^^^^^^^^^^^^^^^^^
 
 Upload report tab shows you graphs for all the uploads that have taken place in the last sixty minutes, 24 hours,
@@ -1383,7 +1383,7 @@ Upload report tab shows you graphs for all the uploads that have taken place in 
     UPLOAD REPORT
     
     
-4.8.2 Storage Statistics
+4.7.2 Storage Statistics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Under storage statistics, you can see a quick overview of the overall storage statistics, size distribution
@@ -1395,7 +1395,7 @@ file type distribution pie charts, and users who have used the most storage so f
     STORAGE STATISTICS REPORT
 
 
-4.8.3 Active Users
+4.7.3 Active Users
 ^^^^^^^^^^^^^^^^^^^^^
 
 Active users reports the activity of users on the web portal. The active users report doesn't include users from windows client or other native clients because those users are more persistent (always there). To access this report, you can click on the active users section in the panel near the top of the screen. 
@@ -1408,13 +1408,13 @@ Active users reports the activity of users on the web portal. The active users r
     ACTIVE USERS REPORT
 
 
-4.8.4 Guest Users
+4.7.4 Guest Users
 ^^^^^^^^^^^^^^^^^^^^
 
 Other reports are also available such as Guest Users, which are users that don't have a home directory but are invited to participate on some shared folders and shared files.
 
 
-4.8.5 Node Performance
+4.7.5 Node Performance
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can use the Node Performance to check out the worker node health and the database health.
@@ -1483,7 +1483,7 @@ Under reports you can look at the upload graphs and storage statistics.
 
 
 
-4.8.6 Bandwidth Usage
+4.7.6 Bandwidth Usage
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 This shows the overall bandwidth usage statistics as well as more granular tenant and user level statistics.
@@ -1494,7 +1494,7 @@ This shows the overall bandwidth usage statistics as well as more granular tenan
     BANDWIDTH USAGE REPORT
     
 
-4.8.7 System Diagnostic Report
+4.7.7 System Diagnostic Report
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Click the Start Scanning button to generate system diagnostic report.
@@ -1511,7 +1511,7 @@ A sample system diagnostic report is shown below.
     
     SYSTEM DIAGNOSTIC REPORT
 
-4.8.8 Audit Trace
+4.7.8 Audit Trace
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is a sample audit trace. 
@@ -1530,7 +1530,7 @@ Under cluster settings, you can configure auto-client update, web applications, 
 Verification, multiple domain support, etc..
 
 
-4.8.7 Google Drive and OneDrive Integration (Storage Manager)
+4.7.9 Google Drive and OneDrive Integration (Storage Manager)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: _static/image_s4_8_70.png
@@ -1539,7 +1539,7 @@ Verification, multiple domain support, etc..
     CLOUD STORAGE MANAGER
 
 
-4.8.9 OneDrive for Business Integration
+4.7.10 OneDrive for Business Integration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In order to complete the OneDrive for Business Integration, you will first need to login to your
@@ -1618,7 +1618,7 @@ Windows Azure Active Directory:
 
 
 
-4.8.10 (Client Version Manager) Client Auto Update
+4.7.11 (Client Version Manager) Client Auto Update
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Client Version Manager``
@@ -1683,7 +1683,7 @@ Once a client is published for client auto upgrade, you can use ``Unpublish`` **
     MAC CLIENT AUTO UPGRADE
 
 
-4.8.11 Application Manager
+4.7.12 Application Manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Application Manager``
@@ -1705,7 +1705,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 
 
-4.8.12 Settings
+4.7.13 Settings
 ^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings``
@@ -1718,7 +1718,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 
 ********************
-4.9 Cluster Settings
+4.8 Cluster Settings
 ********************
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Cluster Settings``
@@ -1872,7 +1872,7 @@ Once an application is enabled, you will be able to see the context menu entry f
     This is the number of concurrent devices connected to the Cluster Server for each user. The default is not limited.
 
 
-4.9.1 Performance and Throttling
+4.8.1 Performance and Throttling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Performance and Throttling``
@@ -1904,7 +1904,7 @@ Once an application is enabled, you will be able to see the context menu entry f
     This is to prevent user downloading a very big folder and using up all the Cluster Server resources.
 
 
-4.9.2 Timeouts and Limits
+4.8.2 Timeouts and Limits
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Timeouts and Limits``
@@ -1915,7 +1915,7 @@ Once an application is enabled, you will be able to see the context menu entry f
     TIMEOUTS AND LIMITS
     
 
-4.9.3 Languages
+4.8.3 Languages
 ^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Languages``
@@ -1930,7 +1930,7 @@ This section sets up the web portal languages and also the client application la
 for Windows client.
 
 
-4.9.4 Branding
+4.8.4 Branding
 ^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Branding``
@@ -1964,7 +1964,7 @@ for Windows client.
     This setting only applies to full-branding clients. For the full-branding client, it is possible to lock the full-branding clients to only connect to the branded Cluster Server. When set, it will lock out the white-label clients or other non-branding clients and will not allow them to connect.
 
 
-4.9.5 Change Log
+4.8.5 Change Log
 ^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Change Log``
@@ -1998,7 +1998,7 @@ for Windows client.
     
     The Cluster Server database is split into the core part and the logging part. The core part can store the DB connection string that connects to the secondary database. This setting used to be in the web.config file.
 
-4.9.6 License String
+4.8.6 License String
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``License String``
@@ -2008,7 +2008,7 @@ for Windows client.
     This is for Cluster Servers that are isolated from the Internet, can't be activated online and has to use a license string for offline activation.
 
 
-4.9.5 Anti Virus
+4.8.7 Anti Virus
 ^^^^^^^^^^^^^^^^^^^
 
 ``Cluster Manager`` > ``Cluster Settings`` > ``Anti Virus``
@@ -2026,7 +2026,7 @@ You will first need to obtain the anti-virus service that is independent from th
 
 
 *************************
-4.10 Default Group Policy
+4.9 Default Group Policy
 *************************
 
 Default group policy can be applied to all tenants in the cluster. However, if the tenant also defines its own group policy, the tenant policy can over ride cluster wide default group policy.
@@ -2041,7 +2041,7 @@ Please reference the ``Group Policy`` in the tenant administrator section for fu
 
 
 *******************************
-4.11 Language Settings
+4.10 Language Settings
 *******************************
 
 We have automated translation and provided the resource files that you can use to localize the web portal and clients in the language  of your choice. If there are strings that not translated yet in the language you want, just go ahead and select the string and put in the translated string in the window for the language selected.

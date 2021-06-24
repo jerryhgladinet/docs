@@ -6,7 +6,7 @@
 3.1 Management Scope
 **********************
 
-In the |prodname|, objects that can be managed are defined in the following picture.
+In |prodname|, objects that can be managed are defined in the following picture.
 You can manage objects at different levels from one single management portal. 
 
 .. image:: _static/ManagementScope.png
