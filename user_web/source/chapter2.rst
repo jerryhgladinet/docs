@@ -75,7 +75,7 @@ The |prodname| Cluster (One or more |prodname| servers) provides the access infr
 
 These services can be deployed in flexible combinations to meet different needs. 
 
-The |prodname| has an all-in-one installer, so it can easily be self-hosted by you or you can use the one hosted
+|prodname| has an all-in-one installer, so it can easily be self-hosted by you or you can use the one hosted
 already in the cloud.
 
 

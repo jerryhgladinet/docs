@@ -5,7 +5,7 @@ User Management
 Adding Users
 =============
 
-After signup, the administrator will get a login to the |prodname|. To setup a team environment, the administrator needs to add team users. Only the administrator or delegated administrators or users that has user manager role assigned can add users.
+After signup, the administrator will get a login to |prodname|. To setup a team environment, the administrator needs to add team users. Only the administrator or delegated administrators or users that has a user manager role assigned can add users.
 
 To manage users, go to ‘Management Console’ under user on the top right:
 
@@ -46,11 +46,11 @@ When a user leaves the team, administrators can delete the user’s login. Just 
 Managing User Quotas
 =====================
 
-Administrators can assign a quota to each user. A user will not be allowed to upload files to |prodname|  once their quota has been reached.
+Administrators can assign a quota to each user. A user will not be allowed to upload files to |prodname| once their quota has been reached.
 
 If the quota is 0 for the user, there is no limit on how much storage the user can use.
 
-Click the ‘Management Console’ and select ‘User Manager’. Click the "Manage User" menu on a user to manage and select "Set Quota"
+Click the ‘Management Console’ and select ‘User Manager’. Click the "Manage User" menu on a user to manage and select "Set Quota".
 
 .. figure:: _static/image_s12_1_5.png
     :align: center
@@ -81,9 +81,9 @@ After changing the login password, an email will be sent to notify the user of t
     PASSWORD OPTIONS
 
 
-When either the email or password is changed, please update the corresponding login credentials in |prodname| Cloud Desktop or Cloud Server.
+When either the email or password is changed, please update the corresponding login credentials in the |prodname| Cloud Desktop or Cloud Server.
 
 .. warning::
 
-    This only applies to native |prodname| user. If you have Active Directory users, you will need to manage user's credential the Active Directory way.
+    This only applies to a native |prodname| user. If you have Active Directory users, you will need to manage user's credential the Active Directory way.
     

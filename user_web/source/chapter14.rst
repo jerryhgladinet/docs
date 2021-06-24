@@ -14,7 +14,7 @@ There are two ways to share files and folders in |prodname|  – publishing and 
 *  **Sharing:** 
  
     Both the administrator and team-users can share files with anyone that has an email address. The recipient of the share will get an
-    email with a link to open the folder or download the file. If the email recipient is also a |prodname| Cloud user, he/she can access the shared file or folder directly from the |prodname|.
+    email with a link to open the folder or download the file. If the email recipient is also a |prodname| Cloud user, he/she can access the shared file or folder directly from |prodname|.
 
     Administrators can prevent team-users from sharing if needed.
 

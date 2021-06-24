@@ -2,7 +2,7 @@
 Users and Files
 #################
 
-After you clicked into the "management console", you will be in the dashboard for the tenant. When you are at the dashboard, the top two objects to manage are users **(1)** and folders **(2)**. If you are using an Active Directory for importing users and permissions you can connect to your Active Directory by clicking the wrench icon **(3)**.
+After you enter the "management console", you will be in the dashboard for the tenant. When you are at the dashboard, the top two objects to manage are users **(1)** and folders **(2)**. If you are using an Active Directory for importing users and permissions you can connect to your Active Directory by clicking the wrench icon **(3)**.
 
 .. figure:: _static/image_s7_1_1.png
     :align: center
@@ -88,7 +88,7 @@ If you have an existing file server in the Local Area Network (LAN), you can imp
     .. note::
     
        The Server Agent is only required when the remote file server doesn't have direct LAN (local area network) access
-        to the |prodname|. The Server Agent will be used in this case to facilitate communication between
+        to |prodname|. The Server Agent will be used in this case to facilitate communication between
         the |prodname| server to the remote file server.
 
 

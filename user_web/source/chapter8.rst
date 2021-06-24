@@ -112,7 +112,7 @@ Add Active Directory Users from Server Agent
 ----------------------------------------------
 
 When the Server Agent is available and connects to the specific
-tenant in the |prodname|, the Server Agent will show up
+tenant in |prodname|, the Server Agent will show up
 with the server's name at the bottom of the icon.
 
 Click through the Server Agent icon, you will see the "Add User" wizard and complete the wizard to add users. This is very similar to the add AD user from local LDAP process above. 
