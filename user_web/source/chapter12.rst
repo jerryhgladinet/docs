@@ -5,7 +5,33 @@ Sharing
 Sharing vs Access to File Server Shares
 ==========================================
 
-There are two ways to share files and folders in |prodname|  – File server share access and sharing.
+After signup, the administrator will get a login to |prodname|. To setup a team environment, the administrator needs to add team users. Only the administrator or delegated administrators or users that has a user manager role assigned can add users.
+
+To manage users, go to ‘Management Console’ under user on the top right:
+
+.. figure:: _static/image_s12_1_1.png
+    :align: center
+
+    ACCESSING THE MANAGEMENT CONSOLE
+
+
+In the ‘Management Console’, click ‘User Manager’:
+
+.. figure:: _static/image_s12_1_2.png
+    :align: center
+
+    WAYS TO ACCESS USER MANAGEMENT
+
+
+In ‘User Manager’ window, click the ‘+’ icon or "Add User" on the top left.
+
+.. figure:: _static/image_s12_1_3.png
+    :align: center
+
+    CREATING OR MIGRATING USERS
+
+
+
 
 *  **File Server Shares Access:** 
  
@@ -20,14 +46,26 @@ There are two ways to share files and folders in |prodname|  – File server sha
 
     Administrators can prevent users from sharing if needed.
 
-Sharing Files And Folders
-==========================
+Deleting Users
+===============
+
+When a user leaves the team, administrators can delete the user’s login. Just click the Delete icon in ‘User Manager’ window.
+
+.. figure:: _static/image_s12_1_4.png
+    :align: center
+
+    DELETING A USER
+
+
+Managing User Quotas
+=====================
+
+Administrators can assign a quota to each user. A user will not be allowed to upload files to |prodname| once their quota has been reached.
 
 File Sharing
 -------------
 
-To share a file, highlight the file and clock the 3 dots which will bring up the context menu from where you can select the share icon, (1)revealed in the header of the file. 
-You can also right click the file and select Share (2) in the context menu. Once the file is selected, if the right panel (3) is open, there is a Share link (4) there as well.
+Click the ‘Management Console’ and select ‘User Manager’. Click the "Manage User" menu on a user to manage and select "Set Quota".
 
 .. figure:: _static/New140.png
     :align: center
@@ -51,5 +89,8 @@ you can subsribe to notifications for the share.
 
     SHARE OPTIONS PANEL
 
+When either the email or password is changed, please update the corresponding login credentials in the |prodname| Cloud Desktop or Cloud Server.
 
 
+    This only applies to a native |prodname| user. If you have Active Directory users, you will need to manage user's credential the Active Directory way.
+    
