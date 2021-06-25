@@ -24,7 +24,7 @@ To access your Cluster Administration features, log in to the Web Portal on the 
     
 The following graphic describes the various icons and components of the Administrator Dashboard and its sub-sections. Please refer to it as you read this guide to determine how to access various features.
 
-.. figure:: _static/image_s4_2_0.png
+.. figure:: _static/2021newimage003.png
     :align: center
     
 **CLUSTER MANAGER DASHBOARD**
