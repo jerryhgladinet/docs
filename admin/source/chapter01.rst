@@ -30,7 +30,7 @@ The services can be deployed in flexible combinations to meet different needs. T
 
 
 Please reference the “Installation Checklist” as well as the “Installation Guide” for information on how to setup and deploy CentreStack.
-This guide is focused on the administration of the |prodname|.
+This guide is focused on the administration of |prodname|.
 
 .. note::
 
