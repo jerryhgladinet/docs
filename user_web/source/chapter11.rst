@@ -1,104 +1,89 @@
-###################
-The Web Interface
-###################
+#################
+User Management
+#################
 
-The web client interface has three panels from left to right, the left tree panel, the middle file and folder panel, and the right information panel. Many of the management 
-functionality are done over the web portal. The web client also has the files and folder’s view.
+Adding Users
+=============
 
-.. figure:: _static/New131.png 
+After signup, the administrator will get a login to |prodname|. To setup a team environment, the administrator needs to add team users. Only the administrator or delegated administrators or users that has a user manager role assigned can add users.
+
+To manage users, go to ‘Management Console’ under user on the top right:
+
+.. figure:: _static/image_s12_1_1.png
     :align: center
 
-Normal Web Portal View (Medium Icon View)
-=======================
+    ACCESSING THE MANAGEMENT CONSOLE
 
 
-.. figure:: _static/New132.png 
-    :align: center
-    
+In the ‘Management Console’, click ‘User Manager’:
 
-    WEB PORTAL VIEW
-
-
-Large Icon View
-=========================================
-
-Inside your server, click the icon with 6 small sqaures in it. It will give you a list of other icons and you can select Large Icon View
-
-.. figure:: _static/New133.png 
-    :align: center
-    
-
-    LARGE ICON VIEW
-
-Detail List View
-=========================================
-
-In the same settings aboce, it gives you the option to view files in 'Detail List View'
-
-.. figure:: _static/New134.png 
+.. figure:: _static/image_s12_1_2.png
     :align: center
 
-
-Uploading Files
-================
-
-In Triofox, you have different options to upload files and folders. You can upload one file at a time using the ‘Upload File’ option under Upload You can also upload folders using the ‘Upload Folder’ option under Upload. Last but not least you can also use ‘Upload Folders and Files’ to upload multiple files simultaneously, or drag & drop files from a local desktop to the |prodname| Cloud web portal to start the upload.
+    WAYS TO ACCESS USER MANAGEMENT
 
 
-Upload File or Folder
-======================
+In ‘User Manager’ window, click the ‘+’ icon or "Add User" on the top left.
 
-It is possible to upload multiple files at a time. This is supported on all browsers. The same is true for Upload Folder. To access these options you can click the "+" icon **(1)** or right click on the portal background **(2)** and select your upload option there.
-
-.. figure:: _static/New135.png 
+.. figure:: _static/image_s12_1_3.png
     :align: center
 
-    UPLOADING FILES AND FOLDERS
+    CREATING OR MIGRATING USERS
 
 
-After clicking the upload option, you can browse to the file or folder you want to upload. Use Ctrl key to select multiple items.
 
-.. figure:: _static/New136.png
+Deleting Users
+===============
+
+When a user leaves the team, administrators can delete the user’s login. Just click the Delete icon in ‘User Manager’ window.
+
+.. figure:: _static/image_s12_1_4.png
     :align: center
 
-    SELECTING FILES FOR UPLOAD
+    DELETING A USER
 
 
+Managing User Quotas
+=====================
 
+Administrators can assign a quota to each user. A user will not be allowed to upload files to |prodname| once their quota has been reached.
 
-Downloading Files
-==================
+If the quota is 0 for the user, there is no limit on how much storage the user can use.
 
-There are several ways to download files in Triofox:
+Click the ‘Management Console’ and select ‘User Manager’. Click the "Manage User" menu on a user to manage and select "Set Quota".
 
-If you select a file in the "File Browser" you can use the download icon **(1)** in the top bar. You can also right-click a file and choose download **(2)** from the context menu. If you are in the "Detailed View" **(3)** you can select a file and use the download icon in the item's bar **(4)**. 
-
-.. figure:: _static/New137.png  
+.. figure:: _static/image_s12_1_5.png
     :align: center
 
-    DOWNLOAD FILE OPTIONS
-
-If your are in "Detailed View" **(3)** any files with previous versions will show a number in the selected bar (e.g. "V2") **(5)** that you may click to open a list of all of the versions of that file. 
+    EDITING STORAGE QUOTA
 
 
-Creating Folders
-=================
-
-To create a folder, go to the parent folder and click "Create Folder" in the drop-down menu **(1)** or right click in the folder background and choose "Create Folder" **(2)** from the context menu. 
-
-.. figure:: _static/New138.png
-    :align: center
-
-    CREATING FOLDERS
-
-
-Renaming/Deleting Folders
+Managing User Credentials
 ==========================
 
-Renaming and deleting files and folders can be achieved by right-clicking the file in the "File Browser" and selecting the appropriate context-menu item or using the small icons in the Detailed View bar of the selected item. 
+Admins can change user passwords and login emails, if needed.
 
-.. figure:: _static/New139.png 
+* Click ‘Management Console’ and select ‘User Manager’
+* Click the "manage user" menu icon in the user block
+* After that, can use "Reset Password" link to help the user.
+
+.. figure:: _static/image_s12_1_6.png
     :align: center
 
-    RENAMING FILES
+    RESET USER PASSWORD
 
+
+After changing the login password, an email will be sent to notify the user of the change. Admins can choose to include the new password in the email, or exclude the new password from the email. If the password is not included, the admin will need to convey the new password to the user in some other way.
+
+.. figure:: _static/image_s12_1_7.png
+    :align: center
+
+    PASSWORD OPTIONS
+
+
+When either the email or password is changed, please update the corresponding login credentials in the |prodname| Cloud Desktop or Cloud Server.
+
+.. warning::
+
+    This only applies to a native |prodname| user. If you have Active Directory users, you will need to manage user's credential the Active Directory way.
+    
