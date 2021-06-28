@@ -25,7 +25,6 @@ Contents:
    chapter12
    chapter13
    chapter14
-   chapter15
 
 Indices and tables
 ==================

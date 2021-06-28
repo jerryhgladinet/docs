@@ -1,89 +1,51 @@
-#################
-User Management
-#################
+##############
+Team Folders
+##############
 
-Adding Users
-=============
+What Is A Team Folder?
+=======================
 
-After signup, the administrator will get a login to |prodname|. To setup a team environment, the administrator needs to add team users. Only the administrator or delegated administrators or users that has a user manager role assigned can add users.
+|prodname| enables the creation of team folders which are owned by the administrator and published to other |prodname| users.
 
-To manage users, go to ‘Management Console’ under user on the top right:
+Once a folder is published, it is displayed as a team folder to the users who have access permissions. Users can access these folders from |prodname| Web or other client agents. The published folder will appear under the user's root folder, and its name will be appended with
+"(Team Folder)".
 
-.. figure:: _static/image_s12_1_1.png
+.. figure:: _static/image_s14_1_4.png
     :align: center
 
-    ACCESSING THE MANAGEMENT CONSOLE
+    TEAM FOLDER TAG
 
 
-In the ‘Management Console’, click ‘User Manager’:
+Adding User Folders
+=======================
 
-.. figure:: _static/image_s12_1_2.png
+Folders Created in |prodname| are Versioned Folders.
+
+|prodname| will maintain the version history of any files uploaded to versioned folders. From |prodname|, a user can download any previous versions of a file. From the |prodname| Desktop/Server Agent, a user can restore previous versions of files and recover deleted files.
+
+
+To create a folder right click in the File Browser window background and select **"Create Folder"** from the pop-up context menu. 
+
+.. figure:: _static/image_s14_1_1.png
     :align: center
 
-    WAYS TO ACCESS USER MANAGEMENT
+    CREATING A FOLDER
 
 
-In ‘User Manager’ window, click the ‘+’ icon or "Add User" on the top left.
+Attaching a Folder From the Client
+====================================
 
-.. figure:: _static/image_s12_1_3.png
+Users can also Attach a Local Folder from their client. 
+
+.. figure:: _static/image_s14_1_1a.png
     :align: center
 
-    CREATING OR MIGRATING USERS
+    ATTACHING A FOLDER
 
+These folders are the local folders from the local PC/Mac that |prodname| users have attached to |prodname|. Once a local folder is attached, a user can immediately access it in |prodname|. |prodname| will maintain the version history of files in the attached local folder. The local folder is also being synchronized with |prodname| ("cloud side").
 
-
-Deleting Users
-===============
-
-When a user leaves the team, administrators can delete the user’s login. Just click the Delete icon in ‘User Manager’ window.
-
-.. figure:: _static/image_s12_1_4.png
+.. figure:: _static/image_s14_1_2.png
     :align: center
 
-    DELETING A USER
+    ATTACHED LOCAL FOLDER
 
-
-Managing User Quotas
-=====================
-
-Administrators can assign a quota to each user. A user will not be allowed to upload files to |prodname| once their quota has been reached.
-
-If the quota is 0 for the user, there is no limit on how much storage the user can use.
-
-Click the ‘Management Console’ and select ‘User Manager’. Click the "Manage User" menu on a user to manage and select "Set Quota".
-
-.. figure:: _static/image_s12_1_5.png
-    :align: center
-
-    EDITING STORAGE QUOTA
-
-
-Managing User Credentials
-==========================
-
-Admins can change user passwords and login emails, if needed.
-
-* Click ‘Management Console’ and select ‘User Manager’
-* Click the "manage user" menu icon in the user block
-* After that, can use "Reset Password" link to help the user.
-
-.. figure:: _static/image_s12_1_6.png
-    :align: center
-
-    RESET USER PASSWORD
-
-
-After changing the login password, an email will be sent to notify the user of the change. Admins can choose to include the new password in the email, or exclude the new password from the email. If the password is not included, the admin will need to convey the new password to the user in some other way.
-
-.. figure:: _static/image_s12_1_7.png
-    :align: center
-
-    PASSWORD OPTIONS
-
-
-When either the email or password is changed, please update the corresponding login credentials in the |prodname| Cloud Desktop or Cloud Server.
-
-.. warning::
-
-    This only applies to a native |prodname| user. If you have Active Directory users, you will need to manage user's credential the Active Directory way.
-    
