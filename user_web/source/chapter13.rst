@@ -24,7 +24,7 @@ Sharing Files And Folders
 File Sharing
 -------------
 
-To share a file, click it and select the Share icon (1)revealed in the header of the file. You can also right click the file and select Share (2) in the context menu. Once the file is selected, if the right panel (3) is open, there is a Share link (4) there as well.
+To share a file, click it and select the Share icon (1)revealed in the header of the file. You can also right click the file and select Share (2) in the context menu. Once the file is selected, if the right panel is open(click the encircled "i" button), there is a Share link (3) there as well.
 
 .. figure:: _static/image_s15_1_1.png
     :align: center
