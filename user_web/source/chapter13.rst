@@ -31,7 +31,7 @@ To share a file, click it and select the Share icon (1)revealed in the header of
 
     SHARING FILES
 
-After clicking ‘Share’ above, in ‘Invite People’ window, click the email field (5) and enter email addresses seperated by semicolons (;) for anyone that needs access to the file. You can also add notes (6) if required. Click CONTINUE (7). 
+After clicking ‘Share’ above, in ‘Invite People’ window, click the email field (4) and enter email addresses seperated by semicolons (;) for anyone that needs access to the file. You can also add notes (5) if required. Click CONTINUE (6). 
 
 .. figure:: _static/image_s15_1_2.png
     :align: center
