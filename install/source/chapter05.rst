@@ -1,8 +1,12 @@
 ######################
-5 Management Console
+Management Console
 ######################
 
 If you are logged in as the Tenant administrator, access the Management Console by clicking the stack icon on the top right of the **"File Browser"** view.
+
+The Tenant Administrator will see the files and folders view by default upon initial login.
+
+.. image:: _static/image060.png
 
 .. warning::
 
@@ -10,28 +14,21 @@ If you are logged in as the Tenant administrator, access the Management Console 
 
 .. image:: _static/image_s5_1_1.png
 
+Here is the Tenant Management Console.
+
+.. image:: _static/image_s5_1_2.png
+
+Please reference the `CentreStack Admin Guide`_ for complete details about Tenant administration.
+
+Here are a few points that are more important during the deployment phase.
 
 Add Tenant
-===============
+^^^^^^^^^^^^^^
 
 You can add a tenant by clicking the 'Add Tenant' Button in the Tenant Manager
 
 .. image:: _static/image059.png
 
-
-Web Based Management Console
-===============================
-
-Please reference the "CentreStack Admin Guide" for more details about tenant administration.
-Here are a few points that are more important during the deployment phase.
-
-The Tenant Administrator will see the files and folders view by default upon initial login.
-
-.. image:: _static/image060.png
-
-Here is the Tenant Management Console.
-
-.. image:: _static/image_s5_1_2.png
 
 Team Folders
 ^^^^^^^^^^^^^^
@@ -137,6 +134,20 @@ Granular group policies can be configured for the entire tenant users from Manag
 
 .. image:: _static/image052.png
 
+Branding
+^^^^^^^^^^^^^^
 
-Please reference "CentreStack Admin Guide" for complete reference for tenant administration.
+You can brand the web portal, Windows and Mac clients, iOS and Android Applications.
 
+The self-service branding starts with the "Cluster Manager". In order to start the branding, you will login to
+the web portal as the Master Administrator.
+
+After you login to the web portal, click to the "Cluster Branding" Pages.
+
+.. image:: _static/image_s10_1_1_v2.png
+
+Please reference the "Cluster Branding" section in the `Admin Guide`_ for the self-hosted CentreStack server.
+
+.. _Admin Guide: https://centrestack.com/Library/AdminGuide/chapter03.html#cluster-branding 
+
+.. _CentreStack Admin Guide: https://centrestack.com/Library/AdminGuide 

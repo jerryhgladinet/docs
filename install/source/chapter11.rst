@@ -1,20 +1,13 @@
-#############
-11 Branding
-#############
+#########################
+License
+#########################
 
-You can brand the web portal, Windows and Mac clients, iOS and Android Applications.
+When you are ready to license CentreStack, 
+the easiest way to do this is to use the "purchase now" link 
+from the cluster manager web portal under the self-hosted licenses view.
 
-Self-Service Branding
-=======================
+.. image:: _static/image068.png
 
-The self-service branding starts with the "Cluster Manager". In order to start the branding, you will login to
-the web portal as the Master Administrator.
-
-After you login to the web portal, click to the "Cluster Branding" Pages.
-
-.. image:: _static/image_s10_1_1_v2.png
-
-Please reference the "Branding" section in the `Admin Guide`__ for the self-hosted CentreStack server.
-
-.. _Admin_Guide: https://centrestack.com/Library/AdminGuide/chapter03.html#cluster-branding 
-__ Admin_Guide_
+The link will take you to your CentreStack
+Partner Portal account and from there, you can 
+acquire licenses and give them out to your clusters.

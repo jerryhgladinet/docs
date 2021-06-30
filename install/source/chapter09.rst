@@ -1,5 +1,5 @@
 #######################################################
-9 Verify External URL, Internal URL and the Node Name
+Verify External URL, Internal URL and the Node Name
 #######################################################
 
 Verify External URL
@@ -26,4 +26,3 @@ Verify Node Name
 To verify that the node name is correct, you can right click on a folder and use the **"Share"** option to verify that the email has been received and is correctly pointing to an external URL. 
 
 .. image:: _static/image_s8_1_2_v2.png
-
