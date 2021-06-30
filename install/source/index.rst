@@ -1,5 +1,5 @@
 ###################
-1 Getting Started
+Getting Started
 ###################
 
 
@@ -71,4 +71,3 @@ oyment unit, the three different components can co-exist in one single machine (
 -------------------------------------------------------------
 
     The back-end file storage component is the persistent storage location for files and folders. There are two different types of storage services. One is managed by CentreStack, such as the default storage for the cluster and the default storage for tenants. The other is imported storage, for example, existing file server network shares that weren't managed by CentreStack but can be imported to CentreStack for remote and mobile access.
-

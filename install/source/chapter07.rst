@@ -1,5 +1,5 @@
 #############################
-7 Setup Worker Node for SSL
+Setup Worker Node for SSL
 #############################
 
 Login to the Web Portal as the master administrator, then, under the menu next to dashboard, go to "Cluster Control Panel".

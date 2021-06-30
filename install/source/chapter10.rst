@@ -1,5 +1,5 @@
 ###################################################
-10 Add additional CentreStack servers to the cluster
+Add additional CentreStack servers to the cluster
 ###################################################
 Adding an additional CentreStack server is as simple as installing the first CentreStack server. Run the CentreStack server installation program on another server, specifying the same database as the first server in the cluster.
 

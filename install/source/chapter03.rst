@@ -1,5 +1,5 @@
 #########################
-3 Initial Configuration
+Initial Configuration
 #########################
 
 After the machine reboots, the Default administration configuration page will be displayed.
@@ -31,4 +31,3 @@ After setting up the cluster administrator account, the dashboard will appear by
 .. image:: _static/image_s3_1_2.png
 
 Once you see the dashboard, the CentreStack side of the setup is finished successfully. We will continue to check the storage configuration and make sure all components are fully functional.
-

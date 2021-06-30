@@ -1,5 +1,5 @@
 ########################################
-6 Enable SSL – Install SSL Certificate
+Enable SSL – Install SSL Certificate
 ########################################
 
 .. note::
