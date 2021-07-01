@@ -37,4 +37,3 @@ The External URL should match the external URL for HTTPS. (If you do not have a 
 The Internal URL will need to match the internal IP address or node's private DNS name and the HTTP or HTTPS protocol.
 
 .. image:: _static/image_s7_1_8_v2.png
-.. image:: _static/image_s7_1_8_v2.png
