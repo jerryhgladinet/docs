@@ -1,4 +1,4 @@
-######################
+######################clus
 Tenant Administrator
 ######################
 
@@ -25,11 +25,11 @@ The small user icon **(5)** gives you access to template settings, connected dev
     
     TEMPLATE, DOWNLOAD AND OTHER SETTINGS
 
-The house icon **(6)** takes you to your dashboard. The **"?"** icon **(7)** is for tutorial access. If you are logged in as an administrator, the gear icon **(8)** goes to the management console, which is where the main capabilities of the Tenant Administrator are revealed. If you are logged in as a non-admin, the same icon takes you to your user settings. 
+The question icon **(6)** takes you to the Web Portal Tutorial. The stacked bar icon **(7)** is for access to the Cluster Manager. The person icon **(8)** opens the user settings menu. 
 
 .. figure:: _static/image_s6_1_2b.png
     :align: center
     
     SETTINGS AND ICONS
 
-If the small trashcan with the magnifying glass icon **(9)** is visible, you can click it to access deleted files. The trashcan with the **"X" (10)** allows you to purge deleted files. The larger magnifying glass icon **(11)** lets you perform searches. The house icon **(6)** takes you to your dashboard.
+The icon with the encircled "i" **(9)** opens up an additional panel for additional information and options, including sharing, downloading, and revision history. The icon with squares **(10)** allows you to change how the files are displayed. The three stacked dots **(11)** opens a menu for more options in the file manager.
