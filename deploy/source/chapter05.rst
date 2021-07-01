@@ -1,28 +1,47 @@
-==============================
-Cluster Manager
-==============================
+﻿Active Directory Integration
+-----------------------------
 
-After the initial configuration after initial installation, The cluster admin will be presented with the 
-cluster manager user interface. More specifically, the cluster manager dashboard.
+There are three ways to connect Active Directory into
+CentreStack.
 
-.. image:: _static/image058.png
+1. LDAP
+^^^^^^^^^^^^^^
 
-For specific cluster manager and tenant manager administration interface, please reference the
-CentreStack Admin Guide.
+For the first way, if the Active Directory is in the same
+Local Area Network (LAN), then a direct LDAP/LDAPS connection 
+is recommended. 
 
-For the deployment guide, we will only show how to add each tenant and what the entry web page
-looks like for a tenant administrator.
+2. Server Agent Proxy
+^^^^^^^^^^^^^^^^^^^^^^
 
-Add Tenant
-===============
+For the Second way, if the Active Directory is in a remote
+office, such as on a customer's premise, away from
+the CentreStack server, then a client agent software called, "File Server Agent"
+can be installed on the remote file server to help
+import Active Directory users over to CentreStack.
 
-You can add a tenant by clicking the 'Add Tenant' Button in the Tenant Manager
+CentreStack allows you to connect to multiple active directory services.
 
-.. image:: _static/image059.png
+3. Azure AD Support
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Via the Azure AD support, you can setup Azure AD so users can be authenticated by Azure AD instead of from a local Active Directory.
 
+.. note::
+  
+  **"Proxied AD User"**
+  
+  It is also possible to use the Active Directory from a remote location where the server agent (included client software) is used. In this case "Proxied AD User" will be referred to users 
+  imported from server agent's side of the Active Directory.
+  
+  **"AD User"** 
+  
+  The "AD user" is reserved 
+  to refer to users from local LDAP Active Directory.
+  
+.. note::
 
-The Tenant Administrator will see the files and folders view by default upon initial login.
-
-
-.. image:: _static/image060.png
-
+    When should you use LDAP, and when should you use "Server Agent" for AD integration?
+    
+    If AD is local to the CentreStack server, then LDAP is recommended.
+    
+    If AD is remote, then Server Agent is recommended.

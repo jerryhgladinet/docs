@@ -1,27 +1,28 @@
-###################################################
-9 Add additional CentreStack servers to the cluster
-###################################################
-Adding an additional CentreStack server is as simple as installing the first CentreStack server. Run the CentreStack server installation program on another server, specifying the same database as the first server in the cluster.
+#######################################################
+Verify External URL, Internal URL and the Node Name
+#######################################################
 
-.. warning::
-    Adding additional CentreStack servers to an existing cluster is optional. 
+Verify External URL
+=====================
 
-    If you only have a few hundred users, you don't need to have a 
-    second node from a scalability perspective. The scalability
-    point of adding a second CentreStack Server is at 1000 users. 
-    For best practices, you will
-    always scale vertically first such as making a 2-CPU machine into a
-    4-CPU machine and add RAM to the CentreStack Server before
-    scaling horizontally by adding more CentreStack Servers.
-    
-    However, from a high availability(HA) perspective, you may want to 
-    have a second CentreStack Server.
+It is very straight forward to verify whether or not your external URL is set correctly. You just need to point your web browser to the external URL and verify that the Login Page shows up and there is no SSL warnings.
 
-.. warning::    
-    An external database server should be deployed if you are scaling out the cluster to more than one CentreStack server. The "all-in-one" deployment with a local MySQL database is not intended to be used for scaling out or high availability.
+You can also verify the External URL by doing a file share to your own email address outside of the CentreStack system. A file sharing invitation will be sent to that Email address. After you receive the Email, click on the link included in the Email and make sure the link points to the External URL.
 
-.. warning::    
-    A hardware or software load balancer will be required if more than one CentreStack server is deployed in a cluster.
+.. note::
 
-.. warning::
-    All CentreStack servers in the same cluster must use the same time zone.
+    The external URL is used in the email sharing template. So a simple file sharing test will verify whether the External URL is setup correctly.
+
+Verify Internal URL
+=====================
+
+For the verification of Internal URL, you can use the Node Performance page to make sure the node performance information shows up. (Reports -> Node Performance).
+
+.. image:: _static/image_s8_1_1_v2.png
+
+Verify Node Name
+==================
+
+To verify that the node name is correct, you can right click on a folder and use the **"Share"** option to verify that the email has been received and is correctly pointing to an external URL. 
+
+.. image:: _static/image_s8_1_2_v2.png

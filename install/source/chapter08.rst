@@ -1,29 +1,41 @@
-#######################################################
-8 Verify External URL, Internal URL and the Node Name
-#######################################################
+==============================
+Client Agents
+==============================
 
-Verify External URL
-=====================
+Windows & Mac Clients
+---------------------------------
 
-It is very straight forward to verify whether or not your external URL is set correctly. You just need to point your web browser to the external URL and verify that the Login Page shows up and there is no SSL warnings.
+The CentreStack server includes the Windows Client Agent software and Mac client agent software.
 
-You can also verify the External URL by doing a file share to your own email address outside of the CentreStack system. A file sharing invitation will be sent to that Email address. After you receive the Email, click on the link included in the Email and make sure the link points to the External URL.
+You can download and install desktop, server and MAC clients from the download button in the right pane after a user
+logs into the web portal.
 
-.. note::
+First, navigate to the File Browser. 
 
-    The external URL is used in the email sharing template. So a simple file sharing test will verify whether the External URL is setup correctly.
+.. image:: _static/image041.png
 
-Verify Internal URL
-=====================
+In the menu at the top right, there will be an option to "Download and install desktop or server client".
 
-For the verification of Internal URL, you can use the Node Performance page to make sure the node performance information shows up. (Reports -> Node Performance).
+.. image:: _static/image042.png
 
-.. image:: _static/image_s8_1_1_v2.png
+You will then be taken to the downloads page.
 
-Verify Node Name
-==================
+.. image:: _static/image043.png
 
-To verify that the node name is correct, you can right click on a folder and use the **"Share"** option to verify that the email has been received and is correctly pointing to an external URL. 
+For mobile clients, depending on the configuration, you may need to download it from Apple AppStore,
+Google Play Store or from the enterprise’s own Mobile Device Management (MDM) portal.
 
-.. image:: _static/image_s8_1_2_v2.png
+Apple AppStore
+-----------------
 
+You can use the White-Label "**Cloud Drive Client**" from the Apple App Store.
+
+
+.. image:: _static/image066.png
+
+Google Play Store
+----------------------
+
+You can use the White-Label "**Cloud Android Client**" from the Google Play Store.
+
+.. image:: _static/image067.png

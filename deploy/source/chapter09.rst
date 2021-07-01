@@ -1,53 +1,23 @@
-==============================
-Client Agents
-==============================
+﻿Backup CentreStack
+-----------------------
 
-Windows & Mac Client Agents
----------------------------------
+Database
+^^^^^^^^^^^^^^^^^^^^^
 
-The CentreStack server includes the Windows Client Agent
-software and Mac client agent software.
+    Only the CentreStack database contains persistent configuration information.
+    All other components are stateless and replaceable.
+    In a disaster recovery scenario, as soon as the SQL Server is restored,
+    other worker nodes can be re-installed and will start working immediately.
+    You can also point the worker node’s database reference to the new SQL Server;
+    it will work immediately with the information from the database.
 
-You can download and install desktop, server and MAC clients from the download button in the right pane after a user
-logs into the web portal.
+    The worker nodes are stateless so it is not required to backup any worker nodes.
+    They can be provisioned by a clean OS with a copy of CentreStack.
+    As soon as they are connected to the same database they become a node in the cluster.
 
-.. image:: _static/image041.png
+Storage (Files and Folders)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-For mobile clients, depending on the configuration, you may need to download it from Apple AppStore,
-Google Play Store or from the enterprise’s own Mobile Device Management (MDM) portal.
-
-.. image:: _static/image042.png
-
-You will see download page.
-
-.. image:: _static/image043.png
-
-Apple AppStore
------------------
-
-You can use the White-Label "**Cloud Client**" from the Apple AppStore.
-
-
-.. image:: _static/image066.png
-
-Google Play Store
-----------------------
-
-You can use the White-Label "**Cloud Android Client**" 
-from the Google Play Store.
-
-.. image:: _static/image067.png
-
-==============================
-License CentreStack
-==============================
-
-When you are ready to license CentreStack, 
-the easiest way to do this is to use the "purchase now" link 
-from the cluster manager web portal under the self-hosted licenses view.
-
-.. image:: _static/image068.png
-
-The "Buy Now" link will take you to your CentreStack
-partner portal account and from there, you can 
-acquire licenses and give them out to your clusters.
+  You will also need to back up your storage services. Most of the time,
+  if you are using Cloud Storage services such as Amazon S3 or OpenStack Swift, the service has built-in redundancy. For local storage, DFS replication, RAID array or Microsoft Storage Space
+  can all be options to provide storage service redundancy. 

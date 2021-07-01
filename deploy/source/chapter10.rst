@@ -1,86 +1,30 @@
-==============================
-Web Based Management Console
-==============================
+﻿Security Considerations
+--------------------------
 
-Please reference the "CentreStack Admin Guide" for more details about tenant administration.
-Here are a few points that are more important during the deployment phase.
+Firewall Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can enter the web based management console by selecting ‘Management Console’ under the user’s
-name in the top right.
+The CentreStack Server only needs port 80 (HTTP) and port 443 (HTTPS). If you unbind port 80 for external IP address
+on the “Default Web Site”, you can also close port 80 (HTTP) and leave 443 (HTTPS) as the only open port.
 
-.. image:: _static/image044.png
+The best practice is if you leave both port 80 and port 443 open on the CentreStack server, and use
+a firewall fronting the CentreStack server to control the access from the firewall.
 
-After you click into the "Management Console", you will see the tenant level management 
-tasks.
+Access Clients and CentreStack
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: _static/image044_1.png
-
-
-Team Folders
-^^^^^^^^^^^^^^
-
-Team Folders are created by the tenant admin. The users that can be assigned to the team folders are the team users
-within the tenant. Each team user can be assigned read or write permissions to the team folder. For the team
-users that are not assigned with a specific team folder, the team folder will not show up.
-Team folders users can also be assigned the “Owner” permission. The owner permission allows the “owner” to
-maintain and manage the team folder permissions.
-
-.. image:: _static/image045.png
-
-Storage Manager
-^^^^^^^^^^^^^^^^^
-
-The tenant admin can update the default (primary) storage configuration information. For example, if the default
-storage is using Amazon S3, the tenant admin can update the S3 bucket, access key and secret key. However,
-the tenant admin can not switch the default storage into a different storage service. The cluster
-admin can help the tenant admin switch the default storage.
-
-Tenant admin can also add auxiliary storage by using the “Attach Storage”
-options. The default storage is the root folder of the tenant. Attached auxiliary storage is top level folders
-inside the root folder.
-
-.. image:: _static/image046.png
-
-User Manager
-^^^^^^^^^^^^^^^^
-
-In the user manager, you can create users, import users from Active Directory over LDAP or import users from
-Active Directory via Server Agent.
-
-.. image:: _static/image047.png
-
-.. image:: _static/image048.png
-
-
-Delegate Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You can add full delegated admin to the list of “Cloud Administrators”.
-
-.. image:: _static/image050.png
-
-Active Directory Integration (Optional)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-It is optional to setup the Active Directory Integration. You can get to the integration page from
-the Management Console -> Advanced -> Active Directory Settings. The active directory setting
-here refers to local Active Directory with LDAP integration. For remote Active Directory, server
-agent can be used to connect remote file server folders and remote Active Directory.
-
-.. image:: _static/image051.png
+The access client agents will be configured with an access end point in the form of https://cloud.acme.com,
+where cloud.acme.com is the DNS name of your CentreStack server.
+The communication from the access clients, such as login request will be protected by SSL over HTTP (HTTPS).
 
 .. note::
 
-    If this specific tenant's Active Directory is at a remote location, please
-    use the CentreStack Server Agent to connect the Active Directory (No need to use
-    LDAP over Internet WAN connection).
+    We recommend using https://www.ssllabs.com/ to check out the strength of your SSL certificate and whether
+    or not it is compatible with iOS 9 and above devices.
 
-Group Policy
-^^^^^^^^^^^^^^
+CentreStack and Active Directory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Granular group policies can be configured for the entire tenant users from Management Console -> Group Policy.
-
-.. image:: _static/image052.png
-
-
-Please reference "CentreStack Admin Guide" for complete reference for tenant administration.
+If the CentreStack is configured with Active Directory,
+CentreStack will authenticate users on behalf of the Active Directory by contacting the Active Directory over LDAP or LDAPS.
+There is no direct communication between the access clients and the Active Directory.

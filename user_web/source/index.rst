@@ -5,20 +5,24 @@ Getting Started
 Introduction
 =============
 
-Welcome to the |prodname| Web Portal User Guide. This guide describes
-web portal functionality for users in |prodname|.
+Welcome to the Triofox Web Portal User Guide. This guide describes
+web portal functionality for users as well as administrators in Triofox.
 
-|prodname| is a managed file sync and share solution. It differentiates from
-other file sync and share solutions (EFSS) by focusing on the security, control, 
-file server and team collaboration. |prodname| does really well in the following areas:
+Triofox helps businesses mobilize their file servers by enhancing existing Windows file servers with secure remote acccess, mobile file sharing, 
+data protection and cloud migration, while addressing business concerns about security, privacy, compliance and control.
 
-    1. Maintains NTFS security and permissions of files and folders.
-    2. Provides on-demand access that honors read-only, and write permissions in real-time.
-    3. Mirrors your local network share on the file server, allowing team collaboration in the cloud.
-    4. Brings your Windows File Server to the cloud, maintaining security and control, while giving it modern file sync and share capability.
+Triofox adds ransomware protection and automatic alert mechanism to your file servers. It continously monitors all the Triofox clients for any 
+unusual activity and will automatically shut them down if it sees a possible attack.
 
-|prodname| includes the backend |prodname| server, which runs on Windows server platform, 
-and front end client applications for Microsoft Windows, Mac OS X, and mobile clients for the 
+Triofox removes any need for businesses to rely on a VPN or a company computer to securely access files. With Triofox, data sprawl is eliminated 
+as data stays on local file servers and mobile productivity is balanced by centralized management and access controls.
+
+Triofox natively integrates with Active Directory and maintains all the existing NTFS permissions and there is no need to recreate any user identities. 
+With military grade encryption and secure connections, use existing users and permissions to save setup time and money. files stay on local file servers 
+and encrypted at the end point cache.
+
+Triofox includes the backend Triofox server, which runs on Windows server platform, 
+and front end client applications for Microsoft Windows, Mac OSx, and mobile clients for the 
 Android and Apple iOS operating systems.
 
 The Web portal is an important part of the solution for the following reasons: 
@@ -32,5 +36,5 @@ Other important features and functions of the web portal are also covered in thi
 
 .. note::
 
-    The web portal user guide is updated for version  9.6.5473.41339
+    The web portal user guide is updated for version 11.9.9226.48971
     

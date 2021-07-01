@@ -1,89 +1,55 @@
-#################
-User Management
-#################
+#########
+Sharing
+#########
 
-Adding Users
-=============
+Sharing vs Access to File Server Shares
+==========================================
 
-After signup, the administrator will get a login to the |prodname|. To setup a team environment, the administrator needs to add team users. Only the administrator or delegated administrators or users that has user manager role assigned can add users.
+There are two ways to share files and folders in |prodname|  – File server share access and sharing.
 
-To manage users, go to ‘Management Console’ under user on the top right:
+*  **File Server Shares Access:** 
+ 
+    Only available for the administrator who can enable remote access to any existing file server shares or folders created in Triofox. An admin can give access to shares to
+    native Triofox users or existing Active Directory users.  
+ 
+*  **Sharing:** 
+ 
+    Both the administrator and users can share files and folders with anyone that has an email address if IT allows it. The recipient of the share will get an
+    email with a link to open the folder or download the file. If the email recipient is also a |prodname| Cloud user, he/she can access the shared file or folder directly 
+    from the |prodname|.
 
-.. figure:: _static/image_s12_1_1.png
-    :align: center
+    Administrators can prevent users from sharing if needed.
 
-    ACCESSING THE MANAGEMENT CONSOLE
-
-
-In the ‘Management Console’, click ‘User Manager’:
-
-.. figure:: _static/image_s12_1_2.png
-    :align: center
-
-    WAYS TO ACCESS USER MANAGEMENT
-
-
-In ‘User Manager’ window, click the ‘+’ icon or "Add User" on the top left.
-
-.. figure:: _static/image_s12_1_3.png
-    :align: center
-
-    CREATING OR MIGRATING USERS
-
-
-
-Deleting Users
-===============
-
-When a user leaves the team, administrators can delete the user’s login. Just click the Delete icon in ‘User Manager’ window.
-
-.. figure:: _static/image_s12_1_4.png
-    :align: center
-
-    DELETING A USER
-
-
-Managing User Quotas
-=====================
-
-Administrators can assign a quota to each user. A user will not be allowed to upload files to |prodname|  once their quota has been reached.
-
-If the quota is 0 for the user, there is no limit on how much storage the user can use.
-
-Click the ‘Management Console’ and select ‘User Manager’. Click the "Manage User" menu on a user to manage and select "Set Quota"
-
-.. figure:: _static/image_s12_1_5.png
-    :align: center
-
-    EDITING STORAGE QUOTA
-
-
-Managing User Credentials
+Sharing Files And Folders
 ==========================
 
-Admins can change user passwords and login emails, if needed.
+File Sharing
+-------------
 
-* Click ‘Management Console’ and select ‘User Manager’
-* Click the "manage user" menu icon in the user block
-* After that, can use "Reset Password" link to help the user.
+To share a file, highlight the file and clock the 3 dots which will bring up the context menu from where you can select the share icon, (1)revealed in the header of the file. 
+You can also right click the file and select Share (2) in the context menu. Once the file is selected, if the right panel (3) is open, there is a Share link (4) there as well.
 
-.. figure:: _static/image_s12_1_6.png
+.. figure:: _static/New140.png
     :align: center
 
-    RESET USER PASSWORD
+    SHARING FILES
 
+After clicking ‘Share’ above, in ‘Invite People’ window, click the email field and enter email address(es) seperated by semicolons (;) for anyone that needs access to the file. 
+You can also add notes if required. Click CONTINUE.
 
-After changing the login password, an email will be sent to notify the user of the change. Admins can choose to include the new password in the email, or exclude the new password from the email. If the password is not included, the admin will need to convey the new password to the user in some other way.
-
-.. figure:: _static/image_s12_1_7.png
+.. figure:: _static/New141.png
     :align: center
 
-    PASSWORD OPTIONS
+    INVITE PEOPLE TO YOUR SHARE
+
+On the second share window you have access to the share options panel where you can make important decisions such as how long you want the share to be active and 
+how much control you want to give the user (e.g., read only, full control access). You can also make this share available to the public by getting a public link. Also, if desired,
+you can subsribe to notifications for the share.
+
+.. figure:: _static/New142.png
+    :align: center
+
+    SHARE OPTIONS PANEL
 
 
-When either the email or password is changed, please update the corresponding login credentials in |prodname| Cloud Desktop or Cloud Server.
 
-.. warning::
-
-    This only applies to native |prodname| user. If you have Active Directory users, you will need to manage user's credential the Active Directory way.
-    

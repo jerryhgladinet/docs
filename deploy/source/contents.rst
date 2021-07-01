@@ -1,9 +1,9 @@
-==========================================
-CentreStack Deployment Guide - v |version|
-==========================================
+==================================================
+CentreStack Installation Checklist - v |version|
+==================================================
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     index
     chapter02
@@ -15,4 +15,3 @@ CentreStack Deployment Guide - v |version|
     chapter08
     chapter09
     chapter10
-    chapter11

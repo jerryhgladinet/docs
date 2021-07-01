@@ -1,5 +1,5 @@
 #############################
-7 Setup Worker Node for SSL
+Setup Worker Node for SSL
 #############################
 
 Login to the Web Portal as the master administrator, then, under the menu next to dashboard, go to "Cluster Control Panel".
@@ -26,11 +26,11 @@ You can also modify the node property for the node.
 
 .. image:: _static/image_s7_1_5_v2.png
 
-The Node Name needs to match the hostname of the node.
+The Node Name needs to match the hostname of the node. You can get the hostname of the node by going into Command Prompt(Press Windows+R and then type in cmd) and typing in hostname.
 
 .. image:: _static/image_s7_1_6_v2.png
 
-The External URL shall match the external URL for HTTPS. (If you do not have SSL certificate installed yet, this can be HTTP for now).
+The External URL should match the external URL for HTTPS. (If you do not have a SSL certificate installed yet, this can be HTTP for now).
 
 .. image:: _static/image_s7_1_7_v3.png
 

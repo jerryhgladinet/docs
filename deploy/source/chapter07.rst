@@ -1,75 +1,49 @@
-==============================
-SSL (HTTPS) Configuration
-==============================
+﻿Deployment Scenarios
+--------------------------
 
-We recommend that you turn on SSL for HTTPS before you download any access client agents because access client agents
-need to connect to your CentreStack’s access end point (External URL). 
+Private On-premise
+^^^^^^^^^^^^^^^^^^^^^^
 
-Even though it can connect to CentreStack via plain
-HTTP we recommend configuring SSL for HTTPS before the client connects. You can get a SSL certificate
-from a commercial SSL vendor and apply the SSL certificate from within the IIS Manager.  
+You can prepare a Windows Server 2008 Service Pack 2 or R2 server or Windows Server 2012/R2/2016 and install CentreStack.
+In this scenario, Active Directory is typically at the same site and primary storage is from file server or NAS storage.
 
-Enabling SSL
-for IIS Manager is a very standard IIS procedure. After you import the SSL certificate to the CentreStack
-machine, you can go to the Administrative Tools-> Internet Information Services (IIS) Manager.
-
-.. image:: _static/image035.jpg
-
-Once you are in the IIS Manager, navigate to the Default Web Site and click on the “Edit Binding …”
-
-.. image:: _static/image036.jpg
-
-Highlight the https – 443 entry and click Edit.
-
-.. image:: _static/image037.jpg
-
-Select the SSL certificate you have and click “OK”
-
-.. image:: _static/image038.jpg
-
-.. warning::
-
-  Only the web browser portal can accept a self-signed SSL certificate after you give the permission to
-  proceed regardless of the SSL warning. 
-  
-  All other native access clients (Windows, Mac, Mobile clients)
-  will all reject the HTTPS connection if the SSL certificate is not a valid certificate from a certificate
-  authority. For example, if you try to connect to CentreStack server via https://ip-address
-  for the native clients, the connection will fail.
-  
-  We recommend using https://www.ssllabs.com/ to check your SSL certificate and SSL configuration.
-  
-  You can also use openssl to check SSL certificate
-  
-  .. code::
-  
-    openssl s_client -connect server.yourwebhoster.com:443
-
-Once the server certificate has been installed on the CentreStack server and bindings applied, go to the
-Cluster Server Farm -> Cluster Worker Nodes and make sure the External URL matches the HTTPS format of the DNS name given to the CentreStack server.
-
-You can also lock it down to HTTPS/SSL only for client agents.
-
-.. image:: _static/image039.png
-
-At the External URL textbox, enter the public DNS name for the node.
-
-.. image:: _static/image040.png
+In this case, most of the time you are using CentreStack as a way to replace VPN to 
+provide access to onsite file server from mobile devices and remote devices.
 
 .. note::
 
-    * You can bind the SSL certificate to the Default Web Site so the Default Web Site will have HTTPS binding.
+    Business Access use case - provide access to
+    file server via CentreStack to mobile devices. When
+    employees are in the office, they access
+    the file server their normal way without
+    noticing any difference, and while on the road
+    or from remote location, they can use mobile 
+    and remote device to access file server network
+    shares.
 
-    * Do not turn on “SSL Only” nor “Require Client Certificate”, because the web service depends on
-      localhost:80 for inter-process communications over localhost:80.
+Private Off-Premise
+^^^^^^^^^^^^^^^^^^^^^^^
 
-    * If you need the “SSL Only” feature, we recommend you un-bind port 80 from the external IP Address on
-      the “Default Web Site”. You can leave localhost: 80 binding intact.
-      
-      
-.. warning::
+Normally, a managed service provider (MSP) manages your IT services, such as hosted exchange servers, hosted file servers etc.
+You can ask the same managed service provider to install and manage the CentreStack for you in their data center. 
 
-    CentreStack server leverage http://localhost:80 for internal inter-process communication. From outside 
-    of the firewall, they can use HTTPS for communication to the CentreStack server. From the inside of 
-    the CentreStack server, the port 80 HTTP protocol and the localhost will still need to be 
-    available for the "Default Web Site" for internal processes to communicate to each other.
+Usually from this deployment scenario, if the file server is already in the same data center,
+typically it turned into the "Private On-premise" deployment.  
+
+If on the other hand,
+the file servers are away from the data center, this gets turned into 
+"Business Continuity" use case, where the server agent can be installed on the local file server
+and connects the local file servers to the remote CentreStack server in the data center.
+
+Virtual Private Cloud
+^^^^^^^^^^^^^^^^^^^^^^^
+
+In this deployment scenario, you would deploy the CentreStack solution in a virtual private cloud environment such as Amazon EC2.
+CentreStack is also available in the form of AMI image to facilitate creation of EC2 instances.
+In this deployment scenario, the typical primary storage connection is to the Amazon S3 storage.
+You can also setup CentreStack solution in an environment like HP Helion (OpenStack) Cloud, with a Windows Server 2012 connecting to OpenStack Swift
+storage.
+
+Multi-Site Deployment
+^^^^^^^^^^^^^^^^^^^^^^^^
+Please reference multi-site deployment.

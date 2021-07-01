@@ -31,8 +31,7 @@ as the cluster admin and navigate to Cluster Control Panel > Settings > Change L
 
 .. image:: _static/image063.png
 
-Connection String Example for MySQL Database
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Connection String Example for MySQL Database**
 
 .. code-block:: xml
 
@@ -40,8 +39,7 @@ Connection String Example for MySQL Database
 
 
 
-Connection String Example for Microsoft SQL Database
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Connection String Example for Microsoft SQL Database**
 
 .. code-block:: xml
 
@@ -155,8 +153,7 @@ Machine.config is at %windir%\\Microsoft.NET\\Framework64\\[version]\\config\\ma
 
 (%windir% typically is c:\\windows. [version] is 4.0.30319 for .NET framework 4)
 
-processModel
-^^^^^^^^^^^^^^
+**processModel**
 
 processModel is under <system.web> and <system.web> is under <configuration>. Most likely 
 the processModel block is there alredy but with autoConfig set to true. We can change it
@@ -171,8 +168,7 @@ to set to false and with the attributes set below.
         minWorkerThreads="2"/>
 
 
-connectionManagement
-^^^^^^^^^^^^^^^^^^^^^^
+**connectionManagement**
 
 <system.net> is a block below <configuration>. Typically if <system.net> doesn't already exist, the block
 can be added to the bottom of the config file, right before the closing tag of <configuration>.
@@ -194,6 +190,6 @@ Tuning #4 – appConcurrentRequestLimit
 
 
 Need More Information?
-^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 Contact Gladinet Support (support@gladinet.com) for more information.

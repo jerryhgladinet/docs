@@ -11,9 +11,7 @@ using the following web browsers.
     * Windows Edge (Latest)
     * Opera (Latest)
     * Internet Explorer (11)
-    * Internet Explorer (10)
- 
-    
+       
     
 .. warning::
 

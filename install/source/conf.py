@@ -50,7 +50,7 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Installation Guide'
-copyright = '2018, Gladinet, Inc.'
+copyright = '© Copyright 2021 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
