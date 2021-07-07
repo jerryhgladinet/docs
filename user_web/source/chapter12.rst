@@ -35,7 +35,7 @@ To create a folder right click in the File Browser window background and select 
 Attaching a Folder From the Client
 ====================================
 
-Users can also Attach a Local Folder from their client. 
+If you have the Windows Client installed, Users can also Attach a Local Folder from their client. 
 
 .. figure:: _static/image_s14_1_1a.png
     :align: center
