@@ -93,7 +93,7 @@ It is possible to upload multiple files at a time. This is supported on all brow
     UPLOADING FILES AND FOLDERS
 
 
-After clicking the upload option, you can browse to the file or folder you want to upload. Use Ctrl key to select multiple items.
+After clicking the upload option, you can browse to the file or folder you want to upload. Use the Ctrl key to select multiple items.
 
 .. figure:: _static/image_s11_3_2.png
     :align: center

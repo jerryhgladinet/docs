@@ -91,7 +91,7 @@ me’ folder, in both the |prodname| Web Portal and |prodname| Desktop App.
 Web Portal
 ----------------------
 
-You can access shared files by clicking the drop-down menu (1) under "Places" in the "File Browser" view of the Web Portal. 
+You can access shared files by clicking the "Shared files/folders" button in the "File Browser" view of the Web Portal. 
 
 .. figure:: _static/image_s15_1_8.png
     :align: center
