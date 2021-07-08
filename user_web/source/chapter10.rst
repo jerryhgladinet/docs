@@ -141,7 +141,7 @@ If your are in "Detailed View" **(3)** any files with previous versions will sho
 Creating Folders
 =================
 
-To create a folder, go to the parent folder and click "Create Folder" in the drop-down menu **(1)** or right click in the folder background and choose "Create Folder" **(2)** from the context menu. 
+To create a folder, go to the parent folder and click "New Folder" in the drop-down menu **(1)** or right click in the folder background and choose "New Folder" **(2)** from the context menu. 
 
 .. figure:: _static/image_s11_3_4b.png
     :align: center
