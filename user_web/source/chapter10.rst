@@ -128,14 +128,14 @@ Downloading Files
 
 There are several ways to download files in |prodname|:
 
-If you select a file in the "File Browser" you can use the download icon **(1)** in the top bar. You can also right-click a file and choose download **(2)** from the context menu. If you are in the "Detailed View" **(3)** you can select a file and use the download icon in the item's bar **(4)**. 
+If you select a file in the "File Browser" you can use the download icon **(1)** in the top bar. You can also right-click a file and choose download **(2)** from the context menu. If you are in the "Detailed View" **(3)** you can select a file and download it in the same manner as in the icon view. 
 
 .. figure:: _static/image_s11_3_4a.png
     :align: center
 
     DOWNLOAD FILE OPTIONS
 
-If your are in "Detailed View" **(3)** any files with previous versions will show a number in the selected bar (e.g. "V2") **(5)** that you may click to open a list of all of the versions of that file. 
+If your are in "Detailed View" **(3)** any files with previous versions will show a number in the selected bar (e.g. "V2") **(4)** that you may click to open a list of all of the versions of that file. 
 
 
 Creating Folders
