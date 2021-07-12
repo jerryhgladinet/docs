@@ -9,7 +9,7 @@ Users can subscribe change notifications for Team Folders. Once subscribed, when
 get an email with a list of changes. This notification only applies when the change is done by other users. It will not send out the notification
 email when the changes are done by the user himself/herself.
 
-Visit the root of the team folder (1). On the right bottom of the window, click the "Show/Hide Info Panel" icon (2) and in the side panel select "I want to receive notification..." checkbox (3) to subscribe the change notification.
+Visit the settings of the files page. Then go to the "Folder Change Subscriptions" tab, and click the "+" icon. This will lead to a menu that shows which folders the user is subscribed to, and offers the ability to change whether they want to be notified of changes or not.
 
 .. figure:: _static/image_s16_1_1.png
     :align: center
