@@ -99,9 +99,9 @@ To save an existing document, tap on the document in the file list to enter "Pre
 Working with Office Applications
 ==================================
 
-If you have office mobile applications installed, you can access these apps from CentreStack Android. For example, if you have Excel for Android installed when previewing an xlsx file, you will see the Excel icon. Tap the Excel icon to open the file in Excel for editing. 
+If you have office mobile applications installed, you can access these apps from CentreStack IOS. For example, if you have Excel for IOS installed when previewing an xlsx file, you will see the Excel icon. Tap the Excel icon to open the file in Excel for editing. 
 
-When you open the Excel file, you'll notice that the autosave feature is enabled by default. Once your edits are completed, you can use the Android BACK button to return to CentreStack and your changes will be saved. 
+When you open the Excel file, you'll notice that the autosave feature is enabled by default. Once your edits are completed, you can use the IOS BACK option near the top left to return to CentreStack and your changes will be saved. 
 
 If you need to save an office file into the cloud drive, you can refer to this knowledge based article : https://support.centrestack.com/hc/en-us/articles/360035107053-Save-a-Document-to-Centrestack-from-Another-Android-App (only until step 5) 
 
