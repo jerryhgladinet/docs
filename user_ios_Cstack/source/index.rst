@@ -7,11 +7,11 @@ Introduction
 
 Welcome to the CentreStack IOS Client User Guide. This guide describes the Android client application for CentreStack, the managed file synchronization, and sharing solution.
 
-Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, Windows 8+, and more. We have created a native Android application that you can download from the Google Play Store. This provides access to files and folders in your CentreStack account.
+Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, Windows 8+, and more. We have created a native IOS application that you can download from the App Store. This provides access to files and folders in your CentreStack account.
 
-The white-labeled CentreStack Android app called “Cloud Android Client” by Gladinet that can be distributed by service providers and enterprises to their users. 
+The white-labeled CentreStack IOS app called “Cloud Drive” by Gladinet that can be distributed by service providers and enterprises to their users. 
 
-If you have the fully branded CentreStack Android client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from http://www.centrestack.com (partner portal). 
+If you have the fully branded CentreStack IOS client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from http://www.centrestack.com (partner portal). 
 
 Getting Started
 ------------------
