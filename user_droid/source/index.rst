@@ -31,6 +31,7 @@ Enter Access Point (if not filled automatically) and your Username and tap “CO
 
 
 On the following screen, enter your Password and tap “SIGN IN”, to log in to your server. 
+On the following screen, enter your Password and tap “SIGN IN”, to log in to your server. 
 
 
 Accessing Folders and Files
@@ -180,7 +181,7 @@ Marking As Favorite
 Adding to Favorite
 --------------------
 
-You can add a file to favorites by pressing the **Star Icon**. When you add a folder or a file to favorite, it will be marked with a **Green Check** and will become offline-accessible.
+You can add a file to favorites by pressing the **Star Icon**. When you add a folder or a file to favorite, it will be marked with a **Green Check** and will become offline-accessible. Near the top right you can see the icon that looks like a list. By clicking this you can change the view from list to grid view.
 
 .. image:: _static/2021NewImage042.png
 
