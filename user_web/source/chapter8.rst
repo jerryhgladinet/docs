@@ -10,7 +10,7 @@ Go to the |prodname| server URL and enter the admin credentials to login.
     LOGIN AS TENANT ADMIN
 
 
-After logging into the portal, select ‘Management Console’ on the top right corner of the web portal:
+After logging into the portal, select ‘My Tenant’ in the Tenant section of the web portal:
 
 .. figure:: _static/image_s8_2_1.png 
     :align: center
