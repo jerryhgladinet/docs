@@ -31,9 +31,9 @@ Logged in as Tenant Admin, you can delegate administrators through the Control P
 
     TENANT ADMINISTRATORS SETTINGS
 
-In the Tenant Administrators panel you can choose a user or AD user (2), the select which user(s) you to add from the pop-up window. Choose "Done" (3) when finished. 
+In the Tenant Administrators panel you can choose a user you want to add from the field upon clicking the "Edit" option (2). Choose "Update" (3) when finished. 
 
-Tenant administrators can be removed by clicking the trashcan icon (4). 
+Tenant administrators can be removed by clearing the field given in the "Edit" option. 
 
 .. figure:: _static/image_s5_1_1.png
     :align: center 
