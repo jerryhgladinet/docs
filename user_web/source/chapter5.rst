@@ -40,14 +40,14 @@ Tenant administrators can be removed by clearing the field given in the "Edit" o
 
     DELEGATED ADMINISTRATORS
 
-When a team user (with delegate administrator assignment) logs in, there will be a "Manage Team Cloud" link available (5). 
+When a team user (with delegate administrator assignment) logs in, there will be a "Manage Team Cloud" link available (4). 
 
 .. figure:: _static/image_s5_2_1.png
     :align: center
 
     MANAGE TEAM CLOUD ACCESS
 
-And when the delegate administrator is finished managing the team cloud, they can return to their normal File Browser view by clicking "Return To My Cloud" (6).
+And when the delegate administrator is finished managing the team cloud, they can return to their normal File Browser view by clicking "Return To My Cloud" (5).
 
 
 
