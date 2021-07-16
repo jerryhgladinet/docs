@@ -1,2056 +1,2259 @@
-########################
-4 Cluster Administration
-########################
-
-******************************
-**4.1 The Basics**
-******************************
-
-To access your Cluster Administration features, log in to the Web Portal on the server. **The description in this guide presumes that you are signed in as the Master Administrator** (aka., Cluster Administrator, Server Administrator). Some of the options listed may not be available if you are logged in with different permissions (e.g. Delegated Administrator). In this document the |prodname| will also be referred to as simply, Cluster Server. 
-
-.. tip::
-
-    The Web Portal URL is the server’s DNS name, the IP Address or local host if you are on the server console. 
-
-.. figure:: _static/2021newimage001.png
-    :align: center
-
-**LOGIN SCREEN**
-
-.. note::
-
-    At the bottom of the Login screen, there is version information, which will be useful to see which version you have installed. 
-
-    
-The following graphic describes the various icons and components of the Administrator Dashboard and its sub-sections. Please refer to it as you read this guide to determine how to access various features.
-
-.. figure:: _static/2021newimage003.png
-    :align: center
-    
-**CLUSTER MANAGER DASHBOARD**
-
-After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. 
-
-Some of the features can be accessed in several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side (or top side) of the Dashboard. 
-
-By clicking the folder icon **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views.  The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. When the cluster administrator clicks the folder icon to get into the files and folder's view, the files and folders belong to the 
-default tenant. 
-
-.. note::
-
-    the cluster administrator will not be able to access files and folders that are not in the scope of the default tenant. To access files and folders that belong to a specific tenant, the web portal login has to be 
-    that of the tenant. So basically the cluster administrator can do administration work for a tenant that is under management. However, it is not easy for the cluster administrator to see the files and folders for that 
-    specific tenant until he/she gets the permission and the login credentials.
-
-The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel, and Group Policies. 
-If you need to know the version and cluster ID information for your Cluster Manager installation, this can be accessed by clicking the “i” **(4)**. The following image represents the Cluster Info pop-up window. 
-
-.. figure:: _static/2021newimage004.png
-    :align: center
-    
-**CLUSTER INFO**
-
-In the center of the Dashboard screen, you can access your Tenants (Companies, Clients) and system reports.
-
-.. note::
-
-    At a high level, the |prodname| web browser management interface allows you to manage clients (Tenants) and the overall
-    system performance and statistics reports.
-
-
-        
-**EXTERNAL DNS WARNING**
-
-At the top left corner of the cluster dashboard (5), if you see a warning icon, it is the external dns warning indicating the external dns name is not 
-setup yet.
-
-.. figure:: _static/2021newimage005.png
-    :align: center
-    
-External DNS (External URL) is a very important property. It is used in directing how outside remote clients connect to the Cluster Server. It is also used in various email templates. If this property is not properly configured, the email template may be using IP address or NETBIOS name as the URL link.
-    
-To configure this setting, you must have a DNS name and SSL certificate setup; therefore, you can postpone the configuration of your DNS until you are ready.
-
-**Related tasks**
-     
-    *  Configure the DNS registration to point a DNS name to the public static IP address of the Cluster Server.
-    *  Configure the IIS “Default Web Site” to bind to an SSL certificate.
-
-
-******************
-4.2 Tenant Manager
-******************
-
-``Cluster Manager`` > ``Tenant Manager``
+##############################
+Tenant Administration
+##############################
 
 
 .. note::
+    A tenant is usually mapped to an organization or in the case of MSP managed organization, a service provider would call them clients. Basically, a tenant is a management scope that represents an organization.
 
-    A tenant is usually mapped to a client of yours, a company, or a division of a company.
+Tenant manager scope is defined for tenant administrators. For a multi-tenant Cluster Server system, each tenant has an administrator. For a single-tenant Cluster Server system, the default cluster administrator is also the tenant administrator.
 
-The Cluster Server is multi-tenant capable, but can also be used for a single Tenant. To add or manage your tenants, choose Tenant Manager **(1)** in your Dashboard. 
+Tenant Manager is completely web-based.
 
-.. figure:: _static/2021newimage007.png
+From the Cluster Manager Dashboard, you can access the Tenant Manager by choosing it in the left-side menu **(1)**. This menu can be toggled on and off by clicking the "hamburger" menu **(2)** in the top left corner of the Dashboard. 
+
+.. figure:: _static/2021newimage078.png
     :align: center
-    
-    TENANT MANAGER
 
-You can also access other important settings from this context menu **(2)** (Each tenant block has a tenant specific context menu): 
-
- - Manage Tenant
- - Force full scan for storage quota usage, 
- - Change Tenant Admin Password, 
- - Edit Existing Default Storage 
- - Delete Tenant
-
-**Manage Tenant**
-
-This will drill deeper into the per-tenant management page view. By clicking the “Manage Tenant” **(2)** option (see above image), the Cluster Admin sees the Tenant Dashboard as well as additional options to configure the Tenant settings.
-
-**Force full scan for storage quota usage**
-
-This will start a full scan of storage usage for the Tenant. As files are uploaded, modified or deleted during daily operation, the Tenant Quota is calculated. To ensure that the quota value shown for the tenant is accurate, it is important that you occasionally force a full scan of the tenant’s quota usage.
-
-**Change Tenant Admin Password**
-
-Provides a method for the Cluster Administrator to assist the Tenant Administrator with resetting passwords.
-
-**Edit Existing default storage**
-
-When a Tenant outgrows their allocation of storage space or needs to move to a different storage location, this setting allows the Cluster Administrator to change the storage location.
-    
-.. tip:: 
-    
-    When changing a storage location for a Tenant; you typically manually copy the folder to the new location then re-configure the default storage location.
-    
-.. warning:: 
-    
-    If you want to change the tenant's default storage location, make sure you copy tenant's file AS-IS from the source folder to its destination folder before you change the storage location here.
-
-**Delete Tenant** 
-    
-Deletes the tenant.
-
-
-
-
-4.2.1 Tenant Management within Cluster Administration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    CLUSTER SERVER DASHBOARD
 
 .. note::
 
-     At a high level, the Cluster Administrator and Tenant Manager have almost identical controls for the Tenants within their scope; however, the Tenant Manager settings will always take precedence and override Cluster Administrator settings. Tenant Managers can give permission for Cluster Administrator to manage their tenants by enabling this option in ``Group Policy`` > ``Common Settings`` > ``Security``. "The Allow Cluster Admin to manage my tenant" is by default checked. 
-     
-     .. figure:: _static/image_s4_3_15.png
-        :align: center
-        
-        TENANT GROUP POLICY > SECURITY
-
-
-**Navigation Menu**
-
-``Cluster Manager`` > ``Tenant Manager`` > ``Manage Tenant`` > ``View/Actions``
-
-.. figure:: _static/2021newimage009.png
-    :align: center
+    Once you have selected the Tenant Manager in the left-side menu, you can access the management console directly by clicking the "Default Tenant" icon.
     
-    TENANT DASHBOARD MENUS
+    Now the following guide will assume you are a tenant administrator, which is not the default cluster administrator.
 
-You can navigate to different sections of Tenant Administration using the navigation menu at the top **(1)**. 
+You can also log in directly to the web portal as the tenant administrator instead of the default cluster administrator to get to the tenant administrator management web interface.
 
-.. figure:: _static/2021newimage010.png
+
+**********************
+Tenant Dashboard
+**********************
+
+``Tenant Manager`` > ``[Tenant]`` > ``Tenant Dashboard``
+
+This is the Tenant Dashboard.
+
+.. figure:: _static/2021newimage079.png
     :align: center
-    
-    TENANT DASHBOARD QUICK LINKS
 
-When the computer screen is wide enough, the right side quick links panel will also be available for quick navigation **(2)**.
+    TENANT DASHBOARD
 
 
-**Tenant Dashboard**
+*********************
+Storage Manager
+*********************
 
-``Cluster Manager`` > ``Tenant Manager`` > ``Manage Tenant`` 
+The Storage Manager is at the right panel of the tenant dashboard when the screen is wide enough to show the right panel. It will be shown normally on a desktop screen.
 
-The Tenant Dashboard link directs the web page back to the Tenant Dashboard page.
-
-
-**User Manager**
-
-``Tenant Dashboard`` > ``Users``
-
-.. figure:: _static/2021newimage011.png
+.. figure:: _static/image_s5_2_00.png
     :align: center
+
+    STORAGE MANAGER ACCESS
     
-    TENANT USER MANAGER
-
-The Users section can manage Users in the Tenant.
-
-
-**Team Folders (Shared Work Space)**
-
-``Tenant Dashboard`` > ``Team Folders``
-
-.. figure:: _static/2021newimage012.png
-    :align: center
-    
-    TEAM FOLDER
-
-Team Folders are used for team-share collaborations. Generally, Team Folders are converted from File Server Network shares. Other Team Folder sources can be Google Storage, Amazon S3 (or S3 Compatible), Amazon Cloud, Windows Azure Blob, WebDav, SharePoint, Rackspace (US or UK) and OpenStack or you can create new folders under the Tenant’s root storage.
-
-On the right side of the tenant manager web interface, if the screen is wide enough, there is a right side panel that has 4 items, Cloud Backup, Local Active Directory, Remote Active Directory and Backend Storage. Otherwise 
-
-.. figure:: _static/image_s4_3_16e.png
-    :align: center
-    
-    RIGHT PANEL
-
-**Cloud Backup (1)**
-
-``Tenant Dashboard`` > ``Cloud Backup`` 
-
-Cloud backup allows you to backup team folders in the tenant and also folders on devices attached to the tenant.
-
-**Local Active Directory (2)**
-
-``Tenant Dashboard`` > ``Local Active Directory`` 
-
-The connection to local active directory is via LDAP over Local Area Network. If the active directory infrastructure is in the same network as the Cluster Server, this is a convenient way to connect to the active directory.
-
-**Remote Active Directory (3)**
-
-``Tenant Dashboard`` > ``Remote Active Directory`` 
-
-
-If the active directory is away from the Cluster Server, (for example, the active directory is on-premise inside a client's building, while the Cluster Server is in a data center) it is recommended to use Server Agent to connect the remote active directory.
+To access the Tenant Storage Manager, click the 3-dot menu on the bottom right of the Tenant Dashboard (Backend Storage section).
 
 .. note::
 
-    If the client/customer’s Active Directory is in a remote location, you can use “Server Agent” to connect the Active Directory (and replicate remote File Server Network Share to the Cluster Server. You don’t need to configure LDAP in the remote Active Directory case.
+    You can mount different storage services into a single namespace (folder structure). For example, if you have multiple Amazon S3 buckets, you can mount them all in. If you have multiple OpenStack Swift accounts, you can mount them all in as well. If you have multiple file server network shares, you can add them to the storage manager.
 
+.. note::
+  
+    The cluster manager can define whether or not the Storage Manager is exposed to the tenant administrator.
 
-**Backend Storage (4)**
-
-``Tenant Dashboard`` > ``Backend Storage``
-
-Each tenant has a default backend storage. Tenant user (team user)'s home storage and other shared storage
-space can be allocated from the default backend storage.
-
-.. tip::
-
-    You can think of the Tenant Backend Storage as a "Black Box" managed by the Cluster Server and you shall always use the Cluster Server interface to interact with the content inside the storage. If you can't take this "Black Box" approach for the tenant's root backend storage, you can use the following other methods via the team folders, such as import file server network share.
-
-However, if you already have a file server that will provide the storage, it is recommended to use "Import Network File Shares" to mount the file server network share to the tenant's storage space. In this case,you can leave the "Default Storage" as is, or point it to an empty location and treat it as a black box storage managed at the Cluster Server level.
-
-.. figure:: _static/2021newimage014.png
+.. figure:: _static/image_s5_2_20.png
     :align: center
-    
-    CLOUD STORAGE SETTINGS
 
-**Migrate to New Storage**
+    STORAGE MANAGER SETTINGS
 
-.. figure:: _static/2021newimage015.png
+
+Home Storage
+^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/image_s5_2_10.png
     :align: center
-    
-    CLOUD STORAGE MIGRATE
 
-Once the tenant backend storage is set, we don't recommend changing it until it has to be changed (e.g., migrate to other location). However when you are just setting up the tenant, you can decide where your tenant's storage location is and can change between local file server storage or remote cloud storage service.
+    EDITING HOME STORAGE SETTINGS
 
-
-**Tenant Plan**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Tenant Plan``
-
-.. figure:: _static/2021newimage016.png
-    :align: center
-    
-    TENANT PLAN SETTINGS
-
-Here in the Tenant Plan section, you can change the tenant's user plan and storage plan, and also control 
-the bandwidth usage for the tenant.
-
-.. figure:: _static/2021newimage017.png
-    :align: center
-    
-    TENANT PLAN SETTINGS
-
-
-**Admin Access Control**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Access Control``
-
-In the Admin Access Control, the cluster administrator can decide the division of work between cluster administrators and the specific tenant administrator. A lot of times, the cluster administrator will help with setting things up. In this case, the cluster administrator can take away some of the administrative work from the tenant administrator. 
+Home storage is the most important property in the tenant manager. It is used in many ways. For example, the users' home directory can be set up under the home storage (if the user's active directory home directory property is not used). 
 
 .. note::
 
-    For example, if the cluster administrator is a Managed Service Provider (MSP), the tenant admin can be an admin user from a specific client (customer).
-    
-    Or, if the cluster administrator is an enterprise IT directory, the tenant admin can be a specific division of the enterprise.
+    In the field, one of the common mistakes is that a tenant's root network share is mapped directly to the home directory of the tenant. The home directory can not be shared from the root, so if your end goal is to turn the network share directly into a team folder, you are better off mapping the home directory to another location, and later attach the network share as a secondary folder and turn that secondary folder into a team folder.
 
-.. figure:: _static/2021newimage018.png
-    :align: center
-    
-    ACCESS CONTROL SETTINGS
 
-**Allow tenant to attach external cloud storage**
-
-    If checked, in the tenant administrator's management console, the "Storage Manager" will show and allow tenant administrator to mount (attach) external storage.
-    
-    If the cluster administrator is setting it up for the tenant, the cluster administrator can take away this privilege. 
-    
-
-**Edit tenant administrator info**
-
-   The Cluster administrator can decide whether to allow the tenant administrator to edit its own information, such as change email.
-   
- 
- 
-**Allow tenant to edit branding settings**
-
-   The Cluster administrator can decide whether to allow tenant administrator to have its own branding.
-   
-   
-**Do not show GDPR consent form**
-
-    The EU General Data Protection Regulation (GDPR) is the most important change in data privacy regulation in 20 years.  There are regulations about collecting user information and software needs to provide consent form. 
-    If you have customers in the EU, it is recommended to show the consent form.
-
-
-
-**Allow tenant to increase user plan automatically**
-
-    The Cluster administrator can decide whether to allow the tenant to grow the user count automatically. 
-
-
-**Disable Active Directory integration**
-
-    If checked, this will remove AD integration for this tenant. 
-
-
-**Multi AD Domain Support**
-
-    Support multiple Active Directories in a single tenant (current tenant).
-    
-    Multiple Active Directory forests support. This is not a common option because most of the time, the tenant has one forest (which can have multiple sub domains). In the case when the tenant has several Active Directory domains that are not related, multiple LDAP connection can be set up this way.
-    
-.. tip::
-    
-        If you have single AD forest but contains multiple sub-domain AD domain controller, you don't need to turn on Multi-AD support. Instead, you just point the LDAP to the root forest domain controller and the root forest domain controller will find and identify the sub-domains.
-
-
-
-    
-**View and edit group policy**
-
-    The Cluster administrator can decide whether to show the group policy section to this tenant.
-    
-
-    
-
-**Disable file/folder sharing**
-
-    Disable file and folder sharing from tenant level.
-    
-
-
-**Hide migration option**
-
-    Migration option refers to migrating remote file server(s) from remote customer location(s) to the Cluster Server. Not all clients (customers) have remote file servers, so this tenant level option may not apply all the time.
-
-   
-**Allow tenant to edit LDAP setting**
-
-    In the case the tenant's infrastructure is in the same LAN (Local Area Network) as the Cluster Manager, the tenant's Active Directory can be directly connected via LDAP to the Cluster Server. 
-    
-    If the cluster administrator is setting it up for the tenant, cluster administrator can take away this privilege. 
-    
-
-
-
-**Show Data-At-Rest Encryption (DARE) configuration page (Requires empty storage container)**
-
-    If the tenant has the required encryption of the data
-    in the cloud (Cluster Server side), a DARE configuration
-    page can be shown upon the first usage to set it up.
-    
-
-**Allow creation of guest users**
-
-    The Cluster administrator can control whether to allow the specific tenant to have guest users.  
-
-
-    
-
-**Administrator Information**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Tenant Administrators``
-
-In the administrator information page, the cluster administrator can help the tenant manager change their email and user name if they need to, and to also setup delegated administrators.
-
-The delegated administrators that are setup at the cluster level are users who are already in the Cluster Server and will be helping out the management of this specific tenant. Access these settings by clicking "Control Panel" (1) and choose the "Tenant Administrators" icon. 
-
-.. figure:: _static/2021newimage019.png
-    :align: center
-    
-    TENANT ADMINISTRATORS
-
-.. note ::
-
-    Delegated administrators have two different roles. First of all, they are not the 
-    default administrator in the tenant so normally they are just normal team users
-    in the tenant.
-    
-    However, they can elevate themselves into the admin role by clicking the elevation icon that
-    is available to delegated administrators.
-    
-    .. figure:: _static/image_s4_3_18b.png
-        :align: center
-        
-        MANAGE TEAM CLOUD SETTINGS
-    
-
-**More about Active Directory Settings**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Local Active Directory``
-
-If the tenant's infrastructure is in the same local area network as the Cluster Server, the Active Directory can be directly accessed and integrated from the "Local Active Directory" page. The integration is done over LDAP protocol.
-
-However, if the tenant's infrastructure is away from the Cluster Server, it is recommended using "Server Agent" to connect both the tenant's file server and Active Directory to the Cluster Server.
-
-.. tip::
-
-    If your Active Directory is away from the Cluster Server over the Internet, skip the "Local Active Directory" section but use the "Remote Active Directory" instead.
-    
-    Use LDAP AD Setting only if the AD is in the same Local Area Network.
-    
-.. figure:: _static/2021newimage020.png
-    :align: center
-    
-    ACTIVE DIRECTORY SETTINGS
-
-.. note::
-
-    The difference between using LDAP to connect Active Directory and using "Server Agent" to connect Active Directory:
-    
-    By using LDAP to connect Active Directory, the assumption is that the LDAP is local in the local area network so the speed is very fast and also very reliable. So a lot of the calls and queries are directly passing through to Active Directory.
-    
-    By Using Server Agent to connect Active Directory, the assumption is that the Active Directory is in a remote location and over the Internet so the access speed may not be fast and the Internet may not be 100 percent up and reliable. So the server agent replicates Active Directory related information over to the Cluster Server.
-
-
-**User Manager**
-
-``Tenant Manager`` > ``[Tenant]`` > ``User Manager``
-
-Please reference the   :ref:`Tenant Admin's User Manager section <tenant_admin_usermgr>`
-
-
-.. figure:: _static/2021newimage021.png
-    :align: center
-    
-    TENANT ADMIN > USER MANAGER
-
-
-**Team Folders**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Team Folders``
-
-Please reference the   :ref:`Tenant Admin's Collaboration section <tenant_admin_collaboration>`
-
-In the team folders page, you can manage team shares, folder permissions and the underlying storage
-configuration.
-
-.. figure:: _static/2021newimage022.png
-.. figure:: _static/2021newimage023.png
-    :align: center
-    
-    MANAGING TEAM SHARES
-
-
-**Group Policy**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Group Policy``
-
-The group policy settings are 100% the same as those documented in the "Tenant administration" scope part later in this guide. 
-
-Please reference the   :ref:`"Tenant Admin's Group Policy section <tenant_admin_grouppolicy>`
-
-.. figure:: _static/2021newimage024.png
-    :align: center
-    
-    GROUP POLICY SETTINGS
-
-
-**Tenant Branding**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Tenant Branding``
-
-The cluster administrator can help the tenant do the tenant-specific branding in the partner portal.
-
-The branding is applied by the customized URL.
-You can think of the customized URL 
-as a primary key to retrieve all tenant related 
-branding information.
-
-.. figure:: _static/2021newimage025.png
-    :align: center
-    
-    TENANT BRANDING
-
-.. warning::
-
-    If you set up per-tenant branding, make sure the customized URL is specific to each tenant and also the URL is different from the default URL. 
-    
-    If you don't want to setup per-tenant branding, disable it in cluster settings and setup cluster-wide branding instead.
-
-
-**Reports**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Reports``
-
-The cluster administrator can look at the tenant specific reports for the tenant.
-
-The Reports section has the following sub categories
-
-    - Upload Report
-    - Storage Statistics
-    - Bandwidth Usage
-    - Team Folders
-    - Shared Objects
-    - Audit Trace
-    - File Change Logging
-    - Folder Permissions
-    - Distributed Locks
-    - Pending Purged Folders
-    
-
-.. figure:: _static/2021newimage026.png
-    :align: center
-    
-    TENANT MANAGER REPORTS
-
-
-**Client Device Manager**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Device Manager``
-
-The cluster administrator can look at the devices that have the client agent software installed and connected in the specific tenant.
-
-.. figure:: _static/2021newimage027.png
-    :align: center
-    
-    DEVICE MANAGER SETTINGS
-
-
-**Application Manager**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` >  ``Application Manager``
-
-The cluster administrator can look at the application manager for the specific tenant. 
-
-Here are the 4 different applications that can be 
-setup on a per-tenant basis.
-
-    - Microsoft Office Web App
-    - Pixlr Web App
-    - Zoho Web App
-
-.. figure:: _static/2021newimage028.png
-.. figure:: _static/2021newimage029.png
-    :align: center
-    
-    APPLICATION MANAGER
-
-
-**Notification Manager**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Notifications``
-
-The cluster administrator can use the notification manager to help the tenant setup notification events. The tenant administrator will receive email notifications
-for the events subscribed.
-
-.. figure:: _static/2021newimage030.png
-.. figure:: _static/2021newimage031.png
-    :align: center
-    
-    NOTIFICATIONS SETTINGS
-
-
-**Background Tasks**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Control Panel`` > ``Background Tasks``
-
-There are three different kind of background tasks that may take a long time to finish:
-
-    1. Data Seeding - copying data into |prodname|
-    2. Storage Scan - do a full scan to calculate storage consumption
-    3. Tenant Storage Migration - move tenant storage from location A to location B
-    4. Anchor Migration -  move data out of Anchor and into |prodname|
-
-.. figure:: _static/2021newimage032.png
-.. figure:: _static/2021newimage033.png
-    :align: center
-    
-    BACKGROUND TASKS
-
-The cluster administrator can help the tenant seed the data. For example take data into a USB drive and take it to the same local area network as the Cluster Server and see the data into the tenant storage.
-
-
-**Add New Data Seeding Task**
-
-``Tenant Manager`` > ``[Tenant]`` > ``Background Tasks`` > ``Add New Data Seeding Task``
-
-.. figure:: _static/2021newimage034.png
-    :align: center
-    
-    DATA SEEDING
-
-Data Seeding is to take a folder from a source location and seed it into a team folder. 
-
-On the left of the dialog, it is the source folder path information.
-
-On the right side of the dialog, it is the target team folder information. 
-
-If you are seeding the data into a brand new team folder, you will first go into the team folder area and create a new team folder with empty content inside, and then come back to data seeding page and select it from the team folder drop down.
-
-
-4.2.2 Create a New Tenant
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Tenant Manager``
-
-Click on the "Plus" sign in the ``New Tenant`` to start the creation of a new tenant.
-
-.. figure:: _static/2021newimage035.png
-.. figure:: _static/2021newimage036.png
-    :align: center
-    
-    CREATING A NEW TENANT
-
-The first screen under "New Tenant" is asking for "Start from Scratch" or "Import and migrate data from  Anchor".
-
-When you select "Add New Tenant from Scratch", The next screen is asking for a 
-few parameters related to who the tenant is.
-
-.. figure:: _static/2021newimage037.png
-    :align: center
-    
-    TENANT MANAGER SETTINGS 1
-
-**"Create with Default Settings"** will get it done and the tenant will be granted all default settings, including the storage location allocation.
-
-**"Continue"** allows you to customize the settings and storage location.
-
-If you pick **"Continue"**,
-
-The second screen under "Add Tenant from Scratch" is asking for the division of work between the cluster administrator and the tenant administrator.
-
-.. figure:: _static/2021newimage038.png
-    :align: center
-    
-    TENANT MANAGER SETTINGS 2
-
-The third screen under "Add Tenant" is asking where
-the root storage for the tenant will be at.
-
-.. figure:: _static/2021newimage039.png
-    :align: center
-    
-    ADD TENANT STORAGE OPTIONS 1
-
-**Automatically assign a sub-folder from cluster default tenant**
-
-When selected, the tenant's default storage will be a sub-folder inside the cluster default tenant's storage folder. It is easier to manage when you don't need per-tenant storage access credentials. This is the easiest option because if every tenant is allocated a sub-folder from the default tenant, then the default tenant storage location is a single place to take care of all of your storage needs. The storage location is sandboxed away from the default tenant so even though from a physical location's perspective, it is a sub folder of the default tenant, but the default tenant will
-not be able to see the folder from |prodname|.
-    
-**Use existing file server or local disk as default storage**
-
-Using this option, you can connect the tenant's root folder to a file server network share. If you want the tenant users to continue to share file server network share outside of |prodname|, it is recommended you use the "Import Network Share" feature in "Team Folder" instead of pointing the default storage to the file server share, because the Cluster Server will assume it has 100% of the control of the storage location. 
-
-.. figure:: _static/2021newimage040.png
-    :align: center
-    
-    ADD TENANT STORAGE OPTIONS 2
-
-**Use Cloud Storage as default storage**
-
-when using this option, you can connect the tenant's root folder to Amazon S3, Windows Azure Blob, OpenStack storage as well as others.
-    
-.. figure:: _static/2021newimage041.png
-    :align: center
-    
-    CLOUD STORAGE SETTINGS
-
-**Using Amazon S3 bucket for tenant storage**
-
-``Tenant Manager`` > ``{Create New Tenant}`` > ``Use Cloud Storage as Default Storage`` > ``Amazon S3``
-
-You can pick Amazon S3 as the target storage for the tenant if you want to.
-
-.. figure:: _static/2021newimage043.png
-    :align: center
-    
-    AMAZON S3
-
-After you pick the Amazon S3, the first screen will be asking for ``Access Key`` and ``Secret Key``.
-
-
-You will need to log into your AWS console to get the access key and secret key. You can use master access key and secret key, by default the master key has default access to all buckets. You can also create an IAM user and use the key from a specific IAM user. However, by default, the IAM user is locked out of access to any bucket until bucket access policy is created and attached to the IAM user.
-
-If you use IAM user, here is a sample S3 Bucket access policy to grant an IAM user to a specific bucket. As shown below, the policy gives an IAM user the ability to use bucket "user3onlybucket"
-
-.. code-block:: json
-
-    {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Effect": "Allow",
-                "Action": [
-                    "s3:GetBucketLocation",
-                    "s3:ListAllMyBuckets"
-                ],
-                "Resource": "arn:aws:s3:::*"
-            },
-            {
-                "Effect": "Allow",
-                "Action": [
-                    "s3:ListBucket"
-                ],
-                "Resource": [
-                    "arn:aws:s3:::*"
-                ]
-            },
-            {
-                "Effect": "Allow",
-                "Action": [
-                    "s3:AbortMultipartUpload",
-                    "s3:DeleteObject",
-                    "s3:DeleteObjectVersion",
-                    "s3:GetObject",
-                    "s3:GetObjectAcl",
-                    "s3:GetObjectTagging",
-                    "s3:GetObjectTorrent",
-                    "s3:GetObjectVersion",
-                    "s3:GetObjectVersionAcl",
-                    "s3:GetObjectVersionTagging",
-                    "s3:GetObjectVersionTorrent",
-                    "s3:PutObject",
-                    "s3:PutObjectAcl",
-                    "s3:PutObjectTagging",
-                    "s3:PutObjectVersionAcl",
-                    "s3:PutObjectVersionTagging",
-                    "s3:ReplicateDelete",
-                    "s3:ReplicateObject",
-                    "s3:RestoreObject"
-                ],
-                "Resource": [
-                    "arn:aws:s3:::user3onlybucket/*"
-                ]
-            }
-        ]
-    }
-
-After it is all setup properly, you can use the IAM user's access key id and secret access key to connect to the Amazon S3 bucket.
-
-.. figure:: _static/image225.png
-    :align: center
-    
-    AMAZON S3 USER'S ACCESS KEY
-
-When the correct access credentials are given, the next screen is to select a bucket from Amazon S3.
-
-.. figure:: _static/image226.png
-    :align: center
-    
-    AMAZON S3 SLECTING A BUCKET
-
-You can pre-create a bucket in Amazon S3 and then pick the bucket in the current page. After that, it will take a short while for the system to be ready for the new tenant created.
-
-.. figure:: _static/image227.png
-    :align: center
-    
-    FINISHING AMAZON S3 CONFIGURATION
-
-After the tenant is created, you will be looking at the dashboard of the tenant. 
-
-
-**Using Windows Azure Blob Storage for tenant storage**
-
-In addition to Amazon S3 bucket, you can also use Windows Azure Blob Storage as the tenant's back end storage.
-
-Similar to the above Amazon S3 setup process, you can pick "Windows Azure Blob" as the option during the tenant creation process.
-
-.. figure:: _static/image229.png
-    :align: center
-    
-    WINDOWS AZURE BLOB SETUP
-
-The next screen will be asking for ``Blob URL`` and the ``Primary key``. 
-
-.. figure:: _static/image230.png
-    :align: center
-    
-    AZURE BLOB URL AND PRIMARY KEY
-
-You can get this information from the Azure Portal.
-
-.. figure:: _static/image231.png
-    :align: center
-    
-    AZURE BLOB ACCESS KEYS
-
-Here is a simple mapping between azure portal and the parameters it ask for.
-
-.. figure:: _static/image232.png
-    :align: center
-    
-    AZURE BLOB ACCOUNT SETTINGS
-
-After you put in the account information, the next screen asks to pick a container to use.
-
-.. figure:: _static/image233.png
-    :align: center
-    
-    AZURE BLOB ACCOUNT INFORMATION
-
-After the container information is all set, the tenant account will be created.
-
-
-*****************
-4.3 Cluster Admin
-*****************
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Cluster Admin``
-
-Cluster Admin section is to change the properties of the default administrator and also to add additional people to be the cluster administrators. Access the Cluster Admin in the panel on the right of your Tenant Dashboard or from the Cluster Control Panel view.  
-
-.. figure:: _static/2021newimage044.png
-    :align: center
-    
-    CLUSTER ADMIN SETTINGS
-
-
-********************
-4.4 Cluster Branding
-********************
-
-``Cluster Manager`` > ``Cluster Branding``
-
-Cluster Branding is for changing the logo, bitmaps and other branding related information. There are two branding supports. One is self-service built-in branding, which is completely controlled by the “Cluster Branding” settings on the “Cluster Manager”. The other is full-branding service. 
-Both rely on the “Cluster Branding” to change the look-and-feel of the web portal. 
-
-Built-in branding will work with white-label clients, which upon the first connection to the cluster, will download the branding related information and  use the branding related information. As compared to full-branding service, the full branding clients will have artworks, logo bitmaps and related information burned into the client binaries.
-
-.. figure:: _static/2021newimage046.png
-    :align: center
-    
-    CLUSTER BRANDING
-    
-
-4.4.1 General
-^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Branding`` > ``General``
-
-Under the general tab you can specify the name and other settings as specified below.
-
-
-**Product Name**
-
-This is where you will specify what you would like to call the product. This is the name that users will see when they login either in web portal or the client applications. To access branding settings click the branding icon **(1)** then "EDIT" **(2)** and then change the setting you want **(3)**. Don't forget to save your settings. You can also choose a color theme which you would like your users to see when they login to the portal. You can choose a color theme that is close to your company colors.
-
-.. figure:: _static/2021newimage045.png
-    :align: center
-    
-    CLUSTER BRANDING
-
-**Feedback Email**
-
-Users’ feedback will be delivered to this email address.
-
-.. figure:: _static/image_s4_3_12.png
-    :align: center
-    
-    FEEDBACK EMAIL
-
-
-**Home Page URL**
-
-This is the URL of your ‘Home Page’ page **(1)**.
-
-.. figure:: _static/2021newimage047.png
-.. figure:: _static/2021newimage048.png
-    :align: center
-    
-    HOME PAGE URL AND COPYRIGHT STATEMENT
-
-
-**'Copyright' Statement**
-
-This is the contents of your ‘Copyright’ statement **(2)**.
-
-4.4.2 Web Portal
-^^^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``
-
-.. note::
-
-    In previous builds, the best way to get icons to work is by putting the icon files on the same server and reference the icons via a relative link.
-
-    For example, you can create a sub folder under the Install Folder of the Cluster Server, such as under root/imagetest folder. The dimensions for all icons for each setting under web portal should match what is displayed for each setting. The branding of the icons and images require the icons and images with the same width/height as specified or same aspect ratio if the resolution is higher.
-
-In later builds, the icons used are what-you-see-is-what-you-get and you can upload those icon sets.
-
-.. figure:: _static/2021newimage050.png
-    :align: center
-    
-    WEB PORTAL SETTINGS
-
-
-**Application Icon**
-
-From the Web portal **(1)** section of cluster branding, you can change the application icon **(2)**. This is the image that is displayed next to the product name in the web portal.
-
-.. figure:: _static/2021newimage049.png
-    :align: center
-    
-    WEB PORTAL BRANDING
-
-
-**Tenant Logo (3)**
-
-This is where the logo that represents each tenant should be uploaded.
-
-
-**Drive Icon (4)**
-
-This is the icon that will be used for the cloud drive. For example in the web portal tree view.
-
-
-**Logo Url & Login Page Left Image (5)**
-
-.. figure:: _static/2021newimage051.png
-    :align: center
-    
-    LOGIN PAGE ICON
-
-Please follow the same steps for branding settings for ‘Login Background Image’, ‘File Share Stamp Icon’, ‘IOS Client App ID’, ‘Login Page Note’, ‘Change Password URL’, ‘Tutorial Page URL’.
-
-
-**Client Download**
-
-``Cluster Manager`` > ``Cluster Branding`` > ``Client Download``
-
-You can choose not to show the download link for some clients here.
-
-.. figure:: _static/2021newimage052.png
-    :align: center
-    
-    CLIENT DOWNLOAD SETTINGS
-
-
-**Mobile Clients Download Links**
-
-Once you brand your own iOS client and/or Android Client you can point the download link to your own AppStore and Google Play locations.
-
-
-.. figure:: _static/2021newimage053.png
-    :align: center
-    
-    CLIENT DOWNLOAD LINKS SETTINGS
-
-
-4.4.3 Windows Client
+Attach Storage
 ^^^^^^^^^^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``
+Storage is an important component in the Cluster Server. you can connect the tenant to a specific storage service. For example, you can connect it to local file server storage; you can also connect the tenant to cloud storage services such as Amazon S3, Windows Azure, and OpenStack Swift.
 
-The application icon and drive icon URLs can be specified here. Also, you can put in your company name under ‘Manufacturer Name’ along with the ‘Contact Info’ email. You also have the option here to create your own branded MSI Windows client. You can also use your own code signing certificate in order to digitally sign the MSI package. The advantage of creating your own MSI client package is that when users download and install the Windows Client you provide, they will see your company name along with your branding during the client installation.
-
-Windows client supports multiple languages. Some language packs are included and shipped with CentreStack. If you need to run the Windows client under a different language, you can set the UI Language there.
-
-.. figure:: _static/2021newimage054.png
+.. figure:: _static/image_s5_2_21.png
     :align: center
-    
-    WINDOWS CLIENT BRANDING
 
-Once you clicked the "Edit" button to edit the Windows Client branding information, you will be able to provide EULA (End User License Agreement) and Code Signing Certificate.
+    ATTACH STORAGE
 
-.. figure:: _static/2021newimage055.png
+After clicking the "Attach Storage" button, the Cluster Server will take some time to discover file servers in the local area network and also provide a section to add cloud storage.
+
+.. figure:: _static/image_s5_2_22.png
     :align: center
-    
-    WINDOWS CLIENT BRANDING SETTINGS
+
+    TYPES OF ATTACHED STORAGE
 
 
-**EULA**
+File Servers in Local Area Network
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   This will be a RTF file format as input.
-
-
-**Code Signing Certificate**
-
-    You can acquire a code signing certificate from your code signing certificate vendor. Most SSL vendor also provide code signing certificate. Make sure you use SHA 256 (SHA2) as your digital signing certificate hash algorithm.
-    
-    If your Code Signing certificate is already installed you can also use the option - ``Sign using cert in certificate store``
-
-
-4.4.4 MAC Client
-^^^^^^^^^^^^^^^^^^
-
-You can configure the MAC client and MAC client installation package branding under here.
-
-
-**Client Branding**
-
-.. figure:: _static/2021newimage056.png
+.. figure:: _static/image_s5_2_31.png
     :align: center
-    
-    MAC CLIENT BRANDING
 
-**Installation Package Branding**
+    LOCAL AREA NETWORK (LAN) STORAGE
 
-You can brand the Mac software agent package as well. You will need to go to https://www.centrestack.com/, login as a partner and go to the "Branding" section to create a branding task.
-The task will be fulfilled and completed and a Mac software agent package will be available for download once the branding task completes. It may take a couple of days for the task to finish.
+In the File Servers in Local Area Network section, the Cluster Server will contact Active Directory or contact network browser in the local area network to try to find file servers in the local area network. Most of the time, if firewalls and network connections are properly configured, the file server can be easily added to the system. 
 
-.. figure:: _static/image_s4_5_41.png
+However, sometimes, there are some situations such as the DNS system or the NETBIOS system not being ready. In that case, the file server may be discovered but it may not be connected, you can use the Manual Configuration to manually connect to the file server.
+
+.. figure:: _static/image_s5_2_32.png
     :align: center
-    
-    MAC CLIENT BRANDING IN PARTNER PORTAL
-    
+
+    LAN ACCESS CREDENTIALS
+
+
+Root Folder Name
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Root folder name is the top-level folder name that will show up in the tenant administrator's folder structure. We recommend the folder name being descriptive and follow the normal Windows path recommendations (For example, certain characters that are not allowed).  
 
 .. note::
 
-    Mac software package branding is different from the Windows software package branding because the Mac software package branding will need to be done on a Mac machine. So the task will
-    be created on the partner portal but will be completed asynchronously on a Mac machine.
+    Remember this folder is only showing to the tenant administrator, it is not published to the team user yet. When it is time to publish the folder to the tenant users, the name that the tenant user will see can also be defined. It is recommended that if later on, the folder is to be published as a team folder, then the name for the team folder should be the same as the folder name here. It is recommended but not necessary to have the root folder name the same as your published team folder name.
 
 
-4.4.5 Android Client
-^^^^^^^^^^^^^^^^^^^^^
+Local Storage Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This is the file server UNC path or local windows folder path that you will connect into the tenant administrator's root folder structure. The idea here is you will take this folder and mount the folder to the tenant administrator's root folder structure with the name described in the "Root Folder name".
+
+
+**User Name**
+
+The user name is the Windows username, either it being local Windows user or global Active Directory user, this is a Windows account that is capable of accessing the "Local Storage Location".
+
+
+**Password**
+
+This is the password for the Windows user above.
 
 .. note::
 
-    Branding the android client can now be automated from your partner portal (http://www.centrestack.com). 
-    Please goto http://www.centrestack.com to brand the Android client.
+    We recommend this Windows user and their credential be set up as a service account, meaning the password isn't subject to the maximum password days via local security policy. The reason being, that, when it is time to rotate or change the user password, the connection here may be broken until the password is updated to match.
 
-The branding of Android client and iOS client is done from www.centrestack.com, instead 
-of from your own  server. 
 
-.. figure:: _static/image_s4_5_50.png
+**“Always access the storage using logon user identity”**
+
+    When you have Active Directory Integration, and mount an existing file server network share in, you can select “Always access the storage using logon user identity” so the ACL (NTFS Permission) on the file server share will be used natively. The access permission will be checked natively against the user’s Active Directory identity that is defined by the NTFS permission.
+
+    This option only applies to the "Local Storage" such as network share, DFS share, local folder, and etc.
+
+**“The share is from a Linux/Unix/ZFS server”**
+
+    Most of the time, you don’t want to check this flag because your file server share shall behave like a normal Windows Server share, even if it doesn’t come from a Windows Server. 
+
+    In some small SOHO network storage devices, it may only allow one connection from one IP address, so if that is the case, you want to check this flag. Most of the time, you just don’t need to check this when the network share is capable of taking multiple connections/sessions from one single machine.
+
+**“This share is a DFS share”**
+
+    If the share is a DFS share, you will check this checkbox, because DFS share has an extra layer of translation to translate back down to normal file server shares. This flag tells the Cluster Server to do an extra DFS translation back to SMB share before connecting to the share.
+
+**“Enable Inplace Versioning”**
+
+    The underlying file server network share may not have explicit version control (it may have volume shadow copy for other purposes). This will add Cluster Server version control to the file server network share. It is independent of and not related to the volume shadow copy.
+
+.. note::
+    
+    In place versioning will put the older version of the file into a __ver__ subfolder in the same folder structure making the name for In-Place Versioning so the folder structure is maintained as-is, while extra old copies of the file will be stored in a specific subfolder. 
+
+.. figure:: _static/image_s5_2_50.png
     :align: center
+
+    IN-PLACE VERSIONING
+
+Here is a demo video showing the result of "Enable Inplace Versioning" when the root folder ('forward slash') is mounted with the "Inplace versioning" enabled.
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SLSG10jK7hU" frameborder="0" allowfullscreen></iframe>
+
+
+**********************************************
+Cloud Storage Property
+**********************************************
+
+Besides local storage, you can also mount cloud storage into the system. If you have Amazon S3, or Amazon S3 compatible storage service, or if you have OpenStack Swift or OpenStack Swift compatible storage, you can connect it into the system. You can see the full list of storage services supported, including SoftLayer Object Storage, Google Cloud Storage, Microsoft Azure storage, and more. 
+
+.. figure:: _static/image_s5_3_00.png
+    :align: center
+
+    CLOUD STORAGE OPTIONS
+
+
+.. _tenant_admin_collaboration:
+
+
+Team Folders (Team Shares)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Tenant Management Console`` > ``Team Folder``
+
+.. figure:: _static/2021newimage080.png
+    :align: center
+
+    ENTER TEAM FOLDER SECTION
     
-    ANDROID CLIENT BRANDING
 
+The team folder concept is like a network share, meaning you can define a folder and then add users and groups to the folder and thus turn it into a team shared folder. The team folder will show up in the user’s folder list when the user is added to the team folder. 
 
-4.4.6 iOS Client
-^^^^^^^^^^^^^^^^^^
+When the server agent is in use, the team folder can be mapped directly to a network share from the server where the server agent is installed. 
+
+When a directly connected network share is used, a team folder can be mapped to an SMB/CIFS network share directly. 
+
+You can also turn any existing folder into a team folder. 
+
+A Team folder has a tenant administrator scope so the team folder related sharing is limited to the users inside the tenant.
 
 .. note::
 
-    Branding of iOS client can now be automated from partner portal (http://www.centrestack.com).
+    By default, the files and folders that the administrator can see is hidden away from the regular team user until those folders are published to the team users. 
 
-    The information here in this section is preserved for legacy reference. Please goto http://www.centrestack.com to brand iOS client.
+.. figure:: _static/2021newimage081.png
+    :align: center
 
-As shown in the above picture, you can generate branding task and request for Android branding
-and iOS branding.
-
-
-4.4.7 Emails
-^^^^^^^^^^^^^^^
-
-There are many places in the Cluster Manager that need to contact the users via email. So the “Emails” tab is used to set up the email templates used for contacting users via email.
+    TEAM FOLDER SETTINGS
 
 
-**Welcome Email for New Tenant**
+Create Team Folder
+--------------------
 
-    This is the email sent to the new tenant when the tenant is created. The email is sent to the tenant administrator.
+``Tenant Management Console`` > ``Team Folder`` > ``Add New Team Folder``
 
+You can click on the "+" sign to create a new team folder.
 
-**Welcome Email for New Team User**
+.. figure:: _static/2021newimage082.png
+    :align: center
 
-    The team user is a regular user in a tenant. This is the email template that is sent to the user when the user account is created.
+    ADDING A TEAM FOLDER
 
+Once it is clicked, it shows four main sources of team folder, among other options:
 
-**Welcome Email for New Guest User**
+    - Existing Tenant Storage (default location)
+    - File Servers in Local Area Network
+    - Remote File Servers
+    - Cloud Storage
 
-    Guest user is a regular user in a tenant that doesn't have a home directory associated. So the guest user can only operate within shared files and folders from other regular users. This is the email template that is sent to the guest user when the guest user's account was provisioned.
+.. figure:: _static/2021newimage083.png
+    :align: center
 
+    TEAM FOLDER LOCATIONS
 
-**Email for File/Folder Share**
+**Existing Tenant Storage (default location)**
 
-    This is the email sent to a user when the user is about to receive file/folder shares.
-
-
-**Request a File**
-
-    This is the email sent to a user when the user is about to receive an invitation to upload a file.
-
-
-**Notify external user that shared file changed**
-
-    When a shared file/folder changed, this is the email that is sent to the user who receives file/folder shares.
-
-
-**Admin Reset User Password Email**
-
-    This is the email that sent to a user when the user's password is reset.
+    When you pick this option to create a team folder, the team folder will be created from the default storage from scratch with an empty team folder. Usually when you want to have a team folder that is brand new and empty, you can pick this option.
     
+    Another use case is "Existing Folder(s)", in which you can pick several existing folders, which physically may not be in the same folder, but you can logically arrange them into the same team folder. For example, you may want to have a short term project that put "Building A", "Blue Print A", "Budget A", three different folders from three different places into one logical
 
-**User Reset Password Email**
+.. figure:: _static/image_s5_3_13.png
+    :align: center
 
-    This is the email that sent to a user when the user resets the password for himself/herself.
+    EXISTING TENANT STORAGE
+
+    
+**File Servers in Local Area Network**
+
+    When you have files and folders from the local area network (LAN), you can convert the network share directly into a team folder in the Cluster Server. It is a one-to-one relationship between a team folder and a network share. When you pick this option, most of the time, the Active Directory server for this tenant is also in the same Local Area Network.
+    
+**Publish Tenant Home Storage As a Team Folder**
+
+    By default, the tenant's root storage folder is not published to any team user. To use an analogy, it is like a C: drive on a Windows File Server, by default it is not published as a network share to users. However, if you want to make it available to users, you can pick this option. 
+
+    .. figure:: _static/image_s5_3_13a.png
+        :align: center
+
+        LAN-BASED TEAM FOLDER
+
+**Remote File Server**
+
+    When you have server agents installed on remote file servers, those file servers will be visible and the network shares from remote file servers will be imported to the Cluster Server.
+    
+    .. figure:: _static/2021newimage084.png
+        :align: center
+
+        REMOTE TEAM FOLDER
+
+**Cloud Storage**
+
+    You can also pick Cloud Storage as this team folder's underlying storage. As shown in the following picture, you can pick Amazon S3, Windows Azure Blob, OpenStack Swift, and other cloud storage services.
+    
+    .. figure:: _static/image_s5_3_13c.png
+        :align: center
+
+        CLOUD-BASED TEAM FOLDER
+
+**Team Folder Properties**
 
 
-**New Sign-in Action Email**
+Team Folder Information
+-------------------------
 
-    This is the email notification sent to the user when the user logins from a specific machine.
+``Team Folder`` > ``{Pick a Team Folder}`` > ``info button``
+
+.. figure:: _static/image_s5_3_14.png
+    :align: center
+
+    TEAM FOLDER INFORMATION ACCESS
+
+
+Team Folder Permission Setting
+--------------------------------
+
+``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button``
+
+.. figure:: _static/2021newimage085.png
+.. figure:: _static/2021newimage086.png
+    :align: center
+
+    EDITING FOLDER PERMISSIONS
+
+**Collaborators**
+
+``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button`` > ``Collaborators Tab``
+
+In the Collaborators section, you can define:
+
+    
+User List:
+
+    The users and groups that are assigned to the team folder. The users with the owner flag will be able to manage the users. 
+
+**External Sharing**
+
+``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button`` > ``External Sharing Tab``
+
+You can see what folders and files have been shared and control access to those files from this setting.
+
+.. figure:: _static/2021newimage086.png
+
+
+    TEAM FOLDER PERMISSION SETTINGS
+
+ **Access Policy**
+
+``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button`` > ``Access Policy Tab``
+
+You can enable an access policy through this tab.
+
+.. figure:: _static/2021newimage088.png
+.. figure:: _static/2021newimage089.png
+
+
+ **Client Access Policies**
+
+ Define customized access policies to restrict and allow access based on the device location. For example, a company can enable access from the internet to only Windows clients and web clients. IT can configure allow or deny client access policies from the following locations:
+
+Access from the internet, access from local network, access from Anywhere, access from customer-defined networks, deny access from customer defined networks.
+
+The above allow and deny client access policies can be configured for the following clients:
+
+web client, web management, windows client, mac client, mobile client.
+
+.. figure:: _static/2021newimage090.png
+.. figure:: _static/2021newimage091.png
+.. figure:: _static/2021newimage092.png
+
+
+ **Share Access Policy**   
+
+    ACCESS POLICY SETTINGS
+
+IT can also prevent data loss and data leakage of important company confidential shares by configuring ‘Share Access Policies’ for external users who are not company employees. Again, IT can configure allow or deny shares access policies from the following locations:
+
+-Access from the internet
+-Access from local network
+-Access from Anywhere
+-Access from customer-defined networks
+-Deny access from customer defined networks   
+
+The above allow and deny share access policies can be configured with the following conditions:
+
+-Visible
+-Permissions to list files
+-Permissions to read files
+-Permissions to create or update files and folders
+-Permissions to delete files and folders
+-Secure data room
+
+**Folder Permissions**
+
+``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button`` > ``Folder Permissions Tab``
+
+You can browse to different sub-folders and define the folder permission. The folder permissions defined here represent the Cluster Server side of the permission.
+
+If you are leveraging native Active Directory/NTFS permission from a file server, you don't need to define any permissions here. 
+
+.. note::
+
+    You can think of the permissions as two different gates controlling the access to files and folders. The first gate is defined here as the ``Cluster Server Folder Permission``. After this permission check, there is still a check at the file server level (which is the NTFS permission). 
+    
+    In practice, usually it is done one way or the other. If you have decided to use NTFS natively, you can leave the permission settings here empty and not defined.
+
+.. figure:: _static/2021newimage093.png
+    :align: center
+
+    TEAM FOLDER PERMISSION SETTINGS
 
 **Settings**
 
-    This is to set the reply email address. Typically the email is sent with the SMTP service set. However, if the reply address is different, you can set it here.
+``Team Folder`` > ``{Pick a Team Folder}`` > ``edit button`` > ``Settings Tab``
 
-.. figure:: _static/2021newimage057.png
+.. figure:: _static/2021newimage094.png
     :align: center
-    
-    EMAIL SETTINGS
 
+    TEAM FOLDER SETTINGS OVERVIEW
 
-4.4.8 Export/Import
-^^^^^^^^^^^^^^^^^^^^^^
+Here is a look at the details of the Team Folder Settings:
 
-You can either export the branding settings to another cluster or you can import branding settings from another cluster in this cluster under this setting.
-
-.. figure:: _static/2021newimage058.png
+.. figure:: _static/2021newimage095.png
     :align: center
+
+    TEAM FOLDER SETTINGS DETAIL
+
+**Disable further sharing**
+
+    Don't allow users to share out team folder contents.
     
-    EXPORT/IMPORT SETTINGS
+**Create CIFS Share**
 
-*****************
-4.5 Email Service
-*****************
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Email Service``
-
-There are many places in the |prodname| solution that the user needs to be contacted by Email. The Email service is used to set up the SMTP email service to send out the emails.
-
-By default, it works out of box using the default email service with the Cluster Server's customer support email address as the sender.
-
-It is recommended that the SMTP service be setup to use your own SMTP service to send out emails.
-
-In the Authenticate User field, if your SMTP service doesn't require authentication, you can put dummy email in the field.
-
-.. note::
-
-    For example, if your email service is on
-    Office 365, 
+    If there are server agents connected to the tenant, create a CIFS share on the file server agent server as a standard Windows network share.
     
-    :SMTP Server Address 
-        ``smtp.office365.com``
-    
-    :Use SSL  
-        ``True``
-    
-    :SMTP Server Port
-        ``587``
+**Disable Offline Access**
 
-.. figure:: _static/2021newimage059.png
-.. figure:: _static/2021newimage060.png
+    Don't allow Windows clients or Mac clients to mark their folders as offline from within the team folder.
 
+.. figure:: _static/2021newimage096.png
     :align: center
+
+    TEAM FOLDER SETTINGS - PERMISSIONS
     
-    EMAIL SERVICE SETTINGS
+**Synchronize folder permission automatically**
 
+    If the folder is coming from a file server agent, sync the NTFS permission over to the cloud side. This is emulating NTFS permission with the |prodname| Server is away from the file server across the Internet.
 
-***********************
-4.6 Cluster Server Farm
-***********************
+    
+**Don't show folder users doesn't have permissions to access**
 
-``Cluster Manager`` > ``(Worker Node) Cluster Server Farm``
+    Hide the folder instead of showing users folders that they will receive "Access Denied".
+    
 
-Cluster Server Farm has two types of nodes, one is “Worker Node” and the other is “Web Nodes”.
+**Quota and Retention Policy**
 
-.. figure:: _static/2021newimage061.png
-.. figure:: _static/2021newimage062.png
+    Team folder can have a per-team folder retention policy.
+
+.. figure:: _static/2021newimage097.png
     :align: center
-    
-    CLUSTER SERVER FARM NODES
 
-**Web Node**
+    QUOTA AND RETENTION POLICY
 
-.. note::
-    In a small deployment, there is no need to have web nodes. You can go straight to worker nodes
-    since worker nodes by defaults are web nodes too.
+.. _tenant_admin_usermgr:
 
-The Account Management, Sign-in and Load-balancing services will be installed on this physical machine (or virtual machine). Depending on the load, you may need 1 to N such nodes. Normally, we recommend for every web front node, you can have 10+ worker nodes. When you have small deployments, you can skip web front nodes and combine them into worker nodes. All the installation work is the same. If you do not need web front node, you do not need to assign them in the cluster manager.
 
-.. figure:: _static/2021newimage129.png
-    :align: center
-    
-    WEB NODE
+*********************
+User Management
+*********************
 
-**Example:**
 
-* ACME Corporation deploys two web front nodes node1.acme.com and node2.acme.com. Each node is running a copy of the Cluster Server connecting to the same SQL database.
-
-* ACME Corporation acquires a domain name (DNS) of cloud.acme.com which is load balanced to node1.acme.com and node2.acme.com.
-
-When Users point their browsers to https://cloud.acme.com it is directed to one of the nodes login page.
-
-.. note::
-
-    NOTE 1: If you have hardware load balancing available, you do not need to use web nodes at all.
-
-    NOTE 2: Windows 2012/R2 comes with Network Load Balancing (NLB). If you use NLB, you do not need web nodes at all.
-
-    Basically, if you have any existing load balancer, you can omit web nodes.
-
-**Worker Node**
-
-``Cluster Manager`` > ``Cluster Server Farm`` > ``Worker Node``
-
-This type of node will contain services like Web Browser Based File Manager, Storage Service Connectors, and etc.
-Again, additional nodes can be added as the load increases. Because there is cache information located on each node, users will have an affinity to a single node once it is assigned. If the load balancer distributes users evenly to all worker nodes, the cache information may exist on all worker nodes.
-
-.. figure:: _static/image011.png
-    :align: center
-    
-    SSL NOTICE
-
-
-**Worker Node Settings**
-
-There are some settings that apply to all worker nodes. After you click on the "Settings" icon, the Advanced Setttings panel will show.
-
-.. figure:: _static/2021newimage063.png
-    :align: center
-    
-    WORKER NODE SETTINGS
-
-
-**Always force SSL on Login**
-
-    In a production environment, almost 100% of the time you will need to check “Always force SSL on Login”. When this is checked and when |prodname| detects that the incoming connection is HTTP, it will do a redirect to HTTPS. If you turn on SSL, you will need to setup SSL certificate first.
-
-    However, if you have SSL-offload, such that SSL is offloaded to a hardware appliance, and after that, the incoming connection is HTTP between the hardware appliance and |prodname|. In this SSL-offload case, you will NOT check “Always force SSL on Login” because it will create an infinite redirect loop because the incoming connection is always HTTP as far as the |prodname| Server is concerned.
-
-
-**Always force SSL for Native Clients**
-
-    In a production environment, almost 100% of the time you will need to check “Always force SSL for Native Clients”.
-
-    Especially, in the case of SSL-Offload, you MUST check “Always force SSL for Native Clients”. Otherwise, the |prodname| Server may think that the incoming connection is HTTP so it will continue to encourage the native clients (such as Windows client) to use HTTP instead of using HTTPS.
-    
-    .. note::
-    
-        In iOS devices, the Application Transport Security may be enforced by the operating system and HTTPS must be used for an iOS Application to connect to the Cluster Server.
-
-
-**Disable worker-node load balance**
-
-    When you have your own load balancer, you will disable worker-node load balancing. The Cluster Server has built-in node-affinity load balancing, which can be per-tenant or per-user. When you have your own load balancer, you may have session-affinity or just simple round-robin, either one is fine.
-
-.. note::
-
-    How to add a worker node? 
-    
-    You just go ahead to install the Cluster Server during the installation and point the Cluster Server to the same database. Once the installation of the Cluster Server worker node is completed, reboot. The web portal page will pop up, asking you to add the worker node to the server farm.
-    
-.. warning::
-
-    What if you changed the Cluster Server's Host Name?
-    
-    For Windows server 2012 and later Server OS, when a server is newly provisioned, it is typically named in hostname format similar (WIN-ABCDEFG). Sometimes, it is desired to change the name in the Control Panel -> Systems. If the Cluster Server is already installed, changing the name will make the Cluster Server add itself again with the new name. So next time when you visit http://localhost on the Cluster Server after the server has been renamed, you will see the worker node section has both the node with the old name (which no longer exists) and the node with the new name (Which is current and good). In this case, you just need to simply remove the worker node with the old name.
-    
-
-**Worker Node Properties**
-
-.. figure:: _static/image_s4_7_03.png
-    :align: center
-    
-    WORKER NODE PROPERTIES
-
-You may need to modify the worker node properties when you setup SSL and the DNS name for the cluster.
-
-
-**Node Name**
-
-    The **Node Name** needs to match the worker node’s hostname. Sometimes, if you rename a worker node's Windows hostname (NETBIOS name) after the Cluster Server installation, upon reboot, the Cluster Server will pop up a web page, asking you to add the new worker node. In that case, you can go ahead and add the new worker node and then delete the old worker node.
-
-
-**External URL**
-
-    The **External URL** needs to match the worker node’s external URL. In a production environment, this typically is in an https:// format with the node’s DNS name. 
-
-    External URL is a critical property for Email templates. Once the Cluster Server installation is finished, the dashboard will have a warning message, 'External DNS has not been configured for this worker node. Some functionality may not work properly. Config Now'
-
-    The moment that you have finalized on the External DNS name of the Cluster Server, you must come here and configure the ExternalURL property for the Cluster Server.
-
-
-**Internal URL**
-
-    The **Internal URL** is the node’s internal URL, typically in the form of http://local-ip-address format. In later Cluster Server builds, this property is hidden and there is no need to set it any more.
-
-**Disable management functionality**
-
-    You can create an internal facing worker node (that doesn’t have an externalURL) and only allow management functionality on this worker node. This is a security feature.
-
-
-**Worker Node - Edit Cloud Monitor Setting**
-
-.. figure:: _static/2021newimage064.png
-    :align: center
-    
-    CLOUD MONITOR SETTINGS
-
-
-**Enable Storage Scan**
-
-    Enables or disables storage scan on the worker node. On the worker node, there is a cloud monitor service. The service will be doing background monitoring and make scan storage from time to time to correct quota calculation and perform other maintenance tasks.
-
-
-**Scan Starts Hour**
-
-    Typically you will set the scan start time to sometime in the early morning like 1AM.
-
-
-**Scan End Hour**
-
-    Typically you will set the scan end time to sometime in the morning like 8AM before everyone comes to work. The main idea is to leverage idle time (when people are not at work) to do the scanning.
-
-
-**Scan User Storage Every (n) Days**
-
-    Typically you can set it to every week or every other week. so a number between 7 to 15 is reasonable.
-
-
-**Enable Change Monitor**
-
-    Enable change monitor monitors the attached local storage such as storage from file server network share and report file change notification to remotely connected clients. This usually is required if your users are both modifying documents directly from the backend attached network share and also from the front end Cluster access clients.
-
-
-**Index External Storage**
-
-    This setting will index storage services added via the "Storage Manager". The index will be written to the files table in the database.
-    
-
-**Enable Storage Purge of Deleted User**
-
-    When a user is deleted from the system, the user's home directory is not immediately removed. And a lot of times, you don't want to delete it at all. For example, a user is deleted from the Cluster Server, but the user may still continue to use the files and folder directly from the network.
-
-
-**Process Background Task**
-
-    Whether this specific node will process background task. 
-
-
-**Enable Change Monitor for Home Drive**
-
-    If Active Directory Home Drive integration is on, this will allow the Cluster Server to monitor the changes on the home drive and notify remote client agents that the files/folders have changed.
-
-
-**Send daily scan email**
-
-    If the storage scan is enabled, a daily scan email will be sent to the cluster administrator about the result of the scan.
-
-
-**Zone**
-
-``Cluster Manager`` > ``Cluster Server Farm`` > ``Zone``
-
-The concept of zone is to associate your worker nodes with the location of the storage. When you think about zones,
-you will think about your storage location first.
-
-For example, I have storage in LA so I have an LA zone. I also have storage in NY so I have a NY Zone.
-
-You can have worker nodes from different zones as well and assign users to specific zone. If user’s home directory
-is coming from LA zone, the user will need to be assigned to LA zone.
-
-.. figure:: _static/2021newimage065.png
-.. figure:: _static/2021newimage066.png
-    :align: center
-    
-    CONTROL PANEL STORAGE ZONES EDITOR
-
-
-***********
-4.7 Reports
-***********
-
-``Cluster Manager`` > ``Reports``
-
-4.7.1 Upload Report
-^^^^^^^^^^^^^^^^^^^^^
-
-Upload report tab shows you graphs for all the uploads that have taken place in the last sixty minutes, 24 hours,
-30 days and a whole week.
-
-.. figure:: _static/2021newimage067.png
-    :align: center
-    
-    UPLOAD REPORT
-    
-    
-4.7.2 Storage Statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Under storage statistics, you can see a quick overview of the overall storage statistics, size distribution
-file type distribution pie charts, and users who have used the most storage so far.
-
-.. figure:: _static/2021newimage068.png
-    :align: center
-    
-    STORAGE STATISTICS REPORT
-
-
-4.7.3 Active Users
-^^^^^^^^^^^^^^^^^^^^^
-
-Active users reports the activity of users on the web portal. The active users report doesn't include users from windows client or other native clients because those users are more persistent (always there). To access this report, you can click on the active users section in the panel near the top of the screen. 
-
-
-.. figure:: _static/2021newimage069.png
-    :align: center
-    
-    
-    ACTIVE USERS REPORT
-
-
-4.7.4 Guest Users
+Regular User
 ^^^^^^^^^^^^^^^^^^^^
 
-Other reports are also available such as Guest Users, which are users that don't have a home directory but are invited to participate on some shared folders and shared files.
+``Tenant Management Console`` > ``User Manager``
 
+In the Documentation, the regular user is often referenced as "Team User".
 
-4.7.5 Node Performance
-^^^^^^^^^^^^^^^^^^^^^^^^
+The first tab is the Regular User Manager. These are the users that have full privilege of home directory, sharing and other features. 
 
-You can use the Node Performance to check out the worker node health and the database health.
-
-.. figure:: _static/2021newimage070.png
+.. figure:: _static/2021newimage098.png
+.. figure:: _static/2021newimage099.png
     :align: center
-    
-    
-    NODE PERFORMANCE REPORT
 
+    USER MANAGER SETTINGS
 
-**Last Reported**
+User Manager also have a list view:
 
-    You want to see this field has small numbers such as 6 seconds, 10 seconds. If you see sometime like 3 hours ago, that means the node is not reporting the health.
-
-
-**Total Requests Processed**
-
-    You want to see this number as big as possible. This number is cumulative since the service was last re-started. So the bigger the number, the more stable the service is. Also when you have multiple worker nodes, you want to see the Total Requests distributed evenly among the worker nodes.
-
-
-**Request Executing**
-
-    You want to see this number as small as possible. This means the number of requests that are concurrently executing on the server. In general a number smaller than 100 is normal. Bigger than 100 is abnormal. Anything bigger than 20 will require investigation.
-
-
-**Last Request Time**
-
-    You want to see this number as small as possible. This means the number of milliseconds for the last request. In general, numbers smaller than 3000 or 5000 are normal, which translates to below 3-5 seconds.
-
-
-**Pending Change Notification**
-
-    For the files and folders that are changed, there is change notification written to the database. In general, you want to see the pending queue as short as possible.
-
-
-**Active Node Request**
-
-    These are the clients out there contacting the server. Usually it is just for reporting purposes.
-
-
-**Pending Change Polling**
-
-    These are the clients out there polling to see whether there are files and folders that have been changed. Usually the smaller the better.
-
-
-**Active Clients**
-
-    For reporting purpose.
-
-
-**Pending Dir Request(H)**
-
-    The pending directory listing calls from the 
-    remote clients to the Cluster Server. This is the high priority queue.
-
-
-**Pending Dir Request(L)**
-
-    The pending directory listing calls from the remote clients to the Cluster Server. This is the low priority queue.
-
- .. note::
-    If you don’t see the node performance report, check the **Internal URL** setting of each worker node.
-
-Under reports you can look at the upload graphs and storage statistics.
-
-
-
-4.7.6 Bandwidth Usage
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-This shows the overall bandwidth usage statistics as well as more granular tenant and user level statistics.
-
-.. figure:: _static/2021newimage071.png
+.. figure:: _static/2021newimage100.png
+.. figure:: _static/2021newimage101.png
     :align: center
-    
-    BANDWIDTH USAGE REPORT
-    
 
-4.7.7 System Diagnostic Report
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    USER MANAGER LIST/ICON VIEW TOGGLE
 
-Click the Start Scanning button to generate system diagnostic report.
+If you have Active Directory, normally these are the users in the Active Directory.
 
-.. figure:: _static/image_s4_8_71.png
-    :align: center
-    
-    GENERATE REPORT
-    
-A sample system diagnostic report is shown below.
-
-.. figure:: _static/image_s4_8_72.png
-    :align: center
-    
-    SYSTEM DIAGNOSTIC REPORT
-
-4.7.8 Audit Trace
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-This is a sample audit trace. 
-
-.. figure:: _static/image_s4_8_80.png
-    :align: center
-    
-    AUDIT TRACE
-
-
-**Cluster Settings**
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Cluster Settings``
-
-Under cluster settings, you can configure auto-client update, web applications, and other settings like 2-Step
-Verification, multiple domain support, etc..
-
-
-4.7.9 Google Drive and OneDrive Integration (Storage Manager)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: _static/image_s4_8_70.png
-    :align: center
-    
-    CLOUD STORAGE MANAGER
-
-
-4.7.10 OneDrive for Business Integration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-In order to complete the OneDrive for Business Integration, you will first need to login to your
-company's Office 365 portal.
-
-.. figure:: _static/image237.png
-    :align: center
-    
-    MICROSOFT ONEDRIVE BUSINESS INTEGRATION
-
-
-After that, click on the Admin tile and then on to the "Azure AD" section.
-
-.. figure:: _static/image238.png
-    :align: center
-    
-    AZURE AD SETTINGS
-
-
-After that go to the Applications section of the company Azure AD web portal.
-
-.. figure:: _static/image239.png
-    :align: center
-    
-    AZURE APPLICATIONS SETTINGS
-
-
-Add a "Web Application"
-
-Sign On URL: 
-
-  This can be set to the LoginPage.aspx for your Cluster Server.
-
-Client ID: 
+  - Native User
   
-  This will be generated by Azure AD and you will need to copy it back 
-  to the configuration page of the Cluster Server.
+    These are the users that are created manually with an email.
+    
+  - AD User
   
-App ID URI:
-
-  This can be the same as the Sign On URL
+    These are the users that are imported from Active Directory via LDAP.
+    
+  - Proxied AD User
   
-Reply URL:
+    These are the users that are imported from Server Agent, where the file server agent is remote and away from the Cluster Server in the customer's site. The customer's Active Directory domain is also remote, and the file server itself (where server agent is installed) is in the
+    remote Active Directory.
 
-  This field can be 
-  https://your-centrestack-server/management/storageconfig/SkyDriveCallback.aspx
 
-.. figure:: _static/image240.png
+Guest User
+^^^^^^^^^^^^^^^^^^
+
+``Tenant Management Console`` > ``Guest User Manager``
+
+Guest users are users that don’t have a home directory. The only folder they have is “Files Shared with Me”. So they rely on other “Regular User” sharing files and folders with them before they can do anything. If nobody is sharing anything with a guest user, the guest user doesn’t have any read/write permission to any folder.
+
+The primary reason for guest user to exist is to have a secure way for external user to collaborate and edit documents.
+
+
+Group Manager
+^^^^^^^^^^^^^^^^^^
+
+``Tenant Management Console`` > ``Group Manager``
+
+When you have Active Directory integration, you will leverage the Active Directory group instead of using Group Manager here. This group manager is to create a group of users in a simple way. It is not as complicated as Active Directory (such as supporting nested groups) but make it easy for non-Active Directory users. This is native Cluster group. In the product, you may also see AD group from the user selection user interface and Proxied AD group from the user related interface. The AD group and the proxied AD group are not the same as the group mentioned here.
+
+
+Role Manager
+^^^^^^^^^^^^^^^^^^^^
+
+``Tenant Management Console`` > ``Role Manager``
+
+The Role Manager is to provide role based administration. For example, you may want to provide read-only permissions to some users. You can also assign some group policies to some groups of users. More and more policy items are added to the role manager so in addition to only use role manager for administration, it can be also used to define policy items for users.
+
+.. figure:: _static/2021newimage102.png
     :align: center
-    
-    ONEDRIVE BIZ LABTECH SETTINGS
+
+    ROLE MANAGER ENTRY
+
+When creating a role, there are 4 different sections
+
+    - Sharing
+    - Policies
+    - Permissions
+    - Assigned Users/Groups
 
 
-You will need to grant permissions according to the following pictures.
+Create New Role
+--------------------------------
 
-Office 365 SharePoint Online:
+You can define areas in the tenant administrator's management console and assign it into a role. 
 
-.. figure:: _static/image241.png
+.. figure:: _static/2021newimage102.png
+.. figure:: _static/2021newimage103.png
+.. figure:: _static/2021newimage104.png
     :align: center
-    
-    OFFICE 365 SHAREPOINT PERMISSIONS 1
+
+    ROLE MANAGER SHARING
 
 
-.. figure:: _static/image242.png
+Policies
+------------------------
+
+additional policies for the role.
+
+.. figure:: _static/2021newimage105.png
     :align: center
-    
-    OFFICE 365 SHAREPOINT PERMISSIONS 2
+
+    ROLE MANAGER POLICIES
 
 
-Windows Azure Active Directory:
+Permissions
+-------------------------
 
-.. figure:: _static/image243.png
+Additional Permissions that can be assigned to a role.
+
+.. figure:: _static/2021newimage106.png
     :align: center
-    
-    AZURE ACTIVE DIRECTORY SETTINGS
 
+    ROLE MANAGER PERMISSIONS
 
+Assigned Users/Groups
+------------------------------------
 
-4.7.11 (Client Version Manager) Client Auto Update
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After the content of the role is all set, users and groups can be assigned to a role.
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Client Version Manager``
-
-.. figure:: _static/image_s4_8_101.png
+.. figure:: _static/2021newimage107.png
     :align: center
-    
-    CLIENT VERSION MANAGER
 
-For Windows Client, Mac Client and Windows Server Agent, there is an auto client update feature. Each upgrade package contains
-the updated clients. By clicking on the ``Publish`` button [see **(1)** below], the newer package can be published to clients out there.
+    ROLE MANAGER ASSIGNED USERS/GROUPS
 
-Every new Cluster Server upgrade contains the newer Windows client, Windows Server Agent and Mac Client. The Cluster users via manual download can get the clients that are included in the Cluster Server. However, for existing users with previously installed clients, those older clients will not auto upgrade until the newer client packages are published.
+.. _tenant_admin_grouppolicy:
 
 
-**(2) Daily Upgrade Limit** 
+******************
+Group Policy
+******************
 
-    This is a per-worker node setting. For example, if you have 2 worker nodes, and set the daily upgrade limit to 100, maximum 200 clients will be upgraded per day.
+``Tenant Management Console`` > ``Group Policy``
 
-**(3) Apply to Users** 
-
-    This typically is used for testing prior to pushing the client out.
-
-
-**(4) Do Not Apply to Users** 
-
-    This typically is used for testing prior to pushing the client out and to exclude certain users.
-
-
-.. figure:: _static/image_s4_8_100.png
+.. figure:: _static/2021newimage108.png
     :align: center
-    
-    WINDOWS CLIENT VERSION SETTINGS
 
-
-.. note::
-
-    The windows client out there has a process running as a background windows service. The service will periodically check for a newer upgrade in about 1-2 hour intervals. Once a newer client package is published and discovered, the newer package will be downloaded. However, if the client is still actively running, the replacement and upgrade will not happen until the client application is stopped and restarted. This usually happens when the user logs off their Windows or restarts their desktop altogether.
-    
-    If the Windows client software is actively running, the user may be seeing a message popup from the system tray area asking the user if they want to restart the client software and to receive the newer version.
-    
-Once a client is published for client auto upgrade, you can use ``Unpublish`` **(5)** to stop the client auto upgrade.
-
-    
-**Server Agent**
-
-    Windows Server Agent can be separately published for auto upgrade.
-    
-.. figure:: _static/image_s4_8_102.png
-    :align: center
-    
-    SERVER AGENT AUTO UPGRADE
-
-
-**Mac Client**
-
-    Mac client can be separately published for auto upgrade.
-    
-.. figure:: _static/image_s4_8_103.png
-    :align: center
-    
-    MAC CLIENT AUTO UPGRADE
-
-
-4.7.12 Application Manager
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Application Manager``
-
-You can also configure Web Apps under ‘Application Manager’ tab in Cluster Settings. This will enable the users to edit documents using the web apps. The applications here only apply to web portal based editing.
-
-.. figure:: _static/image_s4_8_110.png
-    :align: center
-    
-    APPLICATION MANAGER SETTINGS
-
-
-Once an application is enabled, you will be able to see the context menu entry from the web based file and folder manager view.
-
-.. figure:: _static/image245.png
-    :align: center
-    
-    APPLICATION CONTEXT MENU
-
-
-
-4.7.13 Settings
-^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings``
-
-.. figure:: _static/2021newimage072.png
-    :align: center
-    
-    CLUSTER SETTINGS
-
-
-
-********************
-4.8 Cluster Settings
-********************
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Cluster Settings``
-
-.. figure:: _static/2021newimage073.png
-    :align: center
-    
-    CLUSTER SETTINGS PERMISSIONS
-
-
-
-**Hide Login Failure Message**
-
-    When checked, the login failed message will be replaced by a very generic “Login Failed” message. When un-checked, it may return a more meaningful login error, such as user-not-found, authentication-error and so on. This is a security feature if you don't want to give out too much information for hackers to guess a reason for authentication failure.
-
-
-**Hide support button**
-
-    This hides the floating support icon.
-
-
-**Hide build number from login page**
-
-    This controls the build number on the web portal login page.
-
-
-**Enable Content Management Policies** – Reserved
-
-**Show file dashboard by default**
-
-
-**Hide ‘Forgot your password’ link on login**
-
-    Most often it is used when Active Directory integration is set. The user will need to do a forget-and-change password the normal Active Directory way instead of the way CentreStack provides. In this case, it is recommend to hide the "Forgot your password" link.
-
-
-**Don’t retry when login failed**
-
-    Most often it is used when the Active Directory user has low failed-count on lock-out policy. When the user’s password is wrong, a few retries can lock out the user’s Active Directory account. The retry feature can be used when there is no Active Directory lock out or when the lock out count is high.
-
-
-**Show ‘purge storage option’ when delete user**
-
-    By default, when a user is deleted, the user’s home directory storage content is not touched for later use or review. If it is desired to delete the user’s content when the user is deleted, this can show the purge option.
-
-
-**Enable Multiple AD Domain Support**
-
-    In the multi-tenant environment, you can always link one Active Directory to a tenant. However, in some cases, a single tenant may have multiple un-related Active Directories. In this case, Enable Multiple AD Domain support will be useful. 
-    
-    When you have multiple Active Directory from multiple forests in a specific tenant, you can turn on this option. The Cluster Server software is capable of automatically searching for domains in one single forest.
-
-    However, for multiple forests, the software will allow you to manually enter the root of each domain when this option is enabled.
-
-    .. note::
-    
-        The AD support here is related to using LDAP for Active Directory connectivity.
-
-        If you are using "Server Agent" to connect to multiple Active Directories in proxy modes, you don't need to turn it on here. 
-        
-    .. note::
-    
-        If I turned it on, where to see the change?
-        
-        You will see the difference in the per-tenant Active Directory setting page. Instead of a single AD setup, you will see a table that allows you to add multiple rows, with each row represents a single Active Directory LDAP connection.
-
-
-**Turn on 2-step Verification**
-
-    The Cluster Server supports Google Authenticator, Amazon Virtual MFA soft token for 2-step verification. When this setting is turned on, users will see the option to configure 2-step verification in their web portal.
-
-
-**Don’t send email notification to user when purge deleted content**
-
-    When the user delete files, they are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification.
-
-
-**Don’t send email notification to admin when purge deleted content**
-
-    When the user deletes files, They are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification to the administrator.
-
-
-**Use 'Icon View' as default web file browser view**
-
-    Icon view is set when this setting is enabled. (The opposite is ListView)
-
-
-**Use Ghost Script to generate PDF preview**
-
-    There are two ways in the system to generate PDF preview. This setting will force the system to use one way or the other. For example, force it to use Ghostscript to generate PDF preview.
-
-**Preview pdf files with browser builtin viewer**
-
-    When selected, the PDF file will be rendered in the web browser on the web browser side. Otherwise, it is rendered on the server side first and shown to the end user in browser.
-
-**Retrieve avatar from third party service (i.e. Google)**
-
-    This is a usability feature that users's picture can be queried from Google.
-
-
-**Hide file extension in web file browser**
-
-    This setting will hide the file extension.
-
-
-**Disable Windows Client Auto-Logon**
-
-    This is a security feature. The result is every time the windows client is done running, the next time the user tries to login, it will not remember the login token and the user will have to re-type the credential to get in.
-
-**Use short url**
-
-    Use shorter URL for web links generated for file/folder sharing.
-
-**Allow personal data tagging**
-
-**Attach local folder using in place versioned folder**
-
-    When synchronize folders from remote PC/Mac to |prodname|, using in place versioned folder will make the folder keep the same folder structure as the folder that is being uploaded.
-    Otherwise |prodname| manage the folder content on the server side in its own ways.
-    
-**Only allow access performance information from local host**
-
-    only allow accessing performance data from http://localhost and not from external URL.
-    
-**Show 'Import Network Share' on cluster dashboard**
-
-**Web Browser Session Timeout (minutes, 0 - never timeout)**
-
-    This is the web browser session time out value. Default is set to 15 minutes. For default cluster administrator, we recommend increase this value to a bigger number so it is easier for web based management work not to time-out too soon.
-
-
-**Native Client Token Timeout (days)**
-
-    For Windows client and Mac client, this defines the token time to live. 
-
-
-**Distributed Lock Idle Timeout (minutes, 0 - never timeout)**
-
-    This setting is related to automatic file locking. When a file is automatically locked, the machine that has the file locked will need to maintain a healthy heart beat with the Cluster Server. If the machine is offline (idle) and can't report back to the Cluster Server for a period of time, the lock that was automatically grabbed will need to be released.
-
-    If this is not desired, the user can always use manual "Check Out" to lock a file and that will not be subject to the timeout.
-
-
-**Open third party web application in new window when the height of the web browser is less than**
-
-    This is a usability feature. When using third party web application to edit documents in Cluster Server web browser file and folder view, if the web browser height is too short, the third party web application may not function properly. 
-
-
-**Max Device Count(Concurrent Device Count) for Each User (0-Unlimited)** 
-
-    This is the number of concurrent devices connected to the Cluster Server for each user. The default is not limited.
-
-
-4.8.1 Performance and Throttling
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Performance and Throttling``
-
-.. figure:: _static/image_s4_9_10.png
-    :align: center
-    
-    PERFORMANCE THROTTLING
-
-
-
-**Don't show file icon preview if file size is larger than(KB, 0-No icon preview)**
-
-    This is used to control iconview thumbnail generation in the web browser files and folders view. The generation of thumbnail takes CPU power from the Cluster Server. For big files, the generation of thumbnail may negatively affect the system performance. So it is recommended to cap the feature to a certain image size.
-
-
-**Cluster Wide Upload Bandwidth Limit(Per Worker Node, KB/Sec, 0-No Limit)**
-
-    This is to limit upload bandwidth.
-
-
-**Cluster Wide Download Bandwidth Limit(Per Worker Node, KB/Sec)**
-
-    This is to limit download bandwidth.
-
-
-**Size limit for folder download (MB, 0-no limit)**
-
-    This is to prevent user downloading a very big folder and using up all the Cluster Server resources.
-
-
-4.8.2 Timeouts and Limits
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Timeouts and Limits``
-
-.. figure:: _static/2021newimage074.png
-    :align: center
-    
-    TIMEOUTS AND LIMITS
-    
-
-4.8.3 Languages
-^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Languages``
-
-.. figure:: _static/image_s4_9_20.png
-    :align: center
-    
-    LANGUAGE SETTINGS
-
-
-This section sets up the web portal languages and also the client application languages
-for Windows client.
-
-
-4.8.4 Branding
-^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Branding``
-
-.. figure:: _static/image_s4_9_30.png
-    :align: center
-    
-    ENABLE TENANT BRANDING
-
-
-
-**Don't Show Tutorial Videos**
-
-    At different places in the web portal, there are tutorial videos. This setting is to hide those videos, which may have CentreStack references inside.
-
-
-**Enable Tenant Branding**
-    
-    Allow tenants in the system to have their own co-branding on a tenant-by-tenant basis. The branding can override the default Cluster wide branding when the solution is accessed via a specific URL. Most of the time, a wild card SSL certificate is used so the Cluster Server solution can be binded to different URL's within a common suffix.
-
-    For example \*.mycompany.com , while tenant1.mycompany.com is for tenant 1's access.
-
-
-**Only allow branded client to access**
-
-    This can lock out the generic client and only allow the branded client to connect.
-
-
-**Branding Id**
-
-    This setting only applies to full-branding clients. For the full-branding client, it is possible to lock the full-branding clients to only connect to the branded Cluster Server. When set, it will lock out the white-label clients or other non-branding clients and will not allow them to connect.
-
-
-4.8.5 Change Log
-^^^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Change Log``
-
-.. figure:: _static/image_s4_9_40.png
-    :align: center
-    
-    CHANGE LOG SETTINGS
-
-
-
-**Keep file change log for n days**
-
-    This is a cluster wide retention policy for the file change log.
-
-    The file change log is in the SQL database, for deployments that are using SQL Express, it has size limitation for the database. In the deployment guide, there is option to split the file change log into MySQL database or split it to a different SQL database. This option typically is used to keep the size of SQL small.
-    
-    .. note::
-    
-        After the Cluster Server is running in production mode for a while, we recommend reviewing the file change log database table and the file index table to see how big those tables are.
-
-
-**Email Address to Receive Cloud Monitor Messages**
-
-    From time to time, the cluster monitor service may send an email about the status and alerts.
-
-
-**Logging DB Connection String**
-
-    This is to split the file change log, device table, file index table and audit trace table out of the main database into a secondary database. The secondary database can be a Microsoft SQL Server or a MySQL Community server.
-    
-    The Cluster Server database is split into the core part and the logging part. The core part can store the DB connection string that connects to the secondary database. This setting used to be in the web.config file.
-
-4.8.6 License String
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``License String``
-
-**License String** – Reserved.
-
-    This is for Cluster Servers that are isolated from the Internet, can't be activated online and has to use a license string for offline activation.
-
-
-4.8.7 Anti Virus
-^^^^^^^^^^^^^^^^^^^
-
-``Cluster Manager`` > ``Cluster Settings`` > ``Anti Virus``
-
-You can enable anti-virus protection which will ensure that the files being uploaded via the Cluster Server are scanned by the selected anti-virus software.
-
-You will first need to obtain the anti-virus service that is independent from the Cluster Server, and get it directly from the anti-virus vendor. After that, you can integrate the anti-virus service into the Cluster Server.
-
-.. figure:: _static/2021newimage075.png
-.. figure:: _static/2021newimage076.png
-    :align: center
-    
-    ANTI-VIRUS SETTINGS
-
-
-
-*************************
-4.9 Default Group Policy
-*************************
-
-Default group policy can be applied to all tenants in the cluster. However, if the tenant also defines its own group policy, the tenant policy can over ride cluster wide default group policy.
-
-Please reference the ``Group Policy`` in the tenant administrator section for full list of policy items.
-
-.. figure:: _static/2021newimage077.png
-    :align: center
-    
     GROUP POLICY SETTINGS
 
 
+Common Settings
+^^^^^^^^^^^^^^^^^^^^^^^
 
-*******************************
-4.10 Language Settings
-*******************************
+``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` 
 
-We have automated translation and provided the resource files that you can use to localize the web portal and clients in the language  of your choice. If there are strings that not translated yet in the language you want, just go ahead and select the string and put in the translated string in the window for the language selected.
-
-.. figure:: _static/image_s4_11_00.png
+.. figure:: _static/image_s5_6_10.png
     :align: center
+
+    GROUP POLICY COMMON SETTINGS
+
+
+Security
+----------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` > ``Security``
+
+.. figure:: _static/2021newimage109.png
+    :align: center
+
+    GROUP POLICY SETTINGS
+
+**“Allow Cluster Admin to manage my tenant”**
+
+    when enabled, the cluster-admin will be able to use the “Manage Tenant” link to manage the tenant in the tenant manager. This is very convenient for cluster administrators (typically system administrators from service providers) to provide management work to the tenant.
+
+
+**“Enable Authenticating User with Google Apps Credentials”**
+
+    when enabled, users can login using Google Apps credentials.
+
+
+**"When delegate admin login via server agent, impersonate as tenant admin"**
+
+    Server agents typically need to sync to the default tenant administrator. It is recommended when a delegate administrator setup a server agent, it needs to impersonate the default tenant administrator.
+
+
+**“File upload and download must go through worker node”**
+
+    (This setting may only be available from cluster administrator side)
+
+    For Amazon S3 type of cloud storage/object storage, it is recommended NOT to force file upload and download going through worker nodes, because Amazon S3 is good for offload the upload/download between the access clients and the backend Amazon S3 storage. However, for OpenStack Swift storage, depending on how it is set up, you may want to turn this on to force File Upload/Download going through worker node for security reasons.
+
+    This setting may be checked by default. However, based on your configuration, it may not need to be checked.
+
+    For example, if you are using file server network share as the storage location, the upload and download has to go through worker node anyway, so there is no need to check this checkbox.
+
+    There may be some situations  that this setting must be checked. For example, you may be using native object storage such as Amazon S3 for storage. However, your company policy may disable direct access to Amazon S3. So in this case, you will have to route traffic through the worker node.
+
+
+Sharing Settings
+------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` > ``Sharing``
+
+.. figure:: _static/image_s5_6_12.png
+    :align: center
+
+    GROUP POLICY SHARING SETTINGS
+
+**“Users must log in to access the content in 'Files shared with me' folder”**
+
+    When sharing files and folders with users, you can force the sharing to create guest accounts for users that are not already in the system. It is more secure when asking the receiver of the share to sign in to receive shared items. This disables anonymous sharing.
+
+    If this setting is not enabled, users can share files and folders to an outside email address without requiring outside users to create a guest user account.
+
+
+
+**“Disable user's ability to share home directory content externally”**
+
+    This feature disables the ability for a regular user to share home directory contents for security reasons.
+
+
+
+**“Enable Internal Public Share URL”**
+
+    If you have an internal public share you can use this setting to enable it.
+
+    When this is enabled, it will use the Internal URL property to generate a web link for shared file/folder.
+
+
+**Disable Public Link**
+
+    This will disable the public web link feature in the sharing dialog.
+
+
+
+**“Show guest user creation option”**
+
+    When enabled this shows the guest user creation option which you will see when 'Sharing' a file or folder by email. This is how you can provide full edit capability to a guest user, as they must be logged in to modify a file or folder in the |prodname|. 
+
+
+**“Enable distribution group detection in file/folder sharing's user interface”**
+
+    With active directory integration, sometimes you want to share files and folders with a distribution group. This feature allows detection of distribution group and expands the group so the sharing will be done with the users in the group, instead of using the group as a single user.
+
+
+**"Show user list in sharing dialog"**
+
+    When enabled, the user list will be displayed in the recipient's dropdown list.
+
+
+
+**"Show guest user list in sharing dialog"**
+
+    When this option is enabled, the guest user list will be shown in the recipient dropdown list.
+
+
+**"Show group list in sharing dialog"**
+
+    When this option is enabled, the group list will be shown in the recipient dropdown list.
+
+
+**"Allow user enter share name"**
+
+    By default the file name or folder name is used for the share name. However, if user has many same name folders or files. Sharing them out sometimes many not know which is which. This setting allows user to change share name. For example, when sharing out a "Documents" folder, it can be named "Documents in top level folder".
+
+**"Send a copy of file sharing invitation email to share owner"**
+   
+    When sending the file-sharing email, sending a copy (CC) to the owner of the share (usually the sender of the email)
+
+
+**"Don't append email to shared object name under 'Files Shared With Me'"**
+
+    When enabled, emails won't show next to object names in 'Files Shared With Me' view.
+
+
+**"Disable folder sharing"**
+
+    When enabled users will not be able to share folders. 
+
+
+**"Enforce password protection"**
+
+    When enabled all users (including guest users) will be required to use complex password protection. 
+
+
+**“Expiration Time for Shared Folder/File (Days):”**
+
+    When set, during the file/folder sharing wizard, the expiration time dropdown selection will not be shown, it will be pre-set to expiration set in here.
+
+
+**“Maximum Share Expiration Time (Days):”**
+
+    When set, this creates an upper limit to the time a share will be available, which forces all shares to expire when this limit is reached. 
+
+**"Notify share owner n days before share expiring (0 - do not notify)"**
+
+    Notify the sender (owner) of the share before share expiration.
+
+**"Expiration Time for public links (Days):"**
+
+    If left as zero, public link will never expires, otherwise the public link will be purged after expired.
+
+
+**“Don’t create a guest user account if the recipient is from the following domains (i.e. company.com;company1.com)”**
+
+    Blacklist guest emails from the domains listed here. Do not allow sharing to these domains. 
+
+
+**“Only allow sending shares to the specified domain”**
+
+    You can further limit the sharing to some domain instead of random email. For example, if your primary collaboration target is with ACME corporation and you can limit the sharing to your domain and also ACME domain.
+
+**"Only allow sending shares to the specified domain(s) (i.e. company.com;company1.com)"**
+
+    When it is set, the external sharing can only be shared to the white-list of email domains (which represent external partners, clients and etc)
+
+**“Default folder to store attachments from Outlook plugin (/folder/subfolder)”**
+
+    Allows you to designate where Outlook attachments are saved.
+
+
+File Locking Settings
+-----------------------
+
+```Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` > ``File Locking``
+File Locking can be accessed from the following location in the Tenant Dashboard's Group Policy section. 
+
+.. figure:: _static/2021newimage110.png
+    :align: center
+
+    GROUP POLICY FILE LOCKING
+    
+After you click the "File Locking" icon, here is the screen for the file locking settings details.
+
+.. figure:: _static/image_s5_6_13a.png
+    :align: center
+
+    FILE LOCKING SETTINGS
+
+
+Settings under file locking applies to all clients which include desktop clients as well as server agent clients.
+
+
+**“Enable Distributed locking when accessing files”**
+
+    In the Cluster Server, there are two ways to lock files, one is manually by right-clicking on a file and select “Check out”. The other way is automatic based on certain binary executables. For example, you can see Microsoft Office executable files like winword.exe and so on.
+
+
+**“Lock file exclusively”**
+
+    When enabled, the locked file will be locked exclusively. When disabled, the other user who is trying to open the locked file will be notified about the lock status, but will still be able to open the file.
+
+
+**“Automatically open file in read only mode when file is locked and "Lock file exclusively" is not checked.”**
+
+    When this setting is enabled (default), a second attempt to open a locked file will result in the file opening in read-only mode. If "Lock file exclusively" is checked, then second user will not be able to open a locked file. 
+
+
+**“Delay sync until file is unlocked”**
+
+    It is recommended to check this setting. Most users have the habit to save files in the middle of editing. You don’t want these edits to go every time to the cloud for these intermediate saves. You want to do a save to the cloud at the end like a grand finale. So you can delay sync until the file is
+    unlocked.
+
+
+**"Unlock file after file is uploaded"**
+
+    After the file is uploaded, unlock the file.
+
+
+**"Lock file natively on network shares"**
+
+    When a file is locked in the |prodname|, if the file is from an attached network share, the |prodname| lock will be converted into a native file system lock on the network share. This provides locking interoperability between the |prodname| and the underlying file system network share.
+
+
+**"Enable scheduled sync for files with following extensions (i.e.[.mdb][.qbw]) when the file is locked"**
+
+    When files are locked, the client will consolidate multiple changes into one upload event and use Volume Shadow Copy to avoid interfering with applications that are using the files. Typically this applies to database files that are constantly in use and constantly actively writing (commit) to the database file. 
+
+
+**"How often to sync the files with above extensions"**
+
+    This setting allows you to control the interval of synchronization that takes place on the above file extensions. 
+
+
+**"Apply lock only to the following processes (Lower case)"**
+
+    You can specify the processes here for which locking should be applied. By default, locking is enabled for Microsoft Word, Excel, and PowerPoint.
+
+
+**"Apply lock only to the following MAC processes"(Lower case)**
+
+    You can specify the processes here for which locking should be applied. By default, locking
+    is enabled for Microsoft Word, Excel, PowerPoint and MAC text editor.
+
+**"Locking is disabled for files with the following extensions (i.e.[.xml][.exe])"**
+
+    You can use this setting to specify which file types will be ignored with regard to the file-locking feature. 
+
+
+Client Setting Manager
+------------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` >  ``Client Setting Manager``
+
+.. figure:: _static/2021newimage111.png
+.. figure:: _static/2021newimage112.png
+    :align: center
+
+    GROUP POLICY CLIENT SETTING MANAGER
+
+
+Sync Throttle
++++++++++++++++
+
+.. figure:: _static/image_s5_6_14a.png
+    :align: center
+
+    SYNC THROTTLE SETTINGS
+
+
+Enable Throttle Sync
+
+    When disabled (default) all Sync Throttle settings in this section are disabled. Must be enabled to activate the following settings. 
+
+Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited):
+
+    This setting controls the upload bandwidth from the client machine.
+
+Sync Throttled Download Bandwidth (KB/s, 0-Unlimited):
+
+    This setting controls the download bandwidth from the client machine.
+
+Full Speed Sync Stop Hour (default 7:00):
+
+    Full speed sync means multiple thread concurrent upload or download. This is typically good for after hour activity. We recommend default setting stop at 7am so when people return to work, the full speed sync stops so to give back more bandwidth to users who may be using the Internet for other purposes.
+
+Full Speed Sync Start Hour (default 20:00)
+
+    Similar to the above setting, we recommend start full speed sync after working hours.
+
+
+Scheduled Sync
+++++++++++++++++++++++
+
+**Enable Scheduled Sync**
+
+    On the client side, in addition to a mapped drive (or a mac mounted volume), there is also functionality about folder synchronization. This setting can
+    control when to sync. For example, if the business has limited bandwidth to the Internet, avoid doing synchronization during the working hours 
+    can save bandwidth.
+    
+.. figure:: _static/image_s5_6_14a1.png
+    :align: center
+
+    SCHEDULED SYNC SETTINGS    
+
+
+Mapped Drive Control
+++++++++++++++++++++++
+
+.. figure:: _static/image_s5_6_14b.png
+    :align: center
+
+    MAPPED DRIVE CONTROL SETTINGS
+
+Hide Large File Download Tracker (popup progress window on the bottom-right when downloading large files)
+
+    This is usually good for usability but people may find it annoying if download is popping up a download progress dialog at the lower right corner.
+
+Always Allow Picture Preview
+
+    Windows Explorer may want to download pictures in the background to generate thumbnails. This consumes bandwidth and may slow system down until all the preview thumbnails are generated. By default the client program disables the preview. However you can re-enable it.
+
+Allways Allow PDF Preview
+
+    Windows Explorer may want to download PDFs in the background to generate thumbnails. This consumes bandwidth and may slow system down until all the preview thumbnails are generated. By default the client program disables the preview. However you can re-enable it.
+
+Allow shortcuts
+
+    Allow shortcuts (.lnk) files.
+    
+When starting the client, open the mounted drive automatically	
+
+    Enabling this opens the mounted drive in Windows Explorer when the client starts. 
+
+Do not show file change notifications
+
+    This is another feature that shows file change notification at the lower right-hand corner of the Windows desktop. People may find it annoying if the change notification comes in quite often.
+
+Do not show file in-place editing/preview disabled notifications
+
+    This feature also shows file change notifications at the lower right-hand corner of the Windows desktop. People may find it annoying if the change notification comes in quite often.
+
+Enable Inplace Open Zip File
+
+    Windows Explorer has a zip built-in extension that can open a zip file when double-clicked on. It may be good for the local drive but for cloud drive, that means the zip file is unzipped and re-upload back into the cloud. By default client application disables opening zip files directly in the cloud drive. 
+
+Enable Single Sign On with login windows user identity
+
+    Enable Single Sign-On with Login Windows User Identity - For a Windows client agent running on a Windows Desktop machine, the login windows user's identity will be used for single sign-on to the |prodname| account. 
+
+Max Size of Zip File Allowed to Open In-place (MB)
+
+    Limits the size of a Zip File that can be opened in-place.
+
+Max Size of File Allowed to Generate Thumbnail (MB)
+
+    Limits the size of Files that can be used in the generation of thumbnails.
+
+Cloud Drive Label
+
+    What do you want to call your windows client drive.
+
+Drive Letter
+
+    What do you want to give the drive letter to the client application.
+
+Cache Size Limit (MB)
+
+    The Windows client maintains a client-side cache of this size (0 - unlimited)	
+
+Minimal free disk space (GB)
+
+    This setting is used to establish a minimum amount of disk space used for the windows client drive. 
+
+Purge logging db n days old (0 - don't purge)
+
+    This limits how many days of logging are kept in the Windows client cache. 
+
+Mount Drive in global space (Windows Client Only)
+
+    A drive mounted in the global space will not be subject to UAC (User Account Control) limitations, such as when legacy applications are required to run with administrative privilege and cannot see the drive guarded by the UAC. On the other hand, drives that are mounted in the global space are visible to any other users who log in on the same Windows machine at the same time.
+
+In offline mode, only show files that are chached and available locally
+
+    Typically there will be place-holder files and representative icons created for all of the files in the client drive. If this setting is enabled, only locally stored files will be shown. 
+
+Disable "Check Out"
+
+    Turn off the "Check Out" feature and remove it from the right-click context menu. 
+
+Encrypt Local Cache
+
+    Once enabled, when a file is downloaded to cache, it is encrypted in place. When an authorized user then accesses the file from the (M:) Mapped Cloud Drive, CentreStack automatically decrypts it on the fly and then returns it to the user. 
+
+Disable AutoCad Optimization
+
+    By default, there is an AutoCAD optimization that delays the synchronization of the updated .dwg file and schedules it to sync upwards to the cloud at a later time. Use this setting to disable this AutoCad optimization and make saving AutoCAD .dwg files act the same as saving other regular files and lets .dwg file behavior follow other policy settings. 
+
+Large File Upload
++++++++++++++++++++
+
+.. figure:: _static/image_s5_6_14c.png
+    :align: center
+
+    LARGE FILE UPLOAD SETTINGS
+
+Enable chunk uploading when file size larger than (MB) 
+
+    Uploading a single large file can be disrupted by an Internet glitch. This setting breaks large files into smaller chunks to increase the success rate.
+
+Chunk file in the unit of (MB): 
+
+    Works with the above setting to establish what size the chunks will be in as they are transferred.
+
+Use Volume Shadow Copy to Upload Files being Opened	
+
+    There is pro and con of using this flag. When file is open by other application, the file usually is locked and can't be uploaded until the file is closed. However using volume shadow copy can still upload the file. The down side is when the volume shadow copy happens, the file is not known to be in a consistent state.
+
+
+Endpoint Protection
++++++++++++++++++++
+
+.. figure:: _static/image_s5_6_14d.png
+    :align: center
+
+    ENDPOINT PROTECTION SETTINGS
+
+Backup "My Documents" folder
+
+    Forces files in "My Documents" to be backed-up to the cloud.
+
+Backup to location (Leave empty for default location. e.g., myroot/{email} or {samAccountName} or {upn}/My Pictures)
+
+    Allows you to set an alternative storage location for the above setting.
+
+Backup "My Pictures" folder
+
+    Forces files in "My Pictures" to be backed-up to the cloud.
+
+Backup to location (Leave empty for default location. e.g., myroot/{email} or {samAccountName} or {upn}/My Pictures)
+
+    Allows you to set an alternative storage location for the above setting.
+
+
+
+Bandwidth Control
++++++++++++++++++++
+
+.. figure:: _static/image_s5_6_14e.png
+    :align: center
+
+    BANDWIDTH CONTROL SETTINGS
+
+Download Bandwidth Limit (KB/s, 0 - Unlimited):
+
+    This is download bandwidth control.
+
+Upload Bandwidth Limit (KB/s, 0 - Unlimited):
+
+    This is upload bandwidth control.
+
+Number of File Transfer Threads:
+
+    This is the number of concurrent upload/download allowed (default is 5).
+
+
+Outlook Plugin
+++++++++++++++++
+
+.. figure:: _static/image_s5_6_14f.png
+    :align: center
+
+    OUTLOOK PLUGIN SETTINGS
+
+Prompt conversion only when file is larger than n KB (0 - unlimited) 
+
+    For smaller files, it may be as well to just use the native outlook attachment.
+
+Default folder to store attachments from Outlook plugin (/folder/subfolder) 
+
+    Allows you to set a storage location for the above setting. 
+
+Link expiration time 
+
+    Allows Outlook share link to last indefinately or expire in a specified timeframe (e.g., never, one day, one week, one month, six months, one year). 
+
+
+Client Startup Script
++++++++++++++++++++++++
+
+After the Windows client is completely started and finished loading, a command line script can be run. You can be upload that script here. For example, a script to map an additional drive letter to a specific folder inside the cloud drive.
+
+
+Client Shutdown Script
+++++++++++++++++++++++++
+
+Right before the Windows client is completely shutdown and finished running, a command line script can be run. You can upload that script here. For example, a script to clean up any reference to folders and files inside the cloud drive.
+
+
+Mac Client Settings
+++++++++++++++++++++++++
+
+Do not show Mac Client sync status pop up dialog
+
+    This is usually good for usability but people may find it annoying if the file status is popping up a progress dialog at the lower right corner.
+
+
+Start Mac Client automatically
+
+    (Enabled by default.) If this is disabled, the Mac Client must be started manually. 
+
+
+
+Retention Policy
+------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` >  ``Retention Policy``
+
+.. figure:: _static/image_s5_6_15.png
+    :align: center
+
+    RETENTION POLICY SETTINGS
+
+The cloud monitoring service on the Cluster Server will be responsible for the retention policy. The settings of the retention policy are described below. 
+
+**“Keep last n version(s) of files in versioned folder.”**
+
+    This setting lets you decide how many versions of files to keep in the version folder. (0 - let system decide, also apply to "attached local folder') 
+
+**“Only purge versioned files that are more than n day(s) old:”**
+
+    This is a security feature. For example, there is a virus modified the same file many times so it created many versions causing good old versions to be scheduled for deletion. However, with this set, the good old versions will be kept for at least the amount of days so give enough time to recover. (0 - purge old versions once they exceed the version limit, regardless of the version lifespan) 
+
+**“Keep deleted files in versioned folder and/or Trash Can for n day(s).”**
+
+    When a file is deleted in the version folder, it is not actually deleted. It will be kept for several days defined here. The same policy also apply to 
+
+**“Keep file change log for n day(s).”**
+
+    file change log is the biggest database table and could be growing without trimming. You can decide how often you want to trim the table.
+    
+    .. note::
+    
+        There is also a cluster setting about the file change log length. The cluster setting overrides the per-tenant setting.
+        
+**“Keep audit trace for n day(s).”**
+
+    audit trace log is stored in a local device directory and keeps a record of high-level activity from a device (e.g., windows client, server agent). This setting limits the number of days that are stored in the local database file. 
+
+
+**"Hide purge option from web file browser (not applicable to tenant administrator)"**
+
+    Do not show the purge window to users when deleting content.
+
+**"Don't send email notifications when purging deleted content"**
+
+    There are times when an admin would not want to send or see delete email notifications for purged contents.
+
+
+**"Include deleted but not yet purged items in storage quota"**
+
+    Allows you to decide if you want to include not visible (purged) files in the storage quota that is used. 
+
+
+Anti Virus
+------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Common Settings`` >  ``Anti Virus``
+
+.. figure:: _static/image_s5_6_16.png
+    :align: center
+
+    ANTI VIRUS SETTINGS
+
+Only allow the following processes to update files (empty: allow all, separate using semicolon (;), i.e. winword.exe;excel.exe)
+
+    This is a white list of applications that are allowed to update files. The applications that are not in the list will not be able to upload files.
+
+The following executables will not be allowed to open files directly from the cloud drive (i.e. qbw32.exe;excel.exe) 
+
+    This is the opposite of the above policy. The applications in this list will be denied.
+
+Disable a device if the device changes more than n files in 10 minutes
+
+    When users are using the cloud drive in a normal way. Human speed will not be able to generate large amount of file upload.
+
+Ignore the following processes when applying the above policy 
+
+    This is a white list of files that will not be monitored for the activity described above. (e.g., qbw32.exe; excel.exe)
+
+Disable uploading of files whose named contain the following text patterns 
+
+    When file name text contains the following strings, the files will not be uploaded. (e.g., badfile1; badfile2)
+
+
+Disable uploading of files whose names start with the following strings 
+
+    When the starting text of files contain these strings, the files will not be uploaded. (e.g., bad1; bad2)
+
+Disable uploading of files whose names end with the following strings
+
+    When the ending text of files contain these strings, the files will not be uploaded. (e.g., bad1; bad2)
+
+
+Account & Login
+^^^^^^^^^^^^^^^^^^^^^^^
+
+``Tenant Management Console`` > ``Group Policy`` > ``Account & Login``
+
+.. figure:: _static/image_s5_6_20.png
+    :align: center
+
+    ACCOUNT AND LOGIN SETTINGS
+
+
+User Account Settings
+-----------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Account & Login`` > ``User Account``
+
+This is how "User Account" settings looks when "2-Step Verification is not turned on by the Cluster Manager. 
+
+.. figure:: _static/image_s5_6_21.png
+    :align: center
+
+    GROUP POLICY USER ACCOUNT SETTINGS
+
+Guest User
++++++++++++++++
+
+**“Allow creation of guest user”**
+
+    When enabled (default), you will allow creating of guest user when team user share files or folders with external users. When disabled, the file/folder sharing is limited to regular users only or anonymous users only.
+
+Account Info
++++++++++++++++
+
+**“Allow user to edit account info”**
+
+    When enabled (default), this setting allows users to edit their account information.
+    
+**“Allow proxied AD user to change native password (Non AD Password)”**
+
+    Proxied AD user refers to Active Directory users from remote server agent machine. Normally the initial password and changed password are 
+    synchronized from the server agent side periodically so the end user is always using the same Active Directory credentials to log in.
+    However, there may be cases when you want the user to break away from the old Active Directory and setup credential natively on 
+    |prodname|.
+    
+
+2-Step Verification 
+++++++++++++++++++++++
+
+.. figure:: _static/image_s5_6_21b.png
+    :align: center
+
+    GROUP POLICY USER ACCOUNT SETTINGS (Cont.)
+    
+    
+**"Enforce 2-Step Verification on users"**
+
+    Enforce 2-step verification will force the users to setup 2-step verification via Google Authenticator, Microsoft Authenticator, Amazon MFA or any app that supports the same 2-step verification algorithm.
+
+**"Do not enforce 2-Step Verification on Windows client"**
+
+    Tuning on windows client whether to enforce 2-step verification
+    
+**"Do not enforce 2-Step Verification on Mac client"**
+
+    Tuning on mac client whether to enforce 2-step verification
+
+**"Do not enforce 2-Step Verification on Mobile client"**
+
+    Tuning on windows client whether to enforce 2-step verification
+
+**"Disable 2-Step Verification"**
+
+    Disable 2-step verification. One possible use case is when 2-step verification is no longer needed or 2-step verification needs
+    to be disabled temporarily.
+    
+**"Do NOT enforce 2-Step Verification on guest users"**
+
+    Guest users may have a set of credentials to login to receive shared files and folders. This policy define whether to enforce 2-step
+    verification for them.
+    
+**"Disable option to request 2-step verification code by email"**
+
+    If user doesn't have the 2-step verification app on the mobile device, the alternative is to send the code to user's email.
+    
+**"Do not send verification code in email subject"**
+
+    If the code has to be sent over email, don't send the code in the subject line.
+
+
+Login Control 
++++++++++++++++
+    
+.. figure:: _static/image_s5_6_21c.png
+    :align: center
+
+    GROUP POLICY USER ACCOUNT SETTINGS (Cont.)
+
+**“Account Lockout Threshold (0 - never lockout):”**
+
+    You can specify the Account lockout threshold limit here. The limit specified will be the number of invalid logon attempts that will be allowed before an account is locked out. Default is 0 (never lockout). 
+
+**“Enforce progressively longer waiting times after invalid logon attempts”**
+
+    Disabled by default. Under login control, you can also enforce progressively longer waiting times after invalid logon attempts.
+
+**“Send email notification when logging in from a new location/device”**
+
+    Disabled by default. Another setting under login control is the 'Send email notification when login from new location/device'. This setting will send an email to users whenever a different device or location is used to login.
+
+**“Native Client Token Timeout (days, 0 - never timeout):”**
+
+    Determines if and when the Native Client Token will timeout, in days. Default is 15 days. 
+
+**“Web Browser Session Timeout (minutes, 0 - never timeout):”**
+
+    Determines if and when the Web Browser Session timeout, in minutes, will occur. Default is 120 minutes. 
+
+
+Password Policy Settings
+--------------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Account & Login`` > ``Password Policy``
+
+Here you can adjust your password policy settings. 
+
+.. figure:: _static/image_s5_6_22.png
+    :align: center
+
+    PASSWORD POLICY SETTINGS
+
+**Enforce password policy for non-AD users**
+
+    By default, non-AD users are not enforced to use this policy when setting their passowrd. Enable this to enforce the following rules. 
+
+**Minimum password length:**
+
+    Require the password to contain a certain number of characters as a minimum. Default is 8. 
+
+**Users must change password every n days (0 - never)**
+
+    Force users to change their passwords every so many days. Default is 0 (never). 
+
+**Must contain upper case characters**
+
+    Enforce the use of upper-case characters in the password. Default is enabled. 
+
+**Must contain lower case characters**
+
+    Enforce the use of lower-case characters in the password. Default is enabled. 
+
+**Must contain base10 digits (0-9)**
+
+    Enforce the use of base10 digits in the password. Default is enabled. 
+
+**Must contain non-alphanumeric characters: (e.g., ~ ! @ # $ % ^ &)** 
+
+    Enforce the use of special non-alphanumeric characters when creating a password. Default is enabled. 
+
+
+Single Sign-On Settings
+-------------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Account & Login`` > ``Single Sign-On``
+
+Single Sign on via SAML is a per-tenant setting. 
+
+.. figure:: _static/2021newimage113.png
+    :align: center
+    
+    ACCESSING TENANT GROUP POLICY SETTINGS
+    
+
+.. figure:: _static/image_s5_6_23.png
+    :align: center
+
+    SINGLE SIGN ON (SSO) SETTINGS
+
+
+Single Sign-On is available using SAML authentication.
+
+When it comes to Single Sign-On support via SAML, there are always two parties.
+
+* One is the IdP (the identity provider)
+* and the other is SP (service provider)
+
+A user will be registered with the identity provider and use the service from service provider. 
+The setup here is to allow service provider (the Cluster Server) to use an identity provider.
+
+The SAML single sign on setup is mostly about matching parameters from the identity provider to the identity consumer (service provider).
+As shown in the screen capture, There are three types of identity provider, "Azure AD" , "AD FS" , and "others (generic)" that 
+pretty much covers the most used ones and the most generic ones.
+
+
+Azure AD
+----------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Account & Login`` > ``Azure AD``
+
+Azure AD integration allows users to use their Azure AD credentials to login to the Cluster Server, including web portal and native clients.
+
+You will still need to create Azure AD users as if they were local Cluster users first. After that, you can enable Azure AD integration.
+
+To enable Azure AD integration, you will need to create 
+an Azure AD native client application.
+
+.. figure:: _static/image191.png
+    :align: center
+
+    ENABLE AZURE AD INTEGRATION
+
+You will need the client id from the Azure Native Client Application
+
+.. figure:: _static/image192.png
+    :align: center
+
+    AZURE CLIENT ID FIELD
+
+You will give the Azure Native Client Application full read permission
+to the following two items
+
+    - Azure Active Directory
+    - Microsoft Graph API
+    
+.. figure:: _static/image193.png
+    :align: center
+
+    AZURE PERMISSIONS TO OTHER APPLICATIONS
+
+You will also need the domain name
+
+.. figure:: _static/image194.png
+    :align: center
+
+    AZURE DOMAIN SETTING
+    
+Others (Generic SAML)
+---------------------------
+
+Here, The IdP will be a public IdP such as SSOCircle and the SP will be the Cluster Server. The SSOCircle is used as an example to set up the IdP;
+it can work with other IdP as well.
+
+In a multi-tenant Cluster Server deployment each tenant may want to have its own SSO service. Therefore, the Single Sign On is a per-tenant setting.
+
+
+
+**Step 1: Register the Cluster Server at IdP**
+
+IdP will need to register the Cluster Server as a service provider (SP) by importing the SP's meta data. You will find the Cluster's metadata at the following location (per-tenant setting).
+
+.. figure:: _static/image073.png
+    :align: center
+
+    SERVICE PROVIDER META DATA LINK
+
+We can use the following xml to register the Cluster as an SP at SSOCircle:
+
+.. figure:: _static/image074.png
+    :align: center
+
+    REGISTER CLUSTER SERVER AS AN SP AT SSOCIRCLE
+
+Now at the SSOCircle, need to add a new service provider:
+
+.. figure:: _static/image075.png
+    :align: center
+
+    ADD A SERVICE PROVIDER AT SSOCIRCLE
+
+In the next screen we can paste in the xml from the Cluster side, set the FQDN to the URL contained within the XML, and check the 3 parameters,
+the FirstName, LastName and Email.
+
+.. figure:: _static/image076.png
+    :align: center
+
+    INSERT YOUR METADATA INFORMATION
+
+Now the SSOCircle side of the registration is done.
+
+**Step 2: Register SSOCircle at the Cluster Server side**
+
+The IdP registration and SP registration is a two-way I trust you and now you trust me kind of manual setup.
+
+.. figure:: _static/image077.png
+    :align: center
+
+    MUTUAL TRUST SP REGISTRATION
+
+The meta data from the SSOCircle look like this and it can be imported to the Cluster Server.
+
+.. figure:: _static/image078.png
+    :align: center
+
+    EXAMPLE OF SSOCIRCLE META DATA
+
+Inside the meta data from SSOCircle, you will see there is a HTTP-Redirect URL, that will be the URL we use to register the IdP.
+And also register the 3 paramaters (FirstName, LastName, EmailAddress) from the IdP.
+
+.. figure:: _static/image_s5_6_25.png
+    :align: center
+
+    SINGLE SIGN ON SETTINGS
+
+**Step 3: Login at the IdP, but use service at SP**
+
+As the summary, the IdP and SP register each other's meta data, register each other's URL and parameters.
+After that, it will be single signon at the IdP side. The login will be at the IdP side, and after login,
+it will redirect back to the SP side.
+
+.. figure:: _static/image080.png
+    :align: center
+
+    IDP SIDE SIGLE SIGNON
+
+
+Folder & Storage
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+``Tenant Management Console`` > ``Group Policy`` > ``Folder & Storage``
+
+.. figure:: _static/2021newimage114.png
+    :align: center
+
+    FOLDER AND STORAGE PANEL
+    
+
+Home Directory
+----------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Folder & Storage`` >  ``Home Directory``
+
+.. figure:: _static/image_s5_6_31.png
+    :align: center
+
+    HOME DIRECTORY SETTINGS
+
+**“Default Storage quota”**
+
+    This policy will not affect existing user and their quota. It can affect a newly created user for the default storage quota.
+
+**“Create default folders”**
+
+    When the new user account is provisioned, the default root folder is empty.
+    
+    “Create default folder (Documents, Pictures)” will make the root folder look less empty and more user-friendly. This hints at how to organize files and folders in the cloud.
+
+**“Use user email to generate home directory name”**
+
+    The home directory name will be created using user's email address.
+    
+    By default, it is user's GUID that is used to create user's home directory.
+
+**“Use user's sAMAccountName to generate home directory names for Active Directory users”**
+
+    This option supports clients and servers from previous versions of Windows that use Security Account Manager (SAM)type user accounts. 
+
+**"Publish user's home drive"**
+
+    When unchecked, the user home drive space will be allocated from enterprise storage. When checked, existing user home drives will be automatically published from Active Directory.
+
+**"Mount user's home drive as a top level folder."**
+
+    Without this option, the user's home drive from active directory mapping will become the root folder in |prodname|. However, if the user also have network shares mapped into |prodname|, those network shares
+    will appear as top level folders. So in this use case, mapping user's home folder as a top folder
+    is more in parallel to the other network shares.
+
+
+Folder and Storage Settings
+-----------------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Folder and Storage``
+
+These are the settings available to the tenant manager in the Folder and Storage view.
+
+.. figure:: _static/image_s5_6_30a.png
+    :align: center
+
+    FOLDER AND STORAGE SETTINGS
+
+
+**“Allow users to attach external cloud storage”**
+
+    when checked, you will allow users to see storage manager
+    and allow them to attach external storage such as their own Amazon S3 bucket into the system.
+
+**“Disable Versioned folder”**
+
+    Normally you will NOT disable versioned folder. Because versioned folder is the
+    supporting feature for “Two-way sync locally attached folder”. If you disable versioned folder, you will lose the
+    two-way synchronization folder feature as well.
+
+**Disable Trash Can**
+
+    For folders that are not under version control, a deleted file
+    will be moved into Trash Can. If this feature is not useful, 
+    you can disable it.
+
+**“Don't show folder that user doesn't have read permission”**
+
+    With native Active Directory integration and
+    with network share as backend storage, the user’s permission to the folders are checked natively. When this option
+    is set, for those folders that users doesn’t have read permission, the folder will be hidden.
+
+**"Don't show team folder that the user doesn't have read permission to the underlying folder"**
+
+    In the folder listing, if the user don't have read permission, sometimes it is better off not to show 
+    the folder to the user.
+  
+**Don't show Trash Can for non-admin user**
+
+    Trash Can is a virtual folder that shows up 
+    at the web browser portal only. This setting controls whether or not to show it for 
+    regular team user.
+
+**“Don’t append (Team Folder) to published folders”**
+
+    A team folder by default, when showing up in a team user’s
+    folder list, it will have “(Team Folder)” appended to the end of the folder name to signify it is a team folder.
+    This feature allows a team folder showing up as it is without the (Team Folder) suffix. The use case is that when
+    a network share is mounted and then turned into a team folder, since the users are already familiar with the
+    network share in its original name, so it is not necessary to append (team folder) to the folder name. You
+    shouldn’t change this setting in the middle of operation because if users have pending upload/download, changing
+    the name could cause those tasks to fail.
+
+
+Attached Folder Settings
+--------------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Folder & Storage`` > ``Attached Folder``
+
+.. figure:: _static/image_s5_6_32.png
+    :align: center
+
+    ATTACHED FOLDER SETTINGS
+
+
+**“Disable backup/attach local folder from client device”**
+
+    Attached Local Folders are two-way synchronization
+    folders. In order to do version backup and two-way synchronization, there are multiple folder structures created
+    in the backend storage. Some organization doesn’t need this feature and want the users to work exclusively with
+    the cloud drive.
+
+**"Enable Snapshot backup for server agent"**
+
+    It is a feature related to server agent on Windows 2003-2012 servers.
+
+
+**"Allow syncing empty files"**
+
+    By default, empty file (0-byte) will be skipped for syncing in attached folder.
+    when enabled, those files will be synchronized.
+    
+**"Allow syncing of hidden files"**
+
+    Hidden files by default will not sync.
+
+**"Allow executable files (.exe)"**
+
+    Executable files by default will not sync.
+
+**"Allow ISO files (.iso)"**
+
+    Executable files by default will not sync.
+
+**"Allow backup files(.bck, .bkf,.rbf, .tib)"**
+
+**"Allow VMs (.hdd, .hds, .pvm, .pvs, .vdi, .vfd, .vhd, .vmc, .vmdk, .vmem, .vmsd, .vmsn, .vmss, .vmtm, .vmwarevm, .vmx, .vmxf, .vsv, .nvram, .vud, .xva)"**
+
+**"Allow application folders"**
+
+    Application folder by default will not sync.
+
+**"Allow application data folders"**
+
+    Application data folder by default will not sync.
+
+
+**Enable scheduled sync for files with following extensions**
+
+    this is to help sync/upload frequently changed file such as
+    Microsoft access database or QuickBook files. These type of
+    files typically are constantly open (thus prevent other application to hold on to them)
+    and also changed frequently. So you can define the time
+    period to check back on these type of files and use volume
+    shadow copy to upload these files.
+    
+    
+Filters Settings
+------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Folder & Storage`` > ``Filters``
+
+.. figure:: _static/image_s5_6_33.png
+    :align: center
+
+    GROUP POLICY FILTER SETTINGS
+
+**“Files with the following extensions will be excluded from attached local folder”**
+
+    You can stop certain file types from
+    being uploaded. For example .pst files. These are local outlook email files, which is not necessary to upload into the
+    cloud storage because usually it is backed up by an exchange server.
+
+
+**"Files with following extensions will be excluded from directory listing (i.e.[.qbw]):"**
+
+    You can specify the executables which should not be
+    listed under a user's directory.
+
+**“In-place editing/Preview is disabled for files with following extension”**
+
+    Windows Explorer has a habit
+    to peek into large files to generate thumbnail and present other information. It may not be a good fit for
+    cloud drive files because each peek will generate a download from cloud.
+
+**"Allow file without file name extension"**
+
+    Allow files without extension suffix to synchronize.
+    
+    
+**"Allow syncing empty file"**
+
+    This is the same setting as in the "Attached Folder" section.
+
+
+5.6.4 Client Control
+^^^^^^^^^^^^^^^^^^^^^^
+
+Web Portal Settings
+---------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Client Control`` > ``Web Portal``
+
+.. figure:: _static/image_s5_6_40a.png
+    :align: center
+
+    WEB PORTAL PANEL
+
+
+.. figure:: _static/image_s5_6_40b.png
+    :align: center
+
+    WEB PORTAL SETTINGS
+
+
+**“Disable folder download from web client”**
+
+    Disabled by default. The folder download from web client will zip up the folder and download it. It is CPU intensive so if you don’t want it to be consuming too much CPU, you can disable it using this setting.
+
+
+
+**“Disable Search”**
+
+    Disabled by default. If you don’t need the search by file name feature, you can check this setting to disable it.
+
+**“Web Browser - Disable Java Uploader”**
+
+    Some organization standardized on web browser, for example, all web browser are HTML5 compliant. In this case, Java Uploader is not necessary and could be confusing to support when different users have different Java version installed.
+
+**“Web Browser - Disable Flash Uploader”**
+
+    Some organization standardized on web browser, for example, all web browser are HTML5 compliant. In this case, Flash Uploader is not necessary and could be confusing to support when different users have different Flash version installed. Different kind of web browser may also have different levels of Flash support, causing different behavior.
+
+**“Web Browser - Disable Local Uploader”**
+
+    Admin can also disable local uploaded in which case the upload will happen using the browser directly.
+
+**“Enable Tabbed-Browsing in User Manager”**
+
+    When enabled, the user manager will order users by their last name so if you have many users, you have an easy to access way to find the users.
+
+**“Only show search interface in User Manager”**
+
+    When you have even more users, Tabbed-Browsing can’t handle it any more, you can enable search-only interface.
+
+**"Show tutorial page for non-admin users"**
+
+    Display tutorial page for regular users when they login to the web portal.
+
+**“Show team folder level permissions in team folder publishing dialog”**
+
+    The advanced setting refers to “Create CIFS Share”, “Disable further sharing”, and “Disable Offline Access” settings.
+
+
+**"Disable 'Publish Tenant Home Storage As a Team Folder'"**
+
+    This feature can be hidden in Tenant Management Console > Team Folder > Add New Team Folder 
+
+**"Confirm before moving via drag-and-drop"**
+
+    In web portal, sometimes there can be accidental drag and drop, in this case, having a confirmation dialog can help prevent accidental drag and drop.
+
+**"Show left tree view by default"**
+
+    Disabled by default. When enabled left-tree is displayed when you log in to the web portal. 
+
+
+**"Do not show "recent activities"**
+
+    Disabled by default. When enabled "recent activities" is not visible in the Show/Hide Info Panel on the right side of the Web Portal File Browser. 
+
+
+**"Show 'link to local' option to non-admin user"**
+
+    Disabled by default. When enabled, non-admin user will have access to the **"Link to Local"** option in the Sharing and Collaboration tab under the Show/Hide Info Panel on the right side of the Web Portal File Browser. 
+
+**"Show max count of file/folder items"**
+
+    Default files to show is 1,000. Some customers may have a very flat folder that has more than one thousand files. It is not recommended to have a cloud system have flat folder structure like this. But if customer has many files in a flat folder. This setting can be used to show all files by increasing this number as needed.
+
+
+Native Client Settings
+------------------------
+
+``Tenant Management Console`` > ``Group Policy`` > ``Client Control`` > ``Native Client``
+
+.. figure:: _static/image_s5_6_40.png
+    :align: center
+
+    NATIVE CLIENT SETTINGS
+
+**“Create a shortcut in the documents library”**
+
+    Enabled by default. This is a convenience feature to add a link to documents library to the cloud drive.
+
+**“Create shortcut on desktop”**
+
+    Enabled by default. Same as above but the shortcut is on the desktop.
+
+**“Hide Settings in Windows Client Management Console”**
+
+    Disabled by default. The Settings in the Windows client may be viewed as “too much information for normal user”. If that is the case, enabling this option will hide those settings.
+
+**“Don't Allow Setting Changes in Windows Client Management Console”**
+
+    Disabled by default. When disabled the Windows Client user can change the settings in the Windows Client Management Console. 
+
+**“Disable Windows client in-place drag & drop uploading”**
+
+    Unchecked by default. When enabled, dragging & dropping files (or folders) to the cloud drive will write files to the local cache first and then upload in the background. 
+
+**“Disable Auto-Login next time”**
+
+    Unchecked by default. When you want the user to type in username/password every time they login to the Windows client, you can check this to disable auto-login.
+
+**“Disable drag & drop handler”**
+
+    Unchecked by default. If you check this option, the Windows file drag and drop will take over, this typically means the files will be copied into cache before upload, thus resulting in two copies of files being uploaded.
+
+**Requiring approval for device access**
+
+    Disabled by default. When a user attempts to log in from a new device via native client applications, the connection will be rejected until the tenant admin approves the new device. The approval can be done from the "Client Device Manager" 
+
+**“Enable auto-install of Outlook Plugin”**
+
+    Disabled by default. The Cluster Server Windows Desktop client comes with an Outlook plug-in. If this option is enabled, the Outlook plugin will be enabled upon client startup.
+
+**"Disable native client for guest users"**
+
+    Unchecked by default. For guest users, don't allow them to use native client, so the guest users can only use web browser files and folder view.
+
+
+5.6.5 Export/Import
+^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/image_s5_6_50.png
+    :align: center
+
+    EXPORT/IMPORT ICON LOCATION
+
+You can also export the group policy settings to other clusters in the environment or import existing settings from another cluster.
+
+
+*********************
+5.7 Tenant Branding
+*********************
+
+``Tenant Management Console`` > ``Tenant Branding``
+
+If per-tenant branding is enabled, The tenant branding section will be available.
+
+.. figure:: _static/2021newimage115.png
+.. figure:: _static/2021newimage116.png
+    :align: center
+
+    PER-TENANT BRANDING OPTIONS
+
+**Customized URL for your business**
+
+    Typically the customize URL is a sub domain of the Cluster Server. For example, if the Cluster Server is at https://cloud.mycompany.com, the sub domain can be https://acme1.mycompany.com 
+
+    In Windows 2012 and above (the server that has the Cluster Server running), it also allows SNI (Server name indicator) in the SSL certificate binding. So it is possible to bind multiple SSL certificates to the same IIS server. In this case, the Customized URL can be a fully qualified domain name. 
+
+
+***************************
+5.8 Tenant Administrators
+***************************
+
+``Tenant Management Console`` > ``Tenant Administrators``
+
+You can define a group of administrators here.
+
+.. figure:: _static/image_s5_8_00.png
+    :align: center
+
+    ADDING/EDITING TENANT ADMINISTRATORS
+
+
+
+***************************
+5.9 Reports
+***************************
+
+``Tenant Management Console`` > ``Reports``
+
+You can see upload report, storage statistics, team folders, shared objects, audit trace, and file change logging.
+
+
+5.9.1 Upload Report
+^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage117.png
+    :align: center
+
+    UPLOAD REPORT
+
+
+5.9.2 Storage Statistics
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage118.png
+    :align: center
+
+    STORAGE STATISTICS REPORT
+
+5.9.3 Bandwidth Usage
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage119.png
+
+
+   BANDWITH USAGE REPORT
+ 
+
+5.9.4 Team Folders
+^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage120.png
+    :align: center
+
+    TEAM FOLDERS REPORT
+
+
+5.9.5 Shared Objects
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage121.png
+    :align: center
+
+    SHARED OBJECTS REPORT
+
+
+5.9.6 Audit Trace
+^^^^^^^^^^^^^^^^^^^
+
+Audit trace contains the management events, such as login success, login fail , shared a folder and etc.
+
+.. figure:: _static/2021newimage122.png
+    :align: center
+
+    AUDIT TRACE REPORT
+
+
+5.9.7 File Change Log
+^^^^^^^^^^^^^^^^^^^^^^^
+
+File change log is capable of search for user’s file change history. It is most useful when helping user
+troubleshoot issues. For example, you can point to the file change log and say, you deleted this file on this
+day.
+
+.. figure:: _static/2021newimage123.png
+    :align: center
+
+    FILE CHANGE LOGGING REPORT
+
+
+5.9.8 Folder Permissions
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage124.png
+    :align: center
+
+    FOLDER PERMISSIONS REPORT
+
+
+5.9.9 Distributed Locks
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage125.png
+    :align: center
+
+    DISTRIBUTED LOCKS REPORT
+
+
+5.9.10 Pending Purged Folder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage126.png
+    :align: center
+
+    PENDING PURGED FOLDER REPORT
+
+
+**************************
+5.10 Advanced Information
+**************************
+
+``Tenant Management Console`` > ``Control Panel``
+
+.. figure:: _static/image_s5_10_01.png
+    :align: center
+
+    TENANT MANAGEMENT CONTROL PANEL
+
+
+5.10.1 Active Directory Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/image_s5_10_11.png
+    :align: center
+
+    CONTROL PANEL AD SERVER SETTINGS
+
+AD Server Tab
+---------------
+
+**“Enable Active Directory Integration”**
+
+    You will check this when you want to integration with Active
+    Directory.
+    
+    .. note::
+    
+        There are two different ways to integrate with Active Directory. One way is here, using the Lightweight Directory Access Protocol (LDAP) connection. The other way is to leverage the server agent software. The server agent software is capable of connecting a remote Active Directory. 
+
+**“Domain Controller Address”**
+
+    The domain controller’s address, typically in the form of DNS name.
+
+**“User Name”**
+
+    This is recommended to be a service account (password never expire, account never disable” so the user will be able to query LDAP for users and authenticate users on the login user’s behave.
+
+**“Password”**
+
+    This is the password for the service account for the “User Name” field.
+
+Advanced Settings Tab
+-----------------------
+
+.. figure:: _static/image_s5_10_11a.png
+    :align: center
+
+    CONTROL PANEL AD ADVANCED SETTINGS
+
+
+**“Friendly Domain Name”**
+
+     **(i.e. mydomain.com, the domain name you see in Active Directory tools)** This is typically the domain name you see in the Microsoft Domain and User tool. It needs to be exact match of the domain name. Otherwise, you will see error message about “referral is required” , which translates to the domain controller didn’t match the domain name and need to refer you to somewhere else for another domain name. 
+
+.. figure:: _static/image038.jpg
+    :align: center
+
+    FRIENDLY DOMAIN NAME EXAMPLE
+
+**“Enable LDAPS for secure access”**
+
+    Disabled by default. Enable this if you are using SSL security on the domain. 
+
+**“Only include users and groups from the following Organizational Units”**
+
+    **(e.g. OU=ou1,OU=ou2. Leave this blank to include all OUs)** When you type in the organization unit, you don’t need to type the domain part any more. It just need the Organization Unit part of the string. This is allowed for only single Organization Unit specified in its distinguishedName format without the domain suffix. 
+
+**“Allow Switching to Global Catalog If needed”**
+
+    Disabled by default. For some organization that has multiple domain, sometimes there is a Global Catalog that stores everything inside. This may be required if you have such situation. 
+
+**“Disable Nested Groups”**
+
+    Not checked by default. **(Activating this checkbox may slow down your access to cloud)** Normally you will activate this option if you have many groups. 
+
+**“This is the root of the AD Forest and contains multiple sub-domains”**
+
+    The Cluster Server supports multiple domains in the same AD forest. You will need to point to the root of the AD and it is capable of finding all the sub-domains if you enable the **Discover domain controller IP at runtime** sub-opion. 
+
+**“Don’t allow user auto-creation”**
+
+    By default, the Enterprise package is capable of creating users upon first login into the web portal. However, for big enterprise, they may want to control the pace of adding users to the system so they will disable this feature.
+
+**“Publish user’s home drive”**
+
+    When unchecked (default), the user home drive space will be allocated from enterprise storage. When checked, existing user home drives will be automatically published from Active Directory. 
+
+.. figure:: _static/image039.jpg
+    :align: center
+
+    USER'S PROFILE HOME FOLDER SETTING
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/LDyBrixnJw4" frameborder="0" allowfullscreen></iframe>
+
+
+5.10.2 Client Device Manager
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This feature is used to control BYOD (Bring your own device). For some organization, they want to control who can bring what device into the system. This is the tool to control that and allow/disallow on a device by device basis.
+
+.. figure:: _static/image_s5_10_20.png
+    :align: center
+
+    CONTROL PANEL DEVICE MANAGER
+
+
+5.10.3 Application Manager
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/2021newimage127.png
+.. figure:: _static/2021newimage128.png
+    :align: center
+
+    CONTROL PANEL APPLICATION MANAGER
+
+This section configure several web applications to the web portal on a per-tenant basis.
+
+
+****************************
+5.11 Tenant Administrators
+****************************
+
+.. figure:: _static/image_s5_11_01.png
+    :align: center
+
+    ADDING/EDITING TENANT ADMINISTRATORS
+
+This section allows you to delegate the administration of tenants to other users.  
+
+
+*******************
+5.12 Notification
+*******************
+
+
+5.12.1 Settings 
+^^^^^^^^^^^^^^^^
+
+.. figure:: _static/image_s5_12_10.png
+    :align: center
+
+    NOTIFICATION SETTINGS
+
+Send Daily Notification Email -
+When set, the system will send email notification daily about the events you are interested (Select below).
+
+
+    - File Changes	
+    - Audit Trace	
+    - Users approaching the storage quota limit	
+    
+    
+Notify tenant admin when member's sync task failed.	
+
+Notify tenant admin when member shared a folder	
+
+Notify me when user account is locked out	
+
+Send notification to these emails in addition to tenant admin's email (email;email2) - This
+is used for additional administrators to receive email notification.
+
+
+5.12.2 Shared File/Folder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/image_s5_12_20.png
+    :align: center
+
+    TEAM FOLDER SUBSCRIPTION OPTION
+
+Notification regarding the changed files and folders
+Team Folder - notification regarding changed files and folders
+Settings
+
+  Send Daily Notification Email
+  Notify tenant admin when member's sync task failed
+  Notify tenant admin when member shares a folder
+  Notify me when user account is locked out.
+
+5.12.3 Team Folder Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/image_s5_12_30.png
+    :align: center
+
+    NOTIFICATION SETTINGS
+
+Administrators can use this setting to receive notifications when changes occur in team folders. 
+
+
+***************************
+5.13 Folder Admin Support
+***************************
+
+
+5.13.1 User’s File and Folder List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/image_s5_13_10.png
+    :align: center
+
+    VIEWING A USER'S FILE AND FOLDER LIST
+
+An admin can view a user’s file and folder list using the drive icon **(3)** for the user in Management Console\User Manager. 
+
+First switch the icon view **(1)** to detail view **(2)** and click the drive icon **(3)** next to the user you are examining. This will open a new window **(4)** where you can view the files. 
+
+
+5.13.2 Storage Location Migration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+There are two types of storage migrations.
+
+**1.** Migrate data to a different location in the same type of storage using the steps below:
+  a. Identify the location of the current storage
+  b. Copy the content to the new location (for example, you can use xcopy *.* from the old location to the new location
+  c. Login to web portal as master admin.
+  d. Launch Management Console -> Collaboration -> Storage Manager and click on edit to point to the new location
+
+**2.**	Migrate data to a different type of storage using the steps below:
+  a. Go to the registry using regedit
+  b. Go to HKLM\\SOFTWARE\\Gladinet\\Enterprise\\ and add a new string value called ‘CanChangeDefaultStorage’ and set the value to ‘True’ and reboot
+  c. Edit the storage type using new icon to edit storage under Cluster Manager\Tenant Manager
+
+.. Note::
+
+  It is not recommended that you modify registry settings. Create a backup of the registry before modifying any registry settings.
 
