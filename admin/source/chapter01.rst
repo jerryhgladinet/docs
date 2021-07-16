@@ -1,38 +1,107 @@
-############################################
-2 Overview of |prodname|
-############################################
+##############################
+Administration Scope
+##############################
 
-|prodname| is a mobile access and secure file sharing solution. It differentiates itself from other File Sync and Share solutions by focusing on data security, permission controls and,
-file server cloud-enablements including data protection and cloud migration. |prodname| surpasses the competition in the following areas:
+**********************
+Management
+**********************
 
-   1. Maintaining Active Directory, security and NTFS permissions on files and folders.
-   2. Providing live time sync-and-share with versioning and revision controls.
-   3. Providing On-Demand access that honors Read-Only, and Write permissions in Real-Time.
-   4. Mirroring of local network shares for Team Collaboration in the Cloud.
-   5. Provide drive mapping and file locking functionality for files in the Cloud.
+In |prodname|, objects that can be managed are defined in the following picture.
+You can manage objects at different levels from one single management portal. 
 
-|prodname| is a software solution built on top of the Microsoft Web Platform. It provides file access and sharing functionality from PCs, Macs, File Servers, Web Browsers, and Mobile Devices. In addition, it also brings data protection and cloud migration features.
+.. image:: _static/ManagementScope.png
 
-The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy |prodname|.
+********************
+Partner Portal
+********************
 
-    1. Deploy the |prodname| server in the same site as the File Servers and Active Directory domain controllers:
+The Partner Portal is used primarily for managing licenses and licenses distribution amongst all of your |prodname| Servers. 
+
+The partner portal is located at https://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
+
+.. tip::
+
+    Commonly, you will download the |prodname| software, set it up and leverage the built-in 30 day trial time to finish the setup. Towards
+    the end of the trial, you assign licenses from the partner portal to your
+    Server and activate it into a production environment.
+
+Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can be managed via the Partner Portal.
+
+*******************************************
+Self-Hosted |prodname|
+*******************************************
+
+In the User Interface, the Self-Hosted |prodname| instance is referred to as a Cluster or a Server Farm. A Cluster can be as small as a single Server or scaled out to include multiple Servers in a Server farm.
+
+**Hosted CentreStack**
+
+In the Partner Portal, you can also manage tenants which are hosted by CentreStack (sync4share).
+This document doesn't cover Hosted CentreStack. Please refer to the Hosted
+CentreStack Administration Guide (https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) for more information on hosted options.
+
+**Tenants**
+
+In a |prodname| management interface, most of the time you are managing tenants. 
+It can be a single tenant when deployed for a single company, or it can be
+multiple tenants. A tenant is a management and billing scope that includes a number of users
+and a specific amount of storage. It normally maps to a company or a client of yours.
+
+**Users, Devices, File Server Shares**
+
+In each tenant, the objects you manage include Users and Devices as well as File Server
+Network Shares for Team Folder collaboration (Team Shares).
+
+This document is focused on the management scope for a Self-Hosted |prodname|.
+In the server management interface, there are two administration scopes: Cluster Administrator and Tenant Administrator.
+
+***************************
+Cluster Administrator
+***************************
+
+The Cluster Administrator can manage cluster-wide functionalities, such as email SMTP server setup and worker node
+properties etc. 
+
+In the Deployment Guide, the Cluster Administrator is often referred to as the Master
+Admin, Root Admin, or just Server Administrator. Even though the Cluster Server Farm can have multiple Servers, 
+most of the time, a server-farm with one single server is sufficient for your use case and your user base.
+
+**************************
+Tenant Administrator
+**************************
+
+Tenant Administrator can manage Tenant-Wide functionalities, such as Group Policies. 
+The Cluster Admin is 
+also a Tenant Admin for the very first Tenant (Default Tenant) so the Cluster Administrator manages both Cluster Administration and Tenant Administration (for the default tenant). 
+In the multiple-tenant case, each Tenant Administrator will be responsible
+for the Tenant’s administration scope.
+
+The Cluster Administrator by default can help each Tenant Administrator manage at the tenant level.
+
+In real-world scenarios, the tenant is often mapped to an organization; a client of an MSP or a customer that has many employees.
+
+There are two icons related to cluster administration and tenant administration:
+
+* Cluster Manager icon               
+
+    .. image:: _static/image_s3_4_0.png
+
+* Tenant Manager icon    
+
+    .. image:: _static/image_s3_4_1.png
     
-    .. image:: _static/SelfHostedCentreStackDirectShare.svg
-    
-    See also:
-    
-    `File Server Remote Access <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_
-    
-    2. Deploy in a cloud data center, such as Amazon Web Services EC2, Microsoft Azure, or in a Data Center where the Managed Service Provider (MSP) hosts their infrastructure:
-    
-    .. image:: _static/SelfHostedCentreStackRemoteShare.svg
+.. hint::
 
-
-
-Please reference the “Installation Checklist” as well as the “Installation Guide” for information on how to setup and deploy CentreStack.
-This guide is focused on the administration of |prodname|.
+    Tenant(s) usually map to your organization(s) or client(s).
+    
+    If you are logged in as the Default Cluster Admin, you will manage the 
+    tenant-level scope from the "Tenant Manager" instead of using the 
+    "Tenant Manager icon".
 
 .. note::
 
-    This Administration Guide is for the Self-Hosted |prodname|.
-    For Hosted-CentreStack, please reference the Hosted CentreStack Admin Guide.
+  1: All the administration work is performed via the web portal inside a web browser. Recommended browsers include Google Chrome first, followed by Firefox, Internet Explorer, Safari, and Opera. (Internet Explorer requires version 9 and above and includes Microsoft Edge Browser)
+
+  2: The very first user who installed the Cluster Server is also the Cluster Admin and Tenant Admin for the Default Tenant. In order for the Cluster Admin to be familiar with the tenant functionality, the Cluster Admin
+  is provided a small 3-user default account (Tenant Account).
+  
+  3: You can start the administration work at any time by pointing your web browser to the Cluster Server's IP Address or DNS name. If you are on the Cluster Server console, you can even use http://localhost to get started.
