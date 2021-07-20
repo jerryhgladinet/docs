@@ -1,8 +1,8 @@
 ########################
-11 Upgrade CentreStack
+11 Upgrade |prodname|
 ########################
 
-We publish updated notes to our public blog forum called `CentreStack Blog`__. It is recommended that you perform an update if your self-hosted CentreStack and clients are three months or older.
+We publish updated notes to our public blog forum called `|prodname| Blog`__. It is recommended that you perform an update if your self-hosted |prodname| and clients are three months or older.
 
 .. _CentreStack_Blog: http://blog.centrestack.com/ 
 __ CentreStack_Blog_

@@ -12,5 +12,5 @@ After setting up the cluster administrator account, the cluster administrator's 
 
 .. image:: _static/image_s3_1_2.png
 
-Once you see the dashboard, the CentreStack side of the setup is finished successfully. We will continue to check the storage configuration and make sure all components are fully functional.
+Once you see the dashboard, the |prodname| side of the setup is finished successfully. We will continue to check the storage configuration and make sure all components are fully functional.
 
