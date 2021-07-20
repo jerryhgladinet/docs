@@ -1,27 +1,20 @@
-###################################################
-Add additional CentreStack servers to the cluster
-###################################################
-Adding an additional CentreStack server is as simple as installing the first CentreStack server. Run the CentreStack server installation program on another server, specifying the same database as the first server in the cluster.
+#############
+10 Branding
+#############
 
-.. warning::
-    Adding additional CentreStack servers to an existing cluster is optional. 
+You can brand the web portal, Windows and Mac clients, iOS and Android Applications.
 
-    If you only have a few hundred users, you don't need to have a 
-    second node from a scalability perspective. The scalability
-    point of adding a second CentreStack Server is at 1000 users. 
-    For best practices, you will
-    always scale vertically first such as making a 2-CPU machine into a
-    4-CPU machine and add RAM to the CentreStack Server before
-    scaling horizontally by adding more CentreStack Servers.
-    
-    However, from a high availability(HA) perspective, you may want to 
-    have a second CentreStack Server.
+Self-Service Branding
+=======================
 
-.. warning::    
-    An external database server should be deployed if you are scaling out the cluster to more than one CentreStack server. The "all-in-one" deployment with a local MySQL database is not intended to be used for scaling out or high availability.
+The self-service branding starts with the "Cluster Manager". In order to start the branding, you will login to
+the web portal as the Master Administrator.
 
-.. warning::    
-    A hardware or software load balancer will be required if more than one CentreStack server is deployed in a cluster.
+After you login to the web portal, click to the "Cluster Branding" Pages.
 
-.. warning::
-    All CentreStack servers in the same cluster must use the same time zone.
+.. image:: _static/image_s10_1_1_v2.png
+
+Please reference the "Branding" section in the `Admin Guide`__ for the self-hosted |prodname| server.
+
+.. _Admin_Guide: https://centrestack.com/Library/AdminGuide/chapter03.html#cluster-branding 
+__ Admin_Guide_
