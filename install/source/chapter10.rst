@@ -14,7 +14,7 @@ After you login to the web portal, click to the "Cluster Branding" Pages.
 
 .. image:: _static/image_s10_1_1_v2.png
 
-Please reference the "Branding" section in the `Admin Guide`__ for the self-hosted CentreStack server.
+Please reference the "Branding" section in the `Admin Guide`__ for the self-hosted |prodname| server.
 
 .. _Admin_Guide: https://centrestack.com/Library/AdminGuide/chapter03.html#cluster-branding 
 __ Admin_Guide_
