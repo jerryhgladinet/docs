@@ -1,47 +1,70 @@
-#####################################
-Client Agent Software and Downloads
-#####################################
+#################################
+Folder Legends in Web Interface
+#################################
 
-The |prodname| Cloud access platform supports several different clients which allow users to leverage cloud storage in ways that make sense for
-the client. Supported clients include:
+There are many different folders in the web interface. 
 
-    *	HTML 5 based Web Portal 
+Here is a list of them.
+
+Mounted Storage
+================
+
+    .. figure:: _static/attachedcloud.png
+        :height: 64px
+        :width: 64px
+
+    This folder represents mounted/attached storage. For example, a mounted file server network share or a connected Amazon S3 bucket will look like this.
     
-        - Chrome
-        - Firefox
-        - Internet Explorer
-        - Opera
-        - Safari
-        - older web browsers such as Internet Explorer 8
+Sync From Remote
+=================
+
+    .. figure:: _static/attachedlocal.png
+        :height: 64px
+        :width: 64px
+
+    This folder represents synchronization folders from remote PCs or Server Agents.
+    
+Received Shares
+================
+
+    .. figure:: _static/sharedfolder.png
+        :height: 64px
+        :width: 64px
+
+    This folder represents the root folder of all the shared files and folders from other users.
+    
+Regular Folder
+===============
+
+    .. figure:: _static/shareitemfolder.png
+        :height: 64px
+        :width: 64px
+
+    This folder represents a single shared folder received from other users.
+    
+Team Folder
+============
+
+    .. figure:: _static/teamfolder.png
+        :height: 64px
+        :width: 64px
+
+    This folder represent a team folder that is published to users and viewed from the users who received the team folder.
+    
+Version Control
+================
+
+    .. figure:: _static/versionfolder.png
+        :height: 64px
+        :width: 64px
+
+    Version folder represents folders that every files inside is under version control. 
+    
+    .. note::
+    
+        If a folder doesn't have the version folder icon, doesn't mean it is not a version folder. 
         
-    *	Desktop Client for Windows and Mac
-    *	Server Agent for Windows Servers
-    *	Mobile Clients for iOS (iPad and iPhone)
-    *	Mobile Clients for Android phones
-    *   Mobile Clients for Windows Phone
-
-.. warning::
-
-    Internet Explorer 8 is supported for Team User. However
-    for any administrative works (Cluster Admin, Tenant Admin,
-    Delegate Admin), Internet Explorer 8 is no longer supported
-    for any administrative works.
+        As long as one of the parent folder is a version folder, everything inside is under version control.
+        
+        If the administrator setup the user as version control from the root, the team user may not see the version folder icon either when version control is on by default.
     
-    
-Download Client Agent Software
-===============================
-
-Most of the Mobile clients will need to be downloaded from the Apple Store, Google Play Store or Windows Phone Market Place. 
-
-The Windows and Mac client agent software can be downloaded directly from the |prodname| web portal itself. Click the small user icon (1) and then click the client download graphic (2) to get started. 
-
-.. figure:: _static/image_s9_1_1.png
-    :align: center
-
-    ACCESSING YOUR DOWNLOADS
-
-
-.. figure:: _static/image_s9_1_2.png
-    :align: center
-
-    DOWNLOAD CLIENT AGENT SOFTWARE

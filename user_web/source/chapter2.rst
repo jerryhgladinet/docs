@@ -22,7 +22,7 @@ The web portal belongs to the client tier on the left. Web portal functionality 
     
 Two Deployment Scenarios
 =========================
-The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy the |prodname|.
+The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy |prodname|.
 
     1. Deploy in the same site as the File Servers and Active Directory domain controllers:
     
@@ -75,7 +75,7 @@ The |prodname| Cluster (One or more |prodname| servers) provides the access infr
 
 These services can be deployed in flexible combinations to meet different needs. 
 
-The |prodname| has an all-in-one installer, so it can easily be self-hosted by you or you can use the one hosted
+|prodname| has an all-in-one installer, so it can easily be self-hosted by you or you can use the one hosted
 already in the cloud.
 
 

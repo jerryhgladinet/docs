@@ -53,6 +53,9 @@ project = 'Installation Guide'
 copyright = '2018, Gladinet, Inc.'
 author = 'Gladinet, Inc.'
 
+prodname = 'CentreStack'
+
+rst_epilog = '.. |prodname| replace:: %s' % prodname
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.

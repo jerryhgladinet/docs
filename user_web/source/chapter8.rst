@@ -10,7 +10,7 @@ Go to the |prodname| server URL and enter the admin credentials to login.
     LOGIN AS TENANT ADMIN
 
 
-After logging into the portal, select ‘Management Console’ on the top right corner of the web portal:
+After logging into the portal, select ‘My Tenant’ in the Tenant section of the web portal:
 
 .. figure:: _static/image_s8_2_1.png 
     :align: center
@@ -112,7 +112,7 @@ Add Active Directory Users from Server Agent
 ----------------------------------------------
 
 When the Server Agent is available and connects to the specific
-tenant in the |prodname|, the Server Agent will show up
+tenant in |prodname|, the Server Agent will show up
 with the server's name at the bottom of the icon.
 
 Click through the Server Agent icon, you will see the "Add User" wizard and complete the wizard to add users. This is very similar to the add AD user from local LDAP process above. 

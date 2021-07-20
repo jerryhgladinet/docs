@@ -24,8 +24,8 @@ using the following web browsers.
 
     Google Chrome and Firefox have self-update features so
     most of the time you are running the latest version.
-    It is OK if these web browser are not latest, as long
+    It is OK if these web browser are not the latest versions, as long
     as they were released after 2011. 
     
-    For best user experience, we recommend latest version 
+    For the best user experience, however, we recommend the latest version 
     of web browsers.
