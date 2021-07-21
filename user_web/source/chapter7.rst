@@ -1,101 +1,70 @@
-#################
-Users and Files
-#################
+#################################
+Folder Legends in Web Interface
+#################################
 
-After you enter the "management console", you will be in the dashboard. When you are at the dashboard, you can access the tenant by clicking on the desired tenant from the options.
+There are many different folders in the web interface. 
 
-.. figure:: _static/image_s7_1_1.png
-    :align: center
+Here is a list of them.
 
-Once you are in the tenant manager, the top two objects to manage are users **(1)** and folders **(2)**. If you are using an Active Directory for importing users and permissions you can connect to your Active Directory by clicking the wrench icon **(3)**.
+Mounted Storage
+================
 
-.. figure:: _static/image_s7_1_2.png
-    :align: center
+    .. figure:: _static/attachedcloud.png
+        :height: 64px
+        :width: 64px
 
-    MANAGE USERS AND FILES
-
-Users
-=======
-
-Active Directory - LDAP
-------------------------
-
-In the AD Settings view you can add your local settings. Click Edit **(1)**, then select "Enable Active Directory Integration" **(2)**. 
-
-.. figure:: _static/image_s7_2_1.png
-    :align: center
-
-    CONNECTING TO ACTIVE DIRECTORY (AD)
-
-This gives you access to all the settings fields and the Advanced Settings Tab **(3)**. Once you have filled in the settings with an Administrator User account from your Active Directory, click **APPLY** to accept your changes. 
-
-
-Active Directory - Remote 
---------------------------
-
-If the users are coming from remote locations, away from the |prodname| server (so it is not in the same Local Area Network), the first step to take is to install the "server agent" software on a remote file server, as long as the file server is in the same remote Active Directory domain. Log into |prodname| from your File Server and download your Server Agent client. You can access this by clicking the **(+)** icon. Once this is setup on your File Server, |prodname| can access it to connect to your Remote Active Directory. 
-
-
-.. figure:: _static/image_s7_2_2.png
-    :align: center
-
-    ACCESS YOUR SERVER AGENT CLIENT
-
-
-
-.. figure:: _static/image_s7_2_3.png
-    :align: center
-
-    DOWNLOAD AND INSTALL
-
-.. note::
-
-    "Server Agent" software can import remote file server network share, and also import remote Active Directory users. Once Server Agent is installed and setup in remote location, the tenant administrator can use the Client Management Console "Migrate CIFS Shares" and "Migrate Users" **(1)** to import shares and users from Active Directory. Other actions are availible through the dropdown menu **(2)**. 
+    This folder represents mounted/attached storage. For example, a mounted file server network share or a connected Amazon S3 bucket will look like this.
     
-    .. figure:: _static/image_s7_3_1.png
-        :align: center
+Sync From Remote
+=================
 
-        MIGRATE SHARES AND USERS
+    .. figure:: _static/attachedlocal.png
+        :height: 64px
+        :width: 64px
 
+    This folder represents synchronization folders from remote PCs or Server Agents.
     
-Other Users
-------------
+Received Shares
+================
 
-In the Web Portal you can also just add Native |prodname| Users by clicking the Users link. Once in the Manage Users view, click "Create or Migrate User" **(1)** and in the new window choose "Native User" **(2)**.
+    .. figure:: _static/sharedfolder.png
+        :height: 64px
+        :width: 64px
 
-.. figure:: _static/image_s7_4_1.png
-    :align: center
-
-    ADDING A NATIVE |prodname| USER
-
+    This folder represents the root folder of all the shared files and folders from other users.
     
-Files
-======
+Regular Folder
+===============
 
-Adding files and folders can be accomplished by clicking **"Create Team Folder"**. Once the **"Team Folder Storage Locations"** view opens you can choose from many options: Existing Tenant Storage, File Servers in Local Area Network, Remote File Servers or Cloud Storage. 
+    .. figure:: _static/shareitemfolder.png
+        :height: 64px
+        :width: 64px
 
-.. figure:: _static/image_s7_5_1.png
-    :align: center
+    This folder represents a single shared folder received from other users.
+    
+Team Folder
+============
 
-    WAYS TO ADD STORAGE LOCATIONS
+    .. figure:: _static/teamfolder.png
+        :height: 64px
+        :width: 64px
 
+    This folder represent a team folder that is published to users and viewed from the users who received the team folder.
+    
+Version Control
+================
 
-File Servers
--------------
+    .. figure:: _static/versionfolder.png
+        :height: 64px
+        :width: 64px
 
-If you have an existing file server in the Local Area Network (LAN), you can import the network share directly to |prodname| **(1)**. Under Remote File Servers, you can install the Server Agent client **(2)** and access your file server remotely.
-
-.. figure:: _static/image_s7_5_2.png
-    :align: center
-
-    ADDING REMOTE FILES
+    Version folder represents folders that every files inside is under version control. 
     
     .. note::
     
-       The Server Agent is only required when the remote file server doesn't have direct LAN (local area network) access
-        to |prodname|. The Server Agent will be used in this case to facilitate communication between
-        the |prodname| server to the remote file server.
-
-
+        If a folder doesn't have the version folder icon, doesn't mean it is not a version folder. 
+        
+        As long as one of the parent folder is a version folder, everything inside is under version control.
+        
+        If the administrator setup the user as version control from the root, the team user may not see the version folder icon either when version control is on by default.
     
-

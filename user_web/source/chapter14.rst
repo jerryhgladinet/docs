@@ -3,7 +3,7 @@ Notifications
 ###############
 
 Subscribing To Change Notifications For Team Folders
-======================================================
+------------------------------------------------------
 
 Users can subscribe change notifications for Team Folders. Once subscribed, whenever a file or folder is changed in the team folder, the user will
 get an email with a list of changes. This notification only applies when the change is done by other users. It will not send out the notification
