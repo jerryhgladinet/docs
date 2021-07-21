@@ -1,5 +1,5 @@
 #################
-Getting Started
+Getting Started with the initial login
 #################
 
 To get started, point your web browser at the Triofox server.
