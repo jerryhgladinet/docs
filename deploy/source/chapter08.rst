@@ -2,7 +2,7 @@
 Deployment Options
 ==============================
 
-As documented above, CentreStack has three logical components, the database, the worker node and the storage. This section will go through
+As documented above, |prodname| has three logical components, the database, the worker node and the storage. This section will go through
 different deployment options. 
 
 All-In-One Deployment
@@ -11,7 +11,7 @@ All-In-One Deployment
 This is the simplest deployment. The database , the worker nodes are all on the same machine as
 the storage.
 When you are serving < 1000 users or you are doing Proof-of-Concept (POC), this is the ideal deployment because of its simplicity.
-You can have the CentreStack installer install the SQL Express/MySQL on the same machine before installing CentreStack software and then pointing the database to localhost\\SQLEXPRESS or local MySQL.
+You can have the |prodname| installer install the SQL Express/MySQL on the same machine before installing |prodname| software and then pointing the database to localhost\\SQLEXPRESS or local MySQL.
 In the All-In-One deployment, the storage location is typically set to a folder on local C: drive or local D: drive.
 
 The installer can install SQL EXPRESS so it is a one-click installation for convenience.
@@ -19,11 +19,11 @@ No need to do a separate SQL EXPRESS installation.
 
 .. Note::
 
-  If this is the first time you are installing CentreStack, this is the recommended setup because it is the easiest to setup and only takes 15-30 minutes on a clean machine. The installer will take care of all the installation without other manual steps.
+  If this is the first time you are installing |prodname|, this is the recommended setup because it is the easiest to setup and only takes 15-30 minutes on a clean machine. The installer will take care of all the installation without other manual steps.
 
 .. image:: _static/image003.png
 
-In the latest CentreStack installer, the installer is capable of doing the all-in-one installation without asking you to setup database separately.
+In the latest |prodname| installer, the installer is capable of doing the all-in-one installation without asking you to setup database separately.
 
 Single-Server Deployment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -40,7 +40,7 @@ Two-Server Deployment
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 In the two server deployment, the database is installed in its own server;
-away from the CentreStack worker node.
+away from the |prodname| worker node.
 Usually, this is an intermediate step leading to the “Three-Server Deployment” and a step towards scaling up the server farm.
 
 .. image:: _static/image005.png
@@ -49,7 +49,7 @@ Three-Server Deployment for Redundancy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The 3-machine deployment is another simple deployment. The database node is installed separately.
-Two CentreStack worker nodes are installed. The “External URL” field for each node is the same,
+Two |prodname| worker nodes are installed. The “External URL” field for each node is the same,
 such as “cloud.acme.com”. The load balancer will do a round robin load balancing to either node.
 A variation of the deployment is to set “External URL” field differently for the two worker nodes.
 When “External URL” field is the same as the load balancer URL, everything is round robin.
@@ -67,9 +67,9 @@ Multiple-Machine Deployment for Scalability
 In this deployment, you will have clear separation of database , storage service, and the
 worker nodes in a farm of servers. 
 
-The database  is not a CentreStack worker node; it is just a server that runs SQL Server or MySQL.
+The database  is not a |prodname| worker node; it is just a server that runs SQL Server or MySQL.
 
-The worker nodes are all CentreStack nodes which run the same software.
+The worker nodes are all |prodname| nodes which run the same software.
 Most of the time, in the multiple-machine deployment, a hardware load balancer is used to distribute the load evenly.
 
 .. image:: _static/image007.png
@@ -82,14 +82,14 @@ The web  nodes are used for user login. After login, the user will be re-directe
 For the load balancing to work, all the worker nodes have to be on the same DNS domain and same level of sub domain
 (for example, they can be covered by same SSL wildcard certificate, such as \*.acme.com).  The load balancing requires at least two worker nodes.
 
-*	Install the CentreStack server on the first worker node machine. Reboot and setup the cluster admin account.
+*	Install the |prodname| server on the first worker node machine. Reboot and setup the cluster admin account.
 
 .. note::
 
   We recommend you setup and configure the first node and make sure it runs smoothly first, before you setup and install the second node.
 
 
-*	Install the CentreStack server on all the other work nodes.
+*	Install the |prodname| server on all the other work nodes.
 
   On the database configuration window, use the same database server as the first installation.
   
@@ -102,7 +102,7 @@ For the load balancing to work, all the worker nodes have to be on the same DNS 
 *	Setup DNS Load balancing for all worker nodes.
 
     Most of the time you set up a firewall or a load balancer and point the DNS to the load balancer.
-    The load balancer will then forward to the CentreStack worker node. 
+    The load balancer will then forward to the |prodname| worker node. 
 
 .. note::
 
@@ -134,9 +134,9 @@ If you are using Amazon S3 or Windows Azure Blob, by default it is redundant and
 You can use the Microsoft SQL Server Availability Group Clustering or Availability Group Fail Over to make database high 
 availability.
 
-3. CentreStack Worker Node
+3. |prodname| Worker Node
 
-You can have multiple centrestack worker nodes in a round robin load balancing setup to provide high availability.
+You can have multiple |prodname| worker nodes in a round robin load balancing setup to provide high availability.
 
 
 .. image:: _static/DrawingHA.png

@@ -2,7 +2,7 @@
 -----------------------------
 
 There are three ways to connect Active Directory into
-CentreStack.
+|prodname|.
 
 1. LDAP
 ^^^^^^^^^^^^^^
@@ -16,11 +16,11 @@ is recommended.
 
 For the Second way, if the Active Directory is in a remote
 office, such as on a customer's premise, away from
-the CentreStack server, then a client agent software called, "File Server Agent"
+the |prodname| server, then a client agent software called, "File Server Agent"
 can be installed on the remote file server to help
 import Active Directory users over to CentreStack.
 
-CentreStack allows you to connect to multiple active directory services.
+||prodname allows you to connect to multiple active directory services.
 
 3. Azure AD Support
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -42,6 +42,6 @@ Via the Azure AD support, you can setup Azure AD so users can be authenticated b
 
     When should you use LDAP, and when should you use "Server Agent" for AD integration?
     
-    If AD is local to the CentreStack server, then LDAP is recommended.
+    If AD is local to the |prodname| server, then LDAP is recommended.
     
     If AD is remote, then Server Agent is recommended.

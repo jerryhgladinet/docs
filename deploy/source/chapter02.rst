@@ -21,7 +21,7 @@ In the smallest deployment unit, the different components can co-exist in one si
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
       The database contains persistent information for the system.
-      Database is a critical component for the smooth operation of the CentreStack server farm.
+      Database is a critical component for the smooth operation of the |prodname| server farm.
       Local database with latency less than 10 milliseconds is recommended.
       
       In order for all worker nodes be in the same server farm,
@@ -32,7 +32,7 @@ In the smallest deployment unit, the different components can co-exist in one si
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     The storage component is the persistent storage location for files and folders. There are 
-    two different types of storage services. One is managed by CentreStack, such as the default
+    two different types of storage services. One is managed by |prodname|, such as the default
     storage for the cluster and the default storage for tenants. The other is imported storage, 
-    for example, having existing file server network shares that aren't managed by CentreStack but can be 
-    imported into CentreStack for remote and mobile access.
+    for example, having existing file server network shares that aren't managed by |prodname| but can be 
+    imported into |prodname| for remote and mobile access.

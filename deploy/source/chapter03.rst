@@ -1,11 +1,11 @@
 ﻿Terminology
 ------------
 
-CentreStack Partner Portal
+|prodname| Partner Portal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   
   The Partner Portal can be found by going to http://www.centrestack.com. Click on "Partner" to sign up for your partner account log in credentials, and then you can log into your partner account at anytime. From the Partner Portal, You are able to
-  download the CentreStack software and can
+  download the |prodname| software and can
   start the trial process. Later, you can
   acquire licenses to turn the trial into a
   production environment.
@@ -13,20 +13,20 @@ CentreStack Partner Portal
   You can manage hosted-tenants from the partner portal.
   
   You can also come back to the partner portal
-  any time that your CentreStack software needs to be upgraded to a later version.
+  any time that your |prodname| software needs to be upgraded to a later version.
 
-CentreStack Cluster - Server Farm
+|prodname| Cluster - Server Farm
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  Multiple CentreStack single-machine nodes connect together by pointing to the same database and then share the same configuration information from the database so that CentreStack can indirectly share the persistent storage location in a symmetrical way.
+  Multiple |prodname| single-machine nodes connect together by pointing to the same database and then share the same configuration information from the database so that |prodname| can indirectly share the persistent storage location in a symmetrical way.
   
   Indirectly, the database contains storage related information so all the nodes
   in the server farm share storage related configuration.
   
-  The whole CentreStack cluster operates as if it is a single entity. The smallest cluster is a single
-  CentreStack worker node, which contains all the functionality and different logical nodes together.
+  The whole |prodname| cluster operates as if it is a single entity. The smallest cluster is a single
+  |prodname| worker node, which contains all the functionality and different logical nodes together.
   
-  Another term for the cluster is the **CentreStack server farm**.
+  Another term for the cluster is the **|prodname| server farm**.
   
   .. note::
   
@@ -35,12 +35,12 @@ CentreStack Cluster - Server Farm
 Master Admin/Cluster Admin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  In this guide, we refer to the admin user as the user that manages the whole CentreStack server farm. The server farm can be as
-  small as a single CentreStack server. If so, the admin user will
+  In this guide, we refer to the admin user as the user that manages the whole |prodname| server farm. The server farm can be as
+  small as a single |prodname| server. If so, the admin user will
   still need to manage it regardless of the size of the server
   farm.
   
-  The Master Admin is the very first user on the CentreStack server farm.
+  The Master Admin is the very first user on the |prodname| server farm.
   Typically, it is the user who installs the CentreStack server software.
   
   Since this user later may set up optional Active Directory connections, it is recommended that this user's email address
