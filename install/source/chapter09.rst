@@ -7,7 +7,7 @@ Verify External URL
 
 It is very straight forward to verify whether or not your external URL is set correctly. You just need to point your web browser to the external URL and verify that the Login Page shows up and there is no SSL warnings.
 
-You can also verify the External URL by doing a file share to your own email address outside of the CentreStack system. A file sharing invitation will be sent to that Email address. After you receive the Email, click on the link included in the Email and make sure the link points to the External URL.
+You can also verify the External URL by doing a file share to your own email address outside of the |prodname| system. A file sharing invitation will be sent to that Email address. After you receive the Email, click on the link included in the Email and make sure the link points to the External URL.
 
 .. note::
 

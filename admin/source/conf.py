@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # Cluster Server Administration Guide documentation build configuration file, created by
@@ -50,8 +50,8 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Administration Guide'
-copyright = '2021, Gladinet, Inc.'
-author = 'gladinet'
+copyright = '© Copyright 2021 - Gladinet, Inc. All Rights Reserved'
+author = 'Gladinet, Inc.'
 
 prodname = 'CentreStack'
 

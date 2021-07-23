@@ -18,7 +18,7 @@ Here is the Tenant Management Console.
 
 .. image:: _static/image_s5_1_2.png
 
-Please reference the `CentreStack Admin Guide`_ for complete details about Tenant administration.
+Please reference the `|prodname| Admin Guide`_ for complete details about Tenant administration.
 
 Here are a few points that are more important during the deployment phase.
 
@@ -124,7 +124,7 @@ This will take you to the Active Directory Page.
 .. note::
 
     If this specific tenant's Active Directory is at a remote location, please
-    use the CentreStack Server Agent to connect the Active Directory (No need to use
+    use the |prodname| Server Agent to connect the Active Directory (No need to use
     LDAP over Internet WAN connection).
 
 Group Policy
@@ -146,7 +146,7 @@ After you login to the web portal, click to the "Cluster Branding" Pages.
 
 .. image:: _static/image_s10_1_1_v2.png
 
-Please reference the "Cluster Branding" section in the `Admin Guide`_ for the self-hosted CentreStack server.
+Please reference the "Cluster Branding" section in the `Admin Guide`_ for the self-hosted |prodname| server.
 
 .. _Admin Guide: https://centrestack.com/Library/AdminGuide/chapter03.html#cluster-branding 
 

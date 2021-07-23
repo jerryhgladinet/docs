@@ -9,7 +9,7 @@ First, setup the cluster administrator account.
 .. image:: _static/image_s3_1_1_v4.png
 
 
-The default admin will also be the very first tenant user of the CentreStack platform. As a tenant, you will be able
+The default admin will also be the very first tenant user of the |prodname| platform. As a tenant, you will be able
 to use the system as other tenants just like your customers would. Thus, you can get familiar with the system
 quickly.
 
@@ -30,4 +30,4 @@ After setting up the cluster administrator account, the dashboard will appear by
 
 .. image:: _static/image_s3_1_2.png
 
-Once you see the dashboard, the CentreStack side of the setup is finished successfully. We will continue to check the storage configuration and make sure all components are fully functional.
+Once you see the dashboard, the |prodname| side of the setup is finished successfully. We will continue to check the storage configuration and make sure all components are fully functional.

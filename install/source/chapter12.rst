@@ -3,7 +3,7 @@ Advanced Topics
 ==============================
 
 These advanced topics require changes to the web.config file which is critical for the smooth operation of
-CentreStack, therefore, it is not recommended that you change the web.config file without first consulting
+|prodname|, therefore, it is not recommended that you change the web.config file without first consulting
 Gladinet support.
 
 Split Database
@@ -26,7 +26,7 @@ one that contains static information and one that contains relatively more volat
 The secondary database (for more volatile data) can be either MySQL Database or Micrsoft SQL Database.
 
 To split the database, first create a new database that will be used to store the volatile information. Create a database user and allow this 
-user full access to the database (equivalent to db_owner). Once the database and user are created, sign into the CentreStack management console 
+user full access to the database (equivalent to db_owner). Once the database and user are created, sign into the |prodname| management console 
 as the cluster admin and navigate to Cluster Control Panel > Settings > Change Log. Update the "Logging DB Connection String" setting using an appropriate connection string:
 
 .. image:: _static/image063.png
@@ -51,7 +51,7 @@ as the cluster admin and navigate to Cluster Control Panel > Settings > Change L
 Change Authentication Algorithm to Version 2
 --------------------------------------------
 
-If you have a new installation of CentreStack without any legacy user, we recommend you hard code the
+If you have a new installation of |prodname| without any legacy user, we recommend you hard code the
 authentication algorithm to version 2.
 
 You can locate the web.config file in the root folder of the installation directory (same web.config file as
@@ -82,14 +82,14 @@ Gladinet support.
 Zone Support
 -------------------
 
-If you have two independent CentreStack clusters, for example, one cluster in US and one cluster in UK, you can
+If you have two independent |prodname| clusters, for example, one cluster in US and one cluster in UK, you can
 use the zone support to connect the two clusters together. The advantage of using zones is the end user login
 request will automatically be redirected to the zone the user belongs to.
 
 Scalability Tuning
 ----------------------
 
-CentreStack is built on top of ASP.NET and WCF. By default, both ASP.NET and WCF has throttle control parameters
+|prodname| is built on top of ASP.NET and WCF. By default, both ASP.NET and WCF has throttle control parameters
 that we can tune and remove. Please reference this MSDN article for performance tuning:
 
 http://msdn.microsoft.com/en-us/library/ff647813.aspx

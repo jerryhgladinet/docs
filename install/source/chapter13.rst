@@ -1,8 +1,8 @@
 ########################
-Upgrade CentreStack
+Upgrade |prodname|
 ########################
 
-We publish updated notes to our public blog forum called `CentreStack Blog`_. It is recommended that you perform an update if your self-hosted CentreStack and clients are three months or older.
+We publish updated notes to our public blog forum called `CentreStack Blog`_. It is recommended that you perform an update if your self-hosted |prodname| and clients are three months or older.
 
 Using the GUI Installer to Upgrade
 ---------------------------------------

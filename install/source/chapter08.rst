@@ -5,7 +5,7 @@ Client Agents
 Windows & Mac Clients
 ---------------------------------
 
-The CentreStack server includes the Windows Client Agent software and Mac client agent software.
+The |prodname| server includes the Windows Client Agent software and Mac client agent software.
 
 You can download and install desktop, server and MAC clients from the download button in the right pane after a user
 logs into the web portal.
