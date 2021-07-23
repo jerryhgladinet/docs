@@ -1,9 +1,5 @@
-****************************************
-CentreStack IOS Client User Guide
-****************************************
-
-Introduction
-================
+Getting Started
+=====================
 
 Welcome to the CentreStack IOS Client User Guide. This guide describes the Android client application for CentreStack, the managed file synchronization, and sharing solution.
 
@@ -13,13 +9,12 @@ The white-labeled CentreStack IOS app called “Cloud Drive” by Gladinet that 
 
 If you have the fully branded CentreStack IOS client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from http://www.centrestack.com (partner portal). 
 
-Getting Started
-------------------
 
 This user guide provides useful information and describes the full functionality of the CentreStack IOS application.
 
+
 Download & Install
----------------------
+=======================
 
 Search for Gladinet, Inc. as a publisher in ‘App Store’ to start the download and installation.
 
@@ -37,6 +32,7 @@ Enter Access Point (if not filled automatically) and your Username and tap “CO
 
 On the following screen, enter your Password and tap “SIGN IN”, to log in to your server. 
 
+
 Accessing Folders and Files
 ==============================
 
@@ -53,8 +49,7 @@ If you tap the **+** (plus) icon you are given several options for the folder yo
 .. image:: _static/2021NewImage014.png
 
 
-Sort Menu
-----------
+**Sort Menu**
 
 In the sort menu, you can change the order of which your files are displayed.
 
@@ -72,16 +67,29 @@ In the sort menu, you can change the order of which your files are displayed.
 
 .. image:: _static/NewImage6.png
 
+
+Main Operations
+==============================
+
+Take and Upload Media
+------------------------------
+
+
 Creating New Folders
-======================
+------------------------------
 
 To create new folders, click the **plus icon** at the bottom of the screen and it will let you create a name for the folder. Once a name is created the folder is created.
 
 .. image:: _static/NewImage7.png
 .. image:: _static/NewImage8.png
 
+
+Settings
+------------------------------
+
+
 Preview
-----------
+==============================
 
 To preview a file, you can simply click on the file you want to see and it will open inside of the Cloud Drive application. For example, you can preview an excel file in Excel or in the Cloud Drive application.
 
@@ -96,6 +104,7 @@ To save an existing document, tap on the document in the file list to enter "Pre
 
 .. image:: _static/NewImage10.png
 
+
 Working with Office Applications
 ==================================
 
@@ -104,6 +113,7 @@ If you have office mobile applications installed, you can access these apps from
 When you open the Excel file, you'll notice that the autosave feature is enabled by default. Once your edits are completed, you can use the IOS BACK option near the top left to return to CentreStack and your changes will be saved. 
 
 If you need to save an office file into the cloud drive, you can refer to this knowledge based article : https://support.centrestack.com/hc/en-us/articles/360035107053-Save-a-Document-to-Centrestack-from-Another-Android-App (only until step 5) 
+
 
 Marking As Favorite 
 ========================
@@ -128,13 +138,18 @@ In the **Offline Favorites** view you can remove files by clicking the three ver
 .. image:: _static/newimage13.png
 
 
-Sharing Options
-================
+Sharing and Collaboration
+=============================
 
 You can select the files or folders that you want to share from your IOS devices. 
 
-Sharing a File
+
+Share Manager
 ----------------
+
+
+Share
+""""""""""""""""
 
 From the file view you can click the vertical ellipses near the right and a context menu will appear. In this context menu you can "Share" in several ways: "Share", "Get public link", "Share manager". 
 
@@ -152,9 +167,6 @@ If you choose the **"Share Manager" (1)** option (see above), in the next screen
 
 .. image:: _static/NewImage15.png 
 
-Sharing/Protection Options
-------------------------------
-
 Before sending your email share notification you can control how the guest user(s) can access the file or folder. 
 
 - Specify share expiration time
@@ -169,44 +181,63 @@ Before sending your email share notification you can control how the guest user(
     
 .. image:: _static/NewImage16.png
 
-File Operations
+Get public link
+""""""""""""""""""
+
+Request a file
+""""""""""""""""""
+
+Share Via
+----------------
+
+
+Basics Operations
 =================
 
 Other options are availible from the 3-dot menu when you are previewing a file.
 
-Deleting a File
+Delete
 -----------------
 
-A file can be deleted using the **‘Delete’** option. Select **‘Delete’** from the context menu to delete a file. Once the file has been deleted it will no longer be visible in the cloud drive.
+A file/folder can be deleted using the **‘Delete’** option. Select **‘Delete’** from the context menu to delete. Once the object has been deleted it will no longer be visible in the cloud drive.
 
 .. image:: _static/NewImage18.png
 
-Renaming a File
+Rename
 -----------------
 
 You can rename a file or a folder using the **‘Rename’** option. Pressing **‘Rename’** will display a field to type in the new name.
 
 .. image:: _static/NewImage17.png
 
-More Options 
------------------
 
+Copy and Move
+-----------------
 The 'copy' option allows you to copy a file and paste it into a another folder of your choosing. The 'cut' option allows you to remove a file from a certain folder and paste it into another.
 
 The 'Move' option allows you to move the file you select from one folder to another.
 
-the "Comments' option allows you to see any comments made by people who have access to the file. It also lets you create a comment so others who have access to it can see your comment.
+
+Comments
+-----------------
+The "Comments' option allows you to see any comments made by people who have access to the file. It also lets you create a comment so others who have access to it can see your comment.
+
+
+More Info 
+-----------------
 
 The 'More Info' option allows you to look at the specifics of the file you are working on or looking at.
 
 .. image:: _static/NewImage19.png
 
-Logging Out From CentreStack
-==============================
+
+Logging Out
+======================
 
 To logout, click the icon on the top-left of the app and press the **"Sign Out"** icon at the bottom of the menu.
 
 .. image:: _static/NewImage20.png
+
 
 Conclusion
 ===============
