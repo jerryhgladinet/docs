@@ -20,8 +20,6 @@ Once you are in the tenant manager, the top two objects to manage are users **(1
     MANAGE USERS AND FILES
 
 
-
-    
 Files
 ======
 
@@ -51,7 +49,7 @@ If you have an existing file server in the Local Area Network (LAN), you can imp
 
 
 Sharing
-========
+=========
 Preventing Users From Sharing
 ------------------------------
 
@@ -59,9 +57,9 @@ Sometimes for security reasons, users should not be allowed to share files/folde
 
 There are two types of files and folders a user can access.
 
-*	Userfs own folders, including versioned folders and attached local folders from the user's desktop.
+*	User's own folders, including versioned folders and attached local folders from the user's desktop.
 
-When an administrator creates new users, he/she can check eDisable sharing home directory content with external party, to prevent the newly
+When an administrator creates new users, he/she can disable sharing home directory content with external party, to prevent the newly
 created user from sharing his/her own files and folders.
 
 .. figure:: _static/image_s15_1_10.png
@@ -77,7 +75,7 @@ In the Manage User panel use the drop-down menu (4) to access the "Storage" sett
     DISABLE EXTERNAL SHARING
 
 
-When publishing a team folder, administrator can check eDisable further sharingf, to prevent users from sharing anything in the team folder. You can access this setting after choosing your storage location. Click the "Create Team Folder" icon (1) and select your storage type (2), then select the "Disable further sharing" option (3). 
+When publishing a team folder, administrator can check 'Disable further sharing', to prevent users from sharing anything in the team folder. You can access this setting after choosing your storage location. Click the "Create Team Folder" icon (1) and select your storage type (2), then select the "Disable further sharing" option (3). 
 
 .. figure:: _static/image_s15_1_12.png
     :align: center
@@ -91,7 +89,7 @@ Protecting Shares By Requiring Login
 When a user shares a file or folder, |prodname| will generate a URL. By default, anyone can use the URL to access the share.
 
 Administrators can protect shares by requiring login credentials. Once enabled, when a user accesses the share URL, he /she will be prompted to
-login to the |prodname| Cloud. After login, the user can view the file/folder shared with him/her under eFiles shared with mef.
+login to the |prodname| Cloud. After login, the user can view the file/folder shared with him/her under 'Files shared with me'.
 
 To access this setting use the drop-down menu (1) and in the "Group Policy -> Sharing" (2) panel, select the "...user must login to his/her account..." setting. 
 
