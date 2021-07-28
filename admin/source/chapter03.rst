@@ -481,10 +481,9 @@ The cluster administrator can use the notification manager to help the tenant se
 for the events subscribed.
 
 .. figure:: _static/2021newimage030.png
-.. figure:: _static/2021newimage031.png
     :align: center
     
-    NOTIFICATIONS SETTINGS    
+    NOTIFICATIONS    
 
 Settings 
 """"""""""""""""""""""
@@ -498,15 +497,18 @@ Settings
     
     When set, the system will send email notification daily about the events you are interested (Select below).
 
-    - File Changes	
-    - Audit Trace	
-    - Users approaching the storage quota limit	
+    - File Changes
+    - Audit Trace
+    - Users approaching the storage quota limit
+    - Notification threshold
     
-**Notify tenant admin when member's sync task failed**
+**Notify tenant admin when member's sync task failed or paused**
 
-**Notify tenant admin when member shared a folder**
+**Notify tenant admin when a member shares a folder**
 
-**Notify me when user account is locked out**
+**Notify me when a user account is locked out**
+
+**Do not show file change notifications on Windows and Mac client**
 
 **Send notification to these emails in addition to tenant admin's email (email;email2)**
 
@@ -518,16 +520,10 @@ Shared File/Folder
 .. figure:: _static/image_s5_12_20.png
     :align: center
 
-    TEAM FOLDER SUBSCRIPTION OPTION
+    SHARES SUBSCRIPTIONS
 
-Notification regarding the changed files and folders
-Team Folder - notification regarding changed files and folders
-Settings
+Notification regarding modified/downloaded shared files and folders.
 
-  Send Daily Notification Email
-  Notify tenant admin when member's sync task failed
-  Notify tenant admin when member shares a folder
-  Notify me when user account is locked out.
 
 Team Folder
 """"""""""""""""""""""
@@ -535,7 +531,7 @@ Team Folder
 .. figure:: _static/image_s5_12_30.png
     :align: center
 
-    NOTIFICATION SETTINGS
+    TEAM FOLDER SUBSCRIPTIONS
 
 Administrators can use this setting to receive notifications when changes occur in Team Folders.
 

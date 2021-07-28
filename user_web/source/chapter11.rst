@@ -92,22 +92,21 @@ In the ‘Management Console’, click ‘User Manager’:
 
     WAYS TO ACCESS USER MANAGEMENT
 
-
 In ‘User Manager’ window, click the ‘+’ icon or "Add User" on the top left.
 
 .. figure:: _static/image_s12_1_3.png
     :align: center
-
+    
     CREATING OR MIGRATING USERS
+
 Add User
 ---------
 
 You can add users from within the User Manager or simply click the Add New User button to open the **"Sources of New User"** panel. In that panel you have several options: add a Native User, Batch Create Users, import Active Directory users and permissions, and if you have Server Agents actively connected, you will also see those servers listed here as well.
 
-
 .. figure:: _static/image_s8_2_3.png
     :align: center
-
+    
     ADDING USERS
 
 **Native User** 

@@ -1,6 +1,6 @@
-#################
-Getting Started with the initial login
-#################
+###################################################
+Initial login
+###################################################
 
 To get started, point your web browser at the |prodname| server.
 
