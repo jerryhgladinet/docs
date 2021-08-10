@@ -7,12 +7,10 @@ The web client interface has three panels from left to right, the left tree pane
 Normal Web Portal View
 =======================
 
-
 .. figure:: _static/image_s11_1_1.png
     :align: center
 
     WEB PORTAL VIEW
-
 
 
 Left Tree View and Right Info Panel
@@ -26,7 +24,7 @@ The left-tree view can be toggled by clicking the tree icon **(1)**. You can acc
     ACCESSING SIDE PANELS
 
 
-Switch Between Iconview and Listview
+Switch between Icon and List view
 =====================================
 
 .. figure:: _static/image_s11_1_3.png
@@ -49,41 +47,44 @@ Users can customize their web portal theme by clicking the user settings icon **
     CUSTOMIZE YOUR WEB PORTAL THEME
 
 
-Uploading Files
-================
+Create Folders
+===================
+
+Folders Created in |prodname| are Versioned Folders.
+
+|prodname| will maintain the version history of any files uploaded to versioned folders. From |prodname|, a user can download any previous versions of a file. From the |prodname| Desktop/Server Agent, a user can restore previous versions of files and recover deleted files.
+
+
+To create a folder right click in the File Browser window background and select **"Create Folder"** from the pop-up context menu. 
+
+.. figure:: _static/image_s14_1_1.png
+    :align: center
+
+    CREATING A FOLDER
+
+
+Attach Folder from Clients
+====================================
+
+If you have the Windows Client installed, can also Attach a Local Folder from this client. 
+
+.. figure:: _static/image_s14_1_1a.png
+    :align: center
+
+    ATTACHING A FOLDER
+
+These folders are the local folders from the local PC/Mac that |prodname| users have attached to |prodname|. Once a local folder is attached, a user can immediately access it in |prodname|. |prodname| will maintain the version history of files in the attached local folder. The local folder is also being synchronized with |prodname| ("cloud side").
+
+.. figure:: _static/image_s14_1_2.png
+    :align: center
+
+    ATTACHED LOCAL FOLDER
+
+
+Upload Files/Folders
+=======================
 
 In |prodname|, you have different options to upload files and folders. You can upload one file at a time using the ‘Upload File’ option under Upload You can also upload folders using the ‘Upload Folder’ option under Upload. Last but not least you can also use ‘Upload Folders and Files’ to upload multiple files simultaneously, or drag & drop files from a local desktop to the |prodname| Cloud web portal to start the upload.
-
-.. warning::
-
-    Different upload methods may have different advantage and disadvantage on different web browsers and different web browser configuration, such as whether it is HTML5 enabled,
-    Java enabled or Flash enabled.
-    
-    By default, only one upload method was exposed in the web user interface. However, the tenant administrator, based on the kind of web browser the company is using and the kind of
-    configuration the web browser has, can decide which upload method to expose to the end user (Team User).
-    
-    Below is the Group Policy->Client Control->Web Portal setting administrator can control.
-    
-    .. figure:: _static/image_s11_2_1.png
-        :align: center
-
-        UPLOADER METHOD OPTIONS
-    
-    Web Browser - Disable Java Uploader
-    
-        Deselect this if your companies' desktop system web browsers use a Java Uploader.
-    
-    Web Browser - Disable Flash Uploader
-    
-        Deselect this if your company uses browsers that require Flash uploader functionality.  
-    
-    Web Browser - Disable Local Uploader
-    
-        Deselect this if your company allows the use of a local executable to upload files. 
-
-
-Upload File or Folder
-======================
 
 It is possible to upload multiple files at a time. This is supported on all browsers. The same is true for Upload Folder. To access these options you can click the "+" icon **(1)** or right click on the portal background **(2)** and select your upload option there.
 
@@ -158,4 +159,3 @@ Renaming and deleting files and folders can be achieved by right-clicking the fi
     :align: center
 
     RENAMING FILES
-
