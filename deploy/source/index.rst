@@ -40,7 +40,7 @@ CentreStack is a managed file sync and share solution that focuses on local file
     into a Cloud/Internet facing file server solution with remote and mobile access, while at the same time, the drive mapping,
     the NTFS permission, and file locking are preserved before and after the cloud-enablement.
 
-The CentreStack server is pure software built on top of the Microsoft Web Platform, which includes:
+The CentreStack server is a pure software built on top of the Microsoft Web Platform, which includes:
 
     * Windows Server,
     * IIS (Internet Information Server), 
@@ -75,14 +75,14 @@ The services can be deployed in flexible combinations to meet different needs. T
         
 .. note::
 
-    Our Hosted version of CentreStack (as compared to our self-hosted CentreStack), 
-    is already deployed on http://www.centrestack.com. In
-    this case, you don't need to deploy a CentreStack server. Instead,
+    With the Hosted-CentreStack solution, the CentreStack server is already 
+    deployed on https://sync4share.com. Therefore, there is no need to deploy a 
+    CentreStack server. Instead,
     you can start using the hosted-centrestack
     web portal and client agents directly.
 
-    For this document, from this point on, it refers to the 
-    deployment of the Self-Hosted CentreStack server and its
+    Moving forward, this document will refer to the 
+    deployment of the Self-Hosted CentreStack server, and its
     related client agent applications.
 
 There are three different infrastructure components (logical components that can co-exist in the same server).
@@ -105,10 +105,10 @@ In the smallest deployment unit, the different components can co-exist in one si
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
       The database contains persistent information for the system.
-      Database is a critical component for the smooth operation of the CentreStack server farm.
-      Local database with latency less than 10 milliseconds is recommended.
+      A Database is a critical component for the smooth operation of the CentreStack server farm.
+      A Local database with latency less than 10 milliseconds is recommended.
       
-      In order for all worker nodes be in the same server farm,
+      In order for all worker nodes to be in the same server farm,
       they need to point to the same database.
       
       
