@@ -1,185 +1,400 @@
 ##############################
-6 Advanced Topics
+Cloud Backup
 ##############################
 
 
-******************************
-6.1 Connect Your File Server
-******************************
-
-The way to connect the file servers are different, depending on where the file server is.
-
-The file server can be sitting in the same Local Area Network (LAN) as the CentreStack Server. In this case,
-the direct network share connection is the best. Usually, this is combined with setting up a direct LDAP connection
-to the Active Directory.
-
-.. figure:: _static/image102.png
-    :align: center
-
-    FILE SERVER CONNECTION
-
-The file server can also be remote, away from the CentreStack server and at the customer's premise. In this case, the best is to use a file server agent. File server agent will be installed on the file server, and it is capable of connecting the customer's Active Directory and syncing both folder content and active directory over HTTPS. In this case, in the user interface, you will see "Proxied AD User" to indicate that the Active Directory user or group is coming from the file server agent.
-
-.. figure:: _static/image103.png
-    :align: center
-
-    SERVER AGENT CONNECTION
-
-
-The best way to start using a file server agent to connect to a remote file server is to start with the migration wizard from the web portal.
-
-.. figure:: _static/image_s6_1_03.png
-    :align: center
-
-    TEAM FOLDER STORAGE LOCATIONS
-
-*********************************
-6.2 Files and Folder Permission
-*********************************
-
-If your files and folders are on a file server in the same Local Area Network (LAN) as the CentreStack server, the best way to manage file and folder permission is to delegate it 100% to the NTFS permission. In the "Storage Manager", when attaching local storage, there is an option "Always access the storage using logon user identity", This option can be used to delegate file/folder permission check directly to NTFS.
-
-.. figure:: _static/image105.png
-    :align: center
-
-    FILE AND FOLDER PERMISSIONS SETTINGS
-
-If you are not using native NTFS permission. For example, you are on cloud storage services such as Amazon S3 or OpenStack Swift, you can use CentreStack folder permission.
-
-.. figure:: _static/image_s6_2_02.png
-    :align: center
-
-    MANAGE FOLDER SETTINGS
-
-
-*********************************
-6.3 Setting up Active Directory
-*********************************
-
-When the Active Directory is in the Local Area Network (LAN), LDAP can be used to connect to the Active Directory.
-There are several cases here, 
-
-  * Sometimes you want the user account to be automatically provisioned so it is easy for the administrator.
-  * Sometimes you want the user account to be limited to a specific AD group, but still automatically provision the user's account when the users are in the AD group.
-  * Sometimes you want the user account to be limited to a specific Organization Unit.
-
-
-AD account auto provision
----------------------------
-
-This is the default setting in the Advanced -> Active Directory Settings.
-
-As long as the "Don't allow user auto-creation" is not checked, Active Directory users will be allowed to go to the web portal and log in. The first time the user logs in, its CentreStack account will be automatically provisioned.
-
-.. figure:: _static/image_s6_3_00.png
-    :align: center
-
-    USER AUTO-CREATION SETTING
-
-
-AD account auto provision, limiting to Organization Unit
-----------------------------------------------------------
-
-The organization unit field can be used to further limit the Active Directory user account that can be automatically provisioned.
-
-.. figure:: _static/image_s6_3_01.png
-    :align: center
-
-    LIMIT TO ORGANIZATION UNIT SETTING
-
-The format of the organization unit is the OU's distinguishedName minus the DC suffix.
-
-For example, the following OU's property is:
-distinguishedName	=>	OU=tenant11,DC=tsys,DC=gladinet,DC=com
-
-when it is put into the OU field, the DC suffix can be removed so only OU=tenant11 is required.
-
 .. note::
-  OU=tenant11
+    CentreStack's Cloud Backup allows you to turn your CentreStack server into a backup appliance or create a self-hosted backup solution with the ability to backup endpoints and restore folder permissions. 
 
-.. figure:: _static/image109.png
+In this section, we'll review how to enable backup for file shares and endpoint devices and review how the files in the backup can be accessed and restored. 
+
+**Enabling Cloud Backup**
+
+    Cloud Backup is enabled on a cluster-wide basis. Instead of purchasing an expensive backup appliance, your CentreStack server will assume the role of the virtual appliance, allowing you to create your self-hosted backup service or leverage CentreStack's hosted environment to secure the offsite copies of your data.
+
+**Backing Up File Shares**
+
+    You can backup file shares from the local file server using your CentreStack server as a conduit to CentreStack's backup cloud, or you can define your cloud backup target if you'd like to some other storage service.
+
+**Backing Up Endpoint Devices**
+
+    Folders and file shares on remote PCs and servers will be backed up using the existing CentreStack agents to take advantage of existing HTTPS/SSL connections that have been rigorously architected to maintain connectivity and reliability.
+
+**Cloud Backup Access and Restore**
+
+    Easily restore any files and folders or access them directly. For example, when you backup files and folders to CentreStack's backup cloud, they can also be accessed directly from https://backup.centrestack.com
+
+The following data flow illustrates how the basic architecture functions for this solution.
+
+.. figure:: _static/image_cb_014.png
     :align: center
 
-    OU PROPERTY LOCATION
-
-
-AD account auto provision, limiting to a specific AD group.
-------------------------------------------------------------
-
-From the user manager, you can import the AD group and the users in the AD group will be able to get the account automatically provisioned.
-
-.. figure:: _static/image_s6_3_03.png
-    :align: center
-
-    MIGRATING USERS FROM ACTIVE DIRECTORY
-
-Here is a demo video for Import AD group.
-
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/TwyRhlPOxMY" frameborder="0" allowfullscreen></iframe>
-  
-  
-*******************************
-6.4 Setting up Offline Folder
-*******************************
-
-In a team collaboration environment, there are several best practices related to offline folder management.
-
-Here are  several parameters for consideration:
-
-
-Team Folder Offline Settings
-------------------------------
-
-If you have a big team folder or several team folders that are quite big, it is not a good practice to enable the team folder offline from the root. Instead, you can choose not to enable offline or just enable a subset of sub-folders that are relatively small and at the same time, used more often. If you want to enable a subset of sub-folders within team folders for offline access, you can start by going to the folder permission section. You can access this by selecting the folder (1), in the pulldown menu (2) select "Folder Permissions", then select the edit settings icon (3) and finally select "Enable offline access for native Client" (4), and apply the change. 
-
-.. figure:: _static/image_s6_4_00.png
-    :align: center
-
-    ENABLING OFFLINE ACCESS FOR NATIVE CLIENT
-
-If you want to disable offline access for the team folder completely, you can change the setting from the Team Folder section by choosing the "Settings" option below (1) in the drop-down menu and selecting the "Disable Offline Access" option (2). Don't forget to save your changes (3). 
-
-.. figure:: _static/image_s6_4_01.png
-    :align: center
-
-    DISABLING OFFLINE ACCESS FOR TEAMSHARE
-
-
-User Offline Settings
------------------------
-
-Upon creating users in the CentreStack system (including users imported from Active Directory), there is an offline flag upon user creation.
-
-Normally, we don't recommend checking the "Enable offline access for all folders" flag, because it will try to download every single file for the user when the user is connected, which can use a lot of bandwidth and slow things down.
-
-.. figure:: _static/image_s6_4_02.png
-    :align: center
-
-    ENABLING PER-USER OFFLINE ACCESS
+    CLOUD BACKUP ARCHITECTURE
 
 .. note::
 
-    This will automatically download ALL folders and files to the user’s device and automatically update them whenever they have changed anywhere in the network. This will cause a significant increase in network traffic, especially during the initial download of all folders.
+    Traditionally, enterprises use backup appliances on-premises to receive backup sources from servers and desktops around the company network. It is a very secure setup because the backup data sits inside the appliance. However, it poses a challenge for remote devices because remote devices are not always inside the company network and the VPN (a virtual private network) from remote devices are not always on to observe certain backup schedules.
+    
+    On the other hand, cloud backup solutions like Carbonite and CrashPlan can backup remote devices to the cloud directly, solving the problem for remote backup. However, the backup destination is in an opaque location, controlled by a 3rd party. This becomes problematic when there are business policies to prevent data replication to locations controlled by 3rd parties.
 
-Without it, the user can still pick and choose which folder to mark as offline.
+CentreStack cloud backup solves both these problems. First of all, the CentreStack server maintains connectivity with remote PCs and file servers via HTTPS/SSL so the connection is always on. This means that remote PCs and file servers can always leverage CentreStack's communication channel and data channel to back up through the CentreStack backup appliance. And since CentreStack's cloud backup is storage agnostic, allowing you to backup to a storage service under your control, you can now provide continuous backups of your file servers and endpoints to a storage service under your control, or the CentreStack defaults.
 
 
-User Manual Offline Settings
-------------------------------
+**************************
+Enabling Cloud Backup
+**************************
 
-During regular usage of the files and folders, users can mark folders as offline.
+``CentreStack Partner Portal`` > ``Backup Manager``
 
-.. figure:: _static/image262.png
+Login to the partner portal from https://centrestack.com. On the dashboard, click 'Backup Manager' and select the CentreStack clusters you want to backup.
+
+.. figure:: _static/image_cb_016.png
     :align: center
 
-    ENABLE OFFLINE ACCESS AT THE CLIENT LEVEL
+    ENABLING CLOUD BACKUP FROM PARTNER PORTAL
+
+Once Cloud Backup has been enabled for the cluster, you can log in to the cluster management portal as the cluster-admin. Click on the 'Cloud Backup and Restore' icon in the top menu.
+
+.. figure:: _static/image_cb_017.png
+    :align: center
+
+You should see the Cloud Backup Summary page.
+
+.. figure:: _static/image_cb_018.png
+    :align: center
+
+**********************************
+Cloud Backup for Team Folders
+**********************************
+
+Cloud Backup works with any type of team folder, regardless of how they were created and can be initiated by the cluster-admin or tenant admin.
+
+Enabling Cloud Backup for Team Folders
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+As a cluster administrator, go to the Dashboard of the Management Console and select 'Cloud Backup and Restore' from the left panel. Here you will see 'Team Folders' and 'Devices'.
+
+.. figure:: _static/image_cb_019.png
+    :align: center
+
+Click on the 'BACKUP' button to see a list of team folders in the tenant which have not been backed up. Select the team folders to backup and then click 'BACKUP SELECTED'.
+
+.. figure:: _static/image_cb_020.png
+    :align: center
+
+You can also follow this process as a cluster administrator but will first be prompted to select a tenant before seeing the list of team folders that haven't been configured for backup.
+
+.. figure:: _static/image_cb_021.png
+    :align: center
+
+Cloud Backup Snapshots
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Once enabled, Cloud Backup is stored in Snapshots. The snapshot must be initially seeded and new snapshots will be created to capture updates to the data set. Data can be restored from any snapshot.
+
+**Seeding a Snapshot**    
+
+   Click the 'Details' icon in 'Team Folders', select the team folder you'd like to restore, and click the detail icon. Click 'Force Initial Seeding Now':
+
+.. figure:: _static/image_cb_026.png
+    :align: center
+
+    SEEDING A BACKUP SNAPSHOT
+
+**Browsing a Snapshot**
+
+    To browse a snapshot, click the icon that looks like an eye on the right side of the listed snapshot. You can then navigate through the folder hierarchy in the snapshot to download and restore files and folders using the action icons at the top left of the page. Checkboxes are provided to filter the list of objects that action will be applied to:    
+
+.. figure:: _static/image_cb_027.png
+    :align: center
+
+    BROWSING A BACKUP SNAPSHOT
+
+**Downloading and Restoring from a Snapshot**    
+
+   For example, in the image below, you can click the highlighted icon to restore the selected items: 
+
+.. figure:: _static/image_cb_028.png
+    :align: center
+
+    RESTORING FROM A BACKUP SNAPSHOT
+
+Disabling Cloud Backup for Team Folders
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   To disable Cloud Backup for a team folder, simply click the 'X' beside its backup listing: 
+
+.. figure:: _static/image_cb_029.png
+    :align: center
+
+    DISABLING CLOUD BACKUP FOR A TEAM FOLDER
+
+**********************************************
+Cloud Backup for Endpoint Devices
+**********************************************
+
+Before an endpoint can be backed up, a backup profile must be created. This profile specifies which folders need to be backed up on each endpoint device. In this section, we'll review how to create backup profiles, assign them to devices and manage the resulting backups and restores.
+
+Create a Device Backup Profile
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cluster Management Console`` > ``Cloud Backup and Restore``
+
+As the cluster-admin on the web portal, go to 'Cloud Backup and Restore'. Under 'Settings', click 'Device Backup Profile' and then open the profile list. Click 'Add' to create a new backup profile.
+
+.. figure:: _static/image_cb_005.png
+    :align: center
+
+    CREATE BACKUP PROFILE
+
+Use the backup profile to select which of the pre-defined folders need to be backed up on each device. These include Documents, a Desktop, Favorites, and Pictures. Any folder can be added to the profile by entering its path under 'Folder to backup' and clicking 'ADD':
+
+.. figure:: _static/image_cb_006.png
+    :align: center
+
+    SELECT FOLDERS FOR BACKUP
+
+Configure Devices for Backup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cluster Management Console`` > ``Cloud Backup and Restore``
+
+As the cluster-admin on the web portal, go to 'Cloud Backup and Restore'. Click 'Backup' under 'Devices'.
+
+.. figure:: _static/image_cb_007.png
+    :align: center
+
+    SELECT BACKUP DEVICES
+
+Click on the 'Search by:' dropdown list to find the device(s) you want to backup:
+
+.. figure:: _static/image_cb_010.png
+    :align: center
+
+    FIND BACKUP DEVICES
+
+.. note::
+    You could alternatively enumerate by devices by selecting 'Status' and searching for all accepted devices.
+    
+After selecting the backup device, you'll see that the number of device backups has now increased by 1.
+
+.. figure:: _static/image_cb_013.png
+    :align: center
+
+    DEVICES ADDED
+
+Restoring from Device Backups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cluster Management Console`` > ``Cloud Backup and Restore``
+
+As the cluster admin on the web portal, go to 'Cloud Backup and Restore'. Click 'Restore' under 'Devices'.
+
+.. figure:: _static/image_cb_022.png
+    :align: center
+
+    RESTORE BACKUP DEVICES
+
+Click on the 'Search by:' dropdown list to find the device(s) you want to backup:
+
+.. figure:: _static/image_cb_010.png
+    :align: center
+
+    FIND BACKUP DEVICES TO RESTORE
+
+.. note::
+    You could alternatively enumerate by devices by selecting 'Status' and searching for all accepted devices.
+    
+After selecting the backup device, you'll see two options, 'Local' and 'Cloud'.
+
+.. figure:: _static/image_cb_023.png
+    :align: center
+
+    RESTORE FROM LOCAL OR CLOUD BACKUP
+
+CentreStack implements Cloud Backup for endpoint devices by first syncing the device to a special team folder and then backing up that team folder to the CentreStack backup cloud. So you have the option of restoring the device from the team folder, which is stored locally on the backend storage for the tenant, or from the copy which has been backed up to the backup cloud hosted by CentreStack.
+
+After selecting 'Local', you will be prompted to select a date and time that you'd like to restore to. If you also select "Restore subfolders recursively", the folder will be restored to the last version on or before the specified date and time.
+
+.. figure:: _static/image_cb_024.png
+    :align: center
+
+    SELECT DATE AND TIME FOR VERSION BASED LOCAL RESTORE
+
+After selecting 'Cloud', you will be prompted to select a snapshot that you'd like to restore from. 
+
+.. figure:: _static/image_cb_025.png
+    :align: center
+
+    SELECT CLOUD SNAPSHOT TO RESTORE FROM
+
+.. note::
+    The cloud-based restore is approached differently because the cloud backup is based on snapshots whereas the local team folder is just a versioned folder leveraging the standard restore process for any versioned folder in CentreStack.
 
 
-Summary
----------
+************************
+Cloud Backup Access
+************************
 
-Administrators can manage the tenant-wide offline policy related to team folders and users. In the case where team folder size is small and user size is small, an administrator can enable the offline flag to push files and folders to user's devices.
+The CentreStack architecture provides the option to store backups in a location of your choosing. When these backups are store in the CentreStack Backup Cloud, as shown below, they can be accessed by logging in to backup.centrestack.com
 
-However, in the case where the team folder size is big and the user number is not small, we recommend the administrator enables as few offline flags/settings as possible on the administration side. Users can still do offline management themselves within their working folder on a case-by-case basis.
+.. figure:: _static/image_cb_014.png
+    :align: center
+
+    CLOUD BACKUP ARCHITECTURE
+
+To access the backup, navigate to https://backup.centrestack.com and login with your normal credentials to access files using CentreStack's standard browser interface:
+
+.. figure:: _static/image_cb_030.png
+    :align: center
+
+    CLOUD BACKUP ACCESS  
+
+As indicated in the image above, you'll find your team folder backups under 'All My Files' and there's a shortcut to your device backups that can be leveraged.
+
+.. note::
+    The device backup is accessed differently from the local CentreStack cluster and CentreStack Cloud Backup. When a user logs into the cluster, the device backup can be accessed from 'Device Backup' as shown in the image above. But when logged into backup.centrestack.com, 'Device Backup' is no longer meaningful and the backup will be found under a folder whose name combines the name of the client machine with a GUID.
+
+**************************
+Cloud Backup Settings
+**************************
+
+``Cloud Backup and Restore`` > ``Settings``
+
+CentreStack Cloud Backup is highly configurable, allowing you to determine where the backups will be stored when they will be scheduled, which folders should be backed up by default on the endpoints, and so forth. Most of these settings can be found in the 'Settings' section of the Cloud Backup Dashboard as shown below.
+
+.. figure:: _static/image_cb_032.png
+    :align: center
+
+    CLOUD BACKUP SETTINGS
+
+
+Enable Device Backup for All Users
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cloud Backup and Restore`` > ``Settings`` > ``Detail`` 
+
+As a cluster administrator, go to Cloud Backup and Restore and then navigate to Settings and Details. Go to 'Other Settings' to enable 'Backup all devices with below profile'. Select a profile and then click on 'Save Changes'.
+
+.. figure:: _static/image_cb_031.png
+    :align: center
+
+    ENABLE DEVICE BACKUP FOR ALL USERS
+
+
+.. note::
+    You must first create a device backup profile that can be attached to all devices. See below for details.
+
+
+Change Backup Storage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cloud Backup and Restore`` > ``Settings`` > ``Backup Storage`` 
+
+Endpoint devices are first synchronized to a team folder called $$DeviceBackupRoot. That team folder will then be backed up to one of three locations depending on the selections below.
+
+.. figure:: _static/image_cb_038.png
+    :align: center
+
+    CHANGE BACKUP STORAGE LOCATION
+
+
+The preferred location is CentreStack Cloud Storage. When this option is selected, devices in the tenant will get backed up to CentreStack cloud storage. You may also choose to store the backups in your cloud storage account or on a local disk.
+
+.. note::
+    CentreStack Cloud is strongly recommended because it is optimized for use with CentreStack endpoint backups. For example, the backups stored in CentreStack's Backup Cloud are also available for access by connecting to https://backup.centrestack.com. With this approach, you can leverage the CentreStack cloud for business continuity and high availability instead of having to manage a more complex CentreStack deployment. In other words, you're getting the benefits of self-hosting without fully assuming the costs of scaling out for reliability, availability, and durability.
+
+
+Disable Backup to the Remote Backup Server
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cloud Backup and Restore`` > ``Backup Settings`` > ``Details``
+
+Click the tool icon to open Settings details and navigate to 'Other Settings'. Click the checkbox labeled, 'Do not backup device data to remote cloud backup server'. After doing this, device backup data will no longer be uploaded to the CentreStack Backup Cloud (currently https://backup.centrestack.com)
+
+.. figure:: _static/image_cb_035.png
+    :align: center
+
+    DISABLE CLOUD REPLICATION FOR DEVICE BACKUP
+    
+
+Filters for Files and Folders
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cloud Backup and Restore`` > ``Backup Settings`` > ``Details``
+
+By default, the device backup snapshots will filter out the file types listed in the 'Filters' section of 'Backup Settings' and must be explicitly enabled. For example, select 'Allow ISO files (.iso)' to have ISO files included in each snapshot.
+
+.. figure:: _static/image_cb_040.png
+    :align: center
+
+    CONFIGURE FILTERS FOR FILES AND FOLDERS
+
+
+
+Cloud Backup Schedules
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cloud Backup and Restore`` > ``Backup Settings`` > ``Details``
+
+The current cloud backup schedule is displayed in the settings section as shown below. 
+
+.. figure:: _static/image_cb_041.png
+    :align: center
+
+    VIEW CLOUD BACKUP SCHEDULE 
+
+Click the tool icon in the upper right corner of that section to modify the schedule. The backups can be configured to run continuously or on a daily, weekly, or monthly basis. In each case, you will select the desired time frames or intervals of operation. 
+
+.. figure:: _static/image_cb_046.png
+    :align: center
+
+    ADJUST CLOUD BACKUP SCHEDULE 
+ 
+
+Device Backup Profiles
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cluster Management Console`` > ``Cloud Backup and Restore``
+
+As the cluster-admin on the web portal, go to 'Cloud Backup and Restore'. Under 'Settings', click 'Device Backup Profile' and then open the profile list. Click 'Add' to create a new backup profile.
+
+.. figure:: _static/image_cb_005.png
+    :align: center
+
+    CONFIGURE DEVICE BACKUP PROFILES
+
+
+Cloud Backup Bandwidth Control
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cloud Backup and Restore`` > ``Backup Settings`` > ``Details``
+
+The current cloud backup bandwidth limits are displayed in the settings section as shown below. 
+
+.. figure:: _static/image_cb_047.png
+    :align: center
+
+    VIEW CLOUD BANDWIDTH LIMITS  
+
+Click the tool icon in the upper right corner of that section to modify the limits. Specify the maximum bandwidth to be consumed during day and night times.
+
+.. figure:: _static/image_cb_048.png
+    :align: center
+
+    ADJUST CLOUD BANDWIDTH LIMITS  
+ 
+.. note:: 
+    Bandwidth limits are in kilobytes per second (kB/s) and 1kB/s = 0.008 Mbps So a setting of 1000 translates to 8 Mbps.
+
+
+Cloud Backup Retention Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cloud Backup and Restore`` > ``Backup Settings`` > ``Details``
+
+There are three retention policies. "Keep last n snapshots" defines the maximum snapshots allowed at any given time. However, this setting may be overridden by the value of "Keep snapshots for at least n days" if it is not 0. For example, you may want to only keep the last 2 snapshots available, but if the system is configured to keep a snapshot for at least 30 days, a daily snapshot could result in 30 snapshots being created before any are deleted.
+
+.. figure:: _static/image_cb_049.png
+    :align: center
+
+    DEFINE RETENTION POLICIES

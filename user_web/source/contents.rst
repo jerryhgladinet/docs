@@ -1,9 +1,9 @@
-.. Triofox Web Portal User Guide documentation master file, created by
+.. Web Portal User Guide documentation master file, created by
    sphinx-quickstart on Thu Aug 20 21:57:14 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the Triofox Web Portal User Guide's documentation!
+Welcome to Web Portal User Guide's documentation!
 =============================================================
 
 Contents:
@@ -22,10 +22,6 @@ Contents:
    chapter9
    chapter10
    chapter11
-   chapter12
-   chapter13
-   
-   
 
 Indices and tables
 ==================

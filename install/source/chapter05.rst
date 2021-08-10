@@ -10,7 +10,7 @@ The Tenant Administrator will see the files and folders view by default upon ini
 
 .. warning::
 
-    If you are the  cluster administrator, you may not see the "Management Console" icon. Instead, you can manage the default tenant from the Cluster Manager -> Tenant Manager and click through to manage the default tenant.
+    If you are the cluster administrator, you may not see the "Management Console" icon. Instead, you can manage the default tenant from the Cluster Manager -> Tenant Manager and click through to manage the default tenant.
 
 .. image:: _static/image_s5_1_1.png
 

@@ -1,105 +1,17 @@
-#################################
-Folder Legends in Web Interface
-#################################
+###############
+Notifications
+###############
 
-There are many different folders in the web interface. 
+**Subscribing To Change Notifications For Team Folders**
 
-Here is a list of them.
+Users can subscribe change notifications for Team Folders. Once subscribed, whenever a file or folder is changed in the team folder, the user will
+get an email with a list of changes. This notification only applies when the change is done by other users. It will not send out the notification
+email when the changes are done by the user himself/herself.
 
-Folder 
-================
+Visit the settings of the files page. Then go to the "Folder Change Subscriptions" tab, and click the "+" icon. This will lead to a menu that shows which folders the user is subscribed to, and offers the ability to change whether they want to be notified of changes or not.
 
-    .. figure:: _static/New084.png 
-        :height: 64px
-        :width: 64px
+.. figure:: _static/image_s16_1_1.png
+    :align: center
 
-    This folder represents mounted/attached storage. For example, a mounted file server network share or a connected Amazon S3 bucket will look like this.
-    
-Access Control 
-=================
+    ACTIVATE FOLDER NOTIFICATIONS
 
-    .. figure:: _static/New035.png
-        :height: 64px
-        :width: 64px
-
-    
-    
-Protection & Disaster Recovery
-================
-
-    .. figure:: _static/New036.png
-        :height: 64px
-        :width: 64px
-
-    
-Cloud
-===============
-
-    .. figure:: _static/New037.png
-        :height: 64px
-        :width: 64px
-
-    This folder represents a single shared folder received from other users.
-    
-Refresh Current Folder
-============
-
-    .. figure:: _static/New038.png
-        :height: 64px
-        :width: 64px
-
-Upload File/Folder     
-================
-
-    .. figure:: _static/New039.png
-        :height: 64px
-        :width: 64px
-
-Upload Using Local Uploader     
-================
-
-    .. figure:: _static/New040.png
-        :height: 64px
-        :width: 64px
-    
-Request A File    
-================
-
-    .. figure:: _static/New041.png
-        :height: 64px
-        :width: 64px
-
-New Folder      
-================
-
-    .. figure:: _static/New042.png
-        :height: 64px
-        :width: 64px
-
-New Word Document
-================
-
-    .. figure:: _static/New085.png
-        :height: 64px
-        :width: 64px       
-
-New Excel Document       
-================
-
-    .. figure:: _static/New086.png
-        :height: 64px
-        :width: 64px
-
-New Powerpoint Document
-================
-
-    .. figure:: _static/New087.png
-        :height: 64px
-        :width: 64px        
-
-New Text Document
-================
-
-    .. figure:: _static/New088.png
-        :height: 64px
-        :width: 64px   

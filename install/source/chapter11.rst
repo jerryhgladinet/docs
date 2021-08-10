@@ -1,13 +1,17 @@
-#########################
-License
-#########################
+########################
+11 Upgrade |prodname|
+########################
 
-When you are ready to license CentreStack, 
-the easiest way to do this is to use the "purchase now" link 
-from the cluster manager web portal under the self-hosted licenses view.
+We publish updated notes to our public blog forum called `|prodname| Blog`__. It is recommended that you perform an update if your self-hosted |prodname| and clients are three months or older.
 
-.. image:: _static/image068.png
+.. _CentreStack_Blog: http://blog.centrestack.com/ 
+__ CentreStack_Blog_
 
-The link will take you to your CentreStack
-Partner Portal account and from there, you can 
-acquire licenses and give them out to your clusters.
+Using the GUI Installer to Upgrade
+---------------------------------------
+
+.. image:: _static/image_s11_1_1_v2.png
+
+To install an update go to your Partner Portal at https://www.centrestack.com/management/partnerloginpage.aspx and download the GUI installer. When you run the GUI installer, it will detect the existing installation and perform an upgrade.
+
+.. image:: _static/image_s11_1_2_v2.png

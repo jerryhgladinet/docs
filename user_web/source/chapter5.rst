@@ -1,54 +1,23 @@
-##########################
-Different Scope of Users
-##########################
+###################################################
+Initial login
+###################################################
 
+To get started, point your web browser at the |prodname| server.
 
-Administrator
-=====================
+If you are the system administrator for the |prodname| server
+and you are in the server's console, you can point your 
+web browser at http://localhost
 
-Administrator is a management scope that typically maps to a company or a group of users that collaborates on a set of documents. In Triofox, it is referred to as the 
-Cluster Administrator count as well.
+If you are in the Local Area Network, you can point your
+web browser at the IP address of the |prodname| server - http://<ip-address>
 
-In this scope once all the file servers are discovered in your network after integration with Active Directory, you can choose a file server and see a list of all shares on that
-file server. 
+Most common, and in production,  you will be pointing your web browser at the 
+|prodname| server's DNS name, such as https://<DNS-Name-Of-Server>
 
-.. figure:: _static/New094.png
-    :align: center
+Once you are in the web portal, you will be seeing the login 
+page first.
 
-In the screenshot below, it displays all the shares on 'MEDFILE' file server.
+.. figure:: _static/image_s4_1_1.png
+    :align: center 
 
-.. figure:: _static/New095.png
-    :align: center
-
-Delegated Administrator
-=======================
-
-A delegated administrator is a normal user most of the time. However, delegated administrators can be elevated to cluster administrators by adding them under Control Panel\Admin. 
-To create this type of administrator follow these steps as Cluster Admin. Click on the Control Panel in the Dashboard.
-
-.. figure:: _static/New096.png
-    :align: center
-
-Then click on the Admin icon
-
-.. figure:: _static/New097.png
-    :align: center
-
-Then add the user email address(s) for additional cluster administrators
-
-.. figure:: _static/New146.png
-    :align: center
-
-Native User
-===========
-
-Native users are users that have credentials to log into Triofox and are not in Active Directory. They can be manually added under Access Control for different folders to 
-give them access.
-
-Active Directory(AD) Users
-===============
-
-AD users are users who are added once you have integrated Active Directory into your Triofox environment. You can add users via groups in your Active Directory domain controller 
-or you can add individual users. 
-
-
+    |prodname| LOGIN

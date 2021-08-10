@@ -17,7 +17,6 @@ Contents:
    chapter03.rst
    chapter04.rst
    chapter05.rst
-   chapter06.rst
 
 Indices and tables
 ==================

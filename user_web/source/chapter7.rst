@@ -1,62 +1,64 @@
-#################
-Users and Files
-#################
+#################################
+Folder Legends in Web Interface
+#################################
 
-After you login, you will see all the folders and files you have access to in your web portal file browser. The folders can be on the local file server in your company's
-network or folders for files in the cloud for example, Amazon AWS S3 or Microsoft Azure blob.
+There are many different folders in the web interface. 
 
-.. figure:: _static/New120.png 
-    :align: center
+Here is a list of them.
 
-You can double click on any folders to see all the sub-folders and files in that folder.
+**Mounted Storage**
 
-The file browser view also have some additional options in the left panel which are listed below:
+    .. figure:: _static/attachedcloud.png
+        :height: 64px
+        :width: 64px
 
-    - All my files shows all files and folders. 
-    - Quick access shows all files recently accessed.
-    - My favorites show all files which have been marked as favorites.
-    - Shared files/folders show all files and folders shared. 
-    - Device backups shows all the devices which have been backed up.
-    - Install Windows/Mac client once clicked will take you into a window to download the clients.
-   
-More Actions
-=============
-
-You can click on the three stacked dots in the upper right to see more options for example upload file or folder, create a new file or a folder etc. 
-
-.. figure:: _static/New121.png 
-    :align: center
-
-Icon View
-=============
-
-You can also change the icon display by selecting the different view options available. 
-
-.. figure:: _static/New122.png 
-    :align: center
-
-More Info (i)
-=============
-
-You can click the (i) icon in the upper right which will display all the current activities on the content. 
-
-.. figure:: _static/New123.png 
-    :align: center
-
-'Sharing and Collaboration' tab displays the list of files and folders that have been shared. 
-
-.. figure:: _static/New124.png 
-    :align: center
-
-Plus Icon
-=============
-
-You can also the plus icon in the bottom right to see more options for example upload a file or folder, create a document etc. 
-
-.. figure:: _static/New125.png 
-    :align: center         
-
-
-
+    This folder represents mounted/attached storage. For example, a mounted file server network share or a connected Amazon S3 bucket will look like this.
     
+**Sync From Remote**
 
+    .. figure:: _static/attachedlocal.png
+        :height: 64px
+        :width: 64px
+
+    This folder represents synchronization folders from remote PCs or Server Agents.
+    
+**Received Shares**
+
+    .. figure:: _static/sharedfolder.png
+        :height: 64px
+        :width: 64px
+
+    This folder represents the root folder of all the shared files and folders from other users.
+    
+**Regular Folder**
+
+    .. figure:: _static/shareitemfolder.png
+        :height: 64px
+        :width: 64px
+
+    This folder represents a single shared folder received from other users.
+    
+**Team Folder**
+
+    .. figure:: _static/teamfolder.png
+        :height: 64px
+        :width: 64px
+
+    This folder represent a team folder that is published to users and viewed from the users who received the team folder.
+    
+**Version Control**
+
+    .. figure:: _static/versionfolder.png
+        :height: 64px
+        :width: 64px
+
+    Version folder represents folders that every files inside is under version control. 
+    
+    .. note::
+    
+        If a folder doesn't have the version folder icon, doesn't mean it is not a version folder. 
+        
+        As long as one of the parent folder is a version folder, everything inside is under version control.
+        
+        If the administrator setup the user as version control from the root, the team user may not see the version folder icon either when version control is on by default.
+    
