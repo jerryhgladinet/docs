@@ -1,9 +1,6 @@
-######################
-Tenant Administrator
-######################
-
+###################################################
 File Browser
-=================
+###################################################
 
 After you log in to the web portal, the file and folder view **(1)** will show important settings and features that can be accessed by clicking the icons in the top right **(2)**. The small down arrow icon **(3)** allows you to choose different icon sizes or switch to a detailed list view, which gives you access to more information about the files **(4)**, such as versions.
 

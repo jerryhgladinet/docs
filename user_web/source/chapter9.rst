@@ -1,100 +1,114 @@
-#################
-Users and Files
-#################
+#########
+Sharing
+#########
 
-Please reference the `Admin Guide`__ for full documentation of the tenant administration. Here we will go over several commonly touched areas for tenant administrators.
+Sharing vs. Publishing
+=======================
 
-.. _Admin_Guide: https://centrestack.com/Library/AdminGuide/ 
-__ Admin_Guide_
+There are two ways to share files and folders in |prodname|  – publishing and sharing.
 
-After you enter the "management console", you will be in the dashboard. When you are at the dashboard, you can access the tenant by clicking on the desired tenant from the options.
+*  **Publishing:** 
+ 
+    Only available for the administrator who can share any tenant-wide folder. It will only work with team-users in a specific |prodname| account (tenant account). Publishing a team folder can’t go outside of the tenant scope.
 
-.. figure:: _static/image_s7_1_1.png
-    :align: center
+*  **Sharing:** 
+ 
+    Both the administrator and team-users can share files with anyone that has an email address. The recipient of the share will get an
+    email with a link to open the folder or download the file. If the email recipient is also a |prodname| Cloud user, he/she can access the shared file or folder directly from |prodname|.
 
-Once you are in the tenant manager, the top two objects to manage are users **(1)** and folders **(2)**. If you are using an Active Directory for importing users and permissions you can connect to your Active Directory by clicking the wrench icon **(3)**.
+    Administrators can prevent team-users from sharing if needed.
 
-.. figure:: _static/image_s7_1_2.png
-    :align: center
+Sharing Files And Folders
+==========================
 
-    MANAGE USERS AND FILES
-
-
-Files
-======
-
-Adding files and folders can be accomplished by clicking **"Create Team Folder"**. Once the **"Team Folder Storage Locations"** view opens you can choose from many options: Existing Tenant Storage, File Servers in Local Area Network, Remote File Servers or Cloud Storage. 
-
-.. figure:: _static/image_s7_5_1.png
-    :align: center
-
-    WAYS TO ADD STORAGE LOCATIONS
-
-
-File Servers
+File Sharing
 -------------
 
-If you have an existing file server in the Local Area Network (LAN), you can import the network share directly to |prodname| **(1)**. Under Remote File Servers, you can install the Server Agent client **(2)** and access your file server remotely.
+To share a file, click it and select the Share icon (1)revealed in the header of the file. You can also right click the file and select Share (2) in the context menu. Once the file is selected, if the right panel is open(click the encircled "i" button), there is a Share link (3) there as well.
 
-.. figure:: _static/image_s7_5_2.png
+.. figure:: _static/image_s15_1_1.png
     :align: center
 
-    ADDING REMOTE FILES
-    
-    .. note::
-    
-       The Server Agent is only required when the remote file server doesn't have direct LAN (local area network) access
-        to |prodname|. The Server Agent will be used in this case to facilitate communication between
-        the |prodname| server to the remote file server.
+    SHARING FILES
 
+After clicking ‘Share’ above, in ‘Invite People’ window, click the email field (4) and enter email addresses seperated by semicolons (;) for anyone that needs access to the file. You can also add notes (5) if required. Click CONTINUE (6). 
 
-Sharing
-=========
-Preventing Users From Sharing
-------------------------------
-
-Sometimes for security reasons, users should not be allowed to share files/folders.
-
-There are two types of files and folders a user can access.
-
-*	User's own folders, including versioned folders and attached local folders from the user's desktop.
-
-When an administrator creates new users, he/she can disable sharing home directory content with external party, to prevent the newly
-created user from sharing his/her own files and folders.
-
-.. figure:: _static/image_s15_1_10.png
+.. figure:: _static/image_s15_1_2.png
     :align: center
 
-    MANAGE USER SETTINGS
+    INVITE PEOPLE TO YOUR SHARE
 
-In the Manage User panel use the drop-down menu (4) to access the "Storage" settings (5). Once you are in the Storage View you can select (6) the "Disable team-user share home directory content externally" option. 
 
-.. figure:: _static/image_s15_1_11.png
+On the second share window you have access to the share options panel where you can make important decisions such as how long you want the share to be active and how much control you want to give the user (e.g., read only, full control access). You can also make this share available to the public by get
+
+.. figure:: _static/image_s15_1_3.png
     :align: center
 
-    DISABLE EXTERNAL SHARING
+    SHARE OPTIONS PANEL
 
+You can access previously shared items by clicking the share icon (2) on a folder of file. Other shares can be accessed by opening the right panel (1) and clicking the edit button (3) next to the "Shared Items" option. 
 
-When publishing a team folder, administrator can check 'Disable further sharing', to prevent users from sharing anything in the team folder. You can access this setting after choosing your storage location. Click the "Create Team Folder" icon (1) and select your storage type (2), then select the "Disable further sharing" option (3). 
-
-.. figure:: _static/image_s15_1_12.png
+.. figure:: _static/image_s15_1_4.png
     :align: center
 
-    DISABLE FURTHER SHARING
+    ACCESSING SHARED ITEMS SETTINGS
 
 
-Protecting Shares By Requiring Login
--------------------------------------
+Folder Sharing
+---------------
 
-When a user shares a file or folder, |prodname| will generate a URL. By default, anyone can use the URL to access the share.
+In this example, the icon view has been changed to detailed view (1) of the files in this folder. To share a folder, mouse-over it and select the Share icon (2) in its row. You can also right click the file and select ‘Share’ in the context menu.
 
-Administrators can protect shares by requiring login credentials. Once enabled, when a user accesses the share URL, he /she will be prompted to
-login to the |prodname| Cloud. After login, the user can view the file/folder shared with him/her under 'Files shared with me'.
-
-To access this setting use the drop-down menu (1) and in the "Group Policy -> Sharing" (2) panel, select the "...user must login to his/her account..." setting. 
-
-.. figure:: _static/image_s15_1_13.png
+.. figure:: _static/image_s15_1_5.png
     :align: center
 
-    SECURING SHARED FILES AND FOLDERS
+    SHARING FOLDERS
+
+
+Removing shares
+================
+
+During share setup, a user can define its expiration date. Once the share expires, other users will no longer be able to access the shares.
+
+Users can also delete the share manually. First go to the Drive Root (1). 
+
+To delete a user's access to a share, open the right panel click the "Manage" icon (2) on shared items. In the next panel choose the item you wish to modify, then in the pop-up window, click the Delete icon (3) to remove this user's permission from the share.  
+
+.. figure:: _static/image_s15_1_6.png
+    :align: center
+
+    DELETING A USER'S PERMISSION
+
+
+Accessing 'Files/Folders Shared With Me'
+=========================================
+
+When a file or folder is shared with the user, he/she will get an email. The link in the email can be used to open the file or folder.
+
+If the user has a |prodname|  account with the given email address, the shared files and folders will appear under the ‘Files shared with
+me’ folder, in both the |prodname| Web Portal and |prodname| Desktop App.
+
+Web Portal
+----------------------
+
+You can access shared files by clicking the "Shared files/folders" button in the "File Browser" view of the Web Portal. 
+
+.. figure:: _static/image_s15_1_8.png
+    :align: center
+
+    WEB PORTAL SHARED FILES LOCATION
+
+
+Windows Client
+--------------------
+
+In the Windows Client you can access shared files by using windows explorer to navigate to the Cloud Drive (1) where you will find any shared files listed (2) with information about who shared (3) the file with you. 
+
+.. figure:: _static/image_s15_1_9.png
+    :align: center
+
+    WINDOWS CLIENT SHARED FILES LOCATION
+
+
+If the user has write permission to the folder shared, he can modify the files in the folder.
 
