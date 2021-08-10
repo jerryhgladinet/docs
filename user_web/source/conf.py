@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # Triofox Web Portal User Guide documentation build configuration file, created by
@@ -121,10 +121,6 @@ html_theme = 'sphinx_rtd_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #html_theme_options = {}
-html_theme_options =  {
-    'canonical_url': 'https://www.triofox.com/documents/user_web_guide/',    'style_nav_header_background': '#f68e2a',
-  
-}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []

@@ -55,16 +55,16 @@ Folders Created in |prodname| are Versioned Folders.
 |prodname| will maintain the version history of any files uploaded to versioned folders. From |prodname|, a user can download any previous versions of a file. From the |prodname| Desktop/Server Agent, a user can restore previous versions of files and recover deleted files.
 
 
-To create a folder right click in the File Browser window background and select **"Create Folder"** from the pop-up context menu. 
+To create a folder, go to the parent folder and click "New Folder" in the drop-down menu **(1)** or right click in the folder background and choose "New Folder" **(2)** from the context menu. 
 
-.. figure:: _static/image_s14_1_1.png
+.. figure:: _static/image_s11_3_4b.png
     :align: center
 
-    CREATING A FOLDER
+    CREATING FOLDERS
 
 
 Attach Folder from Clients
-====================================
+==============================
 
 If you have the Windows Client installed, can also Attach a Local Folder from this client. 
 
@@ -79,6 +79,17 @@ These folders are the local folders from the local PC/Mac that |prodname| users 
     :align: center
 
     ATTACHED LOCAL FOLDER
+
+
+Renaming/Deleting Folders
+==========================
+
+Renaming and deleting files and folders can be achieved by right-clicking the file in the "File Browser" and selecting the appropriate context-menu item or using the small icons in the Detailed View bar of the selected item. 
+
+.. figure:: _static/image_s11_3_4c.png
+    :align: center
+
+    RENAMING FILES
 
 
 Upload Files/Folders
@@ -137,25 +148,3 @@ If you select a file in the "File Browser" you can use the download icon **(1)**
     DOWNLOAD FILE OPTIONS
 
 If your are in "Detailed View" **(3)** any files with previous versions will show a number in the selected bar (e.g. "V2") **(4)** that you may click to open a list of all of the versions of that file. 
-
-
-Creating Folders
-=================
-
-To create a folder, go to the parent folder and click "New Folder" in the drop-down menu **(1)** or right click in the folder background and choose "New Folder" **(2)** from the context menu. 
-
-.. figure:: _static/image_s11_3_4b.png
-    :align: center
-
-    CREATING FOLDERS
-
-
-Renaming/Deleting Folders
-==========================
-
-Renaming and deleting files and folders can be achieved by right-clicking the file in the "File Browser" and selecting the appropriate context-menu item or using the small icons in the Detailed View bar of the selected item. 
-
-.. figure:: _static/image_s11_3_4c.png
-    :align: center
-
-    RENAMING FILES

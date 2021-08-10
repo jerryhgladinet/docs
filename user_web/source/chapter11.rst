@@ -106,7 +106,7 @@ You can add users from within the User Manager or simply click the Add New User 
     also see the server agents listed by name in the Add User page.
 
 
-Add Native Users
+Native Users
 """"""""""""""""""""""""
 
 When a new user is created, the administrator will specify the amount of cloud storage that the new user is allowed to use. The email address will send a welcome email to the new user and will serve as his/her username.
@@ -120,7 +120,7 @@ When a new user is created, the administrator will specify the amount of cloud s
 
     When quota is left as zero, it means no limitation until the tenant quota limit is hit.
 
-Add Active Directory Users from LDAP
+Active Directory Users from LDAP
 """""""""""""""""""""""""""""""""""""""""
 
 If the Active Directory (LDAP) is not already configured, you will need to configure it first. Click the wrench icon in the right Local Active Directory panel to access the settings. 
@@ -149,7 +149,7 @@ wizard to import Active Directory users into |prodname|.
     in the same network as the Active Directory server.
 
 
-Add Active Directory Users from Server Agent
+Active Directory Users from Server Agent
 """"""""""""""""""""""""""""""""""""""""""""""""
 
 When the Server Agent is available and connects to the specific
