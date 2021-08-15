@@ -152,10 +152,4 @@ After the installation has been completed successfully, a reboot is required. Cl
 
     |prodname| is a multi-tenant solution. The Tenant Manager scope is defined for a tenant administrator. For a multi-tenant Cluster Server system, each tenant has an administrator. For a single-tenant Cluster Server system, the default cluster administrator is also the tenant administrator.
 
-For the next screen, if you have an existing database use the pull-down menu to select a different option otherwise use the default which will also install the PostgreSQL Community Edition database.
 
-.. image:: _static/image_s2_5_7_v2.png
-
-In the next screen, enter your Partner Account login credentials to complete the installation.
-
-.. image:: _static/image_s2_5_8_v4.png
