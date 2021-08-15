@@ -86,6 +86,10 @@ MySQL Server
 ------------
 MySQL typically listens on TCP port 3306. Make sure this port is opened on the firewall. 
 
+PostgreSQL Server
+------------------
+PostgreSQL usually is the default option for the all-in-one installation. The default port is 5679 but most of the time the database is running on the "localhost", same as the |prodname| server.
+
 
 Step 4: Prepare the |prodname| Server
 ======================================
