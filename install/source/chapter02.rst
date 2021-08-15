@@ -134,7 +134,19 @@ And accept the EULA
 
 .. image:: _static/image_s2_5_3_v3.png
 
-|prodname| will install and then you will need to restart your system to complete the installation. 
+Click ‘Next’
+
+.. image:: _static/image_s2_5_5_v3.png
+
+And Click Install.
+
+.. image:: _static/image_s2_5_6_v2.png
+
+After the installation has been completed successfully, a reboot is required. Click 'Restart'.
+
+.. note:: 
+
+    |prodname| will install and then you will need to restart your system to complete the installation. 
 
 .. note::
 
@@ -147,13 +159,3 @@ For the next screen, if you have an existing database use the pull-down menu to 
 In the next screen, enter your Partner Account login credentials to complete the installation.
 
 .. image:: _static/image_s2_5_8_v4.png
-
-Click ‘Next’
-
-.. image:: _static/image_s2_5_5_v3.png
-
-And Click Install.
-
-.. image:: _static/image_s2_5_6_v2.png
-
-After the installation has been completed successfully, a reboot is required. Click 'Restart'.
