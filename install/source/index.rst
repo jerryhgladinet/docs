@@ -5,7 +5,7 @@
 Introduction
 ==============
 
-Welcome to the ** |prodname| Server** Installation Guide. This guide describes the installation tasks for |prodname|, the managed file synchronization and sharing solution. 
+Welcome to the **|prodname| Server** Installation Guide. This guide describes the installation tasks for |prodname|, the managed file synchronization and sharing solution. 
 
 |prodname| includes the |prodname| server, which runs on the Microsoft Windows server platform, and client agent applications for Web browsers, Microsoft Windows, Mac OS X, and for mobile platforms such as the Android and the Apple iOS operating systems.
 
