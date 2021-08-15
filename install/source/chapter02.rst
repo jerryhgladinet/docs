@@ -66,7 +66,7 @@ Step 3: Prepare the Database Server
 
 .. warning::
 
-    With the release of **the |prodname| version 9.5.5409.41172**, the default database engine for the "all in one" deployment has switched to PostgreSQL or MySQL Community Edition as opposed to Microsoft SQL Server Express Edition. The main reason to make this switch was to avoid the built-in limitations of SQL Server Express Edition (1 GB RAM and 10 GB max database file size).
+    With the release of the |prodname| version 9.5.5409.41172, the default database engine for the "all in one" deployment has switched to PostgreSQL or MySQL Community Edition as opposed to Microsoft SQL Server Express Edition. The main reason to make this switch was to avoid the built-in limitations of SQL Server Express Edition (1 GB RAM and 10 GB max database file size).
 
 There are two places that store persistent information. The first place is the File Storage mentioned in Step 1. The second place is the |prodname| database. There is configuration information such as user name, team folder, shared folder, login token in the database. There is also runtime information such as audit trace and file change log in the database.
 
