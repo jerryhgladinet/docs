@@ -26,7 +26,7 @@ Overview
     * IIS (Internet Information Server)
     * .NET Framework and ASP.NET
     * WCF (Windows Communication Foundation)
-    * MySQL Community Edition (for the all-in-one deployment) or SQL Server
+    * PostgreSQL, MySQL Community Edition (for the all-in-one deployment) or SQL Server
     
 Since the |prodname| Server is built on top of the Microsoft Web Platform, it integrates very well with other Microsoft components such as the NTFS Permission on files and folders, the Active Directory users and the File Server network shares.
 
