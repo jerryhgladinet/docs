@@ -48,6 +48,10 @@ If you are integrating Active Directory, you will need the following information
 .. note::
 
     If your Active Directory or the client's Active Directory is remotely located with regard to the |prodname| Server, then you should use Server Agent software to connect the Active Directory instead of using LDAP to connect Active Directory.
+    
+.. note::
+
+    If you are using Single Sign-On service such as Azure AD, Active Directory Federation Service, OneLogin or OKTA, you can confige SAML based authentication instead of using Active Directory directly. Normally those identity service providers are connected to the corporate Active Directory anyway.
 
 Step 3: Prepare the Database Server
 =====================================
