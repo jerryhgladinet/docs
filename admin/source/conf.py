@@ -50,8 +50,8 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Administration Guide'
-copyright = '2021, Gladinet, Inc.'
-author = 'gladinet'
+copyright = '2021 - Gladinet, Inc. All Rights Reserved'
+author = 'Gladinet, Inc.'
 
 prodname = 'CentreStack'
 

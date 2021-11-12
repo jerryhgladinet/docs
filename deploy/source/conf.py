@@ -49,8 +49,8 @@ source_suffix = '.rst'
 master_doc = 'contents'
 
 # General information about the project.
-project = 'Installation Checklist'
-copyright = '© Copyright 2021 - Gladinet, Inc. All Rights Reserved'
+project = 'Deployment Guide'
+copyright = '2021 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -131,7 +131,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #html_title = None
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = "Installation Checklist"
+#html_short_title = None
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.

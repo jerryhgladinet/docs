@@ -1,18 +1,18 @@
 ****************************************
-CentreStack IOS Client User Guide
+CentreStack iOS Client User Guide
 ****************************************
 
 
 Getting Started
 ==================
 
-Welcome to the CentreStack IOS Client User Guide. This guide describes the Android client application for CentreStack, the managed file synchronization, and sharing solution.
+Welcome to the CentreStack iOS Client User Guide. This guide describes the iOS client application for CentreStack, the managed file synchronization, and sharing solution.
 
 Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, Windows 8+, and more. We have created a native IOS application that you can download from the App Store. This provides access to files and folders in your CentreStack account.
 
-The white-labeled CentreStack IOS app called “Cloud Drive” by Gladinet that can be distributed by service providers and enterprises to their users. 
+The white-labeled CentreStack iOS app called “Cloud Drive” by Gladinet that can be distributed by service providers and enterprises to their users. 
 
-If you have the fully branded CentreStack IOS client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from http://www.centrestack.com (partner portal). 
+If you have the fully branded CentreStack iOS client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from http://www.centrestack.com (partner portal). 
 
 
 Download & Install
@@ -112,6 +112,7 @@ You can tap a folder to enter it for browsing, and tap a file to open it in a fi
 
 Multiple operations can be carried out by accessing the menu.
 
+.. image:: _static/NewImage37.png 
 
 Preview
 ----------
@@ -179,7 +180,7 @@ You can add a file to favorites by pressing the three vertical ellipses icon to 
 Remove from Favorite
 #######################
 
-To remove files from your **Offline Favorites** Access them from the top-left menu, and choose **Offline Favorites**. 
+To remove files from your **Offline Favorites** Access them from the top-left menu, and choose **Offline Favorites**. Or use the Offline icon (star) at the Bottom Bar.
 
 .. image:: _static/NewImage12.png
 
@@ -191,45 +192,31 @@ In the **Offline Favorites** view you can remove files by clicking the three ver
 Sharing and Collaborating
 =============================
 
-You can select the files or folders that you want to share from your IOS devices. 
+You can select the files or folders that you want to share from your iOS devices.
+
+.. image:: _static/NewImage14.png 
+
+Share Via
+-----------------
+You will be allowed to share the file to a third party application such as gmail, or WhatsApp.
+
+.. image:: _static/NewImage27.png 
+
+Share Manager
+-----------------
+You will be taken to a view and will see a list of any shares associated with this file/folder. You can add new shares there or delete previous shares to revoke access.
+
+To delete a user share, swipe the row to the left. This removes the share and prevents access by that user.
+
+At the bottom can find options to Add new shares, enable/disable and copy Public Link and Request a File. To refresh the list swipe down.
+
+.. image:: _static/NewImage36.png 
 
 Sharing a File
 -----------------
-
-From the file view you can click the vertical ellipses near the right and a context menu will appear. In this context menu you can "Share" in several ways: "Share", "Get public link", "Share manager". 
-
-If you press **"Share Manager" (1)**, you will be taken to the "Share/Invite User to share" screen. There you can add user emails and select various options for sharing including getting a public link. 
-
-If you press **"Share Via" (3)**, you will be allowed to share the file to a third party application such as gmail, or WhatsApp.
-
-.. image:: _static/NewImage14.png 
-.. image:: _static/NewImage27.png 
-
-.. important::
-        Sharing with an email user creates a **Guest User**. Each licensed user can create 3 guest user accounts. If there are 3 licensed users, then a total of 9 guest users can be added for that tenant. If the number of guest users has reached the limit, and the tenant is set up to auto grow the number of licensed users, then one more license will be added to the tenant. 
-
-
-If you choose the **"Share Manager" (1)** option (see above), in the next screen, enter the email(s) of any users you want to add. Press the **">"** icon to add users to the share.
+You will be taken to the "Specify User" screen. There you can add user emails and next select various options for sharing.
 
 .. image:: _static/NewImage15.png 
-
-Public Link
-----------------
-Enable the public link option will display the public URL which can also be sent to the users so they can access the share from the URL or you can copy the share URL in an email. Once the Public Link is enabled, you can click ‘COPY TO CLIPBOARD’ to copy the public link to your clipboard so it can be pasted into a field, email or document.
-
-.. image:: _static/NewImage28.png 
-
-Requesting a File
-----------------------
-
-You can request a file through the share manager. It is the icon on the bottom right.
-
-.. image:: _static/NewImage29.png 
-.. image:: _static/NewImage30.png 
-
-
-Sharing/Protection Options
-------------------------------
 
 Before sending your email share notification, you can control how the guest user(s) can access the file or folder. 
 
@@ -244,6 +231,20 @@ Before sending your email share notification, you can control how the guest user
     - Notify user when file/folder is changed
     
 .. image:: _static/NewImage16.png
+
+Public Link
+----------------
+Enable the public link option will display the public URL which can also be sent to the users so they can access the share from the URL or you can copy the share URL in an email. Once the Public Link is enabled, you can click ‘COPY TO CLIPBOARD’ to copy the public link to your clipboard so it can be pasted into a field, email or document.
+
+.. image:: _static/NewImage28.png 
+
+Request a File
+----------------------
+
+This option is only available for folders. Once you select request a file at the bottom right, it will take you to a screen where you can share a link with a user to allow him to upload files to the specific folder.
+
+.. image:: _static/NewImage29.png 
+.. image:: _static/NewImage30.png 
 
 
 Working with Office Applications

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# CentreStack Android User Guide documentation build configuration file, created by
+# CentreStack iOS User Guide documentation build configuration file, created by
 # sphinx-quickstart on Thu Jul 23 14:54:32 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -49,8 +49,8 @@ source_suffix = '.rst'
 master_doc = 'contents'
 
 # General information about the project.
-project = 'CentreStack Android User Guide'
-copyright = '© Copyright 2021 - Gladinet, Inc. All Rights Reserved'
+project = 'CentreStack iOS User Guide'
+copyright = '2021 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -204,7 +204,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CentreStackAndroidUserGuidedoc'
+htmlhelp_basename = 'CentreStackiOSUserGuidedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -226,7 +226,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'CentreStackAndroidUserGuide.tex', 'CentreStack Android User Guide Documentation',
+  (master_doc, 'CentreStackiOSUserGuide.tex', 'CentreStack iOS User Guide Documentation',
    'Gladinet, Inc.', 'manual'),
 ]
 
@@ -256,7 +256,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'centrestackandroiduserguide', 'CentreStack Android User Guide Documentation',
+    (master_doc, 'centrestackiosuserguide', 'CentreStack iOS User Guide Documentation',
      [author], 1)
 ]
 
@@ -270,8 +270,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'CentreStackAndroidUserGuide', 'CentreStack Android User Guide Documentation',
-   author, 'CentreStackAndroidUserGuide', 'One line description of project.',
+  (master_doc, 'CentreStackiOSUserGuide', 'CentreStack iOS User Guide Documentation',
+   author, 'CentreStackiOSUserGuide', 'One line description of project.',
    'Miscellaneous'),
 ]
 

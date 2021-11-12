@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Triofox Web Portal User Guide documentation build configuration file, created by
+# CentreStack Web Portal User Guide documentation build configuration file, created by
 # sphinx-quickstart on Thu Aug 20 21:57:14 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -50,7 +50,7 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Web Portal User Guide'
-copyright = '© Copyright 2021 - Gladinet, Inc. All Rights Reserved'
+copyright = '2021 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
 prodname = 'CentreStack'
@@ -208,7 +208,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'TriofoxWebPortalUserGuidedoc'
+htmlhelp_basename = 'CentreStackWebPortalUserGuidedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -230,7 +230,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'TriofoxWebPortalUserGuide.tex', prodname+' Web Portal User Guide Documentation',
+  (master_doc, 'CentreStackWebPortalUserGuide.tex', prodname+' Web Portal User Guide Documentation',
    author, 'manual'),
 ]
 
@@ -260,7 +260,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'Triofoxwebportaluserguide', 'Triofox Web Portal User Guide Documentation',
+    (master_doc, 'centrestackwebportaluserguide', 'CentreStack Web Portal User Guide Documentation',
      [author], 1)
 ]
 
@@ -274,8 +274,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'TriofoxWebPortalUserGuide', 'Triofox Web Portal User Guide Documentation',
-   author, 'TriofoxWebPortalUserGuide', 'One line description of project.',
+  (master_doc, 'CentreStackWebPortalUserGuide', 'CentreStack Web Portal User Guide Documentation',
+   author, 'CentreStackWebPortalUserGuide', 'One line description of project.',
    'Miscellaneous'),
 ]
 
