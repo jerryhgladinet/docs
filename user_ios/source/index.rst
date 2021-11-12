@@ -1,288 +1,261 @@
-#########################################
-CentreStack iOS Application User Guide
-#########################################
+****************************************
+CentreStack IOS Client User Guide
+****************************************
 
-Introduction
-================
-
-Welcome to the CentreStack iOS Client User Guide. This guide describes the iOS client application for CentreStack, the managed file synchronization and sharing solution.
-
-Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Macs, iPhones, iPads, Android, Windows Phone 8+ and more.
-
-Gladinet Cloud iPhone application is a native iOS application available in App Store that you can use to access Gladinet cloud files and folders. The iOS Gladinet Cloud app requires IOS 6.0 or later and is compatible with iPhone, iPad, and iPod touch.
-
-There is also a white labelled Gladinet Cloud iOS app called "Cloud Client" by Gladinet that can be distributed by service providers and enterprises to their users.
 
 Getting Started
-===================
+==================
 
-This user guide describes in detail the full functionality of Gladinet Cloud iOS application.
+Welcome to the CentreStack IOS Client User Guide. This guide describes the Android client application for CentreStack, the managed file synchronization, and sharing solution.
+
+Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, Windows 8+, and more. We have created a native IOS application that you can download from the App Store. This provides access to files and folders in your CentreStack account.
+
+The white-labeled CentreStack IOS app called “Cloud Drive” by Gladinet that can be distributed by service providers and enterprises to their users. 
+
+If you have the fully branded CentreStack IOS client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from http://www.centrestack.com (partner portal). 
+
 
 Download & Install
---------------------------
+====================
 
-Search for Gladinet Cloud in "App Store" to start the download and installation.
+Search for Gladinet, Inc. as a publisher in ‘App Store’ to start the download and installation.
 
-.. image:: _static/image_01_01.png
-
-After the install click on **"OPEN"** to access the Gladinet login screen. 
-
-.. image:: _static/image_01_01a.png
-
-The first time you login, you will need to click the **"Access Point"** text, and enter your access point (e.g., ip address, url). Then enter your login credentials to complete the process. 
-
-.. image:: _static/image_01_02.png
+.. image:: _static/NewImage1.png
 
 
-Accessing Folders and Files
+After the install open the app from its icon. Login using your credentials.
+
+.. image:: _static/NewImage2.png
+
+
+Enter Access Point (if not filled automatically) and your Username and tap “CONTINUE”. 
+
+.. image:: _static/NewImage3.png
+
+On the following screen, enter your Password and tap “SIGN IN”, to log in to your server. 
+
+
+Access, Upload and Create
 ==============================
 
 Once logged in users will see the files and folders they have access to like shown in the screen below.
 
-.. image:: _static/image_02_01.png
+.. image:: _static/NewImage4.png
 
-Tap on the folder to see the files and sub-folders inside. Clicking the **"i"** circle icon for a folder will display editing and collaboration options for that folder.
+Tap on the folder to see the files and sub-folders inside. 
 
-.. image:: _static/image_02_02.png
-
-The editing and collaboration options are "Favorite", "Share", "Comment", "Open In...", "Delete", "Rename", "Copy", and "Move to...".
-
-.. image:: _static/image_02_03.png
-
-Tapping a file will also display the same editing and collaboration options as show for the folder above. To access a file tap on the file name and you will be able to view the file and the context menu.
-
-.. image:: _static/image_02_04.png
-
-Creating New Folders
-======================
-
-In order to create new folders a user can click the **"+"** (plus) icon displayed on the bottom of the screen.
-
-.. image:: _static/image_03_01.png
-
-After entering the folder name and clicking the **"OK"** button will create a new folder.
+.. image:: _static/NewImage5.png
 
 
-Uploading Photos
-====================
+Sort Menu
+-------------
 
-Selecting the camera icon will allow users to either upload an existing phone or take a new photo. To take a photo or to choose an existing photo to upload select the camera icon on the bottom of the screen and select **"Take Photo"** or **"Choose Existing"**.
+In the sort menu, you can change the order of which your files are displayed.
 
-.. image:: _static/image_04_01.png
+**Name (A to Z)** is when your files are displayed in the order of the alphabet.
 
-In this example, you can select the pictures you wish to add then click **"Done"** to complete the process. 
+**Name (Z to A)** lets you display your files opposite of the alphabetical order. 
 
-.. image:: _static/image_04_02.png
+**Size (1 to 9)** lets your files be displayed in the order of which files are the smallest. 
 
-Offline Access
-=================
+**Size (9 to 1)** displays your files in the order of which the largest files are shown first. 
 
-Files that have been added to "Favorite" are available for offline access. You can access the files by clicking the **Favorite Icon** when offline.
+**Date (Old to New)** displays files that were added first at the top of your file browser. 
 
-.. image:: _static/image_05_01.png
+**Date (New to Old)** displays your files in the order of which the most recently worked on files are shown first.
 
-Selecting the **Star (1)** icon at the bottom of the screen (shown below), will open the **"Offline Favorites"** screen shows all the files that are available for offline access. If you click the **"Edit" (2)** button, you can remove items from this list by clicking the **[-] (3)** (minus) icon on the left of the item you with to remove. In this example image you can allso see the **green checkmark** (synced for offline) and the **blue star** (favorited) to show you the status of the file. When you are finished with "Favorite" edits, click **"Done" (4)** to exit this function. 
-
-.. image:: _static/image_05_02.png
-
-Editing and Saving an existing document
-==========================================
-
-To edit an existing document, tap on the document in the file list.
-
-.. image:: _static/image_06_01.png
- 
-
-You will be taken to the edit and collaboration screen. where you will select **"Open In"** option.
-
-.. image:: _static/image_06_02.png
- 
-
-Select "Open in screens" to edit the file.
-
-When you select "Open in Pages" you will see a message window, "this document may look different on your IOS device", select "OK" and select the file you want to edit. Edit the file and select "Done "to save. Any changes you have made will be saved and you can tap the document again to return back and continue editing.
-
-.. image:: _static/image053.png
-
-NOTES: iOS applications are sandboxed by default, meaning they don"t have a way to access other application"s data. So when an external application edits the document, the document is saved to that external application"s isolated (sandboxed) storage location. Many external application supports “SHARE” or “OPEN IN” so you can use the Share or Open In to send the document back into Gladinet iOS application.
-
-Select the document you want to edit.
-
-.. image:: _static/image054.png
-
-Edit the document and select 'Done' and then select the 'upload icon'.
-
-.. image:: _static/image055.png
-
-.. image:: _static/image056.png
-
-Select 'Open in Another App'
-
-.. image:: _static/image057.png
-
-Choose a the file format.
-
-.. image:: _static/image058.png
-
-Select 'Open in Gladinet Cloud'.
-
-.. image:: _static/image059.png
-
-Click on 'Upload to this file'
-
-.. image:: _static/image060.png
-
-Refresh
-=========
-
-To refresh any screen, select the refresh icon on the bottom of the screen.
- 
-.. image:: _static/image019.png
-
-Preview
-=========
-
-In order to preview a file, you can press the **"Tap to Preview"** option listed under the file name.
-
-.. image:: _static/image_08_01.png
+.. image:: _static/NewImage6.png
 
 
-Favorites
-=============
-
-Adding to Favorite
+Main Operations
 --------------------
 
-You can add a file to favorites by tapping the file to open the file properties screen and pressing the **Star Icon**.
+Camera
+#############
+The camera icon allows you to insert media from your phone. You can either take a new picture or video or you can insert one from your camera library.
 
-.. image:: _static/image_09_01.png
- 
-
-When you add files to favorite, they will be marked with a "Star" and you can access them offline.
-
-.. image:: _static/image_09_02.png
+.. image:: _static/NewImage21.png
+.. image:: _static/NewImage22.png
 
 
-Removing from Favorite
-------------------------
+Creating New Folders
+##########################
 
-You can remove files from favorite by pressing the **Star Icon** in the root folder. This will open the **"Offline Favorites"** screen. 
+To create new folders, click the **plus icon** at the bottom of the screen and it will let you create a name for the folder. Once a name is created the folder is created.
 
-.. image:: _static/image_10_01.png
+.. image:: _static/NewImage7.png
+.. image:: _static/NewImage8.png
 
-On the **"Offline Favorites"** screen, you can click **"Edit" (1)** and remove any files you wish to unfavorite by clicking the minus, **"-" (2)** next to the file you want to remove. Then click **"Done"** and **"Close"** to complete the process. 
+Settings
+#############
+In the settings section you can change a number of options including the theme of the mobile application.
 
-.. image:: _static/image_10_02.png
+.. image:: _static/NewImage23.png
+.. image:: _static/NewImage24.png
+
+Log Out
+#############
+
+To logout, click the icon on the top-left of the app and press the **"Sign Out"** icon at the bottom of the menu.
+
+.. image:: _static/NewImage20.png
+
+You can also log out from the navigation pane at the bottom of the screen.
+
+.. image:: _static/NewImage33.png
 
 
-Sharing 
-============
+Manage and Edit
+======================
+
+You can tap a folder to enter it for browsing, and tap a file to open it in a file previewer.
+
+Multiple operations can be carried out by accessing the menu.
+
+
+Preview
+----------
+
+To preview a file, you can simply click on the file you want to see and it will open inside of the Cloud Drive application. For example, you can preview an excel file in Excel or in the Cloud Drive application.
+
+.. image:: _static/NewImage9.png
+
+You can also go into a folder and preview a file with multiple images. Once you click into the preview you can scroll through all the pictures in that screen as well as saving the picture to your phone.
+
+.. image:: _static/NewImage25.png
+.. image:: _static/NewImage26.png
+
+Delete
+-----------------
+
+A file can be deleted using the **‘Delete’** option. Select **‘Delete’** from the context menu to delete a file. Once the file has been deleted it will no longer be visible in the cloud drive.
+
+.. image:: _static/NewImage18.png
+
+Rename
+-----------------
+
+You can rename a file or a folder using the **‘Rename’** option. Pressing **‘Rename’** will display a field to type in the new name.
+
+.. image:: _static/NewImage17.png
+
+
+Copy and Cut
+-----------------
+
+The 'copy' option allows you to copy a file and paste it into a another folder of your choosing. The 'cut' option allows you to remove a file from a certain folder and paste it into another.
+
+.. image:: _static/NewImage31.png
+.. image:: _static/NewImage32.png
+
+The 'Move' option allows you to move the file you select from one folder to another.
+
+
+Comments
+-----------------
+
+The "Comments' option allows you to see any comments made by people who have access to the file. It also lets you create a comment so others who have access to it can see your comment.
+
+
+More Info
+-----------------
+
+The 'More Info' option allows you to look at the specifics of the file you are working on or looking at.
+
+.. image:: _static/NewImage19.png
+
+
+Marking As Favorite 
+-----------------------
+
+Add to Favorite
+##################
+
+You can add a file to favorites by pressing the three vertical ellipses icon to the right of the file. Once you click on that it will drop down a menu where you can then select to favorite this file.
+
+.. image:: _static/NewImage11.png
+
+
+Remove from Favorite
+#######################
+
+To remove files from your **Offline Favorites** Access them from the top-left menu, and choose **Offline Favorites**. 
+
+.. image:: _static/NewImage12.png
+
+In the **Offline Favorites** view you can remove files by clicking the three vertical ellipses icon and selecting **Unfavorite**.
+
+.. image:: _static/newimage13.png
+
+
+Sharing and Collaborating
+=============================
+
+You can select the files or folders that you want to share from your IOS devices. 
 
 Sharing a File
 -----------------
 
-First tap a file you want to share. Then in the file properties view, select the **Share Icon** on the bottom of the display. 
+From the file view you can click the vertical ellipses near the right and a context menu will appear. In this context menu you can "Share" in several ways: "Share", "Get public link", "Share manager". 
 
-.. image:: _static/image_11_01.png
+If you press **"Share Manager" (1)**, you will be taken to the "Share/Invite User to share" screen. There you can add user emails and select various options for sharing including getting a public link. 
 
-In the Sharing screen, tap the **"+"** icon to add emails for users you want to include in this share. 
- 
-.. image:: _static/image_11_02.png
+If you press **"Share Via" (3)**, you will be allowed to share the file to a third party application such as gmail, or WhatsApp.
 
-Add users in the **"Specify User"** screen. 
+.. image:: _static/NewImage14.png 
+.. image:: _static/NewImage27.png 
 
-.. image:: _static/image_11_03.png
-
-On the **"Create Guest User"** screen, choose how you want to create the user(s). If you turn off **"Create Guest User Account?"** then the user can still receive shared contents over a web browser but can't modify the shared content. You can come back to this screen if you change your mind. Press **"Continue"** on the bottom right of the screen.
-
-.. image:: _static/image_11_04.png
-
-On the next screen you have several options:
-
-1. Specify share expiration time.
-2. Choose "Read Only" or "Full Control".
-3. Choose "View only (no Download)" if desired.
-4. Choose "Password Protection" and enter a password. 
-5. Turn off Password Protection and allow user to create their own password from the link in the email they receive.
-
-When the sharing option has been selected press **"Finish"** on the bottom right.
-
-.. image:: _static/image_11_05.png
+.. important::
+        Sharing with an email user creates a **Guest User**. Each licensed user can create 3 guest user accounts. If there are 3 licensed users, then a total of 9 guest users can be added for that tenant. If the number of guest users has reached the limit, and the tenant is set up to auto grow the number of licensed users, then one more license will be added to the tenant. 
 
 
-Modifying a Share 
----------------------
+If you choose the **"Share Manager" (1)** option (see above), in the next screen, enter the email(s) of any users you want to add. Press the **">"** icon to add users to the share.
 
-Once the share process is completed, you will see a screen with a list of shares for this file. You can click the greater-than **">"** icon on the right of the share to modify its settings. 
+.. image:: _static/NewImage15.png 
 
-.. image:: _static/image_12_01.png
+Public Link
+----------------
+Enable the public link option will display the public URL which can also be sent to the users so they can access the share from the URL or you can copy the share URL in an email. Once the Public Link is enabled, you can click ‘COPY TO CLIPBOARD’ to copy the public link to your clipboard so it can be pasted into a field, email or document.
 
-You can also click the **"Edit"** text to delete users from the share. 
+.. image:: _static/NewImage28.png 
 
-.. image:: _static/image_12_02.png
- 
+Requesting a File
+----------------------
 
-Adding Comments
-------------------
+You can request a file through the share manager. It is the icon on the bottom right.
 
-You can add comments to the shared files. Comments make it easy to track and monitor the shared contents. Press the **Comment Icon** to add comments to your files. 
-
-.. image:: _static/image_13_01.png
-
-After pressing comment you will be show a field where you can  enter comments. After adding comments pressing **"Send"** will add the comments.
-
-.. image:: _static/image_13_02.png
+.. image:: _static/NewImage29.png 
+.. image:: _static/NewImage30.png 
 
 
-
-Editing Files 
-============================
-
-
-Deleting a File
+Sharing/Protection Options
 ------------------------------
 
-A file can be deleted by clicking the **Delete Icon** at the bottom of the screen. You will be asked to confirm the deletion. Once the file has been deleted it will no longer be visible in the cloud drive.
+Before sending your email share notification, you can control how the guest user(s) can access the file or folder. 
 
-.. image:: _static/image_14_01.png
-
-
-Renaming a File
-----------------------
-
-You can rename a file by selecting a file you want to rename, then in the file details screen, you click the **Rename Icon** at the bottom of the screen. You will get a pop-up window with a field where you can enter a new name for the file. 
- 
-.. image:: _static/image_15_01.png
-
-
-Copying a File
-----------------------
-
-You can copy a file by selecting a file you want to copy, then in the file details screen, you click the **Copy Icon** at the bottom of the screen. You can then navigate to the location where you want to place the file copy. 
- 
-.. image:: _static/image_16_01.png
+- Specify share expiration time
+- Set access type
+    - View/Read-Only Access
+    - View Only (download will be disabled)
+    - Edit / Full Control Access
+- Other Options
+    - Send email notification when file is downloaded
+    - Send email notification when file is uploaded
+    - Notify user when file/folder is changed
+    
+.. image:: _static/NewImage16.png
 
 
-Moving a File
-----------------------
-
-You can move a file by selecting a file you want to move, then in the file details screen, you click the **Move Icon** at the bottom-right of the screen. You can then navigate to the location where you want to place the file. 
- 
-.. image:: _static/image_17_01.png
-
-
-Logging Out From Gladinet Cloud
+Working with Office Applications
 ==================================
 
-You can logout from the Gladinet cloud by clicking the **Logout Icon** at the bottom right of the screen.
+To edit existing files from an office application, open the Office App first, then you can select Open and access Files App. Once you do that, you can select your drive and choose a file from there. It will then open it directly into the app, edit and save.
 
-.. image:: _static/image_18_01.png
+You can refer to this knowledge based article:
+https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App
 
-In the next screen you will see important information about the iOS Client and the Server. Click the **"Log Out"** text to complete the logout process. 
-
-.. image:: _static/image_18_02.png
 
 Conclusion
-============
+===============
 
-Gladinet"s vision is to enable secure access to enterprise data from anywhere using any device including mobile devices like iPhones and iPads. The iOS Gladinet Cloud application is feature rich which allows enterprise users to not only access the data but also sync and collaborate on that data. Users can access, share, edit, and perform other functions on the data when accessing from iOS devices just like they do when they access it from Windows or MAC clients.
+Gladinet’s vision is to enable access to enterprise data from anywhere using any device including mobile devices like Android, iPhones, and iPads. The iOS CentreStack application is feature-rich which allows enterprise users to not only access the data but also sync and collaborate on that data. Users can access, share, edit, and perform other functions on the data when accessing from iOS devices just like they do when they access it from Windows or MAC clients.

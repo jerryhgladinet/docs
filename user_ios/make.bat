@@ -76,8 +76,8 @@ if "%1" == "html" (
 	%SPHINXBUILD% -b html %ALLSPHINXOPTS% %BUILDDIR%/html
 	if errorlevel 1 exit /b 1
 	echo.
-	echo robocopy "%BUILDDIR%/html" "%CENTRESTACKWEB%\iOSGuide" /s
-        Robocopy "%BUILDDIR%/html" "%CENTRESTACKWEB%\iOSGuide" /s
+   	echo robocopy "%BUILDDIR%/html" "%CENTRESTACKWEB%\AndroidGuide" /s
+        Robocopy "%BUILDDIR%/html" "%CENTRESTACKWEB%\AndroidGuide" /s
 	echo.Build finished. The HTML pages are in %BUILDDIR%/html.
 	goto end
 )
@@ -129,9 +129,9 @@ if "%1" == "qthelp" (
 	echo.
 	echo.Build finished; now you can run "qcollectiongenerator" with the ^
 .qhcp project file in %BUILDDIR%/qthelp, like this:
-	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\CentreStackiOSUserGuide.qhcp
+	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\CentreStackAndroidUserGuide.qhcp
 	echo.To view the help file:
-	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\CentreStackiOSUserGuide.ghc
+	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\CentreStackAndroidUserGuide.ghc
 	goto end
 )
 
