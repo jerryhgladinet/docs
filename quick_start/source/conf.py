@@ -48,8 +48,9 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Quick Start Guide'
-copyright = '2018, Gladinet, Inc.'
+copyright = '2022 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
+
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -98,7 +99,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
+html_show_sourcelink = False
 
 # -- Options for HTMLHelp output ------------------------------------------
 

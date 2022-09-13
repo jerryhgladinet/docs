@@ -7,17 +7,16 @@ CentreStack server is built on top of the Microsoft Web Platform, which includes
     * Internet Information Server 7/8/10 (IIS)
     * .Net Framework 4.5+ 
     * ASP.NET
-    * MySQL, Microsoft SQL Server or Microsoft SQL Server Express
+    * PostgreSQL, MySQL, Microsoft SQL Server or Microsoft SQL Server Express
 
 The base operating system can be either: 
 
-    - Windows Server 2008 R2 
-    - Windows Server 2012, Windows Server 2012 R2 or 
-    - Windows Server 2016
+    - Windows Server 2022
     - Windows Server 2019
+    - Windows Server 2016
 
-We recommend Windows Server 2012/2012 R2/2016/2019 since .Net Framework 4.5+ comes directly with these newer server OS platforms.
-It is easier and faster to install CentreStack software on Windows Server 2012/2012 R2 or on Windows Server 2016/2019.
+We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ comes directly with these newer server OS platforms.
+It is easier and faster to install CentreStack software on Windows Server 2022/2019/2016.
 
 .. note::
 
@@ -26,7 +25,7 @@ It is easier and faster to install CentreStack software on Windows Server 2012/2
     There is no need to prepare the machine beyond the clean state of the basic Operating System software.
 
 
-Windows Server 2008 (SP2/R2), 2012/R2, 2016, 2019
+Windows Server 2022, 2019, 2016
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The base operating system provides the base of the Microsoft Web Platform.
@@ -99,7 +98,7 @@ Recommended Hardware Specification
 
 :Operating System: 
 
-    Windows 2008 R2, Windows 2012 or R2, Windows 2016, Windows 2019
+    Windows 2022, Windows 2019, Windows 2016
     
 :CPU: 
 
@@ -149,4 +148,4 @@ However, CentreStack is capable of using worker nodes (for web function only) fo
 point and pass the actual work to others.
 
 If you have a hardware load balancer such as F5, you can skip web nodes, and have F5 directly load balance to a farm of worker nodes.
-You can also use the Network Load Balancing feature which is included in Windows 2012/R2/2016 for load balancing.
+You can also use the Network Load Balancing feature which is included in Windows 2022/2019/2016 for load balancing.

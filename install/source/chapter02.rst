@@ -4,7 +4,7 @@ Installation
 
 .. warning::
 
-    If this is the very first time you are installing |prodname| server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2012 R2/2016/2019 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
+    If this is the very first time you are installing |prodname| server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2022/2019/2016 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
 
 
 Step 1: Prepare the File Storage
@@ -94,16 +94,14 @@ PostgreSQL usually is the default option for the all-in-one installation. The de
 Step 4: Prepare the |prodname| Server
 ======================================
 
-The easiest way to prepare the |prodname| server is to have a clean Windows Server 2012/R2/2016/2019 OS with English locale and make sure the worker nodes are all in the same time zone.
+The easiest way to prepare the |prodname| server is to have a clean Windows Server 2022/2019/2016 OS with English locale and make sure the worker nodes are all in the same time zone.
 
-We recommend Windows server 2019 2012 R2 or Windows server 2016 as a preferred server OS running on a virtual machine.
+We recommend Windows server 2022, 2019 or Windows server 2016 as a preferred server OS running on a virtual machine.
 
 **Supported Operating Systems**
-    * Windows Server 2008 R2 with latest updates
-    * Windows Server 2012 
-    * Windows Server 2012 R2
-    * Windows Server 2016
+    * Windows Server 2022
     * Windows Server 2019
+    * Windows Server 2016
 
 **Supported CPU**
     * 64-bit Intel or AMD x64 architecture

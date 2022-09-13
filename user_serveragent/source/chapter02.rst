@@ -14,10 +14,9 @@ File Server Agent can be installed on the following OS
 
 * Server OS
 
+  - Windows 2022
+  - Windows 2019
   - Windows 2016
-  - Windows 2012 and R2
-  - Windows 2008 and R2
-  - Windows 2003 (not recommended)
     
 * Client OS
 
@@ -33,7 +32,7 @@ File Server Agent can be installed on the following OS
 2.2 Preparation
 *****************
 
-File Server Agent depends on .NET framework 2.0 or later. If you are installing the file Server Agent on Windows Server 2008/2012/2016, you need to prepare the .NET environment. This usually can be done from the Windows Server Manager > Manage Roles and Features and then in the features section, select .NET Framework 3.5
+File Server Agent depends on .NET framework 2.0 or later. If you are installing the file Server Agent on Windows Server 2022/2019/2016, you need to prepare the .NET environment. This usually can be done from the Windows Server Manager > Manage Roles and Features and then in the features section, select .NET Framework 3.5
 
 .. figure:: _static/image_s2_2_01.png
   :align: center

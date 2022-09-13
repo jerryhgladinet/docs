@@ -4,7 +4,7 @@
 Private On-premise
 ^^^^^^^^^^^^^^^^^^^^^^
 
-You can prepare a Windows Server 2008 Service Pack 2 or R2 server or Windows Server 2012/R2/2016 and install CentreStack.
+You can prepare a Windows Server 2022/2019/2016 and install CentreStack.
 In this scenario, Active Directory is typically at the same site and primary storage is from file server or NAS storage.
 
 In this case, most of the time you are using CentreStack as a way to replace VPN to 
@@ -41,7 +41,7 @@ Virtual Private Cloud
 In this deployment scenario, you would deploy the CentreStack solution in a virtual private cloud environment such as Amazon EC2.
 CentreStack is also available in the form of AMI image to facilitate creation of EC2 instances.
 In this deployment scenario, the typical primary storage connection is to the Amazon S3 storage.
-You can also setup CentreStack solution in an environment like HP Helion (OpenStack) Cloud, with a Windows Server 2012 connecting to OpenStack Swift
+You can also setup CentreStack solution in an environment like HP Helion (OpenStack) Cloud, with a Windows Server 2022/2019/2016 connecting to OpenStack Swift
 storage.
 
 Multi-Site Deployment

@@ -19,7 +19,7 @@ System Requirement
 --------------------
 
 * OS - Windows XP, Vista, 7/8/8.1/10
-    - Normally on windows server type machine such as 2003/2008/2012/2016, use server agent instead of client agent. However, the client agent can run as desktop application on Windows Server OS as well.  For example, if you plan to have the desktop agent run in a terminal server environment, you need to install desktop agent instead of server agent.
+    - Normally on windows server type machine such as 2022/2019/2016, use server agent instead of client agent. However, the client agent can run as desktop application on Windows Server OS as well.  For example, if you plan to have the desktop agent run in a terminal server environment, you need to install desktop agent instead of server agent.
 * Hard Drive - 100MB
     - 50MB for the installed program
     - at least 50MB for the operation of cache folder

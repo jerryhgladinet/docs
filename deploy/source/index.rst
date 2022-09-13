@@ -46,15 +46,7 @@ The CentreStack server is a pure software built on top of the Microsoft Web Plat
     * IIS (Internet Information Server), 
     * .NET Framework and ASP.NET
     * WCF (Windows Communication Foundation)
-    
-.. note::
-    
-    The CentreStack server fits the description of Windows
-    Server "Web workload" and "Internet Web Solution". If you use
-    Windows Server 2008, you can choose the Web Edition. If you use
-    Windows Server 2012, Server 2016 or Server 2019, you can use it for "Web workload"
-    and for "Internet Web Solution".
-    
+       
 Since the CentreStack server is built on top of the Microsoft Web Platform,
 it integrates very well with Microsoft components such as
 NTFS Permission, Active Directory, File Server network shares, file locking and drive mapping.
@@ -265,13 +257,12 @@ CentreStack server is built on top of the Microsoft Web Platform, which includes
 
 The base operating system can be either: 
 
-    - Windows Server 2008 R2 
-    - Windows Server 2012, Windows Server 2012 R2 or 
-    - Windows Server 2016
+    - Windows Server 2022
     - Windows Server 2019
+    - Windows Server 2016
 
-We recommend Windows Server 2012/2012 R2/2016/2019 since .Net Framework 4.5+ comes directly with these newer server OS platforms.
-It is easier and faster to install CentreStack software on Windows Server 2012/2012 R2 or on Windows Server 2016/2019.
+We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ comes directly with these newer server OS platforms.
+It is easier and faster to install CentreStack software on Windows Server 2022/2019/2016.
 
 .. note::
 
@@ -280,7 +271,7 @@ It is easier and faster to install CentreStack software on Windows Server 2012/2
     There is no need to prepare the machine beyond the clean state of the basic Operating System software.
 
 
-Windows Server 2008 (SP2/R2), 2012/R2, 2016, 2019
+Windows Server 2022, 2019, 2016
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The base operating system provides the base of the Microsoft Web Platform.
@@ -353,7 +344,7 @@ Recommended Hardware Specification
 
 :Operating System: 
 
-    Windows 2008 R2, Windows 2012 or R2, Windows 2016, Windows 2019
+    Windows 2022, Windows 2019, Windows 2016
     
 :CPU: 
 
@@ -403,7 +394,7 @@ However, CentreStack is capable of using worker nodes (for web function only) fo
 point and pass the actual work to others.
 
 If you have a hardware load balancer such as F5, you can skip web nodes, and have F5 directly load balance to a farm of worker nodes.
-You can also use the Network Load Balancing feature which is included in Windows 2012/R2/2016 for load balancing.
+You can also use the Network Load Balancing feature which is included in Windows 2022/2019/2016 for load balancing.
 
 
 Active Directory Integration
@@ -509,7 +500,7 @@ Deployment Scenarios
 Private On-premise
 ^^^^^^^^^^^^^^^^^^^^^^
 
-You can prepare a Windows Server 2008 Service Pack 2 or R2 server or Windows Server 2012/R2/2016 and install CentreStack.
+You can prepare a Windows Server 2022/2019/2016 and install CentreStack.
 In this scenario, Active Directory is typically at the same site and primary storage is from file server or NAS storage.
 
 In this case, most of the time you are using CentreStack as a way to replace VPN to 
@@ -546,7 +537,7 @@ Virtual Private Cloud
 In this deployment scenario, you would deploy the CentreStack solution in a virtual private cloud environment such as Amazon EC2.
 CentreStack is also available in the form of AMI image to facilitate creation of EC2 instances.
 In this deployment scenario, the typical primary storage connection is to the Amazon S3 storage.
-You can also setup CentreStack solution in an environment like HP Helion (OpenStack) Cloud, with a Windows Server 2012 connecting to OpenStack Swift
+You can also setup CentreStack solution in an environment like HP Helion (OpenStack) Cloud, with a Windows Server 2022/2019/2016 connecting to OpenStack Swift
 storage.
 
 Multi-Site Deployment

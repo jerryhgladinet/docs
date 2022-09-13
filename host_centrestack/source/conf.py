@@ -48,9 +48,9 @@ source_suffix = '.rst'
 master_doc = 'content'
 
 # General information about the project.
-project = u'Hosted CentreStack Admin Guide'
-copyright = u'2018, Gladinet, Inc.'
-author = u'Gladinet, Inc.'
+project = 'Hosted CentreStack Admin Guide'
+copyright = '2022 - Gladinet, Inc. All Rights Reserved'
+author = 'Gladinet, Inc.'
 
 # TR Edit
 # The following variables weren't working as a pair as replacements, not sure how to code this, so I've commented them out and directly replaced them below.
@@ -102,6 +102,7 @@ todo_include_todos = False
 #
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_show_sourcelink = False
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
