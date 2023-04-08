@@ -48,7 +48,7 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Quick Start Guide'
-copyright = '2022 - Gladinet, Inc. All Rights Reserved'
+copyright = '2023 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
 

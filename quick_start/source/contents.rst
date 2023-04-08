@@ -15,6 +15,7 @@ Contents:
    on_premise
    data_center
    cloud_host
+   faq
 
 
 Indices and tables
