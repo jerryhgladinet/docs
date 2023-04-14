@@ -9,8 +9,17 @@ CentreStack Android User Guide
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
+   getting_started
+   download_install
+   access_upload
+   manage_edit
+   sharing_collaborating
+   office_applications
+   settings
+   task_manager
+   my_devices
    index
 
 
