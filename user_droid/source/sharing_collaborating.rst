@@ -9,12 +9,12 @@ User can select the files or folders to share from the Android devices.
 Share
 ------------------------
 
-User will be redirected to the **Share/Invite User** to share screen. There add the email addresses of the users and select different options for sharing.
-On the next screen, enter the email address(es) of the users. Press the ">" icon to add users to share.
+User will be redirected to the **Share/Invite User** screen. There, add the email addresses of the users and select different options for sharing.
+Press the ">" icon to add users to the share.
 
 .. image:: _static/2021newimage028.png
 
-On the next screen, click the yellow arrow to select "**Continue as it is now**" (read-only access). Or select "**Add user as a Guest User**" to get access to other settings.
+On the next screen, touch the yellow arrow to select "**Continue as it is now**" (read-only access). Or select "**Add user as a Guest User**" to get access to other settings.
 
 .. image:: _static/2023newimage80.png
 
@@ -26,7 +26,7 @@ Before sending email share notification, specify how the user(s) can access the 
 - Select "Password Protection" and enter a password.
 - Disable password protection and allow the user to create their own password from the link in the email they receive.
 
-When selected the sharing options, click "Share" at the bottom right.
+When selected the sharing options, tap on "Share" at the top right.
 
 .. image:: _static/2023newimage81.png
 
@@ -42,28 +42,28 @@ User can share the file with a third-party application such as Gmail or WhatsApp
 .. image:: _static/2023newimage82.png
 
 
-Get public link
+Get Public Link
 ------------------------
 
-A URL will be provided that you can use to paste into an email or other field to share public read-only access to the file.
+A URL will be provided that can be used to paste into an email or other field to share public read-only access to the file.
 
 .. image:: _static/2021newimage058.png
 
 
-Share manager
+Share Manager
 ------------------------
 
-User will be taken to a view and see a list of all shares associated with this file. Click on a shared user, to resend the **share email(1)** and **get public link(2)**.
+User will be taken to a view and will see a list of all shares associated with the item. Tap on on a shared user, to resend the **share email** (1) and **get public link** (2).
 
-To delete a user share, click the **Trashcan**(3) icon next to the share. This will remove the share and prevent access by that user.
+To delete a user share, press the **trash can** (3) icon next to the share. This will remove the share and prevent access by that user.
 
-Clicking the Share Menu button at the bottom right of the screen will give you more options. **Add more users**(4) to the share list, **Share Via**(5) this file,
-**copy public (read-only) link**(2) to the clipboard, **refresh the list**(6).
+Touching the Share Menu button at the bottom right of the screen will give more options. **Add more users** (4) to the share list, **Share Via** (5) this file,
+**copy public (read-only) link** (2) to the clipboard, **refresh the list** (6).
 
 .. image:: _static/2021NewImage033.png
 
 
-Request a file
+Request a File
 ------------------------
 
 This option is available only for folders. Selecting **Request a file** will take to a screen where user can share a link with another user so they can upload files to a specific folder.

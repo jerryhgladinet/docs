@@ -5,7 +5,7 @@ Working with Office Applications
 Opening and Saving an Existing Document
 -------------------------------------------
 
-User can access Office mobile applications via Centrestack Android if installed on phone.
+User can access Office mobile applications via CentreStack Android if installed on the phone.
 
 To edit an existing document, tap on the document in the file list to enter "Preview Mode" and tap on the File Type icon (e.g. Word)
 in the bottom right corner to open it in the appropriate application.
@@ -22,7 +22,7 @@ User can edit the file and select "**Save**" if the file is not read-only. All t
 
 .. image:: _static/2023NewImage88.png
 
-User may need to **Refresh** to see the updated file. If the update or current version of the file is not seen, tap the **Refresh** button at the top of the screen.
+If the update or current version of the file is not seen, tap the **Refresh** button at the top of the screen.
 
 .. image:: _static/2023NewImage89.png
 
@@ -30,8 +30,8 @@ User may need to **Refresh** to see the updated file. If the update or current v
 From Office Applications
 ------------------------------
 
-To edit existing files in Centrestack drive from an Office application, first open the Office app, then select the **Open** tab and press **Browse**.
-After that, select Centrestack drive and choose a file from there. The file will then be opened, edited, and saved directly in the application.
+To edit existing files in CentreStack app from an Office application, first open the Office app, then select the **Open** tab and press **Browse**.
+After that, select Cloud Android Client and choose a file from there. The file will then be opened, edited, and saved directly in the application.
 
 .. image:: _static/2023NewImage90.png
 

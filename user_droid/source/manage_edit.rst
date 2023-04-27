@@ -5,7 +5,7 @@ Manage and Edit
 Managing Files and Folders
 ------------------------------
 
-User can tap on a folder to open it for browsing and on a file to open it in a file preview.
+User can tap on a folder to open it for browsing and on a file to preview it.
 
 Various operations can be performed in the menus, in the main list of files and folders, and in the preview itself.
 
@@ -17,17 +17,17 @@ In the preview there is a 3-dot menu in the lower right corner that allows to pe
 
 .. image:: _static/2023NewImage66.png
 
-**Open** allows to open the file in other applications.
+**Open** the file in other applications.
 
-**Download** allows to copy the file to a folder on the device.
+**Download** a copy of the file to a folder on the device.
 
 **Rename** allows to rename the file if user have the permission to do so.
 
-**Delete** allows to delete files from the folder if user have the permission.
+**Delete** files from the folder if user have the permission.
 
 **Share** allows to send access information to people with an email address.
 
-**Share Via** lets user share the file with a third-party application. For example, by email or WhatsApp.
+**Share Via** let the user share the file with a third-party application. For example, by email or WhatsApp.
 
 **Get Public Link** gives user a link that anyone can use to access the file.
 
@@ -37,7 +37,7 @@ Download
 >>>>>>>>>>
 
 A file can be downloaded using the **Download** option.
-Select Download from the context menu to download a file and select a folder from the phone storage of user's choice to download the file to.
+Select Download from the context menu to download a file and select a folder from the phone storage of user's choice.
 
 .. image:: _static/2023NewImage67.png
 
@@ -46,14 +46,14 @@ Select Download from the context menu to download a file and select a folder fro
 Delete
 >>>>>>>>
 
-A file can be deleted using the **Delete** option. Select **Delete** from the context menu to delete a file. Once the file is deleted, it is no longer visible in the cloud drive.
+A file can be deleted using the **Delete** option. Select it from the context menu to delete a file. Once the file is removed, it is no longer visible in the cloud drive.
 
 .. image:: _static/2023NewImage69.png
 
 Rename
 >>>>>>>>>
 
-User can rename a file or folder using the **Rename** option. When press **Rename**, a field appears where user can enter the new name.
+User can rename a file or folder using the **Rename** option. When pressing **Rename**, a field appears where user can enter the new name.
 
 .. image:: _static/2023NewImage70.png
 
@@ -61,7 +61,7 @@ Copy and Cut
 >>>>>>>>>>>>>>>
 
 The **Copy** option lets user copy a file and paste it into another folder of choice.
-The **Cut** option allows to remove a file from a certain folder and paste it into another folder.
+The **Cut** option allows to remove a file from a certain folder and paste it into another.
 
 .. image:: _static/2023NewImage71.png
 
@@ -82,14 +82,14 @@ Adding to Favorite
 >>>>>>>>>>>>>>>>>>>>>
 
 User can add a file to the Favorites by pressing the **Star** icon.
-When add a folder or a file to the Favorites, it will be marked with a green checkmark and will be accessible offline.
+When adding a folder or a file to the Favorites, it will be marked with a green checkmark and will be accessible offline.
 
 .. image:: _static/2023NewImage74.png
 
 Open Favorite Files
 >>>>>>>>>>>>>>>>>>>>>
 
-To open files from offline favorites, click the hamburger menu at the top left and select **Favorites**.
+To open files from offline favorites, tap on the hamburger menu at the top left and select **Favorites**.
 
 .. image:: _static/2023NewImage75.png
 
@@ -104,11 +104,11 @@ After selecting the option, a list of applications that can open the file will b
 Remove from Favorite
 >>>>>>>>>>>>>>>>>>>>>>>
 
-To remove files from offline favorites, user can click the yellow **Star** icon directly in the folders.
+To remove files from offline favorites, user can touch the yellow **Star** icon directly in the folders.
 
 .. image:: _static/2023NewImage74.png
 
-Or click the hamburger menu at the top left and select **Favorites**.
+Or press the hamburger menu at the top left and select **Favorites**.
 
 .. image:: _static/2023NewImage75.png
 

@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 3
    
-   getting_started
+   index
    download_install
    access_upload
    manage_edit
@@ -20,7 +20,7 @@ Contents:
    settings
    task_manager
    my_devices
-   index
+   logging_out
 
 
 
