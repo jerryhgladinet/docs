@@ -50,7 +50,7 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Android User Guide'
-copyright = '2022 - Gladinet, Inc. All Rights Reserved'
+copyright = '© 2008-2023 Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
