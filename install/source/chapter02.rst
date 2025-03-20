@@ -94,11 +94,12 @@ PostgreSQL usually is the default option for the all-in-one installation. The de
 Step 4: Prepare the |prodname| Server
 ======================================
 
-The easiest way to prepare the |prodname| server is to have a clean Windows Server 2022/2019/2016 OS with English locale and make sure the worker nodes are all in the same time zone.
+The easiest way to prepare the |prodname| server is to have a clean Windows Server 2025/2022/2019/2016 OS with English locale and make sure the worker nodes are all in the same time zone.
 
-We recommend Windows server 2022, 2019 or Windows server 2016 as a preferred server OS running on a virtual machine.
+We recommend Windows server 2025, 2022 or Windows server 2019 as a preferred server OS running on a virtual machine.
 
 **Supported Operating Systems**
+    * Windows Server 2025
     * Windows Server 2022
     * Windows Server 2019
     * Windows Server 2016
