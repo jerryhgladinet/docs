@@ -12,6 +12,13 @@ Contents:
    :maxdepth: 2
    
    index
+   download_install
+   access_upload
+   manage_edit
+   sharing
+   office
+   settings
+   files_app
 
 
 
