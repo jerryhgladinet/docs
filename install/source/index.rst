@@ -1,5 +1,5 @@
 ###################
-1 Getting Started
+Getting Started
 ###################
 
 Introduction

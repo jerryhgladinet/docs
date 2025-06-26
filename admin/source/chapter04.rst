@@ -28,7 +28,7 @@ The file server can also be remote, away from the CentreStack server and at the 
 
 The best way to start using a file server agent to connect to a remote file server is to start with the migration wizard from the web portal.
 
-.. figure:: _static/image_s6_1_03.png
+.. figure:: _static/image_s6_1_03-03192025.png
     :align: center
 
     TEAM FOLDER STORAGE LOCATIONS
@@ -47,7 +47,7 @@ If your files and folders are on a file server in the same Local Area Network (L
 
 If you are not using native NTFS permission. For example, you are on cloud storage services such as Amazon S3 or OpenStack Swift, you can use CentreStack folder permission.
 
-.. figure:: _static/image_s6_2_02.png
+.. figure:: _static/image_s6_2_02-03192025.png
     :align: center
 
     MANAGE FOLDER SETTINGS
@@ -68,11 +68,11 @@ There are several cases here,
 AD account auto provision
 ---------------------------
 
-This is the default setting in the Advanced -> Active Directory Settings.
+This is the default setting in the Settings -> Active Directory Settings.
 
 As long as the "Don't allow user auto-creation" is not checked, Active Directory users will be allowed to go to the web portal and log in. The first time the user logs in, its CentreStack account will be automatically provisioned.
 
-.. figure:: _static/image_s6_3_00.png
+.. figure:: _static/image_s6_3_00-03192025.png
     :align: center
 
     USER AUTO-CREATION SETTING
@@ -83,7 +83,7 @@ AD account auto provision, limiting to Organization Unit
 
 The organization unit field can be used to further limit the Active Directory user account that can be automatically provisioned.
 
-.. figure:: _static/image_s6_3_01.png
+.. figure:: _static/image_s6_3_01-03192025.png
     :align: center
 
     LIMIT TO ORGANIZATION UNIT SETTING
@@ -93,7 +93,7 @@ The format of the organization unit is the OU's distinguishedName minus the DC s
 For example, the following OU's property is:
 distinguishedName	=>	OU=tenant11,DC=tsys,DC=gladinet,DC=com
 
-when it is put into the OU field, the DC suffix can be removed so only OU=tenant11 is required.
+When it is put into the OU field, the DC suffix can be removed so only OU=tenant11 is required.
 
 .. note::
   OU=tenant11
@@ -133,16 +133,16 @@ Here are  several parameters for consideration:
 Team Folder Offline Settings
 ------------------------------
 
-If you have a big team folder or several team folders that are quite big, it is not a good practice to enable the team folder offline from the root. Instead, you can choose not to enable offline or just enable a subset of sub-folders that are relatively small and at the same time, used more often. If you want to enable a subset of sub-folders within team folders for offline access, you can start by going to the folder permission section. You can access this by selecting the folder (1), in the pulldown menu (2) select "Folder Permissions", then select the edit settings icon (3) and finally select "Enable offline access for native Client" (4), and apply the change. 
+If you have a big team folder or several team folders that are quite big, it is not a good practice to enable the team folder offline from the root. Instead, you can choose not to enable offline or just enable a subset of sub-folders that are relatively small and at the same time, used more often. If you want to enable a subset of sub-folders within team folders for offline access, you can start by going to the folder permission section. You can access this by clicking the "Team Folders" **(1)** from left side menu. "Edit" **(2)** the selected folder. In the "Folder Permissions" tab of editing window, select "Force offline cache on native Client" **(3)**, and apply the change. 
 
-.. figure:: _static/image_s6_4_00.png
+.. figure:: _static/image_s6_4_00-03192025.png
     :align: center
 
     ENABLING OFFLINE ACCESS FOR NATIVE CLIENT
 
-If you want to disable offline access for the team folder completely, you can change the setting from the Team Folder section by choosing the "Settings" option below (1) in the drop-down menu and selecting the "Disable Offline Access" option (2). Don't forget to save your changes (3). 
+If you want to disable offline access for the team folder completely, you can change the setting from the Team Folders section by choosing the "Settings" tab below **(1)** in the edit team folder window, and selecting the "Disable Offline Access" option **(2)**. Don't forget to save your changes **(3)**. 
 
-.. figure:: _static/image_s6_4_01.png
+.. figure:: _static/image_s6_4_01-03192025.png
     :align: center
 
     DISABLING OFFLINE ACCESS FOR TEAMSHARE
@@ -155,7 +155,7 @@ Upon creating users in the CentreStack system (including users imported from Act
 
 Normally, we don't recommend checking the "Enable offline access for all folders" flag, because it will try to download every single file for the user when the user is connected, which can use a lot of bandwidth and slow things down.
 
-.. figure:: _static/image_s6_4_02.png
+.. figure:: _static/image_s6_4_02-03192025.png
     :align: center
 
     ENABLING PER-USER OFFLINE ACCESS

@@ -30,7 +30,7 @@ Create Tenant
 
 You can create tenants directly from the Hosted-CentreStack.
 
-.. image:: _static/image007.png
+.. image:: _static/image007-03192025.png
 
 
 Please reference Server Agent User Guide for File Server Migration:

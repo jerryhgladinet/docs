@@ -1,5 +1,5 @@
 ###########################
-3 Connecting To The Cloud
+Connecting To The Cloud
 ###########################
 
 
@@ -25,7 +25,7 @@ The virtual drive provides on-demand access to files and folders from the |prodn
 
 Sometimes it is also desirable to work inside a local folder, and have the local folder synchronize with the |prodname| Cloud storage account. You can right click on a local folder (1) and select “Attach this Folder to |prodname|” (2). The pop-up (3) shows you where this folder is located on your system and allows you to change the name of the folder if you don't want to use the default.
 
-.. figure:: _static/image_s3_1_2.png
+.. figure:: _static/image_s3_1_2-03192025.png
     :align: center
         
     ATTACH A FOLDER TO |prodname|

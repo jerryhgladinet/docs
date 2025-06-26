@@ -20,7 +20,7 @@ Android and Apple iOS operating systems.
 
 .. note::
 
-    This guide is updated to match build 10.1.6296.42951
+    This guide is updated to match build |release|
     
     
 

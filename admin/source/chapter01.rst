@@ -17,7 +17,7 @@ Partner Portal
 
 The Partner Portal is used primarily for managing licenses and licenses distribution amongst all of your |prodname| Servers. 
 
-The partner portal is located at https://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
+You can login the partner portal through here: https://partner.centrestack.com/login/. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
 
 .. tip::
 

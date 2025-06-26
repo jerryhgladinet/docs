@@ -36,5 +36,5 @@ Other important features and functions of the web portal are also covered in thi
 
 .. note::
 
-    The web portal user guide is updated for version 11.9.9226.48971
+    The web portal user guide is updated for version |release|
     

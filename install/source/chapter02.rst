@@ -4,7 +4,7 @@ Installation
 
 .. warning::
 
-    If this is the very first time you are installing |prodname| server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2022/2019/2016 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
+    If this is the very first time you are installing |prodname| server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2025/2022/2019/2016 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users. 
 
 
 Step 1: Prepare the File Storage
@@ -58,7 +58,7 @@ Step 3: Prepare the Database Server
 
 .. note::
 
-    If you are installing the all-in-one instance, you can skip this step because the all-in-one installer will install a MySQL Community Edition and configure the database accordingly. See `Step 5: Start Installation`_ below for more about the all-in-one installation. 
+    If you are installing the all-in-one instance, you can skip this step because the all-in-one installer will install a PostgreSQL and configure the database accordingly. See `Step 5: Start Installation`_ below for more about the all-in-one installation. 
 
     This step is only for installation that has a separate database node which is not installed by default with any worker node.
     
@@ -66,13 +66,13 @@ Step 3: Prepare the Database Server
 
 .. warning::
 
-    With the release of the |prodname| version 9.5.5409.41172, the default database engine for the "all in one" deployment has switched to PostgreSQL or MySQL Community Edition as opposed to Microsoft SQL Server Express Edition. The main reason to make this switch was to avoid the built-in limitations of SQL Server Express Edition (1 GB RAM and 10 GB max database file size).
+    With the release of the |prodname| version 9.5.5409.41172, the default database engine for the "all in one" deployment has switched to PostgreSQL as opposed to Microsoft SQL Server Express Edition. The main reason to make this switch was to avoid the built-in limitations of SQL Server Express Edition (1 GB RAM and 10 GB max database file size).
 
 There are two places that store persistent information. The first place is the File Storage mentioned in Step 1. The second place is the |prodname| database. There is configuration information such as user name, team folder, shared folder, login token in the database. There is also runtime information such as audit trace and file change log in the database.
 
-The default |prodname| deployment utilizes a MySQL local database on the |prodname| Server. We provide this option to allow the trial installation to be as simple as possible. 
+The default |prodname| deployment utilizes a PostgreSQL local database on the |prodname| Server. We provide this option to allow the trial installation to be as simple as possible. 
 
-Currently |prodname| supports MySQL or Microsoft SQL Server Database Management Systems (DBMS). Some good reasons for deploying an external database server are performance, scalability and/or high availability. 
+Currently |prodname| supports PostgreSQL, MySQL or Microsoft SQL Server Database Management Systems (DBMS). Some good reasons for deploying an external database server are performance, scalability and/or high availability. 
 
 Microsoft SQL Server
 --------------------
@@ -94,11 +94,12 @@ PostgreSQL usually is the default option for the all-in-one installation. The de
 Step 4: Prepare the |prodname| Server
 ======================================
 
-The easiest way to prepare the |prodname| server is to have a clean Windows Server 2022/2019/2016 OS with English locale and make sure the worker nodes are all in the same time zone.
+The easiest way to prepare the |prodname| server is to have a clean Windows Server 2025/2022/2019/2016 OS with English locale and make sure the worker nodes are all in the same time zone.
 
-We recommend Windows server 2022, 2019 or Windows server 2016 as a preferred server OS running on a virtual machine.
+We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a preferred server OS running on a virtual machine.
 
 **Supported Operating Systems**
+    * Windows Server 2025
     * Windows Server 2022
     * Windows Server 2019
     * Windows Server 2016
@@ -116,9 +117,9 @@ We recommend Windows server 2022, 2019 or Windows server 2016 as a preferred ser
 Step 5: Start Installation
 ============================
 
-You can get the |prodname| installation package from the |prodname| partner portal (by logging in to http://www.centrestack.com) and going to the Private |prodname| section.
+You can get the |prodname| installation package from the |prodname| partner portal (by logging in to https://partner.centrestack.com/login/) and going to the Self-Hosted |prodname| section.
 
-.. image:: _static/image_s2_5_1_v3.png
+.. image:: _static/image_s2_5_1_v3-03192025.png
 
 Sign into the |prodname| server console (RDP or physical console are fine) with administrator rights. Once you click the **"Download"** button on the Partner Portal, the installer will appear either in downloads or as a link at the bottom of your browser. Click the executable file to begin the installation.
 

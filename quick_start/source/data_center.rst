@@ -23,7 +23,7 @@ The preparation step is very similar to the On-Premise Self-Hosted version of Ce
 
 When it comes to choosing a data center, you have several options:
 
-    1. a local data center you already use for hosting
+    1. A local data center you already use for hosting
     2. Amazon EC2 data center
     3. Azure Compute data center
     4. Any other data center that provides Windows Server
@@ -32,14 +32,15 @@ When it comes to choosing a data center, you have several options:
 The CentreStack server is a web server, passing file and folder access between 
 remote client agents to backend file servers. Here are a list of items to prepare ahead of time:
 
-    1. a dedicated Windows Server machine: 
-        - Operating System (2022 / 2019 / 2016)
-        - 4G - 8G memory
+    1. A dedicated Windows Server machine: 
+
+        - Operating System (2025 / 2022 / 2019 / 2016)
+        - 8G memory
         - Dual core or more cores (vCPU or CPU)
         - 100G hard drive space.
         
-    2. a SSL certificate (for production)
-    3. a DNS name (for production)
+    2. A SSL certificate (for production)
+    3. A DNS name (for production)
     
 Since you can turn a test (POC) environment directly into a production environment, you can start with requirement #1  for test and POC (proof of concept) environment and later acquire SSL certificate and DNS name.
 
@@ -56,9 +57,9 @@ virtual machine in a data center) to install the
 CentreStack software, you can go to the partner portal and download
 the software. 
 
-The Installer will install everything from begin to end.
+The Installer will install everything from beginning to end.
 
-.. image:: _static/image006.png
+.. image:: _static/image006-03192025.png
 
 
 Please reference the following two guides for more information:
