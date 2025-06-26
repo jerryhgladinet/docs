@@ -1,5 +1,5 @@
 ############################
-4 Folder and File Features
+Folder and File Features
 ############################
 
 When you right-click on a folder or a file you will see the context menu. Use this menu to perform various actions on the file. 

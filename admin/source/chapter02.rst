@@ -24,33 +24,23 @@ To access your Cluster Administration features, log in to the Web Portal on the 
     
 The following graphic describes the various icons and components of the Administrator Dashboard and its sub-sections. Please refer to it as you read this guide to determine how to access various features.
 
-.. figure:: _static/2021newimage003.png
+.. figure:: _static/2021newimage003-03192025.png
     :align: center
     
 **CLUSTER MANAGER DASHBOARD**
 
-After logging in, you will see the Cluster Manager Dashboard. The small “hamburger” ☰ menu icon **(1)** in the top left corner of this portal page will toggle the reveal of the left-side menu. 
+After logging in, you can access the Cluster Manager Dashboard by clicking "Cluster Dashboard" icon **(1)**.
 
-Some of the features can be accessed in several ways; for instance, you can see the **Default Group Policy** icon **(2)** in both the left-side menu and the Cluster Control Panel on the right side (or top side) of the Dashboard. 
-
-By clicking the folder icon **(3)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views.  The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. When the cluster administrator clicks the folder icon to get into the files and folder's view, the files and folders belong to the 
+By clicking the folder icon **(2)** In the top right of the interface you can toggle between the File Browser and Cluster Manager views.  The **File Browser** (My Files) view of the interface gives you access to your shared and unshared folders. This is also where you can create folders and upload files and folders for access. When the cluster administrator clicks the folder icon to get into the files and folder's view, the files and folders belong to the 
 default tenant. 
 
 .. note::
 
-    the cluster administrator will not be able to access files and folders that are not in the scope of the default tenant. To access files and folders that belong to a specific tenant, the web portal login has to be 
+    The cluster administrator will not be able to access files and folders that are not in the scope of the default tenant. To access files and folders that belong to a specific tenant, the web portal login has to be 
     that of the tenant. So basically the cluster administrator can do administration work for a tenant that is under management. However, it is not easy for the cluster administrator to see the files and folders for that 
     specific tenant until he/she gets the permission and the login credentials.
 
-The Cluster Manager (aka., Dashboard) allows you to manage Tenants, Cluster Branding, Reports, Cluster Control Panel, and Group Policies. 
-If you need to know the version and cluster ID information for your Cluster Manager installation, this can be accessed by clicking the “i” **(4)**. The following image represents the Cluster Info pop-up window. 
-
-.. figure:: _static/2021newimage004.png
-    :align: center
-    
-**CLUSTER INFO**
-
-In the center of the Dashboard screen, you can access your Tenants (Companies, Clients) and system reports.
+The Cluster Manager (aka., Dashboard) allows you to manage Tenants **(3)**, Cluster Branding **(4)**, Reports **(5)**, and Group Policies **(6)**. 
 
 .. note::
 
@@ -58,14 +48,8 @@ In the center of the Dashboard screen, you can access your Tenants (Companies, C
     system performance and statistics reports.
 
         
-**EXTERNAL DNS WARNING**
+**EXTERNAL DNS**
 
-At the top left corner of the cluster dashboard (5), if you see a warning icon, it is the external dns warning indicating the external dns name is not 
-setup yet.
-
-.. figure:: _static/2021newimage005.png
-    :align: center
-    
 External DNS (External URL) is a very important property. It is used in directing how outside remote clients connect to the Cluster Server. It is also used in various email templates. If this property is not properly configured, the email template may be using IP address or NETBIOS name as the URL link.
     
 To configure this setting, you must have a DNS name and SSL certificate setup; therefore, you can postpone the configuration of your DNS until you are ready.
@@ -86,14 +70,14 @@ Tenant Manager
 
     A tenant is usually mapped to a client of yours, a company, or a division of a company.
 
-The Cluster Server is multi-tenant capable, but can also be used for a single Tenant. To add or manage your tenants, choose Tenant Manager **(1)** in your Dashboard. 
+The Cluster Server is multi-tenant capable, but can also be used for a single Tenant. To add or manage your tenants, click "Tenants Count" in your Dashboard to access Tenant Manager. 
 
-.. figure:: _static/2021newimage007.png
+.. figure:: _static/2021newimage007-03192025.png
     :align: center
     
     TENANT MANAGER
 
-You can also access other important settings from this context menu **(2)** (Each tenant block has a tenant specific context menu): 
+You can access other important settings from context menu (Each tenant block has a tenant specific context menu): 
 
  - Manage Tenant
  - Force full scan for storage quota usage, 
@@ -103,7 +87,7 @@ You can also access other important settings from this context menu **(2)** (Eac
 
 **Manage Tenant**
 
-This will drill deeper into the per-tenant management page view. By clicking the “Manage Tenant” **(2)** option (see above image), the Cluster Admin sees the Tenant Dashboard as well as additional options to configure the Tenant settings.
+This will drill deeper into the per-tenant management page view. By clicking the “Manage Tenant” option, the Cluster Admin sees the Tenant Dashboard as well as additional options to configure the Tenant settings.
 
 **Force full scan for storage quota usage**
 
@@ -119,7 +103,7 @@ When a Tenant outgrows their allocation of storage space or needs to move to a d
     
 .. tip:: 
     
-    When changing a storage location for a Tenant; you typically manually copy the folder to the new location then re-configure the default storage location.
+    When changing a storage location for a Tenant, you typically manually copy the folder to the new location then re-configure the default storage location.
     
 .. warning:: 
     
@@ -131,18 +115,16 @@ Deletes the tenant.
 
 .. note::
 
-    For more details about the Tenant Management and all the configuration check ...
-
+    Please reference the :ref:`tenant_administration` section for more details about the Tenant Management.
 
 Create a New Tenant
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+~~~~~~~~~~~~~~~~~~~~~~~
 ``Cluster Manager`` > ``Tenant Manager``
 
 Click on the "Plus" sign in the ``New Tenant`` to start the creation of a new tenant.
 
-.. figure:: _static/2021newimage035.png
-.. figure:: _static/2021newimage036.png
+.. figure:: _static/2021newimage035-03192025.png
+.. figure:: _static/2021newimage036-03192025.png
     :align: center
     
     CREATING A NEW TENANT
@@ -152,7 +134,7 @@ The first screen under "New Tenant" is asking for "Start from Scratch" or "Impor
 When you select "Add New Tenant from Scratch", The next screen is asking for a 
 few parameters related to who the tenant is.
 
-.. figure:: _static/2021newimage037.png
+.. figure:: _static/2021newimage037-03192025.png
     :align: center
     
     TENANT MANAGER SETTINGS 1
@@ -165,7 +147,7 @@ If you pick **"Continue"**,
 
 The second screen under "Add Tenant from Scratch" is asking for the division of work between the cluster administrator and the tenant administrator.
 
-.. figure:: _static/2021newimage038.png
+.. figure:: _static/2021newimage038-03192025.png
     :align: center
     
     TENANT MANAGER SETTINGS 2
@@ -173,7 +155,7 @@ The second screen under "Add Tenant from Scratch" is asking for the division of 
 The third screen under "Add Tenant" is asking where
 the root storage for the tenant will be at.
 
-.. figure:: _static/2021newimage039.png
+.. figure:: _static/2021newimage039-03192025.png
     :align: center
     
     ADD TENANT STORAGE OPTIONS 1
@@ -187,16 +169,16 @@ not be able to see the folder from |prodname|.
 
 Using this option, you can connect the tenant's root folder to a file server network share. If you want the tenant users to continue to share file server network share outside of |prodname|, it is recommended you use the "Import Network Share" feature in "Team Folder" instead of pointing the default storage to the file server share, because the Cluster Server will assume it has 100% of the control of the storage location. 
 
-.. figure:: _static/2021newimage040.png
+.. figure:: _static/2021newimage040-03192025.png
     :align: center
     
     ADD TENANT STORAGE OPTIONS 2
 
 **Use Cloud Storage as default storage**
 
-when using this option, you can connect the tenant's root folder to Amazon S3, Windows Azure Blob, OpenStack storage as well as others.
+When using this option, you can connect the tenant's root folder to Amazon S3, Windows Azure Blob, OpenStack storage as well as others.
     
-.. figure:: _static/2021newimage041.png
+.. figure:: _static/2021newimage041-03192025.png
     :align: center
     
     CLOUD STORAGE SETTINGS
@@ -283,7 +265,7 @@ When the correct access credentials are given, the next screen is to select a bu
 .. figure:: _static/image226.png
     :align: center
     
-    AMAZON S3 SLECTING A BUCKET
+    AMAZON S3 SELECTING A BUCKET
 
 You can pre-create a bucket in Amazon S3 and then pick the bucket in the current page. After that, it will take a short while for the system to be ready for the new tenant created.
 
@@ -320,7 +302,7 @@ You can get this information from the Azure Portal.
     
     AZURE BLOB ACCESS KEYS
 
-Here is a simple mapping between azure portal and the parameters it ask for.
+Here is a simple mapping between Azure portal and the parameters it asks for.
 
 .. figure:: _static/image232.png
     :align: center
@@ -346,58 +328,40 @@ Cluster Branding
 Cluster Branding is for changing the logo, bitmaps and other branding related information. There are two branding supports. One is self-service built-in branding, which is completely controlled by the “Cluster Branding” settings on the “Cluster Manager”. The other is full-branding service. 
 Both rely on the “Cluster Branding” to change the look-and-feel of the web portal. 
 
-Built-in branding will work with white-label clients, which upon the first connection to the cluster, will download the branding related information and  use the branding related information. As compared to full-branding service, the full branding clients will have artworks, logo bitmaps and related information burned into the client binaries.
-
-.. figure:: _static/2021newimage046.png
-    :align: center
-    
-    CLUSTER BRANDING
-    
+Built-in branding will work with white-label clients, which upon the first connection to the cluster, will download the branding related information and  use the branding related information. As compared to full-branding service, the full branding clients will have artworks, logo bitmaps and related information burned into the client binaries.   
 
 General
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 ``Cluster Manager`` > ``Cluster Branding`` > ``General``
 
-Under the general tab you can specify the name and other settings as specified below.
+Under the ``General`` tab you can specify the name and other settings as specified below.
 
-
-**Product Name**
-
-This is where you will specify what you would like to call the product. This is the name that users will see when they login either in web portal or the client applications. To access branding settings click the branding icon **(1)** then "EDIT" **(2)** and then change the setting you want **(3)**. Don't forget to save your settings. You can also choose a color theme which you would like your users to see when they login to the portal. You can choose a color theme that is close to your company colors.
-
-.. figure:: _static/2021newimage045.png
+.. figure:: _static/2021newimage046-03192025.png
     :align: center
     
     CLUSTER BRANDING
 
-**Feedback Email**
+**Product Name (1)**
 
-Users’ feedback will be delivered to this email address.
+This is where you will specify what you would like to call the product. This is the name that users will see when they login either in web portal or the client applications. To access branding settings click "Cluster Branding" in Dashboard then "EDIT" and change the setting you want. Don't forget to save your settings. You can also choose a color theme which you would like your users to see when they login to the portal. You can choose a color theme that is close to your company colors.
 
-.. figure:: _static/image_s4_3_12.png
-    :align: center
-    
-    FEEDBACK EMAIL
+**Home Page URL (2)**
 
+This is the URL of your ‘Home Page’ page.
 
-**Home Page URL**
-
-This is the URL of your ‘Home Page’ page **(1)**.
-
-.. figure:: _static/2021newimage047.png
 .. figure:: _static/2021newimage048.png
     :align: center
     
     HOME PAGE URL AND COPYRIGHT STATEMENT
 
 
-**'Copyright' Statement**
+**'Copyright' Statement (3)**
 
-This is the contents of your ‘Copyright’ statement **(2)**.
+This is the contents of your ‘Copyright’ statement.
 
 Web Portal
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 ``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``
 
@@ -409,44 +373,31 @@ Web Portal
 
 In later builds, the icons used are what-you-see-is-what-you-get and you can upload those icon sets.
 
-.. figure:: _static/2021newimage050.png
+.. figure:: _static/2021newimage050-03192025.png
     :align: center
     
     WEB PORTAL SETTINGS
 
 
-**Application Icon**
+**Application Icon (1)**
 
-From the Web portal **(1)** section of cluster branding, you can change the application icon **(2)**. This is the image that is displayed next to the product name in the web portal.
+From the Web portal section of cluster branding, you can change the application icon. This is the image that is displayed next to the product name in the web portal.
 
-.. figure:: _static/2021newimage049.png
-    :align: center
-    
-    WEB PORTAL BRANDING
-
-
-**Tenant Logo (3)**
+**Tenant Logo (2)**
 
 This is where the logo that represents each tenant should be uploaded.
 
-
-**Drive Icon (4)**
+**Drive Icon (3)**
 
 This is the icon that will be used for the cloud drive. For example in the web portal tree view.
 
-
-**Logo Url & Login Page Left Image (5)**
-
-.. figure:: _static/2021newimage051.png
-    :align: center
-    
-    LOGIN PAGE ICON
+**Logo Url (4) & Login Page Left Image (5)**
 
 Please follow the same steps for branding settings for ‘Login Background Image’, ‘File Share Stamp Icon’, ‘IOS Client App ID’, ‘Login Page Note’, ‘Change Password URL’, ‘Tutorial Page URL’.
 
 
 Client Download
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 ``Cluster Manager`` > ``Cluster Branding`` > ``Client Download``
 
@@ -470,7 +421,7 @@ Once you brand your own iOS client and/or Android Client you can point the downl
 
 
 Windows Client
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 ``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``
 
@@ -485,26 +436,26 @@ Windows client supports multiple languages. Some language packs are included and
 
 Once you clicked the "Edit" button to edit the Windows Client branding information, you will be able to provide EULA (End User License Agreement) and Code Signing Certificate.
 
-.. figure:: _static/2021newimage055.png
+.. figure:: _static/2021newimage055-03192025.png
     :align: center
     
     WINDOWS CLIENT BRANDING SETTINGS
 
 
-**EULA**
+**EULA (1)**
 
    This will be a RTF file format as input.
 
 
-**Code Signing Certificate**
+**Code Signing Certificate (2)**
 
     You can acquire a code signing certificate from your code signing certificate vendor. Most SSL vendor also provide code signing certificate. Make sure you use SHA 256 (SHA2) as your digital signing certificate hash algorithm.
     
-    If your Code Signing certificate is already installed you can also use the option - ``Sign using cert in certificate store``
+    If your Code Signing certificate is already installed you can also use the option - ``Sign using cert in certificate store`` **(3)**
 
 
 Mac Client
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 You can configure the MAC client and MAC client installation package branding under here.
 
@@ -534,10 +485,14 @@ The task will be fulfilled and completed and a Mac software agent package will b
 
 
 Emails
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 There are many places in the Cluster Manager that need to contact the users via email. So the “Emails” tab is used to set up the email templates used for contacting users via email.
 
+.. figure:: _static/2021newimage057-03192025.png
+    :align: center
+    
+    EMAIL SETTINGS
 
 **Welcome Email for New Tenant**
 
@@ -587,21 +542,16 @@ There are many places in the Cluster Manager that need to contact the users via 
 
     This is to set the reply email address. Typically the email is sent with the SMTP service set. However, if the reply address is different, you can set it here.
 
-.. figure:: _static/2021newimage057.png
-    :align: center
-    
-    EMAIL SETTINGS
 
 Android Client
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 .. note::
 
-    Branding the android client can now be automated from your partner portal (http://www.centrestack.com). 
-    Please goto http://www.centrestack.com to brand the Android client.
+    Branding the android client can now be automated from your partner portal (https://partner.centrestack.com/login/). 
+    Please go to https://partner.centrestack.com/login/ to brand the Android client.
 
-The branding of Android client and iOS client is done from www.centrestack.com, instead 
-of from your own  server. 
+The branding of Android client and iOS client is done from www.centrestack.com, instead of from your own server. 
 
 .. figure:: _static/image_s4_5_50.png
     :align: center
@@ -610,20 +560,20 @@ of from your own  server.
 
 
 iOS Client
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 .. note::
 
-    Branding of iOS client can now be automated from partner portal (http://www.centrestack.com).
+    Branding of iOS client can now be automated from partner portal (https://partner.centrestack.com/login/).
 
-    The information here in this section is preserved for legacy reference. Please goto http://www.centrestack.com to brand iOS client.
+    The information here in this section is preserved for legacy reference. Please go to https://partner.centrestack.com/login/ to brand iOS client.
 
 As shown in the above picture, you can generate branding task and request for Android branding
 and iOS branding.
 
 
 Export/Import
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 You can either export the branding settings to another cluster or you can import branding settings from another cluster in this cluster under this setting.
 
@@ -640,31 +590,31 @@ Reports
 ``Cluster Manager`` > ``Reports``
 
 Upload Report
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 Upload report tab shows you graphs for all the uploads that have taken place in the last sixty minutes, 24 hours,
 30 days and a whole week.
 
-.. figure:: _static/2021newimage067.png
+.. figure:: _static/2021newimage067-03192025.png
     :align: center
     
     UPLOAD REPORT
     
     
 Storage Statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 Under storage statistics, you can see a quick overview of the overall storage statistics, size distribution
 file type distribution pie charts, and users who have used the most storage so far.
 
-.. figure:: _static/2021newimage068.png
+.. figure:: _static/2021newimage068-03192025.png
     :align: center
     
     STORAGE STATISTICS REPORT
 
 
 Active Users
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 Active users reports the activity of users on the web portal. The active users report doesn't include users from windows client or other native clients because those users are more persistent (always there). To access this report, you can click on the active users section in the panel near the top of the screen. 
 
@@ -677,17 +627,17 @@ Active users reports the activity of users on the web portal. The active users r
 
 
 Guest Users
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 Other reports are also available such as Guest Users, which are users that don't have a home directory but are invited to participate on some shared folders and shared files.
 
 
 Node Performance
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 You can use the Node Performance to check out the worker node health and the database health.
 
-.. figure:: _static/2021newimage070.png
+.. figure:: _static/2021newimage070-03192025.png
     :align: center
     
     
@@ -752,18 +702,18 @@ Under reports you can look at the upload graphs and storage statistics.
 
 
 Bandwidth Usage
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 This shows the overall bandwidth usage statistics as well as more granular tenant and user level statistics.
 
-.. figure:: _static/2021newimage071.png
+.. figure:: _static/2021newimage071-03192025.png
     :align: center
     
     BANDWIDTH USAGE REPORT
     
 
 System Diagnostic Report
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click the Start Scanning button to generate system diagnostic report.
 
@@ -780,7 +730,7 @@ A sample system diagnostic report is shown below.
     SYSTEM DIAGNOSTIC REPORT
 
 Audit Trace
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 This is a sample audit trace. 
 
@@ -790,25 +740,28 @@ This is a sample audit trace.
     AUDIT TRACE
 
 ***************************
-Cluster Control Panel
+Cluster Controls
 ***************************
 
 Cluster Admin
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Cluster Admin``
+``Cluster Manager`` > ``Cluster Admin``
 
-Cluster Admin section is to change the properties of the default administrator and also to add additional people to be the cluster administrators. Access the Cluster Admin in the panel on the right of your Tenant Dashboard or from the Cluster Control Panel view.  
+Cluster Admin section is to change the properties of the default administrator and also to add additional people to be the cluster administrators. You can access the Cluster Admin from your Cluster Dashboard.  
 
-.. figure:: _static/2021newimage044.png
+.. figure:: _static/2021newimage044a-03192025.png
+    :align: center
+
+.. figure:: _static/2021newimage044-03192025.png
     :align: center
     
     CLUSTER ADMIN SETTINGS
 
 Email Service
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Email Service``
+``Cluster Manager`` > ``Email Service``
 
 There are many places in the |prodname| solution that the user needs to be contacted by Email. The Email service is used to set up the SMTP email service to send out the emails.
 
@@ -832,23 +785,26 @@ In the Authenticate User field, if your SMTP service doesn't require authenticat
     :SMTP Server Port
         ``587``
 
-.. figure:: _static/2021newimage059.png
+.. figure:: _static/2021newimage059-03192025.png
     :align: center
 
-.. figure:: _static/2021newimage060.png
+.. figure:: _static/2021newimage060-03192025.png
     :align: center
     
     EMAIL SERVICE SETTINGS
 
 
 Application Manager
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Application Manager``
+``Cluster Manager`` > ``Application Manager``
 
-You can also configure Web Apps under ‘Application Manager’ tab in Cluster Settings. This will enable the users to edit documents using the web apps. The applications here only apply to web portal based editing.
+You can access "Application Manager" from Cluster Dashboard, and configure Web Apps. This will enable the users to edit documents using the web apps. The applications here only apply to web portal based editing.
 
-.. figure:: _static/image_s4_8_110.png
+.. figure:: _static/image_s4_8_110a-03192025.png
+    :align: center
+    
+.. figure:: _static/image_s4_8_110-03192025.png
     :align: center
     
     APPLICATION MANAGER SETTINGS
@@ -862,129 +818,41 @@ Once an application is enabled, you will be able to see the context menu entry f
     APPLICATION CONTEXT MENU
 
 
-Storage Manager
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-**Google Drive and OneDrive Integration (Storage Manager)**
-
-.. figure:: _static/image_s4_8_70.png
-    :align: center
-    
-    CLOUD STORAGE MANAGER
-
-
-**OneDrive for Business Integration**
-
-In order to complete the OneDrive for Business Integration, you will first need to login to your
-company's Office 365 portal.
-
-.. figure:: _static/image237.png
-    :align: center
-    
-    MICROSOFT ONEDRIVE BUSINESS INTEGRATION
-
-
-After that, click on the Admin tile and then on to the "Azure AD" section.
-
-.. figure:: _static/image238.png
-    :align: center
-    
-    AZURE AD SETTINGS
-
-
-After that go to the Applications section of the company Azure AD web portal.
-
-.. figure:: _static/image239.png
-    :align: center
-    
-    AZURE APPLICATIONS SETTINGS
-
-
-Add a "Web Application"
-
-Sign On URL: 
-
-  This can be set to the LoginPage.aspx for your Cluster Server.
-
-Client ID: 
-  
-  This will be generated by Azure AD and you will need to copy it back 
-  to the configuration page of the Cluster Server.
-  
-App ID URI:
-
-  This can be the same as the Sign On URL
-  
-Reply URL:
-
-  This field can be 
-  https://your-centrestack-server/management/storageconfig/SkyDriveCallback.aspx
-
-.. figure:: _static/image240.png
-    :align: center
-    
-    ONEDRIVE BIZ LABTECH SETTINGS
-
-
-You will need to grant permissions according to the following pictures.
-
-Office 365 SharePoint Online:
-
-.. figure:: _static/image241.png
-    :align: center
-    
-    OFFICE 365 SHAREPOINT PERMISSIONS 1
-
-
-.. figure:: _static/image242.png
-    :align: center
-    
-    OFFICE 365 SHAREPOINT PERMISSIONS 2
-
-
-Windows Azure Active Directory:
-
-.. figure:: _static/image243.png
-    :align: center
-    
-    AZURE ACTIVE DIRECTORY SETTINGS
-
-
 Client Version Manager
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Client Version Manager``
+``Cluster Manager`` > ``Client Version Manager``
 
-.. figure:: _static/image_s4_8_101.png
+.. figure:: _static/image_s4_8_101-03192025.png
     :align: center
     
     CLIENT VERSION MANAGER
 
 For Windows Client, Mac Client and Windows Server Agent, there is an auto client update feature. Each upgrade package contains
-the updated clients. By clicking on the ``Publish`` button [see **(1)** below], the newer package can be published to clients out there.
+the updated clients. By clicking on the ``Publish`` button, the newer package can be published to clients out there.
 
 Every new Cluster Server upgrade contains the newer Windows client, Windows Server Agent and Mac Client. The Cluster users via manual download can get the clients that are included in the Cluster Server. However, for existing users with previously installed clients, those older clients will not auto upgrade until the newer client packages are published.
 
+Windows Client
+^^^^^^^^^^^^^^^^
 
-**(2) Daily Upgrade Limit** 
-
-    This is a per-worker node setting. For example, if you have 2 worker nodes, and set the daily upgrade limit to 100, maximum 200 clients will be upgraded per day.
-
-**(3) Apply to Users** 
-
-    This typically is used for testing prior to pushing the client out.
-
-
-**(4) Do Not Apply to Users** 
-
-    This typically is used for testing prior to pushing the client out and to exclude certain users.
-
-
-.. figure:: _static/image_s4_8_100.png
+.. figure:: _static/image_s4_8_100-03192025.png
     :align: center
     
     WINDOWS CLIENT VERSION SETTINGS
 
+**Daily Upgrade Limit (1)** 
+
+    This is a per-worker node setting. For example, if you have 2 worker nodes, and set the daily upgrade limit to 100, maximum 200 clients will be upgraded per day.
+
+**Apply to Users (2)** 
+
+    This typically is used for testing prior to pushing the client out.
+
+
+**Do Not Apply to Users (3)** 
+
+    This typically is used for testing prior to pushing the client out and to exclude certain users.
 
 .. note::
 
@@ -992,50 +860,45 @@ Every new Cluster Server upgrade contains the newer Windows client, Windows Serv
     
     If the Windows client software is actively running, the user may be seeing a message popup from the system tray area asking the user if they want to restart the client software and to receive the newer version.
     
-Once a client is published for client auto upgrade, you can use ``Unpublish`` **(5)** to stop the client auto upgrade.
+Once a client is published for client auto upgrade, you can use ``Unpublish`` to stop the client auto upgrade.
 
-    
-**Server Agent**
+Server Agent
+^^^^^^^^^^^^^
 
     Windows Server Agent can be separately published for auto upgrade.
     
-.. figure:: _static/image_s4_8_102.png
+.. figure:: _static/image_s4_8_102-03192025.png
     :align: center
     
     SERVER AGENT AUTO UPGRADE
 
 
-**Mac Client**
+Mac Client
+^^^^^^^^^^^^^
 
     Mac client can be separately published for auto upgrade.
     
-.. figure:: _static/image_s4_8_103.png
+.. figure:: _static/image_s4_8_103-03192025.png
     :align: center
     
     MAC CLIENT AUTO UPGRADE
 
 
-
 Settings
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings``
-
-Under cluster settings, you can configure auto-client update, web applications, and other settings like 2-Step
-Verification, multiple domain support, etc..
-
-.. figure:: _static/2021newimage072.png
+.. figure:: _static/2021newimage072-03192025.png
     :align: center
     
     CLUSTER SETTINGS
 
 
 Cluster Settings
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Cluster Settings``
+``Cluster Manager`` > ``Cluster Settings`` > ``Cluster Settings``
 
-.. figure:: _static/2021newimage073.png
+.. figure:: _static/2021newimage073-03192025.png
     :align: center
     
     CLUSTER SETTINGS PERMISSIONS
@@ -1046,19 +909,14 @@ Cluster Settings
     When checked, the login failed message will be replaced by a very generic “Login Failed” message. When un-checked, it may return a more meaningful login error, such as user-not-found, authentication-error and so on. This is a security feature if you don't want to give out too much information for hackers to guess a reason for authentication failure.
 
 
-**Hide support button**
-
-    This hides the floating support icon.
-
-
 **Hide build number from login page**
 
     This controls the build number on the web portal login page.
 
 
-**Enable Content Management Policies** – Reserved
+**Hide support button**
 
-**Show file dashboard by default**
+    This hides the floating support icon.
 
 
 **Hide ‘Forgot your password’ link on login**
@@ -1070,36 +928,15 @@ Cluster Settings
 
     Most often it is used when the Active Directory user has low failed-count on lock-out policy. When the user’s password is wrong, a few retries can lock out the user’s Active Directory account. The retry feature can be used when there is no Active Directory lock out or when the lock out count is high.
 
+**Always display CAPTCHA on the web portal login page**
+
+**Allow multi-tenancy**
+
+**Show tenant management screen after logging in**
 
 **Show ‘purge storage option’ when delete user**
 
     By default, when a user is deleted, the user’s home directory storage content is not touched for later use or review. If it is desired to delete the user’s content when the user is deleted, this can show the purge option.
-
-
-**Enable Multiple AD Domain Support**
-
-    In the multi-tenant environment, you can always link one Active Directory to a tenant. However, in some cases, a single tenant may have multiple un-related Active Directories. In this case, Enable Multiple AD Domain support will be useful. 
-    
-    When you have multiple Active Directory from multiple forests in a specific tenant, you can turn on this option. The Cluster Server software is capable of automatically searching for domains in one single forest.
-
-    However, for multiple forests, the software will allow you to manually enter the root of each domain when this option is enabled.
-
-    .. note::
-    
-        The AD support here is related to using LDAP for Active Directory connectivity.
-
-        If you are using "Server Agent" to connect to multiple Active Directories in proxy modes, you don't need to turn it on here. 
-        
-    .. note::
-    
-        If I turned it on, where to see the change?
-        
-        You will see the difference in the per-tenant Active Directory setting page. Instead of a single AD setup, you will see a table that allows you to add multiple rows, with each row represents a single Active Directory LDAP connection.
-
-
-**Turn on 2-step Verification**
-
-    The Cluster Server supports Google Authenticator, Amazon Virtual MFA soft token for 2-step verification. When this setting is turned on, users will see the option to configure 2-step verification in their web portal.
 
 
 **Don’t send email notification to user when purge deleted content**
@@ -1111,19 +948,6 @@ Cluster Settings
 
     When the user deletes files, They are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification to the administrator.
 
-
-**Use 'Icon View' as default web file browser view**
-
-    Icon view is set when this setting is enabled. (The opposite is ListView)
-
-
-**Use Ghost Script to generate PDF preview**
-
-    There are two ways in the system to generate PDF preview. This setting will force the system to use one way or the other. For example, force it to use Ghostscript to generate PDF preview.
-
-**Preview pdf files with browser builtin viewer**
-
-    When selected, the PDF file will be rendered in the web browser on the web browser side. Otherwise, it is rendered on the server side first and shown to the end user in browser.
 
 **Retrieve avatar from third party service (i.e. Google)**
 
@@ -1139,22 +963,55 @@ Cluster Settings
 
     This is a security feature. The result is every time the windows client is done running, the next time the user tries to login, it will not remember the login token and the user will have to re-type the credential to get in.
 
-**Use short url**
-
-    Use shorter URL for web links generated for file/folder sharing.
-
 **Allow personal data tagging**
 
-**Attach local folder using in place versioned folder**
-
-    When synchronize folders from remote PC/Mac to |prodname|, using in place versioned folder will make the folder keep the same folder structure as the folder that is being uploaded.
-    Otherwise |prodname| manage the folder content on the server side in its own ways.
-    
 **Only allow access performance information from local host**
 
-    only allow accessing performance data from http://localhost and not from external URL.
+    Only allow accessing performance data from http://localhost and not from external URL.
+
+**Allow tenant administrators to enable Team Folder backups**
+
+
+Performance and Throttling
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Cluster Manager`` > ``Cluster Settings`` > ``Performance and Throttling``
+
+.. figure:: _static/image_s4_9_10-03192025.png
+    :align: center
     
-**Show 'Import Network Share' on cluster dashboard**
+    PERFORMANCE THROTTLING
+
+
+**Don't show file icon preview if file size is larger than (KB, 0-No icon preview)**
+
+    This is used to control iconview thumbnail generation in the web browser files and folders view. The generation of thumbnail takes CPU power from the Cluster Server. For big files, the generation of thumbnail may negatively affect the system performance. So it is recommended to cap the feature to a certain image size.
+
+
+**Cluster Wide Upload Bandwidth Limit (Per Worker Node, KB/Sec, 0-No Limit)**
+
+    This is to limit upload bandwidth.
+
+
+**Cluster Wide Download Bandwidth Limit (Per Worker Node, KB/Sec)**
+
+    This is to limit download bandwidth.
+
+
+**Size limit for folder download (MB, 0-no limit)**
+
+    This is to prevent user downloading a very big folder and using up all the Cluster Server resources.
+
+
+Timeouts and Limits
+^^^^^^^^^^^^^^^^^^^^
+
+``Cluster Manager`` > ``Cluster Settings`` > ``Timeouts and Limits``
+
+.. figure:: _static/2021newimage074-03192025.png
+    :align: center
+    
+    TIMEOUTS AND LIMITS
 
 **Web Browser Session Timeout (minutes, 0 - never timeout)**
 
@@ -1166,71 +1023,36 @@ Cluster Settings
     For Windows client and Mac client, this defines the token time to live. 
 
 
+**Mobile Client Token Timeout (days, 0 - never timeout)**
+
 **Distributed Lock Idle Timeout (minutes, 0 - never timeout)**
 
     This setting is related to automatic file locking. When a file is automatically locked, the machine that has the file locked will need to maintain a healthy heart beat with the Cluster Server. If the machine is offline (idle) and can't report back to the Cluster Server for a period of time, the lock that was automatically grabbed will need to be released.
 
     If this is not desired, the user can always use manual "Check Out" to lock a file and that will not be subject to the timeout.
 
+**Send shared file change notifications every n minutes (0 - send immediately)**
 
 **Open third party web application in new window when the height of the web browser is less than**
 
     This is a usability feature. When using third party web application to edit documents in Cluster Server web browser file and folder view, if the web browser height is too short, the third party web application may not function properly. 
 
 
-**Max Device Count(Concurrent Device Count) for Each User (0-Unlimited)** 
+**Max Device Count (Concurrent Device Count) for Each User (0-Unlimited)** 
 
     This is the number of concurrent devices connected to the Cluster Server for each user. The default is not limited.
 
+**Purge Device Entry n Days After Device Disconnected (0 - let system decides)**
 
-Performance and Throttling
-"""""""""""""""""""""""""""""""""
-
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Performance and Throttling``
-
-.. figure:: _static/image_s4_9_10.png
-    :align: center
-    
-    PERFORMANCE THROTTLING
-
-
-**Don't show file icon preview if file size is larger than(KB, 0-No icon preview)**
-
-    This is used to control iconview thumbnail generation in the web browser files and folders view. The generation of thumbnail takes CPU power from the Cluster Server. For big files, the generation of thumbnail may negatively affect the system performance. So it is recommended to cap the feature to a certain image size.
-
-
-**Cluster Wide Upload Bandwidth Limit(Per Worker Node, KB/Sec, 0-No Limit)**
-
-    This is to limit upload bandwidth.
-
-
-**Cluster Wide Download Bandwidth Limit(Per Worker Node, KB/Sec)**
-
-    This is to limit download bandwidth.
-
-
-**Size limit for folder download (MB, 0-no limit)**
-
-    This is to prevent user downloading a very big folder and using up all the Cluster Server resources.
-
-
-Timeouts and Limits
-""""""""""""""""""""""""""
-
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Timeouts and Limits``
-
-.. figure:: _static/2021newimage074.png
-    :align: center
-    
-    TIMEOUTS AND LIMITS
+**Maximum file search results**
     
 
 Languages
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Languages``
+``Cluster Manager`` > ``Cluster Settings`` > ``Languages``
 
-.. figure:: _static/image_s4_9_20.png
+.. figure:: _static/image_s4_9_20-03192025.png
     :align: center
     
     LANGUAGE SETTINGS
@@ -1241,16 +1063,20 @@ for Windows client.
 
 We have automated translation and provided the resource files that you can use to localize the web portal and clients in the language  of your choice. If there are strings that not translated yet in the language you want, just go ahead and select the string and put in the translated string in the window for the language selected.
 
-.. figure:: _static/image_s4_11_00.png
+.. figure:: _static/image_s4_11_00a-03192025.png
+    :align: center
+
+.. figure:: _static/image_s4_11_00-03192025.png
     :align: center
 
 
+
 Branding
-""""""""""""""""""""""""""
+^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Settings`` > ``Branding``
+``Cluster Manager`` > ``Cluster Settings`` > ``Branding``
 
-.. figure:: _static/image_s4_9_30.png
+.. figure:: _static/image_s4_9_30-03192025.png
     :align: center
     
     ENABLE TENANT BRANDING
@@ -1268,22 +1094,12 @@ Branding
     For example \*.mycompany.com , while tenant1.mycompany.com is for tenant 1's access.
 
 
-**Only allow branded client to access**
-
-    This can lock out the generic client and only allow the branded client to connect.
-
-
-**Branding Id**
-
-    This setting only applies to full-branding clients. For the full-branding client, it is possible to lock the full-branding clients to only connect to the branded Cluster Server. When set, it will lock out the white-label clients or other non-branding clients and will not allow them to connect.
-
-
 Change Log
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``Change Log``
+``Cluster Manager`` > ``Cluster Settings`` > ``Change Log``
 
-.. figure:: _static/image_s4_9_40.png
+.. figure:: _static/image_s4_9_40-03192025.png
     :align: center
     
     CHANGE LOG SETTINGS
@@ -1311,10 +1127,14 @@ Change Log
     
     The Cluster Server database is split into the core part and the logging part. The core part can store the DB connection string that connects to the secondary database. This setting used to be in the web.config file.
 
-License String
-""""""""""""""""""""""""""
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Settings`` > ``License String``
+**Logging DB Connection String (Read-only Replica)**
+
+
+License String
+^^^^^^^^^^^^^^^^
+
+``Cluster Manager`` > ``Cluster Settings`` > ``License String``
 
 **License String** – Reserved.
 
@@ -1322,28 +1142,29 @@ License String
 
 
 Anti Virus
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-``Cluster Manager`` > ``Cluster Settings`` > ``Anti Virus``
+``Cluster Manager`` > ``Anti Virus``
 
 You can enable anti-virus protection which will ensure that the files being uploaded via the Cluster Server are scanned by the selected anti-virus software.
 
 You will first need to obtain the anti-virus service that is independent from the Cluster Server, and get it directly from the anti-virus vendor. After that, you can integrate the anti-virus service into the Cluster Server.
 
-.. figure:: _static/2021newimage075.png
-.. figure:: _static/2021newimage076.png
+.. figure:: _static/2021newimage075-03192025.png
+.. figure:: _static/2021newimage076-03192025.png
     :align: center
     
     ANTI-VIRUS SETTINGS
 
 Worker Nodes
-^^^^^^^^^^^^^^^^^^^
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Worker Node``
+~~~~~~~~~~~~~~~~~~~~~~~
+
+``Cluster Manager`` > ``Worker Node``
 
 Cluster Server Farm has two types of nodes, one is “Worker Node” and the other is “Web Nodes”.
 
-.. figure:: _static/2021newimage061.png
-.. figure:: _static/2021newimage062.png
+.. figure:: _static/2021newimage061-03192025.png
+.. figure:: _static/2021newimage062-03192025.png
     :align: center
     
     CLUSTER SERVER FARM NODES
@@ -1362,7 +1183,7 @@ Again, additional nodes can be added as the load increases. Because there is cac
 
 There are some settings that apply to all worker nodes. After you click on the "Settings" icon, the Advanced Setttings panel will show.
 
-.. figure:: _static/2021newimage063.png
+.. figure:: _static/2021newimage063-03192025.png
     :align: center
     
     WORKER NODE SETTINGS
@@ -1405,7 +1226,7 @@ There are some settings that apply to all worker nodes. After you click on the "
 
 **Worker Node Properties**
 
-.. figure:: _static/image_s4_7_03.png
+.. figure:: _static/image_s4_7_03-03192025.png
     :align: center
     
     WORKER NODE PROPERTIES
@@ -1438,7 +1259,7 @@ You may need to modify the worker node properties when you setup SSL and the DNS
 
 **Edit Cloud Monitor Setting**
 
-.. figure:: _static/2021newimage064.png
+.. figure:: _static/2021newimage064-03192025.png
     :align: center
     
     CLOUD MONITOR SETTINGS
@@ -1481,7 +1302,7 @@ You may need to modify the worker node properties when you setup SSL and the DNS
 
 **Process Background Task**
 
-    Whether this specific node will process background task. 
+    Whether this specific node will process the background task.
 
 
 **Enable Change Monitor for Home Drive**
@@ -1493,10 +1314,9 @@ You may need to modify the worker node properties when you setup SSL and the DNS
 
     If the storage scan is enabled, a daily scan email will be sent to the cluster administrator about the result of the scan.
 
-
 Web Node
-^^^^^^^^^^^^^^^^^^^
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Web Node``
+~~~~~~~~~~~~~~~~~~~~~~~
+``Cluster Manager`` > ``Web Node``
 
 .. note::
     In a small deployment, there is no need to have web nodes. You can go straight to worker nodes
@@ -1504,7 +1324,7 @@ Web Node
 
 The Account Management, Sign-in and Load-balancing services will be installed on this physical machine (or virtual machine). Depending on the load, you may need 1 to N such nodes. Normally, we recommend for every web front node, you can have 10+ worker nodes. When you have small deployments, you can skip web front nodes and combine them into worker nodes. All the installation work is the same. If you do not need web front node, you do not need to assign them in the cluster manager.
 
-.. figure:: _static/2021newimage129.png
+.. figure:: _static/2021newimage129-03192025.png
     :align: center
     
     WEB NODE
@@ -1526,9 +1346,9 @@ When Users point their browsers to https://cloud.acme.com it is directed to one 
     Basically, if you have any existing load balancer, you can omit web nodes.
 
 Zones
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-``Cluster Manager`` > ``Cluster Control Panel`` > ``Zones``
+``Cluster Manager`` > ``Zones``
 
 The concept of zone is to associate your worker nodes with the location of the storage. When you think about zones,
 you will think about your storage location first.
@@ -1538,8 +1358,7 @@ For example, I have storage in LA so I have an LA zone. I also have storage in N
 You can have worker nodes from different zones as well and assign users to specific zone. If user’s home directory
 is coming from LA zone, the user will need to be assigned to LA zone.
 
-.. figure:: _static/2021newimage065.png
-.. figure:: _static/2021newimage066.png
+.. figure:: _static/2021newimage065-03192025.png
     :align: center
     
     CONTROL PANEL STORAGE ZONES EDITOR    
@@ -1555,7 +1374,9 @@ Default group policy can be applied to all tenants in the cluster. However, if t
 
 Please reference the ``Group Policy`` in the tenant administrator section for full list of policy items.
 
-.. figure:: _static/2021newimage077.png
+.. figure:: _static/2021newimage077a-03192025.png
+.. figure:: _static/2021newimage077-03192025.png
     :align: center
     
     GROUP POLICY SETTINGS
+

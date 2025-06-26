@@ -12,7 +12,7 @@ Users can access CentreStack cloud files using any device of their choice as Cen
 
 The white-labeled CentreStack iOS app called “Cloud Drive” by Gladinet that can be distributed by service providers and enterprises to their users. 
 
-If you have the fully branded CentreStack iOS client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from http://www.centrestack.com (partner portal). 
+If you have the fully branded CentreStack iOS client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from https://partner.centrestack.com/login/ (partner portal). 
 
 
 Download & Install
@@ -20,17 +20,17 @@ Download & Install
 
 Search for Gladinet, Inc. as a publisher in ‘App Store’ to start the download and installation.
 
-.. image:: _static/NewImage1.png
+.. image:: _static/NewImage1-03192025.png
 
 
 After the install open the app from its icon. Login using your credentials.
 
-.. image:: _static/NewImage2.png
+.. image:: _static/NewImage2-03192025.png
 
 
 Enter Access Point (if not filled automatically) and your Username and tap “CONTINUE”. 
 
-.. image:: _static/NewImage3.png
+.. image:: _static/NewImage3-03192025.png
 
 On the following screen, enter your Password and tap “SIGN IN”, to log in to your server. 
 
@@ -40,7 +40,7 @@ Access, Upload and Create
 
 Once logged in users will see the files and folders they have access to like shown in the screen below.
 
-.. image:: _static/NewImage4.png
+.. image:: _static/NewImage4-03192025.png
 
 Tap on the folder to see the files and sub-folders inside. 
 
@@ -64,7 +64,7 @@ In the sort menu, you can change the order of which your files are displayed.
 
 **Date (New to Old)** displays your files in the order of which the most recently worked on files are shown first.
 
-.. image:: _static/NewImage6.png
+.. image:: _static/NewImage6-03192025.png
 
 
 Main Operations
@@ -74,8 +74,8 @@ Camera
 #############
 The camera icon allows you to insert media from your phone. You can either take a new picture or video or you can insert one from your camera library.
 
-.. image:: _static/NewImage21.png
-.. image:: _static/NewImage22.png
+.. image:: _static/NewImage21-03192025.png
+.. image:: _static/NewImage22-03192025.png
 
 
 Creating New Folders
@@ -83,26 +83,26 @@ Creating New Folders
 
 To create new folders, click the **plus icon** at the bottom of the screen and it will let you create a name for the folder. Once a name is created the folder is created.
 
-.. image:: _static/NewImage7.png
-.. image:: _static/NewImage8.png
+.. image:: _static/NewImage7-03192025.png
+.. image:: _static/NewImage8-03192025.png
 
 Settings
 #############
 In the settings section you can change a number of options including the theme of the mobile application.
 
-.. image:: _static/NewImage23.png
-.. image:: _static/NewImage24.png
+.. image:: _static/NewImage23-03192025.png
+.. image:: _static/NewImage24-03192025.png
 
 Log Out
 #############
 
 To logout, click the icon on the top-left of the app and press the **"Sign Out"** icon at the bottom of the menu.
 
-.. image:: _static/NewImage20.png
+.. image:: _static/NewImage20-03192025.png
 
 You can also log out from the navigation pane at the bottom of the screen.
 
-.. image:: _static/NewImage33.png
+.. image:: _static/NewImage33-03192025.png
 
 
 Manage and Edit
@@ -112,14 +112,14 @@ You can tap a folder to enter it for browsing, and tap a file to open it in a fi
 
 Multiple operations can be carried out by accessing the menu.
 
-.. image:: _static/NewImage37.png 
+.. image:: _static/NewImage37-03192025.png 
 
 Preview
 ----------
 
 To preview a file, you can simply click on the file you want to see and it will open inside of the Cloud Drive application. For example, you can preview an excel file in Excel or in the Cloud Drive application.
 
-.. image:: _static/NewImage9.png
+.. image:: _static/NewImage9-03192025.png
 
 You can also go into a folder and preview a file with multiple images. Once you click into the preview you can scroll through all the pictures in that screen as well as saving the picture to your phone.
 
@@ -131,14 +131,14 @@ Delete
 
 A file can be deleted using the **‘Delete’** option. Select **‘Delete’** from the context menu to delete a file. Once the file has been deleted it will no longer be visible in the cloud drive.
 
-.. image:: _static/NewImage18.png
+.. image:: _static/NewImage18-03192025.png
 
 Rename
 -----------------
 
 You can rename a file or a folder using the **‘Rename’** option. Pressing **‘Rename’** will display a field to type in the new name.
 
-.. image:: _static/NewImage17.png
+.. image:: _static/NewImage17-03192025.png
 
 
 Copy and Cut
@@ -146,8 +146,8 @@ Copy and Cut
 
 The 'copy' option allows you to copy a file and paste it into a another folder of your choosing. The 'cut' option allows you to remove a file from a certain folder and paste it into another.
 
-.. image:: _static/NewImage31.png
-.. image:: _static/NewImage32.png
+.. image:: _static/NewImage31-03192025.png
+.. image:: _static/NewImage32-03192025.png
 
 The 'Move' option allows you to move the file you select from one folder to another.
 
@@ -163,30 +163,30 @@ More Info
 
 The 'More Info' option allows you to look at the specifics of the file you are working on or looking at.
 
-.. image:: _static/NewImage19.png
+.. image:: _static/NewImage19-03192025.png
 
 
-Marking As Favorite 
+Offline Access
 -----------------------
 
-Add to Favorite
+Enable Offline
 ##################
 
-You can add a file to favorites by pressing the three vertical ellipses icon to the right of the file. Once you click on that it will drop down a menu where you can then select to favorite this file.
+You can enable a file offline access by pressing the three vertical ellipses icon to the right of the file. Once you click on that it will drop down a menu where you can then "Enable Offline" this file.
 
-.. image:: _static/NewImage11.png
+.. image:: _static/NewImage11-03192025.png
 
 
-Remove from Favorite
+Disable Offline
 #######################
 
-To remove files from your **Offline Favorites** Access them from the top-left menu, and choose **Offline Favorites**. Or use the Offline icon (star) at the Bottom Bar.
+To remove files from your **Offline Access**, go to top-left menu, and choose **Offline Access**. Or use the Offline Access icon at the Bottom Bar.
 
-.. image:: _static/NewImage12.png
+.. image:: _static/NewImage12-03192025.png
 
-In the **Offline Favorites** view you can remove files by clicking the three vertical ellipses icon and selecting **Unfavorite**.
+In the **Offline Access** view you can remove files by clicking the three vertical ellipses icon and selecting **Disable Offline**.
 
-.. image:: _static/newimage13.png
+.. image:: _static/newimage13-03192025.png
 
 
 Sharing and Collaborating
@@ -194,13 +194,13 @@ Sharing and Collaborating
 
 You can select the files or folders that you want to share from your iOS devices.
 
-.. image:: _static/NewImage14.png 
+.. image:: _static/NewImage14-03192025.png 
 
 Share Via
 -----------------
 You will be allowed to share the file to a third party application such as gmail, or WhatsApp.
 
-.. image:: _static/NewImage27.png 
+.. image:: _static/NewImage27-03192025.png 
 
 Share Manager
 -----------------
@@ -216,7 +216,7 @@ Sharing a File
 -----------------
 You will be taken to the "Specify User" screen. There you can add user emails and next select various options for sharing.
 
-.. image:: _static/NewImage15.png 
+.. image:: _static/NewImage15-03192025.png 
 
 Before sending your email share notification, you can control how the guest user(s) can access the file or folder. 
 
@@ -230,21 +230,30 @@ Before sending your email share notification, you can control how the guest user
     - Send email notification when file is uploaded
     - Notify user when file/folder is changed
     
-.. image:: _static/NewImage16.png
+.. image:: _static/NewImage16-03192025.png
 
 Public Link
 ----------------
-Enable the public link option will display the public URL which can also be sent to the users so they can access the share from the URL or you can copy the share URL in an email. Once the Public Link is enabled, you can click ‘COPY TO CLIPBOARD’ to copy the public link to your clipboard so it can be pasted into a field, email or document.
+Enable the public link option will display the public URL which can also be sent to the users so they can access the share from the URL or you can copy the share URL in an email.
+Click the "Link" icon at the bottom of screen.
 
-.. image:: _static/NewImage28.png 
+.. image:: _static/NewImage28-03192025.png 
+
+There is a "Settings" icon you can click to configure the Public Link.
+
+.. image:: _static/NewImage28b-03192025.png 
+
+Once the Public Link is enabled, you can click "COPY TO CLIPBOARD" icon to copy the public link to your clipboard so it can be pasted into a field, email or document.
+
+.. image:: _static/NewImage28c-03192025.png 
 
 Request a File
 ----------------------
 
-This option is only available for folders. Once you select request a file at the bottom right, it will take you to a screen where you can share a link with a user to allow him to upload files to the specific folder.
+This option is only available for folders. Once you select "Request a File" icon at the bottom right, it will take you to a screen where you can share a link with a user to allow him to upload files to the specific folder.
 
-.. image:: _static/NewImage29.png 
-.. image:: _static/NewImage30.png 
+.. image:: _static/NewImage29-03192025.png 
+.. image:: _static/NewImage30-03192025.png 
 
 
 Working with Office Applications

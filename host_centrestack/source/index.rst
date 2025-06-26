@@ -19,4 +19,4 @@ can focus on their customers and help their customers.
 
 .. note::
 
-  This admin guide is written for |prodname| version 9.7.5645.41666
+  This admin guide is written for |prodname| version |release|

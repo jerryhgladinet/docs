@@ -6,14 +6,15 @@
 Welcome to Hosted |prodname| Admin Guide's documentation!
 ==========================================================
 
+Contents:
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
    
    index
-   chapter01
-   chapter02
-   chapter03
+   chapter01.rst
+   chapter02.rst
+   chapter03.rst
 
 
 

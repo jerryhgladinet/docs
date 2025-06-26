@@ -4,28 +4,28 @@ Partner Portal
 
 To start the Hosted-|prodname| version, the first thing to do is to acquire a |prodname| partner account and login to the web portal.
 
-.. figure:: _static/image_s2_1_1.png
+.. figure:: _static/image_s2_1_1-03192025.png
     :align: center
 
     |prodname| WEBSITE
 
 The Partner Portal is the centralized place to manage the managed service provider's (MSP's) clients. The activities on the partner portal include creating Tenants and managing Tenants. 
 
-.. figure:: _static/image_s2_1_2.png
+.. figure:: _static/image_s2_1_2-03192025.png
     :align: center
 
     PARTNER LOGIN
 
-After logging into the Partner Portal, you can see most options by expanding the left-side menu. **(1)** From the collapsable menu, choose one of the two hosting options: "Private |prodname|" **(2)**, which is for the self-hosted |prodname|, or "Hosted |prodname|" **(3)**. In the image below you can see that we have already "Branded" this account with "ACME Cloud Services" **(4)** (see "Branding" section below for more information). You can also access useful information here, such as "Compare self-hosted and hosted options" **(5)**, "Configure ConnectWise Integration" **(6)**, and "Training Videos" **(7)** to help you get started. 
+After logging into the Partner Portal, you can see most options by expanding the left-side menu. **(1)** From the collapsable menu, choose one of the two hosting options: "Self-Hosted |prodname|" **(2)**, which is for the self-hosted |prodname|, or "Hosted |prodname|" **(3)**. In the image below you can see that we have already "Branded" this account with "ACME Cloud Services" **(4)** (see "Branding" section **(5)** below for more information). You can also access useful information here, such as "Compare CentreStack Editions" **(6)** and "Training Videos" **(7)** to help you get started. 
 
-.. figure:: _static/image_s2_1_3.png
+.. figure:: _static/image_s2_1_3-03192025.png
     :align: center
 
     PARTNER DASHBOARD
 
 Because this guide is focused on our "Hosted" solution, choose the "Hosted |prodname|" option from the left panel.
 
-.. figure:: _static/image_s2_1_4.png
+.. figure:: _static/image_s2_1_4-03192025.png
     :align: center
 
     HOSTED |prodname| TENANT MANAGEMENT
@@ -42,24 +42,29 @@ After you are in the Hosted |prodname| section, you can view the Tenant manager.
 New Tenant
 -------------
 
-To start creating the first Tenant, you can use the "New Tenant" button.
+To start creating the first Tenant, you can use the "Register a Tenant" link.
 
-.. figure:: _static/image_s2_1_5.png
+.. figure:: _static/image_s2_1_5-03192025.png
     :align: center
 
     CREATE A NEW TENANT
 
 During the creation of a Tenant, it asks for basic Tenant-related information such as company name, contact name, email and other information.
 
-If you need to get to the advanced section to further customize the creation of the Tenant, you can click on the "Settings" icon on the top right of the dialog.
+If you need to get to the advanced section to further customize the creation of the Tenant, you can click on the "Advanced Settings" link.
 
-.. figure:: _static/image_s2_1_6.png
+.. figure:: _static/image_s2_1_6-03192025.png
     :align: center
 
     NEW TENANT SETTINGS
 
 Advanced Settings
 --------------------
+
+.. figure:: _static/advanced-settings.png
+    :align: center
+
+    ADVANCED SETTINGS
 
 For MSPs and the Tenant internal IT staff, there is a division of work and responsibility. Sometimes managed service providers do more work and have more responsibility, but other times the Tenant IT staff has more. The Advanced Settings defines how the work is divided between these two entities.
 
@@ -93,9 +98,9 @@ For MSPs and the Tenant internal IT staff, there is a division of work and respo
 
     If a managed service provider has both self-hosted |prodname| environment and Hosted |prodname|, the managed service provider can leverage self-hosted |prodname| to create Tenants.
 
-After a Tenant is created, you can click the top right "Hamburger Menu" to manage the Tenant.
+After a Tenant is created, you can manage the Tenants in "Registered Tenants" section.
 
-.. figure:: _static/image_s2_1_6a.png
+.. figure:: _static/image_s2_1_6a-03192025.png
     :align: center
 
     MANAGING YOUR TENANT
@@ -105,7 +110,7 @@ Branding
 
 You can create the branding and then apply the branding information to your Tenants.
 
-.. figure:: _static/image_s2_1_6b.png
+.. figure:: _static/image_s2_1_6b-03192025.png
     :align: center
 
     PARTNER BRANDING SETTINGS
@@ -114,30 +119,30 @@ Apply Branding to the Tenant
 ------------------------------
 
 **Default branding is applied this way:**
-Click the hamburger menu on the Tenant, then choose *"Apply Partner Branding Settings"* 
+On "Registered Tenants" section, click "Brand".
 
-.. figure:: _static/image_s2_1_7.png
+.. figure:: _static/image_s2_1_7-03192025.png
     :align: center
 
     APPLY PARTNER BRANDING
 
 If the Tenant is allowed to change the branding, this can be done from the Tenant dashboard.
 
-.. figure:: _static/image_s2_1_8.png
+.. figure:: _static/image_s2_1_8-03192025.png
     :align: center
 
     ACCESS TO TENANT BRANDING
 
-Once you are in the Branding Settings, you can choose a settings group from the top-left menu. The setting categories are: ``General``, ``Web Portal``, ``Client Download``, ``Windows Client``, ``Mac Client``, and ``Emails``. 
+Once you are in the Branding Settings, you can choose a settings group from the Branding submenu. The setting categories are: ``General``, ``Web Portal``, ``Client Download``, ``Windows Client``, ``Mac Client``, ``Emails``, ``Email Service``, and ``Branding Tasks``. 
 
-.. figure:: _static/image_s2_1_9.png
+.. figure:: _static/image_s2_1_9-03192025.png
     :align: center
 
     TENANT BRANDING SETTINGS
 
 After the branding is created, you can apply the branding to a specific Tenant. In this example, we created a new logo and uploaded it to the logo section in the partner portal.
 
-.. figure:: _static/image_s2_1_10.png
+.. figure:: _static/image_s2_1_10-03192025.png
     :align: center
 
     REPLACE THIS

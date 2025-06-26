@@ -1,85 +1,99 @@
 ==========================================
 FAQ
 ==========================================
-Frequently Asked Question about CentreStack
+Frequently Asked Questions about CentreStack
 
 General
 -------------------------
 
 What is CentreStack?
 ++++++++++++++++++++++++++
-CentreStack is Gladinet's enterprise product. It was called Gladinet Cloud Enterprise in the past. With more and more enterprise companies using the product and shift the company focus into the enterprise solutions, the name CentreStack was chosen to represent the product instead of extending the name from Gladinet.
+CentreStack is Gladinet's enterprise solution, formerly known as Gladinet Cloud Enterprise. As more enterprises adopted the product and the company shifted focus toward enterprise solutions, the name "CentreStack" was chosen to better reflect its purpose.
 
-"CentreStack" packages all of the file sync and share access infrastructure into a package that an Enterprise/MSP can install on-premise, or inside a DMZ to have full control and security protection, with optional native Active Directory integration. You can set any storage (or your own file servers) as the default cloud storage and provide it to your customers.
+CentreStack packages all file sync and share access infrastructure into a single solution that enterprises or managed service providers (MSPs) can deploy on-premises or in a DMZ. This provides full control, robust security, and optional native Active Directory integration. You can set any storage (including your own file servers) as the default cloud storage and make it available to your users or clients.
 
 What can I do with CentreStack?
 ++++++++++++++++++++++++++++++++
-CentreStack Server can be installed on-premise, close to where your storage is. It provide web browser, mobile app, desktop client and different device access methods. There are many ways you will find CentreStack useful. For example, if you have file server storage or SAN storage and want to provide modern cloud-storage-like file sync & share and collaboration interface around it, you can do so.
+CentreStack Server can be installed on-premises, close to your existing storage. It supports access via web browsers, mobile apps, desktop clients, and various devices. For example, if you have file server or SAN storage and want to add modern cloud-style file sync, sharing, and collaboration interfaces, CentreStack makes it possible.
 
 What problem does CentreStack solve?
 +++++++++++++++++++++++++++++++++++++
-The biggest problem that CentreStack solve is the data leakage problem the business customers are facing. CIO wants data protection and maintain regulation compliancy while the end users love the simplicity of dropbox and other online service. The solution is to give a dropbox-like solution to the hands of CIO so he can use his own storage services. On one hand, data is stored in a storage service that is secure and meet regulatory compliance. On the other hand, the employees as end users continue to enjoy the convenience the cloud storage solution provides.
+CentreStack addresses the growing concern of data leakage in business environments. While CIOs are focused on protecting data and ensuring regulatory compliance, end users are drawn to the simplicity of tools like Dropbox. CentreStack bridges this gap by offering a Dropbox-like experience that CIOs can control using their own secure storage.
+
+    * Data remains within the company's secure infrastructure, compliant with regulations
+    * End users continue enjoying the convenience of cloud access and collaboration tools
 
 How can I get started?
 +++++++++++++++++++++++
-CentreStack is a free download with 90-day trial built in. You can click on the free trial link on the CentreStack page to get started. You can also contact enterprise@gladinet.com to get started.
-
+CentreStack offers a free download with a built-in 30-day trial. Simply click "`Try CentreStack Free <https://partner.centrestack.com/signup/>`_" at `centrestack.com <https://www.centrestack.com/>`_ or contact enterprise@gladinet.com to get started.
 
 Technical
 -------------------------
 
 What is the best way to try CentreStack features?
-+++++++++++++++++++++++++++++++++++++++++++++++++++
-The easiest way is to sign up the 14-day Team Edition from www.gladinet.com. Gladinet is hosting the same CentreStack on gladinet.com so you can see the all the end user facing features. The sign up process is 3-5 minutes so it is very quick.
++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+The quickest option is to log in to the partner portal and create a free Hosted Tenant trial on sync4share.com. This allows you to explore end-user features in 3-5 minutes.
 
-The best way is still to leverage the 90-day free trial for the CentreStack itself directly. Just find a clean Windows 2012 R2 machine and download the 7MB installer and in about 20 minutes, the CentreStack will be up and running.
+However, for full evaluation, we recommend installing CentreStack directly using the 30-day free trial. Just prepare a clean Windows Server (2025, 2022, 2019, or 2016), download the 7MB installer, and within 20 minutes, CentreStack will be up and running.
 
-Usually we recommend you try both. After you are familiar with the features, you can download the CentreStack package and install it yourself. You can compare the self-hosted CentreStack side by side with the Gladinet Cloud (on gladinet.com) and see how it works in your own self-hosted environment.
+We suggest trying both methods. Once you're familiar with the features, you can compare the self-hosted CentreStack against the Gladinet Cloud (on gladinet.com) and see how it fits within your infrastructure.
 
-Can I brand CentreStack into my (company) name?
+Can I brand CentreStack with my (company) name?
 ++++++++++++++++++++++++++++++++++++++++++++++++
-Yes. CentreStack comes with White Labeled web portal and desktop client so it covers most of the branding options. If you need further branding of the iOS app and Android app, full branding option is also available too with the help from Gladinet consulting to customize it for Apple App Store and Google Play store.
+Yes. CentreStack includes a white-labeled web portal and desktop client to support most branding needs. For full branding on iOS and Android apps, Gladinet also offers consulting services to help with publishing to the Apple App Store and Google Play Store.
 
-What Server OS can be used to install CentreStack?
+What server operating systems can be used to install CentreStack?
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-We recommend Windows Server 2008 R2 and Windows 2012 R2. Any Edition from Web Edition to Data Center Edition will work. If you have both 2008 and 2012 servers, we recommend server 2012 R2 to start with.
+We recommend Windows Server 2025, 2022, 2019 or 2016.
 
 Where can I deploy CentreStack?
 ++++++++++++++++++++++++++++++++
-Wherever you can install a Windows Server 2008/2012 R2, you can install CentreStack Server on it. We recommend you install it in a Virtual Machine environment, which makes upgrade and scale out to multiple node easy. Most of the CentreStack customer install the solution inside their own data center and inside VMware environment.
+You can deploy CentreStack wherever Windows Server is supported (Windows Server 2025, 2022, 2019 or 2016). We recommend using a virtual machine environment to simplify upgrades and enable multi-node scaling. Most customers install CentreStack within their own data centers, often in VMware environments.
 
 How scalable is CentreStack?
 +++++++++++++++++++++++++++++
-CentreStack can be a farm of server nodes, each supporting up to 1000 concurrent users (or 5000 named users) when the server configuration is equivalent to an Amazon EC2 medium instance. If you need to support 10,000 users, you can have 10 CentreStack nodes in your farm. You can use CentreStack's built-in load balance or you can use a load balancer in the front.
+CentreStack supports scalable deployments with a farm of server nodes. Each node can support up to 1,000 concurrent users (or 5,000 named users) on a configuration similar to an Amazon EC2 medium instance. To support 10,000 users, for example, you can deploy a farm of 10 CentreStack nodes. Load balancing can be handled by CentreStack's built-in capabilities or an external load balancer.
 
 Can I use my own storage with CentreStack?
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Yes. You can use your own File Server storage, SAN storage, private cloud storage or even public storage.
+Yes. CentreStack supports your own file server storage, SAN storage, private cloud storage, and public cloud storage.
 
-Can I use Active Directory with CentreStack?
+Can I integrate Active Directory with CentreStack?
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Yes. You can connect your Active Directory to CentreStack.
+Yes. CentreStack integrates with your existing Active Directory infrastructure.
 
-What is the difference between the two package options?
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-CentreStack comes with two package options you can decide at installation time, one for single tenant and one for service provider. The single tenant package is best fit for a single company that has one single Active Directory forest. The service provider package is best for a service provider that needs to serve different companies.
+What are the differences between the two package options?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CentreStack offers two installation packages:
 
+    * Single Tenant - Ideal for one company with a single Active Directory forest.
+    * Service Provider - Designed for MSPs managing multiple customer environments.
 
 Licensing
 -------------------------
 
-How is CentreStack Licensed?
+How is CentreStack licensed?
 +++++++++++++++++++++++++++++
-CentreStack is licensed by the number of users. It has two licensing model. One is monthly recurring and the other is one time perpetual. Contact enterprise@gladinet.com for more details.
+CentreStack is licensed by the number of users. Two models are available:
 
+    * Monthly recurring subscription
+    * One-time perpetual license
+
+For details, contact enterprise@gladinet.com.
 
 Security
 -------------------------
 
-Could you explain the security aspects of CentreStack?
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-First, it is securing the data infrastructure. CentreStack allows you to self-install and self-deploy the solution. You can fully control where the solution is hosted and where the data is hosted. You control the physical safety and security of your data and the hosting infrastructure.
+What are CentreStack's security features?
++++++++++++++++++++++++++++++++++++++++++++++
+    **1. Infrastructure Security**
 
-Second, it is secure during data transition. You will enable SSL and HTTPS and that will be the only data passage data flows from point A to point B.
+        You install and host CentreStack yourself, giving you full control over data storage and infrastructure security. You determine where data resides and how it is protected.
 
-Third, it is data-at-rest encryption you can enable and turn on by each team/tenant. Each team/tenant can hold a key to a AES256 encryption algorithm, securing your data on a file-by-file basis.
+    **2. Secure Data Transmission**
+
+        All data is transferred over SSL/HTTPS connections, ensuring end-to-end encryption during transmission.
+
+    **3. Data-at-Rest Encryption**
+
+        You can enable AES-256 encryption on a per-team or per-tenant basis. Each team or tenant can manage its own encryption keys, securing data file by file.

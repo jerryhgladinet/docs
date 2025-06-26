@@ -1,5 +1,5 @@
 #############
-10 Branding
+Branding
 #############
 
 You can brand the web portal, Windows and Mac clients, iOS and Android Applications.
@@ -8,11 +8,11 @@ Self-Service Branding
 =======================
 
 The self-service branding starts with the "Cluster Manager". In order to start the branding, you will login to
-the web portal as the Master Administrator.
+the web portal as the Cluster Administrator.
 
 After you login to the web portal, click to the "Cluster Branding" Pages.
 
-.. image:: _static/image_s10_1_1_v2.png
+.. image:: _static/image_s10_1_1_v2-03192025.png
 
 Please reference the "Branding" section in the `Admin Guide`__ for the self-hosted |prodname| server.
 

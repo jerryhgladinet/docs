@@ -79,16 +79,16 @@ For this deployment mode, check :doc:`cloud_host`
 What's Next
 +++++++++++++++++++
 
-You will need a CentreStack partner account to start with, regardless of which deployment mode(s) you will use. Step #1 will always be going to the centrestack.com and to register. When you are on the CentreStack web site, you can follow any "Free Trial" link to start.
+You will need a CentreStack partner account to start with, regardless of which deployment mode(s) you will use. Step #1 will always be going to the centrestack.com and to register. When you are on the CentreStack web site, you can follow any "Try CentreStack Free" link to start.
 
 
 
-.. image:: _static/image004.png
+.. image:: _static/image004-03192025.png
 
 Once you are done registering, you will be in the partner portal where you can download the software, setup hosted trial and etc.
 
-.. image:: _static/image005.png
+.. image:: _static/image005-03192025.png
 
 
 .. note::
-  This quick start guide is written against CentreStack version 9.6.5507.41405
+  This quick start guide is written against CentreStack version |release|

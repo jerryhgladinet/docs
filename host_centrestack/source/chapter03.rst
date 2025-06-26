@@ -2,14 +2,14 @@
 Manage Tenant
 #######################
 
-By default, the |prodname| partner account holder has the "Single-pane-of-glass" view of all his tenants in the partner portal and can click through to manage the tenants.
+By default, the |prodname| partner account holder has the "Single-pane-of-glass" view of all his tenants in the partner portal and can manage the Tenants in "Registered Tenants" section..
 
-.. figure:: _static/image_s3_1_1.png
+.. figure:: _static/image_s2_1_6a-03192025.png
     :align: center
 
     MANAGE TENANT OPTION
 
-After you click through to the "Manage Tenant" option, the tenant dashboard will show.
+After you click through to the "Manage" option, the tenant dashboard will show.
 
 Tenant Dashboard
 ====================
@@ -20,14 +20,14 @@ The dashboard contains the two most important assets: the ``users`` and the ``Te
 
     Basically from a management perspective, you are helping the tenant manage their users and their common work areas - the Team Folders.
 
-.. figure:: _static/image_s3_1_2.png
+.. figure:: _static/image_s3_1_2-03192025.png
     :align: center
 
     TENANT DASHBOARD
 
 There is also a Quick Access panel on the dashboard that you can see the second level of details on the tenant management scope.
 
-.. figure:: _static/image_s3_1_3.png
+.. figure:: _static/image_s3_1_3-03192025.png
     :align: center
 
     QUICK ACCESS PANEL
@@ -37,14 +37,14 @@ Reports
 
 In ``REPORTS``, you can see reports related to the tenant.
 
-.. figure:: _static/image_s3_1_4.png
+.. figure:: _static/image_s3_1_4-03192025.png
     :align: center
 
     REPORTS
 
-Once you click the **"Reports"** button you will see the **"Upload Report"** by default. You can use the top menu to choose other report options. 
+Once you click the **"Reports"** button you will see the **"Upload Report"** by default. You can use the tab at the top to choose other report options. 
 
-.. figure:: _static/image_s3_1_5.png
+.. figure:: _static/image_s3_1_5-03192025.png
     :align: center
 
     REPORTS MENU
@@ -79,7 +79,7 @@ Tenant Branding
 
 After you setup default branding and apply to the tenants, you can continue to fine tune the branding on a per-tenant basis.
 
-.. figure:: _static/image_s3_1_6.png
+.. figure:: _static/image_s3_1_6-03192025.png
     :align: center
 
     TENANT BRANDING
@@ -87,7 +87,7 @@ After you setup default branding and apply to the tenants, you can continue to f
 In the ``TENANT BRANDING`` section, you can setup and change tenant specific branding information.
 
 
-.. figure:: _static/image_s3_1_7.png
+.. figure:: _static/image_s3_1_7-03192025.png
     :align: center
 
     BRANDING OPTIONS
@@ -97,7 +97,7 @@ Customized URL for your business
     Upon creating the tenant, the tenant is assigned a random string of digits for the custom site. You can change the URL so that it is more related to the customer's business name.
 
 
-.. figure:: _static/image_s3_1_8.png
+.. figure:: _static/image_s3_1_8-03192025.png
     :align: center
 
     GENERAL OPTIONS
@@ -109,7 +109,7 @@ Customized URL for your business
 Group Policy
 ================
 
-.. figure:: _static/image_s3_1_9.png
+.. figure:: _static/image_s3_1_9-03192025.png
     :align: center
 
     GROUP POLICY
@@ -127,7 +127,7 @@ __ Documentation_Page_
 Control Panel
 ===============
 
-.. figure:: _static/image_s3_1_11.png
+.. figure:: _static/image_s3_1_11-03192025.png
     :align: center
 
     CONTROL PANEL
@@ -226,7 +226,7 @@ Application Manager
 
     APPLICATION MANAGER
 
-.. figure:: _static/image_s3_1_24.png
+.. figure:: _static/image_s3_1_24-03192025.png
     :align: center
 
     APPLICATION MANAGER SETTINGS
@@ -260,14 +260,14 @@ Email Service
 User Manager
 ===============
 
-.. figure:: _static/image_s3_1_29.png
+.. figure:: _static/image_s3_1_29-03192025.png
     :align: center
 
     USER MANAGER
 
 User manager is where to manage the users for the tenant.
 
-.. figure:: _static/image_s3_1_30.png
+.. figure:: _static/image_s3_1_30-03192025.png
     :align: center
 
     USER MANAGER SETTINGS
@@ -277,14 +277,14 @@ Add User
 
 Users can be created directly with user name and email. If the Server Agent is used, users can also be created from the Server Agent where Active Directory users from a remote Server Agent can be imported into |prodname|.
 
-.. figure:: _static/image_s3_1_30.png
+.. figure:: _static/image_s3_1_30-03192025.png
     :align: center
 
     ADDING USERS
     
 Before the Server Agent is used, there are two options: "Native User" and "Batch create users". If you use Server Agent to connect a remote file server to this specific tenant, the remote Active Directory will also show up.
 
-.. figure:: _static/image_s3_1_31.png
+.. figure:: _static/image_s3_1_31-03192025.png
     :align: center
 
     CLICK TO CREATE OR MIGRATE A USER
@@ -303,7 +303,7 @@ You can create native |prodname| groups to help manage the assignment of users t
 
 If you have the Server Agent connected, the Server Agent can import Proxy Active Directory group instead.
 
-.. figure:: _static/image_s3_1_33.png
+.. figure:: _static/image_s3_1_33-03192025.png
     :align: center
 
     GROUPS
@@ -313,7 +313,7 @@ Role Manager
 
 Role manager can further define what each users in the tenant can do and what they have access to.
 
-.. figure:: _static/image_s3_1_34a.png
+.. figure:: _static/image_s3_1_34a-03192025.png
     :align: center
 
     ROLES
@@ -331,7 +331,7 @@ Collaboration is centered around storage folders and assigning users to folders 
 Team Folder
 ==============
 
-.. figure:: _static/image_s3_1_35.png
+.. figure:: _static/image_s3_1_35-03192025.png
     :align: center
 
     TEAM FOLDERS
@@ -341,7 +341,7 @@ The idea of a Team Folder is similar to that of a local network share. Users can
 Add a Team Folder
 ---------------------
 
-.. figure:: _static/image_s3_1_36.png
+.. figure:: _static/image_s3_1_36-03192025.png
     :align: center
 
     CREATING A TEAM FOLDER
@@ -388,7 +388,7 @@ In |prodname|, you can share files and folders from your file browser. Once a so
 Storage Manager
 =================
 
-.. figure:: _static/image_s3_1_40.png
+.. figure:: _static/image_s3_1_40-03192025.png
     :align: center
 
     SETTING UP BACKEND STORAGE 

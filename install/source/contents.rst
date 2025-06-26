@@ -12,18 +12,17 @@ Contents:
    :maxdepth: 2
 
    index
-   chapter02
-   chapter03
-   chapter04
-   chapter05
-   chapter06
-   chapter07
-   chapter08
-   chapter09
-   chapter10
-   chapter11
-   chapter12
-   chapter13
+   chapter02.rst
+   chapter03.rst
+   chapter04.rst
+   chapter05.rst
+   chapter06.rst
+   chapter07.rst
+   chapter08.rst
+   chapter09.rst
+   chapter10.rst
+   chapter11.rst
+   chapter12.rst
 
 Indices and tables
 ==================

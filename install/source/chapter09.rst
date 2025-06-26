@@ -1,5 +1,5 @@
 ###################################################
-9 Add additional |prodname| servers to the cluster
+Add additional |prodname| servers to the cluster
 ###################################################
 Adding an additional |prodname| server is as simple as installing the first CentreStack server. Run the |prodname| server installation program on another server, specifying the same database as the first server in the cluster.
 
@@ -18,7 +18,7 @@ Adding an additional |prodname| server is as simple as installing the first Cent
     have a second |prodname| Server.
 
 .. warning::    
-    An external database server should be deployed if you are scaling out the cluster to more than one |prodname| server. The "all-in-one" deployment with a local MySQL database is not intended to be used for scaling out or high availability.
+    An external database server should be deployed if you are scaling out the cluster to more than one |prodname| server. The "all-in-one" deployment with a local PostgreSQL database is not intended to be used for scaling out or high availability.
 
 .. warning::    
     A hardware or software load balancer will be required if more than one |prodname| server is deployed in a cluster.

@@ -27,9 +27,9 @@ The secondary database (for more volatile data) can be either MySQL Database or 
 
 To split the database, first create a new database that will be used to store the volatile information. Create a database user and allow this 
 user full access to the database (equivalent to db_owner). Once the database and user are created, sign into the CentreStack management console 
-as the cluster admin and navigate to Cluster Control Panel > Settings > Change Log. Update the "Logging DB Connection String" setting using an appropriate connection string:
+as the cluster admin and navigate to Cluster Dashboard > Cluster Settings > Change Log. Update the "Logging DB Connection String" setting using an appropriate connection string:
 
-.. image:: _static/image063.png
+.. image:: _static/image063-03192025.png
 
 **Connection String Example for MySQL Database**
 

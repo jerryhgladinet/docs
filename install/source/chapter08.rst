@@ -1,5 +1,5 @@
 #######################################################
-8 Verify External URL, Internal URL and the Node Name
+Verify External URL, Internal URL and the Node Name
 #######################################################
 
 Verify External URL
@@ -16,14 +16,15 @@ You can also verify the External URL by doing a file share to your own email add
 Verify Internal URL
 =====================
 
-For the verification of Internal URL, you can use the Node Performance page to make sure the node performance information shows up. (Reports -> Node Performance).
+For the verification of Internal URL, you can use the Node Performance page to make sure the node performance information shows up. (Cluster Dashboard -> Reports -> Node Performance).
 
-.. image:: _static/image_s8_1_1_v2.png
+.. image:: _static/image_s8_1_1_v2-03192025.png
 
 Verify Node Name
 ==================
 
-To verify that the node name is correct, you can right click on a folder and use the **"Share"** option to verify that the email has been received and is correctly pointing to an external URL. 
+To verify that the node name is correct, you can go on "File Browser", click on "More Actions" (three-dot) on a folder and use the **"Share"** option to verify that the email has been received and is correctly pointing to an external URL. 
 
-.. image:: _static/image_s8_1_2_v2.png
+.. image:: _static/image_s8_1_2_v2a-03192025.png
+.. image:: _static/image_s8_1_2_v2-03192025.png
 

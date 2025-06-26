@@ -1,5 +1,5 @@
 #################
-5 Locking Files
+Locking Files
 #################
 
 
@@ -13,9 +13,9 @@ The |prodname| Cloud administrator has the option of enabling a setting that cau
     
     If you want the file to stay locked regardless what situation the agent machine is in, manual lock is recommened. A manually locked file will need to be manually unlocked.
 
-Files can be manually locked. Right-click on any file **(1)** in the |prodname| drive and then select “check out (Lock) This File” **(2)** to toggle between its locked and unlocked state. Then click Yes in the pop-up **(3)**. 
+Files can be manually locked. Right-click on any file **(1)** in the |prodname| drive and then select “check out (Lock) This File” **(2)** to toggle between its locked and unlocked state. Then click OK in the pop-up **(3)**. 
 
-.. figure:: _static/image_s5_1_1.png
+.. figure:: _static/image_s5_1_1-03192025.png
     :align: center
         
     LOCKING A LOCAL FILE
@@ -26,11 +26,11 @@ The context menu will give the option to lock the file. It will stay locked unti
 Offline Access
 ===============
 
-Cloud Drive files aren't fully synced by default; only the files you are using are synced. You can Force Sync your files however. Right-click the folder you want to make "Offline" and choose "Enable Offline Access **(1)**. Once this is done, you can click your drive icon **(2)**, and then choose "Force Sync All Offline Folders" to sync any folders you have enabled for Offline Access. 
+Cloud Drive files aren't fully synced by default; only the files you are using are synced. You can Force Sync your files however. Right-click the folder you want to make "Offline" and choose "Enable Offline Access **(1)**. Once this is done, you can click your drive icon, and then choose "Force Sync All Offline Folders" **(2)** to sync any folders you have enabled for Offline Access. 
 
-Also, you might want to pause the synchronization of files while you are working on them. This can be done from the Cloud Drive icon as well. In the menu, choose "Pause Syncing" **(3)** temporarily stop files from sychronizing. The benefit is that you can keep modifying documents (drafts) locally until it is all done and then you can uncheck the "Pause" and connect to the |prodname| cloud drive to upload any changes. 
+Also, you might want to pause the synchronization of files while you are working on them. This can be done from the Cloud Drive icon as well. In the menu, choose "Pause Sync" **(3)** temporarily stop files from sychronizing. The benefit is that you can keep modifying documents (drafts) locally until it is all done and then you can uncheck the "Pause" and connect to the |prodname| cloud drive to upload any changes. 
 
-.. figure:: _static/image_s5_1_2.png
+.. figure:: _static/image_s5_1_2-03192025.png
     :align: center
         
     OFFLINE ACCESS

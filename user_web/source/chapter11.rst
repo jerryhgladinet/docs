@@ -7,16 +7,16 @@ Please reference the `Admin Guide`__ for full documentation of the tenant admini
 .. _Admin_Guide: https://centrestack.com/Library/AdminGuide/ 
 __ Admin_Guide_
 
-After you enter the "management console", you will be in the dashboard. When you are at the dashboard, you can access the tenant by clicking on the desired tenant from the options.
+After you enter the "management console", you will be in the tenant manager. You can access the tenant by clicking on the desired tenant from the options.
 
-.. figure:: _static/image_s7_1_1.png
+.. figure:: _static/image_s7_1_1-03192025.png
     :align: center
 
 Under Management Console, an admin can configure storage, monitor shared objects, create and manage team folders, manage users, configure granular group policies, add new tenant administrators, look at different reports, and under advanced configure AD etc.
 
-The top two objects to manage are users **(1)** and folders **(2)**. If you are using an Active Directory for importing users and permissions you can connect to your Active Directory by clicking the wrench icon **(3)**.
+After you click a tenant, you will be in the tenant dashboard. You can click through to different managers. You can manage users **(1)** and folders **(2)**. If you are using an Active Directory for importing users and permissions you can connect to your Active Directory by clicking the "Configure Now" **(3)**.
 
-.. figure:: _static/image_s7_1_2.png
+.. figure:: _static/image_s7_1_2-03192025.png
     :align: center
 
     MANAGE USERS AND FILES
@@ -26,9 +26,9 @@ The top two objects to manage are users **(1)** and folders **(2)**. If you are 
 User Manager
 ===============
 
-You can access the user manager by clicking one of these three items in the Management Console. 
+You can access the user manager by clicking one of these items in the Tenant Dashboard. 
 
-.. figure:: _static/image_s8_2_2.png
+.. figure:: _static/image_s8_2_2-03192025.png
     :align: center
 
     ACCESSING THE USER MANAGER
@@ -37,49 +37,22 @@ You can access the user manager by clicking one of these three items in the Mana
 Active Directory - LDAP
 --------------------------
 
-In the AD Settings view you can add your local settings. Click Edit **(1)**, then select "Enable Active Directory Integration" **(2)**. 
+When you "Create or Migrate User" **(1)** in user manager, there are some options for adding new users. Click "Active Directory" **(2)**, you can add your local AD settings. Select "Enable Active Directory Integration" **(3)**. 
 
-.. figure:: _static/image_s7_2_1.png
+.. figure:: _static/image_s7_2_1-03192025.png
     :align: center
 
     CONNECTING TO ACTIVE DIRECTORY (AD)
 
-This gives you access to all the settings fields and the Advanced Settings Tab **(3)**. Once you have filled in the settings with an Administrator User account from your Active Directory, click **APPLY** to accept your changes. 
-
-
-Active Directory - Remote 
-----------------------------
-
-If the users are coming from remote locations, away from the |prodname| server (so it is not in the same Local Area Network), the first step to take is to install the "server agent" software on a remote file server, as long as the file server is in the same remote Active Directory domain. Log into |prodname| from your File Server and download your Server Agent client. You can access this by clicking the **(+)** icon. Once this is setup on your File Server, |prodname| can access it to connect to your Remote Active Directory. 
-
-
-.. figure:: _static/image_s7_2_2.png
-    :align: center
-
-    ACCESS YOUR SERVER AGENT CLIENT
-
-
-.. figure:: _static/image_s7_2_3.png
-    :align: center
-
-    DOWNLOAD AND INSTALL
-
-.. note::
-
-    "Server Agent" software can import remote file server network share, and also import remote Active Directory users. Once Server Agent is installed and setup in remote location, the tenant administrator can use the Client Management Console "Migrate CIFS Shares" and "Migrate Users" **(1)** to import shares and users from Active Directory. Other actions are availible through the dropdown menu **(2)**. 
-    
-    .. figure:: _static/image_s7_3_1.png
-        :align: center
-
-        MIGRATE SHARES AND USERS
+This gives you access to all the settings fields and the Advanced Settings Tab **(4)**. Once you have filled in the settings with an Administrator User account from your Active Directory, click **APPLY** to accept your changes. 
 
 
 Add Users
 --------------
 
-You can add users from within the User Manager or simply click the Add New User button to open the **"Sources of New User"** panel. In that panel you have several options: add a Native User, Batch Create Users, import Active Directory users and permissions, and if you have Server Agents actively connected, you will also see those servers listed here as well.
+You can add users from within the User Manager by clicking the "Create or Migrate User" button to open the **"Options for Adding New Users"** panel. In that panel you have several options: add a Native User, Batch Create Users, import Active Directory users and permissions, and if you have Server Agents actively connected, you will also see those servers listed here as well.
 
-.. figure:: _static/image_s8_2_3.png
+.. figure:: _static/image_s8_2_3-03192025.png
     :align: center
     
     ADDING USERS
@@ -111,7 +84,7 @@ Native Users
 
 When a new user is created, the administrator will specify the amount of cloud storage that the new user is allowed to use. The email address will send a welcome email to the new user and will serve as his/her username.
 
-.. figure:: _static/image_s8_2_4.png
+.. figure:: _static/image_s8_2_4-03192025.png
     :align: center
 
     ADDING A NATIVE USER
@@ -123,9 +96,9 @@ When a new user is created, the administrator will specify the amount of cloud s
 Active Directory Users from LDAP
 """""""""""""""""""""""""""""""""""""""""
 
-If the Active Directory (LDAP) is not already configured, you will need to configure it first. Click the wrench icon in the right Local Active Directory panel to access the settings. 
+If the Active Directory (LDAP) is not already configured, you will need to configure it first. You can from "Settings" > "Active Directory", or "Create or Migrate User" > "Active Directory" to access the settings. 
 
-.. figure:: _static/image_s8_3_1.png
+.. figure:: _static/image_s8_3_1-03192025.png
     :align: center
 
     CONFIGURE YOUR ACTIVE DIRECTORY SETTINGS
@@ -168,7 +141,7 @@ Deleting Users
 
 When a user leaves the team, administrators can delete the user’s login. Just click the Delete icon in ‘User Manager’ window.
 
-.. figure:: _static/image_s12_1_4.png
+.. figure:: _static/image_s12_1_4-03192025.png
     :align: center
 
     DELETING A USER
@@ -181,9 +154,9 @@ Administrators can assign a quota to each user. A user will not be allowed to up
 
 If the quota is 0 for the user, there is no limit on how much storage the user can use.
 
-Click the ‘Management Console’ and select ‘User Manager’. Click the "Manage User" menu on a user to manage and select "Set Quota".
+Click the ‘Management Console’ and select ‘Users’. Click the "Edit" icon on an user to manage. On "Storage" tab, select "Edit" icon for storage quota.
 
-.. figure:: _static/image_s12_1_5.png
+.. figure:: _static/image_s12_1_5-03192025.png
     :align: center
 
     EDITING STORAGE QUOTA
@@ -198,7 +171,7 @@ Admins can change user passwords and login emails, if needed.
 * Click the "manage user" menu icon in the user block
 * After that, can use "Reset Password" link to help the user.
 
-.. figure:: _static/image_s12_1_6.png
+.. figure:: _static/image_s12_1_6-03192025.png
     :align: center
 
     RESET USER PASSWORD
@@ -206,7 +179,7 @@ Admins can change user passwords and login emails, if needed.
 
 After changing the login password, an email will be sent to notify the user of the change. Admins can choose to include the new password in the email, or exclude the new password from the email. If the password is not included, the admin will need to convey the new password to the user in some other way.
 
-.. figure:: _static/image_s12_1_7.png
+.. figure:: _static/image_s12_1_7-03192025.png
     :align: center
 
     PASSWORD OPTIONS
@@ -222,9 +195,9 @@ When either the email or password is changed, please update the corresponding lo
 Team Folders
 ================
 
-Adding files and folders can be accomplished by clicking **"Create Team Folder"**. Once the **"Team Folder Storage Locations"** view opens you can choose from many options: Existing Tenant Storage, File Servers in Local Area Network, Remote File Servers or Cloud Storage. 
+Adding files and folders can be accomplished by clicking "Add a new team folder" (**+**) icon on "Team Folders" page. Once the **"Team Folder Storage Locations"** view opens you can choose from many options: Existing Tenant Storage, File Servers in Local Area Network, Remote File Servers or Cloud Storage. 
 
-.. figure:: _static/image_s7_5_1.png
+.. figure:: _static/image_s7_5_1-03192025.png
     :align: center
 
     WAYS TO ADD STORAGE LOCATIONS
@@ -263,9 +236,9 @@ Once a folder is published, it is displayed as a team folder to the users who ha
     By default, only one upload method was exposed in the web user interface. However, the tenant administrator, based on the kind of web browser the company is using and the kind of
     configuration the web browser has, can decide which upload method to expose to the end user (Team User).
     
-    Below is the Group Policy->Client Control->Web Portal setting administrator can control.
+    Below is the Settings -> Clients & Applications -> Web Portal setting administrator can control.
     
-    .. figure:: _static/image_s11_2_1.png
+    .. figure:: _static/image_s11_2_1-03192025.png
         :align: center
 
         UPLOADER METHOD OPTIONS
@@ -298,22 +271,22 @@ There are two types of files and folders a user can access.
 When an administrator creates new users, he/she can disable sharing home directory content with external party, to prevent the newly
 created user from sharing his/her own files and folders.
 
-.. figure:: _static/image_s15_1_10.png
+.. figure:: _static/image_s15_1_10-03192025.png
     :align: center
 
     MANAGE USER SETTINGS
 
-In the Manage User panel use the drop-down menu (4) to access the "Storage" settings (5). Once you are in the Storage View you can select (6) the "Disable team-user share home directory content externally" option. 
+In the Manage User panel, access the "Storage" settings (4). Once you are in the Storage View you can select (5) the "Disable external sharing of this user's home directory content" option. 
 
-.. figure:: _static/image_s15_1_11.png
+.. figure:: _static/image_s15_1_11-03192025.png
     :align: center
 
     DISABLE EXTERNAL SHARING
 
 
-When publishing a team folder, administrator can check 'Disable further sharing', to prevent users from sharing anything in the team folder. You can access this setting after choosing your storage location. Click the "Create Team Folder" icon (1) and select your storage type (2), then select the "Disable further sharing" option (3). 
+When publishing a team folder, administrator can check 'Disable further sharing', to prevent users from sharing anything in the team folder. You can access this setting after choosing your storage location. Click the "Create Team Folder" **(+)** icon (1) and select your storage type (2), "New Team Folder" window opens, click "Settings" icon (3), then select the "Disable further sharing" option (4). 
 
-.. figure:: _static/image_s15_1_12.png
+.. figure:: _static/image_s15_1_12-03192025.png
     :align: center
 
     DISABLE FURTHER SHARING
@@ -327,9 +300,9 @@ When a user shares a file or folder, |prodname| will generate a URL. By default,
 Administrators can protect shares by requiring login credentials. Once enabled, when a user accesses the share URL, he /she will be prompted to
 login to the |prodname| Cloud. After login, the user can view the file/folder shared with him/her under 'Files shared with me'.
 
-To access this setting use the drop-down menu (1) and in the "Group Policy -> Sharing" (2) panel, select the "...user must login to his/her account..." setting. 
+To access this setting use the "Settings" menu (1) and in the "Data Leak Protection" (2) -> "Sharing" (3) panel, select the "Users must log in to access the content in 'Files shared with me' folder" setting (4). 
 
-.. figure:: _static/image_s15_1_13.png
+.. figure:: _static/image_s15_1_13-03192025.png
     :align: center
 
     SECURING SHARED FILES AND FOLDERS

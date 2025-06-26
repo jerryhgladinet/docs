@@ -17,12 +17,11 @@ Enable SSL – Install SSL Certificate
     
         openssl s_client -connect server.yourwebhoster.com:443
     
-You will install the SSL certificate by using the IIS Manager. Look for "Server Certificates" and double click on it.
+You will install the SSL certificate using the IIS Manager. Look for "Server Certificates" and double click on it.
 
 .. image:: _static/image_s6_1_1.png
 
-Click on "Import" to import an existing SSL Certificate. Leave the Certificate Store as "Personal" or "Web Hosting", either
-way is fine.
+Click on "Import" to import an existing SSL Certificate. Leave the Certificate Store as "Personal" or "Web Hosting", either option is fine.
 
 .. image:: _static/image_s6_1_2.png
 
@@ -32,12 +31,12 @@ Verify that the certificate is available:
 
 .. image:: _static/image027.jpg
 
-You can also verify the SSL certificate from the MMC/Certificates snap-in (Local Computer).
+You can also verify the SSL certificate using the MMC/Certificates snap-in (Local Computer).
 
 .. image:: _static/image028.jpg
 
 Now you can bind the "Default Web Site" to the SSL certificate for HTTPS. Right click on the "Default Web Site"
-and select “Edit Binding”.
+and select “Edit Bindings”.
 
 .. image:: _static/image029.png
 
