@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:3
+msgid "4 Advanced Topics"
+msgstr "4 高度なトピック"
+
+#: ../../chapter04.rst:8
+msgid "4.1 Migration Users"
+msgstr "4.1 移行ユーザー"
+
+#: ../../chapter04.rst:10
+msgid ""
+"With the Server Agent installed, it can be used to migrate Active "
+"Directory users to |prodname| users."
+msgstr "サーバーエージェントがインストールされると、Active Directoryユーザーを |prodname| ユーザーに移行するために使用できます。"
+
+#: ../../chapter04.rst:12
+msgid "The process can be started from the Tenant Administrator Web Portal."
+msgstr "プロセスはテナント管理者のWebポータルから開始できます。"
+
+#: ../../chapter04.rst:19
+msgid "4.2 Migrate File Server Network or CIFS Share to |prodname|"
+msgstr "4.2 ファイルサーバーネットワークまたはCIFS共有を |prodname| に移行する"
+
+#: ../../chapter04.rst:21
+msgid ""
+"With the Server Agent installed, it can be used to migrate local folder "
+"(which is published as network share) to |prodname| as a team folder, and"
+" at the same time, migrate Active Directory users to |prodname| users."
+msgstr "サーバーエージェントをインストールすると、ローカルフォルダー（ネットワーク共有として公開されている）を |prodname| のチームフォルダーに移行し、同時にActive Directoryユーザーを |prodname| ユーザーに移行することができます。"
+
+#: ../../chapter04.rst:23
+msgid ""
+"The steps can be started from the migration wizard in the Tenant Admin's "
+"Web Portal."
+msgstr "移行ウィザードはテナント管理者のWebポータルから開始することができます。"
+
+#: ../../chapter04.rst:30
+msgid "4.3 Conclusion"
+msgstr "4.3 結論"
+
+#: ../../chapter04.rst:32
+msgid ""
+"Businesses are looking for ways to access file server contents over the "
+"Internet. They are looking for technologies which will allow them to "
+"migrate the data residing on On-Premise file servers to the cloud and "
+"provide a unified namespace across all distributed file servers. They are"
+" also looking for ways to give remote users easy and secure access to "
+"their file server without disrupting the existing work flow in the "
+"company."
+msgstr "企業はインターネット経由でファイルサーバーの内容にアクセスする方法を探しています。オンプレミスのファイルサーバーにあるデータをクラウドに移行し、分散したファイルサーバー全体で統一された名前空間を提供する技術を求めています。また、会社の既存のワークフローを妨げることなく、リモートユーザーがファイルサーバーに簡単かつ安全にアクセスできる方法も探しています。"
+
+#: ../../chapter04.rst:34
+msgid ""
+"|prodname| Cloud Server (File Server Agent) combines the strengths of "
+"cloud storage technology and traditional file server to enable data "
+"access from the cloud by enabling sync, share, and collaboration on that "
+"data."
+msgstr "|prodname| クラウドサーバー（ファイルサーバーエージェント）は、クラウドストレージ技術と従来のファイルサーバーの長所を組み合わせて、同期、共有、およびそのデータのコラボレーションを可能にすることで、クラウドからのデータアクセスを実現します。"
+

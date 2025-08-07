@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Locking Files"
+msgstr "锁定文件"
+
+#: ../../chapter5.rst:6
+msgid ""
+"The |prodname| Cloud administrator has the option of enabling a setting "
+"that causes files to automatically become locked when they are in use - "
+"automatic distributed lock (see administration guide). This prevents more"
+" than one person from updating the file at the same time which can cause "
+"undesirable results."
+msgstr "|prodname| 云管理员可以选择启用一项设置，当文件正在使用时会自动锁定 - 自动分布式锁定（参见管理指南）。这可以防止多人同时更新文件，从而导致不良结果。"
+
+#: ../../chapter5.rst:10
+msgid "When to use automatic lock and when to use manual lock?"
+msgstr "何时使用自动锁定，何时使用手动锁定？"
+
+#: ../../chapter5.rst:12
+msgid ""
+"When files are automatic locked, the same files need to be automatically "
+"unlocked. When files are automaticall locked, the agent that locks the "
+"file needs to maintain health heart beat with the central |prodname| "
+"server. When the heart beat can't be maintained, the file will be "
+"automatically unlocked."
+msgstr "当文件被自动锁定时，相同的文件需要被自动解锁。当文件被自动锁定时，锁定文件的代理需要与中央 |prodname| 服务器保持健康的心跳。当心跳无法维持时，文件将被自动解锁。"
+
+#: ../../chapter5.rst:14
+msgid ""
+"If you want the file to stay locked regardless what situation the agent "
+"machine is in, manual lock is recommened. A manually locked file will "
+"need to be manually unlocked."
+msgstr "如果您希望文件在代理机的任何情况下都保持锁定状态，建议手动锁定。手动锁定的文件需要手动解锁。"
+
+#: ../../chapter5.rst:16
+msgid ""
+"Files can be manually locked. Right-click on any file **(1)** in the "
+"|prodname| drive and then select \"check out (Lock) This File\" **(2)** "
+"to toggle between its locked and unlocked state. Then click OK in the "
+"pop-up **(3)**."
+msgstr "文件可以手动锁定。在 |prodname| 驱动器中右键单击任何文件 **(1)**，然后选择“签出（锁定）此文件” **(2)**，以在其锁定和解锁状态之间切换。然后在弹出窗口中点击确定 **(3)**。"
+
+#: ../../chapter5.rst:21
+msgid "LOCKING A LOCAL FILE"
+msgstr "锁定本地文件"
+
+#: ../../chapter5.rst:23
+msgid ""
+"The context menu will give the option to lock the file. It will stay "
+"locked until you 'Unlock' it. When you are finished with the file, you "
+"can unlock it by right-clicking it and choosing Check In from the context"
+" menu."
+msgstr "右键单击文件时，上下文菜单将提供锁定文件的选项。文件将保持锁定状态，直到您选择‘解锁’。当您完成文件操作后，可以通过右键单击文件并从上下文菜单中选择签入来解锁。"
+
+#: ../../chapter5.rst:27
+msgid "Offline Access"
+msgstr "离线访问"
+
+#: ../../chapter5.rst:29
+msgid ""
+"Cloud Drive files aren't fully synced by default; only the files you are "
+"using are synced. You can Force Sync your files however. Right-click the "
+"folder you want to make \"Offline\" and choose \"Enable Offline Access "
+"**(1)**. Once this is done, you can click your drive icon, and then "
+"choose \"Force Sync All Offline Folders\" **(2)** to sync any folders you"
+" have enabled for Offline Access."
+msgstr "默认情况下，云盘文件并不会完全同步；只有您正在使用的文件才会同步。但是，您可以强制同步文件。右键点击您想要设置为“离线”的文件夹，并选择“启用离线访问 **(1)**”。完成此操作后，您可以点击驱动器图标，然后选择“强制同步所有离线文件夹” **(2)**，以同步您已启用离线访问的任何文件夹。"
+
+#: ../../chapter5.rst:31
+msgid ""
+"Also, you might want to pause the synchronization of files while you are "
+"working on them. This can be done from the Cloud Drive icon as well. In "
+"the menu, choose \"Pause Sync\" **(3)** temporarily stop files from "
+"sychronizing. The benefit is that you can keep modifying documents "
+"(drafts) locally until it is all done and then you can uncheck the "
+"\"Pause\" and connect to the |prodname| cloud drive to upload any "
+"changes."
+msgstr "此外，当您在处理文件时，可能也希望暂停文件的同步。这也可以通过云盘图标来完成。在菜单中，选择“暂停同步” **(3)** 暂时停止文件同步。其好处是您可以继续本地修改文档（草稿），直到全部完成后，再取消勾选“暂停”，连接到 |prodname| 云盘上传任何更改。"
+
+#: ../../chapter5.rst:36
+msgid "OFFLINE ACCESS"
+msgstr "离线访问"
+

@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:3
+msgid "Advanced Topics"
+msgstr "高度なトピック"
+
+#: ../../chapter04.rst:8
+msgid "Connect Your File Server"
+msgstr "ファイルサーバーを接続する"
+
+#: ../../chapter04.rst:10
+msgid ""
+"The way to connect the file servers are different, depending on where the"
+" file server is."
+msgstr "ファイルサーバーを接続する方法は、ファイルサーバーの位置によって異なります。"
+
+#: ../../chapter04.rst:12
+msgid ""
+"The file server can be sitting in the same Local Area Network (LAN) as "
+"the CentreStack Server. In this case, the direct network share connection"
+" is the best. Usually, this is combined with setting up a direct LDAP "
+"connection to the Active Directory."
+msgstr "ファイルサーバーは、CentreStackサーバーと同じローカルエリアネットワーク（LAN）内に設置することができます。この場合、直接的なネットワーク共有接続が最適です。通常、これはアクティブディレクトリへの直接LDAP接続の設定と組み合わせて行われます。"
+
+#: ../../chapter04.rst:19
+msgid "FILE SERVER CONNECTION"
+msgstr "ファイルサーバー接続"
+
+#: ../../chapter04.rst:21
+msgid ""
+"The file server can also be remote, away from the CentreStack server and "
+"at the customer's premise. In this case, the best is to use a file server"
+" agent. File server agent will be installed on the file server, and it is"
+" capable of connecting the customer's Active Directory and syncing both "
+"folder content and active directory over HTTPS. In this case, in the user"
+" interface, you will see \"Proxied AD User\" to indicate that the Active "
+"Directory user or group is coming from the file server agent."
+msgstr "ファイルサーバーはリモートで、CentreStackサーバーから離れた顧客の施設にあることもあります。この場合、ファイルサーバーエージェントの使用が最適です。ファイルサーバーエージェントはファイルサーバーにインストールされ、顧客のActive Directoryに接続し、フォルダーの内容とActive DirectoryをHTTPS経由で同期する能力があります。この場合、ユーザーインターフェースでは、「Proxied AD User」と表示され、Active Directoryのユーザーやグループがファイルサーバーエージェントから来ていることを示します。"
+
+#: ../../chapter04.rst:26
+msgid "SERVER AGENT CONNECTION"
+msgstr "サーバーエージェント接続"
+
+#: ../../chapter04.rst:29
+msgid ""
+"The best way to start using a file server agent to connect to a remote "
+"file server is to start with the migration wizard from the web portal."
+msgstr "リモートファイルサーバーに接続するためのファイルサーバーエージェントの使用を開始する最良の方法は、ウェブポータルから移行ウィザードを開始することです。"
+
+#: ../../chapter04.rst:34
+msgid "TEAM FOLDER STORAGE LOCATIONS"
+msgstr "チームフォルダの保存場所"
+
+#: ../../chapter04.rst:39
+msgid "Files and Folder Permission"
+msgstr "ファイルとフォルダの権限"
+
+#: ../../chapter04.rst:41
+msgid ""
+"If your files and folders are on a file server in the same Local Area "
+"Network (LAN) as the CentreStack server, the best way to manage file and "
+"folder permission is to delegate it 100% to the NTFS permission. In the "
+"\"Storage Manager\", when attaching local storage, there is an option "
+"\"Always access the storage using logon user identity\", This option can "
+"be used to delegate file/folder permission check directly to NTFS."
+msgstr "ファイルやフォルダがCentreStackサーバーと同じローカルエリアネットワーク（LAN）内のファイルサーバーにある場合、ファイルとフォルダの権限を管理する最良の方法は、NTFSの権限に100％委任することです。「ストレージマネージャー」でローカルストレージをアタッチする際に、「常にログオンユーザーのIDを使用してストレージにアクセスする」というオプションがあります。このオプションを使用すると、ファイル/フォルダの権限チェックを直接NTFSに委任することができます。"
+
+#: ../../chapter04.rst:46
+msgid "FILE AND FOLDER PERMISSIONS SETTINGS"
+msgstr "ファイルとフォルダの権限設定"
+
+#: ../../chapter04.rst:48
+msgid ""
+"If you are not using native NTFS permission. For example, you are on "
+"cloud storage services such as Amazon S3 or OpenStack Swift, you can use "
+"CentreStack folder permission."
+msgstr "ネイティブなNTFS権限を使用していない場合。たとえば、Amazon S3やOpenStack Swiftなどのクラウドストレージサービスを利用している場合、CentreStackフォルダ権限を使用できます。"
+
+#: ../../chapter04.rst:53
+msgid "MANAGE FOLDER SETTINGS"
+msgstr "フォルダ設定を管理"
+
+#: ../../chapter04.rst:58
+msgid "Setting up Active Directory"
+msgstr "アクティブディレクトリの設定"
+
+#: ../../chapter04.rst:60
+msgid ""
+"When the Active Directory is in the Local Area Network (LAN), LDAP can be"
+" used to connect to the Active Directory. There are several cases here,"
+msgstr "アクティブディレクトリがローカルエリアネットワーク（LAN）内にある場合、LDAPを使用してアクティブディレクトリに接続できます。ここにいくつかのケースがあります"
+
+#: ../../chapter04.rst:63
+msgid ""
+"Sometimes you want the user account to be automatically provisioned so it"
+" is easy for the administrator."
+msgstr "時には、管理者が簡単に処理できるようにユーザーアカウントが自動的にプロビジョニングされることが望ましいです。"
+
+#: ../../chapter04.rst:64
+msgid ""
+"Sometimes you want the user account to be limited to a specific AD group,"
+" but still automatically provision the user's account when the users are "
+"in the AD group."
+msgstr "時には、ユーザーアカウントを特定のADグループに限定したいが、ユーザーがADグループ内にいる場合はユーザーアカウントを自動的にプロビジョニングしたいことがあります。"
+
+#: ../../chapter04.rst:65
+msgid ""
+"Sometimes you want the user account to be limited to a specific "
+"Organization Unit."
+msgstr "時にはユーザーアカウントを特定の組織単位に限定したいことがあります。"
+
+#: ../../chapter04.rst:69
+msgid "AD account auto provision"
+msgstr "ADアカウントの自動プロビジョニング"
+
+#: ../../chapter04.rst:71
+msgid "This is the default setting in the Settings -> Active Directory Settings."
+msgstr "これは、設定 -> アクティブディレクトリ設定のデフォルト設定です。"
+
+#: ../../chapter04.rst:73
+msgid ""
+"As long as the \"Don't allow user auto-creation\" is not checked, Active "
+"Directory users will be allowed to go to the web portal and log in. The "
+"first time the user logs in, its CentreStack account will be "
+"automatically provisioned."
+msgstr "「ユーザー自動作成を許可しない」がチェックされていない限り、Active Directoryのユーザーはウェブポータルにアクセスしてログインすることが許可されます。ユーザーが初めてログインすると、そのCentreStackアカウントは自動的にプロビジョニングされます。"
+
+#: ../../chapter04.rst:78
+msgid "USER AUTO-CREATION SETTING"
+msgstr "ユーザー自動作成設定"
+
+#: ../../chapter04.rst:82
+msgid "AD account auto provision, limiting to Organization Unit"
+msgstr "ADアカウントの自動プロビジョニング、組織単位に制限"
+
+#: ../../chapter04.rst:84
+msgid ""
+"The organization unit field can be used to further limit the Active "
+"Directory user account that can be automatically provisioned."
+msgstr "組織単位フィールドを使用して、自動的にプロビジョニングできるActive Directoryユーザーアカウントをさらに制限することができます。"
+
+#: ../../chapter04.rst:89
+msgid "LIMIT TO ORGANIZATION UNIT SETTING"
+msgstr "組織単位設定に制限"
+
+#: ../../chapter04.rst:91
+msgid ""
+"The format of the organization unit is the OU's distinguishedName minus "
+"the DC suffix."
+msgstr "組織単位の形式は、DCサフィックスを除いたOUのdistinguishedNameです。"
+
+#: ../../chapter04.rst:93
+msgid ""
+"For example, the following OU's property is: distinguishedName       =>"
+"      OU=tenant11,DC=tsys,DC=gladinet,DC=com"
+msgstr "例えば、以下のOUのプロパティは次のとおりです: distinguishedName       =>      OU=tenant11,DC=tsys,DC=gladinet,DC=com"
+
+#: ../../chapter04.rst:96
+msgid ""
+"When it is put into the OU field, the DC suffix can be removed so only "
+"OU=tenant11 is required."
+msgstr "OUフィールドに入力する際には、DCサフィックスを削除してOU=tenant11のみを必要とします。"
+
+#: ../../chapter04.rst:99
+msgid "OU=tenant11"
+msgstr "OU=tenant11"
+
+#: ../../chapter04.rst:104
+msgid "OU PROPERTY LOCATION"
+msgstr "OU プロパティの場所"
+
+#: ../../chapter04.rst:108
+msgid "AD account auto provision, limiting to a specific AD group."
+msgstr "特定のADグループに限定したADアカウントの自動プロビジョニング。"
+
+#: ../../chapter04.rst:110
+msgid ""
+"From the user manager, you can import the AD group and the users in the "
+"AD group will be able to get the account automatically provisioned."
+msgstr "ユーザーマネージャーからADグループをインポートでき、ADグループ内のユーザーはアカウントを自動的にプロビジョニングできるようになります。"
+
+#: ../../chapter04.rst:115
+msgid "MIGRATING USERS FROM ACTIVE DIRECTORY"
+msgstr "アクティブディレクトリからのユーザー移行"
+
+#: ../../chapter04.rst:117
+msgid "Here is a demo video for Import AD group."
+msgstr "AD グループをインポートするためのデモビデオはこちらです。"
+
+#: ../../chapter04.rst:126
+msgid "Setting up Offline Folder"
+msgstr "オフラインフォルダの設定"
+
+#: ../../chapter04.rst:128
+msgid ""
+"In a team collaboration environment, there are several best practices "
+"related to offline folder management."
+msgstr "チームコラボレーション環境において、オフラインフォルダ管理に関連するいくつかのベストプラクティスがあります。"
+
+#: ../../chapter04.rst:130
+msgid "Here are  several parameters for consideration:"
+msgstr "いくつかの検討事項は以下の通りです："
+
+#: ../../chapter04.rst:134
+msgid "Team Folder Offline Settings"
+msgstr "チームフォルダのオフライン設定"
+
+#: ../../chapter04.rst:136
+msgid ""
+"If you have a big team folder or several team folders that are quite big,"
+" it is not a good practice to enable the team folder offline from the "
+"root. Instead, you can choose not to enable offline or just enable a "
+"subset of sub-folders that are relatively small and at the same time, "
+"used more often. If you want to enable a subset of sub-folders within "
+"team folders for offline access, you can start by going to the folder "
+"permission section. You can access this by clicking the \"Team Folders\" "
+"**(1)** from left side menu. \"Edit\" **(2)** the selected folder. In the"
+" \"Folder Permissions\" tab of editing window, select \"Force offline "
+"cache on native Client\" **(3)**, and apply the change."
+msgstr "もし大きなチームフォルダを持っていたり、いくつかの大きなチームフォルダがある場合、ルートからチームフォルダをオフラインで利用可能にするのは良い習慣ではありません。代わりに、オフラインを有効にしないか、または比較的小さく、同時によく使用されるサブフォルダのみを有効にすることができます。チームフォルダ内のサブフォルダの一部をオフラインアクセス用に有効にしたい場合は、フォルダの権限セクションに移動することから始めることができます。これには、左側のメニューから「チームフォルダ」 **(1)** をクリックします。「編集」 **(2)** 選択したフォルダ。編集ウィンドウの「フォルダ権限」タブで、「ネイティブクライアントでのオフラインキャッシュを強制する」 **(3)** を選択し、変更を適用します。"
+
+#: ../../chapter04.rst:141
+msgid "ENABLING OFFLINE ACCESS FOR NATIVE CLIENT"
+msgstr "ネイティブクライアントのオフラインアクセスを有効にする"
+
+#: ../../chapter04.rst:143
+msgid ""
+"If you want to disable offline access for the team folder completely, you"
+" can change the setting from the Team Folders section by choosing the "
+"\"Settings\" tab below **(1)** in the edit team folder window, and "
+"selecting the \"Disable Offline Access\" option **(2)**. Don't forget to "
+"save your changes **(3)**."
+msgstr "チームフォルダのオフラインアクセスを完全に無効にしたい場合は、チームフォルダセクションから設定を変更できます。編集チームフォルダウィンドウで **(1)** の下にある「設定」タブを選択し、「オフラインアクセスを無効にする」オプション **(2)** を選択します。変更を保存することを忘れないでください **(3)**。"
+
+#: ../../chapter04.rst:148
+msgid "DISABLING OFFLINE ACCESS FOR TEAMSHARE"
+msgstr "TEAMSHAREのオフラインアクセスを無効にする"
+
+#: ../../chapter04.rst:152
+msgid "User Offline Settings"
+msgstr "ユーザーオフライン設定"
+
+#: ../../chapter04.rst:154
+msgid ""
+"Upon creating users in the CentreStack system (including users imported "
+"from Active Directory), there is an offline flag upon user creation."
+msgstr "CentreStackシステムにユーザーを作成する際（Active Directoryからインポートされたユーザーを含む）、ユーザー作成時にオフラインフラグがあります。"
+
+#: ../../chapter04.rst:156
+msgid ""
+"Normally, we don't recommend checking the \"Enable offline access for all"
+" folders\" flag, because it will try to download every single file for "
+"the user when the user is connected, which can use a lot of bandwidth and"
+" slow things down."
+msgstr "通常、ユーザーが接続しているときにすべてのファイルをダウンロードしようとするため、多くの帯域幅を使用し、処理を遅くする可能性があるので、「すべてのフォルダのオフラインアクセスを有効にする」フラグをチェックすることはお勧めしません。"
+
+#: ../../chapter04.rst:161
+msgid "ENABLING PER-USER OFFLINE ACCESS"
+msgstr "ユーザーごとのオフラインアクセスを可能にする"
+
+#: ../../chapter04.rst:165
+msgid ""
+"This will automatically download ALL folders and files to the user's "
+"device and automatically update them whenever they have changed anywhere "
+"in the network. This will cause a significant increase in network "
+"traffic, especially during the initial download of all folders."
+msgstr "これにより、ネットワーク内のどこかで変更があった場合には、自動的にユーザーのデバイスにすべてのフォルダとファイルがダウンロードされ、自動的に更新されます。これにより、特にすべてのフォルダの初回ダウンロード時に、ネットワークトラフィックが大幅に増加します。"
+
+#: ../../chapter04.rst:167
+msgid ""
+"Without it, the user can still pick and choose which folder to mark as "
+"offline."
+msgstr "それがなくても、ユーザーはオフラインとしてマークするフォルダを選択して選ぶことができます。"
+
+#: ../../chapter04.rst:171
+msgid "User Manual Offline Settings"
+msgstr "ユーザーマニュアル オフライン設定"
+
+#: ../../chapter04.rst:173
+msgid ""
+"During regular usage of the files and folders, users can mark folders as "
+"offline."
+msgstr "ファイルやフォルダーを通常使用する際、ユーザーはフォルダーをオフラインとしてマークすることができます。"
+
+#: ../../chapter04.rst:178
+msgid "ENABLE OFFLINE ACCESS AT THE CLIENT LEVEL"
+msgstr "クライアントレベルでのオフラインアクセスを有効にする"
+
+#: ../../chapter04.rst:182
+msgid "Summary"
+msgstr ""
+
+#: ../../chapter04.rst:184
+msgid ""
+"Administrators can manage the tenant-wide offline policy related to team "
+"folders and users. In the case where team folder size is small and user "
+"size is small, an administrator can enable the offline flag to push files"
+" and folders to user's devices."
+msgstr "管理者は、チームフォルダやユーザーに関連するテナント全体のオフラインポリシーを管理できます。チームフォルダのサイズが小さく、ユーザーのサイズも小さい場合、管理者はオフラインフラグを有効にして、ファイルやフォルダをユーザーのデバイスにプッシュできます。"
+
+#: ../../chapter04.rst:186
+msgid ""
+"However, in the case where the team folder size is big and the user "
+"number is not small, we recommend the administrator enables as few "
+"offline flags/settings as possible on the administration side. Users can "
+"still do offline management themselves within their working folder on a "
+"case-by-case basis."
+msgstr "しかし、チームフォルダのサイズが大きく、ユーザー数も少なくない場合、管理者は管理側でオフラインフラグ/設定をできるだけ少なくすることをお勧めします。ユーザーはそれでも、ケースバイケースで自分の作業フォルダ内でオフライン管理を行うことができます。"
+

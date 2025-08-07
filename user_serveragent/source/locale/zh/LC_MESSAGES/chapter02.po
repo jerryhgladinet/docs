@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "2 Installation"
+msgstr "2 安装"
+
+#: ../../chapter02.rst:6
+msgid ""
+"You can download and install the File Server Agent software directly from"
+" the Web Portal. Complete the following steps to install the |prodname| "
+"File Server Agent software on your file server."
+msgstr "您可以直接从Web门户下载并安装文件服务器代理软件。按照以下步骤在您的文件服务器上安装 |prodname| 文件服务器代理软件。"
+
+#: ../../chapter02.rst:11
+msgid "2.1 System Requirement"
+msgstr "2.1 系统要求"
+
+#: ../../chapter02.rst:13
+msgid "File Server Agent can be installed on the following OS"
+msgstr "文件服务器代理可以安装在以下操作系统上"
+
+#: ../../chapter02.rst:15
+msgid "Server OS"
+msgstr "服务器操作系统"
+
+#: ../../chapter02.rst:17
+msgid "Windows 2022"
+msgstr "Windows 2022"
+
+#: ../../chapter02.rst:18
+msgid "Windows 2019"
+msgstr "Windows 2019"
+
+#: ../../chapter02.rst:19
+msgid "Windows 2016"
+msgstr "Windows 2016"
+
+#: ../../chapter02.rst:21
+msgid "Client OS"
+msgstr "客户端操作系统"
+
+#: ../../chapter02.rst:23
+msgid "Windows 10"
+msgstr "Windows 10"
+
+#: ../../chapter02.rst:24
+msgid "Windows 8.1"
+msgstr "Windows 8.1"
+
+#: ../../chapter02.rst:25
+msgid "Windows 8.0"
+msgstr "Windows 8.0"
+
+#: ../../chapter02.rst:26
+msgid "Windows 7"
+msgstr "Windows 7"
+
+#: ../../chapter02.rst:27
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+#: ../../chapter02.rst:28
+msgid "Windows XP"
+msgstr "Windows XP"
+
+#: ../../chapter02.rst:33
+msgid "2.2 Preparation"
+msgstr "2.2 准备工作"
+
+#: ../../chapter02.rst:35
+msgid ""
+"File Server Agent depends on .NET framework 2.0 or later. If you are "
+"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"need to prepare the .NET environment. This usually can be done from the "
+"Windows Server Manager > Manage Roles and Features and then in the "
+"features section, select .NET Framework 3.5"
+msgstr "文件服务器代理依赖 .NET 框架 2.0 或更高版本。如果您在 Windows Server 2022/2019/2016 上安装文件服务器代理，您需要准备 .NET 环境。通常可以通过 Windows 服务器管理器 > 管理角色和功能，然后在功能部分，选择 .NET Framework 3.5 来完成此操作"
+
+#: ../../chapter02.rst:40
+msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
+msgstr "WINDOWS SERVER 2016 .NET 框架特性"
+
+#: ../../chapter02.rst:43
+msgid ""
+"If you are installing File Server Agent on Windows 8/Windows 10, you can "
+"get .NET framework 2.0 (3.5) installed from \"Program Files\" -> Windows "
+"Components."
+msgstr "如果您正在Windows 8/Windows 10上安装文件服务器代理，您可以通过“程序文件”-> Windows组件来安装.NET框架2.0（3.5）。"
+
+#: ../../chapter02.rst:48
+msgid "WINDOWS 10 .NET FRAMEWORK 3.5 FEATURE"
+msgstr "WINDOWS 10 .NET 框架 3.5 功能"
+
+#: ../../chapter02.rst:53
+msgid "2.3 Install"
+msgstr "2.3 安装"
+
+#: ../../chapter02.rst:57
+msgid ""
+"Always install |prodname| File Server Agent as a Tenant Administrator "
+"when you are at the login dialog."
+msgstr "始终以租户管理员的身份安装 |prodname| 文件服务器代理，当您处于登录对话框时。"
+
+#: ../../chapter02.rst:59
+msgid ""
+"File Server Agent belongs to a specific Tenant instead of belonging to a "
+"specific user. So it is best to download the File Server Agent as the "
+"Tenant Administrator and set it up to connect to the same Tenant "
+"Administrator's account."
+msgstr "文件服务器代理属于特定租户，而不是属于特定用户。因此，最好由租户管理员下载文件服务器代理，并设置它连接到同一租户管理员的账户。"
+
+#: ../../chapter02.rst:62
+msgid "Step 1 - Download the Installer Package"
+msgstr "步骤1 - 下载安装包"
+
+#: ../../chapter02.rst:64
+msgid ""
+"From the File Server you wish to install the File Server Agent; open a "
+"browser and log in to the Web Portal as the Tenant Administrator. From "
+"the Management Console, click the **(+)** in the \"Remote Active "
+"Directory\" section on the right-hand side."
+msgstr "从您希望安装文件服务器代理的文件服务器上，打开浏览器并以租户管理员身份登录到Web门户。在管理控制台中，点击右侧“远程活动目录”部分的 **（+）**。"
+
+#: ../../chapter02.rst:69
+msgid "SERVER AGENT DOWNLOADS ACCESS"
+msgstr "服务器代理下载访问"
+
+#: ../../chapter02.rst:71
+msgid ""
+"In the pop-up window, choose your Download Package from the pull-down "
+"menu and click **Go** to begin the installation."
+msgstr "在弹出窗口中，从下拉菜单中选择您的下载包，然后点击 **Go** 开始安装。"
+
+#: ../../chapter02.rst:73
+msgid ""
+"A window will open. Click the MSI file at the bottom of the browser to "
+"open the installer."
+msgstr "将会打开一个窗口。点击浏览器底部的MSI文件以打开安装程序。"
+
+#: ../../chapter02.rst:78
+msgid "OPEN THE INSTALLER"
+msgstr "打开安装程序"
+
+#: ../../chapter02.rst:82
+msgid ""
+"File Server agent software is capable of synchronizing three things "
+"between the local file server and remote cloud storage account."
+msgstr "文件服务器代理软件能够在本地文件服务器和远程云存储账户之间同步三样东西。"
+
+#: ../../chapter02.rst:84
+msgid "synchronize selected files and folders."
+msgstr "同步选定的文件和文件夹。"
+
+#: ../../chapter02.rst:85
+msgid "synchronize selected Active Directory users from local to cloud."
+msgstr "同步选定的 Active Directory 用户从本地到云端。"
+
+#: ../../chapter02.rst:86
+msgid "synchronize NTFS permissions on the local file server to cloud."
+msgstr "将本地文件服务器上的NTFS权限同步到云端。"
+
+#: ../../chapter02.rst:88
+msgid ""
+"You can start installing file server agent from \"Adding Remote Active "
+"Directory\" or from \"Adding Team Folder via Remote Server Agent\"."
+msgstr "您可以从“添加远程Active Directory”或“通过远程服务器代理添加团队文件夹”开始安装文件服务器代理。"
+
+#: ../../chapter02.rst:91
+msgid "Step 2 - Run the Installer Package"
+msgstr "步骤2 - 运行安装程序包"
+
+#: ../../chapter02.rst:93
+msgid "Click **\"Run\"** to start the installation."
+msgstr "点击 **\"运行\"** 开始安装。"
+
+#: ../../chapter02.rst:98
+msgid "RUN THE SERVER AGENT INSTALLER"
+msgstr "运行服务器代理安装程序"
+
+#: ../../chapter02.rst:101
+msgid "Step 3 - Welcome Screen"
+msgstr "步骤3 - 欢迎界面"
+
+#: ../../chapter02.rst:103 ../../chapter02.rst:111
+msgid "On the Welcome Screen choose **\"Next\"** to continue."
+msgstr "在欢迎界面选择 **“下一步”** 继续。"
+
+#: ../../chapter02.rst:108
+msgid "WELCOME SCREEN"
+msgstr "欢迎界面"
+
+#: ../../chapter02.rst:114
+msgid "Step 4 - License Agreement"
+msgstr "步骤4 - 许可协议"
+
+#: ../../chapter02.rst:116
+msgid ""
+"Read and accept the license agreement by choosing **\"I Agree\"** and "
+"click the **\"Next\"** button."
+msgstr "阅读并接受许可协议，选择 **\"我同意\"** 然后点击 **\"下一步\"** 按钮。"
+
+#: ../../chapter02.rst:121
+msgid "ACCEPT LICENSE AGREEMENT"
+msgstr "接受许可协议"
+
+#: ../../chapter02.rst:124
+msgid "Step 5 - Confirm Installation"
+msgstr "步骤5 - 确认安装"
+
+#: ../../chapter02.rst:126
+msgid ""
+"Now we will complete the File Server Agent installation. Click "
+"**\"Next\"** to finish."
+msgstr "现在我们将完成文件服务器代理安装。点击 **\"下一步\"** 来完成。"
+
+#: ../../chapter02.rst:131
+msgid "CONFIRM INSTALLATION"
+msgstr "确认安装"
+
+#: ../../chapter02.rst:134
+msgid "Step 6 - Installation is Finishing"
+msgstr "步骤6 - 安装即将完成"
+
+#: ../../chapter02.rst:136
+msgid "It will only take a few minutes to complete the installation."
+msgstr "完成安装只需几分钟。"
+
+#: ../../chapter02.rst:141
+msgid "FINAL INSTALLATION PROCESS"
+msgstr "最终安装过程"
+
+#: ../../chapter02.rst:144
+msgid "Step 7 - Installation Complete"
+msgstr "步骤7 - 安装完成"
+
+#: ../../chapter02.rst:146
+msgid ""
+"Once the installation is completed, click the **\"Close\"** button to "
+"finish."
+msgstr "安装完成后，点击 **“关闭”** 按钮以结束。"
+
+#: ../../chapter02.rst:151
+msgid "CLOSE INSTALLATION WINDOW"
+msgstr "关闭安装窗口"
+
+#: ../../chapter02.rst:154
+msgid "Step 8 - Restart Your System"
+msgstr "步骤8 - 重启您的系统"
+
+#: ../../chapter02.rst:156
+msgid "Just restart your system and File Server Agent is ready to use."
+msgstr "只需重新启动您的系统，文件服务器代理即可使用。"
+
+#: ../../chapter02.rst:161
+msgid "RESTART YOUR SYSTEM"
+msgstr "重新启动您的系统"
+
+#: ../../chapter02.rst:165
+msgid "Step 9 - Login To |prodname|"
+msgstr "步骤9 - 登录到 |prodname|"
+
+#: ../../chapter02.rst:167
+msgid ""
+"After the reboot, log back into Windows as the same Windows user. Be "
+"patient, as it will take a few minutes for the Login Panel to display. "
+"Login to |prodname| as using your Tenant Administrator credentials."
+msgstr "重启后，以相同的Windows用户身份重新登录Windows。请耐心等待，登录面板显示需要几分钟时间。使用您的租户管理员凭据登录到 |prodname|。"
+
+#: ../../chapter02.rst:170
+msgid ""
+"The File Server Agent can be logged in to the Tenant already if you don't"
+" see the login dialog. You can go to the Web Portal side, login as the "
+"Tenant Administrator and go to the \"Device Manager\" side to see the "
+"File Server Agent."
+msgstr "如果您没有看到登录对话框，文件服务器代理可能已经登录到租户。您可以转到Web门户侧，以租户管理员身份登录，然后转到“设备管理器”侧以查看文件服务器代理。"
+
+#: ../../chapter02.rst:175
+msgid "LOG IN AS TENANT ADMIN"
+msgstr "以租户管理员身份登录"
+

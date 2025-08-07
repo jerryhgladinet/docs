@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter2.rst:3
+msgid "Installation"
+msgstr "Asennus"
+
+#: ../../chapter2.rst:6
+msgid ""
+"First login to your |prodname| web portal and click the user icon (1) in "
+"the top right corner. Then click the client download button (2) and "
+"download the respective client installer package."
+msgstr "Kirjaudu ensin |prodname| web-portaaliisi ja napsauta käyttäjäkuvaketta (1) oikeassa yläkulmassa. Sen jälkeen klikkaa asiakasohjelman latauspainiketta (2) ja lataa vastaava asiakasohjelman asennuspaketti."
+
+#: ../../chapter2.rst:9
+msgid ""
+"**NOTE:** It is very important that you log in to |prodname| as a user "
+"before downloading the Windows or Mac Clients. This gives you access to "
+"client installation packages that are already tied to your |prodname| "
+"account, which makes installation and accessing |prodname| easy."
+msgstr "**HUOMAA:** On erittäin tärkeää, että kirjaudut sisään |prodname| käyttäjänä ennen Windows- tai Mac-asiakasohjelmien lataamista. Tämä antaa sinulle pääsyn asiakasasennuspaketteihin, jotka on jo liitetty |prodname| tilillesi, mikä tekee asennuksesta ja |prodname| käytöstä helppoa."
+
+#: ../../chapter2.rst:14
+msgid "DOWNLOAD YOUR CLIENT"
+msgstr "LATAA ASIAKASOHJELMASI"
+
+#: ../../chapter2.rst:16
+msgid ""
+"Once you click the download button you will see a page of options "
+"including Windows Desktop Client (1), Mac OS X Client (2) or Mobile "
+"client (3) and download the associated package."
+msgstr "Kun napsautat latauspainiketta, näet sivun, jossa on vaihtoehtoja, kuten Windows-työpöytäasiakasohjelma (1), Mac OS X -asiakasohjelma (2) tai mobiiliasiakas (3), ja voit ladata liittyvän paketin."
+
+#: ../../chapter2.rst:21
+msgid "CLIENT DOWNLOAD PAGE"
+msgstr "ASIAKKAAN LATAUSSIVU"
+
+#: ../../chapter2.rst:23
+msgid ""
+"Ensure that you choose the appropriate download for your operating system"
+" (eg, Windows 64-bit, Windows 32-bit). Run the downloaded MSI package to "
+"start the installation. Then click \"Next\" and follow the instructions "
+"to finish. In the Setup Windows Client screen, you can customize the "
+"installation if necessary."
+msgstr "Varmista, että valitset käyttöjärjestelmällesi sopivan latauksen (esim. Windows 64-bittinen, Windows 32-bittinen). Suorita ladattu MSI-paketti asennuksen aloittamiseksi. Klikkaa sitten \"Seuraava\" ja noudata ohjeita asennuksen loppuun saattamiseksi. Setup Windows Client -näytössä voit tarvittaessa mukauttaa asennusta."
+
+#: ../../chapter2.rst:28
+msgid "CLOUD WINDOWS CLIENT INSTALLER"
+msgstr "PILVIPALVELIMEN WINDOWS-ASIANTASOITTAJAN ASENNUS"
+
+#: ../../chapter2.rst:31
+msgid "Log In to |prodname|"
+msgstr "Kirjaudu sisään |prodname|"
+
+#: ../../chapter2.rst:33
+msgid ""
+"At the end of the installation, you will be prompted to enter your "
+"|prodname| user account credentials. These credentials will authorize "
+"your |prodname| Windows Client and connect it to your |prodname| user "
+"account. Access to your Windows Client agent is also available under the "
+"Windows Start Menu. If the \"Auto-login next time\" option is selected "
+"(default), the Cloud Windows Client will be launched at Windows Startup. "
+"You can see the client icon in the lower right of the desktop or in the "
+"right-bottom notifications areas of your task bar."
+msgstr "Asennuksen lopussa sinua pyydetään syöttämään |prodname| käyttäjätilisi tunnistetiedot. Nämä tunnistetiedot valtuuttavat |prodname| Windows-asiakasohjelmasi ja yhdistävät sen |prodname| käyttäjätiliisi. Pääsy Windows-asiakasagenttiisi on myös saatavilla Windowsin Käynnistä-valikosta. Jos \"Kirjaudu automaattisesti seuraavalla kerralla\" -vaihtoehto on valittu (oletusarvoisesti), Pilvi Windows-asiakasohjelma käynnistetään Windowsin käynnistyksen yhteydessä. Voit nähdä asiakasohjelman kuvakkeen työpöydän oikeassa alakulmassa tai tehtäväpalkin oikean alareunan ilmoitusalueella."
+
+#: ../../chapter2.rst:38
+msgid "LOGGING INTO |prodname| CLIENT"
+msgstr "KIRJAUTUMINEN |prodname| ASIAKASOHJELMAAN"
+
+#: ../../chapter2.rst:41
+msgid "Accessing Your Files and Folders"
+msgstr "Pääsy tiedostoihisi ja kansioihisi"
+
+#: ../../chapter2.rst:43
+msgid "There are two main ways to use |prodname| files and folders."
+msgstr "On kaksi pääasiallista tapaa käyttää |prodname| tiedostoja ja kansioita."
+
+#: ../../chapter2.rst:45
+msgid "First, there is a |prodname| Cloud Drive."
+msgstr "Ensimmäisenä on |prodname| Cloud Drive."
+
+#: ../../chapter2.rst:47
+msgid ""
+"With the |prodname| Cloud Drive, you have direct on-demand access to your"
+" cloud storage."
+msgstr "Kun käytät |prodname| Cloud Drivea, sinulla on suora pääsy pilvitallennustilaasi tarpeen mukaan."
+
+#: ../../chapter2.rst:49
+msgid "Second, there are synchronization folders."
+msgstr "Toiseksi, on olemassa synkronointikansioita."
+
+#: ../../chapter2.rst:51
+msgid ""
+"Outside of the Cloud Drive, if you don't want to change where your "
+"existing folders are, you can then attach local folders as an access "
+"mechanism. The attached folder will be synchronized with Cloud in a bi-"
+"directional way."
+msgstr "Pilvipalvelun ulkopuolella, jos et halua muuttaa olemassa olevien kansioidesi sijaintia, voit liittää paikallisia kansioita käyttömekanismina. Liitetty kansio synkronoidaan Pilven kanssa kaksisuuntaisesti."
+
+#: ../../chapter2.rst:54
+msgid "Cloud Drive Access"
+msgstr "Pilvipalvelun käyttö"
+
+#: ../../chapter2.rst:56
+msgid ""
+"After the installation is completed, a system tray icon will appear that "
+"allows you to open your |prodname| Drive."
+msgstr "Asennuksen valmistuttua ilmestyy järjestelmäpalkkiin kuvake, josta voit avata |prodname| Aseman."
+
+#: ../../chapter2.rst:58
+msgid ""
+"If you click the system tray icon **(1)** which will open the tray menu. "
+"You can access the cloud drive by clicking the drive icon **(2)** which "
+"will open Windows Explorer in the Cloud Drive veiw **(3)**."
+msgstr "Jos napsautat järjestelmäalustan kuvaketta **(1)**, avautuu alustan valikko. Voit käyttää pilviasemaa napsauttamalla aseman kuvaketta **(2)**, jolloin Windows Explorer avautuu Cloud Drive -näkymässä **(3)**."
+
+#: ../../chapter2.rst:63
+msgid "ACCESSING THE CLOUD DRIVE"
+msgstr "PÄÄSY PILVIPALVELUUN"
+
+#: ../../chapter2.rst:65
+msgid ""
+"In the Cloud Drive folder, you can do typical Windows folder functions, "
+"and right click to access the Cloud Drive context menu **(4)**."
+msgstr "Pilviaseman kansiosta voit suorittaa tyypillisiä Windows-kansion toimintoja ja oikealla klikkauksella pääset käsiksi Pilviaseman pikavalikkoon **(4)**."
+
+#: ../../chapter2.rst:67
+msgid ""
+"Back in the Tray Menu, the three-dots **(5)** gives you access to other "
+"important functions (e.g., web portal, force sync, sign out, exit, enable"
+" debug trace)."
+msgstr "Takaisin tehtäväpalkin valikossa kolme pistettä **(5)** antavat sinulle pääsyn muihin tärkeisiin toimintoihin (esim. web-portaali, pakota synkronointi, kirjaudu ulos, poistu, ota debug-jäljitys käyttöön)."
+
+#: ../../chapter2.rst:72
+msgid "OTHER CLOUD DRIVE FUNCTIONS"
+msgstr "MUUT PILVIPALVELUN TOIMINNOT"
+
+#: ../../chapter2.rst:75
+msgid "Management Console"
+msgstr "Hallintakonsoli"
+
+#: ../../chapter2.rst:77
+msgid ""
+"Also in the Tray Menu there is a Management Console icon **(6)**. Click "
+"this will give you access to the Management Console."
+msgstr "Valikkoriviltä löytyy myös Hallintakonsolin kuvake **(6)**. Tätä napsauttamalla pääset Hallintakonsoliin."
+
+#: ../../chapter2.rst:82
+msgid "ACCESSING THE MANAGEMENT CONSOLE"
+msgstr "PÄÄSY HALLINTAKONSOLIIN"
+

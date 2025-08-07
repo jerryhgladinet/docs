@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Deployment Options"
+msgstr "デプロイメントオプション"
+
+#: ../../chapter08.rst:5
+msgid ""
+"As documented above, CentreStack has three logical components, the "
+"database, the worker node and the storage. This section will go through "
+"different deployment options."
+msgstr "上記の通り、CentreStackには3つの論理コンポーネントがあります。データベース、ワーカーノード、およびストレージです。このセクションでは、異なるデプロイメントオプションについて説明します。"
+
+#: ../../chapter08.rst:9
+msgid "All-In-One Deployment"
+msgstr "オールインワン デプロイメント"
+
+#: ../../chapter08.rst:11
+msgid ""
+"This is the simplest deployment. The database , the worker nodes are all "
+"on the same machine as the storage. When you are serving < 1000 users or "
+"you are doing Proof-of-Concept (POC), this is the ideal deployment "
+"because of its simplicity. You can have the CentreStack installer install"
+" the SQL Express/MySQL on the same machine before installing CentreStack "
+"software and then pointing the database to localhost\\\\SQLEXPRESS or "
+"local MySQL. In the All-In-One deployment, the storage location is "
+"typically set to a folder on local C: drive or local D: drive."
+msgstr "これは最もシンプルなデプロイメントです。データベース、ワーカーノードはすべてストレージと同じマシン上にあります。1000人未満のユーザーをサポートする場合や、概念実証（POC）を行っている場合、そのシンプルさから理想的なデプロイメントです。CentreStackインストーラーによって、CentreStackソフトウェアのインストール前に同じマシン上にSQL Express/MySQLをインストールし、その後データベースをlocalhost\\SQLEXPRESSまたはローカルのMySQLに指定することができます。オールインワンデプロイメントでは、ストレージの場所は通常、ローカルのC:ドライブまたはD:ドライブ上のフォルダに設定されます。"
+
+#: ../../chapter08.rst:17
+msgid ""
+"The installer can install SQL EXPRESS so it is a one-click installation "
+"for convenience. No need to do a separate SQL EXPRESS installation."
+msgstr "インストーラーはSQL EXPRESSをインストールできるため、便利なワンクリックインストールが可能です。別途SQL EXPRESSをインストールする必要はありません。"
+
+#: ../../chapter08.rst:22
+msgid ""
+"If this is the first time you are installing CentreStack, this is the "
+"recommended setup because it is the easiest to setup and only takes 15-30"
+" minutes on a clean machine. The installer will take care of all the "
+"installation without other manual steps."
+msgstr "CentreStackを初めてインストールする場合、これが推奨されるセットアップです。クリーンなマシンで15分から30分しかかからず、最も簡単にセットアップできます。インストーラーが手動でのステップなしにすべてのインストールを処理します。"
+
+#: ../../chapter08.rst:26
+msgid ""
+"In the latest CentreStack installer, the installer is capable of doing "
+"the all-in-one installation without asking you to setup database "
+"separately."
+msgstr "最新のCentreStackインストーラーでは、データベースを別途設定することなく、オールインワンインストールを行うことができます。"
+
+#: ../../chapter08.rst:29
+msgid "Single-Server Deployment"
+msgstr "シングルサーバー展開"
+
+#: ../../chapter08.rst:31
+msgid ""
+"This is another simple deployment. It is very similar to the All-In-One "
+"deployment. The only difference is that the file storage is off the "
+"machine instead of on the machine."
+msgstr "これは別のシンプルなデプロイメントです。オールインワンのデプロイメントと非常に似ています。唯一の違いは、ファイルストレージがマシンの内部ではなく外部にあることです。"
+
+#: ../../chapter08.rst:33
+msgid ""
+"The external file storage can be file storage on a UNC path or it can "
+"also be an object storage service."
+msgstr "外部ファイルストレージはUNCパス上のファイルストレージであることも、オブジェクトストレージサービスであることもあります。"
+
+#: ../../chapter08.rst:35
+msgid ""
+"In this deployment, the database and the Worker Node/Web Node are still "
+"deployed on the same machine."
+msgstr "このデプロイメントでは、データベースとワーカーノード/ウェブノードが依然として同じマシン上にデプロイされています。"
+
+#: ../../chapter08.rst:40
+msgid "Two-Server Deployment"
+msgstr "二台サーバーの展開"
+
+#: ../../chapter08.rst:42
+msgid ""
+"In the two server deployment, the database is installed in its own "
+"server; away from the CentreStack worker node. Usually, this is an "
+"intermediate step leading to the \"Three-Server Deployment\" and a step "
+"towards scaling up the server farm."
+msgstr "2台のサーバーがデプロイされる場合、データベースはCentreStackワーカーノードから離れた独自のサーバーにインストールされます。通常、これは「スリーサーバーデプロイメント」に向けた中間ステップであり、サーバーファームをスケールアップするステップです。"
+
+#: ../../chapter08.rst:49
+msgid "Three-Server Deployment for Redundancy"
+msgstr "冗長性のための3サーバー展開"
+
+#: ../../chapter08.rst:51
+msgid ""
+"The 3-machine deployment is another simple deployment. The database node "
+"is installed separately. Two CentreStack worker nodes are installed. The "
+"\"External URL\" field for each node is the same, such as "
+"\"cloud.acme.com\". The load balancer will do a round robin load "
+"balancing to either node. A variation of the deployment is to set "
+"\"External URL\" field differently for the two worker nodes. When "
+"\"External URL\" field is the same as the load balancer URL, everything "
+"is round robin. When \"External URL\" is different, such as "
+"node1.acme.com and node2.acme.com, the users will have affinity to one of"
+" the node. For example, if user1 is assigned to node1.acme.com, he will "
+"continue to use node1.acme.com. In this deployment, the size of the "
+"cluster is supporting 2000 concurrent-users per node. The benefit is that"
+" if one node is down, there is another node for redundancy."
+msgstr "3台のマシンによるデプロイメントは、もう一つのシンプルなデプロイメントです。データベースノードは別々にインストールされます。2台のCentreStackワーカーノードがインストールされます。各ノードの「外部URL」フィールドは、「cloud.acme.com」のように同じです。ロードバランサーは、どちらのノードにもラウンドロビン方式で負荷分散を行います。デプロイメントのバリエーションとしては、2台のワーカーノードの「外部URL」フィールドを異なるように設定することです。ロードバランサーのURLと「外部URL」フィールドが同じ場合、すべてがラウンドロビン方式です。しかし、「外部URL」が異なる場合、例えばnode1.acme.comとnode2.acme.comのように、ユーザーはノードのいずれかにアフィニティを持ちます。例えば、user1がnode1.acme.comに割り当てられている場合、彼はnode1.acme.comを引き続き使用します。このデプロイメントでは、クラスターのサイズはノードあたり2000人の同時ユーザーをサポートしています。その利点は、もし1つのノードがダウンした場合でも、冗長性のために別のノードがあることです。"
+
+#: ../../chapter08.rst:65
+msgid "Multiple-Machine Deployment for Scalability"
+msgstr "スケーラビリティのためのマルチマシン展開"
+
+#: ../../chapter08.rst:67
+msgid ""
+"In this deployment, you will have clear separation of database , storage "
+"service, and the worker nodes in a farm of servers."
+msgstr "このデプロイメントでは、データベース、ストレージサービス、およびサーバーファーム内のワーカーノードが明確に分離されます。"
+
+#: ../../chapter08.rst:70
+msgid ""
+"The database  is not a CentreStack worker node; it is just a server that "
+"runs SQL Server or MySQL."
+msgstr "データベースはCentreStackのワーカーノードではありません。SQL ServerまたはMySQLを実行するサーバーに過ぎません。"
+
+#: ../../chapter08.rst:72
+msgid ""
+"The worker nodes are all CentreStack nodes which run the same software. "
+"Most of the time, in the multiple-machine deployment, a hardware load "
+"balancer is used to distribute the load evenly."
+msgstr "ワーカーノードはすべてCentreStackノードであり、同じソフトウェアを実行しています。ほとんどの場合、複数マシンのデプロイメントでは、ハードウェアロードバランサーが使用されて負荷を均等に分散します。"
+
+#: ../../chapter08.rst:77
+msgid ""
+"Inside a worker node, there is further division of work between a 'web "
+"node' and the rest 'worker node'."
+msgstr "ワーカーノード内部では、'webノード'と残りの'ワーカーノード'との間でさらに作業が分割されます。"
+
+#: ../../chapter08.rst:79
+msgid ""
+"The web  nodes are used for user login. After login, the user will be re-"
+"directed to the corresponding worker node. (The web  node can be omitted "
+"if you have an existing Load Balancer)."
+msgstr "Webノードはユーザーログイン用に使用されます。ログイン後、ユーザーは対応するワーカーノードにリダイレクトされます。（既存のロードバランサーがある場合、Webノードは省略できます）。"
+
+#: ../../chapter08.rst:82
+msgid ""
+"For the load balancing to work, all the worker nodes have to be on the "
+"same DNS domain and same level of sub domain (for example, they can be "
+"covered by same SSL wildcard certificate, such as \\*.acme.com).  The "
+"load balancing requires at least two worker nodes."
+msgstr "ロードバランシングが機能するためには、すべてのワーカーノードが同じDNSドメインおよび同じサブドメインレベルにある必要があります（例えば、\*.acme.comのような同じSSLワイルドカード証明書でカバーできます）。ロードバランシングには少なくとも2つのワーカーノードが必要です。"
+
+#: ../../chapter08.rst:85
+msgid ""
+"Install the CentreStack server on the first worker node machine. Reboot "
+"and setup the cluster admin account."
+msgstr "最初のワーカーノードマシンにCentreStackサーバーをインストールします。再起動してクラスター管理者アカウントを設定します。"
+
+#: ../../chapter08.rst:89
+msgid ""
+"We recommend you setup and configure the first node and make sure it runs"
+" smoothly first, before you setup and install the second node."
+msgstr "まず最初のノードを設定し、スムーズに動作することを確認してから、二番目のノードの設定とインストールを行うことをお勧めします。"
+
+#: ../../chapter08.rst:92
+msgid "Install the CentreStack server on all the other work nodes."
+msgstr "他の作業ノードすべてにCentreStackサーバーをインストールしてください。"
+
+#: ../../chapter08.rst:94
+msgid ""
+"On the database configuration window, use the same database server as the"
+" first installation."
+msgstr "データベース構成ウィンドウでは、最初のインストール時と同じデータベースサーバーを使用してください。"
+
+#: ../../chapter08.rst:97
+msgid ""
+"Please DO NOT add web nodes to the Cluster Worker Node list. Most of the "
+"time when you have a multi-worker-node design, you are servicing many "
+"users, and most of the time you have your own load balancer. In the case "
+"when you have your own load balancer, the web node functionality is "
+"merged into worker node. So you can have a zero-web-node configuration."
+msgstr "クラスターワーカーノードリストにWebノードを追加しないでください。多くの場合、複数のワーカーノード設計を使用している場合、多くのユーザーにサービスを提供しており、ほとんどの場合、独自のロードバランサーを持っています。独自のロードバランサーを持っている場合、Webノードの機能はワーカーノードに統合されます。したがって、ゼロWebノード構成を持つことができます。"
+
+#: ../../chapter08.rst:102
+msgid "Setup DNS Load balancing for all worker nodes."
+msgstr "すべてのワーカーノードにDNSロードバランシングを設定します。"
+
+#: ../../chapter08.rst:104
+msgid ""
+"Most of the time you set up a firewall or a load balancer and point the "
+"DNS to the load balancer. The load balancer will then forward to the "
+"CentreStack worker node."
+msgstr "ほとんどの場合、ファイアウォールやロードバランサーを設定し、DNSをロードバランサーに向けます。ロードバランサーはその後、CentreStackワーカーノードに転送します。"
+
+#: ../../chapter08.rst:109
+msgid ""
+"If you are using hardware load balancer, you can skip web-nodes and have "
+"an all-worker-node cluster."
+msgstr "ハードウェアロードバランサーを使用している場合、webノードをスキップして、全てがワーカーノードのクラスターを構成することができます。"
+
+#: ../../chapter08.rst:112
+msgid "Typical Deployment in Enterprises"
+msgstr "企業における典型的な導入"
+
+#: ../../chapter08.rst:114
+msgid ""
+"Here is a typical deployment schema in Visio Diagram for very big "
+"deployments in large enterprises. In this deployment, the management "
+"functionality can be separated to internal management node (A property of"
+" worker node). When management functionality is separated to internal DNS"
+" names, the management web portal is internal only and thus more secure."
+msgstr "これは、大企業での非常に大規模な展開のためのVisioダイアグラムにおける典型的なデプロイメントスキーマです。このデプロイメントでは、管理機能を内部管理ノード（ワーカーノードの属性）に分離することができます。管理機能が内部DNS名に分離されると、管理Webポータルは内部専用となり、より安全になります。"
+
+#: ../../chapter08.rst:121
+msgid "High Availability Deployment"
+msgstr "高可用性デプロイメント"
+
+#: ../../chapter08.rst:123
+msgid ""
+"For high availability, you can prepare the high availability deployment "
+"in three different layers and make sure it is high availability within "
+"each layer."
+msgstr "高可用性については、3つの異なるレイヤーで高可用性デプロイメントを準備し、各レイヤー内で高可用性が確保されていることを確認します。"
+
+#: ../../chapter08.rst:126
+msgid "Storage"
+msgstr "ストレージ"
+
+#: ../../chapter08.rst:128
+msgid ""
+"If you are using Microsoft File Server Share as your storage, you can "
+"prepare it to be replicated, for example using DFS."
+msgstr "もしMicrosoftファイルサーバーシェアをストレージとして使用している場合は、例えばDFSを使用してレプリケーションの準備をすることができます。"
+
+#: ../../chapter08.rst:130
+msgid ""
+"If you are using Amazon S3 or Windows Azure Blob, by default it is "
+"redundant and high availability."
+msgstr "Amazon S3やWindows Azure Blobを使用している場合、デフォルトでは冗長性があり、高可用性があります。"
+
+#: ../../chapter08.rst:132
+msgid "Database"
+msgstr "データベース"
+
+#: ../../chapter08.rst:134
+msgid ""
+"You can use the Microsoft SQL Server Availability Group Clustering or "
+"Availability Group Fail Over to make database high availability."
+msgstr "Microsoft SQL Server の可用性グループ クラスタリングまたは可用性グループ フェイルオーバーを使用して、データベースの高可用性を実現できます。"
+
+#: ../../chapter08.rst:137
+msgid "CentreStack Worker Node"
+msgstr "CentreStack ワーカーノード"
+
+#: ../../chapter08.rst:139
+msgid ""
+"You can have multiple centrestack worker nodes in a round robin load "
+"balancing setup to provide high availability."
+msgstr "ラウンドロビン方式のロードバランシングセットアップで、複数のcentrestackワーカーノードを持つことで、高可用性を提供することができます。"
+

@@ -47,7 +47,45 @@ source_suffix = '.rst'
 master_doc = 'contents'
 
 # General information about the project.
+#en
 project = 'Quick Start Guide'
+
+#ar
+#project = 'دليل البدء السريع'
+
+#da
+#project = 'Hurtigstartguide'
+
+#de
+#project = 'Kurzanleitung'
+
+#es
+#project = 'Guía de inicio rápido'
+
+#fi
+#project = 'Pikaopas'
+
+#fr
+#project = 'Guide de démarrage rapide'
+
+#it
+#project = 'Guida rapida'
+
+#ja
+#project = 'クイックスタートガイド'
+
+#nl
+#project = 'Snelstartgids'
+
+#pt
+#project = 'Guia de início rápido'
+
+#sv
+#project = 'Snabbstartsguide'
+
+#zh
+#project = '快速入门指南'
+
 copyright = '2025 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
@@ -67,6 +105,12 @@ release = '16.4.10331.56447'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
+locale_dirs = ['locale/']        # path is example but recommended.
+gettext_compact = False     # optional.
+html_context = {
+  'current_language': 'en',
+  'languages': [["English","en"], ["Français","fr"], ["Deutsche","de"], ["Español","es"], ["Italiano","it"], ["Português","pt"], ["Nederlands","nl"], ["中文", "zh"], ["日本語","ja"], ["Svenska","sv"], ["Suomi","fi"], ["Dansk","da"], ["عربي","ar"]]
+}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:3
+msgid "Management Console"
+msgstr "管理コンソール"
+
+#: ../../chapter05.rst:5
+msgid ""
+"If you are logged in as the Tenant administrator, access the Management "
+"Console by clicking the gear icon on the top right of the **\"File "
+"Browser\"** view."
+msgstr "テナント管理者としてログインしている場合は、**「ファイルブラウザ」** ビューの右上にある歯車アイコンをクリックして管理コンソールにアクセスします。"
+
+#: ../../chapter05.rst:7
+msgid ""
+"The Tenant Administrator will see the files and folders view by default "
+"upon initial login."
+msgstr "テナント管理者は、初回ログイン時にデフォルトでファイルとフォルダのビューを表示します。"
+
+#: ../../chapter05.rst:13
+msgid ""
+"If you are the cluster administrator, you may not see the \"Management "
+"Console\" icon. Instead, you can manage the default tenant from the "
+"Cluster Manager -> Tenant Manager and click through to manage the default"
+" tenant."
+msgstr "クラスター管理者である場合、「管理コンソール」アイコンが表示されないことがあります。その場合、クラスターマネージャー -> テナントマネージャーからデフォルトテナントを管理し、デフォルトテナントの管理画面に進むことができます。"
+
+#: ../../chapter05.rst:17
+msgid "Here is the Tenant Management Console."
+msgstr "こちらがテナント管理コンソールです。"
+
+#: ../../chapter05.rst:21
+msgid ""
+"Please reference the `CentreStack Admin Guide`_ for complete details "
+"about Tenant administration."
+msgstr "テナント管理に関する完全な詳細については、`CentreStack 管理ガイド`_ を参照してください。"
+
+#: ../../chapter05.rst:23
+msgid "Here are a few points that are more important during the deployment phase."
+msgstr "デプロイメントフェーズでは、いくつかのポイントが特に重要です。"
+
+#: ../../chapter05.rst:26
+msgid "Add Tenant"
+msgstr "テナントを追加"
+
+#: ../../chapter05.rst:28
+msgid ""
+"You can add a tenant by clicking the 'New Tenant' Button in the Tenant "
+"Manager"
+msgstr "テナントマネージャーで'New Tenant'ボタンをクリックすることでテナントを追加できます"
+
+#: ../../chapter05.rst:34
+msgid "Team Folders"
+msgstr "チームフォルダ"
+
+#: ../../chapter05.rst:36
+msgid ""
+"Team Folders are created by the tenant admin. The users that can be "
+"assigned to the team folders are the team users within the tenant. Each "
+"team user can be assigned read or write permissions to the team folder. "
+"For the team users that are not assigned with a specific team folder, the"
+" team folder will not show up. Team folders users can also be assigned "
+"the \"Owner\" permission. The owner permission allows the \"owner\" to "
+"maintain and manage the team folder permissions."
+msgstr "チームフォルダはテナント管理者によって作成されます。チームフォルダに割り当てることができるユーザーは、テナント内のチームユーザーです。各チームユーザーには、チームフォルダへの読み取りまたは書き込み権限が割り当てられます。特定のチームフォルダに割り当てられていないチームユーザーには、そのチームフォルダは表示されません。チームフォルダのユーザーには「オーナー」権限も割り当てることができます。オーナー権限を持つユーザーは、チームフォルダの権限を維持および管理することができます。"
+
+#: ../../chapter05.rst:42
+msgid ""
+"You can navigate to the Team Folders by clicking on the \"Team Folders\" "
+"tab from the left side menu of Tenant Manager."
+msgstr "「テナントマネージャー」の左側のメニューから「チームフォルダー」タブをクリックすると、チームフォルダーに移動できます。"
+
+#: ../../chapter05.rst:44
+msgid "Here is the Team Folders page."
+msgstr "こちらがチームフォルダのページです。"
+
+#: ../../chapter05.rst:50
+msgid "User Manager"
+msgstr "ユーザーマネージャー"
+
+#: ../../chapter05.rst:52
+msgid ""
+"In the user manager, you can create users, import users from Active "
+"Directory over LDAP or import users from Active Directory via Server "
+"Agent. Click on the \"Users\" tab from the left side menu of Tenant "
+"Manager. Then click on \"Create or Migrate Users\"."
+msgstr "ユーザーマネージャーでは、ユーザーを作成したり、LDAP経由でActive Directoryからユーザーをインポートしたり、サーバーエージェントを介してActive Directoryからユーザーをインポートすることができます。テナントマネージャーの左側のメニューから「ユーザー」タブをクリックします。次に、「ユーザーの作成または移行」をクリックします。"
+
+#: ../../chapter05.rst:58
+msgid "This should take you to a menu of options to add a new user to the tenant."
+msgstr "これにより、テナントに新しいユーザーを追加するためのオプションメニューが表示されるはずです。"
+
+#: ../../chapter05.rst:64
+msgid "Delegate Administration"
+msgstr "管理者権限の委任"
+
+#: ../../chapter05.rst:66
+msgid ""
+"You can add full delegated admin to the list of \"Cloud Administrators\"."
+" Once you reach the tenant dashboard, click \"Settings\" from left side "
+"menu, and then go to the \"User Account & Security\". In \"User Account &"
+" Security\", Click on \"Tenant Administrators\"."
+msgstr "「クラウド管理者」のリストに完全委任管理者を追加することができます。テナントダッシュボードに到達したら、左側のメニューから「設定」をクリックし、「ユーザーアカウント＆セキュリティ」に進んでください。「ユーザーアカウント＆セキュリティ」で、「テナント管理者」をクリックします。"
+
+#: ../../chapter05.rst:72
+msgid ""
+"At the bottom of the Tenant Administrators page, you can designate the "
+"delegated admin."
+msgstr "テナント管理者ページの最下部で、委任された管理者を指定することができます。"
+
+#: ../../chapter05.rst:77
+msgid "Active Directory Integration (Optional)"
+msgstr "アクティブディレクトリ統合（オプション）"
+
+#: ../../chapter05.rst:79
+msgid ""
+"It is optional to setup the Active Directory Integration. You can get to "
+"the integration page from the Management Console -> Settings -> Active "
+"Directory Settings. The active directory setting here refers to local "
+"Active Directory with LDAP integration. For remote Active Directory, "
+"server agent can be used to connect remote file server folders and remote"
+" Active Directory."
+msgstr "Active Directory インテグレーションの設定は任意です。インテグレーションページには、管理コンソール -> 設定 -> Active Directory 設定からアクセスできます。ここでのアクティブディレクトリ設定は、LDAP インテグレーションを持つローカル Active Directory を指します。リモート Active Directory の場合、サーバーエージェントを使用してリモートファイルサーバーフォルダーとリモート Active Directory を接続できます。"
+
+#: ../../chapter05.rst:84
+msgid ""
+"Once you reach the tenant dashboard, click \"Settings\" from left side "
+"menu, and then go to the \"Active Directory\" option."
+msgstr "テナントダッシュボードに到達したら、左側のメニューから「設定」をクリックし、「アクティブディレクトリ」オプションに進んでください。"
+
+#: ../../chapter05.rst:88
+msgid ""
+"This will take you to the Active Directory Page. After you turn on the "
+"switch and enable Active Directory Integration, you can fill in your "
+"information for Active Directory."
+msgstr "これによりアクティブディレクトリページに移動します。スイッチをオンにしてアクティブディレクトリ統合を有効にした後、アクティブディレクトリの情報を入力できます。"
+
+#: ../../chapter05.rst:94
+msgid ""
+"If this specific tenant's Active Directory is at a remote location, "
+"please use the CentreStack Server Agent to connect the Active Directory "
+"(No need to use LDAP over Internet WAN connection)."
+msgstr "この特定のテナントのActive Directoryがリモートの場所にある場合は、CentreStack Server Agentを使用してActive Directoryに接続してください（インターネットWAN接続でLDAPを使用する必要はありません）。"
+
+#: ../../chapter05.rst:100
+msgid "Branding"
+msgstr "ブランディング"
+
+#: ../../chapter05.rst:102
+msgid ""
+"You can brand the web portal, Windows and Mac clients, iOS and Android "
+"Applications."
+msgstr "ウェブポータル、WindowsおよびMacクライアント、iOSおよびAndroidアプリケーションをブランド化することができます。"
+
+#: ../../chapter05.rst:104
+msgid ""
+"The self-service branding starts with the \"Cluster Manager\". In order "
+"to start the branding, you will login to the web portal as the Cluster "
+"Administrator."
+msgstr "セルフサービスのブランディングは「クラスターマネージャー」から始まります。ブランディングを開始するには、クラスター管理者としてWebポータルにログインします。"
+
+#: ../../chapter05.rst:107
+msgid ""
+"After you login to the web portal, click to the \"Cluster Branding\" "
+"Pages."
+msgstr "ウェブポータルにログインした後、「クラスターブランディング」ページをクリックしてください。"
+
+#: ../../chapter05.rst:111
+msgid ""
+"Please reference the \"Cluster Branding\" section in the `Admin Guide`_ "
+"for the self-hosted CentreStack server."
+msgstr "「クラスターブランディング」セクションをご参照ください。これは、セルフホスト型のCentreStackサーバーの `管理ガイド`_ に記載されています。"
+

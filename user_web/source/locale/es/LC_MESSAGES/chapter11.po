@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Tenant Administrator"
+msgstr "Administrador del Inquilino"
+
+#: ../../chapter11.rst:5
+msgid ""
+"Please reference the `Admin Guide`__ for full documentation of the tenant"
+" administration. Here we will go over several commonly touched areas for "
+"tenant administrators."
+msgstr "Por favor, consulte la `Guía de Administración`__ para obtener la documentación completa de la administración del inquilino. Aquí repasaremos varias áreas comúnmente abordadas por los administradores de inquilinos."
+
+#: ../../chapter11.rst:10
+msgid ""
+"After you enter the \"management console\", you will be in the tenant "
+"manager. You can access the tenant by clicking on the desired tenant from"
+" the options."
+msgstr "Después de ingresar a la \"consola de gestión\", estará en el administrador de inquilinos. Puede acceder al inquilino haciendo clic en el inquilino deseado de las opciones."
+
+#: ../../chapter11.rst:15
+msgid ""
+"Under Management Console, an admin can configure storage, monitor shared "
+"objects, create and manage team folders, manage users, configure granular"
+" group policies, add new tenant administrators, look at different "
+"reports, and under advanced configure AD etc."
+msgstr "Bajo la Consola de Administración, un administrador puede configurar almacenamiento, monitorear objetos compartidos, crear y gestionar carpetas de equipo, administrar usuarios, configurar políticas de grupo granulares, añadir nuevos administradores de tenant, observar diferentes informes y, bajo avanzado, configurar AD, etc."
+
+#: ../../chapter11.rst:17
+msgid ""
+"After you click a tenant, you will be in the tenant dashboard. You can "
+"click through to different managers. You can manage users **(1)** and "
+"folders **(2)**. If you are using an Active Directory for importing users"
+" and permissions you can connect to your Active Directory by clicking the"
+" \"Configure Now\" **(3)**."
+msgstr "Después de hacer clic en un inquilino, estarás en el panel de control del inquilino. Puedes navegar a través de diferentes administradores. Puedes gestionar usuarios **(1)** y carpetas **(2)**. Si estás utilizando un Directorio Activo para importar usuarios y permisos, puedes conectar con tu Directorio Activo haciendo clic en \"Configurar Ahora\" **(3)**."
+
+#: ../../chapter11.rst:22
+msgid "MANAGE USERS AND FILES"
+msgstr "GESTIONAR USUARIOS Y ARCHIVOS"
+
+#: ../../chapter11.rst:27
+msgid "User Manager"
+msgstr "Gestor de Usuarios"
+
+#: ../../chapter11.rst:29
+msgid ""
+"You can access the user manager by clicking one of these items in the "
+"Tenant Dashboard."
+msgstr "Puede acceder al gestor de usuarios haciendo clic en uno de estos elementos en el Panel de Tenant."
+
+#: ../../chapter11.rst:34
+msgid "ACCESSING THE USER MANAGER"
+msgstr "ACCEDIENDO AL GESTOR DE USUARIOS"
+
+#: ../../chapter11.rst:38
+msgid "Active Directory - LDAP"
+msgstr "Active Directory - LDAP"
+
+#: ../../chapter11.rst:40
+msgid ""
+"When you \"Create or Migrate User\" **(1)** in user manager, there are "
+"some options for adding new users. Click \"Active Directory\" **(2)**, "
+"you can add your local AD settings. Select \"Enable Active Directory "
+"Integration\" **(3)**."
+msgstr "Cuando usted \"Crea o Migra un Usuario\" **(1)** en el administrador de usuarios, hay algunas opciones para agregar nuevos usuarios. Haga clic en \"Directorio Activo\" **(2)**, puede añadir su configuración local de AD. Seleccione \"Habilitar la Integración con el Directorio Activo\" **(3)**."
+
+#: ../../chapter11.rst:45
+msgid "CONNECTING TO ACTIVE DIRECTORY (AD)"
+msgstr "CONECTANDO AL DIRECTORIO ACTIVO (AD)"
+
+#: ../../chapter11.rst:47
+msgid ""
+"This gives you access to all the settings fields and the Advanced "
+"Settings Tab **(4)**. Once you have filled in the settings with an "
+"Administrator User account from your Active Directory, click **APPLY** to"
+" accept your changes."
+msgstr "Esto te da acceso a todos los campos de configuración y la pestaña de Configuración Avanzada **(4)**. Una vez que hayas completado la configuración con una cuenta de usuario Administrador de tu Directorio Activo, haz clic en **APLICAR** para aceptar los cambios."
+
+#: ../../chapter11.rst:51
+msgid "Add Users"
+msgstr "Añadir Usuarios"
+
+#: ../../chapter11.rst:53
+msgid ""
+"You can add users from within the User Manager by clicking the \"Create "
+"or Migrate User\" button to open the **\"Options for Adding New Users\"**"
+" panel. In that panel you have several options: add a Native User, Batch "
+"Create Users, import Active Directory users and permissions, and if you "
+"have Server Agents actively connected, you will also see those servers "
+"listed here as well."
+msgstr "Puede agregar usuarios desde el Administrador de Usuarios haciendo clic en el botón \"Crear o Migrar Usuario\" para abrir el panel **\"Opciones para Agregar Nuevos Usuarios\"**. En ese panel tiene varias opciones: agregar un Usuario Nativo, Crear Usuarios en Lote, importar usuarios y permisos del Directorio Activo, y si tiene Agentes de Servidor activamente conectados, también verá esos servidores listados aquí."
+
+#: ../../chapter11.rst:58
+msgid "ADDING USERS"
+msgstr "AGREGANDO USUARIOS"
+
+#: ../../chapter11.rst:60
+msgid "**Native User**"
+msgstr "**Usuario Nativo**"
+
+#: ../../chapter11.rst:62
+msgid ""
+"Native user refers to |prodname| user that is not related to any Active "
+"Directory."
+msgstr "El usuario nativo se refiere al usuario de |prodname| que no está relacionado con ningún Directorio Activo."
+
+#: ../../chapter11.rst:65
+msgid "**Batch create users**"
+msgstr "**Creación de usuarios en lote**"
+
+#: ../../chapter11.rst:67
+msgid ""
+"These are native users in a comma separated file that can be paste into a"
+" text area so the users can be batch created."
+msgstr "Estos son usuarios nativos en un archivo separado por comas que se puede pegar en un área de texto para que los usuarios puedan ser creados en lote."
+
+#: ../../chapter11.rst:70
+msgid "**Active Directory**"
+msgstr "**Directorio Activo**"
+
+#: ../../chapter11.rst:72
+msgid ""
+"Active Directory means users from Local Area Network (LAN) that is in the"
+" same network as the |prodname| server."
+msgstr "Active Directory significa usuarios de la Red de Área Local (LAN) que está en la misma red que el servidor |prodname|."
+
+#: ../../chapter11.rst:75
+msgid "**Server-Agent-Name**"
+msgstr "**Nombre-del-Agente-del-Servidor**"
+
+#: ../../chapter11.rst:77
+msgid ""
+"If you already have the \"Server Agent\" installed and the server agent "
+"is actively connected to |prodname|, you will also see the server agents "
+"listed by name in the Add User page."
+msgstr "Si ya tiene instalado el \"Agente de Servidor\" y el agente de servidor está activamente conectado a |prodname|, también verá los agentes de servidor listados por nombre en la página de Agregar Usuario."
+
+#: ../../chapter11.rst:83
+msgid "Native Users"
+msgstr "Usuarios Nativos"
+
+#: ../../chapter11.rst:85
+msgid ""
+"When a new user is created, the administrator will specify the amount of "
+"cloud storage that the new user is allowed to use. The email address will"
+" send a welcome email to the new user and will serve as his/her username."
+msgstr "Cuando se crea un nuevo usuario, el administrador especificará la cantidad de almacenamiento en la nube que el nuevo usuario tiene permitido usar. La dirección de correo electrónico enviará un correo de bienvenida al nuevo usuario y servirá como su nombre de usuario."
+
+#: ../../chapter11.rst:90
+msgid "ADDING A NATIVE USER"
+msgstr "AGREGANDO UN USUARIO NATIVO"
+
+#: ../../chapter11.rst:94
+msgid ""
+"When quota is left as zero, it means no limitation until the tenant quota"
+" limit is hit."
+msgstr "Cuando la cuota se deja en cero, significa que no hay limitación hasta que se alcance el límite de cuota del inquilino."
+
+#: ../../chapter11.rst:97
+msgid "Active Directory Users from LDAP"
+msgstr "Usuarios de Active Directory desde LDAP"
+
+#: ../../chapter11.rst:99
+msgid ""
+"If the Active Directory (LDAP) is not already configured, you will need "
+"to configure it first. You can from \"Settings\" > \"Active Directory\", "
+"or \"Create or Migrate User\" > \"Active Directory\" to access the "
+"settings."
+msgstr "Si el Active Directory (LDAP) no está configurado previamente, necesitarás configurarlo primero. Puedes hacerlo desde \"Configuración\" > \"Active Directory\", o \"Crear o Migrar Usuario\" > \"Active Directory\" para acceder a los ajustes."
+
+#: ../../chapter11.rst:104
+msgid "CONFIGURE YOUR ACTIVE DIRECTORY SETTINGS"
+msgstr "CONFIGURE SUS AJUSTES DE ACTIVE DIRECTORY"
+
+#: ../../chapter11.rst:106
+msgid ""
+"If the Active Directory (LDAP) is already configured, you will see the "
+"Active Directory name at the bottom of the AD icon in the \"Add User\" "
+"view."
+msgstr "Si el Directorio Activo (LDAP) ya está configurado, verás el nombre del Directorio Activo en la parte inferior del icono de AD en la vista de \"Agregar Usuario\"."
+
+#: ../../chapter11.rst:108
+msgid "Add Active Directory Users where those users are from local area network."
+msgstr "Agregar Usuarios de Active Directory donde esos usuarios son de red de área local."
+
+#: ../../chapter11.rst:113
+msgid "ADDING ACTIVE DIRECTORY USERS"
+msgstr "AGREGANDO USUARIOS DE ACTIVE DIRECTORY"
+
+#: ../../chapter11.rst:116
+msgid ""
+"After the Active Directory is configured, you can use the Add User wizard"
+" to import Active Directory users into |prodname|."
+msgstr "Después de configurar el Active Directory, puede utilizar el asistente de Agregar Usuario para importar usuarios del Active Directory a |prodname|."
+
+#: ../../chapter11.rst:121
+msgid ""
+"For best practice, you will only configure Active Directory via LDAP if "
+"the file server is also local in the same network as the Active Directory"
+" server."
+msgstr "Para mejores prácticas, solo configurarás Active Directory a través de LDAP si el servidor de archivos también está local en la misma red que el servidor de Active Directory."
+
+#: ../../chapter11.rst:126
+msgid "Active Directory Users from Server Agent"
+msgstr "Usuarios de Active Directory desde el Agente del Servidor"
+
+#: ../../chapter11.rst:128
+msgid ""
+"When the Server Agent is available and connects to the specific tenant in"
+" |prodname|, the Server Agent will show up with the server's name at the "
+"bottom of the icon."
+msgstr "Cuando el Agente del Servidor está disponible y se conecta al inquilino específico en |prodname|, el Agente del Servidor aparecerá con el nombre del servidor en la parte inferior del icono."
+
+#: ../../chapter11.rst:132
+msgid ""
+"Click through the Server Agent icon, you will see the \"Add User\" wizard"
+" and complete the wizard to add users. This is very similar to the add AD"
+" user from local LDAP process above."
+msgstr "Haga clic en el icono del Agente del Servidor, verá el asistente \"Agregar Usuario\" y complete el asistente para añadir usuarios. Esto es muy similar al proceso de añadir un usuario de AD desde LDAP local mencionado anteriormente."
+
+#: ../../chapter11.rst:136
+msgid ""
+"When the Active Directory is at a remote location, not directly connected"
+" to |prodname| server, Server Agent can be used to facilitate the "
+"communication. Server Agent doesn't need to be installed directly on a "
+"remote Active Directory server, the Server Agent needs to be installed on"
+" a remote file server that is part of the remote Active Directory domain."
+msgstr "Cuando el Active Directory se encuentra en una ubicación remota, no conectada directamente al servidor |prodname|, se puede utilizar el Agente de Servidor para facilitar la comunicación. El Agente de Servidor no necesita instalarse directamente en un servidor de Active Directory remoto, el Agente de Servidor debe instalarse en un servidor de archivos remoto que forme parte del dominio de Active Directory remoto."
+
+#: ../../chapter11.rst:140
+msgid "Deleting Users"
+msgstr "Eliminación de Usuarios"
+
+#: ../../chapter11.rst:142
+msgid ""
+"When a user leaves the team, administrators can delete the user's login. "
+"Just click the Delete icon in 'User Manager' window."
+msgstr "Cuando un usuario abandona el equipo, los administradores pueden eliminar el inicio de sesión del usuario. Solo haga clic en el icono de Eliminar en la ventana 'Gestor de Usuarios'."
+
+#: ../../chapter11.rst:147
+msgid "DELETING A USER"
+msgstr "ELIMINAR UN USUARIO"
+
+#: ../../chapter11.rst:151
+msgid "Managing User Quotas"
+msgstr "Gestión de Cuotas de Usuario"
+
+#: ../../chapter11.rst:153
+msgid ""
+"Administrators can assign a quota to each user. A user will not be "
+"allowed to upload files to |prodname| once their quota has been reached."
+msgstr "Los administradores pueden asignar una cuota a cada usuario. Un usuario no podrá subir archivos a |prodname| una vez que haya alcanzado su cuota."
+
+#: ../../chapter11.rst:155
+msgid ""
+"If the quota is 0 for the user, there is no limit on how much storage the"
+" user can use."
+msgstr "Si la cuota es 0 para el usuario, no hay límite en la cantidad de almacenamiento que el usuario puede utilizar."
+
+#: ../../chapter11.rst:157
+msgid ""
+"Click the 'Management Console' and select 'Users'. Click the \"Edit\" "
+"icon on an user to manage. On \"Storage\" tab, select \"Edit\" icon for "
+"storage quota."
+msgstr "Haga clic en 'Consola de administración' y seleccione 'Usuarios'. Haga clic en el icono \"Editar\" en un usuario para gestionar. En la pestaña \"Almacenamiento\", seleccione el icono \"Editar\" para la cuota de almacenamiento."
+
+#: ../../chapter11.rst:162
+msgid "EDITING STORAGE QUOTA"
+msgstr "EDITANDO CUOTA DE ALMACENAMIENTO"
+
+#: ../../chapter11.rst:166
+msgid "Managing User Credentials"
+msgstr "Gestión de Credenciales de Usuario"
+
+#: ../../chapter11.rst:168
+msgid "Admins can change user passwords and login emails, if needed."
+msgstr "Los administradores pueden cambiar las contraseñas y correos electrónicos de inicio de sesión de los usuarios, si es necesario."
+
+#: ../../chapter11.rst:170
+msgid "Click 'Management Console' and select 'User Manager'"
+msgstr "Haga clic en 'Consola de Administración' y seleccione 'Gestor de Usuarios'"
+
+#: ../../chapter11.rst:171
+msgid "Click the \"manage user\" menu icon in the user block"
+msgstr "Haga clic en el icono del menú \"gestionar usuario\" en el bloque de usuario"
+
+#: ../../chapter11.rst:172
+msgid "After that, can use \"Reset Password\" link to help the user."
+msgstr "Después de eso, puede usar el enlace \"Restablecer contraseña\" para ayudar al usuario."
+
+#: ../../chapter11.rst:177
+msgid "RESET USER PASSWORD"
+msgstr "REINICIAR CONTRASEÑA DEL USUARIO"
+
+#: ../../chapter11.rst:180
+msgid ""
+"After changing the login password, an email will be sent to notify the "
+"user of the change. Admins can choose to include the new password in the "
+"email, or exclude the new password from the email. If the password is not"
+" included, the admin will need to convey the new password to the user in "
+"some other way."
+msgstr "Después de cambiar la contraseña de inicio de sesión, se enviará un correo electrónico para notificar al usuario del cambio. Los administradores pueden elegir incluir la nueva contraseña en el correo electrónico o excluir la nueva contraseña del correo electrónico. Si la contraseña no está incluida, el administrador necesitará comunicar la nueva contraseña al usuario de alguna otra manera."
+
+#: ../../chapter11.rst:185
+msgid "PASSWORD OPTIONS"
+msgstr "OPCIONES DE CONTRASEÑA"
+
+#: ../../chapter11.rst:188
+msgid ""
+"When either the email or password is changed, please update the "
+"corresponding login credentials in the |prodname| Cloud Desktop or Cloud "
+"Server."
+msgstr "Cuando se cambie el correo electrónico o la contraseña, por favor actualice las credenciales de inicio de sesión correspondientes en el |prodname| Cloud Desktop o Cloud Server."
+
+#: ../../chapter11.rst:192
+msgid ""
+"This only applies to a native |prodname| user. If you have Active "
+"Directory users, you will need to manage user's credential the Active "
+"Directory way."
+msgstr "Esto solo se aplica a un usuario nativo de |prodname|. Si tienes usuarios de Active Directory, necesitarás gestionar las credenciales del usuario de la manera de Active Directory."
+
+#: ../../chapter11.rst:196
+msgid "Team Folders"
+msgstr "Carpetas de equipo"
+
+#: ../../chapter11.rst:198
+msgid ""
+"Adding files and folders can be accomplished by clicking \"Add a new team"
+" folder\" (**+**) icon on \"Team Folders\" page. Once the **\"Team Folder"
+" Storage Locations\"** view opens you can choose from many options: "
+"Existing Tenant Storage, File Servers in Local Area Network, Remote File "
+"Servers or Cloud Storage."
+msgstr "Agregar archivos y carpetas se puede realizar haciendo clic en el ícono \"Agregar una nueva carpeta de equipo\" (**+**) en la página de \"Carpetas de equipo\". Una vez que se abre la vista de **\"Ubicaciones de almacenamiento de la carpeta de equipo\"**, puedes elegir entre varias opciones: Almacenamiento de inquilino existente, Servidores de archivos en red local, Servidores de archivos remotos o Almacenamiento en la nube."
+
+#: ../../chapter11.rst:203
+msgid "WAYS TO ADD STORAGE LOCATIONS"
+msgstr "FORMAS DE AGREGAR UBICACIONES DE ALMACENAMIENTO"
+
+#: ../../chapter11.rst:206
+msgid "**File Servers**"
+msgstr "**Servidores de Archivos**"
+
+#: ../../chapter11.rst:208
+msgid ""
+"If you have an existing file server in the Local Area Network (LAN), you "
+"can import the network share directly to |prodname| **(1)**. Under Remote"
+" File Servers, you can install the Server Agent client **(2)** and access"
+" your file server remotely."
+msgstr "Si tienes un servidor de archivos existente en la Red de Área Local (LAN), puedes importar el recurso compartido de red directamente a |prodname| **(1)**. Bajo Servidores de Archivos Remotos, puedes instalar el cliente del Agente de Servidor **(2)** y acceder a tu servidor de archivos de forma remota."
+
+#: ../../chapter11.rst:213
+msgid "ADDING REMOTE FILES"
+msgstr "AGREGANDO ARCHIVOS REMOTOS"
+
+#: ../../chapter11.rst:218
+msgid ""
+"The Server Agent is only required when the remote file server doesn't "
+"have direct LAN (local area network) access"
+msgstr "El Agente del Servidor solo es necesario cuando el servidor de archivos remoto no tiene acceso directo a la LAN (red de área local)"
+
+#: ../../chapter11.rst:218
+msgid ""
+"to |prodname|. The Server Agent will be used in this case to facilitate "
+"communication between the |prodname| server to the remote file server."
+msgstr "a |prodname|. El Agente del Servidor se utilizará en este caso para facilitar la comunicación entre el servidor |prodname| y el servidor de archivos remoto."
+
+#: ../../chapter11.rst:221
+msgid ""
+"|prodname| enables the creation of team folders which are owned by the "
+"administrator and published to other |prodname| users."
+msgstr "|prodname| permite la creación de carpetas de equipo que son propiedad del administrador y publicadas a otros usuarios de |prodname|."
+
+#: ../../chapter11.rst:223
+msgid ""
+"Once a folder is published, it is displayed as a team folder to the users"
+" who have access permissions. Users can access these folders from "
+"|prodname| Web or other client agents. The published folder will appear "
+"under the user's root folder, and its name will be appended with \"(Team "
+"Folder)\"."
+msgstr "Una vez que se publica una carpeta, se muestra como una carpeta de equipo para los usuarios que tienen permisos de acceso. Los usuarios pueden acceder a estas carpetas desde |prodname| Web u otros agentes cliente. La carpeta publicada aparecerá debajo de la carpeta raíz del usuario, y su nombre se anexará con \"(Carpeta de Equipo)\"."
+
+#: ../../chapter11.rst:229
+msgid "TEAM FOLDER TAG"
+msgstr "ETIQUETA DE CARPETA DE EQUIPO"
+
+#: ../../chapter11.rst:233
+msgid ""
+"Different upload methods may have different advantage and disadvantage on"
+" different web browsers and different web browser configuration, such as "
+"whether it is HTML5 enabled, Java enabled or Flash enabled."
+msgstr "Los diferentes métodos de carga pueden tener distintas ventajas y desventajas en diferentes navegadores web y configuraciones de navegador, como si tienen habilitado HTML5, Java o Flash."
+
+#: ../../chapter11.rst:236
+msgid ""
+"By default, only one upload method was exposed in the web user interface."
+" However, the tenant administrator, based on the kind of web browser the "
+"company is using and the kind of configuration the web browser has, can "
+"decide which upload method to expose to the end user (Team User)."
+msgstr "De forma predeterminada, solo se exponía un método de carga en la interfaz de usuario web. Sin embargo, el administrador del inquilino, en función del tipo de navegador web que esté utilizando la empresa y del tipo de configuración que tenga el navegador, puede decidir qué método de carga exponer al usuario final (Usuario del Equipo)."
+
+#: ../../chapter11.rst:239
+msgid ""
+"Below is the Settings -> Clients & Applications -> Web Portal setting "
+"administrator can control."
+msgstr "A continuación se muestra la configuración de Ajustes -> Clientes y Aplicaciones -> Portal Web que el administrador puede controlar."
+
+#: ../../chapter11.rst:244
+msgid "UPLOADER METHOD OPTIONS"
+msgstr "OPCIONES DEL MÉTODO DE CARGA"
+
+#: ../../chapter11.rst:246
+msgid "Web Browser - Disable Java Uploader"
+msgstr "Navegador Web - Desactivar el Cargador de Java"
+
+#: ../../chapter11.rst:248
+msgid ""
+"Deselect this if your companies' desktop system web browsers use a Java "
+"Uploader."
+msgstr "Deseleccione esto si los navegadores web del sistema de escritorio de su empresa utilizan un Cargador Java."
+
+#: ../../chapter11.rst:250
+msgid "Web Browser - Disable Flash Uploader"
+msgstr "Navegador Web - Desactivar Cargador Flash"
+
+#: ../../chapter11.rst:252
+msgid ""
+"Deselect this if your company uses browsers that require Flash uploader "
+"functionality."
+msgstr "Deseleccione esto si su empresa utiliza navegadores que requieren la funcionalidad de cargador Flash."
+
+#: ../../chapter11.rst:254
+msgid "Web Browser - Disable Local Uploader"
+msgstr "Navegador Web - Desactivar Cargador Local"
+
+#: ../../chapter11.rst:256
+msgid ""
+"Deselect this if your company allows the use of a local executable to "
+"upload files."
+msgstr "Deseleccione esto si su empresa permite el uso de un ejecutable local para subir archivos."
+
+#: ../../chapter11.rst:260
+msgid "Sharing Security"
+msgstr "Seguridad de Compartición"
+
+#: ../../chapter11.rst:263
+msgid "Preventing Users From Sharing"
+msgstr "Previniendo a los Usuarios de Compartir"
+
+#: ../../chapter11.rst:265
+msgid ""
+"Sometimes for security reasons, users should not be allowed to share "
+"files/folders."
+msgstr "A veces, por razones de seguridad, no se debe permitir que los usuarios compartan archivos/carpetas."
+
+#: ../../chapter11.rst:267
+msgid "There are two types of files and folders a user can access."
+msgstr "Hay dos tipos de archivos y carpetas a los que un usuario puede acceder."
+
+#: ../../chapter11.rst:269
+msgid ""
+"User's own folders, including versioned folders and attached local "
+"folders from the user's desktop."
+msgstr "Carpetas propias del usuario, incluyendo carpetas con versiones y carpetas locales adjuntas desde el escritorio del usuario."
+
+#: ../../chapter11.rst:271
+msgid ""
+"When an administrator creates new users, he/she can disable sharing home "
+"directory content with external party, to prevent the newly created user "
+"from sharing his/her own files and folders."
+msgstr "Cuando un administrador crea nuevos usuarios, puede deshabilitar el compartir contenido del directorio principal con terceros, para evitar que el usuario recién creado comparta sus propios archivos y carpetas."
+
+#: ../../chapter11.rst:277
+msgid "MANAGE USER SETTINGS"
+msgstr "GESTIONAR CONFIGURACIONES DE USUARIO"
+
+#: ../../chapter11.rst:279
+msgid ""
+"In the Manage User panel, access the \"Storage\" settings (4). Once you "
+"are in the Storage View you can select (5) the \"Disable external sharing"
+" of this user's home directory content\" option."
+msgstr "En el panel de Administrar Usuario, accede a la configuración de \"Almacenamiento\" (4). Una vez que estés en la Vista de Almacenamiento puedes seleccionar (5) la opción \"Desactivar el uso compartido externo del contenido del directorio principal de este usuario\"."
+
+#: ../../chapter11.rst:284
+msgid "DISABLE EXTERNAL SHARING"
+msgstr "DESACTIVAR COMPARTIR EXTERNO"
+
+#: ../../chapter11.rst:287
+msgid ""
+"When publishing a team folder, administrator can check 'Disable further "
+"sharing', to prevent users from sharing anything in the team folder. You "
+"can access this setting after choosing your storage location. Click the "
+"\"Create Team Folder\" **(+)** icon (1) and select your storage type (2),"
+" \"New Team Folder\" window opens, click \"Settings\" icon (3), then "
+"select the \"Disable further sharing\" option (4)."
+msgstr "Cuando se publica una carpeta de equipo, el administrador puede marcar 'Desactivar más compartición', para evitar que los usuarios compartan cualquier cosa en la carpeta de equipo. Puedes acceder a esta configuración después de elegir tu ubicación de almacenamiento. Haz clic en el icono **(+)** \"Crear Carpeta de Equipo\" (1) y selecciona tu tipo de almacenamiento (2), se abrirá la ventana \"Nueva Carpeta de Equipo\", haz clic en el icono \"Configuración\" (3), luego selecciona la opción \"Desactivar más compartición\" (4)."
+
+#: ../../chapter11.rst:292
+msgid "DISABLE FURTHER SHARING"
+msgstr "DESACTIVAR EL COMPARTIR ADICIONAL"
+
+#: ../../chapter11.rst:296
+msgid "Protecting Shares By Requiring Login"
+msgstr "Protección de Comparticiones Requiriendo Inicio de Sesión"
+
+#: ../../chapter11.rst:298
+msgid ""
+"When a user shares a file or folder, |prodname| will generate a URL. By "
+"default, anyone can use the URL to access the share."
+msgstr "Cuando un usuario comparte un archivo o carpeta, |prodname| generará una URL. De forma predeterminada, cualquiera puede usar la URL para acceder a la compartición."
+
+#: ../../chapter11.rst:300
+msgid ""
+"Administrators can protect shares by requiring login credentials. Once "
+"enabled, when a user accesses the share URL, he /she will be prompted to "
+"login to the |prodname| Cloud. After login, the user can view the "
+"file/folder shared with him/her under 'Files shared with me'."
+msgstr "Los administradores pueden proteger los recursos compartidos requiriendo credenciales de inicio de sesión. Una vez habilitado, cuando un usuario accede a la URL del recurso compartido, se le solicitará iniciar sesión en |prodname| Cloud. Después del inicio de sesión, el usuario puede ver el archivo/carpeta compartido con él/ella bajo 'Archivos compartidos conmigo'."
+
+#: ../../chapter11.rst:303
+msgid ""
+"To access this setting use the \"Settings\" menu (1) and in the \"Data "
+"Leak Protection\" (2) -> \"Sharing\" (3) panel, select the \"Users must "
+"log in to access the content in 'Files shared with me' folder\" setting "
+"(4)."
+msgstr "Para acceder a esta configuración, utilice el menú \"Configuración\" (1) y en el panel \"Protección contra Fugas de Datos\" (2) -> \"Compartir\" (3), seleccione la configuración \"Los usuarios deben iniciar sesión para acceder al contenido en la carpeta 'Archivos compartidos conmigo'\" (4)."
+
+#: ../../chapter11.rst:308
+msgid "SECURING SHARED FILES AND FOLDERS"
+msgstr "ASEGURANDO ARCHIVOS Y CARPETAS COMPARTIDOS"
+

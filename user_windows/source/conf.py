@@ -49,7 +49,45 @@ source_suffix = '.rst'
 master_doc = 'contents'
 
 # General information about the project.
-project = 'Windows Client Guide'
+#en
+#project = 'Windows Client Guide'
+
+#ar
+#project = 'دليل عميل Windows'
+
+#da
+#project = 'Windows-klientvejledning'
+
+#de
+#project = 'Windows-Clienthandbuch'
+
+#es
+#project = 'Guía del cliente de Windows'
+
+#fi
+#project = 'Windows-asiakasopas'
+
+#fr
+#project = 'Guide du client Windows'
+
+#it
+#project = 'Guida per i client Windows'
+
+#ja
+#project = 'Windows クライアント ガイド'
+
+#nl
+#project = 'Windows Client-handleiding'
+
+#pt
+#project = 'Guia do cliente Windows'
+
+#sv
+#project = 'Windows-klientguide'
+
+#zh
+project = 'Windows 客户端指南'
+
 copyright = '2025 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
@@ -72,6 +110,12 @@ release = '16.4.4767.56434'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
+locale_dirs = ['locale/']        # path is example but recommended.
+gettext_compact = False     # optional.
+html_context = {
+  'current_language': 'en',
+  'languages': [["English","en"], ["Français","fr"], ["Deutsche","de"], ["Español","es"], ["Italiano","it"], ["Português","pt"], ["Nederlands","nl"], ["中文", "zh"], ["日本語","ja"], ["Svenska","sv"], ["Suomi","fi"], ["Dansk","da"], ["عربي","ar"]]
+}
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:

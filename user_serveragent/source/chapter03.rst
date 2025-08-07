@@ -367,37 +367,37 @@ You can also use the **"Open My Cloud"** link to access the Login Panel.
 
 Each of the Task Manager sections below include a series of tabs that include the following: 
 
-**‘Summary’** 
+**'Summary'** 
 
-    This tab shows a summary of all the **"System Update Tasks"**. It shows the **"Task Type"** where the type is the name of the task. It shows the ‘Status’ as **"Pending"** which means that the **"System Update Task"** is always looking for changes and is always in **"Pending"** state in case there are any updates that needs to occur. 
+    This tab shows a summary of all the **"System Update Tasks"**. It shows the **"Task Type"** where the type is the name of the task. It shows the 'Status' as **"Pending"** which means that the **"System Update Task"** is always looking for changes and is always in **"Pending"** state in case there are any updates that needs to occur. 
 
     Summary also shows the following: 
 
-    **‘Last Run Time’** 
+    **'Last Run Time'** 
     
     This shows the time when the Server Agent software last detected the changes on the local file system and ran to update the files in the cloud.
 
-    **‘Next Start Time’** 
+    **'Next Start Time'** 
     
-    This shows the time when the **"Update Task"** will run next. The counter increments every 15 seconds. The software will run the update tasks right away. You can also use the **"Pause"** option to stop the update Administrator can force the updates by clicking on **"Start Now"** option in which case the task from updating local changes to the cloud. **"Delete Task"** option allows to delete any tasks for which updates are not desired. **"Refresh"** will refresh all the counters on the ‘Summary’ tab.
+    This shows the time when the **"Update Task"** will run next. The counter increments every 15 seconds. The software will run the update tasks right away. You can also use the **"Pause"** option to stop the update Administrator can force the updates by clicking on **"Start Now"** option in which case the task from updating local changes to the cloud. **"Delete Task"** option allows to delete any tasks for which updates are not desired. **"Refresh"** will refresh all the counters on the 'Summary' tab.
 
-    **‘Completed Subtasks’**
+    **'Completed Subtasks'**
     
     This shows the number of upload subtasks that have been completed.
 
-**‘Running Subtasks’** 
+**'Running Subtasks'** 
 
     This shows how many subtasks are currently running. (See Tab for more info)
 
-**‘Pending Subtasks’** 
+**'Pending Subtasks'** 
 
     This shows the subtasks which are in pending state and waiting for their turn to get uploaded to the cloud. (See Tab for more info)
 
-**‘Pending Retry Subtasks’** 
+**'Pending Retry Subtasks'** 
 
     This shows the number of any tasks which are pending retry meaning for some reason the changes for some files were not uploaded to the cloud and hence they are in the **"Pending Retry Subtasks"** queue and as soon as their turn comes the changes for files in **"Pending Retry Subtasks**" will also be uploaded to the cloud. (See Tab for more info)
 
-**‘Trace’** 
+**'Trace'** 
 
     This tab provides trace information about tasks. (See Tab for more info) 
 
@@ -466,14 +466,14 @@ This link at the bottom allows you to **Login with different credentials** to la
         
     FILE SERVER
 
-**"File Server"** shows all the data that have been uploaded to the cloud and the files and folder structure. It lists folder structure which includes sub-folders as well. The local folders that are attached either from the file server or a user’s machine have the machine name in parenthesis.
+**"File Server"** shows all the data that have been uploaded to the cloud and the files and folder structure. It lists folder structure which includes sub-folders as well. The local folders that are attached either from the file server or a user's machine have the machine name in parenthesis.
 
-An Administrator can create a new sub-folder below selected node or can attach additional local folders using the **"Attach Local Folder"** option under **"Actions"**. Attaching a local folder to |prodname| Cloud using the **"Attach Local Folder"** option allows immediate access to the local content from anywhere using any device. **“Attached Local Folder”** will be synchronized upwards to the cloud first and also the changes in the cloud will be sync down to the local file server.
+An Administrator can create a new sub-folder below selected node or can attach additional local folders using the **"Attach Local Folder"** option under **"Actions"**. Attaching a local folder to |prodname| Cloud using the **"Attach Local Folder"** option allows immediate access to the local content from anywhere using any device. **"Attached Local Folder"** will be synchronized upwards to the cloud first and also the changes in the cloud will be sync down to the local file server.
 
 Administrator can also highlight an existing cloud folder and create new sub-folders underneath that highlighted folder.
 
 .. note::
-  The two-way synchronization feature of the **“Attach Local Folder”** only applies to local folders such as those on the C: drive, D: drive and local hard drives in general. It won’t work for network share. The two-way synchronization depends on the local file system’s event change notification about files and folders. These changes will be detected and synchronization will happen based on the changes.
+  The two-way synchronization feature of the **"Attach Local Folder"** only applies to local folders such as those on the C: drive, D: drive and local hard drives in general. It won't work for network share. The two-way synchronization depends on the local file system's event change notification about files and folders. These changes will be detected and synchronization will happen based on the changes.
 
 An administrator can also manage the folder using Web Portal by using the **"Manage"** option. This will allow an admin to convert any folders that have been attached to the cloud or are in the cloud to convert them into **"Team Folders"** for collaboration etc. Highlight the folder and select **"Manage"** under **"Actions"**.
 
@@ -512,7 +512,7 @@ That diversion shows you how you can create, access and modify folders and setti
         
     FOLDER ACTIONS
 
-**"Delete"** does not remove the content of the folder from local storage; however, it does detach the selected folder and its contents from the cloud. If you go to the Web Portal and re-create a folder with exactly the same name (including the machine’s name and the parenthesis), the folder can be shown with a cloud-only context without any local machine relationship. 
+**"Delete"** does not remove the content of the folder from local storage; however, it does detach the selected folder and its contents from the cloud. If you go to the Web Portal and re-create a folder with exactly the same name (including the machine's name and the parenthesis), the folder can be shown with a cloud-only context without any local machine relationship. 
 
 .. figure:: _static/image_s3_4_10a.png
     :align: center
@@ -520,7 +520,7 @@ That diversion shows you how you can create, access and modify folders and setti
     FOLDER ACTIONS
 
 
-**"Attach a Folder to Backup"** (see above) allows an administrator to attach and two-way synchronize a local folder to the cloud. The default view shows all the “Attached-Folders” on the local machine that are attached to the cloud. To add a folder click the browse icon **(...)** and search for a folder to sync to the cloud. 
+**"Attach a Folder to Backup"** (see above) allows an administrator to attach and two-way synchronize a local folder to the cloud. The default view shows all the "Attached-Folders" on the local machine that are attached to the cloud. To add a folder click the browse icon **(...)** and search for a folder to sync to the cloud. 
 
 .. figure:: _static/image_s3_4_13.png
     :align: center

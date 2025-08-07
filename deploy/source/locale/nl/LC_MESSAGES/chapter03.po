@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:2
+msgid "Terminology"
+msgstr "Terminologie"
+
+#: ../../chapter03.rst:5
+msgid "CentreStack Partner Portal"
+msgstr "CentreStack Partnerportaal"
+
+#: ../../chapter03.rst:7
+msgid ""
+"The Partner Portal can be found by going to http://www.centrestack.com. "
+"Click on \"Partner\" to sign up for your partner account log in "
+"credentials, and then you can log into your partner account at anytime. "
+"From the Partner Portal, You are able to download the CentreStack "
+"software and can start the trial process. Later, you can acquire licenses"
+" to turn the trial into a production environment."
+msgstr "Het Partnerportaal is te vinden door naar http://www.centrestack.com te gaan. Klik op \"Partner\" om u aan te melden voor uw partneraccount inloggegevens, en dan kunt u op elk moment inloggen op uw partneraccount. Vanuit het Partnerportaal kunt u de CentreStack-software downloaden en het proefproces starten. Later kunt u licenties verkrijgen om de proefomgeving om te zetten in een productieomgeving."
+
+#: ../../chapter03.rst:13
+msgid "You can manage hosted-tenants from the partner portal."
+msgstr "U kunt gehoste tenants beheren vanuit het partnerportaal."
+
+#: ../../chapter03.rst:15
+msgid ""
+"You can also come back to the partner portal any time that your "
+"CentreStack software needs to be upgraded to a later version."
+msgstr "U kunt ook op elk moment terugkeren naar het partnerportaal wanneer uw CentreStack-software moet worden geüpgraded naar een latere versie."
+
+#: ../../chapter03.rst:19
+msgid "CentreStack Cluster - Server Farm"
+msgstr "CentreStack Cluster - Server Farm"
+
+#: ../../chapter03.rst:21
+msgid ""
+"Multiple CentreStack single-machine nodes connect together by pointing to"
+" the same database and then share the same configuration information from"
+" the database so that CentreStack can indirectly share the persistent "
+"storage location in a symmetrical way."
+msgstr "Meerdere CentreStack single-machine nodes verbinden met elkaar door te wijzen naar dezelfde database en delen vervolgens dezelfde configuratie-informatie uit de database zodat CentreStack op een symmetrische manier indirect de persistente opslaglocatie kan delen."
+
+#: ../../chapter03.rst:23
+msgid ""
+"Indirectly, the database contains storage related information so all the "
+"nodes in the server farm share storage related configuration."
+msgstr "Indirect, de database bevat opslag gerelateerde informatie zodat alle nodes in het serverpark de opslag gerelateerde configuratie delen."
+
+#: ../../chapter03.rst:26
+msgid ""
+"The whole CentreStack cluster operates as if it is a single entity. The "
+"smallest cluster is a single CentreStack worker node, which contains all "
+"the functionality and different logical nodes together."
+msgstr "Het hele CentreStack-cluster functioneert alsof het één enkele entiteit is. Het kleinste cluster is een enkele CentreStack-werkknooppunt, dat alle functionaliteiten en verschillende logische knooppunten samen bevat."
+
+#: ../../chapter03.rst:29
+msgid "Another term for the cluster is the **CentreStack server farm**."
+msgstr "Een andere term voor de cluster is de **CentreStack server farm**."
+
+#: ../../chapter03.rst:33
+msgid "The smallest cluster can be a single all-in-one worker node."
+msgstr "De kleinste cluster kan bestaan uit een enkele all-in-one werknode."
+
+#: ../../chapter03.rst:36
+msgid "Master Admin/Cluster Admin"
+msgstr "Hoofdbeheerder/Clusterbeheerder"
+
+#: ../../chapter03.rst:38
+msgid ""
+"In this guide, we refer to the admin user as the user that manages the "
+"whole CentreStack server farm. The server farm can be as small as a "
+"single CentreStack server. If so, the admin user will still need to "
+"manage it regardless of the size of the server farm."
+msgstr "In deze handleiding verwijzen we naar de beheerder als de gebruiker die de hele CentreStack serverfarm beheert. De serverfarm kan zo klein zijn als een enkele CentreStack server. Als dat zo is, zal de beheerder deze nog steeds moeten beheren, ongeacht de grootte van de serverfarm."
+
+#: ../../chapter03.rst:43
+msgid ""
+"The Master Admin is the very first user on the CentreStack server farm. "
+"Typically, it is the user who installs the CentreStack server software."
+msgstr "De Master Admin is de allereerste gebruiker op de CentreStack serverfarm. Het is doorgaans de gebruiker die de CentreStack server software installeert."
+
+#: ../../chapter03.rst:46
+msgid ""
+"Since this user later may set up optional Active Directory connections, "
+"it is recommended that this user's email address is not from the same "
+"Active Directory to avoid circular dependency."
+msgstr "Aangezien deze gebruiker later mogelijk optionele Active Directory-verbindingen instelt, wordt aanbevolen dat het e-mailadres van deze gebruiker niet uit dezelfde Active Directory komt om circulaire afhankelijkheid te vermijden."
+
+#: ../../chapter03.rst:50
+msgid "Tenant"
+msgstr "Huurder"
+
+#: ../../chapter03.rst:52
+msgid ""
+"CentreStack is a multi-tenant ready solution. A tenant here usually is "
+"mapped to:"
+msgstr "CentreStack is een oplossing die klaar is voor meerdere huurders. Een huurder wordt hier gewoonlijk in kaart gebracht als:"
+
+#: ../../chapter03.rst:55
+msgid "a company (if you are the company IT)"
+msgstr "een bedrijf (als u de IT van het bedrijf bent)"
+
+#: ../../chapter03.rst:56
+msgid "a client of yours (if you are a Managed Service Provider/MSP)"
+msgstr "een klant van u (als u een Managed Service Provider/MSP bent)"
+
+#: ../../chapter03.rst:58
+msgid "Tenants are created by the cluster administrator."
+msgstr "Tenants worden gecreëerd door de clusterbeheerder."
+
+#: ../../chapter03.rst:60
+msgid ""
+"You can use the CentreStack server in a single tenant setup because it is"
+" just a special case of multi-tenancy."
+msgstr "U kunt de CentreStack-server gebruiken in een single-tenant opstelling omdat het slechts een speciaal geval van multi-tenancy is."
+
+#: ../../chapter03.rst:64
+msgid ""
+"From a reporting perspective, a tenant contains a number of users and "
+"also storage quota and storage consumption."
+msgstr "Vanuit rapportageperspectief bevat een tenant een aantal gebruikers en ook opslagquota en opslagverbruik."
+
+#: ../../chapter03.rst:67
+msgid ""
+"From the technical side, a tenant is usually connected to an Active "
+"Directory and can have a bunch of connected file servers either directly "
+"or through server agents."
+msgstr "Vanuit technisch oogpunt is een tenant meestal verbonden met een Active Directory en kan een aantal verbonden bestandsservers hebben, hetzij rechtstreeks of via serveragents."
+
+#: ../../chapter03.rst:71
+msgid "Tenant Admin"
+msgstr "Tenantbeheerder"
+
+#: ../../chapter03.rst:73
+msgid ""
+"These are the users who actually use the product but are the admins for "
+"their teams (tenant or company)."
+msgstr "Dit zijn de gebruikers die het product daadwerkelijk gebruiken, maar de beheerders zijn voor hun teams (tenant of bedrijf)."
+
+#: ../../chapter03.rst:75
+msgid ""
+"This is the very first tenant account user. Usually, the Tenant User is "
+"created by Master Admin."
+msgstr "Dit is de allereerste gebruiker van het tenant-account. Gewoonlijk wordt de Tenant-gebruiker gecreëerd door de Master Admin."
+
+#: ../../chapter03.rst:77
+msgid ""
+"The Master Admin is also the Tenant Admin for his own team/company "
+"(default tenant). Tenant admin can later delegate administrative tasks to"
+" other team users."
+msgstr "De Master Admin is ook de Tenant Admin voor zijn eigen team/bedrijf (standaardtenant). De Tenant Admin kan later administratieve taken delegeren aan andere teamgebruikers."
+
+#: ../../chapter03.rst:79
+msgid ""
+"By default the cluster administrator can help the tenant administrator on"
+" the management scope."
+msgstr "Standaard kan de clusterbeheerder de tenantbeheerder helpen met de beheerscope."
+
+#: ../../chapter03.rst:82
+msgid "Tenant User"
+msgstr "Tenantgebruiker"
+
+#: ../../chapter03.rst:84
+msgid ""
+"The tenant user (team user) is a user inside a specific Tenant.  Team "
+"users are created by the Tenant Admin (or by cluster admin on behalf of "
+"the tenant admin). Team users can come from four different places:"
+msgstr "De tenantgebruiker (teamgebruiker) is een gebruiker binnen een specifieke Tenant. Teamgebruikers worden gecreëerd door de Tenant Admin (of door de clusterbeheerder namens de tenantbeheerder). Teamgebruikers kunnen uit vier verschillende plaatsen komen:"
+
+#: ../../chapter03.rst:86
+msgid "Native CentreStack User (created from scratch)"
+msgstr "Inheemse CentreStack-gebruiker (vanaf nul gemaakt)"
+
+#: ../../chapter03.rst:87
+msgid "Active Directory User from local LDAP"
+msgstr "Active Directory-gebruiker van lokale LDAP"
+
+#: ../../chapter03.rst:88
+msgid "Active Directory User from remote CentreStack Server Agent"
+msgstr "Active Directory-gebruiker van externe CentreStack Server Agent"
+
+#: ../../chapter03.rst:89
+msgid "Azure AD or other single-sign-on integrated identity provider"
+msgstr "Azure AD of andere single-sign-on geïntegreerde identiteitsprovider"
+
+#: ../../chapter03.rst:91
+msgid ""
+"Team users always belong to a specific tenant and can't span multiple "
+"tenants. However, a team user can receive file and folder share from "
+"multiple users and from multiple tenants."
+msgstr "Teamgebruikers behoren altijd tot een specifieke tenant en kunnen niet meerdere tenants overspannen. Een teamgebruiker kan echter bestanden en mappen delen ontvangen van meerdere gebruikers en van meerdere tenants."
+
+#: ../../chapter03.rst:97
+msgid ""
+"A Native CentreStack user can be mapped to Active Directory user or Azure"
+" AD user later if necessary."
+msgstr "Een native CentreStack-gebruiker kan indien nodig later worden gekoppeld aan een Active Directory-gebruiker of Azure AD-gebruiker."
+
+#: ../../chapter03.rst:101
+msgid "Guest User"
+msgstr "Gastgebruiker"
+
+#: ../../chapter03.rst:103
+msgid ""
+"The guest users are users outside of the tenant users domain but receive "
+"file or folder shares from team user. The Team user creates guest users "
+"through the file sharing or folder sharing activities. Guest users "
+"typically are external users outside of an organization that are already "
+"using CentreStack."
+msgstr "Gastgebruikers zijn gebruikers buiten het domein van de tenantgebruikers, maar ontvangen bestands- of mapdelingen van een teamgebruiker. De teamgebruiker creëert gastgebruikers via de activiteiten voor het delen van bestanden of mappen. Gastgebruikers zijn doorgaans externe gebruikers buiten een organisatie die al gebruikmaken van CentreStack."
+
+#: ../../chapter03.rst:108
+msgid "Anonymous User"
+msgstr "Anonieme Gebruiker"
+
+#: ../../chapter03.rst:110
+msgid ""
+"The anonymous users are a type of the guest user that doesn't require "
+"editing permission. They can receive files and folder shares and can view"
+" the file and folder share from within a web browser user interface."
+msgstr "Anonieme gebruikers zijn een type gastgebruiker dat geen bewerkingsrechten vereist. Ze kunnen bestanden en mapshares ontvangen en de bestands- en mapshare bekijken vanuit een webbrowsergebruikersinterface."
+
+#: ../../chapter03.rst:114
+msgid "Client Agent Software"
+msgstr "Client Agent Software"
+
+#: ../../chapter03.rst:116
+msgid "CentreStack contains various client agents which include:"
+msgstr "CentreStack bevat verschillende clientagents die onder andere:"
+
+#: ../../chapter03.rst:118
+msgid "Web Browser Based File Manager"
+msgstr "Webbrowser Gebaseerde Bestandsbeheerder"
+
+#: ../../chapter03.rst:119
+msgid "Windows Desktop Client with Mapped Drive"
+msgstr "Windows Desktop Client met Toegewezen Station"
+
+#: ../../chapter03.rst:120
+msgid "Windows File Server Agent with 2-way synchronization"
+msgstr "Windows-bestandsserveragent met tweerichtingssynchronisatie"
+
+#: ../../chapter03.rst:121
+msgid "Mac OS X client and"
+msgstr "Mac OS X-client en"
+
+#: ../../chapter03.rst:125
+msgid "Mobile Applications:"
+msgstr "Mobiele applicaties:"
+
+#: ../../chapter03.rst:123
+msgid "iOS"
+msgstr "iOS"
+
+#: ../../chapter03.rst:124
+msgid "Android"
+msgstr "Android"
+
+#: ../../chapter03.rst:125
+msgid "Windows Phone"
+msgstr "Windows Phone"
+
+#: ../../chapter03.rst:127
+msgid ""
+"These client agents provide file access and sharing features from the "
+"native client operating systems."
+msgstr "Deze clientagents bieden toegang tot bestanden en deelfuncties vanuit de native clientbesturingssystemen."
+
+#: ../../chapter03.rst:130
+msgid ""
+"The discussion of the client agents are outside the scope of this "
+"deployment guide."
+msgstr "De discussie over de client agents valt buiten de reikwijdte van deze implementatiegids."
+

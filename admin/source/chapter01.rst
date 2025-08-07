@@ -73,7 +73,7 @@ Tenant Administrator can manage Tenant-Wide functionalities, such as Group Polic
 The Cluster Admin is 
 also a Tenant Admin for the very first Tenant (Default Tenant) so the Cluster Administrator manages both Cluster Administration and Tenant Administration (for the default tenant). 
 In the multiple-tenant case, each Tenant Administrator will be responsible
-for the Tenant’s administration scope.
+for the Tenant's administration scope.
 
 The Cluster Administrator by default can help each Tenant Administrator manage at the tenant level.
 

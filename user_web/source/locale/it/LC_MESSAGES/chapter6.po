@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "File Browser"
+msgstr "Esplora File"
+
+#: ../../chapter6.rst:5
+msgid ""
+"After you log in to the web portal, the file and folder view **(1)** will"
+" show important settings and features that can be accessed by clicking "
+"the icons in the top right **(2)**. The small down arrow icon **(3)** "
+"allows you to choose different icon sizes or switch to a detailed list "
+"view, which gives you access to more information about the files **(4)**,"
+" such as versions."
+msgstr "Dopo aver effettuato l'accesso al portale web, la visualizzazione di file e cartelle **(1)** mostrerà impostazioni e funzionalità importanti a cui è possibile accedere cliccando sulle icone in alto a destra **(2)**. La piccola icona della freccia verso il basso **(3)** permette di scegliere diverse dimensioni delle icone o passare a una vista dettagliata, che offre accesso a maggiori informazioni sui file **(4)**, come le versioni."
+
+#: ../../chapter6.rst:11
+msgid "IMPORTANT SETTINGS AND FEATURES"
+msgstr "IMPOSTAZIONI E FUNZIONALITÀ IMPORTANTI"
+
+#: ../../chapter6.rst:13
+msgid ""
+"The small user icon **(5)** gives you access to template settings, "
+"connected devices, guest users, notifications storage information, "
+"feedback, and client download options. You can also change your password "
+"or logout."
+msgstr "La piccola icona dell'utente **(5)** ti dà accesso alle impostazioni dei template, ai dispositivi connessi, agli utenti ospiti, alle informazioni di archiviazione delle notifiche, al feedback e alle opzioni di download del client. Puoi anche cambiare la tua password o disconnetterti."
+
+#: ../../chapter6.rst:18
+msgid "TEMPLATE, DOWNLOAD AND OTHER SETTINGS"
+msgstr "MODELLO, SCARICA E ALTRE IMPOSTAZIONI"
+
+#: ../../chapter6.rst:20
+msgid ""
+"The question icon **(6)** takes you to the Web Portal Tutorial. The "
+"stacked bar icon **(7)** is for access to the Cluster Manager. The person"
+" icon **(8)** opens the user settings menu."
+msgstr "L'icona della domanda **(6)** ti porta al Tutorial del Portale Web. L'icona della barra impilata **(7)** è per l'accesso al Gestore del Cluster. L'icona della persona **(8)** apre il menu delle impostazioni utente."
+
+#: ../../chapter6.rst:25
+msgid "SETTINGS AND ICONS"
+msgstr "IMPOSTAZIONI E ICONE"
+
+#: ../../chapter6.rst:27
+msgid ""
+"The icon with the encircled \"i\" **(9)** opens up an additional panel "
+"for additional information and options, including sharing, downloading, "
+"and revision history. The icon with squares **(10)** allows you to change"
+" how the files are displayed. The three stacked dots **(11)** opens a "
+"menu for more options in the file manager."
+msgstr "L'icona con la \"i\" cerchiata **(9)** apre un pannello aggiuntivo per informazioni e opzioni supplementari, inclusi la condivisione, il download e la cronologia delle revisioni. L'icona con i quadrati **(10)** ti permette di cambiare il modo in cui i file sono visualizzati. I tre puntini sovrapposti **(11)** aprono un menu per ulteriori opzioni nel gestore dei file."
+

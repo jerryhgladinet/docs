@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../settings.rst:2
+msgid "Settings"
+msgstr "Asetukset"
+
+#: ../../settings.rst:4
+msgid ""
+"Here users can make changes for the app settings. If the user have set up"
+" a profile photo via the web portal, can see it through the person icon."
+msgstr "Täällä käyttäjät voivat tehdä muutoksia sovelluksen asetuksiin. Jos käyttäjä on asettanut profiilikuvan verkkopalvelun kautta, hän voi nähdä sen henkilöikonia klikkaamalla."
+
+#: ../../settings.rst:8
+msgid "Personal Information"
+msgstr "Henkilötiedot"
+
+#: ../../settings.rst:10
+msgid "Under **Personal Information** User basic details will be shown."
+msgstr "Käyttäjän perustiedot näytetään kohdassa **Henkilötiedot**."
+
+#: ../../settings.rst:15
+msgid "Name"
+msgstr "Nimi"
+
+#: ../../settings.rst:17
+msgid ""
+"Displays the username, which can be edited by touching the pencil button."
+" After updated, touch in the green icon to save the change."
+msgstr "Näyttää käyttäjänimen, jota voi muokata koskettamalla kynäpainiketta. Päivittämisen jälkeen kosketa vihreää ikonia tallentaaksesi muutoksen."
+
+#: ../../settings.rst:25
+msgid "Email"
+msgstr "Sähköposti"
+
+#: ../../settings.rst:27
+msgid ""
+"Shows the user's email address, which can be edited by touching the "
+"pencil button. Then, touch on the green icon to save the change."
+msgstr "Näyttää käyttäjän sähköpostiosoitteen, jota voi muokata koskettamalla kynäpainiketta. Tämän jälkeen kosketa vihreää ikonia tallentaaksesi muutoksen."
+
+#: ../../settings.rst:33
+msgid "The login password can also be updated by touching on the key button."
+msgstr "Kirjautumissalasana voidaan päivittää myös koskettamalla avainpainiketta."
+
+#: ../../settings.rst:38
+msgid "Quota Used"
+msgstr "Käytetty kiintiö"
+
+#: ../../settings.rst:40
+msgid "Here users can view the information about his used quota."
+msgstr "Täällä käyttäjät voivat tarkastella tietoja käytetystä kiintiöstään."
+
+#: ../../settings.rst:45
+msgid "Theme"
+msgstr "Teema"
+
+#: ../../settings.rst:47
+msgid ""
+"To change the theme color of the App, choose the preferred one from the "
+"list provided. The default color for Cloud Drive app is **Blue**."
+msgstr "Sovelluksen teemavärin vaihtamiseksi valitse haluamasi väri tarjotusta listasta. Oletusväri Cloud Drive -sovellukselle on **Sininen**."
+
+#: ../../settings.rst:52
+msgid "Security"
+msgstr "Tietoturva"
+
+#: ../../settings.rst:54
+msgid ""
+"More security can be added to the app. When closing and reopening, a PIN "
+"or Biometrics check can be added to prevent accessing the root files."
+msgstr "Sovellukseen voidaan lisätä lisää turvallisuutta. Suljettaessa ja avattaessa uudelleen voidaan lisätä PIN-koodi tai biometrinen tarkistus juuritiedostojen käytön estämiseksi."
+
+#: ../../settings.rst:57
+msgid "PIN Code"
+msgstr "PIN-koodi"
+
+#: ../../settings.rst:60
+msgid "Enable PIN Code"
+msgstr "Ota käyttöön PIN-koodi"
+
+#: ../../settings.rst:62
+msgid "Enable PIN Code by touching the corresponding switch:"
+msgstr "Ota PIN-koodi käyttöön koskettamalla vastaavaa kytkintä:"
+
+#: ../../settings.rst:66
+msgid ""
+"Then, a dialog box will appear where can enter PIN Code. A PIN Code is a "
+"4-digit number."
+msgstr "Sitten avautuu valintaikkuna, johon voit syöttää PIN-koodin. PIN-koodi on nelinumeroinen luku."
+
+#: ../../settings.rst:70
+msgid ""
+"Once confirmed the PIN, will return to the Settings page and see that the"
+" PIN Code is enabled."
+msgstr "Kun PIN-koodi on vahvistettu, palataan asetussivulle ja nähdään, että PIN-koodi on käytössä."
+
+#: ../../settings.rst:74
+msgid ""
+"When closing and reopening the app, a dialog box will appear asking for "
+"the PIN Code. Users can also close this dialog box and enter the user "
+"password instead."
+msgstr "Kun sovellus suljetaan ja avataan uudelleen, näyttöön ilmestyy valintaikkuna, jossa pyydetään PIN-koodia. Käyttäjät voivat myös sulkea tämän valintaikkunan ja syöttää sen sijaan käyttäjän salasanan."
+
+#: ../../settings.rst:76
+msgid "After authenticated, can access all files and folders."
+msgstr "Todennuksen jälkeen voi käyttää kaikkia tiedostoja ja kansioita."
+
+#: ../../settings.rst:83
+msgid "Reset PIN"
+msgstr "Nollaa PIN-koodi"
+
+#: ../../settings.rst:85
+msgid "Reset the PIN is possible by tapping the **Reset PIN** button:"
+msgstr "PIN-koodin voi nollata napauttamalla **Nollaa PIN** -painiketta:"
+
+#: ../../settings.rst:89
+msgid ""
+"To reset PIN, first enter the old PIN and then enter the new PIN twice to"
+" confirm. Once the new PIN is activated, can use the new PIN to access "
+"the app."
+msgstr "PIN-koodin nollaus: syötä ensin vanha PIN-koodi ja sen jälkeen uusi PIN-koodi kahdesti vahvistaaksesi sen. Kun uusi PIN on aktivoitu, voit käyttää uutta PIN-koodia sovelluksen käyttöön."
+
+#: ../../settings.rst:94
+msgid "Remove PIN"
+msgstr "Poista PIN"
+
+#: ../../settings.rst:96
+msgid ""
+"The PIN Code can be removed by touching the switch or by tapping on "
+"**Reset PIN** and use **Remove PIN**."
+msgstr "PIN-koodin voi poistaa koskettamalla kytkintä tai napauttamalla **Nollaa PIN** ja käyttämällä **Poista PIN**."
+
+#: ../../settings.rst:102
+msgid "Enter the PIN Code to remove it:"
+msgstr "Anna PIN-koodi sen poistamiseksi:"
+
+#: ../../settings.rst:106
+msgid "Touch **Use Password** to use the user password to remove the PIN:"
+msgstr "Kosketa **Käytä salasanaa** poistaaksesi PIN-koodin käytöstä:"
+
+#: ../../settings.rst:111
+msgid "Biometrics Sign in"
+msgstr "Biometrinen sisäänkirjautuminen"
+
+#: ../../settings.rst:114
+msgid "Enable Biometrics"
+msgstr "Ota biometrinen tunnistus käyttöön"
+
+#: ../../settings.rst:116
+msgid "Enable Biometrics by tapping this switch:"
+msgstr "Ota biometrinen tunnistus käyttöön napauttamalla tätä kytkintä:"
+
+#: ../../settings.rst:120
+msgid ""
+"If a yellow warning message is shown, it means the device does not have "
+"any biometrics enrolled. Go to the Settings and set this up."
+msgstr "Jos näytössä näkyy keltainen varoitusviesti, se tarkoittaa, että laitteeseen ei ole rekisteröity mitään biometrisiä tietoja. Siirry Asetuksiin ja määritä tämä."
+
+#: ../../settings.rst:124
+msgid ""
+"After tapping on the switch, will see a dialog box where can authenticate"
+" the biometrics. The biometrics can be a fingerprint or a face ID."
+msgstr "Napauttamalla kytkintä näet valintaikkunan, jossa voit todentaa biometriset tunnistetiedot. Biometrinen tunniste voi olla sormenjälki tai kasvojen tunnistus."
+
+#: ../../settings.rst:128
+msgid ""
+"When closing and reopening the app, a dialog box appears asking for "
+"Biometrics Authentication. Can also close this dialog and enter the user "
+"password instead."
+msgstr "Kun sovellus suljetaan ja avataan uudelleen, näyttöön tulee valintaikkuna, joka pyytää biometristä tunnistautumista. Voit myös sulkea tämän valintaikkunan ja syöttää käyttäjän salasanan."
+
+#: ../../settings.rst:130
+msgid "After authentication, user can access the files and folders."
+msgstr "Todennuksen jälkeen käyttäjä voi käyttää tiedostoja ja kansioita."
+
+#: ../../settings.rst:137
+msgid "Remove Biometrics"
+msgstr "Poista biometrinen tunnistus"
+
+#: ../../settings.rst:139
+msgid "Remove Biometrics by touching the switch:"
+msgstr "Poista biometrinen tunnistus koskettamalla kytkintä:"
+
+#: ../../settings.rst:143
+msgid "Authenticate to remove biometrics:"
+msgstr "Tunnistaudu poistaaksesi biometriset tiedot:"
+
+#: ../../settings.rst:147
+msgid ""
+"Or tap in **Use Password** to use the user password to remove the "
+"biometrics:"
+msgstr "Tai napauta **Käytä salasanaa** poistaaksesi biometriset tunnisteet käyttäen käyttäjän salasanaa:"
+
+#: ../../settings.rst:152
+msgid "Only enable either PIN Code or Biometrics at the same time."
+msgstr "Ota käyttöön vain joko PIN-koodi tai biometrinen tunnistus samanaikaisesti."
+
+#: ../../settings.rst:155
+msgid "Notification Center"
+msgstr "Ilmoituskeskus"
+
+#: ../../settings.rst:157
+msgid ""
+"In this section, can enable notifications for the app while uploading and"
+" downloading."
+msgstr "Tässä osiossa voit ottaa käyttöön ilmoitukset sovellukselle latauksen ja lataamisen aikana."
+
+#: ../../settings.rst:161
+msgid ""
+"Enable **All Notifications** gives the CentreStack app permission to send"
+" all notifications."
+msgstr "Ota käyttöön **Kaikki ilmoitukset** antaa CentreStack-sovellukselle luvan lähettää kaikki ilmoitukset."
+
+#: ../../settings.rst:163
+msgid ""
+"Also enable other notifications by selecting **File Synced Up**, **File "
+"Synced Down**, and **Cache Updated**."
+msgstr "Ota käyttöön myös muita ilmoituksia valitsemalla **Tiedosto synkronoitu ylös**, **Tiedosto synkronoitu alas** ja **Välimuisti päivitetty**."
+
+#: ../../settings.rst:166
+msgid "Media Backup"
+msgstr "Mediavarmuuskopiointi"
+
+#: ../../settings.rst:168
+msgid ""
+"Set up a **Media Backup** folder to synchronize media files from the "
+"local phone storage."
+msgstr "Aseta **Media Backup** -kansio synkronoimaan mediatiedostoja paikallisesta puhelimen tallennustilasta."
+
+#: ../../settings.rst:171
+msgid "Set up Backup Folder"
+msgstr "Määritä varmuuskopiokansio"
+
+#: ../../settings.rst:173
+msgid ""
+"Touch the pencil button to set a name for the backup folder, and tap the "
+"green check mark button to save."
+msgstr "Kosketa kynäpainiketta asettaaksesi nimen varmuuskopiokansiolle ja napauta vihreää rastipainiketta tallentaaksesi."
+
+#: ../../settings.rst:179
+msgid ""
+"Tap on the switch to enable **Media Backup**. If permission to media "
+"files are not granted for the app, a dialog will appear asking to allow "
+"the app to access media files."
+msgstr "Napauta kytkintä ottaaksesi **Media Backup** käyttöön. Jos sovellukselle ei ole myönnetty oikeuksia mediatiedostoihin, näyttöön tulee valintaikkuna, jossa pyydetään sallimaan sovellukselle pääsy mediatiedostoihin."
+
+#: ../../settings.rst:183
+msgid ""
+"If the name of an existing folder matches the backup folder name, will "
+"receive a warning to either change to a different backup folder name or "
+"use that folder as the backup folder."
+msgstr "Jos olemassa olevan kansion nimi vastaa varmuuskopiokansion nimeä, saat varoituksen vaihtaa toiseen varmuuskopiokansion nimeen tai käyttää kyseistä kansiota varmuuskopiokansiona."
+
+#: ../../settings.rst:187
+msgid ""
+"Go back to the root directory and check the media backup folder with an "
+"attached folder icon. The backup media files are located in the folder "
+"under the device type name."
+msgstr "Palaa juurihakemistoon ja tarkista media-varmuuskopiokansio, jossa on liitetty kansion kuvake. Varmuuskopioitujen mediatiedostojen sijainti on laitetyypin nimen alla olevassa kansiossa."
+
+#: ../../settings.rst:194
+msgid "Backup Folder Disconnection"
+msgstr "Varmuuskopiokansion katkaisu"
+
+#: ../../settings.rst:196
+msgid ""
+"To disconnect from the Media Backup folder, just tap on the switch to "
+"close it."
+msgstr "Mediavarmuuskopiokansion katkaisemiseksi napauta vain kytkintä sulkeaksesi sen."
+
+#: ../../settings.rst:201
+msgid "Wi-Fi Only"
+msgstr "Vain Wi-Fi"
+
+#: ../../settings.rst:203
+msgid ""
+"If this switch is enabled, media files can only be synchronized under Wi-"
+"Fi connection."
+msgstr "Jos tämä kytkin on käytössä, mediatiedostoja voidaan synkronoida vain Wi-Fi-yhteyden alaisuudessa."
+
+#: ../../settings.rst:208
+msgid "Cache"
+msgstr "Välimuisti"
+
+#: ../../settings.rst:210
+msgid ""
+"The Cache size is calculated from temporary files, icons and previews. "
+"This can be cleared using the button below."
+msgstr "Välimuistin koko lasketaan väliaikaistiedostoista, kuvakkeista ja esikatselukuvista. Tämän voi tyhjentää alla olevaa painiketta käyttäen."
+
+#: ../../settings.rst:217
+msgid "Favorite Files cannot be removed when the File Cache is cleared."
+msgstr "Suosikkitiedostoja ei voi poistaa, kun tiedostovälimuisti tyhjennetään."
+

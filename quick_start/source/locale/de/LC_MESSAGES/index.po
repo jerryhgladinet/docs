@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "Einführung"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the CentreStack Quick Start Guide. This guide describes on a "
+"high level how you can use CentreStack to provide a managed file sync and"
+" share solution for your internal employees and customers."
+msgstr "Willkommen im CentreStack Schnellstart-Handbuch. Dieses Handbuch beschreibt auf hoher Ebene, wie Sie CentreStack nutzen können, um eine verwaltete Dateisynchronisations- und Freigabelösung für Ihre internen Mitarbeiter und Kunden bereitzustellen."
+
+#: ../../index.rst:13
+msgid ""
+"The goal is to provide your customers and internal employees an easy-to-"
+"use and secure-under-control way to access file servers from remote "
+"locations and mobile devices."
+msgstr "Das Ziel ist es, Ihren Kunden und internen Mitarbeitern eine benutzerfreundliche und sichere Möglichkeit zu bieten, von entfernten Standorten und mobilen Geräten auf Dateiserver zuzugreifen."
+
+#: ../../index.rst:19
+msgid "Three Deployment Modes"
+msgstr "Drei Bereitstellungsmodi"
+
+#: ../../index.rst:21
+msgid ""
+"To get started, the first question is where and how to deploy "
+"CentreStack. Does CentreStack need to be next to the file server, in a "
+"data center or just use the Cloud version from CentreStack itself?"
+msgstr "Um zu beginnen, ist die erste Frage, wo und wie CentreStack eingesetzt werden soll. Muss CentreStack in unmittelbarer Nähe zum Dateiserver sein, in einem Rechenzentrum oder einfach die Cloud-Version von CentreStack selbst verwenden?"
+
+#: ../../index.rst:25
+msgid "There are three basic ways to deploy the CentreStack solution:"
+msgstr "Es gibt drei grundlegende Möglichkeiten, die CentreStack-Lösung zu implementieren:"
+
+#: ../../index.rst:27 ../../index.rst:32
+msgid "On-Premise Self-Hosted"
+msgstr "On-Premise Selbstgehostet"
+
+#: ../../index.rst:28 ../../index.rst:51
+msgid "Data-Center MSP-Hosted"
+msgstr "Data-Center MSP-Hosted"
+
+#: ../../index.rst:29 ../../index.rst:66
+msgid "Cloud SaaS-Hosted"
+msgstr "Cloud SaaS-Hosted"
+
+#: ../../index.rst:34
+msgid ""
+"For the on-premise self-hosted Centrestack, the CentreStack server is "
+"directly installed in the company network. On one-hand, it is facing the "
+"Internet with port 443 (HTTPS) like any web server does; and on the "
+"other-hand, it is connecting to company internal network and IT "
+"infrastructures such as File Servers and Active Directory. CentreStack "
+"server normally sits in the DMZ or behind a firewall to be protected "
+"against un-authorized outside access."
+msgstr "Für den lokal gehosteten CentreStack im eigenen Netzwerk wird der CentreStack-Server direkt im Firmennetzwerk installiert. Einerseits ist er mit Port 443 (HTTPS) wie jeder Webserver dem Internet zugewandt; andererseits verbindet er sich mit dem internen Netzwerk und der IT-Infrastruktur des Unternehmens, wie zum Beispiel Fileservern und Active Directory. Der CentreStack-Server befindet sich normalerweise in der DMZ oder hinter einer Firewall, um vor nicht autorisiertem externen Zugriff geschützt zu sein."
+
+#: ../../index.rst:40
+msgid ""
+"The business objective is giving mobile and remote access to file servers"
+" without the need of a VPN. It is more productive than traditional VPN  "
+"by greatly reducing the number of VPN support tickets for internal "
+"enterprise IT department or for the managed service provider."
+msgstr "Das Geschäftsziel besteht darin, mobilen und entfernten Zugriff auf Dateiserver zu ermöglichen, ohne dass ein VPN erforderlich ist. Es ist produktiver als traditionelle VPNs, da es die Anzahl der VPN-Support-Tickets für die interne IT-Abteilung des Unternehmens oder für den Managed Service Provider erheblich reduziert."
+
+#: ../../index.rst:47
+msgid "For this deployment mode, check :doc:`on_premise`"
+msgstr "Für diesen Einsatzmodus überprüfen Sie :doc:`on_premise`"
+
+#: ../../index.rst:53
+msgid ""
+"If you are a managed service provider that manages hundreds or thousands "
+"of end points across multiple clients, it is a good option that you setup"
+" your CentreStack server in a data center."
+msgstr "Wenn Sie ein Managed Service Provider sind, der Hunderte oder Tausende von Endpunkten über mehrere Kunden hinweg verwaltet, ist es eine gute Option, dass Sie Ihren CentreStack-Server in einem Rechenzentrum einrichten."
+
+#: ../../index.rst:56
+msgid ""
+"There are a couple advantages of setting the CentreStack server up in a "
+"data center."
+msgstr "Es gibt ein paar Vorteile, wenn man den CentreStack-Server in einem Rechenzentrum einrichtet."
+
+#: ../../index.rst:58
+msgid ""
+"The data center is closer to the Internet backbone than a business office"
+" is, thus it has faster Internet speed."
+msgstr "Das Rechenzentrum ist näher am Internet-Backbone als ein Geschäftsbüro, daher hat es eine schnellere Internetgeschwindigkeit."
+
+#: ../../index.rst:59
+msgid ""
+"Setting it up in a central location and in a multi-tenant fashion, it is "
+"easier to manage as compared to a one-centrestack-instance-per-client "
+"setup."
+msgstr "Indem es an einem zentralen Ort und in einer Multi-Tenant-Umgebung eingerichtet wird, lässt es sich im Vergleich zu einer Ein-CentreStack-Instanz-pro-Kunde-Konfiguration einfacher verwalten."
+
+#: ../../index.rst:63
+msgid "For this deployment mode, check :doc:`data_center`"
+msgstr "Für diesen Bereitstellungsmodus überprüfen Sie :doc:`data_center`"
+
+#: ../../index.rst:68
+msgid ""
+"Similar to Data-Center MSP-Hosted, CentreStack has a Cloud version that "
+"is readily hosted."
+msgstr "Ähnlich wie Data-Center MSP-Hosted hat CentreStack eine Cloud-Version, die bereits gehostet wird."
+
+#: ../../index.rst:70
+msgid ""
+"This works well for managed service providers who have smaller clients "
+"here and there. Because of the smaller number of total clients, the Data-"
+"Center MSP-Hosted overhead is relatively high. MSPs can use the Cloud "
+"version since it is readily deployed and ready to use."
+msgstr "Dies funktioniert gut für Managed Service Provider, die hier und da kleinere Kunden haben. Aufgrund der geringeren Gesamtzahl an Kunden ist der Overhead für das Data-Center MSP-Hosted relativ hoch. MSPs können die Cloud-Version verwenden, da sie schnell einsatzbereit und sofort nutzbar ist."
+
+#: ../../index.rst:76
+msgid "For this deployment mode, check :doc:`cloud_host`"
+msgstr "Für diesen Bereitstellungsmodus prüfen Sie :doc:`cloud_host`"
+
+#: ../../index.rst:80
+msgid "What's Next"
+msgstr "Was kommt als Nächstes"
+
+#: ../../index.rst:82
+msgid ""
+"You will need a CentreStack partner account to start with, regardless of "
+"which deployment mode(s) you will use. Step #1 will always be going to "
+"the centrestack.com and to register. When you are on the CentreStack web "
+"site, you can follow any \"Try CentreStack Free\" link to start."
+msgstr "Sie benötigen ein CentreStack-Partnerkonto, um zu beginnen, unabhängig davon, welchen Bereitstellungsmodus Sie verwenden werden. Schritt #1 wird immer sein, die Website centrestack.com aufzurufen und sich zu registrieren. Wenn Sie sich auf der CentreStack-Website befinden, können Sie einem beliebigen Link \"CentreStack kostenlos ausprobieren\" folgen, um zu starten."
+
+#: ../../index.rst:88
+msgid ""
+"Once you are done registering, you will be in the partner portal where "
+"you can download the software, setup hosted trial and etc."
+msgstr "Nachdem Sie sich registriert haben, befinden Sie sich im Partnerportal, wo Sie die Software herunterladen, ein gehostetes Probeabo einrichten und so weiter können."
+
+#: ../../index.rst:94
+msgid "This quick start guide is written against CentreStack version |release|"
+msgstr "Dieser Schnellstart-Leitfaden wurde für die CentreStack-Version |release| verfasst"
+

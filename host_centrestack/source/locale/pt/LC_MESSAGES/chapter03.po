@@ -1,0 +1,571 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "Manage Tenant"
+msgstr "Gerenciar Inquilino"
+
+#: ../../chapter03.rst:5
+msgid ""
+"By default, the |prodname| partner account holder has the \"Single-pane-"
+"of-glass\" view of all his tenants in the partner portal and can manage "
+"the Tenants in \"Registered Tenants\" section.."
+msgstr "Por padrão, o titular da conta parceira |prodname| tem a visão \"Single-pane-of-glass\" de todos os seus inquilinos no portal do parceiro e pode gerenciar os Inquilinos na seção \"Inquilinos Registrados\"."
+
+#: ../../chapter03.rst:10
+msgid "MANAGE TENANT OPTION"
+msgstr "OPÇÃO DE GERENCIAMENTO DE LOCATÁRIO"
+
+#: ../../chapter03.rst:12
+msgid ""
+"After you click through to the \"Manage\" option, the tenant dashboard "
+"will show."
+msgstr "Após clicar na opção \"Gerenciar\", o painel do inquilino será exibido."
+
+#: ../../chapter03.rst:15
+msgid "Tenant Dashboard"
+msgstr "Painel do Inquilino"
+
+#: ../../chapter03.rst:17
+msgid ""
+"The dashboard contains the two most important assets: the ``users`` and "
+"the ``Team Folders``."
+msgstr "O painel contém os dois ativos mais importantes: os ``usuários`` e as ``Pastas de Equipe``."
+
+#: ../../chapter03.rst:21
+msgid ""
+"Basically from a management perspective, you are helping the tenant "
+"manage their users and their common work areas - the Team Folders."
+msgstr "Basicamente, do ponto de vista da gestão, você está ajudando o inquilino a gerenciar seus usuários e suas áreas de trabalho comuns - as Pastas de Equipe."
+
+#: ../../chapter03.rst:26
+msgid "TENANT DASHBOARD"
+msgstr "PAINEL DO INQUILINO"
+
+#: ../../chapter03.rst:28
+msgid ""
+"There is also a Quick Access panel on the dashboard that you can see the "
+"second level of details on the tenant management scope."
+msgstr "Existe também um painel de Acesso Rápido no painel de controle onde você pode ver o segundo nível de detalhes no escopo de gestão do inquilino."
+
+#: ../../chapter03.rst:33
+msgid "QUICK ACCESS PANEL"
+msgstr "PAINEL DE ACESSO RÁPIDO"
+
+#: ../../chapter03.rst:36
+msgid "Reports"
+msgstr "Relatórios"
+
+#: ../../chapter03.rst:38
+msgid "In ``REPORTS``, you can see reports related to the tenant."
+msgstr "Em ``REPORTS``, você pode ver relatórios relacionados ao inquilino."
+
+#: ../../chapter03.rst:43
+msgid "REPORTS"
+msgstr "RELATÓRIOS"
+
+#: ../../chapter03.rst:45
+msgid ""
+"Once you click the **\"Reports\"** button you will see the **\"Upload "
+"Report\"** by default. You can use the tab at the top to choose other "
+"report options."
+msgstr "Uma vez que você clicar no botão **\"Relatórios\"**, você verá o **\"Relatório de Upload\"** por padrão. Você pode usar a aba no topo para escolher outras opções de relatório."
+
+#: ../../chapter03.rst:50
+msgid "REPORTS MENU"
+msgstr "MENU DE RELATÓRIOS"
+
+#: ../../chapter03.rst:52
+msgid "Upload Report"
+msgstr "Carregar Relatório"
+
+#: ../../chapter03.rst:54
+msgid ""
+"the number of files uploaded into hosted |prodname| in the last 30 days "
+"or last week."
+msgstr "o número de arquivos carregados no |prodname| hospedado nos últimos 30 dias ou na última semana."
+
+#: ../../chapter03.rst:56
+msgid "Storage Statistics"
+msgstr "Estatísticas de Armazenamento"
+
+#: ../../chapter03.rst:58
+msgid ""
+"The files and folder number and size and other statistics of files and "
+"folders."
+msgstr "O número de arquivos e pastas e o tamanho e outras estatísticas de arquivos e pastas."
+
+#: ../../chapter03.rst:60
+msgid "Team Folders"
+msgstr "Pastas de Equipe"
+
+#: ../../chapter03.rst:62
+msgid "All the Team Folders in the tenant."
+msgstr "Todas as Pastas de Equipe no inquilino."
+
+#: ../../chapter03.rst:64 ../../chapter03.rst:372
+msgid "Shared Objects"
+msgstr "Objetos Compartilhados"
+
+#: ../../chapter03.rst:66
+msgid "All the peer-to-peer share objects in the tenant."
+msgstr "Todos os objetos de compartilhamento ponto a ponto no inquilino."
+
+#: ../../chapter03.rst:68
+msgid "Audit Trace"
+msgstr "Rastro de Auditoria"
+
+#: ../../chapter03.rst:70
+msgid "The management scope events in the tenant."
+msgstr "Os eventos de escopo de gerenciamento no inquilino."
+
+#: ../../chapter03.rst:72
+msgid "File Change Logging"
+msgstr "Registro de Alterações de Arquivo"
+
+#: ../../chapter03.rst:74
+msgid "The file change events in the tenant."
+msgstr "Os eventos de alteração de arquivo no tenant."
+
+#: ../../chapter03.rst:78
+msgid "Tenant Branding"
+msgstr "Marca do Inquilino"
+
+#: ../../chapter03.rst:80
+msgid ""
+"After you setup default branding and apply to the tenants, you can "
+"continue to fine tune the branding on a per-tenant basis."
+msgstr "Depois de configurar a marca padrão e aplicá-la aos inquilinos, você pode continuar a ajustar a marca em uma base por inquilino."
+
+#: ../../chapter03.rst:85
+msgid "TENANT BRANDING"
+msgstr "BRANDING DO INQUILINO"
+
+#: ../../chapter03.rst:87
+msgid ""
+"In the ``TENANT BRANDING`` section, you can setup and change tenant "
+"specific branding information."
+msgstr "Na seção ``TENANT BRANDING``, você pode configurar e alterar informações de marca específicas do locatário."
+
+#: ../../chapter03.rst:93
+msgid "BRANDING OPTIONS"
+msgstr "OPÇÕES DE MARCA"
+
+#: ../../chapter03.rst:95
+msgid "Customized URL for your business"
+msgstr "URL personalizado para o seu negócio"
+
+#: ../../chapter03.rst:97
+msgid ""
+"Upon creating the tenant, the tenant is assigned a random string of "
+"digits for the custom site. You can change the URL so that it is more "
+"related to the customer's business name."
+msgstr "Ao criar o inquilino, é atribuída uma sequência aleatória de dígitos para o site personalizado. Você pode alterar a URL para que ela esteja mais relacionada ao nome comercial do cliente."
+
+#: ../../chapter03.rst:103
+msgid "GENERAL OPTIONS"
+msgstr "OPÇÕES GERAIS"
+
+#: ../../chapter03.rst:107
+msgid ""
+"The ``Customized URL`` field is very important for the tenant branding. "
+"It is like a key to a list of information belonging to the tenant. For "
+"tenant branding to work, the tenant will need to login to the specific "
+"URL that is assigned to them."
+msgstr "O campo ``URL Personalizada`` é muito importante para a marca do inquilino. É como uma chave para uma lista de informações pertencentes ao inquilino. Para que a marca do inquilino funcione, será necessário que o inquilino faça login na URL específica que lhe é atribuída."
+
+#: ../../chapter03.rst:110
+msgid "Group Policy"
+msgstr "Política de Grupo"
+
+#: ../../chapter03.rst:115
+msgid "GROUP POLICY"
+msgstr "POLÍTICA DE GRUPO"
+
+#: ../../chapter03.rst:117
+msgid ""
+"``GROUP POLICY`` is documented in the |prodname| Admin Guide. Look for "
+"the group policy section in the |prodname| Admin Guide. Please see the "
+"`Documentation Page`__ for more information."
+msgstr "``POLÍTICA DE GRUPO`` está documentada no Guia do Administrador |prodname|. Procure pela seção de política de grupo no Guia do Administrador |prodname|. Por favor, consulte a `Página de Documentação`__ para mais informações."
+
+#: ../../chapter03.rst:125
+msgid "DOCUMENTATION WEB PAGE"
+msgstr "PÁGINA DE DOCUMENTAÇÃO"
+
+#: ../../chapter03.rst:128
+msgid "Control Panel"
+msgstr "Painel de Controlo"
+
+#: ../../chapter03.rst:133
+msgid "CONTROL PANEL"
+msgstr "PAINEL DE CONTROLE"
+
+#: ../../chapter03.rst:135
+msgid "In the ``CONTROL PANEL`` section, you will see the following sections."
+msgstr "Na seção ``PAINEL DE CONTROLE``, você verá as seguintes seções."
+
+#: ../../chapter03.rst:140
+msgid "CONTROL PANEL SETTINGS"
+msgstr "CONFIGURAÇÕES DO PAINEL DE CONTROLE"
+
+#: ../../chapter03.rst:143
+msgid "Tenant Administrators"
+msgstr "Administradores do Inquilino"
+
+#: ../../chapter03.rst:148
+msgid "TENANT ADMINISTRATORS"
+msgstr "ADMINISTRADORES DO INQUILINO"
+
+#: ../../chapter03.rst:150
+msgid ""
+"You can change the tenant's administrator information here and also "
+"define delegate administrators."
+msgstr "Você pode alterar as informações do administrador do inquilino aqui e também definir administradores delegados."
+
+#: ../../chapter03.rst:155
+msgid "TENANT ADMINISTRATOR SETTINGS"
+msgstr "CONFIGURAÇÕES DO ADMINISTRADOR DO INQUILINO"
+
+#: ../../chapter03.rst:158
+msgid "Single Sign-On"
+msgstr "Single Sign-On"
+
+#: ../../chapter03.rst:163
+msgid "SINGLE SIGN ON"
+msgstr "INÍCIO DE SESSÃO ÚNICO"
+
+#: ../../chapter03.rst:165
+msgid ""
+"It is recommended to setup tenant specific ``custom URL`` before setting "
+"up the Single Sign-On since this is a tenant-specific Single Sign-On "
+"setting."
+msgstr "É recomendado configurar a ``URL personalizada`` específica do inquilino antes de configurar o Single Sign-On, pois esta é uma configuração de Single Sign-On específica do inquilino."
+
+#: ../../chapter03.rst:171
+msgid "SINGLE SIGN-ON SETTINGS"
+msgstr "CONFIGURAÇÕES DE SINGLE SIGN-ON"
+
+#: ../../chapter03.rst:173 ../../chapter03.rst:191
+msgid "Check the |prodname| Admin Guide for more details."
+msgstr "Verifique o Guia do Administrador |prodname| para mais detalhes."
+
+#: ../../chapter03.rst:176
+msgid "Azure AD"
+msgstr "Azure AD"
+
+#: ../../chapter03.rst:181
+msgid "AZURE AD"
+msgstr "AZURE AD"
+
+#: ../../chapter03.rst:183
+msgid ""
+"In Azure AD, you can setup the tenant to login using credentials from "
+"Azure AD."
+msgstr "No Azure AD, você pode configurar o tenant para fazer login usando credenciais do Azure AD."
+
+#: ../../chapter03.rst:189
+msgid "AZURE AD SETTINGS"
+msgstr "CONFIGURAÇÕES DO AZURE AD"
+
+#: ../../chapter03.rst:194
+msgid "Notifications"
+msgstr "Notificações"
+
+#: ../../chapter03.rst:199
+msgid "NOTIFICATIONS"
+msgstr "NOTIFICAÇÕES"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Notification section defines what kind of notifications the tenant "
+"wants to configure."
+msgstr "A seção de Notificações define que tipo de notificações o inquilino deseja configurar."
+
+#: ../../chapter03.rst:206
+msgid "NOTIFICATIONS SETTINGS"
+msgstr "CONFIGURAÇÕES DE NOTIFICAÇÕES"
+
+#: ../../chapter03.rst:209
+msgid "Device Manager"
+msgstr "Gerenciador de Dispositivos"
+
+#: ../../chapter03.rst:214
+msgid "DEVICE MANAGER"
+msgstr "GERENCIADOR DE DISPOSITIVOS"
+
+#: ../../chapter03.rst:219
+msgid "DEVICE MANAGER SETTINGS"
+msgstr "CONFIGURAÇÕES DO GERENCIADOR DE DISPOSITIVOS"
+
+#: ../../chapter03.rst:222
+msgid "Application Manager"
+msgstr "Gerenciador de Aplicativos"
+
+#: ../../chapter03.rst:227
+msgid "APPLICATION MANAGER"
+msgstr "GERENCIADOR DE APLICAÇÕES"
+
+#: ../../chapter03.rst:232
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "CONFIGURAÇÕES DO GERENCIADOR DE APLICAÇÕES"
+
+#: ../../chapter03.rst:235
+msgid "Sharepoint Online"
+msgstr "Sharepoint Online"
+
+#: ../../chapter03.rst:240
+msgid "SHAREPOINT ONLINE"
+msgstr "SHAREPOINT ONLINE"
+
+#: ../../chapter03.rst:245
+msgid "SHAREPOINT ONLINE SETTINGS"
+msgstr "CONFIGURAÇÕES DO SHAREPOINT ONLINE"
+
+#: ../../chapter03.rst:248
+msgid "Email Service"
+msgstr "Serviço de Email"
+
+#: ../../chapter03.rst:253
+msgid "EMAIL SERVICE"
+msgstr "SERVIÇO DE EMAIL"
+
+#: ../../chapter03.rst:258
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "CONFIGURAÇÕES DO SERVIÇO DE E-MAIL"
+
+#: ../../chapter03.rst:261
+msgid "User Manager"
+msgstr "Gerenciador de Usuários"
+
+#: ../../chapter03.rst:266
+msgid "USER MANAGER"
+msgstr "GERENCIADOR DE USUÁRIOS"
+
+#: ../../chapter03.rst:268
+msgid "User manager is where to manage the users for the tenant."
+msgstr "O gerenciador de usuários é onde se gerenciam os usuários para o inquilino."
+
+#: ../../chapter03.rst:273
+msgid "USER MANAGER SETTINGS"
+msgstr "CONFIGURAÇÕES DO GERENCIADOR DE USUÁRIOS"
+
+#: ../../chapter03.rst:276
+msgid "Add User"
+msgstr "Adicionar Usuário"
+
+#: ../../chapter03.rst:278
+msgid ""
+"Users can be created directly with user name and email. If the Server "
+"Agent is used, users can also be created from the Server Agent where "
+"Active Directory users from a remote Server Agent can be imported into "
+"|prodname|."
+msgstr "Os usuários podem ser criados diretamente com nome de usuário e e-mail. Se o Agente do Servidor for utilizado, os usuários também podem ser criados a partir do Agente do Servidor, onde usuários do Active Directory de um Agente do Servidor remoto podem ser importados para o |prodname|."
+
+#: ../../chapter03.rst:283
+msgid "ADDING USERS"
+msgstr "ADICIONANDO USUÁRIOS"
+
+#: ../../chapter03.rst:285
+msgid ""
+"Before the Server Agent is used, there are two options: \"Native User\" "
+"and \"Batch create users\". If you use Server Agent to connect a remote "
+"file server to this specific tenant, the remote Active Directory will "
+"also show up."
+msgstr "Antes de usar o Agente do Servidor, existem duas opções: \"Usuário Nativo\" e \"Criar usuários em lote\". Se você usar o Agente do Servidor para conectar um servidor de arquivos remoto a este inquilino específico, o Active Directory remoto também aparecerá."
+
+#: ../../chapter03.rst:290
+msgid "CLICK TO CREATE OR MIGRATE A USER"
+msgstr "CLIQUE PARA CRIAR OU MIGRAR UM USUÁRIO"
+
+#: ../../chapter03.rst:292
+msgid ""
+"Guest users are those users that don't have home directory storage, but "
+"can receive file and folder shares from regular users."
+msgstr "Os usuários convidados são aqueles usuários que não possuem armazenamento de diretório pessoal, mas podem receber compartilhamentos de arquivos e pastas de usuários regulares."
+
+#: ../../chapter03.rst:297
+msgid "SOURCES OF USERS"
+msgstr "FONTES DE USUÁRIOS"
+
+#: ../../chapter03.rst:300
+msgid "Group Manager"
+msgstr "Gerente de Grupo"
+
+#: ../../chapter03.rst:302
+msgid ""
+"You can create native |prodname| groups to help manage the assignment of "
+"users to folders and files for read and write permission."
+msgstr "Você pode criar grupos nativos |prodname| para ajudar a gerenciar a atribuição de usuários a pastas e arquivos para permissão de leitura e escrita."
+
+#: ../../chapter03.rst:304
+msgid ""
+"If you have the Server Agent connected, the Server Agent can import Proxy"
+" Active Directory group instead."
+msgstr "Se você tiver o Agente do Servidor conectado, o Agente do Servidor pode importar o grupo Proxy do Active Directory em vez disso."
+
+#: ../../chapter03.rst:309
+msgid "GROUPS"
+msgstr "GRUPOS"
+
+#: ../../chapter03.rst:312
+msgid "Role Manager"
+msgstr "Gerenciador de Funções"
+
+#: ../../chapter03.rst:314
+msgid ""
+"Role manager can further define what each users in the tenant can do and "
+"what they have access to."
+msgstr "O gerente de funções pode definir ainda mais o que cada usuário no tenant pode fazer e a que eles têm acesso."
+
+#: ../../chapter03.rst:319
+msgid "ROLES"
+msgstr "FUNÇÕES"
+
+#: ../../chapter03.rst:324
+msgid "CREATING A NEW ROLE"
+msgstr "CRIANDO UM NOVO PAPEL"
+
+#: ../../chapter03.rst:329
+msgid ""
+"Collaboration is centered around storage folders and assigning users to "
+"folders with specific permissions."
+msgstr "A colaboração é centrada em torno de pastas de armazenamento e na atribuição de usuários a pastas com permissões específicas."
+
+#: ../../chapter03.rst:332
+msgid "Team Folder"
+msgstr "Pasta de Equipe"
+
+#: ../../chapter03.rst:337
+msgid "TEAM FOLDERS"
+msgstr "PASTAS DE EQUIPE"
+
+#: ../../chapter03.rst:339
+msgid ""
+"The idea of a Team Folder is similar to that of a local network share. "
+"Users can be assigned to a Team Folder with read and write permissions at"
+" the share level. Inside the folder, at the sub-folder level, each sub-"
+"folder can define its own folder level permissions."
+msgstr "A ideia de uma Pasta de Equipe é semelhante à de um compartilhamento de rede local. Os usuários podem ser atribuídos a uma Pasta de Equipe com permissões de leitura e escrita no nível do compartilhamento. Dentro da pasta, no nível da subpasta, cada subpasta pode definir suas próprias permissões de nível de pasta."
+
+#: ../../chapter03.rst:342
+msgid "Add a Team Folder"
+msgstr "Adicionar uma Pasta de Equipe"
+
+#: ../../chapter03.rst:347
+msgid "CREATING A TEAM FOLDER"
+msgstr "CRIANDO UMA PASTA DE EQUIPE"
+
+#: ../../chapter03.rst:349
+msgid ""
+"In the hosted |prodname| environment, you can create Team Folders in "
+"several different ways."
+msgstr "No ambiente hospedado |prodname|, você pode criar Pastas de Equipe de várias maneiras diferentes."
+
+#: ../../chapter03.rst:352
+msgid "Default Storage"
+msgstr "Armazenamento Padrão"
+
+#: ../../chapter03.rst:352
+msgid ""
+"Create a new Team Folder from scratch using the default storage. It will "
+"be empty to start with and you can put files and folders inside later."
+msgstr "Crie uma nova Pasta de Equipe do zero usando o armazenamento padrão. Ela estará vazia no início e você poderá colocar arquivos e pastas dentro dela mais tarde."
+
+#: ../../chapter03.rst:355
+msgid "Existing Folder(s)"
+msgstr "Pasta(s) Existente(s)"
+
+#: ../../chapter03.rst:355
+msgid ""
+"Create a new folder by selecting one or more existing folders. Those "
+"selected folders will show up inside the Team Folder."
+msgstr "Crie uma nova pasta selecionando uma ou mais pastas existentes. As pastas selecionadas aparecerão dentro da Pasta de Equipe."
+
+#: ../../chapter03.rst:358
+msgid "Publish Tenant Home Storage As a Team Folder"
+msgstr "Publicar Armazenamento Doméstico do Inquilino Como uma Pasta de Equipe"
+
+#: ../../chapter03.rst:358
+msgid ""
+"The tenant's home storage will be published to users in the same tenant "
+"so they can see file and folder contents from the home storage. Some "
+"specialized folders such as folders from remote file servers or remote "
+"cloud storage services are not included in this scope."
+msgstr "O armazenamento doméstico do inquilino será publicado para os usuários no mesmo inquilino para que eles possam ver o conteúdo de arquivos e pastas do armazenamento doméstico. Algumas pastas especializadas, como pastas de servidores de arquivos remotos ou serviços de armazenamento em nuvem remotos, não estão incluídas neste escopo."
+
+#: ../../chapter03.rst:362
+msgid "Remote File Server (with Server Agent)"
+msgstr "Servidor de Arquivos Remoto (com Agente de Servidor)"
+
+#: ../../chapter03.rst:361
+msgid ""
+"Once you install the Server Agent on your remote server, you can create a"
+" Team Folder here."
+msgstr "Uma vez que você instalar o Agente do Servidor no seu servidor remoto, você pode criar uma Pasta de Equipe aqui."
+
+#: ../../chapter03.rst:364
+msgid ""
+"Initially without remote Server Agent installed, the Remote server "
+"section is empty. If there is at least one Server Agent installed, the "
+"remote file server will show up under the \"Remote File Servers\" section"
+" and you will be able to import file servers from a remote location, "
+"together with Active Directory Identities and the corresponding folder "
+"level NTFS permissions."
+msgstr "Inicialmente, sem o Agente de Servidor remoto instalado, a seção de Servidores Remotos está vazia. Se houver pelo menos um Agente de Servidor instalado, o servidor de arquivos remoto aparecerá na seção \"Servidores de Arquivos Remotos\" e você poderá importar servidores de arquivos de um local remoto, juntamente com as Identidades do Active Directory e as correspondentes permissões NTFS no nível de pasta."
+
+#: ../../chapter03.rst:369
+msgid "TEAM FOLDER SETTINGS"
+msgstr "CONFIGURAÇÕES DA PASTA DE EQUIPE"
+
+#: ../../chapter03.rst:377
+msgid "REPORTS > SHARED OBJECTS"
+msgstr "RELATÓRIOS > OBJETOS PARTILHADOS"
+
+#: ../../chapter03.rst:379
+msgid ""
+"In |prodname|, you can share files and folders from your file browser. "
+"Once a something has been shared it will show up in the Shared Objects "
+"view of the Reports section of the portal. The shares can be read-only or"
+" full access, and can be controlled by date or shared as a public link. "
+"This is how Guest Users are created in |prodname|."
+msgstr "No |prodname|, você pode compartilhar arquivos e pastas a partir do seu navegador de arquivos. Uma vez que algo foi compartilhado, ele aparecerá na visualização de Objetos Compartilhados da seção de Relatórios do portal. Os compartilhamentos podem ser somente leitura ou acesso total, e podem ser controlados por data ou compartilhados como um link público. É assim que Usuários Convidados são criados no |prodname|."
+
+#: ../../chapter03.rst:384
+msgid "SHARED OBJECT SETTINGS"
+msgstr "CONFIGURAÇÕES DE OBJETOS COMPARTILHADOS"
+
+#: ../../chapter03.rst:389
+msgid "Storage Manager"
+msgstr "Gerenciador de Armazenamento"
+
+#: ../../chapter03.rst:394
+msgid "SETTING UP BACKEND STORAGE"
+msgstr "CONFIGURANDO O ARMAZENAMENTO BACKEND"
+
+#: ../../chapter03.rst:396
+msgid ""
+"Storage Manager is where you can define more secondary storage services "
+"and mount them into |prodname| so you can access them all from one single"
+" location."
+msgstr "O Storage Manager é onde você pode definir mais serviços de armazenamento secundário e montá-los no |prodname| para que você possa acessá-los todos de um único local."
+

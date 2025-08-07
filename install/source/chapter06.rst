@@ -36,7 +36,7 @@ You can also verify the SSL certificate using the MMC/Certificates snap-in (Loca
 .. image:: _static/image028.jpg
 
 Now you can bind the "Default Web Site" to the SSL certificate for HTTPS. Right click on the "Default Web Site"
-and select “Edit Bindings”.
+and select "Edit Bindings".
 
 .. image:: _static/image029.png
 

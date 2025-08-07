@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Tenant Administrator"
+msgstr "租户管理员"
+
+#: ../../chapter11.rst:5
+msgid ""
+"Please reference the `Admin Guide`__ for full documentation of the tenant"
+" administration. Here we will go over several commonly touched areas for "
+"tenant administrators."
+msgstr "请参考 `管理员指南`__ 以获取租户管理的完整文档。在这里，我们将讨论租户管理员常用的几个方面。"
+
+#: ../../chapter11.rst:10
+msgid ""
+"After you enter the \"management console\", you will be in the tenant "
+"manager. You can access the tenant by clicking on the desired tenant from"
+" the options."
+msgstr "在您进入“管理控制台”之后，您将进入租户管理器。您可以通过点击选项中的所需租户来访问该租户。"
+
+#: ../../chapter11.rst:15
+msgid ""
+"Under Management Console, an admin can configure storage, monitor shared "
+"objects, create and manage team folders, manage users, configure granular"
+" group policies, add new tenant administrators, look at different "
+"reports, and under advanced configure AD etc."
+msgstr "在管理控制台下，管理员可以配置存储，监控共享对象，创建和管理团队文件夹，管理用户，配置细粒度的群组策略，添加新的租户管理员，查看不同的报告，以及在高级设置中配置AD等。"
+
+#: ../../chapter11.rst:17
+msgid ""
+"After you click a tenant, you will be in the tenant dashboard. You can "
+"click through to different managers. You can manage users **(1)** and "
+"folders **(2)**. If you are using an Active Directory for importing users"
+" and permissions you can connect to your Active Directory by clicking the"
+" \"Configure Now\" **(3)**."
+msgstr "在您点击租户后，您将进入租户仪表板。您可以点击进入不同的管理页面。您可以管理用户 **(1)** 和文件夹 **(2)**。如果您使用Active Directory来导入用户和权限，您可以通过点击\"立即配置\" **(3)** 来连接到您的Active Directory。"
+
+#: ../../chapter11.rst:22
+msgid "MANAGE USERS AND FILES"
+msgstr "管理用户和文件"
+
+#: ../../chapter11.rst:27
+msgid "User Manager"
+msgstr "用户管理器"
+
+#: ../../chapter11.rst:29
+msgid ""
+"You can access the user manager by clicking one of these items in the "
+"Tenant Dashboard."
+msgstr "您可以通过点击租户仪表板中的这些项目之一来访问用户管理器。"
+
+#: ../../chapter11.rst:34
+msgid "ACCESSING THE USER MANAGER"
+msgstr "访问用户管理器"
+
+#: ../../chapter11.rst:38
+msgid "Active Directory - LDAP"
+msgstr "活动目录 - LDAP"
+
+#: ../../chapter11.rst:40
+msgid ""
+"When you \"Create or Migrate User\" **(1)** in user manager, there are "
+"some options for adding new users. Click \"Active Directory\" **(2)**, "
+"you can add your local AD settings. Select \"Enable Active Directory "
+"Integration\" **(3)**."
+msgstr "当您在用户管理器中“创建或迁移用户” **(1)** 时，有一些添加新用户的选项。点击“活动目录” **(2)**，您可以添加本地AD设置。选择“启用活动目录集成” **(3)**。"
+
+#: ../../chapter11.rst:45
+msgid "CONNECTING TO ACTIVE DIRECTORY (AD)"
+msgstr "连接到活动目录 (AD)"
+
+#: ../../chapter11.rst:47
+msgid ""
+"This gives you access to all the settings fields and the Advanced "
+"Settings Tab **(4)**. Once you have filled in the settings with an "
+"Administrator User account from your Active Directory, click **APPLY** to"
+" accept your changes."
+msgstr "这使您可以访问所有设置字段和高级设置选项卡 **(4)**。一旦您使用来自活动目录的管理员用户帐户填写了设置，点击 **APPLY** 以接受您的更改。"
+
+#: ../../chapter11.rst:51
+msgid "Add Users"
+msgstr "添加用户"
+
+#: ../../chapter11.rst:53
+msgid ""
+"You can add users from within the User Manager by clicking the \"Create "
+"or Migrate User\" button to open the **\"Options for Adding New Users\"**"
+" panel. In that panel you have several options: add a Native User, Batch "
+"Create Users, import Active Directory users and permissions, and if you "
+"have Server Agents actively connected, you will also see those servers "
+"listed here as well."
+msgstr "您可以通过点击“创建或迁移用户”按钮，在用户管理器内添加用户，从而打开 **“添加新用户的选项”** 面板。在该面板中，您有几个选项：添加本地用户、批量创建用户、导入Active Directory用户和权限，如果您有活跃连接的服务器代理，您还会在这里看到这些服务器的列表。"
+
+#: ../../chapter11.rst:58
+msgid "ADDING USERS"
+msgstr "添加用户"
+
+#: ../../chapter11.rst:60
+msgid "**Native User**"
+msgstr "**本地用户**"
+
+#: ../../chapter11.rst:62
+msgid ""
+"Native user refers to |prodname| user that is not related to any Active "
+"Directory."
+msgstr "本地用户指的是与任何活动目录无关的 |prodname| 用户。"
+
+#: ../../chapter11.rst:65
+msgid "**Batch create users**"
+msgstr "**批量创建用户**"
+
+#: ../../chapter11.rst:67
+msgid ""
+"These are native users in a comma separated file that can be paste into a"
+" text area so the users can be batch created."
+msgstr "这些是逗号分隔文件中的本地用户，可以粘贴到文本区域中，以便可以批量创建用户。"
+
+#: ../../chapter11.rst:70
+msgid "**Active Directory**"
+msgstr "**活动目录**"
+
+#: ../../chapter11.rst:72
+msgid ""
+"Active Directory means users from Local Area Network (LAN) that is in the"
+" same network as the |prodname| server."
+msgstr "Active Directory表示与 |prodname| 服务器处于同一网络的局域网(LAN)中的用户。"
+
+#: ../../chapter11.rst:75
+msgid "**Server-Agent-Name**"
+msgstr "**服务器-代理-名称**"
+
+#: ../../chapter11.rst:77
+msgid ""
+"If you already have the \"Server Agent\" installed and the server agent "
+"is actively connected to |prodname|, you will also see the server agents "
+"listed by name in the Add User page."
+msgstr "如果您已经安装了\"服务器代理\"并且服务器代理正在主动连接到 |prodname|，在添加用户页面中您也会看到按名称列出的服务器代理。"
+
+#: ../../chapter11.rst:83
+msgid "Native Users"
+msgstr "本地用户"
+
+#: ../../chapter11.rst:85
+msgid ""
+"When a new user is created, the administrator will specify the amount of "
+"cloud storage that the new user is allowed to use. The email address will"
+" send a welcome email to the new user and will serve as his/her username."
+msgstr "当创建新用户时，管理员将指定新用户被允许使用的云存储量。电子邮件地址将向新用户发送欢迎邮件，并将作为他/她的用户名。"
+
+#: ../../chapter11.rst:90
+msgid "ADDING A NATIVE USER"
+msgstr "添加本地用户"
+
+#: ../../chapter11.rst:94
+msgid ""
+"When quota is left as zero, it means no limitation until the tenant quota"
+" limit is hit."
+msgstr "当配额设置为零时，表示没有限制，直到租户的配额限制被触发。"
+
+#: ../../chapter11.rst:97
+msgid "Active Directory Users from LDAP"
+msgstr "来自LDAP的活动目录用户"
+
+#: ../../chapter11.rst:99
+msgid ""
+"If the Active Directory (LDAP) is not already configured, you will need "
+"to configure it first. You can from \"Settings\" > \"Active Directory\", "
+"or \"Create or Migrate User\" > \"Active Directory\" to access the "
+"settings."
+msgstr "如果Active Directory（LDAP）尚未配置，您将需要首先进行配置。您可以从“设置”>“Active Directory”或“创建或迁移用户”>“Active Directory”访问设置。"
+
+#: ../../chapter11.rst:104
+msgid "CONFIGURE YOUR ACTIVE DIRECTORY SETTINGS"
+msgstr "配置您的活动目录设置"
+
+#: ../../chapter11.rst:106
+msgid ""
+"If the Active Directory (LDAP) is already configured, you will see the "
+"Active Directory name at the bottom of the AD icon in the \"Add User\" "
+"view."
+msgstr "如果已经配置了活动目录（LDAP），您将在“添加用户”视图的AD图标底部看到活动目录名称。"
+
+#: ../../chapter11.rst:108
+msgid "Add Active Directory Users where those users are from local area network."
+msgstr "添加Active Directory用户，这些用户来自本地区域网络。"
+
+#: ../../chapter11.rst:113
+msgid "ADDING ACTIVE DIRECTORY USERS"
+msgstr "添加活动目录用户"
+
+#: ../../chapter11.rst:116
+msgid ""
+"After the Active Directory is configured, you can use the Add User wizard"
+" to import Active Directory users into |prodname|."
+msgstr "在配置Active Directory之后，您可以使用添加用户向导将Active Directory用户导入到 |prodname|。"
+
+#: ../../chapter11.rst:121
+msgid ""
+"For best practice, you will only configure Active Directory via LDAP if "
+"the file server is also local in the same network as the Active Directory"
+" server."
+msgstr "为了最佳实践，如果文件服务器也位于与Active Directory服务器相同的网络中，您将仅通过LDAP配置Active Directory。"
+
+#: ../../chapter11.rst:126
+msgid "Active Directory Users from Server Agent"
+msgstr "从服务器代理中的活动目录用户"
+
+#: ../../chapter11.rst:128
+msgid ""
+"When the Server Agent is available and connects to the specific tenant in"
+" |prodname|, the Server Agent will show up with the server's name at the "
+"bottom of the icon."
+msgstr "当服务器代理可用并连接到 |prodname| 中的特定租户时，服务器代理将以服务器名称的形式出现在图标的底部。"
+
+#: ../../chapter11.rst:132
+msgid ""
+"Click through the Server Agent icon, you will see the \"Add User\" wizard"
+" and complete the wizard to add users. This is very similar to the add AD"
+" user from local LDAP process above."
+msgstr "点击服务器代理图标，您将看到“添加用户”向导，请完成向导以添加用户。这与上面的从本地LDAP添加AD用户的过程非常相似。"
+
+#: ../../chapter11.rst:136
+msgid ""
+"When the Active Directory is at a remote location, not directly connected"
+" to |prodname| server, Server Agent can be used to facilitate the "
+"communication. Server Agent doesn't need to be installed directly on a "
+"remote Active Directory server, the Server Agent needs to be installed on"
+" a remote file server that is part of the remote Active Directory domain."
+msgstr "当Active Directory位于远程位置，未直接连接到 |prodname| 服务器时，可以使用服务器代理来促进通信。服务器代理不需要直接安装在远程Active Directory服务器上，服务器代理需要安装在远程文件服务器上，该服务器是远程Active Directory域的一部分。"
+
+#: ../../chapter11.rst:140
+msgid "Deleting Users"
+msgstr "删除用户"
+
+#: ../../chapter11.rst:142
+msgid ""
+"When a user leaves the team, administrators can delete the user's login. "
+"Just click the Delete icon in 'User Manager' window."
+msgstr "当用户离开团队时，管理员可以删除用户的登录信息。只需在'用户管理'窗口中点击删除图标即可。"
+
+#: ../../chapter11.rst:147
+msgid "DELETING A USER"
+msgstr "删除用户"
+
+#: ../../chapter11.rst:151
+msgid "Managing User Quotas"
+msgstr "管理用户配额"
+
+#: ../../chapter11.rst:153
+msgid ""
+"Administrators can assign a quota to each user. A user will not be "
+"allowed to upload files to |prodname| once their quota has been reached."
+msgstr "管理员可以为每个用户分配配额。一旦用户达到配额限制，将无法继续上传文件到 |prodname|。"
+
+#: ../../chapter11.rst:155
+msgid ""
+"If the quota is 0 for the user, there is no limit on how much storage the"
+" user can use."
+msgstr "如果用户的配额为0，则用户可以使用的存储空间没有限制。"
+
+#: ../../chapter11.rst:157
+msgid ""
+"Click the 'Management Console' and select 'Users'. Click the \"Edit\" "
+"icon on an user to manage. On \"Storage\" tab, select \"Edit\" icon for "
+"storage quota."
+msgstr "点击'管理控制台'，选择'用户'。点击用户旁的\"编辑\"图标进行管理。在\"存储\"标签页，选择存储配额旁的\"编辑\"图标。"
+
+#: ../../chapter11.rst:162
+msgid "EDITING STORAGE QUOTA"
+msgstr "编辑存储配额"
+
+#: ../../chapter11.rst:166
+msgid "Managing User Credentials"
+msgstr "管理用户凭证"
+
+#: ../../chapter11.rst:168
+msgid "Admins can change user passwords and login emails, if needed."
+msgstr "管理员如有需要，可以更改用户密码和登录邮箱。"
+
+#: ../../chapter11.rst:170
+msgid "Click 'Management Console' and select 'User Manager'"
+msgstr "点击'管理控制台'，然后选择'用户管理器'"
+
+#: ../../chapter11.rst:171
+msgid "Click the \"manage user\" menu icon in the user block"
+msgstr "点击用户区块中的“管理用户”菜单图标"
+
+#: ../../chapter11.rst:172
+msgid "After that, can use \"Reset Password\" link to help the user."
+msgstr "之后，可以使用\"重置密码\"链接来帮助用户。"
+
+#: ../../chapter11.rst:177
+msgid "RESET USER PASSWORD"
+msgstr "重置用户密码"
+
+#: ../../chapter11.rst:180
+msgid ""
+"After changing the login password, an email will be sent to notify the "
+"user of the change. Admins can choose to include the new password in the "
+"email, or exclude the new password from the email. If the password is not"
+" included, the admin will need to convey the new password to the user in "
+"some other way."
+msgstr "更改登录密码后，系统会发送一封电子邮件通知用户密码已更改。管理员可以选择在电子邮件中包含新密码，也可以选择不在电子邮件中显示新密码。如果不包括密码，管理员将需要通过其他方式将新密码告知用户。"
+
+#: ../../chapter11.rst:185
+msgid "PASSWORD OPTIONS"
+msgstr "密码选项"
+
+#: ../../chapter11.rst:188
+msgid ""
+"When either the email or password is changed, please update the "
+"corresponding login credentials in the |prodname| Cloud Desktop or Cloud "
+"Server."
+msgstr "当电子邮件或密码更改时，请在 |prodname| 云桌面或云服务器中更新相应的登录凭据。"
+
+#: ../../chapter11.rst:192
+msgid ""
+"This only applies to a native |prodname| user. If you have Active "
+"Directory users, you will need to manage user's credential the Active "
+"Directory way."
+msgstr "这仅适用于本地 |prodname| 用户。如果您有活动目录用户，您将需要以活动目录的方式管理用户凭据。"
+
+#: ../../chapter11.rst:196
+msgid "Team Folders"
+msgstr "团队文件夹"
+
+#: ../../chapter11.rst:198
+msgid ""
+"Adding files and folders can be accomplished by clicking \"Add a new team"
+" folder\" (**+**) icon on \"Team Folders\" page. Once the **\"Team Folder"
+" Storage Locations\"** view opens you can choose from many options: "
+"Existing Tenant Storage, File Servers in Local Area Network, Remote File "
+"Servers or Cloud Storage."
+msgstr "通过点击“团队文件夹”页面上的“添加新的团队文件夹”(**+**)图标，可以添加文件和文件夹。一旦打开 **“团队文件夹存储位置”** 视图，您可以从多个选项中选择：现有租户存储、局域网中的文件服务器、远程文件服务器或云存储。"
+
+#: ../../chapter11.rst:203
+msgid "WAYS TO ADD STORAGE LOCATIONS"
+msgstr "添加存储位置的方法"
+
+#: ../../chapter11.rst:206
+msgid "**File Servers**"
+msgstr "**文件服务器**"
+
+#: ../../chapter11.rst:208
+msgid ""
+"If you have an existing file server in the Local Area Network (LAN), you "
+"can import the network share directly to |prodname| **(1)**. Under Remote"
+" File Servers, you can install the Server Agent client **(2)** and access"
+" your file server remotely."
+msgstr "如果您在局域网（LAN）中有现有的文件服务器，您可以直接将网络共享导入到 |prodname| **(1)**。在远程文件服务器下，您可以安装服务器代理客户端 **(2)** 并远程访问您的文件服务器。"
+
+#: ../../chapter11.rst:213
+msgid "ADDING REMOTE FILES"
+msgstr "添加远程文件"
+
+#: ../../chapter11.rst:218
+msgid ""
+"The Server Agent is only required when the remote file server doesn't "
+"have direct LAN (local area network) access"
+msgstr "当远程文件服务器没有直接的局域网（LAN）访问时，只需安装服务器代理"
+
+#: ../../chapter11.rst:218
+msgid ""
+"to |prodname|. The Server Agent will be used in this case to facilitate "
+"communication between the |prodname| server to the remote file server."
+msgstr "到 |prodname|。在这种情况下，将使用服务器代理来促进 |prodname| 服务器与远程文件服务器之间的通信。"
+
+#: ../../chapter11.rst:221
+msgid ""
+"|prodname| enables the creation of team folders which are owned by the "
+"administrator and published to other |prodname| users."
+msgstr "|prodname| 允许管理员创建团队文件夹，并将其发布给其他 |prodname| 用户。"
+
+#: ../../chapter11.rst:223
+msgid ""
+"Once a folder is published, it is displayed as a team folder to the users"
+" who have access permissions. Users can access these folders from "
+"|prodname| Web or other client agents. The published folder will appear "
+"under the user's root folder, and its name will be appended with \"(Team "
+"Folder)\"."
+msgstr "一旦文件夹被发布，它就会显示为拥有访问权限的用户的团队文件夹。用户可以通过 |prodname| Web或其他客户端代理访问这些文件夹。已发布的文件夹将出现在用户的根文件夹下，其名称将附加上“(团队文件夹)”"
+
+#: ../../chapter11.rst:229
+msgid "TEAM FOLDER TAG"
+msgstr "团队文件夹标签"
+
+#: ../../chapter11.rst:233
+msgid ""
+"Different upload methods may have different advantage and disadvantage on"
+" different web browsers and different web browser configuration, such as "
+"whether it is HTML5 enabled, Java enabled or Flash enabled."
+msgstr "不同的上传方法在不同的网络浏览器和不同的浏览器配置上可能有不同的优势和劣势，例如是否启用了HTML5、Java或Flash。"
+
+#: ../../chapter11.rst:236
+msgid ""
+"By default, only one upload method was exposed in the web user interface."
+" However, the tenant administrator, based on the kind of web browser the "
+"company is using and the kind of configuration the web browser has, can "
+"decide which upload method to expose to the end user (Team User)."
+msgstr "默认情况下，web用户界面中只暴露了一种上传方法。然而，租户管理员可以根据公司使用的网络浏览器的类型以及网络浏览器的配置情况，决定向最终用户（团队用户）暴露哪种上传方法。"
+
+#: ../../chapter11.rst:239
+msgid ""
+"Below is the Settings -> Clients & Applications -> Web Portal setting "
+"administrator can control."
+msgstr "以下是设置 -> 客户端与应用程序 -> 网页门户设置管理员可以控制的。"
+
+#: ../../chapter11.rst:244
+msgid "UPLOADER METHOD OPTIONS"
+msgstr "上传器方法选项"
+
+#: ../../chapter11.rst:246
+msgid "Web Browser - Disable Java Uploader"
+msgstr "网页浏览器 - 禁用Java上传器"
+
+#: ../../chapter11.rst:248
+msgid ""
+"Deselect this if your companies' desktop system web browsers use a Java "
+"Uploader."
+msgstr "如果您公司的桌面系统网络浏览器使用Java上传器，请取消选择此项。"
+
+#: ../../chapter11.rst:250
+msgid "Web Browser - Disable Flash Uploader"
+msgstr "网页浏览器 - 禁用 Flash 上传器"
+
+#: ../../chapter11.rst:252
+msgid ""
+"Deselect this if your company uses browsers that require Flash uploader "
+"functionality."
+msgstr "如果您的公司使用需要Flash上传功能的浏览器，请取消选择此项。"
+
+#: ../../chapter11.rst:254
+msgid "Web Browser - Disable Local Uploader"
+msgstr "网页浏览器 - 禁用本地上传器"
+
+#: ../../chapter11.rst:256
+msgid ""
+"Deselect this if your company allows the use of a local executable to "
+"upload files."
+msgstr "如果您的公司允许使用本地可执行文件上传文件，请取消选择此项。"
+
+#: ../../chapter11.rst:260
+msgid "Sharing Security"
+msgstr "共享安全性"
+
+#: ../../chapter11.rst:263
+msgid "Preventing Users From Sharing"
+msgstr "防止用户共享"
+
+#: ../../chapter11.rst:265
+msgid ""
+"Sometimes for security reasons, users should not be allowed to share "
+"files/folders."
+msgstr "有时候出于安全考虑，不应允许用户共享文件/文件夹。"
+
+#: ../../chapter11.rst:267
+msgid "There are two types of files and folders a user can access."
+msgstr "用户可以访问两种类型的文件和文件夹。"
+
+#: ../../chapter11.rst:269
+msgid ""
+"User's own folders, including versioned folders and attached local "
+"folders from the user's desktop."
+msgstr "用户自己的文件夹，包括带版本的文件夹和从用户桌面附加的本地文件夹。"
+
+#: ../../chapter11.rst:271
+msgid ""
+"When an administrator creates new users, he/she can disable sharing home "
+"directory content with external party, to prevent the newly created user "
+"from sharing his/her own files and folders."
+msgstr "当管理员创建新用户时，他/她可以禁止与外部共享主目录内容，以防止新创建的用户共享他/她自己的文件和文件夹。"
+
+#: ../../chapter11.rst:277
+msgid "MANAGE USER SETTINGS"
+msgstr "管理用户设置"
+
+#: ../../chapter11.rst:279
+msgid ""
+"In the Manage User panel, access the \"Storage\" settings (4). Once you "
+"are in the Storage View you can select (5) the \"Disable external sharing"
+" of this user's home directory content\" option."
+msgstr "在管理用户面板中，访问“存储”设置（4）。一旦您进入存储视图，您可以选择（5）“禁用此用户主目录内容的外部共享”选项。"
+
+#: ../../chapter11.rst:284
+msgid "DISABLE EXTERNAL SHARING"
+msgstr "禁用外部共享"
+
+#: ../../chapter11.rst:287
+msgid ""
+"When publishing a team folder, administrator can check 'Disable further "
+"sharing', to prevent users from sharing anything in the team folder. You "
+"can access this setting after choosing your storage location. Click the "
+"\"Create Team Folder\" **(+)** icon (1) and select your storage type (2),"
+" \"New Team Folder\" window opens, click \"Settings\" icon (3), then "
+"select the \"Disable further sharing\" option (4)."
+msgstr "当发布团队文件夹时，管理员可以勾选'禁止进一步共享'，以防止用户共享团队文件夹中的任何内容。您可以在选择存储位置后访问此设置。点击“创建团队文件夹” **(+)** 图标（1）并选择您的存储类型（2），“新建团队文件夹”窗口将打开，点击“设置”图标（3），然后选择“禁止进一步共享”选项（4）。"
+
+#: ../../chapter11.rst:292
+msgid "DISABLE FURTHER SHARING"
+msgstr "禁止进一步共享"
+
+#: ../../chapter11.rst:296
+msgid "Protecting Shares By Requiring Login"
+msgstr "通过要求登录来保护共享"
+
+#: ../../chapter11.rst:298
+msgid ""
+"When a user shares a file or folder, |prodname| will generate a URL. By "
+"default, anyone can use the URL to access the share."
+msgstr "当用户共享文件或文件夹时，|prodname| 将生成一个URL。默认情况下，任何人都可以使用该URL访问共享内容。"
+
+#: ../../chapter11.rst:300
+msgid ""
+"Administrators can protect shares by requiring login credentials. Once "
+"enabled, when a user accesses the share URL, he /she will be prompted to "
+"login to the |prodname| Cloud. After login, the user can view the "
+"file/folder shared with him/her under 'Files shared with me'."
+msgstr "管理员可以通过要求登录凭证来保护共享。一旦启用，当用户访问共享 URL 时，他/她将被提示登录到 |prodname| 云。登录后，用户可以在'与我共享的文件'下查看与他/她共享的文件/文件夹。"
+
+#: ../../chapter11.rst:303
+msgid ""
+"To access this setting use the \"Settings\" menu (1) and in the \"Data "
+"Leak Protection\" (2) -> \"Sharing\" (3) panel, select the \"Users must "
+"log in to access the content in 'Files shared with me' folder\" setting "
+"(4)."
+msgstr "要访问此设置，请使用“设置”菜单（1），并在“数据泄露保护”（2）->“共享”（3）面板中，选择“用户必须登录才能访问‘与我共享的文件’文件夹中的内容”设置（4）。"
+
+#: ../../chapter11.rst:308
+msgid "SECURING SHARED FILES AND FOLDERS"
+msgstr "保护共享文件和文件夹"
+

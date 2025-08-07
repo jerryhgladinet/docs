@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "2 Installation"
+msgstr "2 インストール"
+
+#: ../../chapter02.rst:6
+msgid ""
+"You can download and install the File Server Agent software directly from"
+" the Web Portal. Complete the following steps to install the |prodname| "
+"File Server Agent software on your file server."
+msgstr "Webポータルから直接ファイルサーバーエージェントソフトウェアをダウンロードしてインストールすることができます。次の手順に従って、ファイルサーバーに |prodname| ファイルサーバーエージェントソフトウェアをインストールしてください。"
+
+#: ../../chapter02.rst:11
+msgid "2.1 System Requirement"
+msgstr "2.1 システム要件"
+
+#: ../../chapter02.rst:13
+msgid "File Server Agent can be installed on the following OS"
+msgstr "ファイルサーバーエージェントは、以下のOSにインストールすることができます"
+
+#: ../../chapter02.rst:15
+msgid "Server OS"
+msgstr "サーバーOS"
+
+#: ../../chapter02.rst:17
+msgid "Windows 2022"
+msgstr "Windows 2022"
+
+#: ../../chapter02.rst:18
+msgid "Windows 2019"
+msgstr "Windows 2019"
+
+#: ../../chapter02.rst:19
+msgid "Windows 2016"
+msgstr "Windows 2016"
+
+#: ../../chapter02.rst:21
+msgid "Client OS"
+msgstr "クライアントOS"
+
+#: ../../chapter02.rst:23
+msgid "Windows 10"
+msgstr "Windows 10"
+
+#: ../../chapter02.rst:24
+msgid "Windows 8.1"
+msgstr "Windows 8.1"
+
+#: ../../chapter02.rst:25
+msgid "Windows 8.0"
+msgstr "Windows 8.0"
+
+#: ../../chapter02.rst:26
+msgid "Windows 7"
+msgstr "Windows 7"
+
+#: ../../chapter02.rst:27
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+#: ../../chapter02.rst:28
+msgid "Windows XP"
+msgstr "Windows XP"
+
+#: ../../chapter02.rst:33
+msgid "2.2 Preparation"
+msgstr "2.2 準備"
+
+#: ../../chapter02.rst:35
+msgid ""
+"File Server Agent depends on .NET framework 2.0 or later. If you are "
+"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"need to prepare the .NET environment. This usually can be done from the "
+"Windows Server Manager > Manage Roles and Features and then in the "
+"features section, select .NET Framework 3.5"
+msgstr "ファイルサーバーエージェントは、.NET Framework 2.0以降に依存しています。Windows Server 2022/2019/2016にファイルサーバーエージェントをインストールする場合、.NET環境を準備する必要があります。これは通常、Windowsサーバーマネージャー > 役割と機能の管理から行い、機能セクションで.NET Framework 3.5を選択することで行えます"
+
+#: ../../chapter02.rst:40
+msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
+msgstr "WINDOWS SERVER 2016 .NET フレームワーク機能"
+
+#: ../../chapter02.rst:43
+msgid ""
+"If you are installing File Server Agent on Windows 8/Windows 10, you can "
+"get .NET framework 2.0 (3.5) installed from \"Program Files\" -> Windows "
+"Components."
+msgstr "Windows 8/Windows 10でファイルサーバーエージェントをインストールする場合、「プログラムファイル」->「Windowsコンポーネント」から.NETフレームワーク2.0（3.5）をインストールできます。"
+
+#: ../../chapter02.rst:48
+msgid "WINDOWS 10 .NET FRAMEWORK 3.5 FEATURE"
+msgstr "WINDOWS 10 .NET フレームワーク 3.5 機能"
+
+#: ../../chapter02.rst:53
+msgid "2.3 Install"
+msgstr "2.3 インストール"
+
+#: ../../chapter02.rst:57
+msgid ""
+"Always install |prodname| File Server Agent as a Tenant Administrator "
+"when you are at the login dialog."
+msgstr "ログインダイアログにいるときは、テナント管理者として常に |prodname| ファイルサーバーエージェントをインストールしてください。"
+
+#: ../../chapter02.rst:59
+msgid ""
+"File Server Agent belongs to a specific Tenant instead of belonging to a "
+"specific user. So it is best to download the File Server Agent as the "
+"Tenant Administrator and set it up to connect to the same Tenant "
+"Administrator's account."
+msgstr "ファイルサーバーエージェントは特定のユーザーではなく、特定のテナントに属しています。そのため、テナント管理者としてファイルサーバーエージェントをダウンロードし、同じテナント管理者のアカウントに接続するように設定するのが最適です。"
+
+#: ../../chapter02.rst:62
+msgid "Step 1 - Download the Installer Package"
+msgstr "ステップ 1 - インストーラーパッケージをダウンロード"
+
+#: ../../chapter02.rst:64
+msgid ""
+"From the File Server you wish to install the File Server Agent; open a "
+"browser and log in to the Web Portal as the Tenant Administrator. From "
+"the Management Console, click the **(+)** in the \"Remote Active "
+"Directory\" section on the right-hand side."
+msgstr "ファイルサーバーエージェントをインストールしたいファイルサーバーから、ブラウザを開いてWebポータルにテナント管理者としてログインしてください。管理コンソールから、右側の「リモートアクティブディレクトリ」セクションの **(+)** をクリックします。"
+
+#: ../../chapter02.rst:69
+msgid "SERVER AGENT DOWNLOADS ACCESS"
+msgstr "サーバーエージェント ダウンロードアクセス"
+
+#: ../../chapter02.rst:71
+msgid ""
+"In the pop-up window, choose your Download Package from the pull-down "
+"menu and click **Go** to begin the installation."
+msgstr "ポップアップウィンドウで、プルダウンメニューからダウンロードパッケージを選択し、**Go** をクリックしてインストールを開始します。"
+
+#: ../../chapter02.rst:73
+msgid ""
+"A window will open. Click the MSI file at the bottom of the browser to "
+"open the installer."
+msgstr "ウィンドウが開きます。ブラウザの下部にあるMSIファイルをクリックしてインストーラーを開いてください。"
+
+#: ../../chapter02.rst:78
+msgid "OPEN THE INSTALLER"
+msgstr "インストーラーを開く"
+
+#: ../../chapter02.rst:82
+msgid ""
+"File Server agent software is capable of synchronizing three things "
+"between the local file server and remote cloud storage account."
+msgstr "ファイルサーバーエージェントソフトウェアは、ローカルファイルサーバーとリモートクラウドストレージアカウント間で三つのものを同期することができます。"
+
+#: ../../chapter02.rst:84
+msgid "synchronize selected files and folders."
+msgstr "選択したファイルとフォルダを同期します。"
+
+#: ../../chapter02.rst:85
+msgid "synchronize selected Active Directory users from local to cloud."
+msgstr "ローカルからクラウドへ選択したActive Directoryユーザーを同期します。"
+
+#: ../../chapter02.rst:86
+msgid "synchronize NTFS permissions on the local file server to cloud."
+msgstr "ローカルファイルサーバーのNTFS権限をクラウドに同期させます。"
+
+#: ../../chapter02.rst:88
+msgid ""
+"You can start installing file server agent from \"Adding Remote Active "
+"Directory\" or from \"Adding Team Folder via Remote Server Agent\"."
+msgstr "「リモートActive Directoryの追加」または「リモートサーバーエージェント経由でチームフォルダを追加」から、ファイルサーバーエージェントのインストールを開始できます。"
+
+#: ../../chapter02.rst:91
+msgid "Step 2 - Run the Installer Package"
+msgstr "ステップ 2 - インストーラーパッケージを実行する"
+
+#: ../../chapter02.rst:93
+msgid "Click **\"Run\"** to start the installation."
+msgstr "インストールを開始するには、**「実行」** をクリックしてください。"
+
+#: ../../chapter02.rst:98
+msgid "RUN THE SERVER AGENT INSTALLER"
+msgstr "サーバーエージェントインストーラーを実行してください"
+
+#: ../../chapter02.rst:101
+msgid "Step 3 - Welcome Screen"
+msgstr "ステップ3 - ウェルカムスクリーン"
+
+#: ../../chapter02.rst:103 ../../chapter02.rst:111
+msgid "On the Welcome Screen choose **\"Next\"** to continue."
+msgstr "ウェルカム画面で「次へ」を選択して続行してください。"
+
+#: ../../chapter02.rst:108
+msgid "WELCOME SCREEN"
+msgstr "ようこそ画面"
+
+#: ../../chapter02.rst:114
+msgid "Step 4 - License Agreement"
+msgstr "ステップ 4 - ライセンス契約"
+
+#: ../../chapter02.rst:116
+msgid ""
+"Read and accept the license agreement by choosing **\"I Agree\"** and "
+"click the **\"Next\"** button."
+msgstr "ライセンス契約を読み、**「同意します」** を選択してから **「次へ」** ボタンをクリックしてください。"
+
+#: ../../chapter02.rst:121
+msgid "ACCEPT LICENSE AGREEMENT"
+msgstr "ライセンス契約を承諾する"
+
+#: ../../chapter02.rst:124
+msgid "Step 5 - Confirm Installation"
+msgstr "ステップ5 - インストールの確認"
+
+#: ../../chapter02.rst:126
+msgid ""
+"Now we will complete the File Server Agent installation. Click "
+"**\"Next\"** to finish."
+msgstr "これでファイルサーバーエージェントのインストールが完了します。**「次へ」** をクリックして終了してください。"
+
+#: ../../chapter02.rst:131
+msgid "CONFIRM INSTALLATION"
+msgstr "インストールを確認する"
+
+#: ../../chapter02.rst:134
+msgid "Step 6 - Installation is Finishing"
+msgstr "ステップ6 - インストールが完了しています"
+
+#: ../../chapter02.rst:136
+msgid "It will only take a few minutes to complete the installation."
+msgstr "インストールは数分で完了します。"
+
+#: ../../chapter02.rst:141
+msgid "FINAL INSTALLATION PROCESS"
+msgstr "最終インストールプロセス"
+
+#: ../../chapter02.rst:144
+msgid "Step 7 - Installation Complete"
+msgstr "ステップ7 - インストール完了"
+
+#: ../../chapter02.rst:146
+msgid ""
+"Once the installation is completed, click the **\"Close\"** button to "
+"finish."
+msgstr "インストールが完了したら、**「閉じる」** ボタンをクリックして終了してください。"
+
+#: ../../chapter02.rst:151
+msgid "CLOSE INSTALLATION WINDOW"
+msgstr "インストールウィンドウを閉じる"
+
+#: ../../chapter02.rst:154
+msgid "Step 8 - Restart Your System"
+msgstr "ステップ 8 - システムを再起動する"
+
+#: ../../chapter02.rst:156
+msgid "Just restart your system and File Server Agent is ready to use."
+msgstr "システムを再起動すると、File Server Agentがすぐに使用できるようになります。"
+
+#: ../../chapter02.rst:161
+msgid "RESTART YOUR SYSTEM"
+msgstr "システムを再起動してください"
+
+#: ../../chapter02.rst:165
+msgid "Step 9 - Login To |prodname|"
+msgstr "ステップ 9 - |prodname| にログインする"
+
+#: ../../chapter02.rst:167
+msgid ""
+"After the reboot, log back into Windows as the same Windows user. Be "
+"patient, as it will take a few minutes for the Login Panel to display. "
+"Login to |prodname| as using your Tenant Administrator credentials."
+msgstr "再起動後、同じWindowsユーザーとしてWindowsに再度ログインしてください。ログインパネルが表示されるまでに数分かかりますので、しばらくお待ちください。テナント管理者の資格情報を使用して |prodname| にログインしてください。"
+
+#: ../../chapter02.rst:170
+msgid ""
+"The File Server Agent can be logged in to the Tenant already if you don't"
+" see the login dialog. You can go to the Web Portal side, login as the "
+"Tenant Administrator and go to the \"Device Manager\" side to see the "
+"File Server Agent."
+msgstr "ファイルサーバーエージェントは、ログインダイアログが表示されない場合、既にテナントにログインしている可能性があります。Webポータル側に移動し、テナント管理者としてログインして、「デバイスマネージャー」側に進むと、ファイルサーバーエージェントを確認できます。"
+
+#: ../../chapter02.rst:175
+msgid "LOG IN AS TENANT ADMIN"
+msgstr "テナント管理者としてログイン"
+

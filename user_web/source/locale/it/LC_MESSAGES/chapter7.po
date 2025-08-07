@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter7.rst:3
+msgid "Folder Legends in Web Interface"
+msgstr "Leggende delle cartelle nell'interfaccia web"
+
+#: ../../chapter7.rst:5
+msgid "There are many different folders in the web interface."
+msgstr "Ci sono molte cartelle diverse nell'interfaccia web."
+
+#: ../../chapter7.rst:7
+msgid "Here is a list of them."
+msgstr "Ecco un elenco di essi."
+
+#: ../../chapter7.rst:9
+msgid "**Mounted Storage**"
+msgstr "**Archiviazione Montata**"
+
+#: ../../chapter7.rst:15
+msgid ""
+"This folder represents mounted/attached storage. For example, a mounted "
+"file server network share or a connected Amazon S3 bucket will look like "
+"this."
+msgstr "Questa cartella rappresenta uno spazio di archiviazione montato/collegato. Ad esempio, una condivisione di rete di un file server montato o un bucket Amazon S3 connesso apparirà in questo modo."
+
+#: ../../chapter7.rst:17
+msgid "**Sync From Remote**"
+msgstr "**Sincronizza da Remoto**"
+
+#: ../../chapter7.rst:23
+msgid ""
+"This folder represents synchronization folders from remote PCs or Server "
+"Agents."
+msgstr "Questa cartella rappresenta le cartelle di sincronizzazione da PC remoti o Agenti Server."
+
+#: ../../chapter7.rst:25
+msgid "**Received Shares**"
+msgstr "**Condivisioni Ricevute**"
+
+#: ../../chapter7.rst:31
+msgid ""
+"This folder represents the root folder of all the shared files and "
+"folders from other users."
+msgstr "Questa cartella rappresenta la cartella radice di tutti i file e le cartelle condivisi dagli altri utenti."
+
+#: ../../chapter7.rst:33
+msgid "**Regular Folder**"
+msgstr "**Cartella Regolare**"
+
+#: ../../chapter7.rst:39
+msgid "This folder represents a single shared folder received from other users."
+msgstr "Questa cartella rappresenta una singola cartella condivisa ricevuta da altri utenti."
+
+#: ../../chapter7.rst:41
+msgid "**Team Folder**"
+msgstr "**Cartella di squadra**"
+
+#: ../../chapter7.rst:47
+msgid ""
+"This folder represent a team folder that is published to users and viewed"
+" from the users who received the team folder."
+msgstr "Questa cartella rappresenta una cartella di squadra che è stata pubblicata agli utenti e visualizzata dagli utenti che hanno ricevuto la cartella di squadra."
+
+#: ../../chapter7.rst:49
+msgid "**Version Control**"
+msgstr "**Controllo della Versione**"
+
+#: ../../chapter7.rst:55
+msgid ""
+"Version folder represents folders that every files inside is under "
+"version control."
+msgstr "La cartella delle versioni rappresenta le cartelle in cui ogni file al suo interno è sotto controllo versione."
+
+#: ../../chapter7.rst:59
+msgid ""
+"If a folder doesn't have the version folder icon, doesn't mean it is not "
+"a version folder."
+msgstr "Se una cartella non ha l'icona della cartella delle versioni, non significa che non sia una cartella delle versioni."
+
+#: ../../chapter7.rst:61
+msgid ""
+"As long as one of the parent folder is a version folder, everything "
+"inside is under version control."
+msgstr "Finché una delle cartelle principali è una cartella di versione, tutto ciò che si trova al suo interno è sotto controllo di versione."
+
+#: ../../chapter7.rst:63
+msgid ""
+"If the administrator setup the user as version control from the root, the"
+" team user may not see the version folder icon either when version "
+"control is on by default."
+msgstr "Se l'amministratore configura l'utente per il controllo versione dalla radice, l'utente del team potrebbe non vedere l'icona della cartella delle versioni quando il controllo versione è attivato per impostazione predefinita."
+

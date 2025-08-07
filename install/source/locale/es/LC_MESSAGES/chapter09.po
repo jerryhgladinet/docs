@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter09.rst:3
+msgid "Add additional |prodname| servers to the cluster"
+msgstr "Añadir servidores |prodname| adicionales al clúster"
+
+#: ../../chapter09.rst:4
+msgid ""
+"Adding an additional |prodname| server is as simple as installing the "
+"first CentreStack server. Run the |prodname| server installation program "
+"on another server, specifying the same database as the first server in "
+"the cluster."
+msgstr "Agregar un servidor adicional |prodname| es tan simple como instalar el primer servidor CentreStack. Ejecute el programa de instalación del servidor |prodname| en otro servidor, especificando la misma base de datos que el primer servidor en el clúster."
+
+#: ../../chapter09.rst:7
+msgid "Adding additional |prodname| servers to an existing cluster is optional."
+msgstr "Agregar servidores |prodname| adicionales a un clúster existente es opcional."
+
+#: ../../chapter09.rst:9
+msgid ""
+"If you only have a few hundred users, you don't need to have a second "
+"node from a scalability perspective. The scalability point of adding a "
+"second CentreStack Server is at 1000 users. For best practices, you will "
+"always scale vertically first such as making a 2-CPU machine into a 4-CPU"
+" machine and add RAM to the |prodname| Server before scaling horizontally"
+" by adding more |prodname| Servers."
+msgstr "Si solo tienes unos pocos cientos de usuarios, no necesitas tener un segundo nodo desde la perspectiva de la escalabilidad. El punto de escalabilidad para añadir un segundo Servidor CentreStack está en los 1000 usuarios. Para las mejores prácticas, siempre escalarás verticalmente primero, como convertir una máquina de 2 CPU en una máquina de 4 CPU y añadir RAM al Servidor |prodname| antes de escalar horizontalmente añadiendo más Servidores |prodname|."
+
+#: ../../chapter09.rst:17
+msgid ""
+"However, from a high availability(HA) perspective, you may want to have a"
+" second |prodname| Server."
+msgstr "Sin embargo, desde una perspectiva de alta disponibilidad (HA), es posible que desee tener un segundo Servidor |prodname|."
+
+#: ../../chapter09.rst:21
+msgid ""
+"An external database server should be deployed if you are scaling out the"
+" cluster to more than one |prodname| server. The \"all-in-one\" "
+"deployment with a local PostgreSQL database is not intended to be used "
+"for scaling out or high availability."
+msgstr "Se debe desplegar un servidor de base de datos externo si se está escalando el clúster a más de un servidor |prodname|. La implementación \"todo en uno\" con una base de datos PostgreSQL local no está destinada a ser utilizada para escalar o alta disponibilidad."
+
+#: ../../chapter09.rst:24
+msgid ""
+"A hardware or software load balancer will be required if more than one "
+"|prodname| server is deployed in a cluster."
+msgstr "Será necesario un balanceador de carga de hardware o software si se despliega más de un servidor |prodname| en un clúster."
+
+#: ../../chapter09.rst:27
+msgid "All |prodname| servers in the same cluster must use the same time zone."
+msgstr "Todos los servidores |prodname| en el mismo clúster deben usar la misma zona horaria."
+

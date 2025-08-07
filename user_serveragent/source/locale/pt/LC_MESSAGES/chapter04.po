@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:3
+msgid "4 Advanced Topics"
+msgstr "4 Tópicos Avançados"
+
+#: ../../chapter04.rst:8
+msgid "4.1 Migration Users"
+msgstr "4.1 Utilizadores de Migração"
+
+#: ../../chapter04.rst:10
+msgid ""
+"With the Server Agent installed, it can be used to migrate Active "
+"Directory users to |prodname| users."
+msgstr "Com o Agente do Servidor instalado, ele pode ser usado para migrar usuários do Active Directory para usuários |prodname|."
+
+#: ../../chapter04.rst:12
+msgid "The process can be started from the Tenant Administrator Web Portal."
+msgstr "O processo pode ser iniciado a partir do Portal Web do Administrador do Tenant."
+
+#: ../../chapter04.rst:19
+msgid "4.2 Migrate File Server Network or CIFS Share to |prodname|"
+msgstr "4.2 Migrar Rede de Servidor de Arquivos ou Compartilhamento CIFS para |prodname|"
+
+#: ../../chapter04.rst:21
+msgid ""
+"With the Server Agent installed, it can be used to migrate local folder "
+"(which is published as network share) to |prodname| as a team folder, and"
+" at the same time, migrate Active Directory users to |prodname| users."
+msgstr "Com o Agente do Servidor instalado, ele pode ser usado para migrar a pasta local (que é publicada como compartilhamento de rede) para |prodname| como uma pasta de equipe e, ao mesmo tempo, migrar usuários do Active Directory para usuários do |prodname|."
+
+#: ../../chapter04.rst:23
+msgid ""
+"The steps can be started from the migration wizard in the Tenant Admin's "
+"Web Portal."
+msgstr "Os passos podem ser iniciados a partir do assistente de migração no Portal Web do Administrador do Tenant."
+
+#: ../../chapter04.rst:30
+msgid "4.3 Conclusion"
+msgstr "4.3 Conclusão"
+
+#: ../../chapter04.rst:32
+msgid ""
+"Businesses are looking for ways to access file server contents over the "
+"Internet. They are looking for technologies which will allow them to "
+"migrate the data residing on On-Premise file servers to the cloud and "
+"provide a unified namespace across all distributed file servers. They are"
+" also looking for ways to give remote users easy and secure access to "
+"their file server without disrupting the existing work flow in the "
+"company."
+msgstr "As empresas estão procurando maneiras de acessar o conteúdo de servidores de arquivos pela Internet. Elas buscam tecnologias que permitam migrar os dados armazenados em servidores de arquivos locais para a nuvem e fornecer um namespace unificado em todos os servidores de arquivos distribuídos. Também procuram maneiras de oferecer aos usuários remotos um acesso fácil e seguro aos seus servidores de arquivos sem interromper o fluxo de trabalho existente na empresa."
+
+#: ../../chapter04.rst:34
+msgid ""
+"|prodname| Cloud Server (File Server Agent) combines the strengths of "
+"cloud storage technology and traditional file server to enable data "
+"access from the cloud by enabling sync, share, and collaboration on that "
+"data."
+msgstr "|prodname| Cloud Server (Agente de Servidor de Arquivos) combina as vantagens da tecnologia de armazenamento em nuvem e do servidor de arquivos tradicional para permitir o acesso aos dados a partir da nuvem, possibilitando a sincronização, compartilhamento e colaboração nesses dados."
+

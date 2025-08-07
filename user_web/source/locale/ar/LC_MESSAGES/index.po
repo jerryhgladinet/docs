@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "البدء"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "مقدمة"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the Triofox Web Portal User Guide. This guide describes web "
+"portal functionality for users as well as administrators in Triofox."
+msgstr "مرحبًا بكم في دليل مستخدم بوابة الويب Triofox. يصف هذا الدليل وظائف البوابة الإلكترونية للمستخدمين وكذلك للمسؤولين في Triofox."
+
+#: ../../index.rst:11
+msgid ""
+"Triofox helps businesses mobilize their file servers by enhancing "
+"existing Windows file servers with secure remote acccess, mobile file "
+"sharing, data protection and cloud migration, while addressing business "
+"concerns about security, privacy, compliance and control."
+msgstr "تساعد Triofox الشركات على تحريك خوادم الملفات الخاصة بهم من خلال تعزيز خوادم الملفات الحالية على Windows بإمكانية الوصول الآمن عن بُعد، ومشاركة الملفات المتنقلة، وحماية البيانات والهجرة إلى السحابة، مع مراعاة الشواغل التجارية حول الأمان والخصوصية والامتثال والتحكم."
+
+#: ../../index.rst:14
+msgid ""
+"Triofox adds ransomware protection and automatic alert mechanism to your "
+"file servers. It continously monitors all the Triofox clients for any "
+"unusual activity and will automatically shut them down if it sees a "
+"possible attack."
+msgstr "يضيف Triofox حماية من برامج الفدية وآلية تنبيه تلقائية إلى خوادم الملفات الخاصة بك. يقوم بمراقبة جميع عملاء Triofox بشكل مستمر لأي نشاط غير عادي وسيقوم بإغلاقهم تلقائيًا إذا كشف عن هجوم محتمل."
+
+#: ../../index.rst:17
+msgid ""
+"Triofox removes any need for businesses to rely on a VPN or a company "
+"computer to securely access files. With Triofox, data sprawl is "
+"eliminated as data stays on local file servers and mobile productivity is"
+" balanced by centralized management and access controls."
+msgstr "تزيل Triofox الحاجة للشركات إلى الاعتماد على شبكة VPN أو جهاز كمبيوتر خاص بالشركة للوصول الآمن إلى الملفات. مع Triofox، يتم القضاء على تفرق البيانات حيث تظل البيانات على خوادم الملفات المحلية ويتم توازن الإنتاجية المتنقلة بواسطة الإدارة المركزية وضوابط الوصول."
+
+#: ../../index.rst:20
+msgid ""
+"Triofox natively integrates with Active Directory and maintains all the "
+"existing NTFS permissions and there is no need to recreate any user "
+"identities. With military grade encryption and secure connections, use "
+"existing users and permissions to save setup time and money. files stay "
+"on local file servers and encrypted at the end point cache."
+msgstr "يتكامل Triofox بشكل أصيل مع Active Directory ويحافظ على جميع أذونات NTFS القائمة ولا حاجة لإعادة إنشاء أي هويات مستخدم. مع التشفير العسكري والاتصالات الآمنة، استخدم المستخدمين والأذونات القائمة لتوفير الوقت والمال في الإعداد. تبقى الملفات على خوادم الملفات المحلية ومشفرة في ذاكرة التخزين المؤقت النهائية."
+
+#: ../../index.rst:24
+msgid ""
+"Triofox includes the backend Triofox server, which runs on Windows server"
+" platform, and front end client applications for Microsoft Windows, Mac "
+"OSx, and mobile clients for the Android and Apple iOS operating systems."
+msgstr "يشمل Triofox خادم Triofox الخلفي، الذي يعمل على منصة خادم Windows، وتطبيقات العميل الأمامية لنظام التشغيل Microsoft Windows و Mac OSx، وعملاء الجوال لأنظمة التشغيل Android و Apple iOS."
+
+#: ../../index.rst:28
+msgid ""
+"The Web portal is an important part of the solution for the following "
+"reasons:"
+msgstr "البوابة الإلكترونية هي جزء مهم من الحل للأسباب التالية:"
+
+#: ../../index.rst:30
+msgid "most of the management work is done on the web portal."
+msgstr "معظم أعمال الإدارة تتم على بوابة الويب."
+
+#: ../../index.rst:31
+msgid ""
+"downloading other native client agent softwares starts from the web "
+"portal."
+msgstr "تبدأ عملية تحميل برامج وكلاء العميل الأصلية الأخرى من البوابة الإلكترونية."
+
+#: ../../index.rst:32
+msgid ""
+"web browser file manager have rich and responsive feature to manage "
+"files, sharing and collaboration."
+msgstr "مدير ملفات متصفح الويب يمتلك ميزات غنية ومتجاوبة لإدارة الملفات، المشاركة والتعاون."
+
+#: ../../index.rst:34
+msgid ""
+"Other important features and functions of the web portal are also covered"
+" in this document."
+msgstr "تغطي هذه الوثيقة أيضًا الميزات والوظائف الهامة الأخرى لبوابة الويب."
+
+#: ../../index.rst:39
+msgid "The web portal user guide is updated for version |release|"
+msgstr "تم تحديث دليل مستخدم البوابة الإلكترونية للإصدار |release|"
+

@@ -1,0 +1,4298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:5
+msgid "Tenant Administration"
+msgstr "إدارة المستأجر"
+
+#: ../../chapter03.rst:9
+msgid ""
+"A tenant is usually mapped to a company, or a division of a company, an "
+"organization or in the case of MSP managed organization, a service "
+"provider would call them clients. Basically, a tenant is a management "
+"scope that represents an organization."
+msgstr "عادةً ما يتم تعيين المستأجر لشركة، أو قسم من شركة، أو منظمة أو في حالة المنظمات التي تديرها شركات تقديم الخدمات، فإن مزود الخدمة سيطلق عليهم العملاء. بشكل أساسي، المستأجر هو نطاق إدارة يمثل منظمة."
+
+#: ../../chapter03.rst:11
+msgid ""
+"Tenant manager scope is defined for tenant administrators. For a multi-"
+"tenant Cluster Server system, each tenant has an administrator. For a "
+"single-tenant Cluster Server system, the default cluster administrator is"
+" also the tenant administrator."
+msgstr "نطاق مدير المستأجر محدد لمدراء المستأجرين. بالنسبة لنظام خادم العنقود متعدد المستأجرين، لكل مستأجر مدير خاص به. بالنسبة لنظام خادم العنقود ذو المستأجر الواحد، المدير الافتراضي للعنقود هو أيضًا مدير المستأجر."
+
+#: ../../chapter03.rst:13
+msgid "Tenant Manager is completely web-based."
+msgstr "مدير المستأجر كليًا على الويب."
+
+#: ../../chapter03.rst:15
+msgid ""
+"From the Cluster Manager Dashboard, you can access the Tenant Manager by "
+"clicking \"Tenants Count\"."
+msgstr "من لوحة تحكم مدير العنقود، يمكنك الوصول إلى مدير المستأجرين بالنقر على \"عدد المستأجرين\"."
+
+#: ../../chapter03.rst:20
+msgid "CLUSTER DASHBOARD"
+msgstr "لوحة تحكم العنقود"
+
+#: ../../chapter03.rst:22
+msgid ""
+"You can also log in directly to the web portal as the tenant "
+"administrator instead of the default cluster administrator to get to the "
+"tenant administrator management web interface."
+msgstr "يمكنك أيضًا تسجيل الدخول مباشرةً إلى بوابة الويب كمسؤول المستأجر بدلاً من مسؤول العنقود الافتراضي للوصول إلى واجهة إدارة مسؤول المستأجر عبر الويب."
+
+#: ../../chapter03.rst:26
+msgid ""
+"At a high level, the Cluster Administrator and Tenant Manager have almost"
+" identical controls for the Tenants within their scope; however, the "
+"Tenant Manager settings will always take precedence and override Cluster "
+"Administrator settings. Tenant Managers can give permission for Cluster "
+"Administrator to manage their tenants by enabling this option in "
+"``Settings`` > ``User Account & Security`` > ``Security``. \"Allow "
+"Cluster Admin to manage my tenant\" is by default checked."
+msgstr "على مستوى عال، يمتلك مسؤول العنقود ومدير المستأجرين تحكمات شبه متطابقة للمستأجرين ضمن نطاقهم؛ ومع ذلك، فإن إعدادات مدير المستأجر ستأخذ الأولوية دائمًا وتتجاوز إعدادات مسؤول العنقود. يمكن لمديري المستأجرين منح الإذن لمسؤول العنقود لإدارة مستأجريهم من خلال تفعيل هذا الخيار في ``الإعدادات`` > ``حساب المستخدم والأمان`` > ``الأمان``. \"السماح لمسؤول العنقود بإدارة مستأجري\" مفعل بشكل افتراضي."
+
+#: ../../chapter03.rst:31
+msgid "SETTINGS > USER ACCOUNT & SECURITY > SECURITY"
+msgstr "الإعدادات > حساب المستخدم والأمان > الأمان"
+
+#: ../../chapter03.rst:36
+msgid "Tenant Dashboard"
+msgstr "لوحة تحكم المستأجر"
+
+#: ../../chapter03.rst:38
+msgid "``Tenant Manager`` > ``[Tenant]`` > ``Tenant Dashboard``"
+msgstr "``مدير المستأجر`` > ``[المستأجر]`` > ``لوحة تحكم المستأجر``"
+
+#: ../../chapter03.rst:43
+msgid "TENANT DASHBOARD MENUS"
+msgstr "قوائم لوحة تحكم المستأجر"
+
+#: ../../chapter03.rst:45
+msgid ""
+"You can navigate to different sections of Tenant Administration from the "
+"Dashboard."
+msgstr "يمكنك التنقل إلى أقسام مختلفة من إدارة المستأجر من لوحة التحكم."
+
+#: ../../chapter03.rst:49
+msgid "Tenant Plan"
+msgstr "خطة المستأجر"
+
+#: ../../chapter03.rst:51
+msgid "``Tenant Dashboard`` > ``License/Storage Quota`` > ``Tenant Plan``"
+msgstr "``لوحة تحكم المستأجر`` > ``الترخيص/حصة التخزين`` > ``خطة المستأجر``"
+
+#: ../../chapter03.rst:56 ../../chapter03.rst:64
+msgid "TENANT PLAN SETTINGS"
+msgstr "إعدادات خطة المستأجر"
+
+#: ../../chapter03.rst:58
+msgid ""
+"Here in the Tenant Plan section, you can change the tenant's user plan "
+"and storage plan, and also control the bandwidth usage for the tenant."
+msgstr "هنا في قسم خطة المستأجر، يمكنك تغيير خطة المستخدم وخطة التخزين للمستأجر، وكذلك التحكم في استخدام النطاق الترددي للمستأجر."
+
+#: ../../chapter03.rst:68 ../../chapter03.rst:495 ../../chapter03.rst:537
+msgid "Team Folders"
+msgstr "مجلدات الفريق"
+
+#: ../../chapter03.rst:70
+msgid "``Tenant Manager`` > ``Team Folders``"
+msgstr "``مدير المستأجر`` > ``مجلدات الفريق``"
+
+#: ../../chapter03.rst:72
+msgid ""
+"The team folder concept is like a network share, meaning you can define a"
+" folder and then add users and groups to the folder and thus turn it into"
+" a team shared folder. The team folder will show up in the user's folder "
+"list when the user is added to the team folder."
+msgstr "مفهوم مجلد الفريق يشبه المشاركة الشبكية، بمعنى أنه يمكنك تحديد مجلد ثم إضافة المستخدمين والمجموعات إلى المجلد وبالتالي تحويله إلى مجلد مشترك للفريق. سيظهر مجلد الفريق في قائمة مجلدات المستخدم عندما يتم إضافة المستخدم إلى مجلد الفريق."
+
+#: ../../chapter03.rst:77
+msgid "ENTER TEAM FOLDER SECTION"
+msgstr "أدخل قسم مجلد الفريق"
+
+#: ../../chapter03.rst:79
+msgid ""
+"When the server agent is in use, the team folder can be mapped directly "
+"to a network share from the server where the server agent is installed."
+msgstr "عند استخدام وكيل الخادم، يمكن تعيين مجلد الفريق مباشرةً إلى مشاركة الشبكة من الخادم الذي تم تثبيت وكيل الخادم عليه."
+
+#: ../../chapter03.rst:81
+msgid ""
+"When a directly connected network share is used, a team folder can be "
+"mapped to an SMB/CIFS network share directly."
+msgstr "عند استخدام مشاركة الشبكة المتصلة مباشرةً، يمكن تعيين مجلد الفريق إلى مشاركة الشبكة SMB/CIFS مباشرةً."
+
+#: ../../chapter03.rst:83
+msgid "You can also turn any existing folder into a team folder."
+msgstr "يمكنك أيضًا تحويل أي مجلد موجود إلى مجلد فريق."
+
+#: ../../chapter03.rst:85
+msgid ""
+"A Team folder has a tenant administrator scope so the team folder related"
+" sharing is limited to the users inside the tenant."
+msgstr "مجلد الفريق له نطاق مسؤول المستأجر، لذا فإن المشاركة المتعلقة بمجلد الفريق محدودة بالمستخدمين داخل المستأجر."
+
+#: ../../chapter03.rst:89
+msgid ""
+"By default, the files and folders that the administrator can see is "
+"hidden away from the regular team user until those folders are published "
+"to the team users."
+msgstr "بشكل افتراضي، الملفات والمجلدات التي يمكن للمسؤول رؤيتها مخفية عن المستخدم العادي في الفريق حتى يتم نشر تلك المجلدات للمستخدمين في الفريق."
+
+#: ../../chapter03.rst:91
+msgid ""
+"Team Folders (Shared Work Space) are used for team-share collaborations. "
+"Generally, Team Folders are converted from File Server Network shares. "
+"Other Team Folder sources can be Google Storage, Amazon S3 (or S3 "
+"Compatible), Amazon Cloud, Windows Azure Blob, WebDav, SharePoint, "
+"Rackspace (US or UK) and OpenStack or you can create new folders under "
+"the Tenant's root storage."
+msgstr "تُستخدم مجلدات الفريق (مساحة العمل المشتركة) للتعاون في مشاركة العمل. عمومًا، يتم تحويل مجلدات الفريق من مشاركات الشبكة لخادم الملفات. يمكن أن تكون مصادر مجلد الفريق الأخرى هي Google Storage، Amazon S3 (أو المتوافق مع S3)، Amazon Cloud، Windows Azure Blob، WebDav، SharePoint، Rackspace (الولايات المتحدة أو المملكة المتحدة) وOpenStack أو يمكنك إنشاء مجلدات جديدة تحت تخزين الجذر الخاص بالمستأجر."
+
+#: ../../chapter03.rst:93
+msgid ""
+"In the \"Team Folders\" page, you can click \"Edit\" icon to manage team "
+"shares, folder permissions and the underlying storage configuration."
+msgstr "في صفحة \"مجلدات الفريق\"، يمكنك النقر على أيقونة \"تحرير\" لإدارة مشاركات الفريق، وأذونات المجلد وتكوين التخزين الأساسي."
+
+#: ../../chapter03.rst:99
+msgid "MANAGING TEAM SHARES"
+msgstr "إدارة مشاركات الفريق"
+
+#: ../../chapter03.rst:103
+msgid "Create Team Folder"
+msgstr "إنشاء مجلد الفريق"
+
+#: ../../chapter03.rst:105
+msgid "``Tenant Manager`` >  ``Team Folders`` > ``Add New Team Folder``"
+msgstr "``مدير المستأجر`` > ``مجلدات الفريق`` > ``إضافة مجلد فريق جديد``"
+
+#: ../../chapter03.rst:107
+msgid "You can click on the \"+\" sign to create a new team folder."
+msgstr "يمكنك النقر على علامة \"+\" لإنشاء مجلد فريق جديد."
+
+#: ../../chapter03.rst:112
+msgid "ADDING A TEAM FOLDER"
+msgstr "إضافة مجلد فريق"
+
+#: ../../chapter03.rst:114
+msgid ""
+"Once it is clicked, it shows four main sources of team folder, among "
+"other options:"
+msgstr "بمجرد النقر عليه، يعرض أربعة مصادر رئيسية لمجلد الفريق، من بين خيارات أخرى:"
+
+#: ../../chapter03.rst:116
+msgid "Existing Tenant Storage (default location)"
+msgstr "التخزين الحالي للمستأجر (الموقع الافتراضي)"
+
+#: ../../chapter03.rst:117
+msgid "File Servers in Local Area Network"
+msgstr "خوادم الملفات في شبكة المنطقة المحلية"
+
+#: ../../chapter03.rst:118
+msgid "Remote File Servers"
+msgstr "خوادم الملفات البعيدة"
+
+#: ../../chapter03.rst:119
+msgid "Cloud Storage"
+msgstr "تخزين السحاب"
+
+#: ../../chapter03.rst:124
+msgid "TEAM FOLDER LOCATIONS"
+msgstr "مواقع مجلدات الفريق"
+
+#: ../../chapter03.rst:126
+msgid "**Existing Tenant Storage (default location)**"
+msgstr "**التخزين الحالي للمستأجر (الموقع الافتراضي)**"
+
+#: ../../chapter03.rst:131
+msgid "EXISTING TENANT STORAGE"
+msgstr "التخزين الحالي للمستأجر"
+
+#: ../../chapter03.rst:133
+msgid ""
+"**Default Tenant Storage (1)**: The team folder will be created from the "
+"default storage from scratch with an empty team folder. Usually when you "
+"want to have a team folder that is brand new and empty, you can pick this"
+" option."
+msgstr "**التخزين الافتراضي للمستأجر (1)**: سيتم إنشاء مجلد الفريق من التخزين الافتراضي من البداية مع مجلد فريق فارغ. عادةً، عندما تريد أن يكون لديك مجلد فريق جديد وفارغ، يمكنك اختيار هذا الخيار."
+
+#: ../../chapter03.rst:135
+msgid ""
+"**Existing Folder(s) (2)**: You can pick several existing folders, which "
+"physically may not be in the same folder, but you can logically arrange "
+"them into the same team folder. For example, you may want to have a short"
+" term project that put \"Building A\", \"Blue Print A\", \"Budget A\", "
+"three different folders from three different places into one logical"
+msgstr "**المجلدات الحالية (2)**: يمكنك اختيار عدة مجلدات موجودة مسبقًا، والتي قد لا تكون فعليًا في نفس المجلد، ولكن يمكنك ترتيبها منطقيًا في نفس مجلد الفريق. على سبيل المثال، قد ترغب في إنشاء مشروع قصير الأمد يضع \"مبنى A\"، \"المخطط الأزرق A\"، \"الميزانية A\"، ثلاثة مجلدات مختلفة من ثلاثة أماكن مختلفة في مجلد منطقي واحد"
+
+#: ../../chapter03.rst:137
+msgid ""
+"**Publish Tenant Home Storage As a Team Folder (3)**: By default, the "
+"tenant's root storage folder is not published to any team user. To use an"
+" analogy, it is like a C: drive on a Windows File Server, by default it "
+"is not published as a network share to users. However, if you want to "
+"make it available to users, you can pick this option."
+msgstr "**نشر التخزين المنزلي للمستأجر كمجلد فريق (3)**: بشكل افتراضي، لا يتم نشر مجلد التخزين الجذري للمستأجر لأي مستخدم في الفريق. لاستخدام تشبيه، فهو مثل محرك الأقراص C: على خادم ملفات ويندوز، بشكل افتراضي لا يتم نشره كمشاركة شبكة للمستخدمين. ومع ذلك، إذا كنت ترغب في جعله متاحًا للمستخدمين، يمكنك اختيار هذا الخيار."
+
+#: ../../chapter03.rst:141
+msgid "**File Servers in Local Area Network**"
+msgstr "**ملف الخوادم في شبكة المنطقة المحلية**"
+
+#: ../../chapter03.rst:143
+msgid ""
+"When you have files and folders from the local area network (LAN), you "
+"can convert the network share directly into a team folder in the Cluster "
+"Server. It is a one-to-one relationship between a team folder and a "
+"network share. When you pick this option, most of the time, the Active "
+"Directory server for this tenant is also in the same Local Area Network."
+msgstr "عندما يكون لديك ملفات ومجلدات من الشبكة المحلية (LAN)، يمكنك تحويل المشاركة الشبكية مباشرة إلى مجلد فريق في خادم العنقود. هناك علاقة واحدة لواحد بين مجلد الفريق والمشاركة الشبكية. عند اختيارك لهذا الخيار، في معظم الأوقات، يكون خادم الدليل النشط لهذا المستأجر أيضًا في نفس الشبكة المحلية."
+
+#: ../../chapter03.rst:148
+msgid "LAN-BASED TEAM FOLDER"
+msgstr "مجلد الفريق المعتمد على الشبكة المحلية"
+
+#: ../../chapter03.rst:150
+msgid "**Remote File Server**"
+msgstr "**الخادم البعيد للملفات**"
+
+#: ../../chapter03.rst:152
+msgid ""
+"When you have server agents installed on remote file servers, those file "
+"servers will be visible and the network shares from remote file servers "
+"will be imported to the Cluster Server."
+msgstr "عندما يتم تثبيت عملاء الخادم على خوادم الملفات البعيدة، ستكون تلك الخوادم الملفات مرئية وسيتم استيراد المشاركات الشبكية من خوادم الملفات البعيدة إلى خادم العنقود."
+
+#: ../../chapter03.rst:157
+msgid "REMOTE TEAM FOLDER"
+msgstr "مجلد الفريق البعيد"
+
+#: ../../chapter03.rst:159
+msgid "**Cloud Storage**"
+msgstr "**تخزين السحابة**"
+
+#: ../../chapter03.rst:161
+msgid ""
+"You can also pick Cloud Storage as this team folder's underlying storage."
+" As shown in the following picture, you can pick Amazon S3, Windows Azure"
+" Blob, OpenStack Swift, and other cloud storage services."
+msgstr "يمكنك أيضًا اختيار التخزين السحابي كتخزين أساسي لمجلد الفريق هذا. كما هو موضح في الصورة التالية، يمكنك اختيار خدمات التخزين السحابي مثل Amazon S3، وWindows Azure Blob، وOpenStack Swift، وغيرها من خدمات التخزين السحابي."
+
+#: ../../chapter03.rst:166
+msgid "CLOUD-BASED TEAM FOLDER"
+msgstr "مجلد الفريق القائم على السحابة"
+
+#: ../../chapter03.rst:169
+msgid "Team Folder Properties"
+msgstr "خصائص مجلد الفريق"
+
+#: ../../chapter03.rst:172
+msgid "Team Folder Information"
+msgstr "معلومات مجلد الفريق"
+
+#: ../../chapter03.rst:174
+msgid ""
+"``Tenant Manager`` >  ``Team Folders`` >  ``{Pick a Team Folder}`` > "
+"``Info Icon`` > ``Team Folder Information``"
+msgstr "``مدير المستأجر`` > ``مجلدات الفريق`` > ``{اختر مجلد فريق}`` > ``أيقونة المعلومات`` > ``معلومات مجلد الفريق``"
+
+#: ../../chapter03.rst:179
+msgid "TEAM FOLDER INFORMATION ACCESS"
+msgstr "معلومات الوصول إلى مجلد الفريق"
+
+#: ../../chapter03.rst:183
+msgid "Collaborators"
+msgstr "المتعاونون"
+
+#: ../../chapter03.rst:185
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Collaborators``"
+msgstr "``مدير المستأجر`` > ``مجلدات الفريق`` > ``{اختر مجلد فريق}`` > ``أيقونة التعديل`` > ``المتعاونون``"
+
+#: ../../chapter03.rst:187
+msgid "In the Collaborators section, you can define:"
+msgstr "في قسم المتعاونين، يمكنك تحديد:"
+
+#: ../../chapter03.rst:189
+msgid ""
+"User List: The users and groups that are assigned to the team folder. The"
+" users with the owner flag will be able to manage the users."
+msgstr "قائمة المستخدمين: المستخدمون والمجموعات المُعينة إلى مجلد الفريق. المستخدمون الذين لديهم علامة المالك سيكونون قادرين على إدارة المستخدمين."
+
+#: ../../chapter03.rst:197
+msgid "EDITING FOLDER PERMISSIONS"
+msgstr "تعديل أذونات مجلد"
+
+#: ../../chapter03.rst:201
+msgid "External Sharing"
+msgstr "المشاركة الخارجية"
+
+#: ../../chapter03.rst:203
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``External Sharing``"
+msgstr "``مدير المستأجر`` > ``مجلدات الفريق`` > ``{اختر مجلد فريق}`` > ``أيقونة التعديل`` > ``المشاركة الخارجية``"
+
+#: ../../chapter03.rst:205
+msgid ""
+"You can see what folders and files have been shared and control access to"
+" those files from this setting."
+msgstr "يمكنك مشاهدة المجلدات والملفات التي تم مشاركتها والتحكم في الوصول إلى تلك الملفات من خلال هذا الإعداد."
+
+#: ../../chapter03.rst:210 ../../chapter03.rst:288
+msgid "TEAM FOLDER PERMISSION SETTINGS"
+msgstr "إعدادات أذونات مجلد الفريق"
+
+#: ../../chapter03.rst:214
+msgid "Access Policy"
+msgstr "سياسة الوصول"
+
+#: ../../chapter03.rst:216
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Access Policy``"
+msgstr "``مدير المستأجر`` > ``المجلدات الجماعية`` > ``{اختر مجلد فريق}`` > ``أيقونة التعديل`` > ``سياسة الوصول``"
+
+#: ../../chapter03.rst:218
+msgid "You can enable an access policy through this tab."
+msgstr "يمكنك تمكين سياسة الوصول من خلال هذه العلامة التبويب."
+
+#: ../../chapter03.rst:223
+msgid "ADD NEW ACCESS POLICY"
+msgstr "إضافة سياسة وصول جديدة"
+
+#: ../../chapter03.rst:225
+msgid ""
+"Define customized access policies to restrict and allow access based on "
+"the device location. For example, a company can enable access from the "
+"internet to only Windows clients and web clients. IT can configure allow "
+"or deny client access policies from the following locations:"
+msgstr "حدد سياسات الوصول المخصصة لتقييد الوصول والسماح به بناءً على موقع الجهاز. على سبيل المثال، يمكن للشركة تمكين الوصول من الإنترنت لعملاء Windows وعملاء الويب فقط. يمكن لقسم تكنولوجيا المعلومات تكوين سياسات السماح أو الرفض لوصول العملاء من المواقع التالية:"
+
+#: ../../chapter03.rst:227 ../../chapter03.rst:245
+msgid "Access from the internet"
+msgstr "الوصول من الإنترنت"
+
+#: ../../chapter03.rst:228 ../../chapter03.rst:246
+msgid "Access from local network"
+msgstr "الوصول من الشبكة المحلية"
+
+#: ../../chapter03.rst:229 ../../chapter03.rst:247
+msgid "Access from Anywhere"
+msgstr "الوصول من أي مكان"
+
+#: ../../chapter03.rst:230 ../../chapter03.rst:248
+msgid "Access from customer-defined networks"
+msgstr "الوصول من شبكات محددة من قبل العميل"
+
+#: ../../chapter03.rst:231 ../../chapter03.rst:249
+msgid "Deny access from customer defined networks"
+msgstr "منع الوصول من الشبكات المحددة من قبل العميل"
+
+#: ../../chapter03.rst:233
+msgid ""
+"The above allow and deny client access policies can be configured for the"
+" following clients:"
+msgstr "يمكن تكوين سياسات السماح والرفض لوصول العميل أعلاه للعملاء التاليين:"
+
+#: ../../chapter03.rst:235
+msgid "Web client"
+msgstr "عميل الويب"
+
+#: ../../chapter03.rst:236
+msgid "Web management"
+msgstr "إدارة الويب"
+
+#: ../../chapter03.rst:237
+msgid "Windows client"
+msgstr "عميل ويندوز"
+
+#: ../../chapter03.rst:238
+msgid "Mac client"
+msgstr "عميل ماك"
+
+#: ../../chapter03.rst:239
+msgid "Mobile client"
+msgstr "عميل الجوال"
+
+#: ../../chapter03.rst:243
+msgid ""
+"IT can also prevent data loss and data leakage of important company "
+"confidential shares by configuring 'Share Access Policies' for external "
+"users who are not company employees. Again, IT can configure allow or "
+"deny shares access policies from the following locations:"
+msgstr "يمكن لقسم تكنولوجيا المعلومات أيضًا منع فقدان البيانات وتسرب البيانات الهامة من المشاركات السرية للشركة من خلال تكوين 'سياسات الوصول إلى المشاركة' للمستخدمين الخارجيين الذين ليسوا موظفين في الشركة. مرة أخرى، يمكن لقسم تكنولوجيا المعلومات تكوين سياسات السماح أو الرفض للوصول إلى المشاركات من المواقع التالية:"
+
+#: ../../chapter03.rst:251
+msgid ""
+"The above allow and deny share access policies can be configured with the"
+" following conditions:"
+msgstr "يمكن تهيئة سياسات الوصول للمشاركة المسموح بها والممنوعة أعلاه بالشروط التالية:"
+
+#: ../../chapter03.rst:253
+msgid "Visible"
+msgstr "مرئي"
+
+#: ../../chapter03.rst:254
+msgid "Permissions to list files"
+msgstr "أذونات لإدراج الملفات"
+
+#: ../../chapter03.rst:255
+msgid "Permissions to read files"
+msgstr "أذونات لقراءة الملفات"
+
+#: ../../chapter03.rst:256
+msgid "Permissions to create or update files and folders"
+msgstr "أذونات إنشاء أو تحديث الملفات والمجلدات"
+
+#: ../../chapter03.rst:257
+msgid "Permissions to delete files and folders"
+msgstr "أذونات حذف الملفات والمجلدات"
+
+#: ../../chapter03.rst:258
+msgid "Secure data room"
+msgstr "غرفة بيانات آمنة"
+
+#: ../../chapter03.rst:263
+msgid "SHARE ACCESS POLICY"
+msgstr "سياسة الوصول للمشاركة"
+
+#: ../../chapter03.rst:268
+msgid "ACCESS POLICY SETTINGS"
+msgstr "إعدادات سياسة الوصول"
+
+#: ../../chapter03.rst:271 ../../chapter03.rst:499 ../../chapter03.rst:579
+msgid "Folder Permissions"
+msgstr "أذونات المجلد"
+
+#: ../../chapter03.rst:273
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Folder Permissions``"
+msgstr "``مدير المستأجر`` > ``مجلدات الفريق`` > ``{اختر مجلد فريق}`` > ``أيقونة التعديل`` > ``أذونات المجلد``"
+
+#: ../../chapter03.rst:275
+msgid ""
+"You can browse to different sub-folders and define the folder permission."
+" The folder permissions defined here represent the Cluster Server side of"
+" the permission."
+msgstr "يمكنك تصفح المجلدات الفرعية المختلفة وتحديد أذونات المجلد. تمثل أذونات المجلد المحددة هنا جانب الأذونات لخادم العنقود."
+
+#: ../../chapter03.rst:277
+msgid ""
+"If you are leveraging native Active Directory/NTFS permission from a file"
+" server, you don't need to define any permissions here."
+msgstr "إذا كنت تستخدم أذونات Active Directory/NTFS الأصلية من خادم ملفات، فلا حاجة لتعريف أي أذونات هنا."
+
+#: ../../chapter03.rst:281
+msgid ""
+"You can think of the permissions as two different gates controlling the "
+"access to files and folders. The first gate is defined here as the "
+"``Cluster Server Folder Permission``. After this permission check, there "
+"is still a check at the file server level (which is the NTFS permission)."
+msgstr "يمكنك التفكير في الأذونات على أنها بوابتين مختلفتين تتحكمان في الوصول إلى الملفات والمجلدات. البوابة الأولى محددة هنا كـ ``أذونات مجلد الخادم العنقودي``. بعد هذا التحقق من الأذونات، لا يزال هناك تحقق على مستوى خادم الملفات (وهو أذونات NTFS)."
+
+#: ../../chapter03.rst:283
+msgid ""
+"In practice, usually it is done one way or the other. If you have decided"
+" to use NTFS natively, you can leave the permission settings here empty "
+"and not defined."
+msgstr "عمليًا، عادةً ما يتم ذلك بطريقة أو بأخرى. إذا قررت استخدام NTFS بشكل أصلي، يمكنك ترك إعدادات الإذن هنا فارغة وغير محددة."
+
+#: ../../chapter03.rst:292 ../../chapter03.rst:304 ../../chapter03.rst:607
+#: ../../chapter03.rst:931
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: ../../chapter03.rst:294
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Settings``"
+msgstr "``مدير الوحدات السكنية`` > ``مجلدات الفريق`` > ``{اختر مجلد فريق}`` > ``أيقونة التعديل`` > ``الإعدادات``"
+
+#: ../../chapter03.rst:299
+msgid "TEAM FOLDER SETTINGS OVERVIEW"
+msgstr "نظرة عامة على إعدادات مجلد الفريق"
+
+#: ../../chapter03.rst:301
+msgid "Let's look at the details of the Team Folder Settings:"
+msgstr "دعونا نلقي نظرة على تفاصيل إعدادات مجلد الفريق:"
+
+#: ../../chapter03.rst:306
+msgid "**Disable further sharing**"
+msgstr "**تعطيل المشاركة الإضافية**"
+
+#: ../../chapter03.rst:308
+msgid "Don't allow users to share out team folder contents."
+msgstr "لا تسمح للمستخدمين بمشاركة محتويات مجلد الفريق."
+
+#: ../../chapter03.rst:310
+msgid "**Create CIFS Share**"
+msgstr "**إنشاء مشاركة CIFS**"
+
+#: ../../chapter03.rst:312
+msgid ""
+"If there are server agents connected to the tenant, create a CIFS share "
+"on the file server agent server as a standard Windows network share."
+msgstr "إذا كان هناك وكلاء خادم متصلين بالمستأجر، قم بإنشاء مشاركة CIFS على خادم وكيل الخادم كمشاركة شبكة Windows قياسية."
+
+#: ../../chapter03.rst:314
+msgid "**Disable Offline Access**"
+msgstr "**تعطيل الوصول دون اتصال**"
+
+#: ../../chapter03.rst:316
+msgid ""
+"Don't allow Windows clients or Mac clients to mark their folders as "
+"offline from within the team folder."
+msgstr "لا تسمح لعملاء Windows أو عملاء Mac بتعيين مجلداتهم كغير متصلة من داخل مجلد الفريق."
+
+#: ../../chapter03.rst:320
+msgid "Permission"
+msgstr "إذن"
+
+#: ../../chapter03.rst:322
+msgid "**Hide folders to which users don't have permissions**"
+msgstr "**إخفاء المجلدات التي لا يمتلك المستخدمون صلاحيات الوصول إليها**"
+
+#: ../../chapter03.rst:324
+msgid ""
+"Hide the folder instead of showing users folders that they will receive "
+"\"Access Denied\"."
+msgstr "اخفِ المجلد بدلاً من إظهار المستخدمين لمجلدات سيتلقون فيها \"تم الرفض\"."
+
+#: ../../chapter03.rst:328
+msgid "Quota and Retention Policy"
+msgstr "سياسة الحصة والاحتفاظ"
+
+#: ../../chapter03.rst:330
+msgid "Team folder can have a per-team folder retention policy."
+msgstr "يمكن أن يكون لمجلد الفريق سياسة الاحتفاظ بالملفات الخاصة بكل فريق."
+
+#: ../../chapter03.rst:335
+msgid "Device Manager"
+msgstr "مدير الجهاز"
+
+#: ../../chapter03.rst:337
+msgid "``Tenant Manager`` > ``Devices`` > ``Device Manager``"
+msgstr "``مدير المستأجر`` > ``الأجهزة`` > ``مدير الجهاز``"
+
+#: ../../chapter03.rst:339
+msgid ""
+"The cluster administrator can look at the devices that have the client "
+"agent software installed and connected in the specific tenant."
+msgstr "يمكن لمسؤول العنقود النظر في الأجهزة التي تم تثبيت برنامج وكيل العميل عليها وتم توصيلها في المستأجر المحدد."
+
+#: ../../chapter03.rst:341
+msgid ""
+"This feature is used to control BYOD (Bring your own device). For some "
+"organization, they want to control who can bring what device into the "
+"system. This is the tool to control that and allow/disallow on a device "
+"by device basis."
+msgstr "هذه الميزة تُستخدم للتحكم في BYOD (اصطحب جهازك الخاص). بالنسبة لبعض المنظمات، يرغبون في التحكم في من يمكنه إحضار أي جهاز إلى النظام. هذه هي الأداة للتحكم في ذلك والسماح/عدم السماح على أساس كل جهاز على حدة."
+
+#: ../../chapter03.rst:346
+msgid "DEVICE MANAGER SETTINGS"
+msgstr "إعدادات مدير الجهاز"
+
+#: ../../chapter03.rst:350
+msgid "User Management"
+msgstr "إدارة المستخدمين"
+
+#: ../../chapter03.rst:353
+msgid "Regular User"
+msgstr "مستخدم عادي"
+
+#: ../../chapter03.rst:354
+msgid "``Tenant Manager`` > ``Users`` > ``User Manager``"
+msgstr "``مدير المستأجر`` > ``المستخدمون`` > ``مدير المستخدم``"
+
+#: ../../chapter03.rst:360
+msgid "TENANT ADMIN > USER MANAGER"
+msgstr "مسؤول المستأجر > مدير المستخدم"
+
+#: ../../chapter03.rst:362
+msgid ""
+"To access the user manager, you can click the number of users on "
+"Dashboard, or click the \"Users\" on left side menu."
+msgstr "للوصول إلى مدير المستخدمين، يمكنك النقر على عدد المستخدمين في لوحة التحكم، أو النقر على \"المستخدمين\" في القائمة الجانبية اليسرى."
+
+#: ../../chapter03.rst:364
+msgid ""
+"In the Documentation, the regular user is often referenced as \"Team "
+"User\"."
+msgstr "في الوثائق، يُشار غالبًا إلى المستخدم العادي بـ \"مستخدم الفريق\"."
+
+#: ../../chapter03.rst:366
+msgid ""
+"These are the users that have full privilege of home directory, sharing "
+"and other features."
+msgstr "هؤلاء هم المستخدمون الذين لديهم امتيازات كاملة للدليل الرئيسي والمشاركة وميزات أخرى."
+
+#: ../../chapter03.rst:368
+msgid "User Manager also have a list view:"
+msgstr "يحتوي مدير المستخدمين أيضًا على عرض قائمة:"
+
+#: ../../chapter03.rst:374
+msgid "USER MANAGER LIST/ICON VIEW TOGGLE"
+msgstr "تبديل عرض قائمة/أيقونة مدير المستخدمين"
+
+#: ../../chapter03.rst:376
+msgid ""
+"If you have Active Directory, normally these are the users in the Active "
+"Directory."
+msgstr "إذا كان لديك دليل نشط، فعادةً هؤلاء هم المستخدمون في الدليل النشط."
+
+#: ../../chapter03.rst:378
+msgid "Native User"
+msgstr "مستخدم أصلي"
+
+#: ../../chapter03.rst:380
+msgid "These are the users that are created manually with an email."
+msgstr "هؤلاء هم المستخدمون الذين تم إنشاؤهم يدويًا بواسطة بريد إلكتروني."
+
+#: ../../chapter03.rst:382
+msgid "AD User"
+msgstr "مستخدم AD"
+
+#: ../../chapter03.rst:384
+msgid "These are the users that are imported from Active Directory via LDAP."
+msgstr "هؤلاء هم المستخدمون الذين تم استيرادهم من Active Directory عبر LDAP."
+
+#: ../../chapter03.rst:386
+msgid "Proxied AD User"
+msgstr "مستخدم AD الوكيل"
+
+#: ../../chapter03.rst:388
+msgid ""
+"These are the users that are imported from Server Agent, where the file "
+"server agent is remote and away from the Cluster Server in the customer's"
+" site. The customer's Active Directory domain is also remote, and the "
+"file server itself (where server agent is installed) is in the remote "
+"Active Directory."
+msgstr "هؤلاء هم المستخدمون الذين تم استيرادهم من وكيل الخادم، حيث يكون وكيل خادم الملفات بعيدًا ومنفصلًا عن خادم العنقود في موقع العميل. كما أن نطاق Active Directory الخاص بالعميل بعيد أيضًا، والخادم الذي يتم تثبيت وكيل الخادم عليه (حيث يتم تثبيت وكيل الخادم) موجود في نطاق Active Directory البعيد."
+
+#: ../../chapter03.rst:391
+msgid "**User's File and Folder List**"
+msgstr "**قائمة ملفات ومجلدات المستخدم**"
+
+#: ../../chapter03.rst:396
+msgid "VIEWING A USER'S FILE AND FOLDER LIST"
+msgstr "عرض قائمة ملفات ومجلدات المستخدم"
+
+#: ../../chapter03.rst:398
+msgid ""
+"An admin can view a user's file and folder list using the drive icon "
+"**(3)** for the user in Management Console\\User Manager."
+msgstr "يمكن للمسؤول مشاهدة قائمة ملفات ومجلدات المستخدم باستخدام أيقونة القرص **(3)** للمستخدم في لوحة التحكم\مدير المستخدم."
+
+#: ../../chapter03.rst:400
+msgid ""
+"First switch the icon view **(1)** to detail view **(2)** and click the "
+"drive icon **(3)** next to the user you are examining. This will open a "
+"new window **(4)** where you can view the files."
+msgstr "أولاً قم بتغيير عرض الأيقونة **(1)** إلى عرض التفاصيل **(2)** وانقر على أيقونة القرص **(3)** بجانب المستخدم الذي تقوم بفحصه. سيفتح ذلك نافذة جديدة **(4)** حيث يمكنك مشاهدة الملفات."
+
+#: ../../chapter03.rst:404 ../../chapter03.rst:1021
+msgid "Guest User"
+msgstr "مستخدم ضيف"
+
+#: ../../chapter03.rst:405
+msgid "``Tenant Dashboard`` > ``Guest Users`` > ``Guest User Manager``"
+msgstr "``لوحة تحكم المستأجر`` > ``المستخدمون الضيوف`` > ``مدير المستخدم الضيف``"
+
+#: ../../chapter03.rst:410
+msgid "TENANT ADMIN > GUEST USER MANAGER"
+msgstr "مسؤول النظام > مدير المستخدم الضيف"
+
+#: ../../chapter03.rst:412
+msgid ""
+"Guest users are users that don't have a home directory. The only folder "
+"they have is “Files Shared with Me”. So they rely on other “Regular User”"
+" sharing files and folders with them before they can do anything. If "
+"nobody is sharing anything with a guest user, the guest user doesn't have"
+" any read/write permission to any folder."
+msgstr "المستخدمون الضيوف هم مستخدمون ليس لديهم دليل منزلي. المجلد الوحيد الذي يمتلكونه هو \"الملفات المشاركة معي\". لذا فإنهم يعتمدون على مشاركة \"المستخدم العادي\" الآخر للملفات والمجلدات معهم قبل أن يتمكنوا من القيام بأي شيء. إذا لم يشارك أحد أي شيء مع مستخدم ضيف، فإن المستخدم الضيف لا يمتلك أي صلاحيات للقراءة/الكتابة لأي مجلد."
+
+#: ../../chapter03.rst:414
+msgid ""
+"The primary reason for guest user to exist is to have a secure way for "
+"external user to collaborate and edit documents."
+msgstr "السبب الرئيسي لوجود المستخدم الضيف هو توفير طريقة آمنة للمستخدم الخارجي للتعاون وتحرير المستندات."
+
+#: ../../chapter03.rst:418
+msgid "Group Manager"
+msgstr "مدير المجموعة"
+
+#: ../../chapter03.rst:419
+msgid "``Tenant Dashboard`` > ``Groups`` > ``Group Manager``"
+msgstr "``لوحة تحكم المستأجر`` > ``المجموعات`` > ``مدير المجموعة``"
+
+#: ../../chapter03.rst:424
+msgid "TENANT ADMIN > GROUP MANAGER"
+msgstr "مسؤول المستأجر > مدير المجموعة"
+
+#: ../../chapter03.rst:426
+msgid ""
+"When you have Active Directory integration, you will leverage the Active "
+"Directory group instead of using Group Manager here. This group manager "
+"is to create a group of users in a simple way. It is not as complicated "
+"as Active Directory (such as supporting nested groups) but make it easy "
+"for non-Active Directory users. This is native Cluster group. In the "
+"product, you may also see AD group from the user selection user interface"
+" and Proxied AD group from the user related interface. The AD group and "
+"the proxied AD group are not the same as the group mentioned here."
+msgstr "عندما تكون لديك تكامل مع Active Directory، ستستخدم مجموعة Active Directory بدلاً من استخدام مدير المجموعة هنا. يهدف مدير المجموعة إلى إنشاء مجموعة من المستخدمين بطريقة بسيطة. إنه ليس معقدًا مثل Active Directory (مثل دعم المجموعات المتداخلة) ولكن يسهل استخدامه للمستخدمين الذين لا يستخدمون Active Directory. هذه مجموعة محلية للكتلة. في المنتج، قد ترى أيضًا مجموعة AD من واجهة اختيار المستخدم ومجموعة AD الوكيلة من واجهة المستخدم ذات الصلة. ليست مجموعة AD ومجموعة AD الوكيلة هي نفس المجموعة المذكورة هنا."
+
+#: ../../chapter03.rst:430
+msgid "Role Manager"
+msgstr "مدير الأدوار"
+
+#: ../../chapter03.rst:432
+msgid "``Tenant Dashboard`` > ``Roles`` > ``Role Manager``"
+msgstr "``لوحة تحكم المستأجر`` > ``الأدوار`` > ``مدير الدور``"
+
+#: ../../chapter03.rst:434
+msgid ""
+"The Role Manager is to provide role based administration. For example, "
+"you may want to provide read-only permissions to some users. You can also"
+" assign some group policies to some groups of users. More and more policy"
+" items are added to the role manager so in addition to only use role "
+"manager for administration, it can be also used to define policy items "
+"for users."
+msgstr "مدير الأدوار موجود لتوفير إدارة قائمة على الأدوار. على سبيل المثال، قد ترغب في توفير صلاحيات قراءة فقط لبعض المستخدمين. يمكنك أيضًا تعيين بعض سياسات المجموعات لبعض مجموعات المستخدمين. يتم إضافة المزيد والمزيد من عناصر السياسة إلى مدير الأدوار لذا بالإضافة إلى استخدام مدير الأدوار للإدارة فقط، يمكن أيضًا استخدامه لتحديد عناصر السياسة للمستخدمين."
+
+#: ../../chapter03.rst:439
+msgid "ROLE MANAGER ENTRY"
+msgstr "مُدخل مدير الأدوار"
+
+#: ../../chapter03.rst:441
+msgid "When creating a role, there are 4 different sections"
+msgstr "عند إنشاء دور، هناك 4 أقسام مختلفة"
+
+#: ../../chapter03.rst:443 ../../chapter03.rst:1392
+msgid "Sharing"
+msgstr "المشاركة"
+
+#: ../../chapter03.rst:444
+msgid "Policies"
+msgstr "السياسات"
+
+#: ../../chapter03.rst:445
+msgid "Permissions"
+msgstr "أذونات"
+
+#: ../../chapter03.rst:446
+msgid "Assigned Users/Groups"
+msgstr "المستخدمون/المجموعات المعينة"
+
+#: ../../chapter03.rst:450
+msgid "Create New Role"
+msgstr "إنشاء دور جديد"
+
+#: ../../chapter03.rst:452
+msgid "**Sharing**"
+msgstr "**مشاركة**"
+
+#: ../../chapter03.rst:454
+msgid ""
+"You can define areas in the tenant administrator's management console and"
+" assign it into a role."
+msgstr "يمكنك تحديد مناطق في وحدة تحكم إدارة مسؤول الإيجار وتعيينها إلى دور معين."
+
+#: ../../chapter03.rst:460
+msgid "ROLE MANAGER SHARING"
+msgstr "مدير الأدوار للمشاركة"
+
+#: ../../chapter03.rst:463
+msgid "**Policies**"
+msgstr "**السياسات**"
+
+#: ../../chapter03.rst:465
+msgid "Additional policies for the role."
+msgstr "سياسات إضافية للدور."
+
+#: ../../chapter03.rst:470
+msgid "ROLE MANAGER POLICIES"
+msgstr "سياسات مدير الأدوار"
+
+#: ../../chapter03.rst:472
+msgid "**Assigned Users/Groups**"
+msgstr "**المستخدمون/المجموعات المعينة**"
+
+#: ../../chapter03.rst:474
+msgid ""
+"After the content of the role is all set, users and groups can be "
+"assigned to a role."
+msgstr "بعد أن يتم تحديد محتوى الدور بالكامل، يمكن تعيين المستخدمين والمجموعات إلى دور معين."
+
+#: ../../chapter03.rst:479
+msgid "ROLE MANAGER ASSIGNED USERS/GROUPS"
+msgstr "مدير الدور المستخدمون/المجموعات المعينة"
+
+#: ../../chapter03.rst:484
+msgid "Reports"
+msgstr "تقارير"
+
+#: ../../chapter03.rst:486
+msgid "``Tenant Manager`` > ``Reports``"
+msgstr "``مدير المستأجر`` > ``التقارير``"
+
+#: ../../chapter03.rst:488
+msgid ""
+"The cluster administrator can look at the tenant specific reports for the"
+" tenant."
+msgstr "يمكن لمسؤول العنقود النظر في التقارير الخاصة بالمستأجر للمستأجر."
+
+#: ../../chapter03.rst:490
+msgid "The Reports section has the following sub categories"
+msgstr "تحتوي قسم التقارير على الفئات الفرعية التالية"
+
+#: ../../chapter03.rst:492 ../../chapter03.rst:511
+msgid "Upload Report"
+msgstr "تحميل التقرير"
+
+#: ../../chapter03.rst:493 ../../chapter03.rst:519
+msgid "Storage Statistics"
+msgstr "إحصائيات التخزين"
+
+#: ../../chapter03.rst:494 ../../chapter03.rst:528
+msgid "Bandwidth Usage"
+msgstr "استخدام النطاق الترددي"
+
+#: ../../chapter03.rst:496 ../../chapter03.rst:546
+msgid "Shared Objects"
+msgstr "الكائنات المشتركة"
+
+#: ../../chapter03.rst:497 ../../chapter03.rst:555 ../../chapter03.rst:943
+msgid "Audit Trace"
+msgstr "أثر التدقيق"
+
+#: ../../chapter03.rst:498
+msgid "File Change Logging"
+msgstr "تسجيل تغييرات الملفات"
+
+#: ../../chapter03.rst:500 ../../chapter03.rst:588
+msgid "Distributed Locks"
+msgstr "أقفال موزعة"
+
+#: ../../chapter03.rst:501
+msgid "Pending Purged Folders"
+msgstr "المجلدات المعلقة المحذوفة"
+
+#: ../../chapter03.rst:507
+msgid "TENANT MANAGER REPORTS"
+msgstr "تقارير مدير المستأجر"
+
+#: ../../chapter03.rst:515
+msgid "UPLOAD REPORT"
+msgstr "تقرير التحميل"
+
+#: ../../chapter03.rst:524
+msgid "STORAGE STATISTICS REPORT"
+msgstr "تقرير إحصائيات التخزين"
+
+#: ../../chapter03.rst:533
+msgid "BANDWITH USAGE REPORT"
+msgstr "تقرير استخدام النطاق الترددي"
+
+#: ../../chapter03.rst:542
+msgid "TEAM FOLDERS REPORT"
+msgstr "تقرير مجلدات الفريق"
+
+#: ../../chapter03.rst:551
+msgid "SHARED OBJECTS REPORT"
+msgstr "تقرير الكائنات المشتركة"
+
+#: ../../chapter03.rst:557
+msgid ""
+"Audit trace contains the management events, such as login success, login "
+"fail , shared a folder and etc."
+msgstr "يحتوي سجل التدقيق على أحداث الإدارة، مثل نجاح تسجيل الدخول، فشل تسجيل الدخول، مشاركة مجلد وغيرها."
+
+#: ../../chapter03.rst:562
+msgid "AUDIT TRACE REPORT"
+msgstr "تقرير أثر التدقيق"
+
+#: ../../chapter03.rst:566
+msgid "File Change Log"
+msgstr "سجل تغييرات الملف"
+
+#: ../../chapter03.rst:568
+msgid ""
+"File change log is capable of search for user's file change history. It "
+"is most useful when helping user troubleshoot issues. For example, you "
+"can point to the file change log and say, you deleted this file on this "
+"day."
+msgstr "سجل تغيير الملف قادر على البحث عن سجل تغييرات ملفات المستخدم. هو الأكثر فائدة عند مساعدة المستخدم في تحرّي الأخطاء. على سبيل المثال، يمكنك الإشارة إلى سجل تغيير الملف وقول، لقد قمت بحذف هذا الملف في هذا اليوم."
+
+#: ../../chapter03.rst:575
+msgid "FILE CHANGE LOGGING REPORT"
+msgstr "تقرير سجل تغييرات الملف"
+
+#: ../../chapter03.rst:584
+msgid "FOLDER PERMISSIONS REPORT"
+msgstr "تقرير أذونات المجلد"
+
+#: ../../chapter03.rst:593
+msgid "DISTRIBUTED LOCKS REPORT"
+msgstr "تقرير الأقفال الموزعة"
+
+#: ../../chapter03.rst:597
+msgid "Pending Purged Folder"
+msgstr "مجلد معلق التطهير"
+
+#: ../../chapter03.rst:602
+msgid "PENDING PURGED FOLDER REPORT"
+msgstr "تقرير المجلد المعلق المحذوف"
+
+#: ../../chapter03.rst:611
+msgid "Active Directory"
+msgstr "الدليل النشط"
+
+#: ../../chapter03.rst:612
+msgid "``Tenant Manager`` > ``Settings`` > ``Active Directory``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``الدليل النشط``"
+
+#: ../../chapter03.rst:617
+msgid "ACTIVE DIRECTORY SETTINGS"
+msgstr "إعدادات دليل أكتيف"
+
+#: ../../chapter03.rst:620
+msgid "Local Active Directory"
+msgstr "الدليل النشط المحلي"
+
+#: ../../chapter03.rst:621
+msgid ""
+"If the tenant's infrastructure is in the same local area network as the "
+"Cluster Server, the Active Directory can be directly accessed and "
+"integrated from the \"Local Active Directory\" page. The integration is "
+"done over LDAP protocol."
+msgstr "إذا كانت بُنية المستأجر التحتية في نفس الشبكة المحلية كخادم الكتلة، يمكن الوصول إلى الدليل النشط مباشرةً ودمجه من صفحة \"الدليل النشط المحلي\". يتم الدمج عبر بروتوكول LDAP."
+
+#: ../../chapter03.rst:623
+msgid ""
+"However, if the tenant's infrastructure is away from the Cluster Server, "
+"it is recommended using \"Server Agent\" to connect both the tenant's "
+"file server and Active Directory to the Cluster Server."
+msgstr "ومع ذلك، إذا كانت بنية تحتية العميل بعيدة عن الخادم الرئيسي، يُنصح باستخدام \"وكيل الخادم\" لربط خادم ملفات العميل والدليل النشط بالخادم الرئيسي."
+
+#: ../../chapter03.rst:627
+msgid ""
+"If your Active Directory is away from the Cluster Server over the "
+"Internet, skip the \"Local Active Directory\" section but use the "
+"\"Remote Active Directory\" instead."
+msgstr "إذا كان دليل Active Directory الخاص بك بعيدًا عن الخادم العنقودي عبر الإنترنت، تجاوز قسم \"Active Directory المحلي\" واستخدم \"Active Directory البعيد\" بدلاً من ذلك."
+
+#: ../../chapter03.rst:629
+msgid "Use LDAP AD Setting only if the AD is in the same Local Area Network."
+msgstr "استخدم إعدادات LDAP AD فقط إذا كان الـ AD في نفس شبكة المنطقة المحلية."
+
+#: ../../chapter03.rst:633
+msgid ""
+"The difference between using LDAP to connect Active Directory and using "
+"\"Server Agent\" to connect Active Directory:"
+msgstr "الفرق بين استخدام LDAP للاتصال بـ Active Directory واستخدام \"Server Agent\" للاتصال بـ Active Directory:"
+
+#: ../../chapter03.rst:635
+msgid ""
+"By using LDAP to connect Active Directory, the assumption is that the "
+"LDAP is local in the local area network so the speed is very fast and "
+"also very reliable. So a lot of the calls and queries are directly "
+"passing through to Active Directory."
+msgstr "من خلال استخدام LDAP للاتصال بـ Active Directory، يُفترض أن LDAP محلي في شبكة المنطقة المحلية لذلك السرعة سريعة جدًا وموثوقة أيضًا. لذا الكثير من الاستدعاءات والاستعلامات تمر مباشرة إلى Active Directory."
+
+#: ../../chapter03.rst:637
+msgid ""
+"By Using Server Agent to connect Active Directory, the assumption is that"
+" the Active Directory is in a remote location and over the Internet so "
+"the access speed may not be fast and the Internet may not be 100 percent "
+"up and reliable. So the server agent replicates Active Directory related "
+"information over to the Cluster Server."
+msgstr "من خلال استخدام وكيل الخادم للاتصال بـ Active Directory، يُفترض أن Active Directory يقع في موقع بعيد وعبر الإنترنت لذا قد لا تكون سرعة الوصول سريعة وقد لا يكون الإنترنت متاحًا بنسبة 100 في المئة وموثوقًا به. لذلك، يقوم وكيل الخادم بنسخ المعلومات المتعلقة بـ Active Directory إلى خادم العنقود."
+
+#: ../../chapter03.rst:641
+msgid ""
+"The connection to local active directory is via LDAP over Local Area "
+"Network. If the active directory infrastructure is in the same network as"
+" the Cluster Server, this is a convenient way to connect to the active "
+"directory."
+msgstr "يتم الاتصال بدليل Active Directory المحلي عبر LDAP عبر شبكة المنطقة المحلية. إذا كانت بنية تحتية لدليل Active Directory في نفس الشبكة مثل خادم العنقود، فهذه طريقة ملائمة للاتصال بدليل Active Directory."
+
+#: ../../chapter03.rst:644
+msgid "AD Server"
+msgstr "خادم AD"
+
+#: ../../chapter03.rst:649
+msgid "ACTIVE DIRECTORY - AD SERVER"
+msgstr "الدليل النشط - خادم AD"
+
+#: ../../chapter03.rst:651
+msgid "**Enable Active Directory Integration**"
+msgstr "**تمكين تكامل الدليل النشط**"
+
+#: ../../chapter03.rst:653
+msgid "You will check this when you want to integration with Active Directory."
+msgstr "ستقوم بفحص هذا عندما ترغب في الدمج مع Active Directory."
+
+#: ../../chapter03.rst:658
+msgid ""
+"There are two different ways to integrate with Active Directory. One way "
+"is here, using the Lightweight Directory Access Protocol (LDAP) "
+"connection. The other way is to leverage the server agent software. The "
+"server agent software is capable of connecting a remote Active Directory."
+msgstr "هناك طريقتان مختلفتان للتكامل مع Active Directory. إحدى الطرق هنا، باستخدام اتصال بروتوكول الوصول إلى الدليل الخفيف (LDAP). الطريقة الأخرى هي الاستفادة من برنامج وكيل الخادم. برنامج وكيل الخادم قادر على ربط Active Directory بعيد."
+
+#: ../../chapter03.rst:660
+msgid "**Domain Controller Address**"
+msgstr "**عنوان وحدة التحكم بالمجال**"
+
+#: ../../chapter03.rst:662
+msgid "The domain controller's address, typically in the form of DNS name."
+msgstr "عنوان وحدة التحكم بالنطاق، والذي يكون عادةً بصيغة اسم نظام أسماء النطاقات."
+
+#: ../../chapter03.rst:664 ../../chapter03.rst:1919
+msgid "**User Name**"
+msgstr "**اسم المستخدم**"
+
+#: ../../chapter03.rst:666
+msgid ""
+"This is recommended to be a service account (password never expire, "
+"account never disable” so the user will be able to query LDAP for users "
+"and authenticate users on the login user's behave."
+msgstr "يُنصح بأن يكون هذا حساب خدمة (كلمة المرور لا تنتهي صلاحيتها، الحساب لا يُعطل) حتى يتمكن المستخدم من الاستعلام عن المستخدمين في LDAP ومصادقة المستخدمين نيابةً عن مستخدم تسجيل الدخول."
+
+#: ../../chapter03.rst:668 ../../chapter03.rst:1924
+msgid "**Password**"
+msgstr "**كلمة المرور**"
+
+#: ../../chapter03.rst:670
+msgid "This is the password for the service account for the “User Name” field."
+msgstr "هذه هي كلمة المرور لحساب الخدمة الخاص بحقل \"اسم المستخدم\"."
+
+#: ../../chapter03.rst:674
+msgid "Advanced Settings"
+msgstr "الإعدادات المتقدمة"
+
+#: ../../chapter03.rst:679
+msgid "ACTIVE DIRECTORY - ADVANCED SETTINGS"
+msgstr "الدليل النشط - الإعدادات المتقدمة"
+
+#: ../../chapter03.rst:682
+msgid "**Friendly Domain Name**"
+msgstr "**اسم النطاق الودود**"
+
+#: ../../chapter03.rst:684
+msgid ""
+"**(i.e. mydomain.com, the domain name you see in Active Directory "
+"tools)** This is typically the domain name you see in the Microsoft "
+"Domain and User tool. It needs to be exact match of the domain name. "
+"Otherwise, you will see error message about “referral is required” , "
+"which translates to the domain controller didn't match the domain name "
+"and need to refer you to somewhere else for another domain name."
+msgstr "**(أي mydomain.com، اسم النطاق الذي تراه في أدوات Active Directory)** هذا عادة ما يكون اسم النطاق الذي تراه في أداة المجال والمستخدم من مايكروسوفت. يجب أن يكون مطابقًا تمامًا لاسم النطاق. وإلا، سترى رسالة خطأ حول \"الإحالة مطلوبة\"، والتي تُترجم إلى أن وحدة التحكم بالمجال لم تطابق اسم النطاق وتحتاج إلى إحالتك إلى مكان آخر لاسم نطاق آخر."
+
+#: ../../chapter03.rst:689
+msgid "FRIENDLY DOMAIN NAME EXAMPLE"
+msgstr "مثال على اسم نطاق ودي"
+
+#: ../../chapter03.rst:691
+msgid "**Enable LDAPS for secure access**"
+msgstr "**تمكين LDAPS للوصول الآمن**"
+
+#: ../../chapter03.rst:693
+msgid ""
+"Disabled by default. Enable this if you are using SSL security on the "
+"domain."
+msgstr "معطل بشكل افتراضي. قم بتفعيل هذا إذا كنت تستخدم أمان SSL على النطاق."
+
+#: ../../chapter03.rst:695
+msgid "**Only include users and groups from the following Organizational Units**"
+msgstr "**يشمل فقط المستخدمين والمجموعات من وحدات التنظيم التالية**"
+
+#: ../../chapter03.rst:697
+msgid ""
+"**(e.g. OU=ou1,OU=ou2. Leave this blank to include all OUs)** When you "
+"type in the organization unit, you don't need to type the domain part any"
+" more. It just need the Organization Unit part of the string. This is "
+"allowed for only single Organization Unit specified in its "
+"distinguishedName format without the domain suffix."
+msgstr "**(مثال: OU=ou1,OU=ou2. اترك هذا فارغًا لتضمين جميع الوحدات التنظيمية)** عندما تكتب في وحدة التنظيم، لا تحتاج إلى كتابة جزء النطاق بعد الآن. يحتاج فقط إلى جزء وحدة التنظيم من السلسلة. هذا مسموح به لوحدة تنظيمية واحدة فقط محددة في تنسيق distinguishedName الخاص بها بدون لاحقة النطاق."
+
+#: ../../chapter03.rst:699
+msgid "**Allow Switching to Global Catalog If needed**"
+msgstr "**السماح بالتبديل إلى الفهرس العالمي إذا لزم الأمر**"
+
+#: ../../chapter03.rst:701
+msgid ""
+"Disabled by default. For some organization that has multiple domain, "
+"sometimes there is a Global Catalog that stores everything inside. This "
+"may be required if you have such situation."
+msgstr "معطل بشكل افتراضي. بالنسبة لبعض المؤسسات التي لديها نطاقات متعددة، أحيانًا يكون هناك فهرس عام يخزن كل شيء بداخله. قد تكون هذه مطلوبة إذا كان لديك مثل هذا الوضع."
+
+#: ../../chapter03.rst:703
+msgid "**Disable Nested Groups**"
+msgstr "**تعطيل المجموعات المتداخلة**"
+
+#: ../../chapter03.rst:705
+msgid ""
+"Not checked by default. **(Activating this checkbox may slow down your "
+"access to cloud)** Normally you will activate this option if you have "
+"many groups."
+msgstr "غير محدد بشكل افتراضي. **(تفعيل هذا الخيار قد يبطئ وصولك إلى السحابة)** عادةً ستفعل هذا الخيار إذا كان لديك العديد من المجموعات."
+
+#: ../../chapter03.rst:707
+msgid "**This is the root of the AD Forest and contains multiple sub-domains**"
+msgstr "**هذا هو جذر غابة ال AD ويحتوي على عدة نطاقات فرعية**"
+
+#: ../../chapter03.rst:709
+msgid ""
+"The Cluster Server supports multiple domains in the same AD forest. You "
+"will need to point to the root of the AD and it is capable of finding all"
+" the sub-domains if you enable the **Discover domain controller IP at "
+"runtime** sub-opion."
+msgstr "يدعم الخادم العنقودي عدة نطاقات في نفس غابة الـ AD. ستحتاج إلى الإشارة إلى جذر الـ AD وهو قادر على إيجاد جميع النطاقات الفرعية إذا قمت بتفعيل خيار **اكتشاف عنوان IP لمتحكم النطاق في وقت التشغيل**."
+
+#: ../../chapter03.rst:711
+msgid "**Don't allow user auto-creation**"
+msgstr "**لا تسمح بإنشاء المستخدم تلقائيًا**"
+
+#: ../../chapter03.rst:713
+msgid ""
+"By default, the Enterprise package is capable of creating users upon "
+"first login into the web portal. However, for big enterprise, they may "
+"want to control the pace of adding users to the system so they will "
+"disable this feature."
+msgstr "بشكل افتراضي، يمكن لحزمة الشركات إنشاء مستخدمين عند أول تسجيل دخول إلى البوابة الإلكترونية. ومع ذلك، بالنسبة للشركات الكبيرة، قد يرغبون في التحكم في وتيرة إضافة المستخدمين إلى النظام لذا سيقومون بتعطيل هذه الميزة."
+
+#: ../../chapter03.rst:715 ../../chapter03.rst:1291
+msgid "**Publish user's home drive**"
+msgstr "**نشر محرك الأقراص الرئيسي للمستخدم**"
+
+#: ../../chapter03.rst:717
+msgid ""
+"When unchecked (default), the user home drive space will be allocated "
+"from enterprise storage. When checked, existing user home drives will be "
+"automatically published from Active Directory."
+msgstr "عند عدم التحقق (افتراضيًا)، سيتم تخصيص مساحة محرك الأقراص المنزلي للمستخدم من التخزين المؤسسي. عند التحقق، سيتم نشر محركات الأقراص المنزلية الحالية للمستخدمين تلقائيًا من الدليل النشط."
+
+#: ../../chapter03.rst:722
+msgid "USER'S PROFILE HOME FOLDER SETTING"
+msgstr "إعدادات مجلد الصفحة الرئيسية لملف تعريف المستخدم"
+
+#: ../../chapter03.rst:729
+msgid "Single Sign-On (SAML Integration)"
+msgstr "تسجيل دخول موحد (تكامل SAML)"
+
+#: ../../chapter03.rst:731
+msgid "``Tenant Manager`` > ``Settings`` > ``Single Sign-On``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``تسجيل الدخول الموحد``"
+
+#: ../../chapter03.rst:733
+msgid "Single Sign on via SAML is a per-tenant setting."
+msgstr "تسجيل الدخول الموحد عبر SAML هو إعداد خاص بكل مستأجر."
+
+#: ../../chapter03.rst:738
+msgid "ACCESSING SINGLE SIGN ON (SSO) SETTINGS"
+msgstr "الوصول إلى إعدادات تسجيل الدخول الموحد (SSO)"
+
+#: ../../chapter03.rst:744
+msgid "SINGLE SIGN ON (SSO) SETTINGS"
+msgstr "إعدادات تسجيل الدخول الموحد (SSO)"
+
+#: ../../chapter03.rst:747
+msgid "Single Sign-On is available using SAML authentication."
+msgstr "تتوفر خاصية تسجيل الدخول الموحد باستخدام مصادقة SAML."
+
+#: ../../chapter03.rst:749
+msgid ""
+"When it comes to Single Sign-On support via SAML, there are always two "
+"parties."
+msgstr "عندما يتعلق الأمر بدعم تسجيل الدخول الموحد عبر SAML، دائمًا ما يكون هناك طرفان."
+
+#: ../../chapter03.rst:751
+msgid "One is the IdP (the identity provider)"
+msgstr "واحد هو مزود الهوية (IdP)"
+
+#: ../../chapter03.rst:752
+msgid "and the other is SP (service provider)"
+msgstr "والآخر هو مزود الخدمة (SP)"
+
+#: ../../chapter03.rst:754
+msgid ""
+"A user will be registered with the identity provider and use the service "
+"from service provider. The setup here is to allow service provider (the "
+"Cluster Server) to use an identity provider."
+msgstr "سيتم تسجيل المستخدم مع موفر الهوية واستخدام الخدمة من موفر الخدمة. الإعداد هنا هو للسماح لموفر الخدمة (خادم الكتلة) باستخدام موفر الهوية."
+
+#: ../../chapter03.rst:757
+msgid ""
+"The SAML single sign on setup is mostly about matching parameters from "
+"the identity provider to the identity consumer (service provider). As "
+"shown in the screen capture, There are three types of identity provider, "
+"\"Azure AD\" , \"AD FS\" , and \"others (generic)\" that pretty much "
+"covers the most used ones and the most generic ones."
+msgstr "إعداد تسجيل الدخول الموحد SAML يتعلق أساسًا بمطابقة المعلمات من موفر الهوية إلى مستهلك الهوية (موفر الخدمة). كما هو موضح في لقطة الشاشة، هناك ثلاثة أنواع من موفري الهوية، \"Azure AD\" و \"AD FS\" و \"الآخرون (عام)\" والذي يغطي في الغالب الأكثر استخدامًا والأكثر عمومية."
+
+#: ../../chapter03.rst:762
+msgid "**Others (Generic SAML)**"
+msgstr "**الآخرون (SAML عام)**"
+
+#: ../../chapter03.rst:764
+msgid ""
+"Here, The IdP will be a public IdP such as SSOCircle and the SP will be "
+"the Cluster Server. The SSOCircle is used as an example to set up the "
+"IdP; it can work with other IdP as well."
+msgstr "هنا، سيكون مزود الهوية (IdP) عبارة عن مزود هوية عام مثل SSOCircle وسيكون مزود الخدمة (SP) هو الخادم العنقودي. يُستخدم SSOCircle كمثال لإعداد مزود الهوية؛ ويمكن أن يعمل مع مزودي هوية آخرين أيضًا."
+
+#: ../../chapter03.rst:767
+msgid ""
+"In a multi-tenant Cluster Server deployment each tenant may want to have "
+"its own SSO service. Therefore, the Single Sign On is a per-tenant "
+"setting."
+msgstr "في توزيع خادم العنقود المتعدد المستأجرين، قد يرغب كل مستأجر في امتلاك خدمة SSO الخاصة به. ولذلك، فإن تسجيل الدخول الموحد هو إعداد خاص بكل مستأجر"
+
+#: ../../chapter03.rst:770
+msgid "**Step 1: Register the Cluster Server at IdP**"
+msgstr "**الخطوة 1: تسجيل خادم الكتلة في مزود الهوية**"
+
+#: ../../chapter03.rst:772
+msgid ""
+"IdP will need to register the Cluster Server as a service provider (SP) "
+"by importing the SP's meta data. You will find the Cluster's metadata at "
+"the following location (per-tenant setting)."
+msgstr "سيحتاج مزود الهوية إلى تسجيل خادم العنقود كمزود خدمة (SP) من خلال استيراد بيانات التعريف الخاصة بمزود الخدمة. ستجد بيانات التعريف الخاصة بالعنقود في الموقع التالي (إعداد خاص بكل مستأجر)."
+
+#: ../../chapter03.rst:777
+msgid "SERVICE PROVIDER META DATA LINK"
+msgstr "رابط بيانات موفر الخدمة الوصفية"
+
+#: ../../chapter03.rst:779
+msgid ""
+"We can use the following xml to register the Cluster as an SP at "
+"SSOCircle:"
+msgstr "يمكننا استخدام xml التالي لتسجيل الكتلة كمزود خدمة في SSOCircle:"
+
+#: ../../chapter03.rst:784
+msgid "REGISTER CLUSTER SERVER AS AN SP AT SSOCIRCLE"
+msgstr "تسجيل خادم العنقود كمزود خدمة في SSOCIRCLE"
+
+#: ../../chapter03.rst:786
+msgid "Now at the SSOCircle, need to add a new service provider:"
+msgstr "الآن في SSOCircle، يجب إضافة مزود خدمة جديد:"
+
+#: ../../chapter03.rst:791
+msgid "ADD A SERVICE PROVIDER AT SSOCIRCLE"
+msgstr "إضافة مزود خدمة في SSOCIRCLE"
+
+#: ../../chapter03.rst:793
+msgid ""
+"In the next screen we can paste in the xml from the Cluster side, set the"
+" FQDN to the URL contained within the XML, and check the 3 parameters, "
+"the FirstName, LastName and Email."
+msgstr "في الشاشة التالية يمكننا لصق الـ xml من جانب الكلستر، وتعيين الـ FQDN إلى الرابط الموجود ضمن الـ XML، والتحقق من الـ 3 معاملات، الاسم الأول، الاسم الأخير والبريد الإلكتروني."
+
+#: ../../chapter03.rst:799
+msgid "INSERT YOUR METADATA INFORMATION"
+msgstr ""
+
+#: ../../chapter03.rst:801
+msgid "Now the SSOCircle side of the registration is done."
+msgstr "الآن تم الانتهاء من جانب SSOCircle للتسجيل."
+
+#: ../../chapter03.rst:803
+msgid "**Step 2: Register SSOCircle at the Cluster Server side**"
+msgstr "**الخطوة 2: تسجيل SSOCircle في جانب خادم العنقود**"
+
+#: ../../chapter03.rst:805
+msgid ""
+"The IdP registration and SP registration is a two-way I trust you and now"
+" you trust me kind of manual setup."
+msgstr "تسجيل مزود الهوية وتسجيل مزود الخدمة هو نوع من الإعداد اليدوي المتبادل للثقة، أثق بك الآن وأنت تثق بي"
+
+#: ../../chapter03.rst:810
+msgid "MUTUAL TRUST SP REGISTRATION"
+msgstr "تسجيل الثقة المتبادلة SP"
+
+#: ../../chapter03.rst:812
+msgid ""
+"The meta data from the SSOCircle look like this and it can be imported to"
+" the Cluster Server."
+msgstr "تبدو بيانات التعريف من SSOCircle كما يلي ويمكن استيرادها إلى الخادم العنقودي."
+
+#: ../../chapter03.rst:817
+msgid "EXAMPLE OF SSOCIRCLE META DATA"
+msgstr "مثال على بيانات ميتا SSOCIRCLE"
+
+#: ../../chapter03.rst:819
+msgid ""
+"Inside the meta data from SSOCircle, you will see there is a HTTP-"
+"Redirect URL, that will be the URL we use to register the IdP. And also "
+"register the 3 parameters (FirstName, LastName, EmailAddress) from the "
+"IdP."
+msgstr "داخل بيانات التعريف من SSOCircle، سترى أن هناك عنوان URL لإعادة التوجيه HTTP-Redirect، وهذا سيكون العنوان الذي نستخدمه لتسجيل مزود الهوية IdP. وأيضًا تسجيل الـ 3 معاملات (الاسم الأول، الاسم الأخير، عنوان البريد الإلكتروني) من مزود الهوية IdP."
+
+#: ../../chapter03.rst:825
+msgid "SINGLE SIGN ON SETTINGS"
+msgstr "إعدادات تسجيل الدخول الموحد"
+
+#: ../../chapter03.rst:827
+msgid "**Step 3: Login at the IdP, but use service at SP**"
+msgstr "**الخطوة 3: تسجيل الدخول في مزود الهوية، ولكن استخدام الخدمة في مزود الخدمة**"
+
+#: ../../chapter03.rst:829
+msgid ""
+"As the summary, the IdP and SP register each other's meta data, register "
+"each other's URL and parameters. After that, it will be single signon at "
+"the IdP side. The login will be at the IdP side, and after login, it will"
+" redirect back to the SP side."
+msgstr "كملخص، يقوم مزود الهوية ومزود الخدمة بتسجيل بيانات التعريف الخاصة ببعضهما البعض، وتسجيل عناوين URL والمعاملات المتبادلة. بعد ذلك، سيكون هناك تسجيل دخول موحد من جانب مزود الهوية. سيتم تسجيل الدخول على جانب مزود الهوية، وبعد الدخول، سيتم إعادة التوجيه إلى جانب مزود الخدمة."
+
+#: ../../chapter03.rst:836
+msgid "IDP SIDE SIGLE SIGNON"
+msgstr "تسجيل الدخول الموحد من جانب مزود الهوية"
+
+#: ../../chapter03.rst:839
+msgid "File Locking"
+msgstr "قفل الملفات"
+
+#: ../../chapter03.rst:841
+msgid "``Tenant Manager`` > ``Settings`` > ``File Locking``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``قفل الملفات``"
+
+#: ../../chapter03.rst:843
+msgid ""
+"File Locking can be accessed from the \"Settings\" menu in the Tenant "
+"Dashboard."
+msgstr "يمكن الوصول إلى قفل الملفات من قائمة \"الإعدادات\" في لوحة تحكم المستأجر."
+
+#: ../../chapter03.rst:848
+msgid "FILE LOCKING SETTING"
+msgstr "إعداد قفل الملف"
+
+#: ../../chapter03.rst:850
+msgid ""
+"After you click the \"Settings\" icon in \"File Locking\" window, here is"
+" the screen for the file locking settings details."
+msgstr "بعد النقر على أيقونة \"الإعدادات\" في نافذة \"قفل الملفات\"، إليك شاشة تفاصيل إعدادات قفل الملفات."
+
+#: ../../chapter03.rst:855
+msgid "FILE LOCKING SETTINGS"
+msgstr "إعدادات قفل الملفات"
+
+#: ../../chapter03.rst:858
+msgid ""
+"Settings under file locking applies to all clients which include desktop "
+"clients as well as server agent clients."
+msgstr "الإعدادات تحت قفل الملف تنطبق على جميع العملاء والتي تشمل عملاء سطح المكتب بالإضافة إلى عملاء وكلاء الخادم."
+
+#: ../../chapter03.rst:861
+msgid "**Enable Distributed locking when accessing files**"
+msgstr "**تمكين القفل الموزع عند الوصول إلى الملفات**"
+
+#: ../../chapter03.rst:863
+msgid ""
+"In the Cluster Server, there are two ways to lock files, one is manually "
+"by right-clicking on a file and select “Check out”. The other way is "
+"automatic based on certain binary executables. For example, you can see "
+"Microsoft Office executable files like winword.exe and so on."
+msgstr "في خادم العنقود، هناك طريقتان لقفل الملفات، إحداهما يدويًا بالنقر بزر الماوس الأيمن على ملف واختيار \"تسجيل الخروج\". الطريقة الأخرى تلقائية بناءً على بعض الملفات التنفيذية الثنائية. على سبيل المثال، يمكنك رؤية ملفات تنفيذية لمايكروسوفت أوفيس مثل winword.exe وغيرها."
+
+#: ../../chapter03.rst:866
+msgid "**Lock file exclusively**"
+msgstr "**قفل الملف حصريًا**"
+
+#: ../../chapter03.rst:868
+msgid ""
+"When enabled, the locked file will be locked exclusively. When disabled, "
+"the other user who is trying to open the locked file will be notified "
+"about the lock status, but will still be able to open the file."
+msgstr "عند التمكين، سيتم قفل الملف حصريًا. عند التعطيل، سيتم إخطار المستخدم الآخر الذي يحاول فتح الملف المقفل عن حالة القفل، لكن سيظل قادرًا على فتح الملف."
+
+#: ../../chapter03.rst:871
+msgid ""
+"**Automatically open file in read only mode when file is locked and "
+"\"Lock file exclusively\" is not checked.**"
+msgstr "**افتح الملف تلقائيًا بوضع القراءة فقط عندما يكون الملف مقفلاً ولم يتم تحديد خيار \"قفل الملف حصريًا\".**"
+
+#: ../../chapter03.rst:873
+msgid ""
+"When this setting is enabled (default), a second attempt to open a locked"
+" file will result in the file opening in read-only mode. If \"Lock file "
+"exclusively\" is checked, then second user will not be able to open a "
+"locked file."
+msgstr "عند تمكين هذا الإعداد (افتراضيًا)، سيؤدي المحاولة الثانية لفتح ملف مقفل إلى فتح الملف في وضع القراءة فقط. إذا تم تحديد خيار \"قفل الملف حصريًا\"، فلن يتمكن المستخدم الثاني من فتح ملف مقفل."
+
+#: ../../chapter03.rst:876
+msgid "**Delay sync until file is unlocked**"
+msgstr "**تأخير المزامنة حتى يتم فتح القفل عن الملف**"
+
+#: ../../chapter03.rst:878
+msgid ""
+"It is recommended to check this setting. Most users have the habit to "
+"save files in the middle of editing. You don't want these edits to go "
+"every time to the cloud for these intermediate saves. You want to do a "
+"save to the cloud at the end like a grand finale. So you can delay sync "
+"until the file is unlocked."
+msgstr "يُنصح بفحص هذا الإعداد. يمتلك معظم المستخدمين عادة حفظ الملفات أثناء التعديل. لا ترغب في أن تذهب هذه التعديلات في كل مرة إلى السحابة لهذه الحفظات المتوسطة. تريد أن تقوم بحفظ إلى السحابة في النهاية كالختام الكبير. لذا يمكنك تأخير المزامنة حتى يتم فتح قفل الملف."
+
+#: ../../chapter03.rst:882
+msgid "**Unlock file after file is uploaded**"
+msgstr "**إلغاء قفل الملف بعد تحميل الملف**"
+
+#: ../../chapter03.rst:884
+msgid "After the file is uploaded, unlock the file."
+msgstr "بعد تحميل الملف، قم بفتح القفل عن الملف."
+
+#: ../../chapter03.rst:887
+msgid "**Lock file natively on network shares**"
+msgstr "**قفل الملفات بشكل أصلي على مشاركات الشبكة**"
+
+#: ../../chapter03.rst:889
+msgid ""
+"When a file is locked in the |prodname|, if the file is from an attached "
+"network share, the |prodname| lock will be converted into a native file "
+"system lock on the network share. This provides locking interoperability "
+"between the |prodname| and the underlying file system network share."
+msgstr "عندما يتم قفل ملف في |prodname|، إذا كان الملف من مشاركة شبكة مرفقة، فإن قفل |prodname| سيتحول إلى قفل نظام ملفات أصلي على مشاركة الشبكة. هذا يوفر التوافقية في القفل بين |prodname| ومشاركة نظام الملفات الأساسي للشبكة."
+
+#: ../../chapter03.rst:892
+msgid ""
+"**Enable scheduled sync for files with following extensions "
+"(i.e.[.mdb][.qbw]) when the file is locked\"**"
+msgstr "**تمكين المزامنة المجدولة للملفات ذات الامتدادات التالية (مثل [.mdb][.qbw]) عندما يكون الملف مقفلاً\"**"
+
+#: ../../chapter03.rst:894
+msgid ""
+"When files are locked, the client will consolidate multiple changes into "
+"one upload event and use Volume Shadow Copy to avoid interfering with "
+"applications that are using the files. Typically this applies to database"
+" files that are constantly in use and constantly actively writing "
+"(commit) to the database file."
+msgstr "عندما تكون الملفات مقفلة، سيقوم العميل بدمج عدة تغييرات في حدث تحميل واحد واستخدام نسخ الظل للمجلدات لتجنب التداخل مع التطبيقات التي تستخدم الملفات. عادةً ما ينطبق هذا على ملفات قواعد البيانات التي تكون قيد الاستخدام بشكل مستمر وتقوم بالكتابة (الإلتزام) على ملف قاعدة البيانات باستمرار."
+
+#: ../../chapter03.rst:897
+msgid "**How often to sync the files with above extensions**"
+msgstr "**كم مرة يتم مزامنة الملفات بالامتدادات السابقة**"
+
+#: ../../chapter03.rst:899
+msgid ""
+"This setting allows you to control the interval of synchronization that "
+"takes place on the above file extensions."
+msgstr "هذا الإعداد يتيح لك التحكم في فترة المزامنة التي تحدث على امتدادات الملفات أعلاه."
+
+#: ../../chapter03.rst:902
+msgid "**Apply lock only to the following processes (Lower case)**"
+msgstr "**طبق القفل على العمليات التالية فقط (أحرف صغيرة)**"
+
+#: ../../chapter03.rst:904
+msgid ""
+"You can specify the processes here for which locking should be applied. "
+"By default, locking is enabled for Microsoft Word, Excel, and PowerPoint."
+msgstr "يمكنك تحديد العمليات هنا التي يجب أن يتم تطبيق القفل عليها. بشكل افتراضي، يتم تمكين القفل لبرامج مايكروسوفت وورد وإكسل وباوربوينت."
+
+#: ../../chapter03.rst:907
+msgid "**Apply lock only to the following MAC processes\"(Lower case)**"
+msgstr "**يتم تطبيق القفل على عمليات MAC التالية فقط\"(بأحرف صغيرة)**"
+
+#: ../../chapter03.rst:909
+msgid ""
+"You can specify the processes here for which locking should be applied. "
+"By default, locking is enabled for Microsoft Word, Excel, PowerPoint and "
+"MAC text editor."
+msgstr "يمكنك تحديد العمليات هنا التي يجب أن يتم تطبيق القفل عليها. بشكل افتراضي، يتم تمكين القفل لبرامج Microsoft Word وExcel وPowerPoint ومحرر النصوص لنظام MAC."
+
+#: ../../chapter03.rst:912
+msgid ""
+"**Locking is disabled for files with the following extensions "
+"(i.e.[.xml][.exe])**"
+msgstr "**تم تعطيل القفل للملفات ذات الامتدادات التالية (أي [.xml][.exe])**"
+
+#: ../../chapter03.rst:914
+msgid ""
+"You can use this setting to specify which file types will be ignored with"
+" regard to the file-locking feature."
+msgstr "يمكنك استخدام هذا الإعداد لتحديد أنواع الملفات التي سيتم تجاهلها فيما يتعلق بميزة قفل الملفات."
+
+#: ../../chapter03.rst:918
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: ../../chapter03.rst:920
+msgid "``Tenant Manager`` > ``Settings`` > ``Notifications``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``الإشعارات``"
+
+#: ../../chapter03.rst:922
+msgid ""
+"The cluster administrator can use the notification manager to help the "
+"tenant setup notification events. The tenant administrator will receive "
+"email notifications for the events subscribed."
+msgstr "يمكن لمسؤول العقد استخدام مدير الإشعارات لمساعدة المستأجر في إعداد أحداث الإشعارات. سيتلقى مسؤول المستأجر إشعارات البريد الإلكتروني للأحداث التي تم الاشتراك فيها."
+
+#: ../../chapter03.rst:928
+msgid "NOTIFICATIONS"
+msgstr "الإشعارات"
+
+#: ../../chapter03.rst:936
+msgid "NOTIFICATION SETTINGS"
+msgstr "إعدادات الإشعارات"
+
+#: ../../chapter03.rst:938
+msgid "**Send Daily Notification Email**"
+msgstr "**إرسال بريد إلكتروني للإشعار اليومي**"
+
+#: ../../chapter03.rst:940
+msgid ""
+"When set, the system will send email notification daily about the events "
+"you are interested (Select below)."
+msgstr "عند الضبط، سيقوم النظام بإرسال إشعار بالبريد الإلكتروني يوميًا حول الأحداث التي تهتم بها (اختر من الأسفل)."
+
+#: ../../chapter03.rst:942
+msgid "File Changes"
+msgstr "تغييرات الملف"
+
+#: ../../chapter03.rst:944
+msgid "Users approaching the storage quota limit"
+msgstr "المستخدمون الذين يقتربون من حد السعة التخزينية"
+
+#: ../../chapter03.rst:945
+msgid "Notification threshold"
+msgstr "عتبة الإشعار"
+
+#: ../../chapter03.rst:947
+msgid "**Notify tenant admin when member's sync task failed or paused**"
+msgstr "**إخطار مسؤول المستأجر عند فشل مهمة مزامنة العضو أو توقفها**"
+
+#: ../../chapter03.rst:949
+msgid "**Notify tenant admin when a member shares a folder**"
+msgstr "**إخطار مسؤول المستأجر عندما يشارك أحد الأعضاء مجلدًا**"
+
+#: ../../chapter03.rst:951
+msgid "**Notify me when a user account is locked out**"
+msgstr "**أخبرني عندما يتم قفل حساب مستخدم**"
+
+#: ../../chapter03.rst:953
+msgid "**Do not show file change notifications on Windows and Mac client**"
+msgstr "**لا تظهر إشعارات تغيير الملفات على عميل ويندوز وماك**"
+
+#: ../../chapter03.rst:955
+msgid ""
+"**Send notification to these emails in addition to tenant admin's email "
+"(email;email2)**"
+msgstr "**أرسل إشعارًا إلى هذه البريد الإلكتروني بالإضافة إلى بريد مسؤول المستأجر الإلكتروني (email;email2)**"
+
+#: ../../chapter03.rst:957
+msgid "This is used for additional administrators to receive email notification."
+msgstr "يُستخدم هذا ليتلقى المسؤولون الإضافيون إشعارات البريد الإلكتروني."
+
+#: ../../chapter03.rst:960
+msgid "Shared File/Folder"
+msgstr "ملف/مجلد مشترك"
+
+#: ../../chapter03.rst:965
+msgid "SHARES SUBSCRIPTIONS"
+msgstr "اشتراكات الأسهم"
+
+#: ../../chapter03.rst:967
+msgid "Notification regarding modified/downloaded shared files and folders."
+msgstr "إشعار بشأن الملفات والمجلدات المشتركة التي تم تعديلها/تنزيلها."
+
+#: ../../chapter03.rst:971
+msgid "Team Folder"
+msgstr "مجلد الفريق"
+
+#: ../../chapter03.rst:976
+msgid "TEAM FOLDER SUBSCRIPTIONS"
+msgstr "اشتراكات مجلد الفريق"
+
+#: ../../chapter03.rst:978
+msgid ""
+"Administrators can use this setting to receive notifications when changes"
+" occur in Team Folders."
+msgstr "يمكن للمدراء استخدام هذا الإعداد لتلقي الإشعارات عند حدوث تغييرات في مجلدات الفريق."
+
+#: ../../chapter03.rst:982
+msgid "User Account & Security"
+msgstr "حساب المستخدم والأمان"
+
+#: ../../chapter03.rst:985
+msgid "Tenant Administrators"
+msgstr "مسؤولو المستأجرين"
+
+#: ../../chapter03.rst:987
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Tenant Administrators``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``حساب المستخدم والأمان`` > ``مدراء المستأجر``"
+
+#: ../../chapter03.rst:989
+msgid ""
+"In the administrator information page, the cluster administrator can help"
+" the tenant manager change their email and user name if they need to, and"
+" to also setup delegated administrators."
+msgstr "في صفحة معلومات المسؤول، يمكن لمسؤول العنقود مساعدة مدير المستأجر في تغيير بريده الإلكتروني واسم المستخدم إذا احتاج إلى ذلك، وكذلك إعداد المسؤولين المفوضين."
+
+#: ../../chapter03.rst:991
+msgid ""
+"The delegated administrators that are setup at the cluster level are "
+"users who are already in the Cluster Server and will be helping out the "
+"management of this specific tenant. Access these settings by clicking "
+"\"User Account & Security\" from \"Settings\" section, and choose the "
+"\"Tenant Administrators\" icon. You can define a group of users here to "
+"delegate the administration of tenants to other users."
+msgstr "المسؤولون المفوضون الذين يتم إعدادهم على مستوى العنقود هم مستخدمون موجودون بالفعل في خادم العنقود وسيساعدون في إدارة هذا المستأجر بشكل خاص. يمكنك الوصول إلى هذه الإعدادات بالنقر على \"حساب المستخدم والأمان\" من قسم \"الإعدادات\"، واختر أيقونة \"مسؤولو المستأجر\". يمكنك هنا تحديد مجموعة من المستخدمين لتفويض إدارة المستأجرين إلى مستخدمين آخرين."
+
+#: ../../chapter03.rst:996
+msgid "TENANT ADMINISTRATORS"
+msgstr "مسؤولو المستأجرين"
+
+#: ../../chapter03.rst:1001
+msgid ""
+"Delegated administrators have two different roles. First of all, they are"
+" not the default administrator in the tenant so normally they are just "
+"normal team users in the tenant."
+msgstr "للمسؤولين المفوضين دوران مختلفان. أولاً، ليسوا المسؤول الافتراضي في المستأجر، لذا عادةً ما يكونون مجرد مستخدمين عاديين في فريق المستأجر."
+
+#: ../../chapter03.rst:1005
+msgid ""
+"However, they can elevate themselves into the admin role by clicking the "
+"elevation icon that is available to delegated administrators."
+msgstr "ومع ذلك، يمكنهم رفع أنفسهم إلى دور المسؤول بالنقر على أيقونة الرفع المتاحة للمدراء المفوضين."
+
+#: ../../chapter03.rst:1009
+msgid "User Account"
+msgstr "حساب المستخدم"
+
+#: ../../chapter03.rst:1011
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``User "
+"Account``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``حساب المستخدم والأمان`` > ``حساب المستخدم``"
+
+#: ../../chapter03.rst:1013
+msgid ""
+"This is how \"User Account\" settings looks when \"2-Step Verification is"
+" not turned on by the Cluster Manager."
+msgstr "هكذا تبدو إعدادات \"حساب المستخدم\" عندما لا يكون \"التحقق بخطوتين\" مفعلاً من قبل مدير العنقود."
+
+#: ../../chapter03.rst:1018
+msgid "USER ACCOUNT SETTINGS"
+msgstr "إعدادات حساب المستخدم"
+
+#: ../../chapter03.rst:1022
+msgid "**Allow creation of guest user**"
+msgstr "**السماح بإنشاء مستخدم ضيف**"
+
+#: ../../chapter03.rst:1024
+msgid ""
+"When enabled (default), you will allow creating of guest user when team "
+"user share files or folders with external users. When disabled, the "
+"file/folder sharing is limited to regular users only or anonymous users "
+"only."
+msgstr "عند التمكين (افتراضيًا)، ستسمح بإنشاء مستخدم ضيف عندما يشارك مستخدمو الفريق الملفات أو المجلدات مع المستخدمين الخارجيين. عند التعطيل، يقتصر مشاركة الملفات/المجلدات على المستخدمين العاديين فقط أو المستخدمين المجهولين فقط."
+
+#: ../../chapter03.rst:1027
+msgid "Account Info"
+msgstr "معلومات الحساب"
+
+#: ../../chapter03.rst:1028
+msgid "**Allow user to edit account info**"
+msgstr "**السماح للمستخدم بتعديل معلومات الحساب**"
+
+#: ../../chapter03.rst:1030
+msgid ""
+"When enabled (default), this setting allows users to edit their account "
+"information."
+msgstr "عند التمكين (افتراضيًا)، تسمح هذه الإعدادات للمستخدمين بتعديل معلومات حساباتهم."
+
+#: ../../chapter03.rst:1032
+msgid "**Allow proxied AD user to change native password (Non AD Password)**"
+msgstr "**السماح للمستخدم الموثق بواسطة الوكيل بتغيير كلمة المرور الأصلية (كلمة مرور غير تابعة لـ AD)**"
+
+#: ../../chapter03.rst:1034
+msgid ""
+"Proxied AD user refers to Active Directory users from remote server agent"
+" machine. Normally the initial password and changed password are "
+"synchronized from the server agent side periodically so the end user is "
+"always using the same Active Directory credentials to log in. However, "
+"there may be cases when you want the user to break away from the old "
+"Active Directory and setup credential natively on |prodname|."
+msgstr "يشير مستخدم AD الموكل إلى مستخدمي الدليل النشط من جهاز وكيل الخادم عن بعد. عادةً ما يتم مزامنة كلمة المرور الأولية وكلمة المرور المتغيرة من جانب وكيل الخادم بشكل دوري حتى يستخدم المستخدم النهائي نفس بيانات اعتماد الدليل النشط لتسجيل الدخول. ومع ذلك، قد تكون هناك حالات ترغب فيها بأن ينفصل المستخدم عن الدليل النشط القديم ويقوم بإعداد بيانات الاعتماد بشكل أصيل على |prodname|."
+
+#: ../../chapter03.rst:1041
+msgid "2-Step Verification"
+msgstr "التحقق بخطوتين"
+
+#: ../../chapter03.rst:1045 ../../chapter03.rst:1088
+msgid "USER ACCOUNT SETTINGS (Cont.)"
+msgstr "إعدادات حساب المستخدم (متابعة)"
+
+#: ../../chapter03.rst:1048
+msgid "**Enforce 2-Step Verification on users**"
+msgstr "**فرض التحقق بخطوتين على المستخدمين**"
+
+#: ../../chapter03.rst:1050
+msgid ""
+"Enforce 2-step verification will force the users to setup 2-step "
+"verification via Google Authenticator, Microsoft Authenticator, Amazon "
+"MFA or any app that supports the same 2-step verification algorithm."
+msgstr "سيُجبر تفعيل التحقق الثنائي المستخدمين على إعداد التحقق الثنائي عبر Google Authenticator أو Microsoft Authenticator أو Amazon MFA أو أي تطبيق يدعم نفس خوارزمية التحقق الثنائي."
+
+#: ../../chapter03.rst:1052
+msgid "**Do not enforce 2-Step Verification on Windows client**"
+msgstr "**لا تفرض التحقق بخطوتين على عميل ويندوز**"
+
+#: ../../chapter03.rst:1054 ../../chapter03.rst:1062
+msgid "Tuning on windows client whether to enforce 2-step verification"
+msgstr "ضبط إعدادات العميل على ويندوز لفرض التحقق بخطوتين"
+
+#: ../../chapter03.rst:1056
+msgid "**Do not enforce 2-Step Verification on Mac client**"
+msgstr "**لا تفرض التحقق بخطوتين على عميل Mac**"
+
+#: ../../chapter03.rst:1058
+msgid "Tuning on mac client whether to enforce 2-step verification"
+msgstr "ضبط إعدادات عميل الماك لتفعيل التحقق بخطوتين"
+
+#: ../../chapter03.rst:1060
+msgid "**Do not enforce 2-Step Verification on Mobile client**"
+msgstr "**لا تفرض التحقق بخطوتين على العميل المحمول**"
+
+#: ../../chapter03.rst:1064
+msgid "**Disable 2-Step Verification**"
+msgstr "**تعطيل التحقق بخطوتين**"
+
+#: ../../chapter03.rst:1066
+msgid ""
+"Disable 2-step verification. One possible use case is when 2-step "
+"verification is no longer needed or 2-step verification needs to be "
+"disabled temporarily."
+msgstr "تعطيل التحقق بخطوتين. أحد الاستخدامات المحتملة هو عندما لا تعود هناك حاجة إلى التحقق بخطوتين أو عند الحاجة إلى تعطيل التحقق بخطوتين مؤقتًا."
+
+#: ../../chapter03.rst:1069
+msgid "**Do NOT enforce 2-Step Verification on guest users**"
+msgstr "**لا تفرض التحقق بخطوتين على المستخدمين الضيوف**"
+
+#: ../../chapter03.rst:1071
+msgid ""
+"Guest users may have a set of credentials to login to receive shared "
+"files and folders. This policy define whether to enforce 2-step "
+"verification for them."
+msgstr "قد يكون لدى المستخدمين الضيوف مجموعة من بيانات الاعتماد لتسجيل الدخول لاستلام الملفات والمجلدات المشتركة. تحدد هذه السياسة ما إذا كان يتعين فرض التحقق الثنائي لهم."
+
+#: ../../chapter03.rst:1074
+msgid "**Disable option to request 2-step verification code by email**"
+msgstr "**تعطيل خيار طلب رمز التحقق المكون من خطوتين عبر البريد الإلكتروني**"
+
+#: ../../chapter03.rst:1076
+msgid ""
+"If user doesn't have the 2-step verification app on the mobile device, "
+"the alternative is to send the code to user's email."
+msgstr "إذا لم يكن لدى المستخدم تطبيق التحقق بخطوتين على جهاز الجوال، فالبديل هو إرسال الرمز إلى بريد المستخدم الإلكتروني."
+
+#: ../../chapter03.rst:1078
+msgid "**Do not send verification code in email subject**"
+msgstr "**لا ترسل رمز التحقق في موضوع البريد الإلكتروني**"
+
+#: ../../chapter03.rst:1080
+msgid ""
+"If the code has to be sent over email, don't send the code in the subject"
+" line."
+msgstr "إذا كان يجب إرسال الرمز عبر البريد الإلكتروني، فلا ترسل الرمز في سطر الموضوع."
+
+#: ../../chapter03.rst:1084
+msgid "Login Control"
+msgstr "تحكم الدخول"
+
+#: ../../chapter03.rst:1090
+msgid "**Account Lockout Threshold (0 - never lockout)**"
+msgstr "**عتبة قفل الحساب (0 - لا يتم القفل أبدًا)**"
+
+#: ../../chapter03.rst:1092
+msgid ""
+"You can specify the Account lockout threshold limit here. The limit "
+"specified will be the number of invalid logon attempts that will be "
+"allowed before an account is locked out. Default is 0 (never lockout)."
+msgstr "يمكنك تحديد حد عدد محاولات تسجيل الدخول الخاطئة هنا. الحد المحدد سيكون عدد محاولات تسجيل الدخول الخاطئة المسموح بها قبل أن يتم قفل الحساب. الافتراضي هو 0 (أي لا يتم القفل أبدًا)."
+
+#: ../../chapter03.rst:1094
+msgid ""
+"**Enforce progressively longer waiting times after invalid logon "
+"attempts**"
+msgstr "**فرض أوقات انتظار تزداد طولاً بعد محاولات تسجيل دخول غير صحيحة**"
+
+#: ../../chapter03.rst:1096
+msgid ""
+"Disabled by default. Under login control, you can also enforce "
+"progressively longer waiting times after invalid logon attempts."
+msgstr "معطل بشكل افتراضي. تحت سيطرة تسجيل الدخول، يمكنك أيضًا فرض أوقات انتظار أطول تدريجيًا بعد محاولات تسجيل دخول غير صحيحة."
+
+#: ../../chapter03.rst:1098
+msgid "**Send email notification when logging in from a new location/device**"
+msgstr "**إرسال إشعار بالبريد الإلكتروني عند تسجيل الدخول من موقع/جهاز جديد**"
+
+#: ../../chapter03.rst:1100
+msgid ""
+"Disabled by default. Another setting under login control is the 'Send "
+"email notification when login from new location/device'. This setting "
+"will send an email to users whenever a different device or location is "
+"used to login."
+msgstr "معطل بشكل افتراضي. إعداد آخر تحت سيطرة الدخول هو 'إرسال إشعار بالبريد الإلكتروني عند الدخول من موقع/جهاز جديد'. هذا الإعداد سيرسل بريدًا إلكترونيًا للمستخدمين في كل مرة يتم فيها استخدام جهاز أو موقع مختلف للدخول."
+
+#: ../../chapter03.rst:1102
+msgid "**Native Client Token Timeout (days, 0 - never timeout)**"
+msgstr "**مهلة رمز العميل الأصلي (أيام، 0 - لا توجد مهلة)**"
+
+#: ../../chapter03.rst:1104
+msgid ""
+"Determines if and when the Native Client Token will timeout, in days. "
+"Default is 15 days."
+msgstr "يحدد ما إذا كان رمز العميل الأصلي سينتهي ومتى سيحدث ذلك، بالأيام. القيمة الافتراضية هي 15 يومًا."
+
+#: ../../chapter03.rst:1106
+msgid "**Web Browser Session Timeout (minutes, 0 - never timeout)**"
+msgstr "**مهلة جلسة المتصفح الويب (دقائق، 0 - لا تنتهي أبدًا)**"
+
+#: ../../chapter03.rst:1108
+msgid ""
+"Determines if and when the Web Browser Session timeout, in minutes, will "
+"occur. Default is 120 minutes."
+msgstr "يحدد ما إذا كانت جلسة متصفح الويب ستنتهي ومتى ستنتهي، بالدقائق. القيمة الافتراضية هي 120 دقيقة."
+
+#: ../../chapter03.rst:1112
+msgid "Password Policy"
+msgstr "سياسة كلمة المرور"
+
+#: ../../chapter03.rst:1114
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Password Policy``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``حساب المستخدم والأمان`` > ``سياسة كلمة المرور``"
+
+#: ../../chapter03.rst:1116
+msgid "Here you can adjust your password policy settings."
+msgstr "هنا يمكنك ضبط إعدادات سياسة كلمة المرور."
+
+#: ../../chapter03.rst:1121
+msgid "PASSWORD POLICY SETTINGS"
+msgstr "إعدادات سياسة كلمة المرور"
+
+#: ../../chapter03.rst:1123
+msgid "**Enforce password policy for non-AD users**"
+msgstr "**تطبيق سياسة كلمة المرور للمستخدمين غير المنتمين لـ AD**"
+
+#: ../../chapter03.rst:1125
+msgid ""
+"By default, non-AD users are not enforced to use this policy when setting"
+" their passowrd. Enable this to enforce the following rules."
+msgstr "بشكل افتراضي، لا يُطلب من المستخدمين غير المنتمين لـ AD الالتزام بهذه السياسة عند تعيين كلمات المرور الخاصة بهم. قم بتفعيل هذا لفرض القواعد التالية."
+
+#: ../../chapter03.rst:1127
+msgid "**Minimum password length**"
+msgstr "**الحد الأدنى لطول كلمة المرور**"
+
+#: ../../chapter03.rst:1129
+msgid ""
+"Require the password to contain a certain number of characters as a "
+"minimum. Default is 8."
+msgstr "يتطلب كلمة المرور أن تحتوي على عدد معين من الأحرف كحد أدنى. الافتراضي هو 8."
+
+#: ../../chapter03.rst:1131
+msgid "**Users must change password every n days (0 - never)**"
+msgstr "**يجب على المستخدمين تغيير كلمة المرور كل n أيام (0 - أبدًا)**"
+
+#: ../../chapter03.rst:1133
+msgid ""
+"Force users to change their passwords every so many days. Default is 0 "
+"(never)."
+msgstr "إجبار المستخدمين على تغيير كلمات المرور الخاصة بهم كل عدة أيام. القيمة الافتراضية هي 0 (أبدًا)."
+
+#: ../../chapter03.rst:1135
+msgid "**Must contain upper case characters**"
+msgstr "**يجب أن يحتوي على أحرف كبيرة**"
+
+#: ../../chapter03.rst:1137
+msgid ""
+"Enforce the use of upper-case characters in the password. Default is "
+"enabled."
+msgstr "فرض استخدام الأحرف الكبيرة في كلمة المرور. الافتراضي هو التمكين."
+
+#: ../../chapter03.rst:1139
+msgid "**Must contain lower case characters**"
+msgstr "**يجب أن يحتوي على أحرف صغيرة**"
+
+#: ../../chapter03.rst:1141
+msgid ""
+"Enforce the use of lower-case characters in the password. Default is "
+"enabled."
+msgstr "فرض استخدام الأحرف الصغيرة في كلمة المرور. الافتراضي هو التمكين."
+
+#: ../../chapter03.rst:1143
+msgid "**Must contain base10 digits (0-9)**"
+msgstr "**يجب أن يحتوي على أرقام الأساس عشري (0-9)**"
+
+#: ../../chapter03.rst:1145
+msgid "Enforce the use of base10 digits in the password. Default is enabled."
+msgstr "فرض استخدام أرقام الأساس 10 في كلمة المرور. الإعداد الافتراضي هو التمكين."
+
+#: ../../chapter03.rst:1147
+msgid "**Must contain non-alphanumeric characters: (e.g., ~ ! @ # $ % ^ &)**"
+msgstr "**يجب أن يحتوي على رموز غير أبجدية رقمية: (مثلاً، ~ ! @ # $ % ^ &)**"
+
+#: ../../chapter03.rst:1149
+msgid ""
+"Enforce the use of special non-alphanumeric characters when creating a "
+"password. Default is enabled."
+msgstr "فرض استخدام أحرف خاصة غير أبجدية رقمية عند إنشاء كلمة مرور. الإعداد الافتراضي مُفعل."
+
+#: ../../chapter03.rst:1154
+msgid "Access Control"
+msgstr "التحكم في الوصول"
+
+#: ../../chapter03.rst:1156
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Access Control``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``حساب المستخدم والأمان`` > ``التحكم في الوصول``"
+
+#: ../../chapter03.rst:1158
+msgid ""
+"In the Admin Access Control, the cluster administrator can decide the "
+"division of work between cluster administrators and the specific tenant "
+"administrator. A lot of times, the cluster administrator will help with "
+"setting things up. In this case, the cluster administrator can take away "
+"some of the administrative work from the tenant administrator."
+msgstr "في لوحة تحكم المسؤول، يمكن لمسؤول العنقود تحديد تقسيم العمل بين مسؤولي العنقود ومسؤول المستأجر المحدد. في كثير من الأحيان، يساعد مسؤول العنقود في إعداد الأمور. في هذه الحالة، يمكن لمسؤول العنقود أن يتولى بعض الأعمال الإدارية من مسؤول المستأجر."
+
+#: ../../chapter03.rst:1162
+msgid ""
+"For example, if the cluster administrator is a Managed Service Provider "
+"(MSP), the tenant admin can be an admin user from a specific client "
+"(customer)."
+msgstr "على سبيل المثال، إذا كان مسؤول العنقود هو مزود خدمة مُدارة (MSP)، يمكن أن يكون مسؤول الحساب هو مستخدم مسؤول من عميل محدد (العميل)."
+
+#: ../../chapter03.rst:1164
+msgid ""
+"Or, if the cluster administrator is an enterprise IT directory, the "
+"tenant admin can be a specific division of the enterprise."
+msgstr "أو إذا كان مسؤول العقدة هو دليل تكنولوجيا المعلومات للمؤسسة، فيمكن أن يكون مسؤول الحساب هو قسم معين من المؤسسة."
+
+#: ../../chapter03.rst:1169
+msgid "ACCESS CONTROL SETTINGS"
+msgstr "إعدادات التحكم في الوصول"
+
+#: ../../chapter03.rst:1171
+msgid "**Allow tenant to attach external cloud storage**"
+msgstr "**السماح للمستأجر بإرفاق تخزين سحابي خارجي**"
+
+#: ../../chapter03.rst:1173
+msgid ""
+"If checked, in the tenant administrator's management console, the "
+"\"Storage Manager\" will show and allow tenant administrator to mount "
+"(attach) external storage."
+msgstr "إذا تم التحقق، في وحدة تحكم إدارة مسؤول النظام الفرعي، سيظهر \"مدير التخزين\" ويسمح لمسؤول النظام الفرعي بتوصيل (إرفاق) التخزين الخارجي."
+
+#: ../../chapter03.rst:1175
+msgid ""
+"If the cluster administrator is setting it up for the tenant, the cluster"
+" administrator can take away this privilege."
+msgstr "إذا كان مدير العقد يقوم بإعداده للمستأجر، فيمكن لمدير العقد أن يسحب هذا الامتياز."
+
+#: ../../chapter03.rst:1178
+msgid "**Allow tenant to edit branding settings**"
+msgstr "**السماح للمستأجر بتعديل إعدادات العلامة التجارية**"
+
+#: ../../chapter03.rst:1180
+msgid ""
+"The Cluster administrator can decide whether to allow tenant "
+"administrator to have its own branding."
+msgstr "يمكن لمسؤول العقد أن يقرر ما إذا كان سيسمح لمسؤول المستأجر بامتلاك علامته التجارية الخاصة."
+
+#: ../../chapter03.rst:1183
+msgid "**Do not show GDPR consent form**"
+msgstr "**لا تظهر نموذج موافقة GDPR**"
+
+#: ../../chapter03.rst:1185
+msgid ""
+"The EU General Data Protection Regulation (GDPR) is the most important "
+"change in data privacy regulation in 20 years.  There are regulations "
+"about collecting user information and software needs to provide consent "
+"form. If you have customers in the EU, it is recommended to show the "
+"consent form."
+msgstr "لائحة حماية البيانات العامة للاتحاد الأوروبي (GDPR) هي أهم تغيير في تنظيم خصوصية البيانات خلال 20 عامًا. هناك قوانين تتعلق بجمع معلومات المستخدمين ويجب أن توفر البرمجيات نموذج موافقة. إذا كان لديك عملاء في الاتحاد الأوروبي، يُنصح بعرض نموذج الموافقة."
+
+#: ../../chapter03.rst:1189
+msgid "**Allow tenant to increase user plan automatically**"
+msgstr "**السماح للمستأجر بزيادة خطة المستخدم تلقائيًا**"
+
+#: ../../chapter03.rst:1191
+msgid ""
+"The Cluster administrator can decide whether to allow the tenant to grow "
+"the user count automatically."
+msgstr "يمكن لمدير العنقود أن يقرر ما إذا كان سيسمح للمستأجر بزيادة عدد المستخدمين تلقائيًا."
+
+#: ../../chapter03.rst:1194
+msgid "**Multi AD Domain Support**"
+msgstr "**دعم أكثر من نطاق AD**"
+
+#: ../../chapter03.rst:1196
+msgid "Support multiple Active Directories in a single tenant (current tenant)."
+msgstr "دعم أدلة نشطة متعددة في مستأجر واحد (المستأجر الحالي)"
+
+#: ../../chapter03.rst:1198
+msgid ""
+"Multiple Active Directory forests support. This is not a common option "
+"because most of the time, the tenant has one forest (which can have "
+"multiple sub domains). In the case when the tenant has several Active "
+"Directory domains that are not related, multiple LDAP connection can be "
+"set up this way."
+msgstr "دعم لعدة غابات دليل نشط. هذه ليست خيارًا شائعًا لأنه في معظم الأوقات، يكون لدى المستأجر غابة واحدة (والتي يمكن أن تحتوي على عدة نطاقات فرعية). في حالة إذا كان لدى المستأجر عدة نطاقات دليل نشط غير مرتبطة، يمكن إعداد عدة اتصالات LDAP بهذه الطريقة."
+
+#: ../../chapter03.rst:1202
+msgid ""
+"If you have single AD forest but contains multiple sub-domain AD domain "
+"controller, you don't need to turn on Multi-AD support. Instead, you just"
+" point the LDAP to the root forest domain controller and the root forest "
+"domain controller will find and identify the sub-domains."
+msgstr "إذا كان لديك غابة AD واحدة ولكنها تحتوي على عدة وحدات تحكم نطاق فرعي AD، فلا تحتاج إلى تفعيل دعم Multi-AD. بدلاً من ذلك، يمكنك توجيه LDAP إلى وحدة تحكم نطاق الغابة الجذرية وستقوم وحدة تحكم نطاق الغابة الجذرية بالعثور على النطاقات الفرعية وتحديدها."
+
+#: ../../chapter03.rst:1205
+msgid "**View and edit group policy**"
+msgstr "**عرض وتحرير سياسة المجموعة**"
+
+#: ../../chapter03.rst:1207
+msgid ""
+"The Cluster administrator can decide whether to show the group policy "
+"section to this tenant."
+msgstr "يمكن لمسؤول العنقود أن يقرر ما إذا كان سيظهر قسم سياسة المجموعة لهذا المستأجر."
+
+#: ../../chapter03.rst:1210
+msgid "**Disable file/folder sharing**"
+msgstr "**تعطيل مشاركة الملفات/المجلدات**"
+
+#: ../../chapter03.rst:1212
+msgid "Disable file and folder sharing from tenant level."
+msgstr "تعطيل مشاركة الملفات والمجلدات من مستوى المستأجر."
+
+#: ../../chapter03.rst:1215
+msgid "**Hide migration option**"
+msgstr "**إخفاء خيار الترحيل**"
+
+#: ../../chapter03.rst:1217
+msgid ""
+"Migration option refers to migrating remote file server(s) from remote "
+"customer location(s) to the Cluster Server. Not all clients (customers) "
+"have remote file servers, so this tenant level option may not apply all "
+"the time."
+msgstr "خيار النقل يشير إلى نقل خادم (خوادم) الملفات البعيد من موقع (مواقع) العميل البعيد إلى الخادم العنقودي. ليس لدى جميع العملاء (الزبائن) خوادم ملفات بعيدة، لذا قد لا ينطبق هذا الخيار على مستوى المستأجر في جميع الأوقات."
+
+#: ../../chapter03.rst:1220
+msgid ""
+"**Show Data-At-Rest Encryption (DARE) configuration page (Requires empty "
+"storage container)**"
+msgstr "**عرض صفحة تكوين تشفير البيانات أثناء الراحة (DARE) (يتطلب حاوية تخزين فارغة)**"
+
+#: ../../chapter03.rst:1222
+msgid ""
+"If the tenant has the required encryption of the data in the cloud "
+"(Cluster Server side), a DARE configuration page can be shown upon the "
+"first usage to set it up."
+msgstr "إذا كان المستأجر يمتلك التشفير المطلوب للبيانات في السحابة (جانب خادم العنقود)، يمكن عرض صفحة تكوين DARE عند الاستخدام الأول لضبطها."
+
+#: ../../chapter03.rst:1227
+msgid "**Allow tenant to edit LDAP setting**"
+msgstr "**السماح للمستأجر بتعديل إعدادات LDAP**"
+
+#: ../../chapter03.rst:1229
+msgid ""
+"In the case the tenant's infrastructure is in the same LAN (Local Area "
+"Network) as the Cluster Manager, the tenant's Active Directory can be "
+"directly connected via LDAP to the Cluster Server."
+msgstr "في حال كانت بنية الشبكة التحتية للمستأجر في نفس الشبكة المحلية (LAN) مثل مدير العقد، يمكن ربط دليل المستأجر النشط مباشرةً عبر LDAP بخادم العقد."
+
+#: ../../chapter03.rst:1231
+msgid ""
+"If the cluster administrator is setting it up for the tenant, cluster "
+"administrator can take away this privilege."
+msgstr "إذا كان مسؤول العنقود يقوم بإعداده للمستأجر، فيمكن لمسؤول العنقود أن يسحب هذا الامتياز."
+
+#: ../../chapter03.rst:1235
+msgid "Security"
+msgstr "الأمان"
+
+#: ../../chapter03.rst:1236
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Security``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``حساب المستخدم والأمان`` > ``الأمان``"
+
+#: ../../chapter03.rst:1242
+msgid "SECURITY SETTINGS"
+msgstr "إعدادات الأمان"
+
+#: ../../chapter03.rst:1244
+msgid "**Allow Cluster Admin to manage my tenant**"
+msgstr "**السماح لمدير العنقود بإدارة المستأجر الخاص بي**"
+
+#: ../../chapter03.rst:1246
+msgid ""
+"When enabled, the cluster-admin will be able to use the “Manage Tenant” "
+"link to manage the tenant in the tenant manager. This is very convenient "
+"for cluster administrators (typically system administrators from service "
+"providers) to provide management work to the tenant."
+msgstr "عند التمكين، سيتمكن مدير العقدة من استخدام رابط \"إدارة المستأجر\" لإدارة المستأجر في مدير المستأجرين. هذا مريح جدًا لمدراء العقد (عادةً ما يكونون مسؤولي النظام من مقدمي الخدمات) لتقديم أعمال الإدارة للمستأجر."
+
+#: ../../chapter03.rst:1249
+msgid "**Enable Authenticating User with Google Apps Credentials**"
+msgstr "**تمكين المصادقة للمستخدمين باستخدام بيانات اعتماد تطبيقات Google**"
+
+#: ../../chapter03.rst:1251
+msgid "When enabled, users can login using Google Apps credentials."
+msgstr "عند التمكين، يمكن للمستخدمين تسجيل الدخول باستخدام بيانات اعتماد تطبيقات Google."
+
+#: ../../chapter03.rst:1254
+msgid ""
+"**When delegate admin login via server agent, impersonate as tenant "
+"admin**"
+msgstr "**عندما يقوم مسؤول الوكالة بتسجيل الدخول عبر وكيل الخادم، ينتحل صفة مسؤول الوحدة السكنية**"
+
+#: ../../chapter03.rst:1256
+msgid ""
+"Server agents typically need to sync to the default tenant administrator."
+" It is recommended when a delegate administrator setup a server agent, it"
+" needs to impersonate the default tenant administrator."
+msgstr "عادةً ما يحتاج وكلاء الخادم إلى المزامنة مع مسؤول الإيجار الافتراضي. يُنصح عندما يقوم مسؤول مفوض بإعداد وكيل خادم، أن يقوم بانتحال شخصية مسؤول الإيجار الافتراضي."
+
+#: ../../chapter03.rst:1259
+msgid "**File upload and download must go through worker node**"
+msgstr "**يجب أن يتم رفع وتنزيل الملفات عبر عقدة العامل**"
+
+#: ../../chapter03.rst:1261
+msgid "(This setting may only be available from cluster administrator side)"
+msgstr "(قد تكون هذه الإعدادات متاحة فقط من جانب مسؤول الكتلة)"
+
+#: ../../chapter03.rst:1263
+msgid ""
+"For Amazon S3 type of cloud storage/object storage, it is recommended NOT"
+" to force file upload and download going through worker nodes, because "
+"Amazon S3 is good for offload the upload/download between the access "
+"clients and the backend Amazon S3 storage. However, for OpenStack Swift "
+"storage, depending on how it is set up, you may want to turn this on to "
+"force File Upload/Download going through worker node for security "
+"reasons."
+msgstr "بالنسبة لنوع تخزين السحابة/تخزين الكائنات من Amazon S3، يُنصح بعدم إجبار عملية تحميل وتنزيل الملفات على المرور عبر العقد العاملة، لأن Amazon S3 جيدة لتخفيف عملية التحميل والتنزيل بين عملاء الوصول وتخزين Amazon S3 الخلفي. ومع ذلك، بالنسبة لتخزين OpenStack Swift، اعتمادًا على كيفية إعداده، قد ترغب في تفعيل هذا لإجبار تحميل/تنزيل الملف على المرور عبر عقدة العمل لأسباب أمنية."
+
+#: ../../chapter03.rst:1265
+msgid ""
+"This setting may be checked by default. However, based on your "
+"configuration, it may not need to be checked."
+msgstr "قد يتم التحقق من هذا الإعداد افتراضيًا. ومع ذلك، استنادًا إلى تكوينك، قد لا يحتاج إلى أن يتم التحقق منه."
+
+#: ../../chapter03.rst:1267
+msgid ""
+"For example, if you are using file server network share as the storage "
+"location, the upload and download has to go through worker node anyway, "
+"so there is no need to check this checkbox."
+msgstr "على سبيل المثال، إذا كنت تستخدم مشاركة شبكة خادم الملفات كموقع للتخزين، فإن عملية الرفع والتنزيل يجب أن تمر عبر عقدة العامل في كل الأحوال، لذا لا حاجة للتحقق من هذا المربع"
+
+#: ../../chapter03.rst:1269
+msgid ""
+"There may be some situations  that this setting must be checked. For "
+"example, you may be using native object storage such as Amazon S3 for "
+"storage. However, your company policy may disable direct access to Amazon"
+" S3. So in this case, you will have to route traffic through the worker "
+"node."
+msgstr "قد تكون هناك بعض الحالات التي يجب التحقق من هذا الإعداد. على سبيل المثال، قد تستخدم تخزين الكائنات الأصلي مثل Amazon S3 للتخزين. ومع ذلك، قد تمنع سياسة شركتك الوصول المباشر إلى Amazon S3. لذا في هذه الحالة، سيتعين عليك توجيه حركة المرور من خلال عقدة العامل."
+
+#: ../../chapter03.rst:1272
+msgid "Home Directory"
+msgstr "الدليل الرئيسي"
+
+#: ../../chapter03.rst:1274
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``Home "
+"Directory``"
+msgstr "``مدير الوحدات السكنية`` > ``الإعدادات`` > ``حساب المستخدم والأمان`` > ``الدليل الرئيسي``"
+
+#: ../../chapter03.rst:1279
+msgid "HOME DIRECTORY SETTINGS"
+msgstr "إعدادات الدليل الرئيسي"
+
+#: ../../chapter03.rst:1281
+msgid "**Default Storage quota**"
+msgstr "**الحصة التخزينية الافتراضية**"
+
+#: ../../chapter03.rst:1283
+msgid ""
+"This policy will not affect existing user and their quota. It can affect "
+"a newly created user for the default storage quota."
+msgstr "هذه السياسة لن تؤثر على المستخدمين الحاليين وحصتهم التخزينية. يمكن أن تؤثر على المستخدم الجديد من حيث الحصة التخزينية الافتراضية."
+
+#: ../../chapter03.rst:1285
+msgid "**Create default folders**"
+msgstr "**إنشاء مجلدات افتراضية**"
+
+#: ../../chapter03.rst:1287
+msgid ""
+"When the new user account is provisioned, the default root folder is "
+"empty."
+msgstr "عندما يتم إعداد حساب المستخدم الجديد، تكون المجلد الجذر الافتراضي فارغًا."
+
+#: ../../chapter03.rst:1289
+msgid ""
+"“Create default folder (Documents, Pictures)” will make the root folder "
+"look less empty and more user-friendly. This hints at how to organize "
+"files and folders in the cloud."
+msgstr "إنشاء مجلد افتراضي (المستندات، الصور) سيجعل المجلد الجذر يبدو أقل فراغًا وأكثر سهولة في الاستخدام. هذا يلمح إلى كيفية تنظيم الملفات والمجلدات في السحابة."
+
+#: ../../chapter03.rst:1293
+msgid ""
+"When unchecked, the user home drive space will be allocated from "
+"enterprise storage. When checked, existing user home drives will be "
+"automatically published from Active Directory."
+msgstr "عند عدم التحقق، سيتم تخصيص مساحة محرك الأقراص المنزلي للمستخدم من التخزين المؤسسي. عند التحقق، سيتم نشر محركات الأقراص المنزلية الحالية للمستخدمين تلقائيًا من الدليل النشط."
+
+#: ../../chapter03.rst:1295
+msgid "**Mount user's home drive as a top level folder**"
+msgstr "**تركيب محرك الأقراص الرئيسي للمستخدم كمجلد على المستوى الأعلى**"
+
+#: ../../chapter03.rst:1297
+msgid ""
+"Without this option, the user's home drive from active directory mapping "
+"will become the root folder in |prodname|. However, if the user also have"
+" network shares mapped into |prodname|, those network shares will appear "
+"as top level folders. So in this use case, mapping user's home folder as "
+"a top folder is more in parallel to the other network shares."
+msgstr "بدون هذا الخيار، سيصبح محرك الأقراص الرئيسي للمستخدم من تعيين الدليل النشط هو المجلد الجذر في |prodname|. ومع ذلك، إذا كان لدى المستخدم أيضًا مشاركات شبكية معينة داخل |prodname|، فإن تلك المشاركات الشبكية ستظهر كمجلدات على المستوى الأعلى. لذا في هذه الحالة، يكون تعيين مجلد البيت للمستخدم كمجلد علوي أكثر توازيًا مع المشاركات الشبكية الأخرى."
+
+#: ../../chapter03.rst:1303
+msgid "Azure AD"
+msgstr "Azure AD"
+
+#: ../../chapter03.rst:1305
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``Azure"
+" AD``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``حساب المستخدم والأمان`` > ``Azure AD``"
+
+#: ../../chapter03.rst:1307
+msgid ""
+"Azure AD integration allows users to use their Azure AD credentials to "
+"login to the Cluster Server, including web portal and native clients."
+msgstr "تتيح التكامل مع Azure AD للمستخدمين استخدام بيانات اعتماد Azure AD الخاصة بهم لتسجيل الدخول إلى خادم الكتلة، بما في ذلك البوابة الويب والعملاء الأصليين."
+
+#: ../../chapter03.rst:1309
+msgid ""
+"You will still need to create Azure AD users as if they were local "
+"Cluster users first. After that, you can enable Azure AD integration."
+msgstr "ستحتاج لا زال إلى إنشاء مستخدمين في Azure AD كما لو كانوا مستخدمين محليين في الكتلة أولاً. بعد ذلك، يمكنك تفعيل تكامل Azure AD."
+
+#: ../../chapter03.rst:1311
+msgid ""
+"To enable Azure AD integration, you will need to create an Azure AD "
+"native client application."
+msgstr "لتمكين تكامل Azure AD، ستحتاج إلى إنشاء تطبيق عميل أصلي لـ Azure AD."
+
+#: ../../chapter03.rst:1317
+msgid "ENABLE AZURE AD INTEGRATION"
+msgstr "تمكين تكامل أزور أيه دي"
+
+#: ../../chapter03.rst:1319
+msgid "You will need the client id from the Azure Native Client Application"
+msgstr "ستحتاج إلى معرف العميل من تطبيق العميل الأصلي لـ Azure"
+
+#: ../../chapter03.rst:1324
+msgid "AZURE CLIENT ID FIELD"
+msgstr "حقل معرف عميل AZURE"
+
+#: ../../chapter03.rst:1326
+msgid ""
+"You will give the Azure Native Client Application full read permission to"
+" the following two items"
+msgstr "ستمنح تطبيق العميل الأصلي لـ Azure إذن قراءة كامل للعنصرين التاليين"
+
+#: ../../chapter03.rst:1329
+msgid "Azure Active Directory"
+msgstr "Azure Active Directory"
+
+#: ../../chapter03.rst:1330
+msgid "Microsoft Graph API"
+msgstr "واجهة برمجة تطبيقات مايكروسوفت جراف"
+
+#: ../../chapter03.rst:1335
+msgid "AZURE PERMISSIONS TO OTHER APPLICATIONS"
+msgstr "أذونات AZURE للتطبيقات الأخرى"
+
+#: ../../chapter03.rst:1337
+msgid "You will also need the domain name"
+msgstr "ستحتاج أيضًا إلى اسم النطاق"
+
+#: ../../chapter03.rst:1342
+msgid "AZURE DOMAIN SETTING"
+msgstr "إعدادات نطاق AZURE"
+
+#: ../../chapter03.rst:1347
+msgid "Ransomware Protection"
+msgstr "حماية من برامج الفدية"
+
+#: ../../chapter03.rst:1350
+msgid "Anti Virus Settings"
+msgstr "إعدادات مكافحة الفيروسات"
+
+#: ../../chapter03.rst:1352
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Ransomware Protection`` >  "
+"``Settings``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``الحماية من برامج الفدية`` > ``الإعدادات``"
+
+#: ../../chapter03.rst:1357
+msgid "ANTI VIRUS SETTINGS"
+msgstr "إعدادات مكافحة الفيروسات"
+
+#: ../../chapter03.rst:1359
+msgid ""
+"**Only allow the following processes to update files (empty: allow all, "
+"separate using semicolon (;), i.e. winword.exe;excel.exe)**"
+msgstr "**فقط السماح للعمليات التالية بتحديث الملفات (فارغ: السماح للجميع، استخدم الفاصلة المنقوطة (;) للفصل، مثلاً: winword.exe;excel.exe)**"
+
+#: ../../chapter03.rst:1361
+msgid ""
+"This is a white list of applications that are allowed to update files. "
+"The applications that are not in the list will not be able to upload "
+"files."
+msgstr "هذه قائمة بيضاء للتطبيقات المسموح لها بتحديث الملفات. التطبيقات التي ليست ضمن القائمة لن تتمكن من رفع الملفات."
+
+#: ../../chapter03.rst:1363
+msgid ""
+"**The following executables will not be allowed to open files directly "
+"from the cloud drive (i.e. qbw32.exe;excel.exe)**"
+msgstr "**الملفات التنفيذية التالية لن يُسمح لها بفتح الملفات مباشرةً من القرص السحابي (أي qbw32.exe؛ excel.exe)**"
+
+#: ../../chapter03.rst:1365
+msgid ""
+"This is the opposite of the above policy. The applications in this list "
+"will be denied."
+msgstr "هذا عكس السياسة المذكورة أعلاه. التطبيقات الموجودة في هذه القائمة سيتم رفضها."
+
+#: ../../chapter03.rst:1367
+msgid "**Disable a device if the device changes more than n files in 10 minutes**"
+msgstr "**تعطيل جهاز إذا قام الجهاز بتغيير أكثر من n ملفات في 10 دقائق**"
+
+#: ../../chapter03.rst:1369
+msgid ""
+"When users are using the cloud drive in a normal way. Human speed will "
+"not be able to generate large amount of file upload."
+msgstr "عندما يستخدم المستخدمون القرص السحابي بطريقة عادية. لن تتمكن السرعة البشرية من توليد كمية كبيرة من رفع الملفات."
+
+#: ../../chapter03.rst:1371
+msgid "**Ignore the following processes when applying the above policy**"
+msgstr "**تجاهل العمليات التالية عند تطبيق السياسة المذكورة أعلاه**"
+
+#: ../../chapter03.rst:1373
+msgid ""
+"This is a white list of files that will not be monitored for the activity"
+" described above. (e.g., qbw32.exe; excel.exe)"
+msgstr "هذه قائمة بيضاء للملفات التي لن يتم مراقبتها للنشاط الموصوف أعلاه. (مثلاً، qbw32.exe؛ excel.exe)"
+
+#: ../../chapter03.rst:1375
+msgid ""
+"**Disable uploading of files whose named contain the following text "
+"patterns**"
+msgstr "**تعطيل رفع الملفات التي تحتوي أسماؤها على الأنماط النصية التالية**"
+
+#: ../../chapter03.rst:1377
+msgid ""
+"When file name text contains the following strings, the files will not be"
+" uploaded. (e.g., badfile1; badfile2)"
+msgstr "عندما يحتوي نص اسم الملف على السلاسل التالية، لن يتم تحميل الملفات. (مثال: badfile1؛ badfile2)"
+
+#: ../../chapter03.rst:1379
+msgid ""
+"**Disable uploading of files whose names start with the following "
+"strings**"
+msgstr "**تعطيل رفع الملفات التي تبدأ أسماؤها بالسلاسل النصية التالية**"
+
+#: ../../chapter03.rst:1381
+msgid ""
+"When the starting text of files contain these strings, the files will not"
+" be uploaded. (e.g., bad1; bad2)"
+msgstr "عندما يبدأ نص الملفات بهذه السلاسل، لن يتم تحميل الملفات. (مثال: bad1؛ bad2)"
+
+#: ../../chapter03.rst:1383
+msgid "**Disable uploading of files whose names end with the following strings**"
+msgstr "**تعطيل رفع الملفات التي تنتهي أسماؤها بالسلاسل التالية**"
+
+#: ../../chapter03.rst:1385
+msgid ""
+"When the ending text of files contain these strings, the files will not "
+"be uploaded. (e.g., bad1; bad2)"
+msgstr "عندما تحتوي النصوص الختامية للملفات على هذه السلاسل، لن يتم رفع الملفات. (مثال: bad1؛ bad2)"
+
+#: ../../chapter03.rst:1389
+msgid "Data Leak Protection"
+msgstr "حماية من تسرب البيانات"
+
+#: ../../chapter03.rst:1394
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Data Leak Protection`` >  "
+"``Sharing``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``حماية تسرب البيانات`` > ``المشاركة``"
+
+#: ../../chapter03.rst:1400
+msgid "SHARING SETTINGS"
+msgstr "إعدادات المشاركة"
+
+#: ../../chapter03.rst:1402
+msgid ""
+"**Users must log in to access the content in 'Files shared with me' "
+"folder**"
+msgstr "**يجب على المستخدمين تسجيل الدخول للوصول إلى المحتوى في مجلد 'الملفات المشاركة معي'**"
+
+#: ../../chapter03.rst:1404
+msgid ""
+"When sharing files and folders with users, you can force the sharing to "
+"create guest accounts for users that are not already in the system. It is"
+" more secure when asking the receiver of the share to sign in to receive "
+"shared items. This disables anonymous sharing."
+msgstr "عند مشاركة الملفات والمجلدات مع المستخدمين، يمكنك إجبار المشاركة على إنشاء حسابات ضيف للمستخدمين الذين ليسوا موجودين بالنظام بالفعل. من الأكثر أمانًا عند طلب تسجيل الدخول من المستقبل للمشاركة لاستلام العناصر المشتركة. هذا يعطل المشاركة المجهولة."
+
+#: ../../chapter03.rst:1406
+msgid ""
+"If this setting is not enabled, users can share files and folders to an "
+"outside email address without requiring outside users to create a guest "
+"user account."
+msgstr "إذا لم يتم تفعيل هذا الإعداد، يمكن للمستخدمين مشاركة الملفات والمجلدات مع عنوان بريد إلكتروني خارجي دون الحاجة إلى أن يقوم المستخدمون الخارجيون بإنشاء حساب مستخدم ضيف."
+
+#: ../../chapter03.rst:1409
+msgid "**Disable user's ability to share home directory content externally**"
+msgstr "**تعطيل قدرة المستخدم على مشاركة محتوى الدليل الرئيسي خارجيًا**"
+
+#: ../../chapter03.rst:1411
+msgid ""
+"This feature disables the ability for a regular user to share home "
+"directory contents for security reasons."
+msgstr "تعطيل هذه الميزة يمنع المستخدم العادي من مشاركة محتويات الدليل الرئيسي لأسباب أمنية."
+
+#: ../../chapter03.rst:1414
+msgid "**Enable Internal Public Share URL**"
+msgstr "**تمكين رابط المشاركة العامة الداخلي**"
+
+#: ../../chapter03.rst:1416
+msgid ""
+"If you have an internal public share you can use this setting to enable "
+"it."
+msgstr "إذا كان لديك مشاركة عامة داخلية يمكنك استخدام هذا الإعداد لتمكينها."
+
+#: ../../chapter03.rst:1418
+msgid ""
+"When this is enabled, it will use the Internal URL property to generate a"
+" web link for shared file/folder."
+msgstr "عند تفعيل هذا الخيار، سيستخدم خاصية الرابط الداخلي لإنشاء رابط ويب للملف/المجلد المشترك."
+
+#: ../../chapter03.rst:1421
+msgid "**Disable Public Link**"
+msgstr "**تعطيل الرابط العام**"
+
+#: ../../chapter03.rst:1423
+msgid "This will disable the public web link feature in the sharing dialog."
+msgstr "سيؤدي ذلك إلى تعطيل ميزة رابط الويب العام في مربع الحوار للمشاركة."
+
+#: ../../chapter03.rst:1426
+msgid "**Show guest user creation option**"
+msgstr "**عرض خيار إنشاء مستخدم ضيف**"
+
+#: ../../chapter03.rst:1428
+msgid ""
+"When enabled this shows the guest user creation option which you will see"
+" when 'Sharing' a file or folder by email. This is how you can provide "
+"full edit capability to a guest user, as they must be logged in to modify"
+" a file or folder in the |prodname|."
+msgstr "عند تفعيلها، هذا يظهر خيار إنشاء مستخدم ضيف والذي ستراه عند 'المشاركة' لملف أو مجلد عبر البريد الإلكتروني. هكذا يمكنك توفير قدرة التعديل الكاملة لمستخدم ضيف، حيث يجب أن يكونوا مسجلين لتعديل ملف أو مجلد في |prodname|."
+
+#: ../../chapter03.rst:1431
+msgid ""
+"**Enable distribution group detection in file/folder sharing's user "
+"interface**"
+msgstr "**تمكين كشف مجموعة التوزيع في واجهة المستخدم لمشاركة الملفات/المجلدات**"
+
+#: ../../chapter03.rst:1433
+msgid ""
+"With active directory integration, sometimes you want to share files and "
+"folders with a distribution group. This feature allows detection of "
+"distribution group and expands the group so the sharing will be done with"
+" the users in the group, instead of using the group as a single user."
+msgstr "مع تكامل الدليل النشط، قد ترغب أحيانًا في مشاركة الملفات والمجلدات مع مجموعة توزيع. تتيح هذه الميزة اكتشاف مجموعة التوزيع وتوسيع المجموعة بحيث يتم المشاركة مع المستخدمين في المجموعة، بدلاً من استخدام المجموعة كمستخدم فردي."
+
+#: ../../chapter03.rst:1436
+msgid "**Show user list in sharing dialog**"
+msgstr "**عرض قائمة المستخدمين في مربع حوار المشاركة**"
+
+#: ../../chapter03.rst:1438
+msgid ""
+"When enabled, the user list will be displayed in the recipient's dropdown"
+" list."
+msgstr "عند التمكين، سيتم عرض قائمة المستخدمين في قائمة المستلمين المنسدلة."
+
+#: ../../chapter03.rst:1441
+msgid "**Show guest user list in sharing dialog**"
+msgstr "**عرض قائمة المستخدمين الضيوف في مربع حوار المشاركة**"
+
+#: ../../chapter03.rst:1443
+msgid ""
+"When this option is enabled, the guest user list will be shown in the "
+"recipient dropdown list."
+msgstr "عند تفعيل هذا الخيار، سيتم عرض قائمة المستخدمين الضيوف في قائمة المستلمين المنسدلة."
+
+#: ../../chapter03.rst:1446
+msgid "**Show group list in sharing dialog**"
+msgstr "**عرض قائمة المجموعات في مربع حوار المشاركة**"
+
+#: ../../chapter03.rst:1448
+msgid ""
+"When this option is enabled, the group list will be shown in the "
+"recipient dropdown list."
+msgstr "عند تفعيل هذا الخيار، سيتم عرض قائمة المجموعات في قائمة المستلمين المنسدلة."
+
+#: ../../chapter03.rst:1451
+msgid "**Allow user enter share name**"
+msgstr "**السماح للمستخدم بإدخال اسم المشاركة**"
+
+#: ../../chapter03.rst:1453
+msgid ""
+"By default the file name or folder name is used for the share name. "
+"However, if user has many same name folders or files. Sharing them out "
+"sometimes many not know which is which. This setting allows user to "
+"change share name. For example, when sharing out a \"Documents\" folder, "
+"it can be named \"Documents in top level folder\"."
+msgstr "بشكل افتراضي، يُستخدم اسم الملف أو المجلد كاسم للمشاركة. ومع ذلك، إذا كان لدى المستخدم العديد من المجلدات أو الملفات بنفس الاسم. عند مشاركتها، أحيانًا قد لا يعرف أيها هو الصحيح. تسمح هذه الإعدادات للمستخدم بتغيير اسم المشاركة. على سبيل المثال، عند مشاركة مجلد \"المستندات\"، يمكن تسميته \"مستندات في المجلد العلوي\"."
+
+#: ../../chapter03.rst:1455
+msgid "**Send a copy of file sharing invitation email to share owner**"
+msgstr "**إرسال نسخة من دعوة مشاركة الملفات إلى مالك المشاركة**"
+
+#: ../../chapter03.rst:1457
+msgid ""
+"When sending the file-sharing email, sending a copy (CC) to the owner of "
+"the share (usually the sender of the email)"
+msgstr "عند إرسال بريد إلكتروني لمشاركة الملفات، إرسال نسخة (CC) إلى مالك المشاركة (عادةً مُرسل البريد الإلكتروني)"
+
+#: ../../chapter03.rst:1460
+msgid "**Don't append email to shared object name under 'Files Shared With Me'**"
+msgstr "**لا تضف البريد الإلكتروني إلى اسم الكائن المشترك تحت 'الملفات المشتركة معي'**"
+
+#: ../../chapter03.rst:1462
+msgid ""
+"When enabled, emails won't show next to object names in 'Files Shared "
+"With Me' view."
+msgstr "عند التفعيل، لن تظهر الرسائل الإلكترونية بجانب أسماء العناصر في عرض 'الملفات المشاركة معي'."
+
+#: ../../chapter03.rst:1465
+msgid "**Disable folder sharing**"
+msgstr "**تعطيل مشاركة المجلد**"
+
+#: ../../chapter03.rst:1467
+msgid "When enabled users will not be able to share folders."
+msgstr "عند التمكين، لن يتمكن المستخدمون من مشاركة المجلدات."
+
+#: ../../chapter03.rst:1470
+msgid "**Enforce password protection**"
+msgstr "**فرض حماية كلمة المرور**"
+
+#: ../../chapter03.rst:1472
+msgid ""
+"When enabled all users (including guest users) will be required to use "
+"complex password protection."
+msgstr "عند التمكين، سيُطلب من جميع المستخدمين (بما في ذلك المستخدمين الضيوف) استخدام حماية كلمة مرور معقدة."
+
+#: ../../chapter03.rst:1475
+msgid "**Expiration Time for Shared Folder/File (Days):**"
+msgstr "**وقت انتهاء صلاحية المجلد/الملف المشترك (أيام):**"
+
+#: ../../chapter03.rst:1477
+msgid ""
+"When set, during the file/folder sharing wizard, the expiration time "
+"dropdown selection will not be shown, it will be pre-set to expiration "
+"set in here."
+msgstr "عند الضبط، خلال معالج مشاركة الملف/المجلد، لن يتم عرض خيارات وقت الانتهاء، سيتم ضبطها مسبقًا على وقت الانتهاء المحدد هنا"
+
+#: ../../chapter03.rst:1480
+msgid "**Maximum Share Expiration Time (Days):**"
+msgstr "**الحد الأقصى لمدة انتهاء صلاحية المشاركة (أيام):**"
+
+#: ../../chapter03.rst:1482
+msgid ""
+"When set, this creates an upper limit to the time a share will be "
+"available, which forces all shares to expire when this limit is reached."
+msgstr "عند الضبط، ينشئ هذا حدًا أقصى للوقت الذي ستكون فيه المشاركة متاحة، مما يجبر جميع المشاركات على الانتهاء عند بلوغ هذا الحد."
+
+#: ../../chapter03.rst:1484
+msgid "**Notify share owner n days before share expiring (0 - do not notify)**"
+msgstr "**إخطار مالك المشاركة قبل n أيام من انتهاء صلاحية المشاركة (0 - لا تقم بالإخطار)**"
+
+#: ../../chapter03.rst:1486
+msgid "Notify the sender (owner) of the share before share expiration."
+msgstr "إخطار المرسل (المالك) للمشاركة قبل انتهاء صلاحية المشاركة."
+
+#: ../../chapter03.rst:1488
+msgid "**Expiration Time for public links (Days):**"
+msgstr "**وقت انتهاء صلاحية الروابط العامة (أيام):**"
+
+#: ../../chapter03.rst:1490
+msgid ""
+"If left as zero, public link will never expires, otherwise the public "
+"link will be purged after expired."
+msgstr "إذا تُرك على صفر، فإن الرابط العام لن ينتهي أبدًا، وإلا سيتم حذف الرابط العام بعد انتهاء صلاحيته."
+
+#: ../../chapter03.rst:1493
+msgid ""
+"**Don't create a guest user account if the recipient is from the "
+"following domains (i.e. company.com;company1.com)**"
+msgstr "**لا تقم بإنشاء حساب مستخدم ضيف إذا كان المستلم من النطاقات التالية (أي company.com؛ company1.com)**"
+
+#: ../../chapter03.rst:1495
+msgid ""
+"Blacklist guest emails from the domains listed here. Do not allow sharing"
+" to these domains."
+msgstr "قائمة سوداء لرسائل البريد الإلكتروني للضيوف من النطاقات المدرجة هنا. لا تسمح بالمشاركة إلى هذه النطاقات."
+
+#: ../../chapter03.rst:1498
+msgid "**Only allow sending shares to the specified domain**"
+msgstr "**السماح فقط بإرسال المشاركات إلى النطاق المحدد**"
+
+#: ../../chapter03.rst:1500
+msgid ""
+"You can further limit the sharing to some domain instead of random email."
+" For example, if your primary collaboration target is with ACME "
+"corporation and you can limit the sharing to your domain and also ACME "
+"domain."
+msgstr "يمكنك تحديد المشاركة أكثر لبعض النطاقات بدلاً من البريد الإلكتروني العشوائي. على سبيل المثال، إذا كان هدف التعاون الرئيسي لديك مع شركة ACME، يمكنك تحديد المشاركة لنطاقك وأيضًا نطاق شركة ACME."
+
+#: ../../chapter03.rst:1502
+msgid ""
+"**Only allow sending shares to the specified domain(s) (i.e. "
+"company.com;company1.com)**"
+msgstr "**السماح فقط بإرسال المشاركات إلى النطاقات المحددة (أي company.com؛ company1.com)**"
+
+#: ../../chapter03.rst:1504
+msgid ""
+"When it is set, the external sharing can only be shared to the white-list"
+" of email domains (which represent external partners, clients and etc)"
+msgstr "عندما يتم ضبطه، يمكن مشاركة الملفات الخارجية مع قائمة بيضاء فقط لنطاقات البريد الإلكتروني (التي تمثل الشركاء الخارجيين والعملاء وغيرهم)"
+
+#: ../../chapter03.rst:1506 ../../chapter03.rst:1713
+msgid ""
+"**Default folder to store attachments from Outlook plugin "
+"(/folder/subfolder)**"
+msgstr "**المجلد الافتراضي لتخزين المرفقات من إضافة Outlook (/folder/subfolder)**"
+
+#: ../../chapter03.rst:1508
+msgid "Allows you to designate where Outlook attachments are saved."
+msgstr "يتيح لك تحديد مكان حفظ مرفقات Outlook."
+
+#: ../../chapter03.rst:1512
+msgid "Clients & Applications"
+msgstr "العملاء والتطبيقات"
+
+#: ../../chapter03.rst:1515
+msgid "Client Settings"
+msgstr "إعدادات العميل"
+
+#: ../../chapter03.rst:1517
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Clients & Applications`` >  "
+"``Client Setting``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``العملاء والتطبيقات`` > ``إعداد العميل``"
+
+#: ../../chapter03.rst:1523
+msgid "CLIENT SETTING MANAGER"
+msgstr "مدير إعدادات العميل"
+
+#: ../../chapter03.rst:1527
+msgid "Sync Throttle"
+msgstr "تحديد سرعة المزامنة"
+
+#: ../../chapter03.rst:1532
+msgid "SYNC THROTTLE SETTINGS"
+msgstr "إعدادات تحديد سرعة المزامنة"
+
+#: ../../chapter03.rst:1535
+msgid "**Enable Throttle Sync**"
+msgstr "**تمكين مزامنة الخنق**"
+
+#: ../../chapter03.rst:1537
+msgid ""
+"When disabled (default) all Sync Throttle settings in this section are "
+"disabled. Must be enabled to activate the following settings."
+msgstr "عند التعطيل (الافتراضي)، جميع إعدادات تحديد سرعة المزامنة في هذا القسم معطلة. يجب تمكينها لتفعيل الإعدادات التالية."
+
+#: ../../chapter03.rst:1539
+msgid "**Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)**"
+msgstr "**تحديد سرعة الرفع المتزامن للبيانات (كيلوبايت/ثانية، 0 - غير محدود)**"
+
+#: ../../chapter03.rst:1541
+msgid "This setting controls the upload bandwidth from the client machine."
+msgstr "هذا الإعداد يتحكم في سرعة الرفع من جهاز العميل."
+
+#: ../../chapter03.rst:1543
+msgid "**Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)**"
+msgstr "**تزامن عرض النطاق التحميل المحدود (كيلوبايت/ثانية، 0-غير محدود)**"
+
+#: ../../chapter03.rst:1545
+msgid "This setting controls the download bandwidth from the client machine."
+msgstr "هذا الإعداد يتحكم في سرعة تحميل البيانات من جهاز العميل."
+
+#: ../../chapter03.rst:1547
+msgid "**Full Speed Sync Stop Hour (default 7:00)**"
+msgstr "**ساعة توقف مزامنة السرعة الكاملة (الافتراضي 7:00)**"
+
+#: ../../chapter03.rst:1549
+msgid ""
+"Full speed sync means multiple thread concurrent upload or download. This"
+" is typically good for after hour activity. We recommend default setting "
+"stop at 7am so when people return to work, the full speed sync stops so "
+"to give back more bandwidth to users who may be using the Internet for "
+"other purposes."
+msgstr "المزامنة بالسرعة الكاملة تعني الرفع أو التنزيل المتزامن بعدة خيوط. هذا عادة ما يكون جيدًا للنشاط بعد ساعات العمل. نوصي بإعداد التوقف الافتراضي عند الساعة 7 صباحًا حتى عندما يعود الناس إلى العمل، تتوقف المزامنة بالسرعة الكاملة وبذلك تعطي مزيدًا من النطاق الترددي للمستخدمين الذين قد يستخدمون الإنترنت لأغراض أخرى."
+
+#: ../../chapter03.rst:1551
+msgid "**Full Speed Sync Start Hour (default 20:00)**"
+msgstr "**ساعة بدء المزامنة بالسرعة الكاملة (الافتراضي 20:00)**"
+
+#: ../../chapter03.rst:1553
+msgid ""
+"Similar to the above setting, we recommend start full speed sync after "
+"working hours."
+msgstr "مشابهًا للإعداد السابق، نوصي ببدء المزامنة بالسرعة الكاملة بعد ساعات العمل."
+
+#: ../../chapter03.rst:1557
+msgid "Scheduled Sync"
+msgstr "المزامنة المجدولة"
+
+#: ../../chapter03.rst:1558
+msgid "**Enable Scheduled Sync**"
+msgstr "**تمكين المزامنة المجدولة**"
+
+#: ../../chapter03.rst:1560
+msgid ""
+"On the client side, in addition to a mapped drive (or a mac mounted "
+"volume), there is also functionality about folder synchronization. This "
+"setting can control when to sync. For example, if the business has "
+"limited bandwidth to the Internet, avoid doing synchronization during the"
+" working hours can save bandwidth."
+msgstr "على جانب العميل، بالإضافة إلى محرك أقراص معين (أو حجم مركب على ماك)، هناك أيضًا وظيفة حول تزامن المجلدات. يمكن لهذا الإعداد التحكم في موعد التزامن. على سبيل المثال، إذا كانت الشركة تمتلك نطاقًا تردديًا محدودًا للإنترنت، فإن تجنب التزامن خلال ساعات العمل يمكن أن يوفر النطاق الترددي."
+
+#: ../../chapter03.rst:1567
+msgid "SCHEDULED SYNC SETTINGS"
+msgstr "إعدادات المزامنة المجدولة"
+
+#: ../../chapter03.rst:1571
+msgid "Mapped Drive Control"
+msgstr "تحكم بالأقراص المُعينة"
+
+#: ../../chapter03.rst:1575
+msgid "MAPPED DRIVE CONTROL SETTINGS"
+msgstr "إعدادات تحكم الأقراص المعينة"
+
+#: ../../chapter03.rst:1577
+msgid ""
+"**Hide Large File Download Tracker (popup progress window on the bottom-"
+"right when downloading large files)**"
+msgstr "**إخفاء متتبع تنزيل الملفات الكبيرة (نافذة التقدم المنبثقة في الأسفل اليمين عند تنزيل ملفات كبيرة)**"
+
+#: ../../chapter03.rst:1579
+msgid ""
+"This is usually good for usability but people may find it annoying if "
+"download is popping up a download progress dialog at the lower right "
+"corner."
+msgstr "عادةً ما يكون هذا جيدًا لسهولة الاستخدام، ولكن قد يجد الأشخاص ذلك مزعجًا إذا كانت عملية التنزيل تظهر مربع حوار لتقدم التنزيل في الزاوية اليمنى السفلية."
+
+#: ../../chapter03.rst:1581
+msgid "**Always Allow Picture Preview**"
+msgstr "**السماح دائمًا بمعاينة الصورة**"
+
+#: ../../chapter03.rst:1583
+msgid ""
+"Windows Explorer may want to download pictures in the background to "
+"generate thumbnails. This consumes bandwidth and may slow system down "
+"until all the preview thumbnails are generated. By default the client "
+"program disables the preview. However you can re-enable it."
+msgstr "قد يرغب مستكشف ويندوز في تنزيل الصور في الخلفية لإنشاء صور مصغرة. هذا يستهلك النطاق الترددي وقد يبطئ النظام حتى يتم إنشاء جميع الصور المصغرة للمعاينة. بشكل افتراضي، يعطل برنامج العميل المعاينة. ومع ذلك، يمكنك إعادة تمكينها."
+
+#: ../../chapter03.rst:1585
+msgid "**Always Allow PDF Preview**"
+msgstr "**دائمًا السماح بمعاينة PDF**"
+
+#: ../../chapter03.rst:1587
+msgid ""
+"Windows Explorer may want to download PDFs in the background to generate "
+"thumbnails. This consumes bandwidth and may slow system down until all "
+"the preview thumbnails are generated. By default the client program "
+"disables the preview. However you can re-enable it."
+msgstr "قد يرغب مستكشف ويندوز في تحميل ملفات PDF في الخلفية لإنشاء صور مصغرة للمعاينة. هذا يستهلك النطاق الترددي وقد يبطئ النظام حتى يتم إنشاء جميع الصور المصغرة للمعاينة. بشكل افتراضي، يعطل برنامج العميل المعاينة. ومع ذلك، يمكنك إعادة تمكينها."
+
+#: ../../chapter03.rst:1589
+msgid "**Allow shortcuts**"
+msgstr "**السماح بالاختصارات**"
+
+#: ../../chapter03.rst:1591
+msgid "Allow shortcuts (.lnk) files"
+msgstr "السماح بملفات الاختصارات (.lnk)"
+
+#: ../../chapter03.rst:1593
+msgid "**When starting the client, open the mounted drive automatically**"
+msgstr "**عند بدء تشغيل العميل، افتح القرص المركب تلقائيًا**"
+
+#: ../../chapter03.rst:1595
+msgid ""
+"Enabling this opens the mounted drive in Windows Explorer when the client"
+" starts."
+msgstr "تمكين هذا يفتح القرص المركب في مستكشف ويندوز عند بدء تشغيل العميل."
+
+#: ../../chapter03.rst:1597
+msgid "**Do not show file change notifications**"
+msgstr "**لا تظهر إشعارات تغيير الملفات**"
+
+#: ../../chapter03.rst:1599
+msgid ""
+"This is another feature that shows file change notification at the lower "
+"right-hand corner of the Windows desktop. People may find it annoying if "
+"the change notification comes in quite often."
+msgstr "هذه ميزة أخرى تعرض إشعارات تغيير الملفات في الزاوية السفلية اليمنى من سطح مكتب ويندوز. قد يجدها الأشخاص مزعجة إذا كانت إشعارات التغيير تأتي بشكل متكرر."
+
+#: ../../chapter03.rst:1601
+msgid "**Do not show file in-place editing/preview disabled notifications**"
+msgstr "**لا تظهر إشعارات تعطيل تحرير/معاينة الملف في مكانه**"
+
+#: ../../chapter03.rst:1603
+msgid ""
+"This feature also shows file change notifications at the lower right-hand"
+" corner of the Windows desktop. People may find it annoying if the change"
+" notification comes in quite often."
+msgstr "تُظهر هذه الميزة أيضًا إشعارات تغيير الملفات في الزاوية اليمنى السفلية من سطح مكتب Windows. قد يجدها الأشخاص مزعجة إذا كانت إشعارات التغيير تأتي بشكل متكرر."
+
+#: ../../chapter03.rst:1605
+msgid "**Enable Inplace Open Zip File**"
+msgstr "**تمكين فتح ملف الزِب في مكانه**"
+
+#: ../../chapter03.rst:1607
+msgid ""
+"Windows Explorer has a zip built-in extension that can open a zip file "
+"when double-clicked on. It may be good for the local drive but for cloud "
+"drive, that means the zip file is unzipped and re-upload back into the "
+"cloud. By default client application disables opening zip files directly "
+"in the cloud drive."
+msgstr "يحتوي مستكشف ويندوز على امتداد مدمج للملفات المضغوطة يمكنه فتح ملف zip عند النقر المزدوج عليه. قد يكون هذا جيدًا للقرص المحلي ولكن بالنسبة للقرص السحابي، هذا يعني أن الملف المضغوط يتم فك ضغطه وإعادة رفعه إلى السحابة. بشكل افتراضي، تطبيق العميل يعطل فتح الملفات المضغوطة مباشرة في القرص السحابي."
+
+#: ../../chapter03.rst:1609
+msgid "**Enable Single Sign On with login windows user identity**"
+msgstr "**تمكين تسجيل الدخول الموحد باستخدام هوية مستخدم نوافذ التسجيل**"
+
+#: ../../chapter03.rst:1611
+msgid ""
+"Enable Single Sign-On with Login Windows User Identity - For a Windows "
+"client agent running on a Windows Desktop machine, the login windows "
+"user's identity will be used for single sign-on to the |prodname| "
+"account."
+msgstr "تمكين تسجيل الدخول الموحد باستخدام هوية مستخدم Windows - بالنسبة لوكيل عميل Windows الذي يعمل على جهاز سطح مكتب Windows، سيتم استخدام هوية مستخدم Windows لتسجيل الدخول للتوحيد مع حساب |prodname|."
+
+#: ../../chapter03.rst:1613
+msgid "**Max Size of Zip File Allowed to Open In-place (MB)**"
+msgstr "**الحجم الأقصى لملف الضغط المسموح بفتحه مباشرة (ميغابايت)**"
+
+#: ../../chapter03.rst:1615
+msgid "Limits the size of a Zip File that can be opened in-place."
+msgstr "يحد من حجم ملف زيب الذي يمكن فتحه في مكانه."
+
+#: ../../chapter03.rst:1617
+msgid "**Max Size of File Allowed to Generate Thumbnail (MB)**"
+msgstr "**الحد الأقصى لحجم الملف المسموح به لإنشاء صورة مصغرة (ميغابايت)**"
+
+#: ../../chapter03.rst:1619
+msgid "Limits the size of Files that can be used in the generation of thumbnails."
+msgstr "يحد من حجم الملفات التي يمكن استخدامها في إنشاء الصور المصغرة."
+
+#: ../../chapter03.rst:1621
+msgid "**Cloud Drive Label**"
+msgstr "**تسمية القرص السحابي**"
+
+#: ../../chapter03.rst:1623
+msgid "What do you want to call your windows client drive."
+msgstr "ما الاسم الذي تريد تسمية محرك العميل الخاص بنظام التشغيل ويندوز به."
+
+#: ../../chapter03.rst:1625
+msgid "**Drive Letter**"
+msgstr "**حرف القرص**"
+
+#: ../../chapter03.rst:1627
+msgid "What do you want to give the drive letter to the client application."
+msgstr "ما الحرف الذي تريد أن تعطيه لتطبيق العميل كمحرك أقراص."
+
+#: ../../chapter03.rst:1629
+msgid "**Cache Size Limit (MB)**"
+msgstr "**حد الذاكرة المؤقتة (ميغابايت)**"
+
+#: ../../chapter03.rst:1631
+msgid ""
+"The Windows client maintains a client-side cache of this size (0 - "
+"unlimited)"
+msgstr "يحافظ العميل الخاص بنظام التشغيل Windows على ذاكرة تخزين مؤقتة على جانب العميل بهذا الحجم (0 - غير محدود)"
+
+#: ../../chapter03.rst:1633
+msgid "**Minimal free disk space (GB)**"
+msgstr "**الحد الأدنى للمساحة الحرة على القرص (جيجابايت)**"
+
+#: ../../chapter03.rst:1635
+msgid ""
+"This setting is used to establish a minimum amount of disk space used for"
+" the windows client drive."
+msgstr "يُستخدم هذا الإعداد لتحديد الحد الأدنى لمساحة القرص المستخدمة لمحرك أقراص عميل الويندوز."
+
+#: ../../chapter03.rst:1637
+msgid "**Purge logging db n days old (0 - don't purge)**"
+msgstr "**حذف سجل قاعدة البيانات القديمة بعد عدد أيام (0 - لا تحذف)**"
+
+#: ../../chapter03.rst:1639
+msgid "This limits how many days of logging are kept in the Windows client cache."
+msgstr "هذا يحد من عدد أيام السجلات المحتفظ بها في ذاكرة التخزين المؤقت لعميل ويندوز."
+
+#: ../../chapter03.rst:1641
+msgid "**Mount Drive in global space (Windows Client Only)**"
+msgstr "**تركيب القرص في المساحة العالمية (لعملاء ويندوز فقط)**"
+
+#: ../../chapter03.rst:1643
+msgid ""
+"A drive mounted in the global space will not be subject to UAC (User "
+"Account Control) limitations, such as when legacy applications are "
+"required to run with administrative privilege and cannot see the drive "
+"guarded by the UAC. On the other hand, drives that are mounted in the "
+"global space are visible to any other users who log in on the same "
+"Windows machine at the same time."
+msgstr "القرص المركب في المساحة العالمية لن يخضع لقيود التحكم في حساب المستخدم (UAC)، مثل عندما تكون هناك حاجة لتشغيل التطبيقات القديمة بصلاحيات المسؤول ولا يمكنها رؤية القرص الذي يحميه UAC. من ناحية أخرى، الأقراص المركبة في المساحة العالمية مرئية لأي مستخدمين آخرين يقومون بتسجيل الدخول على نفس جهاز الويندوز في نفس الوقت."
+
+#: ../../chapter03.rst:1645
+msgid "**In offline mode, only show files that are cached and available locally**"
+msgstr "**في الوضع الغير متصل، اعرض فقط الملفات المخزنة مؤقتًا والمتاحة محليًا**"
+
+#: ../../chapter03.rst:1647
+msgid ""
+"Typically there will be place-holder files and representative icons "
+"created for all of the files in the client drive. If this setting is "
+"enabled, only locally stored files will be shown."
+msgstr "عادةً ما يتم إنشاء ملفات نائبة وأيقونات تمثيلية لجميع الملفات الموجودة في محرك الأقراص العميل. إذا تم تفعيل هذا الإعداد، سيتم فقط عرض الملفات المخزنة محليًا."
+
+#: ../../chapter03.rst:1649
+msgid "**Disable \"Check Out\"**"
+msgstr "**تعطيل \"الدفع\"**"
+
+#: ../../chapter03.rst:1651
+msgid ""
+"Turn off the \"Check Out\" feature and remove it from the right-click "
+"context menu."
+msgstr "قم بإيقاف ميزة \"تسجيل الخروج\" وإزالتها من قائمة السياق بزر النقر الأيمن."
+
+#: ../../chapter03.rst:1653
+msgid "**Encrypt Local Cache**"
+msgstr "**تشفير الذاكرة المؤقتة المحلية**"
+
+#: ../../chapter03.rst:1655
+msgid ""
+"Once enabled, when a file is downloaded to cache, it is encrypted in "
+"place. When an authorized user then accesses the file from the (M:) "
+"Mapped Cloud Drive, CentreStack automatically decrypts it on the fly and "
+"then returns it to the user."
+msgstr "بمجرد التفعيل، عندما يتم تنزيل ملف إلى الذاكرة المؤقتة، يتم تشفيره في مكانه. عندما يقوم مستخدم مصرح له بعد ذلك بالوصول إلى الملف من خلال (M:) القرص السحابي المعين، يقوم CentreStack تلقائيًا بفك تشفيره على الفور ومن ثم يعيده إلى المستخدم."
+
+#: ../../chapter03.rst:1657
+msgid "**Disable AutoCad Optimization**"
+msgstr "**تعطيل تحسين أوتوكاد**"
+
+#: ../../chapter03.rst:1659
+msgid ""
+"By default, there is an AutoCAD optimization that delays the "
+"synchronization of the updated .dwg file and schedules it to sync upwards"
+" to the cloud at a later time. Use this setting to disable this AutoCad "
+"optimization and make saving AutoCAD .dwg files act the same as saving "
+"other regular files and lets .dwg file behavior follow other policy "
+"settings."
+msgstr "بشكل افتراضي، هناك تحسين لبرنامج AutoCAD يؤخر مزامنة ملف .dwg المحدث ويجدوله للمزامنة مع السحابة في وقت لاحق. استخدم هذا الإعداد لتعطيل تحسين AutoCAD هذا وجعل حفظ ملفات .dwg يتصرف مثل حفظ الملفات العادية الأخرى ويتيح لسلوك ملف .dwg اتباع إعدادات السياسة الأخرى."
+
+#: ../../chapter03.rst:1663
+msgid "Large File Upload"
+msgstr "تحميل ملف كبير"
+
+#: ../../chapter03.rst:1667
+msgid "LARGE FILE UPLOAD SETTINGS"
+msgstr "إعدادات تحميل الملفات الكبيرة"
+
+#: ../../chapter03.rst:1669
+msgid "**Enable chunk uploading when file size larger than (MB)**"
+msgstr "**تمكين تحميل الأجزاء عندما يكون حجم الملف أكبر من (ميغابايت)**"
+
+#: ../../chapter03.rst:1671
+msgid ""
+"Uploading a single large file can be disrupted by an Internet glitch. "
+"This setting breaks large files into smaller chunks to increase the "
+"success rate."
+msgstr "قد يتعطل تحميل ملف كبير واحد بسبب خلل في الإنترنت. تعمل هذه الإعدادات على تقسيم الملفات الكبيرة إلى أجزاء أصغر لزيادة نسبة النجاح."
+
+#: ../../chapter03.rst:1673
+msgid "**Chunk file in the unit of (MB)**"
+msgstr "**تقسيم الملف بوحدة (ميغابايت)**"
+
+#: ../../chapter03.rst:1675
+msgid ""
+"Works with the above setting to establish what size the chunks will be in"
+" as they are transferred."
+msgstr "يعمل مع الإعداد أعلاه لتحديد حجم الأجزاء التي سيتم نقلها."
+
+#: ../../chapter03.rst:1677
+msgid "**Use Volume Shadow Copy to Upload Files being Opened**"
+msgstr "**استخدم نسخ الظل للمجلدات لرفع الملفات المفتوحة**"
+
+#: ../../chapter03.rst:1679
+msgid ""
+"There is pro and con of using this flag. When file is open by other "
+"application, the file usually is locked and can't be uploaded until the "
+"file is closed. However using volume shadow copy can still upload the "
+"file. The down side is when the volume shadow copy happens, the file is "
+"not known to be in a consistent state."
+msgstr "هناك إيجابيات وسلبيات لاستخدام هذا الخيار. عندما يتم فتح الملف بواسطة تطبيق آخر، عادةً ما يكون الملف مقفلاً ولا يمكن تحميله حتى يتم إغلاق الملف. ومع ذلك، باستخدام نسخة ظل الحجم يمكن مع ذلك تحميل الملف. الجانب السلبي هو أنه عند حدوث نسخة ظل الحجم، لا يُعرف إذا كان الملف في حالة متسقة."
+
+#: ../../chapter03.rst:1683
+msgid "Bandwidth Control"
+msgstr "تحكم في النطاق الترددي"
+
+#: ../../chapter03.rst:1687
+msgid "BANDWIDTH CONTROL SETTINGS"
+msgstr "إعدادات التحكم في النطاق الترددي"
+
+#: ../../chapter03.rst:1689
+msgid "**Download Bandwidth Limit (KB/s, 0 - Unlimited)**"
+msgstr "**حد النزيل للعرض الترددي (كيلوبايت/ثانية، 0 - غير محدود)**"
+
+#: ../../chapter03.rst:1691
+msgid "This is download bandwidth control."
+msgstr "هذا هو التحكم في عرض النطاق الترددي للتنزيل."
+
+#: ../../chapter03.rst:1693
+msgid "**Upload Bandwidth Limit (KB/s, 0 - Unlimited)**"
+msgstr "**حد الرفع للعرض الترددي (كيلوبايت/ثانية، 0 - غير محدود)**"
+
+#: ../../chapter03.rst:1695
+msgid "This is upload bandwidth control."
+msgstr "هذا هو التحكم في عرض النطاق الترددي للتحميل."
+
+#: ../../chapter03.rst:1697
+msgid "**Number of File Transfer Threads**"
+msgstr "**عدد خيوط نقل الملفات**"
+
+#: ../../chapter03.rst:1699
+msgid "This is the number of concurrent upload/download allowed (default is 5)."
+msgstr "هذا هو عدد عمليات الرفع/التنزيل المتزامنة المسموح بها (الافتراضي هو 5)."
+
+#: ../../chapter03.rst:1703
+msgid "Outlook Plugin"
+msgstr "إضافة Outlook"
+
+#: ../../chapter03.rst:1707
+msgid "OUTLOOK PLUGIN SETTINGS"
+msgstr "إعدادات إضافة أوتلوك"
+
+#: ../../chapter03.rst:1709
+msgid "**Prompt conversion only when file is larger than n KB (0 - unlimited)**"
+msgstr "**تحويل المطالبة فقط عندما يكون حجم الملف أكبر من n كيلوبايت (0 - غير محدود)**"
+
+#: ../../chapter03.rst:1711
+msgid ""
+"For smaller files, it may be as well to just use the native outlook "
+"attachment."
+msgstr "للملفات الأصغر حجمًا، قد يكون من الأفضل استخدام مرفق البريد الإلكتروني الأصلي في أوتلوك."
+
+#: ../../chapter03.rst:1715
+msgid "Allows you to set a storage location for the above setting."
+msgstr "يتيح لك تعيين موقع تخزين للإعداد أعلاه."
+
+#: ../../chapter03.rst:1717
+msgid "**Link expiration time**"
+msgstr "**وقت انتهاء صلاحية الرابط**"
+
+#: ../../chapter03.rst:1719
+msgid ""
+"Allows Outlook share link to last indefinitely or expire in a specified "
+"timeframe (e.g., never, one day, one week, one month, six months, one "
+"year)."
+msgstr "يسمح بأن يكون رابط المشاركة في Outlook دائمًا أو أن ينتهي في إطار زمني محدد (على سبيل المثال، أبدًا، يوم واحد، أسبوع واحد، شهر واحد، ستة أشهر، سنة واحدة)."
+
+#: ../../chapter03.rst:1723
+msgid "Client Startup Script"
+msgstr "سكربت بدء تشغيل العميل"
+
+#: ../../chapter03.rst:1724
+msgid ""
+"After the Windows client is completely started and finished loading, a "
+"command line script can be run. You can be upload that script here. For "
+"example, a script to map an additional drive letter to a specific folder "
+"inside the cloud drive."
+msgstr "بعد أن يتم تشغيل عميل Windows بالكامل وينتهي من التحميل، يمكن تشغيل سكريبت سطر الأوامر. يمكنك رفع ذلك السكريبت هنا. على سبيل المثال، سكريبت لتعيين حرف محرك أقراص إضافي لمجلد معين داخل محرك السحابة."
+
+#: ../../chapter03.rst:1728
+msgid "Client Shutdown Script"
+msgstr "سكربت إغلاق العميل"
+
+#: ../../chapter03.rst:1729
+msgid ""
+"Right before the Windows client is completely shutdown and finished "
+"running, a command line script can be run. You can upload that script "
+"here. For example, a script to clean up any reference to folders and "
+"files inside the cloud drive."
+msgstr "قبل إغلاق عميل Windows بشكل كامل وانتهاء تشغيله، يمكن تشغيل سكريبت سطر الأوامر. يمكنك رفع ذلك السكريبت هنا. على سبيل المثال، سكريبت لتنظيف أي إشارة إلى المجلدات والملفات داخل السحابة الإلكترونية."
+
+#: ../../chapter03.rst:1733
+msgid "Mac Client Settings"
+msgstr "إعدادات عميل ماك"
+
+#: ../../chapter03.rst:1734
+msgid "**Do not show Mac Client sync status pop up dialog**"
+msgstr "**لا تظهر مربع حوار حالة مزامنة عميل Mac**"
+
+#: ../../chapter03.rst:1736
+msgid ""
+"This is usually good for usability but people may find it annoying if the"
+" file status is popping up a progress dialog at the lower right corner."
+msgstr "عادةً ما يكون هذا جيدًا لسهولة الاستخدام ولكن قد يجده الأشخاص مزعجًا إذا كان حالة الملف تُظهر مربع حوار للتقدم في الزاوية السفلية اليمنى"
+
+#: ../../chapter03.rst:1739
+msgid "**Start Mac Client automatically**"
+msgstr "**ابدأ تشغيل عميل Mac تلقائيًا**"
+
+#: ../../chapter03.rst:1741
+msgid ""
+"(Enabled by default.) If this is disabled, the Mac Client must be started"
+" manually."
+msgstr "(مُفعّل بشكل افتراضي.) إذا تم تعطيل هذا، يجب أن يتم تشغيل عميل Mac يدويًا."
+
+#: ../../chapter03.rst:1745
+msgid "Web Portal"
+msgstr "بوابة الويب"
+
+#: ../../chapter03.rst:1747
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Clients & Applications`` > ``Web "
+"Portal``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``العملاء والتطبيقات`` > ``البوابة الإلكترونية``"
+
+#: ../../chapter03.rst:1752
+msgid "WEB PORTAL SETTINGS"
+msgstr "إعدادات بوابة الويب"
+
+#: ../../chapter03.rst:1755
+msgid "**Disable folder download from web client**"
+msgstr "**تعطيل تنزيل المجلد من العميل الويب**"
+
+#: ../../chapter03.rst:1757
+msgid ""
+"Disabled by default. The folder download from web client will zip up the "
+"folder and download it. It is CPU intensive so if you don't want it to be"
+" consuming too much CPU, you can disable it using this setting."
+msgstr "معطل بشكل افتراضي. عند تنزيل المجلد من العميل الويب، سيتم ضغط المجلد وتنزيله. هذه العملية تستهلك الكثير من موارد المعالج لذا إذا كنت لا ترغب في استهلاك الكثير من موارد المعالج، يمكنك تعطيل هذه الميزة باستخدام هذا الإعداد."
+
+#: ../../chapter03.rst:1759
+msgid "**Disable Search**"
+msgstr "**تعطيل البحث**"
+
+#: ../../chapter03.rst:1761
+msgid ""
+"Disabled by default. If you don't need the search by file name feature, "
+"you can check this setting to disable it."
+msgstr "معطل بشكل افتراضي. إذا كنت لا تحتاج إلى ميزة البحث بالاسم الملف، يمكنك تحديد هذا الإعداد لتعطيله."
+
+#: ../../chapter03.rst:1763
+msgid "**Web Browser - Disable Java Uploader**"
+msgstr "**متصفح الويب - تعطيل أداة رفع الجافا**"
+
+#: ../../chapter03.rst:1765
+msgid ""
+"Some organization standardized on web browser, for example, all web "
+"browser are HTML5 compliant. In this case, Java Uploader is not necessary"
+" and could be confusing to support when different users have different "
+"Java version installed."
+msgstr "قامت بعض المنظمات بتوحيد المعايير على متصفحات الويب، على سبيل المثال، جميع متصفحات الويب متوافقة مع HTML5. في هذه الحالة، لا يكون من الضروري استخدام Java Uploader وقد يكون مربكًا للدعم عندما يكون لدى المستخدمين إصدارات مختلفة من Java مثبتة."
+
+#: ../../chapter03.rst:1767
+msgid "**Web Browser - Disable Flash Uploader**"
+msgstr "**متصفح الويب - تعطيل أداة رفع ملفات فلاش**"
+
+#: ../../chapter03.rst:1769
+msgid ""
+"Some organization standardized on web browser, for example, all web "
+"browser are HTML5 compliant. In this case, Flash Uploader is not "
+"necessary and could be confusing to support when different users have "
+"different Flash version installed. Different kind of web browser may also"
+" have different levels of Flash support, causing different behavior."
+msgstr "قامت بعض المنظمات بتوحيد المعايير على متصفحات الويب، على سبيل المثال، جميع متصفحات الويب متوافقة مع HTML5. في هذه الحالة، لا يكون مُحمّل Flash ضروريًا وقد يكون محيرًا للدعم عندما يكون لدى المستخدمين إصدارات مختلفة من Flash مُثبتة. قد يكون لأنواع مختلفة من متصفحات الويب أيضًا مستويات مختلفة من دعم Flash، مما يتسبب في سلوكيات مختلفة."
+
+#: ../../chapter03.rst:1771
+msgid "**Web Browser - Disable Local Uploader**"
+msgstr "**متصفح الويب - تعطيل أداة الرفع المحلية**"
+
+#: ../../chapter03.rst:1773
+msgid ""
+"Admin can also disable local uploaded in which case the upload will "
+"happen using the browser directly."
+msgstr "يمكن للمسؤول أيضًا تعطيل الرفع المحلي وفي هذه الحالة سيتم الرفع مباشرةً باستخدام المتصفح."
+
+#: ../../chapter03.rst:1775
+msgid "**Enable Tabbed-Browsing in User Manager**"
+msgstr "**تمكين التصفح بالعلامات في مدير المستخدمين**"
+
+#: ../../chapter03.rst:1777
+msgid ""
+"When enabled, the user manager will order users by their last name so if "
+"you have many users, you have an easy to access way to find the users."
+msgstr "عند التفعيل، سيقوم مدير المستخدمين بترتيب المستخدمين حسب اسم العائلة، لذا إذا كان لديك العديد من المستخدمين، ستكون لديك طريقة سهلة للوصول للعثور على المستخدمين."
+
+#: ../../chapter03.rst:1779
+msgid "**Only show search interface in User Manager**"
+msgstr "**فقط عرض واجهة البحث في مدير المستخدمين**"
+
+#: ../../chapter03.rst:1781
+msgid ""
+"When you have even more users, Tabbed-Browsing can't handle it any more, "
+"you can enable search-only interface."
+msgstr "عندما يكون لديك المزيد من المستخدمين، لا يمكن لواجهة التصفح بالألسنة التعامل معها بعد الآن، يمكنك تفعيل واجهة البحث فقط."
+
+#: ../../chapter03.rst:1783
+msgid "**Show tutorial page for non-admin users**"
+msgstr "**عرض صفحة البرنامج التعليمي للمستخدمين غير المسؤولين**"
+
+#: ../../chapter03.rst:1785
+msgid "Display tutorial page for regular users when they login to the web portal."
+msgstr "عرض صفحة الدليل للمستخدمين العاديين عند تسجيل الدخول إلى البوابة الإلكترونية."
+
+#: ../../chapter03.rst:1787
+msgid "**Show team folder level permissions in team folder publishing dialog**"
+msgstr "**عرض أذونات مستوى مجلد الفريق في مربع حوار نشر مجلد الفريق**"
+
+#: ../../chapter03.rst:1789
+msgid ""
+"The advanced setting refers to “Create CIFS Share”, “Disable further "
+"sharing”, and “Disable Offline Access” settings."
+msgstr "تشير الإعدادات المتقدمة إلى إعدادات \"إنشاء مشاركة CIFS\"، و\"تعطيل المشاركة الإضافية\"، و\"تعطيل الوصول غير المتصل\"."
+
+#: ../../chapter03.rst:1791
+msgid "**Disable 'Publish Tenant Home Storage As a Team Folder'**"
+msgstr "**تعطيل 'نشر التخزين المنزلي للمستأجر كمجلد فريق'**"
+
+#: ../../chapter03.rst:1793
+msgid ""
+"This feature can be hidden in Tenant Management Console > Team Folder > "
+"Add New Team Folder"
+msgstr "يمكن إخفاء هذه الميزة في لوحة إدارة المستأجر > مجلد الفريق > إضافة مجلد فريق جديد"
+
+#: ../../chapter03.rst:1795
+msgid "**Confirm before moving via drag-and-drop**"
+msgstr "**تأكيد قبل النقل عبر السحب والإفلات**"
+
+#: ../../chapter03.rst:1797
+msgid ""
+"In web portal, sometimes there can be accidental drag and drop, in this "
+"case, having a confirmation dialog can help prevent accidental drag and "
+"drop."
+msgstr "في بوابة الويب، قد يحدث سحب وإفلات عن طريق الخطأ أحيانًا، وفي هذه الحالة، يمكن أن يساعد وجود مربع حوار تأكيد في منع السحب والإفلات العرضي."
+
+#: ../../chapter03.rst:1799
+msgid "**Show left tree view by default**"
+msgstr "**عرض شجرة القائمة اليسرى افتراضيًا**"
+
+#: ../../chapter03.rst:1801
+msgid ""
+"Disabled by default. When enabled left-tree is displayed when you log in "
+"to the web portal."
+msgstr "معطل بشكل افتراضي. عند التفعيل، سيتم عرض الشجرة اليسرى عند تسجيل الدخول إلى البوابة الإلكترونية."
+
+#: ../../chapter03.rst:1803
+msgid "**Do not show \"recent activities**"
+msgstr "**لا تظهر \"الأنشطة الأخيرة\"**"
+
+#: ../../chapter03.rst:1805
+msgid ""
+"Disabled by default. When enabled \"recent activities\" is not visible in"
+" the Show/Hide Info Panel on the right side of the Web Portal File "
+"Browser."
+msgstr "معطل بشكل افتراضي. عند التفعيل، \"الأنشطة الأخيرة\" لا تظهر في لوحة إظهار/إخفاء المعلومات على الجانب الأيمن من متصفح ملفات الويب بورتال."
+
+#: ../../chapter03.rst:1807
+msgid "**Show 'link to local' option to non-admin user**"
+msgstr "**عرض خيار 'الرابط إلى المحلي' للمستخدم غير المسؤول**"
+
+#: ../../chapter03.rst:1809
+msgid ""
+"Disabled by default. When enabled, non-admin user will have access to the"
+" **\"Link to Local\"** option in the Sharing and Collaboration tab under "
+"the Show/Hide Info Panel on the right side of the Web Portal File "
+"Browser."
+msgstr "معطل بشكل افتراضي. عند التمكين، سيكون للمستخدم غير الإداري الوصول إلى خيار **\"الرابط إلى المحلي\"** في علامة التبويب المشاركة والتعاون تحت لوحة عرض/إخفاء المعلومات على الجانب الأيمن من متصفح ملفات الويب بورتال."
+
+#: ../../chapter03.rst:1811
+msgid "**Show max count of file/folder items**"
+msgstr "**عرض العدد الأقصى لعناصر الملفات/المجلدات**"
+
+#: ../../chapter03.rst:1813
+msgid ""
+"Default files to show is 1,000. Some customers may have a very flat "
+"folder that has more than one thousand files. It is not recommended to "
+"have a cloud system have flat folder structure like this. But if customer"
+" has many files in a flat folder. This setting can be used to show all "
+"files by increasing this number as needed."
+msgstr "الملفات الافتراضية للعرض هي 1,000. قد يكون لدى بعض العملاء مجلد مسطح جدًا يحتوي على أكثر من ألف ملف. لا يُنصح بوجود هيكل مجلد مسطح مثل هذا في نظام السحابة. ولكن إذا كان لدى العميل العديد من الملفات في مجلد مسطح. يمكن استخدام هذا الإعداد لعرض جميع الملفات عن طريق زيادة هذا الرقم حسب الحاجة."
+
+#: ../../chapter03.rst:1817
+msgid "Native Client"
+msgstr "العميل الأصلي"
+
+#: ../../chapter03.rst:1819
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Clients & Applications`` > "
+"``Native Client``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``العملاء والتطبيقات`` > ``العميل الأصلي``"
+
+#: ../../chapter03.rst:1824
+msgid "NATIVE CLIENT SETTINGS"
+msgstr "إعدادات العميل الأصلي"
+
+#: ../../chapter03.rst:1826
+msgid "**Create a shortcut in the documents library**"
+msgstr "**أنشئ اختصارًا في مكتبة المستندات**"
+
+#: ../../chapter03.rst:1828
+msgid ""
+"Enabled by default. This is a convenience feature to add a link to "
+"documents library to the cloud drive."
+msgstr "مُفعّل بشكل افتراضي. هذه ميزة تسهيلية لإضافة رابط إلى مكتبة المستندات إلى القرص السحابي."
+
+#: ../../chapter03.rst:1830
+msgid "**Create shortcut on desktop**"
+msgstr "**إنشاء اختصار على سطح المكتب**"
+
+#: ../../chapter03.rst:1832
+msgid "Enabled by default. Same as above but the shortcut is on the desktop."
+msgstr "مُفعّل بشكل افتراضي. كما في الأعلى ولكن الاختصار موجود على سطح المكتب."
+
+#: ../../chapter03.rst:1834
+msgid "**Hide Settings in Windows Client Management Console**"
+msgstr "**إخفاء الإعدادات في وحدة تحكم إدارة عميل Windows**"
+
+#: ../../chapter03.rst:1836
+msgid ""
+"Disabled by default. The Settings in the Windows client may be viewed as "
+"“too much information for normal user”. If that is the case, enabling "
+"this option will hide those settings."
+msgstr "معطل بشكل افتراضي. قد تُعتبر الإعدادات في عميل Windows كـ \"معلومات كثيرة للمستخدم العادي\". إذا كان الأمر كذلك، فإن تمكين هذا الخيار سيخفي تلك الإعدادات."
+
+#: ../../chapter03.rst:1838
+msgid "**Don't Allow Setting Changes in Windows Client Management Console**"
+msgstr "**لا تسمح بتغيير الإعدادات في وحدة تحكم إدارة عميل Windows**"
+
+#: ../../chapter03.rst:1840
+msgid ""
+"Disabled by default. When disabled the Windows Client user can change the"
+" settings in the Windows Client Management Console."
+msgstr "معطل بشكل افتراضي. عند التعطيل، يمكن للمستخدم في وحدة تحكم إدارة عميل ويندوز تغيير الإعدادات."
+
+#: ../../chapter03.rst:1842
+msgid "**Disable Windows client in-place drag & drop uploading**"
+msgstr "**تعطيل رفع السحب والإفلات في مكانه لعميل ويندوز**"
+
+#: ../../chapter03.rst:1844
+msgid ""
+"Unchecked by default. When enabled, dragging & dropping files (or "
+"folders) to the cloud drive will write files to the local cache first and"
+" then upload in the background."
+msgstr "غير محدد بشكل افتراضي. عند التفعيل، سيؤدي سحب وإسقاط الملفات (أو المجلدات) إلى القرص السحابي إلى كتابة الملفات في الذاكرة المؤقتة المحلية أولاً ثم الرفع في الخلفية."
+
+#: ../../chapter03.rst:1846
+msgid "**Disable Auto-Login next time**"
+msgstr "**تعطيل تسجيل الدخول التلقائي في المرة القادمة**"
+
+#: ../../chapter03.rst:1848
+msgid ""
+"Unchecked by default. When you want the user to type in username/password"
+" every time they login to the Windows client, you can check this to "
+"disable auto-login."
+msgstr "غير محدد بشكل افتراضي. عندما تريد أن يقوم المستخدم بإدخال اسم المستخدم وكلمة المرور في كل مرة يقوم فيها بتسجيل الدخول إلى عميل Windows، يمكنك التحقق من هذا لتعطيل تسجيل الدخول التلقائي."
+
+#: ../../chapter03.rst:1850
+msgid "**Disable drag & drop handler**"
+msgstr "**تعطيل معالج السحب والإفلات**"
+
+#: ../../chapter03.rst:1852
+msgid ""
+"Unchecked by default. If you check this option, the Windows file drag and"
+" drop will take over, this typically means the files will be copied into "
+"cache before upload, thus resulting in two copies of files being "
+"uploaded."
+msgstr "غير محدد بشكل افتراضي. إذا قمت بتحديد هذا الخيار، فسوف يتولى نظام السحب والإفلات للملفات في Windows العمل، وهذا يعني عادةً أن الملفات ستُنسخ إلى الذاكرة المؤقتة قبل الرفع، مما يؤدي إلى رفع نسختين من الملفات."
+
+#: ../../chapter03.rst:1854
+msgid "**Requiring approval for device access**"
+msgstr "**مطلوب موافقة للوصول إلى الجهاز**"
+
+#: ../../chapter03.rst:1856
+msgid ""
+"Disabled by default. When a user attempts to log in from a new device via"
+" native client applications, the connection will be rejected until the "
+"tenant admin approves the new device. The approval can be done from the "
+"\"Client Device Manager\""
+msgstr "معطل بشكل افتراضي. عندما يحاول المستخدم تسجيل الدخول من جهاز جديد عبر تطبيقات العميل الأصلية، سيتم رفض الاتصال حتى يوافق مسؤول المستأجر على الجهاز الجديد. يمكن إجراء الموافقة من خلال \"إدارة جهاز العميل\""
+
+#: ../../chapter03.rst:1858
+msgid "**Enable auto-install of Outlook Plugin**"
+msgstr "**تمكين التثبيت التلقائي لإضافة Outlook**"
+
+#: ../../chapter03.rst:1860
+msgid ""
+"Disabled by default. The Cluster Server Windows Desktop client comes with"
+" an Outlook plug-in. If this option is enabled, the Outlook plugin will "
+"be enabled upon client startup."
+msgstr "معطل بشكل افتراضي. يأتي عميل سطح المكتب الخاص بخادم العنقود مع إضافة لـ Outlook. إذا تم تفعيل هذا الخيار، سيتم تفعيل الإضافة لـ Outlook عند بدء تشغيل العميل."
+
+#: ../../chapter03.rst:1862
+msgid "**Disable native client for guest users**"
+msgstr "**تعطيل العميل الأصلي للمستخدمين الضيوف**"
+
+#: ../../chapter03.rst:1864
+msgid ""
+"Unchecked by default. For guest users, don't allow them to use native "
+"client, so the guest users can only use web browser files and folder "
+"view."
+msgstr "غير محدد بشكل افتراضي. بالنسبة للمستخدمين الضيوف، لا تسمح لهم باستخدام العميل الأصلي، حتى يتمكن المستخدمون الضيوف من استخدام ملفات المتصفح الويب وعرض المجلدات فقط."
+
+#: ../../chapter03.rst:1869
+msgid "Folder & Storage"
+msgstr "المجلد والتخزين"
+
+#: ../../chapter03.rst:1872
+msgid "Backend Storage"
+msgstr "التخزين الخلفي"
+
+#: ../../chapter03.rst:1874
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Folder & Storage`` > ``Backend "
+"Storage``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``المجلد والتخزين`` > ``التخزين الخلفي``"
+
+#: ../../chapter03.rst:1876
+msgid ""
+"Each tenant has a default backend storage. Tenant user (team user)'s home"
+" storage and other shared storage space can be allocated from the default"
+" backend storage."
+msgstr "لكل مستأجر مساحة تخزين خلفية افتراضية. يمكن تخصيص مساحة التخزين المنزلية لمستخدم المستأجر (مستخدم الفريق) وغيرها من مساحات التخزين المشتركة من المساحة التخزينية الخلفية الافتراضية."
+
+#: ../../chapter03.rst:1881
+msgid ""
+"You can think of the Tenant Backend Storage as a \"Black Box\" managed by"
+" the Cluster Server and you shall always use the Cluster Server interface"
+" to interact with the content inside the storage. If you can't take this "
+"\"Black Box\" approach for the tenant's root backend storage, you can use"
+" the following other methods via the team folders, such as import file "
+"server network share."
+msgstr "يمكنك التفكير في تخزين الخلفية للمستأجر على أنه \"صندوق أسود\" يتم إدارته بواسطة خادم العنقود ويجب عليك دائمًا استخدام واجهة خادم العنقود للتفاعل مع المحتوى داخل التخزين. إذا لم تتمكن من اتخاذ هذا النهج \"الصندوق الأسود\" لتخزين الخلفية الجذرية للمستأجر، يمكنك استخدام الطرق الأخرى التالية عبر مجلدات الفريق، مثل استيراد مشاركة الشبكة لخادم الملفات."
+
+#: ../../chapter03.rst:1883
+msgid ""
+"However, if you already have a file server that will provide the storage,"
+" it is recommended to use \"Import Network File Shares\" to mount the "
+"file server network share to the tenant's storage space. In this case, "
+"you can leave the \"Default Storage\" as is, or point it to an empty "
+"location and treat it as a black box storage managed at the Cluster "
+"Server level."
+msgstr "ومع ذلك، إذا كان لديك بالفعل خادم ملفات سيوفر المساحة التخزينية، يُنصح باستخدام \"استيراد مشاركات الملفات الشبكية\" لتركيب مشاركة الشبكة الخاصة بخادم الملفات إلى مساحة التخزين الخاصة بالمستأجر. في هذه الحالة، يمكنك ترك \"التخزين الافتراضي\" كما هو، أو توجيهه إلى موقع فارغ ومعاملته كتخزين صندوق أسود يتم إدارته على مستوى خادم العنقود."
+
+#: ../../chapter03.rst:1888
+msgid "STORAGE MANAGER ACCESS"
+msgstr "الوصول إلى مدير التخزين"
+
+#: ../../chapter03.rst:1890
+msgid ""
+"To access the Tenant Storage Manager, click \"Folder & Storage\" on "
+"\"Settings\" section. To check the backend storage information, click the"
+" dropdown at the top right corner, and select \"Edit\", to edit the "
+"storage configuration details."
+msgstr "للوصول إلى مدير تخزين المستأجر، انقر على \"المجلد والتخزين\" في قسم \"الإعدادات\". للتحقق من معلومات التخزين الخلفية، انقر على القائمة المنسدلة في الزاوية العليا اليمنى، واختر \"تحرير\"، لتعديل تفاصيل تكوين التخزين."
+
+#: ../../chapter03.rst:1892
+msgid ""
+"If cluster admin needs to check the backend storage for multiple tenants,"
+" go to \"Tenant Manager\". Click the \"hamburger\" menu at the top right "
+"corner of each tenant, and then choose \"Edit Existing Default Storage\"."
+msgstr "إذا كان مدير العقدة بحاجة لفحص التخزين الخلفي لعدة مستأجرين، انتقل إلى \"مدير المستأجر\". انقر على قائمة \"الهمبرغر\" في الزاوية العلوية اليمنى لكل مستأجر، ثم اختر \"تعديل التخزين الافتراضي القائم\"."
+
+#: ../../chapter03.rst:1897
+msgid "STORAGE MANAGER ACCESS - MULTIPLE TENANTS"
+msgstr "وصول مدير التخزين - عدة مستأجرين"
+
+#: ../../chapter03.rst:1902
+msgid ""
+"You can mount different storage services into a single namespace (folder "
+"structure). For example, if you have multiple Amazon S3 buckets, you can "
+"mount them all in. If you have multiple OpenStack Swift accounts, you can"
+" mount them all in as well. If you have multiple file server network "
+"shares, you can add them to the storage manager."
+msgstr "يمكنك تركيب خدمات تخزين مختلفة داخل فضاء أسماء واحد (هيكل المجلدات). على سبيل المثال، إذا كان لديك عدة دلاء من Amazon S3، يمكنك تركيبها جميعًا. وإذا كان لديك عدة حسابات OpenStack Swift، يمكنك أيضًا تركيبها جميعًا. وإذا كان لديك عدة مشاركات شبكة لخادم الملفات، يمكنك إضافتها إلى مدير التخزين."
+
+#: ../../chapter03.rst:1906
+msgid ""
+"The cluster manager can define whether or not the Storage Manager is "
+"exposed to the tenant administrator."
+msgstr "يمكن لمدير العنقود تحديد ما إذا كان مدير التخزين معرضًا لمسؤول الوحدة الإيجارية أم لا."
+
+#: ../../chapter03.rst:1911
+msgid "EDITING STORAGE SETTINGS"
+msgstr "تعديل إعدادات التخزين"
+
+#: ../../chapter03.rst:1914
+msgid "Edit Local Storage"
+msgstr "تحرير التخزين المحلي"
+
+#: ../../chapter03.rst:1916
+msgid ""
+"This is the file server UNC path or local windows folder path that you "
+"will connect into the tenant administrator's root folder structure. The "
+"idea here is you will take this folder and mount the folder to the tenant"
+" administrator's root folder structure."
+msgstr "هذا هو مسار خادم الملفات UNC أو مسار مجلد Windows المحلي الذي ستقوم بالاتصال به داخل هيكل مجلد الجذر الخاص بمسؤول المستأجر. الفكرة هنا هي أن تأخذ هذا المجلد وتربط المجلد بهيكل مجلد الجذر الخاص بمسؤول المستأجر."
+
+#: ../../chapter03.rst:1921
+msgid ""
+"The user name is the Windows username, either it being local Windows user"
+" or global Active Directory user, this is a Windows account that is "
+"capable of accessing the \"Local Storage Location\"."
+msgstr "اسم المستخدم هو اسم مستخدم Windows، سواء كان مستخدم Windows المحلي أو مستخدم الدليل النشط العالمي، هذا هو حساب Windows القادر على الوصول إلى \"موقع التخزين المحلي\"."
+
+#: ../../chapter03.rst:1926
+msgid "This is the password for the Windows user above."
+msgstr "هذه هي كلمة المرور لمستخدم Windows أعلاه."
+
+#: ../../chapter03.rst:1930
+msgid ""
+"We recommend this Windows user and his credential be set up as a service "
+"account, meaning the password isn't subject to the maximum password days "
+"via local security policy. The reason being, that, when it is time to "
+"rotate or change the user password, the connection here may be broken "
+"until the password is updated to match."
+msgstr "نوصي بأن يتم إعداد هذا المستخدم لنظام ويندوز وبيانات اعتماده كحساب خدمة، بمعنى أن كلمة المرور لا تخضع للحد الأقصى لأيام كلمة المرور عبر سياسة الأمان المحلية. السبب في ذلك، هو أنه عندما يحين وقت تغيير أو تدوير كلمة المرور، قد ينقطع الاتصال هنا حتى يتم تحديث كلمة المرور لتتطابق."
+
+#: ../../chapter03.rst:1933
+msgid "**“Always access the storage using logon user identity”**"
+msgstr "**\"دائمًا الوصول إلى التخزين باستخدام هوية المستخدم المسجل\"**"
+
+#: ../../chapter03.rst:1935
+msgid ""
+"When you have Active Directory Integration, and mount an existing file "
+"server network share in, you can select “Always access the storage using "
+"logon user identity” so the ACL (NTFS Permission) on the file server "
+"share will be used natively. The access permission will be checked "
+"natively against the user's Active Directory identity that is defined by "
+"the NTFS permission."
+msgstr "عندما يكون لديك تكامل مع Active Directory وتقوم بتركيب مشاركة الشبكة لخادم الملفات الحالي، يمكنك اختيار \"الوصول دائمًا إلى التخزين باستخدام هوية المستخدم المسجل\" حتى تُستخدم أذونات ACL (إذن NTFS) على مشاركة خادم الملفات بشكل أصلي. سيتم التحقق من إذن الوصول بشكل أصلي ضد هوية المستخدم في Active Directory المحددة بواسطة إذن NTFS."
+
+#: ../../chapter03.rst:1937
+msgid ""
+"This option only applies to the \"Local Storage\" such as network share, "
+"DFS share, local folder, and etc."
+msgstr "هذا الخيار ينطبق فقط على \"التخزين المحلي\" مثل المشاركة الشبكية، مشاركة DFS، المجلد المحلي، وغيرها."
+
+#: ../../chapter03.rst:1939
+msgid "**“The share is from a Linux/Unix/ZFS server”**"
+msgstr "**\"المشاركة من خادم لينكس/يونكس/ZFS\"**"
+
+#: ../../chapter03.rst:1941
+msgid ""
+"Most of the time, you don't want to check this flag because your file "
+"server share shall behave like a normal Windows Server share, even if it "
+"doesn't come from a Windows Server."
+msgstr "معظم الوقت، لا ترغب في تحديد هذا الخيار لأن مشاركة خادم الملفات الخاص بك يجب أن تتصرف مثل مشاركة خادم ويندوز العادية، حتى لو لم تأت من خادم ويندوز."
+
+#: ../../chapter03.rst:1943
+msgid ""
+"In some small SOHO network storage devices, it may only allow one "
+"connection from one IP address, so if that is the case, you want to check"
+" this flag. Most of the time, you just don't need to check this when the "
+"network share is capable of taking multiple connections/sessions from one"
+" single machine."
+msgstr "في بعض أجهزة تخزين الشبكة الصغيرة SOHO، قد تسمح فقط باتصال واحد من عنوان IP واحد، لذا إذا كان الأمر كذلك، تريد التحقق من هذا الخيار. معظم الوقت، فقط لا تحتاج إلى التحقق من هذا عندما يكون المشاركة الشبكية قادرة على أخذ عدة اتصالات/جلسات من جهاز واحد."
+
+#: ../../chapter03.rst:1945
+msgid "**“This share is a DFS share”**"
+msgstr "**\"هذه المشاركة هي مشاركة DFS\"**"
+
+#: ../../chapter03.rst:1947
+msgid ""
+"If the share is a DFS share, you will check this checkbox, because DFS "
+"share has an extra layer of translation to translate back down to normal "
+"file server shares. This flag tells the Cluster Server to do an extra DFS"
+" translation back to SMB share before connecting to the share."
+msgstr "إذا كان المشاركة عبارة عن مشاركة DFS، فسوف تقوم بتحديد هذا المربع، لأن مشاركة DFS لديها طبقة إضافية من الترجمة للعودة إلى مشاركات خادم الملفات العادية. هذا العلم يخبر خادم العقدة بأن يقوم بترجمة DFS إضافية إلى مشاركة SMB قبل الاتصال بالمشاركة."
+
+#: ../../chapter03.rst:1949
+msgid "**“Enable Inplace Versioning”**"
+msgstr "**“تمكين الإصدارات المتقدمة”**"
+
+#: ../../chapter03.rst:1951
+msgid ""
+"The underlying file server network share may not have explicit version "
+"control (it may have volume shadow copy for other purposes). This will "
+"add Cluster Server version control to the file server network share. It "
+"is independent of and not related to the volume shadow copy."
+msgstr "قد لا يحتوي مشاركة الشبكة لخادم الملفات الأساسي على نظام تحكم بالإصدارات صريح (قد يحتوي على نسخ ظل للمجلدات لأغراض أخرى). سيضيف هذا التحكم بالإصدارات لخادم العنقود إلى مشاركة الشبكة لخادم الملفات. إنه مستقل عن نسخ الظل للمجلدات ولا يتعلق به."
+
+#: ../../chapter03.rst:1955
+msgid ""
+"In place versioning will put the older version of the file into a __ver__"
+" subfolder in the same folder structure making the name for In-Place "
+"Versioning so the folder structure is maintained as-is, while extra old "
+"copies of the file will be stored in a specific subfolder."
+msgstr "سيقوم الإصدار المحلي بوضع النسخة الأقدم من الملف في مجلد فرعي __ver__ ضمن نفس هيكل المجلدات مما يجعل الاسم للإصدار المحلي بحيث يتم الحفاظ على هيكل المجلد كما هو، بينما سيتم تخزين النسخ القديمة الإضافية من الملف في مجلد فرعي محدد."
+
+#: ../../chapter03.rst:1960
+msgid "IN-PLACE VERSIONING"
+msgstr "الإصدارات المحلية"
+
+#: ../../chapter03.rst:1962
+msgid ""
+"Here is a demo video showing the result of \"Enable Inplace Versioning\" "
+"when the root folder ('forward slash') is mounted with the \"Inplace "
+"versioning\" enabled."
+msgstr "إليكم فيديو توضيحي يُظهر نتيجة \"تمكين الإصدارات الفورية\" عندما يتم تحميل المجلد الجذر ('شرطة مائلة') مع تفعيل خاصية \"الإصدارات الفورية\"."
+
+#: ../../chapter03.rst:1971
+msgid "Migrate to New Storage"
+msgstr "الانتقال إلى تخزين جديد"
+
+#: ../../chapter03.rst:1976
+msgid "CLOUD STORAGE MIGRATE"
+msgstr "ترحيل التخزين السحابي"
+
+#: ../../chapter03.rst:1978
+msgid ""
+"Once the tenant backend storage is set, we don't recommend changing it "
+"until it has to be changed (e.g., migrate to other location). However "
+"when you are just setting up the tenant, you can decide where your "
+"tenant's storage location is and can change between local file server "
+"storage or remote cloud storage service."
+msgstr "بمجرد تعيين وحدة التخزين الخلفية للمستأجر، لا نوصي بتغييرها حتى يصبح ذلك ضروريًا (على سبيل المثال، الانتقال إلى موقع آخر). ومع ذلك، عندما تكون في مرحلة إعداد المستأجر، يمكنك تحديد موقع تخزين المستأجر ويمكنك التبديل بين تخزين خادم الملفات المحلي أو خدمة التخزين السحابي البعيد."
+
+#: ../../chapter03.rst:1980
+msgid "There are two types of storage migrations."
+msgstr "هناك نوعان من عمليات ترحيل التخزين."
+
+#: ../../chapter03.rst:1986
+msgid "**1.** Migrate data to a different location in the same type of storage:"
+msgstr "**1.** نقل البيانات إلى موقع مختلف ضمن نفس نوع التخزين:"
+
+#: ../../chapter03.rst:1983
+msgid "Identify the location of the current storage"
+msgstr "تحديد موقع التخزين الحالي"
+
+#: ../../chapter03.rst:1984
+msgid ""
+"Copy the content to the new location (for example, you can use xcopy *.* "
+"from the old location to the new location"
+msgstr "انسخ المحتوى إلى الموقع الجديد (على سبيل المثال، يمكنك استخدام xcopy *.* من الموقع القديم إلى الموقع الجديد"
+
+#: ../../chapter03.rst:1985
+msgid "Login to web portal as Cluster Admin."
+msgstr "تسجيل الدخول إلى البوابة الإلكترونية كمسؤول العنقود."
+
+#: ../../chapter03.rst:1986
+msgid ""
+"Go to Tenant Manager -> Manage the specific Tenant -> Backend Storage and"
+" click on edit to point to the new location"
+msgstr "اذهب إلى مدير المستأجر -> إدارة المستأجر المحدد -> التخزين الخلفي وانقر على تحرير للإشارة إلى الموقع الجديد"
+
+#: ../../chapter03.rst:1991
+msgid "**2.**  Migrate data to a different type of storage:"
+msgstr "**2.** نقل البيانات إلى نوع مختلف من التخزين:"
+
+#: ../../chapter03.rst:1989
+msgid "Go to the registry using regedit"
+msgstr "اذهب إلى السجل باستخدام regedit"
+
+#: ../../chapter03.rst:1990
+msgid ""
+"Go to HKLM\\\\SOFTWARE\\\\Gladinet\\\\Enterprise\\\\ and add a new string"
+" value called 'CanChangeDefaultStorage' and set the value to 'True' and "
+"reboot"
+msgstr "اذهب إلى HKLM\\SOFTWARE\\Gladinet\\Enterprise\\ وأضف قيمة نصية جديدة تسمى 'CanChangeDefaultStorage' واضبط القيمة على 'True' ثم أعد التشغيل"
+
+#: ../../chapter03.rst:1991
+msgid ""
+"Edit the storage type using new icon to edit storage under Cluster "
+"Manager\\Tenant Manager"
+msgstr "تعديل نوع التخزين باستخدام أيقونة جديدة لتعديل التخزين تحت إدارة العنقود\إدارة المستأجر"
+
+#: ../../chapter03.rst:1995
+msgid ""
+"It is not recommended that you modify registry settings. Create a backup "
+"of the registry before modifying any registry settings."
+msgstr "لا يُنصح بتعديل إعدادات السجل. قم بإنشاء نسخة احتياطية من السجل قبل تعديل أي من إعدادات السجل."
+
+#: ../../chapter03.rst:1998
+msgid "Retention Policy"
+msgstr "سياسة الاحتفاظ"
+
+#: ../../chapter03.rst:2000
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Retention "
+"Policy``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``المجلد والتخزين`` > ``سياسة الاحتفاظ``"
+
+#: ../../chapter03.rst:2006
+msgid "RETENTION POLICY SETTINGS"
+msgstr "إعدادات سياسة الاحتفاظ"
+
+#: ../../chapter03.rst:2008
+msgid ""
+"The cloud monitoring service on the Cluster Server will be responsible "
+"for the retention policy. The settings of the retention policy are "
+"described below."
+msgstr "سيكون خدمة مراقبة السحاب على خادم العنقود مسؤولاً عن سياسة الاحتفاظ. يتم وصف إعدادات سياسة الاحتفاظ أدناه."
+
+#: ../../chapter03.rst:2010
+msgid "**Keep last n version(s) of files in versioned folder**"
+msgstr "**احتفظ بآخر n نسخة/نسخ من الملفات في مجلد الإصدارات**"
+
+#: ../../chapter03.rst:2012
+msgid ""
+"This setting lets you decide how many versions of files to keep in the "
+"version folder. (0 - let system decide, also apply to \"attached local "
+"folder')"
+msgstr "هذا الإعداد يتيح لك تحديد عدد النسخ من الملفات التي يتم الاحتفاظ بها في مجلد الإصدارات. (0 - دع النظام يقرر، ينطبق أيضًا على 'المجلد المحلي المرفق')"
+
+#: ../../chapter03.rst:2014
+msgid "**Only purge versioned files that are more than n day(s) old**"
+msgstr "**فقط قم بتطهير الملفات ذات الإصدارات التي تزيد عمرها عن n يوم/أيام**"
+
+#: ../../chapter03.rst:2016
+msgid ""
+"This is a security feature. For example, there is a virus modified the "
+"same file many times so it created many versions causing good old "
+"versions to be scheduled for deletion. However, with this set, the good "
+"old versions will be kept for at least the amount of days so give enough "
+"time to recover. (0 - purge old versions once they exceed the version "
+"limit, regardless of the version lifespan)"
+msgstr "هذه ميزة أمان. على سبيل المثال، هناك فيروس قام بتعديل نفس الملف عدة مرات مما أدى إلى إنشاء العديد من النسخ مما تسبب في جدولة النسخ القديمة الجيدة للحذف. ومع ذلك، مع هذا الإعداد، سيتم الاحتفاظ بالنسخ القديمة الجيدة لمدة لا تقل عن عدد الأيام لتوفير وقت كافٍ للتعافي. (0 - يتم حذف النسخ القديمة فور تجاوزها للحد المسموح من النسخ، بغض النظر عن عمر النسخة)"
+
+#: ../../chapter03.rst:2018
+msgid "**Keep deleted files in versioned folder and/or Trash Can for n day(s)**"
+msgstr "**احتفظ بالملفات المحذوفة في مجلد الإصدارات و/أو سلة المهملات لمدة n يوم/أيام**"
+
+#: ../../chapter03.rst:2020
+msgid ""
+"When a file is deleted in the version folder, it is not actually deleted."
+" It will be kept for several days defined here. The same policy also "
+"apply to"
+msgstr "عندما يتم حذف ملف في مجلد الإصدار، فإنه لا يتم حذفه بالفعل. سيتم الاحتفاظ به لعدة أيام محددة هنا. نفس السياسة تنطبق أيضًا على"
+
+#: ../../chapter03.rst:2022
+msgid "**Keep file change log for n day(s)**"
+msgstr "**احتفظ بسجل تغييرات الملف لمدة n يوم/أيام**"
+
+#: ../../chapter03.rst:2024
+msgid ""
+"File change log is the biggest database table and could be growing "
+"without trimming. You can decide how often you want to trim the table."
+msgstr "سجل تغيير الملف هو أكبر جدول قاعدة بيانات وقد يستمر في النمو دون تقليم. يمكنك تحديد مدى تكرار رغبتك في تقليم الجدول."
+
+#: ../../chapter03.rst:2028
+msgid ""
+"There is also a cluster setting about the file change log length. The "
+"cluster setting overrides the per-tenant setting."
+msgstr "هناك أيضًا إعداد تجمع يتعلق بطول سجل تغيير الملف. إعداد التجمع يتجاوز الإعداد لكل مستأجر."
+
+#: ../../chapter03.rst:2030
+msgid "**Keep audit trace for n day(s)**"
+msgstr "**احتفظ بسجل التدقيق لمدة n يوم/أيام**"
+
+#: ../../chapter03.rst:2032
+msgid ""
+"Audit trace log is stored in a local device directory and keeps a record "
+"of high-level activity from a device (e.g., windows client, server "
+"agent). This setting limits the number of days that are stored in the "
+"local database file."
+msgstr "يتم تخزين سجل الأثر التدقيقي في دليل جهاز محلي ويحتفظ بسجل للنشاطات عالية المستوى من جهاز (مثل، عميل ويندوز، وكيل الخادم). تحد هذه الإعدادات عدد الأيام التي يتم تخزينها في ملف قاعدة البيانات المحلية."
+
+#: ../../chapter03.rst:2034
+msgid ""
+"**Hide purge option from web file browser (not applicable to tenant "
+"administrator)**"
+msgstr "**إخفاء خيار التطهير من متصفح الملفات الويب (لا ينطبق على مسؤول المستأجر)**"
+
+#: ../../chapter03.rst:2036
+msgid "Do not show the purge window to users when deleting content."
+msgstr "لا تظهر نافذة التطهير للمستخدمين عند حذف المحتوى."
+
+#: ../../chapter03.rst:2038
+msgid "**Don't send email notifications when purging deleted content**"
+msgstr "**لا ترسل إشعارات البريد الإلكتروني عند إزالة المحتوى المحذوف**"
+
+#: ../../chapter03.rst:2040
+msgid ""
+"There are times when an admin would not want to send or see delete email "
+"notifications for purged contents."
+msgstr "هناك أوقات يفضل فيها المسؤول عدم إرسال أو رؤية إشعارات البريد الإلكتروني الخاصة بالمحتويات المحذوفة."
+
+#: ../../chapter03.rst:2042
+msgid "**Include deleted but not yet purged items in storage quota**"
+msgstr "**تضمين العناصر المحذوفة ولكن التي لم يتم تطهيرها بعد في حصة التخزين**"
+
+#: ../../chapter03.rst:2044
+msgid ""
+"Allows you to decide if you want to include not visible (purged) files in"
+" the storage quota that is used."
+msgstr "يتيح لك تحديد ما إذا كنت ترغب في تضمين الملفات غير المرئية (المحذوفة) ضمن حصة التخزين المستخدمة."
+
+#: ../../chapter03.rst:2047
+msgid "Folder and Storage"
+msgstr "المجلدات والتخزين"
+
+#: ../../chapter03.rst:2049
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Folder and "
+"Storage``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``المجلد والتخزين`` > ``المجلد والتخزين``"
+
+#: ../../chapter03.rst:2051
+msgid ""
+"These are the settings available to the tenant manager in the Folder and "
+"Storage view."
+msgstr "هذه هي الإعدادات المتاحة لمدير المستأجر في عرض المجلد والتخزين."
+
+#: ../../chapter03.rst:2056
+msgid "FOLDER AND STORAGE SETTINGS"
+msgstr "إعدادات المجلد والتخزين"
+
+#: ../../chapter03.rst:2059
+msgid "**Allow users to attach external cloud storage**"
+msgstr "**السماح للمستخدمين بإرفاق تخزين سحابي خارجي**"
+
+#: ../../chapter03.rst:2061
+msgid ""
+"When checked, you will allow users to see storage manager and allow them "
+"to attach external storage such as their own Amazon S3 bucket into the "
+"system."
+msgstr "عند التحقق، ستسمح للمستخدمين برؤية مدير التخزين وتمكينهم من إرفاق تخزين خارجي مثل حاوية Amazon S3 الخاصة بهم إلى النظام"
+
+#: ../../chapter03.rst:2064
+msgid "**Disable Versioned folder**"
+msgstr "**تعطيل مجلد الإصدارات**"
+
+#: ../../chapter03.rst:2066
+msgid ""
+"Normally you will NOT disable versioned folder. Because versioned folder "
+"is the supporting feature for “Two-way sync locally attached folder”. If "
+"you disable versioned folder, you will lose the two-way synchronization "
+"folder feature as well."
+msgstr "عادةً لن تقوم بتعطيل المجلد المُنسَّق الإصدارات. لأن المجلد المُنسَّق الإصدارات هو الميزة الداعمة لخاصية \"المزامنة الثنائية للمجلد المرفق محليًا\". إذا قمت بتعطيل المجلد المُنسَّق الإصدارات، ستفقد ميزة المجلد المزامنة الثنائية كذلك."
+
+#: ../../chapter03.rst:2070
+msgid "**Disable Trash Can**"
+msgstr "**تعطيل سلة المهملات**"
+
+#: ../../chapter03.rst:2072
+msgid ""
+"For folders that are not under version control, a deleted file will be "
+"moved into Trash Can. If this feature is not useful, you can disable it."
+msgstr "بالنسبة للمجلدات التي لا تخضع للتحكم بالإصدارات، سيتم نقل الملف المحذوف إلى سلة المهملات. إذا لم تكن هذه الميزة مفيدة، يمكنك تعطيلها."
+
+#: ../../chapter03.rst:2076
+msgid "**Don't show folder that user doesn't have read permission**"
+msgstr "**لا تعرض المجلد الذي لا يمتلك المستخدم صلاحية القراءة له**"
+
+#: ../../chapter03.rst:2078
+msgid ""
+"With native Active Directory integration and with network share as "
+"backend storage, the user's permission to the folders are checked "
+"natively. When this option is set, for those folders that users doesn't "
+"have read permission, the folder will be hidden."
+msgstr "مع الدمج الأصلي لدليل Active Directory ومع تخزين الشبكة كتخزين خلفي، يتم التحقق من إذن المستخدم للمجلدات بشكل أصلي. عند تعيين هذا الخيار، بالنسبة لتلك المجلدات التي لا يمتلك المستخدمون إذن قراءة لها، سيتم إخفاء المجلد."
+
+#: ../../chapter03.rst:2082
+msgid ""
+"**Don't show team folder that the user doesn't have read permission to "
+"the underlying folder**"
+msgstr "**لا تعرض مجلد الفريق الذي لا يمتلك المستخدم إذن القراءة للمجلد الأساسي**"
+
+#: ../../chapter03.rst:2084
+msgid ""
+"In the folder listing, if the user don't have read permission, sometimes "
+"it is better off not to show the folder to the user."
+msgstr "في قائمة المجلدات، إذا لم يكن لدى المستخدم إذن بالقراءة، قد يكون من الأفضل أحيانًا عدم إظهار المجلد للمستخدم."
+
+#: ../../chapter03.rst:2087
+msgid "**Don't show Trash Can for non-admin user**"
+msgstr "**لا تظهر سلة المهملات للمستخدم غير المسؤول**"
+
+#: ../../chapter03.rst:2089
+msgid ""
+"Trash Can is a virtual folder that shows up at the web browser portal "
+"only. This setting controls whether or not to show it for regular team "
+"user."
+msgstr "سلة المهملات هي مجلد افتراضي يظهر فقط في بوابة المتصفح الويب. تتحكم هذه الإعدادات في ما إذا كان سيتم عرضها لمستخدم الفريق العادي أم لا."
+
+#: ../../chapter03.rst:2093
+msgid "**Don't append (Team Folder) to published folders**"
+msgstr "**لا تضف (مجلد الفريق) إلى المجلدات المنشورة**"
+
+#: ../../chapter03.rst:2095
+msgid ""
+"A team folder by default, when showing up in a team user's folder list, "
+"it will have “(Team Folder)” appended to the end of the folder name to "
+"signify it is a team folder. This feature allows a team folder showing up"
+" as it is without the (Team Folder) suffix. The use case is that when a "
+"network share is mounted and then turned into a team folder, since the "
+"users are already familiar with the network share in its original name, "
+"so it is not necessary to append (team folder) to the folder name. You "
+"shouldn't change this setting in the middle of operation because if users"
+" have pending upload/download, changing the name could cause those tasks "
+"to fail."
+msgstr "بشكل افتراضي، عند ظهور مجلد الفريق في قائمة مجلدات مستخدم الفريق، سيتم إضافة عبارة \"(مجلد الفريق)\" إلى نهاية اسم المجلد للدلالة على أنه مجلد فريق. تتيح هذه الميزة ظهور مجلد الفريق كما هو دون لاحقة (مجلد الفريق). الحالة الاستخدامية هي عندما يتم تركيب مشاركة شبكة ثم تحويلها إلى مجلد فريق، نظرًا لأن المستخدمين معتادون بالفعل على مشاركة الشبكة باسمها الأصلي، فليس من الضروري إضافة (مجلد فريق) إلى اسم المجلد. يجب ألا تغير هذا الإعداد أثناء التشغيل لأنه إذا كان لدى المستخدمين تحميل/تنزيل معلق، فإن تغيير الاسم قد يتسبب في فشل تلك المهام."
+
+#: ../../chapter03.rst:2105
+msgid "Attached Folder"
+msgstr "المجلد المرفق"
+
+#: ../../chapter03.rst:2107
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Attached "
+"Folder``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``المجلد والتخزين`` > ``المجلد المرفق``"
+
+#: ../../chapter03.rst:2112
+msgid "ATTACHED FOLDER SETTINGS"
+msgstr "إعدادات المجلد المرفق"
+
+#: ../../chapter03.rst:2115
+msgid "**Disable backup/attach local folder from client device**"
+msgstr "**تعطيل النسخ الاحتياطي/إرفاق المجلد المحلي من جهاز العميل**"
+
+#: ../../chapter03.rst:2117
+msgid ""
+"Attached Local Folders are two-way synchronization folders. In order to "
+"do version backup and two-way synchronization, there are multiple folder "
+"structures created in the backend storage. Some organization doesn't need"
+" this feature and want the users to work exclusively with the cloud "
+"drive."
+msgstr "المجلدات المحلية المرفقة هي مجلدات مزامنة ثنائية الاتجاه. من أجل القيام بالنسخ الاحتياطي للإصدارات والمزامنة ثنائية الاتجاه، يتم إنشاء هياكل مجلدات متعددة في التخزين الخلفي. بعض المنظمات لا تحتاج إلى هذه الميزة وتريد من المستخدمين العمل حصريًا مع القرص السحابي."
+
+#: ../../chapter03.rst:2122
+msgid "**Enable Snapshot backup for server agent**"
+msgstr "**تمكين النسخ الاحتياطي للحظة لوكيل الخادم**"
+
+#: ../../chapter03.rst:2124
+msgid "It is a feature related to server agent on Windows 2003-2012 servers."
+msgstr "إنها ميزة تتعلق بوكيل الخادم على خوادم ويندوز 2003-2012."
+
+#: ../../chapter03.rst:2126
+msgid "**Allow syncing empty files**"
+msgstr "**السماح بمزامنة الملفات الفارغة**"
+
+#: ../../chapter03.rst:2128
+msgid ""
+"By default, empty file (0-byte) will be skipped for syncing in attached "
+"folder. when enabled, those files will be synchronized."
+msgstr "بشكل افتراضي، سيتم تخطي الملفات الفارغة (ذات الحجم صفر بايت) عند المزامنة في المجلد المرفق. عند التفعيل، سيتم مزامنة هذه الملفات."
+
+#: ../../chapter03.rst:2131
+msgid "**Allow syncing of hidden files**"
+msgstr "**السماح بمزامنة الملفات المخفية**"
+
+#: ../../chapter03.rst:2133
+msgid "Hidden files by default will not sync."
+msgstr "الملفات المخفية بشكل افتراضي لن تتم مزامنتها."
+
+#: ../../chapter03.rst:2135
+msgid "**Allow executable files (.exe)**"
+msgstr "**السماح بملفات التنفيذ (.exe)**"
+
+#: ../../chapter03.rst:2137 ../../chapter03.rst:2141
+msgid "Executable files by default will not sync."
+msgstr "الملفات التنفيذية بشكل افتراضي لن يتم مزامنتها."
+
+#: ../../chapter03.rst:2139
+msgid "**Allow ISO files (.iso)**"
+msgstr "**السماح بملفات ISO (.iso)**"
+
+#: ../../chapter03.rst:2143
+msgid "**Allow backup files(.bck, .bkf,.rbf, .tib)**"
+msgstr "**السماح بملفات النسخ الاحتياطي (.bck، .bkf، .rbf، .tib)**"
+
+#: ../../chapter03.rst:2145
+msgid ""
+"**Allow VMs (.hdd, .hds, .pvm, .pvs, .vdi, .vfd, .vhd, .vmc, .vmdk, "
+".vmem, .vmsd, .vmsn, .vmss, .vmtm, .vmwarevm, .vmx, .vmxf, .vsv, .nvram, "
+".vud, .xva)**"
+msgstr "**السماح للآلات الافتراضية (.hdd، .hds، .pvm، .pvs، .vdi، .vfd، .vhd، .vmc، .vmdk، .vmem، .vmsd، .vmsn، .vmss، .vmtm، .vmwarevm، .vmx، .vmxf، .vsv، .nvram، .vud، .xva)**"
+
+#: ../../chapter03.rst:2147
+msgid "**Allow application folders**"
+msgstr "**السماح بمجلدات التطبيق**"
+
+#: ../../chapter03.rst:2149
+msgid "Application folder by default will not sync."
+msgstr "المجلد الخاص بالتطبيق بشكل افتراضي لن يتم مزامنته."
+
+#: ../../chapter03.rst:2151
+msgid "**Allow application data folders**"
+msgstr "**السماح بمجلدات بيانات التطبيق**"
+
+#: ../../chapter03.rst:2153
+msgid "Application data folder by default will not sync."
+msgstr "بشكل افتراضي، مجلد بيانات التطبيق لن يتم مزامنته."
+
+#: ../../chapter03.rst:2155
+msgid "**Enable scheduled sync for files with following extensions**"
+msgstr "**تمكين المزامنة المجدولة للملفات ذات الامتدادات التالية**"
+
+#: ../../chapter03.rst:2157
+msgid ""
+"This is to help sync/upload frequently changed file such as Microsoft "
+"access database or QuickBook files. These type of files typically are "
+"constantly open (thus prevent other application to hold on to them) and "
+"also changed frequently. So you can define the time period to check back "
+"on these type of files and use volume shadow copy to upload these files."
+msgstr "هذا للمساعدة في مزامنة/تحميل الملفات التي يتم تغييرها بشكل متكرر مثل قاعدة بيانات مايكروسوفت أكسس أو ملفات كويك بوك. هذا النوع من الملفات عادة ما يكون مفتوحًا باستمرار (وبالتالي يمنع التطبيقات الأخرى من الاحتفاظ بها) وأيضًا يتغير بشكل متكرر. لذا يمكنك تحديد الفترة الزمنية للتحقق من هذا النوع من الملفات واستخدام نسخة الظل الحجمي لتحميل هذه الملفات."
+
+#: ../../chapter03.rst:2166
+msgid "Filters"
+msgstr "مرشحات"
+
+#: ../../chapter03.rst:2168
+msgid "``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Filters``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``المجلد والتخزين`` > ``الفلاتر``"
+
+#: ../../chapter03.rst:2173
+msgid "FILTER SETTINGS"
+msgstr "إعدادات الفلتر"
+
+#: ../../chapter03.rst:2175
+msgid ""
+"**Files with the following extensions will be excluded from attached "
+"local folder**"
+msgstr "**الملفات ذات الامتدادات التالية سيتم استثناؤها من المجلد المحلي المرفق**"
+
+#: ../../chapter03.rst:2177
+msgid ""
+"You can stop certain file types from being uploaded. For example .pst "
+"files. These are local outlook email files, which is not necessary to "
+"upload into the cloud storage because usually it is backed up by an "
+"exchange server."
+msgstr "يمكنك منع أنواع معينة من الملفات من الرفع. على سبيل المثال، ملفات .pst. هذه هي ملفات البريد الإلكتروني المحلية لبرنامج أوتلوك، والتي لا يُعتبر رفعها إلى التخزين السحابي ضروريًا عادةً لأنها عادةً ما تكون مدعومة بواسطة خادم البريد الإلكتروني Exchange."
+
+#: ../../chapter03.rst:2182
+msgid ""
+"**Files with following extensions will be excluded from directory listing"
+" (i.e.[.qbw])**"
+msgstr "**الملفات ذات الامتدادات التالية سيتم استثناؤها من قائمة الدليل (أي [.qbw])**"
+
+#: ../../chapter03.rst:2184
+msgid ""
+"You can specify the executables which should not be listed under a user's"
+" directory."
+msgstr "يمكنك تحديد البرامج التنفيذية التي يجب ألا تُدرج تحت دليل المستخدم."
+
+#: ../../chapter03.rst:2187
+msgid ""
+"**In-place editing/Preview is disabled for files with following "
+"extension**"
+msgstr "**تعديل/معاينة في المكان معطل للملفات ذات الامتدادات التالية**"
+
+#: ../../chapter03.rst:2189
+msgid ""
+"Windows Explorer has a habit to peek into large files to generate "
+"thumbnail and present other information. It may not be a good fit for "
+"cloud drive files because each peek will generate a download from cloud."
+msgstr "يميل مستكشف ويندوز إلى الاطلاع على الملفات الكبيرة لإنشاء صورة مصغرة وعرض معلومات أخرى. قد لا يكون ذلك مناسبًا لملفات الأقراص السحابية لأن كل مرة يتم فيها الاطلاع ستؤدي إلى تنزيل من السحابة."
+
+#: ../../chapter03.rst:2193
+msgid "**Allow file without file name extension**"
+msgstr "**السماح بالملفات التي لا تحتوي على امتداد لاسم الملف**"
+
+#: ../../chapter03.rst:2195
+msgid "Allow files without extension suffix to synchronize."
+msgstr "السماح بمزامنة الملفات التي لا تحتوي على لاحقة امتداد."
+
+#: ../../chapter03.rst:2198
+msgid "**Allow syncing empty file**"
+msgstr "**السماح بمزامنة الملف الفارغ**"
+
+#: ../../chapter03.rst:2200
+msgid "This is the same setting as in the \"Attached Folder\" section."
+msgstr "هذا هو نفس الإعداد الموجود في قسم \"المجلد المرفق\"."
+
+#: ../../chapter03.rst:2204
+msgid "Background Tasks"
+msgstr "المهام الخلفية"
+
+#: ../../chapter03.rst:2206
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Background "
+"Tasks``"
+msgstr "``مدير المستأجر`` > ``الإعدادات`` > ``المجلد والتخزين`` > ``المهام الخلفية``"
+
+#: ../../chapter03.rst:2208
+msgid ""
+"There are three different kind of background tasks that may take a long "
+"time to finish:"
+msgstr "هناك ثلاثة أنواع مختلفة من المهام الخلفية التي قد تستغرق وقتًا طويلاً للانتهاء:"
+
+#: ../../chapter03.rst:2210
+msgid "Data Seeding - copying data into |prodname|"
+msgstr "زرع البيانات - نسخ البيانات إلى |prodname|"
+
+#: ../../chapter03.rst:2211
+msgid "Storage Scan - do a full scan to calculate storage consumption"
+msgstr "فحص التخزين - قم بفحص كامل لحساب استهلاك التخزين"
+
+#: ../../chapter03.rst:2212
+msgid ""
+"Tenant Storage Migration - move tenant storage from location A to "
+"location B"
+msgstr "ترحيل تخزين المستأجر - نقل تخزين المستأجر من الموقع A إلى الموقع B"
+
+#: ../../chapter03.rst:2213
+msgid "Anchor Migration -  move data out of Anchor and into |prodname|"
+msgstr "الترحيل من Anchor - نقل البيانات من Anchor إلى |prodname|"
+
+#: ../../chapter03.rst:2219
+msgid "BACKGROUND TASKS"
+msgstr "المهام الخلفية"
+
+#: ../../chapter03.rst:2221
+msgid ""
+"The cluster administrator can help the tenant seed the data. For example "
+"take data into a USB drive and take it to the same local area network as "
+"the Cluster Server and see the data into the tenant storage."
+msgstr "يمكن لمسؤول العقدة أن يساعد المستأجر في بذر البيانات. على سبيل المثال، يأخذ البيانات إلى ذاكرة USB وينقلها إلى نفس الشبكة المحلية التي يوجد بها خادم العقدة ويبذر البيانات في تخزين المستأجر."
+
+#: ../../chapter03.rst:2224
+msgid "**Add New Data Seeding Task**"
+msgstr "**إضافة مهمة بذر بيانات جديدة**"
+
+#: ../../chapter03.rst:2226
+msgid "``Background Tasks`` > ``+`` > ``Add New Data Seeding Task``"
+msgstr "``المهام الخلفية`` > ``+`` > ``إضافة مهمة بذر بيانات جديدة``"
+
+#: ../../chapter03.rst:2231
+msgid "DATA SEEDING"
+msgstr "بذر البيانات"
+
+#: ../../chapter03.rst:2233
+msgid ""
+"Data Seeding is to take a folder from a source location and seed it into "
+"a team folder."
+msgstr "زرع البيانات هو أخذ مجلد من موقع المصدر وزرعه في مجلد الفريق"
+
+#: ../../chapter03.rst:2235
+msgid "On the left of the dialog, it is the source folder path information."
+msgstr "على يسار الحوار، هي معلومات مسار مجلد المصدر."
+
+#: ../../chapter03.rst:2237
+msgid "On the right side of the dialog, it is the target team folder information."
+msgstr "على الجانب الأيمن من الحوار، هي معلومات مجلد الفريق الهدف."
+
+#: ../../chapter03.rst:2239
+msgid ""
+"If you are seeding the data into a brand new team folder, you will first "
+"go into the team folder area and create a new team folder with empty "
+"content inside, and then come back to data seeding page and select it "
+"from the team folder drop down."
+msgstr "إذا كنت تقوم بزرع البيانات في مجلد فريق جديد كليًا، فسوف تذهب أولاً إلى منطقة مجلد الفريق وتقوم بإنشاء مجلد فريق جديد بمحتوى فارغ بداخله، ثم تعود إلى صفحة زرع البيانات وتختاره من القائمة المنسدلة لمجلد الفريق."
+
+#: ../../chapter03.rst:2244
+msgid "Tenant Branding"
+msgstr "العلامة التجارية للمستأجر"
+
+#: ../../chapter03.rst:2246
+msgid "``Tenant Manager`` > ``Branding`` > ``Tenant Branding``"
+msgstr "``مدير المستأجر`` > ``العلامة التجارية`` > ``علامة المستأجر التجارية``"
+
+#: ../../chapter03.rst:2248
+msgid ""
+"The cluster administrator can help the tenant do the tenant-specific "
+"branding in the partner portal."
+msgstr "يمكن لمسؤول العنقود مساعدة المستأجر في إجراء العلامات التجارية الخاصة بالمستأجر في بوابة الشريك."
+
+#: ../../chapter03.rst:2250
+msgid ""
+"The branding is applied by the customized URL. You can think of the "
+"customized URL as a primary key to retrieve all tenant related branding "
+"information."
+msgstr "يتم تطبيق العلامة التجارية من خلال الرابط المخصص. يمكنك التفكير في الرابط المخصص كمفتاح رئيسي لاسترجاع جميع المعلومات المتعلقة بالعلامة التجارية للمستأجر."
+
+#: ../../chapter03.rst:2255
+msgid ""
+"If per-tenant branding is enabled, The tenant branding section will be "
+"available."
+msgstr "إذا تم تفعيل العلامة التجارية لكل مستأجر، ستكون قسم العلامة التجارية للمستأجر متاحًا."
+
+#: ../../chapter03.rst:2260
+msgid "PER-TENANT BRANDING OPTIONS"
+msgstr "خيارات التخصيص لكل مستأجر"
+
+#: ../../chapter03.rst:2262
+msgid "**Customized URL for your business**"
+msgstr "**URL مخصص لعملك التجاري**"
+
+#: ../../chapter03.rst:2264
+msgid ""
+"Typically the customize URL is a sub domain of the Cluster Server. For "
+"example, if the Cluster Server is at https://cloud.mycompany.com, the sub"
+" domain can be https://acme1.mycompany.com"
+msgstr "عادةً ما يكون عنوان URL المخصص هو نطاق فرعي لخادم الكتلة. على سبيل المثال، إذا كان خادم الكتلة موجودًا على https://cloud.mycompany.com، فيمكن أن يكون النطاق الفرعي هو https://acme1.mycompany.com"
+
+#: ../../chapter03.rst:2266
+msgid ""
+"In Windows 2012 and above (the server that has the Cluster Server "
+"running), it also allows SNI (Server name indicator) in the SSL "
+"certificate binding. So it is possible to bind multiple SSL certificates "
+"to the same IIS server. In this case, the Customized URL can be a fully "
+"qualified domain name."
+msgstr "في Windows 2012 والإصدارات الأحدث (الخادم الذي يعمل عليه خادم الكتلة)، يسمح أيضًا بـ SNI (مؤشر اسم الخادم) في ربط شهادة SSL. لذلك من الممكن ربط شهادات SSL متعددة بنفس خادم IIS. في هذه الحالة، يمكن أن يكون العنوان URL المخصص اسم نطاق مؤهل بالكامل."
+
+#: ../../chapter03.rst:2270
+msgid ""
+"If you set up per-tenant branding, make sure the customized URL is "
+"specific to each tenant and also the URL is different from the default "
+"URL."
+msgstr "إذا قمت بإعداد العلامة التجارية الخاصة بكل مستأجر، تأكد من أن الرابط المخصص محدد لكل مستأجر وأيضًا أن الرابط مختلف عن الرابط الافتراضي."
+
+#: ../../chapter03.rst:2272
+msgid ""
+"If you don't want to setup per-tenant branding, disable it in cluster "
+"settings and setup cluster-wide branding instead."
+msgstr "إذا كنت لا ترغب في إعداد العلامة التجارية لكل مستأجر، قم بتعطيلها في إعدادات الكتلة وقم بإعداد العلامة التجارية الشاملة للكتلة بدلاً من ذلك."
+

@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "Inleiding"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the Triofox Web Portal User Guide. This guide describes web "
+"portal functionality for users as well as administrators in Triofox."
+msgstr "Welkom bij de Triofox Web Portal Gebruikershandleiding. Deze gids beschrijft de webportaalfuncties voor gebruikers en beheerders in Triofox."
+
+#: ../../index.rst:11
+msgid ""
+"Triofox helps businesses mobilize their file servers by enhancing "
+"existing Windows file servers with secure remote acccess, mobile file "
+"sharing, data protection and cloud migration, while addressing business "
+"concerns about security, privacy, compliance and control."
+msgstr "Triofox helpt bedrijven bij het mobiliseren van hun bestandsservers door bestaande Windows-bestandsservers te verbeteren met veilige externe toegang, mobiel bestandsdelen, gegevensbescherming en cloudmigratie, terwijl het tegemoetkomt aan zakelijke zorgen over veiligheid, privacy, naleving en controle."
+
+#: ../../index.rst:14
+msgid ""
+"Triofox adds ransomware protection and automatic alert mechanism to your "
+"file servers. It continously monitors all the Triofox clients for any "
+"unusual activity and will automatically shut them down if it sees a "
+"possible attack."
+msgstr "Triofox voegt ransomwarebescherming en een automatisch waarschuwingsmechanisme toe aan uw bestandsservers. Het houdt continu alle Triofox-clients in de gaten op ongebruikelijke activiteiten en zal ze automatisch uitschakelen als het een mogelijke aanval detecteert."
+
+#: ../../index.rst:17
+msgid ""
+"Triofox removes any need for businesses to rely on a VPN or a company "
+"computer to securely access files. With Triofox, data sprawl is "
+"eliminated as data stays on local file servers and mobile productivity is"
+" balanced by centralized management and access controls."
+msgstr "Triofox zorgt ervoor dat bedrijven geen VPN of bedrijfscomputer meer nodig hebben om veilig toegang te krijgen tot bestanden. Met Triofox wordt data verspreiding geëlimineerd omdat gegevens op lokale bestandsservers blijven en mobiele productiviteit wordt gecombineerd met gecentraliseerd beheer en toegangscontroles."
+
+#: ../../index.rst:20
+msgid ""
+"Triofox natively integrates with Active Directory and maintains all the "
+"existing NTFS permissions and there is no need to recreate any user "
+"identities. With military grade encryption and secure connections, use "
+"existing users and permissions to save setup time and money. files stay "
+"on local file servers and encrypted at the end point cache."
+msgstr "Triofox integreert zich op natuurlijke wijze met Active Directory en behoudt alle bestaande NTFS-machtigingen zonder dat het nodig is om gebruikersidentiteiten opnieuw aan te maken. Met militaire encryptie en beveiligde verbindingen, gebruik bestaande gebruikers en machtigingen om tijd en geld te besparen bij de installatie. Bestanden blijven op lokale bestandsservers en worden versleuteld in de eindpuntcache."
+
+#: ../../index.rst:24
+msgid ""
+"Triofox includes the backend Triofox server, which runs on Windows server"
+" platform, and front end client applications for Microsoft Windows, Mac "
+"OSx, and mobile clients for the Android and Apple iOS operating systems."
+msgstr "Triofox omvat de backend Triofox-server, die draait op het Windows-serverplatform, en front-end clienttoepassingen voor Microsoft Windows, Mac OSx en mobiele clients voor de besturingssystemen Android en Apple iOS."
+
+#: ../../index.rst:28
+msgid ""
+"The Web portal is an important part of the solution for the following "
+"reasons:"
+msgstr "Het webportaal is een belangrijk onderdeel van de oplossing om de volgende redenen:"
+
+#: ../../index.rst:30
+msgid "most of the management work is done on the web portal."
+msgstr "het meeste beheerwerk wordt gedaan op het webportaal."
+
+#: ../../index.rst:31
+msgid ""
+"downloading other native client agent softwares starts from the web "
+"portal."
+msgstr "het downloaden van andere native client agent software begint vanuit het webportaal."
+
+#: ../../index.rst:32
+msgid ""
+"web browser file manager have rich and responsive feature to manage "
+"files, sharing and collaboration."
+msgstr "webbrowser bestandsbeheer heeft rijke en responsieve functies voor het beheren van bestanden, delen en samenwerken."
+
+#: ../../index.rst:34
+msgid ""
+"Other important features and functions of the web portal are also covered"
+" in this document."
+msgstr "Andere belangrijke kenmerken en functies van het webportaal worden ook in dit document behandeld."
+
+#: ../../index.rst:39
+msgid "The web portal user guide is updated for version |release|"
+msgstr "De gebruikershandleiding van het webportaal is bijgewerkt voor versie |release|"
+

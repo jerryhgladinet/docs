@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../download_install.rst:2
+msgid "Download & Install"
+msgstr "Baixar & Instalar"
+
+#: ../../download_install.rst:4
+msgid ""
+"Search for **Cloud Android Client** or **Gladinet** in the 'Play Store' "
+"to start the download and installation."
+msgstr "Pesquise por **Cloud Android Client** ou **Gladinet** na 'Play Store' para iniciar o download e a instalação."
+
+#: ../../download_install.rst:9
+msgid ""
+"After the install, use the **Open** button or just tap on the app from "
+"its icon in the phone."
+msgstr "Após a instalação, use o botão **Abrir** ou simplesmente toque no aplicativo a partir do ícone no telefone."
+
+#: ../../download_install.rst:16
+msgid ""
+"To Login, enter Access Point (if not filled automatically) and Username "
+"and tap \"CONTINUE\"."
+msgstr "Para fazer login, insira o Ponto de Acesso (se não for preenchido automaticamente) e o Nome de Usuário e toque em \"CONTINUAR\"."
+
+#: ../../download_install.rst:21
+msgid ""
+"On the following screen, enter the Password and tap \"SIGN IN\", to log "
+"in and see all files and folders have access to."
+msgstr "Na tela seguinte, insira a Senha e toque em \"SIGN IN\", para fazer login e ver todos os arquivos e pastas aos quais tem acesso."
+

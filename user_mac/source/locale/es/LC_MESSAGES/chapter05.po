@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:3
+msgid "5 Settings"
+msgstr "5 Configuraciones"
+
+#: ../../chapter05.rst:5
+msgid ""
+"To access the Client Settings, click the Client Icon on the top-right of "
+"your Mac Desktop. This will open the Cloud Settings Panel. Clicking the "
+"**Console (1)** icon will open the \"Client Management Console\" window "
+"where the user can configure additional settings. In the Console window, "
+"click the drop-down menu **(2)** and choose **\"Settings\" (3)**."
+msgstr "Para acceder a los Ajustes del Cliente, haga clic en el Icono del Cliente en la parte superior derecha de su Escritorio Mac. Esto abrirá el Panel de Ajustes de la Nube. Al hacer clic en el icono **Consola (1)** se abrirá la ventana \"Consola de Gestión del Cliente\" donde el usuario puede configurar ajustes adicionales. En la ventana de la Consola, haga clic en el menú desplegable **(2)** y elija **\"Ajustes\" (3)**."
+
+#: ../../chapter05.rst:9
+msgid ""
+"There are many settings in this panel. Here are some specifically for the"
+" Mac Client."
+msgstr "Hay muchas configuraciones en este panel. Aquí hay algunas específicamente para el Cliente Mac."
+
+#: ../../chapter05.rst:11
+msgid ""
+"**Start Mac client automatically** - When this option is checked the user"
+" will be automatically authenticated to the cloud volume upon system "
+"restarts."
+msgstr "**Iniciar el cliente Mac automáticamente** - Cuando esta opción está marcada, el usuario será autenticado automáticamente al volumen en la nube después de reinicios del sistema."
+
+#: ../../chapter05.rst:13
+msgid ""
+"**Do not show Mac Client sync status pop up dialog** - There will be "
+"times when users do not want to see the sync progress windows which can "
+"be suppressed by selecting this opt ion."
+msgstr "**No mostrar el cuadro de diálogo emergente de estado de sincronización del cliente Mac** - Habrá ocasiones en las que los usuarios no querrán ver las ventanas de progreso de sincronización, lo cual se puede suprimir seleccionando esta opción."
+
+#: ../../chapter05.rst:19
+msgid "6 Third-Party Open Source Component"
+msgstr "6 Componente de Terceros de Código Abierto"
+
+#: ../../chapter05.rst:21
+msgid "The Mac client agent has OSXFUSE component from https://github.com/osxfuse"
+msgstr "El agente cliente de Mac tiene el componente OSXFUSE de https://github.com/osxfuse"
+
+#: ../../chapter05.rst:23
+msgid "Please review the osxfuse license.txt here"
+msgstr "Por favor, revise el license.txt de osxfuse aquí"
+
+#: ../../chapter05.rst:25
+msgid "https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt"
+msgstr "https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt"
+

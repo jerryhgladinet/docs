@@ -229,7 +229,7 @@
                             <div class="col-xl-6 col-xs-12">
                                 <h5 class="btn btn-default">Maintain Compliance</h5>
                                 <p style="text-align: justify;">
-                                    Centrally manage users, access controls, and storage for each tenant. Easily keep track of where the data is, who has access and how it’s being shared. 
+                                    Centrally manage users, access controls, and storage for each tenant. Easily keep track of where the data is, who has access and how it's being shared. 
                                     Admins can perform audits of GDPR and HIPAA compliance or keep track of any changes that have been made to individual files.
                                 </p>
                             </div>
@@ -270,7 +270,7 @@
                                 <h5 class="btn btn-default">Simplify Management </h5>
                                 <p style="text-align: justify;">
                                     Eliminate the need to manage servers on-premises by retiring them to the cloud. Centrally manage users, access controls, and storage for each tenant. Easily keep track of where the 
-                                    data is, who has access and how it’s being shared.
+                                    data is, who has access and how it's being shared.
                                 </p>
                             </div>
                             

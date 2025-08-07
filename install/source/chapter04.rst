@@ -2,7 +2,7 @@
 Web Portal
 ##############
 
-Click the Portal – “My Files” Link for the default Cluster Admin to view his files/folders over the web portal:
+Click the Portal – "My Files" Link for the default Cluster Admin to view his files/folders over the web portal:
 
 .. image:: _static/image_s4_1_1_v2-03192025.png
 

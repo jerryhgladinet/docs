@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter7.rst:3
+msgid "Folder Legends in Web Interface"
+msgstr "Webインターフェースのフォルダーレジェンド"
+
+#: ../../chapter7.rst:5
+msgid "There are many different folders in the web interface."
+msgstr "ウェブインターフェースには多くの異なるフォルダがあります。"
+
+#: ../../chapter7.rst:7
+msgid "Here is a list of them."
+msgstr "それらのリストはこちらです。"
+
+#: ../../chapter7.rst:9
+msgid "**Mounted Storage**"
+msgstr "**マウントされたストレージ**"
+
+#: ../../chapter7.rst:15
+msgid ""
+"This folder represents mounted/attached storage. For example, a mounted "
+"file server network share or a connected Amazon S3 bucket will look like "
+"this."
+msgstr "このフォルダは、マウントされた/接続されたストレージを表しています。例えば、マウントされたファイルサーバーのネットワーク共有や、接続されたAmazon S3バケットはこのように表示されます。"
+
+#: ../../chapter7.rst:17
+msgid "**Sync From Remote**"
+msgstr "**リモートから同期**"
+
+#: ../../chapter7.rst:23
+msgid ""
+"This folder represents synchronization folders from remote PCs or Server "
+"Agents."
+msgstr "このフォルダは、リモートPCまたはサーバーエージェントからの同期フォルダを表しています。"
+
+#: ../../chapter7.rst:25
+msgid "**Received Shares**"
+msgstr "**受け取った共有**"
+
+#: ../../chapter7.rst:31
+msgid ""
+"This folder represents the root folder of all the shared files and "
+"folders from other users."
+msgstr "このフォルダは、他のユーザーから共有されたすべてのファイルとフォルダのルートフォルダを表しています。"
+
+#: ../../chapter7.rst:33
+msgid "**Regular Folder**"
+msgstr "**通常フォルダ**"
+
+#: ../../chapter7.rst:39
+msgid "This folder represents a single shared folder received from other users."
+msgstr "このフォルダは他のユーザーから受け取った単一の共有フォルダを表しています。"
+
+#: ../../chapter7.rst:41
+msgid "**Team Folder**"
+msgstr "**チームフォルダ**"
+
+#: ../../chapter7.rst:47
+msgid ""
+"This folder represent a team folder that is published to users and viewed"
+" from the users who received the team folder."
+msgstr "このフォルダは、ユーザーに公開され、チームフォルダを受け取ったユーザーが閲覧するチームフォルダを表しています。"
+
+#: ../../chapter7.rst:49
+msgid "**Version Control**"
+msgstr "**バージョン管理**"
+
+#: ../../chapter7.rst:55
+msgid ""
+"Version folder represents folders that every files inside is under "
+"version control."
+msgstr "バージョンフォルダは、内部の全てのファイルがバージョン管理下にあるフォルダを表します。"
+
+#: ../../chapter7.rst:59
+msgid ""
+"If a folder doesn't have the version folder icon, doesn't mean it is not "
+"a version folder."
+msgstr "バージョンフォルダアイコンがないフォルダは、バージョンフォルダではないという意味ではありません。"
+
+#: ../../chapter7.rst:61
+msgid ""
+"As long as one of the parent folder is a version folder, everything "
+"inside is under version control."
+msgstr "親フォルダの一つがバージョンフォルダである限り、その内部のすべてがバージョン管理下にあります。"
+
+#: ../../chapter7.rst:63
+msgid ""
+"If the administrator setup the user as version control from the root, the"
+" team user may not see the version folder icon either when version "
+"control is on by default."
+msgstr "管理者がユーザーをルートからバージョン管理として設定した場合、バージョン管理がデフォルトでオンになっているときに、チームユーザーはバージョンフォルダのアイコンを見ることができない場合があります。"
+

@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Commencer"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "Introduction"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Windows Client User Guide. This guide describes"
+" client functionality for users in |prodname|."
+msgstr "Bienvenue dans le guide de l'utilisateur du client Windows |prodname|. Ce guide décrit les fonctionnalités du client pour les utilisateurs de |prodname|."
+
+#: ../../index.rst:11
+msgid "Client Agents"
+msgstr "Agents Client"
+
+#: ../../index.rst:13
+msgid ""
+"|prodname| client agents are available for Windows, Mac, iOS, Android, "
+"and Windows phones. These clients are designed to work with your "
+"|prodname| account which can be powered by any supported storage service."
+msgstr "Les agents clients |prodname| sont disponibles pour Windows, Mac, iOS, Android et les téléphones Windows. Ces clients sont conçus pour fonctionner avec votre compte |prodname| qui peut être alimenté par n'importe quel service de stockage pris en charge."
+
+#: ../../index.rst:16
+msgid "Windows Client Agent"
+msgstr "Agent Client Windows"
+
+#: ../../index.rst:19
+msgid "System Requirement"
+msgstr "Exigence Système"
+
+#: ../../index.rst:21
+msgid "OS - Windows XP, Vista, 7/8/8.1/10"
+msgstr "OS - Windows XP, Vista, 7/8/8.1/10"
+
+#: ../../index.rst:22
+msgid ""
+"Normally on windows server type machine such as 2025/2022/2019/2016, use "
+"server agent instead of client agent. However, the client agent can run "
+"as desktop application on Windows Server OS as well.  For example, if you"
+" plan to have the desktop agent run in a terminal server environment, you"
+" need to install desktop agent instead of server agent."
+msgstr "Normalement sur une machine de type serveur Windows telle que 2025/2022/2019/2016, utilisez l'agent serveur au lieu de l'agent client. Cependant, l'agent client peut également fonctionner comme application de bureau sur le système d'exploitation Windows Server. Par exemple, si vous prévoyez de faire fonctionner l'agent de bureau dans un environnement de serveur terminal, vous devez installer l'agent de bureau au lieu de l'agent serveur."
+
+#: ../../index.rst:24
+msgid "Hard Drive - 100MB"
+msgstr "Disque dur - 100MB"
+
+#: ../../index.rst:24
+msgid "50MB for the installed program"
+msgstr "50 Mo pour le programme installé"
+
+#: ../../index.rst:25
+msgid "at least 50MB for the operation of cache folder"
+msgstr "au moins 50 Mo pour le fonctionnement du dossier de cache"
+
+#: ../../index.rst:26
+msgid "CPU - No specific requirement (Intel/AMD x86/x64)"
+msgstr "CPU - Aucune exigence spécifique (Intel/AMD x86/x64)"
+
+#: ../../index.rst:27
+msgid "Internet Connection"
+msgstr "Connexion Internet"
+
+#: ../../index.rst:31
+msgid "This guide is written against Windows Client agent version |release|"
+msgstr "Ce guide est rédigé pour la version de l'agent client Windows |release|"
+

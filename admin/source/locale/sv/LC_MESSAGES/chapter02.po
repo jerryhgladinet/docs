@@ -1,0 +1,2430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Cluster Administration"
+msgstr "Klusteradministration"
+
+#: ../../chapter02.rst:7
+msgid "The Basics"
+msgstr "Grundläggande"
+
+#: ../../chapter02.rst:9
+msgid ""
+"To access your Cluster Administration features, log in to the Web Portal "
+"on the server. **The description in this guide presumes that you are "
+"signed in as the Master Administrator** (aka., Cluster Administrator, "
+"Server Administrator). Some of the options listed may not be available if"
+" you are logged in with different permissions (e.g. Delegated "
+"Administrator). In this document the |prodname| will also be referred to "
+"as simply, Cluster Server."
+msgstr "För att komma åt dina klusteradministrationsfunktioner, logga in på webbportalen på servern. **Beskrivningen i den här guiden förutsätter att du är inloggad som huvudadministratör** (även känd som klusteradministratör, serveradministratör). Vissa av de alternativ som listas kanske inte är tillgängliga om du är inloggad med andra behörigheter (t.ex. delegerad administratör). I detta dokument kommer |prodname| också att refereras till som enbart, klusterserver."
+
+#: ../../chapter02.rst:13
+msgid ""
+"The Web Portal URL is the server's DNS name, the IP Address or local host"
+" if you are on the server console."
+msgstr "Webbportalens URL är serverns DNS-namn, IP-adressen eller localhost om du är på serverkonsolen."
+
+#: ../../chapter02.rst:18
+msgid "**LOGIN SCREEN**"
+msgstr "**INLOGGNINGSSKÄRM**"
+
+#: ../../chapter02.rst:22
+msgid ""
+"At the bottom of the Login screen, there is version information, which "
+"will be useful to see which version you have installed."
+msgstr "Längst ned på inloggningsskärmen finns versionsinformation, vilket är användbart för att se vilken version du har installerat."
+
+#: ../../chapter02.rst:25
+msgid ""
+"The following graphic describes the various icons and components of the "
+"Administrator Dashboard and its sub-sections. Please refer to it as you "
+"read this guide to determine how to access various features."
+msgstr "Följande grafik beskriver de olika ikonerna och komponenterna i administratörspanelen och dess underavsnitt. Vänligen hänvisa till den när du läser den här guiden för att avgöra hur du får tillgång till olika funktioner."
+
+#: ../../chapter02.rst:30
+msgid "**CLUSTER MANAGER DASHBOARD**"
+msgstr "**KLUSTERHANTERING DASHBOARD**"
+
+#: ../../chapter02.rst:32
+msgid ""
+"After logging in, you can access the Cluster Manager Dashboard by "
+"clicking \"Cluster Dashboard\" icon **(1)**."
+msgstr "Efter att ha loggat in kan du komma åt instrumentpanelen för klusterhanteraren genom att klicka på ikonen \"Klusterinstrumentpanel\" **(1)**."
+
+#: ../../chapter02.rst:34
+msgid ""
+"By clicking the folder icon **(2)** In the top right of the interface you"
+" can toggle between the File Browser and Cluster Manager views.  The "
+"**File Browser** (My Files) view of the interface gives you access to "
+"your shared and unshared folders. This is also where you can create "
+"folders and upload files and folders for access. When the cluster "
+"administrator clicks the folder icon to get into the files and folder's "
+"view, the files and folders belong to the default tenant."
+msgstr "Genom att klicka på mappikonen **(2)** i det övre högra hörnet av gränssnittet kan du växla mellan vyerna för Filbläddrare och Klusthanterare. Vy för **Filbläddrare** (Mina Filer) i gränssnittet ger dig tillgång till dina delade och ej delade mappar. Det är också här du kan skapa mappar och ladda upp filer och mappar för åtkomst. När klusteradministratören klickar på mappikonen för att komma till filer och mappars vy, tillhör filerna och mapparna den förvalda klienten."
+
+#: ../../chapter02.rst:39
+msgid ""
+"The cluster administrator will not be able to access files and folders "
+"that are not in the scope of the default tenant. To access files and "
+"folders that belong to a specific tenant, the web portal login has to be "
+"that of the tenant. So basically the cluster administrator can do "
+"administration work for a tenant that is under management. However, it is"
+" not easy for the cluster administrator to see the files and folders for "
+"that specific tenant until he/she gets the permission and the login "
+"credentials."
+msgstr "Klusteradministratören kommer inte att kunna komma åt filer och mappar som inte ingår i standardhyresgästens omfattning. För att komma åt filer och mappar som tillhör en specifik hyresgäst måste webbportalens inloggning vara densamma som för hyresgästen. Så i grund och botten kan klusteradministratören utföra administrativa arbetsuppgifter för en hyresgäst som är under förvaltning. Det är dock inte lätt för klusteradministratören att se filerna och mapparna för den specifika hyresgästen förrän han/hon får behörighet och inloggningsuppgifter."
+
+#: ../../chapter02.rst:43
+msgid ""
+"The Cluster Manager (aka., Dashboard) allows you to manage Tenants "
+"**(3)**, Cluster Branding **(4)**, Reports **(5)**, and Group Policies "
+"**(6)**."
+msgstr "Klusterhanteraren (även känd som Dashboard) låter dig hantera Hyresgäster **(3)**, Klustermärkning **(4)**, Rapporter **(5)** och Grupprinciper **(6)**."
+
+#: ../../chapter02.rst:47
+msgid ""
+"At a high level, the |prodname| web browser management interface allows "
+"you to manage clients (Tenants) and the overall system performance and "
+"statistics reports."
+msgstr "På en övergripande nivå låter |prodname| webbläsarhanteringsgränssnittet dig hantera klienter (hyresgäster) samt övergripande systemprestanda och statistikrapporter."
+
+#: ../../chapter02.rst:51
+msgid "**EXTERNAL DNS**"
+msgstr "**EXTERN DNS**"
+
+#: ../../chapter02.rst:53
+msgid ""
+"External DNS (External URL) is a very important property. It is used in "
+"directing how outside remote clients connect to the Cluster Server. It is"
+" also used in various email templates. If this property is not properly "
+"configured, the email template may be using IP address or NETBIOS name as"
+" the URL link."
+msgstr "Extern DNS (Extern URL) är en mycket viktig egenskap. Den används för att styra hur externa fjärrklienter ansluter till klusterservern. Den används också i olika e-postmallar. Om denna egenskap inte är korrekt konfigurerad kan e-postmallen använda IP-adress eller NETBIOS-namn som URL-länk."
+
+#: ../../chapter02.rst:55
+msgid ""
+"To configure this setting, you must have a DNS name and SSL certificate "
+"setup; therefore, you can postpone the configuration of your DNS until "
+"you are ready."
+msgstr "För att konfigurera denna inställning måste du ha ett DNS-namn och SSL-certifikat inställt; därför kan du skjuta upp konfigurationen av din DNS tills du är redo."
+
+#: ../../chapter02.rst:57
+msgid "**Related tasks**"
+msgstr "**Relaterade uppgifter**"
+
+#: ../../chapter02.rst:59
+msgid ""
+"Configure the DNS registration to point a DNS name to the public static "
+"IP address of the Cluster Server."
+msgstr "Konfigurera DNS-registreringen för att peka ett DNS-namn till den offentliga statiska IP-adressen för klusterservern."
+
+#: ../../chapter02.rst:60
+msgid "Configure the IIS “Default Web Site” to bind to an SSL certificate."
+msgstr "Konfigurera IIS \"Default Web Site\" för att binda till ett SSL-certifikat."
+
+#: ../../chapter02.rst:65
+msgid "Tenant Manager"
+msgstr "Hyresgästhanterare"
+
+#: ../../chapter02.rst:67 ../../chapter02.rst:122
+msgid "``Cluster Manager`` > ``Tenant Manager``"
+msgstr "``Klusterhanterare`` > ``Hyresgästhanterare``"
+
+#: ../../chapter02.rst:71
+msgid ""
+"A tenant is usually mapped to a client of yours, a company, or a division"
+" of a company."
+msgstr "En hyresgäst är vanligtvis kopplad till en av dina kunder, ett företag eller en division inom ett företag."
+
+#: ../../chapter02.rst:73
+msgid ""
+"The Cluster Server is multi-tenant capable, but can also be used for a "
+"single Tenant. To add or manage your tenants, click \"Tenants Count\" in "
+"your Dashboard to access Tenant Manager."
+msgstr "Klusterservern är kapabel till flera hyresgäster, men kan också användas för en enda hyresgäst. För att lägga till eller hantera dina hyresgäster, klicka på \"Antal hyresgäster\" i din instrumentpanel för att komma åt Hyresgästhanteraren."
+
+#: ../../chapter02.rst:78
+msgid "TENANT MANAGER"
+msgstr "HYRESVÄRDHANTERARE"
+
+#: ../../chapter02.rst:80
+msgid ""
+"You can access other important settings from context menu (Each tenant "
+"block has a tenant specific context menu):"
+msgstr "Du kan komma åt andra viktiga inställningar från snabbmenyn (Varje hyresgästblock har en hyresspecifik snabbmeny):"
+
+#: ../../chapter02.rst:82
+msgid "Manage Tenant"
+msgstr "Hantera hyresgäst"
+
+#: ../../chapter02.rst:83
+msgid "Force full scan for storage quota usage,"
+msgstr "Tvinga fullständig skanning för lagringskvotanvändning,"
+
+#: ../../chapter02.rst:84
+msgid "Change Tenant Admin Password,"
+msgstr "Ändra lösenord för administratör av hyresgäst"
+
+#: ../../chapter02.rst:85
+msgid "Edit Existing Default Storage"
+msgstr "Redigera befintlig standardlagring"
+
+#: ../../chapter02.rst:86
+msgid "Delete Tenant"
+msgstr "Ta bort hyresgäst"
+
+#: ../../chapter02.rst:88
+msgid "**Manage Tenant**"
+msgstr "**Hantera hyresgäst**"
+
+#: ../../chapter02.rst:90
+msgid ""
+"This will drill deeper into the per-tenant management page view. By "
+"clicking the “Manage Tenant” option, the Cluster Admin sees the Tenant "
+"Dashboard as well as additional options to configure the Tenant settings."
+msgstr "Detta kommer att gå djupare in på sidvyn för hantering per hyresgäst. Genom att klicka på alternativet \"Hantera hyresgäst\" ser klusteradministratören instrumentpanelen för hyresgästen samt ytterligare alternativ för att konfigurera inställningarna för hyresgästen."
+
+#: ../../chapter02.rst:92
+msgid "**Force full scan for storage quota usage**"
+msgstr "**Tvinga fullständig skanning för lagringskvotanvändning**"
+
+#: ../../chapter02.rst:94
+msgid ""
+"This will start a full scan of storage usage for the Tenant. As files are"
+" uploaded, modified or deleted during daily operation, the Tenant Quota "
+"is calculated. To ensure that the quota value shown for the tenant is "
+"accurate, it is important that you occasionally force a full scan of the "
+"tenant's quota usage."
+msgstr "Detta kommer att starta en fullständig skanning av lagringsanvändningen för klienten. När filer laddas upp, ändras eller raderas under den dagliga driften, beräknas klientens kvot. För att säkerställa att kvotvärdet som visas för klienten är korrekt, är det viktigt att du då och då tvingar fram en fullständig skanning av klientens kvotanvändning."
+
+#: ../../chapter02.rst:96
+msgid "**Change Tenant Admin Password**"
+msgstr "**Ändra lösenord för hyresgästadministratör**"
+
+#: ../../chapter02.rst:98
+msgid ""
+"Provides a method for the Cluster Administrator to assist the Tenant "
+"Administrator with resetting passwords."
+msgstr "Tillhandahåller en metod för klusteradministratören att hjälpa administratören för hyresgästen med att återställa lösenord."
+
+#: ../../chapter02.rst:100
+msgid "**Edit Existing default storage**"
+msgstr "**Redigera befintlig standardlagring**"
+
+#: ../../chapter02.rst:102
+msgid ""
+"When a Tenant outgrows their allocation of storage space or needs to move"
+" to a different storage location, this setting allows the Cluster "
+"Administrator to change the storage location."
+msgstr "När en hyresgäst växer ur sin tilldelade lagringsutrymme eller behöver flytta till en annan lagringsplats, tillåter denna inställning att klusteradministratören kan ändra lagringsplatsen."
+
+#: ../../chapter02.rst:106
+msgid ""
+"When changing a storage location for a Tenant, you typically manually "
+"copy the folder to the new location then re-configure the default storage"
+" location."
+msgstr "När du ändrar en lagringsplats för en hyresgäst brukar du vanligtvis kopiera mappen manuellt till den nya platsen och sedan omkonfigurera standardlagringsplatsen."
+
+#: ../../chapter02.rst:110
+msgid ""
+"If you want to change the tenant's default storage location, make sure "
+"you copy tenant's file AS-IS from the source folder to its destination "
+"folder before you change the storage location here."
+msgstr "Om du vill ändra standardlagringsplatsen för hyresgästen, se till att du kopierar hyresgästens fil SÅSOM DEN ÄR från källmappen till destinationsmappen innan du ändrar lagringsplatsen här."
+
+#: ../../chapter02.rst:112
+msgid "**Delete Tenant**"
+msgstr "**Ta bort hyresgäst**"
+
+#: ../../chapter02.rst:114
+msgid "Deletes the tenant."
+msgstr "Raderar hyresgästen."
+
+#: ../../chapter02.rst:118
+msgid ""
+"Please reference the :ref:`tenant_administration` section for more "
+"details about the Tenant Management."
+msgstr "Vänligen se :ref:`tenant_administration` avsnittet för mer information om Tenant-hantering."
+
+#: ../../chapter02.rst:121
+msgid "Create a New Tenant"
+msgstr "Skapa en ny hyresgäst"
+
+#: ../../chapter02.rst:124
+msgid ""
+"Click on the \"Plus\" sign in the ``New Tenant`` to start the creation of"
+" a new tenant."
+msgstr "Klicka på \"Plus\"-tecknet i ``Ny hyresgäst`` för att påbörja skapandet av en ny hyresgäst."
+
+#: ../../chapter02.rst:130
+msgid "CREATING A NEW TENANT"
+msgstr "SKAPA EN NY HYRESGÄST"
+
+#: ../../chapter02.rst:132
+msgid ""
+"The first screen under \"New Tenant\" is asking for \"Start from "
+"Scratch\" or \"Import and migrate data from  Anchor\"."
+msgstr "Den första skärmen under \"Ny hyresgäst\" frågar om du vill \"Börja från grunden\" eller \"Importera och migrera data från Anchor\"."
+
+#: ../../chapter02.rst:134
+msgid ""
+"When you select \"Add New Tenant from Scratch\", The next screen is "
+"asking for a few parameters related to who the tenant is."
+msgstr "När du väljer \"Lägg till ny hyresgäst från grunden\" är nästa skärm en förfrågan om några parametrar relaterade till vem hyresgästen är."
+
+#: ../../chapter02.rst:140
+msgid "TENANT MANAGER SETTINGS 1"
+msgstr "INSTÄLLNINGAR FÖR HYRESVÄRDHANTERING 1"
+
+#: ../../chapter02.rst:142
+msgid ""
+"**\"Create with Default Settings\"** will get it done and the tenant will"
+" be granted all default settings, including the storage location "
+"allocation."
+msgstr "**\"Skapa med standardinställningar\"** kommer att utföra det och klienten kommer att få alla standardinställningar, inklusive tilldelning av lagringsplats."
+
+#: ../../chapter02.rst:144
+msgid ""
+"**\"Continue\"** allows you to customize the settings and storage "
+"location."
+msgstr "**\"Fortsätt\"** låter dig anpassa inställningarna och lagringsplatsen."
+
+#: ../../chapter02.rst:146
+msgid "If you pick **\"Continue\"**,"
+msgstr "Om du väljer **\"Fortsätt\"**"
+
+#: ../../chapter02.rst:148
+msgid ""
+"The second screen under \"Add Tenant from Scratch\" is asking for the "
+"division of work between the cluster administrator and the tenant "
+"administrator."
+msgstr "Den andra skärmen under \"Lägg till hyresgäst från grunden\" frågar efter arbetsfördelningen mellan klusteradministratören och hyresgästadministratören."
+
+#: ../../chapter02.rst:153
+msgid "TENANT MANAGER SETTINGS 2"
+msgstr "INSTÄLLNINGAR FÖR HYRESVÄRDHANTERING 2"
+
+#: ../../chapter02.rst:155
+msgid ""
+"The third screen under \"Add Tenant\" is asking where the root storage "
+"for the tenant will be at."
+msgstr "Den tredje skärmen under \"Lägg till hyresgäst\" frågar var roten för lagringen för hyresgästen kommer att vara."
+
+#: ../../chapter02.rst:161
+msgid "ADD TENANT STORAGE OPTIONS 1"
+msgstr "LÄGG TILL HYRESGÄSTLAGRINGSALTERNATIV 1"
+
+#: ../../chapter02.rst:163
+msgid "**Automatically assign a sub-folder from cluster default tenant**"
+msgstr "**Tilldela automatiskt en undermapp från klustrets standardhyresgäst**"
+
+#: ../../chapter02.rst:165
+msgid ""
+"When selected, the tenant's default storage will be a sub-folder inside "
+"the cluster default tenant's storage folder. It is easier to manage when "
+"you don't need per-tenant storage access credentials. This is the easiest"
+" option because if every tenant is allocated a sub-folder from the "
+"default tenant, then the default tenant storage location is a single "
+"place to take care of all of your storage needs. The storage location is "
+"sandboxed away from the default tenant so even though from a physical "
+"location's perspective, it is a sub folder of the default tenant, but the"
+" default tenant will not be able to see the folder from |prodname|."
+msgstr "När den är vald kommer hyresgästens standardlagring att vara en undermapp inuti klustrets standardhyresgästs lagringsmapp. Det är enklare att hantera när du inte behöver särskilda lagringsåtkomstuppgifter per hyresgäst. Detta är det enklaste alternativet eftersom om varje hyresgäst tilldelas en undermapp från standardhyresgästen, då är standardhyresgästens lagringsplats en enda plats att ta hand om alla dina lagringsbehov. Lagringsplatsen är avskild från standardhyresgästen så även om den ur ett fysiskt lägesperspektiv är en undermapp till standardhyresgästen, kommer standardhyresgästen inte att kunna se mappen från |prodname|."
+
+#: ../../chapter02.rst:168
+msgid "**Use existing file server or local disk as default storage**"
+msgstr "**Använd befintlig filserver eller lokal disk som standardlagring**"
+
+#: ../../chapter02.rst:170
+#, python-format
+msgid ""
+"Using this option, you can connect the tenant's root folder to a file "
+"server network share. If you want the tenant users to continue to share "
+"file server network share outside of |prodname|, it is recommended you "
+"use the \"Import Network Share\" feature in \"Team Folder\" instead of "
+"pointing the default storage to the file server share, because the "
+"Cluster Server will assume it has 100% of the control of the storage "
+"location."
+msgstr "Genom att använda det här alternativet kan du ansluta hyresgästens rotmapp till en nätverksdelning på filservern. Om du vill att hyresgästens användare ska fortsätta att dela nätverksdelning på filservern utanför |prodname|, rekommenderas du att använda funktionen \"Importera nätverksdelning\" i \"Team Folder\" istället för att peka standardlagringen till filserverns delning, eftersom klusterservern kommer att anta att den har 100% kontroll över lagringsplatsen."
+
+#: ../../chapter02.rst:175
+msgid "ADD TENANT STORAGE OPTIONS 2"
+msgstr "LÄGG TILL HYRESGÄSTLAGRINGSALTERNATIV 2"
+
+#: ../../chapter02.rst:177
+msgid "**Use Cloud Storage as default storage**"
+msgstr "**Använd molnlagring som standardlagring**"
+
+#: ../../chapter02.rst:179
+msgid ""
+"When using this option, you can connect the tenant's root folder to "
+"Amazon S3, Windows Azure Blob, OpenStack storage as well as others."
+msgstr "När du använder det här alternativet kan du ansluta hyresgästens rotmapp till Amazon S3, Windows Azure Blob, OpenStack-lagring samt andra."
+
+#: ../../chapter02.rst:184
+msgid "CLOUD STORAGE SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR MOLNLAGRING"
+
+#: ../../chapter02.rst:186
+msgid "**Using Amazon S3 bucket for tenant storage**"
+msgstr "**Använda Amazon S3-hink för hyresgästlagring**"
+
+#: ../../chapter02.rst:188
+msgid ""
+"``Tenant Manager`` > ``{Create New Tenant}`` > ``Use Cloud Storage as "
+"Default Storage`` > ``Amazon S3``"
+msgstr "``Tenant Manager`` > ``{Skapa ny hyresgäst}`` > ``Använd molnlagring som standardlagring`` > ``Amazon S3``"
+
+#: ../../chapter02.rst:190
+msgid ""
+"You can pick Amazon S3 as the target storage for the tenant if you want "
+"to."
+msgstr "Du kan välja Amazon S3 som mållagring för hyresgästen om du vill."
+
+#: ../../chapter02.rst:195
+msgid "AMAZON S3"
+msgstr "AMAZON S3"
+
+#: ../../chapter02.rst:197
+msgid ""
+"After you pick the Amazon S3, the first screen will be asking for "
+"``Access Key`` and ``Secret Key``."
+msgstr "Efter att du har valt Amazon S3 kommer den första skärmen att be om ``Access Key`` och ``Secret Key``."
+
+#: ../../chapter02.rst:200
+msgid ""
+"You will need to log into your AWS console to get the access key and "
+"secret key. You can use master access key and secret key, by default the "
+"master key has default access to all buckets. You can also create an IAM "
+"user and use the key from a specific IAM user. However, by default, the "
+"IAM user is locked out of access to any bucket until bucket access policy"
+" is created and attached to the IAM user."
+msgstr "Du behöver logga in på din AWS-konsol för att få tillgång till accessnyckeln och den hemliga nyckeln. Du kan använda huvudaccessnyckeln och den hemliga nyckeln, som standard har huvudnyckeln tillgång till alla hinkar. Du kan också skapa en IAM-användare och använda nyckeln från en specifik IAM-användare. Men som standard är IAM-användaren utestängd från tillgång till någon hink tills en hinktillträdesspolicy har skapats och kopplats till IAM-användaren."
+
+#: ../../chapter02.rst:202
+msgid ""
+"If you use IAM user, here is a sample S3 Bucket access policy to grant an"
+" IAM user to a specific bucket. As shown below, the policy gives an IAM "
+"user the ability to use bucket \"user3onlybucket\""
+msgstr "Om du använder IAM-användare, här är ett exempel på en S3 Bucket-åtkomstpolicy för att ge en IAM-användare tillgång till en specifik hink. Som visas nedan ger policyn en IAM-användare möjligheten att använda hinken \"user3onlybucket\""
+
+#: ../../chapter02.rst:256
+msgid ""
+"After it is all setup properly, you can use the IAM user's access key id "
+"and secret access key to connect to the Amazon S3 bucket."
+msgstr "När allt är korrekt inställt kan du använda IAM-användarens åtkomstnyckel-id och hemliga åtkomstnyckel för att ansluta till Amazon S3-hinken."
+
+#: ../../chapter02.rst:261
+msgid "AMAZON S3 USER'S ACCESS KEY"
+msgstr "AMAZON S3 ANVÄNDARENS ÅTKOMSTNYCKEL"
+
+#: ../../chapter02.rst:263
+msgid ""
+"When the correct access credentials are given, the next screen is to "
+"select a bucket from Amazon S3."
+msgstr "När rätt åtkomstuppgifter har angetts är nästa skärm att välja en bucket från Amazon S3."
+
+#: ../../chapter02.rst:268
+msgid "AMAZON S3 SELECTING A BUCKET"
+msgstr "AMAZON S3 VÄLJA EN HINK"
+
+#: ../../chapter02.rst:270
+msgid ""
+"You can pre-create a bucket in Amazon S3 and then pick the bucket in the "
+"current page. After that, it will take a short while for the system to be"
+" ready for the new tenant created."
+msgstr "Du kan förskapa en bucket i Amazon S3 och sedan välja den bucket på den aktuella sidan. Efter det kommer det att ta en kort stund för systemet att vara redo för den nya hyresgästen som skapats."
+
+#: ../../chapter02.rst:275
+msgid "FINISHING AMAZON S3 CONFIGURATION"
+msgstr "SLUTFÖR KONFIGURATION AV AMAZON S3"
+
+#: ../../chapter02.rst:277
+msgid ""
+"After the tenant is created, you will be looking at the dashboard of the "
+"tenant."
+msgstr "Efter att klienten har skapats kommer du att titta på klientens instrumentpanel."
+
+#: ../../chapter02.rst:280
+msgid "**Using Windows Azure Blob Storage for tenant storage**"
+msgstr "**Använda Windows Azure Blob Storage för hyresgästlagring**"
+
+#: ../../chapter02.rst:282
+msgid ""
+"In addition to Amazon S3 bucket, you can also use Windows Azure Blob "
+"Storage as the tenant's back end storage."
+msgstr "Utöver Amazon S3-hink kan du också använda Windows Azure Blob Storage som hyresgästens bakre lagring."
+
+#: ../../chapter02.rst:284
+msgid ""
+"Similar to the above Amazon S3 setup process, you can pick \"Windows "
+"Azure Blob\" as the option during the tenant creation process."
+msgstr "Liknande processen för att sätta upp Amazon S3 ovan, kan du välja \"Windows Azure Blob\" som alternativ under processen för att skapa en tenant."
+
+#: ../../chapter02.rst:289
+msgid "WINDOWS AZURE BLOB SETUP"
+msgstr "WINDOWS AZURE BLOB INSTALLATION"
+
+#: ../../chapter02.rst:291
+msgid "The next screen will be asking for ``Blob URL`` and the ``Primary key``."
+msgstr "Nästa skärm kommer att be om ``Blob URL`` och ``Primärnyckeln``."
+
+#: ../../chapter02.rst:296
+msgid "AZURE BLOB URL AND PRIMARY KEY"
+msgstr "AZURE BLOB-URL OCH PRIMÄRNYCKEL"
+
+#: ../../chapter02.rst:298
+msgid "You can get this information from the Azure Portal."
+msgstr "Du kan få denna information från Azure Portal."
+
+#: ../../chapter02.rst:303
+msgid "AZURE BLOB ACCESS KEYS"
+msgstr "AZURE BLOB ÅTKOMSTNYCKLAR"
+
+#: ../../chapter02.rst:305
+msgid ""
+"Here is a simple mapping between Azure portal and the parameters it asks "
+"for."
+msgstr "Här är en enkel kartläggning mellan Azure-portalen och de parametrar den begär."
+
+#: ../../chapter02.rst:310
+msgid "AZURE BLOB ACCOUNT SETTINGS"
+msgstr "AZURE BLOB-KONTOINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:312
+msgid ""
+"After you put in the account information, the next screen asks to pick a "
+"container to use."
+msgstr "Efter att du har angett kontoinformationen, ber nästa skärm dig att välja en behållare att använda."
+
+#: ../../chapter02.rst:317
+msgid "AZURE BLOB ACCOUNT INFORMATION"
+msgstr "AZURE BLOB-KONTOINFORMATION"
+
+#: ../../chapter02.rst:319
+msgid ""
+"After the container information is all set, the tenant account will be "
+"created."
+msgstr "Efter att containerinformationen är inställd kommer hyresgästkontot att skapas."
+
+#: ../../chapter02.rst:324
+msgid "Cluster Branding"
+msgstr "Klusterprofilering"
+
+#: ../../chapter02.rst:326
+msgid "``Cluster Manager`` > ``Cluster Branding``"
+msgstr "``Klusterhanteraren`` > ``Klusterprofilering``"
+
+#: ../../chapter02.rst:328
+msgid ""
+"Cluster Branding is for changing the logo, bitmaps and other branding "
+"related information. There are two branding supports. One is self-service"
+" built-in branding, which is completely controlled by the “Cluster "
+"Branding” settings on the “Cluster Manager”. The other is full-branding "
+"service. Both rely on the “Cluster Branding” to change the look-and-feel "
+"of the web portal."
+msgstr "Cluster Branding används för att ändra logotyp, bitmappar och annan varumärkesrelaterad information. Det finns två typer av varumärkesstöd. Det ena är självbetjäning av inbyggd branding, som helt kontrolleras av \"Cluster Branding\"-inställningarna i \"Cluster Manager\". Det andra är fullständig brandingtjänst. Båda är beroende av \"Cluster Branding\" för att ändra utseendet och känslan av webbportalen."
+
+#: ../../chapter02.rst:331
+msgid ""
+"Built-in branding will work with white-label clients, which upon the "
+"first connection to the cluster, will download the branding related "
+"information and  use the branding related information. As compared to "
+"full-branding service, the full branding clients will have artworks, logo"
+" bitmaps and related information burned into the client binaries."
+msgstr "Inbyggd branding kommer att fungera med vitmärkesklienter, som vid första anslutningen till klustret kommer att ladda ner information relaterad till branding och använda denna information. Jämfört med fullständig brandingtjänst kommer klienter med full branding att ha konstverk, logotypbitmappar och relaterad information inbränd i klientbinärerna."
+
+#: ../../chapter02.rst:334
+msgid "General"
+msgstr ""
+
+#: ../../chapter02.rst:336
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``General``"
+msgstr "``Klusterhanteraren`` > ``Klusterprofilering`` > ``Allmänt``"
+
+#: ../../chapter02.rst:338
+msgid ""
+"Under the ``General`` tab you can specify the name and other settings as "
+"specified below."
+msgstr "Under fliken ``Allmänt`` kan du ange namn och andra inställningar som anges nedan."
+
+#: ../../chapter02.rst:343
+msgid "CLUSTER BRANDING"
+msgstr "KLUSTER PROFILERING"
+
+#: ../../chapter02.rst:345
+msgid "**Product Name (1)**"
+msgstr "**Produktnamn (1)**"
+
+#: ../../chapter02.rst:347
+msgid ""
+"This is where you will specify what you would like to call the product. "
+"This is the name that users will see when they login either in web portal"
+" or the client applications. To access branding settings click \"Cluster "
+"Branding\" in Dashboard then \"EDIT\" and change the setting you want. "
+"Don't forget to save your settings. You can also choose a color theme "
+"which you would like your users to see when they login to the portal. You"
+" can choose a color theme that is close to your company colors."
+msgstr "Det här är platsen där du kan ange vad du vill kalla produkten. Detta är namnet som användarna kommer att se när de loggar in antingen via webbportalen eller klientapplikationerna. För att komma åt varumärkesinställningarna klickar du på \"Klusterprofilering\" i instrumentpanelen och sedan på \"REDIGERA\" och ändrar de inställningar du vill. Glöm inte att spara dina inställningar. Du kan också välja ett färgtema som du vill att dina användare ska se när de loggar in på portalen. Du kan välja ett färgtema som ligger nära ditt företags färger."
+
+#: ../../chapter02.rst:349
+msgid "**Home Page URL (2)**"
+msgstr "**Hemsida URL (2)**"
+
+#: ../../chapter02.rst:351
+msgid "This is the URL of your 'Home Page' page."
+msgstr "Detta är URL:en till din 'Startsida'."
+
+#: ../../chapter02.rst:356
+msgid "HOME PAGE URL AND COPYRIGHT STATEMENT"
+msgstr ""
+
+#: ../../chapter02.rst:359
+msgid "**'Copyright' Statement (3)**"
+msgstr "**'Upphovsrätt' Uttalande (3)**"
+
+#: ../../chapter02.rst:361
+msgid "This is the contents of your 'Copyright' statement."
+msgstr "Detta är innehållet i ditt 'Upphovsrätt'-uttalande."
+
+#: ../../chapter02.rst:364
+msgid "Web Portal"
+msgstr "Webbportal"
+
+#: ../../chapter02.rst:366
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``"
+msgstr "``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``"
+
+#: ../../chapter02.rst:370
+msgid ""
+"In previous builds, the best way to get icons to work is by putting the "
+"icon files on the same server and reference the icons via a relative "
+"link."
+msgstr "I tidigare versioner var det bästa sättet att få ikoner att fungera genom att placera ikonfilerna på samma server och referera till ikonerna via en relativ länk."
+
+#: ../../chapter02.rst:372
+msgid ""
+"For example, you can create a sub folder under the Install Folder of the "
+"Cluster Server, such as under root/imagetest folder. The dimensions for "
+"all icons for each setting under web portal should match what is "
+"displayed for each setting. The branding of the icons and images require "
+"the icons and images with the same width/height as specified or same "
+"aspect ratio if the resolution is higher."
+msgstr "Till exempel kan du skapa en undermapp under installationsmappen för klusterservern, som under root/imagetest-mappen. Dimensionerna för alla ikoner för varje inställning under webbportalen bör matcha det som visas för varje inställning. Märkningen av ikonerna och bilderna kräver ikoner och bilder med samma bredd/höjd som specificerat eller samma bildförhållande om upplösningen är högre."
+
+#: ../../chapter02.rst:374
+msgid ""
+"In later builds, the icons used are what-you-see-is-what-you-get and you "
+"can upload those icon sets."
+msgstr "I senare versioner är de ikoner som används vad-du-ser-är-vad-du-får och du kan ladda upp dessa ikonuppsättningar."
+
+#: ../../chapter02.rst:379
+msgid "WEB PORTAL SETTINGS"
+msgstr "WEBBPORTALINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:382
+msgid "**Application Icon (1)**"
+msgstr "**Programikon (1)**"
+
+#: ../../chapter02.rst:384
+msgid ""
+"From the Web portal section of cluster branding, you can change the "
+"application icon. This is the image that is displayed next to the product"
+" name in the web portal."
+msgstr "Från webbportalens avsnitt för klusterprofilering kan du ändra applikationsikonen. Detta är bilden som visas bredvid produktnamnet i webbportalen."
+
+#: ../../chapter02.rst:386
+msgid "**Tenant Logo (2)**"
+msgstr "**Hyresgästens logotyp (2)**"
+
+#: ../../chapter02.rst:388
+msgid "This is where the logo that represents each tenant should be uploaded."
+msgstr "Detta är var logotypen som representerar varje hyresgäst bör laddas upp."
+
+#: ../../chapter02.rst:390
+msgid "**Drive Icon (3)**"
+msgstr "**Enhetsikon (3)**"
+
+#: ../../chapter02.rst:392
+msgid ""
+"This is the icon that will be used for the cloud drive. For example in "
+"the web portal tree view."
+msgstr "Det här är ikonen som kommer att användas för molnlagringen. Till exempel i webbportalens trädvy."
+
+#: ../../chapter02.rst:394
+msgid "**Logo Url (4) & Login Page Left Image (5)**"
+msgstr "**Logotyp-URL (4) & Inloggningssida Vänster Bild (5)**"
+
+#: ../../chapter02.rst:396
+msgid ""
+"Please follow the same steps for branding settings for 'Login Background "
+"Image', 'File Share Stamp Icon', 'IOS Client App ID', 'Login Page Note', "
+"'Change Password URL', 'Tutorial Page URL'."
+msgstr "Vänligen följ samma steg för varumärkesinställningar för 'Inloggningsbakgrundsbild', 'Filutdelningsstämpelikon', 'IOS-klientapp-ID', 'Inloggningssidanotering', 'URL för lösenordsändring', 'URL för instruktionssida'."
+
+#: ../../chapter02.rst:400
+msgid "Client Download"
+msgstr "Klientnedladdning"
+
+#: ../../chapter02.rst:402
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Client Download``"
+msgstr "``Klusterhanterare`` > ``Klusterprofilering`` > ``Klientnedladdning``"
+
+#: ../../chapter02.rst:404
+msgid "You can choose not to show the download link for some clients here."
+msgstr "Du kan välja att inte visa nedladdningslänken för vissa klienter här."
+
+#: ../../chapter02.rst:409
+msgid "CLIENT DOWNLOAD SETTINGS"
+msgstr "KUNDLADDNINGSINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:412
+msgid "**Mobile Clients Download Links**"
+msgstr "**Mobilklienters nedladdningslänkar**"
+
+#: ../../chapter02.rst:414
+msgid ""
+"Once you brand your own iOS client and/or Android Client you can point "
+"the download link to your own AppStore and Google Play locations."
+msgstr "När du har märkt din egen iOS-klient och/eller Android-klient kan du peka nedladdningslänken till dina egna AppStore- och Google Play-platser."
+
+#: ../../chapter02.rst:420
+msgid "CLIENT DOWNLOAD LINKS SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR NEDLADDNINGSLÄNKAR FÖR KLIENT"
+
+#: ../../chapter02.rst:424 ../../chapter02.rst:837
+msgid "Windows Client"
+msgstr "Windows-klient"
+
+#: ../../chapter02.rst:426
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``"
+msgstr "``Klusterhanteraren`` > ``Klusterprofilering`` > ``Windows-klient``"
+
+#: ../../chapter02.rst:428
+msgid ""
+"The application icon and drive icon URLs can be specified here. Also, you"
+" can put in your company name under 'Manufacturer Name' along with the "
+"'Contact Info' email. You also have the option here to create your own "
+"branded MSI Windows client. You can also use your own code signing "
+"certificate in order to digitally sign the MSI package. The advantage of "
+"creating your own MSI client package is that when users download and "
+"install the Windows Client you provide, they will see your company name "
+"along with your branding during the client installation."
+msgstr "Applikationsikonen och enhetsikons-URL:erna kan specificeras här. Du kan också ange ditt företagsnamn under 'Tillverkarnamn' tillsammans med 'Kontaktinformation'-e-posten. Här har du även möjlighet att skapa din egen varumärkesskyddade MSI Windows-klient. Du kan också använda ditt eget kodsigneringscertifikat för att digitalt signera MSI-paketet. Fördelen med att skapa ditt eget MSI-klientpaket är att när användare laddar ner och installerar Windows-klienten du tillhandahåller, kommer de att se ditt företagsnamn tillsammans med din branding under klientinstallationen."
+
+#: ../../chapter02.rst:430
+msgid ""
+"Windows client supports multiple languages. Some language packs are "
+"included and shipped with CentreStack. If you need to run the Windows "
+"client under a different language, you can set the UI Language there."
+msgstr "Windows-klienten stöder flera språk. Vissa språkpaket ingår och levereras med CentreStack. Om du behöver köra Windows-klienten på ett annat språk kan du ställa in användargränssnittets språk där."
+
+#: ../../chapter02.rst:435
+msgid "WINDOWS CLIENT BRANDING"
+msgstr "WINDOWS KLIENTANPASSNING"
+
+#: ../../chapter02.rst:437
+msgid ""
+"Once you clicked the \"Edit\" button to edit the Windows Client branding "
+"information, you will be able to provide EULA (End User License "
+"Agreement) and Code Signing Certificate."
+msgstr "När du har klickat på \"Redigera\"-knappen för att redigera informationen om Windows-klientens varumärkesprofilering kommer du att kunna tillhandahålla EULA (slutanvändarlicensavtal) och kodsigneringscertifikat."
+
+#: ../../chapter02.rst:442
+msgid "WINDOWS CLIENT BRANDING SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR VARUMÄRKESANPASSNING AV WINDOWS-KLIENT"
+
+#: ../../chapter02.rst:445
+msgid "**EULA (1)**"
+msgstr "**EULA (1)**"
+
+#: ../../chapter02.rst:447
+msgid "This will be a RTF file format as input."
+msgstr "Detta kommer att vara ett RTF-filformat som inmatning."
+
+#: ../../chapter02.rst:450
+msgid "**Code Signing Certificate (2)**"
+msgstr "**Kodsigneringscertifikat (2)**"
+
+#: ../../chapter02.rst:452
+msgid ""
+"You can acquire a code signing certificate from your code signing "
+"certificate vendor. Most SSL vendor also provide code signing "
+"certificate. Make sure you use SHA 256 (SHA2) as your digital signing "
+"certificate hash algorithm."
+msgstr "Du kan skaffa ett kodsigneringscertifikat från din leverantör av kodsigneringscertifikat. De flesta SSL-leverantörer tillhandahåller också kodsigneringscertifikat. Se till att du använder SHA 256 (SHA2) som hashalgoritm för ditt digitala signeringscertifikat."
+
+#: ../../chapter02.rst:454
+msgid ""
+"If your Code Signing certificate is already installed you can also use "
+"the option - ``Sign using cert in certificate store`` **(3)**"
+msgstr "Om ditt certifikat för kodsignering redan är installerat kan du också använda alternativet - ``Signera med certifikat i certifikatlagring`` **(3)**"
+
+#: ../../chapter02.rst:458 ../../chapter02.rst:877
+msgid "Mac Client"
+msgstr "Mac-klient"
+
+#: ../../chapter02.rst:460
+msgid ""
+"You can configure the MAC client and MAC client installation package "
+"branding under here."
+msgstr "Du kan konfigurera varumärkessättningen för MAC-klienten och installationspaketet för MAC-klienten här."
+
+#: ../../chapter02.rst:463
+msgid "**Client Branding**"
+msgstr "**Klientvarumärkning**"
+
+#: ../../chapter02.rst:468
+msgid "MAC CLIENT BRANDING"
+msgstr "MAC-KLIENT PROFILERING"
+
+#: ../../chapter02.rst:470
+msgid "**Installation Package Branding**"
+msgstr "**Installationspaket Branding**"
+
+#: ../../chapter02.rst:472
+msgid ""
+"You can brand the Mac software agent package as well. You will need to go"
+" to https://www.centrestack.com/, login as a partner and go to the "
+"\"Branding\" section to create a branding task. The task will be "
+"fulfilled and completed and a Mac software agent package will be "
+"available for download once the branding task completes. It may take a "
+"couple of days for the task to finish."
+msgstr "Du kan även märka Mac-programvaruagentpaketet. Du behöver gå till https://www.centrestack.com/, logga in som partner och gå till avsnittet \"Branding\" för att skapa en märkningsuppgift. Uppgiften kommer att uppfyllas och slutföras och ett Mac-programvaruagentpaket kommer att finnas tillgängligt för nedladdning när märkningsuppgiften är klar. Det kan ta ett par dagar för uppgiften att avslutas."
+
+#: ../../chapter02.rst:478
+msgid "MAC CLIENT BRANDING IN PARTNER PORTAL"
+msgstr "MAC-KLIENTANPASSNING I PARTNERPORTALEN"
+
+#: ../../chapter02.rst:483
+msgid ""
+"Mac software package branding is different from the Windows software "
+"package branding because the Mac software package branding will need to "
+"be done on a Mac machine. So the task will be created on the partner "
+"portal but will be completed asynchronously on a Mac machine."
+msgstr "Mac-programvarupaketets branding skiljer sig från branding för Windows-programvarupaket eftersom branding för Mac-programvarupaketet kommer att behöva utföras på en Mac-dator. Så uppgiften kommer att skapas på partnerportalen men kommer att slutföras asynkront på en Mac-dator."
+
+#: ../../chapter02.rst:488
+msgid "Emails"
+msgstr "E-poster"
+
+#: ../../chapter02.rst:490
+msgid ""
+"There are many places in the Cluster Manager that need to contact the "
+"users via email. So the “Emails” tab is used to set up the email "
+"templates used for contacting users via email."
+msgstr "Det finns många ställen i Klusthanteraren som behöver kontakta användarna via e-post. Så fliken \"E-post\" används för att ställa in e-postmallarna som används för att kontakta användare via e-post."
+
+#: ../../chapter02.rst:495
+msgid "EMAIL SETTINGS"
+msgstr "E-POSTINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:497
+msgid "**Welcome Email for New Tenant**"
+msgstr "**Välkomstmejl för Ny Hyresgäst**"
+
+#: ../../chapter02.rst:499
+msgid ""
+"This is the email sent to the new tenant when the tenant is created. The "
+"email is sent to the tenant administrator."
+msgstr "Detta är e-postmeddelandet som skickas till den nya hyresgästen när hyresgästen har skapats. E-postmeddelandet skickas till hyresgästens administratör."
+
+#: ../../chapter02.rst:502
+msgid "**Welcome Email for New Team User**"
+msgstr "**Välkomstmejl för ny teamanvändare**"
+
+#: ../../chapter02.rst:504
+msgid ""
+"The team user is a regular user in a tenant. This is the email template "
+"that is sent to the user when the user account is created."
+msgstr "Team-användaren är en vanlig användare i en hyresgäst. Detta är e-postmallen som skickas till användaren när användarkontot skapas."
+
+#: ../../chapter02.rst:507
+msgid "**Welcome Email for New Guest User**"
+msgstr "**Välkomstmejl för ny gästanvändare**"
+
+#: ../../chapter02.rst:509
+msgid ""
+"Guest user is a regular user in a tenant that doesn't have a home "
+"directory associated. So the guest user can only operate within shared "
+"files and folders from other regular users. This is the email template "
+"that is sent to the guest user when the guest user's account was "
+"provisioned."
+msgstr "Gästanvändare är en vanlig användare i en klient som inte har en hemkatalog associerad. Så gästanvändaren kan endast arbeta inom delade filer och mappar från andra vanliga användare. Detta är e-postmallen som skickas till gästanvändaren när gästanvändarens konto har försetts."
+
+#: ../../chapter02.rst:512
+msgid "**Email for File/Folder Share**"
+msgstr "**E-post för delning av fil/mapp**"
+
+#: ../../chapter02.rst:514
+msgid ""
+"This is the email sent to a user when the user is about to receive "
+"file/folder shares."
+msgstr "Detta är e-postmeddelandet som skickas till en användare när användaren är på väg att ta emot delningar av filer/mappar."
+
+#: ../../chapter02.rst:517
+msgid "**Request a File**"
+msgstr "**Begär en fil**"
+
+#: ../../chapter02.rst:519
+msgid ""
+"This is the email sent to a user when the user is about to receive an "
+"invitation to upload a file."
+msgstr "Detta är e-postmeddelandet som skickas till en användare när användaren är på väg att få en inbjudan att ladda upp en fil."
+
+#: ../../chapter02.rst:522
+msgid "**Notify external user that shared file changed**"
+msgstr "**Meddela extern användare att delad fil har ändrats**"
+
+#: ../../chapter02.rst:524
+msgid ""
+"When a shared file/folder changed, this is the email that is sent to the "
+"user who receives file/folder shares."
+msgstr "När en delad fil/mapp ändras, är detta e-postmeddelandet som skickas till användaren som tar emot fil-/mappdelningar."
+
+#: ../../chapter02.rst:527
+msgid "**Admin Reset User Password Email**"
+msgstr "**Admin återställer användarens lösenord via e-post**"
+
+#: ../../chapter02.rst:529
+msgid "This is the email that sent to a user when the user's password is reset."
+msgstr "Detta är e-postmeddelandet som skickas till en användare när användarens lösenord har återställts."
+
+#: ../../chapter02.rst:532
+msgid "**User Reset Password Email**"
+msgstr "**Användare Återställ lösenord E-post**"
+
+#: ../../chapter02.rst:534
+msgid ""
+"This is the email that sent to a user when the user resets the password "
+"for himself/herself."
+msgstr "Detta är e-postmeddelandet som skickas till en användare när användaren återställer lösenordet för sig själv."
+
+#: ../../chapter02.rst:537
+msgid "**New Sign-in Action Email**"
+msgstr "**Ny inloggningsåtgärds-e-post**"
+
+#: ../../chapter02.rst:539
+msgid ""
+"This is the email notification sent to the user when the user logins from"
+" a specific machine."
+msgstr "Detta är e-postmeddelandet som skickas till användaren när användaren loggar in från en specifik maskin."
+
+#: ../../chapter02.rst:541
+msgid "**Settings**"
+msgstr "**Inställningar**"
+
+#: ../../chapter02.rst:543
+msgid ""
+"This is to set the reply email address. Typically the email is sent with "
+"the SMTP service set. However, if the reply address is different, you can"
+" set it here."
+msgstr "Detta är för att ställa in svars-e-postadressen. Vanligtvis skickas e-postmeddelandet med den inställda SMTP-tjänsten. Om svarsadressen är annorlunda kan du dock ställa in den här."
+
+#: ../../chapter02.rst:547
+msgid "Android Client"
+msgstr "Android-klient"
+
+#: ../../chapter02.rst:551
+msgid ""
+"Branding the android client can now be automated from your partner portal"
+" (https://partner.centrestack.com/login/). Please go to "
+"https://partner.centrestack.com/login/ to brand the Android client."
+msgstr "Varumärkning av Android-klienten kan nu automatiseras från din partnerportal (https://partner.centrestack.com/login/). Vänligen gå till https://partner.centrestack.com/login/ för att varumärka Android-klienten."
+
+#: ../../chapter02.rst:554
+msgid ""
+"The branding of Android client and iOS client is done from "
+"www.centrestack.com, instead of from your own server."
+msgstr "Märkningen av Android-klienten och iOS-klienten görs från www.centrestack.com, istället för från din egen server."
+
+#: ../../chapter02.rst:559
+msgid "ANDROID CLIENT BRANDING"
+msgstr "ANDROID KLIENTANPASSNING"
+
+#: ../../chapter02.rst:563
+msgid "iOS Client"
+msgstr "iOS-klient"
+
+#: ../../chapter02.rst:567
+msgid ""
+"Branding of iOS client can now be automated from partner portal "
+"(https://partner.centrestack.com/login/)."
+msgstr "Märkning av iOS-klient kan nu automatiseras från partnerportalen (https://partner.centrestack.com/login/)."
+
+#: ../../chapter02.rst:569
+msgid ""
+"The information here in this section is preserved for legacy reference. "
+"Please go to https://partner.centrestack.com/login/ to brand iOS client."
+msgstr "Informationen här i detta avsnitt är bevarad för framtida referens. Vänligen gå till https://partner.centrestack.com/login/ för att märka iOS-klienten."
+
+#: ../../chapter02.rst:571
+msgid ""
+"As shown in the above picture, you can generate branding task and request"
+" for Android branding and iOS branding."
+msgstr "Som visas i bilden ovan kan du skapa märkesuppgifter och begära Android-branding och iOS-branding."
+
+#: ../../chapter02.rst:576
+msgid "Export/Import"
+msgstr "Exportera/Importera"
+
+#: ../../chapter02.rst:578
+msgid ""
+"You can either export the branding settings to another cluster or you can"
+" import branding settings from another cluster in this cluster under this"
+" setting."
+msgstr "Du kan antingen exportera varumärkesinställningarna till en annan kluster eller så kan du importera varumärkesinställningar från en annan kluster till denna kluster under denna inställning."
+
+#: ../../chapter02.rst:583
+msgid "EXPORT/IMPORT SETTINGS"
+msgstr "EXPORT/IMPORT-INSTÄLLNINGAR"
+
+#: ../../chapter02.rst:588
+msgid "Reports"
+msgstr "Rapporter"
+
+#: ../../chapter02.rst:590
+msgid "``Cluster Manager`` > ``Reports``"
+msgstr "``Klusterhanteraren`` > ``Rapporter``"
+
+#: ../../chapter02.rst:593
+msgid "Upload Report"
+msgstr "Ladda upp rapport"
+
+#: ../../chapter02.rst:595
+msgid ""
+"Upload report tab shows you graphs for all the uploads that have taken "
+"place in the last sixty minutes, 24 hours, 30 days and a whole week."
+msgstr "Fliken för uppladdningsrapport visar dig grafer för alla uppladdningar som har skett under de senaste sextio minuterna, 24 timmar, 30 dagar och en hel vecka."
+
+#: ../../chapter02.rst:601
+msgid "UPLOAD REPORT"
+msgstr "LADDA UPP RAPPORT"
+
+#: ../../chapter02.rst:605
+msgid "Storage Statistics"
+msgstr "Lagringsstatistik"
+
+#: ../../chapter02.rst:607
+msgid ""
+"Under storage statistics, you can see a quick overview of the overall "
+"storage statistics, size distribution file type distribution pie charts, "
+"and users who have used the most storage so far."
+msgstr "Under lagringsstatistik kan du se en snabb översikt över den totala lagringsstatistiken, storleksfördelning, filtypsfördelningsdiagram och användare som har använt mest lagring hittills."
+
+#: ../../chapter02.rst:613
+msgid "STORAGE STATISTICS REPORT"
+msgstr "LAGRINGSSTATISTIKRAPPORT"
+
+#: ../../chapter02.rst:617
+msgid "Active Users"
+msgstr "Aktiva användare"
+
+#: ../../chapter02.rst:619
+msgid ""
+"Active users reports the activity of users on the web portal. The active "
+"users report doesn't include users from windows client or other native "
+"clients because those users are more persistent (always there). To access"
+" this report, you can click on the active users section in the panel near"
+" the top of the screen."
+msgstr "Aktiva användarrapporter visar aktiviteten för användare på webbportalen. Rapporten över aktiva användare inkluderar inte användare från Windows-klient eller andra inbyggda klienter eftersom dessa användare är mer beständiga (alltid närvarande). För att komma åt denna rapport kan du klicka på avsnittet för aktiva användare i panelen nära toppen av skärmen."
+
+#: ../../chapter02.rst:626
+msgid "ACTIVE USERS REPORT"
+msgstr "AKTIVA ANVÄNDARRAPPORT"
+
+#: ../../chapter02.rst:630
+msgid "Guest Users"
+msgstr "Gästanvändare"
+
+#: ../../chapter02.rst:632
+msgid ""
+"Other reports are also available such as Guest Users, which are users "
+"that don't have a home directory but are invited to participate on some "
+"shared folders and shared files."
+msgstr "Andra rapporter är också tillgängliga såsom Gästanvändare, vilka är användare som inte har en hemkatalog men som är inbjudna att delta i vissa delade mappar och delade filer."
+
+#: ../../chapter02.rst:636
+msgid "Node Performance"
+msgstr "Nodprestanda"
+
+#: ../../chapter02.rst:638
+msgid ""
+"You can use the Node Performance to check out the worker node health and "
+"the database health."
+msgstr "Du kan använda Node Performance för att kontrollera hälsan hos arbetsnoden och databasen."
+
+#: ../../chapter02.rst:644
+msgid "NODE PERFORMANCE REPORT"
+msgstr "NODPRESTANDARAPPORT"
+
+#: ../../chapter02.rst:647
+msgid "**Last Reported**"
+msgstr "**Senast rapporterad**"
+
+#: ../../chapter02.rst:649
+msgid ""
+"You want to see this field has small numbers such as 6 seconds, 10 "
+"seconds. If you see sometime like 3 hours ago, that means the node is not"
+" reporting the health."
+msgstr "Du vill se att detta fält har små siffror som 6 sekunder, 10 sekunder. Om du ser något som 3 timmar sedan, betyder det att noden inte rapporterar hälsostatus."
+
+#: ../../chapter02.rst:652
+msgid "**Total Requests Processed**"
+msgstr "**Totalt antal bearbetade förfrågningar**"
+
+#: ../../chapter02.rst:654
+msgid ""
+"You want to see this number as big as possible. This number is cumulative"
+" since the service was last re-started. So the bigger the number, the "
+"more stable the service is. Also when you have multiple worker nodes, you"
+" want to see the Total Requests distributed evenly among the worker "
+"nodes."
+msgstr "Du vill se detta nummer så stort som möjligt. Detta nummer är kumulativt sedan tjänsten senast startades om. Så ju större nummer, desto stabilare är tjänsten. När du har flera arbetsnoder vill du också se att det totala antalet förfrågningar fördelas jämnt mellan arbetsnoderna."
+
+#: ../../chapter02.rst:657
+msgid "**Request Executing**"
+msgstr "**Begäran utförs**"
+
+#: ../../chapter02.rst:659
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of requests that are concurrently executing on the server. In general a "
+"number smaller than 100 is normal. Bigger than 100 is abnormal. Anything "
+"bigger than 20 will require investigation."
+msgstr "Du vill se detta nummer så litet som möjligt. Detta betyder antalet förfrågningar som för närvarande exekveras på servern. Generellt är ett nummer mindre än 100 normalt. Större än 100 är onormalt. Allt större än 20 kräver undersökning."
+
+#: ../../chapter02.rst:662
+msgid "**Last Request Time**"
+msgstr "**Senaste förfrågningstid**"
+
+#: ../../chapter02.rst:664
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of milliseconds for the last request. In general, numbers smaller than "
+"3000 or 5000 are normal, which translates to below 3-5 seconds."
+msgstr "Du vill se detta nummer så litet som möjligt. Detta betyder antalet millisekunder för den senaste förfrågan. Generellt sett är nummer mindre än 3000 eller 5000 normala, vilket översätts till under 3-5 sekunder."
+
+#: ../../chapter02.rst:667
+msgid "**Pending Change Notification**"
+msgstr "**Meddelande om väntande ändring**"
+
+#: ../../chapter02.rst:669
+msgid ""
+"For the files and folders that are changed, there is change notification "
+"written to the database. In general, you want to see the pending queue as"
+" short as possible."
+msgstr "För de filer och mappar som ändras skrivs en ändringsnotis till databasen. Generellt sett vill du se att den väntande kön är så kort som möjligt."
+
+#: ../../chapter02.rst:672
+msgid "**Active Node Request**"
+msgstr "**Aktiv nodförfrågan**"
+
+#: ../../chapter02.rst:674
+msgid ""
+"These are the clients out there contacting the server. Usually it is just"
+" for reporting purposes."
+msgstr "Det här är klienterna där ute som kontaktar servern. Vanligtvis är det bara för rapporteringssyften."
+
+#: ../../chapter02.rst:677
+msgid "**Pending Change Polling**"
+msgstr "**Väntande ändringskontroll**"
+
+#: ../../chapter02.rst:679
+msgid ""
+"These are the clients out there polling to see whether there are files "
+"and folders that have been changed. Usually the smaller the better."
+msgstr "Det här är klienterna där ute som undersöker för att se om det finns filer och mappar som har ändrats. Vanligtvis är mindre bättre."
+
+#: ../../chapter02.rst:682
+msgid "**Active Clients**"
+msgstr "**Aktiva klienter**"
+
+#: ../../chapter02.rst:684
+msgid "For reporting purpose."
+msgstr "För rapporteringssyfte."
+
+#: ../../chapter02.rst:687
+msgid "**Pending Dir Request(H)**"
+msgstr "**Väntande katalogförfrågan(H)**"
+
+#: ../../chapter02.rst:689
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the high priority queue."
+msgstr "De väntande kataloglistningsanropen från de fjärranslutna klienterna till klusterservern. Detta är kö med hög prioritet."
+
+#: ../../chapter02.rst:693
+msgid "**Pending Dir Request(L)**"
+msgstr "**Väntande katalogförfrågan(L)**"
+
+#: ../../chapter02.rst:695
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the low priority queue."
+msgstr "De väntande kataloglistningsanropen från de fjärranslutna klienterna till klusterservern. Detta är kö med låg prioritet."
+
+#: ../../chapter02.rst:698
+msgid ""
+"If you don't see the node performance report, check the **Internal URL** "
+"setting of each worker node."
+msgstr "Om du inte ser nodprestandarapporten, kontrollera inställningen för **Intern URL** för varje arbetsnod."
+
+#: ../../chapter02.rst:700
+msgid "Under reports you can look at the upload graphs and storage statistics."
+msgstr "Under rapporter kan du titta på uppladdningsgrafer och lagringsstatistik."
+
+#: ../../chapter02.rst:705
+msgid "Bandwidth Usage"
+msgstr "Bandbreddsanvändning"
+
+#: ../../chapter02.rst:707
+msgid ""
+"This shows the overall bandwidth usage statistics as well as more "
+"granular tenant and user level statistics."
+msgstr "Detta visar den totala statistiken för bandbreddsanvändning samt mer detaljerad statistik på hyresgäst- och användarnivå."
+
+#: ../../chapter02.rst:712
+msgid "BANDWIDTH USAGE REPORT"
+msgstr "RAPPORT OM BANDVIDDSANVÄNDNING"
+
+#: ../../chapter02.rst:716
+msgid "System Diagnostic Report"
+msgstr "Systemdiagnostikrapport"
+
+#: ../../chapter02.rst:718
+msgid "Click the Start Scanning button to generate system diagnostic report."
+msgstr "Klicka på knappen Starta skanning för att generera systemdiagnostikrapport."
+
+#: ../../chapter02.rst:723
+msgid "GENERATE REPORT"
+msgstr "GENERERA RAPPORT"
+
+#: ../../chapter02.rst:725
+msgid "A sample system diagnostic report is shown below."
+msgstr "Ett exempel på en systemdiagnostikrapport visas nedan."
+
+#: ../../chapter02.rst:730
+msgid "SYSTEM DIAGNOSTIC REPORT"
+msgstr "SYSTEMDIAGNOSTIKRAPPORT"
+
+#: ../../chapter02.rst:733
+msgid "Audit Trace"
+msgstr "Granskningslogg"
+
+#: ../../chapter02.rst:735
+msgid "This is a sample audit trace."
+msgstr "Detta är ett exempel på en revisionslogg."
+
+#: ../../chapter02.rst:740
+msgid "AUDIT TRACE"
+msgstr "REVISIONSSPÅR"
+
+#: ../../chapter02.rst:744
+msgid "Cluster Controls"
+msgstr "Klusterkontroller"
+
+#: ../../chapter02.rst:747
+msgid "Cluster Admin"
+msgstr "Klusteradministratör"
+
+#: ../../chapter02.rst:749
+msgid "``Cluster Manager`` > ``Cluster Admin``"
+msgstr "``Klusterhanterare`` > ``Klusteradministratör``"
+
+#: ../../chapter02.rst:751
+msgid ""
+"Cluster Admin section is to change the properties of the default "
+"administrator and also to add additional people to be the cluster "
+"administrators. You can access the Cluster Admin from your Cluster "
+"Dashboard."
+msgstr "Avsnittet för klusteradministration används för att ändra egenskaperna för standardadministratören samt för att lägga till ytterligare personer som klusteradministratörer. Du kan komma åt klusteradministrationen från din klusterinstrumentpanel."
+
+#: ../../chapter02.rst:759
+msgid "CLUSTER ADMIN SETTINGS"
+msgstr "KLUSTERADMINISTRATÖRSINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:762
+msgid "Email Service"
+msgstr "E-posttjänst"
+
+#: ../../chapter02.rst:764
+msgid "``Cluster Manager`` > ``Email Service``"
+msgstr "``Klusterhanterare`` > ``E-posttjänst``"
+
+#: ../../chapter02.rst:766
+msgid ""
+"There are many places in the |prodname| solution that the user needs to "
+"be contacted by Email. The Email service is used to set up the SMTP email"
+" service to send out the emails."
+msgstr "Det finns många ställen i |prodname|-lösningen där användaren behöver kontaktas via e-post. E-posttjänsten används för att konfigurera SMTP-e-posttjänsten för att skicka ut e-postmeddelandena."
+
+#: ../../chapter02.rst:768
+msgid ""
+"By default, it works out of box using the default email service with the "
+"Cluster Server's customer support email address as the sender."
+msgstr "Som standard fungerar det direkt ur lådan med den förinställda e-posttjänsten och klusterserverns kundsupport e-postadress som avsändare."
+
+#: ../../chapter02.rst:770
+msgid ""
+"It is recommended that the SMTP service be setup to use your own SMTP "
+"service to send out emails."
+msgstr "Det rekommenderas att SMTP-tjänsten konfigureras för att använda din egen SMTP-tjänst för att skicka ut e-postmeddelanden."
+
+#: ../../chapter02.rst:772
+msgid ""
+"In the Authenticate User field, if your SMTP service doesn't require "
+"authentication, you can put dummy email in the field."
+msgstr "I fältet Autentisera användare, om din SMTP-tjänst inte kräver autentisering, kan du ange en påhittad e-postadress i fältet."
+
+#: ../../chapter02.rst:776
+msgid "For example, if your email service is on Office 365,"
+msgstr "Till exempel, om din e-posttjänst är på Office 365,"
+
+#: ../../chapter02.rst:780
+msgid ":SMTP Server Address"
+msgstr ":SMTP-serveradress"
+
+#: ../../chapter02.rst:780
+msgid "``smtp.office365.com``"
+msgstr "``smtp.office365.com``"
+
+#: ../../chapter02.rst:783
+msgid ":Use SSL"
+msgstr "Använd SSL"
+
+#: ../../chapter02.rst:783
+msgid "``True``"
+msgstr "``Sann``"
+
+#: ../../chapter02.rst:785
+msgid ":SMTP Server Port"
+msgstr "SMTP-serverport"
+
+#: ../../chapter02.rst:786
+msgid "``587``"
+msgstr "``587``"
+
+#: ../../chapter02.rst:794
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "E-POSTTJÄNSTINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:798
+msgid "Application Manager"
+msgstr "Applikationshanterare"
+
+#: ../../chapter02.rst:800
+msgid "``Cluster Manager`` > ``Application Manager``"
+msgstr "``Klusterhanterare`` > ``Applikationshanterare``"
+
+#: ../../chapter02.rst:802
+msgid ""
+"You can access \"Application Manager\" from Cluster Dashboard, and "
+"configure Web Apps. This will enable the users to edit documents using "
+"the web apps. The applications here only apply to web portal based "
+"editing."
+msgstr "Du kan komma åt \"Application Manager\" från Cluster Dashboard och konfigurera webbappar. Detta kommer att möjliggöra för användarna att redigera dokument med hjälp av webbapparna. Applikationerna här gäller endast för redigering baserad på webbportalen."
+
+#: ../../chapter02.rst:810
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR APPLIKATIONSHANTERAREN"
+
+#: ../../chapter02.rst:813
+msgid ""
+"Once an application is enabled, you will be able to see the context menu "
+"entry from the web based file and folder manager view."
+msgstr "När en applikation är aktiverad kommer du att kunna se kontextmenyalternativet från den webbaserade fil- och mapphanteringsvyn."
+
+#: ../../chapter02.rst:818
+msgid "APPLICATION CONTEXT MENU"
+msgstr "APPLIKATIONSKONTEXTMENY"
+
+#: ../../chapter02.rst:822
+msgid "Client Version Manager"
+msgstr "Klientversionhanterare"
+
+#: ../../chapter02.rst:824
+msgid "``Cluster Manager`` > ``Client Version Manager``"
+msgstr "``Klusterhanterare`` > ``Klientversionshanterare``"
+
+#: ../../chapter02.rst:829
+msgid "CLIENT VERSION MANAGER"
+msgstr "KLIENTVERSIONSHANTERARE"
+
+#: ../../chapter02.rst:831
+msgid ""
+"For Windows Client, Mac Client and Windows Server Agent, there is an auto"
+" client update feature. Each upgrade package contains the updated "
+"clients. By clicking on the ``Publish`` button, the newer package can be "
+"published to clients out there."
+msgstr "För Windows-klient, Mac-klient och Windows Server Agent finns det en funktion för automatisk uppdatering av klienten. Varje uppgraderingspaket innehåller de uppdaterade klienterna. Genom att klicka på ``Publicera``-knappen kan det nyare paketet publiceras till klienter där ute."
+
+#: ../../chapter02.rst:834
+msgid ""
+"Every new Cluster Server upgrade contains the newer Windows client, "
+"Windows Server Agent and Mac Client. The Cluster users via manual "
+"download can get the clients that are included in the Cluster Server. "
+"However, for existing users with previously installed clients, those "
+"older clients will not auto upgrade until the newer client packages are "
+"published."
+msgstr "Varje ny uppgradering av Cluster Server innehåller den nyare Windows-klienten, Windows Server Agent och Mac-klienten. Klusteranvändarna kan via manuell nedladdning få de klienter som ingår i Cluster Server. Dock kommer de äldre klienterna för befintliga användare med tidigare installerade klienter inte att uppgraderas automatiskt förrän de nyare klientpaketen publiceras."
+
+#: ../../chapter02.rst:842
+msgid "WINDOWS CLIENT VERSION SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR WINDOWS-KLIENTVERSION"
+
+#: ../../chapter02.rst:844
+msgid "**Daily Upgrade Limit (1)**"
+msgstr "**Daglig uppgraderingsgräns (1)**"
+
+#: ../../chapter02.rst:846
+msgid ""
+"This is a per-worker node setting. For example, if you have 2 worker "
+"nodes, and set the daily upgrade limit to 100, maximum 200 clients will "
+"be upgraded per day."
+msgstr "Detta är en inställning per arbetsnod. Till exempel, om du har 2 arbetsnoder och ställer in den dagliga uppgraderingsgränsen till 100, kommer maximalt 200 klienter att uppgraderas per dag."
+
+#: ../../chapter02.rst:848
+msgid "**Apply to Users (2)**"
+msgstr "**Tillämpa på användare (2)**"
+
+#: ../../chapter02.rst:850
+msgid "This typically is used for testing prior to pushing the client out."
+msgstr "Detta används vanligtvis för testning innan klienten distribueras."
+
+#: ../../chapter02.rst:853
+msgid "**Do Not Apply to Users (3)**"
+msgstr "**Tillämpas inte på användare (3)**"
+
+#: ../../chapter02.rst:855
+msgid ""
+"This typically is used for testing prior to pushing the client out and to"
+" exclude certain users."
+msgstr "Detta används vanligtvis för testning innan klienten distribueras och för att exkludera vissa användare."
+
+#: ../../chapter02.rst:859
+msgid ""
+"The windows client out there has a process running as a background "
+"windows service. The service will periodically check for a newer upgrade "
+"in about 1-2 hour intervals. Once a newer client package is published and"
+" discovered, the newer package will be downloaded. However, if the client"
+" is still actively running, the replacement and upgrade will not happen "
+"until the client application is stopped and restarted. This usually "
+"happens when the user logs off their Windows or restarts their desktop "
+"altogether."
+msgstr "Windows-klienten där ute har en process som körs som en bakgrundstjänst i Windows. Tjänsten kommer periodiskt att kontrollera om det finns en nyare uppdatering med ungefär 1-2 timmars intervaller. När ett nyare klientpaket har publicerats och upptäckts kommer det nyare paketet att laddas ner. Men om klienten fortfarande är aktivt igång, kommer inte ersättningen och uppgraderingen att ske förrän klientapplikationen är stoppad och omstartad. Detta sker vanligtvis när användaren loggar ut från sitt Windows eller startar om sin dator helt och hållet."
+
+#: ../../chapter02.rst:861
+msgid ""
+"If the Windows client software is actively running, the user may be "
+"seeing a message popup from the system tray area asking the user if they "
+"want to restart the client software and to receive the newer version."
+msgstr "Om Windows-klientprogramvaran är aktivt igång kan användaren se ett popup-meddelande från systemfältet som frågar användaren om de vill starta om klientprogramvaran och ta emot den nyare versionen."
+
+#: ../../chapter02.rst:863
+msgid ""
+"Once a client is published for client auto upgrade, you can use "
+"``Unpublish`` to stop the client auto upgrade."
+msgstr "När en klient har publicerats för automatisk uppgradering av klienten kan du använda ``Avpublicera`` för att stoppa den automatiska uppgraderingen av klienten."
+
+#: ../../chapter02.rst:866
+msgid "Server Agent"
+msgstr "Serveragent"
+
+#: ../../chapter02.rst:868
+msgid "Windows Server Agent can be separately published for auto upgrade."
+msgstr "Windows Server Agent kan publiceras separat för automatisk uppgradering."
+
+#: ../../chapter02.rst:873
+msgid "SERVER AGENT AUTO UPGRADE"
+msgstr "SERVERAGENTENS AUTOMATISKA UPPGRADERING"
+
+#: ../../chapter02.rst:879
+msgid "Mac client can be separately published for auto upgrade."
+msgstr "Mac-klienten kan publiceras separat för automatisk uppgradering."
+
+#: ../../chapter02.rst:884
+msgid "MAC CLIENT AUTO UPGRADE"
+msgstr "MAC-KLIENT AUTOMATISK UPPGRADERING"
+
+#: ../../chapter02.rst:888
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../../chapter02.rst:893
+msgid "CLUSTER SETTINGS"
+msgstr "KLUSTERINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:897
+msgid "Cluster Settings"
+msgstr "Klusterinställningar"
+
+#: ../../chapter02.rst:899
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Cluster Settings``"
+msgstr "``Klusterhanterare`` > ``Klusterinställningar`` > ``Klusterinställningar``"
+
+#: ../../chapter02.rst:904
+msgid "CLUSTER SETTINGS PERMISSIONS"
+msgstr "KLUSTERINSTÄLLNINGAR BEHÖRIGHETER"
+
+#: ../../chapter02.rst:907
+msgid "**Hide Login Failure Message**"
+msgstr "**Dölj inloggningsfelmeddelande**"
+
+#: ../../chapter02.rst:909
+msgid ""
+"When checked, the login failed message will be replaced by a very generic"
+" “Login Failed” message. When un-checked, it may return a more meaningful"
+" login error, such as user-not-found, authentication-error and so on. "
+"This is a security feature if you don't want to give out too much "
+"information for hackers to guess a reason for authentication failure."
+msgstr "När den är ikryssad kommer meddelandet om misslyckad inloggning att ersättas med ett mycket generiskt ”Inloggning misslyckades” meddelande. När den inte är ikryssad kan det returnera ett mer meningsfullt inloggningsfel, såsom användare-ej-hittad, autentiseringsfel och så vidare. Detta är en säkerhetsfunktion om du inte vill ge ut för mycket information för hackare att gissa en anledning till autentiseringsfel."
+
+#: ../../chapter02.rst:912
+msgid "**Hide build number from login page**"
+msgstr "**Dölj byggnadsnummer från inloggningssidan**"
+
+#: ../../chapter02.rst:914
+msgid "This controls the build number on the web portal login page."
+msgstr "Detta kontrollerar byggnumret på webbportalens inloggningssida."
+
+#: ../../chapter02.rst:917
+msgid "**Hide support button**"
+msgstr "**Dölj supportknappen**"
+
+#: ../../chapter02.rst:919
+msgid "This hides the floating support icon."
+msgstr "Detta döljer det flytande supportikonen."
+
+#: ../../chapter02.rst:922
+msgid "**Hide 'Forgot your password' link on login**"
+msgstr "**Dölj länken 'Glömt ditt lösenord' vid inloggning**"
+
+#: ../../chapter02.rst:924
+msgid ""
+"Most often it is used when Active Directory integration is set. The user "
+"will need to do a forget-and-change password the normal Active Directory "
+"way instead of the way CentreStack provides. In this case, it is "
+"recommend to hide the \"Forgot your password\" link."
+msgstr "Vanligtvis används det när integration med Active Directory är inställd. Användaren kommer att behöva göra en glömma-och-ändra lösenord på det vanliga Active Directory-sättet istället för det sätt som CentreStack tillhandahåller. I detta fall rekommenderas det att dölja länken \"Glömt ditt lösenord\"."
+
+#: ../../chapter02.rst:927
+msgid "**Don't retry when login failed**"
+msgstr "**Försök inte igen när inloggningen misslyckades**"
+
+#: ../../chapter02.rst:929
+msgid ""
+"Most often it is used when the Active Directory user has low failed-count"
+" on lock-out policy. When the user's password is wrong, a few retries can"
+" lock out the user's Active Directory account. The retry feature can be "
+"used when there is no Active Directory lock out or when the lock out "
+"count is high."
+msgstr "Det används oftast när Active Directory-användaren har lågt antal misslyckade försök enligt låsningspolicyn. När användarens lösenord är fel kan några försök låsa användarens Active Directory-konto. Återförsöksfunktionen kan användas när det inte finns någon Active Directory-låsning eller när antalet låsningsförsök är högt."
+
+#: ../../chapter02.rst:931
+msgid "**Always display CAPTCHA on the web portal login page**"
+msgstr "**Visa alltid CAPTCHA på webbportalens inloggningssida**"
+
+#: ../../chapter02.rst:933
+msgid "**Allow multi-tenancy**"
+msgstr "**Tillåt fleranvändarsystem**"
+
+#: ../../chapter02.rst:935
+msgid "**Show tenant management screen after logging in**"
+msgstr "**Visa skärmen för hyresgästhantering efter inloggning**"
+
+#: ../../chapter02.rst:937
+msgid "**Show 'purge storage option' when delete user**"
+msgstr "**Visa 'rensning av lagringsalternativ' när användare tas bort**"
+
+#: ../../chapter02.rst:939
+msgid ""
+"By default, when a user is deleted, the user's home directory storage "
+"content is not touched for later use or review. If it is desired to "
+"delete the user's content when the user is deleted, this can show the "
+"purge option."
+msgstr "Som standard, när en användare raderas, påverkas inte användarens hemkatalogs lagringsinnehåll för senare användning eller granskning. Om det önskas att radera användarens innehåll när användaren raderas, kan detta visa alternativet för rensning."
+
+#: ../../chapter02.rst:942
+msgid "**Don't send email notification to user when purge deleted content**"
+msgstr "**Skicka inte e-postmeddelanden till användaren när innehåll som raderats rensas**"
+
+#: ../../chapter02.rst:944
+msgid ""
+"When the user delete files, they are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification."
+msgstr "När användaren raderar filer raderas de inte faktiskt omedelbart. Rensningen är asynkron och schemalagd till en senare tidpunkt. Den här inställningen styr notifikationen."
+
+#: ../../chapter02.rst:947
+msgid "**Don't send email notification to admin when purge deleted content**"
+msgstr "**Skicka inte e-postmeddelande till administratören när innehåll som raderats rensas**"
+
+#: ../../chapter02.rst:949
+msgid ""
+"When the user deletes files, They are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification to the administrator."
+msgstr "När användaren raderar filer raderas de inte faktiskt omedelbart. Rensningen är asynkron och schemalagd till en senare tidpunkt. Den här inställningen styr meddelandet till administratören."
+
+#: ../../chapter02.rst:952
+msgid "**Retrieve avatar from third party service (i.e. Google)**"
+msgstr "**Hämta avatar från tredjepartstjänst (t.ex. Google)**"
+
+#: ../../chapter02.rst:954
+msgid ""
+"This is a usability feature that users's picture can be queried from "
+"Google."
+msgstr "Detta är en användbarhetsfunktion där användares bild kan hämtas från Google."
+
+#: ../../chapter02.rst:957
+msgid "**Hide file extension in web file browser**"
+msgstr "**Dölj filändelsen i webbfilbläddraren**"
+
+#: ../../chapter02.rst:959
+msgid "This setting will hide the file extension."
+msgstr "Denna inställning kommer att dölja filändelsen."
+
+#: ../../chapter02.rst:962
+msgid "**Disable Windows Client Auto-Logon**"
+msgstr "**Inaktivera automatisk inloggning för Windows-klient**"
+
+#: ../../chapter02.rst:964
+msgid ""
+"This is a security feature. The result is every time the windows client "
+"is done running, the next time the user tries to login, it will not "
+"remember the login token and the user will have to re-type the credential"
+" to get in."
+msgstr "Detta är en säkerhetsfunktion. Resultatet är att varje gång Windows-klienten har körts, kommer den inte ihåg inloggningstoken nästa gång användaren försöker logga in, och användaren måste återigen skriva in sina inloggningsuppgifter för att komma åt."
+
+#: ../../chapter02.rst:966
+msgid "**Allow personal data tagging**"
+msgstr "**Tillåt taggning av personuppgifter**"
+
+#: ../../chapter02.rst:968
+msgid "**Only allow access performance information from local host**"
+msgstr "**Endast tillåt åtkomst till prestandainformation från lokal värd**"
+
+#: ../../chapter02.rst:970
+msgid ""
+"Only allow accessing performance data from http://localhost and not from "
+"external URL."
+msgstr "Tillåt endast åtkomst till prestandadata från http://localhost och inte från externa URL:er."
+
+#: ../../chapter02.rst:972
+msgid "**Allow tenant administrators to enable Team Folder backups**"
+msgstr "**Tillåt administratörer för hyresgäster att aktivera säkerhetskopiering av Team-mappar**"
+
+#: ../../chapter02.rst:976
+msgid "Performance and Throttling"
+msgstr "Prestanda och Begränsning"
+
+#: ../../chapter02.rst:978
+msgid ""
+"``Cluster Manager`` > ``Cluster Settings`` > ``Performance and "
+"Throttling``"
+msgstr "``Klusterhanterare`` > ``Klusterinställningar`` > ``Prestanda och strypning``"
+
+#: ../../chapter02.rst:983
+msgid "PERFORMANCE THROTTLING"
+msgstr "PRESTANDABEGRENSNING"
+
+#: ../../chapter02.rst:986
+msgid ""
+"**Don't show file icon preview if file size is larger than (KB, 0-No icon"
+" preview)**"
+msgstr "**Visa inte filikonförhandsvisning om filstorleken är större än (KB, 0-Ingen ikonförhandsvisning)**"
+
+#: ../../chapter02.rst:988
+msgid ""
+"This is used to control iconview thumbnail generation in the web browser "
+"files and folders view. The generation of thumbnail takes CPU power from "
+"the Cluster Server. For big files, the generation of thumbnail may "
+"negatively affect the system performance. So it is recommended to cap the"
+" feature to a certain image size."
+msgstr "Detta används för att styra skapandet av miniatyrbilder i ikonvyn för filer och mappar i webbläsaren. Genereringen av miniatyrbilder tar processorkraft från klusterservern. För stora filer kan skapandet av miniatyrbilder negativt påverka systemets prestanda. Därför rekommenderas det att begränsa funktionen till en viss bildstorlek."
+
+#: ../../chapter02.rst:991
+msgid ""
+"**Cluster Wide Upload Bandwidth Limit (Per Worker Node, KB/Sec, 0-No "
+"Limit)**"
+msgstr "**Klusterövergripande uppladdningsbandbreddsbegränsning (Per arbetsnod, KB/sek, 0-Ingen begränsning)**"
+
+#: ../../chapter02.rst:993
+msgid "This is to limit upload bandwidth."
+msgstr "Detta är för att begränsa uppladdningsbandbredden."
+
+#: ../../chapter02.rst:996
+msgid "**Cluster Wide Download Bandwidth Limit (Per Worker Node, KB/Sec)**"
+msgstr "**Klusterövergripande nedladdningsbandbreddsbegränsning (Per arbetsnod, KB/sek)**"
+
+#: ../../chapter02.rst:998
+msgid "This is to limit download bandwidth."
+msgstr "Detta är för att begränsa nedladdningsbandbredden."
+
+#: ../../chapter02.rst:1001
+msgid "**Size limit for folder download (MB, 0-no limit)**"
+msgstr "**Storleksgräns för nedladdning av mapp (MB, 0 - ingen gräns)**"
+
+#: ../../chapter02.rst:1003
+msgid ""
+"This is to prevent user downloading a very big folder and using up all "
+"the Cluster Server resources."
+msgstr "Detta är för att förhindra att en användare laddar ner en mycket stor mapp och använder upp alla resurser i klusterservern."
+
+#: ../../chapter02.rst:1007
+msgid "Timeouts and Limits"
+msgstr "Timeouts och Gränser"
+
+#: ../../chapter02.rst:1009
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Timeouts and Limits``"
+msgstr "``Klusterhanterare`` > ``Klusterinställningar`` > ``Timeouts och gränser``"
+
+#: ../../chapter02.rst:1014
+msgid "TIMEOUTS AND LIMITS"
+msgstr "TIMEOUTS OCH BEGRÄNSNINGAR"
+
+#: ../../chapter02.rst:1016
+msgid "**Web Browser Session Timeout (minutes, 0 - never timeout)**"
+msgstr "**Webbläsarsessionens timeout (minuter, 0 - aldrig timeout)**"
+
+#: ../../chapter02.rst:1018
+msgid ""
+"This is the web browser session time out value. Default is set to 15 "
+"minutes. For default cluster administrator, we recommend increase this "
+"value to a bigger number so it is easier for web based management work "
+"not to time-out too soon."
+msgstr "Detta är tidsgränsen för webbläsarsessionen. Standardvärdet är inställt på 15 minuter. För standardklusteradministratören rekommenderar vi att öka detta värde till en större siffra så att det blir lättare för webbaserat förvaltningsarbete att inte tidsavbrytas för tidigt."
+
+#: ../../chapter02.rst:1021
+msgid "**Native Client Token Timeout (days)**"
+msgstr "**Inbyggd klienttoken-tidsgräns (dagar)**"
+
+#: ../../chapter02.rst:1023
+msgid "For Windows client and Mac client, this defines the token time to live."
+msgstr "För Windows-klient och Mac-klient definierar detta giltighetstiden för token."
+
+#: ../../chapter02.rst:1026
+msgid "**Mobile Client Token Timeout (days, 0 - never timeout)**"
+msgstr "**Mobilklientens token-utgångstid (dagar, 0 - aldrig timeout)**"
+
+#: ../../chapter02.rst:1028
+msgid "**Distributed Lock Idle Timeout (minutes, 0 - never timeout)**"
+msgstr "**Distribuerad låsningens inaktivitetstidsgräns (minuter, 0 - aldrig timeout)**"
+
+#: ../../chapter02.rst:1030
+msgid ""
+"This setting is related to automatic file locking. When a file is "
+"automatically locked, the machine that has the file locked will need to "
+"maintain a healthy heart beat with the Cluster Server. If the machine is "
+"offline (idle) and can't report back to the Cluster Server for a period "
+"of time, the lock that was automatically grabbed will need to be "
+"released."
+msgstr "Denna inställning är relaterad till automatisk filspärrning. När en fil automatiskt spärras måste datorn som har filen spärrad upprätthålla en hälsosam hjärtslag med klusterservern. Om datorn är offline (inaktiv) och inte kan rapportera tillbaka till klusterservern under en period, måste låset som automatiskt togs frigöras."
+
+#: ../../chapter02.rst:1032
+msgid ""
+"If this is not desired, the user can always use manual \"Check Out\" to "
+"lock a file and that will not be subject to the timeout."
+msgstr "Om detta inte är önskvärt kan användaren alltid använda manuell \"Check Out\" för att låsa en fil och det kommer inte att vara föremål för timeout."
+
+#: ../../chapter02.rst:1034
+msgid ""
+"**Send shared file change notifications every n minutes (0 - send "
+"immediately)**"
+msgstr "**Skicka notifieringar om delade filändringar varje n minut (0 - skicka omedelbart)**"
+
+#: ../../chapter02.rst:1036
+msgid ""
+"**Open third party web application in new window when the height of the "
+"web browser is less than**"
+msgstr "**Öppna tredjeparts webbapplikation i nytt fönster när webbläsarens höjd är mindre än**"
+
+#: ../../chapter02.rst:1038
+msgid ""
+"This is a usability feature. When using third party web application to "
+"edit documents in Cluster Server web browser file and folder view, if the"
+" web browser height is too short, the third party web application may not"
+" function properly."
+msgstr "Detta är en användbarhetsfunktion. När man använder tredjeparts webbapplikation för att redigera dokument i Cluster Server webbläsarfil- och mappvy, om webbläsarens höjd är för låg, kanske tredjepartsapplikationen inte fungerar korrekt."
+
+#: ../../chapter02.rst:1041
+msgid "**Max Device Count (Concurrent Device Count) for Each User (0-Unlimited)**"
+msgstr "**Maximalt antal enheter (samtidig enhetsräkning) för varje användare (0 - obegränsat)**"
+
+#: ../../chapter02.rst:1043
+msgid ""
+"This is the number of concurrent devices connected to the Cluster Server "
+"for each user. The default is not limited."
+msgstr "Det här är antalet samtidiga enheter som är anslutna till klusterservern för varje användare. Standardvärdet är obegränsat."
+
+#: ../../chapter02.rst:1045
+msgid ""
+"**Purge Device Entry n Days After Device Disconnected (0 - let system "
+"decides)**"
+msgstr "**Rensa enhetspost n dagar efter att enheten kopplats från (0 - låt systemet bestämma)**"
+
+#: ../../chapter02.rst:1047
+msgid "**Maximum file search results**"
+msgstr "**Maximalt antal sökresultat för filer**"
+
+#: ../../chapter02.rst:1051
+msgid "Languages"
+msgstr "Språk"
+
+#: ../../chapter02.rst:1053
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Languages``"
+msgstr "``Klusterhanterare`` > ``Klusterinställningar`` > ``Språk``"
+
+#: ../../chapter02.rst:1058
+msgid "LANGUAGE SETTINGS"
+msgstr "SPRÅKINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:1061
+msgid ""
+"This section sets up the web portal languages and also the client "
+"application languages for Windows client."
+msgstr "Det här avsnittet konfigurerar webbportalens språk och även språken för klientapplikationen för Windows-klienten."
+
+#: ../../chapter02.rst:1064
+msgid ""
+"We have automated translation and provided the resource files that you "
+"can use to localize the web portal and clients in the language  of your "
+"choice. If there are strings that not translated yet in the language you "
+"want, just go ahead and select the string and put in the translated "
+"string in the window for the language selected."
+msgstr "Vi har automatiserat översättningen och tillhandahållit resursfiler som du kan använda för att lokalisera webbportalen och klienterna på det språk du väljer. Om det finns strängar som ännu inte är översatta till det språk du vill ha, gå bara vidare och välj strängen och skriv in den översatta strängen i fönstret för det valda språket."
+
+#: ../../chapter02.rst:1075
+msgid "Branding"
+msgstr "Branding"
+
+#: ../../chapter02.rst:1077
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Branding``"
+msgstr "``Klusterhanterare`` > ``Klusterinställningar`` > ``Profilering``"
+
+#: ../../chapter02.rst:1082
+msgid "ENABLE TENANT BRANDING"
+msgstr "AKTIVERA HYRESGÄSTVARUMÄRKE"
+
+#: ../../chapter02.rst:1085
+msgid "**Don't Show Tutorial Videos**"
+msgstr "**Visa inte instruktionsvideor**"
+
+#: ../../chapter02.rst:1087
+msgid ""
+"At different places in the web portal, there are tutorial videos. This "
+"setting is to hide those videos, which may have CentreStack references "
+"inside."
+msgstr "På olika ställen i webbportalen finns det instruktionsvideor. Den här inställningen är för att dölja dessa videor, som kan ha referenser till CentreStack inuti."
+
+#: ../../chapter02.rst:1090
+msgid "**Enable Tenant Branding**"
+msgstr "**Aktivera hyresgästvarumärkning**"
+
+#: ../../chapter02.rst:1092
+msgid ""
+"Allow tenants in the system to have their own co-branding on a tenant-by-"
+"tenant basis. The branding can override the default Cluster wide branding"
+" when the solution is accessed via a specific URL. Most of the time, a "
+"wild card SSL certificate is used so the Cluster Server solution can be "
+"binded to different URL's within a common suffix."
+msgstr "Tillåt hyresgäster i systemet att ha sin egen samutformning på en hyresgäst-för-hyresgäst basis. Märkningen kan åsidosätta den standardmässiga klustervida branding när lösningen nås via en specifik URL. För det mesta används ett wildcard SSL-certifikat så att klusterlösningen kan bindas till olika URL:er inom ett gemensamt suffix."
+
+#: ../../chapter02.rst:1094
+msgid ""
+"For example \\*.mycompany.com , while tenant1.mycompany.com is for tenant"
+" 1's access."
+msgstr "Till exempel \*.mycompany.com, medan tenant1.mycompany.com är för åtkomst för hyresgäst 1."
+
+#: ../../chapter02.rst:1098
+msgid "Change Log"
+msgstr "Ändringslogg"
+
+#: ../../chapter02.rst:1100
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Change Log``"
+msgstr "``Klusterhanterare`` > ``Klusterinställningar`` > ``Ändringslogg``"
+
+#: ../../chapter02.rst:1105
+msgid "CHANGE LOG SETTINGS"
+msgstr "ÄNDRA LOGGINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:1108
+msgid "**Keep file change log for n days**"
+msgstr "**Behåll filändringsloggen i n dagar**"
+
+#: ../../chapter02.rst:1110
+msgid "This is a cluster wide retention policy for the file change log."
+msgstr "Detta är en klusterövergripande bevarandepolicy för filändringsloggen."
+
+#: ../../chapter02.rst:1112
+msgid ""
+"The file change log is in the SQL database, for deployments that are "
+"using SQL Express, it has size limitation for the database. In the "
+"deployment guide, there is option to split the file change log into MySQL"
+" database or split it to a different SQL database. This option typically "
+"is used to keep the size of SQL small."
+msgstr "Filändringsloggen finns i SQL-databasen, för distributioner som använder SQL Express finns det en storleksbegränsning för databasen. I distributionsguiden finns det alternativ att dela upp filändringsloggen i en MySQL-databas eller dela den till en annan SQL-databas. Detta alternativ används vanligtvis för att hålla storleken på SQL liten."
+
+#: ../../chapter02.rst:1116
+msgid ""
+"After the Cluster Server is running in production mode for a while, we "
+"recommend reviewing the file change log database table and the file index"
+" table to see how big those tables are."
+msgstr "Efter att klusterservern har körts i produktionsläge ett tag rekommenderar vi att du granskar databastabellen för filändringsloggen och filindex-tabellen för att se hur stora dessa tabeller är."
+
+#: ../../chapter02.rst:1119
+msgid "**Email Address to Receive Cloud Monitor Messages**"
+msgstr "**E-postadress för att ta emot molnövervakningsmeddelanden**"
+
+#: ../../chapter02.rst:1121
+msgid ""
+"From time to time, the cluster monitor service may send an email about "
+"the status and alerts."
+msgstr "Då och då kan klustrets övervakningstjänst skicka ett e-postmeddelande om status och larm."
+
+#: ../../chapter02.rst:1124
+msgid "**Logging DB Connection String**"
+msgstr "**Loggning DB Anslutningssträng**"
+
+#: ../../chapter02.rst:1126
+msgid ""
+"This is to split the file change log, device table, file index table and "
+"audit trace table out of the main database into a secondary database. The"
+" secondary database can be a Microsoft SQL Server or a MySQL Community "
+"server."
+msgstr "Detta är för att dela upp filändringsloggen, enhetstabellen, filindex-tabellen och revisionsspårningstabellen från huvuddatabasen till en sekundär databas. Den sekundära databasen kan vara en Microsoft SQL Server eller en MySQL Community-server."
+
+#: ../../chapter02.rst:1128
+msgid ""
+"The Cluster Server database is split into the core part and the logging "
+"part. The core part can store the DB connection string that connects to "
+"the secondary database. This setting used to be in the web.config file."
+msgstr "Cluster Server-databasen är uppdelad i en kärndel och en loggningsdel. Kärndelen kan lagra DB-anslutningssträngen som ansluter till den sekundära databasen. Denna inställning brukade vara i web.config-filen."
+
+#: ../../chapter02.rst:1131
+msgid "**Logging DB Connection String (Read-only Replica)**"
+msgstr "**Loggning DB-anslutningssträng (Läsbar replika)**"
+
+#: ../../chapter02.rst:1135
+msgid "License String"
+msgstr "Licenssträng"
+
+#: ../../chapter02.rst:1137
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``License String``"
+msgstr "``Klusterhanterare`` > ``Klusterinställningar`` > ``Licenssträng``"
+
+#: ../../chapter02.rst:1139
+msgid "**License String** – Reserved."
+msgstr "**Licenssträng** – Reserverad."
+
+#: ../../chapter02.rst:1141
+msgid ""
+"This is for Cluster Servers that are isolated from the Internet, can't be"
+" activated online and has to use a license string for offline activation."
+msgstr "Detta är för klusterservrar som är isolerade från internet, inte kan aktiveras online och måste använda en licenssträng för offlineaktivering."
+
+#: ../../chapter02.rst:1145
+msgid "Anti Virus"
+msgstr "Anti Virus"
+
+#: ../../chapter02.rst:1147
+msgid "``Cluster Manager`` > ``Anti Virus``"
+msgstr "``Klusterhanterare`` > ``Antivirus``"
+
+#: ../../chapter02.rst:1149
+msgid ""
+"You can enable anti-virus protection which will ensure that the files "
+"being uploaded via the Cluster Server are scanned by the selected anti-"
+"virus software."
+msgstr "Du kan aktivera antivirus-skydd vilket kommer att säkerställa att filerna som laddas upp via klusterservern skannas av det valda antivirusprogrammet."
+
+#: ../../chapter02.rst:1151
+msgid ""
+"You will first need to obtain the anti-virus service that is independent "
+"from the Cluster Server, and get it directly from the anti-virus vendor. "
+"After that, you can integrate the anti-virus service into the Cluster "
+"Server."
+msgstr "Du kommer först att behöva skaffa antivirus-tjänsten som är oberoende från klusterservern och få den direkt från antivirus-leverantören. Efter det kan du integrera antivirus-tjänsten i klusterservern."
+
+#: ../../chapter02.rst:1157
+msgid "ANTI-VIRUS SETTINGS"
+msgstr "ANTIVIRUSINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:1160
+msgid "Worker Nodes"
+msgstr "Arbetarnoder"
+
+#: ../../chapter02.rst:1162
+msgid "``Cluster Manager`` > ``Worker Node``"
+msgstr "``Klusterhanterare`` > ``Arbetarnod``"
+
+#: ../../chapter02.rst:1164
+msgid ""
+"Cluster Server Farm has two types of nodes, one is “Worker Node” and the "
+"other is “Web Nodes”."
+msgstr "Klusterserverfarmen har två typer av noder, en är \"Worker Node\" och den andra är \"Web Nodes\"."
+
+#: ../../chapter02.rst:1170
+msgid "CLUSTER SERVER FARM NODES"
+msgstr "KLUSTER SERVERGÅRDSNODER"
+
+#: ../../chapter02.rst:1173
+msgid ""
+"This type of node will contain services like Web Browser Based File "
+"Manager, Storage Service Connectors, and etc. Again, additional nodes can"
+" be added as the load increases. Because there is cache information "
+"located on each node, users will have an affinity to a single node once "
+"it is assigned. If the load balancer distributes users evenly to all "
+"worker nodes, the cache information may exist on all worker nodes."
+msgstr "Denna typ av nod kommer att innehålla tjänster som webbläsarbaserad filhanterare, lagringstjänstanslutningar och liknande. Återigen kan ytterligare noder läggas till i takt med att belastningen ökar. Eftersom det finns cacheinformation placerad på varje nod, kommer användarna att ha en affinitet till en enskild nod när den väl är tilldelad. Om lastbalanseraren distribuerar användare jämnt till alla arbetsnoder, kan cacheinformationen finnas på alla arbetsnoder."
+
+#: ../../chapter02.rst:1179
+msgid "SSL NOTICE"
+msgstr "SSL-MEDDELANDE"
+
+#: ../../chapter02.rst:1182
+msgid "**Worker Node Settings**"
+msgstr "**Arbetarnodinställningar**"
+
+#: ../../chapter02.rst:1184
+msgid ""
+"There are some settings that apply to all worker nodes. After you click "
+"on the \"Settings\" icon, the Advanced Setttings panel will show."
+msgstr "Det finns vissa inställningar som gäller för alla arbetsnoder. När du klickar på ikonen \"Inställningar\" kommer panelen för Avancerade Inställningar att visas."
+
+#: ../../chapter02.rst:1189
+msgid "WORKER NODE SETTINGS"
+msgstr "ARBETSNODSINSTÄLLNINGAR"
+
+#: ../../chapter02.rst:1192
+msgid "**Always force SSL on Login**"
+msgstr "**Tvinga alltid SSL vid inloggning**"
+
+#: ../../chapter02.rst:1194
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL on Login”. When this is checked and when "
+"|prodname| detects that the incoming connection is HTTP, it will do a "
+"redirect to HTTPS. If you turn on SSL, you will need to setup SSL "
+"certificate first."
+msgstr "I en produktionsmiljö kommer du nästan 100% av tiden behöva kryssa i \"Tvinga alltid SSL vid inloggning\". När detta är ikryssat och när |prodname| upptäcker att den inkommande anslutningen är HTTP, kommer den att omdirigera till HTTPS. Om du aktiverar SSL måste du först ställa in ett SSL-certifikat."
+
+#: ../../chapter02.rst:1196
+msgid ""
+"However, if you have SSL-offload, such that SSL is offloaded to a "
+"hardware appliance, and after that, the incoming connection is HTTP "
+"between the hardware appliance and |prodname|. In this SSL-offload case, "
+"you will NOT check “Always force SSL on Login” because it will create an "
+"infinite redirect loop because the incoming connection is always HTTP as "
+"far as the |prodname| Server is concerned."
+msgstr "Men om du har SSL-offload, så att SSL är avlastad till en hårdvaruenhet, och efter det är den inkommande anslutningen HTTP mellan hårdvaruenheten och |prodname|. I detta fall av SSL-offload kommer du INTE att markera \"Tvinga alltid SSL vid inloggning\" eftersom det kommer att skapa en oändlig omdirigeringsloop eftersom den inkommande anslutningen alltid är HTTP såvitt |prodname| Server är berörd."
+
+#: ../../chapter02.rst:1199
+msgid "**Always force SSL for Native Clients**"
+msgstr "**Tvinga alltid SSL för inbyggda klienter**"
+
+#: ../../chapter02.rst:1201
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL for Native Clients”."
+msgstr "I en produktionsmiljö behöver du nästan 100% av tiden kryssa i ”Tvinga alltid SSL för infödda klienter”."
+
+#: ../../chapter02.rst:1203
+msgid ""
+"Especially, in the case of SSL-Offload, you MUST check “Always force SSL "
+"for Native Clients”. Otherwise, the |prodname| Server may think that the "
+"incoming connection is HTTP so it will continue to encourage the native "
+"clients (such as Windows client) to use HTTP instead of using HTTPS."
+msgstr "Särskilt i fallet med SSL-Offload, MÅSTE du kryssa i \"Tvinga alltid SSL för infödda klienter\". Annars kan |prodname| Server tro att den inkommande anslutningen är HTTP, så den kommer att fortsätta uppmuntra de infödda klienterna (såsom Windows-klient) att använda HTTP istället för att använda HTTPS."
+
+#: ../../chapter02.rst:1207
+msgid ""
+"In iOS devices, the Application Transport Security may be enforced by the"
+" operating system and HTTPS must be used for an iOS Application to "
+"connect to the Cluster Server."
+msgstr "På iOS-enheter kan Application Transport Security verkställas av operativsystemet och HTTPS måste användas för att en iOS-applikation ska kunna ansluta till klusterservern."
+
+#: ../../chapter02.rst:1210
+msgid "**Disable worker-node load balance**"
+msgstr "**Inaktivera balansering av arbetsnodbelastning**"
+
+#: ../../chapter02.rst:1212
+msgid ""
+"When you have your own load balancer, you will disable worker-node load "
+"balancing. The Cluster Server has built-in node-affinity load balancing, "
+"which can be per-tenant or per-user. When you have your own load "
+"balancer, you may have session-affinity or just simple round-robin, "
+"either one is fine."
+msgstr "När du har din egen lastbalanserare kommer du att inaktivera lastbalansering för arbetsnoden. Klusterservern har inbyggd nodaffinitetslastbalansering, som kan vara per hyresgäst eller per användare. När du har din egen lastbalanserare kan du ha sessionaffinitet eller bara enkel rundgång, vilket som är okej."
+
+#: ../../chapter02.rst:1216
+msgid "How to add a worker node?"
+msgstr "Hur lägger man till en arbetsnod?"
+
+#: ../../chapter02.rst:1218
+msgid ""
+"You just go ahead to install the Cluster Server during the installation "
+"and point the Cluster Server to the same database. Once the installation "
+"of the Cluster Server worker node is completed, reboot. The web portal "
+"page will pop up, asking you to add the worker node to the server farm."
+msgstr "Du går bara vidare till att installera klusterservern under installationen och peka klusterservern till samma databas. När installationen av klusterserverns arbetsnod är slutförd, starta om. Webportalens sida kommer att dyka upp och be dig att lägga till arbetsnoden till serverfarmen."
+
+#: ../../chapter02.rst:1222
+msgid "What if you changed the Cluster Server's Host Name?"
+msgstr "Vad händer om du ändrar klusterserverns värdnamn?"
+
+#: ../../chapter02.rst:1224
+msgid ""
+"For Windows server 2012 and later Server OS, when a server is newly "
+"provisioned, it is typically named in hostname format similar (WIN-"
+"ABCDEFG). Sometimes, it is desired to change the name in the Control "
+"Panel -> Systems. If the Cluster Server is already installed, changing "
+"the name will make the Cluster Server add itself again with the new name."
+" So next time when you visit http://localhost on the Cluster Server after"
+" the server has been renamed, you will see the worker node section has "
+"both the node with the old name (which no longer exists) and the node "
+"with the new name (Which is current and good). In this case, you just "
+"need to simply remove the worker node with the old name."
+msgstr "För Windows Server 2012 och senare serveroperativsystem, när en server är nyligen tillhandahållen, är den vanligtvis namngiven i värdnamnsformat liknande (WIN-ABCDEFG). Ibland önskas det att ändra namnet i Kontrollpanelen -> System. Om klusterservern redan är installerad, kommer namnändringen att göra att klusterservern lägger till sig själv igen med det nya namnet. Så nästa gång du besöker http://localhost på klusterservern efter att servern har bytt namn, kommer du att se att arbetsnodsektionen har både noden med det gamla namnet (som inte längre existerar) och noden med det nya namnet (som är aktuell och bra). I detta fall behöver du bara enkelt ta bort arbetsnoden med det gamla namnet."
+
+#: ../../chapter02.rst:1227
+msgid "**Worker Node Properties**"
+msgstr "**Arbetarnodens Egenskaper**"
+
+#: ../../chapter02.rst:1232
+msgid "WORKER NODE PROPERTIES"
+msgstr "ARBETSNODS-EGENSKAPER"
+
+#: ../../chapter02.rst:1234
+msgid ""
+"You may need to modify the worker node properties when you setup SSL and "
+"the DNS name for the cluster."
+msgstr "Du kan behöva ändra egenskaperna för arbetsnoden när du ställer in SSL och DNS-namnet för klustret."
+
+#: ../../chapter02.rst:1237
+msgid "**Node Name**"
+msgstr "**Nodnamn**"
+
+#: ../../chapter02.rst:1239
+msgid ""
+"The **Node Name** needs to match the worker node's hostname. Sometimes, "
+"if you rename a worker node's Windows hostname (NETBIOS name) after the "
+"Cluster Server installation, upon reboot, the Cluster Server will pop up "
+"a web page, asking you to add the new worker node. In that case, you can "
+"go ahead and add the new worker node and then delete the old worker node."
+msgstr "Nodnamnet **Node Name** måste matcha arbetsnodens värdnamn. Ibland, om du byter namn på en arbetsnods Windows-värdnamn (NETBIOS-namn) efter installationen av klusterservern, kommer klusterservern att visa en webbsida vid omstart, där du ombeds att lägga till den nya arbetsnoden. I det fallet kan du gå vidare och lägga till den nya arbetsnoden och sedan ta bort den gamla arbetsnoden."
+
+#: ../../chapter02.rst:1242
+msgid "**External URL**"
+msgstr "**Extern URL**"
+
+#: ../../chapter02.rst:1244
+msgid ""
+"The **External URL** needs to match the worker node's external URL. In a "
+"production environment, this typically is in an https:// format with the "
+"node's DNS name."
+msgstr "Den **Externa URL**:en måste matcha arbetsnodens externa URL. I en produktionsmiljö är detta vanligtvis i ett https://-format med nodens DNS-namn."
+
+#: ../../chapter02.rst:1246
+msgid ""
+"External URL is a critical property for Email templates. Once the Cluster"
+" Server installation is finished, the dashboard will have a warning "
+"message, 'External DNS has not been configured for this worker node. Some"
+" functionality may not work properly. Config Now'"
+msgstr "Extern URL är en kritisk egenskap för e-postmallar. När installationen av klusterservern är slutförd kommer instrumentpanelen att visa ett varningsmeddelande, 'Extern DNS har inte konfigurerats för denna arbetsnod. Viss funktionalitet kanske inte fungerar korrekt. Konfigurera nu'"
+
+#: ../../chapter02.rst:1248
+msgid ""
+"The moment that you have finalized on the External DNS name of the "
+"Cluster Server, you must come here and configure the ExternalURL property"
+" for the Cluster Server."
+msgstr "I det ögonblick du har bestämt det externa DNS-namnet för klusterservern, måste du komma hit och konfigurera egenskapen ExternalURL för klusterservern."
+
+#: ../../chapter02.rst:1251
+msgid "**Internal URL**"
+msgstr ""
+
+#: ../../chapter02.rst:1253
+msgid ""
+"The **Internal URL** is the node's internal URL, typically in the form of"
+" http://local-ip-address format. In later Cluster Server builds, this "
+"property is hidden and there is no need to set it any more."
+msgstr "Den **Interna URL:en** är nodens interna URL, vanligtvis i form av http://lokal-ip-adress format. I senare versioner av Cluster Server byggen, är denna egenskap dold och det finns inte längre något behov av att ställa in den."
+
+#: ../../chapter02.rst:1255
+msgid "**Disable management functionality**"
+msgstr "**Inaktivera hanteringsfunktionalitet**"
+
+#: ../../chapter02.rst:1257
+msgid ""
+"You can create an internal facing worker node (that doesn't have an "
+"externalURL) and only allow management functionality on this worker node."
+" This is a security feature."
+msgstr "Du kan skapa en internt riktad arbetsnod (som inte har en externURL) och endast tillåta hanteringsfunktionalitet på denna arbetsnod. Detta är en säkerhetsfunktion."
+
+#: ../../chapter02.rst:1260
+msgid "**Edit Cloud Monitor Setting**"
+msgstr "**Redigera inställning för molnövervakning**"
+
+#: ../../chapter02.rst:1265
+msgid "CLOUD MONITOR SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR MOLNÖVERVAKNING"
+
+#: ../../chapter02.rst:1268
+msgid "**Enable Storage Scan**"
+msgstr "**Aktivera lagringssökning**"
+
+#: ../../chapter02.rst:1270
+msgid ""
+"Enables or disables storage scan on the worker node. On the worker node, "
+"there is a cloud monitor service. The service will be doing background "
+"monitoring and make scan storage from time to time to correct quota "
+"calculation and perform other maintenance tasks."
+msgstr "Aktiverar eller inaktiverar lagringsskanning på arbetsnoden. På arbetsnoden finns en molnövervakningstjänst. Tjänsten kommer att utföra bakgrundsövervakning och från tid till annan skanna lagring för att korrigera kvotberäkning och utföra andra underhållsuppgifter."
+
+#: ../../chapter02.rst:1273
+msgid "**Scan Starts Hour**"
+msgstr "**Skanningen startar timme**"
+
+#: ../../chapter02.rst:1275
+msgid ""
+"Typically you will set the scan start time to sometime in the early "
+"morning like 1AM."
+msgstr "Vanligtvis ställer du in starttiden för skanningen till någon gång tidigt på morgonen, som 1 på morgonen."
+
+#: ../../chapter02.rst:1278
+msgid "**Scan End Hour**"
+msgstr "**Skanningens sluttimme**"
+
+#: ../../chapter02.rst:1280
+msgid ""
+"Typically you will set the scan end time to sometime in the morning like "
+"8AM before everyone comes to work. The main idea is to leverage idle time"
+" (when people are not at work) to do the scanning."
+msgstr "Vanligtvis ställer du in skanningens sluttid till någon gång på morgonen, som 8 på morgonen innan alla kommer till jobbet. Huvudidén är att utnyttja ledig tid (när folk inte är på jobbet) för att göra skanningen."
+
+#: ../../chapter02.rst:1283
+msgid "**Scan User Storage Every (n) Days**"
+msgstr "**Skanna användarlagring varje (n) dagar**"
+
+#: ../../chapter02.rst:1285
+msgid ""
+"Typically you can set it to every week or every other week. so a number "
+"between 7 to 15 is reasonable."
+msgstr "Vanligtvis kan du ställa in det på varje vecka eller varannan vecka. så ett nummer mellan 7 till 15 är rimligt."
+
+#: ../../chapter02.rst:1288
+msgid "**Enable Change Monitor**"
+msgstr "**Aktivera Ändringsövervakning**"
+
+#: ../../chapter02.rst:1290
+msgid ""
+"Enable change monitor monitors the attached local storage such as storage"
+" from file server network share and report file change notification to "
+"remotely connected clients. This usually is required if your users are "
+"both modifying documents directly from the backend attached network share"
+" and also from the front end Cluster access clients."
+msgstr "Aktivera ändringsövervakning övervakar den anslutna lokala lagringen såsom lagring från filserverns nätverksdelning och rapporterar filändringsnotifikationer till fjärranslutna klienter. Detta är vanligtvis nödvändigt om dina användare både modifierar dokument direkt från den bakre anslutna nätverksdelningen och även från de främre Cluster-åtkomstklienterna."
+
+#: ../../chapter02.rst:1293
+msgid "**Index External Storage**"
+msgstr "**Indexera Extern Lagring**"
+
+#: ../../chapter02.rst:1295
+msgid ""
+"This setting will index storage services added via the \"Storage "
+"Manager\". The index will be written to the files table in the database."
+msgstr "Denna inställning kommer att indexera lagringstjänster som lagts till via \"Storage Manager\". Indexet kommer att skrivas till filtabellen i databasen."
+
+#: ../../chapter02.rst:1298
+msgid "**Enable Storage Purge of Deleted User**"
+msgstr "**Aktivera Lagringsrensning för Raderad Användare**"
+
+#: ../../chapter02.rst:1300
+msgid ""
+"When a user is deleted from the system, the user's home directory is not "
+"immediately removed. And a lot of times, you don't want to delete it at "
+"all. For example, a user is deleted from the Cluster Server, but the user"
+" may still continue to use the files and folder directly from the "
+"network."
+msgstr "När en användare tas bort från systemet raderas inte användarens hemkatalog omedelbart. Och många gånger vill du inte radera den alls. Till exempel kan en användare tas bort från klusterservern, men användaren kan fortfarande fortsätta att använda filerna och mappen direkt från nätverket."
+
+#: ../../chapter02.rst:1303
+msgid "**Process Background Task**"
+msgstr "**Bearbeta bakgrundsåtgärd**"
+
+#: ../../chapter02.rst:1305
+msgid "Whether this specific node will process the background task."
+msgstr "Om denna specifika nod kommer att bearbeta bakgrundsprocessen."
+
+#: ../../chapter02.rst:1308
+msgid "**Enable Change Monitor for Home Drive**"
+msgstr "**Aktivera Ändringsövervakning för Hemkatalog**"
+
+#: ../../chapter02.rst:1310
+msgid ""
+"If Active Directory Home Drive integration is on, this will allow the "
+"Cluster Server to monitor the changes on the home drive and notify remote"
+" client agents that the files/folders have changed."
+msgstr "Om integrationen med Active Directory Home Drive är aktiverad kommer detta att tillåta klusterservern att övervaka ändringar på hemdisken och meddela fjärrklientagenter att filerna/mapparna har ändrats."
+
+#: ../../chapter02.rst:1313
+msgid "**Send daily scan email**"
+msgstr "**Skicka dagligt skannings-e-postmeddelande**"
+
+#: ../../chapter02.rst:1315
+msgid ""
+"If the storage scan is enabled, a daily scan email will be sent to the "
+"cluster administrator about the result of the scan."
+msgstr "Om lagringsskanningen är aktiverad kommer ett dagligt skanningsmail att skickas till klusteradministratören om resultatet av skanningen."
+
+#: ../../chapter02.rst:1318
+msgid "Web Node"
+msgstr "Webbnod"
+
+#: ../../chapter02.rst:1319
+msgid "``Cluster Manager`` > ``Web Node``"
+msgstr "``Klusterhanterare`` > ``Webbnod``"
+
+#: ../../chapter02.rst:1322
+msgid ""
+"In a small deployment, there is no need to have web nodes. You can go "
+"straight to worker nodes since worker nodes by defaults are web nodes "
+"too."
+msgstr "I en liten distribution behövs inga webbnoder. Du kan gå direkt till arbetsnoder eftersom arbetsnoder som standard också är webbnoder."
+
+#: ../../chapter02.rst:1325
+msgid ""
+"The Account Management, Sign-in and Load-balancing services will be "
+"installed on this physical machine (or virtual machine). Depending on the"
+" load, you may need 1 to N such nodes. Normally, we recommend for every "
+"web front node, you can have 10+ worker nodes. When you have small "
+"deployments, you can skip web front nodes and combine them into worker "
+"nodes. All the installation work is the same. If you do not need web "
+"front node, you do not need to assign them in the cluster manager."
+msgstr "Kontohantering, inloggning och lastbalanseringstjänster kommer att installeras på denna fysiska maskin (eller virtuell maskin). Beroende på belastningen kan du behöva 1 till N sådana noder. Normalt rekommenderar vi att för varje webbfrontnod kan du ha 10+ arbetsnoder. När du har små distributioner kan du hoppa över webbfrontnoder och kombinera dem med arbetsnoder. All installationsarbete är detsamma. Om du inte behöver webbfrontnod behöver du inte tilldela dem i klustermangeraren."
+
+#: ../../chapter02.rst:1330
+msgid "WEB NODE"
+msgstr "WEBBNOD"
+
+#: ../../chapter02.rst:1332
+msgid "**Example:**"
+msgstr ""
+
+#: ../../chapter02.rst:1334
+msgid ""
+"ACME Corporation deploys two web front nodes node1.acme.com and "
+"node2.acme.com. Each node is running a copy of the Cluster Server "
+"connecting to the same SQL database."
+msgstr "ACME Corporation distribuerar två webbfrontsnoder node1.acme.com och node2.acme.com. Varje nod kör en kopia av klusterservern som ansluter till samma SQL-databas."
+
+#: ../../chapter02.rst:1336
+msgid ""
+"ACME Corporation acquires a domain name (DNS) of cloud.acme.com which is "
+"load balanced to node1.acme.com and node2.acme.com."
+msgstr "ACME Corporation förvärvar ett domännamn (DNS) för cloud.acme.com som är lastbalanserat till node1.acme.com och node2.acme.com."
+
+#: ../../chapter02.rst:1338
+msgid ""
+"When Users point their browsers to https://cloud.acme.com it is directed "
+"to one of the nodes login page."
+msgstr "När användare riktar sina webbläsare till https://cloud.acme.com dirigeras de till en av nodernas inloggningssida."
+
+#: ../../chapter02.rst:1342
+msgid ""
+"NOTE 1: If you have hardware load balancing available, you do not need to"
+" use web nodes at all."
+msgstr "OBS 1: Om du har hårdvarulastbalansering tillgänglig behöver du inte använda webbnoder alls."
+
+#: ../../chapter02.rst:1344
+msgid ""
+"NOTE 2: Windows 2012/R2 comes with Network Load Balancing (NLB). If you "
+"use NLB, you do not need web nodes at all."
+msgstr "OBS 2: Windows 2012/R2 levereras med Network Load Balancing (NLB). Om du använder NLB behöver du inte alls några webbnoder."
+
+#: ../../chapter02.rst:1346
+msgid "Basically, if you have any existing load balancer, you can omit web nodes."
+msgstr "I grund och botten, om du har någon befintlig lastbalanserare, kan du utelämna webbnoder."
+
+#: ../../chapter02.rst:1349
+msgid "Zones"
+msgstr "Zoner"
+
+#: ../../chapter02.rst:1351
+msgid "``Cluster Manager`` > ``Zones``"
+msgstr "``Klusterhanterare`` > ``Zoner``"
+
+#: ../../chapter02.rst:1353
+msgid ""
+"The concept of zone is to associate your worker nodes with the location "
+"of the storage. When you think about zones, you will think about your "
+"storage location first."
+msgstr "Konceptet med zon är att koppla dina arbetsnoder till lagringsplatsens plats. När du tänker på zoner, kommer du att tänka på din lagringsplats först."
+
+#: ../../chapter02.rst:1356
+msgid ""
+"For example, I have storage in LA so I have an LA zone. I also have "
+"storage in NY so I have a NY Zone."
+msgstr "Till exempel har jag lagring i LA så jag har en LA-zon. Jag har också lagring i NY så jag har en NY-zon."
+
+#: ../../chapter02.rst:1358
+msgid ""
+"You can have worker nodes from different zones as well and assign users "
+"to specific zone. If user's home directory is coming from LA zone, the "
+"user will need to be assigned to LA zone."
+msgstr "Du kan ha arbetsnod från olika zoner också och tilldela användare till en specifik zon. Om användarens hemkatalog kommer från LA-zonen, måste användaren tilldelas till LA-zonen."
+
+#: ../../chapter02.rst:1364
+msgid "CONTROL PANEL STORAGE ZONES EDITOR"
+msgstr "KONTROLLPANELENS LAGRINGSZONER REDIGERARE"
+
+#: ../../chapter02.rst:1369
+msgid "Default Group Policy"
+msgstr "Standardgrupprincip"
+
+#: ../../chapter02.rst:1371
+msgid "``Cluster Manager`` > ``Default Group Policy``"
+msgstr "``Klusterhanterare`` > ``Standardgrupppolicy``"
+
+#: ../../chapter02.rst:1373
+msgid ""
+"Default group policy can be applied to all tenants in the cluster. "
+"However, if the tenant also defines its own group policy, the tenant "
+"policy can over ride cluster wide default group policy."
+msgstr "Standardgruppolicyn kan tillämpas på alla hyresgäster i klustret. Om hyresgästen dock också definierar sin egen grupppolicy, kan hyresgästens policy åsidosätta den klusterövergripande standardpolicyn."
+
+#: ../../chapter02.rst:1375
+msgid ""
+"Please reference the ``Group Policy`` in the tenant administrator section"
+" for full list of policy items."
+msgstr "Vänligen se till ``Grupprincip`` i avsnittet för hyresadministratören för en fullständig lista över policys."
+
+#: ../../chapter02.rst:1381
+msgid "GROUP POLICY SETTINGS"
+msgstr "GRUPPRINCIPINSTÄLLNINGAR"
+

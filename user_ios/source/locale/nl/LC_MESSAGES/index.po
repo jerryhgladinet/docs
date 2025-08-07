@@ -1,0 +1,486 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the CentreStack iOS
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CentreStack iOS User Guide 2025.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-05 18:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "CentreStack iOS Client User Guide"
+msgstr "CentreStack iOS Client Gebruikershandleiding"
+
+#: ../../index.rst:7
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: ../../index.rst:9
+msgid ""
+"Welcome to the CentreStack iOS Client User Guide. This guide describes "
+"the iOS client application for CentreStack, the managed file "
+"synchronization, and sharing solution."
+msgstr "Welkom bij de CentreStack iOS Client Gebruikershandleiding. Deze gids beschrijft de iOS-clienttoepassing voor CentreStack, de beheerde oplossing voor bestandssynchronisatie en -deling."
+
+#: ../../index.rst:11
+msgid ""
+"Users can access CentreStack cloud files using any device of their choice"
+" as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, "
+"Windows 8+, and more. We have created a native IOS application that you "
+"can download from the App Store. This provides access to files and "
+"folders in your CentreStack account."
+msgstr "Gebruikers kunnen toegang krijgen tot CentreStack cloud bestanden met elk apparaat naar keuze, aangezien CentreStack clients heeft voor Windows, Mac, iPhone, iPad, Android, Windows 8+ en meer. We hebben een native IOS-applicatie gecreëerd die u kunt downloaden uit de App Store. Hiermee krijgt u toegang tot bestanden en mappen in uw CentreStack-account."
+
+#: ../../index.rst:13
+msgid ""
+"The white-labeled CentreStack iOS app called \"Cloud Drive\" by Gladinet "
+"that can be distributed by service providers and enterprises to their "
+"users."
+msgstr "De white-labeled CentreStack iOS-app genaamd \"Cloud Drive\" van Gladinet die kan worden verspreid door serviceproviders en ondernemingen aan hun gebruikers."
+
+#: ../../index.rst:15
+msgid ""
+"If you have the fully branded CentreStack iOS client, the look and feel "
+"of the app may be different but the functionality is the same. You can "
+"obtain a fully branded CentreStack IOS Client with your company name and "
+"product logo from https://partner.centrestack.com/login/ (partner "
+"portal)."
+msgstr "Als u de volledig merkeigen CentreStack iOS-client heeft, kan het uiterlijk van de app anders zijn, maar de functionaliteit is hetzelfde. U kunt een volledig merkeigen CentreStack IOS-client met uw bedrijfsnaam en productlogo verkrijgen via https://partner.centrestack.com/login/ (partnerportaal)."
+
+#: ../../index.rst:19
+msgid "Download & Install"
+msgstr "Downloaden & Installeren"
+
+#: ../../index.rst:21
+msgid ""
+"Search for Gladinet, Inc. as a publisher in 'App Store' to start the "
+"download and installation."
+msgstr "Zoek naar Gladinet, Inc. als uitgever in de 'App Store' om het downloaden en installeren te starten."
+
+#: ../../index.rst:26
+msgid ""
+"After the install open the app from its icon. Login using your "
+"credentials."
+msgstr "Na de installatie opent u de app vanuit het icoon. Log in met uw inloggegevens."
+
+#: ../../index.rst:31
+msgid ""
+"Enter Access Point (if not filled automatically) and your Username and "
+"tap \"CONTINUE\"."
+msgstr "Voer het toegangspunt in (indien niet automatisch ingevuld) en uw gebruikersnaam en tik op \"DOORGAAN\"."
+
+#: ../../index.rst:35
+msgid ""
+"On the following screen, enter your Password and tap \"SIGN IN\", to log "
+"in to your server."
+msgstr "Op het volgende scherm voert u uw wachtwoord in en tikt u op \"INLOGGEN\", om in te loggen op uw server."
+
+#: ../../index.rst:39
+msgid "Access, Upload and Create"
+msgstr "Toegang, Uploaden en Creëren"
+
+#: ../../index.rst:41
+msgid ""
+"Once logged in users will see the files and folders they have access to "
+"like shown in the screen below."
+msgstr "Eenmaal ingelogd zullen gebruikers de bestanden en mappen zien waar ze toegang toe hebben, zoals getoond op het onderstaande scherm."
+
+#: ../../index.rst:45
+msgid "Tap on the folder to see the files and sub-folders inside."
+msgstr "Tik op de map om de bestanden en submappen binnenin te zien."
+
+#: ../../index.rst:51
+msgid "Sort Menu"
+msgstr "Sorteer Menu"
+
+#: ../../index.rst:53
+msgid ""
+"In the sort menu, you can change the order of which your files are "
+"displayed."
+msgstr "In het sorteermenu kunt u de volgorde wijzigen waarin uw bestanden worden weergegeven."
+
+#: ../../index.rst:55
+msgid ""
+"**Name (A to Z)** is when your files are displayed in the order of the "
+"alphabet."
+msgstr "**Naam (A tot Z)** is wanneer uw bestanden worden weergegeven in de volgorde van het alfabet."
+
+#: ../../index.rst:57
+msgid ""
+"**Name (Z to A)** lets you display your files opposite of the "
+"alphabetical order."
+msgstr "**Naam (Z naar A)** laat u uw bestanden in omgekeerde alfabetische volgorde weergeven."
+
+#: ../../index.rst:59
+msgid ""
+"**Size (1 to 9)** lets your files be displayed in the order of which "
+"files are the smallest."
+msgstr "**Grootte (1 tot 9)** laat uw bestanden weergeven in de volgorde van welke bestanden het kleinst zijn."
+
+#: ../../index.rst:61
+msgid ""
+"**Size (9 to 1)** displays your files in the order of which the largest "
+"files are shown first."
+msgstr "**Grootte (9 tot 1)** toont uw bestanden in volgorde waarbij de grootste bestanden eerst worden weergegeven."
+
+#: ../../index.rst:63
+msgid ""
+"**Date (Old to New)** displays files that were added first at the top of "
+"your file browser."
+msgstr "**Datum (Oud naar Nieuw)** toont bestanden die als eerste zijn toegevoegd bovenaan in uw bestandsbrowser."
+
+#: ../../index.rst:65
+msgid ""
+"**Date (New to Old)** displays your files in the order of which the most "
+"recently worked on files are shown first."
+msgstr "**Datum (Nieuw naar Oud)** toont uw bestanden in de volgorde waarin de meest recent bewerkte bestanden als eerste worden getoond."
+
+#: ../../index.rst:71
+msgid "Main Operations"
+msgstr "Hoofdoperaties"
+
+#: ../../index.rst:74
+msgid "Camera"
+msgstr "Camera"
+
+#: ../../index.rst:75
+msgid ""
+"The camera icon allows you to insert media from your phone. You can "
+"either take a new picture or video or you can insert one from your camera"
+" library."
+msgstr "Het camera-icoon stelt u in staat om media vanaf uw telefoon in te voegen. U kunt ofwel een nieuwe foto of video maken of u kunt er een uit uw camerabibliotheek invoegen."
+
+#: ../../index.rst:82
+msgid "Creating New Folders"
+msgstr "Nieuwe mappen maken"
+
+#: ../../index.rst:84
+msgid ""
+"To create new folders, click the **plus icon** at the bottom of the "
+"screen and it will let you create a name for the folder. Once a name is "
+"created the folder is created."
+msgstr "Om nieuwe mappen te maken, klik op het **plus icoon** onderaan het scherm en het zal u toestaan een naam voor de map te creëren. Zodra een naam is gemaakt wordt de map aangemaakt."
+
+#: ../../index.rst:90
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../../index.rst:91
+msgid ""
+"In the settings section you can change a number of options including the "
+"theme of the mobile application."
+msgstr "In het instellingengedeelte kunt u een aantal opties wijzigen, waaronder het thema van de mobiele applicatie."
+
+#: ../../index.rst:97
+msgid "Log Out"
+msgstr "Uitloggen"
+
+#: ../../index.rst:99
+msgid ""
+"To logout, click the icon on the top-left of the app and press the "
+"**\"Sign Out\"** icon at the bottom of the menu."
+msgstr "Om uit te loggen, klik op het pictogram linksboven in de app en druk op het **\"Uitloggen\"** pictogram onderaan het menu."
+
+#: ../../index.rst:103
+msgid "You can also log out from the navigation pane at the bottom of the screen."
+msgstr "U kunt ook uitloggen via het navigatiepaneel onderaan het scherm."
+
+#: ../../index.rst:109
+msgid "Manage and Edit"
+msgstr "Beheren en bewerken"
+
+#: ../../index.rst:111
+msgid ""
+"You can tap a folder to enter it for browsing, and tap a file to open it "
+"in a file previewer."
+msgstr "U kunt op een map tikken om deze te openen voor het bladeren, en op een bestand tikken om het te openen in een voorbeeldweergave van het bestand."
+
+#: ../../index.rst:113
+msgid "Multiple operations can be carried out by accessing the menu."
+msgstr "Meerdere bewerkingen kunnen worden uitgevoerd door het menu te openen."
+
+#: ../../index.rst:118
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: ../../index.rst:120
+msgid ""
+"To preview a file, you can simply click on the file you want to see and "
+"it will open inside of the Cloud Drive application. For example, you can "
+"preview an excel file in Excel or in the Cloud Drive application."
+msgstr "Om een bestand te bekijken, kunt u gewoon op het bestand klikken dat u wilt zien en het zal openen binnen de Cloud Drive-applicatie. Bijvoorbeeld, u kunt een Excel-bestand bekijken in Excel of in de Cloud Drive-applicatie."
+
+#: ../../index.rst:124
+msgid ""
+"You can also go into a folder and preview a file with multiple images. "
+"Once you click into the preview you can scroll through all the pictures "
+"in that screen as well as saving the picture to your phone."
+msgstr "U kunt ook een map ingaan en een voorbeeld van een bestand met meerdere afbeeldingen bekijken. Zodra u op het voorbeeld klikt, kunt u door alle foto's op dat scherm bladeren en de afbeelding op uw telefoon opslaan."
+
+#: ../../index.rst:130
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../../index.rst:132
+msgid ""
+"A file can be deleted using the **'Delete'** option. Select **'Delete'** "
+"from the context menu to delete a file. Once the file has been deleted it"
+" will no longer be visible in the cloud drive."
+msgstr "Een bestand kan worden verwijderd met de optie **'Verwijderen'**. Selecteer **'Verwijderen'** uit het contextmenu om een bestand te verwijderen. Zodra het bestand is verwijderd, zal het niet langer zichtbaar zijn in de cloud drive."
+
+#: ../../index.rst:137
+msgid "Rename"
+msgstr "Hernoemen"
+
+#: ../../index.rst:139
+msgid ""
+"You can rename a file or a folder using the **'Rename'** option. Pressing"
+" **'Rename'** will display a field to type in the new name."
+msgstr "U kunt een bestand of een map hernoemen met de optie **'Hernoemen'**. Als u op **'Hernoemen'** drukt, verschijnt er een veld waarin u de nieuwe naam kunt typen."
+
+#: ../../index.rst:145
+msgid "Copy and Cut"
+msgstr "Kopiëren en Knippen"
+
+#: ../../index.rst:147
+msgid ""
+"The 'copy' option allows you to copy a file and paste it into a another "
+"folder of your choosing. The 'cut' option allows you to remove a file "
+"from a certain folder and paste it into another."
+msgstr "De optie 'kopiëren' stelt u in staat een bestand te kopiëren en deze in een andere map naar keuze te plakken. De optie 'knippen' stelt u in staat een bestand uit een bepaalde map te verwijderen en in een andere te plakken."
+
+#: ../../index.rst:152
+msgid ""
+"The 'Move' option allows you to move the file you select from one folder "
+"to another."
+msgstr "De optie 'Verplaatsen' stelt u in staat het geselecteerde bestand van de ene map naar de andere te verplaatsen."
+
+#: ../../index.rst:156
+msgid "Comments"
+msgstr ""
+
+#: ../../index.rst:158
+msgid ""
+"The \"Comments' option allows you to see any comments made by people who "
+"have access to the file. It also lets you create a comment so others who "
+"have access to it can see your comment."
+msgstr "De optie 'Opmerkingen' stelt u in staat om eventuele opmerkingen te zien die zijn gemaakt door mensen die toegang hebben tot het bestand. Het laat u ook toe om een opmerking te maken zodat anderen die toegang hebben deze kunnen zien."
+
+#: ../../index.rst:162
+msgid "More Info"
+msgstr "Meer informatie"
+
+#: ../../index.rst:164
+msgid ""
+"The 'More Info' option allows you to look at the specifics of the file "
+"you are working on or looking at."
+msgstr "De optie 'Meer Informatie' stelt u in staat om de details van het bestand waar u aan werkt of naar kijkt te bekijken."
+
+#: ../../index.rst:170
+msgid "Offline Access"
+msgstr "Offline Toegang"
+
+#: ../../index.rst:173
+msgid "Enable Offline"
+msgstr "Offline inschakelen"
+
+#: ../../index.rst:175
+msgid ""
+"You can enable a file offline access by pressing the three vertical "
+"ellipses icon to the right of the file. Once you click on that it will "
+"drop down a menu where you can then \"Enable Offline\" this file."
+msgstr "U kunt offline toegang tot een bestand inschakelen door op het pictogram met de drie verticale puntjes rechts van het bestand te drukken. Wanneer u daarop klikt, verschijnt er een menu waar u vervolgens \"Offline beschikbaar maken\" voor dit bestand kunt selecteren."
+
+#: ../../index.rst:181
+msgid "Disable Offline"
+msgstr "Offline uitschakelen"
+
+#: ../../index.rst:183
+msgid ""
+"To remove files from your **Offline Access**, go to top-left menu, and "
+"choose **Offline Access**. Or use the Offline Access icon at the Bottom "
+"Bar."
+msgstr "Om bestanden uit uw **Offline Toegang** te verwijderen, gaat u naar het menu linksboven en kiest u **Offline Toegang**. Of gebruik het pictogram Offline Toegang in de onderste balk."
+
+#: ../../index.rst:187
+msgid ""
+"In the **Offline Access** view you can remove files by clicking the three"
+" vertical ellipses icon and selecting **Disable Offline**."
+msgstr "In de **Offline Toegang** weergave kunt u bestanden verwijderen door op het pictogram met de drie verticale puntjes te klikken en **Offline uitschakelen** te selecteren."
+
+#: ../../index.rst:193
+msgid "Sharing and Collaborating"
+msgstr "Delen en Samenwerken"
+
+#: ../../index.rst:195
+msgid ""
+"You can select the files or folders that you want to share from your iOS "
+"devices."
+msgstr "U kunt de bestanden of mappen selecteren die u wilt delen vanaf uw iOS-apparaten."
+
+#: ../../index.rst:200
+msgid "Share Via"
+msgstr "Delen Via"
+
+#: ../../index.rst:201
+msgid ""
+"You will be allowed to share the file to a third party application such "
+"as gmail, or WhatsApp."
+msgstr "U mag het bestand delen met een applicatie van derden zoals Gmail of WhatsApp."
+
+#: ../../index.rst:206
+msgid "Share Manager"
+msgstr "Deelbeheer"
+
+#: ../../index.rst:207
+msgid ""
+"You will be taken to a view and will see a list of any shares associated "
+"with this file/folder. You can add new shares there or delete previous "
+"shares to revoke access."
+msgstr "U wordt naar een overzicht geleid en ziet daar een lijst van alle shares die geassocieerd zijn met dit bestand/deze map. U kunt daar nieuwe shares toevoegen of eerdere shares verwijderen om toegang in te trekken."
+
+#: ../../index.rst:209
+msgid ""
+"To delete a user share, swipe the row to the left. This removes the share"
+" and prevents access by that user."
+msgstr "Om een gebruikersshare te verwijderen, veeg de rij naar links. Dit verwijdert de share en voorkomt toegang door die gebruiker."
+
+#: ../../index.rst:211
+msgid ""
+"At the bottom can find options to Add new shares, enable/disable and copy"
+" Public Link and Request a File. To refresh the list swipe down."
+msgstr "Onderaan vindt u opties om nieuwe shares toe te voegen, in-/uitschakelen en een openbare link kopiëren en een bestand aanvragen. Veeg omlaag om de lijst te vernieuwen."
+
+#: ../../index.rst:216
+msgid "Sharing a File"
+msgstr "Een bestand delen"
+
+#: ../../index.rst:217
+msgid ""
+"You will be taken to the \"Specify User\" screen. There you can add user "
+"emails and next select various options for sharing."
+msgstr "U wordt naar het scherm \"Gebruiker specificeren\" geleid. Daar kunt u e-mailadressen van gebruikers toevoegen en vervolgens verschillende opties voor delen selecteren."
+
+#: ../../index.rst:221
+msgid ""
+"Before sending your email share notification, you can control how the "
+"guest user(s) can access the file or folder."
+msgstr "Voordat u uw e-mail deelnotificatie verzendt, kunt u beheren hoe de gastgebruiker(s) toegang hebben tot het bestand of de map."
+
+#: ../../index.rst:223
+msgid "Specify share expiration time"
+msgstr "Geef de vervaltijd van de share op"
+
+#: ../../index.rst:226
+msgid "Set access type"
+msgstr "Toegangstype instellen"
+
+#: ../../index.rst:225
+msgid "View/Read-Only Access"
+msgstr "Weergave/Alleen-lezen toegang"
+
+#: ../../index.rst:226
+msgid "View Only (download will be disabled)"
+msgstr "Alleen bekijken (downloaden wordt uitgeschakeld)"
+
+#: ../../index.rst:227
+msgid "Edit / Full Control Access"
+msgstr "Bewerken / Volledige toegangscontrole"
+
+#: ../../index.rst:231
+msgid "Other Options"
+msgstr "Andere opties"
+
+#: ../../index.rst:229
+msgid "Send email notification when file is downloaded"
+msgstr "Stuur e-mailnotificatie wanneer bestand is gedownload"
+
+#: ../../index.rst:230
+msgid "Send email notification when file is uploaded"
+msgstr "Stuur e-mailnotificatie wanneer een bestand is geüpload"
+
+#: ../../index.rst:231
+msgid "Notify user when file/folder is changed"
+msgstr "Gebruiker informeren wanneer bestand/map is gewijzigd"
+
+#: ../../index.rst:236
+msgid "Public Link"
+msgstr "Openbare link"
+
+#: ../../index.rst:237
+msgid ""
+"Enable the public link option will display the public URL which can also "
+"be sent to the users so they can access the share from the URL or you can"
+" copy the share URL in an email. Click the \"Link\" icon at the bottom of"
+" screen."
+msgstr "Het inschakelen van de optie voor de openbare link zal de openbare URL weergeven die ook naar de gebruikers gestuurd kan worden zodat zij toegang hebben tot de gedeelde map via de URL, of u kunt de URL van de gedeelde map kopiëren in een e-mail. Klik op het \"Link\" icoon onderaan het scherm."
+
+#: ../../index.rst:242
+msgid "There is a \"Settings\" icon you can click to configure the Public Link."
+msgstr "Er is een \"Instellingen\" icoon waarop u kunt klikken om de Publieke Link te configureren."
+
+#: ../../index.rst:246
+msgid ""
+"Once the Public Link is enabled, you can click \"COPY TO CLIPBOARD\" icon"
+" to copy the public link to your clipboard so it can be pasted into a "
+"field, email or document."
+msgstr "Zodra de openbare link is ingeschakeld, kunt u op het pictogram \"KOPIËREN NAAR KLEMBORD\" klikken om de openbare link naar uw klembord te kopiëren, zodat deze in een veld, e-mail of document geplakt kan worden."
+
+#: ../../index.rst:251
+msgid "Request a File"
+msgstr "Vraag een bestand aan"
+
+#: ../../index.rst:253
+msgid ""
+"This option is only available for folders. Once you select \"Request a "
+"File\" icon at the bottom right, it will take you to a screen where you "
+"can share a link with a user to allow him to upload files to the specific"
+" folder."
+msgstr "Deze optie is alleen beschikbaar voor mappen. Zodra u het pictogram \"Bestand aanvragen\" rechtsonder selecteert, wordt u naar een scherm geleid waar u een link kunt delen met een gebruiker om hem bestanden te laten uploaden naar de specifieke map."
+
+#: ../../index.rst:260
+msgid "Working with Office Applications"
+msgstr "Werken met Office-toepassingen"
+
+#: ../../index.rst:262
+msgid ""
+"To edit existing files from an office application, open the Office App "
+"first, then you can select Open and access Files App. Once you do that, "
+"you can select your drive and choose a file from there. It will then open"
+" it directly into the app, edit and save."
+msgstr "Om bestaande bestanden te bewerken vanuit een Office-toepassing, open eerst de Office-app, dan kunt u Open selecteren en de Bestanden-app benaderen. Zodra u dat doet, kunt u uw schijf selecteren en daar een bestand uit kiezen. Het zal dan direct in de app openen, bewerk en sla op."
+
+#: ../../index.rst:264
+msgid ""
+"You can refer to this knowledge based article: "
+"https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App"
+msgstr "U kunt naar dit kennisbankartikel verwijzen: https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App"
+
+#: ../../index.rst:269
+msgid "Conclusion"
+msgstr "Conclusie"
+
+#: ../../index.rst:271
+msgid ""
+"Gladinet's vision is to enable access to enterprise data from anywhere "
+"using any device including mobile devices like Android, iPhones, and "
+"iPads. The iOS CentreStack application is feature-rich which allows "
+"enterprise users to not only access the data but also sync and "
+"collaborate on that data. Users can access, share, edit, and perform "
+"other functions on the data when accessing from iOS devices just like "
+"they do when they access it from Windows or MAC clients."
+msgstr "Gladinet heeft als visie om toegang te bieden tot bedrijfsgegevens vanaf elke locatie met elk apparaat, inclusief mobiele apparaten zoals Android, iPhones en iPads. De iOS CentreStack-applicatie is rijk aan functies en stelt zakelijke gebruikers in staat om niet alleen toegang te krijgen tot de gegevens, maar ook om deze te synchroniseren en samen te werken aan die gegevens. Gebruikers kunnen toegang krijgen tot de gegevens, deze delen, bewerken en andere functies uitvoeren op de gegevens wanneer ze toegang hebben vanaf iOS-apparaten, net zoals ze dat doen wanneer ze toegang hebben vanaf Windows of MAC-clients."
+

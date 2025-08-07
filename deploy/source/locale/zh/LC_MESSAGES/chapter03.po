@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:2
+msgid "Terminology"
+msgstr "术语"
+
+#: ../../chapter03.rst:5
+msgid "CentreStack Partner Portal"
+msgstr "CentreStack 合作伙伴门户"
+
+#: ../../chapter03.rst:7
+msgid ""
+"The Partner Portal can be found by going to http://www.centrestack.com. "
+"Click on \"Partner\" to sign up for your partner account log in "
+"credentials, and then you can log into your partner account at anytime. "
+"From the Partner Portal, You are able to download the CentreStack "
+"software and can start the trial process. Later, you can acquire licenses"
+" to turn the trial into a production environment."
+msgstr "合作伙伴门户网站可以通过访问http://www.centrestack.com找到。点击“Partner”注册您的合作伙伴账户登录凭证，然后您可以随时登录您的合作伙伴账户。通过合作伙伴门户网站，您可以下载CentreStack软件，并可以开始试用过程。之后，您可以购买许可证，将试用转变为生产环境。"
+
+#: ../../chapter03.rst:13
+msgid "You can manage hosted-tenants from the partner portal."
+msgstr "您可以从合作伙伴门户管理托管租户。"
+
+#: ../../chapter03.rst:15
+msgid ""
+"You can also come back to the partner portal any time that your "
+"CentreStack software needs to be upgraded to a later version."
+msgstr "您也可以随时返回合作伙伴门户，以便将您的CentreStack软件升级到更高的版本。"
+
+#: ../../chapter03.rst:19
+msgid "CentreStack Cluster - Server Farm"
+msgstr "CentreStack 集群 - 服务器场"
+
+#: ../../chapter03.rst:21
+msgid ""
+"Multiple CentreStack single-machine nodes connect together by pointing to"
+" the same database and then share the same configuration information from"
+" the database so that CentreStack can indirectly share the persistent "
+"storage location in a symmetrical way."
+msgstr "多个CentreStack单机节点通过指向相同的数据库连接在一起，然后从数据库共享相同的配置信息，以便CentreStack可以以对称的方式间接共享持久存储位置。"
+
+#: ../../chapter03.rst:23
+msgid ""
+"Indirectly, the database contains storage related information so all the "
+"nodes in the server farm share storage related configuration."
+msgstr "间接地，数据库包含了与存储相关的信息，因此服务器场中的所有节点共享与存储相关的配置。"
+
+#: ../../chapter03.rst:26
+msgid ""
+"The whole CentreStack cluster operates as if it is a single entity. The "
+"smallest cluster is a single CentreStack worker node, which contains all "
+"the functionality and different logical nodes together."
+msgstr "整个CentreStack集群的运作就如同一个单一实体。最小的集群是一个CentreStack工作节点，它包含了所有的功能和不同的逻辑节点。"
+
+#: ../../chapter03.rst:29
+msgid "Another term for the cluster is the **CentreStack server farm**."
+msgstr "另一个术语是 **CentreStack服务器场**。"
+
+#: ../../chapter03.rst:33
+msgid "The smallest cluster can be a single all-in-one worker node."
+msgstr "最小的集群可以是单个的全功能工作节点。"
+
+#: ../../chapter03.rst:36
+msgid "Master Admin/Cluster Admin"
+msgstr "主管理员/集群管理员"
+
+#: ../../chapter03.rst:38
+msgid ""
+"In this guide, we refer to the admin user as the user that manages the "
+"whole CentreStack server farm. The server farm can be as small as a "
+"single CentreStack server. If so, the admin user will still need to "
+"manage it regardless of the size of the server farm."
+msgstr "在本指南中，我们将管理整个CentreStack服务器场的用户称为管理员用户。服务器场可以小至单个CentreStack服务器。如果是这样，不管服务器场的大小如何，管理员用户仍然需要管理它。"
+
+#: ../../chapter03.rst:43
+msgid ""
+"The Master Admin is the very first user on the CentreStack server farm. "
+"Typically, it is the user who installs the CentreStack server software."
+msgstr "主管理员是CentreStack服务器场的第一个用户。通常，它是安装CentreStack服务器软件的用户。"
+
+#: ../../chapter03.rst:46
+msgid ""
+"Since this user later may set up optional Active Directory connections, "
+"it is recommended that this user's email address is not from the same "
+"Active Directory to avoid circular dependency."
+msgstr "由于该用户稍后可能会设置可选的Active Directory连接，建议此用户的电子邮件地址不要与同一Active Directory相同，以避免循环依赖。"
+
+#: ../../chapter03.rst:50
+msgid "Tenant"
+msgstr "租户"
+
+#: ../../chapter03.rst:52
+msgid ""
+"CentreStack is a multi-tenant ready solution. A tenant here usually is "
+"mapped to:"
+msgstr "CentreStack 是一个支持多租户的解决方案。这里的一个租户通常对应于："
+
+#: ../../chapter03.rst:55
+msgid "a company (if you are the company IT)"
+msgstr "一家公司（如果您是公司IT）"
+
+#: ../../chapter03.rst:56
+msgid "a client of yours (if you are a Managed Service Provider/MSP)"
+msgstr "如果您是托管服务提供商（MSP）的客户"
+
+#: ../../chapter03.rst:58
+msgid "Tenants are created by the cluster administrator."
+msgstr "租户由集群管理员创建。"
+
+#: ../../chapter03.rst:60
+msgid ""
+"You can use the CentreStack server in a single tenant setup because it is"
+" just a special case of multi-tenancy."
+msgstr "您可以在单租户设置中使用CentreStack服务器，因为它只是多租户的一种特殊情况。"
+
+#: ../../chapter03.rst:64
+msgid ""
+"From a reporting perspective, a tenant contains a number of users and "
+"also storage quota and storage consumption."
+msgstr "从报告角度来看，一个租户包含了若干用户以及存储配额和存储消耗。"
+
+#: ../../chapter03.rst:67
+msgid ""
+"From the technical side, a tenant is usually connected to an Active "
+"Directory and can have a bunch of connected file servers either directly "
+"or through server agents."
+msgstr "从技术角度来看，租户通常会连接到一个活动目录，并且可以直接或通过服务器代理连接到一系列文件服务器。"
+
+#: ../../chapter03.rst:71
+msgid "Tenant Admin"
+msgstr "租户管理员"
+
+#: ../../chapter03.rst:73
+msgid ""
+"These are the users who actually use the product but are the admins for "
+"their teams (tenant or company)."
+msgstr "这些用户实际上是使用产品的人，但他们是其团队（租户或公司）的管理员。"
+
+#: ../../chapter03.rst:75
+msgid ""
+"This is the very first tenant account user. Usually, the Tenant User is "
+"created by Master Admin."
+msgstr "这是第一个租户账户用户。通常，租户用户是由主管理员创建的。"
+
+#: ../../chapter03.rst:77
+msgid ""
+"The Master Admin is also the Tenant Admin for his own team/company "
+"(default tenant). Tenant admin can later delegate administrative tasks to"
+" other team users."
+msgstr "主管理员也是其自己团队/公司（默认租户）的租户管理员。租户管理员随后可以将管理任务委派给其他团队用户。"
+
+#: ../../chapter03.rst:79
+msgid ""
+"By default the cluster administrator can help the tenant administrator on"
+" the management scope."
+msgstr "默认情况下，集群管理员可以协助租户管理员进行管理范围内的工作。"
+
+#: ../../chapter03.rst:82
+msgid "Tenant User"
+msgstr "租户用户"
+
+#: ../../chapter03.rst:84
+msgid ""
+"The tenant user (team user) is a user inside a specific Tenant.  Team "
+"users are created by the Tenant Admin (or by cluster admin on behalf of "
+"the tenant admin). Team users can come from four different places:"
+msgstr "租户用户（团队用户）是特定租户内的用户。团队用户由租户管理员（或由集群管理员代表租户管理员）创建。团队用户可以来自四个不同的地方："
+
+#: ../../chapter03.rst:86
+msgid "Native CentreStack User (created from scratch)"
+msgstr "本地 CentreStack 用户（从头开始创建）"
+
+#: ../../chapter03.rst:87
+msgid "Active Directory User from local LDAP"
+msgstr "来自本地LDAP的Active Directory用户"
+
+#: ../../chapter03.rst:88
+msgid "Active Directory User from remote CentreStack Server Agent"
+msgstr "来自远程CentreStack服务器代理的活动目录用户"
+
+#: ../../chapter03.rst:89
+msgid "Azure AD or other single-sign-on integrated identity provider"
+msgstr "Azure AD 或其他单点登录集成的身份提供者"
+
+#: ../../chapter03.rst:91
+msgid ""
+"Team users always belong to a specific tenant and can't span multiple "
+"tenants. However, a team user can receive file and folder share from "
+"multiple users and from multiple tenants."
+msgstr "团队用户始终属于特定租户，不能跨多个租户。然而，团队用户可以接收来自多个用户和多个租户的文件和文件夹共享。"
+
+#: ../../chapter03.rst:97
+msgid ""
+"A Native CentreStack user can be mapped to Active Directory user or Azure"
+" AD user later if necessary."
+msgstr "原生CentreStack用户如有必要，可以后续映射到Active Directory用户或Azure AD用户。"
+
+#: ../../chapter03.rst:101
+msgid "Guest User"
+msgstr "访客用户"
+
+#: ../../chapter03.rst:103
+msgid ""
+"The guest users are users outside of the tenant users domain but receive "
+"file or folder shares from team user. The Team user creates guest users "
+"through the file sharing or folder sharing activities. Guest users "
+"typically are external users outside of an organization that are already "
+"using CentreStack."
+msgstr "来宾用户是指不属于租户用户域的用户，但是从团队用户那里接收文件或文件夹共享。团队用户通过文件共享或文件夹共享活动创建来宾用户。来宾用户通常是已经在使用CentreStack的组织之外的外部用户。"
+
+#: ../../chapter03.rst:108
+msgid "Anonymous User"
+msgstr "匿名用户"
+
+#: ../../chapter03.rst:110
+msgid ""
+"The anonymous users are a type of the guest user that doesn't require "
+"editing permission. They can receive files and folder shares and can view"
+" the file and folder share from within a web browser user interface."
+msgstr "匿名用户是一种不需要编辑权限的访客用户。他们可以接收文件和文件夹共享，并且可以通过网页浏览器用户界面查看文件和文件夹共享。"
+
+#: ../../chapter03.rst:114
+msgid "Client Agent Software"
+msgstr "客户端代理软件"
+
+#: ../../chapter03.rst:116
+msgid "CentreStack contains various client agents which include:"
+msgstr "CentreStack包含多种客户端代理，其中包括："
+
+#: ../../chapter03.rst:118
+msgid "Web Browser Based File Manager"
+msgstr "基于Web浏览器的文件管理器"
+
+#: ../../chapter03.rst:119
+msgid "Windows Desktop Client with Mapped Drive"
+msgstr "Windows 桌面客户端与映射驱动器"
+
+#: ../../chapter03.rst:120
+msgid "Windows File Server Agent with 2-way synchronization"
+msgstr "Windows 文件服务器代理与双向同步"
+
+#: ../../chapter03.rst:121
+msgid "Mac OS X client and"
+msgstr "Mac OS X 客户端和"
+
+#: ../../chapter03.rst:125
+msgid "Mobile Applications:"
+msgstr "移动应用程序:"
+
+#: ../../chapter03.rst:123
+msgid "iOS"
+msgstr "iOS"
+
+#: ../../chapter03.rst:124
+msgid "Android"
+msgstr "安卓"
+
+#: ../../chapter03.rst:125
+msgid "Windows Phone"
+msgstr "Windows Phone"
+
+#: ../../chapter03.rst:127
+msgid ""
+"These client agents provide file access and sharing features from the "
+"native client operating systems."
+msgstr "这些客户端代理提供了来自原生客户端操作系统的文件访问和共享功能。"
+
+#: ../../chapter03.rst:130
+msgid ""
+"The discussion of the client agents are outside the scope of this "
+"deployment guide."
+msgstr "讨论客户端代理超出了本部署指南的范围。"
+

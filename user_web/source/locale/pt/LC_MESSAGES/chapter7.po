@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter7.rst:3
+msgid "Folder Legends in Web Interface"
+msgstr "Legendas de Pastas na Interface Web"
+
+#: ../../chapter7.rst:5
+msgid "There are many different folders in the web interface."
+msgstr "Existem muitas pastas diferentes na interface web."
+
+#: ../../chapter7.rst:7
+msgid "Here is a list of them."
+msgstr "Aqui está uma lista deles."
+
+#: ../../chapter7.rst:9
+msgid "**Mounted Storage**"
+msgstr "**Armazenamento Montado**"
+
+#: ../../chapter7.rst:15
+msgid ""
+"This folder represents mounted/attached storage. For example, a mounted "
+"file server network share or a connected Amazon S3 bucket will look like "
+"this."
+msgstr "Esta pasta representa armazenamento montado/conectado. Por exemplo, um compartilhamento de rede de servidor de arquivos montado ou um bucket do Amazon S3 conectado terá esta aparência."
+
+#: ../../chapter7.rst:17
+msgid "**Sync From Remote**"
+msgstr "**Sincronizar do Remoto**"
+
+#: ../../chapter7.rst:23
+msgid ""
+"This folder represents synchronization folders from remote PCs or Server "
+"Agents."
+msgstr "Esta pasta representa pastas de sincronização de PCs remotos ou Agentes de Servidor."
+
+#: ../../chapter7.rst:25
+msgid "**Received Shares**"
+msgstr "**Partilhas Recebidas**"
+
+#: ../../chapter7.rst:31
+msgid ""
+"This folder represents the root folder of all the shared files and "
+"folders from other users."
+msgstr "Esta pasta representa a pasta raiz de todos os arquivos e pastas compartilhados por outros usuários."
+
+#: ../../chapter7.rst:33
+msgid "**Regular Folder**"
+msgstr "**Pasta Regular**"
+
+#: ../../chapter7.rst:39
+msgid "This folder represents a single shared folder received from other users."
+msgstr "Esta pasta representa uma única pasta compartilhada recebida de outros usuários."
+
+#: ../../chapter7.rst:41
+msgid "**Team Folder**"
+msgstr "**Pasta de Equipe**"
+
+#: ../../chapter7.rst:47
+msgid ""
+"This folder represent a team folder that is published to users and viewed"
+" from the users who received the team folder."
+msgstr "Esta pasta representa uma pasta de equipe que é publicada para os usuários e visualizada pelos usuários que receberam a pasta de equipe."
+
+#: ../../chapter7.rst:49
+msgid "**Version Control**"
+msgstr "**Controle de Versão**"
+
+#: ../../chapter7.rst:55
+msgid ""
+"Version folder represents folders that every files inside is under "
+"version control."
+msgstr "A pasta de versão representa pastas que todos os arquivos dentro estão sob controle de versão."
+
+#: ../../chapter7.rst:59
+msgid ""
+"If a folder doesn't have the version folder icon, doesn't mean it is not "
+"a version folder."
+msgstr "Se uma pasta não tem o ícone de pasta de versão, não significa que ela não seja uma pasta de versão."
+
+#: ../../chapter7.rst:61
+msgid ""
+"As long as one of the parent folder is a version folder, everything "
+"inside is under version control."
+msgstr "Desde que uma das pastas pai seja uma pasta de versão, tudo dentro está sob controle de versão."
+
+#: ../../chapter7.rst:63
+msgid ""
+"If the administrator setup the user as version control from the root, the"
+" team user may not see the version folder icon either when version "
+"control is on by default."
+msgstr "Se o administrador configurar o usuário como controle de versão desde a raiz, o usuário da equipe pode não ver o ícone da pasta de versão quando o controle de versão está ativado por padrão."
+

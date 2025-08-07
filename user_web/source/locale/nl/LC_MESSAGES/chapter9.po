@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter9.rst:3
+msgid "Sharing"
+msgstr "Delen"
+
+#: ../../chapter9.rst:6
+msgid "Sharing vs. Publishing"
+msgstr "Delen vs. Publiceren"
+
+#: ../../chapter9.rst:8
+msgid ""
+"There are two ways to share files and folders in |prodname|  – publishing"
+" and sharing."
+msgstr "Er zijn twee manieren om bestanden en mappen te delen in |prodname| – publiceren en delen."
+
+#: ../../chapter9.rst:10
+msgid "**Publishing:**"
+msgstr "**Publiceren:**"
+
+#: ../../chapter9.rst:12
+msgid ""
+"Only available for the administrator who can share any tenant-wide "
+"folder. It will only work with team-users in a specific |prodname| "
+"account (tenant account). Publishing a team folder can't go outside of "
+"the tenant scope."
+msgstr "Alleen beschikbaar voor de beheerder die elke tenant-brede map kan delen. Het werkt alleen met teamgebruikers in een specifiek |prodname| account (tenant account). Het publiceren van een teammap kan niet buiten de tenant scope gaan."
+
+#: ../../chapter9.rst:14
+msgid "**Sharing:**"
+msgstr "**Delen:**"
+
+#: ../../chapter9.rst:16
+msgid ""
+"Both the administrator and team-users can share files with anyone that "
+"has an email address. The recipient of the share will get an email with a"
+" link to open the folder or download the file. If the email recipient is "
+"also a |prodname| Cloud user, he/she can access the shared file or folder"
+" directly from |prodname|."
+msgstr "Zowel de beheerder als teamgebruikers kunnen bestanden delen met iedereen die een e-mailadres heeft. De ontvanger van de gedeelde bestanden krijgt een e-mail met een link om de map te openen of het bestand te downloaden. Als de e-mailontvanger ook een |prodname| Cloud-gebruiker is, kan hij/zij direct vanuit |prodname| toegang krijgen tot het gedeelde bestand of map."
+
+#: ../../chapter9.rst:19
+msgid "Administrators can prevent team-users from sharing if needed."
+msgstr "Beheerders kunnen het delen door teamgebruikers voorkomen indien nodig."
+
+#: ../../chapter9.rst:22
+msgid "Sharing Files And Folders"
+msgstr "Bestanden en mappen delen"
+
+#: ../../chapter9.rst:25
+msgid "File Sharing"
+msgstr "Bestandsdeling"
+
+#: ../../chapter9.rst:27
+msgid ""
+"To share a file, click it and select the Share icon (1)revealed in the "
+"header of the file. You can also right click the file and select Share "
+"(2) in the context menu. Once the file is selected, if the right panel is"
+" open(click the encircled \"i\" button), there is a Share link (3) there "
+"as well."
+msgstr "Om een bestand te delen, klik erop en selecteer het deelicoon (1) dat in de kop van het bestand wordt getoond. U kunt ook met de rechtermuisknop op het bestand klikken en Delen (2) selecteren in het contextmenu. Als het bestand is geselecteerd en het rechterpaneel is geopend (klik op de omcirkelde \"i\" knop), is er ook een deellink (3) aanwezig."
+
+#: ../../chapter9.rst:32
+msgid "SHARING FILES"
+msgstr "BESTANDEN DELEN"
+
+#: ../../chapter9.rst:34
+msgid ""
+"After clicking 'Share' above, in 'Invite People' window, click the email "
+"field (4) and enter email addresses seperated by semicolons (;) for "
+"anyone that needs access to the file. You can also add notes (5) if "
+"required. Click CONTINUE (6)."
+msgstr "Nadat u hierboven op 'Delen' heeft geklikt, klikt u in het venster 'Mensen uitnodigen' op het e-mailveld (4) en voert u e-mailadressen in gescheiden door puntkomma's (;) voor iedereen die toegang nodig heeft tot het bestand. U kunt indien nodig ook notities (5) toevoegen. Klik op DOORGAAN (6)."
+
+#: ../../chapter9.rst:39
+msgid "INVITE PEOPLE TO YOUR SHARE"
+msgstr "NODIG MENSEN UIT VOOR UW DELEN"
+
+#: ../../chapter9.rst:42
+msgid ""
+"On the second share window you have access to the share options panel "
+"where you can make important decisions such as how long you want the "
+"share to be active and how much control you want to give the user (e.g., "
+"read only, full control access). You can also make this share available "
+"to the public by get"
+msgstr "Op het tweede deelvenster voor delen heeft u toegang tot het paneel met deelopties waar u belangrijke beslissingen kunt nemen, zoals hoe lang u wilt dat het delen actief blijft en hoeveel controle u aan de gebruiker wilt geven (bijv. alleen-lezen, volledige toegangscontrole). U kunt deze link ook openbaar maken door get"
+
+#: ../../chapter9.rst:47
+msgid "SHARE OPTIONS PANEL"
+msgstr "DEEL OPTIES PANEEL"
+
+#: ../../chapter9.rst:49
+msgid ""
+"You can access previously shared items by clicking the share icon (2) on "
+"a folder of file. Other shares can be accessed by opening the right panel"
+" (1) and clicking the edit button (3) next to the \"Shared Items\" "
+"option."
+msgstr "U kunt eerder gedeelde items openen door op het deelicoon (2) te klikken op een map of bestand. Andere gedeelde items zijn toegankelijk door het rechterpaneel (1) te openen en op de bewerkknop (3) naast de optie \"Gedeelde Items\" te klikken."
+
+#: ../../chapter9.rst:54
+msgid "ACCESSING SHARED ITEMS SETTINGS"
+msgstr "TOEGANG TOT GEDEELDE ITEMS INSTELLINGEN"
+
+#: ../../chapter9.rst:58
+msgid "Folder Sharing"
+msgstr "Map Delen"
+
+#: ../../chapter9.rst:60
+msgid ""
+"In this example, the icon view has been changed to detailed view (1) of "
+"the files in this folder. To share a folder, mouse-over it and select the"
+" Share icon (2) in its row. You can also right click the file and select "
+"'Share' in the context menu."
+msgstr "In dit voorbeeld is de pictogramweergave gewijzigd naar de gedetailleerde weergave (1) van de bestanden in deze map. Om een map te delen, beweeg je de muis erover en selecteer je het deelicoon (2) in de rij ervan. Je kunt ook met de rechtermuisknop op het bestand klikken en 'Delen' selecteren in het contextmenu."
+
+#: ../../chapter9.rst:65
+msgid "SHARING FOLDERS"
+msgstr "MAPS DELEN"
+
+#: ../../chapter9.rst:69
+msgid "Removing shares"
+msgstr "Delen verwijderen"
+
+#: ../../chapter9.rst:71
+msgid ""
+"During share setup, a user can define its expiration date. Once the share"
+" expires, other users will no longer be able to access the shares."
+msgstr "Tijdens het instellen van de share kan een gebruiker de vervaldatum definiëren. Zodra de share verloopt, kunnen andere gebruikers niet langer toegang krijgen tot de shares."
+
+#: ../../chapter9.rst:73
+msgid "Users can also delete the share manually. First go to the Drive Root (1)."
+msgstr "Gebruikers kunnen de share ook handmatig verwijderen. Ga eerst naar de Drive Root (1)."
+
+#: ../../chapter9.rst:75
+msgid ""
+"To delete a user's access to a share, open the right panel click the "
+"\"Manage\" icon (2) on shared items. In the next panel choose the item "
+"you wish to modify, then in the pop-up window, click the Delete icon (3) "
+"to remove this user's permission from the share."
+msgstr "Om de toegang van een gebruiker tot een share te verwijderen, open het rechterpaneel en klik op het \"Beheren\" icoon (2) bij gedeelde items. Kies in het volgende paneel het item dat u wilt wijzigen, en klik dan in het pop-upvenster op het Verwijder icoon (3) om de toestemming van deze gebruiker voor de share te verwijderen."
+
+#: ../../chapter9.rst:80
+msgid "DELETING A USER'S PERMISSION"
+msgstr "HET VERWIJDEREN VAN EEN GEBRUIKERSMACHTIGING"
+
+#: ../../chapter9.rst:84
+msgid "Accessing 'Files/Folders Shared With Me'"
+msgstr "Toegang tot 'Bestanden/Mappen gedeeld met mij'"
+
+#: ../../chapter9.rst:86
+msgid ""
+"When a file or folder is shared with the user, he/she will get an email. "
+"The link in the email can be used to open the file or folder."
+msgstr "Wanneer een bestand of map met de gebruiker wordt gedeeld, ontvangt hij/zij een e-mail. De link in de e-mail kan worden gebruikt om het bestand of de map te openen."
+
+#: ../../chapter9.rst:88
+msgid ""
+"If the user has a |prodname|  account with the given email address, the "
+"shared files and folders will appear under the 'Files shared with me' "
+"folder, in both the |prodname| Web Portal and |prodname| Desktop App."
+msgstr "Als de gebruiker een |prodname| account heeft met het opgegeven e-mailadres, zullen de gedeelde bestanden en mappen verschijnen onder de map 'Bestanden gedeeld met mij', zowel in de |prodname| Webportaal als de |prodname| Desktop App."
+
+#: ../../chapter9.rst:92
+msgid "Web Portal"
+msgstr "Webportaal"
+
+#: ../../chapter9.rst:94
+msgid ""
+"You can access shared files by clicking the \"Shared files/folders\" "
+"button in the \"File Browser\" view of the Web Portal."
+msgstr "U kunt gedeelde bestanden openen door op de knop \"Gedeelde bestanden/mappen\" te klikken in de weergave \"Bestandsverkenner\" van het Webportaal."
+
+#: ../../chapter9.rst:99
+msgid "WEB PORTAL SHARED FILES LOCATION"
+msgstr "WEBPORTAAL GEDEELDE BESTANDSLOCATIE"
+
+#: ../../chapter9.rst:103
+msgid "Windows Client"
+msgstr "Windows-client"
+
+#: ../../chapter9.rst:105
+msgid ""
+"In the Windows Client you can access shared files by using windows "
+"explorer to navigate to the Cloud Drive (1) where you will find any "
+"shared files listed (2) with information about who shared (3) the file "
+"with you."
+msgstr "In de Windows-client kunt u gedeelde bestanden openen door met Windows Verkenner naar de Cloud Drive (1) te navigeren, waar u een lijst vindt van gedeelde bestanden (2) met informatie over wie (3) het bestand met u heeft gedeeld."
+
+#: ../../chapter9.rst:110
+msgid "WINDOWS CLIENT SHARED FILES LOCATION"
+msgstr "LOCATIE VAN GEDEELDE BESTANDEN VAN WINDOWS-CLIENT"
+
+#: ../../chapter9.rst:113
+msgid ""
+"If the user has write permission to the folder shared, he can modify the "
+"files in the folder."
+msgstr "Als de gebruiker schrijfrechten heeft voor de gedeelde map, kan hij de bestanden in de map wijzigen."
+

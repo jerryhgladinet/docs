@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:3
+msgid "Advanced Topics"
+msgstr "Tópicos Avançados"
+
+#: ../../chapter04.rst:8
+msgid "Connect Your File Server"
+msgstr "Conecte o Seu Servidor de Arquivos"
+
+#: ../../chapter04.rst:10
+msgid ""
+"The way to connect the file servers are different, depending on where the"
+" file server is."
+msgstr "A forma de conectar os servidores de arquivos é diferente, dependendo de onde o servidor de arquivos está."
+
+#: ../../chapter04.rst:12
+msgid ""
+"The file server can be sitting in the same Local Area Network (LAN) as "
+"the CentreStack Server. In this case, the direct network share connection"
+" is the best. Usually, this is combined with setting up a direct LDAP "
+"connection to the Active Directory."
+msgstr "O servidor de arquivos pode estar localizado na mesma Rede de Área Local (LAN) que o Servidor CentreStack. Neste caso, a conexão direta com o compartilhamento de rede é a melhor opção. Geralmente, isso é combinado com a configuração de uma conexão LDAP direta com o Active Directory."
+
+#: ../../chapter04.rst:19
+msgid "FILE SERVER CONNECTION"
+msgstr "CONECÇÃO DO SERVIDOR DE ARQUIVOS"
+
+#: ../../chapter04.rst:21
+msgid ""
+"The file server can also be remote, away from the CentreStack server and "
+"at the customer's premise. In this case, the best is to use a file server"
+" agent. File server agent will be installed on the file server, and it is"
+" capable of connecting the customer's Active Directory and syncing both "
+"folder content and active directory over HTTPS. In this case, in the user"
+" interface, you will see \"Proxied AD User\" to indicate that the Active "
+"Directory user or group is coming from the file server agent."
+msgstr "O servidor de arquivos também pode ser remoto, longe do servidor CentreStack e nas instalações do cliente. Neste caso, o melhor é usar um agente de servidor de arquivos. O agente de servidor de arquivos será instalado no servidor de arquivos e é capaz de conectar o Active Directory do cliente e sincronizar tanto o conteúdo da pasta quanto o active directory por HTTPS. Neste caso, na interface do usuário, você verá \"Proxied AD User\" para indicar que o usuário ou grupo do Active Directory está vindo do agente do servidor de arquivos."
+
+#: ../../chapter04.rst:26
+msgid "SERVER AGENT CONNECTION"
+msgstr "CONECÇÃO DO AGENTE DO SERVIDOR"
+
+#: ../../chapter04.rst:29
+msgid ""
+"The best way to start using a file server agent to connect to a remote "
+"file server is to start with the migration wizard from the web portal."
+msgstr "A melhor maneira de começar a usar um agente de servidor de arquivos para se conectar a um servidor de arquivos remoto é iniciar com o assistente de migração do portal web."
+
+#: ../../chapter04.rst:34
+msgid "TEAM FOLDER STORAGE LOCATIONS"
+msgstr "LOCALIZAÇÕES DE ARMAZENAMENTO DE PASTAS DE EQUIPE"
+
+#: ../../chapter04.rst:39
+msgid "Files and Folder Permission"
+msgstr "Permissões de Arquivos e Pastas"
+
+#: ../../chapter04.rst:41
+msgid ""
+"If your files and folders are on a file server in the same Local Area "
+"Network (LAN) as the CentreStack server, the best way to manage file and "
+"folder permission is to delegate it 100% to the NTFS permission. In the "
+"\"Storage Manager\", when attaching local storage, there is an option "
+"\"Always access the storage using logon user identity\", This option can "
+"be used to delegate file/folder permission check directly to NTFS."
+msgstr "Se os seus arquivos e pastas estão em um servidor de arquivos na mesma Rede Local (LAN) que o servidor CentreStack, a melhor maneira de gerenciar permissões de arquivos e pastas é delegar 100% para a permissão NTFS. No \"Gerenciador de Armazenamento\", ao anexar armazenamento local, existe uma opção \"Sempre acessar o armazenamento usando a identidade do usuário logado\", Esta opção pode ser usada para delegar a verificação de permissão de arquivo/pasta diretamente para o NTFS."
+
+#: ../../chapter04.rst:46
+msgid "FILE AND FOLDER PERMISSIONS SETTINGS"
+msgstr "CONFIGURAÇÕES DE PERMISSÕES DE ARQUIVOS E PASTAS"
+
+#: ../../chapter04.rst:48
+msgid ""
+"If you are not using native NTFS permission. For example, you are on "
+"cloud storage services such as Amazon S3 or OpenStack Swift, you can use "
+"CentreStack folder permission."
+msgstr "Se você não está usando permissão nativa NTFS. Por exemplo, se você está em serviços de armazenamento em nuvem como Amazon S3 ou OpenStack Swift, você pode usar permissão de pasta CentreStack."
+
+#: ../../chapter04.rst:53
+msgid "MANAGE FOLDER SETTINGS"
+msgstr "GERENCIAR CONFIGURAÇÕES DE PASTA"
+
+#: ../../chapter04.rst:58
+msgid "Setting up Active Directory"
+msgstr "Configurando o Active Directory"
+
+#: ../../chapter04.rst:60
+msgid ""
+"When the Active Directory is in the Local Area Network (LAN), LDAP can be"
+" used to connect to the Active Directory. There are several cases here,"
+msgstr "Quando o Active Directory está na Rede Local (LAN), o LDAP pode ser utilizado para conectar-se ao Active Directory. Existem vários casos aqui,"
+
+#: ../../chapter04.rst:63
+msgid ""
+"Sometimes you want the user account to be automatically provisioned so it"
+" is easy for the administrator."
+msgstr "Às vezes, você deseja que a conta do usuário seja provisionada automaticamente para facilitar o trabalho do administrador."
+
+#: ../../chapter04.rst:64
+msgid ""
+"Sometimes you want the user account to be limited to a specific AD group,"
+" but still automatically provision the user's account when the users are "
+"in the AD group."
+msgstr "Às vezes, você deseja que a conta do usuário seja limitada a um grupo específico do AD, mas ainda assim provisione automaticamente a conta do usuário quando os usuários estiverem no grupo do AD."
+
+#: ../../chapter04.rst:65
+msgid ""
+"Sometimes you want the user account to be limited to a specific "
+"Organization Unit."
+msgstr "Às vezes, você deseja que a conta do usuário seja limitada a uma Unidade Organizacional específica."
+
+#: ../../chapter04.rst:69
+msgid "AD account auto provision"
+msgstr "Provisionamento automático de conta AD"
+
+#: ../../chapter04.rst:71
+msgid "This is the default setting in the Settings -> Active Directory Settings."
+msgstr "Esta é a configuração padrão em Configurações -> Configurações do Active Directory."
+
+#: ../../chapter04.rst:73
+msgid ""
+"As long as the \"Don't allow user auto-creation\" is not checked, Active "
+"Directory users will be allowed to go to the web portal and log in. The "
+"first time the user logs in, its CentreStack account will be "
+"automatically provisioned."
+msgstr "Desde que a opção \"Não permitir a auto-criação de usuário\" não esteja selecionada, os usuários do Active Directory poderão acessar o portal web e fazer login. Na primeira vez que o usuário fizer login, sua conta no CentreStack será provisionada automaticamente."
+
+#: ../../chapter04.rst:78
+msgid "USER AUTO-CREATION SETTING"
+msgstr "CONFIGURAÇÃO DE CRIAÇÃO AUTOMÁTICA DE USUÁRIO"
+
+#: ../../chapter04.rst:82
+msgid "AD account auto provision, limiting to Organization Unit"
+msgstr "Provisionamento automático de conta AD, limitando à Unidade Organizacional"
+
+#: ../../chapter04.rst:84
+msgid ""
+"The organization unit field can be used to further limit the Active "
+"Directory user account that can be automatically provisioned."
+msgstr "O campo da unidade organizacional pode ser usado para limitar ainda mais a conta de usuário do Active Directory que pode ser provisionada automaticamente."
+
+#: ../../chapter04.rst:89
+msgid "LIMIT TO ORGANIZATION UNIT SETTING"
+msgstr "LIMITAR À CONFIGURAÇÃO DA UNIDADE ORGANIZACIONAL"
+
+#: ../../chapter04.rst:91
+msgid ""
+"The format of the organization unit is the OU's distinguishedName minus "
+"the DC suffix."
+msgstr "O formato da unidade organizacional é o distinguishedName da OU menos o sufixo DC."
+
+#: ../../chapter04.rst:93
+msgid ""
+"For example, the following OU's property is: distinguishedName       =>"
+"      OU=tenant11,DC=tsys,DC=gladinet,DC=com"
+msgstr "Por exemplo, a propriedade da seguinte OU é: distinguishedName       =>      OU=tenant11,DC=tsys,DC=gladinet,DC=com"
+
+#: ../../chapter04.rst:96
+msgid ""
+"When it is put into the OU field, the DC suffix can be removed so only "
+"OU=tenant11 is required."
+msgstr "Quando é inserido no campo OU, o sufixo DC pode ser removido, sendo necessário apenas OU=tenant11."
+
+#: ../../chapter04.rst:99
+msgid "OU=tenant11"
+msgstr "OU=tenant11"
+
+#: ../../chapter04.rst:104
+msgid "OU PROPERTY LOCATION"
+msgstr "LOCALIZAÇÃO DA PROPRIEDADE OU"
+
+#: ../../chapter04.rst:108
+msgid "AD account auto provision, limiting to a specific AD group."
+msgstr "Provisionamento automático de conta AD, limitando a um grupo AD específico."
+
+#: ../../chapter04.rst:110
+msgid ""
+"From the user manager, you can import the AD group and the users in the "
+"AD group will be able to get the account automatically provisioned."
+msgstr "A partir do gerenciador de usuários, você pode importar o grupo AD e os usuários no grupo AD poderão ter a conta provisionada automaticamente."
+
+#: ../../chapter04.rst:115
+msgid "MIGRATING USERS FROM ACTIVE DIRECTORY"
+msgstr "MIGRANDO USUÁRIOS DO ACTIVE DIRECTORY"
+
+#: ../../chapter04.rst:117
+msgid "Here is a demo video for Import AD group."
+msgstr "Aqui está um vídeo de demonstração para Importar grupo AD."
+
+#: ../../chapter04.rst:126
+msgid "Setting up Offline Folder"
+msgstr "Configuração da Pasta Offline"
+
+#: ../../chapter04.rst:128
+msgid ""
+"In a team collaboration environment, there are several best practices "
+"related to offline folder management."
+msgstr "Em um ambiente de colaboração em equipe, existem várias melhores práticas relacionadas ao gerenciamento de pastas offline."
+
+#: ../../chapter04.rst:130
+msgid "Here are  several parameters for consideration:"
+msgstr "Aqui estão vários parâmetros para consideração:"
+
+#: ../../chapter04.rst:134
+msgid "Team Folder Offline Settings"
+msgstr "Configurações Offline de Pasta de Equipe"
+
+#: ../../chapter04.rst:136
+msgid ""
+"If you have a big team folder or several team folders that are quite big,"
+" it is not a good practice to enable the team folder offline from the "
+"root. Instead, you can choose not to enable offline or just enable a "
+"subset of sub-folders that are relatively small and at the same time, "
+"used more often. If you want to enable a subset of sub-folders within "
+"team folders for offline access, you can start by going to the folder "
+"permission section. You can access this by clicking the \"Team Folders\" "
+"**(1)** from left side menu. \"Edit\" **(2)** the selected folder. In the"
+" \"Folder Permissions\" tab of editing window, select \"Force offline "
+"cache on native Client\" **(3)**, and apply the change."
+msgstr "Se você tem uma pasta de equipe grande ou várias pastas de equipe que são bastante grandes, não é uma boa prática habilitar a pasta de equipe para uso offline a partir da raiz. Em vez disso, você pode optar por não habilitar o uso offline ou apenas habilitar um subconjunto de subpastas que são relativamente pequenas e, ao mesmo tempo, usadas com mais frequência. Se você deseja habilitar um subconjunto de subpastas dentro de pastas de equipe para acesso offline, você pode começar acessando a seção de permissões de pasta. Você pode acessar isso clicando em \"Pastas de Equipe\" **(1)** no menu lateral esquerdo. \"Editar\" **(2)** a pasta selecionada. Na aba \"Permissões de Pasta\" da janela de edição, selecione \"Forçar cache offline no Cliente nativo\" **(3)**, e aplique a mudança."
+
+#: ../../chapter04.rst:141
+msgid "ENABLING OFFLINE ACCESS FOR NATIVE CLIENT"
+msgstr "HABILITANDO ACESSO OFFLINE PARA CLIENTE NATIVO"
+
+#: ../../chapter04.rst:143
+msgid ""
+"If you want to disable offline access for the team folder completely, you"
+" can change the setting from the Team Folders section by choosing the "
+"\"Settings\" tab below **(1)** in the edit team folder window, and "
+"selecting the \"Disable Offline Access\" option **(2)**. Don't forget to "
+"save your changes **(3)**."
+msgstr "Se você deseja desativar completamente o acesso offline para a pasta da equipe, você pode alterar a configuração na seção Pastas de Equipe escolhendo a aba \"Configurações\" abaixo **(1)** na janela de edição da pasta da equipe e selecionando a opção \"Desativar Acesso Offline\" **(2)**. Não esqueça de salvar suas alterações **(3)**."
+
+#: ../../chapter04.rst:148
+msgid "DISABLING OFFLINE ACCESS FOR TEAMSHARE"
+msgstr "DESATIVANDO O ACESSO OFFLINE PARA TEAMSHARE"
+
+#: ../../chapter04.rst:152
+msgid "User Offline Settings"
+msgstr "Configurações Offline do Usuário"
+
+#: ../../chapter04.rst:154
+msgid ""
+"Upon creating users in the CentreStack system (including users imported "
+"from Active Directory), there is an offline flag upon user creation."
+msgstr "Ao criar usuários no sistema CentreStack (incluindo usuários importados do Active Directory), existe uma marcação de offline na criação do usuário."
+
+#: ../../chapter04.rst:156
+msgid ""
+"Normally, we don't recommend checking the \"Enable offline access for all"
+" folders\" flag, because it will try to download every single file for "
+"the user when the user is connected, which can use a lot of bandwidth and"
+" slow things down."
+msgstr "Normalmente, não recomendamos marcar a opção \"Habilitar acesso offline para todas as pastas\", porque isso tentará baixar todos os arquivos para o usuário quando ele estiver conectado, o que pode usar muita largura de banda e tornar o processo lento."
+
+#: ../../chapter04.rst:161
+msgid "ENABLING PER-USER OFFLINE ACCESS"
+msgstr "HABILITANDO ACESSO OFFLINE POR USUÁRIO"
+
+#: ../../chapter04.rst:165
+msgid ""
+"This will automatically download ALL folders and files to the user's "
+"device and automatically update them whenever they have changed anywhere "
+"in the network. This will cause a significant increase in network "
+"traffic, especially during the initial download of all folders."
+msgstr "Isso fará o download automático de TODAS as pastas e arquivos para o dispositivo do usuário e os atualizará automaticamente sempre que houverem mudanças em qualquer lugar da rede. Isso causará um aumento significativo no tráfego da rede, especialmente durante o download inicial de todas as pastas."
+
+#: ../../chapter04.rst:167
+msgid ""
+"Without it, the user can still pick and choose which folder to mark as "
+"offline."
+msgstr "Sem isso, o usuário ainda pode escolher qual pasta marcar para uso offline."
+
+#: ../../chapter04.rst:171
+msgid "User Manual Offline Settings"
+msgstr "Manual do Usuário Configurações Offline"
+
+#: ../../chapter04.rst:173
+msgid ""
+"During regular usage of the files and folders, users can mark folders as "
+"offline."
+msgstr "Durante o uso regular dos arquivos e pastas, os usuários podem marcar pastas como offline."
+
+#: ../../chapter04.rst:178
+msgid "ENABLE OFFLINE ACCESS AT THE CLIENT LEVEL"
+msgstr "HABILITAR ACESSO OFFLINE NO NÍVEL DO CLIENTE"
+
+#: ../../chapter04.rst:182
+msgid "Summary"
+msgstr ""
+
+#: ../../chapter04.rst:184
+msgid ""
+"Administrators can manage the tenant-wide offline policy related to team "
+"folders and users. In the case where team folder size is small and user "
+"size is small, an administrator can enable the offline flag to push files"
+" and folders to user's devices."
+msgstr "Os administradores podem gerenciar a política de offline de âmbito geral relacionada a pastas de equipe e usuários. No caso em que o tamanho da pasta de equipe é pequeno e o tamanho do usuário é pequeno, um administrador pode ativar a opção de offline para enviar arquivos e pastas para os dispositivos dos usuários."
+
+#: ../../chapter04.rst:186
+msgid ""
+"However, in the case where the team folder size is big and the user "
+"number is not small, we recommend the administrator enables as few "
+"offline flags/settings as possible on the administration side. Users can "
+"still do offline management themselves within their working folder on a "
+"case-by-case basis."
+msgstr "No entanto, no caso em que o tamanho da pasta da equipe é grande e o número de usuários não é pequeno, recomendamos que o administrador habilite o menor número possível de configurações de offline no lado da administração. Os usuários ainda podem gerenciar offline por conta própria dentro de sua pasta de trabalho em uma base caso a caso."
+

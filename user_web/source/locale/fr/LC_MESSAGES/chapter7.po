@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter7.rst:3
+msgid "Folder Legends in Web Interface"
+msgstr "Légendes des dossiers dans l'interface Web"
+
+#: ../../chapter7.rst:5
+msgid "There are many different folders in the web interface."
+msgstr "Il existe de nombreux dossiers différents dans l'interface web."
+
+#: ../../chapter7.rst:7
+msgid "Here is a list of them."
+msgstr "Voici une liste d'entre eux."
+
+#: ../../chapter7.rst:9
+msgid "**Mounted Storage**"
+msgstr "**Stockage Monté**"
+
+#: ../../chapter7.rst:15
+msgid ""
+"This folder represents mounted/attached storage. For example, a mounted "
+"file server network share or a connected Amazon S3 bucket will look like "
+"this."
+msgstr "Ce dossier représente un stockage monté/attaché. Par exemple, un partage de réseau de serveur de fichiers monté ou un seau Amazon S3 connecté apparaîtra ainsi."
+
+#: ../../chapter7.rst:17
+msgid "**Sync From Remote**"
+msgstr "**Synchronisation à partir d'un emplacement distant**"
+
+#: ../../chapter7.rst:23
+msgid ""
+"This folder represents synchronization folders from remote PCs or Server "
+"Agents."
+msgstr "Ce dossier représente les dossiers de synchronisation provenant d'ordinateurs distants ou d'agents serveurs."
+
+#: ../../chapter7.rst:25
+msgid "**Received Shares**"
+msgstr "**Partages reçus**"
+
+#: ../../chapter7.rst:31
+msgid ""
+"This folder represents the root folder of all the shared files and "
+"folders from other users."
+msgstr "Ce dossier représente le dossier racine de tous les fichiers et dossiers partagés par d'autres utilisateurs."
+
+#: ../../chapter7.rst:33
+msgid "**Regular Folder**"
+msgstr "**Dossier régulier**"
+
+#: ../../chapter7.rst:39
+msgid "This folder represents a single shared folder received from other users."
+msgstr "Ce dossier représente un seul dossier partagé reçu d'autres utilisateurs."
+
+#: ../../chapter7.rst:41
+msgid "**Team Folder**"
+msgstr "**Dossier d'équipe**"
+
+#: ../../chapter7.rst:47
+msgid ""
+"This folder represent a team folder that is published to users and viewed"
+" from the users who received the team folder."
+msgstr "Ce dossier représente un dossier d'équipe qui est publié pour les utilisateurs et visible par ceux qui ont reçu le dossier d'équipe."
+
+#: ../../chapter7.rst:49
+msgid "**Version Control**"
+msgstr "**Contrôle de version**"
+
+#: ../../chapter7.rst:55
+msgid ""
+"Version folder represents folders that every files inside is under "
+"version control."
+msgstr "Le dossier de version représente des dossiers où tous les fichiers à l'intérieur sont sous contrôle de version."
+
+#: ../../chapter7.rst:59
+msgid ""
+"If a folder doesn't have the version folder icon, doesn't mean it is not "
+"a version folder."
+msgstr "Si un dossier n'a pas l'icône de dossier de version, cela ne signifie pas qu'il n'est pas un dossier de version."
+
+#: ../../chapter7.rst:61
+msgid ""
+"As long as one of the parent folder is a version folder, everything "
+"inside is under version control."
+msgstr "Tant qu'un des dossiers parents est un dossier de version, tout ce qui se trouve à l'intérieur est sous contrôle de version."
+
+#: ../../chapter7.rst:63
+msgid ""
+"If the administrator setup the user as version control from the root, the"
+" team user may not see the version folder icon either when version "
+"control is on by default."
+msgstr "Si l'administrateur configure l'utilisateur pour le contrôle de version depuis la racine, l'utilisateur de l'équipe pourrait ne pas voir l'icône du dossier de version lorsque le contrôle de version est activé par défaut."
+

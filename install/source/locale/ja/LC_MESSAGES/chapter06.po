@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter06.rst:3
+msgid "Enable SSL – Install SSL Certificate"
+msgstr "SSLを有効にする – SSL証明書をインストールする"
+
+#: ../../chapter06.rst:7
+msgid ""
+"Assuming that you have already setup your DNS to point to a DNS name "
+"connected to the |prodname| server and an SSL certificate already "
+"purchased for the DNS name. If not, you can acquire an SSL certificate "
+"from your SSL vendor."
+msgstr "既にDNSを設定して、|prodname| サーバーに接続されたDNS名にポイントしていると仮定します。そして、そのDNS名に対してSSL証明書を既に購入しています。そうでない場合は、SSLベンダーからSSL証明書を取得することができます。"
+
+#: ../../chapter06.rst:9
+msgid ""
+"We recommend using https://www.ssllabs.com/ to test your SSL setup "
+"because the SSL Labs site will produce a report on whether the SSL is "
+"compatible with all devices such as iOS devices."
+msgstr "SSLの設定をテストするには、https://www.ssllabs.com/ の使用をお勧めします。SSL Labsのサイトでは、SSLがiOSデバイスなどのすべてのデバイスと互換性があるかどうかについてのレポートを生成します。"
+
+#: ../../chapter06.rst:13
+msgid ""
+"You can also use openssl to check the SSL certificates and whether or not"
+" the whole certificate trust chain is completely installed on the server "
+"side."
+msgstr "opensslを使用して、SSL証明書をチェックし、サーバー側に証明書の信頼チェーン全体が完全にインストールされているかどうかも確認できます。"
+
+#: ../../chapter06.rst:20
+msgid ""
+"You will install the SSL certificate using the IIS Manager. Look for "
+"\"Server Certificates\" and double click on it."
+msgstr "SSL証明書はIISマネージャーを使用してインストールします。\"サーバー証明書\"を探して、それをダブルクリックします。"
+
+#: ../../chapter06.rst:24
+msgid ""
+"Click on \"Import\" to import an existing SSL Certificate. Leave the "
+"Certificate Store as \"Personal\" or \"Web Hosting\", either option is "
+"fine."
+msgstr "「インポート」をクリックして、既存のSSL証明書をインポートしてください。証明書ストアは「個人」または「Webホスティング」のいずれかを選択してください。どちらも問題ありません。"
+
+#: ../../chapter06.rst:30
+msgid "Verify that the certificate is available:"
+msgstr "証明書が利用可能であることを確認してください:"
+
+#: ../../chapter06.rst:34
+msgid ""
+"You can also verify the SSL certificate using the MMC/Certificates snap-"
+"in (Local Computer)."
+msgstr "MMC/証明書スナップイン（ローカルコンピュータ）を使用してSSL証明書を確認することもできます。"
+
+#: ../../chapter06.rst:38
+msgid ""
+"Now you can bind the \"Default Web Site\" to the SSL certificate for "
+"HTTPS. Right click on the \"Default Web Site\" and select \"Edit "
+"Bindings\"."
+msgstr "これで、「デフォルトの Web サイト」を HTTPS 用の SSL 証明書にバインドできます。\"デフォルトの Web サイト\"を右クリックし、「バインドの編集」を選択します。"
+
+#: ../../chapter06.rst:43
+msgid "At the binding dialog, edit the HTTPS binding."
+msgstr "バインディングダイアログで、HTTPSバインディングを編集してください。"
+
+#: ../../chapter06.rst:47
+msgid ""
+"Now, change the SSL Certificate binding drop-down to the imported SSL "
+"certificate."
+msgstr "今、SSL証明書バインディングのドロップダウンをインポートしたSSL証明書に変更してください。"
+

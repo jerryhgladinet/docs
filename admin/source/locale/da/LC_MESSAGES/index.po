@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Kom godt i gang"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Administration Guide. This guide describes "
+"administration tasks for |prodname|, the mobile access and secure file "
+"sharing solution that focuses on local file server cloud-enablement."
+msgstr "Velkommen til |prodname| Administrationsguiden. Denne guide beskriver administrative opgaver for |prodname|, løsningen til mobiladgang og sikker fildeling, der fokuserer på cloud-aktivering af lokale filservere."
+
+#: ../../index.rst:10
+msgid ""
+"|prodname| runs on the Windows Server platform and includes client agent "
+"software applications for Microsoft Windows, Mac OS X, and Mobile Clients"
+" for the Android and Apple iOS operating systems."
+msgstr "|prodname| kører på Windows Server-platformen og inkluderer klientagentsoftwareapplikationer til Microsoft Windows, Mac OS X og mobile klienter til Android og Apple iOS-operativsystemerne."
+
+#: ../../index.rst:13
+msgid ""
+"|prodname| includes a client application for Windows File Server, which "
+"is named \"Server Agent\". This document is about |prodname| itself, not "
+"about the \"Server Agent\"."
+msgstr "|prodname| inkluderer en klientapplikation til Windows-filserver, som hedder \"Server Agent\". Dette dokument handler om |prodname| selv, ikke om \"Server Agent\"."
+
+#: ../../index.rst:16
+msgid "This admin guide is written for |prodname| version |release|"
+msgstr "Denne administrationsguide er skrevet til |prodname| version |release|"
+
+#: ../../index.rst:19
+msgid "Overview"
+msgstr "Oversigt"
+
+#: ../../index.rst:21
+msgid ""
+"|prodname| is a mobile access and secure file sharing solution. It "
+"differentiates itself from other File Sync and Share solutions by "
+"focusing on data security, permission controls and, file server cloud-"
+"enablements including data protection and cloud migration. |prodname| "
+"surpasses the competition in the following areas:"
+msgstr "|prodname| er en løsning til mobiladgang og sikker fildeling. Den adskiller sig fra andre løsninger til filsynkronisering og -deling ved at fokusere på datasikkerhed, tilladelseskontrol og skyaktivering af filservere, herunder databeskyttelse og cloud-migration. |prodname| overgår konkurrencen på følgende områder:"
+
+#: ../../index.rst:24
+msgid ""
+"Maintaining Active Directory, security and NTFS permissions on files and "
+"folders."
+msgstr "Vedligeholdelse af Active Directory, sikkerhed og NTFS-tilladelser på filer og mapper."
+
+#: ../../index.rst:25
+msgid "Providing live time sync-and-share with versioning and revision controls."
+msgstr "Tilbyder live tidssynkronisering og deling med versionsstyring og revisionskontrol."
+
+#: ../../index.rst:26
+msgid ""
+"Providing On-Demand access that honors Read-Only, and Write permissions "
+"in Real-Time."
+msgstr "Leverer adgang efter behov, der respekterer læse-, og skriverettigheder i realtid."
+
+#: ../../index.rst:27
+msgid "Mirroring of local network shares for Team Collaboration in the Cloud."
+msgstr "Spejling af lokale netværksandele til team-samarbejde i skyen."
+
+#: ../../index.rst:28
+msgid ""
+"Provide drive mapping and file locking functionality for files in the "
+"Cloud."
+msgstr "Tilbyd drevtilknytning og filspærringsfunktionalitet for filer i skyen."
+
+#: ../../index.rst:30
+msgid ""
+"|prodname| is a software solution built on top of the Microsoft Web "
+"Platform. It provides file access and sharing functionality from PCs, "
+"Macs, File Servers, Web Browsers, and Mobile Devices. In addition, it "
+"also brings data protection and cloud migration features."
+msgstr "|prodname| er en softwareløsning bygget oven på Microsofts webplatform. Den giver adgang til og deling af filer fra pc'er, Macs, filservere, webbrowsere og mobile enheder. Derudover tilbyder den også funktioner til databeskyttelse og cloud-migrering."
+
+#: ../../index.rst:32
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy |prodname|."
+msgstr "Tjenesterne kan implementeres i fleksible kombinationer for at imødekomme forskellige behov. Der er to primære måder at implementere |prodname| på."
+
+#: ../../index.rst:34
+msgid ""
+"Deploy the |prodname| server in the same site as the File Servers and "
+"Active Directory domain controllers:"
+msgstr "Udrul |prodname| serveren på samme sted som filserverne og Active Directory-domænecontrollere:"
+
+#: ../../index.rst:38
+msgid ""
+"See also: `File Server Remote Access <https://www.gladinet.com/hybrid-"
+"cloud-with-file-server.html>`_"
+msgstr "Se også: `Fjernadgang til filserver <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../index.rst:40
+msgid ""
+"Deploy in a cloud data center, such as Amazon Web Services EC2, Microsoft"
+" Azure, or in a Data Center where the Managed Service Provider (MSP) "
+"hosts their infrastructure:"
+msgstr "Udrul i et cloud-datacenter, såsom Amazon Web Services EC2, Microsoft Azure, eller i et datacenter, hvor Managed Service Provider (MSP) er vært for deres infrastruktur:"
+
+#: ../../index.rst:46
+msgid ""
+"Please reference the `“Installation Checklist”`__ as well as the "
+"`“Installation Guide”`__ for information on how to setup and deploy "
+"CentreStack. This guide is focused on the administration of |prodname|."
+msgstr "Henvis venligst til `\"Installations tjekliste\"`__ samt `\"Installationsvejledning\"`__ for information om, hvordan du opsætter og udruller CentreStack. Denne vejledning fokuserer på administrationen af |prodname|."
+
+#: ../../index.rst:57
+msgid ""
+"This Administration Guide is for the Self-Hosted |prodname|. For Hosted-"
+"CentreStack, please reference the Hosted CentreStack Admin Guide."
+msgstr "Denne administrationsguide er til den selvhostede |prodname|. For Hosted-CentreStack henvises til Hosted CentreStack Admin Guide."
+

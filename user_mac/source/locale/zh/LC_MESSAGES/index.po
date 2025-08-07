@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "1 Getting Started"
+msgstr "1 入门"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Mac OS X Client User Guide. This guide "
+"describes client functionality for users in |prodname|, the managed file "
+"synchronization and sharing solution that focuses on file server cloud-"
+"enablement."
+msgstr "欢迎使用 |prodname| Mac OS X 客户端用户指南。本指南描述了 |prodname| 中用户的客户端功能，|prodname| 是一种托管文件同步和共享解决方案，专注于文件服务器云启用。"
+
+#: ../../index.rst:12
+msgid "Mac OS X Clients"
+msgstr "Mac OS X 客户端"
+
+#: ../../index.rst:14
+msgid ""
+"|prodname| client agents are available for Windows, Mac, iOS, Android, "
+"and Windows phones. These clients are designed to work with your "
+"|prodname| account that your Managed Service Provider has set up for you "
+"or your company IT has setup for you."
+msgstr "|prodname| 客户端代理适用于 Windows、Mac、iOS、Android 和 Windows 手机。这些客户端旨在与您的托管服务提供商为您或您公司 IT 设置的 |prodname| 账户配合使用。"
+
+#: ../../index.rst:18
+msgid "System Requirement"
+msgstr "系统要求"
+
+#: ../../index.rst:20
+msgid "Mac OS X 10.14/10.13/10.12"
+msgstr "Mac OS X 10.14/10.13/10.12"
+
+#: ../../index.rst:22
+msgid ""
+"Mac OS X client for these OS versions are actively maintained and relesed"
+" regularlly."
+msgstr "Mac OS X 客户端适用于这些操作系统版本，会定期维护和发布。"
+
+#: ../../index.rst:24
+msgid "Mac OS X 10.7/10.8/10.9/10.10/10.11"
+msgstr "Mac OS X 10.7/10.8/10.9/10.10/10.11"
+
+#: ../../index.rst:26
+msgid ""
+"Mac OS X client for these OS versions are available but not actively "
+"maintained."
+msgstr "Mac OS X 客户端适用于这些操作系统版本，但不提供积极维护。"
+
+#: ../../index.rst:32
+msgid "This guide is updated to match Mac Client version 9.7.41664"
+msgstr "本指南已更新以匹配 Mac 客户端版本 9.7.41664"
+

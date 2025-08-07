@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../task_manager.rst:2
+msgid "Task Manager"
+msgstr "タスクマネージャー"
+
+#: ../../task_manager.rst:4
+msgid "Access the **Task Manager** from the side menu."
+msgstr "サイドメニューから **タスクマネージャー** にアクセスします。"
+
+#: ../../task_manager.rst:8
+msgid ""
+"If some tasks are pending, the list will be shown in the Task Manager. "
+"Tap on the **Refresh** (1) button to update the task list and the "
+"**Delete** (2) to delete all tasks."
+msgstr "いくつかのタスクが保留中の場合、リストはタスクマネージャーに表示されます。**更新** (1) ボタンをタップしてタスクリストを更新し、**削除** (2) で全てのタスクを削除します。"
+
+#: ../../task_manager.rst:12
+msgid "Any individual task can be deleted by pressing the delete button."
+msgstr "個々のタスクは、削除ボタンを押すことで削除できます。"
+
+#: ../../task_manager.rst:16
+msgid ""
+"A task that is displayed as a green running image means that it is "
+"currently being executed."
+msgstr "緑色の実行中画像として表示されるタスクは、現在実行中であることを意味します。"
+
+#: ../../task_manager.rst:20
+msgid "Once all tasks are completed, the **No Tasks Found** page is displayed."
+msgstr "すべてのタスクが完了すると、**No Tasks Found** ページが表示されます。"
+

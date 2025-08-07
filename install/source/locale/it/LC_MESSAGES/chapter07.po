@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter07.rst:3
+msgid "Setup Worker Node for SSL"
+msgstr "Configurazione del Nodo Worker per SSL"
+
+#: ../../chapter07.rst:5
+msgid ""
+"Login to the Web Portal as the Cluster Administrator, go to \"Cluster "
+"Dashboard\", and click on \"Worker Note Count\"."
+msgstr "Accedi al Portale Web come Amministratore del Cluster, vai su \"Pannello di controllo del Cluster\" e clicca su \"Conteggio Note Worker\"."
+
+#: ../../chapter07.rst:9
+msgid "then you can see \"Cluster Worker Nodes\"."
+msgstr "allora puoi vedere i \"Nodi Worker del Cluster\"."
+
+#: ../../chapter07.rst:13
+msgid "There is an \"Advanced Setting\" icon on the page."
+msgstr "C'è un'icona \"Impostazioni Avanzate\" sulla pagina."
+
+#: ../../chapter07.rst:17
+msgid ""
+"Now, check **\"Always force SSL on Login\"** and **\"Always force SSL for"
+" Native Clients\"** boxes."
+msgstr "Ora, seleziona le caselle **\"Forza sempre SSL all'accesso\"** e **\"Forza sempre SSL per i Client Nativi\"**."
+
+#: ../../chapter07.rst:21
+msgid ""
+"If you use the self-signed SSL certificate, the web portal is the only "
+"client that allows you to login after some SSL certificate warning. All "
+"other native clients such as Windows, mobile, and Mac clients will reject"
+" the connection."
+msgstr "Se utilizzi il certificato SSL autofirmato, il portale web è l'unico client che ti permette di accedere dopo alcuni avvisi di certificato SSL. Tutti gli altri client nativi come quelli per Windows, dispositivi mobili e Mac rifiuteranno la connessione."
+
+#: ../../chapter07.rst:23
+msgid "You can also modify the node property for the node."
+msgstr "Puoi anche modificare la proprietà del nodo per il nodo."
+
+#: ../../chapter07.rst:27
+msgid ""
+"The Node Name needs to match the hostname of the node. You can get the "
+"hostname of the node by going into Command Prompt(Press Windows+R and "
+"then type in cmd) and typing in hostname."
+msgstr "Il Nome del Nodo deve corrispondere al nome host del nodo. Puoi ottenere il nome host del nodo accedendo al Prompt dei Comandi (Premi Windows+R e poi digita cmd) e digitando hostname."
+
+#: ../../chapter07.rst:31
+msgid ""
+"The External URL should match the external URL for HTTPS. (If you do not "
+"have a SSL certificate installed yet, this can be HTTP for now)."
+msgstr "L'URL esterno dovrebbe corrispondere all'URL esterno per HTTPS. (Se non hai ancora installato un certificato SSL, per ora può essere HTTP)."
+
+#: ../../chapter07.rst:35
+msgid ""
+"The Internal URL will need to match the internal IP address or node's "
+"private DNS name and the HTTP or HTTPS protocol."
+msgstr "L'URL interna dovrà corrispondere all'indirizzo IP interno o al nome DNS privato del nodo e al protocollo HTTP o HTTPS."
+

@@ -49,8 +49,46 @@ source_suffix = '.rst'
 master_doc = 'contents'
 
 # General information about the project.
+#en
 project = 'Android User Guide'
-copyright = '© 2008-2023 Gladinet, Inc. All Rights Reserved'
+
+#ar
+#project = 'دليل مستخدم أندرويد'
+
+#da
+#project = 'Android-brugervejledning'
+
+#de
+#project = 'Android-Benutzerhandbuch'
+
+#es
+#project = 'Guía del usuario de Android'
+
+#fi
+#project = 'Android-käyttöopas'
+
+#fr
+#project = 'Guide de l\'utilisateur Android'
+
+#it
+#project = 'Guida utente Android'
+
+#ja
+#project = 'Android ユーザーガイド'
+
+#nl
+#project = 'Android-gebruikershandleiding'
+
+#pt
+#project = 'Guia do utilizador do Android'
+
+#sv
+#project = 'Android användarhandbok'
+
+#zh
+#project = 'Android 用户指南'
+
+copyright = '2025 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -67,7 +105,13 @@ release = '12.1.40921'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
+locale_dirs = ['locale/']        # path is example but recommended.
+gettext_compact = False     # optional.
+html_context = {
+  'current_language': 'en',
+  'languages': [["English","en"], ["Français","fr"], ["Deutsche","de"], ["Español","es"], ["Italiano","it"], ["Português","pt"], ["Nederlands","nl"], ["中文", "zh"], ["日本語","ja"], ["Svenska","sv"], ["Suomi","fi"], ["Dansk","da"], ["عربي","ar"]]
+}
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:

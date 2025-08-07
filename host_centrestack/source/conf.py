@@ -48,7 +48,45 @@ source_suffix = '.rst'
 master_doc = 'content'
 
 # General information about the project.
-project = 'Hosted CentreStack Admin Guide'
+#en
+#project = 'Hosted CentreStack Admin Guide'
+
+#ar
+#project = 'دليل إدارة CentreStack المُستضاف'
+
+#da
+#project = 'Hosted CentreStack-administratorvejledning'
+
+#de
+#project = 'Hosted CentreStack-Administratorhandbuch'
+
+#es
+#project = 'Guía de administración de CentreStack alojado'
+
+#fi
+#project = 'Isännöidyn CentreStackin hallintaopas'
+
+#fr
+#project = 'Guide d\'administration de CentreStack hébergé'
+
+#it
+#project = 'Guida amministrativa di CentreStack ospitata'
+
+#ja
+#project = 'ホスト型 CentreStack 管理ガイド'
+
+#nl
+#project = 'Hosted CentreStack-beheerdershandleiding'
+
+#pt
+#project = 'Guia de administração do CentreStack alojado'
+
+#sv
+#project = 'Administratörsguide för värdbaserad CentreStack'
+
+#zh
+project = '托管 CentreStack 管理指南'
+
 copyright = '2025 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
@@ -82,6 +120,12 @@ release = u'16.4.10331.56447'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
+locale_dirs = ['locale/']        # path is example but recommended.
+gettext_compact = False     # optional.
+html_context = {
+  'current_language': 'en',
+  'languages': [["English","en"], ["Français","fr"], ["Deutsche","de"], ["Español","es"], ["Italiano","it"], ["Português","pt"], ["Nederlands","nl"], ["中文", "zh"], ["日本語","ja"], ["Svenska","sv"], ["Suomi","fi"], ["Dansk","da"], ["عربي","ar"]]
+}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

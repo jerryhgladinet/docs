@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Partner Portal"
+msgstr "パートナーポータル"
+
+#: ../../chapter02.rst:5
+msgid ""
+"To start the Hosted-|prodname| version, the first thing to do is to "
+"acquire a |prodname| partner account and login to the web portal."
+msgstr "ホステッド-|prodname| バージョンを開始するには、まず |prodname| パートナーアカウントを取得してWebポータルにログインすることです。"
+
+#: ../../chapter02.rst:10
+msgid "|prodname| WEBSITE"
+msgstr "|prodname| ウェブサイト"
+
+#: ../../chapter02.rst:12
+msgid ""
+"The Partner Portal is the centralized place to manage the managed service"
+" provider's (MSP's) clients. The activities on the partner portal include"
+" creating Tenants and managing Tenants."
+msgstr "パートナーポータルは、マネージドサービスプロバイダー（MSP）のクライアントを管理するための中央集権的な場所です。パートナーポータルでの活動には、テナントの作成とテナントの管理が含まれます。"
+
+#: ../../chapter02.rst:17
+msgid "PARTNER LOGIN"
+msgstr "パートナーログイン"
+
+#: ../../chapter02.rst:19
+msgid ""
+"After logging into the Partner Portal, you can see most options by "
+"expanding the left-side menu. **(1)** From the collapsable menu, choose "
+"one of the two hosting options: \"Self-Hosted |prodname|\" **(2)**, which"
+" is for the self-hosted |prodname|, or \"Hosted |prodname|\" **(3)**. In "
+"the image below you can see that we have already \"Branded\" this account"
+" with \"ACME Cloud Services\" **(4)** (see \"Branding\" section **(5)** "
+"below for more information). You can also access useful information here,"
+" such as \"Compare CentreStack Editions\" **(6)** and \"Training Videos\""
+" **(7)** to help you get started."
+msgstr "パートナーポータルにログインすると、左側のメニューを展開することでほとんどのオプションを確認できます。**(1)** 折りたたみメニューから、2つのホスティングオプションのうちの1つを選択します：「セルフホスト型 |prodname|」 **(2)**、これはセルフホスト型の |prodname| 用です、または「ホスト型 |prodname|」 **(3)**。下の画像では、すでにこのアカウントに「ACMEクラウドサービス」 **(4)** というブランドを付けているのがわかります（詳細は下記の「ブランディング」セクション **(5)** をご覧ください）。また、「CentreStackエディションの比較」 **(6)** や「トレーニングビデオ」 **(7)** など、役立つ情報にもここからアクセスできます。"
+
+#: ../../chapter02.rst:24
+msgid "PARTNER DASHBOARD"
+msgstr "パートナーダッシュボード"
+
+#: ../../chapter02.rst:26
+msgid ""
+"Because this guide is focused on our \"Hosted\" solution, choose the "
+"\"Hosted |prodname|\" option from the left panel."
+msgstr "このガイドは「ホステッド」ソリューションに焦点を当てているため、左パネルから「ホステッド |prodname|」オプションを選択してください。"
+
+#: ../../chapter02.rst:31
+msgid "HOSTED |prodname| TENANT MANAGEMENT"
+msgstr "ホステッド |prodname| テナント管理"
+
+#: ../../chapter02.rst:34
+msgid "Tenant Management"
+msgstr "テナント管理"
+
+#: ../../chapter02.rst:36
+msgid ""
+"After you are in the Hosted |prodname| section, you can view the Tenant "
+"manager."
+msgstr "ホストされている |prodname| セクションに入ったら、テナントマネージャーを表示できます。"
+
+#: ../../chapter02.rst:40
+msgid "A Tenant is usually mapped to a client of yours."
+msgstr "テナントは通常、あなたのクライアントにマッピングされます。"
+
+#: ../../chapter02.rst:43
+msgid "New Tenant"
+msgstr "新しいテナント"
+
+#: ../../chapter02.rst:45
+msgid ""
+"To start creating the first Tenant, you can use the \"Register a Tenant\""
+" link."
+msgstr "最初のテナントを作成するには、「テナントを登録する」リンクを使用できます。"
+
+#: ../../chapter02.rst:50
+msgid "CREATE A NEW TENANT"
+msgstr "新しいテナントを作成する"
+
+#: ../../chapter02.rst:52
+msgid ""
+"During the creation of a Tenant, it asks for basic Tenant-related "
+"information such as company name, contact name, email and other "
+"information."
+msgstr "テナントの作成時には、会社名、担当者名、メールアドレスなどの基本的なテナント関連情報を求められます。"
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you need to get to the advanced section to further customize the "
+"creation of the Tenant, you can click on the \"Advanced Settings\" link."
+msgstr "テナントの作成をさらにカスタマイズするために「詳細設定」セクションに進む必要がある場合は、「詳細設定」リンクをクリックしてください。"
+
+#: ../../chapter02.rst:59
+msgid "NEW TENANT SETTINGS"
+msgstr "新しいテナント設定"
+
+#: ../../chapter02.rst:62
+msgid "Advanced Settings"
+msgstr "詳細設定"
+
+#: ../../chapter02.rst:67
+msgid "ADVANCED SETTINGS"
+msgstr "高度な設定"
+
+#: ../../chapter02.rst:69
+msgid ""
+"For MSPs and the Tenant internal IT staff, there is a division of work "
+"and responsibility. Sometimes managed service providers do more work and "
+"have more responsibility, but other times the Tenant IT staff has more. "
+"The Advanced Settings defines how the work is divided between these two "
+"entities."
+msgstr "MSPおよびテナントの内部ITスタッフには、作業と責任の分担があります。時には管理サービスプロバイダーがより多くの作業を行い、より大きな責任を負うこともありますが、他の時にはテナントITスタッフの方が多くを担います。アドバンスド設定では、これら二つのエンティティ間で作業がどのように分割されるかを定義します。"
+
+#: ../../chapter02.rst:71
+msgid "View and edit group policy"
+msgstr "グループポリシーの表示と編集"
+
+#: ../../chapter02.rst:73
+msgid "Whether the Tenant itself (Tenant Administrator) can manage group policy."
+msgstr "テナント自体（テナント管理者）がグループポリシーを管理できるかどうか。"
+
+#: ../../chapter02.rst:76
+msgid "Allow Tenant to edit branding setting"
+msgstr "テナントにブランディング設定の編集を許可する"
+
+#: ../../chapter02.rst:78
+msgid ""
+"Normally the Tenant will pick up the service provider's default branding "
+"setting. If this setting is allowed the Tenant can define their own "
+"branding."
+msgstr "通常、テナントはサービスプロバイダーのデフォルトのブランディング設定を引き継ぎます。この設定が許可されている場合、テナントは自身のブランディングを定義することができます。"
+
+#: ../../chapter02.rst:81
+msgid "Edit Tenant Administrator info"
+msgstr "テナント管理者情報を編集する"
+
+#: ../../chapter02.rst:83
+msgid ""
+"Tenant admin can change the email and the name of the Tenant "
+"administrator."
+msgstr "テナント管理者は、テナント管理者のメールアドレスと名前を変更できます。"
+
+#: ../../chapter02.rst:85
+msgid "Allow creation of guest users"
+msgstr "ゲストユーザーの作成を許可する"
+
+#: ../../chapter02.rst:87
+msgid ""
+"The Guest user is related to files and folder sharing. This setting "
+"allows Tenant users to create guest users."
+msgstr "ゲストユーザーは、ファイルやフォルダの共有に関連しています。この設定により、テナントユーザーはゲストユーザーを作成できます。"
+
+#: ../../chapter02.rst:89
+msgid ""
+"Show Data-At-Rest Encryption configuration page (Requires empty storage "
+"container)"
+msgstr "データアットレスト暗号化設定ページを表示する（空のストレージコンテナが必要）"
+
+#: ../../chapter02.rst:91
+msgid ""
+"This option allows Tenant to set encryption upon the first use. The "
+"Tenant will enable the encryption with a pass phrase."
+msgstr "このオプションを使用すると、テナントは初回使用時に暗号化を設定できます。テナントはパスフレーズで暗号化を有効にします。"
+
+#: ../../chapter02.rst:93
+msgid "User License Count"
+msgstr "ユーザーライセンス数"
+
+#: ../../chapter02.rst:95
+msgid "By default, the Tenant user count can be anything above 3 users."
+msgstr "デフォルトでは、テナントユーザー数は3ユーザー以上であることができます。"
+
+#: ../../chapter02.rst:97
+msgid "Hosting Data Center"
+msgstr "ホスティングデータセンター"
+
+#: ../../chapter02.rst:99
+msgid ""
+"If a managed service provider has both self-hosted |prodname| environment"
+" and Hosted |prodname|, the managed service provider can leverage self-"
+"hosted |prodname| to create Tenants."
+msgstr "マネージドサービスプロバイダーが自己ホスト型の |prodname| 環境とホスト型の |prodname| の両方を持っている場合、マネージドサービスプロバイダーは自己ホスト型の |prodname| を利用してテナントを作成することができます。"
+
+#: ../../chapter02.rst:101
+msgid ""
+"After a Tenant is created, you can manage the Tenants in \"Registered "
+"Tenants\" section."
+msgstr "テナントが作成された後、「登録済みテナント」セクションでテナントを管理できます。"
+
+#: ../../chapter02.rst:106
+msgid "MANAGING YOUR TENANT"
+msgstr "テナントの管理"
+
+#: ../../chapter02.rst:109
+msgid "Branding"
+msgstr "ブランディング"
+
+#: ../../chapter02.rst:111
+msgid ""
+"You can create the branding and then apply the branding information to "
+"your Tenants."
+msgstr "ブランディングを作成してから、そのブランディング情報をテナントに適用できます。"
+
+#: ../../chapter02.rst:116
+msgid "PARTNER BRANDING SETTINGS"
+msgstr "パートナーブランディング設定"
+
+#: ../../chapter02.rst:119
+msgid "Apply Branding to the Tenant"
+msgstr "テナントにブランディングを適用する"
+
+#: ../../chapter02.rst:121
+msgid ""
+"**Default branding is applied this way:** On \"Registered Tenants\" "
+"section, click \"Brand\"."
+msgstr "**デフォルトのブランディングはこのように適用されます:** 「登録済みテナント」セクションで、「ブランド」をクリックします。"
+
+#: ../../chapter02.rst:127
+msgid "APPLY PARTNER BRANDING"
+msgstr "パートナーブランディングを適用"
+
+#: ../../chapter02.rst:129
+msgid ""
+"If the Tenant is allowed to change the branding, this can be done from "
+"the Tenant dashboard."
+msgstr "テナントがブランディングを変更できる場合、これはテナントのダッシュボードから行うことができます。"
+
+#: ../../chapter02.rst:134
+msgid "ACCESS TO TENANT BRANDING"
+msgstr "テナントブランディングへのアクセス"
+
+#: ../../chapter02.rst:136
+msgid ""
+"Once you are in the Branding Settings, you can choose a settings group "
+"from the Branding submenu. The setting categories are: ``General``, ``Web"
+" Portal``, ``Client Download``, ``Windows Client``, ``Mac Client``, "
+"``Emails``, ``Email Service``, and ``Branding Tasks``."
+msgstr "ブランディング設定に入ると、ブランディングサブメニューから設定グループを選択できます。設定カテゴリには、``General``、``Web Portal``、``Client Download``、``Windows Client``、``Mac Client``、``Emails``、``Email Service``、そして ``Branding Tasks`` があります。"
+
+#: ../../chapter02.rst:141
+msgid "TENANT BRANDING SETTINGS"
+msgstr "テナントブランディング設定"
+
+#: ../../chapter02.rst:143
+msgid ""
+"After the branding is created, you can apply the branding to a specific "
+"Tenant. In this example, we created a new logo and uploaded it to the "
+"logo section in the partner portal."
+msgstr "ブランディングが作成された後、特定のテナントにそのブランディングを適用することができます。この例では、新しいロゴを作成し、パートナーポータルのロゴセクションにアップロードしました。"
+
+#: ../../chapter02.rst:148
+msgid "REPLACE THIS"
+msgstr ""
+
+#: ../../chapter02.rst:150
+msgid ""
+"After that, we can apply the branding and you can see the difference "
+"before-branding and after-branding."
+msgstr "その後、ブランディングを適用し、ブランディング前とブランディング後の違いを確認できます。"
+
+#: ../../chapter02.rst:153
+msgid "Before - Default"
+msgstr "以前 - デフォルト"
+
+#: ../../chapter02.rst:158
+msgid "DEFAULT BRANDING"
+msgstr "デフォルトブランディング"
+
+#: ../../chapter02.rst:161
+msgid "Now - Your Branding"
+msgstr "今 - あなたのブランディング"
+
+#: ../../chapter02.rst:166
+msgid "CUSTOM BRANDING"
+msgstr "カスタムブランディング"
+

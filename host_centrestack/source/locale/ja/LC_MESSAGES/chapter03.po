@@ -1,0 +1,571 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "Manage Tenant"
+msgstr "テナントの管理"
+
+#: ../../chapter03.rst:5
+msgid ""
+"By default, the |prodname| partner account holder has the \"Single-pane-"
+"of-glass\" view of all his tenants in the partner portal and can manage "
+"the Tenants in \"Registered Tenants\" section.."
+msgstr "デフォルトでは、|prodname| パートナーアカウント保持者はパートナーポータル内の「シングルペインオブグラス」ビューを通じて全てのテナントを一望でき、また「登録済みテナント」セクションでテナントを管理することができます。"
+
+#: ../../chapter03.rst:10
+msgid "MANAGE TENANT OPTION"
+msgstr "テナントオプションを管理"
+
+#: ../../chapter03.rst:12
+msgid ""
+"After you click through to the \"Manage\" option, the tenant dashboard "
+"will show."
+msgstr "「管理」オプションをクリックした後、テナントダッシュボードが表示されます。"
+
+#: ../../chapter03.rst:15
+msgid "Tenant Dashboard"
+msgstr "テナントダッシュボード"
+
+#: ../../chapter03.rst:17
+msgid ""
+"The dashboard contains the two most important assets: the ``users`` and "
+"the ``Team Folders``."
+msgstr "ダッシュボードには最も重要な二つの資産が含まれています：``ユーザー`` と ``チームフォルダー``。"
+
+#: ../../chapter03.rst:21
+msgid ""
+"Basically from a management perspective, you are helping the tenant "
+"manage their users and their common work areas - the Team Folders."
+msgstr "基本的には、管理の観点から、テナントがユーザーや共通の作業エリアであるチームフォルダーを管理する手助けをしています。"
+
+#: ../../chapter03.rst:26
+msgid "TENANT DASHBOARD"
+msgstr "テナントダッシュボード"
+
+#: ../../chapter03.rst:28
+msgid ""
+"There is also a Quick Access panel on the dashboard that you can see the "
+"second level of details on the tenant management scope."
+msgstr "ダッシュボードには、テナント管理スコープの第二レベルの詳細が確認できるクイックアクセスパネルもあります。"
+
+#: ../../chapter03.rst:33
+msgid "QUICK ACCESS PANEL"
+msgstr "クイックアクセスパネル"
+
+#: ../../chapter03.rst:36
+msgid "Reports"
+msgstr "レポート"
+
+#: ../../chapter03.rst:38
+msgid "In ``REPORTS``, you can see reports related to the tenant."
+msgstr "``REPORTS`` では、テナントに関連するレポートを確認できます。"
+
+#: ../../chapter03.rst:43
+msgid "REPORTS"
+msgstr "レポート"
+
+#: ../../chapter03.rst:45
+msgid ""
+"Once you click the **\"Reports\"** button you will see the **\"Upload "
+"Report\"** by default. You can use the tab at the top to choose other "
+"report options."
+msgstr "「**\"レポート\"**」ボタンをクリックすると、デフォルトで **\"アップロードレポート\"** が表示されます。上部のタブを使用して、他のレポートオプションを選択できます。"
+
+#: ../../chapter03.rst:50
+msgid "REPORTS MENU"
+msgstr "レポートメニュー"
+
+#: ../../chapter03.rst:52
+msgid "Upload Report"
+msgstr "レポートをアップロード"
+
+#: ../../chapter03.rst:54
+msgid ""
+"the number of files uploaded into hosted |prodname| in the last 30 days "
+"or last week."
+msgstr "過去30日間または先週にホステッド |prodname| にアップロードされたファイルの数。"
+
+#: ../../chapter03.rst:56
+msgid "Storage Statistics"
+msgstr "ストレージ統計"
+
+#: ../../chapter03.rst:58
+msgid ""
+"The files and folder number and size and other statistics of files and "
+"folders."
+msgstr "ファイルやフォルダの数、サイズ、その他の統計情報。"
+
+#: ../../chapter03.rst:60
+msgid "Team Folders"
+msgstr "チームフォルダ"
+
+#: ../../chapter03.rst:62
+msgid "All the Team Folders in the tenant."
+msgstr "テナント内のすべてのチームフォルダ。"
+
+#: ../../chapter03.rst:64 ../../chapter03.rst:372
+msgid "Shared Objects"
+msgstr "共有オブジェクト"
+
+#: ../../chapter03.rst:66
+msgid "All the peer-to-peer share objects in the tenant."
+msgstr "テナント内のすべてのピアツーピア共有オブジェクト。"
+
+#: ../../chapter03.rst:68
+msgid "Audit Trace"
+msgstr "監査トレース"
+
+#: ../../chapter03.rst:70
+msgid "The management scope events in the tenant."
+msgstr "テナント内の管理範囲イベント。"
+
+#: ../../chapter03.rst:72
+msgid "File Change Logging"
+msgstr "ファイル変更ログ"
+
+#: ../../chapter03.rst:74
+msgid "The file change events in the tenant."
+msgstr "テナント内のファイル変更イベント。"
+
+#: ../../chapter03.rst:78
+msgid "Tenant Branding"
+msgstr "テナントブランディング"
+
+#: ../../chapter03.rst:80
+msgid ""
+"After you setup default branding and apply to the tenants, you can "
+"continue to fine tune the branding on a per-tenant basis."
+msgstr "デフォルトのブランディングを設定し、テナントに適用した後、テナントごとにブランディングをさらに微調整できます。"
+
+#: ../../chapter03.rst:85
+msgid "TENANT BRANDING"
+msgstr "テナント ブランディング"
+
+#: ../../chapter03.rst:87
+msgid ""
+"In the ``TENANT BRANDING`` section, you can setup and change tenant "
+"specific branding information."
+msgstr "``TENANT BRANDING`` セクションでは、テナント固有のブランディング情報の設定や変更ができます。"
+
+#: ../../chapter03.rst:93
+msgid "BRANDING OPTIONS"
+msgstr "ブランディングオプション"
+
+#: ../../chapter03.rst:95
+msgid "Customized URL for your business"
+msgstr "ビジネス用カスタマイズURL"
+
+#: ../../chapter03.rst:97
+msgid ""
+"Upon creating the tenant, the tenant is assigned a random string of "
+"digits for the custom site. You can change the URL so that it is more "
+"related to the customer's business name."
+msgstr "テナントを作成すると、カスタムサイトにはランダムな数字の文字列が割り当てられます。URLを変更して、顧客のビジネス名に関連性のあるものにすることができます。"
+
+#: ../../chapter03.rst:103
+msgid "GENERAL OPTIONS"
+msgstr "一般オプション"
+
+#: ../../chapter03.rst:107
+msgid ""
+"The ``Customized URL`` field is very important for the tenant branding. "
+"It is like a key to a list of information belonging to the tenant. For "
+"tenant branding to work, the tenant will need to login to the specific "
+"URL that is assigned to them."
+msgstr "``カスタマイズされたURL`` フィールドは、テナントブランディングにとって非常に重要です。これは、テナントに属する情報のリストへの鍵のようなものです。テナントブランディングが機能するためには、テナントは自分たちに割り当てられた特定のURLにログインする必要があります。"
+
+#: ../../chapter03.rst:110
+msgid "Group Policy"
+msgstr "グループポリシー"
+
+#: ../../chapter03.rst:115
+msgid "GROUP POLICY"
+msgstr "グループポリシー"
+
+#: ../../chapter03.rst:117
+msgid ""
+"``GROUP POLICY`` is documented in the |prodname| Admin Guide. Look for "
+"the group policy section in the |prodname| Admin Guide. Please see the "
+"`Documentation Page`__ for more information."
+msgstr "``グループポリシー`` は |prodname| 管理ガイドに記載されています。|prodname| 管理ガイドのグループポリシーのセクションを参照してください。詳細については、`ドキュメントページ`__ をご覧ください。"
+
+#: ../../chapter03.rst:125
+msgid "DOCUMENTATION WEB PAGE"
+msgstr "ドキュメントウェブページ"
+
+#: ../../chapter03.rst:128
+msgid "Control Panel"
+msgstr "コントロールパネル"
+
+#: ../../chapter03.rst:133
+msgid "CONTROL PANEL"
+msgstr "コントロールパネル"
+
+#: ../../chapter03.rst:135
+msgid "In the ``CONTROL PANEL`` section, you will see the following sections."
+msgstr "``CONTROL PANEL`` セクションでは、以下のセクションが表示されます。"
+
+#: ../../chapter03.rst:140
+msgid "CONTROL PANEL SETTINGS"
+msgstr "コントロールパネル設定"
+
+#: ../../chapter03.rst:143
+msgid "Tenant Administrators"
+msgstr "テナント管理者"
+
+#: ../../chapter03.rst:148
+msgid "TENANT ADMINISTRATORS"
+msgstr "テナント管理者"
+
+#: ../../chapter03.rst:150
+msgid ""
+"You can change the tenant's administrator information here and also "
+"define delegate administrators."
+msgstr "テナントの管理者情報をここで変更することができます。また、代理管理者を定義することもできます。"
+
+#: ../../chapter03.rst:155
+msgid "TENANT ADMINISTRATOR SETTINGS"
+msgstr "テナント管理者設定"
+
+#: ../../chapter03.rst:158
+msgid "Single Sign-On"
+msgstr "シングルサインオン"
+
+#: ../../chapter03.rst:163
+msgid "SINGLE SIGN ON"
+msgstr "シングルサインオン"
+
+#: ../../chapter03.rst:165
+msgid ""
+"It is recommended to setup tenant specific ``custom URL`` before setting "
+"up the Single Sign-On since this is a tenant-specific Single Sign-On "
+"setting."
+msgstr "テナント固有の ``カスタムURL`` をシングルサインオンの設定を行う前に設定することをお勧めします。これはテナント固有のシングルサインオン設定です。"
+
+#: ../../chapter03.rst:171
+msgid "SINGLE SIGN-ON SETTINGS"
+msgstr "シングルサインオン設定"
+
+#: ../../chapter03.rst:173 ../../chapter03.rst:191
+msgid "Check the |prodname| Admin Guide for more details."
+msgstr "|prodname| 管理ガイドを参照して詳細を確認してください。"
+
+#: ../../chapter03.rst:176
+msgid "Azure AD"
+msgstr "Azure AD"
+
+#: ../../chapter03.rst:181
+msgid "AZURE AD"
+msgstr "AZURE AD"
+
+#: ../../chapter03.rst:183
+msgid ""
+"In Azure AD, you can setup the tenant to login using credentials from "
+"Azure AD."
+msgstr "Azure ADでは、Azure ADの資格情報を使用してログインするようにテナントを設定できます。"
+
+#: ../../chapter03.rst:189
+msgid "AZURE AD SETTINGS"
+msgstr "AZURE AD 設定"
+
+#: ../../chapter03.rst:194
+msgid "Notifications"
+msgstr "通知"
+
+#: ../../chapter03.rst:199
+msgid "NOTIFICATIONS"
+msgstr "通知"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Notification section defines what kind of notifications the tenant "
+"wants to configure."
+msgstr "通知セクションは、テナントが設定したい通知の種類を定義します。"
+
+#: ../../chapter03.rst:206
+msgid "NOTIFICATIONS SETTINGS"
+msgstr "通知設定"
+
+#: ../../chapter03.rst:209
+msgid "Device Manager"
+msgstr "デバイスマネージャー"
+
+#: ../../chapter03.rst:214
+msgid "DEVICE MANAGER"
+msgstr "デバイスマネージャー"
+
+#: ../../chapter03.rst:219
+msgid "DEVICE MANAGER SETTINGS"
+msgstr "デバイスマネージャー設定"
+
+#: ../../chapter03.rst:222
+msgid "Application Manager"
+msgstr "アプリケーションマネージャー"
+
+#: ../../chapter03.rst:227
+msgid "APPLICATION MANAGER"
+msgstr "アプリケーションマネージャー"
+
+#: ../../chapter03.rst:232
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "アプリケーションマネージャー設定"
+
+#: ../../chapter03.rst:235
+msgid "Sharepoint Online"
+msgstr "Sharepoint オンライン"
+
+#: ../../chapter03.rst:240
+msgid "SHAREPOINT ONLINE"
+msgstr "SHAREPOINT オンライン"
+
+#: ../../chapter03.rst:245
+msgid "SHAREPOINT ONLINE SETTINGS"
+msgstr "SHAREPOINT ONLINE 設定"
+
+#: ../../chapter03.rst:248
+msgid "Email Service"
+msgstr "メールサービス"
+
+#: ../../chapter03.rst:253
+msgid "EMAIL SERVICE"
+msgstr "メールサービス"
+
+#: ../../chapter03.rst:258
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "メールサービス設定"
+
+#: ../../chapter03.rst:261
+msgid "User Manager"
+msgstr "ユーザーマネージャー"
+
+#: ../../chapter03.rst:266
+msgid "USER MANAGER"
+msgstr "ユーザーマネージャー"
+
+#: ../../chapter03.rst:268
+msgid "User manager is where to manage the users for the tenant."
+msgstr "ユーザーマネージャーは、テナントのユーザーを管理する場所です。"
+
+#: ../../chapter03.rst:273
+msgid "USER MANAGER SETTINGS"
+msgstr "ユーザーマネージャー設定"
+
+#: ../../chapter03.rst:276
+msgid "Add User"
+msgstr "ユーザーを追加"
+
+#: ../../chapter03.rst:278
+msgid ""
+"Users can be created directly with user name and email. If the Server "
+"Agent is used, users can also be created from the Server Agent where "
+"Active Directory users from a remote Server Agent can be imported into "
+"|prodname|."
+msgstr "ユーザーは、ユーザー名とメールアドレスを直接作成することができます。サーバーエージェントを使用する場合、リモートサーバーエージェントのActive Directoryユーザーを |prodname| にインポートすることによって、サーバーエージェントからもユーザーを作成することができます。"
+
+#: ../../chapter03.rst:283
+msgid "ADDING USERS"
+msgstr "ユーザーの追加"
+
+#: ../../chapter03.rst:285
+msgid ""
+"Before the Server Agent is used, there are two options: \"Native User\" "
+"and \"Batch create users\". If you use Server Agent to connect a remote "
+"file server to this specific tenant, the remote Active Directory will "
+"also show up."
+msgstr "サーバーエージェントを使用する前に、「ネイティブユーザー」と「バッチでユーザーを作成する」の二つのオプションがあります。Server Agentを使用して特定のテナントにリモートファイルサーバーを接続する場合、リモートActive Directoryも表示されます。"
+
+#: ../../chapter03.rst:290
+msgid "CLICK TO CREATE OR MIGRATE A USER"
+msgstr "クリックしてユーザーを作成または移行する"
+
+#: ../../chapter03.rst:292
+msgid ""
+"Guest users are those users that don't have home directory storage, but "
+"can receive file and folder shares from regular users."
+msgstr "ゲストユーザーとは、ホームディレクトリストレージを持たないユーザーのことで、通常のユーザーからファイルやフォルダの共有を受け取ることができます。"
+
+#: ../../chapter03.rst:297
+msgid "SOURCES OF USERS"
+msgstr "ユーザーのソース"
+
+#: ../../chapter03.rst:300
+msgid "Group Manager"
+msgstr "グループマネージャー"
+
+#: ../../chapter03.rst:302
+msgid ""
+"You can create native |prodname| groups to help manage the assignment of "
+"users to folders and files for read and write permission."
+msgstr "ネイティブの |prodname| グループを作成して、ユーザーをフォルダやファイルに対する読み取りと書き込みの権限で割り当てる管理を支援できます。"
+
+#: ../../chapter03.rst:304
+msgid ""
+"If you have the Server Agent connected, the Server Agent can import Proxy"
+" Active Directory group instead."
+msgstr "サーバーエージェントが接続されている場合、サーバーエージェントはプロキシActive Directoryグループを代わりにインポートすることができます。"
+
+#: ../../chapter03.rst:309
+msgid "GROUPS"
+msgstr "グループ"
+
+#: ../../chapter03.rst:312
+msgid "Role Manager"
+msgstr "ロールマネージャー"
+
+#: ../../chapter03.rst:314
+msgid ""
+"Role manager can further define what each users in the tenant can do and "
+"what they have access to."
+msgstr "ロールマネージャーは、テナント内の各ユーザーが何をすることができ、何にアクセスできるかをさらに定義できます。"
+
+#: ../../chapter03.rst:319
+msgid "ROLES"
+msgstr "役割"
+
+#: ../../chapter03.rst:324
+msgid "CREATING A NEW ROLE"
+msgstr "新しい役割の作成"
+
+#: ../../chapter03.rst:329
+msgid ""
+"Collaboration is centered around storage folders and assigning users to "
+"folders with specific permissions."
+msgstr "協力は、ストレージフォルダを中心に行われ、特定の権限を持つフォルダにユーザーを割り当てます。"
+
+#: ../../chapter03.rst:332
+msgid "Team Folder"
+msgstr "チームフォルダ"
+
+#: ../../chapter03.rst:337
+msgid "TEAM FOLDERS"
+msgstr "チームフォルダー"
+
+#: ../../chapter03.rst:339
+msgid ""
+"The idea of a Team Folder is similar to that of a local network share. "
+"Users can be assigned to a Team Folder with read and write permissions at"
+" the share level. Inside the folder, at the sub-folder level, each sub-"
+"folder can define its own folder level permissions."
+msgstr "チームフォルダの概念は、ローカルネットワークシェアに似ています。ユーザーは、シェアレベルで読み取りと書き込みの権限を持つチームフォルダに割り当てることができます。フォルダ内では、サブフォルダレベルで、各サブフォルダは独自のフォルダレベルの権限を定義できます。"
+
+#: ../../chapter03.rst:342
+msgid "Add a Team Folder"
+msgstr "チームフォルダを追加"
+
+#: ../../chapter03.rst:347
+msgid "CREATING A TEAM FOLDER"
+msgstr "チームフォルダの作成"
+
+#: ../../chapter03.rst:349
+msgid ""
+"In the hosted |prodname| environment, you can create Team Folders in "
+"several different ways."
+msgstr "ホストされた |prodname| 環境では、チームフォルダをいくつかの異なる方法で作成できます。"
+
+#: ../../chapter03.rst:352
+msgid "Default Storage"
+msgstr "デフォルトストレージ"
+
+#: ../../chapter03.rst:352
+msgid ""
+"Create a new Team Folder from scratch using the default storage. It will "
+"be empty to start with and you can put files and folders inside later."
+msgstr "デフォルトのストレージを使用して、最初から新しいチームフォルダを作成します。最初は空になっており、後でファイルやフォルダを内部に配置できます。"
+
+#: ../../chapter03.rst:355
+msgid "Existing Folder(s)"
+msgstr "既存のフォルダ"
+
+#: ../../chapter03.rst:355
+msgid ""
+"Create a new folder by selecting one or more existing folders. Those "
+"selected folders will show up inside the Team Folder."
+msgstr "既存のフォルダを一つ以上選択して新しいフォルダを作成します。選択されたフォルダはチームフォルダ内に表示されます。"
+
+#: ../../chapter03.rst:358
+msgid "Publish Tenant Home Storage As a Team Folder"
+msgstr "テナントホームストレージをチームフォルダとして公開"
+
+#: ../../chapter03.rst:358
+msgid ""
+"The tenant's home storage will be published to users in the same tenant "
+"so they can see file and folder contents from the home storage. Some "
+"specialized folders such as folders from remote file servers or remote "
+"cloud storage services are not included in this scope."
+msgstr "テナントのホームストレージは、同じテナントのユーザーに公開され、ホームストレージのファイルやフォルダの内容を閲覧できるようになります。リモートファイルサーバーやリモートクラウドストレージサービスなどの特殊なフォルダは、この範囲に含まれません。"
+
+#: ../../chapter03.rst:362
+msgid "Remote File Server (with Server Agent)"
+msgstr "リモートファイルサーバー（サーバーエージェント付き）"
+
+#: ../../chapter03.rst:361
+msgid ""
+"Once you install the Server Agent on your remote server, you can create a"
+" Team Folder here."
+msgstr "リモートサーバーにサーバーエージェントをインストールすると、ここでチームフォルダを作成できます。"
+
+#: ../../chapter03.rst:364
+msgid ""
+"Initially without remote Server Agent installed, the Remote server "
+"section is empty. If there is at least one Server Agent installed, the "
+"remote file server will show up under the \"Remote File Servers\" section"
+" and you will be able to import file servers from a remote location, "
+"together with Active Directory Identities and the corresponding folder "
+"level NTFS permissions."
+msgstr "最初にリモートサーバーエージェントがインストールされていない場合、リモートサーバーのセクションは空です。少なくとも1つのサーバーエージェントがインストールされている場合、リモートファイルサーバーは「リモートファイルサーバー」セクションに表示され、リモートの場所からファイルサーバーをインポートすることができます。これには、アクティブディレクトリのアイデンティティと対応するフォルダーレベルのNTFS権限も含まれます。"
+
+#: ../../chapter03.rst:369
+msgid "TEAM FOLDER SETTINGS"
+msgstr "チームフォルダ設定"
+
+#: ../../chapter03.rst:377
+msgid "REPORTS > SHARED OBJECTS"
+msgstr "レポート > 共有オブジェクト"
+
+#: ../../chapter03.rst:379
+msgid ""
+"In |prodname|, you can share files and folders from your file browser. "
+"Once a something has been shared it will show up in the Shared Objects "
+"view of the Reports section of the portal. The shares can be read-only or"
+" full access, and can be controlled by date or shared as a public link. "
+"This is how Guest Users are created in |prodname|."
+msgstr "In |prodname|, ファイルブラウザからファイルやフォルダを共有することができます。何かが共有されると、それはポータルのレポートセクションの共有オブジェクトビューに表示されます。共有は読み取り専用または完全アクセスが可能で、日付によって制御されるか、公開リンクとして共有されます。これが |prodname| でゲストユーザーが作成される方法です。"
+
+#: ../../chapter03.rst:384
+msgid "SHARED OBJECT SETTINGS"
+msgstr "共有オブジェクト設定"
+
+#: ../../chapter03.rst:389
+msgid "Storage Manager"
+msgstr "ストレージマネージャー"
+
+#: ../../chapter03.rst:394
+msgid "SETTING UP BACKEND STORAGE"
+msgstr "バックエンドストレージの設定"
+
+#: ../../chapter03.rst:396
+msgid ""
+"Storage Manager is where you can define more secondary storage services "
+"and mount them into |prodname| so you can access them all from one single"
+" location."
+msgstr "ストレージマネージャーは、さらに多くのセカンダリストレージサービスを定義し、それらを |prodname| にマウントして、一つの場所からすべてにアクセスできるようにする場所です。"
+

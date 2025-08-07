@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Installation"
+msgstr "インストール"
+
+#: ../../chapter02.rst:7
+msgid ""
+"If this is the very first time you are installing |prodname| server, it "
+"is recommended that you do the all-in-one installation by preparing a "
+"clean Windows 2025/2022/2019/2016 virtual machine and installing with all"
+" the default parameters. The All-in-one deployment is the smallest fully "
+"functional setup and can be used for production environment with < 1000 "
+"users."
+msgstr "もしこれが |prodname| サーバーをインストールするのが初めてであれば、クリーンなWindows 2025/2022/2019/2016の仮想マシンを準備して、すべてのデフォルトパラメータでインストールすることをお勧めします。オールインワンデプロイメントは最小限で完全に機能するセットアップであり、< 1000ユーザーの本番環境に使用できます。"
+
+#: ../../chapter02.rst:11
+msgid "Step 1: Prepare the File Storage"
+msgstr "ステップ 1: ファイルストレージの準備"
+
+#: ../../chapter02.rst:13
+msgid ""
+"|prodname| server is about to cloudify your file storage and enable "
+"remote and mobile access, with sync and share capability. So, the first "
+"question is: What is your file storage solution?"
+msgstr "|prodname| サーバーは、ファイルストレージをクラウド化し、リモートアクセスとモバイルアクセスを可能にし、同期と共有機能を備えます。では、最初の質問です: あなたのファイルストレージソリューションは何ですか？"
+
+#: ../../chapter02.rst:15
+msgid ""
+"Your file storage can be a Windows File Server network share or any "
+"storage devices that supports CIFS/SMB protocol. It can also be from "
+"iSCSI devices that you can mount storage directly as a drive letter in "
+"the |prodname| server. It can also be a container inside a private "
+"instance of OpenStack Swift, a bucket in Amazon S3 compatible storage, or"
+" a container from Windows Azure blob storage. You will need the basic "
+"access information ready. For example,"
+msgstr "ファイルストレージは、Windowsファイルサーバーのネットワーク共有、またはCIFS/SMBプロトコルをサポートする任意のストレージデバイスであることができます。また、|prodname| サーバーに直接ドライブ文字としてストレージをマウントできるiSCSIデバイスからも可能です。プライベートインスタンスのOpenStack Swift内のコンテナ、Amazon S3互換ストレージのバケット、またはWindows Azureブロブストレージのコンテナも使用できます。基本的なアクセス情報を準備しておく必要があります。例えば、"
+
+#: ../../chapter02.rst:17
+msgid "**Windows File Server**"
+msgstr "**Windowsファイルサーバー**"
+
+#: ../../chapter02.rst:19
+msgid ""
+"If it is a Windows File Server, you will need the UNC path to the network"
+" share and the user credentials for accessing the folder."
+msgstr "もしWindowsファイルサーバーであれば、ネットワーク共有のUNCパスとフォルダにアクセスするためのユーザー資格情報が必要になります。"
+
+#: ../../chapter02.rst:21
+msgid ""
+"If it is from a local C: drive or local D: drive, you will need a local "
+"user credential that has full permission to the local folder."
+msgstr "ローカルのC:ドライブまたはD:ドライブからであれば、ローカルフォルダへのフルアクセス権限を持つローカルユーザーの資格情報が必要になります。"
+
+#: ../../chapter02.rst:23
+msgid "**OpenStack Swift**"
+msgstr "**OpenStack Swift**"
+
+#: ../../chapter02.rst:25
+msgid ""
+"If it is OpenStack Swift, you will need the authentication URL and "
+"credentials and understand the version of your authentication setup, such"
+" as KeyStone V2 or KeyStone V3 or just the classic authentication."
+msgstr "OpenStack Swiftを使用する場合、認証URLと資格情報が必要であり、KeyStone V2やKeyStone V3、または従来の認証など、認証セットアップのバージョンを理解する必要があります。"
+
+#: ../../chapter02.rst:27
+msgid "**Amazon S3**"
+msgstr "**Amazon S3**"
+
+#: ../../chapter02.rst:29
+msgid ""
+"If it is Amazon S3, you will need the Access Key and Secret Key and a "
+"Bucket Name. If the Access Key and Secret Key is from an IAM user, you "
+"will need to make sure the IAM user has full permission to the bucket."
+msgstr "Amazon S3を使用する場合、アクセスキーとシークレットキー、そしてバケット名が必要です。アクセスキーとシークレットキーがIAMユーザーからのものである場合、そのIAMユーザーがバケットへの完全な権限を持っていることを確認する必要があります。"
+
+#: ../../chapter02.rst:31
+msgid "**Windows Azure Blob Storage**"
+msgstr "**Windows Azure Blob ストレージ**"
+
+#: ../../chapter02.rst:33
+msgid ""
+"You will need the \"Storage Account Name\" and the \"Primary Key\" and a "
+"container name."
+msgstr "「ストレージアカウント名」と「プライマリキー」、そしてコンテナ名が必要になります。"
+
+#: ../../chapter02.rst:37
+msgid ""
+"The initial deployment of |prodname| configures the back end storage to "
+"use the ``C:\\CentreStack`` directory on the |prodname| server. This "
+"default back end storage location can be changed to another location at a"
+" later time by modifying the back end storage of the default tenant. Each"
+" |prodname| tenant can be configured for different back end storage "
+"locations."
+msgstr "|prodname| の初期デプロイメントでは、バックエンドストレージを |prodname| サーバー上の ``C:\CentreStack`` ディレクトリに設定します。このデフォルトのバックエンドストレージの場所は、後でデフォルトテナントのバックエンドストレージを変更することで、別の場所に変更することができます。各 |prodname| テナントは、異なるバックエンドストレージの場所に設定することができます。"
+
+#: ../../chapter02.rst:40
+msgid "Step 2: Prepare Active Directory (Optional)"
+msgstr "ステップ2: アクティブディレクトリの準備（オプション）"
+
+#: ../../chapter02.rst:42
+msgid ""
+"If you are integrating Active Directory, you will need the following "
+"information:"
+msgstr "Active Directoryを統合する場合、以下の情報が必要になります:"
+
+#: ../../chapter02.rst:44
+msgid "The DNS name (or IP address) of an Active Directory Domain Controller."
+msgstr "アクティブディレクトリドメインコントローラのDNS名（またはIPアドレス）。"
+
+#: ../../chapter02.rst:45
+msgid "A service account that can access the Active Directory."
+msgstr "Active Directoryにアクセスできるサービスアカウント。"
+
+#: ../../chapter02.rst:46
+msgid "The DNS name of the Active Directory Domain."
+msgstr "アクティブディレクトリドメインのDNS名。"
+
+#: ../../chapter02.rst:50
+msgid ""
+"If your Active Directory or the client's Active Directory is remotely "
+"located with regard to the |prodname| Server, then you should use Server "
+"Agent software to connect the Active Directory instead of using LDAP to "
+"connect Active Directory."
+msgstr "もしActive DirectoryまたはクライアントのActive Directoryが |prodname| サーバーから遠隔地にある場合は、LDAPを使用してActive Directoryに接続するのではなく、サーバーエージェントソフトウェアを使用してActive Directoryに接続すべきです。"
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you are using Single Sign-On service such as Azure AD, Active "
+"Directory Federation Service, OneLogin or OKTA, you can confige SAML "
+"based authentication instead of using Active Directory directly. Normally"
+" those identity service providers are connected to the corporate Active "
+"Directory anyway."
+msgstr "もしAzure AD、Active Directory Federation Service、OneLogin、OKTAなどのシングルサインオンサービスを使用している場合、Active Directoryを直接使用する代わりにSAMLベースの認証を設定することができます。通常、これらのアイデンティティサービスプロバイダーは企業のActive Directoryに接続されています。"
+
+#: ../../chapter02.rst:57
+msgid "Step 3: Prepare the Database Server"
+msgstr "ステップ 3: データベースサーバーの準備"
+
+#: ../../chapter02.rst:61
+msgid ""
+"If you are installing the all-in-one instance, you can skip this step "
+"because the all-in-one installer will install a PostgreSQL and configure "
+"the database accordingly. See `Step 5: Start Installation`_ below for "
+"more about the all-in-one installation."
+msgstr "オールインワンインスタンスをインストールする場合、このステップをスキップできます。オールインワンインストーラーはPostgreSQLをインストールし、データベースを適切に設定します。オールインワンインストールの詳細については、下記の `ステップ5: インストールを開始する`_ を参照してください。"
+
+#: ../../chapter02.rst:63
+msgid ""
+"This step is only for installation that has a separate database node "
+"which is not installed by default with any worker node."
+msgstr "この手順は、デフォルトではどのワーカーノードにもインストールされていない、別個のデータベースノードがあるインストールにのみ適用されます。"
+
+#: ../../chapter02.rst:65
+msgid ""
+"All |prodname| servers in a cluster will share one single centralized "
+"database."
+msgstr "クラスタ内のすべての |prodname| サーバーは、単一の中央集中型データベースを共有します。"
+
+#: ../../chapter02.rst:69
+msgid ""
+"With the release of the |prodname| version 9.5.5409.41172, the default "
+"database engine for the \"all in one\" deployment has switched to "
+"PostgreSQL as opposed to Microsoft SQL Server Express Edition. The main "
+"reason to make this switch was to avoid the built-in limitations of SQL "
+"Server Express Edition (1 GB RAM and 10 GB max database file size)."
+msgstr "|prodname| バージョン 9.5.5409.41172 のリリースに伴い、「オールインワン」デプロイメントのデフォルトデータベースエンジンが Microsoft SQL Server Express Edition から PostgreSQL に切り替わりました。この切り替えの主な理由は、SQL Server Express Edition の組み込み制限（1 GB RAM および 10 GB 最大データベースファイルサイズ）を回避するためでした。"
+
+#: ../../chapter02.rst:71
+msgid ""
+"There are two places that store persistent information. The first place "
+"is the File Storage mentioned in Step 1. The second place is the "
+"|prodname| database. There is configuration information such as user "
+"name, team folder, shared folder, login token in the database. There is "
+"also runtime information such as audit trace and file change log in the "
+"database."
+msgstr "永続的な情報を保存する場所は2か所あります。最初の場所はステップ1で触れたファイルストレージです。2番目の場所は |prodname| データベースです。データベースには、ユーザー名、チームフォルダ、共有フォルダ、ログイントークンなどの設定情報が含まれています。また、監査トレースやファイル変更ログなどの実行時情報もデータベースに含まれています。"
+
+#: ../../chapter02.rst:73
+msgid ""
+"The default |prodname| deployment utilizes a PostgreSQL local database on"
+" the |prodname| Server. We provide this option to allow the trial "
+"installation to be as simple as possible."
+msgstr "デフォルトの |prodname| デプロイメントは、|prodname| サーバー上のPostgreSQLローカルデータベースを利用します。トライアルインストールを可能な限り簡単にするために、このオプションを提供しています。"
+
+#: ../../chapter02.rst:75
+msgid ""
+"Currently |prodname| supports PostgreSQL, MySQL or Microsoft SQL Server "
+"Database Management Systems (DBMS). Some good reasons for deploying an "
+"external database server are performance, scalability and/or high "
+"availability."
+msgstr "現在、|prodname| はPostgreSQL、MySQL、またはMicrosoft SQL Serverデータベース管理システム（DBMS）をサポートしています。外部データベースサーバーを展開するいくつかの良い理由には、パフォーマンス、スケーラビリティ、および/または高可用性があります。"
+
+#: ../../chapter02.rst:78
+msgid "Microsoft SQL Server"
+msgstr "マイクロソフトSQLサーバー"
+
+#: ../../chapter02.rst:79
+msgid ""
+"If you are using an external Microsoft SQL Server as opposed to the "
+"default MySQL all-in-one deployment, then you must ensure the **SQL "
+"Server Authentication is configured for Mixed Mode Authentication**. The "
+"|prodname| Server connection requires the use of a SQL account, not a "
+"Windows integrated authentication account."
+msgstr "外部のMicrosoft SQL ServerをデフォルトのMySQLオールインワンデプロイメントではなく使用している場合は、**SQL Server認証が混在モード認証に設定されていること** を確認する必要があります。|prodname| サーバー接続には、Windows統合認証アカウントではなく、SQLアカウントの使用が必要です。"
+
+#: ../../chapter02.rst:81
+msgid ""
+"During the setup of the first worker node, the installer will need to "
+"create a database, create tables inside the database and create stored "
+"procedures in the database. Therefore, it requires a SQL security account"
+" that has enough privileges for the installation."
+msgstr "最初のワーカーノードのセットアップ中に、インストーラーはデータベースを作成し、データベース内にテーブルを作成し、データベースにストアドプロシージャを作成する必要があります。したがって、インストールに十分な権限を持つSQLセキュリティアカウントが必要です。"
+
+#: ../../chapter02.rst:83
+msgid ""
+"If the database server is external to the |prodname| server, make sure "
+"TCP protocol is enabled and firewall is opened to accept SQL connections."
+" Default TCP port is 1433 and that port needs to be opened on firewall. "
+"If you have SQL Server listening on a different port, that port will need"
+" to be opened as well."
+msgstr "データベースサーバーが |prodname| サーバーの外部にある場合は、TCPプロトコルが有効になっていること、およびファイアウォールがSQL接続を受け入れるように開かれていることを確認してください。デフォルトのTCPポートは1433で、そのポートはファイアウォールで開放する必要があります。SQL Serverが異なるポートでリスニングしている場合は、そのポートも開放する必要があります。"
+
+#: ../../chapter02.rst:86
+msgid "MySQL Server"
+msgstr "MySQLサーバー"
+
+#: ../../chapter02.rst:87
+msgid ""
+"MySQL typically listens on TCP port 3306. Make sure this port is opened "
+"on the firewall."
+msgstr "MySQLは通常、TCPポート3306でリッスンします。このポートがファイアウォールで開放されていることを確認してください。"
+
+#: ../../chapter02.rst:90
+msgid "PostgreSQL Server"
+msgstr "PostgreSQLサーバー"
+
+#: ../../chapter02.rst:91
+msgid ""
+"PostgreSQL usually is the default option for the all-in-one installation."
+" The default port is 5679 but most of the time the database is running on"
+" the \"localhost\", same as the |prodname| server."
+msgstr "PostgreSQLは通常、オールインワンインストールのデフォルトオプションです。デフォルトポートは5679ですが、ほとんどの場合データベースは「localhost」で実行されており、|prodname| サーバーと同じです。"
+
+#: ../../chapter02.rst:95
+msgid "Step 4: Prepare the |prodname| Server"
+msgstr "ステップ 4: |prodname| サーバーの準備をする"
+
+#: ../../chapter02.rst:97
+msgid ""
+"The easiest way to prepare the |prodname| server is to have a clean "
+"Windows Server 2025/2022/2019/2016 OS with English locale and make sure "
+"the worker nodes are all in the same time zone."
+msgstr "最も簡単な |prodname| サーバーの準備方法は、クリーンなWindows Server 2025/2022/2019/2016 OSを英語ロケールで用意し、ワーカーノードがすべて同じタイムゾーンにあることを確認することです。"
+
+#: ../../chapter02.rst:99
+msgid ""
+"We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a "
+"preferred server OS running on a virtual machine."
+msgstr "私たちは、仮想マシン上で実行される推奨サーバーOSとして、Windows Server 2025、2022、2019、またはWindows Server 2016を推奨します。"
+
+#: ../../chapter02.rst:105
+msgid "**Supported Operating Systems**"
+msgstr "**対応しているオペレーティングシステム**"
+
+#: ../../chapter02.rst:102
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../chapter02.rst:103
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
+
+#: ../../chapter02.rst:104
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
+
+#: ../../chapter02.rst:105
+msgid "Windows Server 2016"
+msgstr "Windows Server 2016"
+
+#: ../../chapter02.rst:109
+msgid "**Supported CPU**"
+msgstr "**サポートされているCPU**"
+
+#: ../../chapter02.rst:108
+msgid "64-bit Intel or AMD x64 architecture"
+msgstr "64ビット IntelまたはAMD x64アーキテクチャ"
+
+#: ../../chapter02.rst:109
+msgid "2 - virtual CPUs minimum (4 - virtual CPUs or more are recommended)"
+msgstr "2 - 仮想CPUが最低限必要です（4 - 仮想CPU以上を推奨）"
+
+#: ../../chapter02.rst:112
+msgid "**Memory**"
+msgstr "**メモリ**"
+
+#: ../../chapter02.rst:112
+msgid "8GB RAM minimum (16 GB or more is preferred)"
+msgstr "最小限8GBのRAM（16GB以上推奨）"
+
+#: ../../chapter02.rst:115
+msgid "**Hard Disk space**"
+msgstr "**ハードディスクの空き容量**"
+
+#: ../../chapter02.rst:115
+msgid ""
+"100 GB minimum, preferably SSD. This assumes back end file storage is not"
+" located on the |prodname| server itself."
+msgstr "最低100GB、できればSSD。これはバックエンドのファイルストレージが |prodname| サーバー自体に位置していないことを前提としています。"
+
+#: ../../chapter02.rst:118
+msgid "Step 5: Start Installation"
+msgstr "ステップ5: インストールを開始する"
+
+#: ../../chapter02.rst:120
+msgid ""
+"You can get the |prodname| installation package from the |prodname| "
+"partner portal (by logging in to https://partner.centrestack.com/login/) "
+"and going to the Self-Hosted |prodname| section."
+msgstr "パートナーポータル（https://partner.centrestack.com/login/ にログインして）から、Self-Hosted |prodname| セクションにアクセスして、|prodname| インストールパッケージを入手することができます。"
+
+#: ../../chapter02.rst:124
+msgid ""
+"Sign into the |prodname| server console (RDP or physical console are "
+"fine) with administrator rights. Once you click the **\"Download\"** "
+"button on the Partner Portal, the installer will appear either in "
+"downloads or as a link at the bottom of your browser. Click the "
+"executable file to begin the installation."
+msgstr "|prodname| サーバーコンソールに管理者権限でサインインしてください（RDPまたは物理コンソールでも構いません）。パートナーポータルで **「ダウンロード」** ボタンをクリックすると、インストーラーがダウンロードに表示されるか、ブラウザの下部にリンクとして現れます。実行可能なファイルをクリックしてインストールを開始します。"
+
+#: ../../chapter02.rst:126
+msgid "You will see the welcome screen."
+msgstr "ようこそ画面が表示されます。"
+
+#: ../../chapter02.rst:130 ../../chapter02.rst:136
+msgid "Click 'Next'"
+msgstr "「次へ」をクリック"
+
+#: ../../chapter02.rst:132
+msgid "And accept the EULA"
+msgstr "EULAに同意してください"
+
+#: ../../chapter02.rst:140
+msgid "And Click Install."
+msgstr "そしてインストールをクリックしてください。"
+
+#: ../../chapter02.rst:144
+msgid ""
+"After the installation has been completed successfully, a reboot is "
+"required. Click 'Restart'."
+msgstr "インストールが正常に完了した後、再起動が必要です。'再起動'をクリックしてください。"
+
+#: ../../chapter02.rst:148
+msgid ""
+"|prodname| will install and then you will need to restart your system to "
+"complete the installation."
+msgstr "|prodname| のインストールが完了したら、インストールを完了するためにシステムを再起動する必要があります。"
+
+#: ../../chapter02.rst:152
+msgid ""
+"|prodname| is a multi-tenant solution. The Tenant Manager scope is "
+"defined for a tenant administrator. For a multi-tenant Cluster Server "
+"system, each tenant has an administrator. For a single-tenant Cluster "
+"Server system, the default cluster administrator is also the tenant "
+"administrator."
+msgstr "|prodname| はマルチテナントソリューションです。テナントマネージャーのスコープはテナント管理者に対して定義されています。マルチテナントクラスターサーバーシステムの場合、各テナントには管理者がいます。シングルテナントクラスターサーバーシステムの場合、デフォルトのクラスター管理者もテナント管理者です。"
+
+#: ../../chapter02.rst:156
+msgid ""
+"After the reboot and login to the Windows session again with the same "
+"Windows admin user credential, it may take 3-5 minutes before all the "
+"windows services start and a web browser page will pop-up."
+msgstr "再起動後、同じWindows管理者ユーザーの資格情報でWindowsセッションに再度ログインすると、すべてのWindowsサービスが開始されるまでに3〜5分かかる場合があり、その後ウェブブラウザのページがポップアップします。"
+
+#: ../../chapter02.rst:159
+msgid ""
+"For the next screen, if you have an existing database use the pull-down "
+"menu to select a different option otherwise use the default which will "
+"also install the PostgreSQL Community Edition database."
+msgstr "次の画面では、既存のデータベースをお持ちの場合はプルダウンメニューから別のオプションを選択し、そうでない場合はデフォルトを使用してください。デフォルトを使用するとPostgreSQL Community Editionデータベースもインストールされます。"
+
+#: ../../chapter02.rst:163
+msgid ""
+"In the next screen, enter your Partner Account login credentials to "
+"complete the installation."
+msgstr "次の画面で、パートナーアカウントのログイン情報を入力してインストールを完了してください。"
+

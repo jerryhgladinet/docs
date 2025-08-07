@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter12.rst:3
+msgid "Advanced Topics"
+msgstr "高度なトピック"
+
+#: ../../chapter12.rst:5
+msgid ""
+"These advanced topics require changes to the web.config file which is "
+"critical for the smooth operation of CentreStack, therefore, it is not "
+"recommended that you change the web.config file without first consulting "
+"Gladinet support."
+msgstr "これらの高度なトピックは、CentreStackのスムーズな運用に不可欠なweb.configファイルの変更を必要とするため、Gladinetサポートに相談せずにweb.configファイルを変更することはお勧めしません。"
+
+#: ../../chapter12.rst:10
+msgid "Split Database"
+msgstr "スプリットデータベース"
+
+#: ../../chapter12.rst:12
+msgid "The database contains two types of information."
+msgstr "データベースには二種類の情報が含まれています。"
+
+#: ../../chapter12.rst:14
+msgid ""
+"The first type of information is the configuration data that is "
+"relatively static. For example, user name, user email, user's published "
+"shared files and folder etc. This type of information is relatively "
+"small. It can be estimated at 5000 bytes per user. So if you have 2000 "
+"users, it can be estimated at 10 MB."
+msgstr "最初のタイプの情報は、比較的静的な構成データです。例えば、ユーザー名、ユーザーのメールアドレス、ユーザーが公開共有したファイルやフォルダーなどです。このタイプの情報は比較的小さく、ユーザー一人あたり5000バイトで見積もることができます。したがって、2000ユーザーいる場合、10MBと見積もることができます。"
+
+#: ../../chapter12.rst:17
+msgid ""
+"The second type of information is relatively more volatile. For example, "
+"the file change log, the audit trace and the file list for index. It can "
+"be estimated at 100 file changes per user per day and each file change "
+"can be estimated at 1000 bytes for database storage. So for a 15 day "
+"(Default change log history), it can be estimated at 100*1000*15 = 1.5MB "
+"per user for 15 day period. If you need HIPPA compliance, the default "
+"change log history can be significantly longer so this part of the "
+"database will be much bigger."
+msgstr "2番目の情報タイプは比較的変動が大きいです。例えば、ファイル変更ログ、監査トレース、インデックス用のファイルリストなどです。1日にユーザー1人あたり100件のファイル変更があると推定され、1件のファイル変更はデータベースストレージで1000バイトと推定できます。したがって、15日間（デフォルトの変更ログ履歴）の場合、100*1000*15 = 1.5MBがユーザー1人あたりの15日間の期間で推定されます。HIPPAコンプライアンスが必要な場合、デフォルトの変更ログ履歴はかなり長くなるため、このデータベースの部分はずっと大きくなります。"
+
+#: ../../chapter12.rst:23
+msgid ""
+"For performance and regulatory reasons, it is recommended to split the "
+"database into two separate databases, one that contains static "
+"information and one that contains relatively more volatile information."
+msgstr "パフォーマンスと規制上の理由から、静的な情報を含むデータベースと、比較的変動が多い情報を含むデータベースの二つに分割することをお勧めします。"
+
+#: ../../chapter12.rst:26
+msgid ""
+"The secondary database (for more volatile data) can be either MySQL "
+"Database or Micrsoft SQL Database."
+msgstr "二次データベース（より変動性の高いデータ用）は、MySQLデータベースまたはMicrosoft SQLデータベースのいずれかにすることができます。"
+
+#: ../../chapter12.rst:28
+msgid ""
+"To split the database, first create a new database that will be used to "
+"store the volatile information. Create a database user and allow this "
+"user full access to the database (equivalent to db_owner). Once the "
+"database and user are created, sign into the CentreStack management "
+"console as the cluster admin and navigate to Cluster Dashboard > Cluster "
+"Settings > Change Log. Update the \"Logging DB Connection String\" "
+"setting using an appropriate connection string:"
+msgstr "データベースを分割するには、まず、揮発性情報を格納するために使用される新しいデータベースを作成します。データベースユーザーを作成し、このユーザーにデータベースへの完全アクセス権（db_ownerに相当）を許可します。データベースとユーザーが作成されたら、クラスタ管理者としてCentreStack管理コンソールにサインインし、クラスタダッシュボード > クラスタ設定 > チェンジログに移動します。適切な接続文字列を使用して、「Logging DB Connection String」設定を更新します："
+
+#: ../../chapter12.rst:34
+msgid "**Connection String Example for MySQL Database**"
+msgstr "**MySQLデータベースの接続文字列例**"
+
+#: ../../chapter12.rst:42
+msgid "**Connection String Example for Microsoft SQL Database**"
+msgstr "**Microsoft SQL データベースの接続文字列の例**"
+
+#: ../../chapter12.rst:52
+msgid "Change Authentication Algorithm to Version 2"
+msgstr "認証アルゴリズムをバージョン2に変更"
+
+#: ../../chapter12.rst:54
+msgid ""
+"If you have a new installation of CentreStack without any legacy user, we"
+" recommend you hard code the authentication algorithm to version 2."
+msgstr "新しいCentreStackをインストールして、レガシーユーザーがいない場合は、認証アルゴリズムをバージョン2にハードコードすることをお勧めします。"
+
+#: ../../chapter12.rst:57
+msgid ""
+"You can locate the web.config file in the root folder of the installation"
+" directory (same web.config file as referenced in the previous section) "
+"and add a line inside the <appSettings file=\"branding.config\"> section."
+msgstr "インストールディレクトリのルートフォルダにあるweb.configファイルを探し（前のセクションで参照されたのと同じweb.configファイル）、<appSettings file=\"branding.config\">セクション内に行を追加してください。"
+
+#: ../../chapter12.rst:66
+msgid "Change the Synchronized Uploader to Asynchronized Uploader"
+msgstr "同期アップローダーを非同期アップローダーに変更する"
+
+#: ../../chapter12.rst:68
+msgid ""
+"Under the C:\\Program Files (x86)\\CentreStack\\ (or the installation "
+"directory), look into the UploadDownloadProxy and identify the web.config"
+" file. Find the line with the SyncedStorageProxiedPutUploadHandler and "
+"change it to StorageProxiedPutUploadHandler."
+msgstr "C:\Program Files (x86)\CentreStack\（またはインストールディレクトリ）の下にあるUploadDownloadProxyを調べ、web.configファイルを特定してください。SyncedStorageProxiedPutUploadHandlerと記載されている行を見つけて、それをStorageProxiedPutUploadHandlerに変更してください。"
+
+#: ../../chapter12.rst:72
+msgid ""
+"This optimization might not work on all systems, therefore, it is "
+"recommend you test web portal Drag and Drop upload after you make the "
+"change. If it does not work for your IIS, you can revert the change back "
+"or consult Gladinet support."
+msgstr "この最適化はすべてのシステムで機能するとは限らないため、変更を行った後は、Webポータルのドラッグアンドドロップによるアップロードが正常に機能するかどうかをテストすることをお勧めします。もしIISで機能しない場合は、変更を元に戻すか、またはGladinetサポートに相談してください。"
+
+#: ../../chapter12.rst:83
+msgid "Zone Support"
+msgstr "ゾーンサポート"
+
+#: ../../chapter12.rst:85
+msgid ""
+"If you have two independent CentreStack clusters, for example, one "
+"cluster in US and one cluster in UK, you can use the zone support to "
+"connect the two clusters together. The advantage of using zones is the "
+"end user login request will automatically be redirected to the zone the "
+"user belongs to."
+msgstr "もし米国と英国にそれぞれ独立したCentreStackクラスターが二つある場合、例えば、一つのクラスターが米国に、もう一つのクラスターが英国にある場合、ゾーンサポートを使用して二つのクラスターを接続することができます。ゾーンを使用する利点は、エンドユーザーのログインリクエストが自動的にユーザーが属するゾーンにリダイレクトされることです。"
+
+#: ../../chapter12.rst:90
+msgid "Scalability Tuning"
+msgstr "スケーラビリティチューニング"
+
+#: ../../chapter12.rst:92
+msgid ""
+"CentreStack is built on top of ASP.NET and WCF. By default, both ASP.NET "
+"and WCF has throttle control parameters that we can tune and remove. "
+"Please reference this MSDN article for performance tuning:"
+msgstr "CentreStackはASP.NETとWCFの上に構築されています。デフォルトでは、ASP.NETとWCFの両方には、調整して削除できるスロットル制御パラメータがあります。パフォーマンスチューニングについては、このMSDN記事を参照してください。"
+
+#: ../../chapter12.rst:95
+msgid "http://msdn.microsoft.com/en-us/library/ff647813.aspx"
+msgstr "http://msdn.microsoft.com/ja-jp/library/ff647813.aspx"
+
+#: ../../chapter12.rst:99 ../../chapter12.rst:103
+msgid "(image source: http://msdn.microsoft.com/en-us/library/ff647813.aspx)"
+msgstr "(画像出典: http://msdn.microsoft.com/ja-jp/library/ff647813.aspx)"
+
+#: ../../chapter12.rst:106
+msgid "Tuning #1 – namespace/web.config"
+msgstr "チューニング #1 – namespace/web.config"
+
+#: ../../chapter12.rst:108
+msgid ""
+"There are three parameters about max concurrent calls, concurrent "
+"sessions and concurrent instances."
+msgstr "最大同時コール数、同時セッション数、同時インスタンス数に関する3つのパラメータがあります。"
+
+#: ../../chapter12.rst:117
+msgid "This is set in the <CENTRESTACKInstallDir>\\\\namespace\\\\web.config file"
+msgstr "これは<CENTRESTACKInstallDir>\\namespace\\web.configファイルで設定されます"
+
+#: ../../chapter12.rst:119
+msgid ""
+"There may be existing blocks of serviceBehaviors and behavior blocks "
+"there. You can simply add the serviceThrottling block."
+msgstr "既にserviceBehaviorsブロックやbehaviorブロックが存在するかもしれません。serviceThrottlingブロックを単純に追加することができます。"
+
+#: ../../chapter12.rst:134
+msgid "Tuning #2 – aspnet.config"
+msgstr "チューニング #2 – aspnet.config"
+
+#: ../../chapter12.rst:136
+msgid ""
+"The aspnet.config is under "
+"c:\\\\windows\\\\Microsoft.NET\\\\Framework64\\\\v4.0.30319"
+msgstr "aspnet.configはc:\windows\Microsoft.NET\Framework64\v4.0.30319の下にあります"
+
+#: ../../chapter12.rst:138
+msgid ""
+"system.web is an element of <configuration> so you can add it inside the "
+"<configuration> block."
+msgstr "system.webは<configuration>の要素なので、<configuration>ブロック内に追加することができます。"
+
+#: ../../chapter12.rst:150
+msgid "Tuning #3 – machine.config"
+msgstr "チューニング #3 – machine.config"
+
+#: ../../chapter12.rst:152
+msgid ""
+"Machine.config is at "
+"%windir%\\\\Microsoft.NET\\\\Framework64\\\\[version]\\\\config\\\\machine.config"
+msgstr "Machine.configは%windir%\\Microsoft.NET\\Framework64\\[version]\\config\\machine.configにあります"
+
+#: ../../chapter12.rst:154
+msgid ""
+"(%windir% typically is c:\\\\windows. [version] is 4.0.30319 for .NET "
+"framework 4)"
+msgstr "(%windir% は通常 c:\\windows です。[version] は .NET Framework 4 の場合は 4.0.30319 です)"
+
+#: ../../chapter12.rst:156
+msgid "**processModel**"
+msgstr "**プロセスモデル**"
+
+#: ../../chapter12.rst:158
+msgid ""
+"processModel is under <system.web> and <system.web> is under "
+"<configuration>. Most likely the processModel block is there alredy but "
+"with autoConfig set to true. We can change it to set to false and with "
+"the attributes set below."
+msgstr "processModelは<system.web>の下にあり、<system.web>は<configuration>の下にあります。おそらくprocessModelブロックはすでに存在していて、autoConfigがtrueに設定されています。これをfalseに変更し、以下に示す属性を設定することができます。"
+
+#: ../../chapter12.rst:171
+msgid "**connectionManagement**"
+msgstr "**接続管理**"
+
+#: ../../chapter12.rst:173
+msgid ""
+"<system.net> is a block below <configuration>. Typically if <system.net> "
+"doesn't already exist, the block can be added to the bottom of the config"
+" file, right before the closing tag of <configuration>."
+msgstr "<system.net>は<configuration>の下にあるブロックです。通常、<system.net>がまだ存在しない場合、そのブロックは設定ファイルの最後に追加することができ、<configuration>の終了タグの直前になります。"
+
+#: ../../chapter12.rst:185
+msgid "Tuning #4 – appConcurrentRequestLimit"
+msgstr "チューニング #4 – appConcurrentRequestLimit"
+
+#: ../../chapter12.rst:193
+msgid "Need More Information?"
+msgstr "詳しくはこちら"
+
+#: ../../chapter12.rst:195
+msgid "Contact Gladinet Support (support@gladinet.com) for more information."
+msgstr "詳細については、Gladinet サポート（support@gladinet.com）までお問い合わせください。"
+

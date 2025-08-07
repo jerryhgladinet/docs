@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter06.rst:3
+msgid "Enable SSL – Install SSL Certificate"
+msgstr "启用SSL – 安装SSL证书"
+
+#: ../../chapter06.rst:7
+msgid ""
+"Assuming that you have already setup your DNS to point to a DNS name "
+"connected to the |prodname| server and an SSL certificate already "
+"purchased for the DNS name. If not, you can acquire an SSL certificate "
+"from your SSL vendor."
+msgstr "假设您已经设置了DNS，将其指向连接到 |prodname| 服务器的DNS名称，并且已经为该DNS名称购买了SSL证书。如果没有，您可以从SSL供应商那里购买SSL证书。"
+
+#: ../../chapter06.rst:9
+msgid ""
+"We recommend using https://www.ssllabs.com/ to test your SSL setup "
+"because the SSL Labs site will produce a report on whether the SSL is "
+"compatible with all devices such as iOS devices."
+msgstr "我们推荐使用 https://www.ssllabs.com/ 来测试您的SSL设置，因为SSL Labs网站将生成一份报告，内容包括SSL是否与所有设备兼容，例如iOS设备。"
+
+#: ../../chapter06.rst:13
+msgid ""
+"You can also use openssl to check the SSL certificates and whether or not"
+" the whole certificate trust chain is completely installed on the server "
+"side."
+msgstr "您也可以使用openssl来检查SSL证书，以及服务器端是否完整安装了整个证书信任链。"
+
+#: ../../chapter06.rst:20
+msgid ""
+"You will install the SSL certificate using the IIS Manager. Look for "
+"\"Server Certificates\" and double click on it."
+msgstr "您将使用IIS管理器安装SSL证书。找到“服务器证书”并双击它。"
+
+#: ../../chapter06.rst:24
+msgid ""
+"Click on \"Import\" to import an existing SSL Certificate. Leave the "
+"Certificate Store as \"Personal\" or \"Web Hosting\", either option is "
+"fine."
+msgstr "点击“导入”以导入现有的SSL证书。证书存储可以选择“个人”或“Web托管”，两者均可。"
+
+#: ../../chapter06.rst:30
+msgid "Verify that the certificate is available:"
+msgstr "验证证书是否可用："
+
+#: ../../chapter06.rst:34
+msgid ""
+"You can also verify the SSL certificate using the MMC/Certificates snap-"
+"in (Local Computer)."
+msgstr "您也可以使用MMC/证书管理单元（本地计算机）来验证SSL证书。"
+
+#: ../../chapter06.rst:38
+msgid ""
+"Now you can bind the \"Default Web Site\" to the SSL certificate for "
+"HTTPS. Right click on the \"Default Web Site\" and select \"Edit "
+"Bindings\"."
+msgstr "现在您可以将“默认网站”绑定到SSL证书以使用HTTPS。右键点击“默认网站”，然后选择“编辑绑定”。"
+
+#: ../../chapter06.rst:43
+msgid "At the binding dialog, edit the HTTPS binding."
+msgstr "在绑定对话框中，编辑HTTPS绑定。"
+
+#: ../../chapter06.rst:47
+msgid ""
+"Now, change the SSL Certificate binding drop-down to the imported SSL "
+"certificate."
+msgstr "现在，将SSL证书绑定下拉菜单更改为导入的SSL证书。"
+

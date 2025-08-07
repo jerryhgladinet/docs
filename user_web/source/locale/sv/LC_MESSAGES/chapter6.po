@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "File Browser"
+msgstr "Filbläddrare"
+
+#: ../../chapter6.rst:5
+msgid ""
+"After you log in to the web portal, the file and folder view **(1)** will"
+" show important settings and features that can be accessed by clicking "
+"the icons in the top right **(2)**. The small down arrow icon **(3)** "
+"allows you to choose different icon sizes or switch to a detailed list "
+"view, which gives you access to more information about the files **(4)**,"
+" such as versions."
+msgstr "Efter att du har loggat in på webbportalen kommer fil- och mappvyn **(1)** att visa viktiga inställningar och funktioner som kan nås genom att klicka på ikonerna i övre högra hörnet **(2)**. Den lilla pilnedåtikonen **(3)** låter dig välja olika ikonstorlekar eller byta till en detaljerad listvy, vilket ger dig tillgång till mer information om filerna **(4)**, såsom versioner."
+
+#: ../../chapter6.rst:11
+msgid "IMPORTANT SETTINGS AND FEATURES"
+msgstr "VIKTIGA INSTÄLLNINGAR OCH FUNKTIONER"
+
+#: ../../chapter6.rst:13
+msgid ""
+"The small user icon **(5)** gives you access to template settings, "
+"connected devices, guest users, notifications storage information, "
+"feedback, and client download options. You can also change your password "
+"or logout."
+msgstr "Den lilla användarikonen **(5)** ger dig tillgång till mallinställningar, anslutna enheter, gästanvändare, notifikationer om lagringsinformation, feedback och alternativ för klientnedladdning. Du kan också ändra ditt lösenord eller logga ut."
+
+#: ../../chapter6.rst:18
+msgid "TEMPLATE, DOWNLOAD AND OTHER SETTINGS"
+msgstr "MALL, NEDLADDNING OCH ANDRA INSTÄLLNINGAR"
+
+#: ../../chapter6.rst:20
+msgid ""
+"The question icon **(6)** takes you to the Web Portal Tutorial. The "
+"stacked bar icon **(7)** is for access to the Cluster Manager. The person"
+" icon **(8)** opens the user settings menu."
+msgstr "Frågeteckenikonen **(6)** tar dig till Web Portal Tutorial. Staplade stapelikonen **(7)** är för åtkomst till Cluster Manager. Personikonen **(8)** öppnar menyn för användarinställningar."
+
+#: ../../chapter6.rst:25
+msgid "SETTINGS AND ICONS"
+msgstr "INSTÄLLNINGAR OCH IKONER"
+
+#: ../../chapter6.rst:27
+msgid ""
+"The icon with the encircled \"i\" **(9)** opens up an additional panel "
+"for additional information and options, including sharing, downloading, "
+"and revision history. The icon with squares **(10)** allows you to change"
+" how the files are displayed. The three stacked dots **(11)** opens a "
+"menu for more options in the file manager."
+msgstr "Ikonen med den inringade \"i\" **(9)** öppnar en extra panel för ytterligare information och alternativ, inklusive delning, nedladdning och versionshistorik. Ikonen med rutorna **(10)** låter dig ändra hur filerna visas. De tre staplade punkterna **(11)** öppnar en meny för fler alternativ i filhanteraren."
+

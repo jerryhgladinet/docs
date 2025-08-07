@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Partner Portal"
+msgstr "Kumppanuusportaali"
+
+#: ../../chapter02.rst:5
+msgid ""
+"To start the Hosted-|prodname| version, the first thing to do is to "
+"acquire a |prodname| partner account and login to the web portal."
+msgstr "Aloittaaksesi Hosted-|prodname| version, ensimmäinen tehtävä on hankkia |prodname| kumppanitili ja kirjautua web-portaaliin."
+
+#: ../../chapter02.rst:10
+msgid "|prodname| WEBSITE"
+msgstr "|prodname| VERKKOSIVUSTO"
+
+#: ../../chapter02.rst:12
+msgid ""
+"The Partner Portal is the centralized place to manage the managed service"
+" provider's (MSP's) clients. The activities on the partner portal include"
+" creating Tenants and managing Tenants."
+msgstr "Kumppaniportaali on keskitetty paikka hallita hallittujen palveluntarjoajien (MSP) asiakkaita. Kumppaniportaalin toimintoihin kuuluu Tenanttien luominen ja hallinta."
+
+#: ../../chapter02.rst:17
+msgid "PARTNER LOGIN"
+msgstr "KUMPPANIN KIRJAUTUMINEN"
+
+#: ../../chapter02.rst:19
+msgid ""
+"After logging into the Partner Portal, you can see most options by "
+"expanding the left-side menu. **(1)** From the collapsable menu, choose "
+"one of the two hosting options: \"Self-Hosted |prodname|\" **(2)**, which"
+" is for the self-hosted |prodname|, or \"Hosted |prodname|\" **(3)**. In "
+"the image below you can see that we have already \"Branded\" this account"
+" with \"ACME Cloud Services\" **(4)** (see \"Branding\" section **(5)** "
+"below for more information). You can also access useful information here,"
+" such as \"Compare CentreStack Editions\" **(6)** and \"Training Videos\""
+" **(7)** to help you get started."
+msgstr "Kun olet kirjautunut Partner Portal -portaaliin, näet useimmat vaihtoehdot laajentamalla vasemmanpuoleista valikkoa. **(1)** Valitse avautuvasta valikosta yksi kahdesta isännöintivaihtoehdosta: \"Itse isännöity |prodname|\" **(2)**, joka on itse isännöidylle |prodname|-tuotteelle, tai \"Isännöity |prodname|\" **(3)**. Alla olevassa kuvassa näet, että olemme jo \"Brändänneet\" tämän tilin nimellä \"ACME Cloud Services\" **(4)** (katso lisätietoja kohdasta \"Brändäys\" **(5)** alla). Täältä löydät myös hyödyllistä tietoa, kuten \"Vertaile CentreStack-versioita\" **(6)** ja \"Koulutusvideot\" **(7)**, jotka auttavat sinua aloittamaan."
+
+#: ../../chapter02.rst:24
+msgid "PARTNER DASHBOARD"
+msgstr "KUMPPANIN HALLINTAPANEELI"
+
+#: ../../chapter02.rst:26
+msgid ""
+"Because this guide is focused on our \"Hosted\" solution, choose the "
+"\"Hosted |prodname|\" option from the left panel."
+msgstr "Koska tämä opas keskittyy \"Hosted\"-ratkaisuumme, valitse vasemmasta paneelista \"Hosted |prodname|\" -vaihtoehto."
+
+#: ../../chapter02.rst:31
+msgid "HOSTED |prodname| TENANT MANAGEMENT"
+msgstr "HOSTED |prodname| TENANTIN HALLINTA"
+
+#: ../../chapter02.rst:34
+msgid "Tenant Management"
+msgstr "Vuokralaishallinta"
+
+#: ../../chapter02.rst:36
+msgid ""
+"After you are in the Hosted |prodname| section, you can view the Tenant "
+"manager."
+msgstr "Kun olet Hosted |prodname| -osiossa, voit tarkastella Tenant manageria."
+
+#: ../../chapter02.rst:40
+msgid "A Tenant is usually mapped to a client of yours."
+msgstr "Tenantti kuvaa yleensä asiakastasi."
+
+#: ../../chapter02.rst:43
+msgid "New Tenant"
+msgstr "Uusi vuokralainen"
+
+#: ../../chapter02.rst:45
+msgid ""
+"To start creating the first Tenant, you can use the \"Register a Tenant\""
+" link."
+msgstr "Aloittaaksesi ensimmäisen vuokralaisen luomisen, voit käyttää \"Rekisteröi vuokralainen\" -linkkiä."
+
+#: ../../chapter02.rst:50
+msgid "CREATE A NEW TENANT"
+msgstr "LUO UUSI VUOKRALAINEN"
+
+#: ../../chapter02.rst:52
+msgid ""
+"During the creation of a Tenant, it asks for basic Tenant-related "
+"information such as company name, contact name, email and other "
+"information."
+msgstr "Tenantin luomisen yhteydessä pyydetään perustietoja Tenantista, kuten yrityksen nimi, yhteyshenkilön nimi, sähköposti ja muita tietoja."
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you need to get to the advanced section to further customize the "
+"creation of the Tenant, you can click on the \"Advanced Settings\" link."
+msgstr "Jos sinun täytyy päästä edistyneeseen osioon, jotta voit mukauttaa Tenantin luomista lisää, voit klikata \"Edistyneet asetukset\" linkkiä."
+
+#: ../../chapter02.rst:59
+msgid "NEW TENANT SETTINGS"
+msgstr "UUSI VUOKRALAISEN ASETUKSET"
+
+#: ../../chapter02.rst:62
+msgid "Advanced Settings"
+msgstr "Edistyneet asetukset"
+
+#: ../../chapter02.rst:67
+msgid "ADVANCED SETTINGS"
+msgstr "EDISTYNEET ASETUKSET"
+
+#: ../../chapter02.rst:69
+msgid ""
+"For MSPs and the Tenant internal IT staff, there is a division of work "
+"and responsibility. Sometimes managed service providers do more work and "
+"have more responsibility, but other times the Tenant IT staff has more. "
+"The Advanced Settings defines how the work is divided between these two "
+"entities."
+msgstr "MSP:lle ja vuokralaisen sisäiselle IT-henkilöstölle on työnjako ja vastuunjako. Joskus hallittujen palveluntarjoajien on tehtävä enemmän työtä ja otettava enemmän vastuuta, mutta toisinaan vuokralaisen IT-henkilöstöllä on enemmän vastuuta. Edistyneet asetukset määrittelevät, miten työ jaetaan näiden kahden toimijan kesken."
+
+#: ../../chapter02.rst:71
+msgid "View and edit group policy"
+msgstr "Näytä ja muokkaa ryhmäkäytäntöä"
+
+#: ../../chapter02.rst:73
+msgid "Whether the Tenant itself (Tenant Administrator) can manage group policy."
+msgstr "Voiko vuokralainen itse (vuokralaisen pääkäyttäjä) hallita ryhmäkäytäntöä."
+
+#: ../../chapter02.rst:76
+msgid "Allow Tenant to edit branding setting"
+msgstr "Salli vuokralaisen muokata brändäysasetuksia"
+
+#: ../../chapter02.rst:78
+msgid ""
+"Normally the Tenant will pick up the service provider's default branding "
+"setting. If this setting is allowed the Tenant can define their own "
+"branding."
+msgstr "Yleensä vuokralainen ottaa käyttöön palveluntarjoajan oletusbrändäysasetukset. Jos tämä asetus on sallittu, vuokralainen voi määritellä omat brändäysasetuksensa."
+
+#: ../../chapter02.rst:81
+msgid "Edit Tenant Administrator info"
+msgstr "Muokkaa vuokraajan pääkäyttäjän tietoja"
+
+#: ../../chapter02.rst:83
+msgid ""
+"Tenant admin can change the email and the name of the Tenant "
+"administrator."
+msgstr "Vuokraajan ylläpitäjä voi muuttaa vuokraajan ylläpitäjän sähköpostia ja nimeä."
+
+#: ../../chapter02.rst:85
+msgid "Allow creation of guest users"
+msgstr "Salli vierailijakäyttäjien luominen"
+
+#: ../../chapter02.rst:87
+msgid ""
+"The Guest user is related to files and folder sharing. This setting "
+"allows Tenant users to create guest users."
+msgstr "Vieraskäyttäjä liittyy tiedostojen ja kansioiden jakamiseen. Tämä asetus sallii vuokralaiskäyttäjien luoda vieraskäyttäjiä."
+
+#: ../../chapter02.rst:89
+msgid ""
+"Show Data-At-Rest Encryption configuration page (Requires empty storage "
+"container)"
+msgstr "Näytä Data-At-Rest-salausasetusten sivu (Vaaditaan tyhjä tallennussäiliö)"
+
+#: ../../chapter02.rst:91
+msgid ""
+"This option allows Tenant to set encryption upon the first use. The "
+"Tenant will enable the encryption with a pass phrase."
+msgstr "Tämä vaihtoehto sallii vuokralaisen asettaa salauksen ensimmäisellä käyttökerralla. Vuokralainen ottaa salauksen käyttöön salasanan avulla."
+
+#: ../../chapter02.rst:93
+msgid "User License Count"
+msgstr "Käyttäjälisenssien määrä"
+
+#: ../../chapter02.rst:95
+msgid "By default, the Tenant user count can be anything above 3 users."
+msgstr "Oletusarvoisesti Tenant-käyttäjien määrä voi olla yli 3 käyttäjää."
+
+#: ../../chapter02.rst:97
+msgid "Hosting Data Center"
+msgstr "Hosting-tietokeskus"
+
+#: ../../chapter02.rst:99
+msgid ""
+"If a managed service provider has both self-hosted |prodname| environment"
+" and Hosted |prodname|, the managed service provider can leverage self-"
+"hosted |prodname| to create Tenants."
+msgstr "Jos hallittujen palvelujen tarjoajalla on sekä itse isännöity |prodname|-ympäristö että isännöity |prodname|, palveluntarjoaja voi hyödyntää itse isännöityä |prodname|-ympäristöä luodakseen vuokralaisia."
+
+#: ../../chapter02.rst:101
+msgid ""
+"After a Tenant is created, you can manage the Tenants in \"Registered "
+"Tenants\" section."
+msgstr "Kun asiakas on luotu, voit hallita asiakkaita \"Rekisteröidyt asiakkaat\" -osiossa."
+
+#: ../../chapter02.rst:106
+msgid "MANAGING YOUR TENANT"
+msgstr "HALLINNOI VUOKRALAISTASI"
+
+#: ../../chapter02.rst:109
+msgid "Branding"
+msgstr "Brändäys"
+
+#: ../../chapter02.rst:111
+msgid ""
+"You can create the branding and then apply the branding information to "
+"your Tenants."
+msgstr "Voit luoda brändäyksen ja sen jälkeen soveltaa brändäystietoja vuokralaisiisi."
+
+#: ../../chapter02.rst:116
+msgid "PARTNER BRANDING SETTINGS"
+msgstr "KUMPPANIN BRÄNDÄYSASETUKSET"
+
+#: ../../chapter02.rst:119
+msgid "Apply Branding to the Tenant"
+msgstr "Sovella brändäystä vuokralaiselle"
+
+#: ../../chapter02.rst:121
+msgid ""
+"**Default branding is applied this way:** On \"Registered Tenants\" "
+"section, click \"Brand\"."
+msgstr "**Oletusbrändäys sovelletaan näin:** \"Rekisteröidyissä vuokralaisissa\" -osiossa, klikkaa \"Brändi\"."
+
+#: ../../chapter02.rst:127
+msgid "APPLY PARTNER BRANDING"
+msgstr "SOVELLA KUMPPANIN BRÄNDÄYSTÄ"
+
+#: ../../chapter02.rst:129
+msgid ""
+"If the Tenant is allowed to change the branding, this can be done from "
+"the Tenant dashboard."
+msgstr "Jos vuokralainen saa muuttaa brändäystä, se voidaan tehdä vuokralaisen hallintapaneelista."
+
+#: ../../chapter02.rst:134
+msgid "ACCESS TO TENANT BRANDING"
+msgstr "PÄÄSY VUOKRALAISEN BRÄNDÄYKSEEN"
+
+#: ../../chapter02.rst:136
+msgid ""
+"Once you are in the Branding Settings, you can choose a settings group "
+"from the Branding submenu. The setting categories are: ``General``, ``Web"
+" Portal``, ``Client Download``, ``Windows Client``, ``Mac Client``, "
+"``Emails``, ``Email Service``, and ``Branding Tasks``."
+msgstr "Kun olet Brändäysasetuksissa, voit valita asetusryhmän Brändäys-alavalikosta. Asetusluokat ovat: ``Yleiset``, ``Web-portaali``, ``Asiakasohjelmien lataus``, ``Windows-asiakas``, ``Mac-asiakas``, ``Sähköpostit``, ``Sähköpostipalvelu`` ja ``Brändäystehtävät``."
+
+#: ../../chapter02.rst:141
+msgid "TENANT BRANDING SETTINGS"
+msgstr "VUOKRALAISEN BRÄNDÄYSASETUKSET"
+
+#: ../../chapter02.rst:143
+msgid ""
+"After the branding is created, you can apply the branding to a specific "
+"Tenant. In this example, we created a new logo and uploaded it to the "
+"logo section in the partner portal."
+msgstr "Brändäyksen luomisen jälkeen voit soveltaa brändäystä tiettyyn Tenanttiin. Tässä esimerkissä loimme uuden logon ja latasimme sen logon osioon kumppaniportaalissa."
+
+#: ../../chapter02.rst:148
+msgid "REPLACE THIS"
+msgstr ""
+
+#: ../../chapter02.rst:150
+msgid ""
+"After that, we can apply the branding and you can see the difference "
+"before-branding and after-branding."
+msgstr "Sen jälkeen voimme lisätä brändäyksen ja näet eron ennen brändäystä ja brändäyksen jälkeen."
+
+#: ../../chapter02.rst:153
+msgid "Before - Default"
+msgstr "Ennen - Oletus"
+
+#: ../../chapter02.rst:158
+msgid "DEFAULT BRANDING"
+msgstr "OLETUSBRÄNDÄYS"
+
+#: ../../chapter02.rst:161
+msgid "Now - Your Branding"
+msgstr "Nyt - Sinun brändäyksesi"
+
+#: ../../chapter02.rst:166
+msgid "CUSTOM BRANDING"
+msgstr "OMAN BRÄNDÄYS"
+

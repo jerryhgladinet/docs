@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Verify External URL, Internal URL and the Node Name"
+msgstr "Verifiera extern URL, intern URL och nodnamnet"
+
+#: ../../chapter08.rst:6
+msgid "Verify External URL"
+msgstr "Verifiera extern URL"
+
+#: ../../chapter08.rst:8
+msgid ""
+"It is very straight forward to verify whether or not your external URL is"
+" set correctly. You just need to point your web browser to the external "
+"URL and verify that the Login Page shows up and there is no SSL warnings."
+msgstr "Det är mycket enkelt att verifiera om din externa URL är korrekt inställd eller inte. Du behöver bara rikta din webbläsare till den externa URL:en och verifiera att inloggningssidan visas och att det inte finns några SSL-varningar."
+
+#: ../../chapter08.rst:10
+msgid ""
+"You can also verify the External URL by doing a file share to your own "
+"email address outside of the |prodname| system. A file sharing invitation"
+" will be sent to that Email address. After you receive the Email, click "
+"on the link included in the Email and make sure the link points to the "
+"External URL."
+msgstr "Du kan också verifiera den externa URL:en genom att dela en fil till din egen e-postadress utanför |prodname|-systemet. En inbjudan till fildelning kommer att skickas till den e-postadressen. När du har fått e-postmeddelandet klickar du på länken som ingår i e-postmeddelandet och kontrollerar att länken pekar på den externa URL:en."
+
+#: ../../chapter08.rst:14
+msgid ""
+"The external URL is used in the email sharing template. So a simple file "
+"sharing test will verify whether the External URL is setup correctly."
+msgstr "Den externa URL:en används i mallen för e-postdelning. Så ett enkelt test av fildelning kommer att verifiera om den externa URL:en är korrekt inställd."
+
+#: ../../chapter08.rst:17
+msgid "Verify Internal URL"
+msgstr "Verifiera intern URL"
+
+#: ../../chapter08.rst:19
+msgid ""
+"For the verification of Internal URL, you can use the Node Performance "
+"page to make sure the node performance information shows up. (Cluster "
+"Dashboard -> Reports -> Node Performance)."
+msgstr "För verifiering av intern URL kan du använda sidan för nodprestanda för att säkerställa att information om nodens prestanda visas. (Klusteröversikt -> Rapporter -> Nodprestanda)."
+
+#: ../../chapter08.rst:24
+msgid "Verify Node Name"
+msgstr "Verifiera nodnamn"
+
+#: ../../chapter08.rst:26
+msgid ""
+"To verify that the node name is correct, you can go on \"File Browser\", "
+"click on \"More Actions\" (three-dot) on a folder and use the "
+"**\"Share\"** option to verify that the email has been received and is "
+"correctly pointing to an external URL."
+msgstr "För att verifiera att nodnamnet är korrekt kan du gå till \"Filbläddrare\", klicka på \"Fler åtgärder\" (tre punkter) på en mapp och använda **\"Dela\"**-alternativet för att verifiera att e-postmeddelandet har mottagits och korrekt pekar på en extern URL."
+

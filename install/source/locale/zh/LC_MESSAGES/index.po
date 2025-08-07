@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "入门"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Server Installation Guide. This guide describes"
+" the installation tasks for |prodname|, the managed file synchronization "
+"and sharing solution."
+msgstr "欢迎阅读 |prodname| 服务器安装指南。本指南介绍了 |prodname| 的安装任务，|prodname| 是一个托管的文件同步和共享解决方案。"
+
+#: ../../index.rst:10
+msgid ""
+"|prodname| includes the |prodname| server, which runs on the Microsoft "
+"Windows server platform, and client agent applications for Web browsers, "
+"Microsoft Windows, Mac OS X, and for mobile platforms such as the Android"
+" and the Apple iOS operating systems."
+msgstr "|prodname| 包括运行在 Microsoft Windows 服务器平台上的 |prodname| 服务器，以及为 Web 浏览器、Microsoft Windows、Mac OS X 提供的客户端代理应用程序，还有针对移动平台如 Android 和 Apple iOS 操作系统的应用程序。"
+
+#: ../../index.rst:13
+msgid "Overview"
+msgstr "概览"
+
+#: ../../index.rst:15
+msgid ""
+"|prodname| is a managed file sync and share solution that focuses on "
+"local file server cloud-enablement. It differentiates from other file "
+"sync and share solutions (EFSS) by focusing on the security, control, "
+"file server and team collaboration. |prodname| does really well in the "
+"following areas:"
+msgstr "|prodname| 是一款专注于本地文件服务器云启用的托管文件同步和共享解决方案。它与其他文件同步和共享解决方案（EFSS）的不同之处在于重视安全性、控制、文件服务器和团队协作。|prodname| 在以下领域表现非常出色："
+
+#: ../../index.rst:17
+msgid ""
+"maintain security by migrating files and folders while keeping the NTFS "
+"permissions intact."
+msgstr "在迁移文件和文件夹的同时保持NTFS权限不变，以维护安全性。"
+
+#: ../../index.rst:18
+msgid ""
+"provide on-demand access that honors read-only and write permission in "
+"real-time."
+msgstr "提供即时访问，实时遵守只读和写入权限。"
+
+#: ../../index.rst:19
+msgid ""
+"mirror local network shares on file servers to allow for team "
+"collaboration in the cloud."
+msgstr "镜像本地网络共享在文件服务器上，以允许团队在云中协作。"
+
+#: ../../index.rst:20
+msgid "provide virtual drive letter mapping to the files and folders for access."
+msgstr "为文件和文件夹提供虚拟驱动器字母映射以进行访问。"
+
+#: ../../index.rst:21
+msgid ""
+"provide file locking, version control, client encryption, and more "
+"advanced features for managing all virtual drives."
+msgstr "提供文件锁定、版本控制、客户端加密以及管理所有虚拟驱动器的更多高级功能。"
+
+#: ../../index.rst:23
+msgid ""
+"|prodname| Server is a software built on top of the Microsoft Web "
+"Platform:"
+msgstr "|prodname| 服务器是建立在 Microsoft Web 平台之上的软件："
+
+#: ../../index.rst:25
+msgid "Windows Server"
+msgstr "Windows 服务器"
+
+#: ../../index.rst:26
+msgid "IIS (Internet Information Server)"
+msgstr "IIS (互联网信息服务)"
+
+#: ../../index.rst:27
+msgid ".NET Framework and ASP.NET"
+msgstr ".NET 框架和 ASP.NET"
+
+#: ../../index.rst:28
+msgid "WCF (Windows Communication Foundation)"
+msgstr "WCF（Windows通信基础结构）"
+
+#: ../../index.rst:29
+msgid "PostgreSQL, MySQL or SQL Server"
+msgstr "PostgreSQL、MySQL 或者 SQL Server"
+
+#: ../../index.rst:31
+msgid ""
+"Since the |prodname| Server is built on top of the Microsoft Web "
+"Platform, it integrates very well with other Microsoft components such as"
+" the NTFS Permission on files and folders, the Active Directory users and"
+" the File Server network shares."
+msgstr "由于 |prodname| 服务器是建立在Microsoft Web平台之上的，因此它能够非常好地与其他Microsoft组件集成，例如文件和文件夹的NTFS权限、Active Directory用户以及文件服务器网络共享。"
+
+#: ../../index.rst:33
+msgid ""
+"It provides file access and sharing functionality through client agents "
+"for PCs, Macs, File Servers, Web Browsers, and Mobile Devices. The client"
+" agent software on Windows and Mac provides real drive mapping and volume"
+" mounting support that contains advanced optimization for WAN(Wide Area "
+"Network) data transfer."
+msgstr "它通过PC、Mac、文件服务器、Web浏览器和移动设备的客户端代理提供文件访问和共享功能。Windows和Mac上的客户端代理软件提供真实的驱动器映射和卷挂载支持，其中包含针对WAN（广域网）数据传输的高级优化。"
+
+#: ../../index.rst:35
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy the |prodname| Server:"
+msgstr "服务可以灵活组合部署以满足不同需求。有两种主要方式部署 |prodname| 服务器："
+
+#: ../../index.rst:37
+msgid ""
+"Deploy in the same site as the File Servers and Active Directory domain "
+"controllers:"
+msgstr "部署在与文件服务器和Active Directory域控制器相同的站点："
+
+#: ../../index.rst:41
+msgid "See also:"
+msgstr "另请参见："
+
+#: ../../index.rst:43
+msgid ""
+"`File Server Remote Access <https://www.gladinet.com/hybrid-cloud-with-"
+"file-server.html>`_"
+msgstr "`文件服务器远程访问 <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../index.rst:45
+msgid ""
+"Deploy in a site remotely, such as Amazon Web Services EC2, Microsoft "
+"Azure, or in a Data Center where the Managed Service Provider (MSP) hosts"
+" their infrastructure:"
+msgstr "在远程站点部署，例如亚马逊网络服务EC2、微软Azure或托管服务提供商（MSP）托管其基础设施的数据中心："
+
+#: ../../index.rst:50
+msgid "System Components"
+msgstr "系统组件"
+
+#: ../../index.rst:52
+msgid ""
+"There are three different system components (logical components that can "
+"co-exist in the same server) in the |prodname| server. In the smallest "
+"depl oyment unit, the three different components can co-exist in one "
+"single machine (all-in-one deployment)."
+msgstr "在 |prodname| 服务器中有三个不同的系统组件（可以共存于同一服务器中的逻辑组件）。在最小的部署单元中，这三个不同的组件可以共存于一台机器中（一体化部署）。"
+
+#: ../../index.rst:57
+msgid "1. Web Server Component - The |prodname| Server"
+msgstr "网页服务器组件 - |prodname| 服务器"
+
+#: ../../index.rst:58
+msgid ""
+"The Web Server component is ASP.NET and WFC code that is hosted by IIS on"
+" a Windows Server. The Web Server component is actually comprised of two "
+"separate \"sub-components\":"
+msgstr "Web服务器组件是由Windows服务器上的IIS托管的ASP.NET和WFC代码。Web服务器组件实际上由两个独立的“子组件”组成："
+
+#: ../../index.rst:60
+msgid "Web Node"
+msgstr "网页节点"
+
+#: ../../index.rst:61
+msgid "Worker Node"
+msgstr "工作节点"
+
+#: ../../index.rst:63
+msgid ""
+"These sub-components exist for historical purposes and there are still "
+"elements in the Cluster Manager user interface for configuring these sub-"
+"components."
+msgstr "这些子组件是出于历史原因而存在的，在集群管理器用户界面中仍然有配置这些子组件的元素。"
+
+#: ../../index.rst:66
+msgid "2. Database - Configuration Information and System Log"
+msgstr "2. 数据库 - 配置信息和系统日志"
+
+#: ../../index.rst:68
+msgid ""
+"The database contains persistent information for the system. This "
+"persistent information includes static configuration information such as "
+"user name, file storage and active directory connection information. The "
+"database also stores dynamic information such as activity log, file "
+"change log and audit traces."
+msgstr "数据库包含系统的持久信息。这些持久信息包括用户名称、文件存储和活动目录连接信息等静态配置信息。数据库还存储动态信息，如活动日志、文件更改日志和审计跟踪。"
+
+#: ../../index.rst:70
+msgid ""
+"|prodname| supports the MySQL and Microsoft SQL Server Database "
+"Management Systems (DMBS). The all-in-one deployment will deploy MySQL "
+"Community Edition on the |prodname| server. The all-in-one deployment is "
+"useful for evaluating the software but an external database server is "
+"recommended for Production deployments."
+msgstr "|prodname| 支持 MySQL 和 Microsoft SQL Server 数据库管理系统（DMBS）。全功能一体化部署将在 |prodname| 服务器上部署 MySQL 社区版。全功能一体化部署适用于评估软件，但建议在生产部署中使用外部数据库服务器。"
+
+#: ../../index.rst:73
+msgid "3. Back-end File Storage - Where Files and Folders are Stored"
+msgstr "3. 后端文件存储 - 文件和文件夹存储的位置"
+
+#: ../../index.rst:75
+msgid ""
+"The back-end file storage component is the persistent storage location "
+"for files and folders. There are two different types of storage services."
+" One is managed by |prodname|, such as the default storage for the "
+"cluster and the default storage for tenants. The other is imported "
+"storage, for example, existing file server network shares that weren't "
+"managed by |prodname| but can be imported to |prodname| for remote and "
+"mobile access."
+msgstr "后端文件存储组件是文件和文件夹的持久存储位置。有两种不同类型的存储服务。一种是由 |prodname| 管理的，例如集群的默认存储和租户的默认存储。另一种是导入的存储，例如，现有的文件服务器网络共享，这些共享原本不由 |prodname| 管理，但可以导入到 |prodname| 中，以实现远程和移动访问。"
+

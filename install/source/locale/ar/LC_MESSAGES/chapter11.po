@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Upgrade CentreStack"
+msgstr "ترقية CentreStack"
+
+#: ../../chapter11.rst:5
+msgid ""
+"We publish updated notes to our public blog forum called `CentreStack "
+"Blog`_. It is recommended that you perform an update if your self-hosted "
+"CentreStack and clients are three months or older."
+msgstr "نحن ننشر ملاحظات محدثة في منتدانا العام المسمى `مدونة CentreStack`_. يُنصح بإجراء تحديث إذا كان CentreStack المستضاف ذاتيًا والعملاء أقدم من ثلاثة أشهر."
+
+#: ../../chapter11.rst:8
+msgid "Using the GUI Installer to Upgrade"
+msgstr "استخدام المثبت الرسومي للترقية"
+
+#: ../../chapter11.rst:10
+msgid ""
+"To install an update go to your `Partner Portal`_ (Self-Hosted "
+"CentreStack -> Download) and download the GUI installer."
+msgstr "لتثبيت تحديث اذهب إلى `بوابة الشريك`_ (مركز الاستضافة الذاتية لـ CentreStack -> التحميل) وقم بتنزيل المثبت الرسومي."
+
+#: ../../chapter11.rst:14
+msgid ""
+"When you run the GUI installer, it will detect the existing installation "
+"and perform an upgrade."
+msgstr "عند تشغيل برنامج التثبيت الرسومي، سيكتشف التثبيت الحالي ويقوم بالترقية."
+

@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter9.rst:3
+msgid "Sharing"
+msgstr "共有"
+
+#: ../../chapter9.rst:6
+msgid "Sharing vs. Publishing"
+msgstr "共有 vs. 公開"
+
+#: ../../chapter9.rst:8
+msgid ""
+"There are two ways to share files and folders in |prodname|  – publishing"
+" and sharing."
+msgstr "|prodname| でファイルやフォルダーを共有する方法は2つあります – 公開と共有。"
+
+#: ../../chapter9.rst:10
+msgid "**Publishing:**"
+msgstr "**公開:**"
+
+#: ../../chapter9.rst:12
+msgid ""
+"Only available for the administrator who can share any tenant-wide "
+"folder. It will only work with team-users in a specific |prodname| "
+"account (tenant account). Publishing a team folder can't go outside of "
+"the tenant scope."
+msgstr "管理者のみがテナント全体のフォルダを共有できます。これは特定の |prodname| アカウント（テナントアカウント）内のチームユーザーでのみ機能します。チームフォルダを公開しても、テナントの範囲を超えることはできません。"
+
+#: ../../chapter9.rst:14
+msgid "**Sharing:**"
+msgstr "**共有:**"
+
+#: ../../chapter9.rst:16
+msgid ""
+"Both the administrator and team-users can share files with anyone that "
+"has an email address. The recipient of the share will get an email with a"
+" link to open the folder or download the file. If the email recipient is "
+"also a |prodname| Cloud user, he/she can access the shared file or folder"
+" directly from |prodname|."
+msgstr "管理者とチームユーザーの両方が、メールアドレスを持つ任意の人とファイルを共有することができます。共有の受取人は、フォルダを開くかファイルをダウンロードするリンクが含まれたメールを受け取ります。メールの受取人が |prodname| クラウドユーザーである場合、彼または彼女は |prodname| から直接共有されたファイルやフォルダにアクセスできます。"
+
+#: ../../chapter9.rst:19
+msgid "Administrators can prevent team-users from sharing if needed."
+msgstr "管理者は必要に応じてチームユーザーの共有を防ぐことができます。"
+
+#: ../../chapter9.rst:22
+msgid "Sharing Files And Folders"
+msgstr "ファイルとフォルダーの共有"
+
+#: ../../chapter9.rst:25
+msgid "File Sharing"
+msgstr "ファイル共有"
+
+#: ../../chapter9.rst:27
+msgid ""
+"To share a file, click it and select the Share icon (1)revealed in the "
+"header of the file. You can also right click the file and select Share "
+"(2) in the context menu. Once the file is selected, if the right panel is"
+" open(click the encircled \"i\" button), there is a Share link (3) there "
+"as well."
+msgstr "ファイルを共有するには、ファイルをクリックしてヘッダーに表示される共有アイコン(1)を選択します。また、ファイルを右クリックしてコンテキストメニューから共有(2)を選択することもできます。ファイルが選択されていて、右パネルが開いている場合（「i」ボタンをクリック）、そこにも共有リンク(3)があります。"
+
+#: ../../chapter9.rst:32
+msgid "SHARING FILES"
+msgstr "ファイル共有"
+
+#: ../../chapter9.rst:34
+msgid ""
+"After clicking 'Share' above, in 'Invite People' window, click the email "
+"field (4) and enter email addresses seperated by semicolons (;) for "
+"anyone that needs access to the file. You can also add notes (5) if "
+"required. Click CONTINUE (6)."
+msgstr "「共有」をクリックした後、「人を招待」ウィンドウで、メールフィールド（4）をクリックし、ファイルにアクセスする必要がある人のメールアドレスをセミコロン（;）で区切って入力してください。必要に応じてメモ（5）を追加することもできます。CONTINUE（6）をクリックします。"
+
+#: ../../chapter9.rst:39
+msgid "INVITE PEOPLE TO YOUR SHARE"
+msgstr "あなたの共有に人を招待する"
+
+#: ../../chapter9.rst:42
+msgid ""
+"On the second share window you have access to the share options panel "
+"where you can make important decisions such as how long you want the "
+"share to be active and how much control you want to give the user (e.g., "
+"read only, full control access). You can also make this share available "
+"to the public by get"
+msgstr "2番目の共有ウィンドウでは、共有オプションパネルにアクセスでき、共有をアクティブにしたい期間やユーザーに与えたいコントロールの程度（例：読み取り専用、完全コントロールアクセスなど）などの重要な決定を行うことができます。また、この共有を一般公開することもできます。"
+
+#: ../../chapter9.rst:47
+msgid "SHARE OPTIONS PANEL"
+msgstr "共有オプションパネル"
+
+#: ../../chapter9.rst:49
+msgid ""
+"You can access previously shared items by clicking the share icon (2) on "
+"a folder of file. Other shares can be accessed by opening the right panel"
+" (1) and clicking the edit button (3) next to the \"Shared Items\" "
+"option."
+msgstr "以前に共有したアイテムにアクセスするには、フォルダまたはファイルの共有アイコン（2）をクリックします。他の共有にアクセスするには、右パネル（1）を開き、「共有アイテム」オプションの隣にある編集ボタン（3）をクリックします。"
+
+#: ../../chapter9.rst:54
+msgid "ACCESSING SHARED ITEMS SETTINGS"
+msgstr "共有アイテム設定へのアクセス"
+
+#: ../../chapter9.rst:58
+msgid "Folder Sharing"
+msgstr "フォルダ共有"
+
+#: ../../chapter9.rst:60
+msgid ""
+"In this example, the icon view has been changed to detailed view (1) of "
+"the files in this folder. To share a folder, mouse-over it and select the"
+" Share icon (2) in its row. You can also right click the file and select "
+"'Share' in the context menu."
+msgstr "この例では、アイコンビューがこのフォルダのファイルの詳細ビュー(1)に変更されています。フォルダを共有するには、マウスオーバーしてその行の共有アイコン(2)を選択します。また、ファイルを右クリックしてコンテキストメニューから「共有」を選択することもできます。"
+
+#: ../../chapter9.rst:65
+msgid "SHARING FOLDERS"
+msgstr "フォルダーの共有"
+
+#: ../../chapter9.rst:69
+msgid "Removing shares"
+msgstr "共有を削除する"
+
+#: ../../chapter9.rst:71
+msgid ""
+"During share setup, a user can define its expiration date. Once the share"
+" expires, other users will no longer be able to access the shares."
+msgstr "共有の設定中に、ユーザーはその有効期限を定義できます。共有が期限切れになると、他のユーザーは共有にアクセスできなくなります。"
+
+#: ../../chapter9.rst:73
+msgid "Users can also delete the share manually. First go to the Drive Root (1)."
+msgstr "ユーザーは共有を手動で削除することもできます。まずドライブのルート（1）に移動してください。"
+
+#: ../../chapter9.rst:75
+msgid ""
+"To delete a user's access to a share, open the right panel click the "
+"\"Manage\" icon (2) on shared items. In the next panel choose the item "
+"you wish to modify, then in the pop-up window, click the Delete icon (3) "
+"to remove this user's permission from the share."
+msgstr "共有へのユーザーのアクセスを削除するには、右のパネルを開き、共有アイテムの「管理」アイコン（2）をクリックします。次のパネルで変更を加えたいアイテムを選択し、ポップアップウィンドウで削除アイコン（3）をクリックして、このユーザーの共有からの権限を削除します。"
+
+#: ../../chapter9.rst:80
+msgid "DELETING A USER'S PERMISSION"
+msgstr "ユーザーの権限を削除する"
+
+#: ../../chapter9.rst:84
+msgid "Accessing 'Files/Folders Shared With Me'"
+msgstr "「私と共有されたファイル/フォルダ」へのアクセス"
+
+#: ../../chapter9.rst:86
+msgid ""
+"When a file or folder is shared with the user, he/she will get an email. "
+"The link in the email can be used to open the file or folder."
+msgstr "ファイルまたはフォルダがユーザーと共有されると、そのユーザーにはメールが送信されます。メール内のリンクを使用して、ファイルまたはフォルダを開くことができます。"
+
+#: ../../chapter9.rst:88
+msgid ""
+"If the user has a |prodname|  account with the given email address, the "
+"shared files and folders will appear under the 'Files shared with me' "
+"folder, in both the |prodname| Web Portal and |prodname| Desktop App."
+msgstr "ユーザーが指定されたメールアドレスで |prodname| アカウントを持っている場合、共有されたファイルやフォルダは、|prodname| Webポータルと |prodname| デスクトップアプリの両方で、「私と共有されたファイル」フォルダに表示されます。"
+
+#: ../../chapter9.rst:92
+msgid "Web Portal"
+msgstr "ウェブポータル"
+
+#: ../../chapter9.rst:94
+msgid ""
+"You can access shared files by clicking the \"Shared files/folders\" "
+"button in the \"File Browser\" view of the Web Portal."
+msgstr "「ファイルブラウザ」ビューのWebポータルで、「共有ファイル/フォルダ」ボタンをクリックすると、共有ファイルにアクセスできます。"
+
+#: ../../chapter9.rst:99
+msgid "WEB PORTAL SHARED FILES LOCATION"
+msgstr "WEBポータル共有ファイルの場所"
+
+#: ../../chapter9.rst:103
+msgid "Windows Client"
+msgstr "Windows クライアント"
+
+#: ../../chapter9.rst:105
+msgid ""
+"In the Windows Client you can access shared files by using windows "
+"explorer to navigate to the Cloud Drive (1) where you will find any "
+"shared files listed (2) with information about who shared (3) the file "
+"with you."
+msgstr "Windowsクライアントでは、エクスプローラーを使用してクラウドドライブ(1)にアクセスし、共有されたファイルがリストされている(2)場所をナビゲートすることで、共有ファイルにアクセスできます。また、誰が(3)そのファイルを共有したかについての情報も表示されます。"
+
+#: ../../chapter9.rst:110
+msgid "WINDOWS CLIENT SHARED FILES LOCATION"
+msgstr "WINDOWSクライアント共有ファイルの場所"
+
+#: ../../chapter9.rst:113
+msgid ""
+"If the user has write permission to the folder shared, he can modify the "
+"files in the folder."
+msgstr "ユーザーが共有フォルダに書き込み権限を持っている場合、そのフォルダ内のファイルを変更することができます。"
+

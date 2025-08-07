@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:2
+msgid "Active Directory Integration"
+msgstr "Integración con Active Directory"
+
+#: ../../chapter05.rst:4
+msgid "There are three ways to connect Active Directory into CentreStack."
+msgstr "Hay tres maneras de conectar el Active Directory con CentreStack."
+
+#: ../../chapter05.rst:8
+msgid "1. LDAP"
+msgstr "LDAP"
+
+#: ../../chapter05.rst:10
+msgid ""
+"For the first way, if the Active Directory is in the same Local Area "
+"Network (LAN), then a direct LDAP/LDAPS connection is recommended."
+msgstr "Para la primera forma, si el Active Directory se encuentra en la misma Red de Área Local (LAN), entonces se recomienda una conexión directa LDAP/LDAPS."
+
+#: ../../chapter05.rst:15
+msgid "2. Server Agent Proxy"
+msgstr "2. Proxy del Agente del Servidor"
+
+#: ../../chapter05.rst:17
+msgid ""
+"For the Second way, if the Active Directory is in a remote office, such "
+"as on a customer's premise, away from the CentreStack server, then a "
+"client agent software called, \"File Server Agent\" can be installed on "
+"the remote file server to help import Active Directory users over to "
+"CentreStack."
+msgstr "Para la segunda forma, si el Active Directory se encuentra en una oficina remota, como en las instalaciones de un cliente, lejos del servidor de CentreStack, entonces se puede instalar un software de agente cliente llamado \"File Server Agent\" en el servidor de archivos remoto para ayudar a importar usuarios de Active Directory a CentreStack."
+
+#: ../../chapter05.rst:23
+msgid "CentreStack allows you to connect to multiple active directory services."
+msgstr "CentreStack te permite conectar con múltiples servicios de directorio activo."
+
+#: ../../chapter05.rst:26
+msgid "3. Azure AD Support"
+msgstr "3. Soporte de Azure AD"
+
+#: ../../chapter05.rst:27
+msgid ""
+"Via the Azure AD support, you can setup Azure AD so users can be "
+"authenticated by Azure AD instead of from a local Active Directory."
+msgstr "Mediante el soporte de Azure AD, puede configurar Azure AD para que los usuarios sean autenticados por Azure AD en lugar de un Active Directory local."
+
+#: ../../chapter05.rst:31
+msgid "**\"Proxied AD User\"**"
+msgstr "**\"Usuario de AD en Proxy\"**"
+
+#: ../../chapter05.rst:33
+msgid ""
+"It is also possible to use the Active Directory from a remote location "
+"where the server agent (included client software) is used. In this case "
+"\"Proxied AD User\" will be referred to users imported from server "
+"agent's side of the Active Directory."
+msgstr "También es posible utilizar el Active Directory desde una ubicación remota donde se utiliza el agente del servidor (software cliente incluido). En este caso, \"Usuario de AD Proxy\" se referirá a los usuarios importados desde el lado del agente del servidor del Active Directory."
+
+#: ../../chapter05.rst:36
+msgid "**\"AD User\"**"
+msgstr "**\"Usuario de AD\"**"
+
+#: ../../chapter05.rst:38
+msgid ""
+"The \"AD user\" is reserved to refer to users from local LDAP Active "
+"Directory."
+msgstr "El \"usuario de AD\" está reservado para referirse a usuarios del Directorio Activo LDAP local."
+
+#: ../../chapter05.rst:43
+msgid ""
+"When should you use LDAP, and when should you use \"Server Agent\" for AD"
+" integration?"
+msgstr "¿Cuándo debería usar LDAP y cuándo debería usar \"Server Agent\" para la integración con AD?"
+
+#: ../../chapter05.rst:45
+msgid "If AD is local to the CentreStack server, then LDAP is recommended."
+msgstr "Si el AD está local al servidor de CentreStack, entonces se recomienda LDAP."
+
+#: ../../chapter05.rst:47
+msgid "If AD is remote, then Server Agent is recommended."
+msgstr "Si el AD es remoto, entonces se recomienda el Agente de Servidor."
+

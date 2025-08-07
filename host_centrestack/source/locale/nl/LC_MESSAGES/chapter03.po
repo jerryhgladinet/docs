@@ -1,0 +1,571 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "Manage Tenant"
+msgstr "Beheer Tenant"
+
+#: ../../chapter03.rst:5
+msgid ""
+"By default, the |prodname| partner account holder has the \"Single-pane-"
+"of-glass\" view of all his tenants in the partner portal and can manage "
+"the Tenants in \"Registered Tenants\" section.."
+msgstr "Standaard heeft de houder van het |prodname| partneraccount de \"Single-pane-of-glass\" weergave van al zijn huurders in het partnerportaal en kan hij de huurders beheren in de sectie \"Geregistreerde Huurders\"."
+
+#: ../../chapter03.rst:10
+msgid "MANAGE TENANT OPTION"
+msgstr "BEHEER HUURDER OPTIE"
+
+#: ../../chapter03.rst:12
+msgid ""
+"After you click through to the \"Manage\" option, the tenant dashboard "
+"will show."
+msgstr "Nadat u op de optie \"Beheren\" hebt geklikt, wordt het tenant-dashboard weergegeven."
+
+#: ../../chapter03.rst:15
+msgid "Tenant Dashboard"
+msgstr "Tenant Dashboard"
+
+#: ../../chapter03.rst:17
+msgid ""
+"The dashboard contains the two most important assets: the ``users`` and "
+"the ``Team Folders``."
+msgstr "Het dashboard bevat de twee belangrijkste onderdelen: de ``gebruikers`` en de ``Team Mappen``."
+
+#: ../../chapter03.rst:21
+msgid ""
+"Basically from a management perspective, you are helping the tenant "
+"manage their users and their common work areas - the Team Folders."
+msgstr "In principe helpt u vanuit een managementperspectief de tenant bij het beheren van hun gebruikers en hun gemeenschappelijke werkgebieden - de Team Mappen."
+
+#: ../../chapter03.rst:26
+msgid "TENANT DASHBOARD"
+msgstr "HUURDERS DASHBOARD"
+
+#: ../../chapter03.rst:28
+msgid ""
+"There is also a Quick Access panel on the dashboard that you can see the "
+"second level of details on the tenant management scope."
+msgstr "Er is ook een Snelle Toegang paneel op het dashboard waar u het tweede niveau van details kunt zien over de beheeromvang van de tenant."
+
+#: ../../chapter03.rst:33
+msgid "QUICK ACCESS PANEL"
+msgstr "SNELTOEGANGSPANEEL"
+
+#: ../../chapter03.rst:36
+msgid "Reports"
+msgstr "Rapporten"
+
+#: ../../chapter03.rst:38
+msgid "In ``REPORTS``, you can see reports related to the tenant."
+msgstr "In ``RAPPORTEN``, kunt u rapporten zien die gerelateerd zijn aan de huurder."
+
+#: ../../chapter03.rst:43
+msgid "REPORTS"
+msgstr "RAPPORTEN"
+
+#: ../../chapter03.rst:45
+msgid ""
+"Once you click the **\"Reports\"** button you will see the **\"Upload "
+"Report\"** by default. You can use the tab at the top to choose other "
+"report options."
+msgstr "Zodra u op de knop **\"Rapporten\"** klikt, ziet u standaard het **\"Uploadrapport\"**. U kunt het tabblad bovenaan gebruiken om andere rapportopties te kiezen."
+
+#: ../../chapter03.rst:50
+msgid "REPORTS MENU"
+msgstr "RAPPORTEN MENU"
+
+#: ../../chapter03.rst:52
+msgid "Upload Report"
+msgstr "Rapport Uploaden"
+
+#: ../../chapter03.rst:54
+msgid ""
+"the number of files uploaded into hosted |prodname| in the last 30 days "
+"or last week."
+msgstr "het aantal bestanden dat de afgelopen 30 dagen of afgelopen week is geüpload naar gehoste |prodname|"
+
+#: ../../chapter03.rst:56
+msgid "Storage Statistics"
+msgstr "Opslagstatistieken"
+
+#: ../../chapter03.rst:58
+msgid ""
+"The files and folder number and size and other statistics of files and "
+"folders."
+msgstr "Het aantal bestanden en mappen en de grootte en andere statistieken van bestanden en mappen."
+
+#: ../../chapter03.rst:60
+msgid "Team Folders"
+msgstr "Team Mappen"
+
+#: ../../chapter03.rst:62
+msgid "All the Team Folders in the tenant."
+msgstr "Alle Teammappen in de tenant."
+
+#: ../../chapter03.rst:64 ../../chapter03.rst:372
+msgid "Shared Objects"
+msgstr "Gedeelde Objecten"
+
+#: ../../chapter03.rst:66
+msgid "All the peer-to-peer share objects in the tenant."
+msgstr "Alle peer-to-peer deelobjecten in de tenant."
+
+#: ../../chapter03.rst:68
+msgid "Audit Trace"
+msgstr "Audit Spoor"
+
+#: ../../chapter03.rst:70
+msgid "The management scope events in the tenant."
+msgstr "De beheeromvang gebeurtenissen in de huurder."
+
+#: ../../chapter03.rst:72
+msgid "File Change Logging"
+msgstr "Bestandsveranderingslogboek"
+
+#: ../../chapter03.rst:74
+msgid "The file change events in the tenant."
+msgstr "De bestandswijzigingsgebeurtenissen in de tenant."
+
+#: ../../chapter03.rst:78
+msgid "Tenant Branding"
+msgstr "Huurder Branding"
+
+#: ../../chapter03.rst:80
+msgid ""
+"After you setup default branding and apply to the tenants, you can "
+"continue to fine tune the branding on a per-tenant basis."
+msgstr "Nadat u de standaard branding heeft ingesteld en toegepast op de tenants, kunt u de branding per tenant verder verfijnen."
+
+#: ../../chapter03.rst:85
+msgid "TENANT BRANDING"
+msgstr "HUURDER MERKING"
+
+#: ../../chapter03.rst:87
+msgid ""
+"In the ``TENANT BRANDING`` section, you can setup and change tenant "
+"specific branding information."
+msgstr "In de sectie ``TENANT BRANDING`` kunt u specifieke merkinformatie voor tenants instellen en wijzigen."
+
+#: ../../chapter03.rst:93
+msgid "BRANDING OPTIONS"
+msgstr "MERKOPTIES"
+
+#: ../../chapter03.rst:95
+msgid "Customized URL for your business"
+msgstr "Aangepaste URL voor uw bedrijf"
+
+#: ../../chapter03.rst:97
+msgid ""
+"Upon creating the tenant, the tenant is assigned a random string of "
+"digits for the custom site. You can change the URL so that it is more "
+"related to the customer's business name."
+msgstr "Bij het aanmaken van de tenant wordt een willekeurige reeks cijfers toegewezen voor de aangepaste site. U kunt de URL wijzigen zodat deze meer gerelateerd is aan de bedrijfsnaam van de klant."
+
+#: ../../chapter03.rst:103
+msgid "GENERAL OPTIONS"
+msgstr "ALGEMENE OPTIES"
+
+#: ../../chapter03.rst:107
+msgid ""
+"The ``Customized URL`` field is very important for the tenant branding. "
+"It is like a key to a list of information belonging to the tenant. For "
+"tenant branding to work, the tenant will need to login to the specific "
+"URL that is assigned to them."
+msgstr "Het veld ``Aangepaste URL`` is erg belangrijk voor de merkidentiteit van de huurder. Het is als een sleutel tot een lijst van informatie die bij de huurder hoort. Om de merkidentiteit te laten werken, moet de huurder inloggen op de specifieke URL die aan hen is toegewezen."
+
+#: ../../chapter03.rst:110
+msgid "Group Policy"
+msgstr "Groepsbeleid"
+
+#: ../../chapter03.rst:115
+msgid "GROUP POLICY"
+msgstr "GROEPSBELEID"
+
+#: ../../chapter03.rst:117
+msgid ""
+"``GROUP POLICY`` is documented in the |prodname| Admin Guide. Look for "
+"the group policy section in the |prodname| Admin Guide. Please see the "
+"`Documentation Page`__ for more information."
+msgstr "``GROEPSBELEID`` is gedocumenteerd in de |prodname| Beheerdershandleiding. Zoek naar de sectie groepsbeleid in de |prodname| Beheerdershandleiding. Zie de `Documentatiepagina`__ voor meer informatie."
+
+#: ../../chapter03.rst:125
+msgid "DOCUMENTATION WEB PAGE"
+msgstr "DOCUMENTATIE WEBPAGINA"
+
+#: ../../chapter03.rst:128
+msgid "Control Panel"
+msgstr "Configuratiescherm"
+
+#: ../../chapter03.rst:133
+msgid "CONTROL PANEL"
+msgstr "CONFIGURATIESCHERM"
+
+#: ../../chapter03.rst:135
+msgid "In the ``CONTROL PANEL`` section, you will see the following sections."
+msgstr "In de ``CONTROL PANEL`` sectie zult u de volgende secties zien."
+
+#: ../../chapter03.rst:140
+msgid "CONTROL PANEL SETTINGS"
+msgstr "INSTELLINGEN CONFIGURATIESCHERM"
+
+#: ../../chapter03.rst:143
+msgid "Tenant Administrators"
+msgstr "Tenantbeheerders"
+
+#: ../../chapter03.rst:148
+msgid "TENANT ADMINISTRATORS"
+msgstr "TENANTBEHEERDERS"
+
+#: ../../chapter03.rst:150
+msgid ""
+"You can change the tenant's administrator information here and also "
+"define delegate administrators."
+msgstr "U kunt hier de informatie van de beheerder van de tenant wijzigen en ook gedelegeerde beheerders definiëren."
+
+#: ../../chapter03.rst:155
+msgid "TENANT ADMINISTRATOR SETTINGS"
+msgstr "INSTELLINGEN VAN DE TENANTBEHEERDER"
+
+#: ../../chapter03.rst:158
+msgid "Single Sign-On"
+msgstr "Single Sign-On"
+
+#: ../../chapter03.rst:163
+msgid "SINGLE SIGN ON"
+msgstr "ENKELE AANMELDING"
+
+#: ../../chapter03.rst:165
+msgid ""
+"It is recommended to setup tenant specific ``custom URL`` before setting "
+"up the Single Sign-On since this is a tenant-specific Single Sign-On "
+"setting."
+msgstr "Het wordt aanbevolen om een specifieke ``custom URL`` voor de tenant in te stellen voordat u de Single Sign-On instelt, aangezien dit een tenant-specifieke Single Sign-On instelling is."
+
+#: ../../chapter03.rst:171
+msgid "SINGLE SIGN-ON SETTINGS"
+msgstr "INSTELLINGEN VOOR ENKELE AANMELDING"
+
+#: ../../chapter03.rst:173 ../../chapter03.rst:191
+msgid "Check the |prodname| Admin Guide for more details."
+msgstr "Raadpleeg de |prodname| Beheerdersgids voor meer details."
+
+#: ../../chapter03.rst:176
+msgid "Azure AD"
+msgstr "Azure AD"
+
+#: ../../chapter03.rst:181
+msgid "AZURE AD"
+msgstr "AZURE AD"
+
+#: ../../chapter03.rst:183
+msgid ""
+"In Azure AD, you can setup the tenant to login using credentials from "
+"Azure AD."
+msgstr "In Azure AD kunt u de tenant instellen om in te loggen met inloggegevens van Azure AD."
+
+#: ../../chapter03.rst:189
+msgid "AZURE AD SETTINGS"
+msgstr "AZURE AD INSTELLINGEN"
+
+#: ../../chapter03.rst:194
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: ../../chapter03.rst:199
+msgid "NOTIFICATIONS"
+msgstr "MELDINGEN"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Notification section defines what kind of notifications the tenant "
+"wants to configure."
+msgstr "Het gedeelte Notificaties definieert welke soort notificaties de huurder wil configureren."
+
+#: ../../chapter03.rst:206
+msgid "NOTIFICATIONS SETTINGS"
+msgstr "INSTELLINGEN VOOR MELDINGEN"
+
+#: ../../chapter03.rst:209
+msgid "Device Manager"
+msgstr "Apparaatbeheer"
+
+#: ../../chapter03.rst:214
+msgid "DEVICE MANAGER"
+msgstr "APPARAATBEHEERDER"
+
+#: ../../chapter03.rst:219
+msgid "DEVICE MANAGER SETTINGS"
+msgstr "INSTELLINGEN APPARAATBEHEER"
+
+#: ../../chapter03.rst:222
+msgid "Application Manager"
+msgstr "Applicatiebeheerder"
+
+#: ../../chapter03.rst:227
+msgid "APPLICATION MANAGER"
+msgstr "APPLICATIEBEHEERDER"
+
+#: ../../chapter03.rst:232
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "INSTELLINGEN VAN DE APPLICATIEBEHEERDER"
+
+#: ../../chapter03.rst:235
+msgid "Sharepoint Online"
+msgstr "Sharepoint Online"
+
+#: ../../chapter03.rst:240
+msgid "SHAREPOINT ONLINE"
+msgstr "SHAREPOINT ONLINE"
+
+#: ../../chapter03.rst:245
+msgid "SHAREPOINT ONLINE SETTINGS"
+msgstr "SHAREPOINT ONLINE INSTELLINGEN"
+
+#: ../../chapter03.rst:248
+msgid "Email Service"
+msgstr "E-maildienst"
+
+#: ../../chapter03.rst:253
+msgid "EMAIL SERVICE"
+msgstr "E-MAILDIENST"
+
+#: ../../chapter03.rst:258
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "E-MAILDIENST INSTELLINGEN"
+
+#: ../../chapter03.rst:261
+msgid "User Manager"
+msgstr "Gebruikersbeheer"
+
+#: ../../chapter03.rst:266
+msgid "USER MANAGER"
+msgstr "GEBRUIKERSBEHEER"
+
+#: ../../chapter03.rst:268
+msgid "User manager is where to manage the users for the tenant."
+msgstr "Gebruikersbeheer is waar u de gebruikers voor de tenant beheert."
+
+#: ../../chapter03.rst:273
+msgid "USER MANAGER SETTINGS"
+msgstr "GEBRUIKERSBEHEER INSTELLINGEN"
+
+#: ../../chapter03.rst:276
+msgid "Add User"
+msgstr "Gebruiker toevoegen"
+
+#: ../../chapter03.rst:278
+msgid ""
+"Users can be created directly with user name and email. If the Server "
+"Agent is used, users can also be created from the Server Agent where "
+"Active Directory users from a remote Server Agent can be imported into "
+"|prodname|."
+msgstr "Gebruikers kunnen direct worden aangemaakt met gebruikersnaam en e-mail. Als de Server Agent wordt gebruikt, kunnen gebruikers ook vanuit de Server Agent worden aangemaakt, waarbij Active Directory-gebruikers van een externe Server Agent kunnen worden geïmporteerd in |prodname|."
+
+#: ../../chapter03.rst:283
+msgid "ADDING USERS"
+msgstr "GEBRUIKERS TOEVOEGEN"
+
+#: ../../chapter03.rst:285
+msgid ""
+"Before the Server Agent is used, there are two options: \"Native User\" "
+"and \"Batch create users\". If you use Server Agent to connect a remote "
+"file server to this specific tenant, the remote Active Directory will "
+"also show up."
+msgstr "Voordat de Server Agent wordt gebruikt, zijn er twee opties: \"Native User\" en \"Batch create users\". Als u Server Agent gebruikt om een externe bestandsserver te verbinden met deze specifieke tenant, zal de externe Active Directory ook verschijnen."
+
+#: ../../chapter03.rst:290
+msgid "CLICK TO CREATE OR MIGRATE A USER"
+msgstr "KLIK OM EEN GEBRUIKER AAN TE MAKEN OF TE MIGREREN"
+
+#: ../../chapter03.rst:292
+msgid ""
+"Guest users are those users that don't have home directory storage, but "
+"can receive file and folder shares from regular users."
+msgstr "Gastgebruikers zijn gebruikers die geen opslag hebben voor een thuismap, maar wel bestanden en mappen kunnen ontvangen van reguliere gebruikers."
+
+#: ../../chapter03.rst:297
+msgid "SOURCES OF USERS"
+msgstr "BRONNEN VAN GEBRUIKERS"
+
+#: ../../chapter03.rst:300
+msgid "Group Manager"
+msgstr "Groepsbeheerder"
+
+#: ../../chapter03.rst:302
+msgid ""
+"You can create native |prodname| groups to help manage the assignment of "
+"users to folders and files for read and write permission."
+msgstr "U kunt native |prodname| groepen maken om te helpen bij het beheren van de toewijzing van gebruikers aan mappen en bestanden voor lees- en schrijfrechten."
+
+#: ../../chapter03.rst:304
+msgid ""
+"If you have the Server Agent connected, the Server Agent can import Proxy"
+" Active Directory group instead."
+msgstr "Als u de Server Agent verbonden heeft, kan de Server Agent in plaats daarvan de Proxy Active Directory groep importeren."
+
+#: ../../chapter03.rst:309
+msgid "GROUPS"
+msgstr "GROEPEN"
+
+#: ../../chapter03.rst:312
+msgid "Role Manager"
+msgstr "Rolbeheerder"
+
+#: ../../chapter03.rst:314
+msgid ""
+"Role manager can further define what each users in the tenant can do and "
+"what they have access to."
+msgstr "De rolmanager kan verder definiëren wat elke gebruiker in de tenant kan doen en waartoe zij toegang hebben."
+
+#: ../../chapter03.rst:319
+msgid "ROLES"
+msgstr "ROLLEN"
+
+#: ../../chapter03.rst:324
+msgid "CREATING A NEW ROLE"
+msgstr "EEN NIEUWE ROL AANMAKEN"
+
+#: ../../chapter03.rst:329
+msgid ""
+"Collaboration is centered around storage folders and assigning users to "
+"folders with specific permissions."
+msgstr "Samenwerking is gecentreerd rond opslagmappen en het toewijzen van gebruikers aan mappen met specifieke permissies."
+
+#: ../../chapter03.rst:332
+msgid "Team Folder"
+msgstr "Teammap"
+
+#: ../../chapter03.rst:337
+msgid "TEAM FOLDERS"
+msgstr "TEAM MAPPEN"
+
+#: ../../chapter03.rst:339
+msgid ""
+"The idea of a Team Folder is similar to that of a local network share. "
+"Users can be assigned to a Team Folder with read and write permissions at"
+" the share level. Inside the folder, at the sub-folder level, each sub-"
+"folder can define its own folder level permissions."
+msgstr "Het idee van een Teammap lijkt op dat van een lokale netwerkshare. Gebruikers kunnen worden toegewezen aan een Teammap met lees- en schrijfrechten op het share-niveau. Binnen de map kunnen op het niveau van de submap, elke submap zijn eigen mapniveau-permissies definiëren."
+
+#: ../../chapter03.rst:342
+msgid "Add a Team Folder"
+msgstr "Voeg een Teammap toe"
+
+#: ../../chapter03.rst:347
+msgid "CREATING A TEAM FOLDER"
+msgstr "EEN TEAMMAP MAKEN"
+
+#: ../../chapter03.rst:349
+msgid ""
+"In the hosted |prodname| environment, you can create Team Folders in "
+"several different ways."
+msgstr "In de gehoste |prodname| omgeving kunt u Team Mappen op verschillende manieren aanmaken."
+
+#: ../../chapter03.rst:352
+msgid "Default Storage"
+msgstr "Standaard Opslag"
+
+#: ../../chapter03.rst:352
+msgid ""
+"Create a new Team Folder from scratch using the default storage. It will "
+"be empty to start with and you can put files and folders inside later."
+msgstr "Maak een nieuwe Teammap vanaf het begin met behulp van de standaardopslag. Deze zal in het begin leeg zijn en u kunt er later bestanden en mappen in plaatsen."
+
+#: ../../chapter03.rst:355
+msgid "Existing Folder(s)"
+msgstr "Bestaande map(pen)"
+
+#: ../../chapter03.rst:355
+msgid ""
+"Create a new folder by selecting one or more existing folders. Those "
+"selected folders will show up inside the Team Folder."
+msgstr "Maak een nieuwe map door een of meer bestaande mappen te selecteren. De geselecteerde mappen verschijnen in de Teammap."
+
+#: ../../chapter03.rst:358
+msgid "Publish Tenant Home Storage As a Team Folder"
+msgstr "Publiceer Tenant Home Opslag Als een Teammap"
+
+#: ../../chapter03.rst:358
+msgid ""
+"The tenant's home storage will be published to users in the same tenant "
+"so they can see file and folder contents from the home storage. Some "
+"specialized folders such as folders from remote file servers or remote "
+"cloud storage services are not included in this scope."
+msgstr "De thuismap van de huurder zal gepubliceerd worden voor gebruikers in dezelfde huurder zodat zij bestanden en mapinhoud van de thuismap kunnen zien. Sommige gespecialiseerde mappen zoals mappen van externe bestandsservers of externe cloudopslagdiensten zijn niet inbegrepen in deze reikwijdte."
+
+#: ../../chapter03.rst:362
+msgid "Remote File Server (with Server Agent)"
+msgstr "Externe Bestandsserver (met Server Agent)"
+
+#: ../../chapter03.rst:361
+msgid ""
+"Once you install the Server Agent on your remote server, you can create a"
+" Team Folder here."
+msgstr "Zodra u de Server Agent op uw externe server hebt geïnstalleerd, kunt u hier een Teammap maken."
+
+#: ../../chapter03.rst:364
+msgid ""
+"Initially without remote Server Agent installed, the Remote server "
+"section is empty. If there is at least one Server Agent installed, the "
+"remote file server will show up under the \"Remote File Servers\" section"
+" and you will be able to import file servers from a remote location, "
+"together with Active Directory Identities and the corresponding folder "
+"level NTFS permissions."
+msgstr "Aanvankelijk, zonder dat de Remote Server Agent geïnstalleerd is, is de sectie 'Remote server' leeg. Als er ten minste één Server Agent geïnstalleerd is, zal de externe bestandsserver verschijnen onder de sectie \"Remote File Servers\" en zult u in staat zijn om bestandsservers van een externe locatie te importeren, samen met Active Directory Identiteiten en de overeenkomstige mapniveau NTFS-permissies."
+
+#: ../../chapter03.rst:369
+msgid "TEAM FOLDER SETTINGS"
+msgstr "TEAMMAP INSTELLINGEN"
+
+#: ../../chapter03.rst:377
+msgid "REPORTS > SHARED OBJECTS"
+msgstr "RAPPORTEN > GEDEELDE OBJECTEN"
+
+#: ../../chapter03.rst:379
+msgid ""
+"In |prodname|, you can share files and folders from your file browser. "
+"Once a something has been shared it will show up in the Shared Objects "
+"view of the Reports section of the portal. The shares can be read-only or"
+" full access, and can be controlled by date or shared as a public link. "
+"This is how Guest Users are created in |prodname|."
+msgstr "In |prodname| kunt u bestanden en mappen delen vanuit uw bestandsbrowser. Zodra iets gedeeld is, verschijnt het in de weergave Gedeelde Objecten van het Rapportenonderdeel van het portaal. De shares kunnen alleen-lezen of volledige toegang zijn, en kunnen worden beheerd op datum of gedeeld als een openbare link. Zo worden Gastgebruikers aangemaakt in |prodname|."
+
+#: ../../chapter03.rst:384
+msgid "SHARED OBJECT SETTINGS"
+msgstr "GEDEELDE OBJECTINSTELLINGEN"
+
+#: ../../chapter03.rst:389
+msgid "Storage Manager"
+msgstr "Opslagbeheer"
+
+#: ../../chapter03.rst:394
+msgid "SETTING UP BACKEND STORAGE"
+msgstr "BACKEND OPSLAG INSTELLEN"
+
+#: ../../chapter03.rst:396
+msgid ""
+"Storage Manager is where you can define more secondary storage services "
+"and mount them into |prodname| so you can access them all from one single"
+" location."
+msgstr "Storage Manager is waar u meer secundaire opslagservices kunt definiëren en ze kunt koppelen aan |prodname| zodat u ze allemaal vanaf één enkele locatie kunt benaderen."
+

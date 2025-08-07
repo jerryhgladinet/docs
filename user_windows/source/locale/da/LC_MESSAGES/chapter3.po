@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter3.rst:3
+msgid "Connecting To The Cloud"
+msgstr "Forbindelse til skyen"
+
+#: ../../chapter3.rst:7
+msgid "Transferring Files"
+msgstr "Overførsel af filer"
+
+#: ../../chapter3.rst:9
+msgid ""
+"Now you can use the Cloud Storage as if it were a Virtual Drive or "
+"Folder. Simply drag and drop to copy local documents to the Cloud "
+"Storage."
+msgstr "Nu kan du bruge Cloud Storage, som om det var et virtuelt drev eller en mappe. Træk og slip blot for at kopiere lokale dokumenter til Cloud Storage."
+
+#: ../../chapter3.rst:11
+msgid "You can access your cloud drive directly with a drive letter."
+msgstr "Du kan få direkte adgang til dit cloud-drev med et drevbogstav."
+
+#: ../../chapter3.rst:17
+msgid "THE CLOUD DRIVE"
+msgstr "SKYDRIVEN"
+
+#: ../../chapter3.rst:19
+msgid ""
+"|prodname| Windows Desktop Agent makes it very easy to move data into "
+"cloud storage or extract data from cloud storage."
+msgstr "|prodname| Windows Desktop Agent gør det meget nemt at flytte data til cloud-lagring eller hente data fra cloud-lagring."
+
+#: ../../chapter3.rst:22
+msgid "Attaching Local Folders"
+msgstr "Tilknytning af lokale mapper"
+
+#: ../../chapter3.rst:24
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr "Det virtuelle drev giver adgang til filer og mapper efter behov fra |prodname| Cloud-lagringskontoen."
+
+#: ../../chapter3.rst:26
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account. "
+"You can right click on a local folder (1) and select \"Attach this Folder"
+" to |prodname|\" (2). The pop-up (3) shows you where this folder is "
+"located on your system and allows you to change the name of the folder if"
+" you don't want to use the default."
+msgstr "Nogle gange er det også ønskeligt at arbejde inde i en lokal mappe og have den lokale mappe synkroniseret med |prodname| Cloud-lagringskontoen. Du kan højreklikke på en lokal mappe (1) og vælge \"Vedhæft denne mappe til |prodname|\" (2). Pop-up-vinduet (3) viser dig, hvor denne mappe er placeret på dit system og giver dig mulighed for at ændre navnet på mappen, hvis du ikke ønsker at bruge standardnavnet."
+
+#: ../../chapter3.rst:31
+msgid "ATTACH A FOLDER TO |prodname|"
+msgstr "VEDHÆFT EN MAPPE TIL |prodname|"
+
+#: ../../chapter3.rst:35
+msgid "Benefits of Attached folders:"
+msgstr "Fordele ved tilknyttede mapper:"
+
+#: ../../chapter3.rst:37
+msgid "They will be synchronized with the cloud."
+msgstr "De vil blive synkroniseret med skyen."
+
+#: ../../chapter3.rst:39
+msgid ""
+"Their contents immediately become accessible even before the sync is "
+"completed."
+msgstr "Deres indhold bliver straks tilgængeligt, selv før synkroniseringen er fuldført."
+
+#: ../../chapter3.rst:41
+msgid "They can maintain a versioned backup of their contents."
+msgstr "De kan opretholde en versionsbestemt backup af deres indhold."
+
+#: ../../chapter3.rst:43
+msgid "Their content is available locally when offline."
+msgstr "Deres indhold er tilgængeligt lokalt, når de er offline."
+
+#: ../../chapter3.rst:45
+msgid "They can be used in the same ways as any local folder."
+msgstr "De kan bruges på samme måde som enhver lokal mappe."
+

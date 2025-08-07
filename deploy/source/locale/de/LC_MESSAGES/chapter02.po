@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:2
+msgid "Infrastructure Components"
+msgstr "Infrastrukturkomponenten"
+
+#: ../../chapter02.rst:4
+msgid ""
+"There are three different infrastructure components (logical components "
+"that can co-exist in the same server). In the smallest deployment unit, "
+"the different components can co-exist in one single machine (all-in-one "
+"deployment)."
+msgstr "Es gibt drei verschiedene Infrastrukturkomponenten (logische Komponenten, die im selben Server koexistieren können). In der kleinsten Bereitstellungseinheit können die verschiedenen Komponenten in einer einzigen Maschine koexistieren (All-in-One-Bereitstellung)."
+
+#: ../../chapter02.rst:9
+msgid "1. Worker Node Component"
+msgstr "Arbeitsknoten-Komponente"
+
+#: ../../chapter02.rst:11
+msgid ""
+"Worker node contains services like Web Browser Based File Manager, "
+"Storage Service Connectors, Active Directory connector and other key "
+"components. It is responsible for data related activities such as file "
+"upload and download, permission, control and change notification. Since "
+"the data upload and download usually go through worker node, thus it is "
+"called a \"worker\" for data transfer."
+msgstr "Der Worker-Knoten enthält Dienste wie den webbasierten Dateimanager, Speicherdienst-Connectors, Active Directory-Connector und andere Schlüsselkomponenten. Er ist verantwortlich für datenbezogene Aktivitäten wie Datei-Upload und -Download, Berechtigungen, Steuerung und Änderungsbenachrichtigungen. Da der Daten-Upload und -Download normalerweise über den Worker-Knoten erfolgen, wird er als \"Worker\" für den Datentransfer bezeichnet."
+
+#: ../../chapter02.rst:17
+msgid "Additional nodes can be added as the load increases."
+msgstr "Zusätzliche Knoten können hinzugefügt werden, wenn die Last steigt."
+
+#: ../../chapter02.rst:21
+msgid "2. Database Component"
+msgstr "2. Datenbankkomponente"
+
+#: ../../chapter02.rst:23
+msgid ""
+"The database contains persistent information for the system. Database is "
+"a critical component for the smooth operation of the CentreStack server "
+"farm. Local database with latency less than 10 milliseconds is "
+"recommended."
+msgstr "Die Datenbank enthält persistente Informationen für das System. Die Datenbank ist eine kritische Komponente für den reibungslosen Betrieb der CentreStack-Serverfarm. Eine lokale Datenbank mit einer Latenz von weniger als 10 Millisekunden wird empfohlen."
+
+#: ../../chapter02.rst:27
+msgid ""
+"In order for all worker nodes be in the same server farm, they need to "
+"point to the same database."
+msgstr "Damit alle Worker-Knoten im selben Server-Farm sind, müssen sie auf dieselbe Datenbank verweisen."
+
+#: ../../chapter02.rst:32
+msgid "3. Storage Component"
+msgstr "3. Speicherkomponente"
+
+#: ../../chapter02.rst:34
+msgid ""
+"The storage component is the persistent storage location for files and "
+"folders. There are two different types of storage services. One is "
+"managed by CentreStack, such as the default storage for the cluster and "
+"the default storage for tenants. The other is imported storage, for "
+"example, having existing file server network shares that aren't managed "
+"by CentreStack but can be imported into CentreStack for remote and mobile"
+" access."
+msgstr "Die Speicherkomponente ist der dauerhafte Speicherort für Dateien und Ordner. Es gibt zwei verschiedene Arten von Speicherdiensten. Einer wird von CentreStack verwaltet, wie der Standard-Speicher für das Cluster und der Standard-Speicher für Mandanten. Der andere ist importierter Speicher, zum Beispiel bestehende Dateiserver-Netzwerkfreigaben, die nicht von CentreStack verwaltet werden, aber in CentreStack für den Fern- und mobilen Zugriff importiert werden können."
+

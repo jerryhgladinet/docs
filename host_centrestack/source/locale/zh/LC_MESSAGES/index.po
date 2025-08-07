@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "入门"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the Hosted-|prodname| Administration Guide. This guide "
+"describes administration tasks for |prodname| (Hosted Version), the "
+"managed file synchronization and sharing solution."
+msgstr "欢迎来到托管版-|prodname| 管理指南。本指南描述了 |prodname| （托管版本）的管理任务，这是一个托管的文件同步和共享解决方案。"
+
+#: ../../index.rst:12
+msgid ""
+"|prodname| Server can be self-hosted, or already hosted by |websiteurl|. "
+"This guide is for the Hosted-|prodname|."
+msgstr "|prodname| 服务器可以自托管，或者已经由 |websiteurl| 托管。本指南适用于托管的 |prodname|。"
+
+#: ../../index.rst:16
+msgid ""
+"When |prodname| is already hosted, a lot of the |prodname| side of the "
+"setup and administration work are not necessary anymore. Administrators "
+"can focus on their customers and help their customers."
+msgstr "当 |prodname| 已经托管时，很多 |prodname| 端的设置和管理工作就不再必要了。管理员可以专注于他们的客户并帮助他们的客户。"
+
+#: ../../index.rst:22
+msgid "This admin guide is written for |prodname| version |release|"
+msgstr "本管理员指南适用于 |prodname| 版本 |release|"
+

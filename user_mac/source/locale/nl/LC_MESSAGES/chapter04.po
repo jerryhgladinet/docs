@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:4
+msgid "4 Folder and File Features"
+msgstr "4 Map- en Bestandsfuncties"
+
+#: ../../chapter04.rst:6
+msgid ""
+"When you Right click on a folder or a file you can access the context "
+"menu, which allows you to Share, Get share link, enable offline Access, "
+"Open in web browser, and Force Refresh."
+msgstr "Wanneer u met de rechtermuisknop op een map of bestand klikt, kunt u het contextmenu openen, waarmee u kunt Delen, Share-link ophalen, offline toegang inschakelen, Openen in webbrowser en Geforceerd vernieuwen."
+
+#: ../../chapter04.rst:9
+msgid "Folder and File Sharing"
+msgstr "Map- en Bestandsdeling"
+
+#: ../../chapter04.rst:11
+msgid ""
+"To share a file or folder, simply right click on it and select "
+"**\"Share\"** from the menu item:"
+msgstr "Om een bestand of map te delen, klik er gewoon met de rechtermuisknop op en selecteer **\"Delen\"** uit het menu-item:"
+
+#: ../../chapter04.rst:15
+msgid ""
+"A wizard will be launched to allow you to \"Invite People\". To set this "
+"up, click the **Share Icon (1)**. In the new window enter the email(s) "
+"**(2)** of anyone you wish to share this with seperated by semicolons "
+"(;). Click **\"CONTINUE\" (3)**."
+msgstr "Er wordt een wizard gestart om u in staat te stellen \"Mensen uit te nodigen\". Om dit in te stellen, klikt u op het **Deelpictogram (1)**. Voer in het nieuwe venster de e-mail(s) **(2)** in van iedereen met wie u dit wilt delen, gescheiden door puntkomma's (;). Klik op **\"DOORGAAN\" (3)**."
+
+#: ../../chapter04.rst:17
+msgid ""
+"In the next window you can choose how you want to share: expiration time,"
+" access rights (read only, view only, full control). After making your "
+"option selections, choose **\"SHARE\" (4)** or **\"GET LINK\" (5)**. "
+"\"SHARE\" sends emails to your guest users and \"GET LINK\" opens a "
+"window with the URL you can use to create a custom email or use some "
+"other method to communicate with your guest users."
+msgstr "In het volgende venster kunt u kiezen hoe u wilt delen: vervaltijd, toegangsrechten (alleen-lezen, alleen-weergave, volledige controle). Nadat u uw opties heeft geselecteerd, kiest u voor **\"DELEN\" (4)** of **\"LINK OPHALEN\" (5)**. \"DELEN\" verstuurt e-mails naar uw gastgebruikers en \"LINK OPHALEN\" opent een venster met de URL die u kunt gebruiken om een aangepaste e-mail te maken of een andere methode te gebruiken om te communiceren met uw gastgebruikers."
+
+#: ../../chapter04.rst:23
+msgid "Edit Share"
+msgstr "Bewerk Delen"
+
+#: ../../chapter04.rst:24
+msgid ""
+"If a file or a folder is already shared, you can right click on the "
+"shared file or folder and select 'Share' to access the edit share menu. "
+"Here you can delete the share, edit the share, resend the notification "
+"email, show share link and enable and disable public link."
+msgstr "Als een bestand of map al gedeeld is, kunt u met de rechtermuisknop klikken op het gedeelde bestand of de gedeelde map en 'Delen' selecteren om het menu voor het bewerken van de deling te openen. Hier kunt u de deling verwijderen, de deling bewerken, de notificatie-e-mail opnieuw versturen, de deellink weergeven en de openbare link inschakelen of uitschakelen."
+
+#: ../../chapter04.rst:30
+msgid "Troubleshooting"
+msgstr "Probleemoplossing"
+
+#: ../../chapter04.rst:32
+msgid ""
+"To verify that the Cloud Drive Mac Client \"Finder\" extension is active,"
+" you can check the setting by clicking the System Preferences button and "
+"choosing **\"Extensions\"** from the preferences options."
+msgstr "Om te controleren of de Cloud Drive Mac Client \"Finder\" extensie actief is, kunt u de instelling controleren door op de knop Systeemvoorkeuren te klikken en **\"Extensies\"** te kiezen uit de voorkeursopties."
+
+#: ../../chapter04.rst:36
+msgid ""
+"This will open the Extensions window. You will find the setting under the"
+" \"All\" category."
+msgstr "Dit opent het venster 'Extensies'. U vindt de instelling onder de categorie 'Alles'."
+
+#: ../../chapter04.rst:42
+msgid "Icon Overlays"
+msgstr "Pictogram Overlays"
+
+#: ../../chapter04.rst:44
+msgid "There are three icon overlays on files to represent different states."
+msgstr "Er zijn drie pictogramoverlays op bestanden om verschillende staten te vertegenwoordigen."
+
+#: ../../chapter04.rst:48
+msgid "**Thin Green Check Mark**"
+msgstr "**Dun Groen Vinkje**"
+
+#: ../../chapter04.rst:50
+msgid ""
+"This icon overlay means files are in the cloud but the file content is "
+"not local."
+msgstr "Dit pictogramoverlay betekent dat de bestanden in de cloud zijn, maar de inhoud van het bestand is niet lokaal."
+
+#: ../../chapter04.rst:52
+msgid "**Solid Circle Green Check Mark**"
+msgstr "**Vaste Cirkel Groen Vinkje**"
+
+#: ../../chapter04.rst:54
+msgid ""
+"This icon overlay means files are in the cloud and are also available "
+"from local."
+msgstr "Dit pictogramoverlay betekent dat bestanden in de cloud zijn en ook lokaal beschikbaar zijn."
+
+#: ../../chapter04.rst:56
+msgid "**Blue Uploading Icon**"
+msgstr "**Blauw uploadpictogram**"
+
+#: ../../chapter04.rst:58
+msgid "This icon shows the file is being uploaded and not completely done yet."
+msgstr "Dit pictogram geeft aan dat het bestand wordt geüpload en nog niet volledig klaar is."
+

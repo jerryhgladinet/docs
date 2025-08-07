@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Aloittaminen"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the CentreStack Quick Start Guide. This guide describes on a "
+"high level how you can use CentreStack to provide a managed file sync and"
+" share solution for your internal employees and customers."
+msgstr "Tervetuloa CentreStackin pikaopasoppaaseen. Tämä opas kuvaa yleisellä tasolla, kuinka voit käyttää CentreStackia hallitun tiedostojen synkronoinnin ja jakamisen ratkaisuna sisäisille työntekijöillesi ja asiakkaillesi."
+
+#: ../../index.rst:13
+msgid ""
+"The goal is to provide your customers and internal employees an easy-to-"
+"use and secure-under-control way to access file servers from remote "
+"locations and mobile devices."
+msgstr "Tavoitteena on tarjota asiakkaillesi ja sisäisille työntekijöillesi helppokäyttöinen ja turvallinen tapa käyttää tiedostopalvelimia etäpaikoista ja mobiililaitteista."
+
+#: ../../index.rst:19
+msgid "Three Deployment Modes"
+msgstr "Kolme käyttöönotto-tilaa"
+
+#: ../../index.rst:21
+msgid ""
+"To get started, the first question is where and how to deploy "
+"CentreStack. Does CentreStack need to be next to the file server, in a "
+"data center or just use the Cloud version from CentreStack itself?"
+msgstr "Aloittaaksesi, ensimmäinen kysymys on, missä ja miten CentreStackia tulisi käyttää. Täytyykö CentreStackin olla lähellä tiedostopalvelinta, datakeskuksessa vai käyttääkö vain CentreStackin omaa pilviversiota?"
+
+#: ../../index.rst:25
+msgid "There are three basic ways to deploy the CentreStack solution:"
+msgstr "CentreStack-ratkaisun käyttöönotossa on kolme perusmenetelmää:"
+
+#: ../../index.rst:27 ../../index.rst:32
+msgid "On-Premise Self-Hosted"
+msgstr "Paikan päällä itse isännöity"
+
+#: ../../index.rst:28 ../../index.rst:51
+msgid "Data-Center MSP-Hosted"
+msgstr "Data-Center MSP-Isännöity"
+
+#: ../../index.rst:29 ../../index.rst:66
+msgid "Cloud SaaS-Hosted"
+msgstr "Pilvi SaaS-isännöity"
+
+#: ../../index.rst:34
+msgid ""
+"For the on-premise self-hosted Centrestack, the CentreStack server is "
+"directly installed in the company network. On one-hand, it is facing the "
+"Internet with port 443 (HTTPS) like any web server does; and on the "
+"other-hand, it is connecting to company internal network and IT "
+"infrastructures such as File Servers and Active Directory. CentreStack "
+"server normally sits in the DMZ or behind a firewall to be protected "
+"against un-authorized outside access."
+msgstr "On-premise itseisännöidylle CentreStackille CentreStack-palvelin asennetaan suoraan yrityksen verkkoon. Yhtäältä se on Internetin kanssa yhteydessä portin 443 (HTTPS) kautta kuten mikä tahansa web-palvelin; toisaalta se on yhteydessä yrityksen sisäiseen verkkoon ja IT-infrastruktuureihin, kuten tiedostopalvelimiin ja Active Directoryyn. CentreStack-palvelin sijaitsee yleensä DMZ:ssä tai palomuurin takana suojattuna luvattomalta ulkopuoliselta pääsyltä."
+
+#: ../../index.rst:40
+msgid ""
+"The business objective is giving mobile and remote access to file servers"
+" without the need of a VPN. It is more productive than traditional VPN  "
+"by greatly reducing the number of VPN support tickets for internal "
+"enterprise IT department or for the managed service provider."
+msgstr "Liiketoiminnan tavoitteena on mahdollistaa mobiili- ja etäkäyttö tiedostopalvelimille ilman VPN-yhteyden tarvetta. Se on tuottavampaa kuin perinteinen VPN, koska se vähentää merkittävästi sisäisen yritys-IT-osaston tai hallitun palveluntarjoajan VPN-tukipyyntöjen määrää."
+
+#: ../../index.rst:47
+msgid "For this deployment mode, check :doc:`on_premise`"
+msgstr "Tässä käyttöönotto-tilassa, tarkista :doc:`on_premise`"
+
+#: ../../index.rst:53
+msgid ""
+"If you are a managed service provider that manages hundreds or thousands "
+"of end points across multiple clients, it is a good option that you setup"
+" your CentreStack server in a data center."
+msgstr "Jos olet hallittujen palveluiden tarjoaja, joka hallinnoi satoja tai tuhansia päätelaitteita useiden asiakkaiden kesken, on hyvä vaihtoehto, että asennat CentreStack-palvelimesi datakeskukseen."
+
+#: ../../index.rst:56
+msgid ""
+"There are a couple advantages of setting the CentreStack server up in a "
+"data center."
+msgstr "CentreStack-palvelimen asettamisessa datakeskukseen on muutama etu."
+
+#: ../../index.rst:58
+msgid ""
+"The data center is closer to the Internet backbone than a business office"
+" is, thus it has faster Internet speed."
+msgstr "Tietokeskus on lähempänä internetin runkoverkkoa kuin liikehuoneisto, joten sillä on nopeampi internetyhteys."
+
+#: ../../index.rst:59
+msgid ""
+"Setting it up in a central location and in a multi-tenant fashion, it is "
+"easier to manage as compared to a one-centrestack-instance-per-client "
+"setup."
+msgstr "Keskuspaikassa ja monivuokraajatilassa asennettuna sitä on helpompi hallita verrattuna yhteen CentreStack-instanssiin per asiakas -asetteluun."
+
+#: ../../index.rst:63
+msgid "For this deployment mode, check :doc:`data_center`"
+msgstr "Tässä käyttöönotto-tilassa, tarkista :doc:`data_center`"
+
+#: ../../index.rst:68
+msgid ""
+"Similar to Data-Center MSP-Hosted, CentreStack has a Cloud version that "
+"is readily hosted."
+msgstr "Data-Center MSP-Hosted -tyyppisen palvelun tavoin CentreStackillä on myös valmiiksi hostattu Cloud-versio."
+
+#: ../../index.rst:70
+msgid ""
+"This works well for managed service providers who have smaller clients "
+"here and there. Because of the smaller number of total clients, the Data-"
+"Center MSP-Hosted overhead is relatively high. MSPs can use the Cloud "
+"version since it is readily deployed and ready to use."
+msgstr "Tämä toimii hyvin hallittujen palveluntarjoajien kannalta, joilla on pienempiä asiakkaita siellä täällä. Pienemmän kokonaisasiakasmäärän vuoksi Data-Center MSP-Hosted -ympäristön ylläpitokustannukset ovat suhteellisen korkeat. MSP:t voivat käyttää pilviversiota, koska se on nopeasti käyttöönotettavissa ja valmis käytettäväksi."
+
+#: ../../index.rst:76
+msgid "For this deployment mode, check :doc:`cloud_host`"
+msgstr "Tässä käyttöönotto-tilassa, tarkista :doc:`cloud_host`"
+
+#: ../../index.rst:80
+msgid "What's Next"
+msgstr "Mitä seuraavaksi"
+
+#: ../../index.rst:82
+msgid ""
+"You will need a CentreStack partner account to start with, regardless of "
+"which deployment mode(s) you will use. Step #1 will always be going to "
+"the centrestack.com and to register. When you are on the CentreStack web "
+"site, you can follow any \"Try CentreStack Free\" link to start."
+msgstr "Tarvitset CentreStack-kumppanitilin aloittaaksesi, riippumatta siitä, mitä käyttöönotto tapaa(t) käytät. Vaihe #1 on aina mennä centrestack.com-sivustolle ja rekisteröityä. Kun olet CentreStack-verkkosivustolla, voit seurata mitä tahansa \"Kokeile CentreStackia ilmaiseksi\" -linkkiä aloittaaksesi."
+
+#: ../../index.rst:88
+msgid ""
+"Once you are done registering, you will be in the partner portal where "
+"you can download the software, setup hosted trial and etc."
+msgstr "Kun olet suorittanut rekisteröitymisen, olet kumppaniportaalissa, jossa voit ladata ohjelmiston, järjestää hostatun kokeilun ja niin edelleen."
+
+#: ../../index.rst:94
+msgid "This quick start guide is written against CentreStack version |release|"
+msgstr "Tämä pikaopas on kirjoitettu CentreStackin versiota |release| vasten"
+

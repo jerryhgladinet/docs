@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Deployment Options"
+msgstr "Käyttöönoton vaihtoehdot"
+
+#: ../../chapter08.rst:5
+msgid ""
+"As documented above, CentreStack has three logical components, the "
+"database, the worker node and the storage. This section will go through "
+"different deployment options."
+msgstr "Kuten yllä on dokumentoitu, CentreStackilla on kolme loogista komponenttia: tietokanta, työskentelysolmu ja tallennustila. Tässä osiossa käydään läpi erilaisia käyttöönoton vaihtoehtoja."
+
+#: ../../chapter08.rst:9
+msgid "All-In-One Deployment"
+msgstr "Kaikki yhdessä -asennus"
+
+#: ../../chapter08.rst:11
+msgid ""
+"This is the simplest deployment. The database , the worker nodes are all "
+"on the same machine as the storage. When you are serving < 1000 users or "
+"you are doing Proof-of-Concept (POC), this is the ideal deployment "
+"because of its simplicity. You can have the CentreStack installer install"
+" the SQL Express/MySQL on the same machine before installing CentreStack "
+"software and then pointing the database to localhost\\\\SQLEXPRESS or "
+"local MySQL. In the All-In-One deployment, the storage location is "
+"typically set to a folder on local C: drive or local D: drive."
+msgstr "Tämä on yksinkertaisin käyttöönotto. Tietokanta ja työskentelysolmut ovat kaikki samalla koneella kuin tallennustila. Kun palvelet < 1000 käyttäjää tai teet Proof-of-Concept (POC) -testausta, tämä on ihanteellinen käyttöönotto sen yksinkertaisuuden vuoksi. Voit antaa CentreStack-asentajan asentaa SQL Express/MySQL:n samalle koneelle ennen CentreStack-ohjelmiston asentamista ja osoittaa tietokannan localhost\\SQLEXPRESS tai paikalliseen MySQL:ään. All-In-One-käyttöönotossa tallennuspaikka on tyypillisesti asetettu paikallisen C: aseman tai paikallisen D: aseman kansioon."
+
+#: ../../chapter08.rst:17
+msgid ""
+"The installer can install SQL EXPRESS so it is a one-click installation "
+"for convenience. No need to do a separate SQL EXPRESS installation."
+msgstr "Asentaja voi asentaa SQL EXPRESSin, joten se on yhden klikkauksen asennus mukavuuden vuoksi. Ei tarvitse tehdä erillistä SQL EXPRESS -asennusta."
+
+#: ../../chapter08.rst:22
+msgid ""
+"If this is the first time you are installing CentreStack, this is the "
+"recommended setup because it is the easiest to setup and only takes 15-30"
+" minutes on a clean machine. The installer will take care of all the "
+"installation without other manual steps."
+msgstr "Jos asennat CentreStackin ensimmäistä kertaa, tämä on suositeltu asennustapa, koska se on helpoin ja vie vain 15-30 minuuttia puhtaalla koneella. Asennusohjelma huolehtii kaikesta asennuksesta ilman muita manuaalisia vaiheita."
+
+#: ../../chapter08.rst:26
+msgid ""
+"In the latest CentreStack installer, the installer is capable of doing "
+"the all-in-one installation without asking you to setup database "
+"separately."
+msgstr "Uusimmassa CentreStack-asennusohjelmassa asennusohjelma pystyy suorittamaan kaikki yhdessä -asennuksen ilman, että sinun tarvitsee asentaa tietokantaa erikseen."
+
+#: ../../chapter08.rst:29
+msgid "Single-Server Deployment"
+msgstr "Yksittäisen palvelimen käyttöönotto"
+
+#: ../../chapter08.rst:31
+msgid ""
+"This is another simple deployment. It is very similar to the All-In-One "
+"deployment. The only difference is that the file storage is off the "
+"machine instead of on the machine."
+msgstr "Tämä on toinen yksinkertainen käyttöönotto. Se on hyvin samankaltainen kuin Kaikki yhdessä -käyttöönotto. Ainoa ero on, että tiedostotallennus on koneen ulkopuolella sen sijaan, että se olisi koneessa."
+
+#: ../../chapter08.rst:33
+msgid ""
+"The external file storage can be file storage on a UNC path or it can "
+"also be an object storage service."
+msgstr "Ulkoinen tiedostotallennus voi olla tiedostotallennusta UNC-polulla tai se voi olla myös objektitallennuspalvelu."
+
+#: ../../chapter08.rst:35
+msgid ""
+"In this deployment, the database and the Worker Node/Web Node are still "
+"deployed on the same machine."
+msgstr "Tässä käyttöönotossa tietokanta ja työskentelysolmu/web-solmu ovat edelleen asennettu samalle koneelle."
+
+#: ../../chapter08.rst:40
+msgid "Two-Server Deployment"
+msgstr "Kahden palvelimen käyttöönotto"
+
+#: ../../chapter08.rst:42
+msgid ""
+"In the two server deployment, the database is installed in its own "
+"server; away from the CentreStack worker node. Usually, this is an "
+"intermediate step leading to the \"Three-Server Deployment\" and a step "
+"towards scaling up the server farm."
+msgstr "Kahden palvelimen käyttöönotossa tietokanta asennetaan omalle palvelimelleen, pois CentreStack-työsolmusta. Yleensä tämä on välivaihe siirryttäessä \"Kolmen palvelimen käyttöönottoon\" ja askel kohti palvelinfarmin laajentamista."
+
+#: ../../chapter08.rst:49
+msgid "Three-Server Deployment for Redundancy"
+msgstr "Kolmen palvelimen käyttöönotto redundanssia varten"
+
+#: ../../chapter08.rst:51
+msgid ""
+"The 3-machine deployment is another simple deployment. The database node "
+"is installed separately. Two CentreStack worker nodes are installed. The "
+"\"External URL\" field for each node is the same, such as "
+"\"cloud.acme.com\". The load balancer will do a round robin load "
+"balancing to either node. A variation of the deployment is to set "
+"\"External URL\" field differently for the two worker nodes. When "
+"\"External URL\" field is the same as the load balancer URL, everything "
+"is round robin. When \"External URL\" is different, such as "
+"node1.acme.com and node2.acme.com, the users will have affinity to one of"
+" the node. For example, if user1 is assigned to node1.acme.com, he will "
+"continue to use node1.acme.com. In this deployment, the size of the "
+"cluster is supporting 2000 concurrent-users per node. The benefit is that"
+" if one node is down, there is another node for redundancy."
+msgstr "Kolmen koneen käyttöönotto on toinen yksinkertainen käyttöönotto. Tietokantapalvelin asennetaan erikseen. Kaksi CentreStack-työskentelysolmua asennetaan. Kunkin solmun \"Ulkoinen URL\" on sama, esimerkiksi \"cloud.acme.com\". Kuormantasain tekee vuorottaisen kuormituksen kummallekin solmulle. Käyttöönoton muunnelma on asettaa \"Ulkoinen URL\" eri tavalla kahdelle työskentelysolmulle. Kun \"Ulkoinen URL\" on sama kuin kuormantasaimen URL, kaikki on vuorottelua. Kun \"Ulkoinen URL\" on erilainen, kuten node1.acme.com ja node2.acme.com, käyttäjillä on affiniteetti yhteen solmuun. Esimerkiksi, jos käyttäjä1 on määritetty node1.acme.com, hän jatkaa node1.acme.com käyttöä. Tässä käyttöönotossa klusterin koko tukee 2000 samanaikaista käyttäjää solmua kohden. Hyöty on, että jos yksi solmuista on alhaalla, on toinen solmu varmuuskopiointia varten."
+
+#: ../../chapter08.rst:65
+msgid "Multiple-Machine Deployment for Scalability"
+msgstr "Monikoneasennus skaalautuvuuden varmistamiseksi"
+
+#: ../../chapter08.rst:67
+msgid ""
+"In this deployment, you will have clear separation of database , storage "
+"service, and the worker nodes in a farm of servers."
+msgstr "Tässä käyttöönotossa sinulla on selvä erottelu tietokannan, tallennuspalvelun ja työntekijäsolmujen välillä palvelinfarmilla."
+
+#: ../../chapter08.rst:70
+msgid ""
+"The database  is not a CentreStack worker node; it is just a server that "
+"runs SQL Server or MySQL."
+msgstr "Tietokanta ei ole CentreStack-työasema; se on vain palvelin, jossa toimii SQL Server tai MySQL."
+
+#: ../../chapter08.rst:72
+msgid ""
+"The worker nodes are all CentreStack nodes which run the same software. "
+"Most of the time, in the multiple-machine deployment, a hardware load "
+"balancer is used to distribute the load evenly."
+msgstr "Työntekijäsolmut ovat kaikki CentreStack-solmuja, jotka ajavat samaa ohjelmistoa. Useimmiten monikoneasennuksessa käytetään laitteistokuormantasaajaa kuorman tasaiseen jakamiseen."
+
+#: ../../chapter08.rst:77
+msgid ""
+"Inside a worker node, there is further division of work between a 'web "
+"node' and the rest 'worker node'."
+msgstr "Työntekijäsolmun sisällä työ jakautuu edelleen 'web-solmun' ja muiden 'työntekijäsolmujen' kesken."
+
+#: ../../chapter08.rst:79
+msgid ""
+"The web  nodes are used for user login. After login, the user will be re-"
+"directed to the corresponding worker node. (The web  node can be omitted "
+"if you have an existing Load Balancer)."
+msgstr "Web-solmua käytetään käyttäjän kirjautumiseen. Kirjautumisen jälkeen käyttäjä ohjataan vastaavalle työntekijäsolmulle. (Web-solmun voi jättää pois, jos käytössä on jo olemassa oleva kuormantasain)."
+
+#: ../../chapter08.rst:82
+msgid ""
+"For the load balancing to work, all the worker nodes have to be on the "
+"same DNS domain and same level of sub domain (for example, they can be "
+"covered by same SSL wildcard certificate, such as \\*.acme.com).  The "
+"load balancing requires at least two worker nodes."
+msgstr "Kuorman tasauksen toimiakseen kaikkien työntekijäsolmujen on oltava samalla DNS-aluetasolla ja samalla alidomain tasolla (esimerkiksi ne voidaan kattaa samalla SSL-yhteensopivalla varmenneella, kuten \*.acme.com). Kuorman tasaus vaatii vähintään kaksi työntekijäsolmua."
+
+#: ../../chapter08.rst:85
+msgid ""
+"Install the CentreStack server on the first worker node machine. Reboot "
+"and setup the cluster admin account."
+msgstr "Asenna CentreStack-palvelin ensimmäisen työntekijäsolmun koneelle. Käynnistä uudelleen ja määritä klusterin pääkäyttäjätili."
+
+#: ../../chapter08.rst:89
+msgid ""
+"We recommend you setup and configure the first node and make sure it runs"
+" smoothly first, before you setup and install the second node."
+msgstr "Suosittelemme, että asennat ja määrität ensimmäisen solmun ja varmistat, että se toimii sujuvasti ennen kuin asennat ja otat käyttöön toisen solmun."
+
+#: ../../chapter08.rst:92
+msgid "Install the CentreStack server on all the other work nodes."
+msgstr "Asenna CentreStack-palvelin kaikkiin muihin työsolmuihin."
+
+#: ../../chapter08.rst:94
+msgid ""
+"On the database configuration window, use the same database server as the"
+" first installation."
+msgstr "Tietokantakonfiguraatioikkunassa käytä samaa tietokantapalvelinta kuin ensimmäisessä asennuksessa."
+
+#: ../../chapter08.rst:97
+msgid ""
+"Please DO NOT add web nodes to the Cluster Worker Node list. Most of the "
+"time when you have a multi-worker-node design, you are servicing many "
+"users, and most of the time you have your own load balancer. In the case "
+"when you have your own load balancer, the web node functionality is "
+"merged into worker node. So you can have a zero-web-node configuration."
+msgstr "Älä lisää web-solmuja klusterin työntekijäsolmujen luetteloon. Suurimman osan ajasta, kun sinulla on monen työntekijäsolmun suunnittelu, palvelet monia käyttäjiä, ja useimmiten sinulla on oma kuormantasain. Kun sinulla on oma kuormantasain, web-solmun toiminnallisuus yhdistetään työntekijäsolmuun. Joten voit olla konfiguraatiossa, jossa ei ole yhtään web-solmua."
+
+#: ../../chapter08.rst:102
+msgid "Setup DNS Load balancing for all worker nodes."
+msgstr "Aseta DNS-kuormantasapainotus kaikille työntekijäsolmuille."
+
+#: ../../chapter08.rst:104
+msgid ""
+"Most of the time you set up a firewall or a load balancer and point the "
+"DNS to the load balancer. The load balancer will then forward to the "
+"CentreStack worker node."
+msgstr "Suurimman osan ajasta asennat palomuurin tai kuormantasaimen ja osoitat DNS:n kuormantasaimelle. Kuormantasain välittää sitten yhteyden CentreStack-työsolmulle."
+
+#: ../../chapter08.rst:109
+msgid ""
+"If you are using hardware load balancer, you can skip web-nodes and have "
+"an all-worker-node cluster."
+msgstr "Jos käytät laitteistokuormituksen tasauspalvelinta, voit jättää web-solmut väliin ja käyttää pelkästään työntekijäsolmuista koostuvaa klusteria."
+
+#: ../../chapter08.rst:112
+msgid "Typical Deployment in Enterprises"
+msgstr "Tyypillinen käyttöönotto yrityksissä"
+
+#: ../../chapter08.rst:114
+msgid ""
+"Here is a typical deployment schema in Visio Diagram for very big "
+"deployments in large enterprises. In this deployment, the management "
+"functionality can be separated to internal management node (A property of"
+" worker node). When management functionality is separated to internal DNS"
+" names, the management web portal is internal only and thus more secure."
+msgstr "Tässä on tyypillinen käyttöönottokaavio Visio-diagrammina suurille käyttöönotoille suurissa yrityksissä. Tässä käyttöönotossa hallintatoiminnallisuus voidaan erottaa sisäiseen hallintasolmuun (työntekijäsolmun ominaisuus). Kun hallintatoiminnallisuus on erotettu sisäisiin DNS-nimiin, hallintaweb-portaali on vain sisäinen ja siten turvallisempi."
+
+#: ../../chapter08.rst:121
+msgid "High Availability Deployment"
+msgstr "Korkean käytettävyyden käyttöönotto"
+
+#: ../../chapter08.rst:123
+msgid ""
+"For high availability, you can prepare the high availability deployment "
+"in three different layers and make sure it is high availability within "
+"each layer."
+msgstr "Korkean käytettävyyden varmistamiseksi voit valmistella korkean käytettävyyden käyttöönoton kolmessa eri kerroksessa ja varmistaa, että se on korkean käytettävyyden alueella jokaisessa kerroksessa."
+
+#: ../../chapter08.rst:126
+msgid "Storage"
+msgstr "Tallennus"
+
+#: ../../chapter08.rst:128
+msgid ""
+"If you are using Microsoft File Server Share as your storage, you can "
+"prepare it to be replicated, for example using DFS."
+msgstr "Jos käytät Microsoft File Server Sharea tallennustilana, voit valmistella sen replikoitavaksi, esimerkiksi käyttämällä DFS:ää."
+
+#: ../../chapter08.rst:130
+msgid ""
+"If you are using Amazon S3 or Windows Azure Blob, by default it is "
+"redundant and high availability."
+msgstr "Jos käytät Amazon S3:ta tai Windows Azure Blobia, oletusarvoisesti se on redundanssi ja korkean saatavuuden omaava."
+
+#: ../../chapter08.rst:132
+msgid "Database"
+msgstr "Tietokanta"
+
+#: ../../chapter08.rst:134
+msgid ""
+"You can use the Microsoft SQL Server Availability Group Clustering or "
+"Availability Group Fail Over to make database high availability."
+msgstr "Voit käyttää Microsoft SQL Server -saatavuusryhmän klusterointia tai saatavuusryhmän vikasietoa tietokannan korkean käytettävyyden varmistamiseksi."
+
+#: ../../chapter08.rst:137
+msgid "CentreStack Worker Node"
+msgstr "CentreStack-työasemasolmu"
+
+#: ../../chapter08.rst:139
+msgid ""
+"You can have multiple centrestack worker nodes in a round robin load "
+"balancing setup to provide high availability."
+msgstr "Voit käyttää useita Centrestack-työsolmukohtia pyöreän robin -kuormantasauksen asetuksessa korkean käytettävyyden takaamiseksi."
+

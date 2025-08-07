@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter01.rst:3
+msgid "Administration Scope"
+msgstr "Beheeromvang"
+
+#: ../../chapter01.rst:7
+msgid "Management"
+msgstr "Beheer"
+
+#: ../../chapter01.rst:9
+msgid ""
+"In |prodname|, objects that can be managed are defined in the following "
+"picture. You can manage objects at different levels from one single "
+"management portal."
+msgstr "In |prodname| worden de objecten die beheerd kunnen worden gedefinieerd in de volgende afbeelding. U kunt objecten op verschillende niveaus beheren vanuit één enkel beheerportaal."
+
+#: ../../chapter01.rst:16
+msgid "Partner Portal"
+msgstr "Partnerportaal"
+
+#: ../../chapter01.rst:18
+msgid ""
+"The Partner Portal is used primarily for managing licenses and licenses "
+"distribution amongst all of your |prodname| Servers."
+msgstr "Het Partnerportaal wordt voornamelijk gebruikt voor het beheren van licenties en de distributie van licenties onder al uw |prodname| Servers."
+
+#: ../../chapter01.rst:20
+msgid ""
+"You can login the partner portal through here: "
+"https://partner.centrestack.com/login/. From the Partner Portal you can "
+"download the |prodname| software as well as manage the licensing of your "
+"Servers."
+msgstr "U kunt inloggen op het partnerportaal via hier: https://partner.centrestack.com/login/. Vanuit het Partner Portal kunt u de |prodname| software downloaden en de licenties van uw Servers beheren."
+
+#: ../../chapter01.rst:24
+msgid ""
+"Commonly, you will download the |prodname| software, set it up and "
+"leverage the built-in 30 day trial time to finish the setup. Towards the "
+"end of the trial, you assign licenses from the partner portal to your "
+"Server and activate it into a production environment."
+msgstr "Vaak downloadt u de |prodname| software, installeert u deze en gebruikt u de ingebouwde proefperiode van 30 dagen om de installatie te voltooien. Tegen het einde van de proefperiode wijst u licenties toe vanuit het partnerportaal aan uw server en activeert u deze in een productieomgeving."
+
+#: ../../chapter01.rst:28
+msgid ""
+"Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can "
+"be managed via the Partner Portal."
+msgstr "Zowel Zelf-gehoste Servers als Gehoste CentreStack Tenants (sync4share) kunnen beheerd worden via het Partner Portal."
+
+#: ../../chapter01.rst:32
+msgid "Self-Hosted |prodname|"
+msgstr "Self-Hosted |prodname|"
+
+#: ../../chapter01.rst:34
+msgid ""
+"In the User Interface, the Self-Hosted |prodname| instance is referred to"
+" as a Cluster or a Server Farm. A Cluster can be as small as a single "
+"Server or scaled out to include multiple Servers in a Server farm."
+msgstr "In de gebruikersinterface wordt de Self-Hosted |prodname| instantie aangeduid als een Cluster of een Server Farm. Een Cluster kan zo klein zijn als een enkele Server of uitgebreid worden om meerdere Servers in een Server farm te omvatten."
+
+#: ../../chapter01.rst:36
+msgid "**Hosted CentreStack**"
+msgstr "**Gehost CentreStack**"
+
+#: ../../chapter01.rst:38
+msgid ""
+"In the Partner Portal, you can also manage tenants which are hosted by "
+"CentreStack (sync4share). This document doesn't cover Hosted CentreStack."
+" Please refer to the Hosted CentreStack Administration Guide "
+"(https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) "
+"for more information on hosted options."
+msgstr "In het Partnerportaal kunt u ook tenants beheren die gehost worden door CentreStack (sync4share). Dit document behandelt Hosted CentreStack niet. Raadpleeg de Hosted CentreStack Administration Guide (https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) voor meer informatie over gehoste opties."
+
+#: ../../chapter01.rst:42
+msgid "**Tenants**"
+msgstr "**Huurders**"
+
+#: ../../chapter01.rst:44
+msgid ""
+"In a |prodname| management interface, most of the time you are managing "
+"tenants. It can be a single tenant when deployed for a single company, or"
+" it can be multiple tenants. A tenant is a management and billing scope "
+"that includes a number of users and a specific amount of storage. It "
+"normally maps to a company or a client of yours."
+msgstr "In een |prodname| beheerinterface bent u meestal bezig met het beheren van tenants. Het kan een enkele tenant zijn wanneer het voor een enkel bedrijf wordt ingezet, of het kunnen meerdere tenants zijn. Een tenant is een beheer- en facturatieomvang die een aantal gebruikers en een specifieke hoeveelheid opslag omvat. Normaal gesproken komt dit overeen met een bedrijf of een klant van u."
+
+#: ../../chapter01.rst:49
+msgid "**Users, Devices, File Server Shares**"
+msgstr "**Gebruikers, Apparaten, Bestandsserver Shares**"
+
+#: ../../chapter01.rst:51
+msgid ""
+"In each tenant, the objects you manage include Users and Devices as well "
+"as File Server Network Shares for Team Folder collaboration (Team "
+"Shares)."
+msgstr "In elke tenant beheert u objecten zoals Gebruikers en Apparaten, evenals Netwerkshares van Bestandsservers voor samenwerking in Teammappen (Team Shares)."
+
+#: ../../chapter01.rst:54
+msgid ""
+"This document is focused on the management scope for a Self-Hosted "
+"|prodname|. In the server management interface, there are two "
+"administration scopes: Cluster Administrator and Tenant Administrator."
+msgstr "Dit document richt zich op de beheerscope voor een Self-Hosted |prodname|. In de serverbeheerinterface zijn er twee beheerscopen: Clusterbeheerder en Tenantbeheerder."
+
+#: ../../chapter01.rst:59
+msgid "Cluster Administrator"
+msgstr "Clusterbeheerder"
+
+#: ../../chapter01.rst:61
+msgid ""
+"The Cluster Administrator can manage cluster-wide functionalities, such "
+"as email SMTP server setup and worker node properties etc."
+msgstr "De Clusterbeheerder kan clusterbrede functionaliteiten beheren, zoals de configuratie van de e-mail SMTP-server en eigenschappen van werkernodes etc."
+
+#: ../../chapter01.rst:64
+msgid ""
+"In the Deployment Guide, the Cluster Administrator is often referred to "
+"as the Master Admin, Root Admin, or just Server Administrator. Even "
+"though the Cluster Server Farm can have multiple Servers, most of the "
+"time, a server-farm with one single server is sufficient for your use "
+"case and your user base."
+msgstr "In de Implementatiegids wordt de Clusterbeheerder vaak aangeduid als de Hoofdbeheerder, Rootbeheerder of gewoon Serverbeheerder. Hoewel de Cluster Server Farm meerdere servers kan hebben, is de meeste tijd een server-farm met één enkele server voldoende voor uw gebruikssituatie en uw gebruikersbasis."
+
+#: ../../chapter01.rst:70
+msgid "Tenant Administrator"
+msgstr "Tenantbeheerder"
+
+#: ../../chapter01.rst:72
+msgid ""
+"Tenant Administrator can manage Tenant-Wide functionalities, such as "
+"Group Policies. The Cluster Admin is also a Tenant Admin for the very "
+"first Tenant (Default Tenant) so the Cluster Administrator manages both "
+"Cluster Administration and Tenant Administration (for the default "
+"tenant). In the multiple-tenant case, each Tenant Administrator will be "
+"responsible for the Tenant's administration scope."
+msgstr "De Tenant Administrator kan Tenant-Wide functionaliteiten beheren, zoals Groepsbeleid. De Cluster Admin is ook een Tenant Admin voor de allereerste Tenant (Standaard Tenant), dus de Cluster Administrator beheert zowel Clusterbeheer als Tenantbeheer (voor de standaardtenant). In het geval van meerdere tenants is elke Tenant Administrator verantwoordelijk voor de administratieve scope van de Tenant."
+
+#: ../../chapter01.rst:78
+msgid ""
+"The Cluster Administrator by default can help each Tenant Administrator "
+"manage at the tenant level."
+msgstr "De Clusterbeheerder kan standaard elke Tenantbeheerder helpen met het beheren op tenantniveau."
+
+#: ../../chapter01.rst:80
+msgid ""
+"In real-world scenarios, the tenant is often mapped to an organization; a"
+" client of an MSP or a customer that has many employees."
+msgstr "In echte scenario's wordt de tenant vaak gekoppeld aan een organisatie; een klant van een MSP of een klant die veel werknemers heeft."
+
+#: ../../chapter01.rst:82
+msgid ""
+"There are two icons related to cluster administration and tenant "
+"administration:"
+msgstr "Er zijn twee pictogrammen gerelateerd aan clusterbeheer en tenantbeheer:"
+
+#: ../../chapter01.rst:84
+msgid "Cluster Manager icon"
+msgstr "Pictogram Clusterbeheer"
+
+#: ../../chapter01.rst:88
+msgid "Tenant Manager icon"
+msgstr "Pictogram Huurderbeheer"
+
+#: ../../chapter01.rst:94
+msgid "Tenant(s) usually map to your organization(s) or client(s)."
+msgstr "Tenant(s) verwijst doorgaans naar uw organisatie(s) of klant(en)."
+
+#: ../../chapter01.rst:96
+msgid ""
+"If you are logged in as the Default Cluster Admin, you will manage the "
+"tenant-level scope from the \"Tenant Manager\" instead of using the "
+"\"Tenant Manager icon\"."
+msgstr "Als u bent ingelogd als de standaard Clusterbeheerder, beheert u de tenantniveau-scope vanuit de \"Tenantbeheerder\" in plaats van het gebruik van het \"Tenantbeheerder-pictogram\"."
+
+#: ../../chapter01.rst:102
+msgid ""
+"1: All the administration work is performed via the web portal inside a "
+"web browser. Recommended browsers include Google Chrome first, followed "
+"by Firefox, Internet Explorer, Safari, and Opera. (Internet Explorer "
+"requires version 9 and above and includes Microsoft Edge Browser)"
+msgstr "Al het administratieve werk wordt uitgevoerd via het webportaal in een webbrowser. Aanbevolen browsers zijn Google Chrome als eerste, gevolgd door Firefox, Internet Explorer, Safari en Opera. (Internet Explorer vereist versie 9 en hoger en omvat Microsoft Edge Browser)"
+
+#: ../../chapter01.rst:104
+msgid ""
+"2: The very first user who installed the Cluster Server is also the "
+"Cluster Admin and Tenant Admin for the Default Tenant. In order for the "
+"Cluster Admin to be familiar with the tenant functionality, the Cluster "
+"Admin is provided a small 3-user default account (Tenant Account)."
+msgstr "2: De allereerste gebruiker die de Cluster Server heeft geïnstalleerd, is ook de Cluster Admin en Tenant Admin voor de Standaard Tenant. Om de Cluster Admin vertrouwd te maken met de functionaliteit van de tenant, krijgt de Cluster Admin een klein standaardaccount voor 3 gebruikers (Tenant Account)."
+
+#: ../../chapter01.rst:107
+msgid ""
+"3: You can start the administration work at any time by pointing your web"
+" browser to the Cluster Server's IP Address or DNS name. If you are on "
+"the Cluster Server console, you can even use http://localhost to get "
+"started."
+msgstr "U kunt op elk moment beginnen met het administratieve werk door uw webbrowser te richten op het IP-adres of de DNS-naam van de Cluster Server. Als u zich op de console van de Cluster Server bevindt, kunt u zelfs http://localhost gebruiken om te starten."
+

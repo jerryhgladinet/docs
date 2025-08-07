@@ -11,7 +11,7 @@ Split Database
 
 The database contains two types of information.
 
-The first type of information is the configuration data that is relatively static. For example, user name, user email, user’s published shared files and folder etc. This type of information is relatively small. It can be estimated at 5000 bytes per user.
+The first type of information is the configuration data that is relatively static. For example, user name, user email, user's published shared files and folder etc. This type of information is relatively small. It can be estimated at 5000 bytes per user.
 So if you have 2000 users, it can be estimated at 10 MB.
 
 The second type of information is relatively more volatile. For example, the file change log, the audit trace

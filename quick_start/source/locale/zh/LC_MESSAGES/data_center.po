@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../data_center.rst:3
+msgid "\"Data-Center MSP-Hosted\" Quick Start"
+msgstr "\"数据中心 MSP 托管\" 快速开始"
+
+#: ../../data_center.rst:6
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../data_center.rst:8
+msgid ""
+"If you are a managed service provider who manages hundreds or thousands "
+"of end points across multiple clients, it is a good option that you setup"
+" CentreStack server in a data center."
+msgstr "如果您是一名托管服务提供商，负责管理跨多个客户端的数百或数千个终端，那么您在数据中心设置CentreStack服务器是一个不错的选择。"
+
+#: ../../data_center.rst:11
+msgid ""
+"There are a couple advantages of setting the CentreStack server up in a "
+"data center:"
+msgstr "在数据中心设置CentreStack服务器有几个优点："
+
+#: ../../data_center.rst:13
+msgid ""
+"The data center is closer to the Internet backbone than a business office"
+" is, thus it has faster Internet speed."
+msgstr "数据中心比商务办公室更靠近互联网主干网，因此它的互联网速度更快。"
+
+#: ../../data_center.rst:14
+msgid ""
+"Setting it up in a central location and in a multi-tenant fashion is "
+"easier to manage as compared to a one-centrestack-instance-per-client "
+"setup."
+msgstr "将其设置在一个中心位置，并以多租户方式进行管理，比起每个客户一个centrestack实例的设置来说更容易管理。"
+
+#: ../../data_center.rst:20
+msgid "Preparation"
+msgstr "准备工作"
+
+#: ../../data_center.rst:22
+msgid ""
+"The preparation step is very similar to the On-Premise Self-Hosted "
+"version of CentreStack."
+msgstr "准备步骤与CentreStack的本地自托管版本非常相似。"
+
+#: ../../data_center.rst:24
+msgid "When it comes to choosing a data center, you have several options:"
+msgstr "在选择数据中心时，您有几个选项："
+
+#: ../../data_center.rst:26
+msgid "A local data center you already use for hosting"
+msgstr "您已经用于托管的本地数据中心"
+
+#: ../../data_center.rst:27
+msgid "Amazon EC2 data center"
+msgstr "亚马逊EC2数据中心"
+
+#: ../../data_center.rst:28
+msgid "Azure Compute data center"
+msgstr "Azure 计算数据中心"
+
+#: ../../data_center.rst:29
+msgid "Any other data center that provides Windows Server"
+msgstr "提供Windows服务器的任何其他数据中心"
+
+#: ../../data_center.rst:32
+msgid ""
+"The CentreStack server is a web server, passing file and folder access "
+"between remote client agents to backend file servers. Here are a list of "
+"items to prepare ahead of time:"
+msgstr "CentreStack服务器是一个Web服务器，它在远程客户端代理和后端文件服务器之间传递文件和文件夹访问权限。以下是提前准备的项目清单："
+
+#: ../../data_center.rst:35
+msgid "A dedicated Windows Server machine:"
+msgstr "一台专用的Windows服务器机器："
+
+#: ../../data_center.rst:37
+msgid "Operating System (2025 / 2022 / 2019 / 2016)"
+msgstr "操作系统（2025 / 2022 / 2019 / 2016）"
+
+#: ../../data_center.rst:38
+msgid "8G memory"
+msgstr "8G 内存"
+
+#: ../../data_center.rst:39
+msgid "Dual core or more cores (vCPU or CPU)"
+msgstr "双核或更多核心（vCPU或CPU）"
+
+#: ../../data_center.rst:40
+msgid "100G hard drive space."
+msgstr "100G硬盘空间。"
+
+#: ../../data_center.rst:42
+msgid "A SSL certificate (for production)"
+msgstr "一个SSL证书（用于生产环境）"
+
+#: ../../data_center.rst:43
+msgid "A DNS name (for production)"
+msgstr "一个DNS名称（用于生产环境）"
+
+#: ../../data_center.rst:45
+msgid ""
+"Since you can turn a test (POC) environment directly into a production "
+"environment, you can start with requirement #1  for test and POC (proof "
+"of concept) environment and later acquire SSL certificate and DNS name."
+msgstr "由于您可以将测试（POC）环境直接转变为生产环境，因此您可以从测试和POC（概念验证）环境的需求#1开始，稍后再获取SSL证书和DNS名称。"
+
+#: ../../data_center.rst:49
+msgid ""
+"In Amazon EC2 or Azure Compute, you will need to find the virtual machine"
+" images that are similar to the specificication."
+msgstr "在亚马逊EC2或Azure计算中，您需要找到与特定规格相似的虚拟机映像。"
+
+#: ../../data_center.rst:53
+msgid "Download & Install"
+msgstr "下载与安装"
+
+#: ../../data_center.rst:55
+msgid ""
+"After you decide and have acquired the Windows Server (Usually a virtual "
+"machine in a data center) to install the CentreStack software, you can go"
+" to the partner portal and download the software."
+msgstr "在您决定并获得了安装CentreStack软件的Windows服务器（通常是数据中心中的虚拟机）之后，您可以前往合作伙伴门户下载软件。"
+
+#: ../../data_center.rst:60
+msgid "The Installer will install everything from beginning to end."
+msgstr "安装程序将从头到尾安装所有内容。"
+
+#: ../../data_center.rst:65
+msgid "Please reference the following two guides for more information:"
+msgstr "请参考以下两个指南以获取更多信息："
+
+#: ../../data_center.rst:67
+msgid ""
+"`Deployment Guide "
+"<http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+msgstr "`部署指南 <http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+
+#: ../../data_center.rst:68
+msgid ""
+"`Installation Guide "
+"<http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+msgstr "`安装指南 <http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+

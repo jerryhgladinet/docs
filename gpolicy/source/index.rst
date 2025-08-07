@@ -53,7 +53,7 @@ Accessing management related pages from Intranet Only
 
 - Default is **disabled**. When the setting is set, the management related pages can only be accessed from a set of defined intranet addresses.
 
-- Intranet is defined as 10.x.x.x or 192.168.x.x kind of IP addresses. Usually you can achieve the same functionality by disable the management functionality on external facing worker nodes but enable that for an internal facing worker node. But if your intranet meets certain IP address criteria, you can use this setting to achieve that goal too. It is a security feature to limit the management scope to intranet only. As mentioned above, an alternative way is to go to the cluster manager, then cluster server farm and disable the “management functionality on this node”.
+- Intranet is defined as 10.x.x.x or 192.168.x.x kind of IP addresses. Usually you can achieve the same functionality by disable the management functionality on external facing worker nodes but enable that for an internal facing worker node. But if your intranet meets certain IP address criteria, you can use this setting to achieve that goal too. It is a security feature to limit the management scope to intranet only. As mentioned above, an alternative way is to go to the cluster manager, then cluster server farm and disable the "management functionality on this node".
 
 
 
@@ -102,7 +102,7 @@ Disable Public Link
 Show guest user creation option
 ---------------------------------
 
-- Default is **disabled**. When enabled this shows the guest user creation option which you will see when ‘Sharing’ a file or folder by email. This is how you can provide full edit capability to a guest user, as they must be logged in to modify a file or folder in the CentreStack Server.
+- Default is **disabled**. When enabled this shows the guest user creation option which you will see when 'Sharing' a file or folder by email. This is how you can provide full edit capability to a guest user, as they must be logged in to modify a file or folder in the CentreStack Server.
 
 .. image:: ystatic/image_1-3-2.png
 
@@ -134,7 +134,7 @@ Show group list in sharing dialog
 Allow user to enter share name
 --------------------------------
 
-- Default is **disabled**. Enable this to allow user to enter a name for the share. By default the file name or folder name is used for the share name. However, if user has many same name folders or files. Sharing them out sometimes many not know which is which. This setting allows user to change share name. For example, when sharing out a “Documents” folder, it can be named “Documents in top level folder”.
+- Default is **disabled**. Enable this to allow user to enter a name for the share. By default the file name or folder name is used for the share name. However, if user has many same name folders or files. Sharing them out sometimes many not know which is which. This setting allows user to change share name. For example, when sharing out a "Documents" folder, it can be named "Documents in top level folder".
 
 
 Don't append email to shared object name under "Files Shared With Me"
@@ -211,7 +211,7 @@ Location: ``Group Policy Home`` > ``Common Settings`` > ``File Locking``
 Enable distributed locking when accessing files
 --------------------------------------------------
 
-- When enabled, the file will be locked when accessed. This will prevent multiple users from editing the same file at the same time. This may not take effect if the application used to access the file does not support locking. In the Cluster Server, there are two ways to lock files, one is manually by right clicking on a file and select “Check out”. The other way is automatic based on certain binary executables. For example, you can see Microsoft Office executable files like winword.exe and so on.
+- When enabled, the file will be locked when accessed. This will prevent multiple users from editing the same file at the same time. This may not take effect if the application used to access the file does not support locking. In the Cluster Server, there are two ways to lock files, one is manually by right clicking on a file and select "Check out". The other way is automatic based on certain binary executables. For example, you can see Microsoft Office executable files like winword.exe and so on.
 
 
 Lock file exclusively
@@ -224,13 +224,13 @@ Lock file exclusively
 Automatically open file in read only mode when file is locked and "Lock file exclusively" is not checked
 ----------------------------------------------------------------------------------------------------------
 
-- When this setting is enabled (default), a second attempt to open a locked file will result in the file opening in read-only mode. If “Lock file exclusively” is checked, then second user will not be able to open a locked file.
+- When this setting is enabled (default), a second attempt to open a locked file will result in the file opening in read-only mode. If "Lock file exclusively" is checked, then second user will not be able to open a locked file.
 
 
 Delay sync until file is unlocked
 -----------------------------------
 
-- When enabled, the sync of modified file will be delayed until the file is unlocked (when the editing process exits). It is recommended to check this setting. Most users have habit to save files in the middle of editing. You don’t want these edit to go every time to the cloud for these intermediate saves. You want to do a save to the cloud at the end like a grand finale. So you can delay sync until file is unlocked.
+- When enabled, the sync of modified file will be delayed until the file is unlocked (when the editing process exits). It is recommended to check this setting. Most users have habit to save files in the middle of editing. You don't want these edit to go every time to the cloud for these intermediate saves. You want to do a save to the cloud at the end like a grand finale. So you can delay sync until file is unlocked.
 
 
 Unlock file after it is uploaded
@@ -394,7 +394,7 @@ Mapped Drive Control
 
 **Enable Single Sign On with login windows user identity**
 
-- Enable Single Sign On with Login Windows User Identity - For Windows client agent running on a Windows Desktop machine, the login windows’ user’s identity will be used for single sign on to the CentreStack Server account.
+- Enable Single Sign On with Login Windows User Identity - For Windows client agent running on a Windows Desktop machine, the login Windows user's identity will be used for single sign on to the CentreStack Server account.
 
 
 **Max Size of Zip File Allowed to Open In-Place (MB)**
@@ -444,7 +444,7 @@ Mapped Drive Control
 
 **Disable "Check Out"**
 
-- Turn off the “Check Out” feature and remove it from the right-click context menu.
+- Turn off the "Check Out" feature and remove it from the right-click context menu.
 
 
 **Encrypt Local Cache**
@@ -474,7 +474,7 @@ Large File Upload
 
 **Use Volume Shadow Copy to Upload Files being Opened**
 
-- There is pro and con of using this flag. When file is open by other application, the file usually is locked and can’t be uploaded until the file is closed. However using volume shadow copy can still upload the file. The down side is when the volume shadow copy happens, the file is not known to be in a consistent state.
+- There is pro and con of using this flag. When file is open by other application, the file usually is locked and can't be uploaded until the file is closed. However using volume shadow copy can still upload the file. The down side is when the volume shadow copy happens, the file is not known to be in a consistent state.
 
 
 Endpoint Protection
@@ -484,7 +484,7 @@ Endpoint Protection
 
 **Backup "My Documents" folder**
 
-- Forces files in “My Documents” to be backed-up to the cloud.
+- Forces files in "My Documents" to be backed-up to the cloud.
 
 
 **Backup to location**
@@ -498,7 +498,7 @@ Endpoint Protection
 
 **Backup "My Pictures" folder**
 
-- (Leave empty for default location. e.g., myroot/{email} or {samAccountName} or {upn}/My Pictures). Forces files in “My Pictures” to be backed-up to the cloud.
+- (Leave empty for default location. e.g., myroot/{email} or {samAccountName} or {upn}/My Pictures). Forces files in "My Pictures" to be backed-up to the cloud.
 
 
 **Backup to location**
@@ -591,7 +591,7 @@ Location: ``Group Policy Home`` > ``Common Settings`` > ``Retention Policy``
 Keep last n version(s) of files in versioned folder
 -----------------------------------------------------
 
-- This setting lets you decide how many versions of files to keep in the version folder. (0 = let system decide, also apply to “attached local folder’)
+- This setting lets you decide how many versions of files to keep in the version folder. (0 = let system decide, also apply to 'attached local folder')
 
 
 Only purge versioned files that are more than n day(s) old
@@ -862,7 +862,7 @@ Location: ``Group Policy Home`` > ``Account & Login`` > ``Single Sign On``
 
 **Step 1: Register the Cluster Server at IdP**
 
-- IdP will need to register the Cluster Server as a service provider (SP) by importing the SP’s meta data. You will find the Cluster’s metadata at the following location (per-tenant setting).
+- IdP will need to register the Cluster Server as a service provider (SP) by importing the SP's meta data. You will find the Cluster's metadata at the following location (per-tenant setting).
 
 .. image:: ystatic/image_2-4-3.png
 
@@ -894,7 +894,7 @@ Location: ``Group Policy Home`` > ``Account & Login`` > ``Single Sign On``
 
 **Step 3: Login at the IdP, but use service at SP**
 
-- As the summary, the IdP and SP register each other’s meta data, register each other’s URL and parameters. After that, it will be single signon at the IdP side. The login will be at the IdP side, and after login, it will redirect back to the SP side.
+- As the summary, the IdP and SP register each other's meta data, register each other's URL and parameters. After that, it will be single signon at the IdP side. The login will be at the IdP side, and after login, it will redirect back to the SP side.
 
 .. image:: ystatic/image_2-4-10.png
 
@@ -972,9 +972,9 @@ Create default folder (Documents, Pictures)
 Use user email to generate home directory name
 ------------------------------------------------
 
-- The home directory name will be created using user’s email address.
+- The home directory name will be created using user's email address.
 
-- By default, it is user’s GUID that is used to create user’s home directory.
+- By default, it is user's GUID that is used to create user's home directory.
 
 
 Use user's samAccountName to generate home directory names for Active Directory users
@@ -1059,7 +1059,7 @@ Location: ``Group Policy Home`` > ``Folder and Storage`` > ``Attached Folder``
 Disable backup/attach local folder from client device
 -------------------------------------------------------
 
-- Attached Local Folders are two-way synchronization folders. In order to do version backup and two-way synchronization, there are multiple folder structures created in the backend storage. Some organization doesn’t need this feature and want the users to work exclusively with the cloud drive.
+- Attached Local Folders are two-way synchronization folders. In order to do version backup and two-way synchronization, there are multiple folder structures created in the backend storage. Some organization doesn't need this feature and want the users to work exclusively with the cloud drive.
 
 
 Enable snapshot backup for server agent
@@ -1120,7 +1120,7 @@ Files with following extension will be excluded from directory listing
 ------------------------------------------------------------------------
 
 - (e.g., [.qbw])
-- The default is **no entry**. You can specify the files which should not be listed under a user’s directory. A good use of the feature is that you may have some line-of-business application that create proprietary files that doesn't need to show up in the cloud drive (such as .qbw files)
+- The default is **no entry**. You can specify the files which should not be listed under a user's directory. A good use of the feature is that you may have some line-of-business application that create proprietary files that doesn't need to show up in the cloud drive (such as .qbw files)
 
 
 Inplace editing/Preview is disabled for files with following extension
@@ -1154,13 +1154,13 @@ Location: ``Group Policy Home`` > ``Client Control`` > ``Web Portal``
 Disable folder download from web client
 -----------------------------------------
 
-- Default is **disabled**. The folder download from web client will zip up the folder and download it. It is CPU intensive so if you don’t want it to be consuming too much CPU, you can disable it using this setting.
+- Default is **disabled**. The folder download from web client will zip up the folder and download it. It is CPU intensive so if you don't want it to be consuming too much CPU, you can disable it using this setting.
 
 
 Disable Search
 ----------------
 
-- Default is **disabled**. If you don’t need the search by file name feature, you can check this setting to disable it.
+- Default is **disabled**. If you don't need the search by file name feature, you can check this setting to disable it.
 
 
 Web Browser - Disable Java Uploader
@@ -1190,7 +1190,7 @@ Enable Tabbed-Browsing in User Manager
 Only show search interface in User Manager
 --------------------------------------------
 
-- When you have even more users, Tabbed-Browsing can’t handle it any more, you can enable search-only interface.
+- When you have even more users, Tabbed-Browsing can't handle it any more, you can enable search-only interface.
 
 
 Show tutorial page for non-admin users
@@ -1204,7 +1204,7 @@ Show tutorial page for non-admin users
 Show team folder level permissions in team folder publishing dialog
 ---------------------------------------------------------------------
 
-- The advanced setting refers to “Create CIFS Share”, “Disable further sharing”, and “Disable Offline Access” settings.
+- The advanced setting refers to "Create CIFS Share", "Disable further sharing", and "Disable Offline Access" settings.
 
 
 Disable 'Publish Tenant Home Storage As a Team Folder'
@@ -1228,13 +1228,13 @@ Show left tree view by default
 Do not show "recent activities"
 ---------------------------------
 
-- Default is **disabled**. When enabled “recent activities” is not visible in the Show/Hide Info Panel on the right side of the Web Portal File Browser.
+- Default is **disabled**. When enabled "recent activities" is not visible in the Show/Hide Info Panel on the right side of the Web Portal File Browser.
 
 
 Show "link to local" option to non-admin user
 -----------------------------------------------
 
-- Default is **disabled**. When enabled, non-admin user will have access to the “Link to Local” option in the Sharing and Collaboration tab under the Show/Hide Info Panel on the right side of the Web Portal File Browser.
+- Default is **disabled**. When enabled, non-admin user will have access to the "Link to Local" option in the Sharing and Collaboration tab under the Show/Hide Info Panel on the right side of the Web Portal File Browser.
 
 
 Show max count of file/folder items
@@ -1267,7 +1267,7 @@ Create shortcut on Desktop
 Hide Settings in the Windows Client Management Console
 --------------------------------------------------------
 
-- Default is **disabled**. The Settings in the Windows client may be viewed as “too much information for normal user”. If that is the case, enabling this option will hide those settings.
+- Default is **disabled**. The Settings in the Windows client may be viewed as "too much information for normal user". If that is the case, enabling this option will hide those settings.
 
 
 Don't Allow Setting Changes in the Windows Client Management Console
@@ -1311,4 +1311,4 @@ Enable auto-installation of the Outlook Plugin
 Disable native client for guest users
 ---------------------------------------
 
-- Unchecked by default. For guest users, don’t allow them to use native client, so the guest users can only use web browser files and folder view.
+- Unchecked by default. For guest users, don't allow them to use native client, so the guest users can only use web browser files and folder view.

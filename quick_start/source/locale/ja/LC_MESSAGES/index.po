@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the CentreStack Quick Start Guide. This guide describes on a "
+"high level how you can use CentreStack to provide a managed file sync and"
+" share solution for your internal employees and customers."
+msgstr "CentreStack クイックスタートガイドへようこそ。このガイドでは、内部の従業員や顧客に管理されたファイル同期および共有ソリューションを提供するために、CentreStackをどのように使用できるかについての概要を説明します。"
+
+#: ../../index.rst:13
+msgid ""
+"The goal is to provide your customers and internal employees an easy-to-"
+"use and secure-under-control way to access file servers from remote "
+"locations and mobile devices."
+msgstr "お客様と社内の従業員が、リモート地域やモバイルデバイスからファイルサーバーに簡単で安全にアクセスできる方法を提供することを目指しています。"
+
+#: ../../index.rst:19
+msgid "Three Deployment Modes"
+msgstr "三つの展開モード"
+
+#: ../../index.rst:21
+msgid ""
+"To get started, the first question is where and how to deploy "
+"CentreStack. Does CentreStack need to be next to the file server, in a "
+"data center or just use the Cloud version from CentreStack itself?"
+msgstr "始めるにあたって、最初の質問はCentreStackをどこに、どのように展開するかです。CentreStackはファイルサーバーの隣に配置する必要があるのか、データセンターに置くのか、それともCentreStack自体のクラウドバージョンを使用するのか？"
+
+#: ../../index.rst:25
+msgid "There are three basic ways to deploy the CentreStack solution:"
+msgstr "CentreStackソリューションを展開する基本的な方法は3つあります:"
+
+#: ../../index.rst:27 ../../index.rst:32
+msgid "On-Premise Self-Hosted"
+msgstr "オンプレミス セルフホスティング"
+
+#: ../../index.rst:28 ../../index.rst:51
+msgid "Data-Center MSP-Hosted"
+msgstr "データセンターMSPホステッド"
+
+#: ../../index.rst:29 ../../index.rst:66
+msgid "Cloud SaaS-Hosted"
+msgstr "クラウドSaaSホステッド"
+
+#: ../../index.rst:34
+msgid ""
+"For the on-premise self-hosted Centrestack, the CentreStack server is "
+"directly installed in the company network. On one-hand, it is facing the "
+"Internet with port 443 (HTTPS) like any web server does; and on the "
+"other-hand, it is connecting to company internal network and IT "
+"infrastructures such as File Servers and Active Directory. CentreStack "
+"server normally sits in the DMZ or behind a firewall to be protected "
+"against un-authorized outside access."
+msgstr "オンプレミスのセルフホスト型CentreStackの場合、CentreStackサーバーは企業ネットワーク内に直接インストールされます。一方で、他のウェブサーバーと同様にポート443（HTTPS）を使用してインターネットに面しており、他方で、ファイルサーバーやアクティブディレクトリなどの企業内部ネットワークおよびITインフラストラクチャに接続しています。CentreStackサーバーは通常、DMZに設置されるか、または不正な外部アクセスから保護するためにファイアウォールの背後に置かれます。"
+
+#: ../../index.rst:40
+msgid ""
+"The business objective is giving mobile and remote access to file servers"
+" without the need of a VPN. It is more productive than traditional VPN  "
+"by greatly reducing the number of VPN support tickets for internal "
+"enterprise IT department or for the managed service provider."
+msgstr "ビジネスの目的は、VPNを必要とせずにファイルサーバーへのモバイルおよびリモートアクセスを提供することです。これは、従来のVPNよりも生産性が高く、企業の内部IT部門またはマネージドサービスプロバイダーのVPNサポートチケットの数を大幅に削減します。"
+
+#: ../../index.rst:47
+msgid "For this deployment mode, check :doc:`on_premise`"
+msgstr "このデプロイモードについては、:doc:`on_premise` を確認してください"
+
+#: ../../index.rst:53
+msgid ""
+"If you are a managed service provider that manages hundreds or thousands "
+"of end points across multiple clients, it is a good option that you setup"
+" your CentreStack server in a data center."
+msgstr "もし、あなたが複数のクライアントにわたって数百または数千のエンドポイントを管理するマネージドサービスプロバイダーである場合、データセンターにCentreStackサーバーを設置することは良い選択です。"
+
+#: ../../index.rst:56
+msgid ""
+"There are a couple advantages of setting the CentreStack server up in a "
+"data center."
+msgstr "データセンターにCentreStackサーバーを設置することの利点がいくつかあります。"
+
+#: ../../index.rst:58
+msgid ""
+"The data center is closer to the Internet backbone than a business office"
+" is, thus it has faster Internet speed."
+msgstr "データセンターはビジネスオフィスよりもインターネットのバックボーンに近いため、インターネット速度が速いです。"
+
+#: ../../index.rst:59
+msgid ""
+"Setting it up in a central location and in a multi-tenant fashion, it is "
+"easier to manage as compared to a one-centrestack-instance-per-client "
+"setup."
+msgstr "中央の場所で設定し、マルチテナント方式で運用することで、クライアントごとに一つのCentreStackインスタンスを設定するよりも管理が容易です。"
+
+#: ../../index.rst:63
+msgid "For this deployment mode, check :doc:`data_center`"
+msgstr "このデプロイメントモードについては、:doc:`data_center` を確認してください"
+
+#: ../../index.rst:68
+msgid ""
+"Similar to Data-Center MSP-Hosted, CentreStack has a Cloud version that "
+"is readily hosted."
+msgstr "データセンターのMSPホスティングと同様に、CentreStackにはすぐにホストできるクラウドバージョンがあります。"
+
+#: ../../index.rst:70
+msgid ""
+"This works well for managed service providers who have smaller clients "
+"here and there. Because of the smaller number of total clients, the Data-"
+"Center MSP-Hosted overhead is relatively high. MSPs can use the Cloud "
+"version since it is readily deployed and ready to use."
+msgstr "これは、あちこちに小規模なクライアントを持つマネージドサービスプロバイダーにとってうまく機能します。クライアントの総数が少ないため、データセンターMSPホスト型のオーバーヘッドは比較的高くなります。MSPは、すぐに展開され利用可能なクラウドバージョンを使用できます。"
+
+#: ../../index.rst:76
+msgid "For this deployment mode, check :doc:`cloud_host`"
+msgstr "このデプロイモードについては、:doc:`cloud_host` を確認してください"
+
+#: ../../index.rst:80
+msgid "What's Next"
+msgstr "次のステップ"
+
+#: ../../index.rst:82
+msgid ""
+"You will need a CentreStack partner account to start with, regardless of "
+"which deployment mode(s) you will use. Step #1 will always be going to "
+"the centrestack.com and to register. When you are on the CentreStack web "
+"site, you can follow any \"Try CentreStack Free\" link to start."
+msgstr "まず、どのデプロイモードを使用するにしても、CentreStackパートナーアカウントが必要になります。ステップ＃1は常にcentrestack.comにアクセスして登録することです。CentreStackのウェブサイトにいるときは、「Try CentreStack Free」リンクに従って開始できます。"
+
+#: ../../index.rst:88
+msgid ""
+"Once you are done registering, you will be in the partner portal where "
+"you can download the software, setup hosted trial and etc."
+msgstr "登録が完了すると、パートナーポータルに移動し、そこからソフトウェアをダウンロードしたり、ホストされたトライアルを設定したりなどができます。"
+
+#: ../../index.rst:94
+msgid "This quick start guide is written against CentreStack version |release|"
+msgstr "このクイックスタートガイドはCentreStackバージョン |release| に対して書かれています"
+

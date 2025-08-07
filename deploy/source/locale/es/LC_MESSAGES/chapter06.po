@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter06.rst:2
+msgid "Storage Considerations"
+msgstr "Consideraciones de Almacenamiento"
+
+#: ../../chapter06.rst:4
+msgid ""
+"In the CentreStack system, for each tenant, there is one mandatory "
+"primary storage and there can be multiple, optional auxiliary storage "
+"services. The primary storage is the tenant's default root storage "
+"folder."
+msgstr "En el sistema CentreStack, para cada inquilino, hay un almacenamiento primario obligatorio y puede haber múltiples servicios de almacenamiento auxiliar opcionales. El almacenamiento primario es la carpeta de almacenamiento raíz predeterminada del inquilino."
+
+#: ../../chapter06.rst:7
+msgid ""
+"If you setup the CentreStack in Amazon EC2 environment, the primary "
+"storage usually is an Amazon S3 bucket."
+msgstr "Si configuras CentreStack en el entorno de Amazon EC2, el almacenamiento primario suele ser un bucket de Amazon S3."
+
+#: ../../chapter06.rst:9
+msgid ""
+"If you setup the CentreStack on-premise, the primary storage can be your "
+"file server storage and the auxiliary storage can be other cloud storage "
+"services or other local file server storage. OpenStack Swift is also a "
+"popular storage service in private enterprises."
+msgstr "Si configura CentreStack localmente, el almacenamiento principal puede ser el almacenamiento de su servidor de archivos y el almacenamiento auxiliar puede ser otros servicios de almacenamiento en la nube u otro almacenamiento de servidor de archivos local. OpenStack Swift también es un servicio de almacenamiento popular en empresas privadas."
+
+#: ../../chapter06.rst:12
+msgid ""
+"CentreStack can be setup in a Rackspace data center on Cloud Server, "
+"Windows Azure VM, IBM SoftLayer Data Center and connect to Cloud Files, "
+"Azure Blob Storage, and SoftLayer Object Storage (OpenStack Swift based) "
+"respectively."
+msgstr "CentreStack puede configurarse en un centro de datos de Rackspace en Cloud Server, VM de Windows Azure, Centro de Datos de IBM SoftLayer y conectarse a Cloud Files, Azure Blob Storage y SoftLayer Object Storage (basado en OpenStack Swift) respectivamente."
+
+#: ../../chapter06.rst:15
+msgid ""
+"CentreStack can also be setup next to a File Server and connect directly "
+"to a File Server Network Share."
+msgstr "CentreStack también puede configurarse junto a un Servidor de Archivos y conectarse directamente a una Compartición de Red de Servidor de Archivos."
+
+#: ../../chapter06.rst:19
+msgid ""
+"If you will later have multiple CentreStack worker nodes in the cluster, "
+"make sure you use storage service connector in a way that can be accessed"
+" from all of the worker nodes."
+msgstr "Si más adelante va a tener varios nodos trabajadores de CentreStack en el clúster, asegúrese de usar el conector del servicio de almacenamiento de manera que todos los nodos trabajadores puedan acceder a él."
+
+#: ../../chapter06.rst:22
+msgid ""
+"For example, C:\\\\ Drive of a specific worker node is not a good one to "
+"be accessed from all worker nodes. However, if it is published as a "
+"network share, it is good for all worker nodes."
+msgstr "Por ejemplo, la unidad C:\\ de un nodo de trabajo específico no es buena para ser accedida desde todos los nodos de trabajo. Sin embargo, si se publica como un recurso compartido de red, es bueno para todos los nodos de trabajo."
+

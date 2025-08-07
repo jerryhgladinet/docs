@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:2
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: ../../index.rst:4
+msgid ""
+"Welcome to the CentreStack Android Client User Guide. This guide "
+"describes the Android client application for CentreStack, the managed "
+"file synchronization, and sharing solution."
+msgstr "CentreStack Androidクライアントユーザーガイドへようこそ。このガイドでは、管理されたファイル同期および共有ソリューションであるCentreStackのAndroidクライアントアプリケーションについて説明しています。"
+
+#: ../../index.rst:6
+msgid ""
+"Users can access his cloud files using any device of their choice as "
+"CentreStack has clients for Windows, Mac, iPhone, iPad, Android, and "
+"more. User can download from the Google Play Store this a native Android "
+"application. That provides access to files and folders in user's "
+"CentreStack account."
+msgstr "ユーザーは、Windows、Mac、iPhone、iPad、Androidなど、お好きなデバイスを使用してクラウドファイルにアクセスできます。CentreStackにはこれらのクライアントが用意されています。ユーザーはGoogle PlayストアからネイティブAndroidアプリケーションをダウンロードすることができ、CentreStackアカウント内のファイルやフォルダにアクセスできます。"
+
+#: ../../index.rst:8
+msgid ""
+"The white-labeled CentreStack Android app called \"Cloud Android Client\""
+" by Gladinet can be distributed by service providers and enterprises to "
+"their users."
+msgstr "Gladinetによる「Cloud Android Client」と呼ばれるホワイトラベルのCentreStack Androidアプリは、サービスプロバイダーや企業がユーザーに配布することができます。"
+
+#: ../../index.rst:10
+msgid ""
+"User can obtain a fully branded CentreStack Android Client with company "
+"name and product logo from the Partner Portal "
+"https://www.centrestack.com. The look and feel of the app may be "
+"different but the functionality is the same."
+msgstr "ユーザーは、パートナーポータル https://www.centrestack.com から、会社名と製品ロゴが入った完全にブランド化されたCentreStack Androidクライアントを入手することができます。アプリの外観は異なる場合がありますが、機能は同じです。"
+

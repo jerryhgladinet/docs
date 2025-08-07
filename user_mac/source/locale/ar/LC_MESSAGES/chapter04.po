@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:4
+msgid "4 Folder and File Features"
+msgstr "4 ميزات المجلدات والملفات"
+
+#: ../../chapter04.rst:6
+msgid ""
+"When you Right click on a folder or a file you can access the context "
+"menu, which allows you to Share, Get share link, enable offline Access, "
+"Open in web browser, and Force Refresh."
+msgstr "عندما تنقر بزر الماوس الأيمن على مجلد أو ملف، يمكنك الوصول إلى قائمة السياق، والتي تتيح لك مشاركة، أو الحصول على رابط المشاركة، أو تمكين الوصول دون اتصال، أو فتح في متصفح الويب، وإجبار التحديث."
+
+#: ../../chapter04.rst:9
+msgid "Folder and File Sharing"
+msgstr "مشاركة المجلدات والملفات"
+
+#: ../../chapter04.rst:11
+msgid ""
+"To share a file or folder, simply right click on it and select "
+"**\"Share\"** from the menu item:"
+msgstr "لمشاركة ملف أو مجلد، ببساطة انقر بزر الفأرة الأيمن عليه واختر **\"مشاركة\"** من عنصر القائمة:"
+
+#: ../../chapter04.rst:15
+msgid ""
+"A wizard will be launched to allow you to \"Invite People\". To set this "
+"up, click the **Share Icon (1)**. In the new window enter the email(s) "
+"**(2)** of anyone you wish to share this with seperated by semicolons "
+"(;). Click **\"CONTINUE\" (3)**."
+msgstr "سيتم تشغيل معالج للسماح لك بـ \"دعوة الأشخاص\". لإعداد ذلك، انقر على **أيقونة المشاركة (1)**. في النافذة الجديدة أدخل البريد الإلكتروني **(2)** لأي شخص ترغب في مشاركته مفصولاً بفواصل منقوطة (;). انقر على **\"متابعة\" (3)**."
+
+#: ../../chapter04.rst:17
+msgid ""
+"In the next window you can choose how you want to share: expiration time,"
+" access rights (read only, view only, full control). After making your "
+"option selections, choose **\"SHARE\" (4)** or **\"GET LINK\" (5)**. "
+"\"SHARE\" sends emails to your guest users and \"GET LINK\" opens a "
+"window with the URL you can use to create a custom email or use some "
+"other method to communicate with your guest users."
+msgstr "في النافذة التالية يمكنك اختيار كيف تريد المشاركة: وقت الانتهاء، حقوق الوصول (قراءة فقط، مشاهدة فقط، تحكم كامل). بعد اختيار خياراتك، اختر **\"مشاركة\" (4)** أو **\"الحصول على رابط\" (5)**. \"مشاركة\" يرسل رسائل بريد إلكتروني إلى المستخدمين الضيوف و\"الحصول على رابط\" يفتح نافذة بالرابط الذي يمكنك استخدامه لإنشاء بريد إلكتروني مخصص أو استخدام بعض الطرق الأخرى للتواصل مع المستخدمين الضيوف."
+
+#: ../../chapter04.rst:23
+msgid "Edit Share"
+msgstr "تحرير المشاركة"
+
+#: ../../chapter04.rst:24
+msgid ""
+"If a file or a folder is already shared, you can right click on the "
+"shared file or folder and select 'Share' to access the edit share menu. "
+"Here you can delete the share, edit the share, resend the notification "
+"email, show share link and enable and disable public link."
+msgstr "إذا كان الملف أو المجلد مشاركًا بالفعل، يمكنك النقر بزر الفأرة الأيمن على الملف أو المجلد المشارك واختيار 'مشاركة' للوصول إلى قائمة تحرير المشاركة. هنا يمكنك حذف المشاركة، أو تعديلها، أو إعادة إرسال بريد إلكتروني للإشعار، أو عرض رابط المشاركة وتمكين أو تعطيل الرابط العام."
+
+#: ../../chapter04.rst:30
+msgid "Troubleshooting"
+msgstr "استكشاف الأخطاء وإصلاحها"
+
+#: ../../chapter04.rst:32
+msgid ""
+"To verify that the Cloud Drive Mac Client \"Finder\" extension is active,"
+" you can check the setting by clicking the System Preferences button and "
+"choosing **\"Extensions\"** from the preferences options."
+msgstr "للتحقق من أن امتداد \"Finder\" لعميل Cloud Drive Mac نشط، يمكنك التحقق من الإعداد بالنقر على زر تفضيلات النظام واختيار **\"الامتدادات\"** من خيارات التفضيلات."
+
+#: ../../chapter04.rst:36
+msgid ""
+"This will open the Extensions window. You will find the setting under the"
+" \"All\" category."
+msgstr "سيؤدي هذا إلى فتح نافذة الإضافات. ستجد الإعداد تحت فئة \"الكل\"."
+
+#: ../../chapter04.rst:42
+msgid "Icon Overlays"
+msgstr "تراكبات الأيقونات"
+
+#: ../../chapter04.rst:44
+msgid "There are three icon overlays on files to represent different states."
+msgstr "هناك ثلاثة أيقونات تراكب على الملفات لتمثيل الحالات المختلفة."
+
+#: ../../chapter04.rst:48
+msgid "**Thin Green Check Mark**"
+msgstr "**علامة الاختيار الخضراء الرفيعة**"
+
+#: ../../chapter04.rst:50
+msgid ""
+"This icon overlay means files are in the cloud but the file content is "
+"not local."
+msgstr "هذا الرمز الظاهر يعني أن الملفات موجودة في السحابة ولكن محتوى الملف ليس محليًا."
+
+#: ../../chapter04.rst:52
+msgid "**Solid Circle Green Check Mark**"
+msgstr "**علامة الصح الدائرية الخضراء الصلبة**"
+
+#: ../../chapter04.rst:54
+msgid ""
+"This icon overlay means files are in the cloud and are also available "
+"from local."
+msgstr "هذا الرمز الظاهر يعني أن الملفات موجودة في السحابة ومتاحة أيضًا محليًا"
+
+#: ../../chapter04.rst:56
+msgid "**Blue Uploading Icon**"
+msgstr "**أيقونة التحميل الزرقاء**"
+
+#: ../../chapter04.rst:58
+msgid "This icon shows the file is being uploaded and not completely done yet."
+msgstr "هذه الأيقونة تُظهر أن الملف يتم تحميله ولم يكتمل بعد."
+

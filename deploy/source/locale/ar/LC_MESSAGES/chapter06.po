@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter06.rst:2
+msgid "Storage Considerations"
+msgstr "اعتبارات التخزين"
+
+#: ../../chapter06.rst:4
+msgid ""
+"In the CentreStack system, for each tenant, there is one mandatory "
+"primary storage and there can be multiple, optional auxiliary storage "
+"services. The primary storage is the tenant's default root storage "
+"folder."
+msgstr "في نظام CentreStack، لكل مستأجر، هناك تخزين أساسي إلزامي واحد ويمكن أن يكون هناك عدة خدمات تخزين مساعدة اختيارية. التخزين الأساسي هو مجلد التخزين الافتراضي الجذر للمستأجر."
+
+#: ../../chapter06.rst:7
+msgid ""
+"If you setup the CentreStack in Amazon EC2 environment, the primary "
+"storage usually is an Amazon S3 bucket."
+msgstr "إذا قمت بإعداد CentreStack في بيئة Amazon EC2، فإن التخزين الأساسي عادةً ما يكون في دلو Amazon S3."
+
+#: ../../chapter06.rst:9
+msgid ""
+"If you setup the CentreStack on-premise, the primary storage can be your "
+"file server storage and the auxiliary storage can be other cloud storage "
+"services or other local file server storage. OpenStack Swift is also a "
+"popular storage service in private enterprises."
+msgstr "إذا قمت بإعداد CentreStack بشكل محلي، يمكن أن يكون التخزين الأساسي هو تخزين خادم الملفات الخاص بك ويمكن أن يكون التخزين الإضافي خدمات تخزين السحابة الأخرى أو تخزين خادم الملفات المحلي الآخر. كما أن OpenStack Swift هو أيضًا خدمة تخزين شائعة في المؤسسات الخاصة."
+
+#: ../../chapter06.rst:12
+msgid ""
+"CentreStack can be setup in a Rackspace data center on Cloud Server, "
+"Windows Azure VM, IBM SoftLayer Data Center and connect to Cloud Files, "
+"Azure Blob Storage, and SoftLayer Object Storage (OpenStack Swift based) "
+"respectively."
+msgstr "يمكن إعداد CentreStack في مركز بيانات Rackspace على Cloud Server، وفي Windows Azure VM، وIBM SoftLayer Data Center والاتصال بـ Cloud Files، وAzure Blob Storage، وSoftLayer Object Storage (المبني على OpenStack Swift) على التوالي."
+
+#: ../../chapter06.rst:15
+msgid ""
+"CentreStack can also be setup next to a File Server and connect directly "
+"to a File Server Network Share."
+msgstr "يمكن أيضًا إعداد CentreStack بجوار خادم الملفات والاتصال مباشرة بمشاركة الشبكة الخاصة بخادم الملفات."
+
+#: ../../chapter06.rst:19
+msgid ""
+"If you will later have multiple CentreStack worker nodes in the cluster, "
+"make sure you use storage service connector in a way that can be accessed"
+" from all of the worker nodes."
+msgstr "إذا كنت ستمتلك لاحقًا عقد عمال متعددة في مجموعة CentreStack، تأكد من استخدام موصل خدمة التخزين بطريقة يمكن الوصول إليها من جميع عقد العمال."
+
+#: ../../chapter06.rst:22
+msgid ""
+"For example, C:\\\\ Drive of a specific worker node is not a good one to "
+"be accessed from all worker nodes. However, if it is published as a "
+"network share, it is good for all worker nodes."
+msgstr "على سبيل المثال، لا يُعد القرص C:\\ لعقدة عامل معينة جيدًا للوصول من جميع عقد العمال. ومع ذلك، إذا تم نشره كمشاركة شبكة، فهو جيد لجميع عقد العمال."
+

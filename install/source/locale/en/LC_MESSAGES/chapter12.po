@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter12.rst:3
+msgid "Advanced Topics"
+msgstr ""
+
+#: ../../chapter12.rst:5
+msgid ""
+"These advanced topics require changes to the web.config file which is "
+"critical for the smooth operation of CentreStack, therefore, it is not "
+"recommended that you change the web.config file without first consulting "
+"Gladinet support."
+msgstr ""
+
+#: ../../chapter12.rst:10
+msgid "Split Database"
+msgstr ""
+
+#: ../../chapter12.rst:12
+msgid "The database contains two types of information."
+msgstr ""
+
+#: ../../chapter12.rst:14
+msgid ""
+"The first type of information is the configuration data that is "
+"relatively static. For example, user name, user email, user's published "
+"shared files and folder etc. This type of information is relatively "
+"small. It can be estimated at 5000 bytes per user. So if you have 2000 "
+"users, it can be estimated at 10 MB."
+msgstr ""
+
+#: ../../chapter12.rst:17
+msgid ""
+"The second type of information is relatively more volatile. For example, "
+"the file change log, the audit trace and the file list for index. It can "
+"be estimated at 100 file changes per user per day and each file change "
+"can be estimated at 1000 bytes for database storage. So for a 15 day "
+"(Default change log history), it can be estimated at 100*1000*15 = 1.5MB "
+"per user for 15 day period. If you need HIPPA compliance, the default "
+"change log history can be significantly longer so this part of the "
+"database will be much bigger."
+msgstr ""
+
+#: ../../chapter12.rst:23
+msgid ""
+"For performance and regulatory reasons, it is recommended to split the "
+"database into two separate databases, one that contains static "
+"information and one that contains relatively more volatile information."
+msgstr ""
+
+#: ../../chapter12.rst:26
+msgid ""
+"The secondary database (for more volatile data) can be either MySQL "
+"Database or Micrsoft SQL Database."
+msgstr ""
+
+#: ../../chapter12.rst:28
+msgid ""
+"To split the database, first create a new database that will be used to "
+"store the volatile information. Create a database user and allow this "
+"user full access to the database (equivalent to db_owner). Once the "
+"database and user are created, sign into the CentreStack management "
+"console as the cluster admin and navigate to Cluster Dashboard > Cluster "
+"Settings > Change Log. Update the \"Logging DB Connection String\" "
+"setting using an appropriate connection string:"
+msgstr ""
+
+#: ../../chapter12.rst:34
+msgid "**Connection String Example for MySQL Database**"
+msgstr ""
+
+#: ../../chapter12.rst:42
+msgid "**Connection String Example for Microsoft SQL Database**"
+msgstr ""
+
+#: ../../chapter12.rst:52
+msgid "Change Authentication Algorithm to Version 2"
+msgstr ""
+
+#: ../../chapter12.rst:54
+msgid ""
+"If you have a new installation of CentreStack without any legacy user, we"
+" recommend you hard code the authentication algorithm to version 2."
+msgstr ""
+
+#: ../../chapter12.rst:57
+msgid ""
+"You can locate the web.config file in the root folder of the installation"
+" directory (same web.config file as referenced in the previous section) "
+"and add a line inside the <appSettings file=\"branding.config\"> section."
+msgstr ""
+
+#: ../../chapter12.rst:66
+msgid "Change the Synchronized Uploader to Asynchronized Uploader"
+msgstr ""
+
+#: ../../chapter12.rst:68
+msgid ""
+"Under the C:\\Program Files (x86)\\CentreStack\\ (or the installation "
+"directory), look into the UploadDownloadProxy and identify the web.config"
+" file. Find the line with the SyncedStorageProxiedPutUploadHandler and "
+"change it to StorageProxiedPutUploadHandler."
+msgstr ""
+
+#: ../../chapter12.rst:72
+msgid ""
+"This optimization might not work on all systems, therefore, it is "
+"recommend you test web portal Drag and Drop upload after you make the "
+"change. If it does not work for your IIS, you can revert the change back "
+"or consult Gladinet support."
+msgstr ""
+
+#: ../../chapter12.rst:83
+msgid "Zone Support"
+msgstr ""
+
+#: ../../chapter12.rst:85
+msgid ""
+"If you have two independent CentreStack clusters, for example, one "
+"cluster in US and one cluster in UK, you can use the zone support to "
+"connect the two clusters together. The advantage of using zones is the "
+"end user login request will automatically be redirected to the zone the "
+"user belongs to."
+msgstr ""
+
+#: ../../chapter12.rst:90
+msgid "Scalability Tuning"
+msgstr ""
+
+#: ../../chapter12.rst:92
+msgid ""
+"CentreStack is built on top of ASP.NET and WCF. By default, both ASP.NET "
+"and WCF has throttle control parameters that we can tune and remove. "
+"Please reference this MSDN article for performance tuning:"
+msgstr ""
+
+#: ../../chapter12.rst:95
+msgid "http://msdn.microsoft.com/en-us/library/ff647813.aspx"
+msgstr ""
+
+#: ../../chapter12.rst:99 ../../chapter12.rst:103
+msgid "(image source: http://msdn.microsoft.com/en-us/library/ff647813.aspx)"
+msgstr ""
+
+#: ../../chapter12.rst:106
+msgid "Tuning #1 – namespace/web.config"
+msgstr ""
+
+#: ../../chapter12.rst:108
+msgid ""
+"There are three parameters about max concurrent calls, concurrent "
+"sessions and concurrent instances."
+msgstr ""
+
+#: ../../chapter12.rst:117
+msgid "This is set in the <CENTRESTACKInstallDir>\\\\namespace\\\\web.config file"
+msgstr ""
+
+#: ../../chapter12.rst:119
+msgid ""
+"There may be existing blocks of serviceBehaviors and behavior blocks "
+"there. You can simply add the serviceThrottling block."
+msgstr ""
+
+#: ../../chapter12.rst:134
+msgid "Tuning #2 – aspnet.config"
+msgstr ""
+
+#: ../../chapter12.rst:136
+msgid ""
+"The aspnet.config is under "
+"c:\\\\windows\\\\Microsoft.NET\\\\Framework64\\\\v4.0.30319"
+msgstr ""
+
+#: ../../chapter12.rst:138
+msgid ""
+"system.web is an element of <configuration> so you can add it inside the "
+"<configuration> block."
+msgstr ""
+
+#: ../../chapter12.rst:150
+msgid "Tuning #3 – machine.config"
+msgstr ""
+
+#: ../../chapter12.rst:152
+msgid ""
+"Machine.config is at "
+"%windir%\\\\Microsoft.NET\\\\Framework64\\\\[version]\\\\config\\\\machine.config"
+msgstr ""
+
+#: ../../chapter12.rst:154
+msgid ""
+"(%windir% typically is c:\\\\windows. [version] is 4.0.30319 for .NET "
+"framework 4)"
+msgstr ""
+
+#: ../../chapter12.rst:156
+msgid "**processModel**"
+msgstr ""
+
+#: ../../chapter12.rst:158
+msgid ""
+"processModel is under <system.web> and <system.web> is under "
+"<configuration>. Most likely the processModel block is there alredy but "
+"with autoConfig set to true. We can change it to set to false and with "
+"the attributes set below."
+msgstr ""
+
+#: ../../chapter12.rst:171
+msgid "**connectionManagement**"
+msgstr ""
+
+#: ../../chapter12.rst:173
+msgid ""
+"<system.net> is a block below <configuration>. Typically if <system.net> "
+"doesn't already exist, the block can be added to the bottom of the config"
+" file, right before the closing tag of <configuration>."
+msgstr ""
+
+#: ../../chapter12.rst:185
+msgid "Tuning #4 – appConcurrentRequestLimit"
+msgstr ""
+
+#: ../../chapter12.rst:193
+msgid "Need More Information?"
+msgstr ""
+
+#: ../../chapter12.rst:195
+msgid "Contact Gladinet Support (support@gladinet.com) for more information."
+msgstr ""
+

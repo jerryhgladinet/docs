@@ -1,0 +1,486 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the CentreStack iOS
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CentreStack iOS User Guide 2025.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-05 18:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "CentreStack iOS Client User Guide"
+msgstr "CentreStack iOS-klient Användarhandbok"
+
+#: ../../index.rst:7
+msgid "Getting Started"
+msgstr "Komma igång"
+
+#: ../../index.rst:9
+msgid ""
+"Welcome to the CentreStack iOS Client User Guide. This guide describes "
+"the iOS client application for CentreStack, the managed file "
+"synchronization, and sharing solution."
+msgstr "Välkommen till användarhandboken för CentreStack iOS-klient. Denna guide beskriver iOS-klientapplikationen för CentreStack, lösningen för hanterad filsynkronisering och delning."
+
+#: ../../index.rst:11
+msgid ""
+"Users can access CentreStack cloud files using any device of their choice"
+" as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, "
+"Windows 8+, and more. We have created a native IOS application that you "
+"can download from the App Store. This provides access to files and "
+"folders in your CentreStack account."
+msgstr "Användare kan komma åt CentreStacks molnfiler med valfri enhet eftersom CentreStack har klienter för Windows, Mac, iPhone, iPad, Android, Windows 8+ och mer. Vi har skapat en infödd IOS-applikation som du kan ladda ner från App Store. Detta ger tillgång till filer och mappar i ditt CentreStack-konto."
+
+#: ../../index.rst:13
+msgid ""
+"The white-labeled CentreStack iOS app called \"Cloud Drive\" by Gladinet "
+"that can be distributed by service providers and enterprises to their "
+"users."
+msgstr "Den vitmärkta CentreStack iOS-appen kallad \"Cloud Drive\" av Gladinet som kan distribueras av tjänsteleverantörer och företag till deras användare."
+
+#: ../../index.rst:15
+msgid ""
+"If you have the fully branded CentreStack iOS client, the look and feel "
+"of the app may be different but the functionality is the same. You can "
+"obtain a fully branded CentreStack IOS Client with your company name and "
+"product logo from https://partner.centrestack.com/login/ (partner "
+"portal)."
+msgstr "Om du har den fullständigt varumärkesskyddade CentreStack iOS-klienten kan utseendet och känslan av appen vara annorlunda, men funktionaliteten är densamma. Du kan få en fullständigt varumärkesskyddad CentreStack IOS-klient med ditt företagsnamn och produktlogo från https://partner.centrestack.com/login/ (partnerportal)."
+
+#: ../../index.rst:19
+msgid "Download & Install"
+msgstr "Ladda ner & Installera"
+
+#: ../../index.rst:21
+msgid ""
+"Search for Gladinet, Inc. as a publisher in 'App Store' to start the "
+"download and installation."
+msgstr "Sök efter Gladinet, Inc. som utgivare i 'App Store' för att starta nedladdningen och installationen."
+
+#: ../../index.rst:26
+msgid ""
+"After the install open the app from its icon. Login using your "
+"credentials."
+msgstr "Efter installationen, öppna appen från dess ikon. Logga in med dina användaruppgifter."
+
+#: ../../index.rst:31
+msgid ""
+"Enter Access Point (if not filled automatically) and your Username and "
+"tap \"CONTINUE\"."
+msgstr "Ange åtkomstpunkt (om den inte fylls i automatiskt) och ditt användarnamn och tryck på \"FORTSÄTT\"."
+
+#: ../../index.rst:35
+msgid ""
+"On the following screen, enter your Password and tap \"SIGN IN\", to log "
+"in to your server."
+msgstr "På nästa skärm anger du ditt lösenord och trycker på \"LOGGA IN\" för att logga in på din server."
+
+#: ../../index.rst:39
+msgid "Access, Upload and Create"
+msgstr "Åtkomst, uppladdning och skapande"
+
+#: ../../index.rst:41
+msgid ""
+"Once logged in users will see the files and folders they have access to "
+"like shown in the screen below."
+msgstr "När användare har loggat in kommer de att se de filer och mappar de har tillgång till som visas på skärmen nedan."
+
+#: ../../index.rst:45
+msgid "Tap on the folder to see the files and sub-folders inside."
+msgstr "Tryck på mappen för att se filerna och undermapparna inuti."
+
+#: ../../index.rst:51
+msgid "Sort Menu"
+msgstr "Sortera meny"
+
+#: ../../index.rst:53
+msgid ""
+"In the sort menu, you can change the order of which your files are "
+"displayed."
+msgstr "I sorteringsmenyn kan du ändra ordningen på hur dina filer visas."
+
+#: ../../index.rst:55
+msgid ""
+"**Name (A to Z)** is when your files are displayed in the order of the "
+"alphabet."
+msgstr "**Namn (A till Z)** är när dina filer visas i alfabetisk ordning."
+
+#: ../../index.rst:57
+msgid ""
+"**Name (Z to A)** lets you display your files opposite of the "
+"alphabetical order."
+msgstr "**Namn (Z till A)** låter dig visa dina filer i motsatt ordning till alfabetisk ordning."
+
+#: ../../index.rst:59
+msgid ""
+"**Size (1 to 9)** lets your files be displayed in the order of which "
+"files are the smallest."
+msgstr "**Storlek (1 till 9)** låter dina filer visas i ordning efter vilka filer som är minst."
+
+#: ../../index.rst:61
+msgid ""
+"**Size (9 to 1)** displays your files in the order of which the largest "
+"files are shown first."
+msgstr "**Storlek (9 till 1)** visar dina filer i ordning där de största filerna visas först."
+
+#: ../../index.rst:63
+msgid ""
+"**Date (Old to New)** displays files that were added first at the top of "
+"your file browser."
+msgstr "**Datum (gammalt till nytt)** visar filer som lades till först överst i din filbläddrare."
+
+#: ../../index.rst:65
+msgid ""
+"**Date (New to Old)** displays your files in the order of which the most "
+"recently worked on files are shown first."
+msgstr "**Datum (nyast till äldst)** visar dina filer i ordning där de filer som senast arbetats med visas först."
+
+#: ../../index.rst:71
+msgid "Main Operations"
+msgstr "Huvudoperationer"
+
+#: ../../index.rst:74
+msgid "Camera"
+msgstr "Kamera"
+
+#: ../../index.rst:75
+msgid ""
+"The camera icon allows you to insert media from your phone. You can "
+"either take a new picture or video or you can insert one from your camera"
+" library."
+msgstr "Kameraikonen låter dig infoga media från din telefon. Du kan antingen ta en ny bild eller video, eller så kan du infoga en från ditt kamerabibliotek."
+
+#: ../../index.rst:82
+msgid "Creating New Folders"
+msgstr "Skapa nya mappar"
+
+#: ../../index.rst:84
+msgid ""
+"To create new folders, click the **plus icon** at the bottom of the "
+"screen and it will let you create a name for the folder. Once a name is "
+"created the folder is created."
+msgstr "För att skapa nya mappar, klicka på **plusikonen** längst ned på skärmen och det kommer att låta dig skapa ett namn för mappen. När ett namn är skapat är mappen skapad."
+
+#: ../../index.rst:90
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../../index.rst:91
+msgid ""
+"In the settings section you can change a number of options including the "
+"theme of the mobile application."
+msgstr "I inställningsavsnittet kan du ändra ett antal alternativ inklusive temat för mobilapplikationen."
+
+#: ../../index.rst:97
+msgid "Log Out"
+msgstr "Logga ut"
+
+#: ../../index.rst:99
+msgid ""
+"To logout, click the icon on the top-left of the app and press the "
+"**\"Sign Out\"** icon at the bottom of the menu."
+msgstr "För att logga ut, klicka på ikonen längst upp till vänster i appen och tryck på **\"Logga ut\"**-ikonen längst ner i menyn."
+
+#: ../../index.rst:103
+msgid "You can also log out from the navigation pane at the bottom of the screen."
+msgstr "Du kan också logga ut från navigeringsfältet längst ned på skärmen."
+
+#: ../../index.rst:109
+msgid "Manage and Edit"
+msgstr "Hantera och redigera"
+
+#: ../../index.rst:111
+msgid ""
+"You can tap a folder to enter it for browsing, and tap a file to open it "
+"in a file previewer."
+msgstr "Du kan trycka på en mapp för att öppna den för att bläddra, och trycka på en fil för att öppna den i en filförhandsvisare."
+
+#: ../../index.rst:113
+msgid "Multiple operations can be carried out by accessing the menu."
+msgstr "Flera åtgärder kan utföras genom att komma åt menyn."
+
+#: ../../index.rst:118
+msgid "Preview"
+msgstr "Förhandsgranskning"
+
+#: ../../index.rst:120
+msgid ""
+"To preview a file, you can simply click on the file you want to see and "
+"it will open inside of the Cloud Drive application. For example, you can "
+"preview an excel file in Excel or in the Cloud Drive application."
+msgstr "För att förhandsgranska en fil kan du enkelt klicka på filen du vill se och den kommer att öppnas inuti Cloud Drive-applikationen. Till exempel kan du förhandsgranska en Excel-fil i Excel eller i Cloud Drive-applikationen."
+
+#: ../../index.rst:124
+msgid ""
+"You can also go into a folder and preview a file with multiple images. "
+"Once you click into the preview you can scroll through all the pictures "
+"in that screen as well as saving the picture to your phone."
+msgstr "Du kan också gå in i en mapp och förhandsgranska en fil med flera bilder. När du klickar på förhandsgranskningen kan du bläddra igenom alla bilder på den skärmen samt spara bilden till din telefon."
+
+#: ../../index.rst:130
+msgid "Delete"
+msgstr "Radera"
+
+#: ../../index.rst:132
+msgid ""
+"A file can be deleted using the **'Delete'** option. Select **'Delete'** "
+"from the context menu to delete a file. Once the file has been deleted it"
+" will no longer be visible in the cloud drive."
+msgstr "En fil kan raderas genom att använda alternativet **'Radera'**. Välj **'Radera'** från snabbmenyn för att ta bort en fil. När filen har raderats kommer den inte längre att vara synlig i molndisken."
+
+#: ../../index.rst:137
+msgid "Rename"
+msgstr "Byt namn"
+
+#: ../../index.rst:139
+msgid ""
+"You can rename a file or a folder using the **'Rename'** option. Pressing"
+" **'Rename'** will display a field to type in the new name."
+msgstr "Du kan byta namn på en fil eller en mapp med hjälp av alternativet **'Byt namn'**. När du trycker på **'Byt namn'** visas ett fält där du kan skriva in det nya namnet."
+
+#: ../../index.rst:145
+msgid "Copy and Cut"
+msgstr "Kopiera och klipp ut"
+
+#: ../../index.rst:147
+msgid ""
+"The 'copy' option allows you to copy a file and paste it into a another "
+"folder of your choosing. The 'cut' option allows you to remove a file "
+"from a certain folder and paste it into another."
+msgstr "Alternativet 'kopiera' låter dig kopiera en fil och klistra in den i en annan mapp som du väljer. Alternativet 'klipp ut' låter dig ta bort en fil från en viss mapp och klistra in den i en annan."
+
+#: ../../index.rst:152
+msgid ""
+"The 'Move' option allows you to move the file you select from one folder "
+"to another."
+msgstr "Alternativet 'Flytta' låter dig flytta filen du valt från en mapp till en annan."
+
+#: ../../index.rst:156
+msgid "Comments"
+msgstr ""
+
+#: ../../index.rst:158
+msgid ""
+"The \"Comments' option allows you to see any comments made by people who "
+"have access to the file. It also lets you create a comment so others who "
+"have access to it can see your comment."
+msgstr "Alternativet \"Kommentarer\" gör det möjligt för dig att se eventuella kommentarer som gjorts av personer som har tillgång till filen. Det låter dig också skapa en kommentar så att andra som har tillgång till den kan se din kommentar."
+
+#: ../../index.rst:162
+msgid "More Info"
+msgstr "Mer information"
+
+#: ../../index.rst:164
+msgid ""
+"The 'More Info' option allows you to look at the specifics of the file "
+"you are working on or looking at."
+msgstr "Alternativet 'Mer information' låter dig se detaljerna för filen du arbetar med eller tittar på."
+
+#: ../../index.rst:170
+msgid "Offline Access"
+msgstr "Offline-åtkomst"
+
+#: ../../index.rst:173
+msgid "Enable Offline"
+msgstr "Aktivera offline"
+
+#: ../../index.rst:175
+msgid ""
+"You can enable a file offline access by pressing the three vertical "
+"ellipses icon to the right of the file. Once you click on that it will "
+"drop down a menu where you can then \"Enable Offline\" this file."
+msgstr "Du kan aktivera offlineåtkomst för en fil genom att trycka på ikonen med de tre vertikala ellipsen till höger om filen. När du klickar på den visas en meny där du kan \"Aktivera offline\" för denna fil."
+
+#: ../../index.rst:181
+msgid "Disable Offline"
+msgstr "Inaktivera offline"
+
+#: ../../index.rst:183
+msgid ""
+"To remove files from your **Offline Access**, go to top-left menu, and "
+"choose **Offline Access**. Or use the Offline Access icon at the Bottom "
+"Bar."
+msgstr "För att ta bort filer från din **Offline Access**, gå till menyn överst till vänster och välj **Offline Access**. Eller använd ikonen för Offline Access i det nedre verktygsfältet."
+
+#: ../../index.rst:187
+msgid ""
+"In the **Offline Access** view you can remove files by clicking the three"
+" vertical ellipses icon and selecting **Disable Offline**."
+msgstr "I **Offline Access**-vyn kan du ta bort filer genom att klicka på ikonen med tre vertikala ellipser och välja **Inaktivera offline**."
+
+#: ../../index.rst:193
+msgid "Sharing and Collaborating"
+msgstr "Delning och samarbete"
+
+#: ../../index.rst:195
+msgid ""
+"You can select the files or folders that you want to share from your iOS "
+"devices."
+msgstr "Du kan välja filerna eller mapparna som du vill dela från dina iOS-enheter."
+
+#: ../../index.rst:200
+msgid "Share Via"
+msgstr "Dela Via"
+
+#: ../../index.rst:201
+msgid ""
+"You will be allowed to share the file to a third party application such "
+"as gmail, or WhatsApp."
+msgstr "Du kommer att kunna dela filen med en tredjepartsapplikation såsom Gmail eller WhatsApp."
+
+#: ../../index.rst:206
+msgid "Share Manager"
+msgstr "Dela Hanteraren"
+
+#: ../../index.rst:207
+msgid ""
+"You will be taken to a view and will see a list of any shares associated "
+"with this file/folder. You can add new shares there or delete previous "
+"shares to revoke access."
+msgstr "Du kommer att tas till en vy och kommer att se en lista över eventuella delningar som är associerade med denna fil/mapp. Du kan lägga till nya delningar där eller ta bort tidigare delningar för att återkalla åtkomst."
+
+#: ../../index.rst:209
+msgid ""
+"To delete a user share, swipe the row to the left. This removes the share"
+" and prevents access by that user."
+msgstr "För att ta bort en användarandel, svep raden åt vänster. Detta tar bort andelen och förhindrar åtkomst av den användaren."
+
+#: ../../index.rst:211
+msgid ""
+"At the bottom can find options to Add new shares, enable/disable and copy"
+" Public Link and Request a File. To refresh the list swipe down."
+msgstr "Längst ned kan du hitta alternativ för att lägga till nya delningar, aktivera/inaktivera och kopiera offentlig länk samt begära en fil. För att uppdatera listan, svep nedåt."
+
+#: ../../index.rst:216
+msgid "Sharing a File"
+msgstr "Dela en fil"
+
+#: ../../index.rst:217
+msgid ""
+"You will be taken to the \"Specify User\" screen. There you can add user "
+"emails and next select various options for sharing."
+msgstr "Du kommer att tas till skärmen \"Ange användare\". Där kan du lägga till användar-e-postadresser och därefter välja olika alternativ för delning."
+
+#: ../../index.rst:221
+msgid ""
+"Before sending your email share notification, you can control how the "
+"guest user(s) can access the file or folder."
+msgstr "Innan du skickar din e-postdelningsavisering kan du kontrollera hur gästanvändare(n) kan få åtkomst till filen eller mappen."
+
+#: ../../index.rst:223
+msgid "Specify share expiration time"
+msgstr "Ange delningens utgångstid"
+
+#: ../../index.rst:226
+msgid "Set access type"
+msgstr "Ställ in åtkomsttyp"
+
+#: ../../index.rst:225
+msgid "View/Read-Only Access"
+msgstr "Visa/Läsbehörighet"
+
+#: ../../index.rst:226
+msgid "View Only (download will be disabled)"
+msgstr "Visa endast (nedladdning kommer att vara inaktiverad)"
+
+#: ../../index.rst:227
+msgid "Edit / Full Control Access"
+msgstr "Redigera / Fullständig kontrollåtkomst"
+
+#: ../../index.rst:231
+msgid "Other Options"
+msgstr "Andra alternativ"
+
+#: ../../index.rst:229
+msgid "Send email notification when file is downloaded"
+msgstr "Skicka e-postmeddelande när filen har laddats ner"
+
+#: ../../index.rst:230
+msgid "Send email notification when file is uploaded"
+msgstr "Skicka e-postmeddelande när fil har laddats upp"
+
+#: ../../index.rst:231
+msgid "Notify user when file/folder is changed"
+msgstr "Meddela användaren när fil/mapp ändras"
+
+#: ../../index.rst:236
+msgid "Public Link"
+msgstr "Offentlig länk"
+
+#: ../../index.rst:237
+msgid ""
+"Enable the public link option will display the public URL which can also "
+"be sent to the users so they can access the share from the URL or you can"
+" copy the share URL in an email. Click the \"Link\" icon at the bottom of"
+" screen."
+msgstr "Att aktivera alternativet för offentlig länk kommer att visa den offentliga URL:en som också kan skickas till användarna så att de kan komma åt delningen från URL:en eller så kan du kopiera delnings-URL:en i ett e-postmeddelande. Klicka på \"Länk\"-ikonen längst ned på skärmen."
+
+#: ../../index.rst:242
+msgid "There is a \"Settings\" icon you can click to configure the Public Link."
+msgstr "Det finns en \"Inställningar\"-ikon som du kan klicka på för att konfigurera den offentliga länken."
+
+#: ../../index.rst:246
+msgid ""
+"Once the Public Link is enabled, you can click \"COPY TO CLIPBOARD\" icon"
+" to copy the public link to your clipboard so it can be pasted into a "
+"field, email or document."
+msgstr "När den offentliga länken är aktiverad kan du klicka på ikonen \"KOPIERA TILL URKLIPP\" för att kopiera den offentliga länken till ditt urklipp så att den kan klistras in i ett fält, e-post eller dokument."
+
+#: ../../index.rst:251
+msgid "Request a File"
+msgstr "Begär en fil"
+
+#: ../../index.rst:253
+msgid ""
+"This option is only available for folders. Once you select \"Request a "
+"File\" icon at the bottom right, it will take you to a screen where you "
+"can share a link with a user to allow him to upload files to the specific"
+" folder."
+msgstr "Detta alternativ är endast tillgängligt för mappar. När du väljer ikonen \"Begär en fil\" nere till höger, kommer du till en skärm där du kan dela en länk med en användare för att tillåta honom att ladda upp filer till den specifika mappen."
+
+#: ../../index.rst:260
+msgid "Working with Office Applications"
+msgstr "Arbeta med Office-program"
+
+#: ../../index.rst:262
+msgid ""
+"To edit existing files from an office application, open the Office App "
+"first, then you can select Open and access Files App. Once you do that, "
+"you can select your drive and choose a file from there. It will then open"
+" it directly into the app, edit and save."
+msgstr "För att redigera befintliga filer från ett Office-program, öppna först Office-appen, sedan kan du välja Öppna och komma åt Filer-appen. När du har gjort det kan du välja din enhet och välja en fil därifrån. Den kommer sedan att öppnas direkt i appen, redigera och spara."
+
+#: ../../index.rst:264
+msgid ""
+"You can refer to this knowledge based article: "
+"https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App"
+msgstr "Du kan hänvisa till denna kunskapsbaserade artikel: https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App"
+
+#: ../../index.rst:269
+msgid "Conclusion"
+msgstr "Slutsats"
+
+#: ../../index.rst:271
+msgid ""
+"Gladinet's vision is to enable access to enterprise data from anywhere "
+"using any device including mobile devices like Android, iPhones, and "
+"iPads. The iOS CentreStack application is feature-rich which allows "
+"enterprise users to not only access the data but also sync and "
+"collaborate on that data. Users can access, share, edit, and perform "
+"other functions on the data when accessing from iOS devices just like "
+"they do when they access it from Windows or MAC clients."
+msgstr "Gladinets vision är att möjliggöra åtkomst till företagsdata från var som helst med vilken enhet som helst, inklusive mobila enheter som Android, iPhones och iPads. iOS CentreStack-applikationen är funktionsrik vilket tillåter företagsanvändare att inte bara komma åt datan utan också synkronisera och samarbeta kring den. Användare kan komma åt, dela, redigera och utföra andra funktioner på datan när de får åtkomst från iOS-enheter precis som de gör när de använder den från Windows- eller MAC-klienter."
+

@@ -1,0 +1,857 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "Client Side Management Console"
+msgstr "وحدة التحكم الإدارية على جانب العميل"
+
+#: ../../chapter6.rst:6
+msgid "Client Side Management Console - Native"
+msgstr "وحدة التحكم الإدارية على جانب العميل - أصلية"
+
+#: ../../chapter6.rst:9
+msgid ""
+"The desktop client has a management console that controls the client side"
+" of the behavior. The management console can be started from the system "
+"tray icon **(1)**. In the Client Menu, click on the management console "
+"icon **(2)**."
+msgstr "يحتوي عميل سطح المكتب على وحدة تحكم إدارية تتحكم في سلوك العميل. يمكن بدء وحدة التحكم الإدارية من أيقونة صينية النظام **(1)**. في قائمة العميل، انقر على أيقونة وحدة التحكم الإدارية **(2)**."
+
+#: ../../chapter6.rst:15
+msgid "WINDOWS CLIENT MANAGEM ENT CONSOLE"
+msgstr "وحدة تحكم إدارة عميل WINDOWS"
+
+#: ../../chapter6.rst:17
+msgid "The management console has seven sections:"
+msgstr "تحتوي وحدة التحكم الإدارية على سبعة أقسام:"
+
+#: ../../chapter6.rst:20
+msgid "Section Name"
+msgstr "اسم القسم"
+
+#: ../../chapter6.rst:20
+msgid "Description"
+msgstr ""
+
+#: ../../chapter6.rst:22
+msgid "Dashboard (3)"
+msgstr "لوحة التحكم (3)"
+
+#: ../../chapter6.rst:22
+msgid ""
+"Dashboard shows whether it is windows client/server agent, the access "
+"point URL and the version."
+msgstr "تُظهر لوحة التحكم ما إذا كان العميل/وكيل الخادم لنظام التشغيل ويندوز، وعنوان URL لنقطة الوصول والإصدار."
+
+#: ../../chapter6.rst:25
+msgid "Attached Folders (4)"
+msgstr "المجلدات المرفقة (4)"
+
+#: ../../chapter6.rst:25
+msgid ""
+"You will attach local folder to sync with Cloud, and also you can scan "
+"attached folder."
+msgstr "ستقوم بإرفاق مجلد محلي للمزامنة مع السحابة، ويمكنك أيضًا مسح المجلد المرفق."
+
+#: ../../chapter6.rst:28
+msgid "Offline Folders (5)"
+msgstr "المجلدات غير المتصلة (5)"
+
+#: ../../chapter6.rst:28
+msgid ""
+"All offline folders will be listed here. You also can enable offline "
+"access to a folder in this section."
+msgstr "سيتم سرد جميع المجلدات غير المتصلة بالإنترنت هنا. يمكنك أيضًا تمكين الوصول غير المتصل لمجلد في هذا القسم."
+
+#: ../../chapter6.rst:32
+msgid "Locked Files (6)"
+msgstr "الملفات المقفلة (6)"
+
+#: ../../chapter6.rst:32
+msgid "All locked files will be listed here."
+msgstr "سيتم إدراج جميع الملفات المقفلة هنا."
+
+#: ../../chapter6.rst:35
+msgid "Pending Check-ins (7)"
+msgstr "التحققات المعلقة (7)"
+
+#: ../../chapter6.rst:35
+msgid ""
+"All checked-out files will be listed here. You also can check-out a file "
+"in this section."
+msgstr "سيتم إدراج جميع الملفات التي تم إخراجها هنا. يمكنك أيضًا إخراج ملف في هذا القسم."
+
+#: ../../chapter6.rst:38
+msgid "Settings (8)"
+msgstr "الإعدادات (8)"
+
+#: ../../chapter6.rst:38
+msgid "Settings Manager stores the different client-side settings"
+msgstr "مدير الإعدادات يخزن الإعدادات المختلفة لجهة العميل"
+
+#: ../../chapter6.rst:41
+msgid "Sync Status (9)"
+msgstr "حالة التزامن (9)"
+
+#: ../../chapter6.rst:41
+msgid ""
+"Show sync status. You can pause the sync here. You observe summary of all"
+" the sync tasks from task manager in this section."
+msgstr "عرض حالة المزامنة. يمكنك إيقاف المزامنة مؤقتًا هنا. يمكنك مشاهدة ملخص جميع مهام المزامنة من إدارة المهام في هذا القسم."
+
+#: ../../chapter6.rst:48 ../../chapter6.rst:403
+msgid "Attached Folders"
+msgstr "المجلدات المرفقة"
+
+#: ../../chapter6.rst:50
+msgid ""
+"You can attach local (from your Client Device) folders to |prodname| by "
+"clicking the \"Attached Folders\" button **(1)**. In the main view, and "
+"then click \"Attach a Local Folder to the Cloud\" **(2)**. This will open"
+" a wizard. Type in the location of the folder in the provided field or "
+"click the \"...\" button **(3)** to explore to a folder you wish to "
+"attach **(4)**. Click \"Attach\" to complete the process."
+msgstr "يمكنك إرفاق مجلدات محلية (من جهاز العميل الخاص بك) بـ |prodname| بالنقر على زر \"المجلدات المرفقة\" **(1)**. في العرض الرئيسي، ثم انقر على \"إرفاق مجلد محلي بالسحابة\" **(2)**. سيؤدي ذلك إلى فتح معالج. اكتب موقع المجلد في الحقل المتوفر أو انقر على زر \"...\" **(3)** لاستعراض المجلد الذي ترغب في إرفاقه **(4)**. انقر على \"إرفاق\" لإتمام العملية."
+
+#: ../../chapter6.rst:55
+msgid "ATTACH A FOLDER TO BACKUP"
+msgstr "إرفاق مجلد للنسخ الاحتياطي"
+
+#: ../../chapter6.rst:59
+msgid "Settings Explained"
+msgstr "شرح الإعدادات"
+
+#: ../../chapter6.rst:61
+msgid ""
+"There are many settings under the Settings Manager in the desktop client."
+" To access them click the Settings tab."
+msgstr "هناك العديد من الإعدادات تحت مدير الإعدادات في عميل سطح المكتب. للوصول إليها انقر على علامة التبويب الإعدادات."
+
+#: ../../chapter6.rst:66
+msgid "SETTINGS TAB - SETTINGS MANAGER"
+msgstr "علامة التبويب الإعدادات - مدير الإعدادات"
+
+#: ../../chapter6.rst:70
+msgid "Sync Throttle"
+msgstr "تحديد سرعة المزامنة"
+
+#: ../../chapter6.rst:72
+msgid ""
+"False (default) - If true, the Upload and Download Throttling control "
+"defined under this settings."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، يتم تعريف التحكم في تقييد الرفع والتنزيل تحت هذه الإعدادات."
+
+#: ../../chapter6.rst:75
+msgid "Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)"
+msgstr "مزامنة عرض النطاق الترددي للتحميل المحدود (كيلوبايت/ثانية، 0 - غير محدود)"
+
+#: ../../chapter6.rst:77 ../../chapter6.rst:82
+msgid ""
+"0 (default) - The default setting is unlimited KB/s, enter a number here "
+"to reduce the bandwidth consummed to the set limit."
+msgstr "0 (الافتراضي) - الإعداد الافتراضي غير محدود KB/s، أدخل رقمًا هنا لتقليل النطاق الترددي المستهلك إلى الحد المحدد."
+
+#: ../../chapter6.rst:80
+msgid "Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)"
+msgstr "مزامنة عرض النطاق الترددي للتنزيل المحدود (كيلوبايت/ثانية، 0 - غير محدود)"
+
+#: ../../chapter6.rst:85
+msgid "Full Speed Sync Stop Hour (default 7:00)"
+msgstr "ساعة توقف مزامنة السرعة الكاملة (الافتراضي 7:00)"
+
+#: ../../chapter6.rst:87
+msgid ""
+"7 (default) - This setting represents the hour (24 hour clock) of the day"
+" when Full Speed synchronization will stop - Usually it is desired to "
+"have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "7 (افتراضي) - تمثل هذه الإعدادات ساعة (ساعة 24) من اليوم التي ستتوقف فيها مزامنة السرعة الكاملة - عادةً ما يُفضل إجراء المزامنة بالسرعة الكاملة خلال الليل عندما تكون استخدامات الإنترنت منخفضة."
+
+#: ../../chapter6.rst:90
+msgid "Full Speed Sync Start Hour (default 20:00)"
+msgstr "ساعة بدء المزامنة الكاملة السرعة (الافتراضي 20:00)"
+
+#: ../../chapter6.rst:92
+msgid ""
+"20 (default) - This setting represents the hour (24 hour clock) of the "
+"day when Full Speed synchronization will begin - Usually it is desired to"
+" have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "20 (افتراضي) - تمثل هذه الإعدادات ساعة (ساعة 24) اليوم التي ستبدأ فيها المزامنة بالسرعة الكاملة - عادةً ما يُفضل إجراء المزامنة بالسرعة الكاملة خلال الليل عندما يكون استخدام الإنترنت منخفضًا."
+
+#: ../../chapter6.rst:95
+msgid "Scan local files and sync-up to cloud as necessary"
+msgstr "فحص الملفات المحلية ومزامنتها مع السحابة حسب الضرورة"
+
+#: ../../chapter6.rst:97
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" local files are more accurate than the information in the cloud."
+msgstr "خاطئ (افتراضي) - يقوم عميل سطح المكتب بإنشاء قاعدة بيانات حالة تصف أي الملفات متزامنة وأيها ليست كذلك. في حالة إعادة تهيئة عميل سطح المكتب، قد تُفقد معلومات الحالة. يمكن استخدام هذا الخيار لفحص الملفات المحلية وتحميلها إلى السحابة عند الضرورة. هذه طريقة سريعة لإعادة بناء معلومات الحالة عندما تكون الملفات المحلية أكثر دقة من المعلومات الموجودة في السحابة."
+
+#: ../../chapter6.rst:100
+msgid "Scan cloud files and sync-down to local as necessary"
+msgstr "فحص الملفات السحابية ومزامنتها للتنزيل المحلي حسب الضرورة"
+
+#: ../../chapter6.rst:102
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" cloud files are more accurate than the local files."
+msgstr "خاطئ (الافتراضي) - يقوم عميل سطح المكتب بإنشاء قاعدة بيانات حالة تصف أي الملفات متزامنة وأيها ليست كذلك. في حالة إعادة تهيئة عميل سطح المكتب، قد تفقد معلومات الحالة. يمكن استخدام هذا الخيار لفحص الملفات المحلية وتحميلها إلى السحابة حسب الضرورة. هذه طريقة سريعة لإعادة بناء معلومات الحالة عندما تكون الملفات السحابية أكثر دقة من الملفات المحلية."
+
+#: ../../chapter6.rst:105
+msgid "Allow shortcuts to sync"
+msgstr "السماح بمزامنة الاختصارات"
+
+#: ../../chapter6.rst:107
+msgid ""
+"False (default) - By default, the Windows Client does not support "
+"file/folder shortcuts, as we cannot guarantee that the shortcuts in the "
+"cloud are always valid. If a user creates a shortcut from a computer and "
+"links to a local file. The shortcut is then uploaded to the cloud. If the"
+" user accesses the Windows Client from another computer, the shortcut "
+"will not work unless both computers have exactly the same files and "
+"folder structures. If the shortcut is broken, Windows Explorer will "
+"aggressively try to resolve the broken shortcut paths, which will slow "
+"down the Windows Client. If users only access their cloud files from the "
+"same computer/device, they may still want to save their shortcuts to the "
+"cloud. In this case, you should enable the \"Allow shortcuts to sync\" "
+"setting."
+msgstr "خاطئ (افتراضي) - بشكل افتراضي، لا يدعم العميل الخاص بنظام ويندوز اختصارات الملفات/المجلدات، لأننا لا نستطيع ضمان أن الاختصارات في السحابة صالحة دائمًا. إذا قام المستخدم بإنشاء اختصار من جهاز كمبيوتر ويربطه بملف محلي. ثم يتم تحميل الاختصار إلى السحابة. إذا وصل المستخدم إلى العميل الخاص بنظام ويندوز من جهاز كمبيوتر آخر، فلن يعمل الاختصار ما لم يكن لدى كلا الكمبيوترين نفس الملفات وهياكل المجلدات بالضبط. إذا كان الاختصار معطلاً، سيحاول مستكشف ويندوز بشكل مكثف حل مسارات الاختصار المعطلة، مما سيؤدي إلى إبطاء العميل الخاص بنظام ويندوز. إذا كان المستخدمون يصلون فقط إلى ملفاتهم السحابية من نفس الكمبيوتر/الجهاز، فقد يرغبون في حفظ اختصاراتهم إلى السحابة. في هذه الحالة، يجب عليك تمكين إعداد \"السماح بمزامنة الاختصارات\"."
+
+#: ../../chapter6.rst:110
+msgid "Disable file-change logs for dummy files (zero byte files)"
+msgstr "تعطيل سجلات تغيير الملفات للملفات الوهمية (ملفات بحجم صفر بايت)"
+
+#: ../../chapter6.rst:112
+msgid ""
+"False (default) - When set to True, sync will ignore file change log for "
+"empty files."
+msgstr "خاطئ (افتراضي) - عند تعيينه على صحيح، سيتجاهل المزامنة سجل تغيير الملف للملفات الفارغة."
+
+#: ../../chapter6.rst:115
+msgid "Scheduled Sync"
+msgstr "المزامنة المجدولة"
+
+#: ../../chapter6.rst:118
+msgid "Enable Scheduled Sync"
+msgstr "تمكين المزامنة المجدولة"
+
+#: ../../chapter6.rst:120
+msgid ""
+"False (default) - If true, the synchronization and transferring of files "
+"will follow the schedule defined in this section."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، فإن عملية المزامنة ونقل الملفات ستتبع الجدول الزمني المحدد في هذا القسم."
+
+#: ../../chapter6.rst:123
+msgid "Pause Sync Start Hour (default 7:00)"
+msgstr "ساعة بدء توقف المزامنة (الافتراضي 7:00)"
+
+#: ../../chapter6.rst:125
+msgid ""
+"7 (default) - This setting represents the hour (24-hour clock) of the day"
+" when synchronization will pause."
+msgstr "7 (الافتراضي) - تمثل هذه الإعدادات ساعة (ساعة 24) اليوم التي ستتوقف فيها عملية المزامنة."
+
+#: ../../chapter6.rst:128
+msgid "Pause Sync End Hour (default 20:00)"
+msgstr "ساعة انتهاء توقف المزامنة (الافتراضي 20:00)"
+
+#: ../../chapter6.rst:130
+msgid ""
+"20 (default) - This setting represents the hour (24-hour clock) of the "
+"day when synchronization will start."
+msgstr "20 (الافتراضي) - تمثل هذه الإعدادات ساعة (ساعة 24) اليوم التي ستبدأ فيها عملية المزامنة."
+
+#: ../../chapter6.rst:133
+msgid "Mapped Drive Control"
+msgstr "تحكم بالأقراص المُعينة"
+
+#: ../../chapter6.rst:136
+msgid "Always allow PDF preview"
+msgstr "دائمًا السماح بمعاينة PDF"
+
+#: ../../chapter6.rst:138
+msgid ""
+"False (default) - If true, always allow windows client to show PDF file "
+"preview."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، دائمًا ما يسمح لعميل ويندوز بإظهار معاينة ملف PDF."
+
+#: ../../chapter6.rst:141
+msgid "Do not show storage quota"
+msgstr "لا تظهر حصة التخزين"
+
+#: ../../chapter6.rst:143
+msgid ""
+"False (default) - If true, do not show the user's storage quota on "
+"windows client drive."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، لا تظهر حصة التخزين الخاصة بالمستخدم على محرك العميل في ويندوز."
+
+#: ../../chapter6.rst:146
+msgid "When starting up the client, open the mounted drive automatically"
+msgstr "عند بدء تشغيل العميل، افتح القرص المُركب تلقائيًا"
+
+#: ../../chapter6.rst:148
+msgid ""
+"True (default) - When starting up the client, automatically open File "
+"Explorer to show the windows client drive."
+msgstr "صحيح (افتراضي) - عند بدء تشغيل العميل، افتح مستكشف الملفات تلقائيًا لعرض محرك الأقراص الخاص بعميل ويندوز."
+
+#: ../../chapter6.rst:151
+msgid "Cloud drive label"
+msgstr "تسمية القرص السحابي"
+
+#: ../../chapter6.rst:153
+msgid ""
+"My Cloud Drive (default) - This is the drive label you can see from the "
+"Windows Explorer."
+msgstr "محرك السحابة الخاص بي (افتراضي) - هذا هو تسمية المحرك التي يمكنك رؤيتها من مستكشف ويندوز."
+
+#: ../../chapter6.rst:156
+msgid "Drive Letter"
+msgstr "حرف القرص"
+
+#: ../../chapter6.rst:158
+msgid "M (default) - This is the drive letter assignment."
+msgstr "M (الافتراضي) - هذا هو تعيين حرف القرص."
+
+#: ../../chapter6.rst:161
+msgid "In offline-mode, only show files that are cached and available locally"
+msgstr "في الوضع غير المتصل، قم بإظهار الملفات المخزنة مؤقتًا والمتاحة محليًا فقط"
+
+#: ../../chapter6.rst:163
+msgid ""
+"False (default) - If true, when working in offline mode, only show files "
+"that are already in cache. Hide any files are not in cache."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، عند العمل في وضع عدم الاتصال، يتم فقط عرض الملفات التي هي بالفعل في الذاكرة المؤقتة. إخفاء أي ملفات ليست في الذاكرة المؤقتة."
+
+#: ../../chapter6.rst:166
+msgid "Disable \"check-out\" on files and folders"
+msgstr "تعطيل \"الدفع\" على الملفات والمجلدات"
+
+#: ../../chapter6.rst:168
+msgid "False (default) - If true, disable manual file lock/unlock."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، قم بتعطيل قفل/فتح الملف يدويًا."
+
+#: ../../chapter6.rst:171
+msgid "Use Windows' default browser to open files and folders"
+msgstr "استخدم متصفح ويندوز الافتراضي لفتح الملفات والمجلدات"
+
+#: ../../chapter6.rst:173
+msgid ""
+"False (default) - If true, on windows client drive, when right click "
+"file/folder and select Open in Web Browser, open default browser to show "
+"the selected files."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، في محرك أقراص العميل على ويندوز، عند النقر بزر الماوس الأيمن على ملف/مجلد واختيار فتح في متصفح الويب، افتح المتصفح الافتراضي لعرض الملفات المحددة."
+
+#: ../../chapter6.rst:176
+msgid "Always sync folder meta-data when browsing with Windows Explorer"
+msgstr "دائمًا مزامنة بيانات الوصف الخاصة بالمجلد عند التصفح باستخدام مستكشف ويندوز"
+
+#: ../../chapter6.rst:178
+msgid ""
+"False (default) - If true, when visiting cloud folder in windows client "
+"drive, the client will ignore local folder listing cahe. It will always "
+"get latest folder listing cache from cloud. It will generate high dir "
+"request to the server."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، عند زيارة مجلد السحابة في محرك العميل الخاص بنظام ويندوز، سيتجاهل العميل قائمة مجلدات الذاكرة المحلية. سيحصل دائمًا على أحدث قائمة مجلدات من السحابة. سيولد ذلك عددًا كبيرًا من طلبات الدليل إلى الخادم."
+
+#: ../../chapter6.rst:181
+msgid "Disable drive mounting"
+msgstr "تعطيل تركيب الأقراص"
+
+#: ../../chapter6.rst:183
+msgid ""
+"False (default) - If true, no Cloud Drive will be mounted under My "
+"Computer for the Windows Client."
+msgstr "خاطئ (افتراضي) - إذا كان صحيحًا، لن يتم تركيب أي Cloud Drive تحت جهاز الكمبيوتر الخاص بي لعميل Windows."
+
+#: ../../chapter6.rst:186
+msgid "Create cloud drive shortcut under My Documents"
+msgstr "إنشاء اختصار للقرص السحابي تحت مستنداتي"
+
+#: ../../chapter6.rst:188
+msgid ""
+"True (default) - If true, there is a shortcut to the Cloud Drive under "
+"the My Documents' folder."
+msgstr "صحيح (افتراضي) - إذا كان صحيحًا، هناك اختصار للقرص السحابي تحت مجلد 'مستنداتي'."
+
+#: ../../chapter6.rst:191
+msgid "Large File Upload"
+msgstr "تحميل ملف كبير"
+
+#: ../../chapter6.rst:194
+msgid "Enable \"chunking\" when uploading files larger than a specific size (MB)"
+msgstr "تمكين \"التجزئة\" عند تحميل الملفات التي تزيد عن حجم معين (ميغابايت)"
+
+#: ../../chapter6.rst:196
+msgid ""
+"15 (default) - When uploading large file, the client can split the file "
+"in small chunks and upload small chunks in parallel. It can improve the "
+"upload speed. Also if a chunk fails, only need to retry the chunk. This "
+"setting defines how large the file size is to enable the chunk feature."
+msgstr "15 (الافتراضي) - عند تحميل ملف كبير، يمكن للعميل تقسيم الملف إلى أجزاء صغيرة وتحميل الأجزاء الصغيرة بالتوازي. يمكن أن يحسن ذلك من سرعة التحميل. أيضًا إذا فشل جزء ما، فقط يحتاج إلى إعادة تجربة الجزء. تحدد هذه الإعدادات مدى كبر حجم الملف لتفعيل ميزة الأجزاء."
+
+#: ../../chapter6.rst:199
+msgid "Default file chunk unit size (MB)"
+msgstr "الحجم الافتراضي لوحدة تقسيم الملف (ميغابايت)"
+
+#: ../../chapter6.rst:201
+msgid "20 (default) - This setting defines the chunk size."
+msgstr "20 (افتراضي) - هذا الإعداد يحدد حجم القطعة."
+
+#: ../../chapter6.rst:204
+msgid "Bandwidth Control"
+msgstr "تحكم في النطاق الترددي"
+
+#: ../../chapter6.rst:207
+msgid "Download Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "حد تنزيل النطاق الترددي (كيلوبايت/ثانية، 0 - غير محدود)"
+
+#: ../../chapter6.rst:209
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your download bandwidth to the number you enter in Kilobytes."
+msgstr "0 (افتراضي) - هذا الإعداد مضبوط على غير محدود بشكل افتراضي. قم بتغيير هذا لتحديد سرعة تنزيل البيانات إلى الرقم الذي تدخله بالكيلوبايت."
+
+#: ../../chapter6.rst:212
+msgid "Upload Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "حدود عرض النطاق الترددي للتحميل (كيلوبايت/ثانية، 0 - غير محدود)"
+
+#: ../../chapter6.rst:214
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your upload bandwidth to the number you enter in Kilobytes."
+msgstr "0 (افتراضي) - هذا الإعداد محدد بشكل افتراضي على غير محدود. قم بتغيير هذا لتحديد سرعة الرفع الخاصة بك إلى الرقم الذي تدخله بالكيلوبايت."
+
+#: ../../chapter6.rst:217
+msgid "Maximum number of file transfert threads"
+msgstr "الحد الأقصى لعدد خيوط نقل الملفات"
+
+#: ../../chapter6.rst:219
+msgid ""
+"5 (default) - Use this setting to restrict the number of threads used "
+"during synchronization."
+msgstr "5 (الافتراضي) - استخدم هذا الإعداد لتقييد عدد الخيوط المستخدمة أثناء المزامنة."
+
+#: ../../chapter6.rst:222
+msgid "Local Cache"
+msgstr "الذاكرة المؤقتة المحلية"
+
+#: ../../chapter6.rst:225
+msgid "Cache Directory"
+msgstr "دليل التخزين المؤقت"
+
+#: ../../chapter6.rst:227
+msgid ""
+"C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\gteamclient\\\\cache "
+"(default) - Use this setting to change the default location of the cache."
+msgstr "C:\\Users\\username\\AppData\\Local\\gteamclient\\cache (الافتراضي) - استخدم هذا الإعداد لتغيير موقع الذاكرة المؤقتة الافتراضي."
+
+#: ../../chapter6.rst:230
+msgid "Cache Size Limit (MB)"
+msgstr "حد الذاكرة المؤقتة (ميغابايت)"
+
+#: ../../chapter6.rst:232
+msgid ""
+"0 (default) - The default setting is zero which is unlimited. Set this to"
+" a different number to limit the cache to that size in MB. You can "
+"disable the cache (not recommended) using the Web Portal's Tenant "
+"Dashboard > Roles settings."
+msgstr "0 (الافتراضي) - الإعداد الافتراضي هو صفر والذي لا يحدد حجمًا. قم بتعيين هذا إلى رقم مختلف لتحديد حجم الذاكرة المؤقتة لهذا الحجم بالميغابايت. يمكنك تعطيل الذاكرة المؤقتة (غير موصى به) باستخدام لوحة تحكم الويب الخاصة بالمستأجر > إعدادات الأدوار."
+
+#: ../../chapter6.rst:235
+msgid "Minimum free disk space (GB)"
+msgstr "الحد الأدنى للمساحة الحرة على القرص (جيجابايت)"
+
+#: ../../chapter6.rst:237
+msgid ""
+"5 (default) - The cache will leave defined free disk space on the disk. "
+"This can prevent the cached files use the entire disk. If zero, the cache"
+" can take entire disk space."
+msgstr "5 (الافتراضي) - سيترك التخزين المؤقت مساحة حرة محددة على القرص. يمكن أن يمنع ذلك ملفات التخزين المؤقت من استخدام كامل مساحة القرص. إذا كان صفرًا، يمكن للتخزين المؤقت أن يأخذ كامل مساحة القرص."
+
+#: ../../chapter6.rst:240
+msgid "Outlook Plugin"
+msgstr "إضافة Outlook"
+
+#: ../../chapter6.rst:243
+msgid "Prompt for conversion when a file is larger than a specific size (KB)"
+msgstr "طلب التحويل عندما يكون حجم الملف أكبر من حجم محدد (كيلوبايت)"
+
+#: ../../chapter6.rst:245
+msgid ""
+"0 (default) - Default to never prompt. This setting defines how large the"
+" attachment file size is to use the Outlook plugin to automatically "
+"upload the file to Centrestack cloud."
+msgstr "0 (افتراضي) - الافتراضي هو عدم المطالبة أبدًا. تحدد هذه الإعدادات حجم ملف المرفق الكبير الذي يُستخدم فيه مكون Outlook الإضافي لتحميل الملف تلقائيًا إلى سحابة Centrestack."
+
+#: ../../chapter6.rst:248
+msgid "Attachments cache folder"
+msgstr "مجلد ذاكرة التخزين المؤقت للمرفقات"
+
+#: ../../chapter6.rst:250
+msgid "Outlook plugin will upload file to the defined folder."
+msgstr "سيقوم إضافة Outlook بتحميل الملف إلى المجلد المحدد."
+
+#: ../../chapter6.rst:253
+msgid "Link expiration time"
+msgstr "وقت انتهاء صلاحية الرابط"
+
+#: ../../chapter6.rst:255
+msgid ""
+"Never (default) - When attaching a file to an Outlook email, the Windows "
+"Client can upload the file to the cloud and generate a link to access the"
+" file. The link is added in the email, to reduce email size. This setting"
+" defines how long the link will expire."
+msgstr "أبدًا (افتراضي) - عند إرفاق ملف برسالة بريد إلكتروني في Outlook، يمكن للعميل الخاص بنظام Windows تحميل الملف إلى السحابة وإنشاء رابط للوصول إلى الملف. يتم إضافة الرابط في البريد الإلكتروني، لتقليل حجم البريد الإلكتروني. تحدد هذه الإعدادات المدة التي سينتهي فيها صلاحية الرابط."
+
+#: ../../chapter6.rst:258
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: ../../chapter6.rst:261
+msgid "Disable offline-mode notification"
+msgstr "تعطيل إشعار الوضع غير المتصل"
+
+#: ../../chapter6.rst:263
+msgid ""
+"False (default) - A system that goes into offline mode will send a "
+"notification by default. Change this to True to hide that notification."
+msgstr "خاطئ (افتراضي) - سيقوم النظام الذي يدخل في وضع غير متصل بإرسال إشعار كإعداد افتراضي. قم بتغيير هذا إلى صحيح لإخفاء ذلك الإشعار."
+
+#: ../../chapter6.rst:266
+msgid "Disable File-change notification"
+msgstr "تعطيل إشعار تغيير الملف"
+
+#: ../../chapter6.rst:268
+msgid ""
+"False (default) - When files are modified by other people or by the same "
+"user but from another machine, there is a file change notification. "
+"Change this setting to True to turn off that notification."
+msgstr "خاطئ (افتراضي) - عند تعديل الملفات من قِبل أشخاص آخرين أو من نفس المستخدم ولكن من جهاز آخر، يوجد إشعار بتغيير الملف. قم بتغيير هذا الإعداد إلى صحيح لإيقاف ذلك الإشعار."
+
+#: ../../chapter6.rst:271
+msgid "Disable large file-download tracker window"
+msgstr "تعطيل نافذة تتبع تنزيل الملفات الكبيرة"
+
+#: ../../chapter6.rst:273
+msgid ""
+"False (default) - When Windows Explorer is downloading a large file in "
+"the background, by default there is a large file download progress dialog"
+" showing. This setting allows you to turn off that notification."
+msgstr "خطأ (افتراضي) - عندما يقوم مستكشف ويندوز بتنزيل ملف كبير في الخلفية، بشكل افتراضي هناك مربع حوار لتقدم تنزيل الملف الكبير يظهر. تتيح لك هذه الإعدادات إيقاف تلك الإشعارات."
+
+#: ../../chapter6.rst:276
+msgid "Disable automatic task tracker for scheduled tasks"
+msgstr "تعطيل متتبع المهام التلقائي للمهام المجدولة"
+
+#: ../../chapter6.rst:278
+msgid ""
+"False (default) - By default, there is an automatic task tracker for "
+"scheduled tasks. This setting allows you to turn off the tracker."
+msgstr "خاطئ (افتراضي) - افتراضيًا، هناك متتبع مهام تلقائي للمهام المجدولة. تتيح لك هذه الإعدادات إيقاف تشغيل المتتبع."
+
+#: ../../chapter6.rst:281
+msgid "Disable in-place-editing and preview-disabled notifications"
+msgstr "تعطيل التحرير في المكان وإشعارات تعطيل المعاينة"
+
+#: ../../chapter6.rst:283
+msgid ""
+"False (default) - When in-place-editing zip/exe file and preview-"
+"disabled, by default, the system will send a notification. This setting "
+"allows you to turn off that notification."
+msgstr "خاطئ (افتراضي) - عند تحرير ملف zip/exe في مكانه وعدم تمكين المعاينة، بشكل افتراضي، سيقوم النظام بإرسال إشعار. تتيح لك هذه الإعدادات إيقاف تشغيل ذلك الإشعار."
+
+#: ../../chapter6.rst:286
+msgid "Disable shut-down confirmation"
+msgstr "تعطيل تأكيد الإغلاق"
+
+#: ../../chapter6.rst:288
+msgid ""
+"False (default) - When shutdown the desktop client, there is a shutdown "
+"confirmation window. This setting controls whether that confirmation "
+"dialog will be shown. Set this to True to hide the confirmation dialog."
+msgstr "خاطئ (افتراضي) - عند إغلاق عميل سطح المكتب، يظهر نافذة تأكيد الإغلاق. تتحكم هذه الإعدادات في ما إذا كان سيتم عرض مربع الحوار للتأكيد. قم بتعيين هذا إلى صحيح لإخفاء مربع الحوار للتأكيد."
+
+#: ../../chapter6.rst:291
+msgid "Disable folder move confirmation"
+msgstr "تعطيل تأكيد نقل المجلد"
+
+#: ../../chapter6.rst:293
+msgid ""
+"False (default) - When moving a folder within windows client drive, by "
+"default, the system will show a confirmation dialog. This setting allows "
+"you to turn off that confirmation dialog."
+msgstr "خاطئ (افتراضي) - عند نقل مجلد ضمن محرك العميل في ويندوز، بشكل افتراضي، سيظهر النظام مربع حوار للتأكيد. تتيح لك هذه الإعدادات إيقاف مربع حوار التأكيد هذا."
+
+#: ../../chapter6.rst:296
+msgid "Advanced Settings"
+msgstr "الإعدادات المتقدمة"
+
+#: ../../chapter6.rst:299
+msgid "Enable in-place opening of zip and exe files"
+msgstr "تمكين فتح ملفات الزِب والإكس إي في مكانها"
+
+#: ../../chapter6.rst:301
+msgid ""
+"False (default) - By default, Windows Client doesn't allow a user to open"
+" zip files in mounted M drive directly. This is because opening a zip "
+"file means to download the whole zip file to cache first. When the zip "
+"file is big, the download will generate high network traffic and cause "
+"windows explorer to slow down. Change this to True if you want users to "
+"be able to open Zip files within the M drive. The next setting determines"
+" the size limit of this feature."
+msgstr "خاطئ (افتراضي) - بشكل افتراضي، لا يسمح عميل Windows للمستخدم بفتح ملفات zip مباشرة في محرك الأقراص M المركب. وذلك لأن فتح ملف zip يعني تنزيل الملف بالكامل إلى الذاكرة المؤقتة أولاً. عندما يكون حجم ملف zip كبيرًا، فإن التنزيل سيولد حركة مرور شبكية عالية ويتسبب في بطء مستكشف windows. قم بتغيير هذا إلى صحيح إذا كنت تريد السماح للمستخدمين بفتح ملفات Zip داخل محرك الأقراص M. الإعداد التالي يحدد حد الحجم لهذه الميزة."
+
+#: ../../chapter6.rst:304
+msgid "Max size of zip files allowed to open in-place (MB)"
+msgstr "الحد الأقصى لحجم ملفات الضغط المسموح بفتحها مباشرةً (ميغابايت)"
+
+#: ../../chapter6.rst:306
+msgid ""
+"20 (default) - This defines the size limit for the zip file the user is "
+"allowed to open. It is designed to prevent user/windows explorer from "
+"downloading very large zip files. By default, it is 20M. When admin "
+"enables inplace zip file opening, only files within 20M can be opened."
+msgstr "20 (الافتراضي) - هذا يحدد حجم الحد الأقصى لملف الضغط الذي يُسمح للمستخدم بفتحه. صُمم هذا لمنع المستخدم أو مستكشف ويندوز من تنزيل ملفات الضغط الكبيرة جدًا. بشكل افتراضي، هو 20 ميغابايت. عندما يُمكن المسؤول فتح ملف الضغط في مكانه، فقط الملفات التي حجمها ضمن 20 ميغابايت يمكن فتحها."
+
+#: ../../chapter6.rst:309
+msgid "Max size of files for thumbnail generation (MB)"
+msgstr "الحد الأقصى لحجم الملفات لتوليد الصور المصغرة (ميغابايت)"
+
+#: ../../chapter6.rst:311
+msgid "0 (default) - This defines the file size limit for generating thumbnail."
+msgstr "0 (الافتراضي) - يحدد هذا حد حجم الملف لإنشاء الصور المصغرة."
+
+#: ../../chapter6.rst:314
+msgid "Always allow picture previews"
+msgstr "دائمًا السماح بمعاينات الصور"
+
+#: ../../chapter6.rst:316
+msgid ""
+"False (default) - If this is turned on preview thumbnails will be "
+"generated for your local files. This consumes a lot of bandwidth for "
+"unnecessary downloading of image files."
+msgstr "خاطئ (افتراضي) - إذا تم تفعيل هذا الخيار، سيتم إنشاء صور مصغرة للمعاينة لملفاتك المحلية. هذا يستهلك الكثير من النطاق الترددي لتحميل ملفات الصور غير الضرورية."
+
+#: ../../chapter6.rst:319
+msgid "Enable slow network mode"
+msgstr "تمكين وضع الشبكة البطيئة"
+
+#: ../../chapter6.rst:321
+msgid "False (default) - No further information."
+msgstr "خاطئ (افتراضي) - لا معلومات إضافية."
+
+#: ../../chapter6.rst:324
+msgid "Prevent computer from falling asleep during sync"
+msgstr "منع الكمبيوتر من الدخول في وضع السبات أثناء المزامنة"
+
+#: ../../chapter6.rst:326
+msgid ""
+"True (default) - Nighttime is typically a good time to transfer files at "
+"full speed. However, the machine may go into a sleeping state, preventing"
+" the transfer of files. This setting can prevent the sleep mode from "
+"activating."
+msgstr "صحيح (افتراضي) - الليل هو عادةً الوقت المناسب لنقل الملفات بأقصى سرعة. ومع ذلك، قد يدخل الجهاز في حالة سبات، مما يمنع نقل الملفات. يمكن لهذا الإعداد أن يمنع تفعيل وضع السبات."
+
+#: ../../chapter6.rst:329
+msgid "Mount drive in global space"
+msgstr "تركيب القرص في المساحة العالمية"
+
+#: ../../chapter6.rst:331
+msgid "False (default) - No furter information."
+msgstr "خاطئ (افتراضي) - لا معلومات إضافية."
+
+#: ../../chapter6.rst:334
+msgid "Upload hidden files"
+msgstr "تحميل الملفات المخفية"
+
+#: ../../chapter6.rst:336
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"Hidden Files to the cloud."
+msgstr "خاطئ (افتراضي) - قم بتغيير هذا الإعداد إلى صحيح إذا كنت ترغب في رفع الملفات المخفية إلى السحابة."
+
+#: ../../chapter6.rst:339
+msgid "Upload system files"
+msgstr "تحميل ملفات النظام"
+
+#: ../../chapter6.rst:341
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"System Files to the cloud."
+msgstr "خاطئ (افتراضي) - قم بتغيير هذا الإعداد إلى صحيح إذا كنت ترغب في رفع ملفات النظام إلى السحابة."
+
+#: ../../chapter6.rst:344
+msgid "Use Volume Shadow-Copy to upload files that are constantly accessed"
+msgstr "استخدم نسخ الظل للمجلدات لرفع الملفات التي يتم الوصول إليها باستمرار"
+
+#: ../../chapter6.rst:346
+msgid ""
+"False (default) - By default an actively opened file will not be uploaded"
+" until it has been closed. This setting can override that behavior, "
+"uploading all of the files regardless of their open status."
+msgstr "خاطئ (افتراضي) - بشكل افتراضي، لن يتم تحميل الملف الذي تم فتحه بنشاط حتى يتم إغلاقه. يمكن لهذا الإعداد تجاوز هذا السلوك، بتحميل جميع الملفات بغض النظر عن حالة فتحها."
+
+#: ../../chapter6.rst:349
+msgid "Disable AutoCAD optimization"
+msgstr "تعطيل تحسين أوتوكاد"
+
+#: ../../chapter6.rst:351
+msgid ""
+"False (default) - By default, windows client will delay the sync of "
+"AutoCAD files by combining several changes into a single change. This is "
+"specific for users who save frequently or have the AutoCAD autosave "
+"feature enabled with short intervals. The file change will not be "
+"uploaded to the cloud immediately after the file saving. Leave it Uncheck"
+" if only one person is working on the AutoCAD files. When the setting is "
+"checked, windows client will sync the file to cloud as soon as the file "
+"is saved. Check the setting if the user needs the change to be uploaded "
+"to cloud as soon as possible. When multiple users are working on same set"
+" of AutoCAD files, check the setting."
+msgstr "خاطئ (افتراضي) - بشكل افتراضي، سيؤخر عميل ويندوز مزامنة ملفات أوتوكاد عن طريق دمج عدة تغييرات في تغيير واحد. هذا مخصص للمستخدمين الذين يحفظون بشكل متكرر أو لديهم ميزة الحفظ التلقائي لأوتوكاد مفعلة بفترات قصيرة. لن يتم تحميل التغيير في الملف إلى السحابة مباشرة بعد حفظ الملف. اتركه غير محدد إذا كان شخص واحد فقط يعمل على ملفات أوتوكاد. عند تحديد الإعداد، سيقوم عميل ويندوز بمزامنة الملف مع السحابة بمجرد حفظ الملف. حدد الإعداد إذا كان المستخدم بحاجة إلى أن يتم تحميل التغيير إلى السحابة في أقرب وقت ممكن. عندما يعمل مستخدمون متعددون على نفس مجموعة ملفات أوتوكاد، حدد الإعداد."
+
+#: ../../chapter6.rst:354
+msgid "Diagnostics"
+msgstr "التشخيص"
+
+#: ../../chapter6.rst:357
+msgid "Days of audit trace to keep"
+msgstr "عدد أيام الاحتفاظ بسجل التدقيق"
+
+#: ../../chapter6.rst:359
+msgid "5 (default) - This setting defines how many days to keep the audit trace."
+msgstr "5 (الافتراضي) - يحدد هذا الإعداد عدد الأيام التي يتم فيها الاحتفاظ بسجل التدقيق."
+
+#: ../../chapter6.rst:362
+msgid "Trace Level (0-Disable, 1-error, 2-warning, 3-info, 100-verbose)"
+msgstr "مستوى التتبع (0-تعطيل، 1-خطأ، 2-تحذير، 3-معلومات، 100-تفصيلي)"
+
+#: ../../chapter6.rst:364
+msgid ""
+"0 (default) - By default, the trace level is 0. It can be changed to the "
+"levels shown, or 101 for maximum debug trace."
+msgstr "0 (الافتراضي) - بشكل افتراضي، مستوى التتبع هو 0. يمكن تغييره إلى المستويات المعروضة، أو 101 لأقصى تتبع للتصحيح."
+
+#: ../../chapter6.rst:368
+msgid "Sync Status"
+msgstr "حالة المزامنة"
+
+#: ../../chapter6.rst:371
+msgid "Task Manager"
+msgstr "مدير المهام"
+
+#: ../../chapter6.rst:373
+msgid ""
+"Click on the Task Manager icon on top right corner of client menu to open"
+" Task Manager. You can see the summary for all the sync tasks."
+msgstr "انقر على أيقونة مدير المهام في الزاوية العليا اليمنى من قائمة العميل لفتح مدير المهام. يمكنك رؤية الملخص لجميع مهام المزامنة."
+
+#: ../../chapter6.rst:378
+msgid "TASK MANAGER"
+msgstr "مدير المهام"
+
+#: ../../chapter6.rst:382
+msgid "Client Side Management Console - Web Portal"
+msgstr "وحدة التحكم الإدارية للعميل - البوابة الإلكترونية"
+
+#: ../../chapter6.rst:384
+msgid ""
+"Click the system tray icon (1) open the tray menu. From the three-dots "
+"(2) you can access other functions. By choosing \"Web Portal\" (3), the "
+"Windows client web portal will be opened in a default web browser. Click "
+"\"Management Console\" icon (4) to access management console from web."
+msgstr "انقر على أيقونة علبة النظام (1) لفتح قائمة العلبة. من النقاط الثلاث (2) يمكنك الوصول إلى وظائف أخرى. باختيار \"بوابة الويب\" (3)، سيتم فتح بوابة ويب العميل الخاصة بـ Windows في متصفح الويب الافتراضي. انقر على أيقونة \"لوحة التحكم\" (4) للوصول إلى لوحة التحكم من الويب."
+
+#: ../../chapter6.rst:389
+msgid "ACCESS MANAGEMENT CONSOLE WEB PORTAL"
+msgstr "واجهة إدارة الوصول للبوابة الإلكترونية"
+
+#: ../../chapter6.rst:392
+msgid "Device Information"
+msgstr "معلومات الجهاز"
+
+#: ../../chapter6.rst:394
+msgid ""
+"Device Manager has an overview of the device including details such as "
+"Device Owner, Device Type, OS Type, Device Client Version (software build"
+" number), Last Login Time, Sync Status, Cache Size, Last Report Time, and"
+" more. Click \"Manage\" icon to see Device details."
+msgstr "يوفر مدير الجهاز نظرة عامة على الجهاز بما في ذلك التفاصيل مثل مالك الجهاز، نوع الجهاز، نوع نظام التشغيل، إصدار عميل الجهاز (رقم بناء البرنامج)، وقت آخر تسجيل دخول، حالة المزامنة، حجم الذاكرة المؤقتة، وقت آخر تقرير، والمزيد. انقر على أيقونة \"إدارة\" لرؤية تفاصيل الجهاز."
+
+#: ../../chapter6.rst:399
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE MANAGER"
+msgstr "لوحة تحكم العميل - مدير الجهاز"
+
+#: ../../chapter6.rst:405
+msgid ""
+"Attached Folders are local folders that are maintaining a two-way "
+"synchronization relationship with cloud storage."
+msgstr "المجلدات المرفقة هي مجلدات محلية تحافظ على علاقة تزامن ثنائية الاتجاه مع التخزين السحابي."
+
+#: ../../chapter6.rst:410
+msgid "ATTACHING A FOLDER TO THE CLOUD"
+msgstr "ربط مجلد بالسحابة"
+
+#: ../../chapter6.rst:413
+msgid "Locked Files"
+msgstr "الملفات المقفلة"
+
+#: ../../chapter6.rst:415
+msgid ""
+"A file that is in use is locked. In the image below, the user has opened "
+"the document **(1)** in Word. When a user is editing a Word Document, "
+"that file will remain locked while it is open in Word. Sometimes you will"
+" need to click the \"Refresh\" text **(2)** to see files that are locked "
+"in the Locked Files view. These are locked files from the local device. "
+"The locked files include automatically locked files (e.g., opened in "
+"Word) and manually locked files (e.g., right-clicked and locked in "
+"context menu). If you need to force-unlock a file, this can be done using"
+" the lock icon **(3)**."
+msgstr "الملف الذي يتم استخدامه يكون مقفلاً. في الصورة أدناه، المستخدم قد فتح المستند **(1)** في Word. عندما يقوم المستخدم بتحرير مستند Word، سيظل هذا الملف مقفلاً طالما أنه مفتوح في Word. أحيانًا قد تحتاج إلى النقر على نص \"تحديث\" **(2)** لرؤية الملفات المقفلة في عرض الملفات المقفلة. هذه الملفات المقفلة من الجهاز المحلي. تشمل الملفات المقفلة الملفات المقفلة تلقائيًا (مثل، المفتوحة في Word) والملفات المقفلة يدويًا (مثل، النقر بزر الفأرة الأيمن والقفل في قائمة السياق). إذا كنت بحاجة إلى فتح قفل الملف قسرًا، يمكن القيام بذلك باستخدام أيقونة القفل **(3)**."
+
+#: ../../chapter6.rst:420
+msgid "LOCKED FILES VIEW"
+msgstr "عرض الملفات المقفلة"
+
+#: ../../chapter6.rst:423
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: ../../chapter6.rst:425
+msgid "Settings are settings that can be applied to the current device."
+msgstr "الإعدادات هي إعدادات يمكن تطبيقها على الجهاز الحالي."
+
+#: ../../chapter6.rst:430
+msgid "CONSOLE SETTINGS"
+msgstr "إعدادات وحدة التحكم"
+

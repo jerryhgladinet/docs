@@ -16,10 +16,3 @@ Contents:
    chapter03
    chapter04
    chapter05
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

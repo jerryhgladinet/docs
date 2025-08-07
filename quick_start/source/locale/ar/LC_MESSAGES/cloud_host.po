@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../cloud_host.rst:3
+msgid "\"Cloud SaaS-Hosted\" Quick Start"
+msgstr "البدء السريع لـ \"السحابة كخدمة مستضافة\""
+
+#: ../../cloud_host.rst:6
+msgid "Introduction"
+msgstr "مقدمة"
+
+#: ../../cloud_host.rst:8
+msgid ""
+"Similar to a Data-Center MSP-Hosted environment, CentreStack has a Cloud "
+"version that is readily hosted."
+msgstr "مشابهًا لبيئة MSP-Hosted في مركز البيانات، يمتلك CentreStack نسخة سحابية متاحة بالفعل للاستضافة."
+
+#: ../../cloud_host.rst:10
+msgid ""
+"This works well for managed service providers who have smaller clients "
+"here and there. Because of the smaller number of total clients, the Data-"
+"Center MSP-Hosted overhead is relatively high. MSPs can use the Cloud "
+"version since it is readily deployed and ready to use."
+msgstr "هذا يعمل بشكل جيد بالنسبة لمقدمي الخدمات المدارة الذين لديهم عملاء أصغر هنا وهناك. بسبب العدد الأصغر لإجمالي العملاء، فإن النفقات العامة لاستضافة مركز البيانات MSP مرتفعة نسبياً. يمكن لمقدمي الخدمات المدارة استخدام النسخة السحابية لأنها جاهزة للتوظيف والاستخدام."
+
+#: ../../cloud_host.rst:17
+msgid "Preparation"
+msgstr "التحضير"
+
+#: ../../cloud_host.rst:19
+msgid ""
+"Since you don't need to prepare the CentreStack server installation any "
+"more (it is hosted by CentreStack.com), all that you need to do is create"
+" hosted tenants. A tenant, based on business requirement,  is mapped to"
+msgstr "بما أنك لست بحاجة إلى تجهيز تثبيت خادم CentreStack بعد الآن (حيث يتم استضافته بواسطة CentreStack.com)، كل ما تحتاج إليه هو إنشاء مستأجرين مستضافين. المستأجر، بناءً على متطلبات العمل، يتم تعيينه"
+
+#: ../../cloud_host.rst:22
+msgid "a client of yours"
+msgstr "أحد عملائك"
+
+#: ../../cloud_host.rst:23
+msgid "a company"
+msgstr "شركة"
+
+#: ../../cloud_host.rst:24
+msgid "an organization in a bigger company"
+msgstr "منظمة داخل شركة أكبر"
+
+#: ../../cloud_host.rst:29
+msgid "Create Tenant"
+msgstr "إنشاء مستأجر"
+
+#: ../../cloud_host.rst:31
+msgid "You can create tenants directly from the Hosted-CentreStack."
+msgstr "يمكنك إنشاء المستأجرين مباشرة من Hosted-CentreStack."
+
+#: ../../cloud_host.rst:36
+msgid "Please reference Server Agent User Guide for File Server Migration:"
+msgstr "يرجى الرجوع إلى دليل مستخدم وكيل الخادم لنقل خادم الملفات:"
+
+#: ../../cloud_host.rst:38
+msgid ""
+"`Server Agent User Guide "
+"<http://www.centrestack.com/Library/ServerAgentGuide/index.html>`_"
+msgstr "`دليل مستخدم وكيل الخادم <http://www.centrestack.com/Library/ServerAgentGuide/index.html>`_"
+

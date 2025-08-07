@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:4
+msgid "4 Folder and File Features"
+msgstr "4 Kansion ja tiedoston ominaisuudet"
+
+#: ../../chapter04.rst:6
+msgid ""
+"When you Right click on a folder or a file you can access the context "
+"menu, which allows you to Share, Get share link, enable offline Access, "
+"Open in web browser, and Force Refresh."
+msgstr "Kun napsautat hiiren kakkospainikkeella kansiota tai tiedostoa, pääset käsiksi pikavalikkoon, josta voit jakaa, hankkia jakolinkin, ottaa käyttöön offline-käytön, avata selaimessa ja pakottaa päivityksen."
+
+#: ../../chapter04.rst:9
+msgid "Folder and File Sharing"
+msgstr "Kansion ja tiedoston jakaminen"
+
+#: ../../chapter04.rst:11
+msgid ""
+"To share a file or folder, simply right click on it and select "
+"**\"Share\"** from the menu item:"
+msgstr "Tiedoston tai kansion jakamiseksi, klikkaa sitä hiiren oikealla painikkeella ja valitse valikosta **\"Jaa\"**:"
+
+#: ../../chapter04.rst:15
+msgid ""
+"A wizard will be launched to allow you to \"Invite People\". To set this "
+"up, click the **Share Icon (1)**. In the new window enter the email(s) "
+"**(2)** of anyone you wish to share this with seperated by semicolons "
+"(;). Click **\"CONTINUE\" (3)**."
+msgstr "Taikuri käynnistetään, jotta voit kutsua ihmisiä mukaan. Aloittaaksesi, klikkaa **Jaa-kuvaketta (1)**. Uudessa ikkunassa syötä sähköpostiosoite(et) **(2)** kenelle tahansa, jonka haluat jakaa tämän kanssa, eroteltuna puolipisteillä (;). Klikkaa **\"JATKA\" (3)**."
+
+#: ../../chapter04.rst:17
+msgid ""
+"In the next window you can choose how you want to share: expiration time,"
+" access rights (read only, view only, full control). After making your "
+"option selections, choose **\"SHARE\" (4)** or **\"GET LINK\" (5)**. "
+"\"SHARE\" sends emails to your guest users and \"GET LINK\" opens a "
+"window with the URL you can use to create a custom email or use some "
+"other method to communicate with your guest users."
+msgstr "Seuraavassa ikkunassa voit valita, miten haluat jakaa: vanhenemisajan, käyttöoikeudet (vain luku, vain katselu, täydet oikeudet). Valittuasi vaihtoehdot, valitse **\"JAA\" (4)** tai **\"HANKI LINKKI\" (5)**. \"JAA\" lähettää sähköposteja vierailijakäyttäjillesi ja \"HANKI LINKKI\" avaa ikkunan, jossa on URL, jota voit käyttää luodaksesi mukautetun sähköpostin tai käyttää jotain muuta menetelmää kommunikoidaksesi vierailijakäyttäjiesi kanssa."
+
+#: ../../chapter04.rst:23
+msgid "Edit Share"
+msgstr "Muokkaa jakoa"
+
+#: ../../chapter04.rst:24
+msgid ""
+"If a file or a folder is already shared, you can right click on the "
+"shared file or folder and select 'Share' to access the edit share menu. "
+"Here you can delete the share, edit the share, resend the notification "
+"email, show share link and enable and disable public link."
+msgstr "Jos tiedosto tai kansio on jo jaettu, voit napsauttaa hiiren kakkospainikkeella jaettua tiedostoa tai kansiota ja valita 'Jaa' päästäksesi muokkaamaan jakamisvalikkoa. Täällä voit poistaa jaon, muokata jakoa, lähettää ilmoitussähköpostin uudelleen, näyttää jakolinkin sekä ottaa käyttöön ja poistaa käytöstä julkisen linkin."
+
+#: ../../chapter04.rst:30
+msgid "Troubleshooting"
+msgstr "Vianmääritys"
+
+#: ../../chapter04.rst:32
+msgid ""
+"To verify that the Cloud Drive Mac Client \"Finder\" extension is active,"
+" you can check the setting by clicking the System Preferences button and "
+"choosing **\"Extensions\"** from the preferences options."
+msgstr "Varmistaaksesi, että Cloud Drive Mac Client \"Finder\" -laajennus on aktiivinen, voit tarkistaa asetuksen napsauttamalla Järjestelmäasetukset-painiketta ja valitsemalla **\"Laajennukset\"** asetusvaihtoehdoista."
+
+#: ../../chapter04.rst:36
+msgid ""
+"This will open the Extensions window. You will find the setting under the"
+" \"All\" category."
+msgstr "Tämä avaa Laajennukset-ikkunan. Löydät asetuksen \"Kaikki\"-kategoriasta."
+
+#: ../../chapter04.rst:42
+msgid "Icon Overlays"
+msgstr "Kuvakkeen päällekkäisyydet"
+
+#: ../../chapter04.rst:44
+msgid "There are three icon overlays on files to represent different states."
+msgstr "Tiedostoissa on kolme kuvakkeen päällystä, jotka edustavat eri tiloja."
+
+#: ../../chapter04.rst:48
+msgid "**Thin Green Check Mark**"
+msgstr "**Ohut vihreä rastimerkki**"
+
+#: ../../chapter04.rst:50
+msgid ""
+"This icon overlay means files are in the cloud but the file content is "
+"not local."
+msgstr "Tämä kuvakkeen päällyste tarkoittaa, että tiedostot ovat pilvessä, mutta tiedoston sisältö ei ole paikallinen."
+
+#: ../../chapter04.rst:52
+msgid "**Solid Circle Green Check Mark**"
+msgstr "**Kiinteä ympyrä vihreä rasti**"
+
+#: ../../chapter04.rst:54
+msgid ""
+"This icon overlay means files are in the cloud and are also available "
+"from local."
+msgstr "Tämä kuvakkeen päällekkäisyys tarkoittaa, että tiedostot ovat pilvessä ja ne ovat saatavilla myös paikallisesti."
+
+#: ../../chapter04.rst:56
+msgid "**Blue Uploading Icon**"
+msgstr "**Sininen latauskuvake**"
+
+#: ../../chapter04.rst:58
+msgid "This icon shows the file is being uploaded and not completely done yet."
+msgstr "Tämä kuvake osoittaa, että tiedostoa ladataan ylös eikä se ole vielä valmis."
+

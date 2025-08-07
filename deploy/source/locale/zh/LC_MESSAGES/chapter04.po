@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:2
+msgid "System Requirements"
+msgstr "系统要求"
+
+#: ../../chapter04.rst:4
+msgid ""
+"CentreStack server is built on top of the Microsoft Web Platform, which "
+"includes:"
+msgstr "CentreStack服务器建立在Microsoft Web平台之上，其中包括："
+
+#: ../../chapter04.rst:6
+msgid "Windows Server base operating system"
+msgstr "Windows Server 基础操作系统"
+
+#: ../../chapter04.rst:7
+msgid "Internet Information Server 7/8/10 (IIS)"
+msgstr "互联网信息服务器 7/8/10 (IIS)"
+
+#: ../../chapter04.rst:8
+msgid ".Net Framework 4.5+"
+msgstr ".Net 框架 4.5+"
+
+#: ../../chapter04.rst:9
+msgid "ASP.NET"
+msgstr "ASP.NET"
+
+#: ../../chapter04.rst:10
+msgid "PostgreSQL, MySQL, Microsoft SQL Server or Microsoft SQL Server Express"
+msgstr "PostgreSQL、MySQL、Microsoft SQL Server 或 Microsoft SQL Server Express"
+
+#: ../../chapter04.rst:12
+msgid "The base operating system can be either:"
+msgstr "基础操作系统可以是："
+
+#: ../../chapter04.rst:14
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
+
+#: ../../chapter04.rst:15
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
+
+#: ../../chapter04.rst:16
+msgid "Windows Server 2016"
+msgstr "Windows Server 2016"
+
+#: ../../chapter04.rst:18
+msgid ""
+"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"comes directly with these newer server OS platforms. It is easier and "
+"faster to install CentreStack software on Windows Server 2022/2019/2016."
+msgstr "我们推荐使用Windows Server 2022/2019/2016，因为.Net Framework 4.5+ 直接随这些新版服务器操作系统提供。在Windows Server 2022/2019/2016上安装CentreStack软件更加容易和快捷。"
+
+#: ../../chapter04.rst:23
+msgid ""
+"The CentreStack server installer is capable of installing all the "
+"dependency system components such as .NET Framework and etc. For "
+"installation, a clean machine is recommended."
+msgstr "CentreStack服务器安装程序能够安装所有依赖的系统组件，如.NET Framework等。建议在一台干净的机器上进行安装。"
+
+#: ../../chapter04.rst:25
+msgid ""
+"There is no need to prepare the machine beyond the clean state of the "
+"basic Operating System software."
+msgstr "无需对机器进行任何准备，只需保持基本操作系统软件的干净状态即可。"
+
+#: ../../chapter04.rst:29
+msgid "Windows Server 2022, 2019, 2016"
+msgstr "Windows Server 2022、2019、2016"
+
+#: ../../chapter04.rst:31
+msgid ""
+"The base operating system provides the base of the Microsoft Web "
+"Platform. It will be loaded with the mentioned Microsoft components "
+"before the core CentreStack software is installed."
+msgstr "基础操作系统提供了Microsoft Web平台的基础。在安装核心CentreStack软件之前，将会加载所提到的Microsoft组件。"
+
+#: ../../chapter04.rst:35
+msgid ""
+"The CentreStack installer will install and load  all the dependency "
+"Windows components."
+msgstr "CentreStack安装程序将安装并加载所有依赖的Windows组件。"
+
+#: ../../chapter04.rst:39
+msgid ""
+"Base Operating System with English locale is recommended. (The User "
+"Interface can be in a different locale.)"
+msgstr "建议使用英文区域设置的基本操作系统。（用户界面可以使用不同的区域设置。）"
+
+#: ../../chapter04.rst:42
+msgid "SQL Server / MySQL Server"
+msgstr "SQL服务器 / MySQL服务器"
+
+#: ../../chapter04.rst:44
+msgid ""
+"The Microsoft SQL Server or SQL Server Express or MySQL is used to store "
+"static configuration information such as the user name, email, storage "
+"configuration, files and folders, sharing information and others."
+msgstr "Microsoft SQL Server、SQL Server Express 或 MySQL 用于存储静态配置信息，如用户名、电子邮件、存储配置、文件和文件夹、共享信息等。"
+
+#: ../../chapter04.rst:47
+msgid ""
+"It is recommended that the SQL Server has daily backups since it contains"
+" configuration information for the service to run properly."
+msgstr "建议SQL服务器每天进行备份，因为它包含了服务正常运行所需的配置信息。"
+
+#: ../../chapter04.rst:49
+msgid ""
+"If you have SQL Server Standard Edition or SQL Server Enterprise Edition,"
+" you can take advantage of the high availability features like Always-On "
+"Clustering or Always-On Fail Over Group."
+msgstr "如果您使用的是SQL Server Standard Edition或SQL Server Enterprise Edition，您可以利用高可用性功能，如Always-On集群或Always-On故障转移组。"
+
+#: ../../chapter04.rst:52
+msgid "MySQL Community Edition is also supported."
+msgstr "MySQL 社区版也得到支持。"
+
+#: ../../chapter04.rst:54
+msgid ""
+"If you are setting CentreStack server up in Amazon AWS, Amazon Aurora DB "
+"is also recommended."
+msgstr "如果您在亚马逊AWS中设置CentreStack服务器，也推荐使用亚马逊Aurora DB。"
+
+#: ../../chapter04.rst:58
+msgid ""
+"The CentreStack server installer is capable of installing SQL Express or "
+"MySQL. If you only need an all-in-one deployment for a single server "
+"deployment, the installer can install the database automatically."
+msgstr "CentreStack服务器安装程序能够安装SQL Express或MySQL。如果您只需要单服务器部署的一体化部署，安装程序可以自动安装数据库。"
+
+#: ../../chapter04.rst:61
+msgid ".Net Framework 4"
+msgstr ".Net 框架 4"
+
+#: ../../chapter04.rst:63
+msgid ""
+"The CentreStack Server is built with .Net Framework 4, with ASP.NET and "
+"WCF."
+msgstr "CentreStack服务器是基于.Net Framework 4构建的，采用了ASP.NET和WCF技术。"
+
+#: ../../chapter04.rst:65
+msgid ""
+"We recommend .Net Framework 4.5 and above as it works better with remote "
+"clients that have Internet Explorer 10 or 11."
+msgstr "我们推荐使用 .Net Framework 4.5 及以上版本，因为它能更好地与安装了 Internet Explorer 10 或 11 的远程客户端协同工作。"
+
+#: ../../chapter04.rst:69
+msgid ""
+"The CentreStack server Installer will install .NET 4.5 and other "
+"dependency components automatically."
+msgstr "CentreStack服务器安装程序将自动安装.NET 4.5和其他依赖组件。"
+
+#: ../../chapter04.rst:73
+msgid "ASP.NET 4.5/4.6/4.7"
+msgstr "ASP.NET 4.5/4.6/4.7"
+
+#: ../../chapter04.rst:75
+msgid ""
+"CentreStack web browser portal user interface is written in ASP.NET, HTML"
+" and JavaScript."
+msgstr "CentreStack网页浏览器门户用户界面使用ASP.NET、HTML和JavaScript编写。"
+
+#: ../../chapter04.rst:78
+msgid "Internet Information Server (IIS)"
+msgstr "互联网信息服务 (IIS)"
+
+#: ../../chapter04.rst:80
+msgid ""
+"CentreStack Server-side services are hosted inside the Internet "
+"Information Server (IIS). It provides brokerage functionalities and "
+"secure gateway between the Client Agents and the back-end storage. It is "
+"also a value-add layer on top of the back-end storage."
+msgstr "CentreStack 服务器端服务托管在互联网信息服务（IIS）内。它提供客户端代理与后端存储之间的中介功能和安全网关。它也是在后端存储之上的增值层。"
+
+#: ../../chapter04.rst:86
+msgid ""
+"The CentreStack Server Installer will enable IIS Service if not already. "
+"So no manual step required."
+msgstr "如果尚未启用，CentreStack服务器安装程序将启用IIS服务。因此，不需要手动操作。"
+
+#: ../../chapter04.rst:89
+msgid "Recommended Hardware Specification"
+msgstr "推荐硬件规格"
+
+#: ../../chapter04.rst
+msgid "Memory"
+msgstr "内存"
+
+#: ../../chapter04.rst:93
+msgid "4GB, (8+GB is better for production environment)"
+msgstr "4GB（生产环境建议使用8GB或更高）"
+
+#: ../../chapter04.rst
+msgid "Hard Drive"
+msgstr "硬盘驱动器"
+
+#: ../../chapter04.rst:97
+msgid "100G"
+msgstr "100G"
+
+#: ../../chapter04.rst
+msgid "Operating System"
+msgstr "操作系统"
+
+#: ../../chapter04.rst:101
+msgid "Windows 2022, Windows 2019, Windows 2016"
+msgstr "Windows 2022、Windows 2019、Windows 2016"
+
+#: ../../chapter04.rst
+msgid "CPU"
+msgstr "CPU"
+
+#: ../../chapter04.rst:105
+msgid ""
+"Intel, minimum 2-Core, prefer 4-Core (or 2-vCPU/4-vCPU  if on a virtual "
+"machine)"
+msgstr "英特尔，最低2核，建议4核（如果在虚拟机上，则为2-vCPU/4-vCPU）"
+
+#: ../../chapter04.rst:109
+msgid ""
+"Virtual Machines are recommended. A Clean machine built from a base OS "
+"with English Locale is recommended. After providing the clean machine, "
+"the CentreStack Server installer will install the rest of the Windows "
+"system components and CentreStack components automatically. The software "
+"is hypervisor neutral. The hypervisor can be Hyper-V, VMWare or others. "
+"The software can be installed on a physical machine as well if needed."
+msgstr "建议使用虚拟机。建议从具有英文区域设置的基础操作系统构建干净的机器。提供干净的机器后，CentreStack服务器安装程序将自动安装其余的Windows系统组件和CentreStack组件。该软件与虚拟机管理程序无关。虚拟机管理程序可以是Hyper-V、VMWare或其他。如果需要，该软件也可以安装在物理机器上。"
+
+#: ../../chapter04.rst:115
+msgid "Capacity Planning"
+msgstr "容量规划"
+
+#: ../../chapter04.rst:117
+msgid ""
+"For user counts smaller than 1000, a single CentreStack server is enough."
+" Most of the time, an all-in-one server deployment will be sufficient. In"
+" this case you will install the CentreStack Server in a single physical "
+"or virtual machine. The default CentreStack installer will install all "
+"the components (Database/Web Node/Worker Node) on one machine."
+msgstr "对于用户数量少于1000的情况，一个单一的CentreStack服务器就足够了。大多数情况下，一个全包式服务器部署就已经足够。在这种情况下，您将在一台物理或虚拟机器上安装CentreStack服务器。默认的CentreStack安装程序会在一台机器上安装所有组件（数据库/网页节点/工作节点）。"
+
+#: ../../chapter04.rst:120
+msgid ""
+"For user counts greater than 1000, it is recommended to have the SQL "
+"Server node in a separate physical or virtual machine."
+msgstr "对于用户数量超过1000的情况，建议将SQL Server节点放在单独的物理或虚拟机上。"
+
+#: ../../chapter04.rst:122
+msgid ""
+"The rest of the worker nodes will share the load for the users in a "
+"capacity of 1000 each."
+msgstr "其余的工作节点将以每个节点1000个用户的容量共享负载。"
+
+#: ../../chapter04.rst:124
+msgid ""
+"In this case a virtual machine is recommended for each worker node and "
+"you should use a wild card SSL certificate for each worker node."
+msgstr "在这种情况下，建议为每个工作节点使用一台虚拟机，并且应该为每个工作节点使用通配符SSL证书。"
+
+#: ../../chapter04.rst:128
+msgid ""
+"In some big deployments, the SSL can be off-loaded to hardware load "
+"balancer such as Citrix NetScaler or F5 BIG IP."
+msgstr "在一些大型部署中，SSL可以卸载到硬件负载均衡器，如Citrix NetScaler或F5 BIG IP。"
+
+#: ../../chapter04.rst:130
+msgid ""
+"The capacity of 1000 is referring to concurrent users. It is possible "
+"that you may have 5000 named users but only 1000 of them are using the "
+"product concurrently. So, in this case the per-server capacity can be "
+"5000 named users."
+msgstr "1000的容量是指并发用户数。您可能有5000个指定用户，但同时只有1000个用户在使用产品。因此，在这种情况下，每个服务器的容量可以是5000个指定用户。"
+
+#: ../../chapter04.rst:136
+msgid ""
+"(A Concurrent-User is defined as the users making requests in a 10-second"
+" period. For example, if you make a request A, and I make a request B, "
+"and if the time-difference between request A and request B is less than "
+"10 seconds, request A and request B are concurrent)."
+msgstr "（所谓的并发用户是指在10秒内发出请求的用户。例如，如果您发出了请求A，我发出了请求B，且请求A和请求B之间的时间差小于10秒，那么请求A和请求B就是并发的）。"
+
+#: ../../chapter04.rst:140
+msgid ""
+"**EXAMPLE**\\:  If you have 300,000 users in your company, you may need "
+"between 30-60 worker nodes (5000 – 10,000 named users for each worker "
+"node). You can scale up the memory size for each worker node to reduce "
+"the number of worker nodes required."
+msgstr "**示例**\：如果您的公司有300,000名用户，您可能需要30-60个工作节点（每个工作节点5000 – 10,000个命名用户）。您可以增加每个工作节点的内存大小，以减少所需的工作节点数量。"
+
+#: ../../chapter04.rst:144
+msgid "Load Balancing"
+msgstr "负载均衡"
+
+#: ../../chapter04.rst:146
+msgid ""
+"Our recommendation is to have your own load balancing device if possible."
+" However, CentreStack is capable of using worker nodes (for web function "
+"only) for load-balancing if you do not have an existing load balancer. "
+"You can pick a worker node to be the node exposed for login/contact point"
+" and pass the actual work to others."
+msgstr "我们建议您如果可能的话，使用自己的负载均衡设备。然而，如果您没有现成的负载均衡器，CentreStack有能力使用工作节点（仅限于网页功能）来进行负载均衡。您可以选择一个工作节点作为登录/联系点对外暴露，并将实际工作分配给其他节点。"
+
+#: ../../chapter04.rst:150
+msgid ""
+"If you have a hardware load balancer such as F5, you can skip web nodes, "
+"and have F5 directly load balance to a farm of worker nodes. You can also"
+" use the Network Load Balancing feature which is included in Windows "
+"2022/2019/2016 for load balancing."
+msgstr "如果您有硬件负载均衡器，比如F5，您可以跳过Web节点，直接使用F5对一组工作节点进行负载均衡。您也可以使用包含在Windows 2022/2019/2016中的网络负载均衡功能进行负载均衡。"
+

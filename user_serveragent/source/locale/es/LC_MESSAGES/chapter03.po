@@ -1,0 +1,1317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Administration and Configuration"
+msgstr "3 Administración y Configuración"
+
+#: ../../chapter03.rst:6
+msgid ""
+"|prodname| File Server Agent runs as a Windows Service in the background."
+" Since it is a background service, it always runs regardless of the users"
+" logging into the server."
+msgstr "|prodname| File Server Agent funciona como un servicio de Windows en segundo plano. Dado que es un servicio de fondo, siempre está en funcionamiento independientemente de los usuarios que inicien sesión en el servidor."
+
+#: ../../chapter03.rst:8
+msgid ""
+"The administration of the File Server Agent is done via a Windows "
+"application (the Cloud Server Console). Most of the time, the Cloud "
+"Server Console will launch into the web browser based administration "
+"console."
+msgstr "La administración del Agente del Servidor de Archivos se realiza a través de una aplicación de Windows (la Consola del Servidor en la Nube). La mayoría de las veces, la Consola del Servidor en la Nube se iniciará en la consola de administración basada en navegador web."
+
+#: ../../chapter03.rst:10
+msgid ""
+"There are two consoles, one on the Web Portal and the other one runs "
+"natively on a local machine. The one on the Web Portal is for general "
+"administration such as managing settings. The native console is for "
+"advanced troubleshooting such as collecting audit traces."
+msgstr "Hay dos consolas, una en el Portal Web y la otra se ejecuta de forma nativa en una máquina local. La del Portal Web es para administración general como la gestión de ajustes. La consola nativa es para solución de problemas avanzados como la recolección de trazas de auditoría."
+
+#: ../../chapter03.rst:12
+msgid ""
+"You need to log into the Windows server's console to use the |prodname| "
+"Server Agent Management Console for administration-related tasks. If you "
+"manage the Windows Server from remote locations, you can use Remote "
+"Desktop, or other remote control tools to access to the Windows server "
+"before you start the |prodname| Server Agent Management Console."
+msgstr "Necesita iniciar sesión en la consola del servidor Windows para usar la Consola de Administración del Agente del Servidor |prodname| para tareas relacionadas con la administración. Si administra el Servidor Windows desde ubicaciones remotas, puede usar Escritorio Remoto u otras herramientas de control remoto para acceder al servidor Windows antes de iniciar la Consola de Administración del Agente del Servidor |prodname|."
+
+#: ../../chapter03.rst:17
+msgid "3.1 File Server Agent Components"
+msgstr "3.1 Componentes del Agente del Servidor de Archivos"
+
+#: ../../chapter03.rst:19
+msgid "There are 3 windows services and 1 windows Application"
+msgstr "Hay 3 servicios de windows y 1 aplicación de windows"
+
+#: ../../chapter03.rst:21
+msgid "Cloud Access Service (gladgroupsvc.exe) - This is the main sync service"
+msgstr "Servicio de Acceso a la Nube (gladgroupsvc.exe) - Este es el servicio principal de sincronización"
+
+#: ../../chapter03.rst:23
+msgid ""
+"File Monitor Service (GladFileMonSvc) - This is responsible for Server "
+"Agent auto upgrade"
+msgstr "Servicio de Monitoreo de Archivos (GladFileMonSvc) - Esto es responsable de la actualización automática del Agente de Servidor"
+
+#: ../../chapter03.rst:25
+msgid ""
+"File System Mounter (gladrmountsvc) - This is mount the Cloud File System"
+" for the Gateway mode"
+msgstr "Montador del Sistema de Archivos (gladrmountsvc) - Esto monta el Sistema de Archivos en la Nube para el modo Gateway"
+
+#: ../../chapter03.rst:27
+msgid ""
+"Management Console (GtaskMMC.exe) - This is responsible talking to the "
+"background servicer and provide management feedback"
+msgstr "Consola de Gestión (GtaskMMC.exe) - Es responsable de comunicarse con el servicio de fondo y proporcionar retroalimentación de gestión"
+
+#: ../../chapter03.rst:31
+msgid ""
+"If GtaskMMC.exe is run with /runlocal /server command line parameter, it "
+"will launch into the local native management console. Otherwise the "
+"/server flag alone will launch the web based console."
+msgstr "Si se ejecuta GtaskMMC.exe con el parámetro de línea de comandos /runlocal /server, se iniciará en la consola de administración nativa local. De lo contrario, el indicador /server por sí solo iniciará la consola basada en la web."
+
+#: ../../chapter03.rst:36
+msgid "GLADINET CLOUD ACCESS (GCA) SERVICE"
+msgstr "SERVICIO DE ACCESO A LA NUBE DE GLADINET (GCA)"
+
+#: ../../chapter03.rst:38
+msgid ""
+"By default the File Server Agent background windows service runs as a "
+"local system account."
+msgstr "De forma predeterminada, el servicio de Windows en segundo plano del Agente del Servidor de Archivos se ejecuta como una cuenta de sistema local."
+
+#: ../../chapter03.rst:43
+msgid "GCA LOCAL SYSTEM ACCOUNT SERVICE"
+msgstr "SERVICIO DE CUENTA DE SISTEMA LOCAL GCA"
+
+#: ../../chapter03.rst:48
+msgid ""
+"Sometimes the LOCAL SYSTEM account doesn't have permission for the "
+"folders it wants to sync. In this case, the Log-on-as account for the "
+"Cloud Access Service (GladGroupSvc.exe) needs to be changed to a service "
+"account that has full control (read, write, delete, list) permission to "
+"the folder that it wants to sync."
+msgstr "A veces la cuenta del SISTEMA LOCAL no tiene permiso para las carpetas que desea sincronizar. En este caso, la cuenta de inicio de sesión para el Servicio de Acceso a la Nube (GladGroupSvc.exe) debe cambiarse a una cuenta de servicio que tenga permiso de control total (leer, escribir, eliminar, listar) sobre la carpeta que se quiere sincronizar."
+
+#: ../../chapter03.rst:50
+msgid ""
+"In an Active Directory environment, this normally can be changed to a "
+"Domain Admin Service Account."
+msgstr "En un entorno de Active Directory, esto normalmente puede cambiarse a una Cuenta de Servicio de Administrador de Dominio."
+
+#: ../../chapter03.rst:55
+msgid "3.2 Cloud Server Console - Web View"
+msgstr "3.2 Consola del Servidor en la Nube - Vista Web"
+
+#: ../../chapter03.rst:57
+msgid ""
+"|prodname| Cloud Server Console will launch automatically after the "
+"reboot using the Tenant Admin credentials that were used to install the "
+"software."
+msgstr "|prodname| Cloud Server Console se iniciará automáticamente después del reinicio utilizando las credenciales de Administrador del Tenant que se utilizaron para instalar el software."
+
+#: ../../chapter03.rst:61
+msgid ""
+"File Server Agent is tied to each Tenant, so the Tenant Admin's "
+"credential shall be used to link the File Server Agent to a specific "
+"Tenant."
+msgstr "El Agente del Servidor de Archivos está vinculado a cada Inquilino, por lo que se deben utilizar las credenciales del Administrador del Inquilino para conectar el Agente del Servidor de Archivos a un Inquilino específico."
+
+#: ../../chapter03.rst:63
+msgid ""
+"The cluster admin is also the Tenant Admin for the very first Tenant in "
+"the |prodname| system so by default it is a Tenant Admin as well."
+msgstr "El administrador del clúster también es el Administrador del Inquilino para el primer Inquilino en el sistema |prodname|, por lo que por defecto también es un Administrador del Inquilino."
+
+#: ../../chapter03.rst:67
+msgid ""
+"File Server agent is managed at Tenant level (not per-user level, nor "
+"cluster-level either)"
+msgstr "El agente del Servidor de Archivos se gestiona a nivel de Tenant (no a nivel de usuario, ni a nivel de clúster tampoco)"
+
+#: ../../chapter03.rst:70
+msgid "|prodname| Cloud Server Management Console Login:"
+msgstr "|prodname| Consola de Gestión del Servidor en la Nube Inicio de sesión:"
+
+#: ../../chapter03.rst:75
+msgid "MANAGEMENT CONSOLE LOGIN"
+msgstr "INICIO DE SESIÓN EN LA CONSOLA DE GESTIÓN"
+
+#: ../../chapter03.rst:77
+msgid ""
+"|prodname| Cloud Server Management Console can also be launched from "
+"Windows Start Programs Menu:"
+msgstr "La consola de administración de |prodname| Cloud Server también se puede iniciar desde el menú de programas de inicio de Windows:"
+
+#: ../../chapter03.rst:79
+msgid "Launch the Console from the Start Menu."
+msgstr "Inicie la Consola desde el Menú de Inicio."
+
+#: ../../chapter03.rst:84
+msgid "LAUNCH THE CONSOLE"
+msgstr "INICIAR LA CONSOLA"
+
+#: ../../chapter03.rst:86
+msgid ""
+"After launch, you see several options and tabs at the top of the view, "
+"Device Info is shown below."
+msgstr "Después del lanzamiento, verá varias opciones y pestañas en la parte superior de la vista, la Información del Dispositivo se muestra a continuación."
+
+#: ../../chapter03.rst:91 ../../chapter03.rst:109
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE INFO"
+msgstr "CONSOLA DE GESTIÓN DE CLIENTES - INFORMACIÓN DEL DISPOSITIVO"
+
+#: ../../chapter03.rst:93
+msgid "You can click on the left tab in the console to see more management items."
+msgstr "Puede hacer clic en la pestaña izquierda de la consola para ver más elementos de gestión."
+
+#: ../../chapter03.rst:98
+msgid "ACCESSING THE CONSOLE MENU"
+msgstr "ACCEDIENDO AL MENÚ DE LA CONSOLA"
+
+#: ../../chapter03.rst:102
+msgid "3.2.1 Device Info"
+msgstr "3.2.1 Información del Dispositivo"
+
+#: ../../chapter03.rst:104
+msgid ""
+"The default web console view is the device information panel. It shows "
+"the basic device information such as device name, device operating "
+"system, device version and etc."
+msgstr "La vista predeterminada de la consola web es el panel de información del dispositivo. Muestra la información básica del dispositivo como el nombre del dispositivo, el sistema operativo del dispositivo, la versión del dispositivo, etc."
+
+#: ../../chapter03.rst:112
+msgid ""
+"**Monitor Device Connect Status** - The device may get disconnected from "
+"the Internet for whatever reason, including but not limited to Internet "
+"outage, software crash, background service not running and etc. If the "
+"device is not connected to generate a healthy heart beat connection to "
+"the |prodname| server side software, this setting will generate an email "
+"alert if the device is not actively connected to the tenant acacount. "
+"When this alert is received, it needs to be investigated at high priority"
+" because it will lead to synchronization break-down."
+msgstr "**Monitorear el estado de conexión del dispositivo** - El dispositivo puede desconectarse de Internet por cualquier motivo, incluyendo, pero no limitado a, cortes de Internet, fallos de software, servicio en segundo plano no en funcionamiento, etc. Si el dispositivo no está conectado para generar una conexión de latido de corazón saludable con el software del lado del servidor de |prodname|, esta configuración generará una alerta por correo electrónico si el dispositivo no está conectado activamente a la cuenta del inquilino. Cuando se recibe esta alerta, debe investigarse con alta prioridad porque llevará a una interrupción de la sincronización."
+
+#: ../../chapter03.rst:120
+msgid "3.2.2 CIFS Shares"
+msgstr "3.2.2 Comparticiones CIFS"
+
+#: ../../chapter03.rst:122
+msgid ""
+"CIFS (Common Internet File System) shares refers to Windows Network "
+"Shares that are available on the File Server Agent machine. CIFS shares "
+"or SMB (Server Message Block) shares are used interchangably here."
+msgstr "Las comparticiones CIFS (Sistema de Archivos Común de Internet) se refieren a las Comparticiones de Red de Windows que están disponibles en la máquina del Agente del Servidor de Archivos. Las comparticiones CIFS o las comparticiones SMB (Bloque de Mensajes del Servidor) se utilizan indistintamente aquí."
+
+#: ../../chapter03.rst:127
+msgid "CIFS SHARES"
+msgstr "COMPARTICIONES CIFS"
+
+#: ../../chapter03.rst:129
+msgid ""
+"You can start migrating file server network shares from the current "
+"machine to |prodname|."
+msgstr "Puede comenzar a migrar las comparticiones de red del servidor de archivos de la máquina actual a |prodname|."
+
+#: ../../chapter03.rst:133
+msgid ""
+"Migration means setup two-way synchronization between the local folder "
+"and the remote |prodname| Server. It is a hybrid cloud configuration "
+"started by default. Over time, you may want to stop the local folder and "
+"go cloud only. That is reserved for future if you select to do so. Out of"
+" the box it is setup as a two-way synchronization folder for each CIFS "
+"share selected."
+msgstr "La migración implica configurar una sincronización bidireccional entre la carpeta local y el servidor remoto |prodname|. Es una configuración de nube híbrida que se inicia por defecto. Con el tiempo, es posible que desees detener la carpeta local e ir solo a la nube. Eso está reservado para el futuro si decides hacerlo. De manera predeterminada, se configura como una carpeta de sincronización bidireccional para cada recurso compartido CIFS seleccionado."
+
+#: ../../chapter03.rst:139
+msgid "MIGRATE A SHARE"
+msgstr "MIGRAR UNA CARPETA COMPARTIDA"
+
+#: ../../chapter03.rst:143
+msgid ""
+"The net result of migration is that you can access the files and folders "
+"from both the local file server and also the |prodname| side. Files "
+"changes on both side will synchronize to the other side. It is a hybrid "
+"local/cloud mode. Also when migration works on CIFS share (network "
+"share), optionally the local folder's NTFS permission can be replicated "
+"and synchronized to cloud side, while the local Active Directory users "
+"can be synchronized to cloud side."
+msgstr "El resultado neto de la migración es que puedes acceder a los archivos y carpetas tanto desde el servidor de archivos local como desde el lado de |prodname|. Los cambios en los archivos de ambos lados se sincronizarán con el otro lado. Es un modo híbrido local/nube. Además, cuando la migración funciona en una compartición CIFS (compartición de red), opcionalmente los permisos NTFS de la carpeta local pueden replicarse y sincronizarse con el lado de la nube, mientras que los usuarios locales del Active Directory pueden sincronizarse con el lado de la nube."
+
+#: ../../chapter03.rst:148
+msgid "Migrate"
+msgstr "Migrar"
+
+#: ../../chapter03.rst:150
+msgid ""
+"Clicking on the migrate link button will start the migration process on a"
+" specific network share. Normally when the File Server Agent and the "
+"|prodname| Server are on two completely different locations, the "
+"**\"Direct Access\"** option will not be shown. The **\"Two Way Sync\"** "
+"will be the only option."
+msgstr "Al hacer clic en el botón de enlace de migración se iniciará el proceso de migración en un recurso compartido de red específico. Normalmente, cuando el Agente del Servidor de Archivos y el Servidor |prodname| están en dos ubicaciones completamente diferentes, la opción **\"Acceso Directo\"** no se mostrará. La opción **\"Sincronización Bidireccional\"** será la única opción."
+
+#: ../../chapter03.rst:155
+msgid "MIGRATION OF DATA AND PERMISSIONS"
+msgstr "MIGRACIÓN DE DATOS Y PERMISOS"
+
+#: ../../chapter03.rst:159
+msgid "3.2.3 Attached Folders"
+msgstr "3.2.3 Carpetas Adjuntas"
+
+#: ../../chapter03.rst:162
+msgid "How to Attach a Folder"
+msgstr "Cómo adjuntar una carpeta"
+
+#: ../../chapter03.rst:164
+msgid ""
+"Attached folders, are folders on the local machine and can be "
+"synchronized to |prodname| and kept synchronized in a bi-directional way."
+msgstr "Las carpetas adjuntas son carpetas en la máquina local y pueden sincronizarse con |prodname| y mantenerse sincronizadas de manera bidireccional."
+
+#: ../../chapter03.rst:166
+msgid ""
+"The Attached Folder section allows you to browse into the machine's file "
+"structure and pick a folder to synchronize. In the Console drop-down "
+"menu, select **\"Attached Folders\"**."
+msgstr "La sección de Carpetas Adjuntas te permite explorar la estructura de archivos de la máquina y seleccionar una carpeta para sincronizar. En el menú desplegable de la Consola, selecciona **\"Carpetas Adjuntas\"**."
+
+#: ../../chapter03.rst:171
+msgid "ATTACHED FOLDERS"
+msgstr "CARPETAS ADJUNTAS"
+
+#: ../../chapter03.rst:173
+msgid "In the new view click the Attach Folder icon."
+msgstr "En la nueva vista, haga clic en el icono de Adjuntar Carpeta."
+
+#: ../../chapter03.rst:178
+msgid "ATTACH FOLDER BUTTON"
+msgstr "BOTÓN PARA ADJUNTAR CARPETA"
+
+#: ../../chapter03.rst:181
+msgid ""
+"In the folder selection view **(1)**, double click the drive **(2)** and "
+"navigate to the folder you wish to share. When you choose a folder, its "
+"path will appear in the Location field **(3)** and you should enter a "
+"name for your share in the Name field **(4)**. Click **\"ATTACH\"** to "
+"complete the process."
+msgstr "En la vista de selección de carpetas **(1)**, haz doble clic en la unidad **(2)** y navega hasta la carpeta que deseas compartir. Cuando elijas una carpeta, su ruta aparecerá en el campo Ubicación **(3)** y deberás ingresar un nombre para tu recurso compartido en el campo Nombre **(4)**. Haz clic en **\"ATTACH\"** para completar el proceso."
+
+#: ../../chapter03.rst:186
+msgid "ATTACHING A FOLDER"
+msgstr "ADJUNTANDO UNA CARPETA"
+
+#: ../../chapter03.rst:189
+msgid "Filter Button"
+msgstr "Botón de Filtro"
+
+#: ../../chapter03.rst:191
+msgid ""
+"Using the Filter Button **(1)**, you can set some of your folders to be "
+"excluded from being synchronized. To accomplish this, after you click the"
+" **Filter** button, click the **(+)** button **(2)** and explore to a "
+"folder you wish to exclude. In this example, it is a sub-folder **(3)** "
+"of the **SA Share** folder."
+msgstr "Utilizando el botón de Filtro **(1)**, puedes configurar algunas de tus carpetas para que sean excluidas de la sincronización. Para lograr esto, después de hacer clic en el botón **Filtro**, haz clic en el botón **(+)** **(2)** y navega hasta una carpeta que desees excluir. En este ejemplo, es una subcarpeta **(3)** de la carpeta **SA Share**."
+
+#: ../../chapter03.rst:196
+msgid "FILTER BUTTON"
+msgstr "BOTÓN DE FILTRO"
+
+#: ../../chapter03.rst:199
+msgid "Diagnostic Button"
+msgstr "Botón de Diagnóstico"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Diagnostic Button **(2)** can be used to **\"Compare\"** the cloud "
+"folder and the local network folder to determine if the y are the same. "
+"This is important to make sure that the local folder has been completely "
+"mirrored to the cloud."
+msgstr "El botón de Diagnóstico **(2)** puede ser utilizado para **\"Comparar\"** la carpeta en la nube y la carpeta de red local para determinar si son iguales. Esto es importante para asegurarse de que la carpeta local ha sido completamente reflejada en la nube."
+
+#: ../../chapter03.rst:206
+msgid "DIAGNOSTIC BUTTON"
+msgstr "BOTÓN DE DIAGNÓSTICO"
+
+#: ../../chapter03.rst:210
+msgid "Stop-Sync Button"
+msgstr "Botón de Detener-Sincronización"
+
+#: ../../chapter03.rst:212
+msgid ""
+"The Stop-Sync Button can be used to stop the synchronization between the "
+"folder from the Server Agent and the attached folder in the cloud. This "
+"is something you might want to do when all the users are accessing the "
+"folder from the cloud and no longer need local network access to the "
+"original folder. After the stop-sync, the local file changes are local "
+"changes, not related to cloud; and vise-versa, the file changes in the "
+"cloud will not be related to the local files, they are just two separate "
+"independent entities."
+msgstr "El botón Detener-Sincronización puede utilizarse para detener la sincronización entre la carpeta del Agente del Servidor y la carpeta adjunta en la nube. Esto es algo que podrías querer hacer cuando todos los usuarios están accediendo a la carpeta desde la nube y ya no necesitan acceso local en red a la carpeta original. Después de detener la sincronización, los cambios locales en los archivos son cambios locales, no relacionados con la nube; y viceversa, los cambios en los archivos en la nube no estarán relacionados con los archivos locales, son solo dos entidades independientes separadas."
+
+#: ../../chapter03.rst:217
+msgid ""
+"Stop-Sync is different from detach a previously attached folder. When a "
+"folder is detached, not only it stop-sync, but also the cloud side folder"
+" will be hidden and subject to retention policy for purge in the near "
+"future. So if your use case is to continue to use the files and folders "
+"from the cloud side and cloud side only, you want to do a stop-sync "
+"instead of doing a detach-folder."
+msgstr "Stop-Sync es diferente de desvincular una carpeta previamente adjunta. Cuando una carpeta se desvincula, no solo se detiene la sincronización, sino que también la carpeta del lado de la nube se ocultará y estará sujeta a la política de retención para ser purgada en un futuro cercano. Por lo tanto, si su caso de uso es continuar utilizando los archivos y carpetas del lado de la nube y solo del lado de la nube, querrá realizar un stop-sync en lugar de hacer un detach-folder."
+
+#: ../../chapter03.rst:227
+msgid "STOP-SYNC BUTTON"
+msgstr "BOTÓN DETENER SINCRONIZACIÓN"
+
+#: ../../chapter03.rst:232
+msgid ""
+"What is the difference between Import a CIFS Share and attach a folder to"
+" |prodname|?"
+msgstr "¿Cuál es la diferencia entre Importar una Compartición CIFS y adjuntar una carpeta a |prodname|?"
+
+#: ../../chapter03.rst:234
+msgid ""
+"First of all, both maintain bi-directional synchronization. The key "
+"difference is \"Import CIFS Share\" will also import folder permission to"
+" |prodname|, while Attached Folder only synchronize folders without "
+"synchronize permissions."
+msgstr "En primer lugar, ambos mantienen sincronización bidireccional. La diferencia clave es que \"Importar Compartición CIFS\" también importará los permisos de la carpeta a |prodname|, mientras que la Carpeta Adjunta solo sincroniza las carpetas sin sincronizar los permisos."
+
+#: ../../chapter03.rst:236
+msgid "Under the hood, both are **\"Attached Folders\"**."
+msgstr "Bajo el capó, ambos son **\"Carpetas Adjuntas\"**."
+
+#: ../../chapter03.rst:238
+msgid "\"Import CIFS Share\" = \"Attached Folder\" + \"Sync NTFS Permission\""
+msgstr "\"Importar compartición CIFS\" = \"Carpeta adjunta\" + \"Sincronizar permiso NTFS\""
+
+#: ../../chapter03.rst:242 ../../chapter03.rst:600
+msgid "Offline Folders"
+msgstr "Carpetas sin conexión"
+
+#: ../../chapter03.rst:244
+msgid ""
+"You can mark folders as offline. Offline folders will be pre-fetched to "
+"the local machine. Files changed remotely in the offline folders will "
+"also be pre-fetched to local machine."
+msgstr "Puede marcar carpetas para uso sin conexión. Las carpetas sin conexión se pre-cargarán en la máquina local. Los archivos que se cambien de forma remota en las carpetas sin conexión también se pre-cargarán en la máquina local."
+
+#: ../../chapter03.rst:246
+msgid ""
+"To access this feature, click the **\"Offline Folders\"** icon **(1)**. "
+"Then click he **(+)** icon **(2)** on the right side of the Offline "
+"Folders screen. In the explorer, navigate to the folder you wish to "
+"\"Offline\" and select it **(3)**. Then click **\"ENABLE OFFLINE "
+"ACCESS\"** **(4)** to complete the process."
+msgstr "Para acceder a esta función, haga clic en el icono **\"Carpetas sin conexión\"** **(1)**. Luego haga clic en el icono **(+)** **(2)** en el lado derecho de la pantalla de Carpetas sin conexión. En el explorador, navegue hasta la carpeta que desea \"Sin conexión\" y selecciónela **(3)**. Luego haga clic en **\"HABILITAR ACCESO SIN CONEXIÓN\"** **(4)** para completar el proceso."
+
+#: ../../chapter03.rst:251
+msgid "CHOOSING A FOLDER FOR OFFLINE ACCESS"
+msgstr "ELECCIÓN DE UNA CARPETA PARA ACCESO SIN CONEXIÓN"
+
+#: ../../chapter03.rst:255
+msgid "When to use offline folder?"
+msgstr "¿Cuándo usar la carpeta sin conexión?"
+
+#: ../../chapter03.rst:257
+msgid ""
+"When you have files and folders that you use frequently, you want to keep"
+" them local to the local file server, you can enable offline folder."
+msgstr "Cuando tienes archivos y carpetas que utilizas con frecuencia, y deseas mantenerlos locales en el servidor de archivos local, puedes habilitar la carpeta sin conexión."
+
+#: ../../chapter03.rst:260
+#, python-format
+msgid ""
+"Usually you use the offline folder for the gateway mode. When you use "
+"\"Migrate CIFS share\" or when you use \"Attach Folder\", the files and "
+"folders by default are local so there is no need to enable offline folder"
+" for this use case since files are 100% off-line from attached folders."
+msgstr "Normalmente utilizas la carpeta sin conexión para el modo de puerta de enlace. Cuando utilizas \"Migrar recurso compartido CIFS\" o cuando utilizas \"Adjuntar carpeta\", los archivos y carpetas por defecto son locales, por lo que no hay necesidad de habilitar la carpeta sin conexión para este caso de uso ya que los archivos están 100% fuera de línea de las carpetas adjuntas."
+
+#: ../../chapter03.rst:266
+msgid "Local File Lock"
+msgstr "Bloqueo de Archivo Local"
+
+#: ../../chapter03.rst:268
+msgid "Local File Lock section will show locked files from the local file server."
+msgstr "La sección de Bloqueo de Archivos Locales mostrará los archivos bloqueados desde el servidor de archivos local."
+
+#: ../../chapter03.rst:273 ../../chapter03.rst:284
+msgid "LOCKED FILES"
+msgstr "ARCHIVOS BLOQUEADOS"
+
+#: ../../chapter03.rst:277
+msgid "Locked Files"
+msgstr "Archivos bloqueados"
+
+#: ../../chapter03.rst:279
+msgid ""
+"Locked files section will show locked files from the |prodname| Server, "
+"and provides information about who owns the file that is locked. "
+"Information shown includes: File Owner, File Path, Locked From, Type and "
+"Locked Time."
+msgstr "La sección de archivos bloqueados mostrará los archivos bloqueados del Servidor |prodname| y proporcionará información sobre quién es el propietario del archivo que está bloqueado. La información mostrada incluye: Propietario del Archivo, Ruta del Archivo, Bloqueado Desde, Tipo y Tiempo de Bloqueo."
+
+#: ../../chapter03.rst:288
+msgid "Pending Check-ins"
+msgstr "Check-ins Pendientes"
+
+#: ../../chapter03.rst:290
+msgid ""
+"Pending check-ins will show files that are manually checked out from the "
+"local machine but haven't checked-in yet."
+msgstr "Las revisiones pendientes mostrarán los archivos que se han extraído manualmente desde la máquina local pero que aún no se han registrado."
+
+#: ../../chapter03.rst:295
+msgid "PENDING CHECK-INS"
+msgstr "CHECK-INS PENDIENTES"
+
+#: ../../chapter03.rst:299
+msgid "3.2.4 Settings"
+msgstr "3.2.4 Configuración"
+
+#: ../../chapter03.rst:301
+msgid ""
+"Settings Manager section will show client settings that can be changed "
+"and managed from the web console."
+msgstr "La sección del Administrador de Configuración mostrará los ajustes del cliente que se pueden cambiar y gestionar desde la consola web."
+
+#: ../../chapter03.rst:306
+msgid "SETTINGS MANAGER"
+msgstr "GESTOR DE CONFIGURACIONES"
+
+#: ../../chapter03.rst:310
+msgid "3.2.5 Task Manager"
+msgstr "3.2.5 Administrador de Tareas"
+
+#: ../../chapter03.rst:312
+msgid ""
+"Task Manager section will show the synchronization tasks that are running"
+" on the local machine. If there is a number on **\"Pending Tasks\"** or "
+"**\"Failed Tasks\"** you can click the text links next to those numbers "
+"to open a window that shows the tasks currently in progress. There are "
+"**\"PAUSE\"** and **\"START\"** buttons available on the left side of "
+"each of the task bars as well."
+msgstr "La sección del Administrador de Tareas mostrará las tareas de sincronización que se están ejecutando en la máquina local. Si hay un número en **\"Tareas Pendientes\"** o **\"Tareas Fallidas\"**, puedes hacer clic en los enlaces de texto junto a esos números para abrir una ventana que muestre las tareas actualmente en progreso. También hay botones **\"PAUSAR\"** y **\"INICIAR\"** disponibles en el lado izquierdo de cada una de las barras de tareas."
+
+#: ../../chapter03.rst:317
+msgid "TASK MANAGER"
+msgstr "GESTOR DE TAREAS"
+
+#: ../../chapter03.rst:321
+msgid "3.2.6 Migrate CIFS SHARES"
+msgstr "3.2.6 Migrar COMPARTICIONES CIFS"
+
+#: ../../chapter03.rst:323
+msgid ""
+"Migrate CIFS Shares can be accessed from the Console menu or the "
+"**\"MIGRATE CIFS SHARES\"** text link. You can pick a network share on "
+"the local server and synchronize it to the cluster server. As explained "
+"above, this is how you migrate a folder and its NTFS permissions at the "
+"same time."
+msgstr "Las acciones de Migrar CIFS se pueden acceder desde el menú de la Consola o el enlace de texto **\"MIGRATE CIFS SHARES\"**. Puedes seleccionar una acción de red en el servidor local y sincronizarla con el servidor del clúster. Como se explicó anteriormente, así es como migras una carpeta y sus permisos NTFS al mismo tiempo."
+
+#: ../../chapter03.rst:328
+msgid "MIGRATE CIFS SHARES"
+msgstr "MIGRAR COMPARTICIONES CIFS"
+
+#: ../../chapter03.rst:332
+msgid "3.2.7 Migrate Users"
+msgstr "3.2.7 Migrar Usuarios"
+
+#: ../../chapter03.rst:334
+msgid ""
+"Migrate users can import Active Directory users or local users to the "
+"|prodname| side as cloud users, while maintaining the same credentials as"
+" the local user."
+msgstr "Los usuarios que migran pueden importar usuarios de Active Directory o usuarios locales al lado de |prodname| como usuarios en la nube, manteniendo las mismas credenciales que el usuario local."
+
+#: ../../chapter03.rst:339
+msgid "MIGRATE USERS"
+msgstr "MIGRAR USUARIOS"
+
+#: ../../chapter03.rst:344
+msgid "3.3 Cloud Server Console - Native"
+msgstr "3.3 Consola del Servidor en la Nube - Nativa"
+
+#: ../../chapter03.rst:346
+msgid ""
+"You can launch the native management console from the program's "
+"installation folder. From the Command Prompt use the following command, "
+"``C:\\\\Program Files\\\\Gladinet\\\\Cloud Server Agent>gtaskmmc "
+"/runlocal /server``"
+msgstr "Puede iniciar la consola de administración nativa desde la carpeta de instalación del programa. Desde el Símbolo del sistema utilice el siguiente comando, ``C:\\Program Files\\Gladinet\\Cloud Server Agent>gtaskmmc /runlocal /server``"
+
+#: ../../chapter03.rst:351
+msgid "LAUNCHING THE NATIVE MANAGEMENT CONSOLE"
+msgstr "LANZANDO LA CONSOLA DE GESTIÓN NATIVA"
+
+#: ../../chapter03.rst:353
+msgid ""
+"Once you have logged in the Native Console will open. This gives you "
+"local access to Server Agent settings."
+msgstr "Una vez que haya iniciado sesión, se abrirá la Consola Nativa. Esto le brinda acceso local a la configuración del Agente del Servidor."
+
+#: ../../chapter03.rst:358
+msgid "NATIVE MANAGEMENT CONSOLE"
+msgstr "CONSOLA DE GESTIÓN NATIVA"
+
+#: ../../chapter03.rst:362
+msgid "3.3.1 Task Manager"
+msgstr "3.3.1 Administrador de Tareas"
+
+#: ../../chapter03.rst:364
+msgid "Task Manager shows all the system related tasks."
+msgstr "El Administrador de tareas muestra todas las tareas relacionadas con el sistema."
+
+#: ../../chapter03.rst:366
+msgid "You can also use the **\"Open My Cloud\"** link to access the Login Panel."
+msgstr "También puedes utilizar el enlace **\"Open My Cloud\"** para acceder al Panel de Inicio de Sesión."
+
+#: ../../chapter03.rst:368
+msgid ""
+"Each of the Task Manager sections below include a series of tabs that "
+"include the following:"
+msgstr "Cada una de las secciones del Administrador de Tareas a continuación incluye una serie de pestañas que contienen lo siguiente:"
+
+#: ../../chapter03.rst:370
+msgid "**'Summary'**"
+msgstr "**'Resumen'**"
+
+#: ../../chapter03.rst:372
+msgid ""
+"This tab shows a summary of all the **\"System Update Tasks\"**. It shows"
+" the **\"Task Type\"** where the type is the name of the task. It shows "
+"the 'Status' as **\"Pending\"** which means that the **\"System Update "
+"Task\"** is always looking for changes and is always in **\"Pending\"** "
+"state in case there are any updates that needs to occur."
+msgstr "Esta pestaña muestra un resumen de todas las **\"Tareas de Actualización del Sistema\"**. Muestra el **\"Tipo de Tarea\"** donde el tipo es el nombre de la tarea. Muestra el 'Estado' como **\"Pendiente\"**, lo que significa que la **\"Tarea de Actualización del Sistema\"** siempre está buscando cambios y siempre está en estado **\"Pendiente\"** en caso de que haya alguna actualización que necesite ocurrir."
+
+#: ../../chapter03.rst:374
+msgid "Summary also shows the following:"
+msgstr "El resumen también muestra lo siguiente:"
+
+#: ../../chapter03.rst:376
+msgid "**'Last Run Time'**"
+msgstr "**'Hora de la última ejecución'**"
+
+#: ../../chapter03.rst:378
+msgid ""
+"This shows the time when the Server Agent software last detected the "
+"changes on the local file system and ran to update the files in the "
+"cloud."
+msgstr "Esto muestra el momento en el que el software del Agente del Servidor detectó por última vez los cambios en el sistema de archivos local y se ejecutó para actualizar los archivos en la nube."
+
+#: ../../chapter03.rst:380
+msgid "**'Next Start Time'**"
+msgstr "**'Hora de inicio siguiente'**"
+
+#: ../../chapter03.rst:382
+msgid ""
+"This shows the time when the **\"Update Task\"** will run next. The "
+"counter increments every 15 seconds. The software will run the update "
+"tasks right away. You can also use the **\"Pause\"** option to stop the "
+"update Administrator can force the updates by clicking on **\"Start "
+"Now\"** option in which case the task from updating local changes to the "
+"cloud. **\"Delete Task\"** option allows to delete any tasks for which "
+"updates are not desired. **\"Refresh\"** will refresh all the counters on"
+" the 'Summary' tab."
+msgstr "Esto muestra el momento en el que la tarea de **\"Actualizar\"** se ejecutará a continuación. El contador se incrementa cada 15 segundos. El software ejecutará las tareas de actualización de inmediato. También puedes utilizar la opción de **\"Pausa\"** para detener la actualización. El administrador puede forzar las actualizaciones haciendo clic en la opción **\"Iniciar Ahora\"**, en cuyo caso la tarea de actualizar los cambios locales en la nube. La opción **\"Eliminar Tarea\"** permite eliminar cualquier tarea para la cual no se deseen actualizaciones. **\"Actualizar\"** refrescará todos los contadores en la pestaña 'Resumen'."
+
+#: ../../chapter03.rst:384
+msgid "**'Completed Subtasks'**"
+msgstr "**'Tareas Subordinadas Completadas'**"
+
+#: ../../chapter03.rst:386
+msgid "This shows the number of upload subtasks that have been completed."
+msgstr "Esto muestra el número de subtareas de carga que se han completado."
+
+#: ../../chapter03.rst:388
+msgid "**'Running Subtasks'**"
+msgstr "**'Tareas Subordinadas en Ejecución'**"
+
+#: ../../chapter03.rst:390
+msgid ""
+"This shows how many subtasks are currently running. (See Tab for more "
+"info)"
+msgstr "Esto muestra cuántas subtareas están ejecutándose actualmente. (Ver pestaña para más información)"
+
+#: ../../chapter03.rst:392
+msgid "**'Pending Subtasks'**"
+msgstr "**'Tareas Pendientes'**"
+
+#: ../../chapter03.rst:394
+msgid ""
+"This shows the subtasks which are in pending state and waiting for their "
+"turn to get uploaded to the cloud. (See Tab for more info)"
+msgstr "Esto muestra las subtareas que están en estado pendiente y esperando su turno para ser cargadas en la nube. (Ver pestaña para más información)"
+
+#: ../../chapter03.rst:396
+msgid "**'Pending Retry Subtasks'**"
+msgstr "**'Tareas Subordinadas Pendientes de Reintentar'**"
+
+#: ../../chapter03.rst:398
+msgid ""
+"This shows the number of any tasks which are pending retry meaning for "
+"some reason the changes for some files were not uploaded to the cloud and"
+" hence they are in the **\"Pending Retry Subtasks\"** queue and as soon "
+"as their turn comes the changes for files in **\"Pending Retry "
+"Subtasks**\" will also be uploaded to the cloud. (See Tab for more info)"
+msgstr "Esto muestra el número de tareas pendientes de reintento, lo que significa que por alguna razón los cambios de algunos archivos no se cargaron en la nube y, por lo tanto, están en la cola de **\"Subtareas Pendientes de Reintento\"** y tan pronto como llegue su turno, los cambios de los archivos en **\"Subtareas Pendientes de Reintento\"** también se cargarán en la nube. (Ver pestaña para más información)"
+
+#: ../../chapter03.rst:400
+msgid "**'Trace'**"
+msgstr "**'Rastrear'**"
+
+#: ../../chapter03.rst:402
+msgid "This tab provides trace information about tasks. (See Tab for more info)"
+msgstr "Esta pestaña proporciona información de seguimiento sobre las tareas. (Ver Pestaña para más información)"
+
+#: ../../chapter03.rst:408
+msgid "SYSTEM SYNC TASK - TRACE"
+msgstr "TAREA DE SINCRONIZACIÓN DEL SISTEMA - SEGUIMIENTO"
+
+#: ../../chapter03.rst:410
+msgid ""
+"The **\"Trace\"** tab in the **\"System Sync Task\"** lists all the "
+"uploading, downloading, and monitoring tasks."
+msgstr "La pestaña **\"Rastreo\"** en la tarea de **\"Sincronización del Sistema\"** enumera todas las tareas de subida, descarga y monitoreo."
+
+#: ../../chapter03.rst:413
+msgid "System Related Tasks"
+msgstr "Tareas Relacionadas con el Sistema"
+
+#: ../../chapter03.rst:418
+msgid "SYSTEM RELATED TASKS"
+msgstr "TAREAS RELACIONADAS CON EL SISTEMA"
+
+#: ../../chapter03.rst:421
+msgid "System Sync Task"
+msgstr "Tarea de Sincronización del Sistema"
+
+#: ../../chapter03.rst:426
+msgid "SYSTEM SYNC TASK"
+msgstr "TAREA DE SINCRONIZACIÓN DEL SISTEMA"
+
+#: ../../chapter03.rst:428
+msgid ""
+"It is the master sync task and its job is to keep an eye on both local "
+"file changes and file changes that are done in the cloud. This is the "
+"task which triggers the **\"System Update Task\"** or the **\"System Sync"
+" Down Task\"**."
+msgstr "Es la tarea principal de sincronización y su trabajo es mantener un ojo tanto en los cambios de archivos locales como en los cambios de archivos que se realizan en la nube. Esta es la tarea que activa la **\"Tarea de Actualización del Sistema\"** o la **\"Tarea de Sincronización del Sistema hacia Abajo\"**."
+
+#: ../../chapter03.rst:431
+msgid "System Sync Down Task"
+msgstr "Tarea de Sincronización del Sistema hacia Abajo"
+
+#: ../../chapter03.rst:436
+msgid "SYSTEM SYNC DOWN TASK"
+msgstr "TAREA DE SINCRONIZACIÓN DEL SISTEMA"
+
+#: ../../chapter03.rst:438
+msgid ""
+"It performs the exact same tasks as the **\"System Update Task\"** but "
+"its job is to ensure that the changes that are done to the files in the "
+"cloud are automatically synced down to the file server. The **\"System "
+"Update Task\"** and the **\"System Sync Down Task\"** are what provides "
+"the mirroring or two-way sync between the local files on the cloud server"
+" and the files in the cloud."
+msgstr "Realiza exactamente las mismas tareas que la **\"Tarea de Actualización del Sistema\"** pero su trabajo es asegurar que los cambios que se realizan a los archivos en la nube se sincronicen automáticamente con el servidor de archivos. La **\"Tarea de Actualización del Sistema\"** y la **\"Tarea de Sincronización Descendente del Sistema\"** son lo que proporciona el espejado o sincronización bidireccional entre los archivos locales en el servidor de la nube y los archivos en la nube."
+
+#: ../../chapter03.rst:441
+msgid "System Update Task"
+msgstr "Tarea de Actualización del Sistema"
+
+#: ../../chapter03.rst:446
+msgid "SYSTEM UPDATE TASK"
+msgstr "TAREA DE ACTUALIZACIÓN DEL SISTEMA"
+
+#: ../../chapter03.rst:448
+msgid ""
+"It shows all system related update tasks. Server Agent software checks "
+"the local file system every 15 seconds and when it notices the changes to"
+" the files, the changed files will be added to the upload queue. The real"
+" upload time depends on how big the upload queue is and if there is only "
+"one file with the changes, the changes to the file will be uploaded to "
+"the cloud in 15 seconds."
+msgstr "Muestra todas las tareas de actualización relacionadas con el sistema. El software Server Agent verifica el sistema de archivos local cada 15 segundos y, cuando nota cambios en los archivos, los archivos modificados se añaden a la cola de subida. El tiempo real de subida depende de cuán grande sea la cola de subida y si solo hay un archivo con cambios, las modificaciones en el archivo se subirán a la nube en 15 segundos."
+
+#: ../../chapter03.rst:451
+msgid "Edit Account Information"
+msgstr "Editar Información de la Cuenta"
+
+#: ../../chapter03.rst:456
+msgid "EDIT ACCOUNT INFORMATION"
+msgstr "EDITAR INFORMACIÓN DE LA CUENTA"
+
+#: ../../chapter03.rst:458
+msgid ""
+"This link at the bottom allows you to **Login with different "
+"credentials** to launch the Cloud Server Console and perform management "
+"related tasks."
+msgstr "Este enlace en la parte inferior te permite **Iniciar sesión con diferentes credenciales** para lanzar la Consola del Servidor en la Nube y realizar tareas relacionadas con la gestión."
+
+#: ../../chapter03.rst:462
+msgid "3.3.2 File Server"
+msgstr "3.3.2 Servidor de Archivos"
+
+#: ../../chapter03.rst:467
+msgid "FILE SERVER"
+msgstr "SERVIDOR DE ARCHIVOS"
+
+#: ../../chapter03.rst:469
+msgid ""
+"**\"File Server\"** shows all the data that have been uploaded to the "
+"cloud and the files and folder structure. It lists folder structure which"
+" includes sub-folders as well. The local folders that are attached either"
+" from the file server or a user's machine have the machine name in "
+"parenthesis."
+msgstr "**\"Servidor de Archivos\"** muestra todos los datos que se han subido a la nube y la estructura de archivos y carpetas. Enumera la estructura de carpetas que incluye subcarpetas también. Las carpetas locales que están adjuntas ya sea desde el servidor de archivos o la máquina de un usuario tienen el nombre de la máquina entre paréntesis."
+
+#: ../../chapter03.rst:471
+msgid ""
+"An Administrator can create a new sub-folder below selected node or can "
+"attach additional local folders using the **\"Attach Local Folder\"** "
+"option under **\"Actions\"**. Attaching a local folder to |prodname| "
+"Cloud using the **\"Attach Local Folder\"** option allows immediate "
+"access to the local content from anywhere using any device. **\"Attached "
+"Local Folder\"** will be synchronized upwards to the cloud first and also"
+" the changes in the cloud will be sync down to the local file server."
+msgstr "Un Administrador puede crear una nueva subcarpeta debajo del nodo seleccionado o puede adjuntar carpetas locales adicionales utilizando la opción **\"Adjuntar Carpeta Local\"** bajo **\"Acciones\"**. Adjuntar una carpeta local a |prodname| Cloud mediante la opción **\"Adjuntar Carpeta Local\"** permite el acceso inmediato al contenido local desde cualquier lugar utilizando cualquier dispositivo. La **\"Carpeta Local Adjunta\"** se sincronizará primero hacia la nube y también los cambios en la nube se sincronizarán hacia abajo al servidor de archivos local."
+
+#: ../../chapter03.rst:473
+msgid ""
+"Administrator can also highlight an existing cloud folder and create new "
+"sub-folders underneath that highlighted folder."
+msgstr "El administrador también puede resaltar una carpeta en la nube existente y crear nuevas subcarpetas debajo de esa carpeta resaltada."
+
+#: ../../chapter03.rst:476
+msgid ""
+"The two-way synchronization feature of the **\"Attach Local Folder\"** "
+"only applies to local folders such as those on the C: drive, D: drive and"
+" local hard drives in general. It won't work for network share. The two-"
+"way synchronization depends on the local file system's event change "
+"notification about files and folders. These changes will be detected and "
+"synchronization will happen based on the changes."
+msgstr "La función de sincronización bidireccional de **\"Adjuntar Carpeta Local\"** solo se aplica a carpetas locales como las que se encuentran en la unidad C:, unidad D: y discos duros locales en general. No funcionará para recursos compartidos de red. La sincronización bidireccional depende de la notificación de cambio de evento del sistema de archivos local sobre archivos y carpetas. Estos cambios serán detectados y la sincronización ocurrirá en base a los cambios."
+
+#: ../../chapter03.rst:478
+msgid ""
+"An administrator can also manage the folder using Web Portal by using the"
+" **\"Manage\"** option. This will allow an admin to convert any folders "
+"that have been attached to the cloud or are in the cloud to convert them "
+"into **\"Team Folders\"** for collaboration etc. Highlight the folder and"
+" select **\"Manage\"** under **\"Actions\"**."
+msgstr "Un administrador también puede gestionar la carpeta utilizando el Portal Web mediante la opción **\"Gestionar\"**. Esto permitirá que un administrador convierta cualquier carpeta que haya sido adjuntada a la nube o que esté en la nube para convertirlas en **\"Carpetas de Equipo\"** para colaboración, etc. Resalte la carpeta y seleccione **\"Gestionar\"** bajo **\"Acciones\"**."
+
+#: ../../chapter03.rst:483
+msgid "FILE SERVER - MANAGE FOLDER IN WEB PORTAL"
+msgstr "SERVIDOR DE ARCHIVOS - GESTIONAR CARPETA EN EL PORTAL WEB"
+
+#: ../../chapter03.rst:485
+msgid ""
+"In the Manage Folder view, you must add collaborators to make this a team"
+" folder. The pop-up lets you choose a source for your users/groups; "
+"either Existing User/Group or AD."
+msgstr "En la vista Administrar Carpeta, debes agregar colaboradores para convertir esto en una carpeta de equipo. El pop-up te permite elegir una fuente para tus usuarios/grupos; ya sea Usuario/Grupo Existente o AD."
+
+#: ../../chapter03.rst:490
+msgid "ADDING COLLABORATION"
+msgstr "AÑADIENDO COLABORACIÓN"
+
+#: ../../chapter03.rst:496
+msgid "ACCESS TEAM FOLDER SETTINGS"
+msgstr "CONFIGURACIÓN DE CARPETA DE EQUIPO DE ACCESO"
+
+#: ../../chapter03.rst:499
+msgid ""
+"Once you have added your users/groups, click the Disk icon to save your "
+"changes. Click the Settings tab to modify settings for this share."
+msgstr "Una vez que haya agregado sus usuarios/grupos, haga clic en el icono de Disco para guardar los cambios. Haga clic en la pestaña de Configuración para modificar los ajustes de esta compartición."
+
+#: ../../chapter03.rst:501
+msgid ""
+"In the Settings tab view, you can modify the settings for this share "
+"including: Basic Settings, Permissions, Secure Data Room, IP White List "
+"and Quota and Retention Policy. Under the **(+)** Settings sub-menu you "
+"have access to: Disable further sharing, Create CIFS Share and Disable "
+"Offline Access options."
+msgstr "En la vista de la pestaña de Configuración, puedes modificar los ajustes de esta compartición incluyendo: Configuración Básica, Permisos, Sala de Datos Segura, Lista Blanca de IP y Política de Cuota y Retención. Bajo el submenú de Configuración **(+)** tienes acceso a: Deshabilitar más compartición, Crear Compartición CIFS y Deshabilitar Acceso sin Conexión."
+
+#: ../../chapter03.rst:506
+msgid "TEAM FOLDER SETTINGS"
+msgstr "CONFIGURACIÓN DE CARPETA DE EQUIPO"
+
+#: ../../chapter03.rst:508
+msgid ""
+"That diversion shows you how you can create, access and modify folders "
+"and settings from within the Web Portal of |prodname|. Now we return back"
+" to the File Server section of the Server Console in Server Agent. "
+"**\"Enable Background Prefetch\" (1)** makes the contents of the selected"
+" folder available offline."
+msgstr "Esa diversión muestra cómo puedes crear, acceder y modificar carpetas y configuraciones desde dentro del Portal Web de |prodname|. Ahora volvemos a la sección Servidor de Archivos de la Consola del Servidor en el Agente del Servidor. **\"Habilitar Precarga en Segundo Plano\" (1)** hace que el contenido de la carpeta seleccionada esté disponible sin conexión."
+
+#: ../../chapter03.rst:513 ../../chapter03.rst:520
+msgid "FOLDER ACTIONS"
+msgstr "ACCIONES DE CARPETA"
+
+#: ../../chapter03.rst:515
+msgid ""
+"**\"Delete\"** does not remove the content of the folder from local "
+"storage; however, it does detach the selected folder and its contents "
+"from the cloud. If you go to the Web Portal and re-create a folder with "
+"exactly the same name (including the machine's name and the parenthesis),"
+" the folder can be shown with a cloud-only context without any local "
+"machine relationship."
+msgstr "**\"Eliminar\"** no elimina el contenido de la carpeta del almacenamiento local; sin embargo, sí desvincula la carpeta seleccionada y su contenido de la nube. Si vas al Portal Web y creas una carpeta con exactamente el mismo nombre (incluyendo el nombre de la máquina y los paréntesis), la carpeta se puede mostrar con un contexto solo en la nube sin ninguna relación con la máquina local."
+
+#: ../../chapter03.rst:523
+msgid ""
+"**\"Attach a Folder to Backup\"** (see above) allows an administrator to "
+"attach and two-way synchronize a local folder to the cloud. The default "
+"view shows all the \"Attached-Folders\" on the local machine that are "
+"attached to the cloud. To add a folder click the browse icon **(...)** "
+"and search for a folder to sync to the cloud."
+msgstr "**\"Adjuntar una Carpeta para Respaldo\"** (ver arriba) permite a un administrador adjuntar y sincronizar bidireccionalmente una carpeta local con la nube. La vista predeterminada muestra todas las \"Carpetas-Adjuntas\" en la máquina local que están conectadas a la nube. Para agregar una carpeta, haga clic en el icono de búsqueda **(...)** y busque una carpeta para sincronizar con la nube."
+
+#: ../../chapter03.rst:528
+msgid "ATTACH LOCAL FOLDER"
+msgstr "ADJUNTAR CARPETA LOCAL"
+
+#: ../../chapter03.rst:530
+msgid ""
+"Once a folder is attached, you can take advantage of one of the Folder "
+"Actions **\"Manage\"** that allows you to quickly open a Web Portal to "
+"edit Sharing and Collaboration settings for the folder."
+msgstr "Una vez que se adjunta una carpeta, puedes aprovechar una de las Acciones de Carpeta **\"Gestionar\"** que te permite abrir rápidamente un Portal Web para editar los ajustes de Compartir y Colaboración para la carpeta."
+
+#: ../../chapter03.rst:535
+msgid "MANAGE FOLDER FROM WEB PORTAL"
+msgstr "GESTIONAR CARPETA DESDE EL PORTAL WEB"
+
+#: ../../chapter03.rst:540
+msgid "SELECT SHARING AND COLLABORATION"
+msgstr "SELECCIONAR COMPARTIR Y COLABORAR"
+
+#: ../../chapter03.rst:544
+msgid "3.3.3 Attach/Backup"
+msgstr "3.3.3 Adjuntar/Respaldar"
+
+#: ../../chapter03.rst:546
+msgid ""
+"Clicking the Attach/Backup button shows all of the folders currently "
+"attached."
+msgstr "Hacer clic en el botón Adjuntar/Respaldar muestra todas las carpetas que están actualmente adjuntas."
+
+#: ../../chapter03.rst:551
+msgid "ALL FOLDERS WITHIN ADMIN'S ROOT FOLDER"
+msgstr "TODAS LAS CARPETAS DENTRO DE LA CARPETA RAÍZ DEL ADMINISTRADOR"
+
+#: ../../chapter03.rst:553
+msgid ""
+"By clicking the double-down-arrow icon on the right of each share you can"
+" see the details of the folder and if the folder is linked to a local "
+"folder you will see **\"Link to local\"**. If it is already linked you "
+"will see **\"Stop Sync\"**. As shown below, you can also **Detach** the "
+"folder in this location."
+msgstr "Al hacer clic en el icono de doble flecha hacia abajo a la derecha de cada compartición, puedes ver los detalles de la carpeta y si la carpeta está vinculada a una carpeta local verás **\"Vincular a local\"**. Si ya está vinculada verás **\"Detener sincronización\"**. Como se muestra a continuación, también puedes **Desvincular** la carpeta en este lugar."
+
+#: ../../chapter03.rst:558
+msgid "ATTACH/BACKUP SETTINGS"
+msgstr "CONFIGURACIÓN DE ADJUNTOS/COPIAS DE SEGURIDAD"
+
+#: ../../chapter03.rst:562
+msgid "Link to Local Folder"
+msgstr "Enlace a Carpeta Local"
+
+#: ../../chapter03.rst:564
+msgid ""
+"You can take a folder that is in the cloud and sync it down to a local "
+"folder and then maintain two-way synchronization."
+msgstr "Puede tomar una carpeta que está en la nube y sincronizarla con una carpeta local y luego mantener una sincronización bidireccional."
+
+#: ../../chapter03.rst:567
+msgid "Stop Sync"
+msgstr "Detener sincronización"
+
+#: ../../chapter03.rst:569
+msgid ""
+"You can break the two-way sync between a local folder and a folder in the"
+" cloud. After stop sync, the two sides continue to exist but there is no "
+"relationship between them any longer."
+msgstr "Puede interrumpir la sincronización bidireccional entre una carpeta local y una carpeta en la nube. Después de detener la sincronización, ambos lados continúan existiendo pero ya no hay relación entre ellos."
+
+#: ../../chapter03.rst:572
+msgid "Detach"
+msgstr "Desconectar"
+
+#: ../../chapter03.rst:574
+msgid ""
+"Detach is the reverse of Attach. Attach means attach a local folder to "
+"the cloud under version control. Detach means remove it from the version "
+"control. Detach is an operation detaching the cloud side of the folder "
+"from version control. After detach, the local folder (if it is related to"
+" a local folder) is not affected at all. However, the folder in the cloud"
+" will disappear."
+msgstr "Desvincular es lo contrario de Vincular. Vincular significa adjuntar una carpeta local a la nube bajo control de versiones. Desvincular significa quitarla del control de versiones. Desvincular es una operación que desvincula el lado de la nube de la carpeta del control de versiones. Después de desvincular, la carpeta local (si está relacionada con una carpeta local) no se ve afectada en absoluto. Sin embargo, la carpeta en la nube desaparecerá."
+
+#: ../../chapter03.rst:577
+msgid ""
+"If you want the cloud side of the folder to reappear, you can use \"Show "
+"Deleted\" in the Web Portal to show the deleted folder and bring it back."
+" Or you can create a same name folder from scratch to inherit the folder "
+"back."
+msgstr "Si desea que el lado de la nube de la carpeta reaparezca, puede usar \"Mostrar Eliminados\" en el Portal Web para mostrar la carpeta eliminada y recuperarla. O puede crear una carpeta con el mismo nombre desde cero para heredar la carpeta de nuevo."
+
+#: ../../chapter03.rst:581
+msgid "3.3.4 Audit Trace"
+msgstr "3.3.4 Trazabilidad de Auditoría"
+
+#: ../../chapter03.rst:583
+msgid ""
+"Audit trace shows the history of all the tasks that have taken place. "
+"Administrators can query the **\"Audit Trace\"** to see the history of "
+"uploads, downloads, changes, and monitoring on the files in the cloud. "
+"You can also filter the tasks you would like to query by using the "
+"**\"Only Show Traces Containing\"** field **(1)**."
+msgstr "El rastro de auditoría muestra el historial de todas las tareas que se han realizado. Los administradores pueden consultar el **\"Rastro de Auditoría\"** para ver el historial de cargas, descargas, cambios y monitoreo en los archivos en la nube. También puede filtrar las tareas que le gustaría consultar utilizando el campo **\"Solo Mostrar Rastros que Contengan\"** **(1)**."
+
+#: ../../chapter03.rst:585
+msgid ""
+"As an administrator you can also specify the times that you would like to"
+" run the query for **(2)**. Additionally, you can specify the amount of "
+"traces you would like to query **(3)** where **\"0\"** means unlimited "
+"traces."
+msgstr "Como administrador también puedes especificar los horarios en los que te gustaría ejecutar la consulta para **(2)**. Además, puedes especificar la cantidad de rastreos que te gustaría consultar **(3)** donde **\"0\"** significa rastreos ilimitados."
+
+#: ../../chapter03.rst:590
+msgid "AUDIT TRACE QUERY"
+msgstr "CONSULTA DE TRAZA DE AUDITORÍA"
+
+#: ../../chapter03.rst:594
+msgid "3.3.5 Settings Manager"
+msgstr "3.3.5 Administrador de Configuración"
+
+#: ../../chapter03.rst:595
+msgid ""
+"Server Agent administrators can customize and configure many settings at "
+"the Server Console level by modifying the contents of the Settings "
+"Manager section."
+msgstr "Los administradores del Agente del Servidor pueden personalizar y configurar muchos ajustes a nivel de la Consola del Servidor modificando el contenido de la sección del Administrador de Configuración."
+
+#: ../../chapter03.rst:597
+msgid "From here you can also access the **\"Offline Folders\"** tab."
+msgstr "Desde aquí también puedes acceder a la pestaña **\"Carpetas sin conexión\"**."
+
+#: ../../chapter03.rst:602
+msgid ""
+"This section lists all the cloud folders which have been enabled for "
+"**\"Offline Access\"**, meaning users who have access to offline folders "
+"can access and edit the contents of such folders even when they are not "
+"online. All the changes done to files in offline folders will be "
+"automatically synced as soon as the users come back online."
+msgstr "Esta sección enumera todas las carpetas en la nube que han sido habilitadas para **\"Acceso sin conexión\"**, lo que significa que los usuarios que tienen acceso a carpetas sin conexión pueden acceder y editar el contenido de dichas carpetas incluso cuando no están en línea. Todos los cambios realizados en los archivos de las carpetas sin conexión se sincronizarán automáticamente en cuanto los usuarios vuelvan a estar en línea."
+
+#: ../../chapter03.rst:607
+msgid "OFFLINE FOLDERS"
+msgstr "CARPETAS SIN CONEXIÓN"
+
+#: ../../chapter03.rst:609
+msgid ""
+"**\"Add New Offline Folder\"** You can click this link to configure a "
+"folder as an Offline Folder."
+msgstr "**\"Añadir Nueva Carpeta sin Conexión\"** Puede hacer clic en este enlace para configurar una carpeta como Carpeta sin Conexión."
+
+#: ../../chapter03.rst:612
+msgid "Settings Tab"
+msgstr "Pestaña de Configuración"
+
+#: ../../chapter03.rst:615
+msgid "Bandwidth Control"
+msgstr "Control de Ancho de Banda"
+
+#: ../../chapter03.rst:617
+msgid ""
+"As an administrator you have full control over how much bandwidth should "
+"be consumed for uploading contents to the cloud and also for downloading "
+"contents from the cloud. You can also control how many consequent uploads"
+" and downloads are allowed at any one time."
+msgstr "Como administrador, tienes control total sobre cuánto ancho de banda debe consumirse para subir contenidos a la nube y también para descargar contenidos de la nube. También puedes controlar cuántas cargas y descargas consecutivas están permitidas en un momento dado."
+
+#: ../../chapter03.rst:622
+msgid "SETTINGS MANAGER - BANDWIDTH CONTROL"
+msgstr "ADMINISTRADOR DE CONFIGURACIONES - CONTROL DE ANCHO DE BANDA"
+
+#: ../../chapter03.rst:624
+msgid ""
+"**\"Download Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. This setting is applied to the local machine (Server Agent). "
+"Usually something > 100KB/s is good. If it is too small, it can "
+"negatively affect performance and usability."
+msgstr "**\"Límite de Ancho de Banda de Descarga (KB/s, 0-Ilimitado)\"** El valor predeterminado es **\"0\"**. Esta configuración se aplica a la máquina local (Agente del Servidor). Generalmente, algo > 100KB/s es bueno. Si es demasiado pequeño, puede afectar negativamente el rendimiento y la usabilidad."
+
+#: ../../chapter03.rst:626
+msgid ""
+"**\"Upload Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is **\"0\"**. "
+"This setting is applied to the local machine (Server Agent). Usually "
+"something > 100KB/s is good."
+msgstr "**\"Límite de Ancho de Banda de Subida (KB/s, 0-Ilimitado)\"** El valor predeterminado es **\"0\"**. Esta configuración se aplica a la máquina local (Agente del Servidor). Generalmente, algo > 100KB/s es bueno."
+
+#: ../../chapter03.rst:628
+msgid ""
+"**\"Number of Upload/Download Threads\"** Default is **\"5\"**. Set this "
+"from 5-10 in general. In some case, if you set it to a very big number "
+"such as 20, it may negatively affect performance. For example, if you are"
+" using Amazon S3 and Amazon S3 or other Cloud services may have per-"
+"client thread policy so if you have too many concurrent upload/download, "
+"it may get regulated outside of the Server Agent."
+msgstr "**\"Número de hilos de subida/descarga\"** El valor predeterminado es **\"5\"**. Establezca esto entre 5-10 en general. En algunos casos, si lo configura con un número muy grande, como 20, puede afectar negativamente al rendimiento. Por ejemplo, si está utilizando Amazon S3 y Amazon S3 u otros servicios en la nube pueden tener una política de hilos por cliente, por lo que si tiene demasiadas subidas/descargas concurrentes, puede ser regulado fuera del Agente del Servidor."
+
+#: ../../chapter03.rst:631
+msgid "Cache"
+msgstr "Caché"
+
+#: ../../chapter03.rst:636
+msgid "SETTINGS MANAGER - CACHE SETTINGS"
+msgstr "ADMINISTRADOR DE CONFIGURACIÓN - CONFIGURACIÓN DE CACHÉ"
+
+#: ../../chapter03.rst:638
+msgid ""
+"You can change the location of Cache (for files downloaded locally from "
+"cloud). You can also set the cache size."
+msgstr "Puede cambiar la ubicación de la caché (para archivos descargados localmente desde la nube). También puede establecer el tamaño de la caché."
+
+#: ../../chapter03.rst:643
+msgid "Sync Control"
+msgstr "Control de Sincronización"
+
+#: ../../chapter03.rst:648
+msgid "SETTINGS MANAGER - SYNC CONTROL"
+msgstr "ADMINISTRADOR DE CONFIGURACIONES - CONTROL DE SINCRONIZACIÓN"
+
+#: ../../chapter03.rst:650
+msgid ""
+"**\"Throttle Sync\"** Default is **\"False\"**. If you set this flag to "
+"**\"True\"** it will stop and start the sync depending on the available "
+"bandwidth."
+msgstr "**\"Control de Sincronización\"** El valor predeterminado es **\"Falso\"**. Si configuras esta opción en **\"Verdadero\"**, detendrá e iniciará la sincronización dependiendo del ancho de banda disponible."
+
+#: ../../chapter03.rst:652
+msgid ""
+"**\"Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"upload sync."
+msgstr "**\"Sincronización de ancho de banda de subida limitada (KB/s, 0-Ilimitado)\"** El valor predeterminado es **\"0\"**. Donde **\"0\"** significa que el ancho de banda disponible para la sincronización de subida es ilimitado."
+
+#: ../../chapter03.rst:654
+msgid ""
+"**\"Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"download sync."
+msgstr "**\"Ancho de banda de descarga sincronizada limitada (KB/s, 0-Ilimitado)\"** El valor predeterminado es **\"0\"**. Donde **\"0\"** significa que el ancho de banda disponible para la descarga sincronizada es ilimitado."
+
+#: ../../chapter03.rst:656
+msgid ""
+"**\"Full Speed Sync Stop Hour (dafault 7:00)\"** Default is **\"7\"**. "
+"Use this setting to set when full sync stops, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"Hora de Detención de Sincronización a Velocidad Completa (predeterminado 7:00)\"** El valor predeterminado es **\"7\"**. Utilice esta configuración para establecer cuándo se detiene la sincronización completa, para evitar sobrecargar su sistema durante el horario comercial."
+
+#: ../../chapter03.rst:658
+msgid ""
+"**\"Full Speed Sync Start Hour (dafault 20:00)\"** Default is **\"20\"**."
+"  Use this setting to set when full sync starts, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"Hora de inicio de sincronización completa (por defecto 20:00)\"** El valor predeterminado es **\"20\"**. Utilice esta configuración para establecer cuándo comienza la sincronización completa, para evitar sobrecargar su sistema durante el horario comercial."
+
+#: ../../chapter03.rst:660
+msgid ""
+"**\"Scan local files and sync up to cloud as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" local file system and make sure that everything which is not synced to "
+"the cloud is truly synced."
+msgstr "**\"Escanear archivos locales y sincronizar con la nube según sea necesario\"** La opción predeterminada es **\"Falso\"**. Establezca esto en **\"Verdadero\"** si desea que el agente escanee el sistema de archivos local y se asegure de que todo lo que no esté sincronizado con la nube esté verdaderamente sincronizado."
+
+#: ../../chapter03.rst:662
+msgid ""
+"**\"Scan cloud files and sync up to local as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" cloud and make sure that everything which is not synced to the local "
+"file system is truly synced."
+msgstr "**\"Escanear archivos en la nube y sincronizar con el local según sea necesario\"** El valor predeterminado es **\"Falso\"**. Establezca esto en **\"Verdadero\"** si desea que el agente escanee la nube y se asegure de que todo lo que no esté sincronizado con el sistema de archivos local esté verdaderamente sincronizado."
+
+#: ../../chapter03.rst:664
+msgid ""
+"**\"Optimize Sync Down Notification\"** Default is **\"False\"**. If you "
+"want to see sync down notifications, then set this to **\"True\"**."
+msgstr "**\"Optimizar notificación de sincronización descendente\"** El valor predeterminado es **\"Falso\"**. Si desea ver las notificaciones de sincronización descendente, entonces configúrelo en **\"Verdadero\"**."
+
+#: ../../chapter03.rst:666
+msgid ""
+"**\"Ignore file dummy change notification\"** Default is **\"False\"**. "
+"If you don't want to see dummy file change notifications, then set this "
+"to **\"True\"**."
+msgstr "**\"Ignorar notificación de cambio de archivo ficticio\"** El valor predeterminado es **\"Falso\"**. Si no quieres ver notificaciones de cambio de archivo ficticias, entonces configúralo a **\"Verdadero\"**."
+
+#: ../../chapter03.rst:668
+msgid ""
+"**\"Enable sync folder permission in attached folder\"** Default is "
+"**\"False\"**."
+msgstr "**\"Habilitar permiso de carpeta de sincronización en carpeta adjunta\"** El valor predeterminado es **\"Falso\"**."
+
+#: ../../chapter03.rst:672
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../../chapter03.rst:674
+msgid ""
+"Administrator can locate the cache directory under **\"Advanced\"** "
+"option in settings. Using the **\"Cache Size Limit (MB)\"** field can "
+"specify the size limit for the cache file."
+msgstr "El administrador puede localizar el directorio de caché bajo la opción **\"Avanzado\"** en la configuración. Utilizando el campo **\"Límite de Tamaño de Caché (MB)\"** se puede especificar el límite de tamaño para el archivo de caché."
+
+#: ../../chapter03.rst:680
+msgid "SETTINGS MANAGER - ADVANCED"
+msgstr "CONFIGURACIÓN AVANZADA DEL ADMINISTRADOR"
+
+#: ../../chapter03.rst:682
+msgid ""
+"**\"Do not Mount Drive\"** Default is **\"False\"**. When you set this to"
+" **\"True\"** local drive on the Server Agent is unmounted."
+msgstr "**\"No montar unidad\"** El valor predeterminado es **\"Falso\"**. Cuando se establece en **\"Verdadero\"**, la unidad local en el Agente del Servidor se desmonta."
+
+#: ../../chapter03.rst:684
+msgid "**\"Domain Controller IP or Hostname\"** This setting is empty by default."
+msgstr "**\"IP o nombre de host del Controlador de Dominio\"** Esta configuración está vacía por defecto."
+
+#: ../../chapter03.rst:686
+msgid ""
+"**\"Enable In-place Open Zip File\"** Default is **\"False\"**. This "
+"field enables in-place editing on files which are in zipped folders in "
+"the cloud. You can also specify the maximum size for zipped files that "
+"are allowed for In-place editing."
+msgstr "**\"Habilitar la edición de archivos Zip en su ubicación original\"** El valor predeterminado es **\"Falso\"**. Este campo permite la edición en su ubicación original de archivos que se encuentran dentro de carpetas comprimidas en la nube. También puede especificar el tamaño máximo para archivos comprimidos que se permiten para la edición en su ubicación original."
+
+#: ../../chapter03.rst:688
+msgid ""
+"**\"Max Size of Zip File Allowed to Open Inplace\"** This is **\"20\"** "
+"by default. Use this field to set the maximum size of Zip Files that can "
+"be opened inside the Cloud Drive in MB."
+msgstr "**\"Tamaño Máximo del Archivo Zip Permitido para Abrir en el Lugar\"** Este es **\"20\"** por defecto. Utilice este campo para establecer el tamaño máximo de los Archivos Zip que se pueden abrir dentro de la Unidad en la Nube en MB."
+
+#: ../../chapter03.rst:690
+msgid ""
+"**\"Ignore Settings in Group Policy\"** Default is **\"False\"**. When "
+"you set this flag to **\"True\"**, the configured settings in the Web "
+"Portal will be ignored and the settings configured here under "
+"``Settings`` > ``Advanced`` will take precedence."
+msgstr "**\"Ignorar configuraciones en la Directiva de grupo\"** El valor predeterminado es **\"Falso\"**. Cuando estableces esta bandera en **\"Verdadero\"**, las configuraciones establecidas en el Portal Web serán ignoradas y las configuraciones aquí configuradas en ``Configuración`` > ``Avanzado`` tendrán prioridad."
+
+#: ../../chapter03.rst:692
+msgid ""
+"**\"Interval to Keep Group Relationship in Cache (Min)\"** The default is"
+" **\"60\"** minutes. This field is a performance optimization setting. "
+"The Server Agent will check the remote requests against the ACL (Access "
+"Control) set on the local files. Most of the times it involves Active "
+"Directory or NT domain group membership checking. The group membership "
+"checking is a CPU intensive work so the result is cached to improve "
+"performance. This controls how long the result will be cached. If users "
+"are not changing group frequently, you can set the interval to a long "
+"period of time."
+msgstr "**\"Intervalo para Mantener la Relación de Grupo en Caché (Min)\"** El valor predeterminado es de **\"60\"** minutos. Este campo es una configuración de optimización del rendimiento. El Agente del Servidor verificará las solicitudes remotas contra la ACL (Lista de Control de Acceso) establecida en los archivos locales. La mayoría de las veces implica la comprobación de la pertenencia a grupos del Directorio Activo o del dominio NT. La comprobación de la pertenencia a grupos es un trabajo intensivo en CPU, por lo que el resultado se almacena en caché para mejorar el rendimiento. Esto controla cuánto tiempo se almacenará el resultado en caché. Si los usuarios no cambian de grupo con frecuencia, puede establecer el intervalo en un período de tiempo largo."
+
+#: ../../chapter03.rst:694
+msgid ""
+"**\"Purge File Sys DB Upon Start\"** The default is **\"False\"**. If you"
+" change this setting to True, upon startup the client will purge the "
+"cached cloud storage state file. This allows the client to rebuild the "
+"database as if it is being started for the first time."
+msgstr "**\"Purgar la base de datos del sistema de archivos al iniciar\"** El valor predeterminado es **\"Falso\"**. Si cambias esta configuración a Verdadero, al iniciar, el cliente purgará el archivo de estado de almacenamiento en la nube en caché. Esto permite que el cliente reconstruya la base de datos como si se estuviera iniciando por primera vez."
+
+#: ../../chapter03.rst:696
+msgid ""
+"**\"Upload Hidden Files\"** The default is **\"False\"**. If this flag is"
+" set to **\"True\"** then hidden files will also be uploaded to the "
+"cloud."
+msgstr "**\"Subir Archivos Ocultos\"** La opción predeterminada es **\"Falso\"**. Si esta opción se establece en **\"Verdadero\"**, entonces los archivos ocultos también se subirán a la nube."
+
+#: ../../chapter03.rst:698
+msgid ""
+"**\"Upload System Files\"** The default is **\"False\"**. If this flag "
+"when set to **\"True\"** then system files will also be uploaded to the "
+"cloud."
+msgstr "**\"Subir Archivos del Sistema\"** El valor predeterminado es **\"Falso\"**. Si esta opción se establece en **\"Verdadero\"**, entonces los archivos del sistema también se subirán a la nube."
+
+#: ../../chapter03.rst:701
+msgid "Trace"
+msgstr "Rastrear"
+
+#: ../../chapter03.rst:703
+msgid ""
+"The audit trace log can grow exponentially if not kept under control. As "
+"an administrator you can specify the number of days to keep the audit "
+"trace. **\"Days of Audit Trace to Keep\"** setting is the field to "
+"specify the duration to keep the trace for."
+msgstr "El registro de trazas de auditoría puede crecer exponencialmente si no se mantiene bajo control. Como administrador, puedes especificar el número de días para conservar las trazas de auditoría. La configuración **\"Días de Trazas de Auditoría a Conservar\"** es el campo para especificar la duración de conservación de las trazas."
+
+#: ../../chapter03.rst:705
+msgid ""
+"Trace Level when set to **\"0\"** which is the default does not collect "
+"any traces meaning it is disabled."
+msgstr "El nivel de rastreo cuando se establece en **\"0\"** que es el valor predeterminado no recopila ningún rastro, lo que significa que está desactivado."
+
+#: ../../chapter03.rst:707
+msgid "Trace Level 1 – error will collect all the error traces."
+msgstr "Nivel de Rastreo 1 – error recopilará todos los rastreos de error."
+
+#: ../../chapter03.rst:709
+msgid "Trace Level 2 – warning will collect warning traces along with errors."
+msgstr "Nivel de Rastreo 2 – advertencia recopilará rastreos de advertencia junto con errores."
+
+#: ../../chapter03.rst:711
+msgid ""
+"Trace Level 3 – info will collect errors, warnings, as well as info "
+"traces."
+msgstr "Nivel de Trazado 3 – info recopilará errores, advertencias, así como trazas informativas."
+
+#: ../../chapter03.rst:713
+msgid ""
+"Trace Level 100 – verbose helps developers to collect detailed traces "
+"which helps them when debugging issues."
+msgstr "Nivel de rastreo 100 – detallado ayuda a los desarrolladores a recopilar trazas detalladas que les asisten al depurar problemas."
+
+#: ../../chapter03.rst:716
+msgid ""
+"When it is necessary to collect DebugView trace for debugging purpose, "
+"the Trace Level typically is set to 101."
+msgstr "Cuando es necesario recopilar el rastreo de DebugView para propósitos de depuración, el Nivel de Rastreo típicamente se establece en 101."
+
+#: ../../chapter03.rst:721
+msgid "SETTINGS MANAGER - TRACE"
+msgstr "ADMINISTRADOR DE CONFIGURACIONES - SEGUIMIENTO"
+

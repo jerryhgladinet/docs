@@ -10,7 +10,7 @@ To access your Cluster Administration features, log in to the Web Portal on the 
 
 .. tip::
 
-    The Web Portal URL is the server’s DNS name, the IP Address or local host if you are on the server console. 
+    The Web Portal URL is the server's DNS name, the IP Address or local host if you are on the server console. 
 
 .. figure:: _static/2021newimage001.png
     :align: center
@@ -91,7 +91,7 @@ This will drill deeper into the per-tenant management page view. By clicking the
 
 **Force full scan for storage quota usage**
 
-This will start a full scan of storage usage for the Tenant. As files are uploaded, modified or deleted during daily operation, the Tenant Quota is calculated. To ensure that the quota value shown for the tenant is accurate, it is important that you occasionally force a full scan of the tenant’s quota usage.
+This will start a full scan of storage usage for the Tenant. As files are uploaded, modified or deleted during daily operation, the Tenant Quota is calculated. To ensure that the quota value shown for the tenant is accurate, it is important that you occasionally force a full scan of the tenant's quota usage.
 
 **Change Tenant Admin Password**
 
@@ -348,7 +348,7 @@ This is where you will specify what you would like to call the product. This is 
 
 **Home Page URL (2)**
 
-This is the URL of your ‘Home Page’ page.
+This is the URL of your 'Home Page' page.
 
 .. figure:: _static/2021newimage048.png
     :align: center
@@ -358,7 +358,7 @@ This is the URL of your ‘Home Page’ page.
 
 **'Copyright' Statement (3)**
 
-This is the contents of your ‘Copyright’ statement.
+This is the contents of your 'Copyright' statement.
 
 Web Portal
 ~~~~~~~~~~~~~~~~~~~
@@ -393,7 +393,7 @@ This is the icon that will be used for the cloud drive. For example in the web p
 
 **Logo Url (4) & Login Page Left Image (5)**
 
-Please follow the same steps for branding settings for ‘Login Background Image’, ‘File Share Stamp Icon’, ‘IOS Client App ID’, ‘Login Page Note’, ‘Change Password URL’, ‘Tutorial Page URL’.
+Please follow the same steps for branding settings for 'Login Background Image', 'File Share Stamp Icon', 'IOS Client App ID', 'Login Page Note', 'Change Password URL', 'Tutorial Page URL'.
 
 
 Client Download
@@ -425,7 +425,7 @@ Windows Client
 
 ``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``
 
-The application icon and drive icon URLs can be specified here. Also, you can put in your company name under ‘Manufacturer Name’ along with the ‘Contact Info’ email. You also have the option here to create your own branded MSI Windows client. You can also use your own code signing certificate in order to digitally sign the MSI package. The advantage of creating your own MSI client package is that when users download and install the Windows Client you provide, they will see your company name along with your branding during the client installation.
+The application icon and drive icon URLs can be specified here. Also, you can put in your company name under 'Manufacturer Name' along with the 'Contact Info' email. You also have the option here to create your own branded MSI Windows client. You can also use your own code signing certificate in order to digitally sign the MSI package. The advantage of creating your own MSI client package is that when users download and install the Windows Client you provide, they will see your company name along with your branding during the client installation.
 
 Windows client supports multiple languages. Some language packs are included and shipped with CentreStack. If you need to run the Windows client under a different language, you can set the UI Language there.
 
@@ -695,7 +695,7 @@ You can use the Node Performance to check out the worker node health and the dat
     The pending directory listing calls from the remote clients to the Cluster Server. This is the low priority queue.
 
  .. note::
-    If you don’t see the node performance report, check the **Internal URL** setting of each worker node.
+    If you don't see the node performance report, check the **Internal URL** setting of each worker node.
 
 Under reports you can look at the upload graphs and storage statistics.
 
@@ -919,14 +919,14 @@ Cluster Settings
     This hides the floating support icon.
 
 
-**Hide ‘Forgot your password’ link on login**
+**Hide 'Forgot your password' link on login**
 
     Most often it is used when Active Directory integration is set. The user will need to do a forget-and-change password the normal Active Directory way instead of the way CentreStack provides. In this case, it is recommend to hide the "Forgot your password" link.
 
 
-**Don’t retry when login failed**
+**Don't retry when login failed**
 
-    Most often it is used when the Active Directory user has low failed-count on lock-out policy. When the user’s password is wrong, a few retries can lock out the user’s Active Directory account. The retry feature can be used when there is no Active Directory lock out or when the lock out count is high.
+    Most often it is used when the Active Directory user has low failed-count on lock-out policy. When the user's password is wrong, a few retries can lock out the user's Active Directory account. The retry feature can be used when there is no Active Directory lock out or when the lock out count is high.
 
 **Always display CAPTCHA on the web portal login page**
 
@@ -934,17 +934,17 @@ Cluster Settings
 
 **Show tenant management screen after logging in**
 
-**Show ‘purge storage option’ when delete user**
+**Show 'purge storage option' when delete user**
 
-    By default, when a user is deleted, the user’s home directory storage content is not touched for later use or review. If it is desired to delete the user’s content when the user is deleted, this can show the purge option.
+    By default, when a user is deleted, the user's home directory storage content is not touched for later use or review. If it is desired to delete the user's content when the user is deleted, this can show the purge option.
 
 
-**Don’t send email notification to user when purge deleted content**
+**Don't send email notification to user when purge deleted content**
 
     When the user delete files, they are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification.
 
 
-**Don’t send email notification to admin when purge deleted content**
+**Don't send email notification to admin when purge deleted content**
 
     When the user deletes files, They are not actually deleted immediately. The purge is asynchronous and scheduled at a later time. This setting controls the notification to the administrator.
 
@@ -1236,12 +1236,12 @@ You may need to modify the worker node properties when you setup SSL and the DNS
 
 **Node Name**
 
-    The **Node Name** needs to match the worker node’s hostname. Sometimes, if you rename a worker node's Windows hostname (NETBIOS name) after the Cluster Server installation, upon reboot, the Cluster Server will pop up a web page, asking you to add the new worker node. In that case, you can go ahead and add the new worker node and then delete the old worker node.
+    The **Node Name** needs to match the worker node's hostname. Sometimes, if you rename a worker node's Windows hostname (NETBIOS name) after the Cluster Server installation, upon reboot, the Cluster Server will pop up a web page, asking you to add the new worker node. In that case, you can go ahead and add the new worker node and then delete the old worker node.
 
 
 **External URL**
 
-    The **External URL** needs to match the worker node’s external URL. In a production environment, this typically is in an https:// format with the node’s DNS name. 
+    The **External URL** needs to match the worker node's external URL. In a production environment, this typically is in an https:// format with the node's DNS name. 
 
     External URL is a critical property for Email templates. Once the Cluster Server installation is finished, the dashboard will have a warning message, 'External DNS has not been configured for this worker node. Some functionality may not work properly. Config Now'
 
@@ -1250,11 +1250,11 @@ You may need to modify the worker node properties when you setup SSL and the DNS
 
 **Internal URL**
 
-    The **Internal URL** is the node’s internal URL, typically in the form of http://local-ip-address format. In later Cluster Server builds, this property is hidden and there is no need to set it any more.
+    The **Internal URL** is the node's internal URL, typically in the form of http://local-ip-address format. In later Cluster Server builds, this property is hidden and there is no need to set it any more.
 
 **Disable management functionality**
 
-    You can create an internal facing worker node (that doesn’t have an externalURL) and only allow management functionality on this worker node. This is a security feature.
+    You can create an internal facing worker node (that doesn't have an externalURL) and only allow management functionality on this worker node. This is a security feature.
 
 
 **Edit Cloud Monitor Setting**
@@ -1355,7 +1355,7 @@ you will think about your storage location first.
 
 For example, I have storage in LA so I have an LA zone. I also have storage in NY so I have a NY Zone.
 
-You can have worker nodes from different zones as well and assign users to specific zone. If user’s home directory
+You can have worker nodes from different zones as well and assign users to specific zone. If user's home directory
 is coming from LA zone, the user will need to be assigned to LA zone.
 
 .. figure:: _static/2021newimage065-03192025.png

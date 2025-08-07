@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter8.rst:3
+msgid "The Web Interface"
+msgstr "Webgrænsefladen"
+
+#: ../../chapter8.rst:5
+msgid ""
+"The web client interface has three panels from left to right, the left "
+"tree panel, the middle file and folder panel, and the right information "
+"panel. Many of the management functionality are done over the web portal."
+" The web client also has the files and folder's view."
+msgstr "Webklientgrænsefladen har tre paneler fra venstre mod højre, det venstre træpanel, det midterste fil- og mappepanel og det højre informationspanel. Mange af administrationsfunktionerne udføres via webportalen. Webklienten har også visningen af filer og mapper."
+
+#: ../../chapter8.rst:8
+msgid "Normal Web Portal View"
+msgstr "Normal visning af webportal"
+
+#: ../../chapter8.rst:13
+msgid "WEB PORTAL VIEW"
+msgstr "WEBPORTAL VISNING"
+
+#: ../../chapter8.rst:17
+msgid "Left Tree View and Right Info Panel"
+msgstr "Venstre trævisning og højre infopanel"
+
+#: ../../chapter8.rst:19
+msgid ""
+"The left-tree view can be toggled by clicking the tree icon **(1)**. You "
+"can access the **\"Info Panel\"** by either clicking the icon settings "
+"menu **(2)** at the top-right and selecting **\"Show/Hide Info Panel for "
+"file/folder\"** text, or the Show/Hide button **(3)** on the bottom-right"
+" of the File Browser window."
+msgstr "Trævisningen til venstre kan skiftes ved at klikke på træikonet **(1)**. Du kan få adgang til **\"Info Panelet\"** ved enten at klikke på ikonindstillingsmenuen **(2)** øverst til højre og vælge **\"Vis/Skjul Info Panel for fil/mappe\"** tekst, eller Vis/Skjul-knappen **(3)** nederst til højre i Filbrowser-vinduet."
+
+#: ../../chapter8.rst:24
+msgid "ACCESSING SIDE PANELS"
+msgstr "ADGANG TIL SIDEPANELER"
+
+#: ../../chapter8.rst:28
+msgid "Switch between Icon and List view"
+msgstr "Skift mellem ikon- og listevisning"
+
+#: ../../chapter8.rst:33
+msgid "SWITCH BETWEEN ICON AND LIST VIEWS"
+msgstr "SKIFT MELLEM IKON- OG LISTEVISNINGER"
+
+#: ../../chapter8.rst:36
+msgid ""
+"When switched into list view, you get access to other icons such as "
+"version information (see inset \"List View Example)."
+msgstr "Når der skiftes til listevisning, får du adgang til andre ikoner såsom versionsinformation (se indsat \"Listevisningseksempel\")."
+
+#: ../../chapter8.rst:40
+msgid "Color Themes"
+msgstr "Farvetemaer"
+
+#: ../../chapter8.rst:42
+msgid ""
+"Users can customize their web portal theme by clicking the user settings "
+"icon **(1)** and then the down-arrow icon **(2)**. There are 12 pre-"
+"defined Color Themes and one custom theme option."
+msgstr "Brugere kan tilpasse temaet for deres webportal ved at klikke på ikonet for brugerindstillinger **(1)** og derefter på nedad-pil ikonet **(2)**. Der er 12 foruddefinerede farvetemaer og en mulighed for et brugerdefineret tema."
+
+#: ../../chapter8.rst:47
+msgid "CUSTOMIZE YOUR WEB PORTAL THEME"
+msgstr "TILPAS DIT WEBPORTAL TEMA"
+
+#: ../../chapter8.rst:51
+msgid "Create Folders"
+msgstr "Opret mapper"
+
+#: ../../chapter8.rst:53
+msgid "Folders Created in |prodname| are Versioned Folders."
+msgstr "Mapper oprettet i |prodname| er versionsmapper."
+
+#: ../../chapter8.rst:55
+msgid ""
+"|prodname| will maintain the version history of any files uploaded to "
+"versioned folders. From |prodname|, a user can download any previous "
+"versions of a file. From the |prodname| Desktop/Server Agent, a user can "
+"restore previous versions of files and recover deleted files."
+msgstr "|prodname| vil opretholde versionshistorikken for alle filer, der uploades til versionsstyrede mapper. Fra |prodname| kan en bruger downloade tidligere versioner af en fil. Fra |prodname| Desktop/Server Agent kan en bruger gendanne tidligere versioner af filer og gendanne slettede filer."
+
+#: ../../chapter8.rst:58
+msgid ""
+"To create a folder, go to the parent folder and click \"New Folder\" in "
+"the drop-down menu **(1)** or right click in the folder background and "
+"choose \"New Folder\" **(2)** from the context menu."
+msgstr "For at oprette en mappe skal du gå til overmappen og klikke på \"Ny mappe\" i rullemenuen **(1)** eller højreklikke i mappens baggrund og vælge \"Ny mappe\" **(2)** fra kontekstmenuen."
+
+#: ../../chapter8.rst:63
+msgid "CREATING FOLDERS"
+msgstr "OPRETTELSE AF MAPPER"
+
+#: ../../chapter8.rst:67
+msgid "Attach Folder from Clients"
+msgstr "Tilknyt mappe fra klienter"
+
+#: ../../chapter8.rst:69
+msgid ""
+"If you have the Windows Client installed, can also Attach a Local Folder "
+"from this client."
+msgstr "Hvis du har Windows-klienten installeret, kan du også vedhæfte en lokal mappe fra denne klient."
+
+#: ../../chapter8.rst:74
+msgid "ATTACHING A FOLDER"
+msgstr "VEDHÆFTNING AF EN MAPPE"
+
+#: ../../chapter8.rst:76
+msgid ""
+"These folders are the local folders from the local PC/Mac that |prodname|"
+" users have attached to |prodname|. Once a local folder is attached, a "
+"user can immediately access it in |prodname|. |prodname| will maintain "
+"the version history of files in the attached local folder. The local "
+"folder is also being synchronized with |prodname| (\"cloud side\")."
+msgstr "Disse mapper er de lokale mapper fra den lokale PC/Mac, som |prodname| brugere har knyttet til |prodname|. Når en lokal mappe er knyttet, kan en bruger straks få adgang til den i |prodname|. |prodname| vil opretholde versionshistorikken for filer i den tilknyttede lokale mappe. Den lokale mappe synkroniseres også med |prodname| (\"cloud-siden\")."
+
+#: ../../chapter8.rst:81
+msgid "ATTACHED LOCAL FOLDER"
+msgstr "VEDHÆFTET LOKAL MAPPE"
+
+#: ../../chapter8.rst:85
+msgid "Renaming/Deleting Folders"
+msgstr "Omdøbning/Sletning af mapper"
+
+#: ../../chapter8.rst:87
+msgid ""
+"Renaming and deleting files and folders can be achieved by right-clicking"
+" the file in the \"File Browser\" and selecting the appropriate context-"
+"menu item or using the small icons in the Detailed View bar of the "
+"selected item."
+msgstr "Omdøbning og sletning af filer og mapper kan udføres ved at højreklikke på filen i \"Filbrowseren\" og vælge det passende element i kontekstmenuen eller bruge de små ikoner i Detaljeret Visningslinje for det valgte element."
+
+#: ../../chapter8.rst:92
+msgid "RENAMING FILES"
+msgstr "OMDØBNING AF FILER"
+
+#: ../../chapter8.rst:96
+msgid "Upload Files/Folders"
+msgstr "Upload Filer/Mapper"
+
+#: ../../chapter8.rst:98
+msgid ""
+"In |prodname|, you have different options to upload files and folders. "
+"You can upload one file at a time using the 'Upload File' option under "
+"Upload You can also upload folders using the 'Upload Folder' option under"
+" Upload. Last but not least you can also use 'Upload Folders and Files' "
+"to upload multiple files simultaneously, or drag & drop files from a "
+"local desktop to the |prodname| Cloud web portal to start the upload."
+msgstr "I |prodname| har du forskellige muligheder for at uploade filer og mapper. Du kan uploade én fil ad gangen ved at bruge 'Upload File'-muligheden under Upload. Du kan også uploade mapper ved at bruge 'Upload Folder'-muligheden under Upload. Sidst, men ikke mindst, kan du også bruge 'Upload Folders and Files' til at uploade flere filer samtidigt, eller trække & slippe filer fra en lokal desktop til |prodname| Cloud-webportalen for at starte uploadet."
+
+#: ../../chapter8.rst:100
+msgid ""
+"It is possible to upload multiple files at a time. This is supported on "
+"all browsers. The same is true for Upload Folder. To access these options"
+" you can click the \"+\" icon **(1)** or right click on the portal "
+"background **(2)** and select your upload option there."
+msgstr "Det er muligt at uploade flere filer på én gang. Dette understøttes i alle browsere. Det samme gælder for Upload Mappe. For at få adgang til disse muligheder kan du klikke på \"+\" ikonet **(1)** eller højreklikke på portalens baggrund **(2)** og vælge din uploadmulighed der."
+
+#: ../../chapter8.rst:105
+msgid "UPLOADING FILES AND FOLDERS"
+msgstr "UPLOAD AF FILER OG MAPPER"
+
+#: ../../chapter8.rst:108
+msgid ""
+"After clicking the upload option, you can browse to the file or folder "
+"you want to upload. Use the Ctrl key to select multiple items."
+msgstr "Efter at have klikket på uploadmuligheden, kan du browse til filen eller mappen, du ønsker at uploade. Brug Ctrl-tasten til at vælge flere elementer."
+
+#: ../../chapter8.rst:113
+msgid "SELECTING FILES FOR UPLOAD"
+msgstr "VALG AF FILER TIL UPLOAD"
+
+#: ../../chapter8.rst:117
+msgid "Upload Using Local Uploader"
+msgstr "Upload ved hjælp af lokal uploader"
+
+#: ../../chapter8.rst:119
+msgid ""
+"(This is Windows only feature) When uploading big files and big folders, "
+"the \"upload using local uploader\" may be the best option for web "
+"browser based upload. If it is enabled by the Tenant Manager (deselected)"
+" **(1)** in the Group Policy Home > Web Portal settings. Clicking this "
+"option **(2)** will download a thin local uploader binary first and then "
+"the local uploader will do the upload. The local uploader has retry and "
+"other reliability measures to make sure the upload is successful. "
+"Basically it uses the web browser to download an executable, and the "
+"executable does the rest of the uploading work."
+msgstr "(Dette er kun en funktion til Windows) Når du uploader store filer og store mapper, kan 'upload ved hjælp af lokal uploader' være den bedste mulighed for upload baseret på webbrowser. Hvis den er aktiveret af Tenant Manager (fravalgt) **(1)** i gruppepolitikkens hjem > Webportalindstillinger. Ved at klikke på denne mulighed **(2)** vil der først blive downloadet en tynd lokal uploader-binærfil, og derefter vil den lokale uploader udføre uploadet. Den lokale uploader har gentagelse og andre pålidelighedstiltag for at sikre, at uploadet bliver succesfuldt. Grundlæggende bruger den webbrowseren til at downloade en eksekverbar fil, og den eksekverbare fil udfører resten af uploadarbejdet."
+
+#: ../../chapter8.rst:124
+msgid "ENABLE \"UPLOAD USING LOCAL UPLOADER\" OPTION"
+msgstr "AKTIVER \"UPLOAD VED BRUG AF LOKAL UPLOADER\" MULIGHED"
+
+#: ../../chapter8.rst:127
+msgid "Drag and Drop Upload"
+msgstr "Træk og slip upload"
+
+#: ../../chapter8.rst:129
+msgid ""
+"Latest web browsers that support HTML5 drag and drop upload will see "
+"\"Drop Files Here\" in an empty folder. These web browsers allow you to "
+"drag & drop multiple files directly to the |prodname| Cloud. In latest "
+"Google Chrome, Drag and drop folder is also supported while the other "
+"HTML5 based web browser support drag and drop multiple files."
+msgstr "Nyeste webbrowsere, der understøtter HTML5 træk og slip-upload, vil se \"Slip filer her\" i en tom mappe. Disse webbrowsere giver dig mulighed for at trække & slippe flere filer direkte til |prodname| Cloud. I nyeste Google Chrome understøttes træk og slip af mappe også, mens de andre HTML5-baserede webbrowsere understøtter træk og slip af flere filer."
+
+#: ../../chapter8.rst:135
+msgid "DRAG AND DROP FILES FOR UPLOAD"
+msgstr "TRÆK OG SLIP FILER TIL UPLOAD"
+
+#: ../../chapter8.rst:139
+msgid "Downloading Files"
+msgstr "Downloading af filer"
+
+#: ../../chapter8.rst:141
+msgid "There are several ways to download files in |prodname|:"
+msgstr "Der er flere måder at downloade filer på i |prodname|:"
+
+#: ../../chapter8.rst:143
+msgid ""
+"If you select a file in the \"File Browser\" you can use the download "
+"icon **(1)** in the top bar. You can also right-click a file and choose "
+"download **(2)** from the context menu. If you are in the \"Detailed "
+"View\" **(3)** you can select a file and download it in the same manner "
+"as in the icon view."
+msgstr "Hvis du vælger en fil i \"Filbrowseren\", kan du bruge downloadikonet **(1)** i topbjælken. Du kan også højreklikke på en fil og vælge download **(2)** fra kontekstmenuen. Hvis du er i \"Detaljeret visning\" **(3)**, kan du vælge en fil og downloade den på samme måde som i ikonvisningen."
+
+#: ../../chapter8.rst:148
+msgid "DOWNLOAD FILE OPTIONS"
+msgstr "DOWNLOAD FILMULIGHEDER"
+
+#: ../../chapter8.rst:150
+msgid ""
+"If your are in \"Detailed View\" **(3)** any files with previous versions"
+" will show a number in the selected bar (e.g. \"V2\") **(4)** that you "
+"may click to open a list of all of the versions of that file."
+msgstr "Hvis du er i \"Detaljeret visning\" **(3)** vil eventuelle filer med tidligere versioner vise et nummer i den valgte bjælke (f.eks. \"V2\") **(4)** som du kan klikke på for at åbne en liste over alle versionerne af den pågældende fil."
+

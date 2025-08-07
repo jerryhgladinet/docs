@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../access_upload.rst:2
+msgid "Accessing Folders and Files"
+msgstr ""
+
+#: ../../access_upload.rst:5
+msgid "After logging in, users will see the files and folders they have access to, as shown on the following screen."
+msgstr ""
+
+#: ../../access_upload.rst:9
+msgid "Tap on a folder to see the files and subfolders it contains. Tapping on the 3 vertical dots icon for any item will display edit and collaboration options."
+msgstr ""
+
+#: ../../access_upload.rst:11
+msgid "Which are **Copy, Cut, Rename, Delete, Share, Share Manager and More Info**. Detailed explanations are given in later sections."
+msgstr ""
+
+#: ../../access_upload.rst:15
+msgid "Users can also long press to make multiple selection, then copy, cut or delete on selected folders and files using the icons in the top menu."
+msgstr ""
+
+#: ../../access_upload.rst:21
+msgid "Top Menu Icons"
+msgstr ""
+
+#: ../../access_upload.rst:23
+msgid "Here are the icons of the top menu bar."
+msgstr ""
+
+#: ../../access_upload.rst:28
+msgid "Refresh"
+msgstr ""
+
+#: ../../access_upload.rst:30
+msgid "To refresh a screen, swipe down or touch the **Refresh** (1) button in the top menu, and the screen will be refreshed automatically."
+msgstr ""
+
+#: ../../access_upload.rst:33
+msgid "Show Deleted Folders and Files"
+msgstr ""
+
+#: ../../access_upload.rst:35
+msgid "Tap on the second icon (2) to switch between **Show Deleted Files** and **Hide Deleted Files**. The default mode is **Hide Deleted Files**."
+msgstr ""
+
+#: ../../access_upload.rst:40
+msgid "Change View Mode"
+msgstr ""
+
+#: ../../access_upload.rst:42
+msgid "Press the third icon (3) to switch view mode between **List View** and **Grid View**. The default view mode is **List View**."
+msgstr ""
+
+#: ../../access_upload.rst:47
+msgid "Sort Menu"
+msgstr ""
+
+#: ../../access_upload.rst:49
+msgid "The **Sort Menu** (4) allows user to change the order in which the files are displayed."
+msgstr ""
+
+#: ../../access_upload.rst:53
+msgid "**Z-A** displays the files in reverse alphabetical order."
+msgstr ""
+
+#: ../../access_upload.rst:55
+msgid "**A-Z** displays the files in alphabetical order."
+msgstr ""
+
+#: ../../access_upload.rst:57
+msgid "**Last Modified** displays the files in the order in which they were last edited."
+msgstr ""
+
+#: ../../access_upload.rst:59
+msgid "**Oldest** displays the files that were added first at the top of the file browser."
+msgstr ""
+
+#: ../../access_upload.rst:61
+msgid "**Largest** displays the files in the order that the largest files appear first."
+msgstr ""
+
+#: ../../access_upload.rst:63
+msgid "**Smallest** displays the files in the order that the smallest files appear first."
+msgstr ""
+
+#: ../../access_upload.rst:65
+msgid "**Extension A-Z** displays the files in the alphabetical order of their extension."
+msgstr ""
+
+#: ../../access_upload.rst:67
+msgid "**Extension Z-A** displays the files in the reverse order of the alphabet by their extension."
+msgstr ""
+
+#: ../../access_upload.rst:71
+msgid "Main operations"
+msgstr ""
+
+#: ../../access_upload.rst:73
+msgid "Tapping on the plus (+) icon will give users several options for the folder they are in: **Upload Files** (1), **Upload Media** (2), **Take Photo to Upload or Scan** (3), **Create New Folder** (4) and **Create New File** (5)."
+msgstr ""
+
+#: ../../access_upload.rst:79
+msgid "Upload Files"
+msgstr ""
+
+#: ../../access_upload.rst:81
+msgid "By selecting the **Upload Files** icon, user can add existing files from the phone storage. It will be redirected to a phone storage screen where can navigate and select a file to upload."
+msgstr ""
+
+#: ../../access_upload.rst:83
+msgid "User can also long press files to multi-select, then press **SELECT** to complete the upload."
+msgstr ""
+
+#: ../../access_upload.rst:88
+msgid "Uploading Media"
+msgstr ""
+
+#: ../../access_upload.rst:90
+msgid "User can directly access media files from the Media apps by selecting the **Upload Media** icon, and add existing files from those apps."
+msgstr ""
+
+#: ../../access_upload.rst:95
+msgid "Take Photo to Upload or Scan"
+msgstr ""
+
+#: ../../access_upload.rst:97
+msgid "User will be prompted for media files permission if CentreStack app have not previously been granted this permission."
+msgstr ""
+
+#: ../../access_upload.rst:102
+msgid "Take Photo to Upload"
+msgstr ""
+
+#: ../../access_upload.rst:104
+msgid "Take and upload new photo when select the **Camera** (1) icon."
+msgstr ""
+
+#: ../../access_upload.rst:109
+msgid "Take Photo to Scan"
+msgstr ""
+
+#: ../../access_upload.rst:111
+msgid "Take a new photo and scan to upload it when tapping on the **Scan** (2) icon."
+msgstr ""
+
+#: ../../access_upload.rst:113
+msgid "First, crop the photo to the ideal shape, and touch **NEXT**."
+msgstr ""
+
+#: ../../access_upload.rst:117
+msgid "On the second page, change the color filter applied to the photo. Tap on **SAVE** to upload the photo."
+msgstr ""
+
+#: ../../access_upload.rst:122
+msgid "Create New Folders"
+msgstr ""
+
+#: ../../access_upload.rst:124
+msgid "To create new folders, press the plus (+) icon at the bottom right of the screen. Then select the **Add Folder** icon."
+msgstr ""
+
+#: ../../access_upload.rst:126
+msgid "After entering the name of the folder and tapping on the **CREATE** button, a new folder will be created."
+msgstr ""
+
+#: ../../access_upload.rst:131
+msgid "Create New Files"
+msgstr ""
+
+#: ../../access_upload.rst:133
+msgid "The **New File** icon allows to create a blank new Office file. User can choose between an Excel, Word, PowerPoint or a Text file."
+msgstr ""
+
+#: ../../access_upload.rst:137
+msgid "Choose the type of file and enter the name in the text box. Then touch **CREATE** to save."
+msgstr ""

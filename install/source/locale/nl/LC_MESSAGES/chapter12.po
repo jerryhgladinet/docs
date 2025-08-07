@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter12.rst:3
+msgid "Advanced Topics"
+msgstr "Geavanceerde Onderwerpen"
+
+#: ../../chapter12.rst:5
+msgid ""
+"These advanced topics require changes to the web.config file which is "
+"critical for the smooth operation of CentreStack, therefore, it is not "
+"recommended that you change the web.config file without first consulting "
+"Gladinet support."
+msgstr "Deze geavanceerde onderwerpen vereisen wijzigingen in het web.config-bestand, dat cruciaal is voor de soepele werking van CentreStack, daarom wordt het niet aanbevolen om het web.config-bestand te wijzigen zonder eerst Gladinet-ondersteuning te raadplegen."
+
+#: ../../chapter12.rst:10
+msgid "Split Database"
+msgstr "Gesplitste Database"
+
+#: ../../chapter12.rst:12
+msgid "The database contains two types of information."
+msgstr "De database bevat twee soorten informatie."
+
+#: ../../chapter12.rst:14
+msgid ""
+"The first type of information is the configuration data that is "
+"relatively static. For example, user name, user email, user's published "
+"shared files and folder etc. This type of information is relatively "
+"small. It can be estimated at 5000 bytes per user. So if you have 2000 "
+"users, it can be estimated at 10 MB."
+msgstr "Het eerste type informatie is de configuratiegegevens die relatief statisch zijn. Bijvoorbeeld, gebruikersnaam, gebruikerse-mail, gepubliceerde gedeelde bestanden en mappen van de gebruiker enzovoort. Dit type informatie is relatief klein. Het kan geschat worden op 5000 bytes per gebruiker. Dus als u 2000 gebruikers heeft, kan het geschat worden op 10 MB."
+
+#: ../../chapter12.rst:17
+msgid ""
+"The second type of information is relatively more volatile. For example, "
+"the file change log, the audit trace and the file list for index. It can "
+"be estimated at 100 file changes per user per day and each file change "
+"can be estimated at 1000 bytes for database storage. So for a 15 day "
+"(Default change log history), it can be estimated at 100*1000*15 = 1.5MB "
+"per user for 15 day period. If you need HIPPA compliance, the default "
+"change log history can be significantly longer so this part of the "
+"database will be much bigger."
+msgstr "Het tweede type informatie is relatief meer vluchtig. Bijvoorbeeld, het wijzigingslogboek van het bestand, het audit spoor en de bestandslijst voor indexering. Er kan worden uitgegaan van 100 bestandswijzigingen per gebruiker per dag en elke bestandswijziging kan worden geschat op 1000 bytes voor databaseopslag. Dus voor een periode van 15 dagen (standaard geschiedenis van wijzigingslogboeken), kan het worden geschat op 100*1000*15 = 1,5MB per gebruiker voor een periode van 15 dagen. Als u HIPPA-naleving nodig heeft, kan de standaardgeschiedenis van het wijzigingslogboek aanzienlijk langer zijn, dus dit deel van de database zal veel groter zijn."
+
+#: ../../chapter12.rst:23
+msgid ""
+"For performance and regulatory reasons, it is recommended to split the "
+"database into two separate databases, one that contains static "
+"information and one that contains relatively more volatile information."
+msgstr "Om prestatie- en regelgevingsredenen wordt aanbevolen om de database op te splitsen in twee afzonderlijke databases, één die statische informatie bevat en één die relatief meer vluchtige informatie bevat."
+
+#: ../../chapter12.rst:26
+msgid ""
+"The secondary database (for more volatile data) can be either MySQL "
+"Database or Micrsoft SQL Database."
+msgstr "De secundaire database (voor meer vluchtige gegevens) kan zowel een MySQL-database als een Microsoft SQL-database zijn."
+
+#: ../../chapter12.rst:28
+msgid ""
+"To split the database, first create a new database that will be used to "
+"store the volatile information. Create a database user and allow this "
+"user full access to the database (equivalent to db_owner). Once the "
+"database and user are created, sign into the CentreStack management "
+"console as the cluster admin and navigate to Cluster Dashboard > Cluster "
+"Settings > Change Log. Update the \"Logging DB Connection String\" "
+"setting using an appropriate connection string:"
+msgstr "Om de database te splitsen, maak eerst een nieuwe database aan die gebruikt zal worden om de vluchtige informatie op te slaan. Maak een databasegebruiker aan en geef deze gebruiker volledige toegang tot de database (gelijk aan db_owner). Nadat de database en gebruiker zijn aangemaakt, log in op de CentreStack-beheerconsole als de clusterbeheerder en navigeer naar Cluster Dashboard > Clusterinstellingen > Wijzigingslogboek. Werk de instelling 'Logging DB Connection String' bij met een geschikte verbindingsreeks:"
+
+#: ../../chapter12.rst:34
+msgid "**Connection String Example for MySQL Database**"
+msgstr "**Verbindingsreeks Voorbeeld voor MySQL-database**"
+
+#: ../../chapter12.rst:42
+msgid "**Connection String Example for Microsoft SQL Database**"
+msgstr "**Verbindingsreeks Voorbeeld voor Microsoft SQL Database**"
+
+#: ../../chapter12.rst:52
+msgid "Change Authentication Algorithm to Version 2"
+msgstr "Authenticatiealgoritme wijzigen naar Versie 2"
+
+#: ../../chapter12.rst:54
+msgid ""
+"If you have a new installation of CentreStack without any legacy user, we"
+" recommend you hard code the authentication algorithm to version 2."
+msgstr "Als u een nieuwe installatie van CentreStack heeft zonder enige bestaande gebruiker, raden we u aan de authenticatie-algoritme hard te coderen naar versie 2."
+
+#: ../../chapter12.rst:57
+msgid ""
+"You can locate the web.config file in the root folder of the installation"
+" directory (same web.config file as referenced in the previous section) "
+"and add a line inside the <appSettings file=\"branding.config\"> section."
+msgstr "U kunt het web.config-bestand vinden in de hoofdmap van de installatiedirectory (hetzelfde web.config-bestand als vermeld in de vorige sectie) en voeg een regel toe binnen de <appSettings file=\"branding.config\"> sectie."
+
+#: ../../chapter12.rst:66
+msgid "Change the Synchronized Uploader to Asynchronized Uploader"
+msgstr "Verander de Gesynchroniseerde Uploader naar Asynchrone Uploader"
+
+#: ../../chapter12.rst:68
+msgid ""
+"Under the C:\\Program Files (x86)\\CentreStack\\ (or the installation "
+"directory), look into the UploadDownloadProxy and identify the web.config"
+" file. Find the line with the SyncedStorageProxiedPutUploadHandler and "
+"change it to StorageProxiedPutUploadHandler."
+msgstr "Onder C:\Program Files (x86)\CentreStack\ (of de installatiedirectory), kijk in de UploadDownloadProxy en identificeer het web.config bestand. Zoek de regel met de SyncedStorageProxiedPutUploadHandler en verander deze in StorageProxiedPutUploadHandler."
+
+#: ../../chapter12.rst:72
+msgid ""
+"This optimization might not work on all systems, therefore, it is "
+"recommend you test web portal Drag and Drop upload after you make the "
+"change. If it does not work for your IIS, you can revert the change back "
+"or consult Gladinet support."
+msgstr "Deze optimalisatie werkt mogelijk niet op alle systemen, daarom wordt aanbevolen dat u de sleep-en-neerzet upload van het webportaal test nadat u de wijziging heeft doorgevoerd. Als het niet werkt voor uw IIS, kunt u de wijziging terugdraaien of contact opnemen met Gladinet-ondersteuning."
+
+#: ../../chapter12.rst:83
+msgid "Zone Support"
+msgstr "Zone-ondersteuning"
+
+#: ../../chapter12.rst:85
+msgid ""
+"If you have two independent CentreStack clusters, for example, one "
+"cluster in US and one cluster in UK, you can use the zone support to "
+"connect the two clusters together. The advantage of using zones is the "
+"end user login request will automatically be redirected to the zone the "
+"user belongs to."
+msgstr "Als u twee onafhankelijke CentreStack-clusters heeft, bijvoorbeeld één cluster in de VS en één cluster in het VK, kunt u de zone-ondersteuning gebruiken om de twee clusters met elkaar te verbinden. Het voordeel van het gebruik van zones is dat het inlogverzoek van de eindgebruiker automatisch wordt omgeleid naar de zone waartoe de gebruiker behoort."
+
+#: ../../chapter12.rst:90
+msgid "Scalability Tuning"
+msgstr "Schaalbaarheid Afstemming"
+
+#: ../../chapter12.rst:92
+msgid ""
+"CentreStack is built on top of ASP.NET and WCF. By default, both ASP.NET "
+"and WCF has throttle control parameters that we can tune and remove. "
+"Please reference this MSDN article for performance tuning:"
+msgstr "CentreStack is gebouwd op ASP.NET en WCF. Standaard hebben zowel ASP.NET als WCF throttle control parameters die we kunnen afstellen en verwijderen. Raadpleeg dit MSDN-artikel voor prestatieafstemming:"
+
+#: ../../chapter12.rst:95
+msgid "http://msdn.microsoft.com/en-us/library/ff647813.aspx"
+msgstr "http://msdn.microsoft.com/nl-nl/library/ff647813.aspx"
+
+#: ../../chapter12.rst:99 ../../chapter12.rst:103
+msgid "(image source: http://msdn.microsoft.com/en-us/library/ff647813.aspx)"
+msgstr "(afbeeldingsbron: http://msdn.microsoft.com/nl-nl/library/ff647813.aspx)"
+
+#: ../../chapter12.rst:106
+msgid "Tuning #1 – namespace/web.config"
+msgstr "Afstemming #1 – namespace/web.config"
+
+#: ../../chapter12.rst:108
+msgid ""
+"There are three parameters about max concurrent calls, concurrent "
+"sessions and concurrent instances."
+msgstr "Er zijn drie parameters over maximaal gelijktijdige oproepen, gelijktijdige sessies en gelijktijdige instanties."
+
+#: ../../chapter12.rst:117
+msgid "This is set in the <CENTRESTACKInstallDir>\\\\namespace\\\\web.config file"
+msgstr "Dit is ingesteld in het <CENTRESTACKInstallDir>\\namespace\\web.config bestand"
+
+#: ../../chapter12.rst:119
+msgid ""
+"There may be existing blocks of serviceBehaviors and behavior blocks "
+"there. You can simply add the serviceThrottling block."
+msgstr "Er kunnen al bestaande blokken van serviceGedragingen en gedragsblokken aanwezig zijn. U kunt eenvoudig het blok serviceThrottling toevoegen."
+
+#: ../../chapter12.rst:134
+msgid "Tuning #2 – aspnet.config"
+msgstr "Tuning #2 – aspnet.config"
+
+#: ../../chapter12.rst:136
+msgid ""
+"The aspnet.config is under "
+"c:\\\\windows\\\\Microsoft.NET\\\\Framework64\\\\v4.0.30319"
+msgstr "Het aspnet.config bevindt zich in c:\\windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+
+#: ../../chapter12.rst:138
+msgid ""
+"system.web is an element of <configuration> so you can add it inside the "
+"<configuration> block."
+msgstr "system.web is een element van <configuration> dus je kunt het toevoegen binnen het <configuration> blok."
+
+#: ../../chapter12.rst:150
+msgid "Tuning #3 – machine.config"
+msgstr "Afstemming #3 – machine.config"
+
+#: ../../chapter12.rst:152
+msgid ""
+"Machine.config is at "
+"%windir%\\\\Microsoft.NET\\\\Framework64\\\\[version]\\\\config\\\\machine.config"
+msgstr "Machine.config bevindt zich in %windir%\\Microsoft.NET\\Framework64\\[versie]\\config\\machine.config"
+
+#: ../../chapter12.rst:154
+msgid ""
+"(%windir% typically is c:\\\\windows. [version] is 4.0.30319 for .NET "
+"framework 4)"
+msgstr "(%windir% is doorgaans c:\\windows. [version] is 4.0.30319 voor .NET framework 4)"
+
+#: ../../chapter12.rst:156
+msgid "**processModel**"
+msgstr "**procesmodel**"
+
+#: ../../chapter12.rst:158
+msgid ""
+"processModel is under <system.web> and <system.web> is under "
+"<configuration>. Most likely the processModel block is there alredy but "
+"with autoConfig set to true. We can change it to set to false and with "
+"the attributes set below."
+msgstr "processModel staat onder <system.web> en <system.web> staat onder <configuration>. Waarschijnlijk is het processModel-blok er al maar met autoConfig ingesteld op true. We kunnen dit veranderen naar false en met de onderstaande attributen ingesteld."
+
+#: ../../chapter12.rst:171
+msgid "**connectionManagement**"
+msgstr "**verbindingenbeheer**"
+
+#: ../../chapter12.rst:173
+msgid ""
+"<system.net> is a block below <configuration>. Typically if <system.net> "
+"doesn't already exist, the block can be added to the bottom of the config"
+" file, right before the closing tag of <configuration>."
+msgstr "<system.net> is een blok onder <configuration>. Als <system.net> nog niet bestaat, kan het blok onderaan het configuratiebestand worden toegevoegd, net voor de afsluitende tag van <configuration>."
+
+#: ../../chapter12.rst:185
+msgid "Tuning #4 – appConcurrentRequestLimit"
+msgstr "Afstemming #4 – appConcurrentRequestLimit"
+
+#: ../../chapter12.rst:193
+msgid "Need More Information?"
+msgstr "Meer informatie nodig?"
+
+#: ../../chapter12.rst:195
+msgid "Contact Gladinet Support (support@gladinet.com) for more information."
+msgstr "Neem contact op met Gladinet Support (support@gladinet.com) voor meer informatie."
+

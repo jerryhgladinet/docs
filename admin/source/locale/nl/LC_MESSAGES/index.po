@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "Inleiding"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Administration Guide. This guide describes "
+"administration tasks for |prodname|, the mobile access and secure file "
+"sharing solution that focuses on local file server cloud-enablement."
+msgstr "Welkom bij de |prodname| Beheerdershandleiding. Deze gids beschrijft beheertaken voor |prodname|, de oplossing voor mobiele toegang en veilig bestanden delen die zich richt op cloud-inschakeling van lokale bestandsservers."
+
+#: ../../index.rst:10
+msgid ""
+"|prodname| runs on the Windows Server platform and includes client agent "
+"software applications for Microsoft Windows, Mac OS X, and Mobile Clients"
+" for the Android and Apple iOS operating systems."
+msgstr "|prodname| draait op het Windows Server-platform en bevat client-agentsoftwaretoepassingen voor Microsoft Windows, Mac OS X en mobiele clients voor de besturingssystemen Android en Apple iOS."
+
+#: ../../index.rst:13
+msgid ""
+"|prodname| includes a client application for Windows File Server, which "
+"is named \"Server Agent\". This document is about |prodname| itself, not "
+"about the \"Server Agent\"."
+msgstr "|prodname| bevat een clienttoepassing voor Windows-bestandsserver, die 'Server Agent' wordt genoemd. Dit document gaat over |prodname| zelf, niet over de 'Server Agent'."
+
+#: ../../index.rst:16
+msgid "This admin guide is written for |prodname| version |release|"
+msgstr "Deze beheerdersgids is geschreven voor |prodname| versie |release|"
+
+#: ../../index.rst:19
+msgid "Overview"
+msgstr "Overzicht"
+
+#: ../../index.rst:21
+msgid ""
+"|prodname| is a mobile access and secure file sharing solution. It "
+"differentiates itself from other File Sync and Share solutions by "
+"focusing on data security, permission controls and, file server cloud-"
+"enablements including data protection and cloud migration. |prodname| "
+"surpasses the competition in the following areas:"
+msgstr "|prodname| is een oplossing voor mobiele toegang en veilig bestanden delen. Het onderscheidt zich van andere File Sync en Share-oplossingen door de focus op gegevensbeveiliging, toestemmingscontroles en, cloud-inschakeling van bestandsservers inclusief gegevensbescherming en cloudmigratie. |prodname| overtreft de concurrentie op de volgende gebieden:"
+
+#: ../../index.rst:24
+msgid ""
+"Maintaining Active Directory, security and NTFS permissions on files and "
+"folders."
+msgstr "Het behouden van Active Directory, beveiliging en NTFS-rechten op bestanden en mappen."
+
+#: ../../index.rst:25
+msgid "Providing live time sync-and-share with versioning and revision controls."
+msgstr "Biedt live tijd synchronisatie-en-deel met versiebeheer en revisiecontroles."
+
+#: ../../index.rst:26
+msgid ""
+"Providing On-Demand access that honors Read-Only, and Write permissions "
+"in Real-Time."
+msgstr "Het bieden van on-demand toegang die alleen-lezen en schrijfpermissies in realtime respecteert."
+
+#: ../../index.rst:27
+msgid "Mirroring of local network shares for Team Collaboration in the Cloud."
+msgstr "Spiegeling van lokale netwerkshares voor team samenwerking in de cloud."
+
+#: ../../index.rst:28
+msgid ""
+"Provide drive mapping and file locking functionality for files in the "
+"Cloud."
+msgstr "Bied drive mapping en bestandsvergrendelingsfunctionaliteit voor bestanden in de Cloud."
+
+#: ../../index.rst:30
+msgid ""
+"|prodname| is a software solution built on top of the Microsoft Web "
+"Platform. It provides file access and sharing functionality from PCs, "
+"Macs, File Servers, Web Browsers, and Mobile Devices. In addition, it "
+"also brings data protection and cloud migration features."
+msgstr "|prodname| is een softwareoplossing gebouwd bovenop het Microsoft Web Platform. Het biedt toegang tot en deelmogelijkheden van bestanden vanaf pc's, Macs, bestandsservers, webbrowsers en mobiele apparaten. Daarnaast biedt het ook functies voor gegevensbescherming en cloudmigratie."
+
+#: ../../index.rst:32
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy |prodname|."
+msgstr "De diensten kunnen in flexibele combinaties worden ingezet om aan verschillende behoeften te voldoen. Er zijn twee primaire manieren om |prodname| te implementeren."
+
+#: ../../index.rst:34
+msgid ""
+"Deploy the |prodname| server in the same site as the File Servers and "
+"Active Directory domain controllers:"
+msgstr "Implementeer de |prodname| server op dezelfde locatie als de File Servers en Active Directory domeincontrollers:"
+
+#: ../../index.rst:38
+msgid ""
+"See also: `File Server Remote Access <https://www.gladinet.com/hybrid-"
+"cloud-with-file-server.html>`_"
+msgstr "Zie ook: `Bestandsserver op afstand toegang <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../index.rst:40
+msgid ""
+"Deploy in a cloud data center, such as Amazon Web Services EC2, Microsoft"
+" Azure, or in a Data Center where the Managed Service Provider (MSP) "
+"hosts their infrastructure:"
+msgstr "Implementeer in een cloud datacenter, zoals Amazon Web Services EC2, Microsoft Azure, of in een Data Center waar de Managed Service Provider (MSP) hun infrastructuur host:"
+
+#: ../../index.rst:46
+msgid ""
+"Please reference the `“Installation Checklist”`__ as well as the "
+"`“Installation Guide”`__ for information on how to setup and deploy "
+"CentreStack. This guide is focused on the administration of |prodname|."
+msgstr "Raadpleeg de `“Installatiecontrolelijst”`__ en de `“Installatiehandleiding”`__ voor informatie over het instellen en implementeren van CentreStack. Deze gids is gericht op het beheer van |prodname|."
+
+#: ../../index.rst:57
+msgid ""
+"This Administration Guide is for the Self-Hosted |prodname|. For Hosted-"
+"CentreStack, please reference the Hosted CentreStack Admin Guide."
+msgstr "Deze Administratiegids is voor de Self-Hosted |prodname|. Voor Hosted-CentreStack, raadpleeg de Hosted CentreStack Admin Gids."
+

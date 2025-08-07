@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Tenant Administrator"
+msgstr "Tenantbeheerder"
+
+#: ../../chapter11.rst:5
+msgid ""
+"Please reference the `Admin Guide`__ for full documentation of the tenant"
+" administration. Here we will go over several commonly touched areas for "
+"tenant administrators."
+msgstr "Raadpleeg de `Admin Guide`__ voor de volledige documentatie van het tenantbeheer. Hier zullen we enkele veelvoorkomende gebieden bespreken voor tenantbeheerders."
+
+#: ../../chapter11.rst:10
+msgid ""
+"After you enter the \"management console\", you will be in the tenant "
+"manager. You can access the tenant by clicking on the desired tenant from"
+" the options."
+msgstr "Nadat u de \"beheerconsole\" bent binnengegaan, bevindt u zich in de tenantbeheerder. U kunt toegang krijgen tot de tenant door te klikken op de gewenste tenant uit de opties."
+
+#: ../../chapter11.rst:15
+msgid ""
+"Under Management Console, an admin can configure storage, monitor shared "
+"objects, create and manage team folders, manage users, configure granular"
+" group policies, add new tenant administrators, look at different "
+"reports, and under advanced configure AD etc."
+msgstr "Onder Management Console kan een beheerder opslag configureren, gedeelde objecten monitoren, teammappen maken en beheren, gebruikers beheren, gedetailleerde groepsbeleid configureren, nieuwe tenantbeheerders toevoegen, verschillende rapporten bekijken en onder geavanceerd AD etc. configureren."
+
+#: ../../chapter11.rst:17
+msgid ""
+"After you click a tenant, you will be in the tenant dashboard. You can "
+"click through to different managers. You can manage users **(1)** and "
+"folders **(2)**. If you are using an Active Directory for importing users"
+" and permissions you can connect to your Active Directory by clicking the"
+" \"Configure Now\" **(3)**."
+msgstr "Nadat u op een tenant heeft geklikt, bevindt u zich op het dashboard van de tenant. U kunt doorklikken naar verschillende beheerders. U kunt gebruikers **(1)** en mappen **(2)** beheren. Als u een Active Directory gebruikt voor het importeren van gebruikers en rechten, kunt u verbinding maken met uw Active Directory door op \"Configureer nu\" **(3)** te klikken."
+
+#: ../../chapter11.rst:22
+msgid "MANAGE USERS AND FILES"
+msgstr "GEBRUIKERS EN BESTANDEN BEHEREN"
+
+#: ../../chapter11.rst:27
+msgid "User Manager"
+msgstr "Gebruikersbeheer"
+
+#: ../../chapter11.rst:29
+msgid ""
+"You can access the user manager by clicking one of these items in the "
+"Tenant Dashboard."
+msgstr "U kunt de gebruikersbeheerder openen door op een van deze items in het Tenant Dashboard te klikken."
+
+#: ../../chapter11.rst:34
+msgid "ACCESSING THE USER MANAGER"
+msgstr "TOEGANG TOT DE GEBRUIKERSBEHEERDER"
+
+#: ../../chapter11.rst:38
+msgid "Active Directory - LDAP"
+msgstr "Active Directory - LDAP"
+
+#: ../../chapter11.rst:40
+msgid ""
+"When you \"Create or Migrate User\" **(1)** in user manager, there are "
+"some options for adding new users. Click \"Active Directory\" **(2)**, "
+"you can add your local AD settings. Select \"Enable Active Directory "
+"Integration\" **(3)**."
+msgstr "Wanneer u een \"Gebruiker aanmaken of migreren\" **(1)** in de gebruikersbeheerder, zijn er enkele opties voor het toevoegen van nieuwe gebruikers. Klik op \"Active Directory\" **(2)**, u kunt uw lokale AD-instellingen toevoegen. Selecteer \"Active Directory-integratie inschakelen\" **(3)**."
+
+#: ../../chapter11.rst:45
+msgid "CONNECTING TO ACTIVE DIRECTORY (AD)"
+msgstr "VERBINDEN MET ACTIVE DIRECTORY (AD)"
+
+#: ../../chapter11.rst:47
+msgid ""
+"This gives you access to all the settings fields and the Advanced "
+"Settings Tab **(4)**. Once you have filled in the settings with an "
+"Administrator User account from your Active Directory, click **APPLY** to"
+" accept your changes."
+msgstr "Dit geeft u toegang tot alle instellingenvelden en het tabblad Geavanceerde Instellingen **(4)**. Nadat u de instellingen heeft ingevuld met een Administrator-gebruikersaccount van uw Active Directory, klikt u op **TOEPASSEN** om uw wijzigingen te accepteren."
+
+#: ../../chapter11.rst:51
+msgid "Add Users"
+msgstr "Gebruikers toevoegen"
+
+#: ../../chapter11.rst:53
+msgid ""
+"You can add users from within the User Manager by clicking the \"Create "
+"or Migrate User\" button to open the **\"Options for Adding New Users\"**"
+" panel. In that panel you have several options: add a Native User, Batch "
+"Create Users, import Active Directory users and permissions, and if you "
+"have Server Agents actively connected, you will also see those servers "
+"listed here as well."
+msgstr "U kunt gebruikers toevoegen vanuit de Gebruikersbeheer door op de knop \"Gebruiker aanmaken of migreren\" te klikken om het **\"Opties voor het toevoegen van nieuwe gebruikers\"** paneel te openen. In dat paneel heeft u verschillende opties: een Native User toevoegen, Batchgewijs gebruikers aanmaken, Active Directory-gebruikers en -rechten importeren, en als u Server Agents actief verbonden heeft, zult u ook die servers hier vermeld zien."
+
+#: ../../chapter11.rst:58
+msgid "ADDING USERS"
+msgstr "GEBRUIKERS TOEVOEGEN"
+
+#: ../../chapter11.rst:60
+msgid "**Native User**"
+msgstr "**Inheemse Gebruiker**"
+
+#: ../../chapter11.rst:62
+msgid ""
+"Native user refers to |prodname| user that is not related to any Active "
+"Directory."
+msgstr "Een native gebruiker verwijst naar een |prodname| gebruiker die niet gerelateerd is aan enige Active Directory."
+
+#: ../../chapter11.rst:65
+msgid "**Batch create users**"
+msgstr "**Batch gebruikers aanmaken**"
+
+#: ../../chapter11.rst:67
+msgid ""
+"These are native users in a comma separated file that can be paste into a"
+" text area so the users can be batch created."
+msgstr "Dit zijn native gebruikers in een door komma's gescheiden bestand dat in een tekstgebied kan worden geplakt, zodat de gebruikers in batch kunnen worden aangemaakt."
+
+#: ../../chapter11.rst:70
+msgid "**Active Directory**"
+msgstr "**Active Directory**"
+
+#: ../../chapter11.rst:72
+msgid ""
+"Active Directory means users from Local Area Network (LAN) that is in the"
+" same network as the |prodname| server."
+msgstr "Active Directory betekent gebruikers van Local Area Network (LAN) dat zich in hetzelfde netwerk bevindt als de |prodname| server."
+
+#: ../../chapter11.rst:75
+msgid "**Server-Agent-Name**"
+msgstr "**Server-Agent-Naam**"
+
+#: ../../chapter11.rst:77
+msgid ""
+"If you already have the \"Server Agent\" installed and the server agent "
+"is actively connected to |prodname|, you will also see the server agents "
+"listed by name in the Add User page."
+msgstr "Als u al de \"Server Agent\" geïnstalleerd heeft en de server agent actief verbonden is met |prodname|, zult u ook de server agents op naam gesorteerd zien op de pagina Gebruiker toevoegen."
+
+#: ../../chapter11.rst:83
+msgid "Native Users"
+msgstr "Inheemse Gebruikers"
+
+#: ../../chapter11.rst:85
+msgid ""
+"When a new user is created, the administrator will specify the amount of "
+"cloud storage that the new user is allowed to use. The email address will"
+" send a welcome email to the new user and will serve as his/her username."
+msgstr "Wanneer een nieuwe gebruiker wordt aangemaakt, zal de beheerder de hoeveelheid cloudopslag specificeren die de nieuwe gebruiker mag gebruiken. Het e-mailadres zal een welkomstmail sturen naar de nieuwe gebruiker en zal dienen als zijn/haar gebruikersnaam."
+
+#: ../../chapter11.rst:90
+msgid "ADDING A NATIVE USER"
+msgstr "EEN INHEEMSE GEBRUIKER TOEVOEGEN"
+
+#: ../../chapter11.rst:94
+msgid ""
+"When quota is left as zero, it means no limitation until the tenant quota"
+" limit is hit."
+msgstr "Wanneer het quotum op nul wordt gelaten, betekent dit dat er geen beperking is totdat de quotumlimiet van de tenant is bereikt."
+
+#: ../../chapter11.rst:97
+msgid "Active Directory Users from LDAP"
+msgstr "Active Directory-gebruikers van LDAP"
+
+#: ../../chapter11.rst:99
+msgid ""
+"If the Active Directory (LDAP) is not already configured, you will need "
+"to configure it first. You can from \"Settings\" > \"Active Directory\", "
+"or \"Create or Migrate User\" > \"Active Directory\" to access the "
+"settings."
+msgstr "Als de Active Directory (LDAP) nog niet is geconfigureerd, moet u deze eerst configureren. U kunt dit doen via \"Instellingen\" > \"Active Directory\", of \"Gebruiker aanmaken of migreren\" > \"Active Directory\" om toegang te krijgen tot de instellingen."
+
+#: ../../chapter11.rst:104
+msgid "CONFIGURE YOUR ACTIVE DIRECTORY SETTINGS"
+msgstr "CONFIGUREER UW ACTIVE DIRECTORY-INSTELLINGEN"
+
+#: ../../chapter11.rst:106
+msgid ""
+"If the Active Directory (LDAP) is already configured, you will see the "
+"Active Directory name at the bottom of the AD icon in the \"Add User\" "
+"view."
+msgstr "Als de Active Directory (LDAP) al geconfigureerd is, ziet u de naam van de Active Directory onderaan het AD-pictogram in de weergave 'Gebruiker toevoegen'."
+
+#: ../../chapter11.rst:108
+msgid "Add Active Directory Users where those users are from local area network."
+msgstr "Voeg Active Directory-gebruikers toe waar die gebruikers van het lokale netwerk zijn."
+
+#: ../../chapter11.rst:113
+msgid "ADDING ACTIVE DIRECTORY USERS"
+msgstr "TOEVOEGEN VAN ACTIVE DIRECTORY-GEBRUIKERS"
+
+#: ../../chapter11.rst:116
+msgid ""
+"After the Active Directory is configured, you can use the Add User wizard"
+" to import Active Directory users into |prodname|."
+msgstr "Nadat de Active Directory is geconfigureerd, kunt u de wizard Gebruiker toevoegen gebruiken om Active Directory-gebruikers te importeren in |prodname|."
+
+#: ../../chapter11.rst:121
+msgid ""
+"For best practice, you will only configure Active Directory via LDAP if "
+"the file server is also local in the same network as the Active Directory"
+" server."
+msgstr "Voor de beste praktijk configureert u Active Directory alleen via LDAP als de bestandsserver ook lokaal in hetzelfde netwerk is als de Active Directory-server."
+
+#: ../../chapter11.rst:126
+msgid "Active Directory Users from Server Agent"
+msgstr "Active Directory-gebruikers van Server Agent"
+
+#: ../../chapter11.rst:128
+msgid ""
+"When the Server Agent is available and connects to the specific tenant in"
+" |prodname|, the Server Agent will show up with the server's name at the "
+"bottom of the icon."
+msgstr "Wanneer de Server Agent beschikbaar is en verbinding maakt met de specifieke tenant in |prodname|, zal de Server Agent onderaan het pictogram verschijnen met de naam van de server."
+
+#: ../../chapter11.rst:132
+msgid ""
+"Click through the Server Agent icon, you will see the \"Add User\" wizard"
+" and complete the wizard to add users. This is very similar to the add AD"
+" user from local LDAP process above."
+msgstr "Klik op het Server Agent-pictogram, u ziet de wizard 'Gebruiker toevoegen' en voltooi de wizard om gebruikers toe te voegen. Dit is zeer vergelijkbaar met het toevoegen van een AD-gebruiker vanuit het lokale LDAP-proces hierboven."
+
+#: ../../chapter11.rst:136
+msgid ""
+"When the Active Directory is at a remote location, not directly connected"
+" to |prodname| server, Server Agent can be used to facilitate the "
+"communication. Server Agent doesn't need to be installed directly on a "
+"remote Active Directory server, the Server Agent needs to be installed on"
+" a remote file server that is part of the remote Active Directory domain."
+msgstr "Wanneer de Active Directory zich op een externe locatie bevindt, niet direct verbonden met de |prodname| server, kan Server Agent worden gebruikt om de communicatie te vergemakkelijken. Server Agent hoeft niet direct op een externe Active Directory server te worden geïnstalleerd, de Server Agent moet worden geïnstalleerd op een externe bestandsserver die deel uitmaakt van het externe Active Directory domein."
+
+#: ../../chapter11.rst:140
+msgid "Deleting Users"
+msgstr "Gebruikers verwijderen"
+
+#: ../../chapter11.rst:142
+msgid ""
+"When a user leaves the team, administrators can delete the user's login. "
+"Just click the Delete icon in 'User Manager' window."
+msgstr "Wanneer een gebruiker het team verlaat, kunnen beheerders de inloggegevens van de gebruiker verwijderen. Klik gewoon op het pictogram Verwijderen in het venster 'Gebruikersbeheer'."
+
+#: ../../chapter11.rst:147
+msgid "DELETING A USER"
+msgstr "EEN GEBRUIKER VERWIJDEREN"
+
+#: ../../chapter11.rst:151
+msgid "Managing User Quotas"
+msgstr "Beheren van Gebruikersquota"
+
+#: ../../chapter11.rst:153
+msgid ""
+"Administrators can assign a quota to each user. A user will not be "
+"allowed to upload files to |prodname| once their quota has been reached."
+msgstr "Beheerders kunnen een quotum toewijzen aan elke gebruiker. Een gebruiker mag geen bestanden uploaden naar |prodname| zodra zijn quotum is bereikt."
+
+#: ../../chapter11.rst:155
+msgid ""
+"If the quota is 0 for the user, there is no limit on how much storage the"
+" user can use."
+msgstr "Als de quota voor de gebruiker 0 is, is er geen limiet op hoeveel opslagruimte de gebruiker kan gebruiken."
+
+#: ../../chapter11.rst:157
+msgid ""
+"Click the 'Management Console' and select 'Users'. Click the \"Edit\" "
+"icon on an user to manage. On \"Storage\" tab, select \"Edit\" icon for "
+"storage quota."
+msgstr "Klik op de 'Beheerconsole' en selecteer 'Gebruikers'. Klik op het \"Bewerk\" icoon van een gebruiker om te beheren. Op het tabblad \"Opslag\" selecteer het \"Bewerk\" icoon voor opslagquotum."
+
+#: ../../chapter11.rst:162
+msgid "EDITING STORAGE QUOTA"
+msgstr "OPSLAGQUOTA BEWERKEN"
+
+#: ../../chapter11.rst:166
+msgid "Managing User Credentials"
+msgstr "Beheren van gebruikersreferenties"
+
+#: ../../chapter11.rst:168
+msgid "Admins can change user passwords and login emails, if needed."
+msgstr "Beheerders kunnen indien nodig gebruikerswachtwoorden en inlog-e-mails wijzigen."
+
+#: ../../chapter11.rst:170
+msgid "Click 'Management Console' and select 'User Manager'"
+msgstr "Klik op 'Beheerconsole' en selecteer 'Gebruikersbeheer'"
+
+#: ../../chapter11.rst:171
+msgid "Click the \"manage user\" menu icon in the user block"
+msgstr "Klik op het menu-icoon \"gebruiker beheren\" in het gebruikersblok"
+
+#: ../../chapter11.rst:172
+msgid "After that, can use \"Reset Password\" link to help the user."
+msgstr "Daarna kan gebruik gemaakt worden van de link \"Wachtwoord resetten\" om de gebruiker te helpen."
+
+#: ../../chapter11.rst:177
+msgid "RESET USER PASSWORD"
+msgstr "RESET GEBRUIKERSWACHTWOORD"
+
+#: ../../chapter11.rst:180
+msgid ""
+"After changing the login password, an email will be sent to notify the "
+"user of the change. Admins can choose to include the new password in the "
+"email, or exclude the new password from the email. If the password is not"
+" included, the admin will need to convey the new password to the user in "
+"some other way."
+msgstr "Na het wijzigen van het wachtwoord voor inloggen, zal er een e-mail verstuurd worden om de gebruiker op de hoogte te stellen van de wijziging. Beheerders kunnen ervoor kiezen om het nieuwe wachtwoord in de e-mail op te nemen, of het nieuwe wachtwoord uit de e-mail te laten. Als het wachtwoord niet is opgenomen, zal de beheerder het nieuwe wachtwoord op een andere manier aan de gebruiker moeten doorgeven."
+
+#: ../../chapter11.rst:185
+msgid "PASSWORD OPTIONS"
+msgstr "WACHTWOORDOPTIES"
+
+#: ../../chapter11.rst:188
+msgid ""
+"When either the email or password is changed, please update the "
+"corresponding login credentials in the |prodname| Cloud Desktop or Cloud "
+"Server."
+msgstr "Wanneer het e-mailadres of wachtwoord wordt gewijzigd, gelieve dan de overeenkomstige inloggegevens bij te werken in de |prodname| Cloud Desktop of Cloud Server."
+
+#: ../../chapter11.rst:192
+msgid ""
+"This only applies to a native |prodname| user. If you have Active "
+"Directory users, you will need to manage user's credential the Active "
+"Directory way."
+msgstr "Dit is alleen van toepassing op een native |prodname| gebruiker. Als u Active Directory-gebruikers heeft, moet u de inloggegevens van de gebruiker beheren op de Active Directory-manier."
+
+#: ../../chapter11.rst:196
+msgid "Team Folders"
+msgstr "Team Mappen"
+
+#: ../../chapter11.rst:198
+msgid ""
+"Adding files and folders can be accomplished by clicking \"Add a new team"
+" folder\" (**+**) icon on \"Team Folders\" page. Once the **\"Team Folder"
+" Storage Locations\"** view opens you can choose from many options: "
+"Existing Tenant Storage, File Servers in Local Area Network, Remote File "
+"Servers or Cloud Storage."
+msgstr "Het toevoegen van bestanden en mappen kan worden uitgevoerd door te klikken op het icoon \"Een nieuwe teammap toevoegen\" (**+**) op de pagina \"Team Mappen\". Zodra de weergave **\"Locaties van Teammap Opslag\"** opent, kunt u kiezen uit vele opties: Bestaande Tenant Opslag, Bestandsservers in het Lokale Netwerk, Externe Bestandsservers of Cloudopslag."
+
+#: ../../chapter11.rst:203
+msgid "WAYS TO ADD STORAGE LOCATIONS"
+msgstr "MANIEREN OM OPSLAGLOCATIES TOE TE VOEGEN"
+
+#: ../../chapter11.rst:206
+msgid "**File Servers**"
+msgstr "**Bestandsservers**"
+
+#: ../../chapter11.rst:208
+msgid ""
+"If you have an existing file server in the Local Area Network (LAN), you "
+"can import the network share directly to |prodname| **(1)**. Under Remote"
+" File Servers, you can install the Server Agent client **(2)** and access"
+" your file server remotely."
+msgstr "Als u een bestaande bestandsserver in het lokale netwerk (LAN) heeft, kunt u de netwerkshare rechtstreeks importeren in |prodname| **(1)**. Onder Remote File Servers kunt u de Server Agent-client **(2)** installeren en uw bestandsserver op afstand benaderen."
+
+#: ../../chapter11.rst:213
+msgid "ADDING REMOTE FILES"
+msgstr "TOEVOEGEN VAN REMOTE BESTANDEN"
+
+#: ../../chapter11.rst:218
+msgid ""
+"The Server Agent is only required when the remote file server doesn't "
+"have direct LAN (local area network) access"
+msgstr "De Server Agent is alleen vereist wanneer de externe bestandsserver geen directe LAN (lokaal netwerk) toegang heeft"
+
+#: ../../chapter11.rst:218
+msgid ""
+"to |prodname|. The Server Agent will be used in this case to facilitate "
+"communication between the |prodname| server to the remote file server."
+msgstr "naar |prodname|. De Server Agent zal in dit geval gebruikt worden om communicatie tussen de |prodname| server en de externe bestandsserver te vergemakkelijken."
+
+#: ../../chapter11.rst:221
+msgid ""
+"|prodname| enables the creation of team folders which are owned by the "
+"administrator and published to other |prodname| users."
+msgstr "|prodname| maakt het mogelijk om teammappen te creëren die eigendom zijn van de beheerder en gepubliceerd worden aan andere |prodname| gebruikers."
+
+#: ../../chapter11.rst:223
+msgid ""
+"Once a folder is published, it is displayed as a team folder to the users"
+" who have access permissions. Users can access these folders from "
+"|prodname| Web or other client agents. The published folder will appear "
+"under the user's root folder, and its name will be appended with \"(Team "
+"Folder)\"."
+msgstr "Zodra een map is gepubliceerd, wordt deze weergegeven als een teammap voor de gebruikers die toegangsrechten hebben. Gebruikers kunnen toegang krijgen tot deze mappen vanuit |prodname| Web of andere client agents. De gepubliceerde map verschijnt onder de hoofdmap van de gebruiker en de naam ervan wordt aangevuld met \"(Teammap)\"."
+
+#: ../../chapter11.rst:229
+msgid "TEAM FOLDER TAG"
+msgstr "TEAMMAP TAG"
+
+#: ../../chapter11.rst:233
+msgid ""
+"Different upload methods may have different advantage and disadvantage on"
+" different web browsers and different web browser configuration, such as "
+"whether it is HTML5 enabled, Java enabled or Flash enabled."
+msgstr "Verschillende uploadmethoden kunnen verschillende voor- en nadelen hebben op verschillende webbrowsers en verschillende webbrowserconfiguraties, zoals of het HTML5, Java of Flash ondersteunt."
+
+#: ../../chapter11.rst:236
+msgid ""
+"By default, only one upload method was exposed in the web user interface."
+" However, the tenant administrator, based on the kind of web browser the "
+"company is using and the kind of configuration the web browser has, can "
+"decide which upload method to expose to the end user (Team User)."
+msgstr "Standaard was er slechts één uploadmethode beschikbaar in de webgebruikersinterface. De tenantbeheerder kan echter, afhankelijk van het type webbrowser dat het bedrijf gebruikt en de configuratie van de webbrowser, beslissen welke uploadmethode beschikbaar wordt gesteld aan de eindgebruiker (Teamgebruiker)."
+
+#: ../../chapter11.rst:239
+msgid ""
+"Below is the Settings -> Clients & Applications -> Web Portal setting "
+"administrator can control."
+msgstr "Hieronder vindt u de instellingen -> Clients & Toepassingen -> Webportaal instelling die de beheerder kan beheren."
+
+#: ../../chapter11.rst:244
+msgid "UPLOADER METHOD OPTIONS"
+msgstr "OPTIES VOOR UPLOADMETHODE"
+
+#: ../../chapter11.rst:246
+msgid "Web Browser - Disable Java Uploader"
+msgstr "Webbrowser - Java-uploader uitschakelen"
+
+#: ../../chapter11.rst:248
+msgid ""
+"Deselect this if your companies' desktop system web browsers use a Java "
+"Uploader."
+msgstr "Deselecteer dit als de webbrowsers van het desktopsysteem van uw bedrijf een Java-uploader gebruiken."
+
+#: ../../chapter11.rst:250
+msgid "Web Browser - Disable Flash Uploader"
+msgstr "Webbrowser - Flash-uploader uitschakelen"
+
+#: ../../chapter11.rst:252
+msgid ""
+"Deselect this if your company uses browsers that require Flash uploader "
+"functionality."
+msgstr "Deselecteer dit als uw bedrijf browsers gebruikt die Flash-uploaderfunctionaliteit vereisen."
+
+#: ../../chapter11.rst:254
+msgid "Web Browser - Disable Local Uploader"
+msgstr "Webbrowser - Lokale uploader uitschakelen"
+
+#: ../../chapter11.rst:256
+msgid ""
+"Deselect this if your company allows the use of a local executable to "
+"upload files."
+msgstr "Deselecteer dit als uw bedrijf het gebruik van een lokaal uitvoerbaar bestand toestaat om bestanden te uploaden."
+
+#: ../../chapter11.rst:260
+msgid "Sharing Security"
+msgstr "Delen Beveiliging"
+
+#: ../../chapter11.rst:263
+msgid "Preventing Users From Sharing"
+msgstr "Voorkomen dat gebruikers delen"
+
+#: ../../chapter11.rst:265
+msgid ""
+"Sometimes for security reasons, users should not be allowed to share "
+"files/folders."
+msgstr "Soms mogen gebruikers om veiligheidsredenen geen bestanden/mappen delen."
+
+#: ../../chapter11.rst:267
+msgid "There are two types of files and folders a user can access."
+msgstr "Er zijn twee soorten bestanden en mappen waartoe een gebruiker toegang kan hebben."
+
+#: ../../chapter11.rst:269
+msgid ""
+"User's own folders, including versioned folders and attached local "
+"folders from the user's desktop."
+msgstr "Gebruikers eigen mappen, inclusief versiebeheerde mappen en gekoppelde lokale mappen van de desktop van de gebruiker."
+
+#: ../../chapter11.rst:271
+msgid ""
+"When an administrator creates new users, he/she can disable sharing home "
+"directory content with external party, to prevent the newly created user "
+"from sharing his/her own files and folders."
+msgstr "Wanneer een beheerder nieuwe gebruikers aanmaakt, kan hij/zij het delen van inhoud van de thuismap met externe partijen uitschakelen, om te voorkomen dat de nieuw aangemaakte gebruiker zijn/haar eigen bestanden en mappen deelt."
+
+#: ../../chapter11.rst:277
+msgid "MANAGE USER SETTINGS"
+msgstr "GEBRUIKERSINSTELLINGEN BEHEREN"
+
+#: ../../chapter11.rst:279
+msgid ""
+"In the Manage User panel, access the \"Storage\" settings (4). Once you "
+"are in the Storage View you can select (5) the \"Disable external sharing"
+" of this user's home directory content\" option."
+msgstr "In het paneel 'Gebruiker beheren', ga naar de \"Opslag\" instellingen (4). Eenmaal in de Opslagweergave kunt u de optie (5) \"Extern delen van de inhoud van de thuismap van deze gebruiker uitschakelen\" selecteren."
+
+#: ../../chapter11.rst:284
+msgid "DISABLE EXTERNAL SHARING"
+msgstr "EXTERN DELEN UITSCHAKELEN"
+
+#: ../../chapter11.rst:287
+msgid ""
+"When publishing a team folder, administrator can check 'Disable further "
+"sharing', to prevent users from sharing anything in the team folder. You "
+"can access this setting after choosing your storage location. Click the "
+"\"Create Team Folder\" **(+)** icon (1) and select your storage type (2),"
+" \"New Team Folder\" window opens, click \"Settings\" icon (3), then "
+"select the \"Disable further sharing\" option (4)."
+msgstr "Wanneer een teammap wordt gepubliceerd, kan de beheerder 'Verder delen uitschakelen' aanvinken, om te voorkomen dat gebruikers iets in de teammap delen. U kunt deze instelling benaderen nadat u uw opslaglocatie heeft gekozen. Klik op het icoon 'Teammap aanmaken' **(+)** (1) en selecteer uw opslagtype (2), het venster 'Nieuwe Teammap' opent, klik op het icoon 'Instellingen' (3), en selecteer dan de optie 'Verder delen uitschakelen' (4)."
+
+#: ../../chapter11.rst:292
+msgid "DISABLE FURTHER SHARING"
+msgstr "VERDER DELEN UITGESCHAKELD"
+
+#: ../../chapter11.rst:296
+msgid "Protecting Shares By Requiring Login"
+msgstr "Delen Beveiligen Door Inloggen te Vereisen"
+
+#: ../../chapter11.rst:298
+msgid ""
+"When a user shares a file or folder, |prodname| will generate a URL. By "
+"default, anyone can use the URL to access the share."
+msgstr "Wanneer een gebruiker een bestand of map deelt, zal |prodname| een URL genereren. Standaard kan iedereen de URL gebruiken om toegang te krijgen tot de gedeelde inhoud."
+
+#: ../../chapter11.rst:300
+msgid ""
+"Administrators can protect shares by requiring login credentials. Once "
+"enabled, when a user accesses the share URL, he /she will be prompted to "
+"login to the |prodname| Cloud. After login, the user can view the "
+"file/folder shared with him/her under 'Files shared with me'."
+msgstr "Beheerders kunnen shares beschermen door inloggegevens te vereisen. Eenmaal ingeschakeld, wanneer een gebruiker de share-URL benadert, zal hij/zij worden gevraagd om in te loggen op de |prodname| Cloud. Na het inloggen kan de gebruiker het bestand/de map die met hem/haar gedeeld is bekijken onder 'Bestanden gedeeld met mij'."
+
+#: ../../chapter11.rst:303
+msgid ""
+"To access this setting use the \"Settings\" menu (1) and in the \"Data "
+"Leak Protection\" (2) -> \"Sharing\" (3) panel, select the \"Users must "
+"log in to access the content in 'Files shared with me' folder\" setting "
+"(4)."
+msgstr "Om deze instelling te gebruiken, gebruik het menu \"Instellingen\" (1) en in het paneel \"Datalekpreventie\" (2) -> \"Delen\" (3), selecteer de instelling \"Gebruikers moeten inloggen om toegang te krijgen tot de inhoud in de map 'Met mij gedeelde bestanden'\" (4)."
+
+#: ../../chapter11.rst:308
+msgid "SECURING SHARED FILES AND FOLDERS"
+msgstr "BEVEILIGEN VAN GEDEELDE BESTANDEN EN MAPPEN"
+

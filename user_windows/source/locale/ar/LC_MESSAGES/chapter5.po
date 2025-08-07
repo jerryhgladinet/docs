@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Locking Files"
+msgstr "قفل الملفات"
+
+#: ../../chapter5.rst:6
+msgid ""
+"The |prodname| Cloud administrator has the option of enabling a setting "
+"that causes files to automatically become locked when they are in use - "
+"automatic distributed lock (see administration guide). This prevents more"
+" than one person from updating the file at the same time which can cause "
+"undesirable results."
+msgstr "لدى مسؤول |prodname| Cloud خيار تمكين إعداد يؤدي إلى قفل الملفات تلقائيًا عند استخدامها - قفل موزع تلقائي (انظر دليل الإدارة). هذا يمنع أكثر من شخص من تحديث الملف في نفس الوقت الذي يمكن أن يسبب نتائج غير مرغوب فيها."
+
+#: ../../chapter5.rst:10
+msgid "When to use automatic lock and when to use manual lock?"
+msgstr "متى يُستخدم القفل التلقائي ومتى يُستخدم القفل اليدوي؟"
+
+#: ../../chapter5.rst:12
+msgid ""
+"When files are automatic locked, the same files need to be automatically "
+"unlocked. When files are automaticall locked, the agent that locks the "
+"file needs to maintain health heart beat with the central |prodname| "
+"server. When the heart beat can't be maintained, the file will be "
+"automatically unlocked."
+msgstr "عندما يتم قفل الملفات تلقائيًا، يجب أن يتم فتح قفلها تلقائيًا أيضًا. عندما يتم قفل الملفات تلقائيًا، يجب على الوكيل الذي يقفل الملف أن يحافظ على نبض صحي مستمر مع خادم |prodname| المركزي. عندما لا يمكن الحفاظ على نبض الصحة، سيتم فتح قفل الملف تلقائيًا."
+
+#: ../../chapter5.rst:14
+msgid ""
+"If you want the file to stay locked regardless what situation the agent "
+"machine is in, manual lock is recommened. A manually locked file will "
+"need to be manually unlocked."
+msgstr "إذا كنت تريد أن يظل الملف مقفلاً بغض النظر عن حالة جهاز الوكيل، فإن القفل اليدوي يُوصى به. سيحتاج الملف المقفل يدويًا إلى إلغاء القفل يدويًا."
+
+#: ../../chapter5.rst:16
+msgid ""
+"Files can be manually locked. Right-click on any file **(1)** in the "
+"|prodname| drive and then select \"check out (Lock) This File\" **(2)** "
+"to toggle between its locked and unlocked state. Then click OK in the "
+"pop-up **(3)**."
+msgstr "يمكن قفل الملفات يدويًا. انقر بزر الماوس الأيمن على أي ملف **(1)** في محرك الأقراص |prodname| ثم اختر \"تحقق من (قفل) هذا الملف\" **(2)** للتبديل بين حالتي القفل والإلغاء. ثم انقر على موافق في النافذة المنبثقة **(3)**."
+
+#: ../../chapter5.rst:21
+msgid "LOCKING A LOCAL FILE"
+msgstr "قفل ملف محلي"
+
+#: ../../chapter5.rst:23
+msgid ""
+"The context menu will give the option to lock the file. It will stay "
+"locked until you 'Unlock' it. When you are finished with the file, you "
+"can unlock it by right-clicking it and choosing Check In from the context"
+" menu."
+msgstr "سيمنحك قائمة السياق خيار قفل الملف. وسيظل مقفلاً حتى تقوم بـ 'فتح القفل'. عندما تنتهي من الملف، يمكنك فتح القفل بالنقر بزر الفأرة الأيمن عليه واختيار تسجيل الخروج من قائمة السياق."
+
+#: ../../chapter5.rst:27
+msgid "Offline Access"
+msgstr "الوصول غير المتصل"
+
+#: ../../chapter5.rst:29
+msgid ""
+"Cloud Drive files aren't fully synced by default; only the files you are "
+"using are synced. You can Force Sync your files however. Right-click the "
+"folder you want to make \"Offline\" and choose \"Enable Offline Access "
+"**(1)**. Once this is done, you can click your drive icon, and then "
+"choose \"Force Sync All Offline Folders\" **(2)** to sync any folders you"
+" have enabled for Offline Access."
+msgstr "ملفات Cloud Drive لا تتم مزامنتها بشكل كامل افتراضيًا؛ فقط الملفات التي تستخدمها يتم مزامنتها. ومع ذلك، يمكنك إجبار المزامنة لملفاتك. انقر بزر الماوس الأيمن على المجلد الذي تريد جعله \"غير متصل\" واختر \"تمكين الوصول غير المتصل **(1)**. بمجرد القيام بذلك، يمكنك النقر على أيقونة القرص الخاص بك، ثم اختيار \"إجبار مزامنة جميع المجلدات غير المتصلة\" **(2)** لمزامنة أي مجلدات قمت بتمكينها للوصول غير المتصل."
+
+#: ../../chapter5.rst:31
+msgid ""
+"Also, you might want to pause the synchronization of files while you are "
+"working on them. This can be done from the Cloud Drive icon as well. In "
+"the menu, choose \"Pause Sync\" **(3)** temporarily stop files from "
+"sychronizing. The benefit is that you can keep modifying documents "
+"(drafts) locally until it is all done and then you can uncheck the "
+"\"Pause\" and connect to the |prodname| cloud drive to upload any "
+"changes."
+msgstr "قد ترغب أيضًا في إيقاف مزامنة الملفات مؤقتًا بينما تعمل عليها. يمكن القيام بذلك من خلال أيقونة Cloud Drive أيضًا. في القائمة، اختر \"إيقاف المزامنة\" **(3)** لإيقاف مزامنة الملفات مؤقتًا. الفائدة هي أنه يمكنك الاستمرار في تعديل المستندات (المسودات) محليًا حتى تنتهي منها جميعًا ثم يمكنك إلغاء تحديد \"الإيقاف\" والاتصال بسحابة |prodname| لتحميل أي تغييرات."
+
+#: ../../chapter5.rst:36
+msgid "OFFLINE ACCESS"
+msgstr "الوصول غير المتصل"
+

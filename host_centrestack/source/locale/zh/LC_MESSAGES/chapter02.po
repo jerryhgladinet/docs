@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Partner Portal"
+msgstr "合作伙伴门户"
+
+#: ../../chapter02.rst:5
+msgid ""
+"To start the Hosted-|prodname| version, the first thing to do is to "
+"acquire a |prodname| partner account and login to the web portal."
+msgstr "要开始托管的 |prodname| 版本，首先需要获得一个 |prodname| 合作伙伴账户并登录到网页门户。"
+
+#: ../../chapter02.rst:10
+msgid "|prodname| WEBSITE"
+msgstr "|prodname| 网站"
+
+#: ../../chapter02.rst:12
+msgid ""
+"The Partner Portal is the centralized place to manage the managed service"
+" provider's (MSP's) clients. The activities on the partner portal include"
+" creating Tenants and managing Tenants."
+msgstr "合作伙伴门户是集中管理托管服务提供商（MSP）客户的地方。合作伙伴门户的活动包括创建租户和管理租户。"
+
+#: ../../chapter02.rst:17
+msgid "PARTNER LOGIN"
+msgstr "合作伙伴登录"
+
+#: ../../chapter02.rst:19
+msgid ""
+"After logging into the Partner Portal, you can see most options by "
+"expanding the left-side menu. **(1)** From the collapsable menu, choose "
+"one of the two hosting options: \"Self-Hosted |prodname|\" **(2)**, which"
+" is for the self-hosted |prodname|, or \"Hosted |prodname|\" **(3)**. In "
+"the image below you can see that we have already \"Branded\" this account"
+" with \"ACME Cloud Services\" **(4)** (see \"Branding\" section **(5)** "
+"below for more information). You can also access useful information here,"
+" such as \"Compare CentreStack Editions\" **(6)** and \"Training Videos\""
+" **(7)** to help you get started."
+msgstr "登录合作伙伴门户后，您可以通过展开左侧菜单来查看大多数选项。**(1)** 从可折叠菜单中，选择两种托管选项之一：\"自托管 |prodname|\" **(2)**，适用于自托管的 |prodname|，或者\"托管 |prodname|\" **(3)**。在下面的图片中，您可以看到我们已经用\"ACME Cloud Services\" **(4)** 对此账户进行了\"品牌化\"（有关更多信息，请参阅下面的\"品牌化\"部分 **(5)**）。您还可以在这里访问有用的信息，例如\"比较CentreStack版本\" **(6)** 和\"培训视频\" **(7)**，以帮助您开始使用。"
+
+#: ../../chapter02.rst:24
+msgid "PARTNER DASHBOARD"
+msgstr "合作伙伴仪表板"
+
+#: ../../chapter02.rst:26
+msgid ""
+"Because this guide is focused on our \"Hosted\" solution, choose the "
+"\"Hosted |prodname|\" option from the left panel."
+msgstr "因为本指南专注于我们的“托管”解决方案，请从左侧面板选择“托管 |prodname|”选项。"
+
+#: ../../chapter02.rst:31
+msgid "HOSTED |prodname| TENANT MANAGEMENT"
+msgstr "托管 |prodname| 租户管理"
+
+#: ../../chapter02.rst:34
+msgid "Tenant Management"
+msgstr "租户管理"
+
+#: ../../chapter02.rst:36
+msgid ""
+"After you are in the Hosted |prodname| section, you can view the Tenant "
+"manager."
+msgstr "在您进入托管的 |prodname| 部分后，您可以查看租户管理器。"
+
+#: ../../chapter02.rst:40
+msgid "A Tenant is usually mapped to a client of yours."
+msgstr "一个租户通常对应于您的一个客户。"
+
+#: ../../chapter02.rst:43
+msgid "New Tenant"
+msgstr "新租户"
+
+#: ../../chapter02.rst:45
+msgid ""
+"To start creating the first Tenant, you can use the \"Register a Tenant\""
+" link."
+msgstr "要开始创建第一个租户，您可以使用“注册租户”链接。"
+
+#: ../../chapter02.rst:50
+msgid "CREATE A NEW TENANT"
+msgstr "创建新租户"
+
+#: ../../chapter02.rst:52
+msgid ""
+"During the creation of a Tenant, it asks for basic Tenant-related "
+"information such as company name, contact name, email and other "
+"information."
+msgstr "在创建租户时，它会要求提供基本的租户相关信息，如公司名称、联系人姓名、电子邮件和其他信息。"
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you need to get to the advanced section to further customize the "
+"creation of the Tenant, you can click on the \"Advanced Settings\" link."
+msgstr "如果您需要进入高级部分以进一步自定义租户的创建，您可以点击“高级设置”链接。"
+
+#: ../../chapter02.rst:59
+msgid "NEW TENANT SETTINGS"
+msgstr "新租户设置"
+
+#: ../../chapter02.rst:62
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: ../../chapter02.rst:67
+msgid "ADVANCED SETTINGS"
+msgstr "高级设置"
+
+#: ../../chapter02.rst:69
+msgid ""
+"For MSPs and the Tenant internal IT staff, there is a division of work "
+"and responsibility. Sometimes managed service providers do more work and "
+"have more responsibility, but other times the Tenant IT staff has more. "
+"The Advanced Settings defines how the work is divided between these two "
+"entities."
+msgstr "对于MSP和租户内部IT员工来说，工作和责任有所分工。有时托管服务提供商会做更多的工作并承担更多的责任，但其他时候租户IT员工则承担更多。高级设置定义了这两个实体之间工作的分配方式。"
+
+#: ../../chapter02.rst:71
+msgid "View and edit group policy"
+msgstr "查看和编辑组策略"
+
+#: ../../chapter02.rst:73
+msgid "Whether the Tenant itself (Tenant Administrator) can manage group policy."
+msgstr "是否租户自身（租户管理员）可以管理组策略。"
+
+#: ../../chapter02.rst:76
+msgid "Allow Tenant to edit branding setting"
+msgstr "允许租户编辑品牌设置"
+
+#: ../../chapter02.rst:78
+msgid ""
+"Normally the Tenant will pick up the service provider's default branding "
+"setting. If this setting is allowed the Tenant can define their own "
+"branding."
+msgstr "通常情况下，租户会采用服务提供商的默认品牌设置。如果允许此设置，租户可以定义他们自己的品牌。"
+
+#: ../../chapter02.rst:81
+msgid "Edit Tenant Administrator info"
+msgstr "编辑租户管理员信息"
+
+#: ../../chapter02.rst:83
+msgid ""
+"Tenant admin can change the email and the name of the Tenant "
+"administrator."
+msgstr "租户管理员可以更改租户管理员的电子邮件和姓名。"
+
+#: ../../chapter02.rst:85
+msgid "Allow creation of guest users"
+msgstr "允许创建访客用户"
+
+#: ../../chapter02.rst:87
+msgid ""
+"The Guest user is related to files and folder sharing. This setting "
+"allows Tenant users to create guest users."
+msgstr "访客用户与文件和文件夹共享相关。此设置允许租户用户创建访客用户。"
+
+#: ../../chapter02.rst:89
+msgid ""
+"Show Data-At-Rest Encryption configuration page (Requires empty storage "
+"container)"
+msgstr "显示静态数据加密配置页面（需要空的存储容器）"
+
+#: ../../chapter02.rst:91
+msgid ""
+"This option allows Tenant to set encryption upon the first use. The "
+"Tenant will enable the encryption with a pass phrase."
+msgstr "此选项允许租户在首次使用时设置加密。租户将使用一个密码短语启用加密。"
+
+#: ../../chapter02.rst:93
+msgid "User License Count"
+msgstr "用户许可证数量"
+
+#: ../../chapter02.rst:95
+msgid "By default, the Tenant user count can be anything above 3 users."
+msgstr "默认情况下，租户用户数量可以超过3个用户。"
+
+#: ../../chapter02.rst:97
+msgid "Hosting Data Center"
+msgstr "托管数据中心"
+
+#: ../../chapter02.rst:99
+msgid ""
+"If a managed service provider has both self-hosted |prodname| environment"
+" and Hosted |prodname|, the managed service provider can leverage self-"
+"hosted |prodname| to create Tenants."
+msgstr "如果托管服务提供商既有自托管的 |prodname| 环境，又有托管的 |prodname|，那么托管服务提供商可以利用自托管的 |prodname| 来创建租户。"
+
+#: ../../chapter02.rst:101
+msgid ""
+"After a Tenant is created, you can manage the Tenants in \"Registered "
+"Tenants\" section."
+msgstr "在创建租户后，您可以在“已注册租户”部分管理租户。"
+
+#: ../../chapter02.rst:106
+msgid "MANAGING YOUR TENANT"
+msgstr "管理您的租户"
+
+#: ../../chapter02.rst:109
+msgid "Branding"
+msgstr "品牌"
+
+#: ../../chapter02.rst:111
+msgid ""
+"You can create the branding and then apply the branding information to "
+"your Tenants."
+msgstr "您可以创建品牌信息，然后将品牌信息应用到您的租户。"
+
+#: ../../chapter02.rst:116
+msgid "PARTNER BRANDING SETTINGS"
+msgstr "合作伙伴品牌设置"
+
+#: ../../chapter02.rst:119
+msgid "Apply Branding to the Tenant"
+msgstr "对租户应用品牌"
+
+#: ../../chapter02.rst:121
+msgid ""
+"**Default branding is applied this way:** On \"Registered Tenants\" "
+"section, click \"Brand\"."
+msgstr "**默认品牌应用如下：** 在“已注册租户”部分，点击“品牌”。"
+
+#: ../../chapter02.rst:127
+msgid "APPLY PARTNER BRANDING"
+msgstr "应用合作伙伴品牌"
+
+#: ../../chapter02.rst:129
+msgid ""
+"If the Tenant is allowed to change the branding, this can be done from "
+"the Tenant dashboard."
+msgstr "如果允许租户更改品牌形象，可以从租户仪表板进行此操作。"
+
+#: ../../chapter02.rst:134
+msgid "ACCESS TO TENANT BRANDING"
+msgstr "访问租户品牌"
+
+#: ../../chapter02.rst:136
+msgid ""
+"Once you are in the Branding Settings, you can choose a settings group "
+"from the Branding submenu. The setting categories are: ``General``, ``Web"
+" Portal``, ``Client Download``, ``Windows Client``, ``Mac Client``, "
+"``Emails``, ``Email Service``, and ``Branding Tasks``."
+msgstr "一旦您进入品牌设置，您可以从品牌子菜单中选择一个设置组。设置类别包括：``通用``、``网页门户``、``客户端下载``、``Windows 客户端``、``Mac 客户端``、``电子邮件``、``电子邮件服务`` 以及 ``品牌任务``。"
+
+#: ../../chapter02.rst:141
+msgid "TENANT BRANDING SETTINGS"
+msgstr "租户品牌设置"
+
+#: ../../chapter02.rst:143
+msgid ""
+"After the branding is created, you can apply the branding to a specific "
+"Tenant. In this example, we created a new logo and uploaded it to the "
+"logo section in the partner portal."
+msgstr "品牌创建后，您可以将品牌应用于特定的租户。在此示例中，我们创建了一个新的徽标并将其上传到合作伙伴门户中的徽标部分。"
+
+#: ../../chapter02.rst:148
+msgid "REPLACE THIS"
+msgstr ""
+
+#: ../../chapter02.rst:150
+msgid ""
+"After that, we can apply the branding and you can see the difference "
+"before-branding and after-branding."
+msgstr "之后，我们可以应用品牌化，您可以看到品牌化前后的区别。"
+
+#: ../../chapter02.rst:153
+msgid "Before - Default"
+msgstr "默认之前"
+
+#: ../../chapter02.rst:158
+msgid "DEFAULT BRANDING"
+msgstr "默认品牌"
+
+#: ../../chapter02.rst:161
+msgid "Now - Your Branding"
+msgstr "现在 - 您的品牌"
+
+#: ../../chapter02.rst:166
+msgid "CUSTOM BRANDING"
+msgstr "自定义品牌"
+

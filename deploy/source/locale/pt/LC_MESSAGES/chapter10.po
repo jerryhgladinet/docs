@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter10.rst:2
+msgid "Security Considerations"
+msgstr "Considerações de Segurança"
+
+#: ../../chapter10.rst:5
+msgid "Firewall Settings"
+msgstr "Configurações de Firewall"
+
+#: ../../chapter10.rst:7
+msgid ""
+"The CentreStack Server only needs port 80 (HTTP) and port 443 (HTTPS). If"
+" you unbind port 80 for external IP address on the \"Default Web Site\", "
+"you can also close port 80 (HTTP) and leave 443 (HTTPS) as the only open "
+"port."
+msgstr "O Servidor CentreStack necessita apenas da porta 80 (HTTP) e da porta 443 (HTTPS). Se você desvincular a porta 80 do endereço IP externo no \"Default Web Site\", você também pode fechar a porta 80 (HTTP) e deixar a 443 (HTTPS) como a única porta aberta."
+
+#: ../../chapter10.rst:10
+msgid ""
+"The best practice is if you leave both port 80 and port 443 open on the "
+"CentreStack server, and use a firewall fronting the CentreStack server to"
+" control the access from the firewall."
+msgstr "A melhor prática é se você deixar tanto a porta 80 quanto a porta 443 abertas no servidor CentreStack e usar um firewall à frente do servidor CentreStack para controlar o acesso a partir do firewall."
+
+#: ../../chapter10.rst:14
+msgid "Access Clients and CentreStack"
+msgstr "Clientes de Acesso e CentreStack"
+
+#: ../../chapter10.rst:16
+msgid ""
+"The access client agents will be configured with an access end point in "
+"the form of https://cloud.acme.com, where cloud.acme.com is the DNS name "
+"of your CentreStack server. The communication from the access clients, "
+"such as login request will be protected by SSL over HTTP (HTTPS)."
+msgstr "Os agentes clientes de acesso serão configurados com um ponto de acesso na forma de https://cloud.acme.com, onde cloud.acme.com é o nome DNS do seu servidor CentreStack. A comunicação dos clientes de acesso, como solicitação de login, será protegida por SSL sobre HTTP (HTTPS)."
+
+#: ../../chapter10.rst:22
+msgid ""
+"We recommend using https://www.ssllabs.com/ to check out the strength of "
+"your SSL certificate and whether or not it is compatible with iOS 9 and "
+"above devices."
+msgstr "Recomendamos o uso de https://www.ssllabs.com/ para verificar a força do seu certificado SSL e se ele é compatível com dispositivos iOS 9 e superiores."
+
+#: ../../chapter10.rst:26
+msgid "CentreStack and Active Directory"
+msgstr "CentreStack e Active Directory"
+
+#: ../../chapter10.rst:28
+msgid ""
+"If the CentreStack is configured with Active Directory, CentreStack will "
+"authenticate users on behalf of the Active Directory by contacting the "
+"Active Directory over LDAP or LDAPS. There is no direct communication "
+"between the access clients and the Active Directory."
+msgstr "Se o CentreStack estiver configurado com o Active Directory, o CentreStack autenticará os usuários em nome do Active Directory, contatando o Active Directory por LDAP ou LDAPS. Não há comunicação direta entre os clientes de acesso e o Active Directory."
+

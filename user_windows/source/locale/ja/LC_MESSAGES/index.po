@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Windows Client User Guide. This guide describes"
+" client functionality for users in |prodname|."
+msgstr "ようこそ |prodname| Windowsクライアント ユーザーガイドへ。このガイドでは、|prodname| のユーザー向けのクライアント機能について説明しています。"
+
+#: ../../index.rst:11
+msgid "Client Agents"
+msgstr "クライアントエージェント"
+
+#: ../../index.rst:13
+msgid ""
+"|prodname| client agents are available for Windows, Mac, iOS, Android, "
+"and Windows phones. These clients are designed to work with your "
+"|prodname| account which can be powered by any supported storage service."
+msgstr "|prodname| クライアントエージェントは、Windows、Mac、iOS、Android、Windows Phoneに対応しています。これらのクライアントは、サポートされているストレージサービスで動作する |prodname| アカウントと連携して設計されています。"
+
+#: ../../index.rst:16
+msgid "Windows Client Agent"
+msgstr "Windows クライアント エージェント"
+
+#: ../../index.rst:19
+msgid "System Requirement"
+msgstr "システム要件"
+
+#: ../../index.rst:21
+msgid "OS - Windows XP, Vista, 7/8/8.1/10"
+msgstr "OS - Windows XP、Vista、7/8/8.1/10"
+
+#: ../../index.rst:22
+msgid ""
+"Normally on windows server type machine such as 2025/2022/2019/2016, use "
+"server agent instead of client agent. However, the client agent can run "
+"as desktop application on Windows Server OS as well.  For example, if you"
+" plan to have the desktop agent run in a terminal server environment, you"
+" need to install desktop agent instead of server agent."
+msgstr "通常、2025/2022/2019/2016などのWindowsサーバータイプのマシンでは、クライアントエージェントの代わりにサーバーエージェントを使用します。ただし、クライアントエージェントもWindows Server OS上でデスクトップアプリケーションとして実行することができます。例えば、デスクトップエージェントをターミナルサーバー環境で実行する予定がある場合は、サーバーエージェントの代わりにデスクトップエージェントをインストールする必要があります。"
+
+#: ../../index.rst:24
+msgid "Hard Drive - 100MB"
+msgstr "ハードドライブ - 100MB"
+
+#: ../../index.rst:24
+msgid "50MB for the installed program"
+msgstr "インストールされたプログラムには50MBが必要です"
+
+#: ../../index.rst:25
+msgid "at least 50MB for the operation of cache folder"
+msgstr "キャッシュフォルダの操作には少なくとも50MBが必要です"
+
+#: ../../index.rst:26
+msgid "CPU - No specific requirement (Intel/AMD x86/x64)"
+msgstr "CPU - 特に要件はありません（Intel/AMD x86/x64）"
+
+#: ../../index.rst:27
+msgid "Internet Connection"
+msgstr "インターネット接続"
+
+#: ../../index.rst:31
+msgid "This guide is written against Windows Client agent version |release|"
+msgstr "このガイドはWindowsクライアントエージェントのバージョン |release| に対して書かれています"
+

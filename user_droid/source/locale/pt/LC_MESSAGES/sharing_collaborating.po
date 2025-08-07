@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../sharing_collaborating.rst:2
+msgid "Sharing and Collaborating"
+msgstr "Compartilhamento e Colaboração"
+
+#: ../../sharing_collaborating.rst:4
+msgid "User can select the files or folders to share from the Android devices."
+msgstr "O usuário pode selecionar os arquivos ou pastas para compartilhar a partir dos dispositivos Android."
+
+#: ../../sharing_collaborating.rst:10
+msgid "Share"
+msgstr "Compartilhar"
+
+#: ../../sharing_collaborating.rst:12
+msgid ""
+"User will be redirected to the **Share/Invite User** screen. There, add "
+"the email addresses of the users and select different options for "
+"sharing. Press the \">\" icon to add users to the share."
+msgstr "O usuário será redirecionado para a tela de **Compartilhar/Convidar Usuário**. Lá, adicione os endereços de e-mail dos usuários e selecione diferentes opções de compartilhamento. Pressione o ícone \">\" para adicionar usuários ao compartilhamento."
+
+#: ../../sharing_collaborating.rst:17
+msgid ""
+"On the next screen, touch the yellow arrow to select \"**Continue as it "
+"is now**\" (read-only access). Or select \"**Add user as a Guest User**\""
+" to get access to other settings."
+msgstr "Na próxima tela, toque na seta amarela para selecionar \"**Continuar como está agora**\" (acesso somente leitura). Ou selecione \"**Adicionar usuário como Usuário Convidado**\" para ter acesso a outras configurações."
+
+#: ../../sharing_collaborating.rst:21
+msgid ""
+"Before sending email share notification, specify how the user(s) can "
+"access the file or folder."
+msgstr "Antes de enviar a notificação de compartilhamento por e-mail, especifique como o(s) usuário(s) podem acessar o arquivo ou pasta."
+
+#: ../../sharing_collaborating.rst:23
+msgid "Set the expiration time for the share."
+msgstr "Defina o tempo de expiração para o compartilhamento."
+
+#: ../../sharing_collaborating.rst:24
+msgid "Select \"Read Only\" or \"Full Control\"."
+msgstr "Selecione \"Somente Leitura\" ou \"Controle Total\"."
+
+#: ../../sharing_collaborating.rst:25
+msgid "Select \"View only (no Download)\" if desired."
+msgstr "Selecione \"Apenas visualização (sem Download)\" se desejar."
+
+#: ../../sharing_collaborating.rst:26
+msgid "Select \"Password Protection\" and enter a password."
+msgstr "Selecione \"Proteção por Senha\" e insira uma senha."
+
+#: ../../sharing_collaborating.rst:27
+msgid ""
+"Disable password protection and allow the user to create their own "
+"password from the link in the email they receive."
+msgstr "Desative a proteção por senha e permita que o usuário crie sua própria senha a partir do link no e-mail que receber."
+
+#: ../../sharing_collaborating.rst:29
+msgid "When selected the sharing options, tap on \"Share\" at the top right."
+msgstr "Quando selecionadas as opções de compartilhamento, toque em \"Compartilhar\" no canto superior direito."
+
+#: ../../sharing_collaborating.rst:34
+msgid ""
+"Sharing with an email user creates a **Guest User**. Each licensed user "
+"can create 3 guest user accounts. If there are 3 licensed users, then a "
+"total of 9 guest users can be added for that tenant. If the number of "
+"guest users has reached the limit, and the tenant is set up to auto grow "
+"the number of licensed users, then one more license will be added to the "
+"tenant."
+msgstr "Compartilhar com um usuário de e-mail cria um **Usuário Convidado**. Cada usuário licenciado pode criar 3 contas de usuário convidado. Se houver 3 usuários licenciados, então um total de 9 usuários convidados podem ser adicionados para esse inquilino. Se o número de usuários convidados atingir o limite, e o inquilino estiver configurado para aumentar automaticamente o número de usuários licenciados, então mais uma licença será adicionada ao inquilino."
+
+#: ../../sharing_collaborating.rst:38
+msgid "Share Via"
+msgstr "Compartilhar Via"
+
+#: ../../sharing_collaborating.rst:40
+msgid ""
+"User can share the file with a third-party application such as Gmail or "
+"WhatsApp."
+msgstr "O usuário pode compartilhar o arquivo com um aplicativo de terceiros, como o Gmail ou o WhatsApp."
+
+#: ../../sharing_collaborating.rst:46
+msgid "Get Public Link"
+msgstr "Obter Link Público"
+
+#: ../../sharing_collaborating.rst:48
+msgid ""
+"A URL will be provided that can be used to paste into an email or other "
+"field to share public read-only access to the file."
+msgstr "Será fornecido um URL que pode ser utilizado para colar num e-mail ou outro campo para partilhar acesso público somente de leitura ao arquivo."
+
+#: ../../sharing_collaborating.rst:54
+msgid "Share Manager"
+msgstr "Gerenciador de Compartilhamento"
+
+#: ../../sharing_collaborating.rst:56
+msgid ""
+"User will be taken to a view and will see a list of all shares associated"
+" with the item. Tap on on a shared user, to resend the **share email** "
+"(1) and **get public link** (2)."
+msgstr "O usuário será levado para uma visualização e verá uma lista de todos os compartilhamentos associados ao item. Toque em um usuário compartilhado, para reenviar o **e-mail de compartilhamento** (1) e **obter link público** (2)."
+
+#: ../../sharing_collaborating.rst:58
+msgid ""
+"To delete a user share, press the **trash can** (3) icon next to the "
+"share. This will remove the share and prevent access by that user."
+msgstr "Para excluir um compartilhamento de usuário, pressione o ícone **lixeira** (3) ao lado do compartilhamento. Isso removerá o compartilhamento e impedirá o acesso por esse usuário."
+
+#: ../../sharing_collaborating.rst:60
+msgid ""
+"Touching the Share Menu button at the bottom right of the screen will "
+"give more options. **Add more users** (4) to the share list, **Share "
+"Via** (5) this file, **copy public (read-only) link** (2) to the "
+"clipboard, **refresh the list** (6)."
+msgstr "Ao tocar no botão Menu Compartilhar no canto inferior direito da tela, mais opções serão exibidas. **Adicionar mais usuários** (4) à lista de compartilhamento, **Compartilhar Via** (5) este arquivo, **copiar link público (somente leitura)** (2) para a área de transferência, **atualizar a lista** (6)."
+
+#: ../../sharing_collaborating.rst:67
+msgid "Request a File"
+msgstr "Solicitar um Arquivo"
+
+#: ../../sharing_collaborating.rst:69
+msgid ""
+"This option is available only for folders. Selecting **Request a file** "
+"will take to a screen where user can share a link with another user so "
+"they can upload files to a specific folder."
+msgstr "Esta opção está disponível apenas para pastas. Selecionar **Solicitar um arquivo** levará a uma tela onde o usuário pode compartilhar um link com outro usuário para que eles possam fazer upload de arquivos para uma pasta específica."
+
+#: ../../sharing_collaborating.rst:77
+msgid "Files Shared with Me"
+msgstr "Arquivos Compartilhados Comigo"
+
+#: ../../sharing_collaborating.rst:79
+msgid ""
+"User can access files shared by other users from **Files Shared with Me**"
+" from the side menu."
+msgstr "O usuário pode acessar arquivos compartilhados por outros usuários a partir de **Arquivos Compartilhados Comigo** no menu lateral."
+

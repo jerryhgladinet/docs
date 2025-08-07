@@ -41,7 +41,7 @@ Two-Server Deployment
 
 In the two server deployment, the database is installed in its own server;
 away from the CentreStack worker node.
-Usually, this is an intermediate step leading to the “Three-Server Deployment” and a step towards scaling up the server farm.
+Usually, this is an intermediate step leading to the "Three-Server Deployment" and a step towards scaling up the server farm.
 
 .. image:: _static/image005.png
 
@@ -49,11 +49,11 @@ Three-Server Deployment for Redundancy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The 3-machine deployment is another simple deployment. The database node is installed separately.
-Two CentreStack worker nodes are installed. The “External URL” field for each node is the same,
-such as “cloud.acme.com”. The load balancer will do a round robin load balancing to either node.
-A variation of the deployment is to set “External URL” field differently for the two worker nodes.
-When “External URL” field is the same as the load balancer URL, everything is round robin.
-When “External URL” is different, such as node1.acme.com and node2.acme.com,
+Two CentreStack worker nodes are installed. The "External URL" field for each node is the same,
+such as "cloud.acme.com". The load balancer will do a round robin load balancing to either node.
+A variation of the deployment is to set "External URL" field differently for the two worker nodes.
+When "External URL" field is the same as the load balancer URL, everything is round robin.
+When "External URL" is different, such as node1.acme.com and node2.acme.com,
 the users will have affinity to one of the node.
 For example, if user1 is assigned to node1.acme.com, he will continue to use node1.acme.com.
 In this deployment, the size of the cluster is supporting 2000 concurrent-users per node.

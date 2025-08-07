@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter09.rst:2
+msgid "Backup CentreStack"
+msgstr "Backup CentreStack"
+
+#: ../../chapter09.rst:5
+msgid "Database"
+msgstr "Database"
+
+#: ../../chapter09.rst:7
+msgid ""
+"Only the CentreStack database contains persistent configuration "
+"information. All other components are stateless and replaceable. In a "
+"disaster recovery scenario, as soon as the SQL Server is restored, other "
+"worker nodes can be re-installed and will start working immediately. You "
+"can also point the worker node's database reference to the new SQL "
+"Server; it will work immediately with the information from the database."
+msgstr "Alleen de CentreStack-database bevat persistente configuratie-informatie. Alle andere componenten zijn staatloos en vervangbaar. In een scenario voor rampenherstel, zodra de SQL Server is hersteld, kunnen andere werkknopen opnieuw worden geïnstalleerd en zullen ze onmiddellijk beginnen te werken. U kunt ook de databasereferentie van de werknode wijzen naar de nieuwe SQL Server; het zal onmiddellijk werken met de informatie uit de database."
+
+#: ../../chapter09.rst:14
+msgid ""
+"The worker nodes are stateless so it is not required to backup any worker"
+" nodes. They can be provisioned by a clean OS with a copy of CentreStack."
+" As soon as they are connected to the same database they become a node in"
+" the cluster."
+msgstr "De werkknopen zijn staatloos, dus het is niet nodig om back-ups te maken van enige werkknopen. Ze kunnen worden voorzien van een schoon besturingssysteem met een kopie van CentreStack. Zodra ze verbonden zijn met dezelfde database worden ze een knooppunt in de cluster."
+
+#: ../../chapter09.rst:19
+msgid "Storage (Files and Folders)"
+msgstr "Opslag (Bestanden en Mappen)"
+
+#: ../../chapter09.rst:21
+msgid ""
+"You will also need to back up your storage services. Most of the time, if"
+" you are using Cloud Storage services such as Amazon S3 or OpenStack "
+"Swift, the service has built-in redundancy. For local storage, DFS "
+"replication, RAID array or Microsoft Storage Space can all be options to "
+"provide storage service redundancy."
+msgstr "U moet ook een back-up maken van uw opslagdiensten. Meestal, als u gebruikmaakt van Cloud Storage-diensten zoals Amazon S3 of OpenStack Swift, heeft de dienst ingebouwde redundantie. Voor lokale opslag kunnen DFS-replicatie, RAID-array of Microsoft Storage Space allemaal opties zijn om redundantie van de opslagdienst te bieden."
+

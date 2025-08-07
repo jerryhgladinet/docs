@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../chapter01.rst:3
+msgid "Overview of |prodname|"
+msgstr ""
+
+#: ../chapter01.rst:5
+msgid "|prodname| is a managed file sync and share solution. It differentiates from other file sync and share solutions by focusing primarily on security, control and team collaboration. |prodname| does really well in the following areas:"
+msgstr ""
+
+#: ../chapter01.rst:7
+msgid "maintain Active Directory security and NTFS permission on files and folders"
+msgstr ""
+
+#: ../chapter01.rst:8
+msgid "provide on-demand access that honors read-only, and write permission in real-time"
+msgstr ""
+
+#: ../chapter01.rst:9
+msgid "mirror local network share to team collaboration in the cloud"
+msgstr ""
+
+#: ../chapter01.rst:13
+msgid "Self-Hosted |prodname|"
+msgstr ""
+
+#: ../chapter01.rst:15
+msgid "|prodname| is pure software that is built on top of the Microsoft Web Platform and is to be deployed on a Microsoft Server."
+msgstr ""
+
+#: ../chapter01.rst:17
+msgid "This option gives Managed Service Providers and Enterprise IT maximum control and flexibility on how they want to combine the traditional file server security, control and the ease of use from an internet-facing file sharing solution."
+msgstr ""
+
+#: ../chapter01.rst:20
+msgid "Hosted |prodname|"
+msgstr ""
+
+#: ../chapter01.rst:22
+msgid "The same |prodname| software is already deployed and maintained in Amazon Web Services (EC2 + S3)."
+msgstr ""
+
+#: ../chapter01.rst:24
+msgid "This option gives a Managed Service Provider the easiest on-ramp to a |prodname| solution without the hassle of setting up |prodname| themselves."
+msgstr ""
+
+#: ../chapter01.rst:29
+msgid "This guide is about Hosted-|prodname|. Please reference the |prodname| `Admin Guide`__ for self-hosted |prodname|."
+msgstr ""

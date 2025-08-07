@@ -1,0 +1,856 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "Client Side Management Console"
+msgstr "Klienthanteringskonsol"
+
+#: ../../chapter6.rst:6
+msgid "Client Side Management Console - Native"
+msgstr "Klienthanteringskonsol - Inbyggd"
+
+#: ../../chapter6.rst:9
+msgid ""
+"The desktop client has a management console that controls the client side"
+" of the behavior. The management console can be started from the system "
+"tray icon **(1)**. In the Client Menu, click on the management console "
+"icon **(2)**."
+msgstr "Den skrivbordsbaserade klienten har en hanteringskonsol som kontrollerar klientens beteende. Hanteringskonsolen kan startas från systemfältets ikon **(1)**. I klientmenyn klickar du på ikonen för hanteringskonsolen **(2)**."
+
+#: ../../chapter6.rst:15
+msgid "WINDOWS CLIENT MANAGEM ENT CONSOLE"
+msgstr "WINDOWS KLIENTHANTERING KONSOLEN"
+
+#: ../../chapter6.rst:17
+msgid "The management console has seven sections:"
+msgstr "Hanteringskonsolen har sju sektioner:"
+
+#: ../../chapter6.rst:20
+msgid "Section Name"
+msgstr ""
+
+#: ../../chapter6.rst:20
+msgid "Description"
+msgstr ""
+
+#: ../../chapter6.rst:22
+msgid "Dashboard (3)"
+msgstr "Instrumentpanel (3)"
+
+#: ../../chapter6.rst:22
+msgid ""
+"Dashboard shows whether it is windows client/server agent, the access "
+"point URL and the version."
+msgstr "Instrumentpanelen visar om det är en Windows-klient/server-agent, åtkomstpunktens URL och versionen."
+
+#: ../../chapter6.rst:25
+msgid "Attached Folders (4)"
+msgstr "Bifogade mappar (4)"
+
+#: ../../chapter6.rst:25
+msgid ""
+"You will attach local folder to sync with Cloud, and also you can scan "
+"attached folder."
+msgstr "Du kommer att koppla en lokal mapp för att synkronisera med molnet, och du kan även skanna den kopplade mappen."
+
+#: ../../chapter6.rst:28
+msgid "Offline Folders (5)"
+msgstr "Offline-mappar (5)"
+
+#: ../../chapter6.rst:28
+msgid ""
+"All offline folders will be listed here. You also can enable offline "
+"access to a folder in this section."
+msgstr "Alla offline-mappar kommer att listas här. Du kan också aktivera offline-åtkomst till en mapp i det här avsnittet."
+
+#: ../../chapter6.rst:32
+msgid "Locked Files (6)"
+msgstr "Låsta filer (6)"
+
+#: ../../chapter6.rst:32
+msgid "All locked files will be listed here."
+msgstr "Alla låsta filer kommer att listas här."
+
+#: ../../chapter6.rst:35
+msgid "Pending Check-ins (7)"
+msgstr "Väntande incheckningar (7)"
+
+#: ../../chapter6.rst:35
+msgid ""
+"All checked-out files will be listed here. You also can check-out a file "
+"in this section."
+msgstr "Alla utcheckade filer kommer att listas här. Du kan också checka ut en fil i det här avsnittet."
+
+#: ../../chapter6.rst:38
+msgid "Settings (8)"
+msgstr "Inställningar (8)"
+
+#: ../../chapter6.rst:38
+msgid "Settings Manager stores the different client-side settings"
+msgstr "Inställningshanteraren lagrar de olika klientinställningarna"
+
+#: ../../chapter6.rst:41
+msgid "Sync Status (9)"
+msgstr "Synkroniseringsstatus (9)"
+
+#: ../../chapter6.rst:41
+msgid ""
+"Show sync status. You can pause the sync here. You observe summary of all"
+" the sync tasks from task manager in this section."
+msgstr "Visa synkroniseringsstatus. Du kan pausa synkroniseringen här. Du ser en sammanfattning av alla synkroniseringsuppgifter från uppgiftshanteraren i det här avsnittet."
+
+#: ../../chapter6.rst:48 ../../chapter6.rst:403
+msgid "Attached Folders"
+msgstr "Bifogade mappar"
+
+#: ../../chapter6.rst:50
+msgid ""
+"You can attach local (from your Client Device) folders to |prodname| by "
+"clicking the \"Attached Folders\" button **(1)**. In the main view, and "
+"then click \"Attach a Local Folder to the Cloud\" **(2)**. This will open"
+" a wizard. Type in the location of the folder in the provided field or "
+"click the \"...\" button **(3)** to explore to a folder you wish to "
+"attach **(4)**. Click \"Attach\" to complete the process."
+msgstr "Du kan koppla lokala (från din klientenhet) mappar till |prodname| genom att klicka på knappen \"Anslutna mappar\" **(1)** i huvudvyn, och sedan klicka på \"Anslut en lokal mapp till molnet\" **(2)**. Detta öppnar en guide. Skriv in platsen för mappen i det angivna fältet eller klicka på knappen \"...\" **(3)** för att bläddra till en mapp som du vill ansluta **(4)**. Klicka på \"Anslut\" för att slutföra processen."
+
+#: ../../chapter6.rst:55
+msgid "ATTACH A FOLDER TO BACKUP"
+msgstr "KOPPLA EN MAPP FÖR SÄKERHETSKOPIERING"
+
+#: ../../chapter6.rst:59
+msgid "Settings Explained"
+msgstr "Inställningar Förklarade"
+
+#: ../../chapter6.rst:61
+msgid ""
+"There are many settings under the Settings Manager in the desktop client."
+" To access them click the Settings tab."
+msgstr "Det finns många inställningar under Inställningshanteraren i skrivbordsklienten. För att komma åt dem klickar du på fliken Inställningar."
+
+#: ../../chapter6.rst:66
+msgid "SETTINGS TAB - SETTINGS MANAGER"
+msgstr "INSTÄLLNINGAR-FLIK - INSTÄLLNINGSHANTERARE"
+
+#: ../../chapter6.rst:70
+msgid "Sync Throttle"
+msgstr "Synkroniseringstakten"
+
+#: ../../chapter6.rst:72
+msgid ""
+"False (default) - If true, the Upload and Download Throttling control "
+"defined under this settings."
+msgstr "Falskt (standard) - Om sant, kontrollen för uppladdnings- och nedladdningsbegränsning som definieras under dessa inställningar."
+
+#: ../../chapter6.rst:75
+msgid "Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Synkroniserad begränsad uppladdningsbandbredd (KB/s, 0 - Obegränsad)"
+
+#: ../../chapter6.rst:77 ../../chapter6.rst:82
+msgid ""
+"0 (default) - The default setting is unlimited KB/s, enter a number here "
+"to reduce the bandwidth consummed to the set limit."
+msgstr "0 (standard) - Standardinställningen är obegränsad KB/s, ange ett nummer här för att minska bandbreddsförbrukningen till den angivna gränsen."
+
+#: ../../chapter6.rst:80
+msgid "Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Synkroniserad begränsning av nedladdningsbandbredd (KB/s, 0 - Obegränsad)"
+
+#: ../../chapter6.rst:85
+msgid "Full Speed Sync Stop Hour (default 7:00)"
+msgstr "Full Speed Sync Stop-timme (standard 7:00)"
+
+#: ../../chapter6.rst:87
+msgid ""
+"7 (default) - This setting represents the hour (24 hour clock) of the day"
+" when Full Speed synchronization will stop - Usually it is desired to "
+"have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "7 (standard) - Denna inställning representerar timmen (24-timmarsklocka) på dagen då synkronisering med full hastighet kommer att sluta - Vanligtvis önskas att ha synkronisering med full hastighet över natten när internetanvändningen är låg."
+
+#: ../../chapter6.rst:90
+msgid "Full Speed Sync Start Hour (default 20:00)"
+msgstr "Fullständig synkroniseringsstarttimme (standard 20:00)"
+
+#: ../../chapter6.rst:92
+msgid ""
+"20 (default) - This setting represents the hour (24 hour clock) of the "
+"day when Full Speed synchronization will begin - Usually it is desired to"
+" have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "20 (standard) - Denna inställning representerar timmen (24-timmars klocka) på dagen då synkronisering med full hastighet kommer att börja - Vanligtvis önskas att synkronisering med full hastighet sker över natten när internetanvändningen är låg."
+
+#: ../../chapter6.rst:95
+msgid "Scan local files and sync-up to cloud as necessary"
+msgstr "Skanna lokala filer och synkronisera med molnet vid behov"
+
+#: ../../chapter6.rst:97
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" local files are more accurate than the information in the cloud."
+msgstr "Falskt (standard) - Skrivbordsklienten bygger upp en databas över tillstånd som beskriver vilka filer som är synkroniserade och vilka som inte är det. I det fall där skrivbordsklienten återställs kan tillståndsinformationen gå förlorad. Det här alternativet kan användas för att skanna lokala filer och ladda upp dem till molnet vid behov. Detta är ett snabbt sätt att återskapa tillståndsinformation när de lokala filerna är mer exakta än informationen i molnet."
+
+#: ../../chapter6.rst:100
+msgid "Scan cloud files and sync-down to local as necessary"
+msgstr "Skanna molnfiler och synkronisera ner till lokalt vid behov"
+
+#: ../../chapter6.rst:102
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" cloud files are more accurate than the local files."
+msgstr "Falskt (standard) - Skrivbordsklienten bygger upp en databas över tillstånd som beskriver vilka filer som är synkroniserade och vilka som inte är det. I det fall där skrivbordsklienten återställs kan informationen om tillståndet gå förlorad. Det här alternativet kan användas för att skanna lokala filer och ladda upp dem till molnet vid behov. Det är ett snabbt sätt att återskapa tillståndsinformation när molnfilerna är mer exakta än de lokala filerna."
+
+#: ../../chapter6.rst:105
+msgid "Allow shortcuts to sync"
+msgstr "Tillåt genvägar för synkronisering"
+
+#: ../../chapter6.rst:107
+msgid ""
+"False (default) - By default, the Windows Client does not support "
+"file/folder shortcuts, as we cannot guarantee that the shortcuts in the "
+"cloud are always valid. If a user creates a shortcut from a computer and "
+"links to a local file. The shortcut is then uploaded to the cloud. If the"
+" user accesses the Windows Client from another computer, the shortcut "
+"will not work unless both computers have exactly the same files and "
+"folder structures. If the shortcut is broken, Windows Explorer will "
+"aggressively try to resolve the broken shortcut paths, which will slow "
+"down the Windows Client. If users only access their cloud files from the "
+"same computer/device, they may still want to save their shortcuts to the "
+"cloud. In this case, you should enable the \"Allow shortcuts to sync\" "
+"setting."
+msgstr "Falskt (standard) - Som standard stöder inte Windows-klienten fil-/mappgenvägar, eftersom vi inte kan garantera att genvägarna i molnet alltid är giltiga. Om en användare skapar en genväg från en dator och länkar till en lokal fil. Genvägen laddas sedan upp till molnet. Om användaren får tillgång till Windows-klienten från en annan dator, kommer genvägen inte att fungera om inte båda datorerna har exakt samma filer och mappstrukturer. Om genvägen är trasig kommer Utforskaren att aggressivt försöka lösa de trasiga genvägarna, vilket kommer att sänka Windows-klienten. Om användare endast får tillgång till sina molnfiler från samma dator/enhet, kanske de fortfarande vill spara sina genvägar i molnet. I detta fall bör du aktivera inställningen \"Tillåt synkronisering av genvägar\"."
+
+#: ../../chapter6.rst:110
+msgid "Disable file-change logs for dummy files (zero byte files)"
+msgstr "Inaktivera filändringsloggar för dummyfiler (nollbytesfiler)"
+
+#: ../../chapter6.rst:112
+msgid ""
+"False (default) - When set to True, sync will ignore file change log for "
+"empty files."
+msgstr "Falskt (standard) - När det är inställt på Sant, kommer synkroniseringen att ignorera filändringsloggen för tomma filer."
+
+#: ../../chapter6.rst:115
+msgid "Scheduled Sync"
+msgstr "Schemalagrad Synkronisering"
+
+#: ../../chapter6.rst:118
+msgid "Enable Scheduled Sync"
+msgstr "Aktivera schemalagd synkronisering"
+
+#: ../../chapter6.rst:120
+msgid ""
+"False (default) - If true, the synchronization and transferring of files "
+"will follow the schedule defined in this section."
+msgstr "Falskt (standard) - Om sant kommer synkronisering och överföring av filer att följa schemat som definieras i det här avsnittet."
+
+#: ../../chapter6.rst:123
+msgid "Pause Sync Start Hour (default 7:00)"
+msgstr "Pausa synkroniseringsstarttimme (standard 7:00)"
+
+#: ../../chapter6.rst:125
+msgid ""
+"7 (default) - This setting represents the hour (24-hour clock) of the day"
+" when synchronization will pause."
+msgstr "7 (standard) - Denna inställning representerar timmen (24-timmars klocka) på dagen då synkroniseringen kommer att pausa."
+
+#: ../../chapter6.rst:128
+msgid "Pause Sync End Hour (default 20:00)"
+msgstr "Pausa synkroniseringens sluttimme (standard 20:00)"
+
+#: ../../chapter6.rst:130
+msgid ""
+"20 (default) - This setting represents the hour (24-hour clock) of the "
+"day when synchronization will start."
+msgstr "20 (standard) - Denna inställning representerar timmen (24-timmars klocka) på dagen då synkroniseringen kommer att starta."
+
+#: ../../chapter6.rst:133
+msgid "Mapped Drive Control"
+msgstr "Kontroll av Mappade Enheter"
+
+#: ../../chapter6.rst:136
+msgid "Always allow PDF preview"
+msgstr "Tillåt alltid PDF-förhandsvisning"
+
+#: ../../chapter6.rst:138
+msgid ""
+"False (default) - If true, always allow windows client to show PDF file "
+"preview."
+msgstr "Falskt (standard) - Om sant, tillåt alltid Windows-klienten att visa PDF-förhandsvisning."
+
+#: ../../chapter6.rst:141
+msgid "Do not show storage quota"
+msgstr "Visa inte lagringskvot"
+
+#: ../../chapter6.rst:143
+msgid ""
+"False (default) - If true, do not show the user's storage quota on "
+"windows client drive."
+msgstr "Falskt (standard) - Om sant, visa inte användarens lagringskvot på Windows-klientens enhet."
+
+#: ../../chapter6.rst:146
+msgid "When starting up the client, open the mounted drive automatically"
+msgstr "När klienten startar, öppna den monterade enheten automatiskt"
+
+#: ../../chapter6.rst:148
+msgid ""
+"True (default) - When starting up the client, automatically open File "
+"Explorer to show the windows client drive."
+msgstr "Sant (standard) - När klienten startas, öppna automatiskt Utforskaren för att visa Windows-klientens enhet."
+
+#: ../../chapter6.rst:151
+msgid "Cloud drive label"
+msgstr "Molndisketikett"
+
+#: ../../chapter6.rst:153
+msgid ""
+"My Cloud Drive (default) - This is the drive label you can see from the "
+"Windows Explorer."
+msgstr "Min molnlagring (standard) - Detta är enhetsetiketten som du kan se från Utforskaren i Windows."
+
+#: ../../chapter6.rst:156
+msgid "Drive Letter"
+msgstr "Enhetsbokstav"
+
+#: ../../chapter6.rst:158
+msgid "M (default) - This is the drive letter assignment."
+msgstr "M (standard) - Det här är tilldelningen av enhetsbokstaven."
+
+#: ../../chapter6.rst:161
+msgid "In offline-mode, only show files that are cached and available locally"
+msgstr "I offline-läge, visa endast filer som är cachade och tillgängliga lokalt"
+
+#: ../../chapter6.rst:163
+msgid ""
+"False (default) - If true, when working in offline mode, only show files "
+"that are already in cache. Hide any files are not in cache."
+msgstr "Falskt (standard) - Om sant, när du arbetar i offlineläge, visa endast filer som redan finns i cachen. Dölj alla filer som inte finns i cachen."
+
+#: ../../chapter6.rst:166
+msgid "Disable \"check-out\" on files and folders"
+msgstr "Inaktivera \"check-out\" på filer och mappar"
+
+#: ../../chapter6.rst:168
+msgid "False (default) - If true, disable manual file lock/unlock."
+msgstr "Falskt (standard) - Om sant, inaktivera manuell fil låsning/upplåsning."
+
+#: ../../chapter6.rst:171
+msgid "Use Windows' default browser to open files and folders"
+msgstr "Använd Windows standardwebbläsare för att öppna filer och mappar"
+
+#: ../../chapter6.rst:173
+msgid ""
+"False (default) - If true, on windows client drive, when right click "
+"file/folder and select Open in Web Browser, open default browser to show "
+"the selected files."
+msgstr "Falskt (standard) - Om sant, på windowsklientens enhet, när du högerklickar på fil/mapp och väljer Öppna i webbläsare, öppna standardwebbläsaren för att visa de valda filerna."
+
+#: ../../chapter6.rst:176
+msgid "Always sync folder meta-data when browsing with Windows Explorer"
+msgstr "Synkronisera alltid mappmetadata när du bläddrar med Windows Utforskaren"
+
+#: ../../chapter6.rst:178
+msgid ""
+"False (default) - If true, when visiting cloud folder in windows client "
+"drive, the client will ignore local folder listing cahe. It will always "
+"get latest folder listing cache from cloud. It will generate high dir "
+"request to the server."
+msgstr "Falskt (standard) - Om sant, när man besöker molnmapp i Windows-klientenheten, kommer klienten att ignorera lokal mappupplisting cache. Den kommer alltid att hämta den senaste mappupplistingen cache från molnet. Det kommer att generera hög dir-förfrågan till servern."
+
+#: ../../chapter6.rst:181
+msgid "Disable drive mounting"
+msgstr "Inaktivera enhetsmontering"
+
+#: ../../chapter6.rst:183
+msgid ""
+"False (default) - If true, no Cloud Drive will be mounted under My "
+"Computer for the Windows Client."
+msgstr "Falskt (standard) - Om sant kommer ingen molndisk att monteras under Min Dator för Windows-klienten."
+
+#: ../../chapter6.rst:186
+msgid "Create cloud drive shortcut under My Documents"
+msgstr "Skapa genväg till molndiskenhet under Mina dokument"
+
+#: ../../chapter6.rst:188
+msgid ""
+"True (default) - If true, there is a shortcut to the Cloud Drive under "
+"the My Documents' folder."
+msgstr "Sant (standard) - Om sant finns det en genväg till Molndisken under mappen Mina dokument."
+
+#: ../../chapter6.rst:191
+msgid "Large File Upload"
+msgstr "Stor Filuppladdning"
+
+#: ../../chapter6.rst:194
+msgid "Enable \"chunking\" when uploading files larger than a specific size (MB)"
+msgstr "Aktivera \"chunking\" när du laddar upp filer större än en viss storlek (MB)"
+
+#: ../../chapter6.rst:196
+msgid ""
+"15 (default) - When uploading large file, the client can split the file "
+"in small chunks and upload small chunks in parallel. It can improve the "
+"upload speed. Also if a chunk fails, only need to retry the chunk. This "
+"setting defines how large the file size is to enable the chunk feature."
+msgstr "15 (standard) - När du laddar upp en stor fil kan klienten dela filen i små bitar och ladda upp små bitar parallellt. Det kan förbättra uppladdningshastigheten. Om en bit misslyckas behöver du bara försöka igen med den biten. Denna inställning definierar hur stor filstorleken är för att aktivera funktionen för uppladdning i bitar."
+
+#: ../../chapter6.rst:199
+msgid "Default file chunk unit size (MB)"
+msgstr "Standardstorlek för filklumpsenhet (MB)"
+
+#: ../../chapter6.rst:201
+msgid "20 (default) - This setting defines the chunk size."
+msgstr "20 (standard) - Denna inställning definierar storleken på bitarna."
+
+#: ../../chapter6.rst:204
+msgid "Bandwidth Control"
+msgstr "Bandbreddskontroll"
+
+#: ../../chapter6.rst:207
+msgid "Download Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Nedladdningsbandbreddsbegränsning (KB/s, 0 - Obegränsad)"
+
+#: ../../chapter6.rst:209
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your download bandwidth to the number you enter in Kilobytes."
+msgstr "0 (standard) - Denna inställning är som standard obegränsad. Ändra detta för att begränsa din nedladdningsbandbredd till det antal du anger i kilobyte."
+
+#: ../../chapter6.rst:212
+msgid "Upload Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Uppladdningsbandbreddsbegränsning (KB/s, 0 - Obegränsad)"
+
+#: ../../chapter6.rst:214
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your upload bandwidth to the number you enter in Kilobytes."
+msgstr "0 (standard) - Denna inställning är som standard obegränsad. Ändra detta för att begränsa din uppladdningsbandbredd till det antal du anger i kilobyte."
+
+#: ../../chapter6.rst:217
+msgid "Maximum number of file transfert threads"
+msgstr "Maximalt antal överföringstrådar för filer"
+
+#: ../../chapter6.rst:219
+msgid ""
+"5 (default) - Use this setting to restrict the number of threads used "
+"during synchronization."
+msgstr "5 (standard) - Använd den här inställningen för att begränsa antalet trådar som används under synkronisering."
+
+#: ../../chapter6.rst:222
+msgid "Local Cache"
+msgstr "Lokal cache"
+
+#: ../../chapter6.rst:225
+msgid "Cache Directory"
+msgstr "Cache-katalog"
+
+#: ../../chapter6.rst:227
+msgid ""
+"C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\gteamclient\\\\cache "
+"(default) - Use this setting to change the default location of the cache."
+msgstr "C:\\Användare\\användarnamn\\AppData\\Local\\gteamclient\\cache (standard) - Använd den här inställningen för att ändra standardplatsen för cachen."
+
+#: ../../chapter6.rst:230
+msgid "Cache Size Limit (MB)"
+msgstr "Cache-storleksgräns (MB)"
+
+#: ../../chapter6.rst:232
+msgid ""
+"0 (default) - The default setting is zero which is unlimited. Set this to"
+" a different number to limit the cache to that size in MB. You can "
+"disable the cache (not recommended) using the Web Portal's Tenant "
+"Dashboard > Roles settings."
+msgstr "0 (standard) - Standardinställningen är noll vilket är obegränsat. Ändra detta till ett annat nummer för att begränsa cachen till den storleken i MB. Du kan inaktivera cachen (rekommenderas inte) med hjälp av Web Portalens Tenant Dashboard > Rollinställningar."
+
+#: ../../chapter6.rst:235
+msgid "Minimum free disk space (GB)"
+msgstr "Minsta lediga diskutrymme (GB)"
+
+#: ../../chapter6.rst:237
+msgid ""
+"5 (default) - The cache will leave defined free disk space on the disk. "
+"This can prevent the cached files use the entire disk. If zero, the cache"
+" can take entire disk space."
+msgstr "5 (standard) - Cachen kommer att lämna definierat ledigt diskutrymme på disken. Detta kan förhindra att cachade filer använder hela diskutrymmet. Om noll kan cachen ta hela diskutrymmet."
+
+#: ../../chapter6.rst:240
+msgid "Outlook Plugin"
+msgstr "Outlook-tillägg"
+
+#: ../../chapter6.rst:243
+msgid "Prompt for conversion when a file is larger than a specific size (KB)"
+msgstr "Fråga om konvertering när en fil är större än en viss storlek (KB)"
+
+#: ../../chapter6.rst:245
+msgid ""
+"0 (default) - Default to never prompt. This setting defines how large the"
+" attachment file size is to use the Outlook plugin to automatically "
+"upload the file to Centrestack cloud."
+msgstr "0 (standard) - Standardinställningen är att aldrig uppmana. Denna inställning definierar hur stor bilagans filstorlek är för att använda Outlook-tillägget för att automatiskt ladda upp filen till Centrestack-molnet."
+
+#: ../../chapter6.rst:248
+msgid "Attachments cache folder"
+msgstr "Bilagors cache-mapp"
+
+#: ../../chapter6.rst:250
+msgid "Outlook plugin will upload file to the defined folder."
+msgstr "Outlook-tillägget kommer att ladda upp filen till den definierade mappen."
+
+#: ../../chapter6.rst:253
+msgid "Link expiration time"
+msgstr "Länkens utgångstid"
+
+#: ../../chapter6.rst:255
+msgid ""
+"Never (default) - When attaching a file to an Outlook email, the Windows "
+"Client can upload the file to the cloud and generate a link to access the"
+" file. The link is added in the email, to reduce email size. This setting"
+" defines how long the link will expire."
+msgstr "Aldrig (standard) - När du bifogar en fil till ett Outlook-e-postmeddelande kan Windows-klienten ladda upp filen till molnet och generera en länk för att komma åt filen. Länken läggs till i e-postmeddelandet för att minska e-poststorleken. Den här inställningen definierar hur länge länken kommer att upphöra."
+
+#: ../../chapter6.rst:258
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: ../../chapter6.rst:261
+msgid "Disable offline-mode notification"
+msgstr "Inaktivera avisering för offline-läge"
+
+#: ../../chapter6.rst:263
+msgid ""
+"False (default) - A system that goes into offline mode will send a "
+"notification by default. Change this to True to hide that notification."
+msgstr "Falskt (standard) - Ett system som går i offline-läge kommer som standard att skicka en notifikation. Ändra detta till Sant för att dölja den notifikationen."
+
+#: ../../chapter6.rst:266
+msgid "Disable File-change notification"
+msgstr "Inaktivera filändringsnotiser"
+
+#: ../../chapter6.rst:268
+msgid ""
+"False (default) - When files are modified by other people or by the same "
+"user but from another machine, there is a file change notification. "
+"Change this setting to True to turn off that notification."
+msgstr "Falskt (standard) - När filer ändras av andra personer eller av samma användare men från en annan maskin finns det en filändringsnotifikation. Ändra den här inställningen till Sant för att stänga av den notifikationen."
+
+#: ../../chapter6.rst:271
+msgid "Disable large file-download tracker window"
+msgstr "Inaktivera spårningsfönster för nedladdning av stora filer"
+
+#: ../../chapter6.rst:273
+msgid ""
+"False (default) - When Windows Explorer is downloading a large file in "
+"the background, by default there is a large file download progress dialog"
+" showing. This setting allows you to turn off that notification."
+msgstr "Falskt (standard) - När Utforskaren i Windows laddar ner en stor fil i bakgrunden, visas som standard en dialogruta för nedladdningsframsteg för stora filer. Den här inställningen låter dig stänga av den notifikationen."
+
+#: ../../chapter6.rst:276
+msgid "Disable automatic task tracker for scheduled tasks"
+msgstr "Inaktivera automatisk aktivitetsspårare för schemalagda uppgifter"
+
+#: ../../chapter6.rst:278
+msgid ""
+"False (default) - By default, there is an automatic task tracker for "
+"scheduled tasks. This setting allows you to turn off the tracker."
+msgstr "Falskt (standard) - Som standard finns det en automatisk aktivitetsspårare för schemalagda uppgifter. Den här inställningen låter dig stänga av spåraren."
+
+#: ../../chapter6.rst:281
+msgid "Disable in-place-editing and preview-disabled notifications"
+msgstr "Inaktivera redigering på plats och aviseringar för inaktiverad förhandsgranskning"
+
+#: ../../chapter6.rst:283
+msgid ""
+"False (default) - When in-place-editing zip/exe file and preview-"
+"disabled, by default, the system will send a notification. This setting "
+"allows you to turn off that notification."
+msgstr "Falskt (standard) - När du redigerar zip-/exe-fil på plats och förhandsgranskning är inaktiverad, kommer systemet som standard att skicka en notifikation. Den här inställningen låter dig stänga av den notifikationen."
+
+#: ../../chapter6.rst:286
+msgid "Disable shut-down confirmation"
+msgstr "Inaktivera bekräftelse vid avstängning"
+
+#: ../../chapter6.rst:288
+msgid ""
+"False (default) - When shutdown the desktop client, there is a shutdown "
+"confirmation window. This setting controls whether that confirmation "
+"dialog will be shown. Set this to True to hide the confirmation dialog."
+msgstr "Falskt (standard) - När du stänger av skrivbordsklienten visas ett bekräftelsefönster för avstängning. Den här inställningen styr om bekräftelsedialogen ska visas. Ställ in detta till Sant för att dölja bekräftelsedialogen."
+
+#: ../../chapter6.rst:291
+msgid "Disable folder move confirmation"
+msgstr "Inaktivera bekräftelse vid mappflytt"
+
+#: ../../chapter6.rst:293
+msgid ""
+"False (default) - When moving a folder within windows client drive, by "
+"default, the system will show a confirmation dialog. This setting allows "
+"you to turn off that confirmation dialog."
+msgstr "Falskt (standard) - När du flyttar en mapp inom windowsklientens enhet, kommer systemet som standard att visa en bekräftelsedialog. Den här inställningen låter dig stänga av den bekräftelsedialogen."
+
+#: ../../chapter6.rst:296
+msgid "Advanced Settings"
+msgstr "Avancerade inställningar"
+
+#: ../../chapter6.rst:299
+msgid "Enable in-place opening of zip and exe files"
+msgstr "Aktivera öppning på plats för zip- och exe-filer"
+
+#: ../../chapter6.rst:301
+msgid ""
+"False (default) - By default, Windows Client doesn't allow a user to open"
+" zip files in mounted M drive directly. This is because opening a zip "
+"file means to download the whole zip file to cache first. When the zip "
+"file is big, the download will generate high network traffic and cause "
+"windows explorer to slow down. Change this to True if you want users to "
+"be able to open Zip files within the M drive. The next setting determines"
+" the size limit of this feature."
+msgstr "Falskt (standard) - Som standard tillåter Windows-klienten inte att en användare öppnar zip-filer direkt i den monterade M-enheten. Detta beror på att öppning av en zip-fil innebär att hela zip-filen först måste laddas ner till cachen. När zip-filen är stor kommer nedladdningen att generera hög nätverkstrafik och orsaka att Windows Utforskaren blir långsam. Ändra detta till Sant om du vill att användare ska kunna öppna Zip-filer inom M-enheten. Nästa inställning bestämmer storleksgränsen för denna funktion."
+
+#: ../../chapter6.rst:304
+msgid "Max size of zip files allowed to open in-place (MB)"
+msgstr "Maxstorlek för zip-filer som tillåts öppnas på plats (MB)"
+
+#: ../../chapter6.rst:306
+msgid ""
+"20 (default) - This defines the size limit for the zip file the user is "
+"allowed to open. It is designed to prevent user/windows explorer from "
+"downloading very large zip files. By default, it is 20M. When admin "
+"enables inplace zip file opening, only files within 20M can be opened."
+msgstr "20 (standard) - Detta definierar storleksgränsen för zip-filen som användaren har tillåtelse att öppna. Det är avsett att förhindra att användaren/windows utforskaren laddar ner mycket stora zip-filer. Som standard är den 20M. När administratören aktiverar öppning av zip-fil på plats, kan endast filer inom 20M öppnas."
+
+#: ../../chapter6.rst:309
+msgid "Max size of files for thumbnail generation (MB)"
+msgstr "Maxstorlek för filer för generering av miniatyrbilder (MB)"
+
+#: ../../chapter6.rst:311
+msgid "0 (default) - This defines the file size limit for generating thumbnail."
+msgstr "0 (standard) - Detta definierar filstorleksgränsen för att generera miniatyrbild."
+
+#: ../../chapter6.rst:314
+msgid "Always allow picture previews"
+msgstr "Tillåt alltid förhandsvisning av bilder"
+
+#: ../../chapter6.rst:316
+msgid ""
+"False (default) - If this is turned on preview thumbnails will be "
+"generated for your local files. This consumes a lot of bandwidth for "
+"unnecessary downloading of image files."
+msgstr "Falskt (standard) - Om detta är aktiverat kommer förhandsvisningsminiatyrer att genereras för dina lokala filer. Detta förbrukar mycket bandbredd för onödig nedladdning av bildfiler."
+
+#: ../../chapter6.rst:319
+msgid "Enable slow network mode"
+msgstr "Aktivera långsamt nätverksläge"
+
+#: ../../chapter6.rst:321
+msgid "False (default) - No further information."
+msgstr "Falskt (standard) - Ingen ytterligare information."
+
+#: ../../chapter6.rst:324
+msgid "Prevent computer from falling asleep during sync"
+msgstr "Förhindra att datorn somnar under synkronisering"
+
+#: ../../chapter6.rst:326
+msgid ""
+"True (default) - Nighttime is typically a good time to transfer files at "
+"full speed. However, the machine may go into a sleeping state, preventing"
+" the transfer of files. This setting can prevent the sleep mode from "
+"activating."
+msgstr "Sant (standard) - Nattetid är vanligtvis en bra tid för att överföra filer med full hastighet. Dock kan datorn gå i viloläge, vilket förhindrar filöverföring. Den här inställningen kan förhindra att viloläget aktiveras."
+
+#: ../../chapter6.rst:329
+msgid "Mount drive in global space"
+msgstr "Montera enhet i globalt utrymme"
+
+#: ../../chapter6.rst:331
+msgid "False (default) - No furter information."
+msgstr "Falskt (standard) - Ingen ytterligare information."
+
+#: ../../chapter6.rst:334
+msgid "Upload hidden files"
+msgstr "Ladda upp dolda filer"
+
+#: ../../chapter6.rst:336
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"Hidden Files to the cloud."
+msgstr "Falskt (standard) - Ändra den här inställningen till Sant om du vill ladda upp dolda filer till molnet."
+
+#: ../../chapter6.rst:339
+msgid "Upload system files"
+msgstr "Ladda upp systemfiler"
+
+#: ../../chapter6.rst:341
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"System Files to the cloud."
+msgstr "Falskt (standard) - Ändra den här inställningen till Sant om du vill ladda upp systemfiler till molnet."
+
+#: ../../chapter6.rst:344
+msgid "Use Volume Shadow-Copy to upload files that are constantly accessed"
+msgstr "Använd Volymskuggkopiering för att ladda upp filer som ständigt åtkomsts"
+
+#: ../../chapter6.rst:346
+msgid ""
+"False (default) - By default an actively opened file will not be uploaded"
+" until it has been closed. This setting can override that behavior, "
+"uploading all of the files regardless of their open status."
+msgstr "Falskt (standard) - Som standard laddas en aktivt öppnad fil inte upp förrän den har stängts. Den här inställningen kan åsidosätta det beteendet och ladda upp alla filer oavsett deras öppenstatus."
+
+#: ../../chapter6.rst:349
+msgid "Disable AutoCAD optimization"
+msgstr "Inaktivera AutoCAD-optimering"
+
+#: ../../chapter6.rst:351
+msgid ""
+"False (default) - By default, windows client will delay the sync of "
+"AutoCAD files by combining several changes into a single change. This is "
+"specific for users who save frequently or have the AutoCAD autosave "
+"feature enabled with short intervals. The file change will not be "
+"uploaded to the cloud immediately after the file saving. Leave it Uncheck"
+" if only one person is working on the AutoCAD files. When the setting is "
+"checked, windows client will sync the file to cloud as soon as the file "
+"is saved. Check the setting if the user needs the change to be uploaded "
+"to cloud as soon as possible. When multiple users are working on same set"
+" of AutoCAD files, check the setting."
+msgstr "Falskt (standard) - Som standard kommer Windows-klienten att fördröja synkroniseringen av AutoCAD-filer genom att kombinera flera ändringar till en enda ändring. Detta är specifikt för användare som sparar ofta eller har AutoCAD:s autosparfunktion aktiverad med korta intervaller. Filändringen kommer inte att laddas upp till molnet omedelbart efter att filen har sparats. Lämna det okryssat om endast en person arbetar med AutoCAD-filerna. När inställningen är ikryssad kommer Windows-klienten att synkronisera filen till molnet så snart filen är sparad. Kryssa i inställningen om användaren behöver ändringen uppladdad till molnet så snart som möjligt. När flera användare arbetar med samma uppsättning AutoCAD-filer, kryssa i inställningen."
+
+#: ../../chapter6.rst:354
+msgid "Diagnostics"
+msgstr "Diagnostik"
+
+#: ../../chapter6.rst:357
+msgid "Days of audit trace to keep"
+msgstr "Antal dagar att behålla revisionsspår"
+
+#: ../../chapter6.rst:359
+msgid "5 (default) - This setting defines how many days to keep the audit trace."
+msgstr "5 (standard) - Denna inställning definierar hur många dagar revisionshistoriken ska bevaras."
+
+#: ../../chapter6.rst:362
+msgid "Trace Level (0-Disable, 1-error, 2-warning, 3-info, 100-verbose)"
+msgstr "Spårningsnivå (0-Inaktivera, 1-fel, 2-varning, 3-info, 100-utförlig)"
+
+#: ../../chapter6.rst:364
+msgid ""
+"0 (default) - By default, the trace level is 0. It can be changed to the "
+"levels shown, or 101 for maximum debug trace."
+msgstr "0 (standard) - Som standard är spårningsnivån 0. Den kan ändras till de nivåer som visas, eller 101 för maximal felsökningsspårning."
+
+#: ../../chapter6.rst:368
+msgid "Sync Status"
+msgstr "Synkroniseringsstatus"
+
+#: ../../chapter6.rst:371
+msgid "Task Manager"
+msgstr "Uppgiftshanteraren"
+
+#: ../../chapter6.rst:373
+msgid ""
+"Click on the Task Manager icon on top right corner of client menu to open"
+" Task Manager. You can see the summary for all the sync tasks."
+msgstr "Klicka på ikonen för Aktivitetshanteraren i övre högra hörnet av klientmenyn för att öppna Aktivitetshanteraren. Du kan se sammanfattningen för alla synkroniseringsuppgifter."
+
+#: ../../chapter6.rst:378
+msgid "TASK MANAGER"
+msgstr "UPPGIFTSHANTERARE"
+
+#: ../../chapter6.rst:382
+msgid "Client Side Management Console - Web Portal"
+msgstr "Klienthanteringskonsol - Webportal"
+
+#: ../../chapter6.rst:384
+msgid ""
+"Click the system tray icon (1) open the tray menu. From the three-dots "
+"(2) you can access other functions. By choosing \"Web Portal\" (3), the "
+"Windows client web portal will be opened in a default web browser. Click "
+"\"Management Console\" icon (4) to access management console from web."
+msgstr "Klicka på systemfältets ikon (1) för att öppna fältmenyn. Från de tre punkterna (2) kan du komma åt andra funktioner. Genom att välja \"Webbportal\" (3) öppnas Windows-klientens webbportal i en standardwebbläsare. Klicka på ikonen \"Hanteringskonsol\" (4) för att komma åt hanteringskonsolen från webben."
+
+#: ../../chapter6.rst:389
+msgid "ACCESS MANAGEMENT CONSOLE WEB PORTAL"
+msgstr "ÅTKOMSTHANTERING KONSOLEN WEBBPORTAL"
+
+#: ../../chapter6.rst:392
+msgid "Device Information"
+msgstr "Enhetsinformation"
+
+#: ../../chapter6.rst:394
+msgid ""
+"Device Manager has an overview of the device including details such as "
+"Device Owner, Device Type, OS Type, Device Client Version (software build"
+" number), Last Login Time, Sync Status, Cache Size, Last Report Time, and"
+" more. Click \"Manage\" icon to see Device details."
+msgstr "Enhetschefen har en översikt över enheten inklusive detaljer såsom Enhetsägare, Enhets Typ, OS Typ, Enhetsklientversion (programvaruversionsnummer), Senaste inloggningstid, Synkroniseringsstatus, Cache-storlek, Senaste rapporttid och mer. Klicka på \"Hantera\"-ikonen för att se enhetsdetaljer."
+
+#: ../../chapter6.rst:399
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE MANAGER"
+msgstr "KLIENTHANTERING KONSOLEN - ENHETSHANTERARE"
+
+#: ../../chapter6.rst:405
+msgid ""
+"Attached Folders are local folders that are maintaining a two-way "
+"synchronization relationship with cloud storage."
+msgstr "Bifogade mappar är lokala mappar som upprätthåller en tvåvägssynkroniseringsrelation med molnlagring."
+
+#: ../../chapter6.rst:410
+msgid "ATTACHING A FOLDER TO THE CLOUD"
+msgstr "KOPPLA EN MAPP TILL MOLNET"
+
+#: ../../chapter6.rst:413
+msgid "Locked Files"
+msgstr "Låsta filer"
+
+#: ../../chapter6.rst:415
+msgid ""
+"A file that is in use is locked. In the image below, the user has opened "
+"the document **(1)** in Word. When a user is editing a Word Document, "
+"that file will remain locked while it is open in Word. Sometimes you will"
+" need to click the \"Refresh\" text **(2)** to see files that are locked "
+"in the Locked Files view. These are locked files from the local device. "
+"The locked files include automatically locked files (e.g., opened in "
+"Word) and manually locked files (e.g., right-clicked and locked in "
+"context menu). If you need to force-unlock a file, this can be done using"
+" the lock icon **(3)**."
+msgstr "En fil som används är låst. I bilden nedan har användaren öppnat dokumentet **(1)** i Word. När en användare redigerar ett Word-dokument kommer den filen att förbli låst så länge den är öppen i Word. Ibland kan du behöva klicka på \"Uppdatera\"-texten **(2)** för att se låsta filer i vyn för Låsta Filer. Dessa är låsta filer från den lokala enheten. De låsta filerna inkluderar automatiskt låsta filer (t.ex. öppnade i Word) och manuellt låsta filer (t.ex. högerklickade och låsta i snabbmenyn). Om du behöver tvinga upp ett lås på en fil, kan detta göras med hjälp av låsikonen **(3)**."
+
+#: ../../chapter6.rst:420
+msgid "LOCKED FILES VIEW"
+msgstr "VY AV LÅSTA FILER"
+
+#: ../../chapter6.rst:423
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../../chapter6.rst:425
+msgid "Settings are settings that can be applied to the current device."
+msgstr "Inställningar är inställningar som kan tillämpas på den aktuella enheten."
+
+#: ../../chapter6.rst:430
+msgid "CONSOLE SETTINGS"
+msgstr "KONSOLEINSTÄLLNINGAR"
+

@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter4.rst:3
+msgid "Different Scope of Users"
+msgstr ""
+
+#: ../../chapter4.rst:7
+msgid "Tenant Administrator"
+msgstr ""
+
+#: ../../chapter4.rst:9
+msgid ""
+"Tenant is a management scope that typically map to a company or a group "
+"of users that collaborates on a set of documents. In |prodname|, it is "
+"referred to as the Tenant Account as well."
+msgstr ""
+
+#: ../../chapter4.rst:11
+msgid ""
+"On a per-tenant basis, you can create team users inside the tenant; you "
+"can setup Active Directory connection per-tenant; you can setup team "
+"folder to share among users inside the tenant."
+msgstr ""
+
+#: ../../chapter4.rst:13
+msgid ""
+"As a |prodname| administrator, you can think of a tenant as a company, "
+"who is your client/customer, which in turn may have some of its own users"
+" too."
+msgstr ""
+
+#: ../../chapter4.rst:17
+msgid "Team User"
+msgstr ""
+
+#: ../../chapter4.rst:19
+msgid ""
+"Team user are users inside a tenant scope. They have credentials to login"
+" to |prodname|. They are regular users in a tenant that have home "
+"directory and storage quota assigned. If a tenant is a company, the team "
+"user are employees in the company."
+msgstr ""
+
+#: ../../chapter4.rst:23
+msgid "Delegate Administrator"
+msgstr ""
+
+#: ../../chapter4.rst:25
+msgid ""
+"A delegated administrator is a team user most of the time. However, "
+"delegated administrators can be elevated to full tenant administrators by"
+" clicking on the \"Manage Team Cloud\" link. This link is only visible if"
+" you are logged in as a Delegate Administrator. To create this type of "
+"administrator follow these steps as Tenant Admin."
+msgstr ""
+
+#: ../../chapter4.rst:27
+msgid ""
+"Logged in as Tenant Admin, you can delegate administrators through the "
+"Control Panel of the Tenant Dashboard (1)."
+msgstr ""
+
+#: ../../chapter4.rst:32
+msgid "TENANT ADMINISTRATORS SETTINGS"
+msgstr ""
+
+#: ../../chapter4.rst:34
+msgid ""
+"In the Tenant Administrators panel you can choose a user you want to add "
+"from the field upon clicking the \"Edit\" option (2). Choose \"Update\" "
+"(3) when finished."
+msgstr ""
+
+#: ../../chapter4.rst:36
+msgid ""
+"Tenant administrators can be removed by clearing the field given in the "
+"\"Edit\" option."
+msgstr ""
+
+#: ../../chapter4.rst:41
+msgid "DELEGATED ADMINISTRATORS"
+msgstr ""
+
+#: ../../chapter4.rst:43
+msgid ""
+"When a team user (with delegate administrator assignment) logs in, there "
+"will be a \"Manage Team Cloud\" link available (4)."
+msgstr ""
+
+#: ../../chapter4.rst:48
+msgid "MANAGE TEAM CLOUD ACCESS"
+msgstr ""
+
+#: ../../chapter4.rst:50
+msgid ""
+"And when the delegate administrator is finished managing the team cloud, "
+"they can return to their normal File Browser view by clicking \"Return To"
+" My Cloud\" (5)."
+msgstr ""
+
+#: ../../chapter4.rst:55
+msgid "Guest User"
+msgstr ""
+
+#: ../../chapter4.rst:57
+msgid ""
+"Guest user are users that have credentials to login to |prodname|, but "
+"these users don't have home directory."
+msgstr ""
+
+#: ../../chapter4.rst:60
+msgid "Anonymous User"
+msgstr ""
+
+#: ../../chapter4.rst:62
+msgid ""
+"If the public link and anonymous (no login required) sharing is enabled, "
+"users can use a link to come to the web portal and see files and folders "
+"that are shared."
+msgstr ""
+
+#: ../../chapter4.rst:70
+msgid "PUBLIC LINK"
+msgstr ""
+

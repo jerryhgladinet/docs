@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:3
+msgid "5 Settings"
+msgstr "5 Instellingen"
+
+#: ../../chapter05.rst:5
+msgid ""
+"To access the Client Settings, click the Client Icon on the top-right of "
+"your Mac Desktop. This will open the Cloud Settings Panel. Clicking the "
+"**Console (1)** icon will open the \"Client Management Console\" window "
+"where the user can configure additional settings. In the Console window, "
+"click the drop-down menu **(2)** and choose **\"Settings\" (3)**."
+msgstr "Om toegang te krijgen tot de Clientinstellingen, klik op het Cliënticoon rechtsboven op uw Mac Desktop. Dit opent het Cloud Instellingen Paneel. Klikken op het **Console (1)** icoon zal het \"Client Management Console\" venster openen waar de gebruiker aanvullende instellingen kan configureren. In het Console venster, klik op het uitklapmenu **(2)** en kies **\"Instellingen\" (3)**."
+
+#: ../../chapter05.rst:9
+msgid ""
+"There are many settings in this panel. Here are some specifically for the"
+" Mac Client."
+msgstr "Er zijn veel instellingen in dit paneel. Hier zijn er een aantal specifiek voor de Mac Client."
+
+#: ../../chapter05.rst:11
+msgid ""
+"**Start Mac client automatically** - When this option is checked the user"
+" will be automatically authenticated to the cloud volume upon system "
+"restarts."
+msgstr "**Start Mac-client automatisch** - Wanneer deze optie is aangevinkt, wordt de gebruiker automatisch geverifieerd op het cloudvolume na systeemherstarts."
+
+#: ../../chapter05.rst:13
+msgid ""
+"**Do not show Mac Client sync status pop up dialog** - There will be "
+"times when users do not want to see the sync progress windows which can "
+"be suppressed by selecting this opt ion."
+msgstr "**Toon het synchronisatiestatus pop-upvenster van de Mac Client niet** - Er zullen momenten zijn waarop gebruikers de voortgangsvensters voor synchronisatie niet willen zien, wat kan worden onderdrukt door deze optie te selecteren."
+
+#: ../../chapter05.rst:19
+msgid "6 Third-Party Open Source Component"
+msgstr "6 Component van Open Source van Derden"
+
+#: ../../chapter05.rst:21
+msgid "The Mac client agent has OSXFUSE component from https://github.com/osxfuse"
+msgstr "De Mac-clientagent bevat het OSXFUSE-component van https://github.com/osxfuse"
+
+#: ../../chapter05.rst:23
+msgid "Please review the osxfuse license.txt here"
+msgstr "Gelieve de osxfuse licentie.txt hier te bekijken"
+
+#: ../../chapter05.rst:25
+msgid "https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt"
+msgstr "https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt"
+

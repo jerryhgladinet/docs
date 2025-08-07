@@ -1,0 +1,856 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "Client Side Management Console"
+msgstr "Asiakkaan puolen hallintakonsoli"
+
+#: ../../chapter6.rst:6
+msgid "Client Side Management Console - Native"
+msgstr "Asiakaspuolen hallintakonsoli - Natiivi"
+
+#: ../../chapter6.rst:9
+msgid ""
+"The desktop client has a management console that controls the client side"
+" of the behavior. The management console can be started from the system "
+"tray icon **(1)**. In the Client Menu, click on the management console "
+"icon **(2)**."
+msgstr "Työpöytäasiakasohjelmassa on hallintakonsoli, joka ohjaa asiakaspuolen toimintaa. Hallintakonsolin voi käynnistää järjestelmäpalkin kuvakkeesta **(1)**. Asiakasvalikossa napsauta hallintakonsolin kuvaketta **(2)**."
+
+#: ../../chapter6.rst:15
+msgid "WINDOWS CLIENT MANAGEM ENT CONSOLE"
+msgstr "WINDOWS-ASIANTAJAN HALLINTAKONSOLI"
+
+#: ../../chapter6.rst:17
+msgid "The management console has seven sections:"
+msgstr "Hallintakonsolissa on seitsemän osiota:"
+
+#: ../../chapter6.rst:20
+msgid "Section Name"
+msgstr ""
+
+#: ../../chapter6.rst:20
+msgid "Description"
+msgstr ""
+
+#: ../../chapter6.rst:22
+msgid "Dashboard (3)"
+msgstr "Kojelauta (3)"
+
+#: ../../chapter6.rst:22
+msgid ""
+"Dashboard shows whether it is windows client/server agent, the access "
+"point URL and the version."
+msgstr "Kojelauta näyttää, onko kyseessä Windows-asiakas/palvelinagentti, käyttöpisteen URL-osoite ja versio."
+
+#: ../../chapter6.rst:25
+msgid "Attached Folders (4)"
+msgstr "Liitetyt kansiot (4)"
+
+#: ../../chapter6.rst:25
+msgid ""
+"You will attach local folder to sync with Cloud, and also you can scan "
+"attached folder."
+msgstr "Liität paikallisen kansion synkronoitavaksi pilven kanssa, ja voit myös skannata liitetyn kansion."
+
+#: ../../chapter6.rst:28
+msgid "Offline Folders (5)"
+msgstr "Offline-kansiot (5)"
+
+#: ../../chapter6.rst:28
+msgid ""
+"All offline folders will be listed here. You also can enable offline "
+"access to a folder in this section."
+msgstr "Kaikki offline-kansiot luetellaan täällä. Voit myös ottaa offline-käytön käyttöön kansiolle tässä osiossa."
+
+#: ../../chapter6.rst:32
+msgid "Locked Files (6)"
+msgstr "Lukitut tiedostot (6)"
+
+#: ../../chapter6.rst:32
+msgid "All locked files will be listed here."
+msgstr "Kaikki lukitut tiedostot listataan täällä."
+
+#: ../../chapter6.rst:35
+msgid "Pending Check-ins (7)"
+msgstr "Odottavat sisäänkirjaukset (7)"
+
+#: ../../chapter6.rst:35
+msgid ""
+"All checked-out files will be listed here. You also can check-out a file "
+"in this section."
+msgstr "Kaikki uloskirjatut tiedostot luetellaan tässä. Voit myös kirjata tiedoston ulos tässä osiossa."
+
+#: ../../chapter6.rst:38
+msgid "Settings (8)"
+msgstr "Asetukset (8)"
+
+#: ../../chapter6.rst:38
+msgid "Settings Manager stores the different client-side settings"
+msgstr "Asetusten hallinta tallentaa erilaiset asiakaspuolen asetukset"
+
+#: ../../chapter6.rst:41
+msgid "Sync Status (9)"
+msgstr "Synkronointitila (9)"
+
+#: ../../chapter6.rst:41
+msgid ""
+"Show sync status. You can pause the sync here. You observe summary of all"
+" the sync tasks from task manager in this section."
+msgstr "Näytä synkronoinnin tila. Voit keskeyttää synkronoinnin täällä. Tässä osiossa voit tarkastella kaikkien synkronointitehtävien yhteenvetoa tehtävienhallinnasta."
+
+#: ../../chapter6.rst:48 ../../chapter6.rst:403
+msgid "Attached Folders"
+msgstr "Liitetyt Kansiot"
+
+#: ../../chapter6.rst:50
+msgid ""
+"You can attach local (from your Client Device) folders to |prodname| by "
+"clicking the \"Attached Folders\" button **(1)**. In the main view, and "
+"then click \"Attach a Local Folder to the Cloud\" **(2)**. This will open"
+" a wizard. Type in the location of the folder in the provided field or "
+"click the \"...\" button **(3)** to explore to a folder you wish to "
+"attach **(4)**. Click \"Attach\" to complete the process."
+msgstr "Voit liittää paikallisia (asiakaslaitteestasi) kansioita |prodname| napsauttamalla **Liitetyt Kansiot** -painiketta **(1)**. Pääikkunassa ja sitten napsauta **Liitä paikallinen kansio pilveen** **(2)**. Tämä avaa ohjatun toiminnon. Kirjoita kansion sijainti annettuun kenttään tai napsauta \"...\" -painiketta **(3)** etsiäksesi kansion, jonka haluat liittää **(4)**. Napsauta \"Liitä\" suorittaaksesi toimenpiteen."
+
+#: ../../chapter6.rst:55
+msgid "ATTACH A FOLDER TO BACKUP"
+msgstr "LIITÄ KANSIO VARAKOPIOINTIIN"
+
+#: ../../chapter6.rst:59
+msgid "Settings Explained"
+msgstr "Asetusten selitys"
+
+#: ../../chapter6.rst:61
+msgid ""
+"There are many settings under the Settings Manager in the desktop client."
+" To access them click the Settings tab."
+msgstr "Asetuksia on monia työpöytäasiakkaan Asetusten hallinnassa. Päästäksesi niihin, klikkaa Asetukset-välilehteä."
+
+#: ../../chapter6.rst:66
+msgid "SETTINGS TAB - SETTINGS MANAGER"
+msgstr "ASETUKSET-VÄLILEHTI - ASETUSTEN HALLINTA"
+
+#: ../../chapter6.rst:70
+msgid "Sync Throttle"
+msgstr "Synkronoinnin sääntely"
+
+#: ../../chapter6.rst:72
+msgid ""
+"False (default) - If true, the Upload and Download Throttling control "
+"defined under this settings."
+msgstr "Epätosi (oletus) - Jos tosi, tämän asetuksen määrittelemä latauksen ja lähetyksen nopeudenrajoitus on voimassa."
+
+#: ../../chapter6.rst:75
+msgid "Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Synkronoinnin rajoitettu lähetyskaistanleveys (KB/s, 0 - rajaton)"
+
+#: ../../chapter6.rst:77 ../../chapter6.rst:82
+msgid ""
+"0 (default) - The default setting is unlimited KB/s, enter a number here "
+"to reduce the bandwidth consummed to the set limit."
+msgstr "0 (oletus) - Oletusasetus on rajoittamaton KB/s, syötä tähän numero rajoittaaksesi käytetyn kaistanleveyden asetettuun rajaan."
+
+#: ../../chapter6.rst:80
+msgid "Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Synkronoinnin rajoitettu latauskaistanleveys (KB/s, 0 - rajaton)"
+
+#: ../../chapter6.rst:85
+msgid "Full Speed Sync Stop Hour (default 7:00)"
+msgstr "Täysi nopeus synkronoinnin pysäytystunti (oletus 7:00)"
+
+#: ../../chapter6.rst:87
+msgid ""
+"7 (default) - This setting represents the hour (24 hour clock) of the day"
+" when Full Speed synchronization will stop - Usually it is desired to "
+"have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "7 (oletus) - Tämä asetus edustaa vuorokauden tuntia (24 tunnin kello), jolloin täydellä nopeudella tapahtuva synkronointi lopetetaan - Yleensä halutaan, että täydellä nopeudella tapahtuva synkronointi on käynnissä yön yli, kun internetin käyttö on vähäistä."
+
+#: ../../chapter6.rst:90
+msgid "Full Speed Sync Start Hour (default 20:00)"
+msgstr "Täysi nopeus synkronoinnin aloitustunti (oletus 20:00)"
+
+#: ../../chapter6.rst:92
+msgid ""
+"20 (default) - This setting represents the hour (24 hour clock) of the "
+"day when Full Speed synchronization will begin - Usually it is desired to"
+" have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "20 (oletus) - Tämä asetus edustaa vuorokauden tuntia (24 tunnin kello), jolloin täyden nopeuden synkronointi alkaa - yleensä toivotaan, että täyden nopeuden synkronointi tapahtuu yön aikana, kun internetin käyttö on vähäistä."
+
+#: ../../chapter6.rst:95
+msgid "Scan local files and sync-up to cloud as necessary"
+msgstr "Skannaa paikalliset tiedostot ja synkronoi tarvittaessa pilveen"
+
+#: ../../chapter6.rst:97
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" local files are more accurate than the information in the cloud."
+msgstr "Väärä (oletus) - Työpöytäasiakas rakentaa tilatietokannan, joka kuvaa, mitkä tiedostot ovat synkronissa ja mitkä eivät. Jos työpöytäasiakas kuvataan uudelleen, tilatiedot saattavat kadota. Tätä asetusta voidaan käyttää paikallisten tiedostojen skannaamiseen ja tarvittaessa lataamiseen pilveen. Tämä on nopea tapa uudelleenrakentaa tilatiedot, kun paikalliset tiedostot ovat tarkempia kuin tiedot pilvessä."
+
+#: ../../chapter6.rst:100
+msgid "Scan cloud files and sync-down to local as necessary"
+msgstr "Skannaa pilvitiedostot ja synkronoi tarvittaessa alas paikalliselle tasolle"
+
+#: ../../chapter6.rst:102
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" cloud files are more accurate than the local files."
+msgstr "Väärä (oletus) - Työpöytäasiakas rakentaa tilatietokannan, joka kuvaa, mitkä tiedostot ovat synkronissa ja mitkä eivät. Jos työpöytäasiakas kuvataan uudelleen, tilatiedot saattavat kadota. Tätä vaihtoehtoa voidaan käyttää paikallisten tiedostojen skannaamiseen ja tarvittaessa lataamiseen pilveen. Tämä on nopea tapa uudelleenrakentaa tilatiedot, kun pilvitiedostot ovat tarkempia kuin paikalliset tiedostot."
+
+#: ../../chapter6.rst:105
+msgid "Allow shortcuts to sync"
+msgstr "Salli pikakuvakkeiden synkronointi"
+
+#: ../../chapter6.rst:107
+msgid ""
+"False (default) - By default, the Windows Client does not support "
+"file/folder shortcuts, as we cannot guarantee that the shortcuts in the "
+"cloud are always valid. If a user creates a shortcut from a computer and "
+"links to a local file. The shortcut is then uploaded to the cloud. If the"
+" user accesses the Windows Client from another computer, the shortcut "
+"will not work unless both computers have exactly the same files and "
+"folder structures. If the shortcut is broken, Windows Explorer will "
+"aggressively try to resolve the broken shortcut paths, which will slow "
+"down the Windows Client. If users only access their cloud files from the "
+"same computer/device, they may still want to save their shortcuts to the "
+"cloud. In this case, you should enable the \"Allow shortcuts to sync\" "
+"setting."
+msgstr "Epätosi (oletusarvo) - Oletusarvoisesti Windows-asiakasohjelma ei tue tiedosto-/kansiopikakuvakkeita, koska emme voi taata, että pilvessä olevat pikakuvakkeet ovat aina voimassa. Jos käyttäjä luo pikakuvakkeen tietokoneelta ja linkittää sen paikalliseen tiedostoon. Pikakuvake ladataan sitten pilveen. Jos käyttäjä käyttää Windows-asiakasohjelmaa toiselta tietokoneelta, pikakuvake ei toimi, elleivät molemmilla tietokoneilla ole täsmälleen samat tiedostot ja kansioiden rakenteet. Jos pikakuvake on rikki, Windows Explorer yrittää aggressiivisesti ratkaista rikkinäiset pikakuvakepolut, mikä hidastaa Windows-asiakasohjelman toimintaa. Jos käyttäjät käyttävät pilvitiedostojaan vain samalta tietokoneelta/laitteelta, he saattavat silti haluta tallentaa pikakuvakkeensa pilveen. Tässä tapauksessa sinun tulee ottaa käyttöön 'Salli pikakuvakkeiden synkronointi' -asetus."
+
+#: ../../chapter6.rst:110
+msgid "Disable file-change logs for dummy files (zero byte files)"
+msgstr "Poista tiedostomuutoslokit tyhjille tiedostoille (nollatavun tiedostoille)"
+
+#: ../../chapter6.rst:112
+msgid ""
+"False (default) - When set to True, sync will ignore file change log for "
+"empty files."
+msgstr "Epätosi (oletus) - Kun asetetaan todeksi, synkronointi jättää tyhjien tiedostojen muutoslokin huomiotta."
+
+#: ../../chapter6.rst:115
+msgid "Scheduled Sync"
+msgstr "Ajastettu synkronointi"
+
+#: ../../chapter6.rst:118
+msgid "Enable Scheduled Sync"
+msgstr "Ota ajastettu synkronointi käyttöön"
+
+#: ../../chapter6.rst:120
+msgid ""
+"False (default) - If true, the synchronization and transferring of files "
+"will follow the schedule defined in this section."
+msgstr "Epätosi (oletus) - Jos tosi, tiedostojen synkronointi ja siirto noudattavat tässä osiossa määriteltyä aikataulua."
+
+#: ../../chapter6.rst:123
+msgid "Pause Sync Start Hour (default 7:00)"
+msgstr "Synkronoinnin keskeytyksen aloitustunti (oletus 7:00)"
+
+#: ../../chapter6.rst:125
+msgid ""
+"7 (default) - This setting represents the hour (24-hour clock) of the day"
+" when synchronization will pause."
+msgstr "7 (oletus) - Tämä asetus edustaa vuorokauden tuntia (24 tunnin kello), jolloin synkronointi keskeytyy."
+
+#: ../../chapter6.rst:128
+msgid "Pause Sync End Hour (default 20:00)"
+msgstr "Synkronoinnin keskeytyksen lopetustunti (oletus 20:00)"
+
+#: ../../chapter6.rst:130
+msgid ""
+"20 (default) - This setting represents the hour (24-hour clock) of the "
+"day when synchronization will start."
+msgstr "20 (oletus) - Tämä asetus edustaa vuorokauden tuntia (24 tunnin kello), jolloin synkronointi alkaa."
+
+#: ../../chapter6.rst:133
+msgid "Mapped Drive Control"
+msgstr "Liitetyn aseman hallinta"
+
+#: ../../chapter6.rst:136
+msgid "Always allow PDF preview"
+msgstr "Salli aina PDF-esikatselu"
+
+#: ../../chapter6.rst:138
+msgid ""
+"False (default) - If true, always allow windows client to show PDF file "
+"preview."
+msgstr "Epätosi (oletus) - Jos tosi, salli aina Windows-asiakasohjelman näyttää PDF-tiedoston esikatselu."
+
+#: ../../chapter6.rst:141
+msgid "Do not show storage quota"
+msgstr "Älä näytä tallennustilan kiintiötä"
+
+#: ../../chapter6.rst:143
+msgid ""
+"False (default) - If true, do not show the user's storage quota on "
+"windows client drive."
+msgstr "False (oletus) - Jos tosi, älä näytä käyttäjän tallennustilakiintiötä Windows-asiakasohjelman asemassa."
+
+#: ../../chapter6.rst:146
+msgid "When starting up the client, open the mounted drive automatically"
+msgstr "Kun asiakasohjelma käynnistetään, avaa liitetty asema automaattisesti"
+
+#: ../../chapter6.rst:148
+msgid ""
+"True (default) - When starting up the client, automatically open File "
+"Explorer to show the windows client drive."
+msgstr "Tosi (oletus) - Kun asiakasohjelma käynnistetään, avaa automaattisesti Tiedostonhallinta näyttämään Windows-asiakasaseman."
+
+#: ../../chapter6.rst:151
+msgid "Cloud drive label"
+msgstr "Pilviaseman tunniste"
+
+#: ../../chapter6.rst:153
+msgid ""
+"My Cloud Drive (default) - This is the drive label you can see from the "
+"Windows Explorer."
+msgstr "Oma pilviasema (oletus) - Tämä on aseman tunniste, jonka näet Windowsin Resurssienhallinnasta."
+
+#: ../../chapter6.rst:156
+msgid "Drive Letter"
+msgstr "Asema-kirjain"
+
+#: ../../chapter6.rst:158
+msgid "M (default) - This is the drive letter assignment."
+msgstr "M (oletus) - Tämä on aseman kirjainmääritys."
+
+#: ../../chapter6.rst:161
+msgid "In offline-mode, only show files that are cached and available locally"
+msgstr "Offline-tilassa näytä vain välimuistiin tallennetut ja paikallisesti saatavilla olevat tiedostot"
+
+#: ../../chapter6.rst:163
+msgid ""
+"False (default) - If true, when working in offline mode, only show files "
+"that are already in cache. Hide any files are not in cache."
+msgstr "Epätosi (oletus) - Jos tosi, näytä offline-tilassa ollessa vain välimuistissa olevat tiedostot. Piilota kaikki tiedostot, jotka eivät ole välimuistissa."
+
+#: ../../chapter6.rst:166
+msgid "Disable \"check-out\" on files and folders"
+msgstr "Poista tiedostojen ja kansioiden \"check-out\" käytöstä"
+
+#: ../../chapter6.rst:168
+msgid "False (default) - If true, disable manual file lock/unlock."
+msgstr "Epätosi (oletus) - Jos tosi, poista käytöstä manuaalinen tiedoston lukitus/vapautus."
+
+#: ../../chapter6.rst:171
+msgid "Use Windows' default browser to open files and folders"
+msgstr "Käytä Windowsin oletusselainta tiedostojen ja kansioiden avaamiseen"
+
+#: ../../chapter6.rst:173
+msgid ""
+"False (default) - If true, on windows client drive, when right click "
+"file/folder and select Open in Web Browser, open default browser to show "
+"the selected files."
+msgstr "Epätosi (oletus) - Jos tosi, Windows-asiakasohjelman asemalla, kun napsautat tiedostoa/kansiota hiiren kakkospainikkeella ja valitset Avaa verkkoselaimessa, avaa oletusselain näyttämään valitut tiedostot."
+
+#: ../../chapter6.rst:176
+msgid "Always sync folder meta-data when browsing with Windows Explorer"
+msgstr "Synkronoi aina kansion meta-tiedot selatessasi Windows Explorerilla"
+
+#: ../../chapter6.rst:178
+msgid ""
+"False (default) - If true, when visiting cloud folder in windows client "
+"drive, the client will ignore local folder listing cahe. It will always "
+"get latest folder listing cache from cloud. It will generate high dir "
+"request to the server."
+msgstr "Epätosi (oletus) - Jos tosi, kun vieraillaan pilvikansiota Windows-asiakasohjelman asemassa, asiakasohjelma ohittaa paikallisen kansion listausvälimuistin. Se hakee aina uusimman kansion listausvälimuistin pilvestä. Se aiheuttaa paljon hakemistopyyntöjä palvelimelle."
+
+#: ../../chapter6.rst:181
+msgid "Disable drive mounting"
+msgstr "Poista aseman liittäminen käytöstä"
+
+#: ../../chapter6.rst:183
+msgid ""
+"False (default) - If true, no Cloud Drive will be mounted under My "
+"Computer for the Windows Client."
+msgstr "Epätosi (oletusarvo) - Jos tosi, Windows-asiakasohjelman Oma tietokone -kohdan alle ei liitetä Cloud Drivea."
+
+#: ../../chapter6.rst:186
+msgid "Create cloud drive shortcut under My Documents"
+msgstr "Luo pilviaseman pikakuvake Omat tiedostot -kansioon"
+
+#: ../../chapter6.rst:188
+msgid ""
+"True (default) - If true, there is a shortcut to the Cloud Drive under "
+"the My Documents' folder."
+msgstr "True (oletus) - Jos tosi, My Documents -kansion alla on pikakuvake Pilviasemaan."
+
+#: ../../chapter6.rst:191
+msgid "Large File Upload"
+msgstr "Suurten tiedostojen lataus"
+
+#: ../../chapter6.rst:194
+msgid "Enable \"chunking\" when uploading files larger than a specific size (MB)"
+msgstr "Ota käyttöön \"lohkotus\" tiedostojen lataamisessa, kun tiedostokoko ylittää tietyn koon (MB)"
+
+#: ../../chapter6.rst:196
+msgid ""
+"15 (default) - When uploading large file, the client can split the file "
+"in small chunks and upload small chunks in parallel. It can improve the "
+"upload speed. Also if a chunk fails, only need to retry the chunk. This "
+"setting defines how large the file size is to enable the chunk feature."
+msgstr "15 (oletus) - Suurta tiedostoa ladatessa asiakasohjelma voi jakaa tiedoston pieniin osiin ja ladata osat rinnakkain. Se voi parantaa latausnopeutta. Lisäksi, jos osa epäonnistuu, tarvitsee yrittää uudelleen vain kyseistä osaa. Tämä asetus määrittää, kuinka suuren tiedoston koko täytyy olla, jotta osien latausominaisuus aktivoituu."
+
+#: ../../chapter6.rst:199
+msgid "Default file chunk unit size (MB)"
+msgstr "Oletustiedoston palasten koko (MB)"
+
+#: ../../chapter6.rst:201
+msgid "20 (default) - This setting defines the chunk size."
+msgstr "20 (oletus) - Tämä asetus määrittää palan koon."
+
+#: ../../chapter6.rst:204
+msgid "Bandwidth Control"
+msgstr "Kaistanhallinta"
+
+#: ../../chapter6.rst:207
+msgid "Download Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Latauskaistan leveysrajoitus (KB/s, 0-Rajaton)"
+
+#: ../../chapter6.rst:209
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your download bandwidth to the number you enter in Kilobytes."
+msgstr "0 (oletus) - Tämä asetus on oletusarvoisesti rajoittamaton. Muuta tätä rajoittaaksesi latauskaistanleveytesi syöttämääsi numeroon kilotavuina."
+
+#: ../../chapter6.rst:212
+msgid "Upload Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Lähetyskaistan leveysrajoitus (KB/s, 0 - rajaton)"
+
+#: ../../chapter6.rst:214
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your upload bandwidth to the number you enter in Kilobytes."
+msgstr "0 (oletus) - Tämä asetus on oletusarvoisesti rajoittamaton. Muuta tätä rajoittaaksesi latauskaistasi nopeutta syöttämäsi kilotavujen määrään."
+
+#: ../../chapter6.rst:217
+msgid "Maximum number of file transfert threads"
+msgstr "Maksimaalinen määrä tiedostonsiirto säikeitä"
+
+#: ../../chapter6.rst:219
+msgid ""
+"5 (default) - Use this setting to restrict the number of threads used "
+"during synchronization."
+msgstr "5 (oletus) - Käytä tätä asetusta rajoittaaksesi synkronoinnin aikana käytettyjen säikeiden määrää."
+
+#: ../../chapter6.rst:222
+msgid "Local Cache"
+msgstr "Paikallinen välimuisti"
+
+#: ../../chapter6.rst:225
+msgid "Cache Directory"
+msgstr "Välimuistikansio"
+
+#: ../../chapter6.rst:227
+msgid ""
+"C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\gteamclient\\\\cache "
+"(default) - Use this setting to change the default location of the cache."
+msgstr "C:\\Users\\username\\AppData\\Local\\gteamclient\\cache (oletus) - Käytä tätä asetusta, jos haluat muuttaa välimuistin oletussijaintia."
+
+#: ../../chapter6.rst:230
+msgid "Cache Size Limit (MB)"
+msgstr "Välimuistin koon raja (MB)"
+
+#: ../../chapter6.rst:232
+msgid ""
+"0 (default) - The default setting is zero which is unlimited. Set this to"
+" a different number to limit the cache to that size in MB. You can "
+"disable the cache (not recommended) using the Web Portal's Tenant "
+"Dashboard > Roles settings."
+msgstr "0 (oletus) - Oletusasetus on nolla, mikä tarkoittaa rajoittamatonta. Aseta tämä eri numeroksi rajoittaaksesi välimuistin kyseiseen kokoon MB-muodossa. Voit poistaa välimuistin käytöstä (ei suositella) Web-portaalin Vuokraajan kojelaudan > Roolien asetusten kautta."
+
+#: ../../chapter6.rst:235
+msgid "Minimum free disk space (GB)"
+msgstr "Vähimmäisvapaa kovalevytila (GB)"
+
+#: ../../chapter6.rst:237
+msgid ""
+"5 (default) - The cache will leave defined free disk space on the disk. "
+"This can prevent the cached files use the entire disk. If zero, the cache"
+" can take entire disk space."
+msgstr "5 (oletus) - Välimuisti jättää määritellyn vapaan levytilan levylle. Tämä voi estää välimuistitiedostojen käyttämästä koko levytilaa. Jos nolla, välimuisti voi käyttää koko levytilan."
+
+#: ../../chapter6.rst:240
+msgid "Outlook Plugin"
+msgstr "Outlook-lisäosa"
+
+#: ../../chapter6.rst:243
+msgid "Prompt for conversion when a file is larger than a specific size (KB)"
+msgstr "Kehota muuntamaan, kun tiedosto on suurempi kuin tietty koko (KB)"
+
+#: ../../chapter6.rst:245
+msgid ""
+"0 (default) - Default to never prompt. This setting defines how large the"
+" attachment file size is to use the Outlook plugin to automatically "
+"upload the file to Centrestack cloud."
+msgstr "0 (oletus) - Oletusarvoisesti ei koskaan kehota. Tämä asetus määrittää, kuinka suuren liitetiedoston koon on oltava, jotta Outlook-lisäosaa käytetään automaattisesti tiedoston lataamiseen Centrestack-pilveen."
+
+#: ../../chapter6.rst:248
+msgid "Attachments cache folder"
+msgstr "Liitetiedostojen välimuistikansio"
+
+#: ../../chapter6.rst:250
+msgid "Outlook plugin will upload file to the defined folder."
+msgstr "Outlook-lisäosa lataa tiedoston määritettyyn kansioon."
+
+#: ../../chapter6.rst:253
+msgid "Link expiration time"
+msgstr "Linkin vanhentumisaika"
+
+#: ../../chapter6.rst:255
+msgid ""
+"Never (default) - When attaching a file to an Outlook email, the Windows "
+"Client can upload the file to the cloud and generate a link to access the"
+" file. The link is added in the email, to reduce email size. This setting"
+" defines how long the link will expire."
+msgstr "Ei koskaan (oletus) - Kun liität tiedoston Outlook-sähköpostiin, Windows-asiakasohjelma voi ladata tiedoston pilveen ja luoda linkin tiedoston käyttämiseksi. Linkki lisätään sähköpostiin, jotta sähköpostin koko pienenee. Tämä asetus määrittää, kuinka kauan linkki vanhenee."
+
+#: ../../chapter6.rst:258
+msgid "Notifications"
+msgstr "Ilmoitukset"
+
+#: ../../chapter6.rst:261
+msgid "Disable offline-mode notification"
+msgstr "Poista offline-tilan ilmoitus käytöstä"
+
+#: ../../chapter6.rst:263
+msgid ""
+"False (default) - A system that goes into offline mode will send a "
+"notification by default. Change this to True to hide that notification."
+msgstr "False (oletus) - Järjestelmä, joka siirtyy offline-tilaan, lähettää ilmoituksen oletuksena. Muuta tämä todeksi, jos haluat piilottaa kyseisen ilmoituksen."
+
+#: ../../chapter6.rst:266
+msgid "Disable File-change notification"
+msgstr "Poista tiedostomuutoksista ilmoittaminen käytöstä"
+
+#: ../../chapter6.rst:268
+msgid ""
+"False (default) - When files are modified by other people or by the same "
+"user but from another machine, there is a file change notification. "
+"Change this setting to True to turn off that notification."
+msgstr "Epätosi (oletus) - Kun tiedostoja muokkaa joku toinen tai sama käyttäjä toiselta koneelta, tulee tiedoston muutosilmoitus. Muuta tämä asetus todeksi, jos haluat kytkeä kyseisen ilmoituksen pois päältä."
+
+#: ../../chapter6.rst:271
+msgid "Disable large file-download tracker window"
+msgstr "Poista suurten tiedostolatausten seurantaikkuna käytöstä"
+
+#: ../../chapter6.rst:273
+msgid ""
+"False (default) - When Windows Explorer is downloading a large file in "
+"the background, by default there is a large file download progress dialog"
+" showing. This setting allows you to turn off that notification."
+msgstr "Epätosi (oletus) - Kun Windows Explorer lataa suurta tiedostoa taustalla, oletuksena näkyy suuren tiedoston latauksen etenemisilmoitus. Tämä asetus mahdollistaa kyseisen ilmoituksen poiskytkemisen."
+
+#: ../../chapter6.rst:276
+msgid "Disable automatic task tracker for scheduled tasks"
+msgstr "Poista automaattinen tehtäväseuranta ajoitetuista tehtävistä"
+
+#: ../../chapter6.rst:278
+msgid ""
+"False (default) - By default, there is an automatic task tracker for "
+"scheduled tasks. This setting allows you to turn off the tracker."
+msgstr "Epätosi (oletus) - Oletuksena ajoitettuja tehtäviä varten on automaattinen tehtävien seuranta. Tämä asetus mahdollistaa seurannan poiskytkemisen."
+
+#: ../../chapter6.rst:281
+msgid "Disable in-place-editing and preview-disabled notifications"
+msgstr "Poista käytöstä paikan päällä tapahtuva muokkaus ja esikatselun poistamisesta ilmoittavat ilmoitukset"
+
+#: ../../chapter6.rst:283
+msgid ""
+"False (default) - When in-place-editing zip/exe file and preview-"
+"disabled, by default, the system will send a notification. This setting "
+"allows you to turn off that notification."
+msgstr "Epätosi (oletus) - Kun zip/exe-tiedostoa muokataan paikan päällä ja esikatselu on poistettu käytöstä, järjestelmä lähettää oletusarvoisesti ilmoituksen. Tämän asetuksen avulla voit poistaa kyseisen ilmoituksen käytöstä."
+
+#: ../../chapter6.rst:286
+msgid "Disable shut-down confirmation"
+msgstr "Poista käytöstä sammutusvahvistus"
+
+#: ../../chapter6.rst:288
+msgid ""
+"False (default) - When shutdown the desktop client, there is a shutdown "
+"confirmation window. This setting controls whether that confirmation "
+"dialog will be shown. Set this to True to hide the confirmation dialog."
+msgstr "Epätosi (oletus) - Kun suljet työpöytäasiakasohjelman, näytetään sulkemisen vahvistusikkuna. Tämä asetus määrittää, näytetäänkö kyseinen vahvistusdialogi. Aseta tämä todeksi piilottaaksesi vahvistusdialogin."
+
+#: ../../chapter6.rst:291
+msgid "Disable folder move confirmation"
+msgstr "Poista kansion siirron vahvistus"
+
+#: ../../chapter6.rst:293
+msgid ""
+"False (default) - When moving a folder within windows client drive, by "
+"default, the system will show a confirmation dialog. This setting allows "
+"you to turn off that confirmation dialog."
+msgstr "Epätosi (oletus) - Kun siirrät kansiota Windows-asiakasohjelman asemassa, järjestelmä näyttää oletusarvoisesti vahvistusikkunan. Tämän asetuksen avulla voit poistaa kyseisen vahvistusikkunan käytöstä."
+
+#: ../../chapter6.rst:296
+msgid "Advanced Settings"
+msgstr "Edistyneet asetukset"
+
+#: ../../chapter6.rst:299
+msgid "Enable in-place opening of zip and exe files"
+msgstr "Ota käyttöön zip- ja exe-tiedostojen paikan päällä tapahtuva avaaminen"
+
+#: ../../chapter6.rst:301
+msgid ""
+"False (default) - By default, Windows Client doesn't allow a user to open"
+" zip files in mounted M drive directly. This is because opening a zip "
+"file means to download the whole zip file to cache first. When the zip "
+"file is big, the download will generate high network traffic and cause "
+"windows explorer to slow down. Change this to True if you want users to "
+"be able to open Zip files within the M drive. The next setting determines"
+" the size limit of this feature."
+msgstr "Väärin (oletusarvoisesti) - Oletusarvoisesti Windows-asiakasohjelma ei salli käyttäjän avata zip-tiedostoja suoraan M-asemalle liitetyssä asemassa. Tämä johtuu siitä, että zip-tiedoston avaaminen tarkoittaa koko zip-tiedoston lataamista välimuistiin ensin. Kun zip-tiedosto on suuri, lataus aiheuttaa suuren verkkoliikenteen ja hidastaa Windowsin Resurssienhallintaa. Muuta tämä todeksi, jos haluat, että käyttäjät voivat avata Zip-tiedostoja M-asemalla. Seuraava asetus määrittää tämän ominaisuuden kokorajoituksen."
+
+#: ../../chapter6.rst:304
+msgid "Max size of zip files allowed to open in-place (MB)"
+msgstr "Zip-tiedostojen suurin sallittu koko paikalla avattavaksi (MB)"
+
+#: ../../chapter6.rst:306
+msgid ""
+"20 (default) - This defines the size limit for the zip file the user is "
+"allowed to open. It is designed to prevent user/windows explorer from "
+"downloading very large zip files. By default, it is 20M. When admin "
+"enables inplace zip file opening, only files within 20M can be opened."
+msgstr "20 (oletus) - Tämä määrittää zip-tiedoston suurimman sallitun koon, jonka käyttäjä saa avata. Tarkoituksena on estää käyttäjää/windowsin resurssienhallintaa lataamasta erittäin suuria zip-tiedostoja. Oletusarvoisesti se on 20 Mt. Kun ylläpitäjä sallii zip-tiedostojen avaamisen paikan päällä, voidaan avata vain enintään 20 Mt:n tiedostoja."
+
+#: ../../chapter6.rst:309
+msgid "Max size of files for thumbnail generation (MB)"
+msgstr "Pikkukuvien luontiin tarkoitettujen tiedostojen enimmäiskoko (MB)"
+
+#: ../../chapter6.rst:311
+msgid "0 (default) - This defines the file size limit for generating thumbnail."
+msgstr "0 (oletus) - Tämä määrittää tiedoston koon rajan pikkukuvien luomiselle."
+
+#: ../../chapter6.rst:314
+msgid "Always allow picture previews"
+msgstr "Salli aina kuvien esikatselut"
+
+#: ../../chapter6.rst:316
+msgid ""
+"False (default) - If this is turned on preview thumbnails will be "
+"generated for your local files. This consumes a lot of bandwidth for "
+"unnecessary downloading of image files."
+msgstr "Epätosi (oletus) - Jos tämä asetus on päällä, paikallisille tiedostoille luodaan esikatselukuvakkeet. Tämä kuluttaa paljon kaistanleveyttä tarpeettomaan kuvatiedostojen lataamiseen."
+
+#: ../../chapter6.rst:319
+msgid "Enable slow network mode"
+msgstr "Ota käyttöön hidas verkkotila"
+
+#: ../../chapter6.rst:321
+msgid "False (default) - No further information."
+msgstr "Epätosi (oletus) - Ei lisätietoja."
+
+#: ../../chapter6.rst:324
+msgid "Prevent computer from falling asleep during sync"
+msgstr "Estä tietokonetta siirtymästä lepotilaan synkronoinnin aikana"
+
+#: ../../chapter6.rst:326
+msgid ""
+"True (default) - Nighttime is typically a good time to transfer files at "
+"full speed. However, the machine may go into a sleeping state, preventing"
+" the transfer of files. This setting can prevent the sleep mode from "
+"activating."
+msgstr "True (oletus) - Yöaika on tyypillisesti hyvä aika siirtää tiedostoja täydellä nopeudella. Kone voi kuitenkin siirtyä lepotilaan, mikä estää tiedostojen siirron. Tämä asetus voi estää lepotilan aktivoitumisen."
+
+#: ../../chapter6.rst:329
+msgid "Mount drive in global space"
+msgstr "Liitä asema globaaliin tilaan"
+
+#: ../../chapter6.rst:331
+msgid "False (default) - No furter information."
+msgstr "Väärin (oletus) - Ei lisätietoja."
+
+#: ../../chapter6.rst:334
+msgid "Upload hidden files"
+msgstr "Lataa piilotiedostot"
+
+#: ../../chapter6.rst:336
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"Hidden Files to the cloud."
+msgstr "False (oletus) - Muuta tämä asetus arvoon True, jos haluat ladata piilotiedostot pilveen."
+
+#: ../../chapter6.rst:339
+msgid "Upload system files"
+msgstr "Lataa järjestelmätiedostot"
+
+#: ../../chapter6.rst:341
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"System Files to the cloud."
+msgstr "Epätosi (oletus) - Muuta tämä asetus todeksi, jos haluat ladata järjestelmätiedostot pilveen."
+
+#: ../../chapter6.rst:344
+msgid "Use Volume Shadow-Copy to upload files that are constantly accessed"
+msgstr "Käytä Volume Shadow-Copya tiedostojen lataamiseen, joita käytetään jatkuvasti"
+
+#: ../../chapter6.rst:346
+msgid ""
+"False (default) - By default an actively opened file will not be uploaded"
+" until it has been closed. This setting can override that behavior, "
+"uploading all of the files regardless of their open status."
+msgstr "Epätosi (oletus) - Oletusarvoisesti aktiivisesti avattua tiedostoa ei ladata palvelimelle ennen kuin se on suljettu. Tämä asetus voi ohittaa kyseisen toiminnon ja ladata kaikki tiedostot riippumatta niiden avoimesta tilasta."
+
+#: ../../chapter6.rst:349
+msgid "Disable AutoCAD optimization"
+msgstr "Poista AutoCAD-optimointi käytöstä"
+
+#: ../../chapter6.rst:351
+msgid ""
+"False (default) - By default, windows client will delay the sync of "
+"AutoCAD files by combining several changes into a single change. This is "
+"specific for users who save frequently or have the AutoCAD autosave "
+"feature enabled with short intervals. The file change will not be "
+"uploaded to the cloud immediately after the file saving. Leave it Uncheck"
+" if only one person is working on the AutoCAD files. When the setting is "
+"checked, windows client will sync the file to cloud as soon as the file "
+"is saved. Check the setting if the user needs the change to be uploaded "
+"to cloud as soon as possible. When multiple users are working on same set"
+" of AutoCAD files, check the setting."
+msgstr "Väärä (oletusarvo) - Oletusarvoisesti Windows-asiakasohjelma viivästyttää AutoCAD-tiedostojen synkronointia yhdistämällä useita muutoksia yhdeksi muutokseksi. Tämä on erityistä käyttäjille, jotka tallentavat usein tai joilla on AutoCAD:n automaattitallennusominaisuus käytössä lyhyin väliajoin. Tiedoston muutosta ei ladata pilveen välittömästi tiedoston tallentamisen jälkeen. Jätä valitsematta, jos vain yksi henkilö työskentelee AutoCAD-tiedostojen parissa. Kun asetus on valittu, Windows-asiakasohjelma synkronoi tiedoston pilveen heti, kun tiedosto on tallennettu. Valitse asetus, jos käyttäjän tarvitsee ladata muutos pilveen mahdollisimman pian. Kun useat käyttäjät työskentelevät saman AutoCAD-tiedostojoukon parissa, valitse asetus."
+
+#: ../../chapter6.rst:354
+msgid "Diagnostics"
+msgstr "Vianmääritys"
+
+#: ../../chapter6.rst:357
+msgid "Days of audit trace to keep"
+msgstr "Säilytettävien auditointijälkien päivämäärät"
+
+#: ../../chapter6.rst:359
+msgid "5 (default) - This setting defines how many days to keep the audit trace."
+msgstr "5 (oletus) - Tämä asetus määrittää, kuinka monta päivää auditointijälki säilytetään."
+
+#: ../../chapter6.rst:362
+msgid "Trace Level (0-Disable, 1-error, 2-warning, 3-info, 100-verbose)"
+msgstr "Jäljitystaso (0-Poistettu käytöstä, 1-virhe, 2-varoitus, 3-tieto, 100-seikkaperäinen)"
+
+#: ../../chapter6.rst:364
+msgid ""
+"0 (default) - By default, the trace level is 0. It can be changed to the "
+"levels shown, or 101 for maximum debug trace."
+msgstr "0 (oletus) - Oletuksena jäljitystaso on 0. Sitä voidaan muuttaa näytettyihin tasoihin tai 101 maksimaaliseen debug-jäljitykseen."
+
+#: ../../chapter6.rst:368
+msgid "Sync Status"
+msgstr "Synkronointitila"
+
+#: ../../chapter6.rst:371
+msgid "Task Manager"
+msgstr "Tehtävienhallinta"
+
+#: ../../chapter6.rst:373
+msgid ""
+"Click on the Task Manager icon on top right corner of client menu to open"
+" Task Manager. You can see the summary for all the sync tasks."
+msgstr "Napsauta tehtävienhallinnan kuvaketta asiakasvalikon oikeassa yläkulmassa avataksesi tehtävienhallinnan. Voit nähdä yhteenvedon kaikista synkronointitehtävistä."
+
+#: ../../chapter6.rst:378
+msgid "TASK MANAGER"
+msgstr "TEHTÄVIENHALLINTA"
+
+#: ../../chapter6.rst:382
+msgid "Client Side Management Console - Web Portal"
+msgstr "Asiakkaan puolen hallintakonsoli - Web-portaali"
+
+#: ../../chapter6.rst:384
+msgid ""
+"Click the system tray icon (1) open the tray menu. From the three-dots "
+"(2) you can access other functions. By choosing \"Web Portal\" (3), the "
+"Windows client web portal will be opened in a default web browser. Click "
+"\"Management Console\" icon (4) to access management console from web."
+msgstr "Napsauta järjestelmäpalkin kuvaketta (1) avataksesi valikon. Kolmesta pisteestä (2) pääset muihin toimintoihin. Valitsemalla \"Web Portal\" (3) Windows-asiakkaan web-portaali avautuu oletusselaimessa. Napsauta \"Management Console\" -kuvaketta (4) päästäksesi hallintakonsoliin webin kautta."
+
+#: ../../chapter6.rst:389
+msgid "ACCESS MANAGEMENT CONSOLE WEB PORTAL"
+msgstr "PÄÄSYHALLINTAKONSOLIN WEB-PORTAALI"
+
+#: ../../chapter6.rst:392
+msgid "Device Information"
+msgstr "Laitetiedot"
+
+#: ../../chapter6.rst:394
+msgid ""
+"Device Manager has an overview of the device including details such as "
+"Device Owner, Device Type, OS Type, Device Client Version (software build"
+" number), Last Login Time, Sync Status, Cache Size, Last Report Time, and"
+" more. Click \"Manage\" icon to see Device details."
+msgstr "Laitehallinta tarjoaa yleiskatsauksen laitteesta, joka sisältää tietoja kuten laitteen omistaja, laitetyyppi, käyttöjärjestelmän tyyppi, laiteasiakasversion (ohjelmiston rakennenumero), viimeisin kirjautumisaika, synkronoinnin tila, välimuistin koko, viimeisin raportointiaika ja paljon muuta. Klikkaa \"Hallitse\"-kuvaketta nähdäksesi laitteen tiedot."
+
+#: ../../chapter6.rst:399
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE MANAGER"
+msgstr "ASIAKKAIDEN HALLINTAKONSOLI - LAITEHALLINTA"
+
+#: ../../chapter6.rst:405
+msgid ""
+"Attached Folders are local folders that are maintaining a two-way "
+"synchronization relationship with cloud storage."
+msgstr "Liitetyt kansiot ovat paikallisia kansioita, jotka ylläpitävät kaksisuuntaista synkronointisuhdetta pilvitallennustilan kanssa."
+
+#: ../../chapter6.rst:410
+msgid "ATTACHING A FOLDER TO THE CLOUD"
+msgstr "KANSION LIITTÄMINEN PILVEEN"
+
+#: ../../chapter6.rst:413
+msgid "Locked Files"
+msgstr "Lukitut tiedostot"
+
+#: ../../chapter6.rst:415
+msgid ""
+"A file that is in use is locked. In the image below, the user has opened "
+"the document **(1)** in Word. When a user is editing a Word Document, "
+"that file will remain locked while it is open in Word. Sometimes you will"
+" need to click the \"Refresh\" text **(2)** to see files that are locked "
+"in the Locked Files view. These are locked files from the local device. "
+"The locked files include automatically locked files (e.g., opened in "
+"Word) and manually locked files (e.g., right-clicked and locked in "
+"context menu). If you need to force-unlock a file, this can be done using"
+" the lock icon **(3)**."
+msgstr "Käytössä oleva tiedosto on lukittu. Alla olevassa kuvassa käyttäjä on avannut asiakirjan **(1)** Wordissa. Kun käyttäjä muokkaa Word-asiakirjaa, tiedosto pysyy lukittuna niin kauan kuin se on avoinna Wordissa. Joskus sinun täytyy napsauttaa \"Päivitä\"-tekstiä **(2)** nähdäksesi lukitut tiedostot Lukitut tiedostot -näkymässä. Nämä ovat lukittuja tiedostoja paikalliselta laitteelta. Lukittuihin tiedostoihin kuuluvat automaattisesti lukitut tiedostot (esim. Wordissa avatut) ja manuaalisesti lukitut tiedostot (esim. oikealla klikkauksella lukituksi valikossa). Jos sinun tarvitsee pakottaa tiedoston lukituksen poisto, se voidaan tehdä käyttämällä lukkokuvaketta **(3)**."
+
+#: ../../chapter6.rst:420
+msgid "LOCKED FILES VIEW"
+msgstr "LUKITTUJEN TIETOJEN NÄKYMÄ"
+
+#: ../../chapter6.rst:423
+msgid "Settings"
+msgstr "Asetukset"
+
+#: ../../chapter6.rst:425
+msgid "Settings are settings that can be applied to the current device."
+msgstr "Asetukset ovat asetuksia, joita voidaan soveltaa nykyiseen laitteeseen."
+
+#: ../../chapter6.rst:430
+msgid "CONSOLE SETTINGS"
+msgstr "KONSOLIN ASETUKSET"
+

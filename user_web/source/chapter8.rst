@@ -2,7 +2,7 @@
 The Web Interface
 ###################
 
-The web client interface has three panels from left to right, the left tree panel, the middle file and folder panel, and the right information panel. Many of the management functionality are done over the web portal. The web client also has the files and folder’s view.
+The web client interface has three panels from left to right, the left tree panel, the middle file and folder panel, and the right information panel. Many of the management functionality are done over the web portal. The web client also has the files and folder's view.
 
 Normal Web Portal View
 =======================
@@ -95,7 +95,7 @@ Renaming and deleting files and folders can be achieved by right-clicking the fi
 Upload Files/Folders
 =======================
 
-In |prodname|, you have different options to upload files and folders. You can upload one file at a time using the ‘Upload File’ option under Upload You can also upload folders using the ‘Upload Folder’ option under Upload. Last but not least you can also use ‘Upload Folders and Files’ to upload multiple files simultaneously, or drag & drop files from a local desktop to the |prodname| Cloud web portal to start the upload.
+In |prodname|, you have different options to upload files and folders. You can upload one file at a time using the 'Upload File' option under Upload You can also upload folders using the 'Upload Folder' option under Upload. Last but not least you can also use 'Upload Folders and Files' to upload multiple files simultaneously, or drag & drop files from a local desktop to the |prodname| Cloud web portal to start the upload.
 
 It is possible to upload multiple files at a time. This is supported on all browsers. The same is true for Upload Folder. To access these options you can click the "+" icon **(1)** or right click on the portal background **(2)** and select your upload option there.
 
@@ -116,7 +116,7 @@ After clicking the upload option, you can browse to the file or folder you want 
 Upload Using Local Uploader
 ============================
 
-(This is Windows only feature) When uploading big files and big folders, the “upload using local uploader” may be the best option for web browser based upload. If it is enabled by the Tenant Manager (deselected) **(1)** in the Group Policy Home > Web Portal settings. Clicking this option **(2)** will download a thin local uploader binary first and then the local uploader will do the upload. The local uploader has retry and other reliability measures to make sure the upload is successful. Basically it uses the web browser to download an executable, and the executable does the rest of the uploading work.
+(This is Windows only feature) When uploading big files and big folders, the "upload using local uploader" may be the best option for web browser based upload. If it is enabled by the Tenant Manager (deselected) **(1)** in the Group Policy Home > Web Portal settings. Clicking this option **(2)** will download a thin local uploader binary first and then the local uploader will do the upload. The local uploader has retry and other reliability measures to make sure the upload is successful. Basically it uses the web browser to download an executable, and the executable does the rest of the uploading work.
 
 .. figure:: _static/image_s11_3_3.png
     :align: center
@@ -126,7 +126,7 @@ Upload Using Local Uploader
 Drag and Drop Upload
 =====================
 
-Latest web browsers that support HTML5 drag and drop upload will see “Drop Files Here” in an empty folder. These web browsers allow you to drag & drop multiple files directly to the |prodname| Cloud. In latest Google Chrome, Drag and drop folder is also supported while the other HTML5 based web browser
+Latest web browsers that support HTML5 drag and drop upload will see "Drop Files Here" in an empty folder. These web browsers allow you to drag & drop multiple files directly to the |prodname| Cloud. In latest Google Chrome, Drag and drop folder is also supported while the other HTML5 based web browser
 support drag and drop multiple files.
 
 .. figure:: _static/image_s11_3_4.png

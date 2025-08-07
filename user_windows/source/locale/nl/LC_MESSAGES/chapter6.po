@@ -1,0 +1,856 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "Client Side Management Console"
+msgstr "Clientzijde Beheerconsole"
+
+#: ../../chapter6.rst:6
+msgid "Client Side Management Console - Native"
+msgstr "Clientzijde Beheerconsole - Native"
+
+#: ../../chapter6.rst:9
+msgid ""
+"The desktop client has a management console that controls the client side"
+" of the behavior. The management console can be started from the system "
+"tray icon **(1)**. In the Client Menu, click on the management console "
+"icon **(2)**."
+msgstr "De desktopclient heeft een beheerconsole die de clientkant van het gedrag controleert. De beheerconsole kan worden gestart vanuit het systeemvakpictogram **(1)**. In het Clientmenu klikt u op het pictogram van de beheerconsole **(2)**."
+
+#: ../../chapter6.rst:15
+msgid "WINDOWS CLIENT MANAGEM ENT CONSOLE"
+msgstr "WINDOWS CLIENT BEHEERCONSOLE"
+
+#: ../../chapter6.rst:17
+msgid "The management console has seven sections:"
+msgstr "De beheerconsole heeft zeven secties:"
+
+#: ../../chapter6.rst:20
+msgid "Section Name"
+msgstr ""
+
+#: ../../chapter6.rst:20
+msgid "Description"
+msgstr ""
+
+#: ../../chapter6.rst:22
+msgid "Dashboard (3)"
+msgstr "Dashboard (3)"
+
+#: ../../chapter6.rst:22
+msgid ""
+"Dashboard shows whether it is windows client/server agent, the access "
+"point URL and the version."
+msgstr "Dashboard toont of het een Windows-client/server-agent is, de toegangspunt-URL en de versie."
+
+#: ../../chapter6.rst:25
+msgid "Attached Folders (4)"
+msgstr "Gekoppelde Mappen (4)"
+
+#: ../../chapter6.rst:25
+msgid ""
+"You will attach local folder to sync with Cloud, and also you can scan "
+"attached folder."
+msgstr "U zult een lokale map koppelen om te synchroniseren met de Cloud, en u kunt ook de gekoppelde map scannen."
+
+#: ../../chapter6.rst:28
+msgid "Offline Folders (5)"
+msgstr "Offline mappen (5)"
+
+#: ../../chapter6.rst:28
+msgid ""
+"All offline folders will be listed here. You also can enable offline "
+"access to a folder in this section."
+msgstr "Alle offline mappen worden hier weergegeven. U kunt ook offline toegang tot een map inschakelen in deze sectie."
+
+#: ../../chapter6.rst:32
+msgid "Locked Files (6)"
+msgstr "Vergrendelde bestanden (6)"
+
+#: ../../chapter6.rst:32
+msgid "All locked files will be listed here."
+msgstr "Alle vergrendelde bestanden worden hier weergegeven."
+
+#: ../../chapter6.rst:35
+msgid "Pending Check-ins (7)"
+msgstr "In afwachting van check-ins (7)"
+
+#: ../../chapter6.rst:35
+msgid ""
+"All checked-out files will be listed here. You also can check-out a file "
+"in this section."
+msgstr "Alle uitgecheckte bestanden worden hier vermeld. U kunt ook een bestand uitchecken in deze sectie."
+
+#: ../../chapter6.rst:38
+msgid "Settings (8)"
+msgstr "Instellingen (8)"
+
+#: ../../chapter6.rst:38
+msgid "Settings Manager stores the different client-side settings"
+msgstr "Instellingenbeheer slaat de verschillende client-side instellingen op"
+
+#: ../../chapter6.rst:41
+msgid "Sync Status (9)"
+msgstr "Synchronisatiestatus (9)"
+
+#: ../../chapter6.rst:41
+msgid ""
+"Show sync status. You can pause the sync here. You observe summary of all"
+" the sync tasks from task manager in this section."
+msgstr "Toon synchronisatiestatus. U kunt de synchronisatie hier pauzeren. U ziet een overzicht van alle synchronisatietaken van de taakbeheerder in deze sectie."
+
+#: ../../chapter6.rst:48 ../../chapter6.rst:403
+msgid "Attached Folders"
+msgstr "Gekoppelde Mappen"
+
+#: ../../chapter6.rst:50
+msgid ""
+"You can attach local (from your Client Device) folders to |prodname| by "
+"clicking the \"Attached Folders\" button **(1)**. In the main view, and "
+"then click \"Attach a Local Folder to the Cloud\" **(2)**. This will open"
+" a wizard. Type in the location of the folder in the provided field or "
+"click the \"...\" button **(3)** to explore to a folder you wish to "
+"attach **(4)**. Click \"Attach\" to complete the process."
+msgstr "U kunt lokale mappen (van uw Client Apparaat) koppelen aan |prodname| door op de knop \"Gekoppelde Mappen\" **(1)** te klikken. In het hoofdvenster, en dan klikken op \"Koppel een Lokale Map aan de Cloud\" **(2)**. Dit opent een wizard. Typ de locatie van de map in het daarvoor bestemde veld of klik op de knop \"...\" **(3)** om naar een map te bladeren die u wilt koppelen **(4)**. Klik op \"Koppel\" om het proces te voltooien."
+
+#: ../../chapter6.rst:55
+msgid "ATTACH A FOLDER TO BACKUP"
+msgstr "EEN MAP KOPPELEN OM BACK-UP TE MAKEN"
+
+#: ../../chapter6.rst:59
+msgid "Settings Explained"
+msgstr "Instellingen Uitgelegd"
+
+#: ../../chapter6.rst:61
+msgid ""
+"There are many settings under the Settings Manager in the desktop client."
+" To access them click the Settings tab."
+msgstr "Er zijn veel instellingen in de Instellingenbeheerder in de desktopclient. Om ze te openen klikt u op het tabblad Instellingen."
+
+#: ../../chapter6.rst:66
+msgid "SETTINGS TAB - SETTINGS MANAGER"
+msgstr "INSTELLINGEN TABBLAD - INSTELLINGENBEHEER"
+
+#: ../../chapter6.rst:70
+msgid "Sync Throttle"
+msgstr "Synchronisatie Begrenzing"
+
+#: ../../chapter6.rst:72
+msgid ""
+"False (default) - If true, the Upload and Download Throttling control "
+"defined under this settings."
+msgstr "Onwaar (standaard) - Indien waar, de controle van de Upload- en Downloadbeperking gedefinieerd onder deze instellingen."
+
+#: ../../chapter6.rst:75
+msgid "Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Synchronisatie Begrensde Upload Bandbreedte (KB/s, 0-Onbeperkt)"
+
+#: ../../chapter6.rst:77 ../../chapter6.rst:82
+msgid ""
+"0 (default) - The default setting is unlimited KB/s, enter a number here "
+"to reduce the bandwidth consummed to the set limit."
+msgstr "0 (standaard) - De standaardinstelling is onbeperkt KB/s, voer hier een getal in om de gebruikte bandbreedte te beperken tot de ingestelde limiet."
+
+#: ../../chapter6.rst:80
+msgid "Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Synchronisatie Begrensde Download Bandbreedte (KB/s, 0-Onbeperkt)"
+
+#: ../../chapter6.rst:85
+msgid "Full Speed Sync Stop Hour (default 7:00)"
+msgstr "Volledige Snelheid Synchronisatie Stop Uur (standaard 7:00)"
+
+#: ../../chapter6.rst:87
+msgid ""
+"7 (default) - This setting represents the hour (24 hour clock) of the day"
+" when Full Speed synchronization will stop - Usually it is desired to "
+"have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "7 (standaard) - Deze instelling vertegenwoordigt het uur (24-uurs klok) van de dag waarop de synchronisatie met volle snelheid zal stoppen - Meestal is het gewenst om de synchronisatie met volle snelheid 's nachts te hebben wanneer het internetgebruik laag is."
+
+#: ../../chapter6.rst:90
+msgid "Full Speed Sync Start Hour (default 20:00)"
+msgstr "Volledige Snelheid Synchronisatie Startuur (standaard 20:00)"
+
+#: ../../chapter6.rst:92
+msgid ""
+"20 (default) - This setting represents the hour (24 hour clock) of the "
+"day when Full Speed synchronization will begin - Usually it is desired to"
+" have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "20 (standaard) - Deze instelling vertegenwoordigt het uur (24-uursklok) van de dag waarop de synchronisatie op volle snelheid zal beginnen - Meestal is het gewenst om de synchronisatie op volle snelheid 's nachts te hebben wanneer het internetgebruik laag is."
+
+#: ../../chapter6.rst:95
+msgid "Scan local files and sync-up to cloud as necessary"
+msgstr "Scan lokale bestanden en synchroniseer indien nodig met de cloud"
+
+#: ../../chapter6.rst:97
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" local files are more accurate than the information in the cloud."
+msgstr "Onwaar (standaard) - De desktopclient bouwt een statusdatabase op die beschrijft welke bestanden gesynchroniseerd zijn en welke niet. In het geval dat de desktopclient opnieuw wordt geïnstalleerd, kan de statusinformatie verloren gaan. Deze optie kan worden gebruikt om lokale bestanden te scannen en ze indien nodig naar de cloud te uploaden. Dit is een snelle manier om de statusinformatie opnieuw op te bouwen wanneer de lokale bestanden nauwkeuriger zijn dan de informatie in de cloud."
+
+#: ../../chapter6.rst:100
+msgid "Scan cloud files and sync-down to local as necessary"
+msgstr "Scan cloud-bestanden en synchroniseer indien nodig naar lokaal"
+
+#: ../../chapter6.rst:102
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" cloud files are more accurate than the local files."
+msgstr "Onwaar (standaard) - De desktopclient bouwt een statusdatabase op die beschrijft welke bestanden gesynchroniseerd zijn en welke niet. In het geval dat de desktopclient opnieuw wordt geïnstalleerd, kan de statusinformatie verloren gaan. Deze optie kan worden gebruikt om lokale bestanden te scannen en ze indien nodig naar de cloud te uploaden. Dit is een snelle manier om de statusinformatie opnieuw op te bouwen wanneer de bestanden in de cloud nauwkeuriger zijn dan de lokale bestanden."
+
+#: ../../chapter6.rst:105
+msgid "Allow shortcuts to sync"
+msgstr "Toestaan dat snelkoppelingen synchroniseren"
+
+#: ../../chapter6.rst:107
+msgid ""
+"False (default) - By default, the Windows Client does not support "
+"file/folder shortcuts, as we cannot guarantee that the shortcuts in the "
+"cloud are always valid. If a user creates a shortcut from a computer and "
+"links to a local file. The shortcut is then uploaded to the cloud. If the"
+" user accesses the Windows Client from another computer, the shortcut "
+"will not work unless both computers have exactly the same files and "
+"folder structures. If the shortcut is broken, Windows Explorer will "
+"aggressively try to resolve the broken shortcut paths, which will slow "
+"down the Windows Client. If users only access their cloud files from the "
+"same computer/device, they may still want to save their shortcuts to the "
+"cloud. In this case, you should enable the \"Allow shortcuts to sync\" "
+"setting."
+msgstr "Onwaar (standaard) - Standaard ondersteunt de Windows Client geen bestand-/map-snelkoppelingen, omdat we niet kunnen garanderen dat de snelkoppelingen in de cloud altijd geldig zijn. Als een gebruiker een snelkoppeling maakt vanaf een computer en linkt naar een lokaal bestand. De snelkoppeling wordt vervolgens geüpload naar de cloud. Als de gebruiker de Windows Client vanaf een andere computer benadert, zal de snelkoppeling niet werken tenzij beide computers precies dezelfde bestanden en mapstructuren hebben. Als de snelkoppeling verbroken is, zal Windows Verkenner agressief proberen de verbroken snelkoppeling paden op te lossen, wat de Windows Client zal vertragen. Als gebruikers alleen hun cloud-bestanden vanaf dezelfde computer/apparaat benaderen, willen ze misschien toch hun snelkoppelingen naar de cloud opslaan. In dit geval moet u de instelling \"Toestaan dat snelkoppelingen synchroniseren\" inschakelen."
+
+#: ../../chapter6.rst:110
+msgid "Disable file-change logs for dummy files (zero byte files)"
+msgstr "Uitschakelen van bestandswijzigingslogboeken voor dummybestanden (bestanden van nul bytes)"
+
+#: ../../chapter6.rst:112
+msgid ""
+"False (default) - When set to True, sync will ignore file change log for "
+"empty files."
+msgstr "Onwaar (standaard) - Wanneer ingesteld op Waar, zal synchronisatie de bestandswijzigingslog voor lege bestanden negeren."
+
+#: ../../chapter6.rst:115
+msgid "Scheduled Sync"
+msgstr "Geplande Synchronisatie"
+
+#: ../../chapter6.rst:118
+msgid "Enable Scheduled Sync"
+msgstr "Geplande synchronisatie inschakelen"
+
+#: ../../chapter6.rst:120
+msgid ""
+"False (default) - If true, the synchronization and transferring of files "
+"will follow the schedule defined in this section."
+msgstr "Onwaar (standaard) - Indien waar, zal de synchronisatie en overdracht van bestanden het in deze sectie gedefinieerde schema volgen."
+
+#: ../../chapter6.rst:123
+msgid "Pause Sync Start Hour (default 7:00)"
+msgstr "Pauzeer Synchronisatie Startuur (standaard 7:00)"
+
+#: ../../chapter6.rst:125
+msgid ""
+"7 (default) - This setting represents the hour (24-hour clock) of the day"
+" when synchronization will pause."
+msgstr "7 (standaard) - Deze instelling vertegenwoordigt het uur (24-uurs klok) van de dag waarop de synchronisatie zal pauzeren."
+
+#: ../../chapter6.rst:128
+msgid "Pause Sync End Hour (default 20:00)"
+msgstr "Pauzeer Synchronisatie Einduur (standaard 20:00)"
+
+#: ../../chapter6.rst:130
+msgid ""
+"20 (default) - This setting represents the hour (24-hour clock) of the "
+"day when synchronization will start."
+msgstr "20 (standaard) - Deze instelling vertegenwoordigt het uur (24-uurs klok) van de dag waarop de synchronisatie zal starten."
+
+#: ../../chapter6.rst:133
+msgid "Mapped Drive Control"
+msgstr "Besturing van Netwerkschijven"
+
+#: ../../chapter6.rst:136
+msgid "Always allow PDF preview"
+msgstr "Sta altijd PDF-voorvertoning toe"
+
+#: ../../chapter6.rst:138
+msgid ""
+"False (default) - If true, always allow windows client to show PDF file "
+"preview."
+msgstr "Onwaar (standaard) - Indien waar, altijd toestaan dat Windows-client PDF-bestandsvoorbeeld toont."
+
+#: ../../chapter6.rst:141
+msgid "Do not show storage quota"
+msgstr "Toon geen opslagquotum"
+
+#: ../../chapter6.rst:143
+msgid ""
+"False (default) - If true, do not show the user's storage quota on "
+"windows client drive."
+msgstr "Onwaar (standaard) - Indien waar, toon de opslagquota van de gebruiker niet op de Windows client schijf."
+
+#: ../../chapter6.rst:146
+msgid "When starting up the client, open the mounted drive automatically"
+msgstr "Bij het opstarten van de client, open de gekoppelde schijf automatisch"
+
+#: ../../chapter6.rst:148
+msgid ""
+"True (default) - When starting up the client, automatically open File "
+"Explorer to show the windows client drive."
+msgstr "Waar (standaard) - Wanneer de client wordt opgestart, open automatisch de Verkenner om de schijf van de Windows-client te tonen."
+
+#: ../../chapter6.rst:151
+msgid "Cloud drive label"
+msgstr "Label voor cloudstation"
+
+#: ../../chapter6.rst:153
+msgid ""
+"My Cloud Drive (default) - This is the drive label you can see from the "
+"Windows Explorer."
+msgstr "Mijn Cloud Schijf (standaard) - Dit is het schijflabel dat u kunt zien vanuit de Windows Verkenner."
+
+#: ../../chapter6.rst:156
+msgid "Drive Letter"
+msgstr "Schijfletter"
+
+#: ../../chapter6.rst:158
+msgid "M (default) - This is the drive letter assignment."
+msgstr "M (standaard) - Dit is de toewijzing van de schijfletter."
+
+#: ../../chapter6.rst:161
+msgid "In offline-mode, only show files that are cached and available locally"
+msgstr "In offline-modus, alleen bestanden tonen die in de cache zijn opgeslagen en lokaal beschikbaar zijn"
+
+#: ../../chapter6.rst:163
+msgid ""
+"False (default) - If true, when working in offline mode, only show files "
+"that are already in cache. Hide any files are not in cache."
+msgstr "Onwaar (standaard) - Indien waar, toon alleen bestanden die al in de cache zijn wanneer u in offline modus werkt. Verberg alle bestanden die niet in de cache zijn."
+
+#: ../../chapter6.rst:166
+msgid "Disable \"check-out\" on files and folders"
+msgstr "Uitschakelen van \"uitchecken\" op bestanden en mappen"
+
+#: ../../chapter6.rst:168
+msgid "False (default) - If true, disable manual file lock/unlock."
+msgstr "Onwaar (standaard) - Indien waar, schakel handmatig vergrendelen/ontgrendelen van bestanden uit."
+
+#: ../../chapter6.rst:171
+msgid "Use Windows' default browser to open files and folders"
+msgstr "Gebruik de standaardbrowser van Windows om bestanden en mappen te openen"
+
+#: ../../chapter6.rst:173
+msgid ""
+"False (default) - If true, on windows client drive, when right click "
+"file/folder and select Open in Web Browser, open default browser to show "
+"the selected files."
+msgstr "Onwaar (standaard) - Indien waar, op windows client schijf, wanneer rechts klik op bestand/map en selecteer Open in Web Browser, open standaard browser om de geselecteerde bestanden te tonen."
+
+#: ../../chapter6.rst:176
+msgid "Always sync folder meta-data when browsing with Windows Explorer"
+msgstr "Synchroniseer altijd map-metadata bij het bladeren met Windows Verkenner"
+
+#: ../../chapter6.rst:178
+msgid ""
+"False (default) - If true, when visiting cloud folder in windows client "
+"drive, the client will ignore local folder listing cahe. It will always "
+"get latest folder listing cache from cloud. It will generate high dir "
+"request to the server."
+msgstr "Onwaar (standaard) - Indien waar, wanneer men een cloudmap bezoekt in de Windows cliëntschijf, zal de cliënt de lokale maplijstcache negeren. Het zal altijd de nieuwste maplijstcache uit de cloud halen. Dit zal een hoog aantal mapverzoeken aan de server genereren."
+
+#: ../../chapter6.rst:181
+msgid "Disable drive mounting"
+msgstr "Schakel stationskoppeling uit"
+
+#: ../../chapter6.rst:183
+msgid ""
+"False (default) - If true, no Cloud Drive will be mounted under My "
+"Computer for the Windows Client."
+msgstr "Onwaar (standaard) - Indien waar, zal er geen Cloud Drive gekoppeld worden onder Deze Computer voor de Windows Client."
+
+#: ../../chapter6.rst:186
+msgid "Create cloud drive shortcut under My Documents"
+msgstr "Maak snelkoppeling naar cloudstation onder Mijn Documenten"
+
+#: ../../chapter6.rst:188
+msgid ""
+"True (default) - If true, there is a shortcut to the Cloud Drive under "
+"the My Documents' folder."
+msgstr "Waar (standaard) - Indien waar, is er een snelkoppeling naar de Cloud Drive onder de map 'Mijn Documenten'."
+
+#: ../../chapter6.rst:191
+msgid "Large File Upload"
+msgstr "Grote Bestandsupload"
+
+#: ../../chapter6.rst:194
+msgid "Enable \"chunking\" when uploading files larger than a specific size (MB)"
+msgstr "Schakel \"chunking\" in bij het uploaden van bestanden groter dan een specifieke grootte (MB)"
+
+#: ../../chapter6.rst:196
+msgid ""
+"15 (default) - When uploading large file, the client can split the file "
+"in small chunks and upload small chunks in parallel. It can improve the "
+"upload speed. Also if a chunk fails, only need to retry the chunk. This "
+"setting defines how large the file size is to enable the chunk feature."
+msgstr "15 (standaard) - Wanneer u een groot bestand uploadt, kan de client het bestand opsplitsen in kleine stukjes en de kleine stukjes parallel uploaden. Het kan de uploadsnelheid verbeteren. Ook als een stukje mislukt, hoeft alleen dat stukje opnieuw geprobeerd te worden. Deze instelling bepaalt hoe groot het bestand moet zijn om de functie voor het opsplitsen in stukjes in te schakelen."
+
+#: ../../chapter6.rst:199
+msgid "Default file chunk unit size (MB)"
+msgstr "Standaard bestandsgroottelimiet (MB)"
+
+#: ../../chapter6.rst:201
+msgid "20 (default) - This setting defines the chunk size."
+msgstr "20 (standaard) - Deze instelling bepaalt de grootte van het stuk."
+
+#: ../../chapter6.rst:204
+msgid "Bandwidth Control"
+msgstr "Bandbreedtebeheer"
+
+#: ../../chapter6.rst:207
+msgid "Download Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Download Bandbreedtelimiet (KB/s, 0-Onbeperkt)"
+
+#: ../../chapter6.rst:209
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your download bandwidth to the number you enter in Kilobytes."
+msgstr "0 (standaard) - Deze instelling staat standaard op onbeperkt. Wijzig dit om uw downloadbandbreedte te beperken tot het aantal dat u invoert in Kilobytes."
+
+#: ../../chapter6.rst:212
+msgid "Upload Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Upload Bandbreedtelimiet (KB/s, 0-Onbeperkt)"
+
+#: ../../chapter6.rst:214
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your upload bandwidth to the number you enter in Kilobytes."
+msgstr "0 (standaard) - Deze instelling staat standaard op onbeperkt. Wijzig dit om uw uploadbandbreedte te beperken tot het aantal dat u invoert in Kilobytes."
+
+#: ../../chapter6.rst:217
+msgid "Maximum number of file transfert threads"
+msgstr "Maximaal aantal bestandsoverdracht threads"
+
+#: ../../chapter6.rst:219
+msgid ""
+"5 (default) - Use this setting to restrict the number of threads used "
+"during synchronization."
+msgstr "5 (standaard) - Gebruik deze instelling om het aantal threads te beperken dat gebruikt wordt tijdens synchronisatie."
+
+#: ../../chapter6.rst:222
+msgid "Local Cache"
+msgstr "Lokale cache"
+
+#: ../../chapter6.rst:225
+msgid "Cache Directory"
+msgstr "Cache Directory"
+
+#: ../../chapter6.rst:227
+msgid ""
+"C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\gteamclient\\\\cache "
+"(default) - Use this setting to change the default location of the cache."
+msgstr "C:\\Gebruikers\\gebruikersnaam\\AppData\\Lokaal\\gteamclient\\cache (standaard) - Gebruik deze instelling om de standaardlocatie van de cache te wijzigen."
+
+#: ../../chapter6.rst:230
+msgid "Cache Size Limit (MB)"
+msgstr "Cache Grootte Limiet (MB)"
+
+#: ../../chapter6.rst:232
+msgid ""
+"0 (default) - The default setting is zero which is unlimited. Set this to"
+" a different number to limit the cache to that size in MB. You can "
+"disable the cache (not recommended) using the Web Portal's Tenant "
+"Dashboard > Roles settings."
+msgstr "0 (standaard) - De standaardinstelling is nul, wat onbeperkt is. Stel dit in op een ander nummer om de cache te beperken tot die grootte in MB. U kunt de cache uitschakelen (niet aanbevolen) via het Tenant Dashboard > Rollen instellingen van de Web Portal."
+
+#: ../../chapter6.rst:235
+msgid "Minimum free disk space (GB)"
+msgstr "Minimale vrije schijfruimte (GB)"
+
+#: ../../chapter6.rst:237
+msgid ""
+"5 (default) - The cache will leave defined free disk space on the disk. "
+"This can prevent the cached files use the entire disk. If zero, the cache"
+" can take entire disk space."
+msgstr "5 (standaard) - De cache zal gedefinieerde vrije schijfruimte op de schijf laten. Dit kan voorkomen dat de gecachte bestanden de hele schijf gebruiken. Als het nul is, kan de cache de hele schijfruimte innemen."
+
+#: ../../chapter6.rst:240
+msgid "Outlook Plugin"
+msgstr "Outlook Plug-in"
+
+#: ../../chapter6.rst:243
+msgid "Prompt for conversion when a file is larger than a specific size (KB)"
+msgstr "Vraag om conversie wanneer een bestand groter is dan een specifieke grootte (KB)"
+
+#: ../../chapter6.rst:245
+msgid ""
+"0 (default) - Default to never prompt. This setting defines how large the"
+" attachment file size is to use the Outlook plugin to automatically "
+"upload the file to Centrestack cloud."
+msgstr "0 (standaard) - Standaard nooit vragen. Deze instelling bepaalt hoe groot het bijlagebestand moet zijn om de Outlook-plug-in te gebruiken om het bestand automatisch naar de Centrestack-cloud te uploaden."
+
+#: ../../chapter6.rst:248
+msgid "Attachments cache folder"
+msgstr "Bijlagen cache map"
+
+#: ../../chapter6.rst:250
+msgid "Outlook plugin will upload file to the defined folder."
+msgstr "Outlook plug-in zal het bestand uploaden naar de gedefinieerde map."
+
+#: ../../chapter6.rst:253
+msgid "Link expiration time"
+msgstr "Link vervaltijd"
+
+#: ../../chapter6.rst:255
+msgid ""
+"Never (default) - When attaching a file to an Outlook email, the Windows "
+"Client can upload the file to the cloud and generate a link to access the"
+" file. The link is added in the email, to reduce email size. This setting"
+" defines how long the link will expire."
+msgstr "Nooit (standaard) - Wanneer u een bestand bijvoegt aan een Outlook-e-mail, kan de Windows Client het bestand uploaden naar de cloud en een link genereren om toegang te krijgen tot het bestand. De link wordt in de e-mail geplaatst, om de grootte van de e-mail te verminderen. Deze instelling bepaalt hoe lang de link zal verlopen."
+
+#: ../../chapter6.rst:258
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: ../../chapter6.rst:261
+msgid "Disable offline-mode notification"
+msgstr "Offline-modus melding uitschakelen"
+
+#: ../../chapter6.rst:263
+msgid ""
+"False (default) - A system that goes into offline mode will send a "
+"notification by default. Change this to True to hide that notification."
+msgstr "Onwaar (standaard) - Een systeem dat offline gaat, stuurt standaard een melding. Verander dit in Waar om die melding te verbergen."
+
+#: ../../chapter6.rst:266
+msgid "Disable File-change notification"
+msgstr "Uitschakelen bestandswijzigingsmelding"
+
+#: ../../chapter6.rst:268
+msgid ""
+"False (default) - When files are modified by other people or by the same "
+"user but from another machine, there is a file change notification. "
+"Change this setting to True to turn off that notification."
+msgstr "Onwaar (standaard) - Wanneer bestanden worden gewijzigd door andere mensen of door dezelfde gebruiker maar vanaf een andere machine, is er een bestandswijzigingsmelding. Verander deze instelling in Waar om die melding uit te schakelen."
+
+#: ../../chapter6.rst:271
+msgid "Disable large file-download tracker window"
+msgstr "Grote bestand-download tracker venster uitschakelen"
+
+#: ../../chapter6.rst:273
+msgid ""
+"False (default) - When Windows Explorer is downloading a large file in "
+"the background, by default there is a large file download progress dialog"
+" showing. This setting allows you to turn off that notification."
+msgstr "Onwaar (standaard) - Wanneer Windows Verkenner een groot bestand op de achtergrond downloadt, wordt standaard een voortgangsdialoogvenster voor het downloaden van grote bestanden weergegeven. Deze instelling maakt het mogelijk om die melding uit te schakelen."
+
+#: ../../chapter6.rst:276
+msgid "Disable automatic task tracker for scheduled tasks"
+msgstr "Automatische taaktracker voor geplande taken uitschakelen"
+
+#: ../../chapter6.rst:278
+msgid ""
+"False (default) - By default, there is an automatic task tracker for "
+"scheduled tasks. This setting allows you to turn off the tracker."
+msgstr "Onwaar (standaard) - Standaard is er een automatische taaktracker voor geplande taken. Met deze instelling kunt u de tracker uitschakelen."
+
+#: ../../chapter6.rst:281
+msgid "Disable in-place-editing and preview-disabled notifications"
+msgstr "Uitschakelen van in-place-bewerking en meldingen van uitgeschakelde voorvertoning"
+
+#: ../../chapter6.rst:283
+msgid ""
+"False (default) - When in-place-editing zip/exe file and preview-"
+"disabled, by default, the system will send a notification. This setting "
+"allows you to turn off that notification."
+msgstr "Onwaar (standaard) - Wanneer zip-/exe-bestanden in-place worden bewerkt en voorvertoning uitgeschakeld is, stuurt het systeem standaard een melding. Deze instelling maakt het mogelijk om die melding uit te schakelen."
+
+#: ../../chapter6.rst:286
+msgid "Disable shut-down confirmation"
+msgstr "Uitschakelbevestiging uitschakelen"
+
+#: ../../chapter6.rst:288
+msgid ""
+"False (default) - When shutdown the desktop client, there is a shutdown "
+"confirmation window. This setting controls whether that confirmation "
+"dialog will be shown. Set this to True to hide the confirmation dialog."
+msgstr "Onwaar (standaard) - Wanneer de desktopclient wordt afgesloten, verschijnt er een bevestigingsvenster voor het afsluiten. Deze instelling bepaalt of dat bevestigingsdialoog wordt getoond. Stel dit in op Waar om het bevestigingsdialoog te verbergen."
+
+#: ../../chapter6.rst:291
+msgid "Disable folder move confirmation"
+msgstr "Bevestiging van het verplaatsen van mappen uitschakelen"
+
+#: ../../chapter6.rst:293
+msgid ""
+"False (default) - When moving a folder within windows client drive, by "
+"default, the system will show a confirmation dialog. This setting allows "
+"you to turn off that confirmation dialog."
+msgstr "Onwaar (standaard) - Wanneer u een map verplaatst binnen de Windows-client schijf, toont het systeem standaard een bevestigingsdialoogvenster. Deze instelling maakt het mogelijk om dat bevestigingsdialoogvenster uit te schakelen."
+
+#: ../../chapter6.rst:296
+msgid "Advanced Settings"
+msgstr "Geavanceerde instellingen"
+
+#: ../../chapter6.rst:299
+msgid "Enable in-place opening of zip and exe files"
+msgstr "In-place openen van zip- en exe-bestanden inschakelen"
+
+#: ../../chapter6.rst:301
+msgid ""
+"False (default) - By default, Windows Client doesn't allow a user to open"
+" zip files in mounted M drive directly. This is because opening a zip "
+"file means to download the whole zip file to cache first. When the zip "
+"file is big, the download will generate high network traffic and cause "
+"windows explorer to slow down. Change this to True if you want users to "
+"be able to open Zip files within the M drive. The next setting determines"
+" the size limit of this feature."
+msgstr "Onwaar (standaard) - Standaard staat de Windows Client niet toe dat een gebruiker zip-bestanden rechtstreeks opent in de gemonteerde M-schijf. Dit komt omdat het openen van een zip-bestand betekent dat het hele zip-bestand eerst naar de cache gedownload moet worden. Wanneer het zip-bestand groot is, zal de download veel netwerkverkeer genereren en de Windows Verkenner vertragen. Verander dit in Waar als je wilt dat gebruikers Zip-bestanden binnen de M-schijf kunnen openen. De volgende instelling bepaalt de groottegrens van deze functie."
+
+#: ../../chapter6.rst:304
+msgid "Max size of zip files allowed to open in-place (MB)"
+msgstr "Maximale grootte van zip-bestanden toegestaan om in-place te openen (MB)"
+
+#: ../../chapter6.rst:306
+msgid ""
+"20 (default) - This defines the size limit for the zip file the user is "
+"allowed to open. It is designed to prevent user/windows explorer from "
+"downloading very large zip files. By default, it is 20M. When admin "
+"enables inplace zip file opening, only files within 20M can be opened."
+msgstr "20 (standaard) - Dit definieert de groottebeperking voor het zipbestand dat de gebruiker mag openen. Het is ontworpen om te voorkomen dat gebruiker/windows verkenner zeer grote zipbestanden downloadt. Standaard is dit 20M. Wanneer de beheerder het openen van zipbestanden op de plaats zelf inschakelt, kunnen alleen bestanden binnen 20M geopend worden."
+
+#: ../../chapter6.rst:309
+msgid "Max size of files for thumbnail generation (MB)"
+msgstr "Maximale grootte van bestanden voor het genereren van miniaturen (MB)"
+
+#: ../../chapter6.rst:311
+msgid "0 (default) - This defines the file size limit for generating thumbnail."
+msgstr "0 (standaard) - Dit definieert de bestandsgrootte limiet voor het genereren van een miniatuur."
+
+#: ../../chapter6.rst:314
+msgid "Always allow picture previews"
+msgstr "Sta altijd voorbeeldweergaven van afbeeldingen toe"
+
+#: ../../chapter6.rst:316
+msgid ""
+"False (default) - If this is turned on preview thumbnails will be "
+"generated for your local files. This consumes a lot of bandwidth for "
+"unnecessary downloading of image files."
+msgstr "Uit (standaard) - Als dit wordt ingeschakeld, worden er voorvertoning miniaturen gegenereerd voor uw lokale bestanden. Dit verbruikt veel bandbreedte door het onnodig downloaden van afbeeldingsbestanden."
+
+#: ../../chapter6.rst:319
+msgid "Enable slow network mode"
+msgstr "Schakel de modus voor langzaam netwerk in"
+
+#: ../../chapter6.rst:321
+msgid "False (default) - No further information."
+msgstr "Onwaar (standaard) - Geen verdere informatie."
+
+#: ../../chapter6.rst:324
+msgid "Prevent computer from falling asleep during sync"
+msgstr "Voorkom dat de computer in slaapstand gaat tijdens synchronisatie"
+
+#: ../../chapter6.rst:326
+msgid ""
+"True (default) - Nighttime is typically a good time to transfer files at "
+"full speed. However, the machine may go into a sleeping state, preventing"
+" the transfer of files. This setting can prevent the sleep mode from "
+"activating."
+msgstr "Waar (standaard) - De nacht is doorgaans een goed moment om bestanden met volle snelheid over te dragen. Echter, de machine kan in een slaapstand gaan, wat de overdracht van bestanden verhindert. Deze instelling kan voorkomen dat de slaapstand geactiveerd wordt."
+
+#: ../../chapter6.rst:329
+msgid "Mount drive in global space"
+msgstr "Koppel station in globale ruimte"
+
+#: ../../chapter6.rst:331
+msgid "False (default) - No furter information."
+msgstr "Onwaar (standaard) - Geen verdere informatie."
+
+#: ../../chapter6.rst:334
+msgid "Upload hidden files"
+msgstr "Verborgen bestanden uploaden"
+
+#: ../../chapter6.rst:336
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"Hidden Files to the cloud."
+msgstr "Onwaar (standaard) - Wijzig deze instelling naar Waar als u Verborgen Bestanden naar de cloud wilt uploaden."
+
+#: ../../chapter6.rst:339
+msgid "Upload system files"
+msgstr "Systeembestanden uploaden"
+
+#: ../../chapter6.rst:341
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"System Files to the cloud."
+msgstr "Onwaar (standaard) - Verander deze instelling in Waar als u Systeembestanden naar de cloud wilt uploaden."
+
+#: ../../chapter6.rst:344
+msgid "Use Volume Shadow-Copy to upload files that are constantly accessed"
+msgstr "Gebruik Volume Shadow-Copy om bestanden te uploaden die constant worden geopend"
+
+#: ../../chapter6.rst:346
+msgid ""
+"False (default) - By default an actively opened file will not be uploaded"
+" until it has been closed. This setting can override that behavior, "
+"uploading all of the files regardless of their open status."
+msgstr "Onwaar (standaard) - Standaard wordt een actief geopend bestand niet geüpload totdat het is gesloten. Deze instelling kan dat gedrag overschrijven door alle bestanden te uploaden ongeacht hun open status."
+
+#: ../../chapter6.rst:349
+msgid "Disable AutoCAD optimization"
+msgstr "AutoCAD-optimalisatie uitschakelen"
+
+#: ../../chapter6.rst:351
+msgid ""
+"False (default) - By default, windows client will delay the sync of "
+"AutoCAD files by combining several changes into a single change. This is "
+"specific for users who save frequently or have the AutoCAD autosave "
+"feature enabled with short intervals. The file change will not be "
+"uploaded to the cloud immediately after the file saving. Leave it Uncheck"
+" if only one person is working on the AutoCAD files. When the setting is "
+"checked, windows client will sync the file to cloud as soon as the file "
+"is saved. Check the setting if the user needs the change to be uploaded "
+"to cloud as soon as possible. When multiple users are working on same set"
+" of AutoCAD files, check the setting."
+msgstr "Onwaar (standaard) - Standaard zal de Windows-client de synchronisatie van AutoCAD-bestanden vertragen door meerdere wijzigingen te combineren tot één enkele wijziging. Dit is specifiek voor gebruikers die vaak opslaan of de AutoCAD-autosavefunctie ingeschakeld hebben met korte tussenpozen. De bestandswijziging zal niet onmiddellijk na het opslaan van het bestand naar de cloud worden geüpload. Laat het onaangevinkt als slechts één persoon aan de AutoCAD-bestanden werkt. Wanneer de instelling is aangevinkt, zal de Windows-client het bestand synchroniseren met de cloud zodra het bestand is opgeslagen. Vink de instelling aan als de gebruiker wil dat de wijziging zo snel mogelijk naar de cloud wordt geüpload. Wanneer meerdere gebruikers aan dezelfde set AutoCAD-bestanden werken, vink de instelling aan."
+
+#: ../../chapter6.rst:354
+msgid "Diagnostics"
+msgstr "Diagnostiek"
+
+#: ../../chapter6.rst:357
+msgid "Days of audit trace to keep"
+msgstr "Dagen om audit-trace te bewaren"
+
+#: ../../chapter6.rst:359
+msgid "5 (default) - This setting defines how many days to keep the audit trace."
+msgstr "5 (standaard) - Deze instelling bepaalt hoeveel dagen de audittrace bewaard blijft."
+
+#: ../../chapter6.rst:362
+msgid "Trace Level (0-Disable, 1-error, 2-warning, 3-info, 100-verbose)"
+msgstr "Traceerniveau (0-Uitschakelen, 1-fout, 2-waarschuwing, 3-info, 100-uitgebreid)"
+
+#: ../../chapter6.rst:364
+msgid ""
+"0 (default) - By default, the trace level is 0. It can be changed to the "
+"levels shown, or 101 for maximum debug trace."
+msgstr "0 (standaard) - Standaard is het traceerniveau 0. Het kan worden gewijzigd naar de getoonde niveaus, of 101 voor maximale debugtrace."
+
+#: ../../chapter6.rst:368
+msgid "Sync Status"
+msgstr "Synchronisatiestatus"
+
+#: ../../chapter6.rst:371
+msgid "Task Manager"
+msgstr "Taakbeheer"
+
+#: ../../chapter6.rst:373
+msgid ""
+"Click on the Task Manager icon on top right corner of client menu to open"
+" Task Manager. You can see the summary for all the sync tasks."
+msgstr "Klik op het pictogram Taakbeheer in de rechterbovenhoek van het klantmenu om Taakbeheer te openen. U kunt de samenvatting voor alle synchronisatietaken zien."
+
+#: ../../chapter6.rst:378
+msgid "TASK MANAGER"
+msgstr "TAAKBEHEERDER"
+
+#: ../../chapter6.rst:382
+msgid "Client Side Management Console - Web Portal"
+msgstr "Client Side Management Console - Webportaal"
+
+#: ../../chapter6.rst:384
+msgid ""
+"Click the system tray icon (1) open the tray menu. From the three-dots "
+"(2) you can access other functions. By choosing \"Web Portal\" (3), the "
+"Windows client web portal will be opened in a default web browser. Click "
+"\"Management Console\" icon (4) to access management console from web."
+msgstr "Klik op het systeemvakpictogram (1) om het menu te openen. Via de drie puntjes (2) kunt u andere functies benaderen. Door \"Webportaal\" (3) te kiezen, wordt het webportaal van de Windows-client geopend in een standaardwebbrowser. Klik op het pictogram \"Beheerconsole\" (4) om toegang te krijgen tot de beheerconsole vanuit het web."
+
+#: ../../chapter6.rst:389
+msgid "ACCESS MANAGEMENT CONSOLE WEB PORTAL"
+msgstr "TOEGANGSBEHEER CONSOLE WEBPORTAAL"
+
+#: ../../chapter6.rst:392
+msgid "Device Information"
+msgstr "Apparaatinformatie"
+
+#: ../../chapter6.rst:394
+msgid ""
+"Device Manager has an overview of the device including details such as "
+"Device Owner, Device Type, OS Type, Device Client Version (software build"
+" number), Last Login Time, Sync Status, Cache Size, Last Report Time, and"
+" more. Click \"Manage\" icon to see Device details."
+msgstr "Apparaatbeheer heeft een overzicht van het apparaat inclusief details zoals Apparaateigenaar, Apparaattype, Type besturingssysteem, Versie apparaatclient (software buildnummer), Laatste inlogtijd, Synchronisatiestatus, Cache grootte, Laatste rapportagetijd, en meer. Klik op het pictogram \"Beheren\" om de apparaatdetails te zien."
+
+#: ../../chapter6.rst:399
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE MANAGER"
+msgstr "CLIENT MANAGEMENT CONSOLE - APPARAATBEHEER"
+
+#: ../../chapter6.rst:405
+msgid ""
+"Attached Folders are local folders that are maintaining a two-way "
+"synchronization relationship with cloud storage."
+msgstr "Aangekoppelde mappen zijn lokale mappen die een tweerichtingssynchronisatierelatie met cloudopslag onderhouden."
+
+#: ../../chapter6.rst:410
+msgid "ATTACHING A FOLDER TO THE CLOUD"
+msgstr "EEN MAP KOPPELEN AAN DE CLOUD"
+
+#: ../../chapter6.rst:413
+msgid "Locked Files"
+msgstr "Vergrendelde Bestanden"
+
+#: ../../chapter6.rst:415
+msgid ""
+"A file that is in use is locked. In the image below, the user has opened "
+"the document **(1)** in Word. When a user is editing a Word Document, "
+"that file will remain locked while it is open in Word. Sometimes you will"
+" need to click the \"Refresh\" text **(2)** to see files that are locked "
+"in the Locked Files view. These are locked files from the local device. "
+"The locked files include automatically locked files (e.g., opened in "
+"Word) and manually locked files (e.g., right-clicked and locked in "
+"context menu). If you need to force-unlock a file, this can be done using"
+" the lock icon **(3)**."
+msgstr "Een bestand dat in gebruik is, wordt vergrendeld. In de onderstaande afbeelding heeft de gebruiker het document **(1)** in Word geopend. Wanneer een gebruiker een Word-document bewerkt, blijft dat bestand vergrendeld zolang het in Word geopend is. Soms moet u op de tekst \"Vernieuwen\" **(2)** klikken om de vergrendelde bestanden te zien in de weergave van Vergrendelde Bestanden. Dit zijn vergrendelde bestanden van het lokale apparaat. De vergrendelde bestanden omvatten automatisch vergrendelde bestanden (bijv. geopend in Word) en handmatig vergrendelde bestanden (bijv. rechts geklikt en vergrendeld in het contextmenu). Als u een bestand geforceerd wilt ontgrendelen, kan dit gedaan worden met behulp van het sloticoon **(3)**."
+
+#: ../../chapter6.rst:420
+msgid "LOCKED FILES VIEW"
+msgstr "WEERGAVE VAN VERGRENDELDE BESTANDEN"
+
+#: ../../chapter6.rst:423
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../../chapter6.rst:425
+msgid "Settings are settings that can be applied to the current device."
+msgstr "Instellingen zijn instellingen die kunnen worden toegepast op het huidige apparaat."
+
+#: ../../chapter6.rst:430
+msgid "CONSOLE SETTINGS"
+msgstr "CONSOLE-INSTELLINGEN"
+

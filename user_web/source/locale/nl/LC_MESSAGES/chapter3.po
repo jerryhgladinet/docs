@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter3.rst:3
+msgid "Browser Requirements"
+msgstr "Browservereisten"
+
+#: ../../chapter3.rst:5
+msgid ""
+"The web portal runs inside compatible web browsers. We recommend using "
+"the following web browsers."
+msgstr "Het webportaal werkt binnen compatibele webbrowsers. We raden aan de volgende webbrowsers te gebruiken."
+
+#: ../../chapter3.rst:8
+msgid "Google Chrome (Latest)"
+msgstr "Google Chrome (Nieuwste)"
+
+#: ../../chapter3.rst:9
+msgid "Firefox (Latest)"
+msgstr "Firefox (Laatste)"
+
+#: ../../chapter3.rst:10
+msgid "Safari (Latest)"
+msgstr "Safari (Nieuwste)"
+
+#: ../../chapter3.rst:11
+msgid "Windows Edge (Latest)"
+msgstr "Windows Edge (Laatste)"
+
+#: ../../chapter3.rst:12
+msgid "Opera (Latest)"
+msgstr "Opera (Laatste)"
+
+#: ../../chapter3.rst:13
+msgid "Internet Explorer (11)"
+msgstr "Internet Explorer (11)"
+
+#: ../../chapter3.rst:18
+msgid ""
+"For administration work, the Web Portal doesn't support Internet Explorer"
+" 8 any more."
+msgstr "Voor administratief werk wordt Internet Explorer 8 niet meer ondersteund door het Webportaal."
+
+#: ../../chapter3.rst:23
+msgid ""
+"Google Chrome and Firefox have self-update features so most of the time "
+"you are running the latest version. It is OK if these web browser are not"
+" the latest versions, as long as they were released after 2011."
+msgstr "Google Chrome en Firefox hebben zelf-updatefuncties, dus meestal gebruik je de nieuwste versie. Het is geen probleem als deze webbrowsers niet de nieuwste versies zijn, zolang ze maar uitgebracht zijn na 2011."
+
+#: ../../chapter3.rst:28
+msgid ""
+"For the best user experience, however, we recommend the latest version of"
+" web browsers."
+msgstr "Voor de beste gebruikerservaring raden we echter de nieuwste versie van webbrowsers aan."
+

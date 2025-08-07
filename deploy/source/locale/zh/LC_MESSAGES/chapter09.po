@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter09.rst:2
+msgid "Backup CentreStack"
+msgstr "备份中心堆栈"
+
+#: ../../chapter09.rst:5
+msgid "Database"
+msgstr "数据库"
+
+#: ../../chapter09.rst:7
+msgid ""
+"Only the CentreStack database contains persistent configuration "
+"information. All other components are stateless and replaceable. In a "
+"disaster recovery scenario, as soon as the SQL Server is restored, other "
+"worker nodes can be re-installed and will start working immediately. You "
+"can also point the worker node's database reference to the new SQL "
+"Server; it will work immediately with the information from the database."
+msgstr "只有CentreStack数据库包含持久的配置信息。所有其他组件都是无状态的，可以替换的。在灾难恢复场景中，一旦SQL Server恢复，其他工作节点可以重新安装，并将立即开始工作。您也可以将工作节点的数据库引用指向新的SQL Server；它将立即使用数据库中的信息工作。"
+
+#: ../../chapter09.rst:14
+msgid ""
+"The worker nodes are stateless so it is not required to backup any worker"
+" nodes. They can be provisioned by a clean OS with a copy of CentreStack."
+" As soon as they are connected to the same database they become a node in"
+" the cluster."
+msgstr "工作节点是无状态的，因此不需要备份任何工作节点。它们可以通过带有CentreStack副本的干净操作系统来配置。一旦它们连接到相同的数据库，它们就成为集群中的一个节点。"
+
+#: ../../chapter09.rst:19
+msgid "Storage (Files and Folders)"
+msgstr "存储（文件和文件夹）"
+
+#: ../../chapter09.rst:21
+msgid ""
+"You will also need to back up your storage services. Most of the time, if"
+" you are using Cloud Storage services such as Amazon S3 or OpenStack "
+"Swift, the service has built-in redundancy. For local storage, DFS "
+"replication, RAID array or Microsoft Storage Space can all be options to "
+"provide storage service redundancy."
+msgstr "您还需要备份您的存储服务。大多数情况下，如果您使用的是云存储服务，如Amazon S3或OpenStack Swift，该服务已经具有内置的冗余性。对于本地存储，DFS复制、RAID阵列或Microsoft Storage Space都可以作为提供存储服务冗余的选项。"
+

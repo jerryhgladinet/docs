@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:4
+msgid "4 Folder and File Features"
+msgstr "4个文件夹和文件功能"
+
+#: ../../chapter04.rst:6
+msgid ""
+"When you Right click on a folder or a file you can access the context "
+"menu, which allows you to Share, Get share link, enable offline Access, "
+"Open in web browser, and Force Refresh."
+msgstr "当您在文件夹或文件上右键单击时，可以访问上下文菜单，该菜单允许您分享、获取分享链接、启用离线访问、在网页浏览器中打开以及强制刷新。"
+
+#: ../../chapter04.rst:9
+msgid "Folder and File Sharing"
+msgstr "文件夹和文件共享"
+
+#: ../../chapter04.rst:11
+msgid ""
+"To share a file or folder, simply right click on it and select "
+"**\"Share\"** from the menu item:"
+msgstr "要共享文件或文件夹，只需右键单击它并从菜单项中选择 **\"共享\"**："
+
+#: ../../chapter04.rst:15
+msgid ""
+"A wizard will be launched to allow you to \"Invite People\". To set this "
+"up, click the **Share Icon (1)**. In the new window enter the email(s) "
+"**(2)** of anyone you wish to share this with seperated by semicolons "
+"(;). Click **\"CONTINUE\" (3)**."
+msgstr "一个向导将被启动以允许您“邀请人员”。要进行此设置，请点击 **共享图标（1）**。在新窗口中输入您想要分享的电子邮件 **（2）**，电子邮件之间用分号（;）分隔。点击 **“继续”（3）**。"
+
+#: ../../chapter04.rst:17
+msgid ""
+"In the next window you can choose how you want to share: expiration time,"
+" access rights (read only, view only, full control). After making your "
+"option selections, choose **\"SHARE\" (4)** or **\"GET LINK\" (5)**. "
+"\"SHARE\" sends emails to your guest users and \"GET LINK\" opens a "
+"window with the URL you can use to create a custom email or use some "
+"other method to communicate with your guest users."
+msgstr "在下一个窗口中，您可以选择分享的方式：过期时间、访问权限（只读、查看、完全控制）。做出选择后，点击 **\"分享\" (4)** 或 **\"获取链接\" (5)**。\"分享\" 会向您的访客用户发送邮件，而 \"获取链接\" 会打开一个窗口，其中包含您可以用来创建自定义电子邮件或使用其他方法与您的访客用户沟通的URL。"
+
+#: ../../chapter04.rst:23
+msgid "Edit Share"
+msgstr "编辑共享"
+
+#: ../../chapter04.rst:24
+msgid ""
+"If a file or a folder is already shared, you can right click on the "
+"shared file or folder and select 'Share' to access the edit share menu. "
+"Here you can delete the share, edit the share, resend the notification "
+"email, show share link and enable and disable public link."
+msgstr "如果一个文件或文件夹已经被共享，您可以右键点击该共享的文件或文件夹，选择'共享'来访问编辑共享菜单。在这里，您可以删除共享，编辑共享，重新发送通知邮件，显示共享链接以及启用和禁用公共链接。"
+
+#: ../../chapter04.rst:30
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+#: ../../chapter04.rst:32
+msgid ""
+"To verify that the Cloud Drive Mac Client \"Finder\" extension is active,"
+" you can check the setting by clicking the System Preferences button and "
+"choosing **\"Extensions\"** from the preferences options."
+msgstr "要验证云盘Mac客户端的\"Finder\"扩展是否激活，您可以通过点击系统偏好设置按钮并从偏好选项中选择 **\"扩展\"** 来检查设置。"
+
+#: ../../chapter04.rst:36
+msgid ""
+"This will open the Extensions window. You will find the setting under the"
+" \"All\" category."
+msgstr "这将打开“扩展”窗口。您可以在“全部”类别下找到该设置。"
+
+#: ../../chapter04.rst:42
+msgid "Icon Overlays"
+msgstr "图标覆盖"
+
+#: ../../chapter04.rst:44
+msgid "There are three icon overlays on files to represent different states."
+msgstr "文件上有三个图标覆盖以表示不同的状态。"
+
+#: ../../chapter04.rst:48
+msgid "**Thin Green Check Mark**"
+msgstr "**细绿色勾号**"
+
+#: ../../chapter04.rst:50
+msgid ""
+"This icon overlay means files are in the cloud but the file content is "
+"not local."
+msgstr "此图标覆盖表示文件在云中，但文件内容不是本地的。"
+
+#: ../../chapter04.rst:52
+msgid "**Solid Circle Green Check Mark**"
+msgstr "**固体圆形绿色勾号**"
+
+#: ../../chapter04.rst:54
+msgid ""
+"This icon overlay means files are in the cloud and are also available "
+"from local."
+msgstr "此图标覆盖表示文件在云中，并且也可以从本地获取。"
+
+#: ../../chapter04.rst:56
+msgid "**Blue Uploading Icon**"
+msgstr "**蓝色上传图标**"
+
+#: ../../chapter04.rst:58
+msgid "This icon shows the file is being uploaded and not completely done yet."
+msgstr "此图标表示文件正在上传中，尚未完全完成。"
+

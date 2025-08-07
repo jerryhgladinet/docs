@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../access_upload.rst:2
+msgid "Accessing Folders and Files"
+msgstr "Kansioiden ja tiedostojen käyttäminen"
+
+#: ../../access_upload.rst:5
+msgid ""
+"After logging in, users will see the files and folders they have access "
+"to, as shown on the following screen."
+msgstr "Kirjautumisen jälkeen käyttäjät näkevät tiedostot ja kansiot, joihin heillä on pääsy, kuten seuraavalla näytöllä on esitetty."
+
+#: ../../access_upload.rst:9
+msgid ""
+"Tap on a folder to see the files and subfolders it contains. Tapping on "
+"the 3 vertical dots icon for any item will display edit and collaboration"
+" options."
+msgstr "Napauta kansiota nähdäksesi sen sisältämät tiedostot ja alikansiot. Napauttamalla minkä tahansa kohteen 3 pystypisteen kuvaketta näkyviin tulevat muokkaus- ja yhteistyövaihtoehdot."
+
+#: ../../access_upload.rst:11
+msgid ""
+"Which are **Copy, Cut, Rename, Delete, Share, Share Manager and More "
+"Info**. Detailed explanations are given in later sections."
+msgstr "Joihin kuuluvat **Kopioi, Leikkaa, Nimeä uudelleen, Poista, Jaa, Jaon hallinta ja Lisätietoja**. Tarkemmat selitykset annetaan myöhemmissä osioissa."
+
+#: ../../access_upload.rst:15
+msgid ""
+"Users can also long press to make multiple selection, then copy, cut or "
+"delete on selected folders and files using the icons in the top menu."
+msgstr "Käyttäjät voivat myös pitkään painaa tehdäkseen useita valintoja ja sen jälkeen kopioida, leikata tai poistaa valittuja kansioita ja tiedostoja käyttämällä ylävalikon kuvakkeita."
+
+#: ../../access_upload.rst:21
+msgid "Top Menu Icons"
+msgstr "Ylävalikon kuvakkeet"
+
+#: ../../access_upload.rst:23
+msgid "Here are the icons of the top menu bar."
+msgstr "Tässä ovat ylävalikon kuvakkeet."
+
+#: ../../access_upload.rst:28
+msgid "Refresh"
+msgstr "Päivitä"
+
+#: ../../access_upload.rst:30
+msgid ""
+"To refresh a screen, swipe down or touch the **Refresh** (1) button in "
+"the top menu, and the screen will be refreshed automatically."
+msgstr "Päivittääksesi näytön pyyhkäise alaspäin tai kosketa **Päivitä** (1) -painiketta ylävalikossa, niin näyttö päivittyy automaattisesti."
+
+#: ../../access_upload.rst:33
+msgid "Show Deleted Folders and Files"
+msgstr "Näytä poistetut kansiot ja tiedostot"
+
+#: ../../access_upload.rst:35
+msgid ""
+"Tap on the second icon (2) to switch between **Show Deleted Files** and "
+"**Hide Deleted Files**. The default mode is **Hide Deleted Files**."
+msgstr "Napauta toista kuvaketta (2) vaihtaaksesi **Näytä poistetut tiedostot** ja **Piilota poistetut tiedostot** välillä. Oletustila on **Piilota poistetut tiedostot**."
+
+#: ../../access_upload.rst:40
+msgid "Change View Mode"
+msgstr "Vaihda näkymätilaa"
+
+#: ../../access_upload.rst:42
+msgid ""
+"Press the third icon (3) to switch view mode between **List View** and "
+"**Grid View**. The default view mode is **List View**."
+msgstr "Paina kolmatta kuvaketta (3) vaihtaaksesi näkymää **Listanäkymän** ja **Ruudukkonäkymän** välillä. Oletusnäkymä on **Listanäkymä**."
+
+#: ../../access_upload.rst:47
+msgid "Sort Menu"
+msgstr "Lajittelumeny"
+
+#: ../../access_upload.rst:49
+msgid ""
+"The **Sort Menu** (4) allows user to change the order in which the files "
+"are displayed."
+msgstr "The **Lajittelumeny** (4) mahdollistaa käyttäjän muuttaa tiedostojen näyttämisen järjestystä."
+
+#: ../../access_upload.rst:53
+msgid "**Z-A** displays the files in reverse alphabetical order."
+msgstr "**Z-A** näyttää tiedostot käänteisessä aakkosjärjestyksessä."
+
+#: ../../access_upload.rst:55
+msgid "**A-Z** displays the files in alphabetical order."
+msgstr "**A-Z** näyttää tiedostot aakkosjärjestyksessä."
+
+#: ../../access_upload.rst:57
+msgid ""
+"**Last Modified** displays the files in the order in which they were last"
+" edited."
+msgstr "**Viimeksi muokattu** näyttää tiedostot siinä järjestyksessä, jossa niitä on viimeksi muokattu."
+
+#: ../../access_upload.rst:59
+msgid ""
+"**Oldest** displays the files that were added first at the top of the "
+"file browser."
+msgstr "**Vanhin** näyttää tiedostoselaimen yläosassa ensimmäisenä lisätyt tiedostot."
+
+#: ../../access_upload.rst:61
+msgid ""
+"**Largest** displays the files in the order that the largest files appear"
+" first."
+msgstr "**Suurimmat** näyttää tiedostot järjestyksessä, jossa suurimmat tiedostot ovat ensin."
+
+#: ../../access_upload.rst:63
+msgid ""
+"**Smallest** displays the files in the order that the smallest files "
+"appear first."
+msgstr "**Pienimmät** näyttää tiedostot järjestyksessä, jossa pienimmät tiedostot tulevat ensin."
+
+#: ../../access_upload.rst:65
+msgid ""
+"**Extension A-Z** displays the files in the alphabetical order of their "
+"extension."
+msgstr "**Laajennus A-Ö** näyttää tiedostot niiden laajennusten aakkosjärjestyksessä."
+
+#: ../../access_upload.rst:67
+msgid ""
+"**Extension Z-A** displays the files in the reverse order of the alphabet"
+" by their extension."
+msgstr "**Laajennus Z-A** näyttää tiedostot käänteisessä aakkosjärjestyksessä niiden laajennuksen mukaan."
+
+#: ../../access_upload.rst:71
+msgid "Main operations"
+msgstr "Päätoiminnot"
+
+#: ../../access_upload.rst:73
+msgid ""
+"Tapping on the plus (+) icon will give users several options for the "
+"folder they are in: **Upload Files** (1), **Upload Media** (2), **Take "
+"Photo to Upload or Scan** (3), **Create New Folder** (4) and **Create New"
+" File** (5)."
+msgstr "Painamalla plus (+) -kuvaketta käyttäjille tarjoutuu useita vaihtoehtoja heidän sijaitsemalleen kansiolle: **Lataa tiedostoja** (1), **Lataa mediaa** (2), **Ota valokuva latausta tai skannausta varten** (3), **Luo uusi kansio** (4) ja **Luo uusi tiedosto** (5)."
+
+#: ../../access_upload.rst:79
+msgid "Upload Files"
+msgstr "Lataa tiedostoja"
+
+#: ../../access_upload.rst:81
+msgid ""
+"By selecting the **Upload Files** icon, user can add existing files from "
+"the phone storage. It will be redirected to a phone storage screen where "
+"can navigate and select a file to upload."
+msgstr "Valitsemalla **Lataa tiedostot** -kuvakkeen käyttäjä voi lisätä olemassa olevia tiedostoja puhelimen tallennustilasta. Se ohjaa puhelimen tallennustilan näyttöön, jossa voi selata ja valita ladattavan tiedoston."
+
+#: ../../access_upload.rst:83
+msgid ""
+"User can also long press files to multi-select, then press **SELECT** to "
+"complete the upload."
+msgstr "Käyttäjä voi myös pitkään painaa tiedostoja monivalintaan ja sitten painaa **SELECT** latauksen suorittamiseksi."
+
+#: ../../access_upload.rst:88
+msgid "Uploading Media"
+msgstr "Median lataaminen"
+
+#: ../../access_upload.rst:90
+msgid ""
+"User can directly access media files from the Media apps by selecting the"
+" **Upload Media** icon, and add existing files from those apps."
+msgstr "Käyttäjä voi suoraan käyttää mediatiedostoja Media-sovelluksista valitsemalla **Lataa media** -kuvakkeen ja lisäämällä olemassa olevia tiedostoja kyseisistä sovelluksista."
+
+#: ../../access_upload.rst:95
+msgid "Take Photo to Upload or Scan"
+msgstr "Ota valokuva latausta tai skannausta varten"
+
+#: ../../access_upload.rst:97
+msgid ""
+"User will be prompted for media files permission if CentreStack app have "
+"not previously been granted this permission."
+msgstr "Käyttäjältä pyydetään median tiedostojen käyttöoikeutta, jos CentreStack-sovellukselle ei ole aiemmin myönnetty tätä oikeutta."
+
+#: ../../access_upload.rst:102
+msgid "Take Photo to Upload"
+msgstr "Ota valokuva latausta varten"
+
+#: ../../access_upload.rst:104
+msgid "Take and upload new photo when select the **Camera** (1) icon."
+msgstr "Ota ja lataa uusi kuva, kun valitset **Kamera** (1) -kuvaketta."
+
+#: ../../access_upload.rst:109
+msgid "Take Photo to Scan"
+msgstr "Ota valokuva skannataksesi"
+
+#: ../../access_upload.rst:111
+msgid ""
+"Take a new photo and scan to upload it when tapping on the **Scan** (2) "
+"icon."
+msgstr "Ota uusi valokuva ja skannaa se lataamista varten napauttamalla **Skannaa** (2) -kuvaketta."
+
+#: ../../access_upload.rst:113
+msgid "First, crop the photo to the ideal shape, and touch **NEXT**."
+msgstr "Ensin rajaa kuva ihanteelliseen muotoon ja kosketa **SEURAAVA**."
+
+#: ../../access_upload.rst:117
+msgid ""
+"On the second page, change the color filter applied to the photo. Tap on "
+"**SAVE** to upload the photo."
+msgstr "Toisella sivulla, vaihda käytettyä värisuodatinta valokuvaan. Napauta **TALLENNA** ladataksesi valokuvan."
+
+#: ../../access_upload.rst:122
+msgid "Create New Folders"
+msgstr "Luo uusia kansioita"
+
+#: ../../access_upload.rst:124
+msgid ""
+"To create new folders, press the plus (+) icon at the bottom right of the"
+" screen. Then select the **Add Folder** icon."
+msgstr "Uusien kansioiden luomiseksi paina plus (+) -kuvaketta näytön oikeassa alakulmassa. Valitse sitten **Lisää kansio** -kuvake."
+
+#: ../../access_upload.rst:126
+msgid ""
+"After entering the name of the folder and tapping on the **CREATE** "
+"button, a new folder will be created."
+msgstr "Kun olet syöttänyt kansion nimen ja napauttanut **LUO**-painiketta, uusi kansio luodaan."
+
+#: ../../access_upload.rst:131
+msgid "Create New Files"
+msgstr "Luo uusia tiedostoja"
+
+#: ../../access_upload.rst:133
+msgid ""
+"The **New File** icon allows to create a blank new Office file. User can "
+"choose between an Excel, Word, PowerPoint or a Text file."
+msgstr " **Uusi tiedosto** -kuvake mahdollistaa tyhjän uuden Office-tiedoston luomisen. Käyttäjä voi valita Excel-, Word-, PowerPoint- tai tekstitiedoston välillä."
+
+#: ../../access_upload.rst:137
+msgid ""
+"Choose the type of file and enter the name in the text box. Then touch "
+"**CREATE** to save."
+msgstr "Valitse tiedostotyyppi ja kirjoita nimi tekstikenttään. Kosketa sen jälkeen **LUO** tallentaaksesi."
+

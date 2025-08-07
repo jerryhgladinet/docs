@@ -1,0 +1,1092 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:8
+msgid "Getting Started"
+msgstr "入门"
+
+#: ../../index.rst:11
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../index.rst:13
+msgid ""
+"Welcome to the CentreStack Server Deployment Guide. This guide describes "
+"deployment tasks for CentreStack, a managed file synchronization and "
+"sharing solution that focuses on local file server cloud-enablement."
+msgstr "欢迎阅读CentreStack服务器部署指南。本指南介绍了CentreStack的部署任务，CentreStack是一种托管文件同步和共享解决方案，专注于本地文件服务器的云启用。"
+
+#: ../../index.rst:17
+msgid ""
+"CentreStack includes the CentreStack server, which runs on the Microsoft "
+"Windows server platform, and client agent applications for Microsoft "
+"Windows, Mac OS X, web browsers, Android and Apple iOS operating systems."
+msgstr "CentreStack包括运行在Microsoft Windows服务器平台上的CentreStack服务器，以及适用于Microsoft Windows、Mac OS X、网络浏览器、Android和Apple iOS操作系统的客户端代理应用程序。"
+
+#: ../../index.rst:23
+msgid "This guide is updated to match build |release|"
+msgstr "本指南已更新以匹配构建 |release|"
+
+#: ../../index.rst:28
+msgid "Overview"
+msgstr "概览"
+
+#: ../../index.rst:30
+msgid ""
+"CentreStack is a managed file sync and share solution that focuses on "
+"local file server cloud-enablement. It differentiates from other file "
+"sync and share solutions (EFSS) by focusing on security, control, file "
+"server and team collaboration. CentreStack does really well in the "
+"following areas:"
+msgstr "CentreStack 是一个托管文件同步和共享解决方案，专注于本地文件服务器的云启用。它与其他文件同步和共享解决方案（EFSS）的不同之处在于专注于安全性、控制、文件服务器和团队协作。CentreStack 在以下几个方面做得非常好："
+
+#: ../../index.rst:32
+msgid ""
+"provide on-demand access that honors read-only and write permissions in "
+"real-time."
+msgstr "提供即时访问，实时遵守只读和写入权限。"
+
+#: ../../index.rst:33
+msgid ""
+"mirror local network share on file server to team collaboration in the "
+"cloud."
+msgstr "将文件服务器上的本地网络共享镜像到云端的团队协作。"
+
+#: ../../index.rst:34
+msgid "provide virtual drive letter mapping to the files and folders for access."
+msgstr "为文件和文件夹提供虚拟驱动器字母映射以进行访问。"
+
+#: ../../index.rst:35
+msgid ""
+"provide file locking, version control, client encryption and etc features"
+" for the virtual drive."
+msgstr "为虚拟驱动器提供文件锁定、版本控制、客户端加密等功能。"
+
+#: ../../index.rst:39
+msgid ""
+"In summary, you can think of CentreStack as a way to elevate and turn a "
+"Windows File Server in a local area network into a Cloud/Internet facing "
+"file server solution with remote and mobile access, while at the same "
+"time, the drive mapping, the NTFS permission, and file locking are "
+"preserved before and after the cloud-enablement."
+msgstr "总而言之，您可以将CentreStack视为一种方式，将局域网中的Windows文件服务器提升并转变为面向云/互联网的文件服务器解决方案，同时远程和移动访问，驱动器映射，NTFS权限和文件锁定在云启用前后都得以保留。"
+
+#: ../../index.rst:43
+msgid ""
+"The CentreStack server is a pure software built on top of the Microsoft "
+"Web Platform, which includes:"
+msgstr "CentreStack服务器是完全基于Microsoft Web平台之上构建的纯软件，其中包括："
+
+#: ../../index.rst:45
+msgid "Windows Server,"
+msgstr "Windows 服务器,"
+
+#: ../../index.rst:46
+msgid "IIS (Internet Information Server),"
+msgstr "IIS (互联网信息服务),"
+
+#: ../../index.rst:47
+msgid ".NET Framework and ASP.NET"
+msgstr ".NET 框架和 ASP.NET"
+
+#: ../../index.rst:48
+msgid "WCF (Windows Communication Foundation)"
+msgstr "WCF（Windows通信基础结构）"
+
+#: ../../index.rst:50
+msgid ""
+"Since the CentreStack server is built on top of the Microsoft Web "
+"Platform, it integrates very well with Microsoft components such as NTFS "
+"Permission, Active Directory, File Server network shares, file locking "
+"and drive mapping."
+msgstr "由于CentreStack服务器是在Microsoft Web平台之上构建的，因此它与Microsoft组件（如NTFS权限、活动目录、文件服务器网络共享、文件锁定和驱动器映射）集成得非常好。"
+
+#: ../../index.rst:54
+msgid ""
+"It provides file access and sharing functionality through client agents "
+"for remote PCs, Macs, File Servers, Web Browsers, and Mobile Devices."
+msgstr "它通过远程PC、Mac、文件服务器、Web浏览器和移动设备的客户端代理提供文件访问和共享功能。"
+
+#: ../../index.rst:56
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy the CentreStack."
+msgstr "服务可以灵活组合部署以满足不同需求。有两种主要方式来部署CentreStack。"
+
+#: ../../index.rst:58
+msgid ""
+"Deploy in the same site as the File Servers and Active Directory domain "
+"controllers:"
+msgstr "部署在与文件服务器和Active Directory域控制器相同的站点："
+
+#: ../../index.rst:62
+msgid ""
+"Deploy in a remote site, such as Amazon Web Services EC2, Microsoft "
+"Azure, or in a Data Center where the Managed Service Provider (MSP) hosts"
+" their infrastructure:"
+msgstr "在远程站点部署，例如亚马逊网络服务EC2、微软Azure或托管服务提供商（MSP）托管其基础设施的数据中心："
+
+#: ../../index.rst:70
+msgid ""
+"With the Hosted-CentreStack solution, the CentreStack server is already "
+"deployed on https://sync4share.com. Therefore, there is no need to deploy"
+" a CentreStack server. Instead, you can start using the hosted-"
+"centrestack web portal and client agents directly."
+msgstr "通过Hosted-CentreStack解决方案，CentreStack服务器已经部署在https://sync4share.com上。因此，无需部署CentreStack服务器。您可以直接开始使用hosted-centrestack网络门户和客户端代理。"
+
+#: ../../index.rst:76
+msgid ""
+"Moving forward, this document will refer to the deployment of the Self-"
+"Hosted CentreStack server, and its related client agent applications."
+msgstr "展望未来，本文档将参考Self-Hosted CentreStack服务器的部署及其相关的客户端代理应用程序。"
+
+#: ../../index.rst:80
+msgid ""
+"There are three different infrastructure components (logical components "
+"that can co-exist in the same server). In the smallest deployment unit, "
+"the different components can co-exist in one single machine (all-in-one "
+"deployment)."
+msgstr "有三个不同的基础设施组件（逻辑组件可以共存于同一服务器中）。在最小的部署单元中，不同的组件可以共存于一台机器中（一体化部署）。"
+
+#: ../../index.rst:85
+msgid "1. Worker Node Component"
+msgstr "工作节点组件"
+
+#: ../../index.rst:87
+msgid ""
+"Worker node contains services like Web Browser Based File Manager, "
+"Storage Service Connectors, Active Directory connector and other key "
+"components. It is responsible for data related activities such as file "
+"upload and download, permission, control and change notification. Since "
+"the data upload and download usually go through worker node, thus it is "
+"called a \"worker\" for data transfer."
+msgstr "工作节点包含服务，如基于Web浏览器的文件管理器、存储服务连接器、Active Directory连接器以及其他关键组件。它负责数据相关活动，例如文件上传和下载、权限控制和变更通知。由于数据上传和下载通常通过工作节点进行，因此它被称为数据传输的“工作者”。"
+
+#: ../../index.rst:93
+msgid "Additional nodes can be added as the load increases."
+msgstr "随着负载的增加，可以添加额外的节点。"
+
+#: ../../index.rst:97
+msgid "2. Database Component"
+msgstr "2. 数据库组件"
+
+#: ../../index.rst:99
+msgid ""
+"The database contains persistent information for the system. A Database "
+"is a critical component for the smooth operation of the CentreStack "
+"server farm. A Local database with latency less than 10 milliseconds is "
+"recommended."
+msgstr "数据库包含系统的持久信息。数据库是CentreStack服务器场平稳运行的关键组件。推荐使用本地数据库，其延迟小于10毫秒。"
+
+#: ../../index.rst:103
+msgid ""
+"In order for all worker nodes to be in the same server farm, they need to"
+" point to the same database."
+msgstr "为了让所有工作节点位于同一个服务器场，它们需要指向同一个数据库。"
+
+#: ../../index.rst:108
+msgid "3. Storage Component"
+msgstr "3. 存储组件"
+
+#: ../../index.rst:110
+msgid ""
+"The storage component is the persistent storage location for files and "
+"folders. There are two different types of storage services. One is "
+"managed by CentreStack, such as the default storage for the cluster and "
+"the default storage for tenants. The other is imported storage, for "
+"example, having existing file server network shares that aren't managed "
+"by CentreStack but can be imported into CentreStack for remote and mobile"
+" access."
+msgstr "存储组件是文件和文件夹的持久存储位置。有两种不同类型的存储服务。一种是由CentreStack管理的，例如集群的默认存储和租户的默认存储。另一种是导入的存储，例如，拥有现有的文件服务器网络共享，这些共享不由CentreStack管理，但可以导入到CentreStack中，以实现远程和移动访问。"
+
+#: ../../index.rst:117
+msgid "Terminology"
+msgstr "术语"
+
+#: ../../index.rst:120
+msgid "CentreStack Partner Portal"
+msgstr "CentreStack 合作伙伴门户"
+
+#: ../../index.rst:122
+msgid ""
+"The Partner Portal can be found by going to http://www.centrestack.com. "
+"Click on \"Partner\" to sign up for your partner account log in "
+"credentials, and then you can log into your partner account at anytime. "
+"From the Partner Portal, You are able to download the CentreStack "
+"software and can start the trial process. Later, you can acquire licenses"
+" to turn the trial into a production environment."
+msgstr "合作伙伴门户网站可以通过访问http://www.centrestack.com找到。点击“Partner”注册您的合作伙伴账户登录凭证，然后您可以随时登录您的合作伙伴账户。通过合作伙伴门户网站，您可以下载CentreStack软件，并可以开始试用过程。之后，您可以购买许可证，将试用转变为生产环境。"
+
+#: ../../index.rst:128
+msgid "You can manage hosted-tenants from the partner portal."
+msgstr "您可以从合作伙伴门户管理托管租户。"
+
+#: ../../index.rst:130
+msgid ""
+"You can also come back to the partner portal any time that your "
+"CentreStack software needs to be upgraded to a later version."
+msgstr "您也可以随时返回合作伙伴门户，以便将您的CentreStack软件升级到更高的版本。"
+
+#: ../../index.rst:134
+msgid "CentreStack Cluster - Server Farm"
+msgstr "CentreStack 集群 - 服务器场"
+
+#: ../../index.rst:136
+msgid ""
+"Multiple CentreStack single-machine nodes connect together by pointing to"
+" the same database and then share the same configuration information from"
+" the database so that CentreStack can indirectly share the persistent "
+"storage location in a symmetrical way."
+msgstr "多个CentreStack单机节点通过指向相同的数据库连接在一起，然后从数据库共享相同的配置信息，以便CentreStack可以以对称的方式间接共享持久存储位置。"
+
+#: ../../index.rst:138
+msgid ""
+"Indirectly, the database contains storage related information so all the "
+"nodes in the server farm share storage related configuration."
+msgstr "间接地，数据库包含了与存储相关的信息，因此服务器场中的所有节点共享与存储相关的配置。"
+
+#: ../../index.rst:141
+msgid ""
+"The whole CentreStack cluster operates as if it is a single entity. The "
+"smallest cluster is a single CentreStack worker node, which contains all "
+"the functionality and different logical nodes together."
+msgstr "整个CentreStack集群的运作就如同一个单一实体。最小的集群是一个CentreStack工作节点，它包含了所有的功能和不同的逻辑节点。"
+
+#: ../../index.rst:144
+msgid "Another term for the cluster is the **CentreStack server farm**."
+msgstr "另一个术语是 **CentreStack服务器场**。"
+
+#: ../../index.rst:148
+msgid "The smallest cluster can be a single all-in-one worker node."
+msgstr "最小的集群可以是单个的全功能工作节点。"
+
+#: ../../index.rst:151
+msgid "Master Admin/Cluster Admin"
+msgstr "主管理员/集群管理员"
+
+#: ../../index.rst:153
+msgid ""
+"In this guide, we refer to the admin user as the user that manages the "
+"whole CentreStack server farm. The server farm can be as small as a "
+"single CentreStack server. If so, the admin user will still need to "
+"manage it regardless of the size of the server farm."
+msgstr "在本指南中，我们将管理整个CentreStack服务器场的用户称为管理员用户。服务器场可以小至单个CentreStack服务器。如果是这样，不管服务器场的大小如何，管理员用户仍然需要管理它。"
+
+#: ../../index.rst:158
+msgid ""
+"The Master Admin is the very first user on the CentreStack server farm. "
+"Typically, it is the user who installs the CentreStack server software."
+msgstr "主管理员是CentreStack服务器场的第一个用户。通常，它是安装CentreStack服务器软件的用户。"
+
+#: ../../index.rst:161
+msgid ""
+"Since this user later may set up optional Active Directory connections, "
+"it is recommended that this user's email address is not from the same "
+"Active Directory to avoid circular dependency."
+msgstr "由于该用户稍后可能会设置可选的Active Directory连接，建议此用户的电子邮件地址不要与同一Active Directory相同，以避免循环依赖。"
+
+#: ../../index.rst:165
+msgid "Tenant"
+msgstr "租户"
+
+#: ../../index.rst:167
+msgid ""
+"CentreStack is a multi-tenant ready solution. A tenant here usually is "
+"mapped to:"
+msgstr "CentreStack 是一个支持多租户的解决方案。这里的一个租户通常对应于："
+
+#: ../../index.rst:170
+msgid "a company (if you are the company IT)"
+msgstr "一家公司（如果您是公司IT）"
+
+#: ../../index.rst:171
+msgid "a client of yours (if you are a Managed Service Provider/MSP)"
+msgstr "如果您是托管服务提供商（MSP）的客户"
+
+#: ../../index.rst:173
+msgid "Tenants are created by the cluster administrator."
+msgstr "租户由集群管理员创建。"
+
+#: ../../index.rst:175
+msgid ""
+"You can use the CentreStack server in a single tenant setup because it is"
+" just a special case of multi-tenancy."
+msgstr "您可以在单租户设置中使用CentreStack服务器，因为它只是多租户的一种特殊情况。"
+
+#: ../../index.rst:179
+msgid ""
+"From a reporting perspective, a tenant contains a number of users and "
+"also storage quota and storage consumption."
+msgstr "从报告角度来看，一个租户包含了若干用户以及存储配额和存储消耗。"
+
+#: ../../index.rst:182
+msgid ""
+"From the technical side, a tenant is usually connected to an Active "
+"Directory and can have a bunch of connected file servers either directly "
+"or through server agents."
+msgstr "从技术角度来看，租户通常会连接到一个活动目录，并且可以直接或通过服务器代理连接到一系列文件服务器。"
+
+#: ../../index.rst:186
+msgid "Tenant Admin"
+msgstr "租户管理员"
+
+#: ../../index.rst:188
+msgid ""
+"These are the users who actually use the product but are the admins for "
+"their teams (tenant or company)."
+msgstr "这些用户实际上是使用产品的人，但他们是其团队（租户或公司）的管理员。"
+
+#: ../../index.rst:190
+msgid ""
+"This is the very first tenant account user. Usually, the Tenant User is "
+"created by Master Admin."
+msgstr "这是第一个租户账户用户。通常，租户用户是由主管理员创建的。"
+
+#: ../../index.rst:192
+msgid ""
+"The Master Admin is also the Tenant Admin for his own team/company "
+"(default tenant). Tenant admin can later delegate administrative tasks to"
+" other team users."
+msgstr "主管理员也是其自己团队/公司（默认租户）的租户管理员。租户管理员随后可以将管理任务委派给其他团队用户。"
+
+#: ../../index.rst:194
+msgid ""
+"By default the cluster administrator can help the tenant administrator on"
+" the management scope."
+msgstr "默认情况下，集群管理员可以协助租户管理员进行管理范围内的工作。"
+
+#: ../../index.rst:197
+msgid "Tenant User"
+msgstr "租户用户"
+
+#: ../../index.rst:199
+msgid ""
+"The tenant user (team user) is a user inside a specific Tenant.  Team "
+"users are created by the Tenant Admin (or by cluster admin on behalf of "
+"the tenant admin). Team users can come from four different places:"
+msgstr "租户用户（团队用户）是特定租户内的用户。团队用户由租户管理员（或由集群管理员代表租户管理员）创建。团队用户可以来自四个不同的地方："
+
+#: ../../index.rst:201
+msgid "Native CentreStack User (created from scratch)"
+msgstr "本地 CentreStack 用户（从头开始创建）"
+
+#: ../../index.rst:202
+msgid "Active Directory User from local LDAP"
+msgstr "来自本地LDAP的Active Directory用户"
+
+#: ../../index.rst:203
+msgid "Active Directory User from remote CentreStack Server Agent"
+msgstr "来自远程CentreStack服务器代理的活动目录用户"
+
+#: ../../index.rst:204
+msgid "Azure AD or other single-sign-on integrated identity provider"
+msgstr "Azure AD 或其他单点登录集成的身份提供者"
+
+#: ../../index.rst:206
+msgid ""
+"Team users always belong to a specific tenant and can't span multiple "
+"tenants. However, a team user can receive file and folder share from "
+"multiple users and from multiple tenants."
+msgstr "团队用户始终属于特定租户，不能跨多个租户。然而，团队用户可以接收来自多个用户和多个租户的文件和文件夹共享。"
+
+#: ../../index.rst:212
+msgid ""
+"A Native CentreStack user can be mapped to Active Directory user or Azure"
+" AD user later if necessary."
+msgstr "原生CentreStack用户如有必要，可以后续映射到Active Directory用户或Azure AD用户。"
+
+#: ../../index.rst:216
+msgid "Guest User"
+msgstr "访客用户"
+
+#: ../../index.rst:218
+msgid ""
+"The guest users are users outside of the tenant users domain but receive "
+"file or folder shares from team user. The Team user creates guest users "
+"through the file sharing or folder sharing activities. Guest users "
+"typically are external users outside of an organization that are already "
+"using CentreStack."
+msgstr "来宾用户是指不属于租户用户域的用户，但是从团队用户那里接收文件或文件夹共享。团队用户通过文件共享或文件夹共享活动创建来宾用户。来宾用户通常是已经在使用CentreStack的组织之外的外部用户。"
+
+#: ../../index.rst:223
+msgid "Anonymous User"
+msgstr "匿名用户"
+
+#: ../../index.rst:225
+msgid ""
+"The anonymous users are a type of the guest user that doesn't require "
+"editing permission. They can receive files and folder shares and can view"
+" the file and folder share from within a web browser user interface."
+msgstr "匿名用户是一种不需要编辑权限的访客用户。他们可以接收文件和文件夹共享，并且可以通过网页浏览器用户界面查看文件和文件夹共享。"
+
+#: ../../index.rst:229
+msgid "Client Agent Software"
+msgstr "客户端代理软件"
+
+#: ../../index.rst:231
+msgid "CentreStack contains various client agents which include:"
+msgstr "CentreStack包含多种客户端代理，其中包括："
+
+#: ../../index.rst:233
+msgid "Web Browser Based File Manager"
+msgstr "基于Web浏览器的文件管理器"
+
+#: ../../index.rst:234
+msgid "Windows Desktop Client with Mapped Drive"
+msgstr "Windows 桌面客户端与映射驱动器"
+
+#: ../../index.rst:235
+msgid "Windows File Server Agent with 2-way synchronization"
+msgstr "Windows 文件服务器代理与双向同步"
+
+#: ../../index.rst:236
+msgid "Mac OS X client and"
+msgstr "Mac OS X 客户端和"
+
+#: ../../index.rst:240
+msgid "Mobile Applications:"
+msgstr "移动应用程序:"
+
+#: ../../index.rst:238
+msgid "iOS"
+msgstr "iOS"
+
+#: ../../index.rst:239
+msgid "Android"
+msgstr "安卓"
+
+#: ../../index.rst:240
+msgid "Windows Phone"
+msgstr "Windows Phone"
+
+#: ../../index.rst:242
+msgid ""
+"These client agents provide file access and sharing features from the "
+"native client operating systems."
+msgstr "这些客户端代理提供了来自原生客户端操作系统的文件访问和共享功能。"
+
+#: ../../index.rst:245
+msgid ""
+"The discussion of the client agents are outside the scope of this "
+"deployment guide."
+msgstr "讨论客户端代理超出了本部署指南的范围。"
+
+#: ../../index.rst:248
+msgid "System Requirements"
+msgstr "系统要求"
+
+#: ../../index.rst:250
+msgid ""
+"CentreStack server is built on top of the Microsoft Web Platform, which "
+"includes:"
+msgstr "CentreStack服务器建立在Microsoft Web平台之上，其中包括："
+
+#: ../../index.rst:252
+msgid "Windows Server base operating system"
+msgstr "Windows Server 基础操作系统"
+
+#: ../../index.rst:253
+msgid "Internet Information Server 7/8/10 (IIS)"
+msgstr "互联网信息服务器 7/8/10 (IIS)"
+
+#: ../../index.rst:254
+msgid ".Net Framework 4.5+"
+msgstr ".Net 框架 4.5+"
+
+#: ../../index.rst:255
+msgid "ASP.NET"
+msgstr "ASP.NET"
+
+#: ../../index.rst:256
+msgid "MySQL, Microsoft SQL Server or Microsoft SQL Server Express"
+msgstr "MySQL、Microsoft SQL Server 或 Microsoft SQL Server Express"
+
+#: ../../index.rst:258
+msgid "The base operating system can be either:"
+msgstr "基础操作系统可以是："
+
+#: ../../index.rst:260
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
+
+#: ../../index.rst:261
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
+
+#: ../../index.rst:262
+msgid "Windows Server 2016"
+msgstr "Windows Server 2016"
+
+#: ../../index.rst:264
+msgid ""
+"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"comes directly with these newer server OS platforms. It is easier and "
+"faster to install CentreStack software on Windows Server 2022/2019/2016."
+msgstr "我们推荐使用Windows Server 2022/2019/2016，因为.Net Framework 4.5+ 直接随这些新版服务器操作系统提供。在Windows Server 2022/2019/2016上安装CentreStack软件更加容易和快捷。"
+
+#: ../../index.rst:269
+msgid ""
+"The CentreStack server installer is capable of installing all the "
+"dependency system components such as .NET Framework and etc. For "
+"installation, a clean machine is recommended."
+msgstr "CentreStack服务器安装程序能够安装所有依赖的系统组件，如.NET Framework等。建议在一台干净的机器上进行安装。"
+
+#: ../../index.rst:271
+msgid ""
+"There is no need to prepare the machine beyond the clean state of the "
+"basic Operating System software."
+msgstr "无需对机器进行任何准备，只需保持基本操作系统软件的干净状态即可。"
+
+#: ../../index.rst:275
+msgid "Windows Server 2022, 2019, 2016"
+msgstr "Windows Server 2022、2019、2016"
+
+#: ../../index.rst:277
+msgid ""
+"The base operating system provides the base of the Microsoft Web "
+"Platform. It will be loaded with the mentioned Microsoft components "
+"before the core CentreStack software is installed."
+msgstr "基础操作系统提供了Microsoft Web平台的基础。在安装核心CentreStack软件之前，将会加载所提到的Microsoft组件。"
+
+#: ../../index.rst:281
+msgid ""
+"The CentreStack installer will install and load  all the dependency "
+"Windows components."
+msgstr "CentreStack安装程序将安装并加载所有依赖的Windows组件。"
+
+#: ../../index.rst:285
+msgid ""
+"Base Operating System with English locale is recommended. (The User "
+"Interface can be in a different locale.)"
+msgstr "建议使用英文区域设置的基本操作系统。（用户界面可以使用不同的区域设置。）"
+
+#: ../../index.rst:288
+msgid "SQL Server / MySQL Server"
+msgstr "SQL服务器 / MySQL服务器"
+
+#: ../../index.rst:290
+msgid ""
+"The Microsoft SQL Server or SQL Server Express or MySQL is used to store "
+"static configuration information such as the user name, email, storage "
+"configuration, files and folders, sharing information and others."
+msgstr "Microsoft SQL Server、SQL Server Express 或 MySQL 用于存储静态配置信息，如用户名、电子邮件、存储配置、文件和文件夹、共享信息等。"
+
+#: ../../index.rst:293
+msgid ""
+"It is recommended that the SQL Server has daily backups since it contains"
+" configuration information for the service to run properly."
+msgstr "建议SQL服务器每天进行备份，因为它包含了服务正常运行所需的配置信息。"
+
+#: ../../index.rst:295
+msgid ""
+"If you have SQL Server Standard Edition or SQL Server Enterprise Edition,"
+" you can take advantage of the high availability features like Always-On "
+"Clustering or Always-On Fail Over Group."
+msgstr "如果您使用的是SQL Server Standard Edition或SQL Server Enterprise Edition，您可以利用高可用性功能，如Always-On集群或Always-On故障转移组。"
+
+#: ../../index.rst:298
+msgid "MySQL Community Edition is also supported."
+msgstr "MySQL 社区版也得到支持。"
+
+#: ../../index.rst:300
+msgid ""
+"If you are setting CentreStack server up in Amazon AWS, Amazon Aurora DB "
+"is also recommended."
+msgstr "如果您在亚马逊AWS中设置CentreStack服务器，也推荐使用亚马逊Aurora DB。"
+
+#: ../../index.rst:304
+msgid ""
+"The CentreStack server installer is capable of installing SQL Express or "
+"MySQL. If you only need an all-in-one deployment for a single server "
+"deployment, the installer can install the database automatically."
+msgstr "CentreStack服务器安装程序能够安装SQL Express或MySQL。如果您只需要单服务器部署的一体化部署，安装程序可以自动安装数据库。"
+
+#: ../../index.rst:307
+msgid ".Net Framework 4"
+msgstr ".Net 框架 4"
+
+#: ../../index.rst:309
+msgid ""
+"The CentreStack Server is built with .Net Framework 4, with ASP.NET and "
+"WCF."
+msgstr "CentreStack服务器是基于.Net Framework 4构建的，采用了ASP.NET和WCF技术。"
+
+#: ../../index.rst:311
+msgid ""
+"We recommend .Net Framework 4.5 and above as it works better with remote "
+"clients that have Internet Explorer 10 or 11."
+msgstr "我们推荐使用 .Net Framework 4.5 及以上版本，因为它能更好地与安装了 Internet Explorer 10 或 11 的远程客户端协同工作。"
+
+#: ../../index.rst:315
+msgid ""
+"The CentreStack server Installer will install .NET 4.5 and other "
+"dependency components automatically."
+msgstr "CentreStack服务器安装程序将自动安装.NET 4.5和其他依赖组件。"
+
+#: ../../index.rst:319
+msgid "ASP.NET 4.5/4.6/4.7"
+msgstr "ASP.NET 4.5/4.6/4.7"
+
+#: ../../index.rst:321
+msgid ""
+"CentreStack web browser portal user interface is written in ASP.NET, HTML"
+" and JavaScript."
+msgstr "CentreStack网页浏览器门户用户界面使用ASP.NET、HTML和JavaScript编写。"
+
+#: ../../index.rst:324
+msgid "Internet Information Server (IIS)"
+msgstr "互联网信息服务 (IIS)"
+
+#: ../../index.rst:326
+msgid ""
+"CentreStack Server-side services are hosted inside the Internet "
+"Information Server (IIS). It provides brokerage functionalities and "
+"secure gateway between the Client Agents and the back-end storage. It is "
+"also a value-add layer on top of the back-end storage."
+msgstr "CentreStack 服务器端服务托管在互联网信息服务（IIS）内。它提供客户端代理与后端存储之间的中介功能和安全网关。它也是在后端存储之上的增值层。"
+
+#: ../../index.rst:332
+msgid ""
+"The CentreStack Server Installer will enable IIS Service if not already. "
+"So no manual step required."
+msgstr "如果尚未启用，CentreStack服务器安装程序将启用IIS服务。因此，不需要手动操作。"
+
+#: ../../index.rst:335
+msgid "Recommended Hardware Specification"
+msgstr "推荐硬件规格"
+
+#: ../../index.rst
+msgid "Memory"
+msgstr "内存"
+
+#: ../../index.rst:339
+msgid "4GB, (8+GB is better for production environment)"
+msgstr "4GB（生产环境建议使用8GB或更高）"
+
+#: ../../index.rst
+msgid "Hard Drive"
+msgstr "硬盘驱动器"
+
+#: ../../index.rst:343
+msgid "100G"
+msgstr "100G"
+
+#: ../../index.rst
+msgid "Operating System"
+msgstr "操作系统"
+
+#: ../../index.rst:347
+msgid "Windows 2022, Windows 2019, Windows 2016"
+msgstr "Windows 2022、Windows 2019、Windows 2016"
+
+#: ../../index.rst
+msgid "CPU"
+msgstr "CPU"
+
+#: ../../index.rst:351
+msgid ""
+"Intel, minimum 2-Core, prefer 4-Core (or 2-vCPU/4-vCPU  if on a virtual "
+"machine)"
+msgstr "英特尔，最低2核，建议4核（如果在虚拟机上，则为2-vCPU/4-vCPU）"
+
+#: ../../index.rst:355
+msgid ""
+"Virtual Machines are recommended. A Clean machine built from a base OS "
+"with English Locale is recommended. After providing the clean machine, "
+"the CentreStack Server installer will install the rest of the Windows "
+"system components and CentreStack components automatically. The software "
+"is hypervisor neutral. The hypervisor can be Hyper-V, VMWare or others. "
+"The software can be installed on a physical machine as well if needed."
+msgstr "建议使用虚拟机。建议从具有英文区域设置的基础操作系统构建干净的机器。提供干净的机器后，CentreStack服务器安装程序将自动安装其余的Windows系统组件和CentreStack组件。该软件与虚拟机管理程序无关。虚拟机管理程序可以是Hyper-V、VMWare或其他。如果需要，该软件也可以安装在物理机器上。"
+
+#: ../../index.rst:361
+msgid "Capacity Planning"
+msgstr "容量规划"
+
+#: ../../index.rst:363
+msgid ""
+"For user counts smaller than 1000, a single CentreStack server is enough."
+" Most of the time, an all-in-one server deployment will be sufficient. In"
+" this case you will install the CentreStack Server in a single physical "
+"or virtual machine. The default CentreStack installer will install all "
+"the components (Database/Web Node/Worker Node) on one machine."
+msgstr "对于用户数量少于1000的情况，一个单一的CentreStack服务器就足够了。大多数情况下，一个全包式服务器部署就已经足够。在这种情况下，您将在一台物理或虚拟机器上安装CentreStack服务器。默认的CentreStack安装程序会在一台机器上安装所有组件（数据库/网页节点/工作节点）。"
+
+#: ../../index.rst:366
+msgid ""
+"For user counts greater than 1000, it is recommended to have the SQL "
+"Server node in a separate physical or virtual machine."
+msgstr "对于用户数量超过1000的情况，建议将SQL Server节点放在单独的物理或虚拟机上。"
+
+#: ../../index.rst:368
+msgid ""
+"The rest of the worker nodes will share the load for the users in a "
+"capacity of 1000 each."
+msgstr "其余的工作节点将以每个节点1000个用户的容量共享负载。"
+
+#: ../../index.rst:370
+msgid ""
+"In this case a virtual machine is recommended for each worker node and "
+"you should use a wild card SSL certificate for each worker node."
+msgstr "在这种情况下，建议为每个工作节点使用一台虚拟机，并且应该为每个工作节点使用通配符SSL证书。"
+
+#: ../../index.rst:374
+msgid ""
+"In some big deployments, the SSL can be off-loaded to hardware load "
+"balancer such as Citrix NetScaler or F5 BIG IP."
+msgstr "在一些大型部署中，SSL可以卸载到硬件负载均衡器，如Citrix NetScaler或F5 BIG IP。"
+
+#: ../../index.rst:376
+msgid ""
+"The capacity of 1000 is referring to concurrent users. It is possible "
+"that you may have 5000 named users but only 1000 of them are using the "
+"product concurrently. So, in this case the per-server capacity can be "
+"5000 named users."
+msgstr "1000的容量是指并发用户数。您可能有5000个指定用户，但同时只有1000个用户在使用产品。因此，在这种情况下，每个服务器的容量可以是5000个指定用户。"
+
+#: ../../index.rst:382
+msgid ""
+"(A Concurrent-User is defined as the users making requests in a 10-second"
+" period. For example, if you make a request A, and I make a request B, "
+"and if the time-difference between request A and request B is less than "
+"10 seconds, request A and request B are concurrent)."
+msgstr "（所谓的并发用户是指在10秒内发出请求的用户。例如，如果您发出了请求A，我发出了请求B，且请求A和请求B之间的时间差小于10秒，那么请求A和请求B就是并发的）。"
+
+#: ../../index.rst:386
+msgid ""
+"**EXAMPLE**\\:  If you have 300,000 users in your company, you may need "
+"between 30-60 worker nodes (5000 – 10,000 named users for each worker "
+"node). You can scale up the memory size for each worker node to reduce "
+"the number of worker nodes required."
+msgstr "**示例**\：如果您的公司有300,000名用户，您可能需要30-60个工作节点（每个工作节点5000 – 10,000个命名用户）。您可以增加每个工作节点的内存大小，以减少所需的工作节点数量。"
+
+#: ../../index.rst:390
+msgid "Load Balancing"
+msgstr "负载均衡"
+
+#: ../../index.rst:392
+msgid ""
+"Our recommendation is to have your own load balancing device if possible."
+" However, CentreStack is capable of using worker nodes (for web function "
+"only) for load-balancing if you do not have an existing load balancer. "
+"You can pick a worker node to be the node exposed for login/contact point"
+" and pass the actual work to others."
+msgstr "我们建议您如果可能的话，使用自己的负载均衡设备。然而，如果您没有现成的负载均衡器，CentreStack有能力使用工作节点（仅限于网页功能）来进行负载均衡。您可以选择一个工作节点作为登录/联系点对外暴露，并将实际工作分配给其他节点。"
+
+#: ../../index.rst:396
+msgid ""
+"If you have a hardware load balancer such as F5, you can skip web nodes, "
+"and have F5 directly load balance to a farm of worker nodes. You can also"
+" use the Network Load Balancing feature which is included in Windows "
+"2022/2019/2016 for load balancing."
+msgstr "如果您有硬件负载均衡器，比如F5，您可以跳过Web节点，直接使用F5对一组工作节点进行负载均衡。您也可以使用包含在Windows 2022/2019/2016中的网络负载均衡功能进行负载均衡。"
+
+#: ../../index.rst:401
+msgid "Active Directory Integration"
+msgstr "Active Directory 集成"
+
+#: ../../index.rst:403
+msgid "There are three ways to connect Active Directory into CentreStack."
+msgstr "有三种方法将 Active Directory 连接到 CentreStack。"
+
+#: ../../index.rst:407
+msgid "1. LDAP"
+msgstr "LDAP"
+
+#: ../../index.rst:409
+msgid ""
+"For the first way, if the Active Directory is in the same Local Area "
+"Network (LAN), then a direct LDAP/LDAPS connection is recommended."
+msgstr "对于第一种方式，如果活动目录位于同一局域网(LAN)内，则建议使用直接的LDAP/LDAPS连接。"
+
+#: ../../index.rst:414
+msgid "2. Server Agent Proxy"
+msgstr "2. 服务器代理代理"
+
+#: ../../index.rst:416
+msgid ""
+"For the Second way, if the Active Directory is in a remote office, such "
+"as on a customer's premise, away from the CentreStack server, then a "
+"client agent software called, \"File Server Agent\" can be installed on "
+"the remote file server to help import Active Directory users over to "
+"CentreStack."
+msgstr "对于第二种方式，如果活动目录位于远程办公室，例如在客户的场所，远离CentreStack服务器，那么可以在远程文件服务器上安装名为“文件服务器代理”的客户端软件，以帮助将活动目录用户导入到CentreStack。"
+
+#: ../../index.rst:422
+msgid "CentreStack allows you to connect to multiple active directory services."
+msgstr "CentreStack允许您连接到多个活动目录服务。"
+
+#: ../../index.rst:425
+msgid "3. Azure AD Support"
+msgstr "3. 支持Azure AD"
+
+#: ../../index.rst:426
+msgid ""
+"Via the Azure AD support, you can setup Azure AD so users can be "
+"authenticated by Azure AD instead of from a local Active Directory."
+msgstr "通过 Azure AD 支持，您可以设置 Azure AD，以便用户可以通过 Azure AD 进行身份验证，而不是来自本地 Active Directory。"
+
+#: ../../index.rst:430
+msgid "**\"Proxied AD User\"**"
+msgstr "**\"代理 AD 用户\"**"
+
+#: ../../index.rst:432
+msgid ""
+"It is also possible to use the Active Directory from a remote location "
+"where the server agent (included client software) is used. In this case "
+"\"Proxied AD User\" will be referred to users imported from server "
+"agent's side of the Active Directory."
+msgstr "也可以在服务器代理（包括客户端软件）使用的远程位置使用Active Directory。在这种情况下，“Proxied AD User”将指代从服务器代理端导入的Active Directory用户。"
+
+#: ../../index.rst:435
+msgid "**\"AD User\"**"
+msgstr "**\"AD 用户\"**"
+
+#: ../../index.rst:437
+msgid ""
+"The \"AD user\" is reserved to refer to users from local LDAP Active "
+"Directory."
+msgstr "“AD用户”是指来自本地LDAP活动目录的用户。"
+
+#: ../../index.rst:442
+msgid ""
+"When should you use LDAP, and when should you use \"Server Agent\" for AD"
+" integration?"
+msgstr "您应该何时使用LDAP，以及何时应该使用“Server Agent”进行AD集成？"
+
+#: ../../index.rst:444
+msgid "If AD is local to the CentreStack server, then LDAP is recommended."
+msgstr "如果AD位于CentreStack服务器本地，则推荐使用LDAP。"
+
+#: ../../index.rst:446
+msgid "If AD is remote, then Server Agent is recommended."
+msgstr "如果AD是远程的，那么建议使用服务器代理。"
+
+#: ../../index.rst:450
+msgid "Storage Considerations"
+msgstr "存储考量"
+
+#: ../../index.rst:452
+msgid ""
+"In the CentreStack system, for each tenant, there is one mandatory "
+"primary storage and there can be multiple, optional auxiliary storage "
+"services. The primary storage is the tenant's default root storage "
+"folder."
+msgstr "在CentreStack系统中，对于每个租户，有一个强制性的主存储和可以有多个可选的辅助存储服务。主存储是租户的默认根存储文件夹。"
+
+#: ../../index.rst:455
+msgid ""
+"If you setup the CentreStack in Amazon EC2 environment, the primary "
+"storage usually is an Amazon S3 bucket."
+msgstr "如果您在Amazon EC2环境中设置CentreStack，主存储通常是一个Amazon S3存储桶。"
+
+#: ../../index.rst:457
+msgid ""
+"If you setup the CentreStack on-premise, the primary storage can be your "
+"file server storage and the auxiliary storage can be other cloud storage "
+"services or other local file server storage. OpenStack Swift is also a "
+"popular storage service in private enterprises."
+msgstr "如果您在本地部署CentreStack，主存储可以是您的文件服务器存储，辅助存储可以是其他云存储服务或其他本地文件服务器存储。OpenStack Swift在私有企业中也是一种流行的存储服务。"
+
+#: ../../index.rst:460
+msgid ""
+"CentreStack can be setup in a Rackspace data center on Cloud Server, "
+"Windows Azure VM, IBM SoftLayer Data Center and connect to Cloud Files, "
+"Azure Blob Storage, and SoftLayer Object Storage (OpenStack Swift based) "
+"respectively."
+msgstr "CentreStack可以在Rackspace数据中心的云服务器、Windows Azure VM、IBM SoftLayer数据中心设置，并分别连接到Cloud Files、Azure Blob Storage和SoftLayer对象存储（基于OpenStack Swift）。"
+
+#: ../../index.rst:463
+msgid ""
+"CentreStack can also be setup next to a File Server and connect directly "
+"to a File Server Network Share."
+msgstr "CentreStack也可以设置在文件服务器旁边，并直接连接到文件服务器网络共享。"
+
+#: ../../index.rst:467
+msgid ""
+"If you will later have multiple CentreStack worker nodes in the cluster, "
+"make sure you use storage service connector in a way that can be accessed"
+" from all of the worker nodes."
+msgstr "如果您稍后在集群中有多个CentreStack工作节点，请确保您使用的存储服务连接器可以被所有工作节点访问。"
+
+#: ../../index.rst:470
+msgid ""
+"For example, C:\\\\ Drive of a specific worker node is not a good one to "
+"be accessed from all worker nodes. However, if it is published as a "
+"network share, it is good for all worker nodes."
+msgstr "例如，特定工作节点的C:\\驱动器不适合所有工作节点访问。然而，如果它被设置为网络共享，那么它对所有工作节点来说都是合适的。"
+
+#: ../../index.rst:474
+msgid "Backup CentreStack"
+msgstr "备份中心堆栈"
+
+#: ../../index.rst:477
+msgid "Database"
+msgstr "数据库"
+
+#: ../../index.rst:479
+msgid ""
+"Only the CentreStack database contains persistent configuration "
+"information. All other components are stateless and replaceable. In a "
+"disaster recovery scenario, as soon as the SQL Server is restored, other "
+"worker nodes can be re-installed and will start working immediately. You "
+"can also point the worker node's database reference to the new SQL "
+"Server; it will work immediately with the information from the database."
+msgstr "只有CentreStack数据库包含持久的配置信息。所有其他组件都是无状态的，可以替换的。在灾难恢复场景中，一旦SQL Server恢复，其他工作节点可以重新安装，并将立即开始工作。您也可以将工作节点的数据库引用指向新的SQL Server；它将立即使用数据库中的信息工作。"
+
+#: ../../index.rst:486
+msgid ""
+"The worker nodes are stateless so it is not required to backup any worker"
+" nodes. They can be provisioned by a clean OS with a copy of CentreStack."
+" As soon as they are connected to the same database they become a node in"
+" the cluster."
+msgstr "工作节点是无状态的，因此不需要备份任何工作节点。它们可以通过带有CentreStack副本的干净操作系统来配置。一旦它们连接到相同的数据库，它们就成为集群中的一个节点。"
+
+#: ../../index.rst:491
+msgid "Storage (Files and Folders)"
+msgstr "存储（文件和文件夹）"
+
+#: ../../index.rst:493
+msgid ""
+"You will also need to back up your storage services. Most of the time, if"
+" you are using Cloud Storage services such as Amazon S3 or OpenStack "
+"Swift, the service has built-in redundancy. For local storage, DFS "
+"replication, RAID array or Microsoft Storage Space can all be options to "
+"provide storage service redundancy."
+msgstr "您还需要备份您的存储服务。大多数情况下，如果您使用的是云存储服务，如Amazon S3或OpenStack Swift，该服务已经具有内置的冗余性。对于本地存储，DFS复制、RAID阵列或Microsoft Storage Space都可以作为提供存储服务冗余的选项。"
+
+#: ../../index.rst:498
+msgid "Deployment Scenarios"
+msgstr "部署场景"
+
+#: ../../index.rst:501
+msgid "Private On-premise"
+msgstr "私有本地部署"
+
+#: ../../index.rst:503
+msgid ""
+"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"In this scenario, Active Directory is typically at the same site and "
+"primary storage is from file server or NAS storage."
+msgstr "您可以准备一台Windows Server 2022/2019/2016，并安装CentreStack。在这种情况下，Active Directory通常位于同一站点，主存储来自文件服务器或NAS存储。"
+
+#: ../../index.rst:506
+msgid ""
+"In this case, most of the time you are using CentreStack as a way to "
+"replace VPN to provide access to onsite file server from mobile devices "
+"and remote devices."
+msgstr "在这种情况下，您大多数时间都在使用CentreStack作为替代VPN的方式，以便从移动设备和远程设备访问现场文件服务器。"
+
+#: ../../index.rst:511
+msgid ""
+"Business Access use case - provide access to file server via CentreStack "
+"to mobile devices. When employees are in the office, they access the file"
+" server their normal way without noticing any difference, and while on "
+"the road or from remote location, they can use mobile and remote device "
+"to access file server network shares."
+msgstr "商业访问用例 - 通过CentreStack向移动设备提供文件服务器的访问。当员工在办公室时，他们可以像平常一样访问文件服务器而没有任何差异，而在外出或从远程位置时，他们可以使用移动设备和远程设备访问文件服务器网络共享。"
+
+#: ../../index.rst:521
+msgid "Private Off-Premise"
+msgstr "私有離岸"
+
+#: ../../index.rst:523
+msgid ""
+"Normally, a managed service provider (MSP) manages your IT services, such"
+" as hosted exchange servers, hosted file servers etc. You can ask the "
+"same managed service provider to install and manage the CentreStack for "
+"you in their data center."
+msgstr "通常情况下，托管服务提供商（MSP）会管理您的IT服务，例如托管交换服务器、托管文件服务器等。您可以要求同一托管服务提供商在其数据中心为您安装并管理CentreStack。"
+
+#: ../../index.rst:526
+msgid ""
+"Usually from this deployment scenario, if the file server is already in "
+"the same data center, typically it turned into the \"Private On-premise\""
+" deployment."
+msgstr "通常在这种部署场景下，如果文件服务器已经位于同一数据中心，通常它会转变为“私有本地部署”。"
+
+#: ../../index.rst:529
+msgid ""
+"If on the other hand, the file servers are away from the data center, "
+"this gets turned into \"Business Continuity\" use case, where the server "
+"agent can be installed on the local file server and connects the local "
+"file servers to the remote CentreStack server in the data center."
+msgstr "如果另一方面，文件服务器远离数据中心，这就变成了\"业务连续性\"用例，其中服务器代理可以安装在本地文件服务器上，并将本地文件服务器连接到数据中心的远程CentreStack服务器。"
+
+#: ../../index.rst:535
+msgid "Virtual Private Cloud"
+msgstr "虚拟私有云"
+
+#: ../../index.rst:537
+msgid ""
+"In this deployment scenario, you would deploy the CentreStack solution in"
+" a virtual private cloud environment such as Amazon EC2. CentreStack is "
+"also available in the form of AMI image to facilitate creation of EC2 "
+"instances. In this deployment scenario, the typical primary storage "
+"connection is to the Amazon S3 storage. You can also setup CentreStack "
+"solution in an environment like HP Helion (OpenStack) Cloud, with a "
+"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
+msgstr "在这种部署场景中，您将在如亚马逊EC2这样的虚拟私有云环境中部署CentreStack解决方案。CentreStack也以AMI镜像的形式提供，以便于创建EC2实例。在这种部署场景中，典型的主存储连接是到亚马逊S3存储。您也可以在类似HP Helion（OpenStack）云的环境中设置CentreStack解决方案，使用Windows Server 2022/2019/2016连接到OpenStack Swift存储。"
+
+#: ../../index.rst:544
+msgid "Multi-Site Deployment"
+msgstr "多站点部署"
+
+#: ../../index.rst:545
+msgid "Please reference multi-site deployment."
+msgstr "请参考多站点部署。"
+
+#: ../../index.rst:548
+msgid "Security Consideration"
+msgstr "安全考虑"
+
+#: ../../index.rst:551
+msgid "Access Clients and CentreStack"
+msgstr "访问客户端和CentreStack"
+
+#: ../../index.rst:553
+msgid ""
+"The access client agents will be configured with an access end point in "
+"the form of https://cloud.acme.com, where cloud.acme.com is the DNS name "
+"of your CentreStack server. The communication from the access clients, "
+"such as login request will be protected by SSL over HTTP (HTTPS)."
+msgstr "访问客户端代理将配置一个访问端点，形式为https://cloud.acme.com，其中cloud.acme.com是您的CentreStack服务器的DNS名称。来自访问客户端的通信，如登录请求，将通过HTTP上的SSL（HTTPS）进行保护。"
+
+#: ../../index.rst:559
+msgid ""
+"We recommend using https://www.ssllabs.com/ to check out the strength of "
+"your SSL certificate and whether or not it is compatible with iOS 9 and "
+"above devices."
+msgstr "我们建议使用 https://www.ssllabs.com/ 来检查您的SSL证书的强度，以及它是否与iOS 9及以上设备兼容。"
+
+#: ../../index.rst:563
+msgid "CentreStack and Active Directory"
+msgstr "CentreStack 和活动目录"
+
+#: ../../index.rst:565
+msgid ""
+"If the CentreStack is configured with Active Directory, CentreStack will "
+"authenticate users on behalf of the active directory by contacting the "
+"Active Directory over LDAP or LDAPS. There is no direct communication "
+"between the access clients and the Active Directory."
+msgstr "如果CentreStack配置了Active Directory，CentreStack将代表活动目录通过LDAP或LDAPS与Active Directory联系，以对用户进行认证。访问客户端与Active Directory之间没有直接通信。"
+

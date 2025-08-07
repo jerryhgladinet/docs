@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter8.rst:3
+msgid "The Web Interface"
+msgstr "ウェブインターフェース"
+
+#: ../../chapter8.rst:5
+msgid ""
+"The web client interface has three panels from left to right, the left "
+"tree panel, the middle file and folder panel, and the right information "
+"panel. Many of the management functionality are done over the web portal."
+" The web client also has the files and folder's view."
+msgstr "ウェブクライアントインターフェースには、左から右にかけて三つのパネルがあります。左のツリーパネル、中央のファイルとフォルダーパネル、そして右の情報パネルです。多くの管理機能はウェブポータル上で行われます。ウェブクライアントには、ファイルとフォルダーのビューもあります。"
+
+#: ../../chapter8.rst:8
+msgid "Normal Web Portal View"
+msgstr "通常のWebポータルビュー"
+
+#: ../../chapter8.rst:13
+msgid "WEB PORTAL VIEW"
+msgstr "ウェブポータルビュー"
+
+#: ../../chapter8.rst:17
+msgid "Left Tree View and Right Info Panel"
+msgstr "左側のツリービューと右側の情報パネル"
+
+#: ../../chapter8.rst:19
+msgid ""
+"The left-tree view can be toggled by clicking the tree icon **(1)**. You "
+"can access the **\"Info Panel\"** by either clicking the icon settings "
+"menu **(2)** at the top-right and selecting **\"Show/Hide Info Panel for "
+"file/folder\"** text, or the Show/Hide button **(3)** on the bottom-right"
+" of the File Browser window."
+msgstr "左側のツリービューは、ツリーアイコン **(1)** をクリックすることで切り替えることができます。**「情報パネル」** にアクセスするには、右上のアイコン設定メニュー **(2)** から **「ファイル/フォルダの情報パネルの表示/非表示」** を選択するか、ファイルブラウザウィンドウの右下にある表示/非表示ボタン **(3)** をクリックします。"
+
+#: ../../chapter8.rst:24
+msgid "ACCESSING SIDE PANELS"
+msgstr "サイドパネルへのアクセス"
+
+#: ../../chapter8.rst:28
+msgid "Switch between Icon and List view"
+msgstr "アイコンビューとリストビューを切り替える"
+
+#: ../../chapter8.rst:33
+msgid "SWITCH BETWEEN ICON AND LIST VIEWS"
+msgstr "アイコンビューとリストビューを切り替える"
+
+#: ../../chapter8.rst:36
+msgid ""
+"When switched into list view, you get access to other icons such as "
+"version information (see inset \"List View Example)."
+msgstr "リストビューに切り替えると、バージョン情報（「リストビュー例」を参照）などの他のアイコンにアクセスできます。"
+
+#: ../../chapter8.rst:40
+msgid "Color Themes"
+msgstr "カラーテーマ"
+
+#: ../../chapter8.rst:42
+msgid ""
+"Users can customize their web portal theme by clicking the user settings "
+"icon **(1)** and then the down-arrow icon **(2)**. There are 12 pre-"
+"defined Color Themes and one custom theme option."
+msgstr "ユーザーは、ユーザー設定アイコン **(1)** をクリックし、その後に下矢印アイコン **(2)** をクリックすることで、ウェブポータルのテーマをカスタマイズできます。12の事前定義されたカラーテーマと1つのカスタムテーマオプションがあります。"
+
+#: ../../chapter8.rst:47
+msgid "CUSTOMIZE YOUR WEB PORTAL THEME"
+msgstr "ウェブポータルのテーマをカスタマイズする"
+
+#: ../../chapter8.rst:51
+msgid "Create Folders"
+msgstr "フォルダを作成する"
+
+#: ../../chapter8.rst:53
+msgid "Folders Created in |prodname| are Versioned Folders."
+msgstr "|prodname| で作成されたフォルダはバージョン管理されたフォルダです。"
+
+#: ../../chapter8.rst:55
+msgid ""
+"|prodname| will maintain the version history of any files uploaded to "
+"versioned folders. From |prodname|, a user can download any previous "
+"versions of a file. From the |prodname| Desktop/Server Agent, a user can "
+"restore previous versions of files and recover deleted files."
+msgstr "|prodname| は、バージョン管理されたフォルダにアップロードされたファイルのバージョン履歴を維持します。|prodname| から、ユーザーはファイルの以前のバージョンをダウンロードすることができます。|prodname| デスクトップ/サーバーエージェントから、ユーザーはファイルの以前のバージョンを復元したり、削除されたファイルを回復することができます。"
+
+#: ../../chapter8.rst:58
+msgid ""
+"To create a folder, go to the parent folder and click \"New Folder\" in "
+"the drop-down menu **(1)** or right click in the folder background and "
+"choose \"New Folder\" **(2)** from the context menu."
+msgstr "フォルダを作成するには、親フォルダに移動し、ドロップダウンメニューの「新しいフォルダ」 **(1)** をクリックするか、フォルダの背景を右クリックしてコンテキストメニューから「新しいフォルダ」 **(2)** を選択します。"
+
+#: ../../chapter8.rst:63
+msgid "CREATING FOLDERS"
+msgstr "フォルダの作成"
+
+#: ../../chapter8.rst:67
+msgid "Attach Folder from Clients"
+msgstr "クライアントからフォルダを添付する"
+
+#: ../../chapter8.rst:69
+msgid ""
+"If you have the Windows Client installed, can also Attach a Local Folder "
+"from this client."
+msgstr "Windowsクライアントがインストールされている場合、このクライアントからローカルフォルダをアタッチすることもできます。"
+
+#: ../../chapter8.rst:74
+msgid "ATTACHING A FOLDER"
+msgstr "フォルダの添付"
+
+#: ../../chapter8.rst:76
+msgid ""
+"These folders are the local folders from the local PC/Mac that |prodname|"
+" users have attached to |prodname|. Once a local folder is attached, a "
+"user can immediately access it in |prodname|. |prodname| will maintain "
+"the version history of files in the attached local folder. The local "
+"folder is also being synchronized with |prodname| (\"cloud side\")."
+msgstr "これらのフォルダは、ローカルPC/マックからのローカルフォルダで、|prodname| ユーザーが |prodname| にアタッチしたものです。ローカルフォルダがアタッチされると、ユーザーはすぐに |prodname| 内でアクセスできます。|prodname| は、アタッチされたローカルフォルダ内のファイルのバージョン履歴を維持します。ローカルフォルダは、|prodname| （\"クラウド側\"）とも同期されています。"
+
+#: ../../chapter8.rst:81
+msgid "ATTACHED LOCAL FOLDER"
+msgstr "ローカルフォルダを添付"
+
+#: ../../chapter8.rst:85
+msgid "Renaming/Deleting Folders"
+msgstr "フォルダの名前変更/削除"
+
+#: ../../chapter8.rst:87
+msgid ""
+"Renaming and deleting files and folders can be achieved by right-clicking"
+" the file in the \"File Browser\" and selecting the appropriate context-"
+"menu item or using the small icons in the Detailed View bar of the "
+"selected item."
+msgstr "ファイルやフォルダの名前を変更したり削除したりするには、「ファイルブラウザ」でファイルを右クリックして、適切なコンテキストメニュー項目を選択するか、選択したアイテムの詳細ビューバーにある小さなアイコンを使用します。"
+
+#: ../../chapter8.rst:92
+msgid "RENAMING FILES"
+msgstr "ファイルの名前変更"
+
+#: ../../chapter8.rst:96
+msgid "Upload Files/Folders"
+msgstr "ファイル/フォルダをアップロード"
+
+#: ../../chapter8.rst:98
+msgid ""
+"In |prodname|, you have different options to upload files and folders. "
+"You can upload one file at a time using the 'Upload File' option under "
+"Upload You can also upload folders using the 'Upload Folder' option under"
+" Upload. Last but not least you can also use 'Upload Folders and Files' "
+"to upload multiple files simultaneously, or drag & drop files from a "
+"local desktop to the |prodname| Cloud web portal to start the upload."
+msgstr "|prodname| では、ファイルやフォルダをアップロードするための異なるオプションがあります。'Upload File'オプションを使用して一度に1つのファイルをアップロードすることができます。また、'Upload Folder'オプションを使用してフォルダをアップロードすることもできます。さらに、'Upload Folders and Files'を使用して複数のファイルを同時にアップロードすることも、またはローカルデスクトップから |prodname| クラウドのウェブポータルにファイルをドラッグ＆ドロップしてアップロードを開始することもできます。"
+
+#: ../../chapter8.rst:100
+msgid ""
+"It is possible to upload multiple files at a time. This is supported on "
+"all browsers. The same is true for Upload Folder. To access these options"
+" you can click the \"+\" icon **(1)** or right click on the portal "
+"background **(2)** and select your upload option there."
+msgstr "一度に複数のファイルをアップロードすることが可能です。これはすべてのブラウザでサポートされています。フォルダのアップロードも同様です。これらのオプションにアクセスするには、\"+\" アイコン **(1)** をクリックするか、ポータルの背景を右クリック **(2)** して、そこからアップロードオプションを選択できます。"
+
+#: ../../chapter8.rst:105
+msgid "UPLOADING FILES AND FOLDERS"
+msgstr "ファイルとフォルダのアップロード"
+
+#: ../../chapter8.rst:108
+msgid ""
+"After clicking the upload option, you can browse to the file or folder "
+"you want to upload. Use the Ctrl key to select multiple items."
+msgstr "アップロードオプションをクリックした後、アップロードしたいファイルまたはフォルダを参照できます。Ctrlキーを使用して、複数のアイテムを選択します。"
+
+#: ../../chapter8.rst:113
+msgid "SELECTING FILES FOR UPLOAD"
+msgstr "アップロードするファイルの選択"
+
+#: ../../chapter8.rst:117
+msgid "Upload Using Local Uploader"
+msgstr "ローカルアップローダーを使用してアップロード"
+
+#: ../../chapter8.rst:119
+msgid ""
+"(This is Windows only feature) When uploading big files and big folders, "
+"the \"upload using local uploader\" may be the best option for web "
+"browser based upload. If it is enabled by the Tenant Manager (deselected)"
+" **(1)** in the Group Policy Home > Web Portal settings. Clicking this "
+"option **(2)** will download a thin local uploader binary first and then "
+"the local uploader will do the upload. The local uploader has retry and "
+"other reliability measures to make sure the upload is successful. "
+"Basically it uses the web browser to download an executable, and the "
+"executable does the rest of the uploading work."
+msgstr "(この機能はWindows専用です) 大きなファイルや大きなフォルダをアップロードする際、\"ローカルアップローダーを使用してアップロード\"がウェブブラウザベースのアップロードにとって最適な選択肢かもしれません。テナントマネージャーによってグループポリシーのホーム > ウェブポータル設定で有効（選択解除） **(1)** されている場合。このオプションをクリックすると **(2)**、まず軽量なローカルアップローダーバイナリがダウンロードされ、その後ローカルアップローダーがアップロードを行います。ローカルアップローダーにはリトライやその他の信頼性を確保するための措置があり、アップロードが成功することを保証します。基本的にはウェブブラウザを使用して実行可能ファイルをダウンロードし、その実行可能ファイルが残りのアップロード作業を行います。"
+
+#: ../../chapter8.rst:124
+msgid "ENABLE \"UPLOAD USING LOCAL UPLOADER\" OPTION"
+msgstr "「ローカルアップローダーを使用してアップロード」オプションを有効にする"
+
+#: ../../chapter8.rst:127
+msgid "Drag and Drop Upload"
+msgstr "ドラッグ＆ドロップでアップロード"
+
+#: ../../chapter8.rst:129
+msgid ""
+"Latest web browsers that support HTML5 drag and drop upload will see "
+"\"Drop Files Here\" in an empty folder. These web browsers allow you to "
+"drag & drop multiple files directly to the |prodname| Cloud. In latest "
+"Google Chrome, Drag and drop folder is also supported while the other "
+"HTML5 based web browser support drag and drop multiple files."
+msgstr "HTML5のドラッグ＆ドロップアップロードに対応した最新のウェブブラウザでは、空のフォルダに「ここにファイルをドロップ」と表示されます。これらのウェブブラウザを使用すると、複数のファイルを直接 |prodname| クラウドにドラッグ＆ドロップできます。最新のGoogle Chromeでは、フォルダのドラッグ＆ドロップもサポートされていますが、他のHTML5ベースのウェブブラウザは複数のファイルのドラッグ＆ドロップをサポートしています。"
+
+#: ../../chapter8.rst:135
+msgid "DRAG AND DROP FILES FOR UPLOAD"
+msgstr "ファイルをドラッグ＆ドロップしてアップロード"
+
+#: ../../chapter8.rst:139
+msgid "Downloading Files"
+msgstr "ファイルのダウンロード"
+
+#: ../../chapter8.rst:141
+msgid "There are several ways to download files in |prodname|:"
+msgstr "|prodname| でファイルをダウンロードする方法はいくつかあります:"
+
+#: ../../chapter8.rst:143
+msgid ""
+"If you select a file in the \"File Browser\" you can use the download "
+"icon **(1)** in the top bar. You can also right-click a file and choose "
+"download **(2)** from the context menu. If you are in the \"Detailed "
+"View\" **(3)** you can select a file and download it in the same manner "
+"as in the icon view."
+msgstr "「ファイルブラウザ」でファイルを選択すると、上部のバーにあるダウンロードアイコン **(1)** を使用できます。また、ファイルを右クリックしてコンテキストメニューからダウンロード **(2)** を選択することもできます。「詳細ビュー」 **(3)** にいる場合は、アイコンビューと同様にファイルを選択してダウンロードすることができます。"
+
+#: ../../chapter8.rst:148
+msgid "DOWNLOAD FILE OPTIONS"
+msgstr "ファイルのダウンロードオプション"
+
+#: ../../chapter8.rst:150
+msgid ""
+"If your are in \"Detailed View\" **(3)** any files with previous versions"
+" will show a number in the selected bar (e.g. \"V2\") **(4)** that you "
+"may click to open a list of all of the versions of that file."
+msgstr "「詳細ビュー」 **(3)** にいる場合、以前のバージョンがあるファイルは選択バーに番号（例えば「V2」） **(4)** が表示され、その番号をクリックするとそのファイルのすべてのバージョンのリストが開きます。"
+

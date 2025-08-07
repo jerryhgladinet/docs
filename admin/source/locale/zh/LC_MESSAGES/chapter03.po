@@ -1,0 +1,4297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:5
+msgid "Tenant Administration"
+msgstr "租户管理"
+
+#: ../../chapter03.rst:9
+msgid ""
+"A tenant is usually mapped to a company, or a division of a company, an "
+"organization or in the case of MSP managed organization, a service "
+"provider would call them clients. Basically, a tenant is a management "
+"scope that represents an organization."
+msgstr "租户通常对应于一个公司，或公司的一个部门，一个组织，或者在MSP管理的组织情况下，服务提供商会称他们为客户。基本上，租户是代表一个组织的管理范围。"
+
+#: ../../chapter03.rst:11
+msgid ""
+"Tenant manager scope is defined for tenant administrators. For a multi-"
+"tenant Cluster Server system, each tenant has an administrator. For a "
+"single-tenant Cluster Server system, the default cluster administrator is"
+" also the tenant administrator."
+msgstr "租户管理范围是为租户管理员定义的。对于多租户集群服务器系统，每个租户都有一个管理员。对于单租户集群服务器系统，默认的集群管理员也是租户管理员。"
+
+#: ../../chapter03.rst:13
+msgid "Tenant Manager is completely web-based."
+msgstr "租户管理器完全基于网络。"
+
+#: ../../chapter03.rst:15
+msgid ""
+"From the Cluster Manager Dashboard, you can access the Tenant Manager by "
+"clicking \"Tenants Count\"."
+msgstr "从集群管理仪表板，您可以通过点击“租户数量”来访问租户管理器。"
+
+#: ../../chapter03.rst:20
+msgid "CLUSTER DASHBOARD"
+msgstr "集群仪表板"
+
+#: ../../chapter03.rst:22
+msgid ""
+"You can also log in directly to the web portal as the tenant "
+"administrator instead of the default cluster administrator to get to the "
+"tenant administrator management web interface."
+msgstr "您也可以直接登录到web门户作为租户管理员，而不是默认的集群管理员，以进入租户管理员管理web界面。"
+
+#: ../../chapter03.rst:26
+msgid ""
+"At a high level, the Cluster Administrator and Tenant Manager have almost"
+" identical controls for the Tenants within their scope; however, the "
+"Tenant Manager settings will always take precedence and override Cluster "
+"Administrator settings. Tenant Managers can give permission for Cluster "
+"Administrator to manage their tenants by enabling this option in "
+"``Settings`` > ``User Account & Security`` > ``Security``. \"Allow "
+"Cluster Admin to manage my tenant\" is by default checked."
+msgstr "在高层次上，集群管理员和租户管理员对于其管辖范围内的租户几乎拥有相同的控制权限；然而，租户管理员的设置将始终优先，并且会覆盖集群管理员的设置。租户管理员可以通过在 ``设置`` > ``用户账户与安全`` > ``安全`` 中启用此选项，允许集群管理员管理他们的租户。\"允许集群管理员管理我的租户\"默认情况下是选中的。"
+
+#: ../../chapter03.rst:31
+msgid "SETTINGS > USER ACCOUNT & SECURITY > SECURITY"
+msgstr "设置 > 用户账户与安全 > 安全"
+
+#: ../../chapter03.rst:36
+msgid "Tenant Dashboard"
+msgstr "租户仪表板"
+
+#: ../../chapter03.rst:38
+msgid "``Tenant Manager`` > ``[Tenant]`` > ``Tenant Dashboard``"
+msgstr "``租户管理器`` > ``[租户]`` > ``租户仪表板``"
+
+#: ../../chapter03.rst:43
+msgid "TENANT DASHBOARD MENUS"
+msgstr "租户仪表盘菜单"
+
+#: ../../chapter03.rst:45
+msgid ""
+"You can navigate to different sections of Tenant Administration from the "
+"Dashboard."
+msgstr "您可以从仪表板导航到租户管理的不同部分。"
+
+#: ../../chapter03.rst:49
+msgid "Tenant Plan"
+msgstr "租户计划"
+
+#: ../../chapter03.rst:51
+msgid "``Tenant Dashboard`` > ``License/Storage Quota`` > ``Tenant Plan``"
+msgstr "``租户仪表板`` > ``许可证/存储配额`` > ``租户计划``"
+
+#: ../../chapter03.rst:56 ../../chapter03.rst:64
+msgid "TENANT PLAN SETTINGS"
+msgstr "租户计划设置"
+
+#: ../../chapter03.rst:58
+msgid ""
+"Here in the Tenant Plan section, you can change the tenant's user plan "
+"and storage plan, and also control the bandwidth usage for the tenant."
+msgstr "在租户计划部分，您可以更改租户的用户计划和存储计划，同时还可以控制租户的带宽使用。"
+
+#: ../../chapter03.rst:68 ../../chapter03.rst:495 ../../chapter03.rst:537
+msgid "Team Folders"
+msgstr "团队文件夹"
+
+#: ../../chapter03.rst:70
+msgid "``Tenant Manager`` > ``Team Folders``"
+msgstr "``租户管理器`` > ``团队文件夹``"
+
+#: ../../chapter03.rst:72
+msgid ""
+"The team folder concept is like a network share, meaning you can define a"
+" folder and then add users and groups to the folder and thus turn it into"
+" a team shared folder. The team folder will show up in the user's folder "
+"list when the user is added to the team folder."
+msgstr "团队文件夹的概念类似于网络共享，这意味着您可以定义一个文件夹，然后向该文件夹添加用户和群组，从而将其转变为一个团队共享文件夹。当用户被添加到团队文件夹中时，团队文件夹将出现在用户的文件夹列表中。"
+
+#: ../../chapter03.rst:77
+msgid "ENTER TEAM FOLDER SECTION"
+msgstr "进入团队文件夹部分"
+
+#: ../../chapter03.rst:79
+msgid ""
+"When the server agent is in use, the team folder can be mapped directly "
+"to a network share from the server where the server agent is installed."
+msgstr "当服务器代理正在使用时，团队文件夹可以直接映射到安装有服务器代理的服务器上的网络共享。"
+
+#: ../../chapter03.rst:81
+msgid ""
+"When a directly connected network share is used, a team folder can be "
+"mapped to an SMB/CIFS network share directly."
+msgstr "当使用直接连接的网络共享时，团队文件夹可以直接映射到SMB/CIFS网络共享。"
+
+#: ../../chapter03.rst:83
+msgid "You can also turn any existing folder into a team folder."
+msgstr "您也可以将任何现有文件夹转变为团队文件夹。"
+
+#: ../../chapter03.rst:85
+msgid ""
+"A Team folder has a tenant administrator scope so the team folder related"
+" sharing is limited to the users inside the tenant."
+msgstr "团队文件夹具有租户管理员范围，因此与团队文件夹相关的共享仅限于租户内的用户。"
+
+#: ../../chapter03.rst:89
+msgid ""
+"By default, the files and folders that the administrator can see is "
+"hidden away from the regular team user until those folders are published "
+"to the team users."
+msgstr "默认情况下，管理员可以看到的文件和文件夹是对常规团队用户隐藏的，直到这些文件夹被发布给团队用户。"
+
+#: ../../chapter03.rst:91
+msgid ""
+"Team Folders (Shared Work Space) are used for team-share collaborations. "
+"Generally, Team Folders are converted from File Server Network shares. "
+"Other Team Folder sources can be Google Storage, Amazon S3 (or S3 "
+"Compatible), Amazon Cloud, Windows Azure Blob, WebDav, SharePoint, "
+"Rackspace (US or UK) and OpenStack or you can create new folders under "
+"the Tenant's root storage."
+msgstr "团队文件夹（共享工作空间）用于团队共享协作。通常，团队文件夹是从文件服务器网络共享转换而来的。其他团队文件夹来源可以是谷歌存储、亚马逊S3（或兼容S3）、亚马逊云、Windows Azure Blob、WebDav、SharePoint、Rackspace（美国或英国）和OpenStack，或者您可以在租户的根存储下创建新文件夹。"
+
+#: ../../chapter03.rst:93
+msgid ""
+"In the \"Team Folders\" page, you can click \"Edit\" icon to manage team "
+"shares, folder permissions and the underlying storage configuration."
+msgstr "在“团队文件夹”页面中，您可以点击“编辑”图标来管理团队共享、文件夹权限和底层存储配置。"
+
+#: ../../chapter03.rst:99
+msgid "MANAGING TEAM SHARES"
+msgstr "管理团队共享"
+
+#: ../../chapter03.rst:103
+msgid "Create Team Folder"
+msgstr "创建团队文件夹"
+
+#: ../../chapter03.rst:105
+msgid "``Tenant Manager`` >  ``Team Folders`` > ``Add New Team Folder``"
+msgstr "``租户管理器`` > ``团队文件夹`` > ``添加新团队文件夹``"
+
+#: ../../chapter03.rst:107
+msgid "You can click on the \"+\" sign to create a new team folder."
+msgstr "您可以点击 \"+\" 号来创建一个新的团队文件夹。"
+
+#: ../../chapter03.rst:112
+msgid "ADDING A TEAM FOLDER"
+msgstr "添加团队文件夹"
+
+#: ../../chapter03.rst:114
+msgid ""
+"Once it is clicked, it shows four main sources of team folder, among "
+"other options:"
+msgstr "一旦点击，它会显示四个主要的团队文件夹来源，以及其他选项："
+
+#: ../../chapter03.rst:116
+msgid "Existing Tenant Storage (default location)"
+msgstr "现有租户存储（默认位置）"
+
+#: ../../chapter03.rst:117
+msgid "File Servers in Local Area Network"
+msgstr "局域网中的文件服务器"
+
+#: ../../chapter03.rst:118
+msgid "Remote File Servers"
+msgstr "远程文件服务器"
+
+#: ../../chapter03.rst:119
+msgid "Cloud Storage"
+msgstr "云存储"
+
+#: ../../chapter03.rst:124
+msgid "TEAM FOLDER LOCATIONS"
+msgstr "团队文件夹位置"
+
+#: ../../chapter03.rst:126
+msgid "**Existing Tenant Storage (default location)**"
+msgstr "**现有租户存储（默认位置）**"
+
+#: ../../chapter03.rst:131
+msgid "EXISTING TENANT STORAGE"
+msgstr "现有租户存储"
+
+#: ../../chapter03.rst:133
+msgid ""
+"**Default Tenant Storage (1)**: The team folder will be created from the "
+"default storage from scratch with an empty team folder. Usually when you "
+"want to have a team folder that is brand new and empty, you can pick this"
+" option."
+msgstr "**默认租户存储 (1)** ：团队文件夹将从默认存储中全新创建，初始状态为空的团队文件夹。通常，当您想要一个全新且空的团队文件夹时，可以选择此选项。"
+
+#: ../../chapter03.rst:135
+msgid ""
+"**Existing Folder(s) (2)**: You can pick several existing folders, which "
+"physically may not be in the same folder, but you can logically arrange "
+"them into the same team folder. For example, you may want to have a short"
+" term project that put \"Building A\", \"Blue Print A\", \"Budget A\", "
+"three different folders from three different places into one logical"
+msgstr "**现有文件夹(2)** ：您可以选择几个现有的文件夹，这些文件夹在物理上可能不在同一个文件夹中，但您可以逻辑上将它们整理到同一个团队文件夹中。例如，您可能想要有一个短期项目，将“建筑A”、“蓝图A”、“预算A”三个不同的文件夹从三个不同的地方放入一个逻辑"
+
+#: ../../chapter03.rst:137
+msgid ""
+"**Publish Tenant Home Storage As a Team Folder (3)**: By default, the "
+"tenant's root storage folder is not published to any team user. To use an"
+" analogy, it is like a C: drive on a Windows File Server, by default it "
+"is not published as a network share to users. However, if you want to "
+"make it available to users, you can pick this option."
+msgstr "**发布租户主存储作为团队文件夹 (3)** ：默认情况下，租户的根存储文件夹不会发布给任何团队用户。打个比方，这就像Windows文件服务器上的C:驱动器，默认情况下它不会作为网络共享发布给用户。然而，如果您想让它对用户可用，您可以选择这个选项。"
+
+#: ../../chapter03.rst:141
+msgid "**File Servers in Local Area Network**"
+msgstr "**本地区域网络中的文件服务器**"
+
+#: ../../chapter03.rst:143
+msgid ""
+"When you have files and folders from the local area network (LAN), you "
+"can convert the network share directly into a team folder in the Cluster "
+"Server. It is a one-to-one relationship between a team folder and a "
+"network share. When you pick this option, most of the time, the Active "
+"Directory server for this tenant is also in the same Local Area Network."
+msgstr "当您拥有来自本地区域网络（LAN）的文件和文件夹时，可以直接将网络共享转换为集群服务器中的团队文件夹。团队文件夹和网络共享之间是一对一的关系。当您选择此选项时，大多数情况下，此租户的活动目录服务器也位于同一本地区域网络中。"
+
+#: ../../chapter03.rst:148
+msgid "LAN-BASED TEAM FOLDER"
+msgstr "基于局域网的团队文件夹"
+
+#: ../../chapter03.rst:150
+msgid "**Remote File Server**"
+msgstr "**远程文件服务器**"
+
+#: ../../chapter03.rst:152
+msgid ""
+"When you have server agents installed on remote file servers, those file "
+"servers will be visible and the network shares from remote file servers "
+"will be imported to the Cluster Server."
+msgstr "当您在远程文件服务器上安装了服务器代理后，这些文件服务器将会变得可见，而且远程文件服务器上的网络共享将会被导入到集群服务器中。"
+
+#: ../../chapter03.rst:157
+msgid "REMOTE TEAM FOLDER"
+msgstr "远程团队文件夹"
+
+#: ../../chapter03.rst:159
+msgid "**Cloud Storage**"
+msgstr "**云存储**"
+
+#: ../../chapter03.rst:161
+msgid ""
+"You can also pick Cloud Storage as this team folder's underlying storage."
+" As shown in the following picture, you can pick Amazon S3, Windows Azure"
+" Blob, OpenStack Swift, and other cloud storage services."
+msgstr "您也可以选择云存储作为该团队文件夹的底层存储。如下图所示，您可以选择Amazon S3、Windows Azure Blob、OpenStack Swift以及其他云存储服务。"
+
+#: ../../chapter03.rst:166
+msgid "CLOUD-BASED TEAM FOLDER"
+msgstr "基于云的团队文件夹"
+
+#: ../../chapter03.rst:169
+msgid "Team Folder Properties"
+msgstr "团队文件夹属性"
+
+#: ../../chapter03.rst:172
+msgid "Team Folder Information"
+msgstr "团队文件夹信息"
+
+#: ../../chapter03.rst:174
+msgid ""
+"``Tenant Manager`` >  ``Team Folders`` >  ``{Pick a Team Folder}`` > "
+"``Info Icon`` > ``Team Folder Information``"
+msgstr "``租户管理器`` > ``团队文件夹`` > ``{选择一个团队文件夹}`` > ``信息图标`` > ``团队文件夹信息``"
+
+#: ../../chapter03.rst:179
+msgid "TEAM FOLDER INFORMATION ACCESS"
+msgstr "团队文件夹信息访问"
+
+#: ../../chapter03.rst:183
+msgid "Collaborators"
+msgstr "合作者"
+
+#: ../../chapter03.rst:185
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Collaborators``"
+msgstr "``租户管理器`` > ``团队文件夹`` > ``{选择一个团队文件夹}`` > ``编辑图标`` > ``协作者``"
+
+#: ../../chapter03.rst:187
+msgid "In the Collaborators section, you can define:"
+msgstr "在合作伙伴部分，您可以定义："
+
+#: ../../chapter03.rst:189
+msgid ""
+"User List: The users and groups that are assigned to the team folder. The"
+" users with the owner flag will be able to manage the users."
+msgstr "用户列表：分配给团队文件夹的用户和组。拥有所有者标记的用户将能够管理用户。"
+
+#: ../../chapter03.rst:197
+msgid "EDITING FOLDER PERMISSIONS"
+msgstr "编辑文件夹权限"
+
+#: ../../chapter03.rst:201
+msgid "External Sharing"
+msgstr "外部共享"
+
+#: ../../chapter03.rst:203
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``External Sharing``"
+msgstr "``租户管理器`` > ``团队文件夹`` > ``{选择一个团队文件夹}`` > ``编辑图标`` > ``外部共享``"
+
+#: ../../chapter03.rst:205
+msgid ""
+"You can see what folders and files have been shared and control access to"
+" those files from this setting."
+msgstr "您可以查看哪些文件夹和文件已被共享，并且可以从这个设置中控制对这些文件的访问。"
+
+#: ../../chapter03.rst:210 ../../chapter03.rst:288
+msgid "TEAM FOLDER PERMISSION SETTINGS"
+msgstr "团队文件夹权限设置"
+
+#: ../../chapter03.rst:214
+msgid "Access Policy"
+msgstr "访问策略"
+
+#: ../../chapter03.rst:216
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Access Policy``"
+msgstr "``租户管理器`` > ``团队文件夹`` > ``{选择一个团队文件夹}`` > ``编辑图标`` > ``访问策略``"
+
+#: ../../chapter03.rst:218
+msgid "You can enable an access policy through this tab."
+msgstr "您可以通过此选项卡启用访问策略。"
+
+#: ../../chapter03.rst:223
+msgid "ADD NEW ACCESS POLICY"
+msgstr "添加新的访问策略"
+
+#: ../../chapter03.rst:225
+msgid ""
+"Define customized access policies to restrict and allow access based on "
+"the device location. For example, a company can enable access from the "
+"internet to only Windows clients and web clients. IT can configure allow "
+"or deny client access policies from the following locations:"
+msgstr "定义自定义访问策略以根据设备位置限制和允许访问。例如，公司可以启用从互联网到仅限Windows客户端和Web客户端的访问。IT可以从以下位置配置允许或拒绝客户端访问策略："
+
+#: ../../chapter03.rst:227 ../../chapter03.rst:245
+msgid "Access from the internet"
+msgstr "从互联网访问"
+
+#: ../../chapter03.rst:228 ../../chapter03.rst:246
+msgid "Access from local network"
+msgstr "从本地网络访问"
+
+#: ../../chapter03.rst:229 ../../chapter03.rst:247
+msgid "Access from Anywhere"
+msgstr "随时随地访问"
+
+#: ../../chapter03.rst:230 ../../chapter03.rst:248
+msgid "Access from customer-defined networks"
+msgstr "从客户定义的网络访问"
+
+#: ../../chapter03.rst:231 ../../chapter03.rst:249
+msgid "Deny access from customer defined networks"
+msgstr "拒绝来自客户定义网络的访问"
+
+#: ../../chapter03.rst:233
+msgid ""
+"The above allow and deny client access policies can be configured for the"
+" following clients:"
+msgstr "上述允许和拒绝客户端访问策略可以为以下客户端配置："
+
+#: ../../chapter03.rst:235
+msgid "Web client"
+msgstr "网页客户端"
+
+#: ../../chapter03.rst:236
+msgid "Web management"
+msgstr "网页管理"
+
+#: ../../chapter03.rst:237
+msgid "Windows client"
+msgstr "Windows 客户端"
+
+#: ../../chapter03.rst:238
+msgid "Mac client"
+msgstr "Mac 客户端"
+
+#: ../../chapter03.rst:239
+msgid "Mobile client"
+msgstr "移动客户端"
+
+#: ../../chapter03.rst:243
+msgid ""
+"IT can also prevent data loss and data leakage of important company "
+"confidential shares by configuring 'Share Access Policies' for external "
+"users who are not company employees. Again, IT can configure allow or "
+"deny shares access policies from the following locations:"
+msgstr "IT部门还可以通过为非公司员工的外部用户配置'共享访问策略'来防止重要公司机密共享的数据丢失和数据泄露。同样，IT可以从以下位置配置允许或拒绝共享访问策略："
+
+#: ../../chapter03.rst:251
+msgid ""
+"The above allow and deny share access policies can be configured with the"
+" following conditions:"
+msgstr "以上允许和拒绝共享访问策略可以配置以下条件："
+
+#: ../../chapter03.rst:253
+msgid "Visible"
+msgstr "可见"
+
+#: ../../chapter03.rst:254
+msgid "Permissions to list files"
+msgstr "列出文件的权限"
+
+#: ../../chapter03.rst:255
+msgid "Permissions to read files"
+msgstr "读取文件的权限"
+
+#: ../../chapter03.rst:256
+msgid "Permissions to create or update files and folders"
+msgstr "创建或更新文件和文件夹的权限"
+
+#: ../../chapter03.rst:257
+msgid "Permissions to delete files and folders"
+msgstr "删除文件和文件夹的权限"
+
+#: ../../chapter03.rst:258
+msgid "Secure data room"
+msgstr "安全数据室"
+
+#: ../../chapter03.rst:263
+msgid "SHARE ACCESS POLICY"
+msgstr "共享访问策略"
+
+#: ../../chapter03.rst:268
+msgid "ACCESS POLICY SETTINGS"
+msgstr "访问策略设置"
+
+#: ../../chapter03.rst:271 ../../chapter03.rst:499 ../../chapter03.rst:579
+msgid "Folder Permissions"
+msgstr "文件夹权限"
+
+#: ../../chapter03.rst:273
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Folder Permissions``"
+msgstr "``租户管理器`` > ``团队文件夹`` > ``{选择一个团队文件夹}`` > ``编辑图标`` > ``文件夹权限``"
+
+#: ../../chapter03.rst:275
+msgid ""
+"You can browse to different sub-folders and define the folder permission."
+" The folder permissions defined here represent the Cluster Server side of"
+" the permission."
+msgstr "您可以浏览不同的子文件夹并定义文件夹权限。这里定义的文件夹权限代表了集群服务器端的权限。"
+
+#: ../../chapter03.rst:277
+msgid ""
+"If you are leveraging native Active Directory/NTFS permission from a file"
+" server, you don't need to define any permissions here."
+msgstr "如果您正在从文件服务器利用原生Active Directory/NTFS权限，您无需在此定义任何权限。"
+
+#: ../../chapter03.rst:281
+msgid ""
+"You can think of the permissions as two different gates controlling the "
+"access to files and folders. The first gate is defined here as the "
+"``Cluster Server Folder Permission``. After this permission check, there "
+"is still a check at the file server level (which is the NTFS permission)."
+msgstr "您可以将权限视为控制对文件和文件夹访问的两个不同的门。第一个门在此定义为 ``Cluster Server Folder Permission``。通过这个权限检查后，还有一个在文件服务器级别的检查（即NTFS权限）。"
+
+#: ../../chapter03.rst:283
+msgid ""
+"In practice, usually it is done one way or the other. If you have decided"
+" to use NTFS natively, you can leave the permission settings here empty "
+"and not defined."
+msgstr "在实践中，通常只会采用一种方式。如果您已决定原生使用NTFS，您可以将此处的权限设置留空，不进行定义。"
+
+#: ../../chapter03.rst:292 ../../chapter03.rst:304 ../../chapter03.rst:607
+#: ../../chapter03.rst:931
+msgid "Settings"
+msgstr "设置"
+
+#: ../../chapter03.rst:294
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Settings``"
+msgstr "``租户管理器`` > ``团队文件夹`` > ``{选择一个团队文件夹}`` > ``编辑图标`` > ``设置``"
+
+#: ../../chapter03.rst:299
+msgid "TEAM FOLDER SETTINGS OVERVIEW"
+msgstr "团队文件夹设置概览"
+
+#: ../../chapter03.rst:301
+msgid "Let's look at the details of the Team Folder Settings:"
+msgstr "让我们来看看团队文件夹设置的详细信息："
+
+#: ../../chapter03.rst:306
+msgid "**Disable further sharing**"
+msgstr "**禁止进一步共享**"
+
+#: ../../chapter03.rst:308
+msgid "Don't allow users to share out team folder contents."
+msgstr "不允许用户共享团队文件夹内容。"
+
+#: ../../chapter03.rst:310
+msgid "**Create CIFS Share**"
+msgstr "**创建CIFS共享**"
+
+#: ../../chapter03.rst:312
+msgid ""
+"If there are server agents connected to the tenant, create a CIFS share "
+"on the file server agent server as a standard Windows network share."
+msgstr "如果租户连接了服务器代理，请在文件服务器代理服务器上创建一个CIFS共享，作为标准的Windows网络共享。"
+
+#: ../../chapter03.rst:314
+msgid "**Disable Offline Access**"
+msgstr "**禁用离线访问**"
+
+#: ../../chapter03.rst:316
+msgid ""
+"Don't allow Windows clients or Mac clients to mark their folders as "
+"offline from within the team folder."
+msgstr "不允许Windows客户端或Mac客户端在团队文件夹内将其文件夹标记为离线。"
+
+#: ../../chapter03.rst:320
+msgid "Permission"
+msgstr "权限"
+
+#: ../../chapter03.rst:322
+msgid "**Hide folders to which users don't have permissions**"
+msgstr "**对用户没有权限的文件夹进行隐藏**"
+
+#: ../../chapter03.rst:324
+msgid ""
+"Hide the folder instead of showing users folders that they will receive "
+"\"Access Denied\"."
+msgstr "隐藏文件夹，而不是向用户显示他们会收到“访问拒绝”的文件夹。"
+
+#: ../../chapter03.rst:328
+msgid "Quota and Retention Policy"
+msgstr "配额和保留策略"
+
+#: ../../chapter03.rst:330
+msgid "Team folder can have a per-team folder retention policy."
+msgstr "团队文件夹可以有每个团队的文件夹保留策略。"
+
+#: ../../chapter03.rst:335
+msgid "Device Manager"
+msgstr "设备管理器"
+
+#: ../../chapter03.rst:337
+msgid "``Tenant Manager`` > ``Devices`` > ``Device Manager``"
+msgstr "``租户管理器`` > ``设备`` > ``设备管理器``"
+
+#: ../../chapter03.rst:339
+msgid ""
+"The cluster administrator can look at the devices that have the client "
+"agent software installed and connected in the specific tenant."
+msgstr "集群管理员可以查看在特定租户中已安装并连接了客户端代理软件的设备。"
+
+#: ../../chapter03.rst:341
+msgid ""
+"This feature is used to control BYOD (Bring your own device). For some "
+"organization, they want to control who can bring what device into the "
+"system. This is the tool to control that and allow/disallow on a device "
+"by device basis."
+msgstr "此功能用于控制BYOD（自带设备）。对于某些组织来说，他们希望控制谁可以将什么设备带入系统。这是一个控制工具，可以允许或禁止基于设备逐个设备的控制。"
+
+#: ../../chapter03.rst:346
+msgid "DEVICE MANAGER SETTINGS"
+msgstr "设备管理器设置"
+
+#: ../../chapter03.rst:350
+msgid "User Management"
+msgstr "用户管理"
+
+#: ../../chapter03.rst:353
+msgid "Regular User"
+msgstr "普通用户"
+
+#: ../../chapter03.rst:354
+msgid "``Tenant Manager`` > ``Users`` > ``User Manager``"
+msgstr "``租户管理器`` > ``用户`` > ``用户管理器``"
+
+#: ../../chapter03.rst:360
+msgid "TENANT ADMIN > USER MANAGER"
+msgstr "租户管理员 > 用户管理"
+
+#: ../../chapter03.rst:362
+msgid ""
+"To access the user manager, you can click the number of users on "
+"Dashboard, or click the \"Users\" on left side menu."
+msgstr "要访问用户管理器，您可以点击仪表板上的用户数量，或点击左侧菜单的“用户”。"
+
+#: ../../chapter03.rst:364
+msgid ""
+"In the Documentation, the regular user is often referenced as \"Team "
+"User\"."
+msgstr "在文档中，常规用户通常被引用为“团队用户”。"
+
+#: ../../chapter03.rst:366
+msgid ""
+"These are the users that have full privilege of home directory, sharing "
+"and other features."
+msgstr "这些用户拥有家目录、共享和其他功能的全部权限。"
+
+#: ../../chapter03.rst:368
+msgid "User Manager also have a list view:"
+msgstr "用户管理器也有一个列表视图："
+
+#: ../../chapter03.rst:374
+msgid "USER MANAGER LIST/ICON VIEW TOGGLE"
+msgstr "用户管理器列表/图标视图切换"
+
+#: ../../chapter03.rst:376
+msgid ""
+"If you have Active Directory, normally these are the users in the Active "
+"Directory."
+msgstr "如果您有活动目录，通常这些是活动目录中的用户。"
+
+#: ../../chapter03.rst:378
+msgid "Native User"
+msgstr "本地用户"
+
+#: ../../chapter03.rst:380
+msgid "These are the users that are created manually with an email."
+msgstr "这些是通过电子邮件手动创建的用户。"
+
+#: ../../chapter03.rst:382
+msgid "AD User"
+msgstr "AD 用户"
+
+#: ../../chapter03.rst:384
+msgid "These are the users that are imported from Active Directory via LDAP."
+msgstr "这些是通过LDAP从活动目录中导入的用户。"
+
+#: ../../chapter03.rst:386
+msgid "Proxied AD User"
+msgstr "代理 AD 用户"
+
+#: ../../chapter03.rst:388
+msgid ""
+"These are the users that are imported from Server Agent, where the file "
+"server agent is remote and away from the Cluster Server in the customer's"
+" site. The customer's Active Directory domain is also remote, and the "
+"file server itself (where server agent is installed) is in the remote "
+"Active Directory."
+msgstr "这些是从服务器代理导入的用户，其中文件服务器代理是远程的，并且远离客户现场的集群服务器。客户的活动目录域也是远程的，而文件服务器本身（安装了服务器代理的地方）位于远程活动目录中。"
+
+#: ../../chapter03.rst:391
+msgid "**User's File and Folder List**"
+msgstr "**用户的文件和文件夹列表**"
+
+#: ../../chapter03.rst:396
+msgid "VIEWING A USER'S FILE AND FOLDER LIST"
+msgstr "查看用户的文件和文件夹列表"
+
+#: ../../chapter03.rst:398
+msgid ""
+"An admin can view a user's file and folder list using the drive icon "
+"**(3)** for the user in Management Console\\User Manager."
+msgstr "管理员可以通过管理控制台\用户管理器中用户的驱动器图标 **(3)** 来查看用户的文件和文件夹列表。"
+
+#: ../../chapter03.rst:400
+msgid ""
+"First switch the icon view **(1)** to detail view **(2)** and click the "
+"drive icon **(3)** next to the user you are examining. This will open a "
+"new window **(4)** where you can view the files."
+msgstr "首先将图标视图 **(1)** 切换到详细视图 **(2)**，然后点击正在检查的用户旁的驱动器图标 **(3)**。这将打开一个新窗口 **(4)**，您可以在其中查看文件。"
+
+#: ../../chapter03.rst:404 ../../chapter03.rst:1021
+msgid "Guest User"
+msgstr "访客用户"
+
+#: ../../chapter03.rst:405
+msgid "``Tenant Dashboard`` > ``Guest Users`` > ``Guest User Manager``"
+msgstr "``租户仪表板`` > ``来宾用户`` > ``来宾用户管理器``"
+
+#: ../../chapter03.rst:410
+msgid "TENANT ADMIN > GUEST USER MANAGER"
+msgstr "租户管理员 > 访客用户管理器"
+
+#: ../../chapter03.rst:412
+msgid ""
+"Guest users are users that don't have a home directory. The only folder "
+"they have is “Files Shared with Me”. So they rely on other “Regular User”"
+" sharing files and folders with them before they can do anything. If "
+"nobody is sharing anything with a guest user, the guest user doesn't have"
+" any read/write permission to any folder."
+msgstr "访客用户是没有主目录的用户。他们唯一拥有的文件夹是“与我共享的文件”。因此，他们依赖其他“普通用户”与他们共享文件和文件夹，之后他们才能进行任何操作。如果没有人与访客用户共享任何东西，访客用户对任何文件夹都没有读/写权限。"
+
+#: ../../chapter03.rst:414
+msgid ""
+"The primary reason for guest user to exist is to have a secure way for "
+"external user to collaborate and edit documents."
+msgstr "访客用户存在的主要原因是为了让外部用户有一个安全的方式来协作和编辑文档。"
+
+#: ../../chapter03.rst:418
+msgid "Group Manager"
+msgstr "群组管理器"
+
+#: ../../chapter03.rst:419
+msgid "``Tenant Dashboard`` > ``Groups`` > ``Group Manager``"
+msgstr "``租户仪表板`` > ``群组`` > ``群组管理器``"
+
+#: ../../chapter03.rst:424
+msgid "TENANT ADMIN > GROUP MANAGER"
+msgstr "租户管理员 > 群组管理器"
+
+#: ../../chapter03.rst:426
+msgid ""
+"When you have Active Directory integration, you will leverage the Active "
+"Directory group instead of using Group Manager here. This group manager "
+"is to create a group of users in a simple way. It is not as complicated "
+"as Active Directory (such as supporting nested groups) but make it easy "
+"for non-Active Directory users. This is native Cluster group. In the "
+"product, you may also see AD group from the user selection user interface"
+" and Proxied AD group from the user related interface. The AD group and "
+"the proxied AD group are not the same as the group mentioned here."
+msgstr "当您集成了Active Directory后，您将利用Active Directory群组而不是在这里使用群组管理器。这个群组管理器是为了以简单的方式创建用户群组。它没有Active Directory那样复杂（例如支持嵌套群组），但它使非Active Directory用户的使用变得简单。这是原生的Cluster群组。在产品中，您可能还会从用户选择用户界面看到AD群组，以及从用户相关界面看到代理的AD群组。这里提到的AD群组和代理的AD群组与上文提到的群组不同。"
+
+#: ../../chapter03.rst:430
+msgid "Role Manager"
+msgstr "角色管理器"
+
+#: ../../chapter03.rst:432
+msgid "``Tenant Dashboard`` > ``Roles`` > ``Role Manager``"
+msgstr "``租户仪表板`` > ``角色`` > ``角色管理器``"
+
+#: ../../chapter03.rst:434
+msgid ""
+"The Role Manager is to provide role based administration. For example, "
+"you may want to provide read-only permissions to some users. You can also"
+" assign some group policies to some groups of users. More and more policy"
+" items are added to the role manager so in addition to only use role "
+"manager for administration, it can be also used to define policy items "
+"for users."
+msgstr "角色管理器的作用是提供基于角色的管理。例如，您可能希望为某些用户提供只读权限。您还可以为某些用户组分配一些组策略。越来越多的策略项被添加到角色管理器中，因此除了使用角色管理器进行管理外，它还可以用来为用户定义策略项。"
+
+#: ../../chapter03.rst:439
+msgid "ROLE MANAGER ENTRY"
+msgstr "角色管理器入口"
+
+#: ../../chapter03.rst:441
+msgid "When creating a role, there are 4 different sections"
+msgstr "创建角色时，有4个不同的部分"
+
+#: ../../chapter03.rst:443 ../../chapter03.rst:1392
+msgid "Sharing"
+msgstr "共享"
+
+#: ../../chapter03.rst:444
+msgid "Policies"
+msgstr "策略"
+
+#: ../../chapter03.rst:445
+msgid "Permissions"
+msgstr "权限"
+
+#: ../../chapter03.rst:446
+msgid "Assigned Users/Groups"
+msgstr "指定用户/组"
+
+#: ../../chapter03.rst:450
+msgid "Create New Role"
+msgstr "创建新角色"
+
+#: ../../chapter03.rst:452
+msgid "**Sharing**"
+msgstr "**共享**"
+
+#: ../../chapter03.rst:454
+msgid ""
+"You can define areas in the tenant administrator's management console and"
+" assign it into a role."
+msgstr "您可以在租户管理员的管理控制台中定义区域，并将其分配给一个角色。"
+
+#: ../../chapter03.rst:460
+msgid "ROLE MANAGER SHARING"
+msgstr "角色管理共享"
+
+#: ../../chapter03.rst:463
+msgid "**Policies**"
+msgstr "**政策**"
+
+#: ../../chapter03.rst:465
+msgid "Additional policies for the role."
+msgstr "附加的角色政策。"
+
+#: ../../chapter03.rst:470
+msgid "ROLE MANAGER POLICIES"
+msgstr "角色管理策略"
+
+#: ../../chapter03.rst:472
+msgid "**Assigned Users/Groups**"
+msgstr "**指定用户/组**"
+
+#: ../../chapter03.rst:474
+msgid ""
+"After the content of the role is all set, users and groups can be "
+"assigned to a role."
+msgstr "在角色的内容全部设置好之后，可以将用户和组分配给一个角色。"
+
+#: ../../chapter03.rst:479
+msgid "ROLE MANAGER ASSIGNED USERS/GROUPS"
+msgstr "角色管理器已分配用户/组"
+
+#: ../../chapter03.rst:484
+msgid "Reports"
+msgstr "报告"
+
+#: ../../chapter03.rst:486
+msgid "``Tenant Manager`` > ``Reports``"
+msgstr "``租户管理器`` > ``报告``"
+
+#: ../../chapter03.rst:488
+msgid ""
+"The cluster administrator can look at the tenant specific reports for the"
+" tenant."
+msgstr "集群管理员可以查看租户特定的报告。"
+
+#: ../../chapter03.rst:490
+msgid "The Reports section has the following sub categories"
+msgstr "报告部分包含以下子类别"
+
+#: ../../chapter03.rst:492 ../../chapter03.rst:511
+msgid "Upload Report"
+msgstr "上传报告"
+
+#: ../../chapter03.rst:493 ../../chapter03.rst:519
+msgid "Storage Statistics"
+msgstr "存储统计"
+
+#: ../../chapter03.rst:494 ../../chapter03.rst:528
+msgid "Bandwidth Usage"
+msgstr "带宽使用情况"
+
+#: ../../chapter03.rst:496 ../../chapter03.rst:546
+msgid "Shared Objects"
+msgstr "共享对象"
+
+#: ../../chapter03.rst:497 ../../chapter03.rst:555 ../../chapter03.rst:943
+msgid "Audit Trace"
+msgstr "审计追踪"
+
+#: ../../chapter03.rst:498
+msgid "File Change Logging"
+msgstr "文件更改日志"
+
+#: ../../chapter03.rst:500 ../../chapter03.rst:588
+msgid "Distributed Locks"
+msgstr "分布式锁"
+
+#: ../../chapter03.rst:501
+msgid "Pending Purged Folders"
+msgstr "待处理的已清除文件夹"
+
+#: ../../chapter03.rst:507
+msgid "TENANT MANAGER REPORTS"
+msgstr "租户管理员报告"
+
+#: ../../chapter03.rst:515
+msgid "UPLOAD REPORT"
+msgstr "上传报告"
+
+#: ../../chapter03.rst:524
+msgid "STORAGE STATISTICS REPORT"
+msgstr "存储统计报告"
+
+#: ../../chapter03.rst:533
+msgid "BANDWITH USAGE REPORT"
+msgstr "带宽使用报告"
+
+#: ../../chapter03.rst:542
+msgid "TEAM FOLDERS REPORT"
+msgstr "团队文件夹报告"
+
+#: ../../chapter03.rst:551
+msgid "SHARED OBJECTS REPORT"
+msgstr "共享对象报告"
+
+#: ../../chapter03.rst:557
+msgid ""
+"Audit trace contains the management events, such as login success, login "
+"fail , shared a folder and etc."
+msgstr "审计跟踪包含管理事件，例如登录成功、登录失败、共享文件夹等。"
+
+#: ../../chapter03.rst:562
+msgid "AUDIT TRACE REPORT"
+msgstr "审计跟踪报告"
+
+#: ../../chapter03.rst:566
+msgid "File Change Log"
+msgstr "文件更改日志"
+
+#: ../../chapter03.rst:568
+msgid ""
+"File change log is capable of search for user's file change history. It "
+"is most useful when helping user troubleshoot issues. For example, you "
+"can point to the file change log and say, you deleted this file on this "
+"day."
+msgstr "文件更改日志能够搜索用户的文件更改历史。当帮助用户排查问题时，这是非常有用的。例如，您可以指向文件更改日志并说，您在那天删除了这个文件。"
+
+#: ../../chapter03.rst:575
+msgid "FILE CHANGE LOGGING REPORT"
+msgstr "文件更改日志报告"
+
+#: ../../chapter03.rst:584
+msgid "FOLDER PERMISSIONS REPORT"
+msgstr "文件夹权限报告"
+
+#: ../../chapter03.rst:593
+msgid "DISTRIBUTED LOCKS REPORT"
+msgstr "分布式锁报告"
+
+#: ../../chapter03.rst:597
+msgid "Pending Purged Folder"
+msgstr "待处理的已清除文件夹"
+
+#: ../../chapter03.rst:602
+msgid "PENDING PURGED FOLDER REPORT"
+msgstr "待处理的已清除文件夹报告"
+
+#: ../../chapter03.rst:611
+msgid "Active Directory"
+msgstr "活动目录"
+
+#: ../../chapter03.rst:612
+msgid "``Tenant Manager`` > ``Settings`` > ``Active Directory``"
+msgstr "``租户管理器`` > ``设置`` > ``活动目录``"
+
+#: ../../chapter03.rst:617
+msgid "ACTIVE DIRECTORY SETTINGS"
+msgstr "活动目录设置"
+
+#: ../../chapter03.rst:620
+msgid "Local Active Directory"
+msgstr "本地活动目录"
+
+#: ../../chapter03.rst:621
+msgid ""
+"If the tenant's infrastructure is in the same local area network as the "
+"Cluster Server, the Active Directory can be directly accessed and "
+"integrated from the \"Local Active Directory\" page. The integration is "
+"done over LDAP protocol."
+msgstr "如果租户的基础设施与集群服务器在同一个局域网中，可以从“本地活动目录”页面直接访问和集成活动目录。集成是通过LDAP协议完成的。"
+
+#: ../../chapter03.rst:623
+msgid ""
+"However, if the tenant's infrastructure is away from the Cluster Server, "
+"it is recommended using \"Server Agent\" to connect both the tenant's "
+"file server and Active Directory to the Cluster Server."
+msgstr "然而，如果租户的基础设施远离集群服务器，建议使用\"Server Agent\"将租户的文件服务器和活动目录连接到集群服务器。"
+
+#: ../../chapter03.rst:627
+msgid ""
+"If your Active Directory is away from the Cluster Server over the "
+"Internet, skip the \"Local Active Directory\" section but use the "
+"\"Remote Active Directory\" instead."
+msgstr "如果您的活动目录位于互联网上远离群集服务器，请跳过“本地活动目录”部分，而使用“远程活动目录”。"
+
+#: ../../chapter03.rst:629
+msgid "Use LDAP AD Setting only if the AD is in the same Local Area Network."
+msgstr "仅当AD位于同一局域网内时才使用LDAP AD设置。"
+
+#: ../../chapter03.rst:633
+msgid ""
+"The difference between using LDAP to connect Active Directory and using "
+"\"Server Agent\" to connect Active Directory:"
+msgstr "使用LDAP连接活动目录和使用\"服务器代理\"连接活动目录之间的区别："
+
+#: ../../chapter03.rst:635
+msgid ""
+"By using LDAP to connect Active Directory, the assumption is that the "
+"LDAP is local in the local area network so the speed is very fast and "
+"also very reliable. So a lot of the calls and queries are directly "
+"passing through to Active Directory."
+msgstr "通过使用LDAP连接Active Directory，假设LDAP在本地区域网络中，因此速度非常快且非常可靠。所以很多调用和查询都是直接传递给Active Directory的。"
+
+#: ../../chapter03.rst:637
+msgid ""
+"By Using Server Agent to connect Active Directory, the assumption is that"
+" the Active Directory is in a remote location and over the Internet so "
+"the access speed may not be fast and the Internet may not be 100 percent "
+"up and reliable. So the server agent replicates Active Directory related "
+"information over to the Cluster Server."
+msgstr "通过使用服务器代理连接Active Directory，假设Active Directory位于远程位置，并通过Internet进行访问，因此访问速度可能不会很快，且Internet可能不会百分之百稳定可靠。因此，服务器代理会将与Active Directory相关的信息复制到集群服务器。"
+
+#: ../../chapter03.rst:641
+msgid ""
+"The connection to local active directory is via LDAP over Local Area "
+"Network. If the active directory infrastructure is in the same network as"
+" the Cluster Server, this is a convenient way to connect to the active "
+"directory."
+msgstr "通过局域网上的LDAP连接到本地活动目录。如果活动目录基础设施与集群服务器在同一网络中，这是连接到活动目录的便捷方式。"
+
+#: ../../chapter03.rst:644
+msgid "AD Server"
+msgstr "AD 服务器"
+
+#: ../../chapter03.rst:649
+msgid "ACTIVE DIRECTORY - AD SERVER"
+msgstr "活动目录 - AD服务器"
+
+#: ../../chapter03.rst:651
+msgid "**Enable Active Directory Integration**"
+msgstr "**启用活动目录集成**"
+
+#: ../../chapter03.rst:653
+msgid "You will check this when you want to integration with Active Directory."
+msgstr "当您想要与Active Directory集成时，您会检查这个。"
+
+#: ../../chapter03.rst:658
+msgid ""
+"There are two different ways to integrate with Active Directory. One way "
+"is here, using the Lightweight Directory Access Protocol (LDAP) "
+"connection. The other way is to leverage the server agent software. The "
+"server agent software is capable of connecting a remote Active Directory."
+msgstr "有两种不同的方法可以与活动目录集成。一种方法是在这里，使用轻量级目录访问协议（LDAP）连接。另一种方式是利用服务器代理软件。服务器代理软件能够连接远程活动目录。"
+
+#: ../../chapter03.rst:660
+msgid "**Domain Controller Address**"
+msgstr "**域控制器地址**"
+
+#: ../../chapter03.rst:662
+msgid "The domain controller's address, typically in the form of DNS name."
+msgstr "域控制器的地址，通常以DNS名称的形式出现。"
+
+#: ../../chapter03.rst:664 ../../chapter03.rst:1919
+msgid "**User Name**"
+msgstr "**用户名**"
+
+#: ../../chapter03.rst:666
+msgid ""
+"This is recommended to be a service account (password never expire, "
+"account never disable” so the user will be able to query LDAP for users "
+"and authenticate users on the login user's behave."
+msgstr "建议这是一个服务账户（密码永不过期，账户永不禁用），以便用户能够代表登录用户查询LDAP用户并认证用户。"
+
+#: ../../chapter03.rst:668 ../../chapter03.rst:1924
+msgid "**Password**"
+msgstr "**密码**"
+
+#: ../../chapter03.rst:670
+msgid "This is the password for the service account for the “User Name” field."
+msgstr "这是“用户名”字段服务账户的密码。"
+
+#: ../../chapter03.rst:674
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: ../../chapter03.rst:679
+msgid "ACTIVE DIRECTORY - ADVANCED SETTINGS"
+msgstr "活动目录 - 高级设置"
+
+#: ../../chapter03.rst:682
+msgid "**Friendly Domain Name**"
+msgstr "**友好域名**"
+
+#: ../../chapter03.rst:684
+msgid ""
+"**(i.e. mydomain.com, the domain name you see in Active Directory "
+"tools)** This is typically the domain name you see in the Microsoft "
+"Domain and User tool. It needs to be exact match of the domain name. "
+"Otherwise, you will see error message about “referral is required” , "
+"which translates to the domain controller didn't match the domain name "
+"and need to refer you to somewhere else for another domain name."
+msgstr "**（即 mydomain.com，您在 Active Directory 工具中看到的域名）** 这通常是您在 Microsoft 域和用户工具中看到的域名。它需要与域名完全匹配。否则，您会看到关于“需要转介”的错误消息，这意味着域控制器没有匹配域名，并需要将您引荐到其他地方以寻找另一个域名。"
+
+#: ../../chapter03.rst:689
+msgid "FRIENDLY DOMAIN NAME EXAMPLE"
+msgstr "友好域名示例"
+
+#: ../../chapter03.rst:691
+msgid "**Enable LDAPS for secure access**"
+msgstr "**启用 LDAPS 以确保访问安全**"
+
+#: ../../chapter03.rst:693
+msgid ""
+"Disabled by default. Enable this if you are using SSL security on the "
+"domain."
+msgstr "默认禁用。如果您在域上使用SSL安全性，请启用此功能。"
+
+#: ../../chapter03.rst:695
+msgid "**Only include users and groups from the following Organizational Units**"
+msgstr "**仅包括以下组织单位的用户和群组**"
+
+#: ../../chapter03.rst:697
+msgid ""
+"**(e.g. OU=ou1,OU=ou2. Leave this blank to include all OUs)** When you "
+"type in the organization unit, you don't need to type the domain part any"
+" more. It just need the Organization Unit part of the string. This is "
+"allowed for only single Organization Unit specified in its "
+"distinguishedName format without the domain suffix."
+msgstr "**(例如 OU=ou1,OU=ou2。留空以包含所有组织单位)** 当您输入组织单位时，不再需要输入域部分。只需要字符串的组织单位部分即可。这仅允许为其在不带域后缀的distinguishedName格式中指定的单个组织单位。"
+
+#: ../../chapter03.rst:699
+msgid "**Allow Switching to Global Catalog If needed**"
+msgstr "**如果需要，允许切换到全局目录**"
+
+#: ../../chapter03.rst:701
+msgid ""
+"Disabled by default. For some organization that has multiple domain, "
+"sometimes there is a Global Catalog that stores everything inside. This "
+"may be required if you have such situation."
+msgstr "默认情况下禁用。对于一些拥有多个域的组织来说，有时会有一个全局目录存储所有内容。如果您处于这种情况，可能需要这样做。"
+
+#: ../../chapter03.rst:703
+msgid "**Disable Nested Groups**"
+msgstr "**禁用嵌套群组**"
+
+#: ../../chapter03.rst:705
+msgid ""
+"Not checked by default. **(Activating this checkbox may slow down your "
+"access to cloud)** Normally you will activate this option if you have "
+"many groups."
+msgstr "默认情况下不勾选。**(激活此复选框可能会减慢您访问云服务的速度)** 通常，如果您有许多组，您会激活此选项。"
+
+#: ../../chapter03.rst:707
+msgid "**This is the root of the AD Forest and contains multiple sub-domains**"
+msgstr "**这是AD林的根，包含多个子域**"
+
+#: ../../chapter03.rst:709
+msgid ""
+"The Cluster Server supports multiple domains in the same AD forest. You "
+"will need to point to the root of the AD and it is capable of finding all"
+" the sub-domains if you enable the **Discover domain controller IP at "
+"runtime** sub-opion."
+msgstr "集群服务器支持同一AD林中的多个域。您需要指向AD的根目录，如果启用了 **在运行时发现域控制器IP** 子选项，它能够找到所有的子域。"
+
+#: ../../chapter03.rst:711
+msgid "**Don't allow user auto-creation**"
+msgstr "**不允许自动创建用户**"
+
+#: ../../chapter03.rst:713
+msgid ""
+"By default, the Enterprise package is capable of creating users upon "
+"first login into the web portal. However, for big enterprise, they may "
+"want to control the pace of adding users to the system so they will "
+"disable this feature."
+msgstr "默认情况下，企业版套餐能够在首次登录网页门户时创建用户。然而，对于大型企业来说，他们可能希望控制向系统添加用户的速度，因此他们会禁用此功能。"
+
+#: ../../chapter03.rst:715 ../../chapter03.rst:1291
+msgid "**Publish user's home drive**"
+msgstr "**发布用户的主目录**"
+
+#: ../../chapter03.rst:717
+msgid ""
+"When unchecked (default), the user home drive space will be allocated "
+"from enterprise storage. When checked, existing user home drives will be "
+"automatically published from Active Directory."
+msgstr "当未选中（默认）时，用户主目录空间将从企业存储中分配。当选中时，现有的用户主目录将会自动从活动目录中发布。"
+
+#: ../../chapter03.rst:722
+msgid "USER'S PROFILE HOME FOLDER SETTING"
+msgstr "用户配置文件主文件夹设置"
+
+#: ../../chapter03.rst:729
+msgid "Single Sign-On (SAML Integration)"
+msgstr "单点登录（SAML集成）"
+
+#: ../../chapter03.rst:731
+msgid "``Tenant Manager`` > ``Settings`` > ``Single Sign-On``"
+msgstr "``租户管理器`` > ``设置`` > ``单点登录``"
+
+#: ../../chapter03.rst:733
+msgid "Single Sign on via SAML is a per-tenant setting."
+msgstr "通过SAML实现单点登录是每个租户的设置。"
+
+#: ../../chapter03.rst:738
+msgid "ACCESSING SINGLE SIGN ON (SSO) SETTINGS"
+msgstr "访问单点登录（SSO）设置"
+
+#: ../../chapter03.rst:744
+msgid "SINGLE SIGN ON (SSO) SETTINGS"
+msgstr "单点登录（SSO）设置"
+
+#: ../../chapter03.rst:747
+msgid "Single Sign-On is available using SAML authentication."
+msgstr "支持使用SAML认证进行单点登录。"
+
+#: ../../chapter03.rst:749
+msgid ""
+"When it comes to Single Sign-On support via SAML, there are always two "
+"parties."
+msgstr "在支持SAML的单点登录方面，总是有两个参与方。"
+
+#: ../../chapter03.rst:751
+msgid "One is the IdP (the identity provider)"
+msgstr "一个是IdP（身份提供者）"
+
+#: ../../chapter03.rst:752
+msgid "and the other is SP (service provider)"
+msgstr "另一个是SP（服务提供商）"
+
+#: ../../chapter03.rst:754
+msgid ""
+"A user will be registered with the identity provider and use the service "
+"from service provider. The setup here is to allow service provider (the "
+"Cluster Server) to use an identity provider."
+msgstr "用户将在身份提供商处注册，并使用服务提供商的服务。这里的设置是允许服务提供商（集群服务器）使用一个身份提供商。"
+
+#: ../../chapter03.rst:757
+msgid ""
+"The SAML single sign on setup is mostly about matching parameters from "
+"the identity provider to the identity consumer (service provider). As "
+"shown in the screen capture, There are three types of identity provider, "
+"\"Azure AD\" , \"AD FS\" , and \"others (generic)\" that pretty much "
+"covers the most used ones and the most generic ones."
+msgstr "SAML单点登录设置主要涉及将身份提供者的参数与身份消费者（服务提供者）的参数进行匹配。如屏幕截图所示，有三种类型的身份提供者，分别是\"Azure AD\"、\"AD FS\"以及\"其他（通用）\"，基本上涵盖了最常用的和最通用的身份提供者。"
+
+#: ../../chapter03.rst:762
+msgid "**Others (Generic SAML)**"
+msgstr "**其他（通用SAML）**"
+
+#: ../../chapter03.rst:764
+msgid ""
+"Here, The IdP will be a public IdP such as SSOCircle and the SP will be "
+"the Cluster Server. The SSOCircle is used as an example to set up the "
+"IdP; it can work with other IdP as well."
+msgstr "在这里，IdP将是SSOCircle等公共IdP，而SP将是集群服务器。SSOCircle用作设置IdP的示例；它也可以与其他IdP一起工作。"
+
+#: ../../chapter03.rst:767
+msgid ""
+"In a multi-tenant Cluster Server deployment each tenant may want to have "
+"its own SSO service. Therefore, the Single Sign On is a per-tenant "
+"setting."
+msgstr "在多租户集群服务器部署中，每个租户可能希望拥有自己的SSO服务。因此，单点登录是每个租户的设置。"
+
+#: ../../chapter03.rst:770
+msgid "**Step 1: Register the Cluster Server at IdP**"
+msgstr "**步骤1：在IdP注册集群服务器**"
+
+#: ../../chapter03.rst:772
+msgid ""
+"IdP will need to register the Cluster Server as a service provider (SP) "
+"by importing the SP's meta data. You will find the Cluster's metadata at "
+"the following location (per-tenant setting)."
+msgstr "IdP需要将集群服务器注册为服务提供商（SP），方法是导入SP的元数据。您将在以下位置找到集群的元数据（每租户设置）。"
+
+#: ../../chapter03.rst:777
+msgid "SERVICE PROVIDER META DATA LINK"
+msgstr "服务提供商元数据链接"
+
+#: ../../chapter03.rst:779
+msgid ""
+"We can use the following xml to register the Cluster as an SP at "
+"SSOCircle:"
+msgstr "我们可以使用以下xml在SSOCircle注册集群作为一个SP："
+
+#: ../../chapter03.rst:784
+msgid "REGISTER CLUSTER SERVER AS AN SP AT SSOCIRCLE"
+msgstr "在SSOCIRCLE注册集群服务器作为服务提供商"
+
+#: ../../chapter03.rst:786
+msgid "Now at the SSOCircle, need to add a new service provider:"
+msgstr "现在在SSOCircle，需要添加一个新的服务提供商："
+
+#: ../../chapter03.rst:791
+msgid "ADD A SERVICE PROVIDER AT SSOCIRCLE"
+msgstr "在SSOCIRCLE添加一个服务提供商"
+
+#: ../../chapter03.rst:793
+msgid ""
+"In the next screen we can paste in the xml from the Cluster side, set the"
+" FQDN to the URL contained within the XML, and check the 3 parameters, "
+"the FirstName, LastName and Email."
+msgstr "在下一个屏幕中，我们可以粘贴来自集群端的xml，将FQDN设置为XML中包含的URL，并检查3个参数，FirstName、LastName和Email。"
+
+#: ../../chapter03.rst:799
+msgid "INSERT YOUR METADATA INFORMATION"
+msgstr ""
+
+#: ../../chapter03.rst:801
+msgid "Now the SSOCircle side of the registration is done."
+msgstr "现在SSOCircle方面的注册已经完成。"
+
+#: ../../chapter03.rst:803
+msgid "**Step 2: Register SSOCircle at the Cluster Server side**"
+msgstr "**步骤2：在集群服务器端注册SSOCircle**"
+
+#: ../../chapter03.rst:805
+msgid ""
+"The IdP registration and SP registration is a two-way I trust you and now"
+" you trust me kind of manual setup."
+msgstr "IdP注册和SP注册是一种双向的我信任你现在你信任我的手动设置。"
+
+#: ../../chapter03.rst:810
+msgid "MUTUAL TRUST SP REGISTRATION"
+msgstr "相互信任 SP 注册"
+
+#: ../../chapter03.rst:812
+msgid ""
+"The meta data from the SSOCircle look like this and it can be imported to"
+" the Cluster Server."
+msgstr "SSOCircle 的元数据看起来像这样，可以导入到集群服务器中。"
+
+#: ../../chapter03.rst:817
+msgid "EXAMPLE OF SSOCIRCLE META DATA"
+msgstr "SSOCIRCLE 元数据示例"
+
+#: ../../chapter03.rst:819
+msgid ""
+"Inside the meta data from SSOCircle, you will see there is a HTTP-"
+"Redirect URL, that will be the URL we use to register the IdP. And also "
+"register the 3 parameters (FirstName, LastName, EmailAddress) from the "
+"IdP."
+msgstr "在SSOCircle的元数据中，您会看到有一个HTTP-Redirect URL，那将是我们用来注册IdP的URL。同时还需要从IdP注册3个参数（FirstName，LastName，EmailAddress）。"
+
+#: ../../chapter03.rst:825
+msgid "SINGLE SIGN ON SETTINGS"
+msgstr "单点登录设置"
+
+#: ../../chapter03.rst:827
+msgid "**Step 3: Login at the IdP, but use service at SP**"
+msgstr "**步骤3：在IdP登录，但在SP使用服务**"
+
+#: ../../chapter03.rst:829
+msgid ""
+"As the summary, the IdP and SP register each other's meta data, register "
+"each other's URL and parameters. After that, it will be single signon at "
+"the IdP side. The login will be at the IdP side, and after login, it will"
+" redirect back to the SP side."
+msgstr "总结来说，身份提供者（IdP）和服务提供者（SP）相互注册对方的元数据、URL和参数。完成这些后，在身份提供者这边将实现单点登录。登录将在身份提供者这边进行，登录后，页面将重定向回服务提供者那边。"
+
+#: ../../chapter03.rst:836
+msgid "IDP SIDE SIGLE SIGNON"
+msgstr "IDP端单点登录"
+
+#: ../../chapter03.rst:839
+msgid "File Locking"
+msgstr "文件锁定"
+
+#: ../../chapter03.rst:841
+msgid "``Tenant Manager`` > ``Settings`` > ``File Locking``"
+msgstr "``租户管理器`` > ``设置`` > ``文件锁定``"
+
+#: ../../chapter03.rst:843
+msgid ""
+"File Locking can be accessed from the \"Settings\" menu in the Tenant "
+"Dashboard."
+msgstr "文件锁定可以通过租户仪表板中的“设置”菜单访问。"
+
+#: ../../chapter03.rst:848
+msgid "FILE LOCKING SETTING"
+msgstr "文件锁定设置"
+
+#: ../../chapter03.rst:850
+msgid ""
+"After you click the \"Settings\" icon in \"File Locking\" window, here is"
+" the screen for the file locking settings details."
+msgstr "在您点击“文件锁定”窗口中的“设置”图标后，这里是文件锁定设置详情的屏幕。"
+
+#: ../../chapter03.rst:855
+msgid "FILE LOCKING SETTINGS"
+msgstr "文件锁定设置"
+
+#: ../../chapter03.rst:858
+msgid ""
+"Settings under file locking applies to all clients which include desktop "
+"clients as well as server agent clients."
+msgstr "文件锁定下的设置适用于所有客户端，包括桌面客户端以及服务器代理客户端。"
+
+#: ../../chapter03.rst:861
+msgid "**Enable Distributed locking when accessing files**"
+msgstr "**启用分布式锁定访问文件时**"
+
+#: ../../chapter03.rst:863
+msgid ""
+"In the Cluster Server, there are two ways to lock files, one is manually "
+"by right-clicking on a file and select “Check out”. The other way is "
+"automatic based on certain binary executables. For example, you can see "
+"Microsoft Office executable files like winword.exe and so on."
+msgstr "在集群服务器中，有两种锁定文件的方法，一种是通过右键单击文件并选择“签出”来手动操作。另一种方式是基于某些二进制可执行文件自动进行。例如，您可以看到像winword.exe这样的Microsoft Office可执行文件等等。"
+
+#: ../../chapter03.rst:866
+msgid "**Lock file exclusively**"
+msgstr "**独占锁定文件**"
+
+#: ../../chapter03.rst:868
+msgid ""
+"When enabled, the locked file will be locked exclusively. When disabled, "
+"the other user who is trying to open the locked file will be notified "
+"about the lock status, but will still be able to open the file."
+msgstr "启用时，锁定的文件将被独占锁定。禁用时，尝试打开锁定文件的其他用户将会收到锁定状态的通知，但仍然可以打开文件。"
+
+#: ../../chapter03.rst:871
+msgid ""
+"**Automatically open file in read only mode when file is locked and "
+"\"Lock file exclusively\" is not checked.**"
+msgstr "**当文件被锁定且未勾选“独占锁定文件”时，自动以只读模式打开文件。**"
+
+#: ../../chapter03.rst:873
+msgid ""
+"When this setting is enabled (default), a second attempt to open a locked"
+" file will result in the file opening in read-only mode. If \"Lock file "
+"exclusively\" is checked, then second user will not be able to open a "
+"locked file."
+msgstr "当此设置启用（默认）时，第二次尝试打开被锁定的文件将导致文件以只读模式打开。如果勾选了“文件独占锁定”，那么第二个用户将无法打开被锁定的文件。"
+
+#: ../../chapter03.rst:876
+msgid "**Delay sync until file is unlocked**"
+msgstr "**延迟同步直到文件解锁**"
+
+#: ../../chapter03.rst:878
+msgid ""
+"It is recommended to check this setting. Most users have the habit to "
+"save files in the middle of editing. You don't want these edits to go "
+"every time to the cloud for these intermediate saves. You want to do a "
+"save to the cloud at the end like a grand finale. So you can delay sync "
+"until the file is unlocked."
+msgstr "建议检查此设置。大多数用户在编辑过程中都有保存文件的习惯。您不希望这些中间保存的编辑每次都同步到云端。您希望在最后像大结局一样再保存到云端。因此，您可以延迟同步，直到文件解锁。"
+
+#: ../../chapter03.rst:882
+msgid "**Unlock file after file is uploaded**"
+msgstr "**上传文件后解锁文件**"
+
+#: ../../chapter03.rst:884
+msgid "After the file is uploaded, unlock the file."
+msgstr "文件上传后，解锁该文件。"
+
+#: ../../chapter03.rst:887
+msgid "**Lock file natively on network shares**"
+msgstr "**在网络共享上本地锁定文件**"
+
+#: ../../chapter03.rst:889
+msgid ""
+"When a file is locked in the |prodname|, if the file is from an attached "
+"network share, the |prodname| lock will be converted into a native file "
+"system lock on the network share. This provides locking interoperability "
+"between the |prodname| and the underlying file system network share."
+msgstr "当一个文件在 |prodname| 中被锁定时，如果该文件来自一个连接的网络共享，|prodname| 上的锁将被转换为网络共享上的本地文件系统锁。这提供了 |prodname| 与底层文件系统网络共享之间的锁定互操作性。"
+
+#: ../../chapter03.rst:892
+msgid ""
+"**Enable scheduled sync for files with following extensions "
+"(i.e.[.mdb][.qbw]) when the file is locked\"**"
+msgstr "**启用计划同步，以便在文件被锁定时同步以下扩展名的文件（例如[.mdb][.qbw]）**"
+
+#: ../../chapter03.rst:894
+msgid ""
+"When files are locked, the client will consolidate multiple changes into "
+"one upload event and use Volume Shadow Copy to avoid interfering with "
+"applications that are using the files. Typically this applies to database"
+" files that are constantly in use and constantly actively writing "
+"(commit) to the database file."
+msgstr "当文件被锁定时，客户端将把多次更改合并为一次上传事件，并使用卷影复制服务来避免干扰正在使用这些文件的应用程序。这通常适用于数据库文件，因为这些文件一直在使用中，并且不断地活跃地写入（提交）到数据库文件。"
+
+#: ../../chapter03.rst:897
+msgid "**How often to sync the files with above extensions**"
+msgstr "**如何频繁同步具有上述扩展名的文件**"
+
+#: ../../chapter03.rst:899
+msgid ""
+"This setting allows you to control the interval of synchronization that "
+"takes place on the above file extensions."
+msgstr "此设置允许您控制上述文件扩展名的同步间隔。"
+
+#: ../../chapter03.rst:902
+msgid "**Apply lock only to the following processes (Lower case)**"
+msgstr "**仅对以下进程应用锁定（小写）**"
+
+#: ../../chapter03.rst:904
+msgid ""
+"You can specify the processes here for which locking should be applied. "
+"By default, locking is enabled for Microsoft Word, Excel, and PowerPoint."
+msgstr "您可以在此指定应用锁定的进程。默认情况下，锁定功能会启用于Microsoft Word、Excel和PowerPoint。"
+
+#: ../../chapter03.rst:907
+msgid "**Apply lock only to the following MAC processes\"(Lower case)**"
+msgstr "**仅对以下MAC进程应用锁定\"(小写)**"
+
+#: ../../chapter03.rst:909
+msgid ""
+"You can specify the processes here for which locking should be applied. "
+"By default, locking is enabled for Microsoft Word, Excel, PowerPoint and "
+"MAC text editor."
+msgstr "您可以在此指定应用锁定的进程。默认情况下，锁定功能会启用于Microsoft Word、Excel、PowerPoint和MAC文本编辑器。"
+
+#: ../../chapter03.rst:912
+msgid ""
+"**Locking is disabled for files with the following extensions "
+"(i.e.[.xml][.exe])**"
+msgstr "**对于具有以下扩展名的文件，锁定功能被禁用（即[.xml][.exe]）**"
+
+#: ../../chapter03.rst:914
+msgid ""
+"You can use this setting to specify which file types will be ignored with"
+" regard to the file-locking feature."
+msgstr "您可以使用此设置来指定在文件锁定功能方面将忽略哪些文件类型。"
+
+#: ../../chapter03.rst:918
+msgid "Notifications"
+msgstr "通知"
+
+#: ../../chapter03.rst:920
+msgid "``Tenant Manager`` > ``Settings`` > ``Notifications``"
+msgstr "``租户管理器`` > ``设置`` > ``通知``"
+
+#: ../../chapter03.rst:922
+msgid ""
+"The cluster administrator can use the notification manager to help the "
+"tenant setup notification events. The tenant administrator will receive "
+"email notifications for the events subscribed."
+msgstr "集群管理员可以使用通知管理器帮助租户设置通知事件。租户管理员将会收到所订阅事件的电子邮件通知。"
+
+#: ../../chapter03.rst:928
+msgid "NOTIFICATIONS"
+msgstr "通知"
+
+#: ../../chapter03.rst:936
+msgid "NOTIFICATION SETTINGS"
+msgstr "通知设置"
+
+#: ../../chapter03.rst:938
+msgid "**Send Daily Notification Email**"
+msgstr "**发送每日通知电子邮件**"
+
+#: ../../chapter03.rst:940
+msgid ""
+"When set, the system will send email notification daily about the events "
+"you are interested (Select below)."
+msgstr "设置后，系统将每天通过电子邮件通知您所关注的事件（请在下面选择）。"
+
+#: ../../chapter03.rst:942
+msgid "File Changes"
+msgstr "文件更改"
+
+#: ../../chapter03.rst:944
+msgid "Users approaching the storage quota limit"
+msgstr "用户接近存储配额限制"
+
+#: ../../chapter03.rst:945
+msgid "Notification threshold"
+msgstr "通知阈值"
+
+#: ../../chapter03.rst:947
+msgid "**Notify tenant admin when member's sync task failed or paused**"
+msgstr "**通知租户管理员当成员的同步任务失败或暂停时**"
+
+#: ../../chapter03.rst:949
+msgid "**Notify tenant admin when a member shares a folder**"
+msgstr "**通知租户管理员当一个成员共享了一个文件夹**"
+
+#: ../../chapter03.rst:951
+msgid "**Notify me when a user account is locked out**"
+msgstr "**当用户账户被锁定时通知我**"
+
+#: ../../chapter03.rst:953
+msgid "**Do not show file change notifications on Windows and Mac client**"
+msgstr "**不要在Windows和Mac客户端上显示文件更改通知**"
+
+#: ../../chapter03.rst:955
+msgid ""
+"**Send notification to these emails in addition to tenant admin's email "
+"(email;email2)**"
+msgstr "**除租户管理员的电子邮件外，还发送通知到这些电子邮件（email;email2）**"
+
+#: ../../chapter03.rst:957
+msgid "This is used for additional administrators to receive email notification."
+msgstr "此用于额外的管理员接收电子邮件通知。"
+
+#: ../../chapter03.rst:960
+msgid "Shared File/Folder"
+msgstr "共享文件/文件夹"
+
+#: ../../chapter03.rst:965
+msgid "SHARES SUBSCRIPTIONS"
+msgstr "股份订阅"
+
+#: ../../chapter03.rst:967
+msgid "Notification regarding modified/downloaded shared files and folders."
+msgstr "关于修改/下载的共享文件和文件夹的通知。"
+
+#: ../../chapter03.rst:971
+msgid "Team Folder"
+msgstr "团队文件夹"
+
+#: ../../chapter03.rst:976
+msgid "TEAM FOLDER SUBSCRIPTIONS"
+msgstr "团队文件夹订阅"
+
+#: ../../chapter03.rst:978
+msgid ""
+"Administrators can use this setting to receive notifications when changes"
+" occur in Team Folders."
+msgstr "管理员可以使用此设置来接收团队文件夹发生更改时的通知。"
+
+#: ../../chapter03.rst:982
+msgid "User Account & Security"
+msgstr "用户账户与安全"
+
+#: ../../chapter03.rst:985
+msgid "Tenant Administrators"
+msgstr "租户管理员"
+
+#: ../../chapter03.rst:987
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Tenant Administrators``"
+msgstr "``租户管理器`` > ``设置`` > ``用户账户与安全`` > ``租户管理员``"
+
+#: ../../chapter03.rst:989
+msgid ""
+"In the administrator information page, the cluster administrator can help"
+" the tenant manager change their email and user name if they need to, and"
+" to also setup delegated administrators."
+msgstr "在管理员信息页面中，集群管理员可以帮助租户管理员在需要时更改他们的电子邮件和用户名，并且还可以设置委派管理员。"
+
+#: ../../chapter03.rst:991
+msgid ""
+"The delegated administrators that are setup at the cluster level are "
+"users who are already in the Cluster Server and will be helping out the "
+"management of this specific tenant. Access these settings by clicking "
+"\"User Account & Security\" from \"Settings\" section, and choose the "
+"\"Tenant Administrators\" icon. You can define a group of users here to "
+"delegate the administration of tenants to other users."
+msgstr "在集群级别设置的委派管理员是已经在集群服务器中的用户，他们将协助管理这个特定的租户。通过点击“设置”部分的“用户账户与安全”，然后选择“租户管理员”图标来访问这些设置。您可以在这里定义一组用户，将租户的管理工作委托给其他用户。"
+
+#: ../../chapter03.rst:996
+msgid "TENANT ADMINISTRATORS"
+msgstr "租户管理员"
+
+#: ../../chapter03.rst:1001
+msgid ""
+"Delegated administrators have two different roles. First of all, they are"
+" not the default administrator in the tenant so normally they are just "
+"normal team users in the tenant."
+msgstr "委派的管理员有两种不同的角色。首先，他们不是租户中的默认管理员，所以通常他们只是租户中的普通团队用户。"
+
+#: ../../chapter03.rst:1005
+msgid ""
+"However, they can elevate themselves into the admin role by clicking the "
+"elevation icon that is available to delegated administrators."
+msgstr "然而，他们可以通过点击授权管理员可用的提升图标，将自己提升为管理员角色。"
+
+#: ../../chapter03.rst:1009
+msgid "User Account"
+msgstr "用户账户"
+
+#: ../../chapter03.rst:1011
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``User "
+"Account``"
+msgstr "``租户管理器`` > ``设置`` > ``用户账户与安全`` > ``用户账户``"
+
+#: ../../chapter03.rst:1013
+msgid ""
+"This is how \"User Account\" settings looks when \"2-Step Verification is"
+" not turned on by the Cluster Manager."
+msgstr "这是当\"集群管理器\"未开启\"两步验证\"时“用户账户”设置的样子。"
+
+#: ../../chapter03.rst:1018
+msgid "USER ACCOUNT SETTINGS"
+msgstr "用户账户设置"
+
+#: ../../chapter03.rst:1022
+msgid "**Allow creation of guest user**"
+msgstr "**允许创建访客用户**"
+
+#: ../../chapter03.rst:1024
+msgid ""
+"When enabled (default), you will allow creating of guest user when team "
+"user share files or folders with external users. When disabled, the "
+"file/folder sharing is limited to regular users only or anonymous users "
+"only."
+msgstr "当启用（默认）时，您将允许在团队用户与外部用户共享文件或文件夹时创建访客用户。当禁用时，文件/文件夹共享仅限于常规用户或匿名用户。"
+
+#: ../../chapter03.rst:1027
+msgid "Account Info"
+msgstr "账户信息"
+
+#: ../../chapter03.rst:1028
+msgid "**Allow user to edit account info**"
+msgstr "**允许用户编辑账户信息**"
+
+#: ../../chapter03.rst:1030
+msgid ""
+"When enabled (default), this setting allows users to edit their account "
+"information."
+msgstr "启用时（默认），此设置允许用户编辑他们的账户信息。"
+
+#: ../../chapter03.rst:1032
+msgid "**Allow proxied AD user to change native password (Non AD Password)**"
+msgstr "**允许代理的 AD 用户更改本地密码（非 AD 密码）**"
+
+#: ../../chapter03.rst:1034
+msgid ""
+"Proxied AD user refers to Active Directory users from remote server agent"
+" machine. Normally the initial password and changed password are "
+"synchronized from the server agent side periodically so the end user is "
+"always using the same Active Directory credentials to log in. However, "
+"there may be cases when you want the user to break away from the old "
+"Active Directory and setup credential natively on |prodname|."
+msgstr "代理AD用户指的是来自远程服务器代理机器的活动目录用户。通常，初始密码和更改后的密码会定期从服务器代理端同步，因此最终用户始终使用相同的活动目录凭据登录。然而，在某些情况下，您可能希望用户摆脱旧的活动目录，并在 |prodname| 上本地设置凭证。"
+
+#: ../../chapter03.rst:1041
+msgid "2-Step Verification"
+msgstr "两步验证"
+
+#: ../../chapter03.rst:1045 ../../chapter03.rst:1088
+msgid "USER ACCOUNT SETTINGS (Cont.)"
+msgstr "用户账户设置（续）"
+
+#: ../../chapter03.rst:1048
+msgid "**Enforce 2-Step Verification on users**"
+msgstr "**对用户强制执行两步验证**"
+
+#: ../../chapter03.rst:1050
+msgid ""
+"Enforce 2-step verification will force the users to setup 2-step "
+"verification via Google Authenticator, Microsoft Authenticator, Amazon "
+"MFA or any app that supports the same 2-step verification algorithm."
+msgstr "强制执行两步验证将迫使用户通过Google Authenticator、Microsoft Authenticator、Amazon MFA或任何支持相同两步验证算法的应用程序来设置两步验证。"
+
+#: ../../chapter03.rst:1052
+msgid "**Do not enforce 2-Step Verification on Windows client**"
+msgstr "**不要在Windows客户端上强制执行两步验证**"
+
+#: ../../chapter03.rst:1054 ../../chapter03.rst:1062
+msgid "Tuning on windows client whether to enforce 2-step verification"
+msgstr "在Windows客户端上调整是否强制执行两步验证"
+
+#: ../../chapter03.rst:1056
+msgid "**Do not enforce 2-Step Verification on Mac client**"
+msgstr "**不要在Mac客户端上强制执行两步验证**"
+
+#: ../../chapter03.rst:1058
+msgid "Tuning on mac client whether to enforce 2-step verification"
+msgstr "在Mac客户端上调整是否强制执行两步验证"
+
+#: ../../chapter03.rst:1060
+msgid "**Do not enforce 2-Step Verification on Mobile client**"
+msgstr "**不要在移动客户端上强制执行两步验证**"
+
+#: ../../chapter03.rst:1064
+msgid "**Disable 2-Step Verification**"
+msgstr "**禁用两步验证**"
+
+#: ../../chapter03.rst:1066
+msgid ""
+"Disable 2-step verification. One possible use case is when 2-step "
+"verification is no longer needed or 2-step verification needs to be "
+"disabled temporarily."
+msgstr "禁用两步验证。一个可能的用例是当不再需要两步验证或需要暂时禁用两步验证时。"
+
+#: ../../chapter03.rst:1069
+msgid "**Do NOT enforce 2-Step Verification on guest users**"
+msgstr "**不要对访客用户强制执行两步验证**"
+
+#: ../../chapter03.rst:1071
+msgid ""
+"Guest users may have a set of credentials to login to receive shared "
+"files and folders. This policy define whether to enforce 2-step "
+"verification for them."
+msgstr "访客用户可能拥有一组凭据以登录接收共享的文件和文件夹。此策略定义是否对他们强制执行两步验证。"
+
+#: ../../chapter03.rst:1074
+msgid "**Disable option to request 2-step verification code by email**"
+msgstr "**禁用通过电子邮件请求两步验证代码的选项**"
+
+#: ../../chapter03.rst:1076
+msgid ""
+"If user doesn't have the 2-step verification app on the mobile device, "
+"the alternative is to send the code to user's email."
+msgstr "如果用户的移动设备上没有安装两步验证应用，另一种选择是将验证码发送到用户的电子邮件。"
+
+#: ../../chapter03.rst:1078
+msgid "**Do not send verification code in email subject**"
+msgstr "**不要在电子邮件主题中发送验证码**"
+
+#: ../../chapter03.rst:1080
+msgid ""
+"If the code has to be sent over email, don't send the code in the subject"
+" line."
+msgstr "如果代码需要通过电子邮件发送，请不要在邮件主题行中发送代码。"
+
+#: ../../chapter03.rst:1084
+msgid "Login Control"
+msgstr "登录控制"
+
+#: ../../chapter03.rst:1090
+msgid "**Account Lockout Threshold (0 - never lockout)**"
+msgstr "**账户锁定阈值（0 - 永不锁定）**"
+
+#: ../../chapter03.rst:1092
+msgid ""
+"You can specify the Account lockout threshold limit here. The limit "
+"specified will be the number of invalid logon attempts that will be "
+"allowed before an account is locked out. Default is 0 (never lockout)."
+msgstr "您可以在此处指定帐户锁定阈值限制。指定的限制将是允许的无效登录尝试次数，在此之后帐户将被锁定。默认值为0（永不锁定）。"
+
+#: ../../chapter03.rst:1094
+msgid ""
+"**Enforce progressively longer waiting times after invalid logon "
+"attempts**"
+msgstr "**在无效登录尝试后强制执行逐渐增长的等待时间**"
+
+#: ../../chapter03.rst:1096
+msgid ""
+"Disabled by default. Under login control, you can also enforce "
+"progressively longer waiting times after invalid logon attempts."
+msgstr "默认情况下禁用。在登录控制下，您还可以在无效登录尝试后强制执行逐渐延长的等待时间。"
+
+#: ../../chapter03.rst:1098
+msgid "**Send email notification when logging in from a new location/device**"
+msgstr "**在从新位置/设备登录时发送电子邮件通知**"
+
+#: ../../chapter03.rst:1100
+msgid ""
+"Disabled by default. Another setting under login control is the 'Send "
+"email notification when login from new location/device'. This setting "
+"will send an email to users whenever a different device or location is "
+"used to login."
+msgstr "默认情况下禁用。登录控制下的另一个设置是'从新位置/设备登录时发送电子邮件通知'。每当使用不同的设备或位置登录时，此设置将向用户发送一封电子邮件。"
+
+#: ../../chapter03.rst:1102
+msgid "**Native Client Token Timeout (days, 0 - never timeout)**"
+msgstr "**本地客户端令牌超时（天数，0 - 永不超时）**"
+
+#: ../../chapter03.rst:1104
+msgid ""
+"Determines if and when the Native Client Token will timeout, in days. "
+"Default is 15 days."
+msgstr "确定本机客户端令牌何时以及是否会超时，单位为天。默认为15天。"
+
+#: ../../chapter03.rst:1106
+msgid "**Web Browser Session Timeout (minutes, 0 - never timeout)**"
+msgstr "**网页浏览器会话超时（分钟，0 - 永不超时）**"
+
+#: ../../chapter03.rst:1108
+msgid ""
+"Determines if and when the Web Browser Session timeout, in minutes, will "
+"occur. Default is 120 minutes."
+msgstr "确定Web浏览器会话超时的时间和发生情况，单位为分钟。默认值为120分钟。"
+
+#: ../../chapter03.rst:1112
+msgid "Password Policy"
+msgstr "密码策略"
+
+#: ../../chapter03.rst:1114
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Password Policy``"
+msgstr "``租户管理器`` > ``设置`` > ``用户账户与安全`` > ``密码策略``"
+
+#: ../../chapter03.rst:1116
+msgid "Here you can adjust your password policy settings."
+msgstr "在这里您可以调整密码策略设置。"
+
+#: ../../chapter03.rst:1121
+msgid "PASSWORD POLICY SETTINGS"
+msgstr "密码策略设置"
+
+#: ../../chapter03.rst:1123
+msgid "**Enforce password policy for non-AD users**"
+msgstr "**为非AD用户强制执行密码策略**"
+
+#: ../../chapter03.rst:1125
+msgid ""
+"By default, non-AD users are not enforced to use this policy when setting"
+" their passowrd. Enable this to enforce the following rules."
+msgstr "默认情况下，非AD用户在设置密码时不强制使用此策略。启用此功能以强制执行以下规则。"
+
+#: ../../chapter03.rst:1127
+msgid "**Minimum password length**"
+msgstr "**密码最小长度**"
+
+#: ../../chapter03.rst:1129
+msgid ""
+"Require the password to contain a certain number of characters as a "
+"minimum. Default is 8."
+msgstr "要求密码至少包含一定数量的字符。默认为8。"
+
+#: ../../chapter03.rst:1131
+msgid "**Users must change password every n days (0 - never)**"
+msgstr "**用户必须每n天更换密码（0 - 从不）**"
+
+#: ../../chapter03.rst:1133
+msgid ""
+"Force users to change their passwords every so many days. Default is 0 "
+"(never)."
+msgstr "强制用户每隔若干天就更改密码。默认值为0（永不）。"
+
+#: ../../chapter03.rst:1135
+msgid "**Must contain upper case characters**"
+msgstr "**必须包含大写字母**"
+
+#: ../../chapter03.rst:1137
+msgid ""
+"Enforce the use of upper-case characters in the password. Default is "
+"enabled."
+msgstr "强制密码中使用大写字符。默认为启用。"
+
+#: ../../chapter03.rst:1139
+msgid "**Must contain lower case characters**"
+msgstr "**必须包含小写字母**"
+
+#: ../../chapter03.rst:1141
+msgid ""
+"Enforce the use of lower-case characters in the password. Default is "
+"enabled."
+msgstr "强制密码中使用小写字符。默认为启用。"
+
+#: ../../chapter03.rst:1143
+msgid "**Must contain base10 digits (0-9)**"
+msgstr "**必须包含基数为10的数字（0-9）**"
+
+#: ../../chapter03.rst:1145
+msgid "Enforce the use of base10 digits in the password. Default is enabled."
+msgstr "强制在密码中使用 base10 数字。默认为启用。"
+
+#: ../../chapter03.rst:1147
+msgid "**Must contain non-alphanumeric characters: (e.g., ~ ! @ # $ % ^ &)**"
+msgstr "**必须包含非字母数字字符：（例如，~ ! @ # $ % ^ &）**"
+
+#: ../../chapter03.rst:1149
+msgid ""
+"Enforce the use of special non-alphanumeric characters when creating a "
+"password. Default is enabled."
+msgstr "在创建密码时强制使用特殊的非字母数字字符。默认为启用。"
+
+#: ../../chapter03.rst:1154
+msgid "Access Control"
+msgstr "访问控制"
+
+#: ../../chapter03.rst:1156
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Access Control``"
+msgstr "``租户管理器`` > ``设置`` > ``用户账户与安全`` > ``访问控制``"
+
+#: ../../chapter03.rst:1158
+msgid ""
+"In the Admin Access Control, the cluster administrator can decide the "
+"division of work between cluster administrators and the specific tenant "
+"administrator. A lot of times, the cluster administrator will help with "
+"setting things up. In this case, the cluster administrator can take away "
+"some of the administrative work from the tenant administrator."
+msgstr "在管理员访问控制中，集群管理员可以决定集群管理员和特定租户管理员之间的工作分配。很多时候，集群管理员会帮助设置事务。在这种情况下，集群管理员可以分担一些租户管理员的管理工作。"
+
+#: ../../chapter03.rst:1162
+msgid ""
+"For example, if the cluster administrator is a Managed Service Provider "
+"(MSP), the tenant admin can be an admin user from a specific client "
+"(customer)."
+msgstr "例如，如果集群管理员是托管服务提供商（MSP），租户管理员可以是来自特定客户（顾客）的管理员用户。"
+
+#: ../../chapter03.rst:1164
+msgid ""
+"Or, if the cluster administrator is an enterprise IT directory, the "
+"tenant admin can be a specific division of the enterprise."
+msgstr "或者，如果集群管理员是企业IT目录，租户管理员可以是企业的特定部门。"
+
+#: ../../chapter03.rst:1169
+msgid "ACCESS CONTROL SETTINGS"
+msgstr "访问控制设置"
+
+#: ../../chapter03.rst:1171
+msgid "**Allow tenant to attach external cloud storage**"
+msgstr "**允许租户连接外部云存储**"
+
+#: ../../chapter03.rst:1173
+msgid ""
+"If checked, in the tenant administrator's management console, the "
+"\"Storage Manager\" will show and allow tenant administrator to mount "
+"(attach) external storage."
+msgstr "如果选中，在租户管理员的管理控制台中，“存储管理器”将显示并允许租户管理员挂载（附加）外部存储。"
+
+#: ../../chapter03.rst:1175
+msgid ""
+"If the cluster administrator is setting it up for the tenant, the cluster"
+" administrator can take away this privilege."
+msgstr "如果集群管理员是为租户设置它，集群管理员可以取消这项特权。"
+
+#: ../../chapter03.rst:1178
+msgid "**Allow tenant to edit branding settings**"
+msgstr "**允许租户编辑品牌设置**"
+
+#: ../../chapter03.rst:1180
+msgid ""
+"The Cluster administrator can decide whether to allow tenant "
+"administrator to have its own branding."
+msgstr "集群管理员可以决定是否允许租户管理员拥有自己的品牌形象。"
+
+#: ../../chapter03.rst:1183
+msgid "**Do not show GDPR consent form**"
+msgstr "**不显示GDPR同意表格**"
+
+#: ../../chapter03.rst:1185
+msgid ""
+"The EU General Data Protection Regulation (GDPR) is the most important "
+"change in data privacy regulation in 20 years.  There are regulations "
+"about collecting user information and software needs to provide consent "
+"form. If you have customers in the EU, it is recommended to show the "
+"consent form."
+msgstr "欧盟通用数据保护条例（GDPR）是20年来数据隐私法规中最重要的变化。关于收集用户信息有相应的规定，软件需要提供同意表单。如果您在欧盟有客户，建议展示同意表单。"
+
+#: ../../chapter03.rst:1189
+msgid "**Allow tenant to increase user plan automatically**"
+msgstr "**允许租户自动增加用户计划**"
+
+#: ../../chapter03.rst:1191
+msgid ""
+"The Cluster administrator can decide whether to allow the tenant to grow "
+"the user count automatically."
+msgstr "集群管理员可以决定是否允许租户自动增加用户数量。"
+
+#: ../../chapter03.rst:1194
+msgid "**Multi AD Domain Support**"
+msgstr "**多个AD域支持**"
+
+#: ../../chapter03.rst:1196
+msgid "Support multiple Active Directories in a single tenant (current tenant)."
+msgstr "支持在单一租户（当前租户）中支持多个活动目录"
+
+#: ../../chapter03.rst:1198
+msgid ""
+"Multiple Active Directory forests support. This is not a common option "
+"because most of the time, the tenant has one forest (which can have "
+"multiple sub domains). In the case when the tenant has several Active "
+"Directory domains that are not related, multiple LDAP connection can be "
+"set up this way."
+msgstr "支持多个活动目录林。这不是一个常见的选项，因为大多数时候，租户只有一个林（可以有多个子域）。在租户有多个不相关的活动目录域的情况下，可以通过这种方式设置多个LDAP连接。"
+
+#: ../../chapter03.rst:1202
+msgid ""
+"If you have single AD forest but contains multiple sub-domain AD domain "
+"controller, you don't need to turn on Multi-AD support. Instead, you just"
+" point the LDAP to the root forest domain controller and the root forest "
+"domain controller will find and identify the sub-domains."
+msgstr "如果您有单一AD森林但包含多个子域AD域控制器，您无需开启多AD支持。相反，您只需将LDAP指向根森林域控制器，根森林域控制器将找到并识别子域。"
+
+#: ../../chapter03.rst:1205
+msgid "**View and edit group policy**"
+msgstr "**查看和编辑群组策略**"
+
+#: ../../chapter03.rst:1207
+msgid ""
+"The Cluster administrator can decide whether to show the group policy "
+"section to this tenant."
+msgstr "集群管理员可以决定是否向该租户显示组策略部分。"
+
+#: ../../chapter03.rst:1210
+msgid "**Disable file/folder sharing**"
+msgstr "**禁用文件/文件夹共享**"
+
+#: ../../chapter03.rst:1212
+msgid "Disable file and folder sharing from tenant level."
+msgstr "从租户级别禁用文件和文件夹共享。"
+
+#: ../../chapter03.rst:1215
+msgid "**Hide migration option**"
+msgstr "**隐藏迁移选项**"
+
+#: ../../chapter03.rst:1217
+msgid ""
+"Migration option refers to migrating remote file server(s) from remote "
+"customer location(s) to the Cluster Server. Not all clients (customers) "
+"have remote file servers, so this tenant level option may not apply all "
+"the time."
+msgstr "迁移选项指的是将远程客户位置的远程文件服务器迁移到集群服务器。并非所有客户（客户）都有远程文件服务器，因此这个租户级别的选项可能并不总是适用。"
+
+#: ../../chapter03.rst:1220
+msgid ""
+"**Show Data-At-Rest Encryption (DARE) configuration page (Requires empty "
+"storage container)**"
+msgstr "**显示静态数据加密（DARE）配置页面（需要空的存储容器）**"
+
+#: ../../chapter03.rst:1222
+msgid ""
+"If the tenant has the required encryption of the data in the cloud "
+"(Cluster Server side), a DARE configuration page can be shown upon the "
+"first usage to set it up."
+msgstr "如果租户在云端（集群服务器端）对数据进行了必要的加密，则在首次使用时可以显示一个DARE配置页面来进行设置。"
+
+#: ../../chapter03.rst:1227
+msgid "**Allow tenant to edit LDAP setting**"
+msgstr "**允许租户编辑LDAP设置**"
+
+#: ../../chapter03.rst:1229
+msgid ""
+"In the case the tenant's infrastructure is in the same LAN (Local Area "
+"Network) as the Cluster Manager, the tenant's Active Directory can be "
+"directly connected via LDAP to the Cluster Server."
+msgstr "如果租户的基础设施与集群管理器位于同一局域网(LAN)中，租户的活动目录可以通过LDAP直接连接到集群服务器。"
+
+#: ../../chapter03.rst:1231
+msgid ""
+"If the cluster administrator is setting it up for the tenant, cluster "
+"administrator can take away this privilege."
+msgstr "如果集群管理员是为租户设置它，集群管理员可以取消这项特权。"
+
+#: ../../chapter03.rst:1235
+msgid "Security"
+msgstr "安全性"
+
+#: ../../chapter03.rst:1236
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Security``"
+msgstr "``租户管理器`` > ``设置`` > ``用户账户与安全`` > ``安全``"
+
+#: ../../chapter03.rst:1242
+msgid "SECURITY SETTINGS"
+msgstr "安全设置"
+
+#: ../../chapter03.rst:1244
+msgid "**Allow Cluster Admin to manage my tenant**"
+msgstr "**允许集群管理员管理我的租户**"
+
+#: ../../chapter03.rst:1246
+msgid ""
+"When enabled, the cluster-admin will be able to use the “Manage Tenant” "
+"link to manage the tenant in the tenant manager. This is very convenient "
+"for cluster administrators (typically system administrators from service "
+"providers) to provide management work to the tenant."
+msgstr "启用后，集群管理员将能够使用“管理租户”链接在租户管理器中管理租户。这对于集群管理员（通常是服务提供商的系统管理员）来说，为租户提供管理工作非常方便。"
+
+#: ../../chapter03.rst:1249
+msgid "**Enable Authenticating User with Google Apps Credentials**"
+msgstr "**启用使用Google Apps凭据进行用户认证**"
+
+#: ../../chapter03.rst:1251
+msgid "When enabled, users can login using Google Apps credentials."
+msgstr "启用后，用户可以使用Google Apps凭据登录。"
+
+#: ../../chapter03.rst:1254
+msgid ""
+"**When delegate admin login via server agent, impersonate as tenant "
+"admin**"
+msgstr "**当代理管理员通过服务器代理登录时，冒充租户管理员**"
+
+#: ../../chapter03.rst:1256
+msgid ""
+"Server agents typically need to sync to the default tenant administrator."
+" It is recommended when a delegate administrator setup a server agent, it"
+" needs to impersonate the default tenant administrator."
+msgstr "服务器代理通常需要与默认租户管理员同步。建议当代理管理员设置服务器代理时，它需要模拟默认租户管理员。"
+
+#: ../../chapter03.rst:1259
+msgid "**File upload and download must go through worker node**"
+msgstr "**文件上传和下载必须通过工作节点进行**"
+
+#: ../../chapter03.rst:1261
+msgid "(This setting may only be available from cluster administrator side)"
+msgstr "（此设置可能仅集群管理员可用）"
+
+#: ../../chapter03.rst:1263
+msgid ""
+"For Amazon S3 type of cloud storage/object storage, it is recommended NOT"
+" to force file upload and download going through worker nodes, because "
+"Amazon S3 is good for offload the upload/download between the access "
+"clients and the backend Amazon S3 storage. However, for OpenStack Swift "
+"storage, depending on how it is set up, you may want to turn this on to "
+"force File Upload/Download going through worker node for security "
+"reasons."
+msgstr "对于Amazon S3类型的云存储/对象存储，建议不要强制文件上传和下载通过工作节点，因为Amazon S3适合卸载客户端和后端Amazon S3存储之间的上传/下载。然而，对于OpenStack Swift存储，根据其设置方式，您可能希望启用此功能，以出于安全原因强制文件上传/下载通过工作节点。"
+
+#: ../../chapter03.rst:1265
+msgid ""
+"This setting may be checked by default. However, based on your "
+"configuration, it may not need to be checked."
+msgstr "此设置可能默认为选中状态。但是，根据您的配置，可能无需选中。"
+
+#: ../../chapter03.rst:1267
+msgid ""
+"For example, if you are using file server network share as the storage "
+"location, the upload and download has to go through worker node anyway, "
+"so there is no need to check this checkbox."
+msgstr "例如，如果您使用文件服务器网络共享作为存储位置，上传和下载无论如何都必须经过工作节点，因此无需勾选此复选框。"
+
+#: ../../chapter03.rst:1269
+msgid ""
+"There may be some situations  that this setting must be checked. For "
+"example, you may be using native object storage such as Amazon S3 for "
+"storage. However, your company policy may disable direct access to Amazon"
+" S3. So in this case, you will have to route traffic through the worker "
+"node."
+msgstr "在某些情况下，必须检查此设置。例如，您可能使用像Amazon S3这样的本地对象存储进行存储。但是，如果您的公司政策禁止直接访问Amazon S3，那么在这种情况下，您将必须通过工作节点来路由流量。"
+
+#: ../../chapter03.rst:1272
+msgid "Home Directory"
+msgstr "家目录"
+
+#: ../../chapter03.rst:1274
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``Home "
+"Directory``"
+msgstr "``租户管理器`` > ``设置`` > ``用户账户与安全`` > ``主目录``"
+
+#: ../../chapter03.rst:1279
+msgid "HOME DIRECTORY SETTINGS"
+msgstr "主目录设置"
+
+#: ../../chapter03.rst:1281
+msgid "**Default Storage quota**"
+msgstr "**默认存储配额**"
+
+#: ../../chapter03.rst:1283
+msgid ""
+"This policy will not affect existing user and their quota. It can affect "
+"a newly created user for the default storage quota."
+msgstr "此政策不会影响现有用户及其配额。它可能会影响新创建用户的默认存储配额。"
+
+#: ../../chapter03.rst:1285
+msgid "**Create default folders**"
+msgstr "**创建默认文件夹**"
+
+#: ../../chapter03.rst:1287
+msgid ""
+"When the new user account is provisioned, the default root folder is "
+"empty."
+msgstr "当新用户账户被创建时，默认的根文件夹是空的。"
+
+#: ../../chapter03.rst:1289
+msgid ""
+"“Create default folder (Documents, Pictures)” will make the root folder "
+"look less empty and more user-friendly. This hints at how to organize "
+"files and folders in the cloud."
+msgstr "“创建默认文件夹（文档，图片）”会使根文件夹看起来不那么空旷，更加用户友好。这暗示了如何在云中组织文件和文件夹。"
+
+#: ../../chapter03.rst:1293
+msgid ""
+"When unchecked, the user home drive space will be allocated from "
+"enterprise storage. When checked, existing user home drives will be "
+"automatically published from Active Directory."
+msgstr "当未选中时，用户主目录空间将从企业存储中分配。当选中时，现有的用户主目录将会自动从活动目录中发布。"
+
+#: ../../chapter03.rst:1295
+msgid "**Mount user's home drive as a top level folder**"
+msgstr "**将用户的主目录作为顶层文件夹挂载**"
+
+#: ../../chapter03.rst:1297
+msgid ""
+"Without this option, the user's home drive from active directory mapping "
+"will become the root folder in |prodname|. However, if the user also have"
+" network shares mapped into |prodname|, those network shares will appear "
+"as top level folders. So in this use case, mapping user's home folder as "
+"a top folder is more in parallel to the other network shares."
+msgstr "如果不使用这个选项，用户的活动目录映射中的家目录将成为 |prodname| 中的根文件夹。然而，如果用户在 |prodname| 中还映射了网络共享，那些网络共享将作为顶级文件夹出现。因此，在这种用例中，将用户的家目录映射为顶级文件夹，与其他网络共享并列是更合适的。"
+
+#: ../../chapter03.rst:1303
+msgid "Azure AD"
+msgstr "Azure AD"
+
+#: ../../chapter03.rst:1305
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``Azure"
+" AD``"
+msgstr "``租户管理器`` > ``设置`` > ``用户账户与安全`` > ``Azure AD``"
+
+#: ../../chapter03.rst:1307
+msgid ""
+"Azure AD integration allows users to use their Azure AD credentials to "
+"login to the Cluster Server, including web portal and native clients."
+msgstr "Azure AD集成允许用户使用其Azure AD凭据登录到集群服务器，包括Web门户和原生客户端。"
+
+#: ../../chapter03.rst:1309
+msgid ""
+"You will still need to create Azure AD users as if they were local "
+"Cluster users first. After that, you can enable Azure AD integration."
+msgstr "您仍然需要首先创建 Azure AD 用户，就像他们是本地集群用户一样。之后，您可以启用 Azure AD 集成。"
+
+#: ../../chapter03.rst:1311
+msgid ""
+"To enable Azure AD integration, you will need to create an Azure AD "
+"native client application."
+msgstr "要启用Azure AD集成，您需要创建一个Azure AD本地客户端应用程序。"
+
+#: ../../chapter03.rst:1317
+msgid "ENABLE AZURE AD INTEGRATION"
+msgstr "启用AZURE AD集成"
+
+#: ../../chapter03.rst:1319
+msgid "You will need the client id from the Azure Native Client Application"
+msgstr "您将需要来自Azure Native Client应用程序的客户端ID"
+
+#: ../../chapter03.rst:1324
+msgid "AZURE CLIENT ID FIELD"
+msgstr "AZURE 客户端 ID 字段"
+
+#: ../../chapter03.rst:1326
+msgid ""
+"You will give the Azure Native Client Application full read permission to"
+" the following two items"
+msgstr "您将授予Azure Native Client应用程序对以下两项的完全读取权限"
+
+#: ../../chapter03.rst:1329
+msgid "Azure Active Directory"
+msgstr "Azure 活动目录"
+
+#: ../../chapter03.rst:1330
+msgid "Microsoft Graph API"
+msgstr "Microsoft Graph API"
+
+#: ../../chapter03.rst:1335
+msgid "AZURE PERMISSIONS TO OTHER APPLICATIONS"
+msgstr "对其他应用程序的AZURE权限"
+
+#: ../../chapter03.rst:1337
+msgid "You will also need the domain name"
+msgstr "您还需要域名"
+
+#: ../../chapter03.rst:1342
+msgid "AZURE DOMAIN SETTING"
+msgstr "AZURE 域设置"
+
+#: ../../chapter03.rst:1347
+msgid "Ransomware Protection"
+msgstr "勒索软件保护"
+
+#: ../../chapter03.rst:1350
+msgid "Anti Virus Settings"
+msgstr "防病毒设置"
+
+#: ../../chapter03.rst:1352
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Ransomware Protection`` >  "
+"``Settings``"
+msgstr "``租户管理`` > ``设置`` > ``勒索软件保护`` > ``设置``"
+
+#: ../../chapter03.rst:1357
+msgid "ANTI VIRUS SETTINGS"
+msgstr "防病毒设置"
+
+#: ../../chapter03.rst:1359
+msgid ""
+"**Only allow the following processes to update files (empty: allow all, "
+"separate using semicolon (;), i.e. winword.exe;excel.exe)**"
+msgstr "**仅允许以下进程更新文件（空白：允许所有，使用分号（;）分隔，例如 winword.exe;excel.exe）**"
+
+#: ../../chapter03.rst:1361
+msgid ""
+"This is a white list of applications that are allowed to update files. "
+"The applications that are not in the list will not be able to upload "
+"files."
+msgstr "这是允许更新文件的应用程序白名单。不在列表中的应用程序将无法上传文件。"
+
+#: ../../chapter03.rst:1363
+msgid ""
+"**The following executables will not be allowed to open files directly "
+"from the cloud drive (i.e. qbw32.exe;excel.exe)**"
+msgstr "**以下可执行文件将不允许直接从云盘打开文件（即 qbw32.exe;excel.exe）**"
+
+#: ../../chapter03.rst:1365
+msgid ""
+"This is the opposite of the above policy. The applications in this list "
+"will be denied."
+msgstr "这与上述政策相反。此列表中的应用程序将被拒绝。"
+
+#: ../../chapter03.rst:1367
+msgid "**Disable a device if the device changes more than n files in 10 minutes**"
+msgstr "**如果设备在10分钟内更改超过n个文件，则禁用该设备**"
+
+#: ../../chapter03.rst:1369
+msgid ""
+"When users are using the cloud drive in a normal way. Human speed will "
+"not be able to generate large amount of file upload."
+msgstr "当用户正常使用云盘时。人的速度不会产生大量的文件上传。"
+
+#: ../../chapter03.rst:1371
+msgid "**Ignore the following processes when applying the above policy**"
+msgstr "**在应用上述策略时忽略以下过程**"
+
+#: ../../chapter03.rst:1373
+msgid ""
+"This is a white list of files that will not be monitored for the activity"
+" described above. (e.g., qbw32.exe; excel.exe)"
+msgstr "这是一个不会监控上述活动的文件白名单。（例如，qbw32.exe; excel.exe）"
+
+#: ../../chapter03.rst:1375
+msgid ""
+"**Disable uploading of files whose named contain the following text "
+"patterns**"
+msgstr "**禁止上传文件名包含以下文本模式的文件**"
+
+#: ../../chapter03.rst:1377
+msgid ""
+"When file name text contains the following strings, the files will not be"
+" uploaded. (e.g., badfile1; badfile2)"
+msgstr "当文件名文本包含以下字符串时，文件将不会被上传。(例如：badfile1; badfile2)"
+
+#: ../../chapter03.rst:1379
+msgid ""
+"**Disable uploading of files whose names start with the following "
+"strings**"
+msgstr "**禁止上传文件名以以下字符串开头的文件**"
+
+#: ../../chapter03.rst:1381
+msgid ""
+"When the starting text of files contain these strings, the files will not"
+" be uploaded. (e.g., bad1; bad2)"
+msgstr "当文件的开头文本包含这些字符串时，文件将不会被上传。(例如：bad1; bad2)"
+
+#: ../../chapter03.rst:1383
+msgid "**Disable uploading of files whose names end with the following strings**"
+msgstr "**禁止上传文件名以以下字符串结尾的文件**"
+
+#: ../../chapter03.rst:1385
+msgid ""
+"When the ending text of files contain these strings, the files will not "
+"be uploaded. (e.g., bad1; bad2)"
+msgstr "当文件的结尾文本包含这些字符串时，文件将不会被上传。 (例如：bad1; bad2)"
+
+#: ../../chapter03.rst:1389
+msgid "Data Leak Protection"
+msgstr "数据泄露保护"
+
+#: ../../chapter03.rst:1394
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Data Leak Protection`` >  "
+"``Sharing``"
+msgstr "``租户管理器`` > ``设置`` > ``数据泄露保护`` > ``共享``"
+
+#: ../../chapter03.rst:1400
+msgid "SHARING SETTINGS"
+msgstr "共享设置"
+
+#: ../../chapter03.rst:1402
+msgid ""
+"**Users must log in to access the content in 'Files shared with me' "
+"folder**"
+msgstr "**用户必须登录才能访问'与我共享的文件'文件夹中的内容**"
+
+#: ../../chapter03.rst:1404
+msgid ""
+"When sharing files and folders with users, you can force the sharing to "
+"create guest accounts for users that are not already in the system. It is"
+" more secure when asking the receiver of the share to sign in to receive "
+"shared items. This disables anonymous sharing."
+msgstr "当您与用户共享文件和文件夹时，您可以强制共享为系统中尚未存在的用户创建访客账户。要求接收共享的用户登录以接收共享项目更加安全。这将禁用匿名共享。"
+
+#: ../../chapter03.rst:1406
+msgid ""
+"If this setting is not enabled, users can share files and folders to an "
+"outside email address without requiring outside users to create a guest "
+"user account."
+msgstr "如果未启用此设置，用户可以将文件和文件夹共享给外部电子邮件地址，而无需要求外部用户创建访客用户账户。"
+
+#: ../../chapter03.rst:1409
+msgid "**Disable user's ability to share home directory content externally**"
+msgstr "**禁止用户将家目录内容外部分享**"
+
+#: ../../chapter03.rst:1411
+msgid ""
+"This feature disables the ability for a regular user to share home "
+"directory contents for security reasons."
+msgstr "此功能出于安全原因禁止普通用户共享主目录内容。"
+
+#: ../../chapter03.rst:1414
+msgid "**Enable Internal Public Share URL**"
+msgstr "**启用内部公共分享链接**"
+
+#: ../../chapter03.rst:1416
+msgid ""
+"If you have an internal public share you can use this setting to enable "
+"it."
+msgstr "如果您有一个内部公共共享，您可以使用此设置来启用它。"
+
+#: ../../chapter03.rst:1418
+msgid ""
+"When this is enabled, it will use the Internal URL property to generate a"
+" web link for shared file/folder."
+msgstr "启用此功能后，它将使用内部URL属性来生成共享文件/文件夹的网络链接。"
+
+#: ../../chapter03.rst:1421
+msgid "**Disable Public Link**"
+msgstr "**禁用公共链接**"
+
+#: ../../chapter03.rst:1423
+msgid "This will disable the public web link feature in the sharing dialog."
+msgstr "这将在共享对话框中禁用公共网页链接功能。"
+
+#: ../../chapter03.rst:1426
+msgid "**Show guest user creation option**"
+msgstr "**显示访客用户创建选项**"
+
+#: ../../chapter03.rst:1428
+msgid ""
+"When enabled this shows the guest user creation option which you will see"
+" when 'Sharing' a file or folder by email. This is how you can provide "
+"full edit capability to a guest user, as they must be logged in to modify"
+" a file or folder in the |prodname|."
+msgstr "启用此功能后，您在通过电子邮件'共享'文件或文件夹时，会看到创建访客用户的选项。这是您如何为访客用户提供完整编辑能力的方式，因为他们必须登录后才能修改 |prodname| 中的文件或文件夹。"
+
+#: ../../chapter03.rst:1431
+msgid ""
+"**Enable distribution group detection in file/folder sharing's user "
+"interface**"
+msgstr "**启用文件/文件夹共享用户界面中的分发组检测**"
+
+#: ../../chapter03.rst:1433
+msgid ""
+"With active directory integration, sometimes you want to share files and "
+"folders with a distribution group. This feature allows detection of "
+"distribution group and expands the group so the sharing will be done with"
+" the users in the group, instead of using the group as a single user."
+msgstr "在集成活动目录时，有时您可能想要与一个分发组共享文件和文件夹。此功能允许检测到分发组并展开该组，因此共享将与组中的用户一起完成，而不是将该组作为单一用户使用。"
+
+#: ../../chapter03.rst:1436
+msgid "**Show user list in sharing dialog**"
+msgstr "**在共享对话框中显示用户列表**"
+
+#: ../../chapter03.rst:1438
+msgid ""
+"When enabled, the user list will be displayed in the recipient's dropdown"
+" list."
+msgstr "启用后，用户列表将显示在收件人的下拉列表中。"
+
+#: ../../chapter03.rst:1441
+msgid "**Show guest user list in sharing dialog**"
+msgstr "**在共享对话框中显示访客用户列表**"
+
+#: ../../chapter03.rst:1443
+msgid ""
+"When this option is enabled, the guest user list will be shown in the "
+"recipient dropdown list."
+msgstr "启用此选项时，接收者下拉列表将显示访客用户列表。"
+
+#: ../../chapter03.rst:1446
+msgid "**Show group list in sharing dialog**"
+msgstr "**在共享对话框中显示群组列表**"
+
+#: ../../chapter03.rst:1448
+msgid ""
+"When this option is enabled, the group list will be shown in the "
+"recipient dropdown list."
+msgstr "当启用此选项时，组列表将显示在收件人下拉列表中。"
+
+#: ../../chapter03.rst:1451
+msgid "**Allow user enter share name**"
+msgstr "**允许用户输入共享名称**"
+
+#: ../../chapter03.rst:1453
+msgid ""
+"By default the file name or folder name is used for the share name. "
+"However, if user has many same name folders or files. Sharing them out "
+"sometimes many not know which is which. This setting allows user to "
+"change share name. For example, when sharing out a \"Documents\" folder, "
+"it can be named \"Documents in top level folder\"."
+msgstr "默认情况下，文件名或文件夹名用作共享名称。但是，如果用户有许多同名的文件夹或文件。分享时有时可能不知道哪个是哪个。此设置允许用户更改共享名称。例如，分享一个“文档”文件夹时，可以将其命名为“顶层文件夹中的文档”。"
+
+#: ../../chapter03.rst:1455
+msgid "**Send a copy of file sharing invitation email to share owner**"
+msgstr "**发送文件共享邀请邮件副本给分享所有者**"
+
+#: ../../chapter03.rst:1457
+msgid ""
+"When sending the file-sharing email, sending a copy (CC) to the owner of "
+"the share (usually the sender of the email)"
+msgstr "在发送文件共享电子邮件时，抄送（CC）一份给共享的所有者（通常是邮件的发送者）"
+
+#: ../../chapter03.rst:1460
+msgid "**Don't append email to shared object name under 'Files Shared With Me'**"
+msgstr "**不要在'与我共享的文件'下将电子邮件附加到共享对象名称**"
+
+#: ../../chapter03.rst:1462
+msgid ""
+"When enabled, emails won't show next to object names in 'Files Shared "
+"With Me' view."
+msgstr "启用后，'与我共享的文件' 视图中的对象名称旁将不显示电子邮件。"
+
+#: ../../chapter03.rst:1465
+msgid "**Disable folder sharing**"
+msgstr "**禁用文件夹共享**"
+
+#: ../../chapter03.rst:1467
+msgid "When enabled users will not be able to share folders."
+msgstr "启用此功能后，用户将无法共享文件夹。"
+
+#: ../../chapter03.rst:1470
+msgid "**Enforce password protection**"
+msgstr "**强制密码保护**"
+
+#: ../../chapter03.rst:1472
+msgid ""
+"When enabled all users (including guest users) will be required to use "
+"complex password protection."
+msgstr "启用后，所有用户（包括访客用户）都将被要求使用复杂的密码保护。"
+
+#: ../../chapter03.rst:1475
+msgid "**Expiration Time for Shared Folder/File (Days):**"
+msgstr "**共享文件夹/文件的过期时间（天数）：**"
+
+#: ../../chapter03.rst:1477
+msgid ""
+"When set, during the file/folder sharing wizard, the expiration time "
+"dropdown selection will not be shown, it will be pre-set to expiration "
+"set in here."
+msgstr "设置后，在文件/文件夹共享向导中，将不会显示过期时间下拉选择，它将预设为此处设置的过期时间。"
+
+#: ../../chapter03.rst:1480
+msgid "**Maximum Share Expiration Time (Days):**"
+msgstr "**最大共享过期时间（天）：**"
+
+#: ../../chapter03.rst:1482
+msgid ""
+"When set, this creates an upper limit to the time a share will be "
+"available, which forces all shares to expire when this limit is reached."
+msgstr "设置后，这将为共享的可用时间创建一个上限，当达到此限制时，将强制所有共享到期。"
+
+#: ../../chapter03.rst:1484
+msgid "**Notify share owner n days before share expiring (0 - do not notify)**"
+msgstr "**在共享过期前n天通知共享所有者（0 - 不通知）**"
+
+#: ../../chapter03.rst:1486
+msgid "Notify the sender (owner) of the share before share expiration."
+msgstr "在共享到期前通知发送者（所有者）。"
+
+#: ../../chapter03.rst:1488
+msgid "**Expiration Time for public links (Days):**"
+msgstr "**公共链接的过期时间（天）：**"
+
+#: ../../chapter03.rst:1490
+msgid ""
+"If left as zero, public link will never expires, otherwise the public "
+"link will be purged after expired."
+msgstr "如果设置为零，则公共链接将永不过期，否则公共链接将在过期后被清除。"
+
+#: ../../chapter03.rst:1493
+msgid ""
+"**Don't create a guest user account if the recipient is from the "
+"following domains (i.e. company.com;company1.com)**"
+msgstr "**如果收件人来自以下域（即company.com;company1.com），则不要创建访客用户账户**"
+
+#: ../../chapter03.rst:1495
+msgid ""
+"Blacklist guest emails from the domains listed here. Do not allow sharing"
+" to these domains."
+msgstr "将此处列出的域中的访客电子邮件列入黑名单。不允许向这些域共享。"
+
+#: ../../chapter03.rst:1498
+msgid "**Only allow sending shares to the specified domain**"
+msgstr "**仅允许向指定域发送共享**"
+
+#: ../../chapter03.rst:1500
+msgid ""
+"You can further limit the sharing to some domain instead of random email."
+" For example, if your primary collaboration target is with ACME "
+"corporation and you can limit the sharing to your domain and also ACME "
+"domain."
+msgstr "您可以进一步限制共享到某些域，而不是随机的电子邮件。例如，如果您主要的合作目标是ACME公司，您可以将共享限制在您的域以及ACME域。"
+
+#: ../../chapter03.rst:1502
+msgid ""
+"**Only allow sending shares to the specified domain(s) (i.e. "
+"company.com;company1.com)**"
+msgstr "**仅允许向指定域发送共享（即company.com;company1.com）**"
+
+#: ../../chapter03.rst:1504
+msgid ""
+"When it is set, the external sharing can only be shared to the white-list"
+" of email domains (which represent external partners, clients and etc)"
+msgstr "设置后，外部共享只能共享到代表外部合作伙伴、客户等的电子邮件域的白名单"
+
+#: ../../chapter03.rst:1506 ../../chapter03.rst:1713
+msgid ""
+"**Default folder to store attachments from Outlook plugin "
+"(/folder/subfolder)**"
+msgstr "**Outlook 插件存储附件的默认文件夹 (/folder/subfolder)**"
+
+#: ../../chapter03.rst:1508
+msgid "Allows you to designate where Outlook attachments are saved."
+msgstr "允许您指定Outlook附件保存的位置。"
+
+#: ../../chapter03.rst:1512
+msgid "Clients & Applications"
+msgstr "客户端与应用程序"
+
+#: ../../chapter03.rst:1515
+msgid "Client Settings"
+msgstr "客户端设置"
+
+#: ../../chapter03.rst:1517
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Clients & Applications`` >  "
+"``Client Setting``"
+msgstr "``租户管理器`` > ``设置`` > ``客户端与应用程序`` > ``客户端设置``"
+
+#: ../../chapter03.rst:1523
+msgid "CLIENT SETTING MANAGER"
+msgstr "客户端设置管理器"
+
+#: ../../chapter03.rst:1527
+msgid "Sync Throttle"
+msgstr "同步节流"
+
+#: ../../chapter03.rst:1532
+msgid "SYNC THROTTLE SETTINGS"
+msgstr "同步节流设置"
+
+#: ../../chapter03.rst:1535
+msgid "**Enable Throttle Sync**"
+msgstr "**启用同步节流**"
+
+#: ../../chapter03.rst:1537
+msgid ""
+"When disabled (default) all Sync Throttle settings in this section are "
+"disabled. Must be enabled to activate the following settings."
+msgstr "当禁用（默认）时，此部分中的所有同步节流设置都将被禁用。必须启用才能激活以下设置。"
+
+#: ../../chapter03.rst:1539
+msgid "**Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)**"
+msgstr "**同步限速上傳帶寬（KB/s，0-不限制）**"
+
+#: ../../chapter03.rst:1541
+msgid "This setting controls the upload bandwidth from the client machine."
+msgstr "此设置用于控制从客户端机器的上传带宽。"
+
+#: ../../chapter03.rst:1543
+msgid "**Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)**"
+msgstr "**同步限速下载带宽（KB/s，0-不限制）**"
+
+#: ../../chapter03.rst:1545
+msgid "This setting controls the download bandwidth from the client machine."
+msgstr "此设置用于控制从客户端机器的下载带宽。"
+
+#: ../../chapter03.rst:1547
+msgid "**Full Speed Sync Stop Hour (default 7:00)**"
+msgstr "**全速同步停止时间（默认为7:00）**"
+
+#: ../../chapter03.rst:1549
+msgid ""
+"Full speed sync means multiple thread concurrent upload or download. This"
+" is typically good for after hour activity. We recommend default setting "
+"stop at 7am so when people return to work, the full speed sync stops so "
+"to give back more bandwidth to users who may be using the Internet for "
+"other purposes."
+msgstr "全速同步意味着多线程并发上传或下载。这通常适合非工作时间的活动。我们建议默认设置在早上7点停止，这样当人们回到工作岗位时，全速同步会停止，从而为可能需要使用互联网进行其他活动的用户释放更多带宽。"
+
+#: ../../chapter03.rst:1551
+msgid "**Full Speed Sync Start Hour (default 20:00)**"
+msgstr "**全速同步开始时间（默认20:00）**"
+
+#: ../../chapter03.rst:1553
+msgid ""
+"Similar to the above setting, we recommend start full speed sync after "
+"working hours."
+msgstr "与上述设置类似，我们建议在工作时间之后开始进行全速同步。"
+
+#: ../../chapter03.rst:1557
+msgid "Scheduled Sync"
+msgstr "计划同步"
+
+#: ../../chapter03.rst:1558
+msgid "**Enable Scheduled Sync**"
+msgstr "**启用计划同步**"
+
+#: ../../chapter03.rst:1560
+msgid ""
+"On the client side, in addition to a mapped drive (or a mac mounted "
+"volume), there is also functionality about folder synchronization. This "
+"setting can control when to sync. For example, if the business has "
+"limited bandwidth to the Internet, avoid doing synchronization during the"
+" working hours can save bandwidth."
+msgstr "在客户端，除了映射驱动器（或Mac挂载的卷）之外，还有关于文件夹同步的功能。此设置可以控制何时进行同步。例如，如果企业的互联网带宽有限，避免在工作时间进行同步可以节省带宽。"
+
+#: ../../chapter03.rst:1567
+msgid "SCHEDULED SYNC SETTINGS"
+msgstr "计划同步设置"
+
+#: ../../chapter03.rst:1571
+msgid "Mapped Drive Control"
+msgstr "映射驱动器控制"
+
+#: ../../chapter03.rst:1575
+msgid "MAPPED DRIVE CONTROL SETTINGS"
+msgstr "映射驱动器控制设置"
+
+#: ../../chapter03.rst:1577
+msgid ""
+"**Hide Large File Download Tracker (popup progress window on the bottom-"
+"right when downloading large files)**"
+msgstr "**隐藏大文件下载跟踪器（下载大文件时右下角的弹出进度窗口）**"
+
+#: ../../chapter03.rst:1579
+msgid ""
+"This is usually good for usability but people may find it annoying if "
+"download is popping up a download progress dialog at the lower right "
+"corner."
+msgstr "这通常有利于用户体验，但如果下载时在右下角弹出一个下载进度对话框，用户可能会觉得烦人。"
+
+#: ../../chapter03.rst:1581
+msgid "**Always Allow Picture Preview**"
+msgstr "**始终允许图片预览**"
+
+#: ../../chapter03.rst:1583
+msgid ""
+"Windows Explorer may want to download pictures in the background to "
+"generate thumbnails. This consumes bandwidth and may slow system down "
+"until all the preview thumbnails are generated. By default the client "
+"program disables the preview. However you can re-enable it."
+msgstr "Windows资源管理器可能希望在后台下载图片以生成缩略图。这会消耗带宽，并可能在生成所有预览缩略图之前减慢系统速度。默认情况下，客户端程序禁用了预览功能。但是，您可以重新启用它。"
+
+#: ../../chapter03.rst:1585
+msgid "**Always Allow PDF Preview**"
+msgstr "**始终允许PDF预览**"
+
+#: ../../chapter03.rst:1587
+msgid ""
+"Windows Explorer may want to download PDFs in the background to generate "
+"thumbnails. This consumes bandwidth and may slow system down until all "
+"the preview thumbnails are generated. By default the client program "
+"disables the preview. However you can re-enable it."
+msgstr "Windows资源管理器可能会在后台下载PDF文件以生成缩略图。这会消耗带宽，并可能在生成所有预览缩略图之前减慢系统速度。默认情况下，客户端程序会禁用预览功能。但是，您可以重新启用它。"
+
+#: ../../chapter03.rst:1589
+msgid "**Allow shortcuts**"
+msgstr "**允许使用快捷方式**"
+
+#: ../../chapter03.rst:1591
+msgid "Allow shortcuts (.lnk) files"
+msgstr "允许快捷方式（.lnk）文件"
+
+#: ../../chapter03.rst:1593
+msgid "**When starting the client, open the mounted drive automatically**"
+msgstr "**启动客户端时，自动打开已挂载的驱动器**"
+
+#: ../../chapter03.rst:1595
+msgid ""
+"Enabling this opens the mounted drive in Windows Explorer when the client"
+" starts."
+msgstr "启用此功能会在客户端启动时打开Windows资源管理器中的已挂载驱动器。"
+
+#: ../../chapter03.rst:1597
+msgid "**Do not show file change notifications**"
+msgstr "**不显示文件更改通知**"
+
+#: ../../chapter03.rst:1599
+msgid ""
+"This is another feature that shows file change notification at the lower "
+"right-hand corner of the Windows desktop. People may find it annoying if "
+"the change notification comes in quite often."
+msgstr "这是另一个功能，它在Windows桌面的右下角显示文件更改通知。如果更改通知频繁出现，人们可能会觉得很烦人。"
+
+#: ../../chapter03.rst:1601
+msgid "**Do not show file in-place editing/preview disabled notifications**"
+msgstr "**不显示文件就地编辑/预览禁用通知**"
+
+#: ../../chapter03.rst:1603
+msgid ""
+"This feature also shows file change notifications at the lower right-hand"
+" corner of the Windows desktop. People may find it annoying if the change"
+" notification comes in quite often."
+msgstr "此功能还会在Windows桌面的右下角显示文件更改通知。如果更改通知频繁出现，人们可能会觉得很烦人。"
+
+#: ../../chapter03.rst:1605
+msgid "**Enable Inplace Open Zip File**"
+msgstr "**启用原地打开Zip文件**"
+
+#: ../../chapter03.rst:1607
+msgid ""
+"Windows Explorer has a zip built-in extension that can open a zip file "
+"when double-clicked on. It may be good for the local drive but for cloud "
+"drive, that means the zip file is unzipped and re-upload back into the "
+"cloud. By default client application disables opening zip files directly "
+"in the cloud drive."
+msgstr "Windows资源管理器内置了一个可以在双击时打开zip文件的扩展。这可能适用于本地驱动器，但对于云驱动器来说，这意味着zip文件被解压并重新上传回云端。默认情况下，客户端应用程序禁止直接在云驱动器中打开zip文件。"
+
+#: ../../chapter03.rst:1609
+msgid "**Enable Single Sign On with login windows user identity**"
+msgstr "**启用单点登录与登录窗口用户身份**"
+
+#: ../../chapter03.rst:1611
+msgid ""
+"Enable Single Sign-On with Login Windows User Identity - For a Windows "
+"client agent running on a Windows Desktop machine, the login windows "
+"user's identity will be used for single sign-on to the |prodname| "
+"account."
+msgstr "启用单点登录与登录Windows用户身份 - 对于在Windows桌面机器上运行的Windows客户端代理，将使用登录Windows用户的身份进行单点登录到 |prodname| 账户。"
+
+#: ../../chapter03.rst:1613
+msgid "**Max Size of Zip File Allowed to Open In-place (MB)**"
+msgstr "**允许就地打开的压缩文件的最大大小（MB）**"
+
+#: ../../chapter03.rst:1615
+msgid "Limits the size of a Zip File that can be opened in-place."
+msgstr "限制可以原地打开的Zip文件的大小。"
+
+#: ../../chapter03.rst:1617
+msgid "**Max Size of File Allowed to Generate Thumbnail (MB)**"
+msgstr "**允许生成缩略图的文件最大大小（MB）**"
+
+#: ../../chapter03.rst:1619
+msgid "Limits the size of Files that can be used in the generation of thumbnails."
+msgstr "限制可用于生成缩略图的文件大小。"
+
+#: ../../chapter03.rst:1621
+msgid "**Cloud Drive Label**"
+msgstr "**云盘标签**"
+
+#: ../../chapter03.rst:1623
+msgid "What do you want to call your windows client drive."
+msgstr "您希望将 Windows 客户端驱动器命名为什么。"
+
+#: ../../chapter03.rst:1625
+msgid "**Drive Letter**"
+msgstr "**驱动器字母**"
+
+#: ../../chapter03.rst:1627
+msgid "What do you want to give the drive letter to the client application."
+msgstr "您希望为客户端应用程序指定哪个驱动器字母。"
+
+#: ../../chapter03.rst:1629
+msgid "**Cache Size Limit (MB)**"
+msgstr "**缓存大小限制（MB）**"
+
+#: ../../chapter03.rst:1631
+msgid ""
+"The Windows client maintains a client-side cache of this size (0 - "
+"unlimited)"
+msgstr "Windows 客户端维护这个大小的客户端侧缓存（0 - 无限制）"
+
+#: ../../chapter03.rst:1633
+msgid "**Minimal free disk space (GB)**"
+msgstr "**最小空闲磁盘空间（GB）**"
+
+#: ../../chapter03.rst:1635
+msgid ""
+"This setting is used to establish a minimum amount of disk space used for"
+" the windows client drive."
+msgstr "此设置用于确定Windows客户端驱动器使用的最小磁盘空间量。"
+
+#: ../../chapter03.rst:1637
+msgid "**Purge logging db n days old (0 - don't purge)**"
+msgstr "**清除超过 n 天的日志数据库（0 - 不清除）**"
+
+#: ../../chapter03.rst:1639
+msgid "This limits how many days of logging are kept in the Windows client cache."
+msgstr "这限制了Windows客户端缓存中保留日志的天数。"
+
+#: ../../chapter03.rst:1641
+msgid "**Mount Drive in global space (Windows Client Only)**"
+msgstr "**在全局空间挂载驱动器（仅限Windows客户端）**"
+
+#: ../../chapter03.rst:1643
+msgid ""
+"A drive mounted in the global space will not be subject to UAC (User "
+"Account Control) limitations, such as when legacy applications are "
+"required to run with administrative privilege and cannot see the drive "
+"guarded by the UAC. On the other hand, drives that are mounted in the "
+"global space are visible to any other users who log in on the same "
+"Windows machine at the same time."
+msgstr "在全局空间中挂载的驱动器不会受到UAC（用户帐户控制）的限制，例如当需要以管理员权限运行的旧版应用程序无法看到由UAC保护的驱动器时。另一方面，挂载在全局空间中的驱动器对于同时在同一Windows机器上登录的任何其他用户都是可见的。"
+
+#: ../../chapter03.rst:1645
+msgid "**In offline mode, only show files that are cached and available locally**"
+msgstr "**在离线模式下，仅显示已缓存且本地可用的文件**"
+
+#: ../../chapter03.rst:1647
+msgid ""
+"Typically there will be place-holder files and representative icons "
+"created for all of the files in the client drive. If this setting is "
+"enabled, only locally stored files will be shown."
+msgstr "通常情况下，客户端驱动器中的所有文件都会创建占位符文件和代表性图标。如果启用了此设置，将只显示本地存储的文件。"
+
+#: ../../chapter03.rst:1649
+msgid "**Disable \"Check Out\"**"
+msgstr "**禁用\"签出\"**"
+
+#: ../../chapter03.rst:1651
+msgid ""
+"Turn off the \"Check Out\" feature and remove it from the right-click "
+"context menu."
+msgstr "关闭“签出”功能，并从右键上下文菜单中移除。"
+
+#: ../../chapter03.rst:1653
+msgid "**Encrypt Local Cache**"
+msgstr "**加密本地缓存**"
+
+#: ../../chapter03.rst:1655
+msgid ""
+"Once enabled, when a file is downloaded to cache, it is encrypted in "
+"place. When an authorized user then accesses the file from the (M:) "
+"Mapped Cloud Drive, CentreStack automatically decrypts it on the fly and "
+"then returns it to the user."
+msgstr "启用后，当文件被下载到缓存时，它会被就地加密。然后当授权用户通过（M:）映射云驱动器访问该文件时，CentreStack会自动对其进行解密，并即时返回给用户。"
+
+#: ../../chapter03.rst:1657
+msgid "**Disable AutoCad Optimization**"
+msgstr "**禁用AutoCad优化**"
+
+#: ../../chapter03.rst:1659
+msgid ""
+"By default, there is an AutoCAD optimization that delays the "
+"synchronization of the updated .dwg file and schedules it to sync upwards"
+" to the cloud at a later time. Use this setting to disable this AutoCad "
+"optimization and make saving AutoCAD .dwg files act the same as saving "
+"other regular files and lets .dwg file behavior follow other policy "
+"settings."
+msgstr "默认情况下，有一个AutoCAD优化功能，它会延迟更新的.dwg文件的同步，并计划在稍后的时间将其同步到云端。使用此设置可以禁用此AutoCAD优化功能，使保存AutoCAD .dwg文件的行为与保存其他常规文件的行为相同，并让.dwg文件的行为遵循其他策略设置。"
+
+#: ../../chapter03.rst:1663
+msgid "Large File Upload"
+msgstr "大文件上传"
+
+#: ../../chapter03.rst:1667
+msgid "LARGE FILE UPLOAD SETTINGS"
+msgstr "大文件上传设置"
+
+#: ../../chapter03.rst:1669
+msgid "**Enable chunk uploading when file size larger than (MB)**"
+msgstr "**启用分块上传，当文件大小超过（MB）**"
+
+#: ../../chapter03.rst:1671
+msgid ""
+"Uploading a single large file can be disrupted by an Internet glitch. "
+"This setting breaks large files into smaller chunks to increase the "
+"success rate."
+msgstr "上传单个大文件可能会因为网络故障而中断。此设置将大文件分割成小块，以提高成功率。"
+
+#: ../../chapter03.rst:1673
+msgid "**Chunk file in the unit of (MB)**"
+msgstr "**以（MB）为单位的文件块**"
+
+#: ../../chapter03.rst:1675
+msgid ""
+"Works with the above setting to establish what size the chunks will be in"
+" as they are transferred."
+msgstr "与上述设置配合使用，以确定传输过程中块的大小。"
+
+#: ../../chapter03.rst:1677
+msgid "**Use Volume Shadow Copy to Upload Files being Opened**"
+msgstr "**使用卷影复制服务上传正在打开的文件**"
+
+#: ../../chapter03.rst:1679
+msgid ""
+"There is pro and con of using this flag. When file is open by other "
+"application, the file usually is locked and can't be uploaded until the "
+"file is closed. However using volume shadow copy can still upload the "
+"file. The down side is when the volume shadow copy happens, the file is "
+"not known to be in a consistent state."
+msgstr "使用这个标志的利与弊。当文件被其他应用程序打开时，该文件通常会被锁定，直到文件关闭之前都无法上传。然而，使用卷影复制仍然可以上传文件。但缺点是当卷影复制发生时，文件是否处于一致状态是未知的。"
+
+#: ../../chapter03.rst:1683
+msgid "Bandwidth Control"
+msgstr "带宽控制"
+
+#: ../../chapter03.rst:1687
+msgid "BANDWIDTH CONTROL SETTINGS"
+msgstr "带宽控制设置"
+
+#: ../../chapter03.rst:1689
+msgid "**Download Bandwidth Limit (KB/s, 0 - Unlimited)**"
+msgstr "**下载带宽限制（KB/s，0 - 无限制）**"
+
+#: ../../chapter03.rst:1691
+msgid "This is download bandwidth control."
+msgstr "这是下载带宽控制。"
+
+#: ../../chapter03.rst:1693
+msgid "**Upload Bandwidth Limit (KB/s, 0 - Unlimited)**"
+msgstr "**上传带宽限制（KB/s，0 - 无限制）**"
+
+#: ../../chapter03.rst:1695
+msgid "This is upload bandwidth control."
+msgstr "这是上传带宽控制。"
+
+#: ../../chapter03.rst:1697
+msgid "**Number of File Transfer Threads**"
+msgstr "**文件传输线程数**"
+
+#: ../../chapter03.rst:1699
+msgid "This is the number of concurrent upload/download allowed (default is 5)."
+msgstr "这是允许的同时上传/下载的数量（默认为5）。"
+
+#: ../../chapter03.rst:1703
+msgid "Outlook Plugin"
+msgstr "Outlook 插件"
+
+#: ../../chapter03.rst:1707
+msgid "OUTLOOK PLUGIN SETTINGS"
+msgstr "OUTLOOK 插件设置"
+
+#: ../../chapter03.rst:1709
+msgid "**Prompt conversion only when file is larger than n KB (0 - unlimited)**"
+msgstr "**仅当文件大于 n KB 时才进行转换（0 - 无限制）**"
+
+#: ../../chapter03.rst:1711
+msgid ""
+"For smaller files, it may be as well to just use the native outlook "
+"attachment."
+msgstr "对于较小的文件，使用原生Outlook附件可能同样合适。"
+
+#: ../../chapter03.rst:1715
+msgid "Allows you to set a storage location for the above setting."
+msgstr "允许您为上述设置设置存储位置。"
+
+#: ../../chapter03.rst:1717
+msgid "**Link expiration time**"
+msgstr "**链接过期时间**"
+
+#: ../../chapter03.rst:1719
+msgid ""
+"Allows Outlook share link to last indefinitely or expire in a specified "
+"timeframe (e.g., never, one day, one week, one month, six months, one "
+"year)."
+msgstr "允许Outlook共享链接永久有效或在指定时间内过期（例如，永不、一天、一周、一个月、六个月、一年）。"
+
+#: ../../chapter03.rst:1723
+msgid "Client Startup Script"
+msgstr "客户端启动脚本"
+
+#: ../../chapter03.rst:1724
+msgid ""
+"After the Windows client is completely started and finished loading, a "
+"command line script can be run. You can be upload that script here. For "
+"example, a script to map an additional drive letter to a specific folder "
+"inside the cloud drive."
+msgstr "在Windows客户端完全启动并完成加载后，可以运行命令行脚本。您可以在这里上传该脚本。例如，一个将额外的驱动器字母映射到云驱动器内特定文件夹的脚本。"
+
+#: ../../chapter03.rst:1728
+msgid "Client Shutdown Script"
+msgstr "客户端关闭脚本"
+
+#: ../../chapter03.rst:1729
+msgid ""
+"Right before the Windows client is completely shutdown and finished "
+"running, a command line script can be run. You can upload that script "
+"here. For example, a script to clean up any reference to folders and "
+"files inside the cloud drive."
+msgstr "在Windows客户端完全关闭并停止运行之前，可以运行一个命令行脚本。您可以在这里上传该脚本。例如，一个清理云驱动器内部所有文件夹和文件引用的脚本。"
+
+#: ../../chapter03.rst:1733
+msgid "Mac Client Settings"
+msgstr "Mac 客户端设置"
+
+#: ../../chapter03.rst:1734
+msgid "**Do not show Mac Client sync status pop up dialog**"
+msgstr "**不要显示Mac客户端同步状态弹出对话框**"
+
+#: ../../chapter03.rst:1736
+msgid ""
+"This is usually good for usability but people may find it annoying if the"
+" file status is popping up a progress dialog at the lower right corner."
+msgstr "这通常有利于可用性，但如果文件状态在右下角弹出一个进度对话框，人们可能会觉得这很烦人。"
+
+#: ../../chapter03.rst:1739
+msgid "**Start Mac Client automatically**"
+msgstr "**启动 Mac 客户端**"
+
+#: ../../chapter03.rst:1741
+msgid ""
+"(Enabled by default.) If this is disabled, the Mac Client must be started"
+" manually."
+msgstr "（默认启用。）如果禁用此功能，Mac 客户端必须手动启动。"
+
+#: ../../chapter03.rst:1745
+msgid "Web Portal"
+msgstr "网页门户"
+
+#: ../../chapter03.rst:1747
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Clients & Applications`` > ``Web "
+"Portal``"
+msgstr "``租户管理器`` > ``设置`` > ``客户端与应用程序`` > ``网页门户``"
+
+#: ../../chapter03.rst:1752
+msgid "WEB PORTAL SETTINGS"
+msgstr "网页门户设置"
+
+#: ../../chapter03.rst:1755
+msgid "**Disable folder download from web client**"
+msgstr "**禁止从网页客户端下载文件夹**"
+
+#: ../../chapter03.rst:1757
+msgid ""
+"Disabled by default. The folder download from web client will zip up the "
+"folder and download it. It is CPU intensive so if you don't want it to be"
+" consuming too much CPU, you can disable it using this setting."
+msgstr "默认情况下禁用。从Web客户端下载文件夹时，系统会将文件夹压缩后下载。这个过程会占用大量CPU资源，因此如果你不希望它消耗太多CPU，你可以使用这个设置来禁用此功能。"
+
+#: ../../chapter03.rst:1759
+msgid "**Disable Search**"
+msgstr "**禁用搜索**"
+
+#: ../../chapter03.rst:1761
+msgid ""
+"Disabled by default. If you don't need the search by file name feature, "
+"you can check this setting to disable it."
+msgstr "默认情况下禁用。如果您不需要按文件名搜索的功能，您可以勾选此设置以禁用它。"
+
+#: ../../chapter03.rst:1763
+msgid "**Web Browser - Disable Java Uploader**"
+msgstr "**Web浏览器 - 禁用Java上传器**"
+
+#: ../../chapter03.rst:1765
+msgid ""
+"Some organization standardized on web browser, for example, all web "
+"browser are HTML5 compliant. In this case, Java Uploader is not necessary"
+" and could be confusing to support when different users have different "
+"Java version installed."
+msgstr "一些组织对网页浏览器进行了标准化，例如，所有的网页浏览器都符合HTML5标准。在这种情况下，Java上传器并不是必需的，而且当不同的用户安装了不同版本的Java时，支持起来可能会造成困惑。"
+
+#: ../../chapter03.rst:1767
+msgid "**Web Browser - Disable Flash Uploader**"
+msgstr "**Web浏览器 - 禁用Flash上传器**"
+
+#: ../../chapter03.rst:1769
+msgid ""
+"Some organization standardized on web browser, for example, all web "
+"browser are HTML5 compliant. In this case, Flash Uploader is not "
+"necessary and could be confusing to support when different users have "
+"different Flash version installed. Different kind of web browser may also"
+" have different levels of Flash support, causing different behavior."
+msgstr "一些组织对网页浏览器进行了标准化，例如，所有网页浏览器都符合HTML5标准。在这种情况下，Flash上传工具就没有必要，而且支持起来可能会令人困惑，因为不同用户安装的Flash版本不同。不同种类的网页浏览器对Flash的支持程度也可能不同，导致行为差异。"
+
+#: ../../chapter03.rst:1771
+msgid "**Web Browser - Disable Local Uploader**"
+msgstr "**Web 浏览器 - 禁用本地上传器**"
+
+#: ../../chapter03.rst:1773
+msgid ""
+"Admin can also disable local uploaded in which case the upload will "
+"happen using the browser directly."
+msgstr "管理员也可以禁用本地上传，这种情况下，上传将直接通过浏览器进行。"
+
+#: ../../chapter03.rst:1775
+msgid "**Enable Tabbed-Browsing in User Manager**"
+msgstr "**在用户管理器中启用标签式浏览**"
+
+#: ../../chapter03.rst:1777
+msgid ""
+"When enabled, the user manager will order users by their last name so if "
+"you have many users, you have an easy to access way to find the users."
+msgstr "启用后，用户管理器将按用户的姓氏对用户进行排序，因此如果您有许多用户，您将有一种易于访问的方式来查找用户。"
+
+#: ../../chapter03.rst:1779
+msgid "**Only show search interface in User Manager**"
+msgstr "**仅在用户管理器中显示搜索界面**"
+
+#: ../../chapter03.rst:1781
+msgid ""
+"When you have even more users, Tabbed-Browsing can't handle it any more, "
+"you can enable search-only interface."
+msgstr "当您有更多用户时，标签式浏览已无法应对，您可以启用仅搜索界面。"
+
+#: ../../chapter03.rst:1783
+msgid "**Show tutorial page for non-admin users**"
+msgstr "**为非管理员用户显示教程页面**"
+
+#: ../../chapter03.rst:1785
+msgid "Display tutorial page for regular users when they login to the web portal."
+msgstr "当普通用户登录到网页门户时，显示教程页面。"
+
+#: ../../chapter03.rst:1787
+msgid "**Show team folder level permissions in team folder publishing dialog**"
+msgstr "**在团队文件夹发布对话框中显示团队文件夹级别的权限**"
+
+#: ../../chapter03.rst:1789
+msgid ""
+"The advanced setting refers to “Create CIFS Share”, “Disable further "
+"sharing”, and “Disable Offline Access” settings."
+msgstr "高级设置指的是“创建CIFS共享”、“禁止进一步共享”和“禁用离线访问”设置。"
+
+#: ../../chapter03.rst:1791
+msgid "**Disable 'Publish Tenant Home Storage As a Team Folder'**"
+msgstr "**禁用'将租户主存储发布为团队文件夹'**"
+
+#: ../../chapter03.rst:1793
+msgid ""
+"This feature can be hidden in Tenant Management Console > Team Folder > "
+"Add New Team Folder"
+msgstr "此功能可以在租户管理控制台 > 团队文件夹 > 添加新团队文件夹中隐藏"
+
+#: ../../chapter03.rst:1795
+msgid "**Confirm before moving via drag-and-drop**"
+msgstr "**通过拖放操作前请先确认**"
+
+#: ../../chapter03.rst:1797
+msgid ""
+"In web portal, sometimes there can be accidental drag and drop, in this "
+"case, having a confirmation dialog can help prevent accidental drag and "
+"drop."
+msgstr "在网页门户中，有时可能会发生意外的拖放操作，在这种情况下，有一个确认对话框可以帮助防止意外拖放。"
+
+#: ../../chapter03.rst:1799
+msgid "**Show left tree view by default**"
+msgstr "**默认显示左侧树视图**"
+
+#: ../../chapter03.rst:1801
+msgid ""
+"Disabled by default. When enabled left-tree is displayed when you log in "
+"to the web portal."
+msgstr "默认禁用。启用后，登录网页门户时将显示左侧树状目录。"
+
+#: ../../chapter03.rst:1803
+msgid "**Do not show \"recent activities**"
+msgstr "**不显示\"近期活动**"
+
+#: ../../chapter03.rst:1805
+msgid ""
+"Disabled by default. When enabled \"recent activities\" is not visible in"
+" the Show/Hide Info Panel on the right side of the Web Portal File "
+"Browser."
+msgstr "默认情况下禁用。启用后，“最近活动”将不显示在Web门户文件浏览器右侧的显示/隐藏信息面板中。"
+
+#: ../../chapter03.rst:1807
+msgid "**Show 'link to local' option to non-admin user**"
+msgstr "**向非管理员用户显示'链接到本地'选项**"
+
+#: ../../chapter03.rst:1809
+msgid ""
+"Disabled by default. When enabled, non-admin user will have access to the"
+" **\"Link to Local\"** option in the Sharing and Collaboration tab under "
+"the Show/Hide Info Panel on the right side of the Web Portal File "
+"Browser."
+msgstr "默认情况下禁用。启用后，非管理员用户将可以在Web门户文件浏览器右侧的显示/隐藏信息面板下的共享和协作选项卡中访问 **\"链接到本地\"** 选项。"
+
+#: ../../chapter03.rst:1811
+msgid "**Show max count of file/folder items**"
+msgstr "**显示文件/文件夹项的最大数量**"
+
+#: ../../chapter03.rst:1813
+msgid ""
+"Default files to show is 1,000. Some customers may have a very flat "
+"folder that has more than one thousand files. It is not recommended to "
+"have a cloud system have flat folder structure like this. But if customer"
+" has many files in a flat folder. This setting can be used to show all "
+"files by increasing this number as needed."
+msgstr "默认显示的文件数量为1,000。有些客户可能有一个非常扁平的文件夹，里面有超过一千个文件。不建议云系统有这样的扁平文件夹结构。但如果客户在一个扁平的文件夹中有许多文件，可以通过增加这个数字来使用此设置以显示所有文件。"
+
+#: ../../chapter03.rst:1817
+msgid "Native Client"
+msgstr "本地客户端"
+
+#: ../../chapter03.rst:1819
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Clients & Applications`` > "
+"``Native Client``"
+msgstr "``租户管理器`` > ``设置`` > ``客户端与应用程序`` > ``原生客户端``"
+
+#: ../../chapter03.rst:1824
+msgid "NATIVE CLIENT SETTINGS"
+msgstr "本地客户端设置"
+
+#: ../../chapter03.rst:1826
+msgid "**Create a shortcut in the documents library**"
+msgstr "**在文档库中创建一个快捷方式**"
+
+#: ../../chapter03.rst:1828
+msgid ""
+"Enabled by default. This is a convenience feature to add a link to "
+"documents library to the cloud drive."
+msgstr "默认启用。这是一个便利功能，用于在云驱动器中添加指向文档库的链接。"
+
+#: ../../chapter03.rst:1830
+msgid "**Create shortcut on desktop**"
+msgstr "**在桌面上创建快捷方式**"
+
+#: ../../chapter03.rst:1832
+msgid "Enabled by default. Same as above but the shortcut is on the desktop."
+msgstr "默认启用。与上述相同，但快捷方式位于桌面。"
+
+#: ../../chapter03.rst:1834
+msgid "**Hide Settings in Windows Client Management Console**"
+msgstr "**在Windows客户端管理控制台中隐藏设置**"
+
+#: ../../chapter03.rst:1836
+msgid ""
+"Disabled by default. The Settings in the Windows client may be viewed as "
+"“too much information for normal user”. If that is the case, enabling "
+"this option will hide those settings."
+msgstr "默认情况下禁用。Windows 客户端中的设置可能会被视为“普通用户的过多信息”。如果确实如此，启用此选项将隐藏这些设置。"
+
+#: ../../chapter03.rst:1838
+msgid "**Don't Allow Setting Changes in Windows Client Management Console**"
+msgstr "**不允许在Windows客户端管理控制台中更改设置**"
+
+#: ../../chapter03.rst:1840
+msgid ""
+"Disabled by default. When disabled the Windows Client user can change the"
+" settings in the Windows Client Management Console."
+msgstr "默认禁用。当禁用时，Windows 客户端用户可以在 Windows 客户端管理控制台中更改设置。"
+
+#: ../../chapter03.rst:1842
+msgid "**Disable Windows client in-place drag & drop uploading**"
+msgstr "**禁用Windows客户端的即时拖放上传功能**"
+
+#: ../../chapter03.rst:1844
+msgid ""
+"Unchecked by default. When enabled, dragging & dropping files (or "
+"folders) to the cloud drive will write files to the local cache first and"
+" then upload in the background."
+msgstr "默认情况下不勾选。启用后，将文件（或文件夹）拖放到云驱动器时，会先将文件写入本地缓存，然后在后台上传。"
+
+#: ../../chapter03.rst:1846
+msgid "**Disable Auto-Login next time**"
+msgstr "**下次禁用自动登录**"
+
+#: ../../chapter03.rst:1848
+msgid ""
+"Unchecked by default. When you want the user to type in username/password"
+" every time they login to the Windows client, you can check this to "
+"disable auto-login."
+msgstr "默认情况下不勾选。当您希望用户每次登录Windows客户端时都需要输入用户名/密码，您可以勾选此项以禁用自动登录。"
+
+#: ../../chapter03.rst:1850
+msgid "**Disable drag & drop handler**"
+msgstr "**禁用拖放处理程序**"
+
+#: ../../chapter03.rst:1852
+msgid ""
+"Unchecked by default. If you check this option, the Windows file drag and"
+" drop will take over, this typically means the files will be copied into "
+"cache before upload, thus resulting in two copies of files being "
+"uploaded."
+msgstr "默认情况下不勾选。如果您勾选了这个选项，Windows文件的拖放操作将会接管，这通常意味着文件会在上传前被复制到缓存中，因此会导致上传两份文件的副本。"
+
+#: ../../chapter03.rst:1854
+msgid "**Requiring approval for device access**"
+msgstr "**需要批准设备访问**"
+
+#: ../../chapter03.rst:1856
+msgid ""
+"Disabled by default. When a user attempts to log in from a new device via"
+" native client applications, the connection will be rejected until the "
+"tenant admin approves the new device. The approval can be done from the "
+"\"Client Device Manager\""
+msgstr "默认情况下禁用。当用户尝试通过原生客户端应用程序从新设备登录时，连接将被拒绝，直到租户管理员批准新设备。管理员可以从“客户端设备管理器”中进行批准"
+
+#: ../../chapter03.rst:1858
+msgid "**Enable auto-install of Outlook Plugin**"
+msgstr "**启用Outlook插件的自动安装**"
+
+#: ../../chapter03.rst:1860
+msgid ""
+"Disabled by default. The Cluster Server Windows Desktop client comes with"
+" an Outlook plug-in. If this option is enabled, the Outlook plugin will "
+"be enabled upon client startup."
+msgstr "默认情况下禁用。Cluster Server Windows桌面客户端附带一个Outlook插件。如果启用此选项，Outlook插件将在客户端启动时启用。"
+
+#: ../../chapter03.rst:1862
+msgid "**Disable native client for guest users**"
+msgstr "**禁用来宾用户的本地客户端**"
+
+#: ../../chapter03.rst:1864
+msgid ""
+"Unchecked by default. For guest users, don't allow them to use native "
+"client, so the guest users can only use web browser files and folder "
+"view."
+msgstr "默认情况下不勾选。对于访客用户，不允许他们使用原生客户端，因此访客用户只能使用网页浏览器的文件和文件夹视图。"
+
+#: ../../chapter03.rst:1869
+msgid "Folder & Storage"
+msgstr "文件夹与存储"
+
+#: ../../chapter03.rst:1872
+msgid "Backend Storage"
+msgstr "后端存储"
+
+#: ../../chapter03.rst:1874
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Folder & Storage`` > ``Backend "
+"Storage``"
+msgstr "``租户管理`` > ``设置`` > ``文件夹与存储`` > ``后端存储``"
+
+#: ../../chapter03.rst:1876
+msgid ""
+"Each tenant has a default backend storage. Tenant user (team user)'s home"
+" storage and other shared storage space can be allocated from the default"
+" backend storage."
+msgstr "每个租户都有一个默认的后端存储。租户用户（团队用户）的家目录存储和其他共享存储空间可以从默认后端存储中分配。"
+
+#: ../../chapter03.rst:1881
+msgid ""
+"You can think of the Tenant Backend Storage as a \"Black Box\" managed by"
+" the Cluster Server and you shall always use the Cluster Server interface"
+" to interact with the content inside the storage. If you can't take this "
+"\"Black Box\" approach for the tenant's root backend storage, you can use"
+" the following other methods via the team folders, such as import file "
+"server network share."
+msgstr "您可以将租户后端存储视为由集群服务器管理的“黑盒”，您应始终使用集群服务器接口与存储内容进行交互。如果您不能对租户的根后端存储采取这种“黑盒”方法，您可以通过团队文件夹使用以下其他方法，例如导入文件服务器网络共享。"
+
+#: ../../chapter03.rst:1883
+msgid ""
+"However, if you already have a file server that will provide the storage,"
+" it is recommended to use \"Import Network File Shares\" to mount the "
+"file server network share to the tenant's storage space. In this case, "
+"you can leave the \"Default Storage\" as is, or point it to an empty "
+"location and treat it as a black box storage managed at the Cluster "
+"Server level."
+msgstr "然而，如果您已经有一个将提供存储的文件服务器，建议使用“导入网络文件共享”将文件服务器网络共享挂载到租户的存储空间。在这种情况下，您可以保留“默认存储”为原样，或者指向一个空位置，并将其视为在集群服务器级别管理的黑盒存储。"
+
+#: ../../chapter03.rst:1888
+msgid "STORAGE MANAGER ACCESS"
+msgstr "存储管理器访问"
+
+#: ../../chapter03.rst:1890
+msgid ""
+"To access the Tenant Storage Manager, click \"Folder & Storage\" on "
+"\"Settings\" section. To check the backend storage information, click the"
+" dropdown at the top right corner, and select \"Edit\", to edit the "
+"storage configuration details."
+msgstr "要访问租户存储管理器，请在“设置”部分点击“文件夹和存储”。要检查后端存储信息，请点击右上角的下拉菜单，选择“编辑”，以编辑存储配置详情。"
+
+#: ../../chapter03.rst:1892
+msgid ""
+"If cluster admin needs to check the backend storage for multiple tenants,"
+" go to \"Tenant Manager\". Click the \"hamburger\" menu at the top right "
+"corner of each tenant, and then choose \"Edit Existing Default Storage\"."
+msgstr "如果集群管理员需要检查多个租户的后端存储，请转到“租户管理器”。点击每个租户右上角的“汉堡”菜单，然后选择“编辑现有默认存储”。"
+
+#: ../../chapter03.rst:1897
+msgid "STORAGE MANAGER ACCESS - MULTIPLE TENANTS"
+msgstr "存储管理器访问 - 多租户"
+
+#: ../../chapter03.rst:1902
+msgid ""
+"You can mount different storage services into a single namespace (folder "
+"structure). For example, if you have multiple Amazon S3 buckets, you can "
+"mount them all in. If you have multiple OpenStack Swift accounts, you can"
+" mount them all in as well. If you have multiple file server network "
+"shares, you can add them to the storage manager."
+msgstr "您可以将不同的存储服务挂载到单一的命名空间（文件夹结构）中。例如，如果您有多个Amazon S3存储桶，您可以将它们全部挂载进来。如果您有多个OpenStack Swift账户，您也可以将它们全部挂载进来。如果您有多个文件服务器网络共享，您可以将它们添加到存储管理器中。"
+
+#: ../../chapter03.rst:1906
+msgid ""
+"The cluster manager can define whether or not the Storage Manager is "
+"exposed to the tenant administrator."
+msgstr "集群管理员可以定义是否向租户管理员公开存储管理器。"
+
+#: ../../chapter03.rst:1911
+msgid "EDITING STORAGE SETTINGS"
+msgstr "编辑存储设置"
+
+#: ../../chapter03.rst:1914
+msgid "Edit Local Storage"
+msgstr "编辑本地存储"
+
+#: ../../chapter03.rst:1916
+msgid ""
+"This is the file server UNC path or local windows folder path that you "
+"will connect into the tenant administrator's root folder structure. The "
+"idea here is you will take this folder and mount the folder to the tenant"
+" administrator's root folder structure."
+msgstr "这是文件服务器UNC路径或本地Windows文件夹路径，您将把它连接到租户管理员的根文件夹结构中。这里的想法是，您将取这个文件夹并将其挂载到租户管理员的根文件夹结构中。"
+
+#: ../../chapter03.rst:1921
+msgid ""
+"The user name is the Windows username, either it being local Windows user"
+" or global Active Directory user, this is a Windows account that is "
+"capable of accessing the \"Local Storage Location\"."
+msgstr "用户名是Windows用户名，无论是本地Windows用户还是全局Active Directory用户，这都是一个有能力访问“本地存储位置”的Windows账户。"
+
+#: ../../chapter03.rst:1926
+msgid "This is the password for the Windows user above."
+msgstr "这是上述Windows用户的密码。"
+
+#: ../../chapter03.rst:1930
+msgid ""
+"We recommend this Windows user and his credential be set up as a service "
+"account, meaning the password isn't subject to the maximum password days "
+"via local security policy. The reason being, that, when it is time to "
+"rotate or change the user password, the connection here may be broken "
+"until the password is updated to match."
+msgstr "我们建议将此Windows用户及其凭证设置为服务账户，这意味着密码不受本地安全策略的最大密码天数限制。原因是，当需要轮换或更改用户密码时，此处的连接可能会中断，直到密码更新以匹配为止。"
+
+#: ../../chapter03.rst:1933
+msgid "**“Always access the storage using logon user identity”**"
+msgstr "**“始终使用登录用户身份访问存储”**"
+
+#: ../../chapter03.rst:1935
+msgid ""
+"When you have Active Directory Integration, and mount an existing file "
+"server network share in, you can select “Always access the storage using "
+"logon user identity” so the ACL (NTFS Permission) on the file server "
+"share will be used natively. The access permission will be checked "
+"natively against the user's Active Directory identity that is defined by "
+"the NTFS permission."
+msgstr "当您拥有活动目录集成，并挂载现有文件服务器网络共享时，您可以选择“始终使用登录用户身份访问存储”，这样文件服务器共享上的ACL（NTFS权限）将被本地使用。访问权限将根据由NTFS权限定义的用户的活动目录身份进行本地检查。"
+
+#: ../../chapter03.rst:1937
+msgid ""
+"This option only applies to the \"Local Storage\" such as network share, "
+"DFS share, local folder, and etc."
+msgstr "此选项仅适用于“本地存储”，如网络共享、DFS共享、本地文件夹等。"
+
+#: ../../chapter03.rst:1939
+msgid "**“The share is from a Linux/Unix/ZFS server”**"
+msgstr "**“该共享来自 Linux/Unix/ZFS 服务器”**"
+
+#: ../../chapter03.rst:1941
+msgid ""
+"Most of the time, you don't want to check this flag because your file "
+"server share shall behave like a normal Windows Server share, even if it "
+"doesn't come from a Windows Server."
+msgstr "大多数情况下，您不希望勾选此选项，因为即使您的文件服务器共享不是来自Windows服务器，它也应该像正常的Windows服务器共享一样运作。"
+
+#: ../../chapter03.rst:1943
+msgid ""
+"In some small SOHO network storage devices, it may only allow one "
+"connection from one IP address, so if that is the case, you want to check"
+" this flag. Most of the time, you just don't need to check this when the "
+"network share is capable of taking multiple connections/sessions from one"
+" single machine."
+msgstr "在一些小型SOHO网络存储设备中，它可能只允许一个IP地址进行一次连接，所以如果是这种情况，你会想要勾选这个选项。大多数时候，当网络共享能够接受来自一台机器的多个连接/会话时，你就不需要勾选这个选项。"
+
+#: ../../chapter03.rst:1945
+msgid "**“This share is a DFS share”**"
+msgstr "**“此共享是一个DFS共享”**"
+
+#: ../../chapter03.rst:1947
+msgid ""
+"If the share is a DFS share, you will check this checkbox, because DFS "
+"share has an extra layer of translation to translate back down to normal "
+"file server shares. This flag tells the Cluster Server to do an extra DFS"
+" translation back to SMB share before connecting to the share."
+msgstr "如果共享是DFS共享，您将勾选此复选框，因为DFS共享有一个额外的转换层，用于将其转换回普通文件服务器共享。此标志告诉集群服务器在连接到共享之前，先执行一个额外的DFS转换回SMB共享。"
+
+#: ../../chapter03.rst:1949
+msgid "**“Enable Inplace Versioning”**"
+msgstr "**“启用原地版本控制”**"
+
+#: ../../chapter03.rst:1951
+msgid ""
+"The underlying file server network share may not have explicit version "
+"control (it may have volume shadow copy for other purposes). This will "
+"add Cluster Server version control to the file server network share. It "
+"is independent of and not related to the volume shadow copy."
+msgstr "底层文件服务器网络共享可能没有明确的版本控制（它可能有卷影复制用于其他目的）。这将为文件服务器网络共享添加集群服务器版本控制。它独立于卷影复制，且与之无关。"
+
+#: ../../chapter03.rst:1955
+msgid ""
+"In place versioning will put the older version of the file into a __ver__"
+" subfolder in the same folder structure making the name for In-Place "
+"Versioning so the folder structure is maintained as-is, while extra old "
+"copies of the file will be stored in a specific subfolder."
+msgstr "就地版本控制会将文件的旧版本放入同一文件夹结构中的 __ver__ 子文件夹中，因此得名就地版本控制，同时保持原有的文件夹结构不变，而文件的额外旧副本将存储在特定的子文件夹中。"
+
+#: ../../chapter03.rst:1960
+msgid "IN-PLACE VERSIONING"
+msgstr "原地版本控制"
+
+#: ../../chapter03.rst:1962
+msgid ""
+"Here is a demo video showing the result of \"Enable Inplace Versioning\" "
+"when the root folder ('forward slash') is mounted with the \"Inplace "
+"versioning\" enabled."
+msgstr "这是一个演示视频，展示了当根文件夹（'正斜杠'）挂载了“原地版本控制”功能时，“启用原地版本控制”的结果。"
+
+#: ../../chapter03.rst:1971
+msgid "Migrate to New Storage"
+msgstr "迁移到新的存储"
+
+#: ../../chapter03.rst:1976
+msgid "CLOUD STORAGE MIGRATE"
+msgstr "云存储迁移"
+
+#: ../../chapter03.rst:1978
+msgid ""
+"Once the tenant backend storage is set, we don't recommend changing it "
+"until it has to be changed (e.g., migrate to other location). However "
+"when you are just setting up the tenant, you can decide where your "
+"tenant's storage location is and can change between local file server "
+"storage or remote cloud storage service."
+msgstr "一旦租户后端存储设置完成，我们不建议更改它，除非必须更改（例如，迁移到其他位置）。然而，当您刚开始设置租户时，您可以决定租户的存储位置，并且可以在本地文件服务器存储和远程云存储服务之间进行更改。"
+
+#: ../../chapter03.rst:1980
+msgid "There are two types of storage migrations."
+msgstr "有两种类型的存储迁移。"
+
+#: ../../chapter03.rst:1986
+msgid "**1.** Migrate data to a different location in the same type of storage:"
+msgstr "**1.** 将数据迁移到同一类型存储的不同位置："
+
+#: ../../chapter03.rst:1983
+msgid "Identify the location of the current storage"
+msgstr "确定当前存储的位置"
+
+#: ../../chapter03.rst:1984
+msgid ""
+"Copy the content to the new location (for example, you can use xcopy *.* "
+"from the old location to the new location"
+msgstr "将内容复制到新位置（例如，您可以使用 xcopy *.* 从旧位置复制到新位置"
+
+#: ../../chapter03.rst:1985
+msgid "Login to web portal as Cluster Admin."
+msgstr "以集群管理员身份登录网页门户。"
+
+#: ../../chapter03.rst:1986
+msgid ""
+"Go to Tenant Manager -> Manage the specific Tenant -> Backend Storage and"
+" click on edit to point to the new location"
+msgstr "转到租户管理器 -> 管理特定租户 -> 后端存储，然后点击编辑以指向新位置"
+
+#: ../../chapter03.rst:1991
+msgid "**2.**  Migrate data to a different type of storage:"
+msgstr "**2.**  将数据迁移到不同类型的存储："
+
+#: ../../chapter03.rst:1989
+msgid "Go to the registry using regedit"
+msgstr "使用regedit前往注册表"
+
+#: ../../chapter03.rst:1990
+msgid ""
+"Go to HKLM\\\\SOFTWARE\\\\Gladinet\\\\Enterprise\\\\ and add a new string"
+" value called 'CanChangeDefaultStorage' and set the value to 'True' and "
+"reboot"
+msgstr "前往 HKLM\\SOFTWARE\\Gladinet\\Enterprise\\，新增一个名为 'CanChangeDefaultStorage' 的字符串值，并将该值设置为 'True'，然后重启"
+
+#: ../../chapter03.rst:1991
+msgid ""
+"Edit the storage type using new icon to edit storage under Cluster "
+"Manager\\Tenant Manager"
+msgstr "使用 Cluster Manager\Tenant Manager 下的新图标编辑存储类型"
+
+#: ../../chapter03.rst:1995
+msgid ""
+"It is not recommended that you modify registry settings. Create a backup "
+"of the registry before modifying any registry settings."
+msgstr "不建议您修改注册表设置。在修改任何注册表设置之前，请先创建注册表的备份。"
+
+#: ../../chapter03.rst:1998
+msgid "Retention Policy"
+msgstr "保留政策"
+
+#: ../../chapter03.rst:2000
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Retention "
+"Policy``"
+msgstr "``租户管理`` > ``设置`` > ``文件夹与存储`` > ``保留策略``"
+
+#: ../../chapter03.rst:2006
+msgid "RETENTION POLICY SETTINGS"
+msgstr "保留策略设置"
+
+#: ../../chapter03.rst:2008
+msgid ""
+"The cloud monitoring service on the Cluster Server will be responsible "
+"for the retention policy. The settings of the retention policy are "
+"described below."
+msgstr "集群服务器上的云监控服务将负责保留策略。保留策略的设置如下所述。"
+
+#: ../../chapter03.rst:2010
+msgid "**Keep last n version(s) of files in versioned folder**"
+msgstr "**保留版本文件夹中的最后n个版本的文件**"
+
+#: ../../chapter03.rst:2012
+msgid ""
+"This setting lets you decide how many versions of files to keep in the "
+"version folder. (0 - let system decide, also apply to \"attached local "
+"folder')"
+msgstr "此设置允许您决定在版本文件夹中保留多少个文件版本。（0 - 让系统决定，也适用于“附加本地文件夹”）"
+
+#: ../../chapter03.rst:2014
+msgid "**Only purge versioned files that are more than n day(s) old**"
+msgstr "**仅清除超过 n 天的版本文件**"
+
+#: ../../chapter03.rst:2016
+msgid ""
+"This is a security feature. For example, there is a virus modified the "
+"same file many times so it created many versions causing good old "
+"versions to be scheduled for deletion. However, with this set, the good "
+"old versions will be kept for at least the amount of days so give enough "
+"time to recover. (0 - purge old versions once they exceed the version "
+"limit, regardless of the version lifespan)"
+msgstr "这是一个安全功能。例如，有病毒多次修改了同一个文件，因此创建了许多版本，导致好的旧版本被计划删除。然而，有了这个设置，至少在设定的天数内，好的旧版本将被保留，以便有足够的时间进行恢复。（0 - 一旦版本超出限制，不考虑版本寿命，立即清除旧版本）"
+
+#: ../../chapter03.rst:2018
+msgid "**Keep deleted files in versioned folder and/or Trash Can for n day(s)**"
+msgstr "**将已删除文件保留在版本文件夹和/或回收站 n 天**"
+
+#: ../../chapter03.rst:2020
+msgid ""
+"When a file is deleted in the version folder, it is not actually deleted."
+" It will be kept for several days defined here. The same policy also "
+"apply to"
+msgstr "当一个文件在版本文件夹中被删除时，它实际上并没有被删除。它将会被保留数天，时间长度在这里定义。同样的政策也适用于"
+
+#: ../../chapter03.rst:2022
+msgid "**Keep file change log for n day(s)**"
+msgstr "**保留文件更改日志 n 天**"
+
+#: ../../chapter03.rst:2024
+msgid ""
+"File change log is the biggest database table and could be growing "
+"without trimming. You can decide how often you want to trim the table."
+msgstr "文件更改日志是最大的数据库表，可能会在不修剪的情况下持续增长。您可以决定您希望多久修剪一次该表。"
+
+#: ../../chapter03.rst:2028
+msgid ""
+"There is also a cluster setting about the file change log length. The "
+"cluster setting overrides the per-tenant setting."
+msgstr "文件更改日志长度也有一个集群设置。集群设置将覆盖每个租户的设置。"
+
+#: ../../chapter03.rst:2030
+msgid "**Keep audit trace for n day(s)**"
+msgstr "**保留审计迹象 n 天**"
+
+#: ../../chapter03.rst:2032
+msgid ""
+"Audit trace log is stored in a local device directory and keeps a record "
+"of high-level activity from a device (e.g., windows client, server "
+"agent). This setting limits the number of days that are stored in the "
+"local database file."
+msgstr "审计跟踪日志存储在本地设备目录中，并记录设备的高级活动（例如，Windows 客户端、服务器代理）。此设置限制了存储在本地数据库文件中的天数。"
+
+#: ../../chapter03.rst:2034
+msgid ""
+"**Hide purge option from web file browser (not applicable to tenant "
+"administrator)**"
+msgstr "**从网页文件浏览器中隐藏清除选项（租户管理员除外）**"
+
+#: ../../chapter03.rst:2036
+msgid "Do not show the purge window to users when deleting content."
+msgstr "删除内容时不要向用户显示清除窗口。"
+
+#: ../../chapter03.rst:2038
+msgid "**Don't send email notifications when purging deleted content**"
+msgstr "**在清除已删除内容时不发送电子邮件通知**"
+
+#: ../../chapter03.rst:2040
+msgid ""
+"There are times when an admin would not want to send or see delete email "
+"notifications for purged contents."
+msgstr "有时候管理员可能不希望发送或查看已清除内容的删除电子邮件通知。"
+
+#: ../../chapter03.rst:2042
+msgid "**Include deleted but not yet purged items in storage quota**"
+msgstr "**包括已删除但尚未清除的项目在存储配额中**"
+
+#: ../../chapter03.rst:2044
+msgid ""
+"Allows you to decide if you want to include not visible (purged) files in"
+" the storage quota that is used."
+msgstr "允许您决定是否要在使用的存储配额中包括不可见（已清除）的文件。"
+
+#: ../../chapter03.rst:2047
+msgid "Folder and Storage"
+msgstr "文件夹和存储"
+
+#: ../../chapter03.rst:2049
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Folder and "
+"Storage``"
+msgstr "``租户管理`` > ``设置`` > ``文件夹与存储`` > ``文件夹和存储``"
+
+#: ../../chapter03.rst:2051
+msgid ""
+"These are the settings available to the tenant manager in the Folder and "
+"Storage view."
+msgstr "这些是租户管理员在文件夹和存储视图中可用的设置。"
+
+#: ../../chapter03.rst:2056
+msgid "FOLDER AND STORAGE SETTINGS"
+msgstr "文件夹和存储设置"
+
+#: ../../chapter03.rst:2059
+msgid "**Allow users to attach external cloud storage**"
+msgstr "**允许用户连接外部云存储**"
+
+#: ../../chapter03.rst:2061
+msgid ""
+"When checked, you will allow users to see storage manager and allow them "
+"to attach external storage such as their own Amazon S3 bucket into the "
+"system."
+msgstr "勾选后，您将允许用户查看存储管理器，并允许他们将外部存储（如自己的Amazon S3存储桶）连接到系统中。"
+
+#: ../../chapter03.rst:2064
+msgid "**Disable Versioned folder**"
+msgstr "**禁用版本控制文件夹**"
+
+#: ../../chapter03.rst:2066
+msgid ""
+"Normally you will NOT disable versioned folder. Because versioned folder "
+"is the supporting feature for “Two-way sync locally attached folder”. If "
+"you disable versioned folder, you will lose the two-way synchronization "
+"folder feature as well."
+msgstr "通常情况下，您不会禁用带版本的文件夹。因为带版本的文件夹是支持“双向同步本地连接文件夹”的功能。如果您禁用了带版本的文件夹，您也将失去双向同步文件夹功能。"
+
+#: ../../chapter03.rst:2070
+msgid "**Disable Trash Can**"
+msgstr "**禁用回收站**"
+
+#: ../../chapter03.rst:2072
+msgid ""
+"For folders that are not under version control, a deleted file will be "
+"moved into Trash Can. If this feature is not useful, you can disable it."
+msgstr "对于不在版本控制下的文件夹，已删除的文件将被移动到回收站。如果此功能对您没有用处，您可以禁用它。"
+
+#: ../../chapter03.rst:2076
+msgid "**Don't show folder that user doesn't have read permission**"
+msgstr "**不显示用户没有读取权限的文件夹**"
+
+#: ../../chapter03.rst:2078
+msgid ""
+"With native Active Directory integration and with network share as "
+"backend storage, the user's permission to the folders are checked "
+"natively. When this option is set, for those folders that users doesn't "
+"have read permission, the folder will be hidden."
+msgstr "通过本地Active Directory集成以及使用网络共享作为后端存储，系统会原生地检查用户对文件夹的权限。当设置了此选项后，对于那些用户没有读取权限的文件夹，该文件夹将会被隐藏。"
+
+#: ../../chapter03.rst:2082
+msgid ""
+"**Don't show team folder that the user doesn't have read permission to "
+"the underlying folder**"
+msgstr "**不显示用户没有读取权限的底层文件夹的团队文件夹**"
+
+#: ../../chapter03.rst:2084
+msgid ""
+"In the folder listing, if the user don't have read permission, sometimes "
+"it is better off not to show the folder to the user."
+msgstr "在文件夹列表中，如果用户没有读取权限，有时候最好不要向用户显示该文件夹。"
+
+#: ../../chapter03.rst:2087
+msgid "**Don't show Trash Can for non-admin user**"
+msgstr "**对非管理员用户不显示垃圾桶**"
+
+#: ../../chapter03.rst:2089
+msgid ""
+"Trash Can is a virtual folder that shows up at the web browser portal "
+"only. This setting controls whether or not to show it for regular team "
+"user."
+msgstr "回收站是一个只在网页浏览器门户中出现的虚拟文件夹。此设置控制是否对普通团队用户显示它。"
+
+#: ../../chapter03.rst:2093
+msgid "**Don't append (Team Folder) to published folders**"
+msgstr "**不要在已发布的文件夹后追加 (团队文件夹)**"
+
+#: ../../chapter03.rst:2095
+msgid ""
+"A team folder by default, when showing up in a team user's folder list, "
+"it will have “(Team Folder)” appended to the end of the folder name to "
+"signify it is a team folder. This feature allows a team folder showing up"
+" as it is without the (Team Folder) suffix. The use case is that when a "
+"network share is mounted and then turned into a team folder, since the "
+"users are already familiar with the network share in its original name, "
+"so it is not necessary to append (team folder) to the folder name. You "
+"shouldn't change this setting in the middle of operation because if users"
+" have pending upload/download, changing the name could cause those tasks "
+"to fail."
+msgstr "默认情况下，团队文件夹在团队用户的文件夹列表中显示时，会在文件夹名称后附加“(团队文件夹)”以标示它是一个团队文件夹。此功能允许团队文件夹显示时不带有“(团队文件夹)”后缀。使用案例是，当网络共享被挂载然后转变为团队文件夹时，由于用户已经熟悉了网络共享的原始名称，所以没有必要在文件夹名称后附加（团队文件夹）。在操作过程中不应更改此设置，因为如果用户有待处理的上传/下载任务，更改名称可能会导致这些任务失败。"
+
+#: ../../chapter03.rst:2105
+msgid "Attached Folder"
+msgstr "附加文件夹"
+
+#: ../../chapter03.rst:2107
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Attached "
+"Folder``"
+msgstr "``租户管理器`` > ``设置`` > ``文件夹与存储`` > ``已连接文件夹``"
+
+#: ../../chapter03.rst:2112
+msgid "ATTACHED FOLDER SETTINGS"
+msgstr "附加文件夹设置"
+
+#: ../../chapter03.rst:2115
+msgid "**Disable backup/attach local folder from client device**"
+msgstr "**禁用备份/从客户端设备附加本地文件夹**"
+
+#: ../../chapter03.rst:2117
+msgid ""
+"Attached Local Folders are two-way synchronization folders. In order to "
+"do version backup and two-way synchronization, there are multiple folder "
+"structures created in the backend storage. Some organization doesn't need"
+" this feature and want the users to work exclusively with the cloud "
+"drive."
+msgstr "附加的本地文件夹是双向同步文件夹。为了进行版本备份和双向同步，在后端存储中创建了多个文件夹结构。一些组织不需要此功能，并希望用户只使用云驱动器工作。"
+
+#: ../../chapter03.rst:2122
+msgid "**Enable Snapshot backup for server agent**"
+msgstr "**启用服务器代理的快照备份**"
+
+#: ../../chapter03.rst:2124
+msgid "It is a feature related to server agent on Windows 2003-2012 servers."
+msgstr "这是与Windows 2003-2012服务器上的服务器代理相关的功能。"
+
+#: ../../chapter03.rst:2126
+msgid "**Allow syncing empty files**"
+msgstr "**允许同步空文件**"
+
+#: ../../chapter03.rst:2128
+msgid ""
+"By default, empty file (0-byte) will be skipped for syncing in attached "
+"folder. when enabled, those files will be synchronized."
+msgstr "默认情况下，附加文件夹中的空文件（0字节）将被跳过同步。启用后，这些文件将会被同步。"
+
+#: ../../chapter03.rst:2131
+msgid "**Allow syncing of hidden files**"
+msgstr "**允许同步隐藏文件**"
+
+#: ../../chapter03.rst:2133
+msgid "Hidden files by default will not sync."
+msgstr "默认情况下，隐藏文件不会同步。"
+
+#: ../../chapter03.rst:2135
+msgid "**Allow executable files (.exe)**"
+msgstr "**允许可执行文件（.exe）**"
+
+#: ../../chapter03.rst:2137 ../../chapter03.rst:2141
+msgid "Executable files by default will not sync."
+msgstr "默认情况下，可执行文件不会同步。"
+
+#: ../../chapter03.rst:2139
+msgid "**Allow ISO files (.iso)**"
+msgstr "**允许ISO文件（.iso）**"
+
+#: ../../chapter03.rst:2143
+msgid "**Allow backup files(.bck, .bkf,.rbf, .tib)**"
+msgstr "**允许备份文件(.bck, .bkf,.rbf, .tib)**"
+
+#: ../../chapter03.rst:2145
+msgid ""
+"**Allow VMs (.hdd, .hds, .pvm, .pvs, .vdi, .vfd, .vhd, .vmc, .vmdk, "
+".vmem, .vmsd, .vmsn, .vmss, .vmtm, .vmwarevm, .vmx, .vmxf, .vsv, .nvram, "
+".vud, .xva)**"
+msgstr "**允许虚拟机 (.hdd, .hds, .pvm, .pvs, .vdi, .vfd, .vhd, .vmc, .vmdk, .vmem, .vmsd, .vmsn, .vmss, .vmtm, .vmwarevm, .vmx, .vmxf, .vsv, .nvram, .vud, .xva)**"
+
+#: ../../chapter03.rst:2147
+msgid "**Allow application folders**"
+msgstr "**允许应用程序文件夹**"
+
+#: ../../chapter03.rst:2149
+msgid "Application folder by default will not sync."
+msgstr "默认情况下，应用程序文件夹不会同步。"
+
+#: ../../chapter03.rst:2151
+msgid "**Allow application data folders**"
+msgstr "**允许应用程序数据文件夹**"
+
+#: ../../chapter03.rst:2153
+msgid "Application data folder by default will not sync."
+msgstr "默认情况下，应用程序数据文件夹不会同步。"
+
+#: ../../chapter03.rst:2155
+msgid "**Enable scheduled sync for files with following extensions**"
+msgstr "**启用以下扩展名文件的计划同步**"
+
+#: ../../chapter03.rst:2157
+msgid ""
+"This is to help sync/upload frequently changed file such as Microsoft "
+"access database or QuickBook files. These type of files typically are "
+"constantly open (thus prevent other application to hold on to them) and "
+"also changed frequently. So you can define the time period to check back "
+"on these type of files and use volume shadow copy to upload these files."
+msgstr "这有助于同步/上传频繁更改的文件，例如Microsoft Access数据库或QuickBook文件。这些类型的文件通常是持续打开的（因此防止其他应用程序持有它们），并且也经常更改。因此，您可以定义时间周期来检查这些类型的文件，并使用卷影复制服务来上传这些文件。"
+
+#: ../../chapter03.rst:2166
+msgid "Filters"
+msgstr "过滤器"
+
+#: ../../chapter03.rst:2168
+msgid "``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Filters``"
+msgstr "``租户管理器`` > ``设置`` > ``文件夹与存储`` > ``过滤器``"
+
+#: ../../chapter03.rst:2173
+msgid "FILTER SETTINGS"
+msgstr "过滤器设置"
+
+#: ../../chapter03.rst:2175
+msgid ""
+"**Files with the following extensions will be excluded from attached "
+"local folder**"
+msgstr "**具有以下扩展名的文件将被排除在附加的本地文件夹之外**"
+
+#: ../../chapter03.rst:2177
+msgid ""
+"You can stop certain file types from being uploaded. For example .pst "
+"files. These are local outlook email files, which is not necessary to "
+"upload into the cloud storage because usually it is backed up by an "
+"exchange server."
+msgstr "您可以阻止上传某些文件类型。例如 .pst 文件。这些是本地 Outlook 电子邮件文件，通常没有必要上传到云存储，因为它们通常由交换服务器备份。"
+
+#: ../../chapter03.rst:2182
+msgid ""
+"**Files with following extensions will be excluded from directory listing"
+" (i.e.[.qbw])**"
+msgstr "**具有以下扩展名的文件将被排除在目录列表之外（即[.qbw]）**"
+
+#: ../../chapter03.rst:2184
+msgid ""
+"You can specify the executables which should not be listed under a user's"
+" directory."
+msgstr "您可以指定哪些可执行文件不应列在用户目录下。"
+
+#: ../../chapter03.rst:2187
+msgid ""
+"**In-place editing/Preview is disabled for files with following "
+"extension**"
+msgstr "**对于具有以下扩展名的文件，禁用了原地编辑/预览功能**"
+
+#: ../../chapter03.rst:2189
+msgid ""
+"Windows Explorer has a habit to peek into large files to generate "
+"thumbnail and present other information. It may not be a good fit for "
+"cloud drive files because each peek will generate a download from cloud."
+msgstr "Windows 资源管理器有一个习惯，那就是深入查看大文件以生成缩略图并展示其他信息。这可能不适合云驱动器文件，因为每一次查看都会从云端生成一次下载。"
+
+#: ../../chapter03.rst:2193
+msgid "**Allow file without file name extension**"
+msgstr "**允许没有文件名扩展名的文件**"
+
+#: ../../chapter03.rst:2195
+msgid "Allow files without extension suffix to synchronize."
+msgstr "允许没有扩展名后缀的文件进行同步。"
+
+#: ../../chapter03.rst:2198
+msgid "**Allow syncing empty file**"
+msgstr "**允许同步空文件**"
+
+#: ../../chapter03.rst:2200
+msgid "This is the same setting as in the \"Attached Folder\" section."
+msgstr "这与“附加文件夹”部分中的设置相同。"
+
+#: ../../chapter03.rst:2204
+msgid "Background Tasks"
+msgstr "后台任务"
+
+#: ../../chapter03.rst:2206
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Background "
+"Tasks``"
+msgstr "``租户管理器`` > ``设置`` > ``文件夹与存储`` > ``后台任务``"
+
+#: ../../chapter03.rst:2208
+msgid ""
+"There are three different kind of background tasks that may take a long "
+"time to finish:"
+msgstr "有三种不同的后台任务可能需要很长时间才能完成："
+
+#: ../../chapter03.rst:2210
+msgid "Data Seeding - copying data into |prodname|"
+msgstr "数据播种 - 将数据复制到 |prodname| "
+
+#: ../../chapter03.rst:2211
+msgid "Storage Scan - do a full scan to calculate storage consumption"
+msgstr "存储扫描 - 进行全面扫描以计算存储消耗"
+
+#: ../../chapter03.rst:2212
+msgid ""
+"Tenant Storage Migration - move tenant storage from location A to "
+"location B"
+msgstr "租户存储迁移 - 将租户存储从位置A迁移到位置B"
+
+#: ../../chapter03.rst:2213
+msgid "Anchor Migration -  move data out of Anchor and into |prodname|"
+msgstr "锚点迁移 - 将数据从Anchor移出并转移到 |prodname| "
+
+#: ../../chapter03.rst:2219
+msgid "BACKGROUND TASKS"
+msgstr "后台任务"
+
+#: ../../chapter03.rst:2221
+msgid ""
+"The cluster administrator can help the tenant seed the data. For example "
+"take data into a USB drive and take it to the same local area network as "
+"the Cluster Server and see the data into the tenant storage."
+msgstr "集群管理员可以帮助租户植入数据。例如，将数据拷贝到USB驱动器中，然后将其带到与集群服务器相同的局域网中，并将数据植入到租户存储中。"
+
+#: ../../chapter03.rst:2224
+msgid "**Add New Data Seeding Task**"
+msgstr "**添加新的数据播种任务**"
+
+#: ../../chapter03.rst:2226
+msgid "``Background Tasks`` > ``+`` > ``Add New Data Seeding Task``"
+msgstr "``后台任务`` > ``+`` > ``添加新的数据播种任务``"
+
+#: ../../chapter03.rst:2231
+msgid "DATA SEEDING"
+msgstr "数据播种"
+
+#: ../../chapter03.rst:2233
+msgid ""
+"Data Seeding is to take a folder from a source location and seed it into "
+"a team folder."
+msgstr "数据播种是指将一个文件夹从源位置播种到团队文件夹中。"
+
+#: ../../chapter03.rst:2235
+msgid "On the left of the dialog, it is the source folder path information."
+msgstr "在对话框的左侧，是源文件夹路径信息。"
+
+#: ../../chapter03.rst:2237
+msgid "On the right side of the dialog, it is the target team folder information."
+msgstr "在对话框的右侧，是目标团队文件夹信息。"
+
+#: ../../chapter03.rst:2239
+msgid ""
+"If you are seeding the data into a brand new team folder, you will first "
+"go into the team folder area and create a new team folder with empty "
+"content inside, and then come back to data seeding page and select it "
+"from the team folder drop down."
+msgstr "如果您要将数据植入一个全新的团队文件夹，您首先需要进入团队文件夹区域，创建一个空内容的新团队文件夹，然后返回到数据植入页面，并从团队文件夹下拉菜单中选择它。"
+
+#: ../../chapter03.rst:2244
+msgid "Tenant Branding"
+msgstr "租户品牌"
+
+#: ../../chapter03.rst:2246
+msgid "``Tenant Manager`` > ``Branding`` > ``Tenant Branding``"
+msgstr "``租户管理`` > ``品牌化`` > ``租户品牌化``"
+
+#: ../../chapter03.rst:2248
+msgid ""
+"The cluster administrator can help the tenant do the tenant-specific "
+"branding in the partner portal."
+msgstr "集群管理员可以帮助租户在合作伙伴门户中进行特定于租户的品牌化。"
+
+#: ../../chapter03.rst:2250
+msgid ""
+"The branding is applied by the customized URL. You can think of the "
+"customized URL as a primary key to retrieve all tenant related branding "
+"information."
+msgstr "品牌化是通过自定义URL应用的。您可以将自定义URL视为检索所有与租户相关的品牌信息的主键。"
+
+#: ../../chapter03.rst:2255
+msgid ""
+"If per-tenant branding is enabled, The tenant branding section will be "
+"available."
+msgstr "如果启用了每个租户的品牌定制，租户品牌部分将可用。"
+
+#: ../../chapter03.rst:2260
+msgid "PER-TENANT BRANDING OPTIONS"
+msgstr "每个租户的品牌选项"
+
+#: ../../chapter03.rst:2262
+msgid "**Customized URL for your business**"
+msgstr "**为您的业务定制的URL**"
+
+#: ../../chapter03.rst:2264
+msgid ""
+"Typically the customize URL is a sub domain of the Cluster Server. For "
+"example, if the Cluster Server is at https://cloud.mycompany.com, the sub"
+" domain can be https://acme1.mycompany.com"
+msgstr "通常自定义URL是集群服务器的子域。例如，如果集群服务器位于 https://cloud.mycompany.com，子域可以是 https://acme1.mycompany.com"
+
+#: ../../chapter03.rst:2266
+msgid ""
+"In Windows 2012 and above (the server that has the Cluster Server "
+"running), it also allows SNI (Server name indicator) in the SSL "
+"certificate binding. So it is possible to bind multiple SSL certificates "
+"to the same IIS server. In this case, the Customized URL can be a fully "
+"qualified domain name."
+msgstr "在Windows 2012及以上版本（运行集群服务器的服务器）中，它还允许在SSL证书绑定中使用SNI（服务器名称指示）。因此，可以将多个SSL证书绑定到同一个IIS服务器。在这种情况下，自定义URL可以是一个完全合格的域名。"
+
+#: ../../chapter03.rst:2270
+msgid ""
+"If you set up per-tenant branding, make sure the customized URL is "
+"specific to each tenant and also the URL is different from the default "
+"URL."
+msgstr "如果您设置了每个租户的品牌定制，请确保自定义的URL对每个租户具体而且该URL与默认URL不同。"
+
+#: ../../chapter03.rst:2272
+msgid ""
+"If you don't want to setup per-tenant branding, disable it in cluster "
+"settings and setup cluster-wide branding instead."
+msgstr "如果您不想设置每个租户的品牌，请在集群设置中禁用它，并设置集群范围的品牌。"
+

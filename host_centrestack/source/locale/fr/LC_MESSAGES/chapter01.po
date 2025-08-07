@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter01.rst:3
+msgid "Overview of |prodname|"
+msgstr "Aperçu de |prodname|"
+
+#: ../../chapter01.rst:5
+msgid ""
+"|prodname| is a managed file sync and share solution. It differentiates "
+"from other file sync and share solutions by focusing primarily on "
+"security, control and team collaboration. |prodname| does really well in "
+"the following areas:"
+msgstr "|prodname| est une solution de synchronisation et de partage de fichiers gérée. Elle se distingue des autres solutions de synchronisation et de partage de fichiers en se concentrant principalement sur la sécurité, le contrôle et la collaboration d'équipe. |prodname| excelle particulièrement dans les domaines suivants :"
+
+#: ../../chapter01.rst:7
+msgid ""
+"maintain Active Directory security and NTFS permission on files and "
+"folders"
+msgstr "maintenir la sécurité Active Directory et les permissions NTFS sur les fichiers et dossiers"
+
+#: ../../chapter01.rst:8
+msgid ""
+"provide on-demand access that honors read-only, and write permission in "
+"real-time"
+msgstr "fournir un accès à la demande qui respecte les permissions de lecture seule et d'écriture en temps réel"
+
+#: ../../chapter01.rst:9
+msgid "mirror local network share to team collaboration in the cloud"
+msgstr "miroir de partage réseau local pour la collaboration d'équipe dans le cloud"
+
+#: ../../chapter01.rst:13
+msgid "Self-Hosted |prodname|"
+msgstr "Auto-hébergé |prodname|"
+
+#: ../../chapter01.rst:15
+msgid ""
+"|prodname| is pure software that is built on top of the Microsoft Web "
+"Platform and is to be deployed on a Microsoft Server."
+msgstr "|prodname| est un logiciel pur qui est construit sur la plateforme Web de Microsoft et doit être déployé sur un serveur Microsoft."
+
+#: ../../chapter01.rst:17
+msgid ""
+"This option gives Managed Service Providers and Enterprise IT maximum "
+"control and flexibility on how they want to combine the traditional file "
+"server security, control and the ease of use from an internet-facing file"
+" sharing solution."
+msgstr "Cette option offre aux fournisseurs de services gérés et aux services informatiques d'entreprise un contrôle maximal et une flexibilité sur la manière dont ils souhaitent combiner la sécurité et le contrôle d'un serveur de fichiers traditionnel avec la facilité d'utilisation d'une solution de partage de fichiers accessible via Internet."
+
+#: ../../chapter01.rst:20
+msgid "Hosted |prodname|"
+msgstr "Hébergé |prodname|"
+
+#: ../../chapter01.rst:22
+msgid ""
+"The same |prodname| software is already deployed and maintained in Amazon"
+" Web Services (EC2 + S3)."
+msgstr "Le même logiciel |prodname| est déjà déployé et maintenu dans Amazon Web Services (EC2 + S3)."
+
+#: ../../chapter01.rst:24
+msgid ""
+"This option gives a Managed Service Provider the easiest on-ramp to a "
+"|prodname| solution without the hassle of setting up |prodname| "
+"themselves."
+msgstr "Cette option offre au fournisseur de services gérés la voie la plus simple vers une solution |prodname| sans les tracas de la configuration de |prodname| eux-mêmes."
+
+#: ../../chapter01.rst:29
+msgid ""
+"This guide is about Hosted-|prodname|. Please reference the |prodname| "
+"`Admin Guide`__ for self-hosted |prodname|."
+msgstr "Ce guide concerne le |prodname| hébergé. Veuillez consulter le `Guide de l'administrateur`__ pour le |prodname| auto-hébergé."
+

@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../settings.rst:2
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../../settings.rst:4
+msgid ""
+"Here users can make changes for the app settings. If the user have set up"
+" a profile photo via the web portal, can see it through the person icon."
+msgstr "Hier können Benutzer Änderungen an den App-Einstellungen vornehmen. Wenn der Benutzer über das Webportal ein Profilfoto eingerichtet hat, kann er es über das Personensymbol sehen."
+
+#: ../../settings.rst:8
+msgid "Personal Information"
+msgstr "Persönliche Informationen"
+
+#: ../../settings.rst:10
+msgid "Under **Personal Information** User basic details will be shown."
+msgstr "Unter **Persönliche Informationen** werden die grundlegenden Details des Benutzers angezeigt."
+
+#: ../../settings.rst:15
+msgid "Name"
+msgstr "Name"
+
+#: ../../settings.rst:17
+msgid ""
+"Displays the username, which can be edited by touching the pencil button."
+" After updated, touch in the green icon to save the change."
+msgstr "Zeigt den Benutzernamen an, der durch Berühren des Bleistiftsymbols bearbeitet werden kann. Nach der Aktualisierung tippen Sie auf das grüne Symbol, um die Änderung zu speichern."
+
+#: ../../settings.rst:25
+msgid "Email"
+msgstr "E-Mail"
+
+#: ../../settings.rst:27
+msgid ""
+"Shows the user's email address, which can be edited by touching the "
+"pencil button. Then, touch on the green icon to save the change."
+msgstr "Zeigt die E-Mail-Adresse des Benutzers an, die durch Berühren des Stiftsymbols bearbeitet werden kann. Berühren Sie dann das grüne Symbol, um die Änderung zu speichern."
+
+#: ../../settings.rst:33
+msgid "The login password can also be updated by touching on the key button."
+msgstr "Das Anmeldepasswort kann auch aktualisiert werden, indem man auf die Taste drückt."
+
+#: ../../settings.rst:38
+msgid "Quota Used"
+msgstr "Genutztes Kontingent"
+
+#: ../../settings.rst:40
+msgid "Here users can view the information about his used quota."
+msgstr "Hier können Benutzer Informationen über ihr verwendetes Kontingent einsehen."
+
+#: ../../settings.rst:45
+msgid "Theme"
+msgstr "Thema"
+
+#: ../../settings.rst:47
+msgid ""
+"To change the theme color of the App, choose the preferred one from the "
+"list provided. The default color for Cloud Drive app is **Blue**."
+msgstr "Um die Themenfarbe der App zu ändern, wählen Sie die bevorzugte aus der bereitgestellten Liste. Die Standardfarbe für die Cloud Drive-App ist **Blau**."
+
+#: ../../settings.rst:52
+msgid "Security"
+msgstr "Sicherheit"
+
+#: ../../settings.rst:54
+msgid ""
+"More security can be added to the app. When closing and reopening, a PIN "
+"or Biometrics check can be added to prevent accessing the root files."
+msgstr "Mehr Sicherheit kann der App hinzugefügt werden. Beim Schließen und erneuten Öffnen kann eine PIN- oder Biometrieüberprüfung hinzugefügt werden, um den Zugriff auf die Stammdateien zu verhindern."
+
+#: ../../settings.rst:57
+msgid "PIN Code"
+msgstr "PIN-Code"
+
+#: ../../settings.rst:60
+msgid "Enable PIN Code"
+msgstr "PIN-Code aktivieren"
+
+#: ../../settings.rst:62
+msgid "Enable PIN Code by touching the corresponding switch:"
+msgstr "PIN-Code aktivieren, indem Sie den entsprechenden Schalter berühren:"
+
+#: ../../settings.rst:66
+msgid ""
+"Then, a dialog box will appear where can enter PIN Code. A PIN Code is a "
+"4-digit number."
+msgstr "Dann erscheint ein Dialogfeld, in das Sie den PIN-Code eingeben können. Ein PIN-Code ist eine vierstellige Zahl."
+
+#: ../../settings.rst:70
+msgid ""
+"Once confirmed the PIN, will return to the Settings page and see that the"
+" PIN Code is enabled."
+msgstr "Nachdem der PIN bestätigt wurde, kehrt man zur Einstellungsseite zurück und sieht, dass der PIN-Code aktiviert ist."
+
+#: ../../settings.rst:74
+msgid ""
+"When closing and reopening the app, a dialog box will appear asking for "
+"the PIN Code. Users can also close this dialog box and enter the user "
+"password instead."
+msgstr "Beim Schließen und erneuten Öffnen der App erscheint ein Dialogfeld, das nach dem PIN-Code fragt. Benutzer können dieses Dialogfeld auch schließen und stattdessen das Benutzerpasswort eingeben."
+
+#: ../../settings.rst:76
+msgid "After authenticated, can access all files and folders."
+msgstr "Nach der Authentifizierung können alle Dateien und Ordner zugegriffen werden."
+
+#: ../../settings.rst:83
+msgid "Reset PIN"
+msgstr "PIN zurücksetzen"
+
+#: ../../settings.rst:85
+msgid "Reset the PIN is possible by tapping the **Reset PIN** button:"
+msgstr "Das Zurücksetzen der PIN ist möglich, indem man auf den **Zurücksetzen der PIN**-Button tippt:"
+
+#: ../../settings.rst:89
+msgid ""
+"To reset PIN, first enter the old PIN and then enter the new PIN twice to"
+" confirm. Once the new PIN is activated, can use the new PIN to access "
+"the app."
+msgstr "Um die PIN zurückzusetzen, geben Sie zuerst die alte PIN ein und dann zweimal die neue PIN zur Bestätigung. Sobald die neue PIN aktiviert ist, können Sie die neue PIN verwenden, um auf die App zuzugreifen."
+
+#: ../../settings.rst:94
+msgid "Remove PIN"
+msgstr "PIN entfernen"
+
+#: ../../settings.rst:96
+msgid ""
+"The PIN Code can be removed by touching the switch or by tapping on "
+"**Reset PIN** and use **Remove PIN**."
+msgstr "Der PIN-Code kann entfernt werden, indem man den Schalter berührt oder auf **PIN zurücksetzen** tippt und **PIN entfernen** verwendet."
+
+#: ../../settings.rst:102
+msgid "Enter the PIN Code to remove it:"
+msgstr "Geben Sie den PIN-Code ein, um ihn zu entfernen:"
+
+#: ../../settings.rst:106
+msgid "Touch **Use Password** to use the user password to remove the PIN:"
+msgstr "Berühren Sie **Use Password**, um das Benutzerpasswort zu verwenden und die PIN zu entfernen:"
+
+#: ../../settings.rst:111
+msgid "Biometrics Sign in"
+msgstr "Biometrische Anmeldung"
+
+#: ../../settings.rst:114
+msgid "Enable Biometrics"
+msgstr "Biometrie aktivieren"
+
+#: ../../settings.rst:116
+msgid "Enable Biometrics by tapping this switch:"
+msgstr "Aktivieren Sie die Biometrie, indem Sie diesen Schalter umlegen:"
+
+#: ../../settings.rst:120
+msgid ""
+"If a yellow warning message is shown, it means the device does not have "
+"any biometrics enrolled. Go to the Settings and set this up."
+msgstr "Wenn eine gelbe Warnmeldung angezeigt wird, bedeutet dies, dass auf dem Gerät keine Biometrie registriert ist. Gehen Sie zu den Einstellungen und richten Sie dies ein."
+
+#: ../../settings.rst:124
+msgid ""
+"After tapping on the switch, will see a dialog box where can authenticate"
+" the biometrics. The biometrics can be a fingerprint or a face ID."
+msgstr "Nach dem Tippen auf den Schalter erscheint ein Dialogfeld, in dem die Biometrie authentifiziert werden kann. Die Biometrie kann ein Fingerabdruck oder eine Gesichts-ID sein."
+
+#: ../../settings.rst:128
+msgid ""
+"When closing and reopening the app, a dialog box appears asking for "
+"Biometrics Authentication. Can also close this dialog and enter the user "
+"password instead."
+msgstr "Beim Schließen und erneuten Öffnen der App erscheint ein Dialogfeld, das um biometrische Authentifizierung bittet. Man kann diesen Dialog auch schließen und stattdessen das Benutzerpasswort eingeben."
+
+#: ../../settings.rst:130
+msgid "After authentication, user can access the files and folders."
+msgstr "Nach der Authentifizierung kann der Benutzer auf die Dateien und Ordner zugreifen."
+
+#: ../../settings.rst:137
+msgid "Remove Biometrics"
+msgstr "Biometrie entfernen"
+
+#: ../../settings.rst:139
+msgid "Remove Biometrics by touching the switch:"
+msgstr "Biometrie entfernen, indem Sie den Schalter berühren:"
+
+#: ../../settings.rst:143
+msgid "Authenticate to remove biometrics:"
+msgstr "Authentifizieren Sie sich, um Biometrie zu entfernen:"
+
+#: ../../settings.rst:147
+msgid ""
+"Or tap in **Use Password** to use the user password to remove the "
+"biometrics:"
+msgstr "Oder tippen Sie auf **Use Password**, um die Biometrie mit dem Benutzerpasswort zu entfernen:"
+
+#: ../../settings.rst:152
+msgid "Only enable either PIN Code or Biometrics at the same time."
+msgstr "Aktivieren Sie gleichzeitig entweder PIN-Code oder Biometrie."
+
+#: ../../settings.rst:155
+msgid "Notification Center"
+msgstr "Benachrichtigungszentrum"
+
+#: ../../settings.rst:157
+msgid ""
+"In this section, can enable notifications for the app while uploading and"
+" downloading."
+msgstr "In diesem Abschnitt können Benachrichtigungen für die App beim Hochladen und Herunterladen aktiviert werden."
+
+#: ../../settings.rst:161
+msgid ""
+"Enable **All Notifications** gives the CentreStack app permission to send"
+" all notifications."
+msgstr "Die Aktivierung von **Alle Benachrichtigungen** erlaubt der CentreStack-App, alle Benachrichtigungen zu senden."
+
+#: ../../settings.rst:163
+msgid ""
+"Also enable other notifications by selecting **File Synced Up**, **File "
+"Synced Down**, and **Cache Updated**."
+msgstr "Aktivieren Sie auch andere Benachrichtigungen, indem Sie **Datei synchronisiert hoch**, **Datei synchronisiert runter** und **Cache aktualisiert** auswählen."
+
+#: ../../settings.rst:166
+msgid "Media Backup"
+msgstr "Mediensicherung"
+
+#: ../../settings.rst:168
+msgid ""
+"Set up a **Media Backup** folder to synchronize media files from the "
+"local phone storage."
+msgstr "Richten Sie einen **Media Backup**-Ordner ein, um Mediendateien mit dem lokalen Telefonspeicher zu synchronisieren."
+
+#: ../../settings.rst:171
+msgid "Set up Backup Folder"
+msgstr "Backup-Ordner einrichten"
+
+#: ../../settings.rst:173
+msgid ""
+"Touch the pencil button to set a name for the backup folder, and tap the "
+"green check mark button to save."
+msgstr "Berühren Sie die Stift-Taste, um einen Namen für den Backup-Ordner festzulegen, und tippen Sie auf die grüne Häkchen-Taste, um zu speichern."
+
+#: ../../settings.rst:179
+msgid ""
+"Tap on the switch to enable **Media Backup**. If permission to media "
+"files are not granted for the app, a dialog will appear asking to allow "
+"the app to access media files."
+msgstr "Tippen Sie auf den Schalter, um **Media Backup** zu aktivieren. Wenn der App keine Berechtigung für den Zugriff auf Mediendateien erteilt wurde, erscheint ein Dialogfeld, das Sie auffordert, der App den Zugriff auf Mediendateien zu gestatten."
+
+#: ../../settings.rst:183
+msgid ""
+"If the name of an existing folder matches the backup folder name, will "
+"receive a warning to either change to a different backup folder name or "
+"use that folder as the backup folder."
+msgstr "Wenn der Name eines vorhandenen Ordners mit dem Namen des Backup-Ordners übereinstimmt, wird eine Warnung angezeigt, entweder einen anderen Namen für den Backup-Ordner zu wählen oder diesen Ordner als Backup-Ordner zu verwenden."
+
+#: ../../settings.rst:187
+msgid ""
+"Go back to the root directory and check the media backup folder with an "
+"attached folder icon. The backup media files are located in the folder "
+"under the device type name."
+msgstr "Gehen Sie zurück zum Stammverzeichnis und überprüfen Sie den Medien-Backup-Ordner mit einem angehängten Ordnersymbol. Die Backup-Mediendateien befinden sich in dem Ordner unter dem Gerätetypnamen."
+
+#: ../../settings.rst:194
+msgid "Backup Folder Disconnection"
+msgstr "Backup-Ordner Trennung"
+
+#: ../../settings.rst:196
+msgid ""
+"To disconnect from the Media Backup folder, just tap on the switch to "
+"close it."
+msgstr "Um die Verbindung zum Media Backup-Ordner zu trennen, tippen Sie einfach auf den Schalter, um ihn zu schließen."
+
+#: ../../settings.rst:201
+msgid "Wi-Fi Only"
+msgstr "Nur WLAN"
+
+#: ../../settings.rst:203
+msgid ""
+"If this switch is enabled, media files can only be synchronized under Wi-"
+"Fi connection."
+msgstr "Wenn dieser Schalter aktiviert ist, können Mediendateien nur unter einer WLAN-Verbindung synchronisiert werden."
+
+#: ../../settings.rst:208
+msgid "Cache"
+msgstr "Zwischenspeicher"
+
+#: ../../settings.rst:210
+msgid ""
+"The Cache size is calculated from temporary files, icons and previews. "
+"This can be cleared using the button below."
+msgstr "Die Größe des Zwischenspeichers wird aus temporären Dateien, Symbolen und Vorschauen berechnet. Dies kann mit der untenstehenden Schaltfläche gelöscht werden."
+
+#: ../../settings.rst:217
+msgid "Favorite Files cannot be removed when the File Cache is cleared."
+msgstr "Lieblingsdateien können nicht entfernt werden, wenn der Datei-Cache geleert wird."
+

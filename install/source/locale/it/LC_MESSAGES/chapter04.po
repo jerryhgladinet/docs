@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:3
+msgid "Web Portal"
+msgstr "Portale Web"
+
+#: ../../chapter04.rst:5
+msgid ""
+"Click the Portal – \"My Files\" Link for the default Cluster Admin to "
+"view his files/folders over the web portal:"
+msgstr "Clicca sul link del Portale – \"I Miei File\" per l'amministratore del cluster predefinito per visualizzare i suoi file/cartelle tramite il portale web:"
+
+#: ../../chapter04.rst:9
+msgid "See below image for the files and folder view:"
+msgstr "Vedi l'immagine sottostante per la visualizzazione dei file e delle cartelle:"
+
+#: ../../chapter04.rst:13
+msgid ""
+"From here you can test the installation by creating files, migrating, "
+"editing, sharing and deleting files to verify the storage setup is "
+"working as expected."
+msgstr "Da qui puoi testare l'installazione creando file, migrando, modificando, condividendo ed eliminando file per verificare che la configurazione di archiviazione funzioni come previsto."
+

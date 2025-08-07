@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../sharing_collaborating.rst:2
+msgid "Sharing and Collaborating"
+msgstr "Deling og samarbejde"
+
+#: ../../sharing_collaborating.rst:4
+msgid "User can select the files or folders to share from the Android devices."
+msgstr "Brugeren kan vælge de filer eller mapper, der skal deles fra Android-enhederne."
+
+#: ../../sharing_collaborating.rst:10
+msgid "Share"
+msgstr "Del"
+
+#: ../../sharing_collaborating.rst:12
+msgid ""
+"User will be redirected to the **Share/Invite User** screen. There, add "
+"the email addresses of the users and select different options for "
+"sharing. Press the \">\" icon to add users to the share."
+msgstr "Brugeren vil blive omdirigeret til skærmen **Del/Inviter bruger**. Der kan du tilføje brugernes e-mailadresser og vælge forskellige muligheder for deling. Tryk på \">\" ikonet for at tilføje brugere til delingen."
+
+#: ../../sharing_collaborating.rst:17
+msgid ""
+"On the next screen, touch the yellow arrow to select \"**Continue as it "
+"is now**\" (read-only access). Or select \"**Add user as a Guest User**\""
+" to get access to other settings."
+msgstr "På næste skærm skal du røre ved den gule pil for at vælge \"**Fortsæt som det er nu**\" (skrivebeskyttet adgang). Eller vælg \"**Tilføj bruger som Gæstebruger**\" for at få adgang til andre indstillinger."
+
+#: ../../sharing_collaborating.rst:21
+msgid ""
+"Before sending email share notification, specify how the user(s) can "
+"access the file or folder."
+msgstr "Før du sender e-maildelemeddelelse, angiv hvordan bruger(e) kan få adgang til filen eller mappen."
+
+#: ../../sharing_collaborating.rst:23
+msgid "Set the expiration time for the share."
+msgstr "Indstil udløbstiden for delingen."
+
+#: ../../sharing_collaborating.rst:24
+msgid "Select \"Read Only\" or \"Full Control\"."
+msgstr "Vælg \"Skrivebeskyttet\" eller \"Fuld kontrol\"."
+
+#: ../../sharing_collaborating.rst:25
+msgid "Select \"View only (no Download)\" if desired."
+msgstr "Vælg \"Vis kun (ingen download)\" hvis ønsket."
+
+#: ../../sharing_collaborating.rst:26
+msgid "Select \"Password Protection\" and enter a password."
+msgstr "Vælg \"Password Protection\" og indtast en adgangskode."
+
+#: ../../sharing_collaborating.rst:27
+msgid ""
+"Disable password protection and allow the user to create their own "
+"password from the link in the email they receive."
+msgstr "Deaktiver kodeordsbeskyttelse og tillad brugeren at oprette deres eget kodeord fra linket i den e-mail, de modtager."
+
+#: ../../sharing_collaborating.rst:29
+msgid "When selected the sharing options, tap on \"Share\" at the top right."
+msgstr "Når delingsindstillingerne er valgt, tryk på \"Del\" øverst til højre."
+
+#: ../../sharing_collaborating.rst:34
+msgid ""
+"Sharing with an email user creates a **Guest User**. Each licensed user "
+"can create 3 guest user accounts. If there are 3 licensed users, then a "
+"total of 9 guest users can be added for that tenant. If the number of "
+"guest users has reached the limit, and the tenant is set up to auto grow "
+"the number of licensed users, then one more license will be added to the "
+"tenant."
+msgstr "At dele med en e-mail-bruger opretter en **Gæstebruger**. Hver licenseret bruger kan oprette 3 gæstekontoer. Hvis der er 3 licenserede brugere, kan i alt 9 gæstebrugere tilføjes for den pågældende lejer. Hvis antallet af gæstebrugere har nået grænsen, og lejeren er indstillet til automatisk at øge antallet af licenserede brugere, vil der blive tilføjet endnu en licens til lejeren."
+
+#: ../../sharing_collaborating.rst:38
+msgid "Share Via"
+msgstr "Del Via"
+
+#: ../../sharing_collaborating.rst:40
+msgid ""
+"User can share the file with a third-party application such as Gmail or "
+"WhatsApp."
+msgstr "Brugeren kan dele filen med en tredjepartsapplikation såsom Gmail eller WhatsApp."
+
+#: ../../sharing_collaborating.rst:46
+msgid "Get Public Link"
+msgstr "Få offentligt link"
+
+#: ../../sharing_collaborating.rst:48
+msgid ""
+"A URL will be provided that can be used to paste into an email or other "
+"field to share public read-only access to the file."
+msgstr "Der vil blive leveret en URL, som kan bruges til at indsætte i en e-mail eller andet felt for at dele offentlig skrivebeskyttet adgang til filen."
+
+#: ../../sharing_collaborating.rst:54
+msgid "Share Manager"
+msgstr "Delingsmanager"
+
+#: ../../sharing_collaborating.rst:56
+msgid ""
+"User will be taken to a view and will see a list of all shares associated"
+" with the item. Tap on on a shared user, to resend the **share email** "
+"(1) and **get public link** (2)."
+msgstr "Brugeren vil blive ført til et visning og vil se en liste over alle delinger forbundet med emnet. Tryk på en delt bruger for at gensende **share email** (1) og **få offentligt link** (2)."
+
+#: ../../sharing_collaborating.rst:58
+msgid ""
+"To delete a user share, press the **trash can** (3) icon next to the "
+"share. This will remove the share and prevent access by that user."
+msgstr "For at slette en brugerdeling skal du trykke på **skraldespandsikonet** (3) ved siden af delingen. Dette vil fjerne delingen og forhindre adgang for den pågældende bruger."
+
+#: ../../sharing_collaborating.rst:60
+msgid ""
+"Touching the Share Menu button at the bottom right of the screen will "
+"give more options. **Add more users** (4) to the share list, **Share "
+"Via** (5) this file, **copy public (read-only) link** (2) to the "
+"clipboard, **refresh the list** (6)."
+msgstr "At berøre knappen Del-menuen i nederste højre hjørne af skærmen vil give flere muligheder. **Tilføj flere brugere** (4) til delingslisten, **Del via** (5) denne fil, **kopier offentligt (kun læse) link** (2) til udklipsholderen, **opdater listen** (6)."
+
+#: ../../sharing_collaborating.rst:67
+msgid "Request a File"
+msgstr "Anmod om en fil"
+
+#: ../../sharing_collaborating.rst:69
+msgid ""
+"This option is available only for folders. Selecting **Request a file** "
+"will take to a screen where user can share a link with another user so "
+"they can upload files to a specific folder."
+msgstr "Denne mulighed er kun tilgængelig for mapper. Hvis du vælger **Anmod om en fil**, vil det føre til en skærm, hvor brugeren kan dele et link med en anden bruger, så de kan uploade filer til en bestemt mappe."
+
+#: ../../sharing_collaborating.rst:77
+msgid "Files Shared with Me"
+msgstr "Filer delt med mig"
+
+#: ../../sharing_collaborating.rst:79
+msgid ""
+"User can access files shared by other users from **Files Shared with Me**"
+" from the side menu."
+msgstr "Brugeren kan få adgang til filer delt af andre brugere fra **Filer delt med mig** fra sidemenuen."
+

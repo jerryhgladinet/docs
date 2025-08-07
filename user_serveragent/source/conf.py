@@ -49,8 +49,46 @@ source_suffix = '.rst'
 master_doc = 'contents'
 
 # General information about the project.
+#en
 project = 'File Server Agent User Guide'
-copyright = '2022 - Gladinet, Inc. All Rights Reserved'
+
+#ar
+#project = 'دليل مستخدم وكيل خادم الملفات'
+
+#da
+#project = 'Brugervejledning til filserveragent'
+
+#de
+#project = 'Benutzerhandbuch für den File Server Agent'
+
+#es
+#project = 'Guía del usuario del agente del servidor de archivos'
+
+#fi
+#project = 'Tiedostopalvelinagentin käyttöopas'
+
+#fr
+#project = 'Guide de l\'utilisateur de l\'agent de serveur de fichiers'
+
+#it
+#project = 'Guida utente dell\'agente file server'
+
+#ja
+#project = 'ファイルサーバーエージェントユーザーガイド'
+
+#nl
+#project = 'Gebruikershandleiding voor bestandsserveragenten'
+
+#pt
+#project = 'Guia do utilizador do agente do servidor de ficheiros'
+
+#sv
+#project = 'Användarhandbok för filserveragent'
+
+#zh
+#project = '文件服务器代理用户指南'
+
+copyright = '2025 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
 prodname = 'CentreStack'
@@ -71,7 +109,13 @@ release = '9.7.5645.41666'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
+locale_dirs = ['locale/']        # path is example but recommended.
+gettext_compact = False     # optional.
+html_context = {
+  'current_language': 'en',
+  'languages': [["English","en"], ["Français","fr"], ["Deutsche","de"], ["Español","es"], ["Italiano","it"], ["Português","pt"], ["Nederlands","nl"], ["中文", "zh"], ["日本語","ja"], ["Svenska","sv"], ["Suomi","fi"], ["Dansk","da"], ["عربي","ar"]]
+}
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:

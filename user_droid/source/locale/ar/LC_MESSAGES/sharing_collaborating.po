@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../sharing_collaborating.rst:2
+msgid "Sharing and Collaborating"
+msgstr "المشاركة والتعاون"
+
+#: ../../sharing_collaborating.rst:4
+msgid "User can select the files or folders to share from the Android devices."
+msgstr "يمكن للمستخدم اختيار الملفات أو المجلدات للمشاركة من الأجهزة الأندرويد."
+
+#: ../../sharing_collaborating.rst:10
+msgid "Share"
+msgstr "مشاركة"
+
+#: ../../sharing_collaborating.rst:12
+msgid ""
+"User will be redirected to the **Share/Invite User** screen. There, add "
+"the email addresses of the users and select different options for "
+"sharing. Press the \">\" icon to add users to the share."
+msgstr "سيتم توجيه المستخدم إلى شاشة **مشاركة/دعوة المستخدم**. هناك، أضف عناوين البريد الإلكتروني للمستخدمين واختر خيارات مختلفة للمشاركة. اضغط على أيقونة \">\" لإضافة المستخدمين إلى المشاركة."
+
+#: ../../sharing_collaborating.rst:17
+msgid ""
+"On the next screen, touch the yellow arrow to select \"**Continue as it "
+"is now**\" (read-only access). Or select \"**Add user as a Guest User**\""
+" to get access to other settings."
+msgstr "في الشاشة التالية، انقر على السهم الأصفر لاختيار \"**استمر كما هو الآن**\" (وصول للقراءة فقط). أو اختر \"**إضافة المستخدم كضيف**\" للوصول إلى إعدادات أخرى."
+
+#: ../../sharing_collaborating.rst:21
+msgid ""
+"Before sending email share notification, specify how the user(s) can "
+"access the file or folder."
+msgstr "قبل إرسال إشعار مشاركة البريد الإلكتروني، حدد كيف يمكن للمستخدمين الوصول إلى الملف أو المجلد."
+
+#: ../../sharing_collaborating.rst:23
+msgid "Set the expiration time for the share."
+msgstr "حدد وقت انتهاء صلاحية المشاركة."
+
+#: ../../sharing_collaborating.rst:24
+msgid "Select \"Read Only\" or \"Full Control\"."
+msgstr "حدد \"للقراءة فقط\" أو \"التحكم الكامل\"."
+
+#: ../../sharing_collaborating.rst:25
+msgid "Select \"View only (no Download)\" if desired."
+msgstr "حدد \"عرض فقط (بدون تحميل)\" إذا رغبت."
+
+#: ../../sharing_collaborating.rst:26
+msgid "Select \"Password Protection\" and enter a password."
+msgstr "اختر \"حماية بكلمة السر\" وأدخل كلمة المرور."
+
+#: ../../sharing_collaborating.rst:27
+msgid ""
+"Disable password protection and allow the user to create their own "
+"password from the link in the email they receive."
+msgstr "تعطيل حماية كلمة المرور والسماح للمستخدم بإنشاء كلمة مرور خاصة بهم من الرابط الموجود في البريد الإلكتروني الذي يتلقونه"
+
+#: ../../sharing_collaborating.rst:29
+msgid "When selected the sharing options, tap on \"Share\" at the top right."
+msgstr "عند اختيار خيارات المشاركة، انقر على \"مشاركة\" في أعلى اليمين."
+
+#: ../../sharing_collaborating.rst:34
+msgid ""
+"Sharing with an email user creates a **Guest User**. Each licensed user "
+"can create 3 guest user accounts. If there are 3 licensed users, then a "
+"total of 9 guest users can be added for that tenant. If the number of "
+"guest users has reached the limit, and the tenant is set up to auto grow "
+"the number of licensed users, then one more license will be added to the "
+"tenant."
+msgstr "مشاركة الملفات مع مستخدم عبر البريد الإلكتروني ينتج عنها **مستخدم ضيف**. يمكن لكل مستخدم مرخص إنشاء 3 حسابات لمستخدمين ضيوف. إذا كان هناك 3 مستخدمين مرخصين، فيمكن إضافة ما مجموعه 9 مستخدمين ضيوف لذلك المستأجر. إذا وصل عدد المستخدمين الضيوف إلى الحد الأقصى، وتم ضبط المستأجر لزيادة عدد المستخدمين المرخصين تلقائيًا، فسيتم إضافة ترخيص آخر إلى المستأجر."
+
+#: ../../sharing_collaborating.rst:38
+msgid "Share Via"
+msgstr "مشاركة عبر"
+
+#: ../../sharing_collaborating.rst:40
+msgid ""
+"User can share the file with a third-party application such as Gmail or "
+"WhatsApp."
+msgstr "يمكن للمستخدم مشاركة الملف مع تطبيق خارجي مثل Gmail أو WhatsApp."
+
+#: ../../sharing_collaborating.rst:46
+msgid "Get Public Link"
+msgstr "الحصول على رابط عام"
+
+#: ../../sharing_collaborating.rst:48
+msgid ""
+"A URL will be provided that can be used to paste into an email or other "
+"field to share public read-only access to the file."
+msgstr "سيتم توفير عنوان URL يمكن استخدامه للصقه في رسالة بريد إلكتروني أو حقل آخر لمشاركة الوصول العام للقراءة فقط إلى الملف."
+
+#: ../../sharing_collaborating.rst:54
+msgid "Share Manager"
+msgstr "مدير المشاركة"
+
+#: ../../sharing_collaborating.rst:56
+msgid ""
+"User will be taken to a view and will see a list of all shares associated"
+" with the item. Tap on on a shared user, to resend the **share email** "
+"(1) and **get public link** (2)."
+msgstr "سيتم نقل المستخدم إلى عرض وسيرى قائمة بجميع المشاركات المرتبطة بالعنصر. انقر على المستخدم المشترك، لإعادة إرسال **بريد المشاركة** (1) و **الحصول على رابط عام** (2)."
+
+#: ../../sharing_collaborating.rst:58
+msgid ""
+"To delete a user share, press the **trash can** (3) icon next to the "
+"share. This will remove the share and prevent access by that user."
+msgstr "لحذف مشاركة مستخدم، اضغط على أيقونة **سلة المهملات** (3) المجاورة للمشاركة. سيؤدي ذلك إلى إزالة المشاركة ومنع الوصول من قبل ذلك المستخدم."
+
+#: ../../sharing_collaborating.rst:60
+msgid ""
+"Touching the Share Menu button at the bottom right of the screen will "
+"give more options. **Add more users** (4) to the share list, **Share "
+"Via** (5) this file, **copy public (read-only) link** (2) to the "
+"clipboard, **refresh the list** (6)."
+msgstr "لمس زر قائمة المشاركة في أسفل يمين الشاشة سيعطي المزيد من الخيارات. **إضافة المزيد من المستخدمين** (4) إلى قائمة المشاركة، **مشاركة عبر** (5) هذا الملف، **نسخ رابط عام (للقراءة فقط)** (2) إلى الحافظة، **تحديث القائمة** (6)."
+
+#: ../../sharing_collaborating.rst:67
+msgid "Request a File"
+msgstr "طلب ملف"
+
+#: ../../sharing_collaborating.rst:69
+msgid ""
+"This option is available only for folders. Selecting **Request a file** "
+"will take to a screen where user can share a link with another user so "
+"they can upload files to a specific folder."
+msgstr "هذا الخيار متاح فقط للمجلدات. عند اختيار **طلب ملف** سيتم الانتقال إلى شاشة حيث يمكن للمستخدم مشاركة رابط مع مستخدم آخر بحيث يمكنهم رفع الملفات إلى مجلد محدد."
+
+#: ../../sharing_collaborating.rst:77
+msgid "Files Shared with Me"
+msgstr "الملفات المشاركة معي"
+
+#: ../../sharing_collaborating.rst:79
+msgid ""
+"User can access files shared by other users from **Files Shared with Me**"
+" from the side menu."
+msgstr "يمكن للمستخدم الوصول إلى الملفات التي شاركها مستخدمون آخرون من خلال **الملفات المشاركة معي** من القائمة الجانبية."
+

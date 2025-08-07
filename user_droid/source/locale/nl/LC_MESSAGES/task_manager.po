@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../task_manager.rst:2
+msgid "Task Manager"
+msgstr "Taakbeheer"
+
+#: ../../task_manager.rst:4
+msgid "Access the **Task Manager** from the side menu."
+msgstr "Toegang tot de **Taakbeheer** vanuit het zijmenu."
+
+#: ../../task_manager.rst:8
+msgid ""
+"If some tasks are pending, the list will be shown in the Task Manager. "
+"Tap on the **Refresh** (1) button to update the task list and the "
+"**Delete** (2) to delete all tasks."
+msgstr "Als er taken in behandeling zijn, wordt de lijst weergegeven in de Taakbeheerder. Tik op de **Vernieuwen** (1) knop om de takenlijst bij te werken en op **Verwijderen** (2) om alle taken te verwijderen."
+
+#: ../../task_manager.rst:12
+msgid "Any individual task can be deleted by pressing the delete button."
+msgstr "Elke individuele taak kan worden verwijderd door op de verwijderknop te drukken."
+
+#: ../../task_manager.rst:16
+msgid ""
+"A task that is displayed as a green running image means that it is "
+"currently being executed."
+msgstr "Een taak die wordt weergegeven als een groen lopend beeld betekent dat deze momenteel wordt uitgevoerd."
+
+#: ../../task_manager.rst:20
+msgid "Once all tasks are completed, the **No Tasks Found** page is displayed."
+msgstr "Zodra alle taken zijn voltooid, wordt de pagina **Geen taken gevonden** weergegeven."
+

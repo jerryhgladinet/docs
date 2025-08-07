@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter2.rst:3
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../chapter2.rst:6
+msgid ""
+"First login to your |prodname| web portal and click the user icon (1) in "
+"the top right corner. Then click the client download button (2) and "
+"download the respective client installer package."
+msgstr "Connectez-vous d'abord à votre portail web |prodname| et cliquez sur l'icône utilisateur (1) dans le coin supérieur droit. Ensuite, cliquez sur le bouton de téléchargement du client (2) et téléchargez le package d'installation du client correspondant."
+
+#: ../../chapter2.rst:9
+msgid ""
+"**NOTE:** It is very important that you log in to |prodname| as a user "
+"before downloading the Windows or Mac Clients. This gives you access to "
+"client installation packages that are already tied to your |prodname| "
+"account, which makes installation and accessing |prodname| easy."
+msgstr "**REMARQUE :** Il est très important que vous vous connectiez à |prodname| en tant qu'utilisateur avant de télécharger les clients Windows ou Mac. Cela vous donne accès aux packages d'installation du client qui sont déjà liés à votre compte |prodname|, ce qui facilite l'installation et l'accès à |prodname|."
+
+#: ../../chapter2.rst:14
+msgid "DOWNLOAD YOUR CLIENT"
+msgstr "TÉLÉCHARGEZ VOTRE CLIENT"
+
+#: ../../chapter2.rst:16
+msgid ""
+"Once you click the download button you will see a page of options "
+"including Windows Desktop Client (1), Mac OS X Client (2) or Mobile "
+"client (3) and download the associated package."
+msgstr "Une fois que vous aurez cliqué sur le bouton de téléchargement, vous verrez une page d'options incluant le Client de bureau Windows (1), le Client Mac OS X (2) ou le Client mobile (3) et vous pourrez télécharger le package associé."
+
+#: ../../chapter2.rst:21
+msgid "CLIENT DOWNLOAD PAGE"
+msgstr "PAGE DE TÉLÉCHARGEMENT CLIENT"
+
+#: ../../chapter2.rst:23
+msgid ""
+"Ensure that you choose the appropriate download for your operating system"
+" (eg, Windows 64-bit, Windows 32-bit). Run the downloaded MSI package to "
+"start the installation. Then click \"Next\" and follow the instructions "
+"to finish. In the Setup Windows Client screen, you can customize the "
+"installation if necessary."
+msgstr "Assurez-vous de choisir le téléchargement approprié pour votre système d'exploitation (par exemple, Windows 64 bits, Windows 32 bits). Exécutez le package MSI téléchargé pour démarrer l'installation. Puis cliquez sur \"Suivant\" et suivez les instructions pour terminer. Dans l'écran de configuration du client Windows, vous pouvez personnaliser l'installation si nécessaire."
+
+#: ../../chapter2.rst:28
+msgid "CLOUD WINDOWS CLIENT INSTALLER"
+msgstr "INSTALLATEUR DU CLIENT WINDOWS CLOUD"
+
+#: ../../chapter2.rst:31
+msgid "Log In to |prodname|"
+msgstr "Connectez-vous à |prodname|"
+
+#: ../../chapter2.rst:33
+msgid ""
+"At the end of the installation, you will be prompted to enter your "
+"|prodname| user account credentials. These credentials will authorize "
+"your |prodname| Windows Client and connect it to your |prodname| user "
+"account. Access to your Windows Client agent is also available under the "
+"Windows Start Menu. If the \"Auto-login next time\" option is selected "
+"(default), the Cloud Windows Client will be launched at Windows Startup. "
+"You can see the client icon in the lower right of the desktop or in the "
+"right-bottom notifications areas of your task bar."
+msgstr "À la fin de l'installation, il vous sera demandé de saisir vos identifiants de compte utilisateur |prodname|. Ces identifiants autoriseront votre Client Windows |prodname| et le connecteront à votre compte utilisateur |prodname|. L'accès à votre agent Client Windows est également disponible dans le menu Démarrer de Windows. Si l'option \"Connexion automatique la prochaine fois\" est sélectionnée (par défaut), le Client Windows Cloud sera lancé au démarrage de Windows. Vous pouvez voir l'icône du client dans le coin inférieur droit du bureau ou dans la zone de notifications en bas à droite de votre barre des tâches."
+
+#: ../../chapter2.rst:38
+msgid "LOGGING INTO |prodname| CLIENT"
+msgstr "CONNEXION AU CLIENT |prodname|"
+
+#: ../../chapter2.rst:41
+msgid "Accessing Your Files and Folders"
+msgstr "Accéder à vos fichiers et dossiers"
+
+#: ../../chapter2.rst:43
+msgid "There are two main ways to use |prodname| files and folders."
+msgstr "Il existe deux principales manières d'utiliser les fichiers et dossiers |prodname|."
+
+#: ../../chapter2.rst:45
+msgid "First, there is a |prodname| Cloud Drive."
+msgstr "Tout d'abord, il y a un |prodname| Cloud Drive."
+
+#: ../../chapter2.rst:47
+msgid ""
+"With the |prodname| Cloud Drive, you have direct on-demand access to your"
+" cloud storage."
+msgstr "Avec le Cloud Drive |prodname|, vous avez un accès direct et à la demande à votre stockage cloud."
+
+#: ../../chapter2.rst:49
+msgid "Second, there are synchronization folders."
+msgstr "Deuxièmement, il y a des dossiers de synchronisation."
+
+#: ../../chapter2.rst:51
+msgid ""
+"Outside of the Cloud Drive, if you don't want to change where your "
+"existing folders are, you can then attach local folders as an access "
+"mechanism. The attached folder will be synchronized with Cloud in a bi-"
+"directional way."
+msgstr "En dehors du Cloud Drive, si vous ne souhaitez pas modifier l'emplacement de vos dossiers existants, vous pouvez alors attacher des dossiers locaux comme mécanisme d'accès. Le dossier attaché sera synchronisé avec le Cloud de manière bi-directionnelle."
+
+#: ../../chapter2.rst:54
+msgid "Cloud Drive Access"
+msgstr "Accès au Cloud Drive"
+
+#: ../../chapter2.rst:56
+msgid ""
+"After the installation is completed, a system tray icon will appear that "
+"allows you to open your |prodname| Drive."
+msgstr "Après la fin de l'installation, une icône dans la barre des tâches apparaîtra qui vous permettra d'ouvrir votre |prodname| Drive."
+
+#: ../../chapter2.rst:58
+msgid ""
+"If you click the system tray icon **(1)** which will open the tray menu. "
+"You can access the cloud drive by clicking the drive icon **(2)** which "
+"will open Windows Explorer in the Cloud Drive veiw **(3)**."
+msgstr "Si vous cliquez sur l'icône de la barre des tâches **(1)**, cela ouvrira le menu de la barre des tâches. Vous pouvez accéder au disque cloud en cliquant sur l'icône du disque **(2)**, ce qui ouvrira l'Explorateur Windows dans la vue du Disque Cloud **(3)**."
+
+#: ../../chapter2.rst:63
+msgid "ACCESSING THE CLOUD DRIVE"
+msgstr "ACCÉDER AU DISQUE CLOUD"
+
+#: ../../chapter2.rst:65
+msgid ""
+"In the Cloud Drive folder, you can do typical Windows folder functions, "
+"and right click to access the Cloud Drive context menu **(4)**."
+msgstr "Dans le dossier Cloud Drive, vous pouvez effectuer les fonctions habituelles de dossier Windows, et cliquer avec le bouton droit pour accéder au menu contextuel de Cloud Drive **(4)**."
+
+#: ../../chapter2.rst:67
+msgid ""
+"Back in the Tray Menu, the three-dots **(5)** gives you access to other "
+"important functions (e.g., web portal, force sync, sign out, exit, enable"
+" debug trace)."
+msgstr "De retour dans le menu de la barre d'état, les trois points **(5)** vous donnent accès à d'autres fonctions importantes (par exemple, le portail web, la synchronisation forcée, la déconnexion, la fermeture, l'activation de la trace de débogage)."
+
+#: ../../chapter2.rst:72
+msgid "OTHER CLOUD DRIVE FUNCTIONS"
+msgstr "AUTRES FONCTIONS DE LECTEUR CLOUD"
+
+#: ../../chapter2.rst:75
+msgid "Management Console"
+msgstr "Console de gestion"
+
+#: ../../chapter2.rst:77
+msgid ""
+"Also in the Tray Menu there is a Management Console icon **(6)**. Click "
+"this will give you access to the Management Console."
+msgstr "Également dans le menu de la barre des tâches, il y a une icône de la Console de Gestion **(6)**. Cliquer dessus vous donnera accès à la Console de Gestion."
+
+#: ../../chapter2.rst:82
+msgid "ACCESSING THE MANAGEMENT CONSOLE"
+msgstr "ACCÉDER À LA CONSOLE DE GESTION"
+

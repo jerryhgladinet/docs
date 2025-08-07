@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter3.rst:3
+msgid "Browser Requirements"
+msgstr "Exigences du navigateur"
+
+#: ../../chapter3.rst:5
+msgid ""
+"The web portal runs inside compatible web browsers. We recommend using "
+"the following web browsers."
+msgstr "Le portail web fonctionne dans les navigateurs web compatibles. Nous recommandons d'utiliser les navigateurs web suivants."
+
+#: ../../chapter3.rst:8
+msgid "Google Chrome (Latest)"
+msgstr "Google Chrome (Dernière version)"
+
+#: ../../chapter3.rst:9
+msgid "Firefox (Latest)"
+msgstr "Firefox (Dernière version)"
+
+#: ../../chapter3.rst:10
+msgid "Safari (Latest)"
+msgstr "Safari (Dernière version)"
+
+#: ../../chapter3.rst:11
+msgid "Windows Edge (Latest)"
+msgstr "Windows Edge (Dernière version)"
+
+#: ../../chapter3.rst:12
+msgid "Opera (Latest)"
+msgstr "Opera (Dernière version)"
+
+#: ../../chapter3.rst:13
+msgid "Internet Explorer (11)"
+msgstr "Internet Explorer (11)"
+
+#: ../../chapter3.rst:18
+msgid ""
+"For administration work, the Web Portal doesn't support Internet Explorer"
+" 8 any more."
+msgstr "Pour les travaux d'administration, le portail Web ne prend plus en charge Internet Explorer 8."
+
+#: ../../chapter3.rst:23
+msgid ""
+"Google Chrome and Firefox have self-update features so most of the time "
+"you are running the latest version. It is OK if these web browser are not"
+" the latest versions, as long as they were released after 2011."
+msgstr "Google Chrome et Firefox disposent de fonctionnalités de mise à jour automatique, donc la plupart du temps, vous utilisez la dernière version. Ce n'est pas grave si ces navigateurs web ne sont pas les versions les plus récentes, tant qu'ils ont été publiés après 2011."
+
+#: ../../chapter3.rst:28
+msgid ""
+"For the best user experience, however, we recommend the latest version of"
+" web browsers."
+msgstr "Pour une expérience utilisateur optimale, nous recommandons toutefois la dernière version des navigateurs web."
+

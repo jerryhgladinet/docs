@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter10.rst:3
+msgid "Branding"
+msgstr "Branding"
+
+#: ../../chapter10.rst:5
+msgid ""
+"You can brand the web portal, Windows and Mac clients, iOS and Android "
+"Applications."
+msgstr "Du kan brande webportalen, Windows- og Mac-klienter, iOS- og Android-applikationer."
+
+#: ../../chapter10.rst:8
+msgid "Self-Service Branding"
+msgstr "Self-Service Branding"
+
+#: ../../chapter10.rst:10
+msgid ""
+"The self-service branding starts with the \"Cluster Manager\". In order "
+"to start the branding, you will login to the web portal as the Cluster "
+"Administrator."
+msgstr "Selvbetjening af branding starter med \"Cluster Manager\". For at starte branding, vil du logge ind på webportalen som Cluster Administrator."
+
+#: ../../chapter10.rst:13
+msgid ""
+"After you login to the web portal, click to the \"Cluster Branding\" "
+"Pages."
+msgstr "Efter du logger ind på webportalen, klik på \"Cluster Branding\" siderne."
+
+#: ../../chapter10.rst:17
+msgid ""
+"Please reference the \"Branding\" section in the `Admin Guide`__ for the "
+"self-hosted |prodname| server."
+msgstr "Henvis venligst til \"Branding\" afsnittet i `Admin Guide`__ for den selvhostede |prodname| server."
+

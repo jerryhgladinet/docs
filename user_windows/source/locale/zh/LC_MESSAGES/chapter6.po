@@ -1,0 +1,856 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "Client Side Management Console"
+msgstr "客户端管理控制台"
+
+#: ../../chapter6.rst:6
+msgid "Client Side Management Console - Native"
+msgstr "客户端管理控制台 - 原生"
+
+#: ../../chapter6.rst:9
+msgid ""
+"The desktop client has a management console that controls the client side"
+" of the behavior. The management console can be started from the system "
+"tray icon **(1)**. In the Client Menu, click on the management console "
+"icon **(2)**."
+msgstr "桌面客户端具有一个管理控制台，用于控制客户端的行为。可以从系统托盘图标 **(1)** 启动管理控制台。在客户端菜单中，点击管理控制台图标 **(2)**。"
+
+#: ../../chapter6.rst:15
+msgid "WINDOWS CLIENT MANAGEM ENT CONSOLE"
+msgstr "WINDOWS 客户端管理控制台"
+
+#: ../../chapter6.rst:17
+msgid "The management console has seven sections:"
+msgstr "管理控制台有七个部分："
+
+#: ../../chapter6.rst:20
+msgid "Section Name"
+msgstr "章节名称"
+
+#: ../../chapter6.rst:20
+msgid "Description"
+msgstr "描述"
+
+#: ../../chapter6.rst:22
+msgid "Dashboard (3)"
+msgstr "仪表板 (3)"
+
+#: ../../chapter6.rst:22
+msgid ""
+"Dashboard shows whether it is windows client/server agent, the access "
+"point URL and the version."
+msgstr "仪表盘显示是否为Windows客户端/服务器代理，访问点URL及版本。"
+
+#: ../../chapter6.rst:25
+msgid "Attached Folders (4)"
+msgstr "已附加文件夹 (4)"
+
+#: ../../chapter6.rst:25
+msgid ""
+"You will attach local folder to sync with Cloud, and also you can scan "
+"attached folder."
+msgstr "您将附加本地文件夹以与云同步，同时您也可以扫描已附加的文件夹。"
+
+#: ../../chapter6.rst:28
+msgid "Offline Folders (5)"
+msgstr "离线文件夹 (5)"
+
+#: ../../chapter6.rst:28
+msgid ""
+"All offline folders will be listed here. You also can enable offline "
+"access to a folder in this section."
+msgstr "所有离线文件夹将在此列出。您也可以在此部分启用对文件夹的离线访问。"
+
+#: ../../chapter6.rst:32
+msgid "Locked Files (6)"
+msgstr "已锁定文件 (6)"
+
+#: ../../chapter6.rst:32
+msgid "All locked files will be listed here."
+msgstr "所有被锁定的文件都会在这里列出。"
+
+#: ../../chapter6.rst:35
+msgid "Pending Check-ins (7)"
+msgstr "待处理的签入（7）"
+
+#: ../../chapter6.rst:35
+msgid ""
+"All checked-out files will be listed here. You also can check-out a file "
+"in this section."
+msgstr "所有已签出的文件都将在此列出。您也可以在本节中签出文件。"
+
+#: ../../chapter6.rst:38
+msgid "Settings (8)"
+msgstr "设置（8）"
+
+#: ../../chapter6.rst:38
+msgid "Settings Manager stores the different client-side settings"
+msgstr "设置管理器存储不同的客户端设置"
+
+#: ../../chapter6.rst:41
+msgid "Sync Status (9)"
+msgstr "同步状态 (9)"
+
+#: ../../chapter6.rst:41
+msgid ""
+"Show sync status. You can pause the sync here. You observe summary of all"
+" the sync tasks from task manager in this section."
+msgstr "显示同步状态。您可以在此暂停同步。在此部分，您可以从任务管理器中查看所有同步任务的摘要。"
+
+#: ../../chapter6.rst:48 ../../chapter6.rst:403
+msgid "Attached Folders"
+msgstr "已附加文件夹"
+
+#: ../../chapter6.rst:50
+msgid ""
+"You can attach local (from your Client Device) folders to |prodname| by "
+"clicking the \"Attached Folders\" button **(1)**. In the main view, and "
+"then click \"Attach a Local Folder to the Cloud\" **(2)**. This will open"
+" a wizard. Type in the location of the folder in the provided field or "
+"click the \"...\" button **(3)** to explore to a folder you wish to "
+"attach **(4)**. Click \"Attach\" to complete the process."
+msgstr "您可以通过点击 **(1)** 的“附加文件夹”按钮，将本地（来自您的客户端设备）文件夹附加到 |prodname|。在主视图中，然后点击“将本地文件夹附加到云端” **(2)**。这将打开一个向导。在提供的字段中输入文件夹的位置，或点击“...”按钮 **(3)** 来浏览您希望附加的文件夹 **(4)**。点击“附加”完成此过程。"
+
+#: ../../chapter6.rst:55
+msgid "ATTACH A FOLDER TO BACKUP"
+msgstr "附加一个文件夹进行备份"
+
+#: ../../chapter6.rst:59
+msgid "Settings Explained"
+msgstr "设置解释"
+
+#: ../../chapter6.rst:61
+msgid ""
+"There are many settings under the Settings Manager in the desktop client."
+" To access them click the Settings tab."
+msgstr "在桌面客户端的设置管理器下有许多设置。要访问它们，请点击设置标签。"
+
+#: ../../chapter6.rst:66
+msgid "SETTINGS TAB - SETTINGS MANAGER"
+msgstr "设置选项卡 - 设置管理器"
+
+#: ../../chapter6.rst:70
+msgid "Sync Throttle"
+msgstr "同步节流"
+
+#: ../../chapter6.rst:72
+msgid ""
+"False (default) - If true, the Upload and Download Throttling control "
+"defined under this settings."
+msgstr "假（默认）- 如果为真，则在此设置下定义了上传和下载限制控制。"
+
+#: ../../chapter6.rst:75
+msgid "Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)"
+msgstr "同步限速上傳帶寬（KB/s，0-不限制）"
+
+#: ../../chapter6.rst:77 ../../chapter6.rst:82
+msgid ""
+"0 (default) - The default setting is unlimited KB/s, enter a number here "
+"to reduce the bandwidth consummed to the set limit."
+msgstr "0 (默认) - 默认设置为不限速（KB/s），在此输入一个数字以将带宽消耗限制在设定的限额内。"
+
+#: ../../chapter6.rst:80
+msgid "Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)"
+msgstr "同步限速下载带宽（KB/s，0-不限制）"
+
+#: ../../chapter6.rst:85
+msgid "Full Speed Sync Stop Hour (default 7:00)"
+msgstr "全速同步停止时间（默认为7:00）"
+
+#: ../../chapter6.rst:87
+msgid ""
+"7 (default) - This setting represents the hour (24 hour clock) of the day"
+" when Full Speed synchronization will stop - Usually it is desired to "
+"have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "7（默认）- 此设置代表全速同步将停止的一天中的时间（24小时制）- 通常希望在互联网使用率较低的夜间进行全速同步。"
+
+#: ../../chapter6.rst:90
+msgid "Full Speed Sync Start Hour (default 20:00)"
+msgstr "全速同步开始时间（默认20:00）"
+
+#: ../../chapter6.rst:92
+msgid ""
+"20 (default) - This setting represents the hour (24 hour clock) of the "
+"day when Full Speed synchronization will begin - Usually it is desired to"
+" have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "20（默认）- 此设置代表全速同步将开始的一天中的小时（24小时制）- 通常希望在互联网使用率较低的夜间进行全速同步。"
+
+#: ../../chapter6.rst:95
+msgid "Scan local files and sync-up to cloud as necessary"
+msgstr "扫描本地文件并根据需要同步到云端"
+
+#: ../../chapter6.rst:97
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" local files are more accurate than the information in the cloud."
+msgstr "False（默认）- 桌面客户端会构建一个状态数据库，描述哪些文件已同步，哪些文件尚未同步。在桌面客户端被重新映像的情况下，状态信息可能会丢失。此选项可用于扫描本地文件，并根据需要将其上传到云端。当本地文件的信息比云中的信息更准确时，这是一种快速重建状态信息的方法。"
+
+#: ../../chapter6.rst:100
+msgid "Scan cloud files and sync-down to local as necessary"
+msgstr "扫描云文件并根据需要同步到本地"
+
+#: ../../chapter6.rst:102
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" cloud files are more accurate than the local files."
+msgstr "False (默认) - 桌面客户端会建立一个状态数据库，用来描述哪些文件已同步，哪些文件尚未同步。在桌面客户端被重新映像的情况下，状态信息可能会丢失。此选项可用于扫描本地文件，并根据需要将它们上传到云端。这是一种在云文件比本地文件更准确时快速重建状态信息的方法。"
+
+#: ../../chapter6.rst:105
+msgid "Allow shortcuts to sync"
+msgstr "允许快捷方式同步"
+
+#: ../../chapter6.rst:107
+msgid ""
+"False (default) - By default, the Windows Client does not support "
+"file/folder shortcuts, as we cannot guarantee that the shortcuts in the "
+"cloud are always valid. If a user creates a shortcut from a computer and "
+"links to a local file. The shortcut is then uploaded to the cloud. If the"
+" user accesses the Windows Client from another computer, the shortcut "
+"will not work unless both computers have exactly the same files and "
+"folder structures. If the shortcut is broken, Windows Explorer will "
+"aggressively try to resolve the broken shortcut paths, which will slow "
+"down the Windows Client. If users only access their cloud files from the "
+"same computer/device, they may still want to save their shortcuts to the "
+"cloud. In this case, you should enable the \"Allow shortcuts to sync\" "
+"setting."
+msgstr "假（默认）- 默认情况下，Windows 客户端不支持文件/文件夹快捷方式，因为我们无法保证云中的快捷方式始终有效。如果用户从一台计算机创建快捷方式并链接到本地文件。然后将快捷方式上传到云。如果用户从另一台计算机访问 Windows 客户端，除非两台计算机具有完全相同的文件和文件夹结构，否则快捷方式将不起作用。如果快捷方式损坏，Windows 资源管理器将积极尝试解决损坏的快捷方式路径，这将减慢 Windows 客户端的速度。如果用户只从同一台计算机/设备访问其云文件，他们可能仍然希望将其快捷方式保存到云中。在这种情况下，您应该启用“允许同步快捷方式”的设置。"
+
+#: ../../chapter6.rst:110
+msgid "Disable file-change logs for dummy files (zero byte files)"
+msgstr "禁用虚拟文件（零字节文件）的文件更改日志"
+
+#: ../../chapter6.rst:112
+msgid ""
+"False (default) - When set to True, sync will ignore file change log for "
+"empty files."
+msgstr "False（默认）- 当设置为True时，同步将忽略空文件的文件更改日志。"
+
+#: ../../chapter6.rst:115
+msgid "Scheduled Sync"
+msgstr "计划同步"
+
+#: ../../chapter6.rst:118
+msgid "Enable Scheduled Sync"
+msgstr "启用计划同步"
+
+#: ../../chapter6.rst:120
+msgid ""
+"False (default) - If true, the synchronization and transferring of files "
+"will follow the schedule defined in this section."
+msgstr "False（默认）- 如果为真，文件的同步和传输将遵循本节定义的计划。"
+
+#: ../../chapter6.rst:123
+msgid "Pause Sync Start Hour (default 7:00)"
+msgstr "暂停同步开始时间（默认为7:00）"
+
+#: ../../chapter6.rst:125
+msgid ""
+"7 (default) - This setting represents the hour (24-hour clock) of the day"
+" when synchronization will pause."
+msgstr "7 (默认) - 此设置代表一天中同步将暂停的时间（24小时制）。"
+
+#: ../../chapter6.rst:128
+msgid "Pause Sync End Hour (default 20:00)"
+msgstr "暂停同步结束时间（默认20:00）"
+
+#: ../../chapter6.rst:130
+msgid ""
+"20 (default) - This setting represents the hour (24-hour clock) of the "
+"day when synchronization will start."
+msgstr "20（默认）- 此设置代表同步将开始的一天中的小时（24小时制）。"
+
+#: ../../chapter6.rst:133
+msgid "Mapped Drive Control"
+msgstr "映射驱动器控制"
+
+#: ../../chapter6.rst:136
+msgid "Always allow PDF preview"
+msgstr "始终允许PDF预览"
+
+#: ../../chapter6.rst:138
+msgid ""
+"False (default) - If true, always allow windows client to show PDF file "
+"preview."
+msgstr "False（默认）- 如果为真，始终允许Windows客户端显示PDF文件预览。"
+
+#: ../../chapter6.rst:141
+msgid "Do not show storage quota"
+msgstr "不显示存储配额"
+
+#: ../../chapter6.rst:143
+msgid ""
+"False (default) - If true, do not show the user's storage quota on "
+"windows client drive."
+msgstr "False（默认）- 如果为真，则不在Windows客户端驱动器上显示用户的存储配额。"
+
+#: ../../chapter6.rst:146
+msgid "When starting up the client, open the mounted drive automatically"
+msgstr "启动客户端时自动打开已挂载的驱动器"
+
+#: ../../chapter6.rst:148
+msgid ""
+"True (default) - When starting up the client, automatically open File "
+"Explorer to show the windows client drive."
+msgstr "True（默认）- 启动客户端时，自动打开文件资源管理器以显示Windows客户端驱动器。"
+
+#: ../../chapter6.rst:151
+msgid "Cloud drive label"
+msgstr "云盘标签"
+
+#: ../../chapter6.rst:153
+msgid ""
+"My Cloud Drive (default) - This is the drive label you can see from the "
+"Windows Explorer."
+msgstr "我的云盘（默认）- 这是您在Windows资源管理器中可以看到的驱动器标签。"
+
+#: ../../chapter6.rst:156
+msgid "Drive Letter"
+msgstr "驱动器字母"
+
+#: ../../chapter6.rst:158
+msgid "M (default) - This is the drive letter assignment."
+msgstr "M (默认) - 这是驱动器字母的分配。"
+
+#: ../../chapter6.rst:161
+msgid "In offline-mode, only show files that are cached and available locally"
+msgstr "在离线模式下，仅显示已缓存且本地可用的文件"
+
+#: ../../chapter6.rst:163
+msgid ""
+"False (default) - If true, when working in offline mode, only show files "
+"that are already in cache. Hide any files are not in cache."
+msgstr "False（默认）- 如果为真，在离线模式下工作时，只显示已经在缓存中的文件。隐藏任何不在缓存中的文件。"
+
+#: ../../chapter6.rst:166
+msgid "Disable \"check-out\" on files and folders"
+msgstr "禁用文件和文件夹的“签出”功能"
+
+#: ../../chapter6.rst:168
+msgid "False (default) - If true, disable manual file lock/unlock."
+msgstr "假（默认）- 如果为真，禁用手动文件锁定/解锁。"
+
+#: ../../chapter6.rst:171
+msgid "Use Windows' default browser to open files and folders"
+msgstr "使用Windows的默认浏览器打开文件和文件夹"
+
+#: ../../chapter6.rst:173
+msgid ""
+"False (default) - If true, on windows client drive, when right click "
+"file/folder and select Open in Web Browser, open default browser to show "
+"the selected files."
+msgstr "假（默认）- 如果为真，在Windows客户端驱动器上，右键单击文件/文件夹并选择在Web浏览器中打开时，打开默认浏览器以显示所选文件。"
+
+#: ../../chapter6.rst:176
+msgid "Always sync folder meta-data when browsing with Windows Explorer"
+msgstr "使用Windows资源管理器浏览时始终同步文件夹元数据"
+
+#: ../../chapter6.rst:178
+msgid ""
+"False (default) - If true, when visiting cloud folder in windows client "
+"drive, the client will ignore local folder listing cahe. It will always "
+"get latest folder listing cache from cloud. It will generate high dir "
+"request to the server."
+msgstr "False（默认）- 如果为真，当在Windows客户端驱动器中访问云文件夹时，客户端将忽略本地文件夹列表缓存。它将始终从云端获取最新的文件夹列表缓存。这将对服务器生成高频的目录请求。"
+
+#: ../../chapter6.rst:181
+msgid "Disable drive mounting"
+msgstr "禁用驱动器挂载"
+
+#: ../../chapter6.rst:183
+msgid ""
+"False (default) - If true, no Cloud Drive will be mounted under My "
+"Computer for the Windows Client."
+msgstr "假（默认）- 如果为真，则Windows客户端的“我的电脑”下不会挂载云驱动器。"
+
+#: ../../chapter6.rst:186
+msgid "Create cloud drive shortcut under My Documents"
+msgstr "在我的文档下创建云盘快捷方式"
+
+#: ../../chapter6.rst:188
+msgid ""
+"True (default) - If true, there is a shortcut to the Cloud Drive under "
+"the My Documents' folder."
+msgstr "True (默认) - 如果为真，在“我的文档”文件夹下有一个到云盘的快捷方式。"
+
+#: ../../chapter6.rst:191
+msgid "Large File Upload"
+msgstr "大文件上传"
+
+#: ../../chapter6.rst:194
+msgid "Enable \"chunking\" when uploading files larger than a specific size (MB)"
+msgstr "启用“分块”上传大于特定大小（MB）的文件"
+
+#: ../../chapter6.rst:196
+msgid ""
+"15 (default) - When uploading large file, the client can split the file "
+"in small chunks and upload small chunks in parallel. It can improve the "
+"upload speed. Also if a chunk fails, only need to retry the chunk. This "
+"setting defines how large the file size is to enable the chunk feature."
+msgstr "15（默认）- 当上传大文件时，客户端可以将文件分割成小块，并且并行上传这些小块。这样可以提高上传速度。同时如果某个小块上传失败，只需要重传该小块。此设置定义了启用分块功能的文件大小阈值。"
+
+#: ../../chapter6.rst:199
+msgid "Default file chunk unit size (MB)"
+msgstr "默认文件块单位大小（MB）"
+
+#: ../../chapter6.rst:201
+msgid "20 (default) - This setting defines the chunk size."
+msgstr "20（默认）- 此设置定义了块大小。"
+
+#: ../../chapter6.rst:204
+msgid "Bandwidth Control"
+msgstr "带宽控制"
+
+#: ../../chapter6.rst:207
+msgid "Download Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "下载带宽限制（KB/s，0-不限）"
+
+#: ../../chapter6.rst:209
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your download bandwidth to the number you enter in Kilobytes."
+msgstr "0 (默认) - 此设置默认为无限制。将此值更改为您输入的千字节数，以限制您的下载带宽。"
+
+#: ../../chapter6.rst:212
+msgid "Upload Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "上传带宽限制（KB/s，0-不限）"
+
+#: ../../chapter6.rst:214
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your upload bandwidth to the number you enter in Kilobytes."
+msgstr "0 (默认) - 此设置默认为不限制。将此值更改为您希望以千字节为单位限制的上传带宽数值。"
+
+#: ../../chapter6.rst:217
+msgid "Maximum number of file transfert threads"
+msgstr "文件传输线程的最大数量"
+
+#: ../../chapter6.rst:219
+msgid ""
+"5 (default) - Use this setting to restrict the number of threads used "
+"during synchronization."
+msgstr "5（默认）- 使用此设置来限制同步过程中使用的线程数。"
+
+#: ../../chapter6.rst:222
+msgid "Local Cache"
+msgstr "本地缓存"
+
+#: ../../chapter6.rst:225
+msgid "Cache Directory"
+msgstr "缓存目录"
+
+#: ../../chapter6.rst:227
+msgid ""
+"C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\gteamclient\\\\cache "
+"(default) - Use this setting to change the default location of the cache."
+msgstr "C:\\Users\\username\\AppData\\Local\\gteamclient\\cache（默认）- 使用此设置可以更改缓存的默认位置。"
+
+#: ../../chapter6.rst:230
+msgid "Cache Size Limit (MB)"
+msgstr "缓存大小限制（MB）"
+
+#: ../../chapter6.rst:232
+msgid ""
+"0 (default) - The default setting is zero which is unlimited. Set this to"
+" a different number to limit the cache to that size in MB. You can "
+"disable the cache (not recommended) using the Web Portal's Tenant "
+"Dashboard > Roles settings."
+msgstr "0（默认）- 默认设置为零，即不限制大小。将此值设置为其他数字可以将缓存限制为该大小（以MB为单位）。您可以通过Web门户的租户仪表板 > 角色设置来禁用缓存（不推荐）。"
+
+#: ../../chapter6.rst:235
+msgid "Minimum free disk space (GB)"
+msgstr "最小空闲磁盘空间（GB）"
+
+#: ../../chapter6.rst:237
+msgid ""
+"5 (default) - The cache will leave defined free disk space on the disk. "
+"This can prevent the cached files use the entire disk. If zero, the cache"
+" can take entire disk space."
+msgstr "5（默认）- 缓存将在磁盘上保留定义的空闲磁盘空间。这可以防止缓存文件使用整个磁盘空间。如果为零，则缓存可以占用整个磁盘空间。"
+
+#: ../../chapter6.rst:240
+msgid "Outlook Plugin"
+msgstr "Outlook 插件"
+
+#: ../../chapter6.rst:243
+msgid "Prompt for conversion when a file is larger than a specific size (KB)"
+msgstr "当文件大于特定大小（KB）时提示转换"
+
+#: ../../chapter6.rst:245
+msgid ""
+"0 (default) - Default to never prompt. This setting defines how large the"
+" attachment file size is to use the Outlook plugin to automatically "
+"upload the file to Centrestack cloud."
+msgstr "0 (默认) - 默认情况下永不提示。此设置定义了附件文件大小，以使用Outlook插件自动将文件上传到Centrestack云。"
+
+#: ../../chapter6.rst:248
+msgid "Attachments cache folder"
+msgstr "附件缓存文件夹"
+
+#: ../../chapter6.rst:250
+msgid "Outlook plugin will upload file to the defined folder."
+msgstr "Outlook 插件将文件上传到指定文件夹。"
+
+#: ../../chapter6.rst:253
+msgid "Link expiration time"
+msgstr "链接过期时间"
+
+#: ../../chapter6.rst:255
+msgid ""
+"Never (default) - When attaching a file to an Outlook email, the Windows "
+"Client can upload the file to the cloud and generate a link to access the"
+" file. The link is added in the email, to reduce email size. This setting"
+" defines how long the link will expire."
+msgstr "从不（默认）- 当在Outlook电子邮件中附加文件时，Windows客户端可以将文件上传到云端并生成一个访问文件的链接。该链接被添加到电子邮件中，以减少电子邮件大小。此设置定义链接的过期时间。"
+
+#: ../../chapter6.rst:258
+msgid "Notifications"
+msgstr "通知"
+
+#: ../../chapter6.rst:261
+msgid "Disable offline-mode notification"
+msgstr "禁用离线模式通知"
+
+#: ../../chapter6.rst:263
+msgid ""
+"False (default) - A system that goes into offline mode will send a "
+"notification by default. Change this to True to hide that notification."
+msgstr "False（默认）- 系统进入离线模式时，默认会发送通知。将此项更改为True以隐藏该通知。"
+
+#: ../../chapter6.rst:266
+msgid "Disable File-change notification"
+msgstr "禁用文件更改通知"
+
+#: ../../chapter6.rst:268
+msgid ""
+"False (default) - When files are modified by other people or by the same "
+"user but from another machine, there is a file change notification. "
+"Change this setting to True to turn off that notification."
+msgstr "False（默认）- 当文件被其他人修改，或者被同一用户但从另一台机器上修改时，会有文件更改通知。将此设置更改为True以关闭该通知。"
+
+#: ../../chapter6.rst:271
+msgid "Disable large file-download tracker window"
+msgstr "禁用大文件下载跟踪器窗口"
+
+#: ../../chapter6.rst:273
+msgid ""
+"False (default) - When Windows Explorer is downloading a large file in "
+"the background, by default there is a large file download progress dialog"
+" showing. This setting allows you to turn off that notification."
+msgstr "假（默认）- 当Windows资源管理器在后台下载大文件时，默认会显示一个大文件下载进度对话框。此设置允许您关闭该通知。"
+
+#: ../../chapter6.rst:276
+msgid "Disable automatic task tracker for scheduled tasks"
+msgstr "禁用计划任务的自动任务跟踪器"
+
+#: ../../chapter6.rst:278
+msgid ""
+"False (default) - By default, there is an automatic task tracker for "
+"scheduled tasks. This setting allows you to turn off the tracker."
+msgstr "False（默认）- 默认情况下，计划任务有一个自动任务跟踪器。此设置允许您关闭跟踪器。"
+
+#: ../../chapter6.rst:281
+msgid "Disable in-place-editing and preview-disabled notifications"
+msgstr "禁用即时编辑和预览禁用通知"
+
+#: ../../chapter6.rst:283
+msgid ""
+"False (default) - When in-place-editing zip/exe file and preview-"
+"disabled, by default, the system will send a notification. This setting "
+"allows you to turn off that notification."
+msgstr "False (默认) - 当就地编辑zip/exe文件且预览禁用时，默认情况下，系统会发送一个通知。此设置允许您关闭该通知。"
+
+#: ../../chapter6.rst:286
+msgid "Disable shut-down confirmation"
+msgstr "禁用关机确认"
+
+#: ../../chapter6.rst:288
+msgid ""
+"False (default) - When shutdown the desktop client, there is a shutdown "
+"confirmation window. This setting controls whether that confirmation "
+"dialog will be shown. Set this to True to hide the confirmation dialog."
+msgstr "False（默认）- 关闭桌面客户端时，会出现一个关闭确认窗口。此设置用于控制是否显示该确认对话框。将此设置为 True 可以隐藏确认对话框。"
+
+#: ../../chapter6.rst:291
+msgid "Disable folder move confirmation"
+msgstr "禁用文件夹移动确认"
+
+#: ../../chapter6.rst:293
+msgid ""
+"False (default) - When moving a folder within windows client drive, by "
+"default, the system will show a confirmation dialog. This setting allows "
+"you to turn off that confirmation dialog."
+msgstr "False（默认）- 当在Windows客户端驱动器中移动文件夹时，默认情况下，系统会显示确认对话框。此设置允许您关闭该确认对话框。"
+
+#: ../../chapter6.rst:296
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: ../../chapter6.rst:299
+msgid "Enable in-place opening of zip and exe files"
+msgstr "启用zip和exe文件的原地打开功能"
+
+#: ../../chapter6.rst:301
+msgid ""
+"False (default) - By default, Windows Client doesn't allow a user to open"
+" zip files in mounted M drive directly. This is because opening a zip "
+"file means to download the whole zip file to cache first. When the zip "
+"file is big, the download will generate high network traffic and cause "
+"windows explorer to slow down. Change this to True if you want users to "
+"be able to open Zip files within the M drive. The next setting determines"
+" the size limit of this feature."
+msgstr "False（默认）- 默认情况下，Windows客户端不允许用户直接在已挂载的M驱动器中打开zip文件。这是因为打开zip文件意味着首先需要将整个zip文件下载到缓存中。当zip文件很大时，下载会产生高网络流量并导致Windows资源管理器变慢。如果您希望用户能够在M驱动器内打开Zip文件，请将此项更改为True。下一个设置将决定此功能的大小限制。"
+
+#: ../../chapter6.rst:304
+msgid "Max size of zip files allowed to open in-place (MB)"
+msgstr "允许就地打开的zip文件的最大大小（MB）"
+
+#: ../../chapter6.rst:306
+msgid ""
+"20 (default) - This defines the size limit for the zip file the user is "
+"allowed to open. It is designed to prevent user/windows explorer from "
+"downloading very large zip files. By default, it is 20M. When admin "
+"enables inplace zip file opening, only files within 20M can be opened."
+msgstr "20（默认）- 这定义了用户被允许打开的zip文件的大小限制。其设计目的是为了防止用户/Windows资源管理器下载非常大的zip文件。默认情况下，它是20M。当管理员启用zip文件的就地打开功能时，只有在20M以内的文件可以被打开。"
+
+#: ../../chapter6.rst:309
+msgid "Max size of files for thumbnail generation (MB)"
+msgstr "生成缩略图的文件最大尺寸（MB）"
+
+#: ../../chapter6.rst:311
+msgid "0 (default) - This defines the file size limit for generating thumbnail."
+msgstr "0 (默认) - 这定义了生成缩略图的文件大小限制。"
+
+#: ../../chapter6.rst:314
+msgid "Always allow picture previews"
+msgstr "始终允许图片预览"
+
+#: ../../chapter6.rst:316
+msgid ""
+"False (default) - If this is turned on preview thumbnails will be "
+"generated for your local files. This consumes a lot of bandwidth for "
+"unnecessary downloading of image files."
+msgstr "False (默认) - 如果启用此功能，将为您的本地文件生成预览缩略图。这将消耗大量带宽来下载不必要的图像文件。"
+
+#: ../../chapter6.rst:319
+msgid "Enable slow network mode"
+msgstr "启用慢速网络模式"
+
+#: ../../chapter6.rst:321
+msgid "False (default) - No further information."
+msgstr "False (默认) - 没有更多信息。"
+
+#: ../../chapter6.rst:324
+msgid "Prevent computer from falling asleep during sync"
+msgstr "防止电脑在同步过程中进入睡眠状态"
+
+#: ../../chapter6.rst:326
+msgid ""
+"True (default) - Nighttime is typically a good time to transfer files at "
+"full speed. However, the machine may go into a sleeping state, preventing"
+" the transfer of files. This setting can prevent the sleep mode from "
+"activating."
+msgstr "True (默认) - 夜间通常是全速传输文件的好时机。然而，机器可能会进入睡眠状态，阻止文件传输。此设置可以防止睡眠模式激活。"
+
+#: ../../chapter6.rst:329
+msgid "Mount drive in global space"
+msgstr "在全局空间中挂载驱动器"
+
+#: ../../chapter6.rst:331
+msgid "False (default) - No furter information."
+msgstr "False (默认) - 没有更多信息。"
+
+#: ../../chapter6.rst:334
+msgid "Upload hidden files"
+msgstr "上传隐藏文件"
+
+#: ../../chapter6.rst:336
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"Hidden Files to the cloud."
+msgstr "False (默认) - 如果您希望上传隐藏文件到云端，请将此设置更改为 True。"
+
+#: ../../chapter6.rst:339
+msgid "Upload system files"
+msgstr "上传系统文件"
+
+#: ../../chapter6.rst:341
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"System Files to the cloud."
+msgstr "False（默认）- 如果您希望将系统文件上传到云端，请将此设置更改为True。"
+
+#: ../../chapter6.rst:344
+msgid "Use Volume Shadow-Copy to upload files that are constantly accessed"
+msgstr "使用卷影复制来上传不断访问的文件"
+
+#: ../../chapter6.rst:346
+msgid ""
+"False (default) - By default an actively opened file will not be uploaded"
+" until it has been closed. This setting can override that behavior, "
+"uploading all of the files regardless of their open status."
+msgstr "假（默认）- 默认情况下，主动打开的文件在关闭之前不会被上传。此设置可以覆盖该行为，无论文件的打开状态如何，都会上传所有文件。"
+
+#: ../../chapter6.rst:349
+msgid "Disable AutoCAD optimization"
+msgstr "禁用AutoCAD优化"
+
+#: ../../chapter6.rst:351
+msgid ""
+"False (default) - By default, windows client will delay the sync of "
+"AutoCAD files by combining several changes into a single change. This is "
+"specific for users who save frequently or have the AutoCAD autosave "
+"feature enabled with short intervals. The file change will not be "
+"uploaded to the cloud immediately after the file saving. Leave it Uncheck"
+" if only one person is working on the AutoCAD files. When the setting is "
+"checked, windows client will sync the file to cloud as soon as the file "
+"is saved. Check the setting if the user needs the change to be uploaded "
+"to cloud as soon as possible. When multiple users are working on same set"
+" of AutoCAD files, check the setting."
+msgstr "假（默认）- 默认情况下，Windows客户端会通过将多个更改合并为单一更改来延迟同步AutoCAD文件。这是针对经常保存或启用了具有短时间间隔的AutoCAD自动保存功能的用户的特定设置。文件更改不会在文件保存后立即上传到云端。如果只有一个人在处理AutoCAD文件，请不要勾选此项。当勾选此设置时，Windows客户端将在文件保存后尽快将文件同步到云端。如果用户需要尽快上传更改到云端，请勾选此设置。当多个用户在处理同一组AutoCAD文件时，请勾选此设置。"
+
+#: ../../chapter6.rst:354
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: ../../chapter6.rst:357
+msgid "Days of audit trace to keep"
+msgstr "保留审计跟踪的天数"
+
+#: ../../chapter6.rst:359
+msgid "5 (default) - This setting defines how many days to keep the audit trace."
+msgstr "5（默认）- 此设置定义了保留审计跟踪的天数。"
+
+#: ../../chapter6.rst:362
+msgid "Trace Level (0-Disable, 1-error, 2-warning, 3-info, 100-verbose)"
+msgstr "跟踪级别（0-禁用，1-错误，2-警告，3-信息，100-详细）"
+
+#: ../../chapter6.rst:364
+msgid ""
+"0 (default) - By default, the trace level is 0. It can be changed to the "
+"levels shown, or 101 for maximum debug trace."
+msgstr "0（默认）- 默认情况下，跟踪级别为0。它可以更改为所示的级别，或者101以获得最大调试跟踪。"
+
+#: ../../chapter6.rst:368
+msgid "Sync Status"
+msgstr "同步状态"
+
+#: ../../chapter6.rst:371
+msgid "Task Manager"
+msgstr "任务管理器"
+
+#: ../../chapter6.rst:373
+msgid ""
+"Click on the Task Manager icon on top right corner of client menu to open"
+" Task Manager. You can see the summary for all the sync tasks."
+msgstr "点击客户端菜单右上角的任务管理器图标以打开任务管理器。您可以看到所有同步任务的摘要。"
+
+#: ../../chapter6.rst:378
+msgid "TASK MANAGER"
+msgstr "任务管理器"
+
+#: ../../chapter6.rst:382
+msgid "Client Side Management Console - Web Portal"
+msgstr "客户端管理控制台 - 网页门户"
+
+#: ../../chapter6.rst:384
+msgid ""
+"Click the system tray icon (1) open the tray menu. From the three-dots "
+"(2) you can access other functions. By choosing \"Web Portal\" (3), the "
+"Windows client web portal will be opened in a default web browser. Click "
+"\"Management Console\" icon (4) to access management console from web."
+msgstr "点击系统托盘图标（1）打开托盘菜单。从三个点（2）可以访问其他功能。选择“Web Portal”（3），Windows客户端的web门户将在默认的网络浏览器中打开。点击“Management Console”图标（4）从web访问管理控制台。"
+
+#: ../../chapter6.rst:389
+msgid "ACCESS MANAGEMENT CONSOLE WEB PORTAL"
+msgstr "访问管理控制台Web门户"
+
+#: ../../chapter6.rst:392
+msgid "Device Information"
+msgstr "设备信息"
+
+#: ../../chapter6.rst:394
+msgid ""
+"Device Manager has an overview of the device including details such as "
+"Device Owner, Device Type, OS Type, Device Client Version (software build"
+" number), Last Login Time, Sync Status, Cache Size, Last Report Time, and"
+" more. Click \"Manage\" icon to see Device details."
+msgstr "设备管理器提供了设备的概览，包括设备所有者、设备类型、操作系统类型、设备客户端版本（软件构建编号）、最后登录时间、同步状态、缓存大小、最后报告时间等详细信息。点击“管理”图标查看设备详情。"
+
+#: ../../chapter6.rst:399
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE MANAGER"
+msgstr "客户端管理控制台 - 设备管理器"
+
+#: ../../chapter6.rst:405
+msgid ""
+"Attached Folders are local folders that are maintaining a two-way "
+"synchronization relationship with cloud storage."
+msgstr "附加文件夹是本地文件夹，它们与云存储保持双向同步关系。"
+
+#: ../../chapter6.rst:410
+msgid "ATTACHING A FOLDER TO THE CLOUD"
+msgstr "将文件夹附加到云端"
+
+#: ../../chapter6.rst:413
+msgid "Locked Files"
+msgstr "锁定的文件"
+
+#: ../../chapter6.rst:415
+msgid ""
+"A file that is in use is locked. In the image below, the user has opened "
+"the document **(1)** in Word. When a user is editing a Word Document, "
+"that file will remain locked while it is open in Word. Sometimes you will"
+" need to click the \"Refresh\" text **(2)** to see files that are locked "
+"in the Locked Files view. These are locked files from the local device. "
+"The locked files include automatically locked files (e.g., opened in "
+"Word) and manually locked files (e.g., right-clicked and locked in "
+"context menu). If you need to force-unlock a file, this can be done using"
+" the lock icon **(3)**."
+msgstr "正在使用的文件会被锁定。在下面的图片中，用户已经用Word打开了文档 **(1)**。当用户正在编辑Word文档时，该文件会在Word中打开期间保持锁定状态。有时候你需要点击\"刷新\"文字 **(2)** 来查看在已锁定文件视图中的被锁定文件。这些是来自本地设备的被锁定文件。被锁定的文件包括自动锁定的文件（例如，在Word中打开的）和手动锁定的文件（例如，右键点击并在上下文菜单中锁定的）。如果你需要强制解锁一个文件，可以使用锁定图标 **(3)** 来进行。"
+
+#: ../../chapter6.rst:420
+msgid "LOCKED FILES VIEW"
+msgstr "锁定文件视图"
+
+#: ../../chapter6.rst:423
+msgid "Settings"
+msgstr "设置"
+
+#: ../../chapter6.rst:425
+msgid "Settings are settings that can be applied to the current device."
+msgstr "设置是可以应用于当前设备的设置。"
+
+#: ../../chapter6.rst:430
+msgid "CONSOLE SETTINGS"
+msgstr "控制台设置"
+

@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Locking Files"
+msgstr "Bestanden vergrendelen"
+
+#: ../../chapter5.rst:6
+msgid ""
+"The |prodname| Cloud administrator has the option of enabling a setting "
+"that causes files to automatically become locked when they are in use - "
+"automatic distributed lock (see administration guide). This prevents more"
+" than one person from updating the file at the same time which can cause "
+"undesirable results."
+msgstr "De |prodname| Cloud-beheerder heeft de mogelijkheid om een instelling in te schakelen waardoor bestanden automatisch worden vergrendeld wanneer ze in gebruik zijn - automatische gedistribueerde vergrendeling (zie beheerdershandleiding). Dit voorkomt dat meer dan één persoon tegelijkertijd het bestand bijwerkt, wat ongewenste resultaten kan veroorzaken."
+
+#: ../../chapter5.rst:10
+msgid "When to use automatic lock and when to use manual lock?"
+msgstr "Wanneer gebruik je automatische vergrendeling en wanneer handmatige vergrendeling?"
+
+#: ../../chapter5.rst:12
+msgid ""
+"When files are automatic locked, the same files need to be automatically "
+"unlocked. When files are automaticall locked, the agent that locks the "
+"file needs to maintain health heart beat with the central |prodname| "
+"server. When the heart beat can't be maintained, the file will be "
+"automatically unlocked."
+msgstr "Wanneer bestanden automatisch vergrendeld zijn, moeten dezelfde bestanden automatisch ontgrendeld worden. Wanneer bestanden automatisch vergrendeld zijn, moet de agent die het bestand vergrendelt een gezonde hartslag behouden met de centrale |prodname| server. Wanneer de hartslag niet behouden kan worden, zal het bestand automatisch ontgrendeld worden."
+
+#: ../../chapter5.rst:14
+msgid ""
+"If you want the file to stay locked regardless what situation the agent "
+"machine is in, manual lock is recommened. A manually locked file will "
+"need to be manually unlocked."
+msgstr "Als u wilt dat het bestand vergrendeld blijft, ongeacht de situatie waarin de agentcomputer zich bevindt, wordt handmatige vergrendeling aanbevolen. Een handmatig vergrendeld bestand zal handmatig ontgrendeld moeten worden."
+
+#: ../../chapter5.rst:16
+msgid ""
+"Files can be manually locked. Right-click on any file **(1)** in the "
+"|prodname| drive and then select \"check out (Lock) This File\" **(2)** "
+"to toggle between its locked and unlocked state. Then click OK in the "
+"pop-up **(3)**."
+msgstr "Bestanden kunnen handmatig vergrendeld worden. Klik met de rechtermuisknop op een willekeurig bestand **(1)** in de |prodname| schijf en selecteer vervolgens \"Uitchecken (Vergrendelen) Dit Bestand\" **(2)** om te wisselen tussen de vergrendelde en ontgrendelde staat. Klik daarna op OK in de pop-up **(3)**."
+
+#: ../../chapter5.rst:21
+msgid "LOCKING A LOCAL FILE"
+msgstr "EEN LOKAAL BESTAND VERGRENDELEN"
+
+#: ../../chapter5.rst:23
+msgid ""
+"The context menu will give the option to lock the file. It will stay "
+"locked until you 'Unlock' it. When you are finished with the file, you "
+"can unlock it by right-clicking it and choosing Check In from the context"
+" menu."
+msgstr "Het contextmenu geeft de optie om het bestand te vergrendelen. Het blijft vergrendeld totdat u het 'Ontgrendelt'. Wanneer u klaar bent met het bestand, kunt u het ontgrendelen door er met de rechtermuisknop op te klikken en Check In te kiezen uit het contextmenu."
+
+#: ../../chapter5.rst:27
+msgid "Offline Access"
+msgstr "Offline Toegang"
+
+#: ../../chapter5.rst:29
+msgid ""
+"Cloud Drive files aren't fully synced by default; only the files you are "
+"using are synced. You can Force Sync your files however. Right-click the "
+"folder you want to make \"Offline\" and choose \"Enable Offline Access "
+"**(1)**. Once this is done, you can click your drive icon, and then "
+"choose \"Force Sync All Offline Folders\" **(2)** to sync any folders you"
+" have enabled for Offline Access."
+msgstr "Cloud Drive-bestanden worden standaard niet volledig gesynchroniseerd; alleen de bestanden die u gebruikt, worden gesynchroniseerd. U kunt echter uw bestanden geforceerd synchroniseren. Klik met de rechtermuisknop op de map die u 'Offline' wilt maken en kies 'Offline toegang inschakelen **(1)**. Als dit is gedaan, kunt u op het pictogram van uw schijf klikken en vervolgens 'Forceer synchronisatie van alle offline mappen' **(2)** selecteren om alle mappen die u voor offline toegang heeft ingeschakeld, te synchroniseren."
+
+#: ../../chapter5.rst:31
+msgid ""
+"Also, you might want to pause the synchronization of files while you are "
+"working on them. This can be done from the Cloud Drive icon as well. In "
+"the menu, choose \"Pause Sync\" **(3)** temporarily stop files from "
+"sychronizing. The benefit is that you can keep modifying documents "
+"(drafts) locally until it is all done and then you can uncheck the "
+"\"Pause\" and connect to the |prodname| cloud drive to upload any "
+"changes."
+msgstr "Ook wilt u misschien de synchronisatie van bestanden pauzeren terwijl u eraan werkt. Dit kan ook via het Cloud Drive-pictogram. Kies in het menu voor \"Pauzeer Sync\" **(3)** om tijdelijk te stoppen met het synchroniseren van bestanden. Het voordeel is dat u documenten (concepten) lokaal kunt blijven wijzigen totdat alles klaar is en dan kunt u de \"Pauze\" ongedaan maken en verbinden met de |prodname| cloud drive om eventuele wijzigingen te uploaden."
+
+#: ../../chapter5.rst:36
+msgid "OFFLINE ACCESS"
+msgstr "OFFLINE TOEGANG"
+

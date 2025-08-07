@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Deployment Options"
+msgstr "Opzioni di Distribuzione"
+
+#: ../../chapter08.rst:5
+msgid ""
+"As documented above, CentreStack has three logical components, the "
+"database, the worker node and the storage. This section will go through "
+"different deployment options."
+msgstr "Come documentato sopra, CentreStack ha tre componenti logici, il database, il nodo worker e lo storage. Questa sezione esaminerà le diverse opzioni di distribuzione."
+
+#: ../../chapter08.rst:9
+msgid "All-In-One Deployment"
+msgstr "Distribuzione All-In-One"
+
+#: ../../chapter08.rst:11
+msgid ""
+"This is the simplest deployment. The database , the worker nodes are all "
+"on the same machine as the storage. When you are serving < 1000 users or "
+"you are doing Proof-of-Concept (POC), this is the ideal deployment "
+"because of its simplicity. You can have the CentreStack installer install"
+" the SQL Express/MySQL on the same machine before installing CentreStack "
+"software and then pointing the database to localhost\\\\SQLEXPRESS or "
+"local MySQL. In the All-In-One deployment, the storage location is "
+"typically set to a folder on local C: drive or local D: drive."
+msgstr "Questa è la distribuzione più semplice. Il database, i nodi worker sono tutti sulla stessa macchina dello storage. Quando si serve < 1000 utenti o si sta facendo una Prova di Concetto (POC), questa è la distribuzione ideale per la sua semplicità. È possibile far installare all'installer di CentreStack il SQL Express/MySQL sulla stessa macchina prima di installare il software CentreStack e poi puntare il database a localhost\\SQLEXPRESS o MySQL locale. Nella distribuzione All-In-One, la posizione dello storage è tipicamente impostata su una cartella nell'unità C: locale o nell'unità D: locale."
+
+#: ../../chapter08.rst:17
+msgid ""
+"The installer can install SQL EXPRESS so it is a one-click installation "
+"for convenience. No need to do a separate SQL EXPRESS installation."
+msgstr "L'installer può installare SQL EXPRESS in modo che sia un'installazione con un solo clic per comodità. Non è necessario eseguire una separata installazione di SQL EXPRESS."
+
+#: ../../chapter08.rst:22
+msgid ""
+"If this is the first time you are installing CentreStack, this is the "
+"recommended setup because it is the easiest to setup and only takes 15-30"
+" minutes on a clean machine. The installer will take care of all the "
+"installation without other manual steps."
+msgstr "Se questa è la prima volta che installi CentreStack, questa è la configurazione consigliata perché è la più semplice da impostare e richiede solo 15-30 minuti su una macchina pulita. L'installatore si occuperà di tutta l'installazione senza altri passaggi manuali."
+
+#: ../../chapter08.rst:26
+msgid ""
+"In the latest CentreStack installer, the installer is capable of doing "
+"the all-in-one installation without asking you to setup database "
+"separately."
+msgstr "Nell'ultimo installatore di CentreStack, l'installatore è in grado di eseguire l'installazione all-in-one senza chiederti di configurare separatamente il database."
+
+#: ../../chapter08.rst:29
+msgid "Single-Server Deployment"
+msgstr "Distribuzione su Singolo Server"
+
+#: ../../chapter08.rst:31
+msgid ""
+"This is another simple deployment. It is very similar to the All-In-One "
+"deployment. The only difference is that the file storage is off the "
+"machine instead of on the machine."
+msgstr "Questa è un'altra installazione semplice. È molto simile all'installazione All-In-One. L'unica differenza è che lo storage dei file si trova fuori dalla macchina invece che sulla macchina."
+
+#: ../../chapter08.rst:33
+msgid ""
+"The external file storage can be file storage on a UNC path or it can "
+"also be an object storage service."
+msgstr "Lo storage di file esterno può essere uno storage di file su un percorso UNC oppure può essere anche un servizio di storage di oggetti."
+
+#: ../../chapter08.rst:35
+msgid ""
+"In this deployment, the database and the Worker Node/Web Node are still "
+"deployed on the same machine."
+msgstr "In questa configurazione, il database e il Nodo Worker/Nodo Web sono ancora distribuiti sulla stessa macchina."
+
+#: ../../chapter08.rst:40
+msgid "Two-Server Deployment"
+msgstr "Distribuzione su Due Server"
+
+#: ../../chapter08.rst:42
+msgid ""
+"In the two server deployment, the database is installed in its own "
+"server; away from the CentreStack worker node. Usually, this is an "
+"intermediate step leading to the \"Three-Server Deployment\" and a step "
+"towards scaling up the server farm."
+msgstr "Nella distribuzione a due server, il database è installato nel proprio server; lontano dal nodo worker di CentreStack. Solitamente, questo è un passo intermedio che porta alla \"Distribuzione a Tre Server\" e un passo verso l'espansione della server farm."
+
+#: ../../chapter08.rst:49
+msgid "Three-Server Deployment for Redundancy"
+msgstr "Distribuzione su Tre Server per la Ridondanza"
+
+#: ../../chapter08.rst:51
+msgid ""
+"The 3-machine deployment is another simple deployment. The database node "
+"is installed separately. Two CentreStack worker nodes are installed. The "
+"\"External URL\" field for each node is the same, such as "
+"\"cloud.acme.com\". The load balancer will do a round robin load "
+"balancing to either node. A variation of the deployment is to set "
+"\"External URL\" field differently for the two worker nodes. When "
+"\"External URL\" field is the same as the load balancer URL, everything "
+"is round robin. When \"External URL\" is different, such as "
+"node1.acme.com and node2.acme.com, the users will have affinity to one of"
+" the node. For example, if user1 is assigned to node1.acme.com, he will "
+"continue to use node1.acme.com. In this deployment, the size of the "
+"cluster is supporting 2000 concurrent-users per node. The benefit is that"
+" if one node is down, there is another node for redundancy."
+msgstr "Il dispiegamento su 3 macchine è un altro tipo di configurazione semplice. Il nodo del database è installato separatamente. Sono installati due nodi lavoratori di CentreStack. Il campo \"URL esterno\" per ogni nodo è lo stesso, come ad esempio \"cloud.acme.com\". Il bilanciatore di carico effettuerà un bilanciamento del carico round robin su entrambi i nodi. Una variazione del dispiegamento è impostare il campo \"URL esterno\" in modo diverso per i due nodi lavoratori. Quando il campo \"URL esterno\" è lo stesso dell'URL del bilanciatore di carico, tutto è in round robin. Quando l'\"URL esterno\" è diverso, come node1.acme.com e node2.acme.com, gli utenti avranno affinità con uno dei nodi. Ad esempio, se all'utente1 è assegnato node1.acme.com, continuerà ad utilizzare node1.acme.com. In questo dispiegamento, la dimensione del cluster supporta 2000 utenti-concorrenti per nodo. Il vantaggio è che se un nodo è inattivo, c'è un altro nodo per la ridondanza."
+
+#: ../../chapter08.rst:65
+msgid "Multiple-Machine Deployment for Scalability"
+msgstr "Distribuzione su Più Macchine per la Scalabilità"
+
+#: ../../chapter08.rst:67
+msgid ""
+"In this deployment, you will have clear separation of database , storage "
+"service, and the worker nodes in a farm of servers."
+msgstr "In questa implementazione, avrai una chiara separazione del database, del servizio di archiviazione e dei nodi worker in una fattoria di server."
+
+#: ../../chapter08.rst:70
+msgid ""
+"The database  is not a CentreStack worker node; it is just a server that "
+"runs SQL Server or MySQL."
+msgstr "Il database non è un nodo worker di CentreStack; è solo un server che esegue SQL Server o MySQL."
+
+#: ../../chapter08.rst:72
+msgid ""
+"The worker nodes are all CentreStack nodes which run the same software. "
+"Most of the time, in the multiple-machine deployment, a hardware load "
+"balancer is used to distribute the load evenly."
+msgstr "I nodi worker sono tutti nodi CentreStack che eseguono lo stesso software. La maggior parte del tempo, nel dispiegamento su più macchine, si utilizza un bilanciatore di carico hardware per distribuire uniformemente il carico."
+
+#: ../../chapter08.rst:77
+msgid ""
+"Inside a worker node, there is further division of work between a 'web "
+"node' and the rest 'worker node'."
+msgstr "All'interno di un nodo worker, c'è una ulteriore divisione del lavoro tra un 'nodo web' e il resto 'nodo worker'."
+
+#: ../../chapter08.rst:79
+msgid ""
+"The web  nodes are used for user login. After login, the user will be re-"
+"directed to the corresponding worker node. (The web  node can be omitted "
+"if you have an existing Load Balancer)."
+msgstr "I nodi web vengono utilizzati per l'accesso degli utenti. Dopo l'accesso, l'utente verrà reindirizzato al corrispondente nodo worker. (Il nodo web può essere omesso se si dispone di un Load Balancer esistente)."
+
+#: ../../chapter08.rst:82
+msgid ""
+"For the load balancing to work, all the worker nodes have to be on the "
+"same DNS domain and same level of sub domain (for example, they can be "
+"covered by same SSL wildcard certificate, such as \\*.acme.com).  The "
+"load balancing requires at least two worker nodes."
+msgstr "Perché il bilanciamento del carico funzioni, tutti i nodi worker devono trovarsi sullo stesso dominio DNS e sullo stesso livello di sottodominio (ad esempio, possono essere coperti dallo stesso certificato SSL wildcard, come \*.acme.com). Il bilanciamento del carico richiede almeno due nodi worker."
+
+#: ../../chapter08.rst:85
+msgid ""
+"Install the CentreStack server on the first worker node machine. Reboot "
+"and setup the cluster admin account."
+msgstr "Installare il server CentreStack sulla prima macchina del nodo worker. Riavviare e configurare l'account amministratore del cluster."
+
+#: ../../chapter08.rst:89
+msgid ""
+"We recommend you setup and configure the first node and make sure it runs"
+" smoothly first, before you setup and install the second node."
+msgstr "Consigliamo di configurare e impostare il primo nodo e assicurarsi che funzioni senza problemi prima di configurare e installare il secondo nodo."
+
+#: ../../chapter08.rst:92
+msgid "Install the CentreStack server on all the other work nodes."
+msgstr "Installa il server CentreStack su tutti gli altri nodi di lavoro."
+
+#: ../../chapter08.rst:94
+msgid ""
+"On the database configuration window, use the same database server as the"
+" first installation."
+msgstr "Nella finestra di configurazione del database, utilizzare lo stesso server di database della prima installazione."
+
+#: ../../chapter08.rst:97
+msgid ""
+"Please DO NOT add web nodes to the Cluster Worker Node list. Most of the "
+"time when you have a multi-worker-node design, you are servicing many "
+"users, and most of the time you have your own load balancer. In the case "
+"when you have your own load balancer, the web node functionality is "
+"merged into worker node. So you can have a zero-web-node configuration."
+msgstr "Si prega di NON aggiungere nodi web all'elenco dei nodi lavoratori del cluster. La maggior parte delle volte, quando si dispone di un design con più nodi lavoratori, si sta servendo molti utenti e, nella maggior parte dei casi, si dispone del proprio bilanciatore di carico. Nel caso in cui si abbia il proprio bilanciatore di carico, la funzionalità del nodo web viene integrata nel nodo lavoratore. Quindi è possibile avere una configurazione con zero nodi web."
+
+#: ../../chapter08.rst:102
+msgid "Setup DNS Load balancing for all worker nodes."
+msgstr "Configura il bilanciamento del carico DNS per tutti i nodi worker."
+
+#: ../../chapter08.rst:104
+msgid ""
+"Most of the time you set up a firewall or a load balancer and point the "
+"DNS to the load balancer. The load balancer will then forward to the "
+"CentreStack worker node."
+msgstr "La maggior parte delle volte si configura un firewall o un bilanciatore di carico e si indirizza il DNS verso il bilanciatore di carico. Il bilanciatore di carico inoltrerà quindi al nodo worker di CentreStack."
+
+#: ../../chapter08.rst:109
+msgid ""
+"If you are using hardware load balancer, you can skip web-nodes and have "
+"an all-worker-node cluster."
+msgstr "Se stai utilizzando un bilanciatore di carico hardware, puoi saltare i nodi web e avere un cluster composto interamente da nodi worker."
+
+#: ../../chapter08.rst:112
+msgid "Typical Deployment in Enterprises"
+msgstr "Tipico dispiegamento nelle imprese"
+
+#: ../../chapter08.rst:114
+msgid ""
+"Here is a typical deployment schema in Visio Diagram for very big "
+"deployments in large enterprises. In this deployment, the management "
+"functionality can be separated to internal management node (A property of"
+" worker node). When management functionality is separated to internal DNS"
+" names, the management web portal is internal only and thus more secure."
+msgstr "Ecco uno schema di distribuzione tipico in Diagramma Visio per distribuzioni molto grandi in grandi imprese. In questa distribuzione, la funzionalità di gestione può essere separata in nodo di gestione interno (Una proprietà del nodo worker). Quando la funzionalità di gestione è separata in nomi DNS interni, il portale web di gestione è solo interno e quindi più sicuro."
+
+#: ../../chapter08.rst:121
+msgid "High Availability Deployment"
+msgstr "Distribuzione ad Alta Disponibilità"
+
+#: ../../chapter08.rst:123
+msgid ""
+"For high availability, you can prepare the high availability deployment "
+"in three different layers and make sure it is high availability within "
+"each layer."
+msgstr "Per garantire un'alta disponibilità, è possibile preparare il dispiegamento ad alta disponibilità su tre diversi livelli e assicurarsi che ci sia un'alta disponibilità all'interno di ogni livello."
+
+#: ../../chapter08.rst:126
+msgid "Storage"
+msgstr "Archiviazione"
+
+#: ../../chapter08.rst:128
+msgid ""
+"If you are using Microsoft File Server Share as your storage, you can "
+"prepare it to be replicated, for example using DFS."
+msgstr "Se stai utilizzando Microsoft File Server Share come storage, puoi prepararlo per essere replicato, ad esempio utilizzando DFS."
+
+#: ../../chapter08.rst:130
+msgid ""
+"If you are using Amazon S3 or Windows Azure Blob, by default it is "
+"redundant and high availability."
+msgstr "Se stai utilizzando Amazon S3 o Windows Azure Blob, per impostazione predefinita è ridondante e ad alta disponibilità."
+
+#: ../../chapter08.rst:132
+msgid "Database"
+msgstr "Database"
+
+#: ../../chapter08.rst:134
+msgid ""
+"You can use the Microsoft SQL Server Availability Group Clustering or "
+"Availability Group Fail Over to make database high availability."
+msgstr "Puoi utilizzare il Clustering di Gruppi di Disponibilità di Microsoft SQL Server o il Failover di Gruppi di Disponibilità per garantire l'alta disponibilità del database."
+
+#: ../../chapter08.rst:137
+msgid "CentreStack Worker Node"
+msgstr "Nodo Worker CentreStack"
+
+#: ../../chapter08.rst:139
+msgid ""
+"You can have multiple centrestack worker nodes in a round robin load "
+"balancing setup to provide high availability."
+msgstr "È possibile avere più nodi worker centrestack in una configurazione di bilanciamento del carico round robin per fornire alta disponibilità."
+

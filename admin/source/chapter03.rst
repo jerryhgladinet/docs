@@ -69,7 +69,7 @@ Team Folders
 
 ``Tenant Manager`` > ``Team Folders``
 
-The team folder concept is like a network share, meaning you can define a folder and then add users and groups to the folder and thus turn it into a team shared folder. The team folder will show up in the user’s folder list when the user is added to the team folder. 
+The team folder concept is like a network share, meaning you can define a folder and then add users and groups to the folder and thus turn it into a team shared folder. The team folder will show up in the user's folder list when the user is added to the team folder. 
 
 .. figure:: _static/2021newimage080-03192025.png
     :align: center
@@ -88,7 +88,7 @@ A Team folder has a tenant administrator scope so the team folder related sharin
 
     By default, the files and folders that the administrator can see is hidden away from the regular team user until those folders are published to the team users. 
 
-Team Folders (Shared Work Space) are used for team-share collaborations. Generally, Team Folders are converted from File Server Network shares. Other Team Folder sources can be Google Storage, Amazon S3 (or S3 Compatible), Amazon Cloud, Windows Azure Blob, WebDav, SharePoint, Rackspace (US or UK) and OpenStack or you can create new folders under the Tenant’s root storage.
+Team Folders (Shared Work Space) are used for team-share collaborations. Generally, Team Folders are converted from File Server Network shares. Other Team Folder sources can be Google Storage, Amazon S3 (or S3 Compatible), Amazon Cloud, Windows Azure Blob, WebDav, SharePoint, Rackspace (US or UK) and OpenStack or you can create new folders under the Tenant's root storage.
 
 In the "Team Folders" page, you can click "Edit" icon to manage team shares, folder permissions and the underlying storage configuration.
 
@@ -240,7 +240,7 @@ The above allow and deny client access policies can be configured for the follow
 
 .. figure:: _static/2021newimage090.png
 
-IT can also prevent data loss and data leakage of important company confidential shares by configuring ‘Share Access Policies’ for external users who are not company employees. Again, IT can configure allow or deny shares access policies from the following locations:
+IT can also prevent data loss and data leakage of important company confidential shares by configuring 'Share Access Policies' for external users who are not company employees. Again, IT can configure allow or deny shares access policies from the following locations:
 
 - Access from the internet
 - Access from local network
@@ -388,14 +388,14 @@ If you have Active Directory, normally these are the users in the Active Directo
     These are the users that are imported from Server Agent, where the file server agent is remote and away from the Cluster Server in the customer's site. The customer's Active Directory domain is also remote, and the file server itself (where server agent is installed) is in the
     remote Active Directory.
 
-**User’s File and Folder List**
+**User's File and Folder List**
 
 .. figure:: _static/image_s5_13_10-03192025.png
     :align: center
 
     VIEWING A USER'S FILE AND FOLDER LIST
 
-An admin can view a user’s file and folder list using the drive icon **(3)** for the user in Management Console\User Manager. 
+An admin can view a user's file and folder list using the drive icon **(3)** for the user in Management Console\User Manager. 
 
 First switch the icon view **(1)** to detail view **(2)** and click the drive icon **(3)** next to the user you are examining. This will open a new window **(4)** where you can view the files. 
 
@@ -409,7 +409,7 @@ Guest User
     
     TENANT ADMIN > GUEST USER MANAGER
 
-Guest users are users that don’t have a home directory. The only folder they have is “Files Shared with Me”. So they rely on other “Regular User” sharing files and folders with them before they can do anything. If nobody is sharing anything with a guest user, the guest user doesn’t have any read/write permission to any folder.
+Guest users are users that don't have a home directory. The only folder they have is “Files Shared with Me”. So they rely on other “Regular User” sharing files and folders with them before they can do anything. If nobody is sharing anything with a guest user, the guest user doesn't have any read/write permission to any folder.
 
 The primary reason for guest user to exist is to have a secure way for external user to collaborate and edit documents.
 
@@ -565,7 +565,7 @@ Audit trace contains the management events, such as login success, login fail , 
 File Change Log
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-File change log is capable of search for user’s file change history. It is most useful when helping user
+File change log is capable of search for user's file change history. It is most useful when helping user
 troubleshoot issues. For example, you can point to the file change log and say, you deleted this file on this
 day.
 
@@ -659,11 +659,11 @@ AD Server
 
 **Domain Controller Address**
 
-    The domain controller’s address, typically in the form of DNS name.
+    The domain controller's address, typically in the form of DNS name.
 
 **User Name**
 
-    This is recommended to be a service account (password never expire, account never disable” so the user will be able to query LDAP for users and authenticate users on the login user’s behave.
+    This is recommended to be a service account (password never expire, account never disable” so the user will be able to query LDAP for users and authenticate users on the login user's behave.
 
 **Password**
 
@@ -681,7 +681,7 @@ Advanced Settings
 
 **Friendly Domain Name**
 
-     **(i.e. mydomain.com, the domain name you see in Active Directory tools)** This is typically the domain name you see in the Microsoft Domain and User tool. It needs to be exact match of the domain name. Otherwise, you will see error message about “referral is required” , which translates to the domain controller didn’t match the domain name and need to refer you to somewhere else for another domain name. 
+     **(i.e. mydomain.com, the domain name you see in Active Directory tools)** This is typically the domain name you see in the Microsoft Domain and User tool. It needs to be exact match of the domain name. Otherwise, you will see error message about “referral is required” , which translates to the domain controller didn't match the domain name and need to refer you to somewhere else for another domain name. 
 
 .. figure:: _static/image038.jpg
     :align: center
@@ -694,7 +694,7 @@ Advanced Settings
 
 **Only include users and groups from the following Organizational Units**
 
-    **(e.g. OU=ou1,OU=ou2. Leave this blank to include all OUs)** When you type in the organization unit, you don’t need to type the domain part any more. It just need the Organization Unit part of the string. This is allowed for only single Organization Unit specified in its distinguishedName format without the domain suffix. 
+    **(e.g. OU=ou1,OU=ou2. Leave this blank to include all OUs)** When you type in the organization unit, you don't need to type the domain part any more. It just need the Organization Unit part of the string. This is allowed for only single Organization Unit specified in its distinguishedName format without the domain suffix. 
 
 **Allow Switching to Global Catalog If needed**
 
@@ -708,11 +708,11 @@ Advanced Settings
 
     The Cluster Server supports multiple domains in the same AD forest. You will need to point to the root of the AD and it is capable of finding all the sub-domains if you enable the **Discover domain controller IP at runtime** sub-opion. 
 
-**Don’t allow user auto-creation**
+**Don't allow user auto-creation**
 
     By default, the Enterprise package is capable of creating users upon first login into the web portal. However, for big enterprise, they may want to control the pace of adding users to the system so they will disable this feature.
 
-**Publish user’s home drive**
+**Publish user's home drive**
 
     When unchecked (default), the user home drive space will be allocated from enterprise storage. When checked, existing user home drives will be automatically published from Active Directory. 
 
@@ -875,7 +875,7 @@ Settings under file locking applies to all clients which include desktop clients
 
 **Delay sync until file is unlocked**
 
-    It is recommended to check this setting. Most users have the habit to save files in the middle of editing. You don’t want these edits to go every time to the cloud for these intermediate saves. You want to do a save to the cloud at the end like a grand finale. So you can delay sync until the file is
+    It is recommended to check this setting. Most users have the habit to save files in the middle of editing. You don't want these edits to go every time to the cloud for these intermediate saves. You want to do a save to the cloud at the end like a grand finale. So you can delay sync until the file is
     unlocked.
 
 
@@ -1490,7 +1490,7 @@ Sharing
     If left as zero, public link will never expires, otherwise the public link will be purged after expired.
 
 
-**Don’t create a guest user account if the recipient is from the following domains (i.e. company.com;company1.com)**
+**Don't create a guest user account if the recipient is from the following domains (i.e. company.com;company1.com)**
 
     Blacklist guest emails from the domains listed here. Do not allow sharing to these domains. 
 
@@ -1754,11 +1754,11 @@ Web Portal
 
 **Disable folder download from web client**
 
-    Disabled by default. The folder download from web client will zip up the folder and download it. It is CPU intensive so if you don’t want it to be consuming too much CPU, you can disable it using this setting.
+    Disabled by default. The folder download from web client will zip up the folder and download it. It is CPU intensive so if you don't want it to be consuming too much CPU, you can disable it using this setting.
 
 **Disable Search**
 
-    Disabled by default. If you don’t need the search by file name feature, you can check this setting to disable it.
+    Disabled by default. If you don't need the search by file name feature, you can check this setting to disable it.
 
 **Web Browser - Disable Java Uploader**
 
@@ -1778,7 +1778,7 @@ Web Portal
 
 **Only show search interface in User Manager**
 
-    When you have even more users, Tabbed-Browsing can’t handle it any more, you can enable search-only interface.
+    When you have even more users, Tabbed-Browsing can't handle it any more, you can enable search-only interface.
 
 **Show tutorial page for non-admin users**
 
@@ -1932,15 +1932,15 @@ This is the password for the Windows user above.
 
 **“Always access the storage using logon user identity”**
 
-    When you have Active Directory Integration, and mount an existing file server network share in, you can select “Always access the storage using logon user identity” so the ACL (NTFS Permission) on the file server share will be used natively. The access permission will be checked natively against the user’s Active Directory identity that is defined by the NTFS permission.
+    When you have Active Directory Integration, and mount an existing file server network share in, you can select “Always access the storage using logon user identity” so the ACL (NTFS Permission) on the file server share will be used natively. The access permission will be checked natively against the user's Active Directory identity that is defined by the NTFS permission.
 
     This option only applies to the "Local Storage" such as network share, DFS share, local folder, and etc.
 
 **“The share is from a Linux/Unix/ZFS server”**
 
-    Most of the time, you don’t want to check this flag because your file server share shall behave like a normal Windows Server share, even if it doesn’t come from a Windows Server. 
+    Most of the time, you don't want to check this flag because your file server share shall behave like a normal Windows Server share, even if it doesn't come from a Windows Server. 
 
-    In some small SOHO network storage devices, it may only allow one connection from one IP address, so if that is the case, you want to check this flag. Most of the time, you just don’t need to check this when the network share is capable of taking multiple connections/sessions from one single machine.
+    In some small SOHO network storage devices, it may only allow one connection from one IP address, so if that is the case, you want to check this flag. Most of the time, you just don't need to check this when the network share is capable of taking multiple connections/sessions from one single machine.
 
 **“This share is a DFS share”**
 
@@ -1987,7 +1987,7 @@ There are two types of storage migrations.
 
 **2.**	Migrate data to a different type of storage:
   a. Go to the registry using regedit
-  b. Go to HKLM\\SOFTWARE\\Gladinet\\Enterprise\\ and add a new string value called ‘CanChangeDefaultStorage’ and set the value to ‘True’ and reboot
+  b. Go to HKLM\\SOFTWARE\\Gladinet\\Enterprise\\ and add a new string value called 'CanChangeDefaultStorage' and set the value to 'True' and reboot
   c. Edit the storage type using new icon to edit storage under Cluster Manager\Tenant Manager
 
 .. Note::
@@ -2076,8 +2076,8 @@ These are the settings available to the tenant manager in the Folder and Storage
 **Don't show folder that user doesn't have read permission**
 
     With native Active Directory integration and
-    with network share as backend storage, the user’s permission to the folders are checked natively. When this option
-    is set, for those folders that users doesn’t have read permission, the folder will be hidden.
+    with network share as backend storage, the user's permission to the folders are checked natively. When this option
+    is set, for those folders that users doesn't have read permission, the folder will be hidden.
 
 **Don't show team folder that the user doesn't have read permission to the underlying folder**
 
@@ -2090,14 +2090,14 @@ These are the settings available to the tenant manager in the Folder and Storage
     at the web browser portal only. This setting controls whether or not to show it for 
     regular team user.
 
-**Don’t append (Team Folder) to published folders**
+**Don't append (Team Folder) to published folders**
 
-    A team folder by default, when showing up in a team user’s
+    A team folder by default, when showing up in a team user's
     folder list, it will have “(Team Folder)” appended to the end of the folder name to signify it is a team folder.
     This feature allows a team folder showing up as it is without the (Team Folder) suffix. The use case is that when
     a network share is mounted and then turned into a team folder, since the users are already familiar with the
     network share in its original name, so it is not necessary to append (team folder) to the folder name. You
-    shouldn’t change this setting in the middle of operation because if users have pending upload/download, changing
+    shouldn't change this setting in the middle of operation because if users have pending upload/download, changing
     the name could cause those tasks to fail.
 
 
@@ -2116,7 +2116,7 @@ Attached Folder
 
     Attached Local Folders are two-way synchronization
     folders. In order to do version backup and two-way synchronization, there are multiple folder structures created
-    in the backend storage. Some organization doesn’t need this feature and want the users to work exclusively with
+    in the backend storage. Some organization doesn't need this feature and want the users to work exclusively with
     the cloud drive.
 
 **Enable Snapshot backup for server agent**

@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter07.rst:2
+msgid "Deployment Scenarios"
+msgstr "部署场景"
+
+#: ../../chapter07.rst:5
+msgid "Private On-premise"
+msgstr "私有本地部署"
+
+#: ../../chapter07.rst:7
+msgid ""
+"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"In this scenario, Active Directory is typically at the same site and "
+"primary storage is from file server or NAS storage."
+msgstr "您可以准备一台Windows Server 2022/2019/2016，并安装CentreStack。在这种情况下，Active Directory通常位于同一站点，主存储来自文件服务器或NAS存储。"
+
+#: ../../chapter07.rst:10
+msgid ""
+"In this case, most of the time you are using CentreStack as a way to "
+"replace VPN to provide access to onsite file server from mobile devices "
+"and remote devices."
+msgstr "在这种情况下，您大多数时间都在使用CentreStack作为替代VPN的方式，以便从移动设备和远程设备访问现场文件服务器。"
+
+#: ../../chapter07.rst:15
+msgid ""
+"Business Access use case - provide access to file server via CentreStack "
+"to mobile devices. When employees are in the office, they access the file"
+" server their normal way without noticing any difference, and while on "
+"the road or from remote location, they can use mobile and remote device "
+"to access file server network shares."
+msgstr "商业访问用例 - 通过CentreStack向移动设备提供文件服务器的访问。当员工在办公室时，他们可以像平常一样访问文件服务器而没有任何差异，而在外出或从远程位置时，他们可以使用移动设备和远程设备访问文件服务器网络共享。"
+
+#: ../../chapter07.rst:25
+msgid "Private Off-Premise"
+msgstr "私有離岸"
+
+#: ../../chapter07.rst:27
+msgid ""
+"Normally, a managed service provider (MSP) manages your IT services, such"
+" as hosted exchange servers, hosted file servers etc. You can ask the "
+"same managed service provider to install and manage the CentreStack for "
+"you in their data center."
+msgstr "通常情况下，托管服务提供商（MSP）会管理您的IT服务，例如托管交换服务器、托管文件服务器等。您可以要求同一托管服务提供商在其数据中心为您安装并管理CentreStack。"
+
+#: ../../chapter07.rst:30
+msgid ""
+"Usually from this deployment scenario, if the file server is already in "
+"the same data center, typically it turned into the \"Private On-premise\""
+" deployment."
+msgstr "通常在这种部署场景下，如果文件服务器已经位于同一数据中心，通常它会转变为“私有本地部署”。"
+
+#: ../../chapter07.rst:33
+msgid ""
+"If on the other hand, the file servers are away from the data center, "
+"this gets turned into \"Business Continuity\" use case, where the server "
+"agent can be installed on the local file server and connects the local "
+"file servers to the remote CentreStack server in the data center."
+msgstr "如果另一方面，文件服务器远离数据中心，这就变成了\"业务连续性\"用例，其中服务器代理可以安装在本地文件服务器上，并将本地文件服务器连接到数据中心的远程CentreStack服务器。"
+
+#: ../../chapter07.rst:39
+msgid "Virtual Private Cloud"
+msgstr "虚拟私有云"
+
+#: ../../chapter07.rst:41
+msgid ""
+"In this deployment scenario, you would deploy the CentreStack solution in"
+" a virtual private cloud environment such as Amazon EC2. CentreStack is "
+"also available in the form of AMI image to facilitate creation of EC2 "
+"instances. In this deployment scenario, the typical primary storage "
+"connection is to the Amazon S3 storage. You can also setup CentreStack "
+"solution in an environment like HP Helion (OpenStack) Cloud, with a "
+"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
+msgstr "在这种部署场景中，您将在如亚马逊EC2这样的虚拟私有云环境中部署CentreStack解决方案。CentreStack也以AMI镜像的形式提供，以便于创建EC2实例。在这种部署场景中，典型的主存储连接是到亚马逊S3存储。您也可以在类似HP Helion（OpenStack）云的环境中设置CentreStack解决方案，使用Windows Server 2022/2019/2016连接到OpenStack Swift存储。"
+
+#: ../../chapter07.rst:48
+msgid "Multi-Site Deployment"
+msgstr "多站点部署"
+
+#: ../../chapter07.rst:49
+msgid "Please reference multi-site deployment."
+msgstr "请参考多站点部署。"
+

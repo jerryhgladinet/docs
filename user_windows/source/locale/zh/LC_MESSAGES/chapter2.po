@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter2.rst:3
+msgid "Installation"
+msgstr "安装"
+
+#: ../../chapter2.rst:6
+msgid ""
+"First login to your |prodname| web portal and click the user icon (1) in "
+"the top right corner. Then click the client download button (2) and "
+"download the respective client installer package."
+msgstr "首先登录到您的 |prodname| 网页门户，然后点击右上角的用户图标（1）。接着点击客户端下载按钮（2），下载相应的客户端安装包。"
+
+#: ../../chapter2.rst:9
+msgid ""
+"**NOTE:** It is very important that you log in to |prodname| as a user "
+"before downloading the Windows or Mac Clients. This gives you access to "
+"client installation packages that are already tied to your |prodname| "
+"account, which makes installation and accessing |prodname| easy."
+msgstr "**注意：** 您在下载Windows或Mac客户端之前，必须以用户身份登录到 |prodname|。这样您可以获取已经与您的 |prodname| 账户关联的客户端安装包，从而简化安装过程并便于使用 |prodname|。"
+
+#: ../../chapter2.rst:14
+msgid "DOWNLOAD YOUR CLIENT"
+msgstr "下载您的客户端"
+
+#: ../../chapter2.rst:16
+msgid ""
+"Once you click the download button you will see a page of options "
+"including Windows Desktop Client (1), Mac OS X Client (2) or Mobile "
+"client (3) and download the associated package."
+msgstr "一旦您点击下载按钮，您将看到一个包括Windows桌面客户端（1）、Mac OS X客户端（2）或移动客户端（3）的选项页面，并下载相关的安装包。"
+
+#: ../../chapter2.rst:21
+msgid "CLIENT DOWNLOAD PAGE"
+msgstr "客户端下载页面"
+
+#: ../../chapter2.rst:23
+msgid ""
+"Ensure that you choose the appropriate download for your operating system"
+" (eg, Windows 64-bit, Windows 32-bit). Run the downloaded MSI package to "
+"start the installation. Then click \"Next\" and follow the instructions "
+"to finish. In the Setup Windows Client screen, you can customize the "
+"installation if necessary."
+msgstr "确保您选择了与操作系统相匹配的正确下载版本（例如，Windows 64位，Windows 32位）。运行下载的MSI包开始安装。然后点击“下一步”并按照指示完成安装。在设置Windows客户端屏幕中，如果需要，您可以自定义安装。"
+
+#: ../../chapter2.rst:28
+msgid "CLOUD WINDOWS CLIENT INSTALLER"
+msgstr "云端Windows客户端安装程序"
+
+#: ../../chapter2.rst:31
+msgid "Log In to |prodname|"
+msgstr "登录到 |prodname|"
+
+#: ../../chapter2.rst:33
+msgid ""
+"At the end of the installation, you will be prompted to enter your "
+"|prodname| user account credentials. These credentials will authorize "
+"your |prodname| Windows Client and connect it to your |prodname| user "
+"account. Access to your Windows Client agent is also available under the "
+"Windows Start Menu. If the \"Auto-login next time\" option is selected "
+"(default), the Cloud Windows Client will be launched at Windows Startup. "
+"You can see the client icon in the lower right of the desktop or in the "
+"right-bottom notifications areas of your task bar."
+msgstr "在安装结束时，系统会提示您输入您的 |prodname| 用户账户凭据。这些凭据将授权您的 |prodname| Windows客户端，并将其连接到您的 |prodname| 用户账户。您也可以通过Windows开始菜单访问您的Windows客户端代理。如果选择了“下次自动登录”选项（默认），云Windows客户端将在Windows启动时启动。您可以在桌面的右下角或任务栏的右下通知区域看到客户端图标。"
+
+#: ../../chapter2.rst:38
+msgid "LOGGING INTO |prodname| CLIENT"
+msgstr "登录到 |prodname| 客户端"
+
+#: ../../chapter2.rst:41
+msgid "Accessing Your Files and Folders"
+msgstr "访问您的文件和文件夹"
+
+#: ../../chapter2.rst:43
+msgid "There are two main ways to use |prodname| files and folders."
+msgstr "使用 |prodname| 文件和文件夹有两种主要方式。"
+
+#: ../../chapter2.rst:45
+msgid "First, there is a |prodname| Cloud Drive."
+msgstr "首先，有一个 |prodname| 云驱动器。"
+
+#: ../../chapter2.rst:47
+msgid ""
+"With the |prodname| Cloud Drive, you have direct on-demand access to your"
+" cloud storage."
+msgstr "通过 |prodname| 云盘，您可以直接按需访问您的云存储。"
+
+#: ../../chapter2.rst:49
+msgid "Second, there are synchronization folders."
+msgstr "其次，存在同步文件夹。"
+
+#: ../../chapter2.rst:51
+msgid ""
+"Outside of the Cloud Drive, if you don't want to change where your "
+"existing folders are, you can then attach local folders as an access "
+"mechanism. The attached folder will be synchronized with Cloud in a bi-"
+"directional way."
+msgstr "在云盘之外，如果您不想改变现有文件夹的位置，您可以将本地文件夹作为访问机制进行关联。关联的文件夹将会与云端进行双向同步。"
+
+#: ../../chapter2.rst:54
+msgid "Cloud Drive Access"
+msgstr "云盘访问"
+
+#: ../../chapter2.rst:56
+msgid ""
+"After the installation is completed, a system tray icon will appear that "
+"allows you to open your |prodname| Drive."
+msgstr "安装完成后，系统托盘中会出现一个图标，允许您打开您的 |prodname| 驱动器。"
+
+#: ../../chapter2.rst:58
+msgid ""
+"If you click the system tray icon **(1)** which will open the tray menu. "
+"You can access the cloud drive by clicking the drive icon **(2)** which "
+"will open Windows Explorer in the Cloud Drive veiw **(3)**."
+msgstr "如果您点击系统托盘图标 **(1)**，它将打开托盘菜单。您可以通过点击驱动器图标 **(2)** 来访问云驱动器，这将在云驱动器视图 **(3)** 中打开Windows资源管理器。"
+
+#: ../../chapter2.rst:63
+msgid "ACCESSING THE CLOUD DRIVE"
+msgstr "访问云盘"
+
+#: ../../chapter2.rst:65
+msgid ""
+"In the Cloud Drive folder, you can do typical Windows folder functions, "
+"and right click to access the Cloud Drive context menu **(4)**."
+msgstr "在云盘文件夹中，您可以执行典型的Windows文件夹功能，并右键点击访问云盘上下文菜单 **(4)**。"
+
+#: ../../chapter2.rst:67
+msgid ""
+"Back in the Tray Menu, the three-dots **(5)** gives you access to other "
+"important functions (e.g., web portal, force sync, sign out, exit, enable"
+" debug trace)."
+msgstr "回到托盘菜单，三个点 **(5)** 让您可以访问其他重要功能（例如，网页门户，强制同步，登出，退出，启用调试跟踪）。"
+
+#: ../../chapter2.rst:72
+msgid "OTHER CLOUD DRIVE FUNCTIONS"
+msgstr "其他云盘功能"
+
+#: ../../chapter2.rst:75
+msgid "Management Console"
+msgstr "管理控制台"
+
+#: ../../chapter2.rst:77
+msgid ""
+"Also in the Tray Menu there is a Management Console icon **(6)**. Click "
+"this will give you access to the Management Console."
+msgstr "托盘菜单中还有一个管理控制台图标 **(6)**。点击此图标，您可以访问管理控制台。"
+
+#: ../../chapter2.rst:82
+msgid "ACCESSING THE MANAGEMENT CONSOLE"
+msgstr "访问管理控制台"
+

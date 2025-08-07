@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "البدء"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "مقدمة"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Server Installation Guide. This guide describes"
+" the installation tasks for |prodname|, the managed file synchronization "
+"and sharing solution."
+msgstr "مرحبًا بك في دليل تثبيت |prodname| Server. يصف هذا الدليل مهام التثبيت لـ |prodname|، حل مزامنة ومشاركة الملفات المدارة."
+
+#: ../../index.rst:10
+msgid ""
+"|prodname| includes the |prodname| server, which runs on the Microsoft "
+"Windows server platform, and client agent applications for Web browsers, "
+"Microsoft Windows, Mac OS X, and for mobile platforms such as the Android"
+" and the Apple iOS operating systems."
+msgstr "|prodname| يتضمن خادم |prodname|، الذي يعمل على منصة خادم Microsoft Windows، وتطبيقات وكيل العميل لمتصفحات الويب، وMicrosoft Windows، وMac OS X، ولمنصات الجوال مثل نظامي التشغيل Android وApple iOS."
+
+#: ../../index.rst:13
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: ../../index.rst:15
+msgid ""
+"|prodname| is a managed file sync and share solution that focuses on "
+"local file server cloud-enablement. It differentiates from other file "
+"sync and share solutions (EFSS) by focusing on the security, control, "
+"file server and team collaboration. |prodname| does really well in the "
+"following areas:"
+msgstr "|prodname| هو حل مزامنة ومشاركة الملفات المُدار الذي يركز على تمكين الخادم المحلي للملفات بالسحابة. يتميز عن غيره من حلول مزامنة ومشاركة الملفات (EFSS) من خلال التركيز على الأمان، والتحكم، وخادم الملفات، والتعاون الجماعي. يتفوق |prodname| بشكل كبير في المجالات التالية:"
+
+#: ../../index.rst:17
+msgid ""
+"maintain security by migrating files and folders while keeping the NTFS "
+"permissions intact."
+msgstr "الحفاظ على الأمان من خلال نقل الملفات والمجلدات مع الاحتفاظ بأذونات NTFS كما هي."
+
+#: ../../index.rst:18
+msgid ""
+"provide on-demand access that honors read-only and write permission in "
+"real-time."
+msgstr "توفير الوصول حسب الطلب الذي يحترم أذونات القراءة فقط والكتابة في الوقت الفعلي."
+
+#: ../../index.rst:19
+msgid ""
+"mirror local network shares on file servers to allow for team "
+"collaboration in the cloud."
+msgstr "مرآة المشاركات الشبكية المحلية على خوادم الملفات للسماح بالتعاون الجماعي في السحابة."
+
+#: ../../index.rst:20
+msgid "provide virtual drive letter mapping to the files and folders for access."
+msgstr "توفير تعيين حرف محرك الأقراص الافتراضي للملفات والمجلدات للوصول إليها."
+
+#: ../../index.rst:21
+msgid ""
+"provide file locking, version control, client encryption, and more "
+"advanced features for managing all virtual drives."
+msgstr "توفير قفل الملفات، والتحكم بالإصدارات، وتشفير العميل، والمزيد من الميزات المتقدمة لإدارة جميع الأقراص الافتراضية."
+
+#: ../../index.rst:23
+msgid ""
+"|prodname| Server is a software built on top of the Microsoft Web "
+"Platform:"
+msgstr "|prodname| Server هو برنامج مبني على منصة Microsoft Web Platform:"
+
+#: ../../index.rst:25
+msgid "Windows Server"
+msgstr "ويندوز سيرفر"
+
+#: ../../index.rst:26
+msgid "IIS (Internet Information Server)"
+msgstr "IIS (خادم معلومات الإنترنت)"
+
+#: ../../index.rst:27
+msgid ".NET Framework and ASP.NET"
+msgstr ".NET Framework و ASP.NET"
+
+#: ../../index.rst:28
+msgid "WCF (Windows Communication Foundation)"
+msgstr "WCF (مؤسسة الاتصالات النوافذ)"
+
+#: ../../index.rst:29
+msgid "PostgreSQL, MySQL or SQL Server"
+msgstr "PostgreSQL، MySQL أو SQL Server"
+
+#: ../../index.rst:31
+msgid ""
+"Since the |prodname| Server is built on top of the Microsoft Web "
+"Platform, it integrates very well with other Microsoft components such as"
+" the NTFS Permission on files and folders, the Active Directory users and"
+" the File Server network shares."
+msgstr "نظرًا لأن خادم |prodname| مبني على منصة الويب الخاصة بمايكروسوفت، فإنه يتكامل بشكل جيد للغاية مع مكونات مايكروسوفت الأخرى مثل إذن NTFS على الملفات والمجلدات، ومستخدمي الدليل النشط ومشاركات الشبكة لخادم الملفات."
+
+#: ../../index.rst:33
+msgid ""
+"It provides file access and sharing functionality through client agents "
+"for PCs, Macs, File Servers, Web Browsers, and Mobile Devices. The client"
+" agent software on Windows and Mac provides real drive mapping and volume"
+" mounting support that contains advanced optimization for WAN(Wide Area "
+"Network) data transfer."
+msgstr "يوفر وظائف الوصول إلى الملفات ومشاركتها من خلال وكلاء العميل لأجهزة الكمبيوتر وأجهزة ماك وخوادم الملفات ومتصفحات الويب والأجهزة المحمولة. يوفر برنامج وكيل العميل على ويندوز وماك دعم تعيين الأقراص الحقيقية وتركيب الأحجام الذي يحتوي على تحسينات متقدمة لنقل البيانات عبر شبكة الوصول الواسعة (WAN)."
+
+#: ../../index.rst:35
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy the |prodname| Server:"
+msgstr "يمكن نشر الخدمات بتركيبات مرنة لتلبية احتياجات مختلفة. هناك طريقتان أساسيتان لنشر |prodname| Server:"
+
+#: ../../index.rst:37
+msgid ""
+"Deploy in the same site as the File Servers and Active Directory domain "
+"controllers:"
+msgstr "نشر في نفس الموقع مثل خوادم الملفات ومتحكمات نطاق Active Directory:"
+
+#: ../../index.rst:41
+msgid "See also:"
+msgstr "انظر أيضا:"
+
+#: ../../index.rst:43
+msgid ""
+"`File Server Remote Access <https://www.gladinet.com/hybrid-cloud-with-"
+"file-server.html>`_"
+msgstr "`الوصول عن بعد لخادم الملفات <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../index.rst:45
+msgid ""
+"Deploy in a site remotely, such as Amazon Web Services EC2, Microsoft "
+"Azure, or in a Data Center where the Managed Service Provider (MSP) hosts"
+" their infrastructure:"
+msgstr "قم بالتنصيب في موقع عن بُعد، مثل خدمات أمازون ويب Amazon Web Services EC2، أو مايكروسوفت أزور Microsoft Azure، أو في مركز بيانات حيث يستضيف مزود الخدمة المُدارة (MSP) البُنية التحتية الخاصة به:"
+
+#: ../../index.rst:50
+msgid "System Components"
+msgstr "مكونات النظام"
+
+#: ../../index.rst:52
+msgid ""
+"There are three different system components (logical components that can "
+"co-exist in the same server) in the |prodname| server. In the smallest "
+"depl oyment unit, the three different components can co-exist in one "
+"single machine (all-in-one deployment)."
+msgstr "هناك ثلاثة مكونات نظام مختلفة (مكونات منطقية يمكن أن تتواجد في نفس الخادم) في خادم |prodname|. في أصغر وحدة نشر، يمكن للمكونات الثلاثة المختلفة أن تتواجد في آلة واحدة (نشر كلي في جهاز واحد)."
+
+#: ../../index.rst:57
+msgid "1. Web Server Component - The |prodname| Server"
+msgstr "مكون خادم الويب - |prodname| الخادم"
+
+#: ../../index.rst:58
+msgid ""
+"The Web Server component is ASP.NET and WFC code that is hosted by IIS on"
+" a Windows Server. The Web Server component is actually comprised of two "
+"separate \"sub-components\":"
+msgstr "مكون خادم الويب هو كود ASP.NET و WFC المستضاف من قبل IIS على خادم ويندوز. مكون خادم الويب يتألف فعليًا من \"مكونين فرعيين\":"
+
+#: ../../index.rst:60
+msgid "Web Node"
+msgstr "عقدة الويب"
+
+#: ../../index.rst:61
+msgid "Worker Node"
+msgstr "عقدة العامل"
+
+#: ../../index.rst:63
+msgid ""
+"These sub-components exist for historical purposes and there are still "
+"elements in the Cluster Manager user interface for configuring these sub-"
+"components."
+msgstr "توجد هذه العناصر الفرعية لأغراض تاريخية ولا تزال هناك عناصر في واجهة مستخدم مدير العنقود لتكوين هذه العناصر الفرعية."
+
+#: ../../index.rst:66
+msgid "2. Database - Configuration Information and System Log"
+msgstr "2. قاعدة البيانات - معلومات التهيئة وسجل النظام"
+
+#: ../../index.rst:68
+msgid ""
+"The database contains persistent information for the system. This "
+"persistent information includes static configuration information such as "
+"user name, file storage and active directory connection information. The "
+"database also stores dynamic information such as activity log, file "
+"change log and audit traces."
+msgstr "تحتوي قاعدة البيانات على معلومات دائمة للنظام. تشمل هذه المعلومات الدائمة معلومات التكوين الثابتة مثل اسم المستخدم ومعلومات اتصال تخزين الملفات والدليل النشط. كما تخزن قاعدة البيانات معلومات ديناميكية مثل سجل النشاط وسجل تغيير الملفات وآثار التدقيق."
+
+#: ../../index.rst:70
+msgid ""
+"|prodname| supports the MySQL and Microsoft SQL Server Database "
+"Management Systems (DMBS). The all-in-one deployment will deploy MySQL "
+"Community Edition on the |prodname| server. The all-in-one deployment is "
+"useful for evaluating the software but an external database server is "
+"recommended for Production deployments."
+msgstr "|prodname| يدعم نظم إدارة قواعد البيانات MySQL وMicrosoft SQL Server (DMBS). سيتم تثبيت إصدار MySQL Community Edition على خادم |prodname| في حالة التثبيت الشامل. التثبيت الشامل مفيد لتقييم البرنامج ولكن يُنصح باستخدام خادم قاعدة بيانات خارجي للتثبيتات الإنتاجية."
+
+#: ../../index.rst:73
+msgid "3. Back-end File Storage - Where Files and Folders are Stored"
+msgstr "3. التخزين الخلفي للملفات - المكان الذي يتم فيه تخزين الملفات والمجلدات"
+
+#: ../../index.rst:75
+msgid ""
+"The back-end file storage component is the persistent storage location "
+"for files and folders. There are two different types of storage services."
+" One is managed by |prodname|, such as the default storage for the "
+"cluster and the default storage for tenants. The other is imported "
+"storage, for example, existing file server network shares that weren't "
+"managed by |prodname| but can be imported to |prodname| for remote and "
+"mobile access."
+msgstr "المكون التخزيني الخلفي هو موقع التخزين الدائم للملفات والمجلدات. هناك نوعان مختلفان من خدمات التخزين. أحدهما يدار بواسطة |prodname|، مثل التخزين الافتراضي للعنقود والتخزين الافتراضي للمستأجرين. الآخر هو التخزين المستورد، على سبيل المثال، مشاركات الشبكة لخادم الملفات القائمة التي لم تكن تدار بواسطة |prodname| ولكن يمكن استيرادها إلى |prodname| للوصول عن بعد والوصول المتنقل."
+

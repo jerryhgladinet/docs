@@ -1,0 +1,486 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the CentreStack iOS
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CentreStack iOS User Guide 2025.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-05 18:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "CentreStack iOS Client User Guide"
+msgstr "CentreStack iOS 客户端用户指南"
+
+#: ../../index.rst:7
+msgid "Getting Started"
+msgstr "入门"
+
+#: ../../index.rst:9
+msgid ""
+"Welcome to the CentreStack iOS Client User Guide. This guide describes "
+"the iOS client application for CentreStack, the managed file "
+"synchronization, and sharing solution."
+msgstr "欢迎阅读CentreStack iOS客户端用户指南。本指南介绍了CentreStack的iOS客户端应用程序，这是一个管理文件同步和共享的解决方案。"
+
+#: ../../index.rst:11
+msgid ""
+"Users can access CentreStack cloud files using any device of their choice"
+" as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, "
+"Windows 8+, and more. We have created a native IOS application that you "
+"can download from the App Store. This provides access to files and "
+"folders in your CentreStack account."
+msgstr "用户可以使用任何他们选择的设备访问CentreStack云文件，因为CentreStack为Windows、Mac、iPhone、iPad、Android、Windows 8+等设备提供了客户端。我们已经创建了一个原生的IOS应用程序，您可以从App Store下载。这使您可以访问CentreStack账户中的文件和文件夹。"
+
+#: ../../index.rst:13
+msgid ""
+"The white-labeled CentreStack iOS app called \"Cloud Drive\" by Gladinet "
+"that can be distributed by service providers and enterprises to their "
+"users."
+msgstr "由Gladinet提供的白标CentreStack iOS应用程序名为“Cloud Drive”，可由服务提供商和企业分发给他们的用户。"
+
+#: ../../index.rst:15
+msgid ""
+"If you have the fully branded CentreStack iOS client, the look and feel "
+"of the app may be different but the functionality is the same. You can "
+"obtain a fully branded CentreStack IOS Client with your company name and "
+"product logo from https://partner.centrestack.com/login/ (partner "
+"portal)."
+msgstr "如果您拥有完全品牌化的CentreStack iOS客户端，应用程序的外观和感觉可能有所不同，但功能是相同的。您可以从 https://partner.centrestack.com/login/ (合作伙伴门户)获取带有公司名称和产品标志的完全品牌化CentreStack IOS客户端。"
+
+#: ../../index.rst:19
+msgid "Download & Install"
+msgstr "下载与安装"
+
+#: ../../index.rst:21
+msgid ""
+"Search for Gladinet, Inc. as a publisher in 'App Store' to start the "
+"download and installation."
+msgstr "在'App Store'中搜索Gladinet, Inc.作为发布者，开始下载和安装。"
+
+#: ../../index.rst:26
+msgid ""
+"After the install open the app from its icon. Login using your "
+"credentials."
+msgstr "安装完成后，从图标打开应用程序。使用您的凭据登录。"
+
+#: ../../index.rst:31
+msgid ""
+"Enter Access Point (if not filled automatically) and your Username and "
+"tap \"CONTINUE\"."
+msgstr "输入访问点（如果没有自动填充）和您的用户名，然后点击“继续” 。"
+
+#: ../../index.rst:35
+msgid ""
+"On the following screen, enter your Password and tap \"SIGN IN\", to log "
+"in to your server."
+msgstr "在接下来的屏幕上，输入您的密码并点击“SIGN IN”，以登录到您的服务器。"
+
+#: ../../index.rst:39
+msgid "Access, Upload and Create"
+msgstr "访问、上传和创建"
+
+#: ../../index.rst:41
+msgid ""
+"Once logged in users will see the files and folders they have access to "
+"like shown in the screen below."
+msgstr "一旦登录，用户将看到他们有权访问的文件和文件夹，如下屏幕所示。"
+
+#: ../../index.rst:45
+msgid "Tap on the folder to see the files and sub-folders inside."
+msgstr "点击文件夹查看内部的文件和子文件夹。"
+
+#: ../../index.rst:51
+msgid "Sort Menu"
+msgstr "排序菜单"
+
+#: ../../index.rst:53
+msgid ""
+"In the sort menu, you can change the order of which your files are "
+"displayed."
+msgstr "在排序菜单中，您可以更改文件显示的顺序。"
+
+#: ../../index.rst:55
+msgid ""
+"**Name (A to Z)** is when your files are displayed in the order of the "
+"alphabet."
+msgstr "**Name (A to Z)** 是指您的文件按字母顺序显示。"
+
+#: ../../index.rst:57
+msgid ""
+"**Name (Z to A)** lets you display your files opposite of the "
+"alphabetical order."
+msgstr "**Name (Z to A)** 允许您按字母顺序相反的顺序显示文件。"
+
+#: ../../index.rst:59
+msgid ""
+"**Size (1 to 9)** lets your files be displayed in the order of which "
+"files are the smallest."
+msgstr "**Size (1 to 9)** 允许您按文件大小顺序显示文件。"
+
+#: ../../index.rst:61
+msgid ""
+"**Size (9 to 1)** displays your files in the order of which the largest "
+"files are shown first."
+msgstr "**Size (9 to 1)** 按文件大小顺序显示，最大的文件首先显示。"
+
+#: ../../index.rst:63
+msgid ""
+"**Date (Old to New)** displays files that were added first at the top of "
+"your file browser."
+msgstr "**Date (Old to New)** 显示最先添加的文件在文件浏览器的顶部。"
+
+#: ../../index.rst:65
+msgid ""
+"**Date (New to Old)** displays your files in the order of which the most "
+"recently worked on files are shown first."
+msgstr "**Date (New to Old)** 显示文件的顺序，最近编辑的文件会首先显示。"
+
+#: ../../index.rst:71
+msgid "Main Operations"
+msgstr "主要操作"
+
+#: ../../index.rst:74
+msgid "Camera"
+msgstr "相机"
+
+#: ../../index.rst:75
+msgid ""
+"The camera icon allows you to insert media from your phone. You can "
+"either take a new picture or video or you can insert one from your camera"
+" library."
+msgstr "相机图标允许您从手机插入媒体。您可以拍摄新照片或视频，或者您可以从相机库中插入一个。"
+
+#: ../../index.rst:82
+msgid "Creating New Folders"
+msgstr "创建新文件夹"
+
+#: ../../index.rst:84
+msgid ""
+"To create new folders, click the **plus icon** at the bottom of the "
+"screen and it will let you create a name for the folder. Once a name is "
+"created the folder is created."
+msgstr "要创建新文件夹，请点击屏幕底部的 **加号图标**，它将允许您为文件夹命名。一旦命名完成，文件夹就会被创建。"
+
+#: ../../index.rst:90
+msgid "Settings"
+msgstr "设置"
+
+#: ../../index.rst:91
+msgid ""
+"In the settings section you can change a number of options including the "
+"theme of the mobile application."
+msgstr "在设置部分中，您可以更改包括移动应用程序主题在内的多个选项。"
+
+#: ../../index.rst:97
+msgid "Log Out"
+msgstr "登出"
+
+#: ../../index.rst:99
+msgid ""
+"To logout, click the icon on the top-left of the app and press the "
+"**\"Sign Out\"** icon at the bottom of the menu."
+msgstr "要登出，请点击应用程序左上角的图标，然后在菜单底部按下 **\"Sign Out\"** 图标。"
+
+#: ../../index.rst:103
+msgid "You can also log out from the navigation pane at the bottom of the screen."
+msgstr "您也可以从屏幕底部的导航窗格中登出。"
+
+#: ../../index.rst:109
+msgid "Manage and Edit"
+msgstr "管理和编辑"
+
+#: ../../index.rst:111
+msgid ""
+"You can tap a folder to enter it for browsing, and tap a file to open it "
+"in a file previewer."
+msgstr "您可以点击一个文件夹进入浏览，点击一个文件在文件预览器中打开它。"
+
+#: ../../index.rst:113
+msgid "Multiple operations can be carried out by accessing the menu."
+msgstr "通过访问菜单可以进行多项操作。"
+
+#: ../../index.rst:118
+msgid "Preview"
+msgstr "预览"
+
+#: ../../index.rst:120
+msgid ""
+"To preview a file, you can simply click on the file you want to see and "
+"it will open inside of the Cloud Drive application. For example, you can "
+"preview an excel file in Excel or in the Cloud Drive application."
+msgstr "要预览文件，您可以简单地点击您想要查看的文件，它将在云盘应用程序内打开。例如，您可以在Excel或云盘应用程序中预览一个excel文件。"
+
+#: ../../index.rst:124
+msgid ""
+"You can also go into a folder and preview a file with multiple images. "
+"Once you click into the preview you can scroll through all the pictures "
+"in that screen as well as saving the picture to your phone."
+msgstr "您也可以进入一个文件夹并预览包含多张图片的文件。一旦点击进入预览，您可以在该屏幕中滚动浏览所有图片，同时也可以将图片保存到您的手机中。"
+
+#: ../../index.rst:130
+msgid "Delete"
+msgstr "删除"
+
+#: ../../index.rst:132
+msgid ""
+"A file can be deleted using the **'Delete'** option. Select **'Delete'** "
+"from the context menu to delete a file. Once the file has been deleted it"
+" will no longer be visible in the cloud drive."
+msgstr "可以通过 **'Delete'** 选项删除文件。从上下文菜单中选择 **'Delete'** 来删除文件。文件被删除后，将不再在云驱动器中可见。"
+
+#: ../../index.rst:137
+msgid "Rename"
+msgstr "重命名"
+
+#: ../../index.rst:139
+msgid ""
+"You can rename a file or a folder using the **'Rename'** option. Pressing"
+" **'Rename'** will display a field to type in the new name."
+msgstr "您可以使用 **'Rename'** 选项来重命名文件或文件夹。按下 **'Rename'** 后，将显示一个字段以输入新名称。"
+
+#: ../../index.rst:145
+msgid "Copy and Cut"
+msgstr "复制和剪切"
+
+#: ../../index.rst:147
+msgid ""
+"The 'copy' option allows you to copy a file and paste it into a another "
+"folder of your choosing. The 'cut' option allows you to remove a file "
+"from a certain folder and paste it into another."
+msgstr "“复制”选项允许您复制一个文件并粘贴到您选择的另一个文件夹中。 “剪切”选项允许您将文件从某个文件夹中移除并粘贴到另一个文件夹。"
+
+#: ../../index.rst:152
+msgid ""
+"The 'Move' option allows you to move the file you select from one folder "
+"to another."
+msgstr "“移动”选项允许您将所选文件从一个文件夹移动到另一个文件夹。"
+
+#: ../../index.rst:156
+msgid "Comments"
+msgstr "评论"
+
+#: ../../index.rst:158
+msgid ""
+"The \"Comments' option allows you to see any comments made by people who "
+"have access to the file. It also lets you create a comment so others who "
+"have access to it can see your comment."
+msgstr "“评论”选项允许您查看拥有文件访问权限的人所做的任何评论。它还允许您创建评论，以便其他拥有访问权限的人可以看到您的评论。"
+
+#: ../../index.rst:162
+msgid "More Info"
+msgstr "更多信息"
+
+#: ../../index.rst:164
+msgid ""
+"The 'More Info' option allows you to look at the specifics of the file "
+"you are working on or looking at."
+msgstr "“更多信息”选项允许您查看您正在工作或查看的文件的具体信息。"
+
+#: ../../index.rst:170
+msgid "Offline Access"
+msgstr "离线访问"
+
+#: ../../index.rst:173
+msgid "Enable Offline"
+msgstr "启用离线"
+
+#: ../../index.rst:175
+msgid ""
+"You can enable a file offline access by pressing the three vertical "
+"ellipses icon to the right of the file. Once you click on that it will "
+"drop down a menu where you can then \"Enable Offline\" this file."
+msgstr "您可以通过按文件右侧的三个垂直省略号图标来启用文件的离线访问。单击它后，会出现一个菜单，您可以在其中选择“启用离线”该文件。"
+
+#: ../../index.rst:181
+msgid "Disable Offline"
+msgstr "禁用离线"
+
+#: ../../index.rst:183
+msgid ""
+"To remove files from your **Offline Access**, go to top-left menu, and "
+"choose **Offline Access**. Or use the Offline Access icon at the Bottom "
+"Bar."
+msgstr "要从您的 **Offline Access** 中删除文件，请转到左上角菜单，并选择 **Offline Access**。或者使用底部栏上的离线访问图标。"
+
+#: ../../index.rst:187
+msgid ""
+"In the **Offline Access** view you can remove files by clicking the three"
+" vertical ellipses icon and selecting **Disable Offline**."
+msgstr "在 **Offline Access** 视图中，您可以通过点击三个垂直的省略号图标并选择 **Disable Offline** 来移除文件。"
+
+#: ../../index.rst:193
+msgid "Sharing and Collaborating"
+msgstr "共享与协作"
+
+#: ../../index.rst:195
+msgid ""
+"You can select the files or folders that you want to share from your iOS "
+"devices."
+msgstr "您可以选择您希望从iOS设备上分享的文件或文件夹。"
+
+#: ../../index.rst:200
+msgid "Share Via"
+msgstr "通过以下方式共享"
+
+#: ../../index.rst:201
+msgid ""
+"You will be allowed to share the file to a third party application such "
+"as gmail, or WhatsApp."
+msgstr "您将被允许将文件共享至第三方应用程序，如Gmail或WhatsApp。"
+
+#: ../../index.rst:206
+msgid "Share Manager"
+msgstr "共享管理器"
+
+#: ../../index.rst:207
+msgid ""
+"You will be taken to a view and will see a list of any shares associated "
+"with this file/folder. You can add new shares there or delete previous "
+"shares to revoke access."
+msgstr "您将被带到一个视图，并将看到与此文件/文件夹关联的任何共享列表。您可以在那里添加新的共享或删除以前的共享以撤销访问权限。"
+
+#: ../../index.rst:209
+msgid ""
+"To delete a user share, swipe the row to the left. This removes the share"
+" and prevents access by that user."
+msgstr "要删除用户共享，请向左滑动该行。这将删除共享并阻止该用户访问。"
+
+#: ../../index.rst:211
+msgid ""
+"At the bottom can find options to Add new shares, enable/disable and copy"
+" Public Link and Request a File. To refresh the list swipe down."
+msgstr "在底部可以找到添加新共享、启用/禁用以及复制公共链接和请求文件的选项。要刷新列表，请向下滑动。"
+
+#: ../../index.rst:216
+msgid "Sharing a File"
+msgstr "分享文件"
+
+#: ../../index.rst:217
+msgid ""
+"You will be taken to the \"Specify User\" screen. There you can add user "
+"emails and next select various options for sharing."
+msgstr "您将被带到“指定用户”屏幕。在那里，您可以添加用户电子邮件，然后选择各种共享选项。"
+
+#: ../../index.rst:221
+msgid ""
+"Before sending your email share notification, you can control how the "
+"guest user(s) can access the file or folder."
+msgstr "在发送您的电子邮件共享通知之前，您可以控制访客用户如何访问该文件或文件夹。"
+
+#: ../../index.rst:223
+msgid "Specify share expiration time"
+msgstr "指定共享过期时间"
+
+#: ../../index.rst:226
+msgid "Set access type"
+msgstr "设置访问类型"
+
+#: ../../index.rst:225
+msgid "View/Read-Only Access"
+msgstr "查看/只读访问"
+
+#: ../../index.rst:226
+msgid "View Only (download will be disabled)"
+msgstr "仅限查看（将禁用下载）"
+
+#: ../../index.rst:227
+msgid "Edit / Full Control Access"
+msgstr "编辑 / 完全控制访问权限"
+
+#: ../../index.rst:231
+msgid "Other Options"
+msgstr "其他选项"
+
+#: ../../index.rst:229
+msgid "Send email notification when file is downloaded"
+msgstr "当文件被下载时发送电子邮件通知"
+
+#: ../../index.rst:230
+msgid "Send email notification when file is uploaded"
+msgstr "当文件上传时发送电子邮件通知"
+
+#: ../../index.rst:231
+msgid "Notify user when file/folder is changed"
+msgstr "当文件/文件夹发生变化时通知用户"
+
+#: ../../index.rst:236
+msgid "Public Link"
+msgstr "公共链接"
+
+#: ../../index.rst:237
+msgid ""
+"Enable the public link option will display the public URL which can also "
+"be sent to the users so they can access the share from the URL or you can"
+" copy the share URL in an email. Click the \"Link\" icon at the bottom of"
+" screen."
+msgstr "启用公共链接选项将显示公共URL，您也可以将该URL发送给用户，以便他们可以从URL访问共享，或者您可以将共享URL复制到电子邮件中。点击屏幕底部的“链接”图标。"
+
+#: ../../index.rst:242
+msgid "There is a \"Settings\" icon you can click to configure the Public Link."
+msgstr "您可以点击“设置”图标来配置公共链接。"
+
+#: ../../index.rst:246
+msgid ""
+"Once the Public Link is enabled, you can click \"COPY TO CLIPBOARD\" icon"
+" to copy the public link to your clipboard so it can be pasted into a "
+"field, email or document."
+msgstr "一旦启用了公共链接，您可以点击“复制到剪贴板”图标，将公共链接复制到剪贴板，以便将其粘贴到字段、电子邮件或文档中。"
+
+#: ../../index.rst:251
+msgid "Request a File"
+msgstr "请求文件"
+
+#: ../../index.rst:253
+msgid ""
+"This option is only available for folders. Once you select \"Request a "
+"File\" icon at the bottom right, it will take you to a screen where you "
+"can share a link with a user to allow him to upload files to the specific"
+" folder."
+msgstr "此选项仅适用于文件夹。一旦您选择右下角的“请求文件”图标，它将带您进入一个屏幕，在那里您可以与用户共享链接，允许他上传文件到特定文件夹。"
+
+#: ../../index.rst:260
+msgid "Working with Office Applications"
+msgstr "使用Office应用程序"
+
+#: ../../index.rst:262
+msgid ""
+"To edit existing files from an office application, open the Office App "
+"first, then you can select Open and access Files App. Once you do that, "
+"you can select your drive and choose a file from there. It will then open"
+" it directly into the app, edit and save."
+msgstr "要从办公应用程序编辑现有文件，请先打开办公应用程序，然后您可以选择打开并访问文件应用程序。完成这些操作后，您可以选择您的驱动器并从那里选择一个文件。之后，它将直接在应用程序中打开，进行编辑并保存。"
+
+#: ../../index.rst:264
+msgid ""
+"You can refer to this knowledge based article: "
+"https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App"
+msgstr "您可以参考这篇知识库文章：https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App"
+
+#: ../../index.rst:269
+msgid "Conclusion"
+msgstr "结论"
+
+#: ../../index.rst:271
+msgid ""
+"Gladinet's vision is to enable access to enterprise data from anywhere "
+"using any device including mobile devices like Android, iPhones, and "
+"iPads. The iOS CentreStack application is feature-rich which allows "
+"enterprise users to not only access the data but also sync and "
+"collaborate on that data. Users can access, share, edit, and perform "
+"other functions on the data when accessing from iOS devices just like "
+"they do when they access it from Windows or MAC clients."
+msgstr "Gladinet的愿景是使用户能够通过任何设备（包括Android、iPhone和iPad等移动设备）从任何地方访问企业数据。iOS CentreStack应用程序功能丰富，不仅允许企业用户访问数据，还可以同步和协作这些数据。用户可以像在Windows或MAC客户端上那样，访问、共享、编辑以及在iOS设备上访问数据时执行其他功能。"
+

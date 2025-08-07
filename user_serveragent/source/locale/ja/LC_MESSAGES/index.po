@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "1 Introduction"
+msgstr "1 紹介"
+
+#: ../../index.rst:6
+msgid ""
+"|prodname| File Server Agent is a client agent software that runs on "
+"Windows machines and connect network shares on the Windows machine to "
+"|prodname|."
+msgstr "|prodname| ファイルサーバーエージェントは、Windowsマシン上で動作するクライアントエージェントソフトウェアで、Windowsマシンのネットワーク共有を |prodname| に接続します。"
+
+#: ../../index.rst:10
+msgid ""
+"It is a file server enablement to allow remote and mobile access, while "
+"at the same time, provide business continuity through file "
+"synchronization and version control."
+msgstr "ファイルサーバーを有効化して、リモートアクセスとモバイルアクセスを可能にすると同時に、ファイルの同期とバージョン管理を通じてビジネス継続性を提供します。"
+
+#: ../../index.rst:12
+msgid ""
+"It is also a hybrid cloud setup that allows files and folders to be "
+"accessed from both local area network (file server map drive) and from "
+"remote locations/Cloud/Internet (via virtual mapped drive)."
+msgstr "これはまた、ファイルやフォルダーがローカルエリアネットワーク（ファイルサーバーマップドライブ）とリモートロケーション/クラウド/インターネット（仮想マップドライブ経由）の両方からアクセスできるハイブリッドクラウドセットアップでもあります。"
+
+#: ../../index.rst:16
+msgid "This is |prodname| File Server Agent Administration Guide."
+msgstr "これは |prodname| ファイルサーバーエージェント管理ガイドです。"
+
+#: ../../index.rst:20
+msgid "**File Server Agent** version 9.7.2576 or later"
+msgstr "**ファイルサーバーエージェント** バージョン 9.7.2576 以降"
+
+#: ../../index.rst:25
+msgid "1.1 Background"
+msgstr "1.1 背景"
+
+#: ../../index.rst:29
+msgid "Security or Mobility?"
+msgstr "セキュリティ、それともモビリティ？"
+
+#: ../../index.rst:31
+msgid ""
+"Businesses need ways to access local file server over the Internet from "
+"mobile devices and remote locations for productivity gain. This trend is "
+"pushing local file server content outward towards public file-sharing "
+"services such as Dropbox and OneDrive. Employees are using 3rd-party "
+"file-sharing services on their own to improve productivity."
+msgstr "企業は、生産性向上のために、モバイルデバイスやリモート地からインターネット経由でローカルファイルサーバーにアクセスする方法を必要としています。この傾向は、DropboxやOneDriveのような公開ファイル共有サービスに向けてローカルファイルサーバーのコンテンツを外部に押し出しています。従業員は、生産性を向上させるために独自に第三者のファイル共有サービスを使用しています。"
+
+#: ../../index.rst:33
+msgid ""
+"Security and control is a big concern for businesses that are sensitive "
+"to regulation and data leakage problems. The lack of granular permissions"
+" and control over file sharing in public file-sharing services is forcing"
+" companies to give up on these 3rd-party services."
+msgstr "セキュリティと管理は、規制やデータ漏洩の問題に敏感な企業にとって大きな懸念事項です。公共のファイル共有サービスにおける細かな権限設定とファイル共有の管理が不足しているため、企業はこれらの第三者サービスの使用を断念せざるを得ません。"
+
+#: ../../index.rst:35
+msgid ""
+"They then revert to the use of virtual private networks (VPNs) to provide"
+" remote access to corporate data. However, VPN has its own problems; it "
+"is not a good fit for the modern mobility, nor is it productivity "
+"friendly. Most of the time, VPN is a headache for managed service "
+"providers and company IT department, for the number of VPN related "
+"support tickets."
+msgstr "それから彼らは、企業データへのリモートアクセスを提供するために仮想プライベートネットワーク（VPN）の使用に戻ります。しかし、VPNには独自の問題があります。それは現代のモビリティには適しておらず、生産性にも優れていません。ほとんどの場合、VPNは管理サービスプロバイダーや企業のIT部門にとって頭痛の種であり、VPN関連のサポートチケットの数が多いです。"
+
+#: ../../index.rst:39
+msgid "Security + Mobility"
+msgstr "セキュリティ + モビリティ"
+
+#: ../../index.rst:41
+msgid ""
+"This is why you need |prodname|; resolving issues between file-sharing "
+"requirements, mobility and remote access, while preventing the leakage of"
+" your critical data through security and control. |prodname| takes care "
+"of the following objectives:"
+msgstr "これが |prodname| が必要な理由です。ファイル共有の要件、モビリティ、リモートアクセスの間の問題を解決し、セキュリティとコントロールを通じて重要なデータの漏洩を防ぎます。|prodname| は以下の目的を達成します："
+
+#: ../../index.rst:43
+msgid "Make the Windows file server mobility and remote-access friendly"
+msgstr "Windowsファイルサーバーのモビリティとリモートアクセスを向上させる"
+
+#: ../../index.rst:44
+msgid "Maintain file-server accessing paradigm for local and remote access"
+msgstr "ローカルおよびリモートアクセスのためのファイルサーバーアクセスパラダイムを維持する"
+
+#: ../../index.rst:46
+msgid "Provide NTFS security permissions"
+msgstr "NTFSセキュリティ許可を提供する"
+
+#: ../../index.rst:47
+msgid "Allow Active Directory integration"
+msgstr "Active Directory との統合を許可する"
+
+#: ../../index.rst:48
+msgid "Drive Mapping and on-demand access"
+msgstr "ドライブマッピングとオンデマンドアクセス"
+
+#: ../../index.rst:50
+msgid ""
+"File sync and share features integrated into a traditional Windows file "
+"server network share"
+msgstr "従来のWindowsファイルサーバーネットワーク共有に統合されたファイル同期および共有機能"
+
+#: ../../index.rst:54
+msgid "Overview"
+msgstr "概要"
+
+#: ../../index.rst:56
+msgid ""
+"|prodname| is the overall solution, and the File Server Agent client "
+"application is software that connects file servers to the |prodname| "
+"file-sharing solution."
+msgstr "|prodname| は包括的なソリューションであり、ファイルサーバーエージェントクライアントアプリケーションは、ファイルサーバーを |prodname| ファイル共有ソリューションに接続するソフトウェアです。"
+
+#: ../../index.rst:58
+msgid ""
+"The |prodname| File Server Agent is client-agent software that runs on "
+"Windows machines as a background service, while connecting to |prodname| "
+"servers (typically setup in a data center away from the file server)."
+msgstr "|prodname| ファイルサーバーエージェントは、Windowsマシン上でバックグラウンドサービスとして動作し、通常はファイルサーバーから離れたデータセンターに設置されている |prodname| サーバーに接続します。"
+
+#: ../../index.rst:60
+msgid ""
+"File Server Agent allows you to turn your file servers into cloud-"
+"friendly servers to migrate the file server shares to the |prodname| "
+"environment, while maintaining the two-way synchronization for as long as"
+" you need it to be. During this process, the existing share permissions "
+"are also migrated to |prodname|. This allows the Windows file server "
+"network share to be used locally without change, and at the same time, "
+"the network shares are synchronizing with |prodname| Server to form a "
+"Hybrid Cloud solution."
+msgstr "ファイルサーバーエージェントを使用すると、ファイルサーバーをクラウドに対応したサーバーに変え、ファイルサーバーの共有を |prodname| 環境に移行することができます。同時に、必要な期間、双方向の同期を維持します。このプロセス中に、既存の共有権限も |prodname| に移行されます。これにより、Windowsファイルサーバーネットワーク共有は、ローカルで変更することなく使用でき、同時に、ネットワーク共有は |prodname| サーバーと同期してハイブリッドクラウドソリューションを形成します。"
+
+#: ../../index.rst:62
+msgid ""
+"File Server Agent technology turns any Windows file server into a private"
+" cloud storage that can be accessed from anywhere using any device, while"
+" maintaining existing identities and permissions."
+msgstr "ファイルサーバーエージェント技術は、任意のWindowsファイルサーバーをプライベートクラウドストレージに変え、既存のIDと権限を維持しながら、どこからでも任意のデバイスを使用してアクセスできるようにします。"
+
+#: ../../index.rst:66
+msgid "As a Summary"
+msgstr ""
+
+#: ../../index.rst:68
+msgid ""
+"File Server Agent can sync folders and files between the local file "
+"server and the remote |prodname| Server."
+msgstr "ファイルサーバーエージェントは、ローカルファイルサーバーとリモートの |prodname| サーバー間でフォルダとファイルを同期させることができます。"
+
+#: ../../index.rst:69
+msgid ""
+"File Server Agent can sync NTFS folder permissions from a local file "
+"server to the remote |prodname| Server."
+msgstr "ファイルサーバーエージェントは、ローカルファイルサーバーのNTFSフォルダーの権限をリモートの |prodname| サーバーに同期させることができます。"
+
+#: ../../index.rst:70
+msgid ""
+"File Server Agent can export users to the remote |prodname| Server from a"
+" user's local Active Directory."
+msgstr "ファイルサーバーエージェントは、ユーザーのローカルActive Directoryからリモートの |prodname| サーバーにユーザーをエクスポートできます。"
+
+#: ../../index.rst:71
+msgid ""
+"File Server Agent activity runs as a Windows background service on the "
+"local file server."
+msgstr "ファイルサーバーエージェントのアクティビティは、ローカルファイルサーバー上でWindowsバックグラウンドサービスとして実行されます。"
+
+#: ../../index.rst:72
+msgid ""
+"Users use their local Active Directory identity to access files locally "
+"and from the |prodname| Server."
+msgstr "ユーザーは、ローカルのActive Directory IDを使用して、ローカルおよび |prodname| サーバーからファイルにアクセスします。"
+
+#: ../../index.rst:77
+msgid "|prodname| ACCESS FROM LOCAL FILE SERVER"
+msgstr "|prodname| ローカルファイルサーバーからのアクセス"
+
+#: ../../index.rst:81
+msgid ""
+"When should you use File Server Agent to connect your file server to "
+"|prodname|?"
+msgstr "ファイルサーバーを |prodname| に接続するためにファイルサーバーエージェントを使用すべき時はいつですか？"
+
+#: ../../index.rst:83
+msgid ""
+"When should you use a direct server message block (SMB) network share "
+"connection?"
+msgstr "直接サーバーメッセージブロック（SMB）ネットワーク共有接続をいつ使用するべきですか？"
+
+#: ../../index.rst:85
+msgid ""
+"Typically, when a file server is away not in the same data center or "
+"network, we recommend using Server Agent. (e.g. there is no physical "
+"connection between |prodname| and the \"Server Agent\" target system)"
+msgstr "通常、ファイルサーバーが別のデータセンターやネットワークにある場合、Server Agentの使用を推奨します。（例えば、|prodname| と「Server Agent」ターゲットシステムとの物理的な接続がない場合）"
+
+#: ../../index.rst:87
+msgid ""
+"For file servers in the same data center, but in a different VLAN, we "
+"recommend opening up the VLAN so the |prodname| can direct access the "
+"file server without using a Server Agent since both are already in the "
+"same data center."
+msgstr "同じデータセンター内にあるが、異なるVLANにあるファイルサーバーについては、VLANを開放して、|prodname| がサーバーエージェントを使用せずにファイルサーバーに直接アクセスできるようにすることをお勧めします。なぜなら、両者はすでに同じデータセンター内にあるからです。"
+
+#: ../../index.rst:92
+msgid "How it solves the problem?"
+msgstr "どのように問題を解決しますか？"
+
+#: ../../index.rst:94
+msgid ""
+"You or your managed service provider (MSP) owns the |prodname| software. "
+"File data is either located on the local file server or the |prodname| "
+"Server. Either way, you control the data to prevent unauthorized access."
+msgstr "あなたまたはあなたのマネージドサービスプロバイダ（MSP）が |prodname| ソフトウェアを所有しています。ファイルデータは、ローカルファイルサーバーまたは |prodname| サーバーにあります。いずれにせよ、不正アクセスを防ぐためにデータを管理します。"
+
+#: ../../index.rst:96
+msgid ""
+"|prodname| Server is operating from a data center or local office, behind"
+" a firewall connected to the Internet. Typical SMB protocol shares are "
+"not available to the Internet; however, the HTTPS communication (Internet"
+" facing) capability of the |prodname| Server makes it friendly to mobile "
+"and remote devices."
+msgstr "|prodname| サーバーは、データセンターやローカルオフィスから運用され、ファイアウォールを介してインターネットに接続されています。一般的なSMBプロトコル共有はインターネットには利用できませんが、|prodname| サーバーのHTTPS通信（インターネット向け）機能は、モバイルデバイスやリモートデバイスに適しています。"
+
+#: ../../index.rst:98
+msgid ""
+"|prodname| Server either directly leverages the local Active Directory "
+"and NTFS permission or replicates these features to maintain a local-"
+"file-server access paradigm."
+msgstr "|prodname| サーバーは、ローカルのActive DirectoryやNTFSの権限を直接利用するか、これらの機能を複製してローカルファイルサーバーのアクセスパラダイムを維持します。"
+
+#: ../../index.rst:102
+msgid "What is a typical way to use File Server Agent?"
+msgstr "ファイルサーバーエージェントを使用する一般的な方法は何ですか？"
+
+#: ../../index.rst:104
+msgid ""
+"When your client needs to store files in local-network shared folders, "
+"Server Agent can be helpful for connecting these shares to |prodname|. "
+"This typically happens when there is a lot of users in the local office, "
+"or the Internet speed is ok but not great coming into the office."
+msgstr "クライアントがローカルネットワーク共有フォルダにファイルを保存する必要がある場合、Server Agentはこれらの共有を |prodname| に接続するのに役立ちます。これは通常、ローカルオフィスに多くのユーザーがいる場合や、オフィスへのインターネット速度がまあまあだが素晴らしいとは言えない場合に発生します。"
+
+#: ../../index.rst:106
+msgid ""
+"One typical use case is you have remote workers or a branch office that "
+"have need to access the file server network share without using the VPN. "
+"You don't want to copy the file server content out just for the remote "
+"workers because that will create too many copies and lost track of which "
+"side has the newer version. Setting it up in a hybrid mode, and with two-"
+"way synchronization between local file server and remote |prodname| "
+"Server is a better way to go."
+msgstr "一つの典型的な使用例は、リモートワーカーや支店がVPNを使用せずにファイルサーバーのネットワーク共有にアクセスする必要がある場合です。リモートワーカーのためだけにファイルサーバーの内容をコピーしたくないでしょう。それは多くのコピーを生み出し、どちらのサイドが新しいバージョンを持っているかを見失うことになります。ローカルファイルサーバーとリモートの |prodname| サーバーとの間でハイブリッドモードを設定し、双方向の同期を行うことがより良い方法です。"
+

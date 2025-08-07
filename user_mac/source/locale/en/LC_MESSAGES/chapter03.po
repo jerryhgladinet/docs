@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Connecting To The Cloud"
+msgstr ""
+
+#: ../../chapter03.rst:5
+msgid ""
+"You can access the cloud drive  from the main screen of your Mac by "
+"clicking on the Cloud Drive icon."
+msgstr ""
+
+#: ../../chapter03.rst:11
+msgid ""
+"You can access the cloud drive menu from the top panel by clicking on the"
+" |prodname| Cloud Drive icon."
+msgstr ""
+
+#: ../../chapter03.rst:17
+msgid "Transferring Files"
+msgstr ""
+
+#: ../../chapter03.rst:19
+msgid ""
+"Now you can use the Cloud Storage as if it were a real drive on the Mac "
+"system. Simply drag-and-drop to copy local documents to the Cloud "
+"Storage."
+msgstr ""
+
+#: ../../chapter03.rst:23
+msgid ""
+"|prodname| Cloud Drive makes it very easy to move data into cloud storage"
+" or extract data from cloud storage."
+msgstr ""
+
+#: ../../chapter03.rst:27
+msgid "Attaching Local Folders"
+msgstr ""
+
+#: ../../chapter03.rst:29
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr ""
+
+#: ../../chapter03.rst:31
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account."
+msgstr ""
+
+#: ../../chapter03.rst:33
+msgid ""
+"To attach a folder click the Cloud Drive icon **(1)** then click the "
+"Console Settings gear icon **(2)**. A browser window will open showing "
+"the Device Info for your Mac. The menu button **(3)** gives you access to"
+" the Attached Folders button **(4)**. When you click that, you can add a "
+"folder from your hard drive by clicking the Add Folder button **(5)**, "
+"then explore to the folder you want to attach **(6)** and set the "
+"\"Name\" **(7)** you want to use for that folder when accessing it from "
+"the Web Portal."
+msgstr ""
+
+#: ../../chapter03.rst:39
+msgid "Settings Web Page"
+msgstr ""
+
+#: ../../chapter03.rst:41
+msgid "You can get access to the settings web page from the settings button."
+msgstr ""
+
+#: ../../chapter03.rst:45
+msgid "After it is clicked, a web page will lauch into your default web browser."
+msgstr ""
+
+#: ../../chapter03.rst:51
+msgid "Device Information"
+msgstr ""
+
+#: ../../chapter03.rst:53
+msgid "The first section in the settings page is the \"Device Info\" section."
+msgstr ""
+
+#: ../../chapter03.rst:55
+msgid ""
+"In the device info section, you can see the device name, logged in user, "
+"Device Type, OS Type and other information."
+msgstr ""
+
+#: ../../chapter03.rst:58
+msgid "Attached Folders"
+msgstr ""
+
+#: ../../chapter03.rst:60
+msgid ""
+"Attach Folder means attach a local folder to cloud (|prodname| account). "
+"The end result is to setup a bi-directional synchronization between the "
+"local folder and the cloud so the changes from within the local folder "
+"will synchronize to cloud and changes from cloud in that specific folder "
+"will sync back to local folder."
+msgstr ""
+
+#: ../../chapter03.rst:62
+msgid ""
+"To set this up from the Console, you click the pulldown menu and choose "
+"**\"Attached Folders\" (1)**. In the new view you click the **Add (2)** "
+"button and then explore by double-clicking (drill down) to the folder you"
+" wish to attach **(3)**. Once you have selected the folder, enter the "
+"**\"Name\" (4)** you want to use for that folder and click **\"ATTACH\"**"
+" to complete the process. In this example, the folder is on the Desktop "
+"of the Mac computer."
+msgstr ""
+
+#: ../../chapter03.rst:66
+msgid "Once it is attached, you can see it in a list."
+msgstr ""
+
+#: ../../chapter03.rst:70
+msgid ""
+"You can also verify that the local folder is attached by logging into the"
+" web portal where you will see it listed in your ``FILE BROWSER`` view."
+msgstr ""
+
+#: ../../chapter03.rst:74
+msgid ""
+"As shown in the example here, the local folder named \"Mac User 1 "
+"Attached\" is now synchronized with cloud."
+msgstr ""
+
+#: ../../chapter03.rst:78
+msgid "Offline Folders"
+msgstr ""
+
+#: ../../chapter03.rst:80
+msgid ""
+"You can mark certain folders as offline. The folders that are marked as "
+"offline will pre-fetch the content of the folder and cache it locally. To"
+" accomplish this you first click the **\"+\" plus (1)** icon. Then choose"
+" a folder that you would like to have access to while offline. Once a "
+"folder has been marked as offline, it will show in this list **(2)**."
+msgstr ""
+
+#: ../../chapter03.rst:86
+msgid "Locked Files"
+msgstr ""
+
+#: ../../chapter03.rst:88
+msgid ""
+"If any of the files are currently in **\"Locked\"** status, you will see "
+"it in this view."
+msgstr ""
+
+#: ../../chapter03.rst:93
+msgid "Pending Check-Ins"
+msgstr ""
+
+#: ../../chapter03.rst:95
+msgid ""
+"If any of the files are currently **Checked Out** you will see them "
+"listed in this view."
+msgstr ""
+

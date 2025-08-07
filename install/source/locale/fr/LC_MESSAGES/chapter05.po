@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:3
+msgid "Management Console"
+msgstr "Console de gestion"
+
+#: ../../chapter05.rst:5
+msgid ""
+"If you are logged in as the Tenant administrator, access the Management "
+"Console by clicking the gear icon on the top right of the **\"File "
+"Browser\"** view."
+msgstr "Si vous êtes connecté en tant qu'administrateur du locataire, accédez à la Console de gestion en cliquant sur l'icône d'engrenage en haut à droite de la vue **\"Explorateur de fichiers\"**."
+
+#: ../../chapter05.rst:7
+msgid ""
+"The Tenant Administrator will see the files and folders view by default "
+"upon initial login."
+msgstr "L'Administrateur du locataire verra par défaut la vue des fichiers et dossiers lors de la première connexion."
+
+#: ../../chapter05.rst:13
+msgid ""
+"If you are the cluster administrator, you may not see the \"Management "
+"Console\" icon. Instead, you can manage the default tenant from the "
+"Cluster Manager -> Tenant Manager and click through to manage the default"
+" tenant."
+msgstr "Si vous êtes l'administrateur du cluster, il se peut que vous ne voyiez pas l'icône « Console de gestion ». Au lieu de cela, vous pouvez gérer le locataire par défaut depuis le Gestionnaire de Cluster -> Gestionnaire de locataires et cliquer pour gérer le locataire par défaut."
+
+#: ../../chapter05.rst:17
+msgid "Here is the Tenant Management Console."
+msgstr "Voici la console de gestion des locataires."
+
+#: ../../chapter05.rst:21
+msgid ""
+"Please reference the `CentreStack Admin Guide`_ for complete details "
+"about Tenant administration."
+msgstr "Veuillez consulter le `Guide de l'administrateur CentreStack`_ pour obtenir tous les détails sur l'administration des locataires."
+
+#: ../../chapter05.rst:23
+msgid "Here are a few points that are more important during the deployment phase."
+msgstr "Voici quelques points qui sont plus importants pendant la phase de déploiement."
+
+#: ../../chapter05.rst:26
+msgid "Add Tenant"
+msgstr "Ajouter un locataire"
+
+#: ../../chapter05.rst:28
+msgid ""
+"You can add a tenant by clicking the 'New Tenant' Button in the Tenant "
+"Manager"
+msgstr "Vous pouvez ajouter un locataire en cliquant sur le bouton 'Nouveau Locataire' dans le Gestionnaire de locataires"
+
+#: ../../chapter05.rst:34
+msgid "Team Folders"
+msgstr "Dossiers d'équipe"
+
+#: ../../chapter05.rst:36
+msgid ""
+"Team Folders are created by the tenant admin. The users that can be "
+"assigned to the team folders are the team users within the tenant. Each "
+"team user can be assigned read or write permissions to the team folder. "
+"For the team users that are not assigned with a specific team folder, the"
+" team folder will not show up. Team folders users can also be assigned "
+"the \"Owner\" permission. The owner permission allows the \"owner\" to "
+"maintain and manage the team folder permissions."
+msgstr "Les dossiers d'équipe sont créés par l'administrateur du locataire. Les utilisateurs qui peuvent être assignés aux dossiers d'équipe sont les utilisateurs de l'équipe au sein du locataire. Chaque utilisateur de l'équipe peut se voir attribuer des permissions de lecture ou d'écriture pour le dossier d'équipe. Pour les utilisateurs de l'équipe qui ne sont pas assignés à un dossier d'équipe spécifique, le dossier d'équipe n'apparaîtra pas. Les utilisateurs des dossiers d'équipe peuvent également se voir attribuer la permission \"Propriétaire\". La permission de propriétaire permet au \"propriétaire\" de maintenir et de gérer les permissions du dossier d'équipe."
+
+#: ../../chapter05.rst:42
+msgid ""
+"You can navigate to the Team Folders by clicking on the \"Team Folders\" "
+"tab from the left side menu of Tenant Manager."
+msgstr "Vous pouvez vous rendre dans les dossiers d'équipe en cliquant sur l'onglet \"Dossiers d'équipe\" dans le menu latéral gauche du Gestionnaire de locataire."
+
+#: ../../chapter05.rst:44
+msgid "Here is the Team Folders page."
+msgstr "Voici la page des dossiers d'équipe."
+
+#: ../../chapter05.rst:50
+msgid "User Manager"
+msgstr "Gestionnaire d'utilisateurs"
+
+#: ../../chapter05.rst:52
+msgid ""
+"In the user manager, you can create users, import users from Active "
+"Directory over LDAP or import users from Active Directory via Server "
+"Agent. Click on the \"Users\" tab from the left side menu of Tenant "
+"Manager. Then click on \"Create or Migrate Users\"."
+msgstr "Dans le gestionnaire d'utilisateurs, vous pouvez créer des utilisateurs, importer des utilisateurs depuis Active Directory via LDAP ou importer des utilisateurs depuis Active Directory via l'Agent Serveur. Cliquez sur l'onglet \"Utilisateurs\" dans le menu latéral gauche du Gestionnaire de locataires. Puis cliquez sur \"Créer ou Migrer des Utilisateurs\"."
+
+#: ../../chapter05.rst:58
+msgid "This should take you to a menu of options to add a new user to the tenant."
+msgstr "Cela devrait vous amener à un menu d'options pour ajouter un nouvel utilisateur au locataire."
+
+#: ../../chapter05.rst:64
+msgid "Delegate Administration"
+msgstr "Délégation d'administration"
+
+#: ../../chapter05.rst:66
+msgid ""
+"You can add full delegated admin to the list of \"Cloud Administrators\"."
+" Once you reach the tenant dashboard, click \"Settings\" from left side "
+"menu, and then go to the \"User Account & Security\". In \"User Account &"
+" Security\", Click on \"Tenant Administrators\"."
+msgstr "Vous pouvez ajouter un administrateur délégué complet à la liste des \"Administrateurs Cloud\". Une fois sur le tableau de bord du locataire, cliquez sur \"Paramètres\" dans le menu latéral gauche, puis allez dans \"Compte utilisateur & Sécurité\". Dans \"Compte utilisateur & Sécurité\", cliquez sur \"Administrateurs du locataire\"."
+
+#: ../../chapter05.rst:72
+msgid ""
+"At the bottom of the Tenant Administrators page, you can designate the "
+"delegated admin."
+msgstr "Au bas de la page des administrateurs de locataire, vous pouvez désigner l'administrateur délégué."
+
+#: ../../chapter05.rst:77
+msgid "Active Directory Integration (Optional)"
+msgstr "Intégration à l'Active Directory (Optionnel)"
+
+#: ../../chapter05.rst:79
+msgid ""
+"It is optional to setup the Active Directory Integration. You can get to "
+"the integration page from the Management Console -> Settings -> Active "
+"Directory Settings. The active directory setting here refers to local "
+"Active Directory with LDAP integration. For remote Active Directory, "
+"server agent can be used to connect remote file server folders and remote"
+" Active Directory."
+msgstr "Il est facultatif de configurer l'intégration de l'Active Directory. Vous pouvez accéder à la page d'intégration depuis la Console de Gestion -> Paramètres -> Paramètres de l'Active Directory. Le paramètre de l'Active Directory mentionné ici fait référence à l'Active Directory local avec intégration LDAP. Pour l'Active Directory à distance, un agent serveur peut être utilisé pour connecter les dossiers du serveur de fichiers à distance et l'Active Directory à distance."
+
+#: ../../chapter05.rst:84
+msgid ""
+"Once you reach the tenant dashboard, click \"Settings\" from left side "
+"menu, and then go to the \"Active Directory\" option."
+msgstr "Une fois que vous êtes sur le tableau de bord du locataire, cliquez sur \"Paramètres\" dans le menu de gauche, puis allez à l'option \"Active Directory\"."
+
+#: ../../chapter05.rst:88
+msgid ""
+"This will take you to the Active Directory Page. After you turn on the "
+"switch and enable Active Directory Integration, you can fill in your "
+"information for Active Directory."
+msgstr "Cela vous mènera à la page Active Directory. Après avoir activé l'interrupteur et permis l'intégration d'Active Directory, vous pouvez renseigner vos informations pour Active Directory."
+
+#: ../../chapter05.rst:94
+msgid ""
+"If this specific tenant's Active Directory is at a remote location, "
+"please use the CentreStack Server Agent to connect the Active Directory "
+"(No need to use LDAP over Internet WAN connection)."
+msgstr "Si l'Active Directory de ce locataire spécifique se trouve dans un emplacement distant, veuillez utiliser l'Agent Serveur CentreStack pour connecter l'Active Directory (pas besoin d'utiliser LDAP sur une connexion WAN Internet)."
+
+#: ../../chapter05.rst:100
+msgid "Branding"
+msgstr "Marque"
+
+#: ../../chapter05.rst:102
+msgid ""
+"You can brand the web portal, Windows and Mac clients, iOS and Android "
+"Applications."
+msgstr "Vous pouvez personnaliser le portail web, les clients Windows et Mac, ainsi que les applications iOS et Android."
+
+#: ../../chapter05.rst:104
+msgid ""
+"The self-service branding starts with the \"Cluster Manager\". In order "
+"to start the branding, you will login to the web portal as the Cluster "
+"Administrator."
+msgstr "Le processus d'autobranding commence avec le \"Cluster Manager\". Pour commencer le branding, vous vous connecterez au portail web en tant qu'Administrateur du Cluster."
+
+#: ../../chapter05.rst:107
+msgid ""
+"After you login to the web portal, click to the \"Cluster Branding\" "
+"Pages."
+msgstr "Après vous être connecté au portail web, cliquez sur les pages \"Personnalisation du Cluster\"."
+
+#: ../../chapter05.rst:111
+msgid ""
+"Please reference the \"Cluster Branding\" section in the `Admin Guide`_ "
+"for the self-hosted CentreStack server."
+msgstr "Veuillez vous référer à la section « Personnalisation du Cluster » dans le `Guide de l'administrateur`_ pour le serveur CentreStack auto-hébergé."
+

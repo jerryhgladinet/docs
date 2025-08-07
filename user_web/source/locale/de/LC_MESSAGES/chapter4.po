@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter4.rst:3
+msgid "Different Scope of Users"
+msgstr "Unterschiedlicher Benutzerkreis"
+
+#: ../../chapter4.rst:7
+msgid "Tenant Administrator"
+msgstr "Mandant Administrator"
+
+#: ../../chapter4.rst:9
+msgid ""
+"Tenant is a management scope that typically map to a company or a group "
+"of users that collaborates on a set of documents. In |prodname|, it is "
+"referred to as the Tenant Account as well."
+msgstr "Ein Mandant ist ein Verwaltungsbereich, der üblicherweise einem Unternehmen oder einer Gruppe von Benutzern entspricht, die an einem Satz von Dokumenten zusammenarbeiten. In |prodname| wird dies ebenfalls als Mandantenkonto bezeichnet."
+
+#: ../../chapter4.rst:11
+msgid ""
+"On a per-tenant basis, you can create team users inside the tenant; you "
+"can setup Active Directory connection per-tenant; you can setup team "
+"folder to share among users inside the tenant."
+msgstr "Auf Basis pro Mandant können Sie Team-Benutzer innerhalb des Mandanten erstellen; Sie können pro Mandant eine Active Directory-Verbindung einrichten; Sie können ein Teamverzeichnis einrichten, um es unter den Benutzern innerhalb des Mandanten zu teilen."
+
+#: ../../chapter4.rst:13
+msgid ""
+"As a |prodname| administrator, you can think of a tenant as a company, "
+"who is your client/customer, which in turn may have some of its own users"
+" too."
+msgstr "Als |prodname| Administrator können Sie sich einen Mandanten als ein Unternehmen vorstellen, das Ihr Klient/Kunde ist und das wiederum auch eigene Benutzer haben kann."
+
+#: ../../chapter4.rst:17
+msgid "Team User"
+msgstr "Teammitglied"
+
+#: ../../chapter4.rst:19
+msgid ""
+"Team user are users inside a tenant scope. They have credentials to login"
+" to |prodname|. They are regular users in a tenant that have home "
+"directory and storage quota assigned. If a tenant is a company, the team "
+"user are employees in the company."
+msgstr "Team-Benutzer sind Benutzer innerhalb eines Mandantenbereichs. Sie haben Anmeldeinformationen, um sich bei |prodname| anzumelden. Sie sind reguläre Benutzer in einem Mandanten, denen ein persönliches Verzeichnis und Speicherkontingent zugewiesen ist. Wenn ein Mandant ein Unternehmen ist, sind die Team-Benutzer Mitarbeiter in dem Unternehmen."
+
+#: ../../chapter4.rst:23
+msgid "Delegate Administrator"
+msgstr "Delegierter Administrator"
+
+#: ../../chapter4.rst:25
+msgid ""
+"A delegated administrator is a team user most of the time. However, "
+"delegated administrators can be elevated to full tenant administrators by"
+" clicking on the \"Manage Team Cloud\" link. This link is only visible if"
+" you are logged in as a Delegate Administrator. To create this type of "
+"administrator follow these steps as Tenant Admin."
+msgstr "Ein delegierter Administrator ist meistens ein Teammitglied. Allerdings können delegierte Administratoren durch Anklicken des Links \"Team-Cloud verwalten\" zu vollständigen Mandantenadministratoren erhöht werden. Dieser Link ist nur sichtbar, wenn Sie als delegierter Administrator angemeldet sind. Um diesen Typ eines Administrators zu erstellen, folgen Sie diesen Schritten als Mandanten-Admin."
+
+#: ../../chapter4.rst:27
+msgid ""
+"Logged in as Tenant Admin, you can delegate administrators through the "
+"Control Panel of the Tenant Dashboard (1)."
+msgstr "Als Tenant-Admin angemeldet, können Sie Administratoren über das Kontrollpanel des Tenant-Dashboards delegieren (1)."
+
+#: ../../chapter4.rst:32
+msgid "TENANT ADMINISTRATORS SETTINGS"
+msgstr "EINSTELLUNGEN DER MANDANTENADMINISTRATOREN"
+
+#: ../../chapter4.rst:34
+msgid ""
+"In the Tenant Administrators panel you can choose a user you want to add "
+"from the field upon clicking the \"Edit\" option (2). Choose \"Update\" "
+"(3) when finished."
+msgstr "Im Bereich der Mandantenadministratoren können Sie einen Benutzer auswählen, den Sie hinzufügen möchten, indem Sie auf die Option \"Bearbeiten\" (2) klicken. Wählen Sie \"Aktualisieren\" (3), wenn Sie fertig sind."
+
+#: ../../chapter4.rst:36
+msgid ""
+"Tenant administrators can be removed by clearing the field given in the "
+"\"Edit\" option."
+msgstr "Mandantenadministratoren können entfernt werden, indem das im \"Bearbeiten\"-Option gegebene Feld geleert wird."
+
+#: ../../chapter4.rst:41
+msgid "DELEGATED ADMINISTRATORS"
+msgstr "DELEGIERTEN ADMINISTRATOREN"
+
+#: ../../chapter4.rst:43
+msgid ""
+"When a team user (with delegate administrator assignment) logs in, there "
+"will be a \"Manage Team Cloud\" link available (4)."
+msgstr "Wenn sich ein Teammitglied (mit delegierter Administratorzuweisung) anmeldet, steht ein Link „Team-Cloud verwalten“ zur Verfügung (4)."
+
+#: ../../chapter4.rst:48
+msgid "MANAGE TEAM CLOUD ACCESS"
+msgstr "TEAM CLOUD-ZUGRIFF VERWALTEN"
+
+#: ../../chapter4.rst:50
+msgid ""
+"And when the delegate administrator is finished managing the team cloud, "
+"they can return to their normal File Browser view by clicking \"Return To"
+" My Cloud\" (5)."
+msgstr "Und wenn der Delegierte Administrator mit der Verwaltung des Team-Clouds fertig ist, kann er durch Klicken auf \"Zurück zu Meinem Cloud\" (5) zu seiner normalen Dateibrowser-Ansicht zurückkehren."
+
+#: ../../chapter4.rst:55
+msgid "Guest User"
+msgstr "Gastbenutzer"
+
+#: ../../chapter4.rst:57
+msgid ""
+"Guest user are users that have credentials to login to |prodname|, but "
+"these users don't have home directory."
+msgstr "Gastbenutzer sind Benutzer, die Anmeldeinformationen haben, um sich bei |prodname| anzumelden, aber diese Benutzer haben kein Home-Verzeichnis."
+
+#: ../../chapter4.rst:60
+msgid "Anonymous User"
+msgstr "Anonymer Benutzer"
+
+#: ../../chapter4.rst:62
+msgid ""
+"If the public link and anonymous (no login required) sharing is enabled, "
+"users can use a link to come to the web portal and see files and folders "
+"that are shared."
+msgstr "Wenn der öffentliche Link und das anonyme Teilen (keine Anmeldung erforderlich) aktiviert sind, können Benutzer einen Link verwenden, um zum Webportal zu gelangen und die freigegebenen Dateien und Ordner einzusehen."
+
+#: ../../chapter4.rst:70
+msgid "PUBLIC LINK"
+msgstr "ÖFFENTLICHER LINK"
+

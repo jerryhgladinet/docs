@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Locking Files"
+msgstr "Låsning af filer"
+
+#: ../../chapter5.rst:6
+msgid ""
+"The |prodname| Cloud administrator has the option of enabling a setting "
+"that causes files to automatically become locked when they are in use - "
+"automatic distributed lock (see administration guide). This prevents more"
+" than one person from updating the file at the same time which can cause "
+"undesirable results."
+msgstr "Cloudadministratoren for |prodname| har mulighed for at aktivere en indstilling, der automatisk låser filer, når de er i brug - automatisk distribueret lås (se administrationsvejledningen). Dette forhindrer, at mere end én person opdaterer filen på samme tid, hvilket kan forårsage uønskede resultater."
+
+#: ../../chapter5.rst:10
+msgid "When to use automatic lock and when to use manual lock?"
+msgstr "Hvornår skal man bruge automatisk lås, og hvornår skal man bruge manuel lås?"
+
+#: ../../chapter5.rst:12
+msgid ""
+"When files are automatic locked, the same files need to be automatically "
+"unlocked. When files are automaticall locked, the agent that locks the "
+"file needs to maintain health heart beat with the central |prodname| "
+"server. When the heart beat can't be maintained, the file will be "
+"automatically unlocked."
+msgstr "Når filer automatisk låses, skal de samme filer automatisk låses op igen. Når filer automatisk låses, skal agenten, der låser filen, opretholde et sundt hjerteslag med den centrale |prodname| server. Når hjerteslaget ikke kan opretholdes, vil filen automatisk blive låst op."
+
+#: ../../chapter5.rst:14
+msgid ""
+"If you want the file to stay locked regardless what situation the agent "
+"machine is in, manual lock is recommened. A manually locked file will "
+"need to be manually unlocked."
+msgstr "Hvis du ønsker, at filen forbliver låst uanset hvilken situation agentmaskinen er i, anbefales manuel låsning. En manuelt låst fil skal låses op manuelt."
+
+#: ../../chapter5.rst:16
+msgid ""
+"Files can be manually locked. Right-click on any file **(1)** in the "
+"|prodname| drive and then select \"check out (Lock) This File\" **(2)** "
+"to toggle between its locked and unlocked state. Then click OK in the "
+"pop-up **(3)**."
+msgstr "Filer kan låses manuelt. Højreklik på en hvilken som helst fil **(1)** i |prodname|-drevet og vælg derefter \"check out (Lås) denne fil\" **(2)** for at skifte mellem dens låste og ulåste tilstand. Klik derefter OK i pop-up-vinduet **(3)**."
+
+#: ../../chapter5.rst:21
+msgid "LOCKING A LOCAL FILE"
+msgstr "LÅSNING AF EN LOKAL FIL"
+
+#: ../../chapter5.rst:23
+msgid ""
+"The context menu will give the option to lock the file. It will stay "
+"locked until you 'Unlock' it. When you are finished with the file, you "
+"can unlock it by right-clicking it and choosing Check In from the context"
+" menu."
+msgstr "Kontekstmenuen vil give mulighed for at låse filen. Den vil forblive låst, indtil du 'Låser den op'. Når du er færdig med filen, kan du låse den op ved at højreklikke på den og vælge Check In fra kontekstmenuen."
+
+#: ../../chapter5.rst:27
+msgid "Offline Access"
+msgstr "Offlineadgang"
+
+#: ../../chapter5.rst:29
+msgid ""
+"Cloud Drive files aren't fully synced by default; only the files you are "
+"using are synced. You can Force Sync your files however. Right-click the "
+"folder you want to make \"Offline\" and choose \"Enable Offline Access "
+"**(1)**. Once this is done, you can click your drive icon, and then "
+"choose \"Force Sync All Offline Folders\" **(2)** to sync any folders you"
+" have enabled for Offline Access."
+msgstr "Cloud Drive-filer synkroniseres ikke fuldt ud som standard; kun de filer, du bruger, synkroniseres. Du kan dog tvinge synkronisering af dine filer. Højreklik på den mappe, du vil gøre \"Offline\" og vælg \"Aktivér offlineadgang **(1)**. Når dette er gjort, kan du klikke på dit drevikon og derefter vælge \"Tving synkronisering af alle offline mapper\" **(2)** for at synkronisere eventuelle mapper, du har aktiveret til offlineadgang."
+
+#: ../../chapter5.rst:31
+msgid ""
+"Also, you might want to pause the synchronization of files while you are "
+"working on them. This can be done from the Cloud Drive icon as well. In "
+"the menu, choose \"Pause Sync\" **(3)** temporarily stop files from "
+"sychronizing. The benefit is that you can keep modifying documents "
+"(drafts) locally until it is all done and then you can uncheck the "
+"\"Pause\" and connect to the |prodname| cloud drive to upload any "
+"changes."
+msgstr "Desuden vil du måske sætte synkroniseringen af filer på pause, mens du arbejder på dem. Dette kan også gøres fra Cloud Drive-ikonet. I menuen vælger du \"Pause Sync\" **(3)** for midlertidigt at stoppe filer i at synkronisere. Fordelen er, at du kan fortsætte med at ændre dokumenter (kladder) lokalt, indtil alt er færdigt, og derefter kan du fjerne markeringen i \"Pause\" og forbinde til |prodname| cloud drive for at uploade eventuelle ændringer."
+
+#: ../../chapter5.rst:36
+msgid "OFFLINE ACCESS"
+msgstr "OFFLINE ADGANG"
+

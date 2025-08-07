@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:2
+msgid "Getting Started"
+msgstr "Commencer"
+
+#: ../../index.rst:4
+msgid ""
+"Welcome to the CentreStack Android Client User Guide. This guide "
+"describes the Android client application for CentreStack, the managed "
+"file synchronization, and sharing solution."
+msgstr "Bienvenue dans le guide de l'utilisateur du client Android CentreStack. Ce guide décrit l'application cliente Android pour CentreStack, la solution gérée de synchronisation et de partage de fichiers."
+
+#: ../../index.rst:6
+msgid ""
+"Users can access his cloud files using any device of their choice as "
+"CentreStack has clients for Windows, Mac, iPhone, iPad, Android, and "
+"more. User can download from the Google Play Store this a native Android "
+"application. That provides access to files and folders in user's "
+"CentreStack account."
+msgstr "Les utilisateurs peuvent accéder à leurs fichiers cloud en utilisant n'importe quel appareil de leur choix car CentreStack dispose de clients pour Windows, Mac, iPhone, iPad, Android, et plus encore. L'utilisateur peut télécharger depuis le Google Play Store cette application native Android. Cela permet d'accéder aux fichiers et dossiers dans le compte CentreStack de l'utilisateur."
+
+#: ../../index.rst:8
+msgid ""
+"The white-labeled CentreStack Android app called \"Cloud Android Client\""
+" by Gladinet can be distributed by service providers and enterprises to "
+"their users."
+msgstr "L'application Android CentreStack en marque blanche appelée \"Client Android Cloud\" par Gladinet peut être distribuée par les prestataires de services et les entreprises à leurs utilisateurs."
+
+#: ../../index.rst:10
+msgid ""
+"User can obtain a fully branded CentreStack Android Client with company "
+"name and product logo from the Partner Portal "
+"https://www.centrestack.com. The look and feel of the app may be "
+"different but the functionality is the same."
+msgstr "L'utilisateur peut obtenir un client Android CentreStack entièrement personnalisé avec le nom de l'entreprise et le logo du produit depuis le Portail Partenaire https://www.centrestack.com. L'apparence de l'application peut être différente mais les fonctionnalités sont les mêmes."
+

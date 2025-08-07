@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../cloud_host.rst:3
+msgid "\"Cloud SaaS-Hosted\" Quick Start"
+msgstr "\"云端 SaaS 托管\" 快速入门"
+
+#: ../../cloud_host.rst:6
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../cloud_host.rst:8
+msgid ""
+"Similar to a Data-Center MSP-Hosted environment, CentreStack has a Cloud "
+"version that is readily hosted."
+msgstr "与数据中心MSP托管环境类似，CentreStack有一个已经托管的云版本。"
+
+#: ../../cloud_host.rst:10
+msgid ""
+"This works well for managed service providers who have smaller clients "
+"here and there. Because of the smaller number of total clients, the Data-"
+"Center MSP-Hosted overhead is relatively high. MSPs can use the Cloud "
+"version since it is readily deployed and ready to use."
+msgstr "这对于拥有零星小客户的托管服务提供商来说非常合适。由于总客户数量较少，数据中心MSP托管的开销相对较高。MSP可以使用云版本，因为它可以快速部署且随时可用。"
+
+#: ../../cloud_host.rst:17
+msgid "Preparation"
+msgstr "准备工作"
+
+#: ../../cloud_host.rst:19
+msgid ""
+"Since you don't need to prepare the CentreStack server installation any "
+"more (it is hosted by CentreStack.com), all that you need to do is create"
+" hosted tenants. A tenant, based on business requirement,  is mapped to"
+msgstr "由于您不再需要准备CentreStack服务器安装（它由CentreStack.com托管），您需要做的就是创建托管租户。根据业务需求，租户被映射到"
+
+#: ../../cloud_host.rst:22
+msgid "a client of yours"
+msgstr "您的一个客户"
+
+#: ../../cloud_host.rst:23
+msgid "a company"
+msgstr "一家公司"
+
+#: ../../cloud_host.rst:24
+msgid "an organization in a bigger company"
+msgstr "一个大公司中的组织"
+
+#: ../../cloud_host.rst:29
+msgid "Create Tenant"
+msgstr "创建租户"
+
+#: ../../cloud_host.rst:31
+msgid "You can create tenants directly from the Hosted-CentreStack."
+msgstr "您可以直接从Hosted-CentreStack创建租户。"
+
+#: ../../cloud_host.rst:36
+msgid "Please reference Server Agent User Guide for File Server Migration:"
+msgstr "请参考服务器代理用户指南进行文件服务器迁移："
+
+#: ../../cloud_host.rst:38
+msgid ""
+"`Server Agent User Guide "
+"<http://www.centrestack.com/Library/ServerAgentGuide/index.html>`_"
+msgstr "`服务器代理用户指南 <http://www.centrestack.com/Library/ServerAgentGuide/index.html>`_"
+

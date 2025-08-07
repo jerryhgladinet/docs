@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter10.rst:3
+msgid "Notifications"
+msgstr "Notifications"
+
+#: ../../chapter10.rst:5
+msgid "**Subscribing To Change Notifications For Team Folders**"
+msgstr "**Abonnement aux notifications de changement pour les dossiers d'équipe**"
+
+#: ../../chapter10.rst:7
+msgid ""
+"Users can subscribe change notifications for Team Folders. Once "
+"subscribed, whenever a file or folder is changed in the team folder, the "
+"user will get an email with a list of changes. This notification only "
+"applies when the change is done by other users. It will not send out the "
+"notification email when the changes are done by the user himself/herself."
+msgstr "Les utilisateurs peuvent s'abonner aux notifications de changement pour les dossiers d'équipe. Une fois abonnés, chaque fois qu'un fichier ou un dossier est modifié dans le dossier d'équipe, l'utilisateur recevra un e-mail avec une liste des modifications. Cette notification s'applique uniquement lorsque le changement est effectué par d'autres utilisateurs. Il ne sera pas envoyé de notification par e-mail lorsque les modifications sont effectuées par l'utilisateur lui-même."
+
+#: ../../chapter10.rst:11
+msgid ""
+"Visit the settings of the files page. Then go to the \"Folder Change "
+"Subscriptions\" tab, and click the \"+\" icon. This will lead to a menu "
+"that shows which folders the user is subscribed to, and offers the "
+"ability to change whether they want to be notified of changes or not."
+msgstr "Visitez les paramètres de la page des fichiers. Ensuite, allez à l'onglet \"Abonnements aux modifications de dossiers\" et cliquez sur l'icône \"+\". Cela mènera à un menu qui montre quels dossiers l'utilisateur est abonné, et offre la possibilité de changer s'ils veulent être notifiés des changements ou non."
+
+#: ../../chapter10.rst:16
+msgid "ACTIVATE FOLDER NOTIFICATIONS"
+msgstr "ACTIVER LES NOTIFICATIONS DE DOSSIER"
+

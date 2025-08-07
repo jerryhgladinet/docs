@@ -49,7 +49,45 @@ source_suffix = '.rst'
 master_doc = 'contents'
 
 # General information about the project.
+#en
 project = 'Web Portal User Guide'
+
+#ar
+#project = 'دليل مستخدم البوابة الإلكترونية'
+
+#da
+#project = 'Brugervejledning til webportalen'
+
+#de
+#project = 'Webportal-Benutzerhandbuch'
+
+#es
+#project = 'Guía del usuario del portal web'
+
+#fi
+#project = 'Verkkoportaalin käyttöopas'
+
+#fr
+#project = 'Guide de l\'utilisateur du portail Web'
+
+#it
+#project = 'Guida per l\'utente del portale Web'
+
+#ja
+#project = 'Webポータルユーザーガイド'
+
+#nl
+#project = 'Gebruikershandleiding voor webportal'
+
+#pt
+#project = 'Guia do Utilizador do Portal Web'
+
+#sv
+#project = 'Användarhandbok för webbportalen'
+
+#zh
+#project = '网络门户用户指南'
+
 copyright = '2025 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
@@ -72,6 +110,12 @@ release = '16.4.10331.56447'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
+locale_dirs = ['locale/']        # path is example but recommended.
+gettext_compact = False     # optional.
+html_context = {
+  'current_language': 'en',
+  'languages': [["English","en"], ["Français","fr"], ["Deutsche","de"], ["Español","es"], ["Italiano","it"], ["Português","pt"], ["Nederlands","nl"], ["中文", "zh"], ["日本語","ja"], ["Svenska","sv"], ["Suomi","fi"], ["Dansk","da"], ["عربي","ar"]]
+}
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:

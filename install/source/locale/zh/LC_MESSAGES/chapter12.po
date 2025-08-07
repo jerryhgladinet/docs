@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter12.rst:3
+msgid "Advanced Topics"
+msgstr "高级主题"
+
+#: ../../chapter12.rst:5
+msgid ""
+"These advanced topics require changes to the web.config file which is "
+"critical for the smooth operation of CentreStack, therefore, it is not "
+"recommended that you change the web.config file without first consulting "
+"Gladinet support."
+msgstr "这些高级主题需要更改 web.config 文件，该文件对于 CentreStack 的平稳运行至关重要，因此，不建议您在未咨询 Gladinet 支持的情况下更改 web.config 文件。"
+
+#: ../../chapter12.rst:10
+msgid "Split Database"
+msgstr "分割数据库"
+
+#: ../../chapter12.rst:12
+msgid "The database contains two types of information."
+msgstr "数据库包含两种类型的信息。"
+
+#: ../../chapter12.rst:14
+msgid ""
+"The first type of information is the configuration data that is "
+"relatively static. For example, user name, user email, user's published "
+"shared files and folder etc. This type of information is relatively "
+"small. It can be estimated at 5000 bytes per user. So if you have 2000 "
+"users, it can be estimated at 10 MB."
+msgstr "第一种类型的信息是相对静态的配置数据。例如，用户名、用户邮箱、用户发布的共享文件和文件夹等。这类信息相对较小。每个用户可以估计为5000字节。所以如果你有2000个用户，可以估计为10MB。"
+
+#: ../../chapter12.rst:17
+msgid ""
+"The second type of information is relatively more volatile. For example, "
+"the file change log, the audit trace and the file list for index. It can "
+"be estimated at 100 file changes per user per day and each file change "
+"can be estimated at 1000 bytes for database storage. So for a 15 day "
+"(Default change log history), it can be estimated at 100*1000*15 = 1.5MB "
+"per user for 15 day period. If you need HIPPA compliance, the default "
+"change log history can be significantly longer so this part of the "
+"database will be much bigger."
+msgstr "第二种信息相对更加易变。例如，文件更改日志、审计迹象以及索引用的文件列表。可以估计每个用户每天大约有100次文件更动，每次文件更动可以估计为1000字节的数据库存储空间。因此，对于一个15天的默认更改日志历史（默认更改日志历史），可以估计每个用户为15天期间大约需要100*1000*15 = 1.5MB的数据库空间。如果您需要HIPPA合规性，那么默认的更改日志历史可能会明显更长，因此这部分数据库将会大得多。"
+
+#: ../../chapter12.rst:23
+msgid ""
+"For performance and regulatory reasons, it is recommended to split the "
+"database into two separate databases, one that contains static "
+"information and one that contains relatively more volatile information."
+msgstr "出于性能和监管原因，建议将数据库分为两个独立的数据库，一个包含静态信息，另一个包含相对更易变的信息。"
+
+#: ../../chapter12.rst:26
+msgid ""
+"The secondary database (for more volatile data) can be either MySQL "
+"Database or Micrsoft SQL Database."
+msgstr "次要数据库（用于更易变的数据）可以是MySQL数据库或Micrsoft SQL数据库。"
+
+#: ../../chapter12.rst:28
+msgid ""
+"To split the database, first create a new database that will be used to "
+"store the volatile information. Create a database user and allow this "
+"user full access to the database (equivalent to db_owner). Once the "
+"database and user are created, sign into the CentreStack management "
+"console as the cluster admin and navigate to Cluster Dashboard > Cluster "
+"Settings > Change Log. Update the \"Logging DB Connection String\" "
+"setting using an appropriate connection string:"
+msgstr "要拆分数据库，首先创建一个新的数据库，用于存储易变信息。创建一个数据库用户，并允许该用户完全访问数据库（相当于db_owner）。数据库和用户创建好后，以集群管理员身份登录到CentreStack管理控制台，导航至集群仪表盘 > 集群设置 > 更改日志。使用适当的连接字符串更新“日志数据库连接字符串”设置："
+
+#: ../../chapter12.rst:34
+msgid "**Connection String Example for MySQL Database**"
+msgstr "**MySQL数据库连接字符串示例**"
+
+#: ../../chapter12.rst:42
+msgid "**Connection String Example for Microsoft SQL Database**"
+msgstr "**Microsoft SQL数据库连接字符串示例**"
+
+#: ../../chapter12.rst:52
+msgid "Change Authentication Algorithm to Version 2"
+msgstr "将认证算法更改为版本2"
+
+#: ../../chapter12.rst:54
+msgid ""
+"If you have a new installation of CentreStack without any legacy user, we"
+" recommend you hard code the authentication algorithm to version 2."
+msgstr "如果您有一个全新安装的CentreStack，并且没有任何遗留用户，我们建议您将认证算法硬编码为版本2。"
+
+#: ../../chapter12.rst:57
+msgid ""
+"You can locate the web.config file in the root folder of the installation"
+" directory (same web.config file as referenced in the previous section) "
+"and add a line inside the <appSettings file=\"branding.config\"> section."
+msgstr "您可以在安装目录的根文件夹中找到web.config文件（与前一节中引用的web.config文件相同），并在<appSettings file=\"branding.config\">部分中添加一行。"
+
+#: ../../chapter12.rst:66
+msgid "Change the Synchronized Uploader to Asynchronized Uploader"
+msgstr "将同步上传器更改为异步上传器"
+
+#: ../../chapter12.rst:68
+msgid ""
+"Under the C:\\Program Files (x86)\\CentreStack\\ (or the installation "
+"directory), look into the UploadDownloadProxy and identify the web.config"
+" file. Find the line with the SyncedStorageProxiedPutUploadHandler and "
+"change it to StorageProxiedPutUploadHandler."
+msgstr "在 C:\Program Files (x86)\CentreStack\（或安装目录）下，查找 UploadDownloadProxy 并定位 web.config 文件。找到含有 SyncedStorageProxiedPutUploadHandler 的行，并将其更改为 StorageProxiedPutUploadHandler。"
+
+#: ../../chapter12.rst:72
+msgid ""
+"This optimization might not work on all systems, therefore, it is "
+"recommend you test web portal Drag and Drop upload after you make the "
+"change. If it does not work for your IIS, you can revert the change back "
+"or consult Gladinet support."
+msgstr "这项优化可能不适用于所有系统，因此，建议您在进行更改后测试网页门户的拖放上传功能。如果它不适用于您的IIS，您可以撤销更改或咨询Gladinet支持。"
+
+#: ../../chapter12.rst:83
+msgid "Zone Support"
+msgstr "区域支持"
+
+#: ../../chapter12.rst:85
+msgid ""
+"If you have two independent CentreStack clusters, for example, one "
+"cluster in US and one cluster in UK, you can use the zone support to "
+"connect the two clusters together. The advantage of using zones is the "
+"end user login request will automatically be redirected to the zone the "
+"user belongs to."
+msgstr "如果您有两个独立的CentreStack集群，例如，一个集群在美国，另一个集群在英国，您可以使用区域支持将两个集群连接起来。使用区域的优势是，最终用户的登录请求将自动重定向到用户所属的区域。"
+
+#: ../../chapter12.rst:90
+msgid "Scalability Tuning"
+msgstr "可扩展性调优"
+
+#: ../../chapter12.rst:92
+msgid ""
+"CentreStack is built on top of ASP.NET and WCF. By default, both ASP.NET "
+"and WCF has throttle control parameters that we can tune and remove. "
+"Please reference this MSDN article for performance tuning:"
+msgstr "CentreStack是建立在ASP.NET和WCF之上的。默认情况下，ASP.NET和WCF都有我们可以调整和移除的节流控制参数。请参考这篇MSDN文章进行性能调优："
+
+#: ../../chapter12.rst:95
+msgid "http://msdn.microsoft.com/en-us/library/ff647813.aspx"
+msgstr "http://msdn.microsoft.com/zh-cn/library/ff647813.aspx"
+
+#: ../../chapter12.rst:99 ../../chapter12.rst:103
+msgid "(image source: http://msdn.microsoft.com/en-us/library/ff647813.aspx)"
+msgstr "(图片来源：http://msdn.microsoft.com/en-us/library/ff647813.aspx)"
+
+#: ../../chapter12.rst:106
+msgid "Tuning #1 – namespace/web.config"
+msgstr "调优 #1 – 命名空间/web.config"
+
+#: ../../chapter12.rst:108
+msgid ""
+"There are three parameters about max concurrent calls, concurrent "
+"sessions and concurrent instances."
+msgstr "关于最大并发呼叫、并发会话和并发实例有三个参数。"
+
+#: ../../chapter12.rst:117
+msgid "This is set in the <CENTRESTACKInstallDir>\\\\namespace\\\\web.config file"
+msgstr "这是在<CENTRESTACKInstallDir>\\namespace\\web.config文件中设置的"
+
+#: ../../chapter12.rst:119
+msgid ""
+"There may be existing blocks of serviceBehaviors and behavior blocks "
+"there. You can simply add the serviceThrottling block."
+msgstr "那里可能已经存在serviceBehaviors和behavior块。您可以简单地添加serviceThrottling块。"
+
+#: ../../chapter12.rst:134
+msgid "Tuning #2 – aspnet.config"
+msgstr "调优 #2 – aspnet.config"
+
+#: ../../chapter12.rst:136
+msgid ""
+"The aspnet.config is under "
+"c:\\\\windows\\\\Microsoft.NET\\\\Framework64\\\\v4.0.30319"
+msgstr "aspnet.config 位于 c:\\windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+
+#: ../../chapter12.rst:138
+msgid ""
+"system.web is an element of <configuration> so you can add it inside the "
+"<configuration> block."
+msgstr "system.web 是 <configuration> 元素的一部分，因此您可以在 <configuration> 块内添加它。"
+
+#: ../../chapter12.rst:150
+msgid "Tuning #3 – machine.config"
+msgstr "调优 #3 – machine.config"
+
+#: ../../chapter12.rst:152
+msgid ""
+"Machine.config is at "
+"%windir%\\\\Microsoft.NET\\\\Framework64\\\\[version]\\\\config\\\\machine.config"
+msgstr "Machine.config 位于 %windir%\\Microsoft.NET\\Framework64\\[版本]\\config\\machine.config"
+
+#: ../../chapter12.rst:154
+msgid ""
+"(%windir% typically is c:\\\\windows. [version] is 4.0.30319 for .NET "
+"framework 4)"
+msgstr "（%windir% 通常是 c:\\windows。[version] 对于 .NET framework 4 是 4.0.30319）"
+
+#: ../../chapter12.rst:156
+msgid "**processModel**"
+msgstr "**处理模型**"
+
+#: ../../chapter12.rst:158
+msgid ""
+"processModel is under <system.web> and <system.web> is under "
+"<configuration>. Most likely the processModel block is there alredy but "
+"with autoConfig set to true. We can change it to set to false and with "
+"the attributes set below."
+msgstr "processModel位于<system.web>之下，而<system.web>位于<configuration>之下。通常processModel块已经存在，但是autoConfig设置为true。我们可以将其更改为设置为false，并设置以下属性。"
+
+#: ../../chapter12.rst:171
+msgid "**connectionManagement**"
+msgstr "**连接管理**"
+
+#: ../../chapter12.rst:173
+msgid ""
+"<system.net> is a block below <configuration>. Typically if <system.net> "
+"doesn't already exist, the block can be added to the bottom of the config"
+" file, right before the closing tag of <configuration>."
+msgstr "<system.net> 是 <configuration> 下面的一个模块。通常情况下，如果 <system.net> 不存在，可以在配置文件的底部添加这个模块，就在 <configuration> 的结束标签之前。"
+
+#: ../../chapter12.rst:185
+msgid "Tuning #4 – appConcurrentRequestLimit"
+msgstr "调优 #4 – appConcurrentRequestLimit"
+
+#: ../../chapter12.rst:193
+msgid "Need More Information?"
+msgstr "需要更多信息？"
+
+#: ../../chapter12.rst:195
+msgid "Contact Gladinet Support (support@gladinet.com) for more information."
+msgstr "如需更多信息，请联系Gladinet支持团队（support@gladinet.com）。"
+

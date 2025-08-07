@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../on_premise.rst:3
+msgid "\"On-Premise Self-Hosted\" Quick Start"
+msgstr "بداية سريعة \"ذات استضافة ذاتية داخل المؤسسة\""
+
+#: ../../on_premise.rst:6
+msgid "Introduction"
+msgstr "مقدمة"
+
+#: ../../on_premise.rst:8
+msgid ""
+"To deploy an on-premise self-hosted centrestack, the CentreStack server "
+"is directly installed in the company network. On one-hand, it is facing "
+"the Internet with port 443 (HTTPS) like any web server does; and on the "
+"other-hand, it is connecting to company internal network and IT "
+"infrastructures such as File Servers and Active Directory. The "
+"CentreStack server normally sits in the DMZ or behind a firewall to "
+"protect against un-authorized outside access."
+msgstr "لنشر centrestack مستضاف ذاتيًا داخل المؤسسة، يتم تثبيت خادم CentreStack مباشرةً في شبكة الشركة. من ناحية، يواجه الإنترنت مع المنفذ 443 (HTTPS) مثل أي خادم ويب؛ ومن ناحية أخرى، يتصل بالشبكة الداخلية للشركة والبنى التحتية لتقنية المعلومات مثل خوادم الملفات و Active Directory. عادةً ما يقع خادم CentreStack في DMZ أو خلف جدار حماية للحماية من الوصول الخارجي غير المصرح به."
+
+#: ../../on_premise.rst:14
+msgid ""
+"The business objective is giving mobile and remote access to file servers"
+" without the need of a VPN. It is more productive than traditional VPN  "
+"by greatly reducing the number of VPN support tickets for internal "
+"enterprise IT department or for the managed service provider."
+msgstr "الهدف التجاري هو توفير الوصول عبر الأجهزة المحمولة والوصول عن بعد إلى خوادم الملفات دون الحاجة إلى شبكة خاصة افتراضية VPN. إنه أكثر إنتاجية من شبكة VPN التقليدية من خلال تقليل عدد تذاكر الدعم الخاصة بشبكة VPN بشكل كبير لقسم تكنولوجيا المعلومات الداخلي للمؤسسة أو لمزود الخدمة المُدارة."
+
+#: ../../on_premise.rst:21
+msgid "See also :"
+msgstr "انظر أيضًا :"
+
+#: ../../on_premise.rst:23
+msgid ""
+"`Remote File Server Access <https://www.gladinet.com/hybrid-cloud-with-"
+"file-server.html>`_"
+msgstr "`الوصول إلى خادم الملفات عن بُعد <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../on_premise.rst:26
+msgid "Preparation"
+msgstr "التحضير"
+
+#: ../../on_premise.rst:28
+msgid ""
+"The CentreStack server is a web server, passing file and folder access "
+"between remote client agents to backend file servers. Here is a list of "
+"items to prepare ahead of time."
+msgstr "يعتبر خادم CentreStack خادم ويب، ينقل الوصول إلى الملفات والمجلدات بين وكلاء العميل البعيد وخوادم الملفات الخلفية. إليك قائمة بالعناصر التي يجب تحضيرها مسبقًا."
+
+#: ../../on_premise.rst:35
+msgid "a dedicated Windows Server machine:"
+msgstr "آلة خادم ويندوز مخصصة:"
+
+#: ../../on_premise.rst:32
+msgid "Operating System (2022 / 2019 / 2016)"
+msgstr "نظام التشغيل (2022 / 2019 / 2016)"
+
+#: ../../on_premise.rst:33
+msgid "8G memory"
+msgstr "ذاكرة 8 جيجابايت"
+
+#: ../../on_premise.rst:34
+msgid "Dual core or more cores (vCPU or CPU)"
+msgstr "ثنائي النواة أو أكثر من النواة (vCPU أو CPU)"
+
+#: ../../on_premise.rst:35
+msgid "100G hard drive space."
+msgstr "مساحة قرص صلب 100 جيجابايت."
+
+#: ../../on_premise.rst:37
+msgid "a SSL certificate (for production)"
+msgstr "شهادة SSL (للإنتاج)"
+
+#: ../../on_premise.rst:38
+msgid "a DNS name (for production)"
+msgstr "اسم DNS (للإنتاج)"
+
+#: ../../on_premise.rst:40
+msgid ""
+"Since you can turn a test (POC) environment directly into a production "
+"environment, you can start with requirement #1  for test and POC (proof "
+"of concept) environment and later acquire SSL certificate and DNS name."
+msgstr "بما أنه يمكنك تحويل بيئة الاختبار (POC) مباشرة إلى بيئة إنتاج، يمكنك البدء بالمتطلب الأول للاختبار وبيئة POC (إثبات المفهوم) ولاحقًا الحصول على شهادة SSL واسم DNS."
+
+#: ../../on_premise.rst:44
+msgid ""
+"Sometimes, CentreStack can be installed directly on the File Server "
+"itself if the goal is to reduce the number of servers. Even though we "
+"recommend using a dedicated clean Windows Server, as long as the existing"
+" file server doesn't have IIS/Default-Web-Site conflict, nor SQL Express "
+"conflict, the CentreStack server can be installed on the file server."
+msgstr "في بعض الأحيان، يمكن تثبيت CentreStack مباشرة على خادم الملفات نفسه إذا كان الهدف هو تقليل عدد الخوادم. على الرغم من أننا نوصي باستخدام خادم Windows نظيف مخصص، طالما أن خادم الملفات الحالي لا يحتوي على تعارض مع IIS/Default-Web-Site أو تعارض مع SQL Express، يمكن تثبيت خادم CentreStack على خادم الملفات."
+
+#: ../../on_premise.rst:51
+msgid "Download & Installation"
+msgstr "تنزيل وتثبيت"
+
+#: ../../on_premise.rst:53
+msgid ""
+"After you decide and have acquired the Windows Server to install the "
+"CentreStack software, you can go to the partner portal and download the "
+"software."
+msgstr "بعد أن تقرر وتحصل على Windows Server لتثبيت برنامج CentreStack، يمكنك الذهاب إلى بوابة الشركاء وتنزيل البرنامج."
+
+#: ../../on_premise.rst:57
+msgid "The Installer will install everything from beginning to end."
+msgstr "سيقوم المثبت بتثبيت كل شيء من البداية إلى النهاية."
+
+#: ../../on_premise.rst:62
+msgid "Please reference the following two guides for more information:"
+msgstr "يرجى الرجوع إلى الدليلين التاليين لمزيد من المعلومات:"
+
+#: ../../on_premise.rst:64
+msgid ""
+"`Deployment Guide "
+"<http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+msgstr "`دليل التوزيع <http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+
+#: ../../on_premise.rst:65
+msgid ""
+"`Installation Guide "
+"<http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+msgstr "`دليل التثبيت <http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+

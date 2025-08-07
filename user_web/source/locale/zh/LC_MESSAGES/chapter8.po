@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter8.rst:3
+msgid "The Web Interface"
+msgstr "网页界面"
+
+#: ../../chapter8.rst:5
+msgid ""
+"The web client interface has three panels from left to right, the left "
+"tree panel, the middle file and folder panel, and the right information "
+"panel. Many of the management functionality are done over the web portal."
+" The web client also has the files and folder's view."
+msgstr "网页客户端界面从左到右有三个面板，左边的树状面板，中间的文件和文件夹面板，以及右边的信息面板。许多管理功能都是通过网页门户完成的。网页客户端也有文件和文件夹的视图。"
+
+#: ../../chapter8.rst:8
+msgid "Normal Web Portal View"
+msgstr "普通网页门户视图"
+
+#: ../../chapter8.rst:13
+msgid "WEB PORTAL VIEW"
+msgstr "网页门户视图"
+
+#: ../../chapter8.rst:17
+msgid "Left Tree View and Right Info Panel"
+msgstr "左侧树状视图和右侧信息面板"
+
+#: ../../chapter8.rst:19
+msgid ""
+"The left-tree view can be toggled by clicking the tree icon **(1)**. You "
+"can access the **\"Info Panel\"** by either clicking the icon settings "
+"menu **(2)** at the top-right and selecting **\"Show/Hide Info Panel for "
+"file/folder\"** text, or the Show/Hide button **(3)** on the bottom-right"
+" of the File Browser window."
+msgstr "左侧树状视图可以通过点击树形图标 **(1)** 来切换。您可以通过点击右上角的图标设置菜单 **(2)** 并选择 **\"显示/隐藏文件/文件夹信息面板\"** 文本，或者在文件浏览器窗口的右下角点击显示/隐藏按钮 **(3)** 来访问 **\"信息面板\"**。"
+
+#: ../../chapter8.rst:24
+msgid "ACCESSING SIDE PANELS"
+msgstr "访问侧边栏"
+
+#: ../../chapter8.rst:28
+msgid "Switch between Icon and List view"
+msgstr "在图标视图和列表视图之间切换"
+
+#: ../../chapter8.rst:33
+msgid "SWITCH BETWEEN ICON AND LIST VIEWS"
+msgstr "在图标视图和列表视图之间切换"
+
+#: ../../chapter8.rst:36
+msgid ""
+"When switched into list view, you get access to other icons such as "
+"version information (see inset \"List View Example)."
+msgstr "当切换到列表视图时，您可以访问其他图标，例如版本信息（见内嵌的\"列表视图示例\"）。"
+
+#: ../../chapter8.rst:40
+msgid "Color Themes"
+msgstr "颜色主题"
+
+#: ../../chapter8.rst:42
+msgid ""
+"Users can customize their web portal theme by clicking the user settings "
+"icon **(1)** and then the down-arrow icon **(2)**. There are 12 pre-"
+"defined Color Themes and one custom theme option."
+msgstr "用户可以通过点击用户设置图标 **(1)** 然后点击向下箭头图标 **(2)** 来自定义他们的网页门户主题。有12种预定义的颜色主题和一个自定义主题选项。"
+
+#: ../../chapter8.rst:47
+msgid "CUSTOMIZE YOUR WEB PORTAL THEME"
+msgstr "自定义您的网页门户主题"
+
+#: ../../chapter8.rst:51
+msgid "Create Folders"
+msgstr "创建文件夹"
+
+#: ../../chapter8.rst:53
+msgid "Folders Created in |prodname| are Versioned Folders."
+msgstr "在 |prodname| 中创建的文件夹是带有版本控制的文件夹。"
+
+#: ../../chapter8.rst:55
+msgid ""
+"|prodname| will maintain the version history of any files uploaded to "
+"versioned folders. From |prodname|, a user can download any previous "
+"versions of a file. From the |prodname| Desktop/Server Agent, a user can "
+"restore previous versions of files and recover deleted files."
+msgstr "|prodname| 将保持上传到版本控制文件夹中的任何文件的版本历史记录。用户可以从 |prodname| 下载文件的任何旧版本。通过 |prodname| 桌面/服务器代理，用户可以恢复文件的旧版本和恢复已删除的文件。"
+
+#: ../../chapter8.rst:58
+msgid ""
+"To create a folder, go to the parent folder and click \"New Folder\" in "
+"the drop-down menu **(1)** or right click in the folder background and "
+"choose \"New Folder\" **(2)** from the context menu."
+msgstr "要创建一个文件夹，请转到父文件夹并点击下拉菜单中的“新建文件夹” **(1)**，或者在文件夹背景中右键点击并选择上下文菜单中的“新建文件夹” **(2)**。"
+
+#: ../../chapter8.rst:63
+msgid "CREATING FOLDERS"
+msgstr "创建文件夹"
+
+#: ../../chapter8.rst:67
+msgid "Attach Folder from Clients"
+msgstr "从客户端附加文件夹"
+
+#: ../../chapter8.rst:69
+msgid ""
+"If you have the Windows Client installed, can also Attach a Local Folder "
+"from this client."
+msgstr "如果您安装了Windows客户端，也可以从这个客户端附加一个本地文件夹。"
+
+#: ../../chapter8.rst:74
+msgid "ATTACHING A FOLDER"
+msgstr "附加文件夹"
+
+#: ../../chapter8.rst:76
+msgid ""
+"These folders are the local folders from the local PC/Mac that |prodname|"
+" users have attached to |prodname|. Once a local folder is attached, a "
+"user can immediately access it in |prodname|. |prodname| will maintain "
+"the version history of files in the attached local folder. The local "
+"folder is also being synchronized with |prodname| (\"cloud side\")."
+msgstr "这些文件夹是本地PC/Mac上的本地文件夹，|prodname| 用户已将其连接到 |prodname|。一旦本地文件夹被连接，用户可以立即在 |prodname| 中访问它。|prodname| 将保持所附加本地文件夹中文件的版本历史。本地文件夹也正在与 |prodname| （\"云端\"）同步。"
+
+#: ../../chapter8.rst:81
+msgid "ATTACHED LOCAL FOLDER"
+msgstr "附加的本地文件夹"
+
+#: ../../chapter8.rst:85
+msgid "Renaming/Deleting Folders"
+msgstr "重命名/删除文件夹"
+
+#: ../../chapter8.rst:87
+msgid ""
+"Renaming and deleting files and folders can be achieved by right-clicking"
+" the file in the \"File Browser\" and selecting the appropriate context-"
+"menu item or using the small icons in the Detailed View bar of the "
+"selected item."
+msgstr "通过在“文件浏览器”中右键单击文件并选择相应的上下文菜单项，或使用所选项目的详细视图栏中的小图标，可以实现重命名和删除文件及文件夹。"
+
+#: ../../chapter8.rst:92
+msgid "RENAMING FILES"
+msgstr "重命名文件"
+
+#: ../../chapter8.rst:96
+msgid "Upload Files/Folders"
+msgstr "上传文件/文件夹"
+
+#: ../../chapter8.rst:98
+msgid ""
+"In |prodname|, you have different options to upload files and folders. "
+"You can upload one file at a time using the 'Upload File' option under "
+"Upload You can also upload folders using the 'Upload Folder' option under"
+" Upload. Last but not least you can also use 'Upload Folders and Files' "
+"to upload multiple files simultaneously, or drag & drop files from a "
+"local desktop to the |prodname| Cloud web portal to start the upload."
+msgstr "在 |prodname| 中，您可以选择不同的方式上传文件和文件夹。您可以使用上传下的'上传文件'选项一次上传一个文件。您也可以使用上传下的'上传文件夹'选项来上传文件夹。最后，您还可以使用'同时上传文件夹和文件'来同时上传多个文件，或者从本地桌面拖放文件到 |prodname| 云端网页门户来开始上传。"
+
+#: ../../chapter8.rst:100
+msgid ""
+"It is possible to upload multiple files at a time. This is supported on "
+"all browsers. The same is true for Upload Folder. To access these options"
+" you can click the \"+\" icon **(1)** or right click on the portal "
+"background **(2)** and select your upload option there."
+msgstr "可以一次上传多个文件。所有浏览器都支持此功能。上传文件夹也是如此。要访问这些选项，您可以点击“+”图标 **(1)** 或在门户背景上右键单击 **(2)**，并在那里选择您的上传选项。"
+
+#: ../../chapter8.rst:105
+msgid "UPLOADING FILES AND FOLDERS"
+msgstr "上传文件和文件夹"
+
+#: ../../chapter8.rst:108
+msgid ""
+"After clicking the upload option, you can browse to the file or folder "
+"you want to upload. Use the Ctrl key to select multiple items."
+msgstr "点击上传选项后，您可以浏览要上传的文件或文件夹。使用Ctrl键选择多个项目。"
+
+#: ../../chapter8.rst:113
+msgid "SELECTING FILES FOR UPLOAD"
+msgstr "选择要上传的文件"
+
+#: ../../chapter8.rst:117
+msgid "Upload Using Local Uploader"
+msgstr "使用本地上传工具上传"
+
+#: ../../chapter8.rst:119
+msgid ""
+"(This is Windows only feature) When uploading big files and big folders, "
+"the \"upload using local uploader\" may be the best option for web "
+"browser based upload. If it is enabled by the Tenant Manager (deselected)"
+" **(1)** in the Group Policy Home > Web Portal settings. Clicking this "
+"option **(2)** will download a thin local uploader binary first and then "
+"the local uploader will do the upload. The local uploader has retry and "
+"other reliability measures to make sure the upload is successful. "
+"Basically it uses the web browser to download an executable, and the "
+"executable does the rest of the uploading work."
+msgstr "（此功能仅限Windows）上传大文件和大文件夹时，通过网页浏览器上传，使用“本地上传器”可能是最佳选择。如果租户管理员在群组策略主页 > Web门户设置中启用（未选中） **（1）** 此选项。点击此选项 **（2）** 将首先下载一个轻量级的本地上传器二进制文件，然后本地上传器将执行上传操作。本地上传器具有重试和其他可靠性措施，以确保上传成功。基本上，它使用网页浏览器下载一个可执行文件，而该可执行文件完成其余的上传工作。"
+
+#: ../../chapter8.rst:124
+msgid "ENABLE \"UPLOAD USING LOCAL UPLOADER\" OPTION"
+msgstr "启用“使用本地上传工具”选项"
+
+#: ../../chapter8.rst:127
+msgid "Drag and Drop Upload"
+msgstr "拖放上传"
+
+#: ../../chapter8.rst:129
+msgid ""
+"Latest web browsers that support HTML5 drag and drop upload will see "
+"\"Drop Files Here\" in an empty folder. These web browsers allow you to "
+"drag & drop multiple files directly to the |prodname| Cloud. In latest "
+"Google Chrome, Drag and drop folder is also supported while the other "
+"HTML5 based web browser support drag and drop multiple files."
+msgstr "支持HTML5拖放上传的最新网络浏览器将在空文件夹中显示“将文件拖放到此处”。这些网络浏览器允许您直接将多个文件拖放到 |prodname| 云中。在最新的Google Chrome中，也支持拖放文件夹，而其他基于HTML5的网络浏览器支持拖放多个文件。"
+
+#: ../../chapter8.rst:135
+msgid "DRAG AND DROP FILES FOR UPLOAD"
+msgstr "拖放文件进行上传"
+
+#: ../../chapter8.rst:139
+msgid "Downloading Files"
+msgstr "下载文件"
+
+#: ../../chapter8.rst:141
+msgid "There are several ways to download files in |prodname|:"
+msgstr "在 |prodname| 中下载文件有几种方法："
+
+#: ../../chapter8.rst:143
+msgid ""
+"If you select a file in the \"File Browser\" you can use the download "
+"icon **(1)** in the top bar. You can also right-click a file and choose "
+"download **(2)** from the context menu. If you are in the \"Detailed "
+"View\" **(3)** you can select a file and download it in the same manner "
+"as in the icon view."
+msgstr "如果您在“文件浏览器”中选择了一个文件，您可以使用顶部工具栏中的下载图标 **(1)**。您也可以右键单击一个文件，然后从上下文菜单中选择下载 **(2)**。如果您处于“详细视图” **(3)**，您可以选择一个文件并以与图标视图相同的方式下载它。"
+
+#: ../../chapter8.rst:148
+msgid "DOWNLOAD FILE OPTIONS"
+msgstr "下载文件选项"
+
+#: ../../chapter8.rst:150
+msgid ""
+"If your are in \"Detailed View\" **(3)** any files with previous versions"
+" will show a number in the selected bar (e.g. \"V2\") **(4)** that you "
+"may click to open a list of all of the versions of that file."
+msgstr "如果您处于“详细视图” **(3)**，任何具有先前版本的文件都会在选定的条上显示一个数字（例如“V2”） **(4)**，您可以点击它以打开该文件所有版本的列表。"
+

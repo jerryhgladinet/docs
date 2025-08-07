@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../manage_edit.rst:2
+msgid "Manage and Edit"
+msgstr "Administrer og rediger"
+
+#: ../../manage_edit.rst:6
+msgid "Managing Files and Folders"
+msgstr "Håndtering af filer og mapper"
+
+#: ../../manage_edit.rst:8
+msgid ""
+"User can tap on a folder to open it for browsing and on a file to preview"
+" it."
+msgstr "Brugeren kan trykke på en mappe for at åbne den til gennemsyn og på en fil for at forhåndsvise den."
+
+#: ../../manage_edit.rst:10
+msgid ""
+"Various operations can be performed in the menus, in the main list of "
+"files and folders, and in the preview itself."
+msgstr "Forskellige operationer kan udføres i menuerne, i hovedlisten over filer og mapper samt i selve forhåndsvisningen."
+
+#: ../../manage_edit.rst:14
+msgid "Preview"
+msgstr ""
+
+#: ../../manage_edit.rst:16
+msgid ""
+"In the preview there is a 3-dot menu in the lower right corner that "
+"allows to perform some actions for the file."
+msgstr "I forhåndsvisningen er der en 3-prik-menu i nederste højre hjørne, der tillader at udføre nogle handlinger for filen."
+
+#: ../../manage_edit.rst:20
+msgid "**Open** the file in other applications."
+msgstr "**Åbn** filen i andre applikationer."
+
+#: ../../manage_edit.rst:22
+msgid "**Download** a copy of the file to a folder on the device."
+msgstr "**Download** en kopi af filen til en mappe på enheden."
+
+#: ../../manage_edit.rst:24
+msgid "**Rename** allows to rename the file if user have the permission to do so."
+msgstr "**Omdøb** tillader at omdøbe filen, hvis brugeren har tilladelse til det."
+
+#: ../../manage_edit.rst:26
+msgid "**Delete** files from the folder if user have the permission."
+msgstr "**Slet** filer fra mappen, hvis brugeren har tilladelse."
+
+#: ../../manage_edit.rst:28
+msgid ""
+"**Share** allows to send access information to people with an email "
+"address."
+msgstr "**Del** tillader at sende adgangsinformation til personer med en e-mailadresse."
+
+#: ../../manage_edit.rst:30
+msgid ""
+"**Share Via** let the user share the file with a third-party application."
+" For example, by email or WhatsApp."
+msgstr "**Del Via** lader brugeren dele filen med en tredjepartsapplikation. For eksempel via e-mail eller WhatsApp."
+
+#: ../../manage_edit.rst:32
+msgid ""
+"**Get Public Link** gives user a link that anyone can use to access the "
+"file."
+msgstr "**Få offentligt link** giver brugeren et link, som alle kan bruge til at få adgang til filen."
+
+#: ../../manage_edit.rst:34
+msgid ""
+"**Share Manager** gives access to all the shares that exist for the file,"
+" where user can modify, delete, or add new shares."
+msgstr "**Share Manager** giver adgang til alle de delinger, der findes for filen, hvor brugeren kan ændre, slette eller tilføje nye delinger."
+
+#: ../../manage_edit.rst:37
+msgid "Download"
+msgstr "Download"
+
+#: ../../manage_edit.rst:39
+msgid ""
+"A file can be downloaded using the **Download** option. Select Download "
+"from the context menu to download a file and select a folder from the "
+"phone storage of user's choice."
+msgstr "En fil kan downloades ved at bruge **Download** muligheden. Vælg Download fra kontekstmenuen for at downloade en fil og vælg en mappe fra telefonens lager efter brugerens valg."
+
+#: ../../manage_edit.rst:47
+msgid "Delete"
+msgstr "Slet"
+
+#: ../../manage_edit.rst:49
+msgid ""
+"A file can be deleted using the **Delete** option. Select it from the "
+"context menu to delete a file. Once the file is removed, it is no longer "
+"visible in the cloud drive."
+msgstr "En fil kan slettes ved at bruge **Slet**-muligheden. Vælg den fra kontekstmenuen for at slette en fil. Når filen er fjernet, er den ikke længere synlig i cloud-drevet."
+
+#: ../../manage_edit.rst:54
+msgid "Rename"
+msgstr "Omdøb"
+
+#: ../../manage_edit.rst:56
+msgid ""
+"User can rename a file or folder using the **Rename** option. When "
+"pressing **Rename**, a field appears where user can enter the new name."
+msgstr "Brugeren kan omdøbe en fil eller mappe ved at bruge **Omdøb** muligheden. Når **Omdøb** er trykket, vises et felt, hvor brugeren kan indtaste det nye navn."
+
+#: ../../manage_edit.rst:61
+msgid "Copy and Cut"
+msgstr "Kopier og Klip"
+
+#: ../../manage_edit.rst:63
+msgid ""
+"The **Copy** option lets user copy a file and paste it into another "
+"folder of choice. The **Cut** option allows to remove a file from a "
+"certain folder and paste it into another."
+msgstr "Funktionen **Kopier** giver brugeren mulighed for at kopiere en fil og indsætte den i en anden valgfri mappe. Funktionen **Klip** tillader at fjerne en fil fra en bestemt mappe og indsætte den i en anden."
+
+#: ../../manage_edit.rst:69
+msgid "More Info"
+msgstr "Mere info"
+
+#: ../../manage_edit.rst:71
+msgid ""
+"The **More Info** option allows to view the details of the file which are"
+" working on or viewing."
+msgstr "Muligheden **Flere oplysninger** giver mulighed for at se detaljerne om filen, som der arbejdes på eller vises."
+
+#: ../../manage_edit.rst:79
+msgid "Marking As Favorite"
+msgstr "Markering som favorit"
+
+#: ../../manage_edit.rst:82
+msgid "Adding to Favorite"
+msgstr "Tilføj til Favoritter"
+
+#: ../../manage_edit.rst:84
+msgid ""
+"User can add a file to the Favorites by pressing the **Star** icon. When "
+"adding a folder or a file to the Favorites, it will be marked with a "
+"green checkmark and will be accessible offline."
+msgstr "Brugeren kan tilføje en fil til Favoritter ved at trykke på **Stjerne** ikonet. Når man tilføjer en mappe eller en fil til Favoritter, vil den blive markeret med et grønt flueben og vil være tilgængelig offline."
+
+#: ../../manage_edit.rst:90
+msgid "Open Favorite Files"
+msgstr "Åbn Favoritfiler"
+
+#: ../../manage_edit.rst:92
+msgid ""
+"To open files from offline favorites, tap on the hamburger menu at the "
+"top left and select **Favorites**."
+msgstr "For at åbne filer fra offline favoritter, tryk på hamburgermenuen øverst til venstre og vælg **Favoritter**."
+
+#: ../../manage_edit.rst:96
+msgid ""
+"In the **Offline Favorites** view, open a file by pressing the 3-dot "
+"button and selecting **Open File Locally**."
+msgstr "I **Offline Favoritter** visningen, åbn en fil ved at trykke på 3-prik-knappen og vælge **Åbn fil lokalt**."
+
+#: ../../manage_edit.rst:100
+msgid ""
+"After selecting the option, a list of applications that can open the file"
+" will be displayed."
+msgstr "Efter at have valgt muligheden, vil en liste over applikationer, der kan åbne filen, blive vist."
+
+#: ../../manage_edit.rst:105
+msgid "Remove from Favorite"
+msgstr "Fjern fra Favoritter"
+
+#: ../../manage_edit.rst:107
+msgid ""
+"To remove files from offline favorites, user can touch the yellow "
+"**Star** icon directly in the folders."
+msgstr "For at fjerne filer fra offline favoritter, kan brugeren røre ved det gule **Stjerne** ikon direkte i mapperne."
+
+#: ../../manage_edit.rst:111
+msgid "Or press the hamburger menu at the top left and select **Favorites**."
+msgstr "Eller tryk på hamburgermenuen øverst til venstre og vælg **Favoritter**."
+
+#: ../../manage_edit.rst:115
+msgid ""
+"In the **Offline Favorites** view, user can remove files by pressing the "
+"3-dot button. Once the file is removed, it is no longer available "
+"offline."
+msgstr "I visningen **Offline Favoritter** kan brugeren fjerne filer ved at trykke på 3-punktsknappen. Når filen er fjernet, er den ikke længere tilgængelig offline."
+

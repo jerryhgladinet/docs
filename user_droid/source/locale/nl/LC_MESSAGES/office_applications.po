@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../office_applications.rst:2
+msgid "Working with Office Applications"
+msgstr "Werken met Office-toepassingen"
+
+#: ../../office_applications.rst:6
+msgid "Opening and Saving an Existing Document"
+msgstr "Een bestaand document openen en opslaan"
+
+#: ../../office_applications.rst:8
+msgid ""
+"User can access Office mobile applications via CentreStack Android if "
+"installed on the phone."
+msgstr "Gebruiker kan toegang krijgen tot Office mobiele applicaties via CentreStack Android als deze op de telefoon geïnstalleerd is."
+
+#: ../../office_applications.rst:10
+msgid ""
+"To edit an existing document, tap on the document in the file list to "
+"enter \"Preview Mode\" and tap on the File Type icon (e.g. Word) in the "
+"bottom right corner to open it in the appropriate application."
+msgstr "Om een bestaand document te bewerken, tik je op het document in de bestandslijst om de 'Voorbeeldmodus' te openen en tik je op het bestandstype-icoon (bijv. Word) in de rechterbenedenhoek om het in de bijbehorende applicatie te openen."
+
+#: ../../office_applications.rst:15
+msgid ""
+"This will take the user to the editing application where the document is "
+"open."
+msgstr "Dit brengt de gebruiker naar de bewerkingsapplicatie waar het document geopend is."
+
+#: ../../office_applications.rst:19
+msgid ""
+"User can edit the file and select \"**Save**\" if the file is not read-"
+"only. All the changes made will be saved and user can use the Back arrow "
+"to return and continue editing other files."
+msgstr "Gebruiker kan het bestand bewerken en \"**Opslaan**\" selecteren als het bestand niet alleen-lezen is. Alle wijzigingen worden opgeslagen en de gebruiker kan de terugpijl gebruiken om terug te keren en andere bestanden te blijven bewerken."
+
+#: ../../office_applications.rst:25
+msgid ""
+"If the update or current version of the file is not seen, tap the "
+"**Refresh** button at the top of the screen."
+msgstr "Als de update of de huidige versie van het bestand niet zichtbaar is, tik dan op de **Vernieuwen** knop bovenaan het scherm."
+
+#: ../../office_applications.rst:31
+msgid "From Office Applications"
+msgstr "Vanuit Office-toepassingen"
+
+#: ../../office_applications.rst:33
+msgid ""
+"To edit existing files in CentreStack app from an Office application, "
+"first open the Office app, then select the **Open** tab and press "
+"**Browse**. After that, select Cloud Android Client and choose a file "
+"from there. The file will then be opened, edited, and saved directly in "
+"the application."
+msgstr "Om bestaande bestanden in de CentreStack-app vanuit een Office-toepassing te bewerken, opent u eerst de Office-toepassing, selecteert u het tabblad **Open** en drukt u op **Bladeren**. Selecteer vervolgens Cloud Android Client en kies daar een bestand. Het bestand wordt dan geopend, bewerkt en rechtstreeks in de toepassing opgeslagen."
+

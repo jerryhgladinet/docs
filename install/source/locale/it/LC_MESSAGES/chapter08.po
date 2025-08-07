@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Verify External URL, Internal URL and the Node Name"
+msgstr "Verifica URL esterno, URL interno e il Nome del Nodo"
+
+#: ../../chapter08.rst:6
+msgid "Verify External URL"
+msgstr "Verifica URL esterno"
+
+#: ../../chapter08.rst:8
+msgid ""
+"It is very straight forward to verify whether or not your external URL is"
+" set correctly. You just need to point your web browser to the external "
+"URL and verify that the Login Page shows up and there is no SSL warnings."
+msgstr "È molto semplice verificare se l'URL esterno è impostato correttamente o meno. È sufficiente indirizzare il proprio browser web verso l'URL esterno e verificare che la Pagina di Login appaia e che non ci siano avvisi SSL."
+
+#: ../../chapter08.rst:10
+msgid ""
+"You can also verify the External URL by doing a file share to your own "
+"email address outside of the |prodname| system. A file sharing invitation"
+" will be sent to that Email address. After you receive the Email, click "
+"on the link included in the Email and make sure the link points to the "
+"External URL."
+msgstr "Puoi anche verificare l'URL esterno effettuando una condivisione di file al tuo indirizzo email esterno al sistema |prodname|. Verrà inviato un invito di condivisione file a quell'indirizzo email. Dopo aver ricevuto l'email, clicca sul link incluso nell'email e assicurati che il link punti all'URL esterno."
+
+#: ../../chapter08.rst:14
+msgid ""
+"The external URL is used in the email sharing template. So a simple file "
+"sharing test will verify whether the External URL is setup correctly."
+msgstr "L'URL esterno viene utilizzato nel template di condivisione via email. Quindi un semplice test di condivisione file verificherà se l'URL Esterno è configurato correttamente."
+
+#: ../../chapter08.rst:17
+msgid "Verify Internal URL"
+msgstr "Verifica URL Interno"
+
+#: ../../chapter08.rst:19
+msgid ""
+"For the verification of Internal URL, you can use the Node Performance "
+"page to make sure the node performance information shows up. (Cluster "
+"Dashboard -> Reports -> Node Performance)."
+msgstr "Per la verifica dell'URL interno, puoi utilizzare la pagina delle Prestazioni del Nodo per assicurarti che le informazioni sulle prestazioni del nodo vengano visualizzate. (Dashboard del Cluster -> Report -> Prestazioni del Nodo)."
+
+#: ../../chapter08.rst:24
+msgid "Verify Node Name"
+msgstr "Verifica Nome Nodo"
+
+#: ../../chapter08.rst:26
+msgid ""
+"To verify that the node name is correct, you can go on \"File Browser\", "
+"click on \"More Actions\" (three-dot) on a folder and use the "
+"**\"Share\"** option to verify that the email has been received and is "
+"correctly pointing to an external URL."
+msgstr "Per verificare che il nome del nodo sia corretto, puoi andare su \"File Browser\", cliccare su \"Altre Azioni\" (tre puntini) su una cartella e utilizzare l'opzione **\"Condividi\"** per verificare che l'email sia stata ricevuta e che punti correttamente a un URL esterno."
+

@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../index.rst:3
+msgid "Getting Started"
+msgstr ""
+
+#: ../index.rst:6
+msgid "Introduction"
+msgstr ""
+
+#: ../index.rst:8
+msgid "Welcome to the |prodname| Administration Guide. This guide describes administration tasks for |prodname|, the mobile access and secure file sharing solution that focuses on local file server cloud-enablement."
+msgstr ""
+
+#: ../index.rst:10
+msgid "|prodname| runs on the Windows Server platform and includes client agent software applications for Microsoft Windows, Mac OS X, and Mobile Clients for the Android and Apple iOS operating systems."
+msgstr ""
+
+#: ../index.rst:13
+msgid "|prodname| includes a client application for Windows File Server, which is named \"Server Agent\". This document is about |prodname| itself, not about the \"Server Agent\"."
+msgstr ""
+
+#: ../index.rst:16
+msgid "This admin guide is written for |prodname| version |release|"
+msgstr ""
+
+#: ../index.rst:19
+msgid "Overview"
+msgstr ""
+
+#: ../index.rst:21
+msgid "|prodname| is a mobile access and secure file sharing solution. It differentiates itself from other File Sync and Share solutions by focusing on data security, permission controls and, file server cloud-enablements including data protection and cloud migration. |prodname| surpasses the competition in the following areas:"
+msgstr ""
+
+#: ../index.rst:24
+msgid "Maintaining Active Directory, security and NTFS permissions on files and folders."
+msgstr ""
+
+#: ../index.rst:25
+msgid "Providing live time sync-and-share with versioning and revision controls."
+msgstr ""
+
+#: ../index.rst:26
+msgid "Providing On-Demand access that honors Read-Only, and Write permissions in Real-Time."
+msgstr ""
+
+#: ../index.rst:27
+msgid "Mirroring of local network shares for Team Collaboration in the Cloud."
+msgstr ""
+
+#: ../index.rst:28
+msgid "Provide drive mapping and file locking functionality for files in the Cloud."
+msgstr ""
+
+#: ../index.rst:30
+msgid "|prodname| is a software solution built on top of the Microsoft Web Platform. It provides file access and sharing functionality from PCs, Macs, File Servers, Web Browsers, and Mobile Devices. In addition, it also brings data protection and cloud migration features."
+msgstr ""
+
+#: ../index.rst:32
+msgid "The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy |prodname|."
+msgstr ""
+
+#: ../index.rst:34
+msgid "Deploy the |prodname| server in the same site as the File Servers and Active Directory domain controllers:"
+msgstr ""
+
+#: ../index.rst:38
+msgid "See also: `File Server Remote Access <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+msgstr ""
+
+#: ../index.rst:40
+msgid "Deploy in a cloud data center, such as Amazon Web Services EC2, Microsoft Azure, or in a Data Center where the Managed Service Provider (MSP) hosts their infrastructure:"
+msgstr ""
+
+#: ../index.rst:46
+msgid "Please reference the `“Installation Checklist”`__ as well as the `“Installation Guide”`__ for information on how to setup and deploy CentreStack. This guide is focused on the administration of |prodname|."
+msgstr ""
+
+#: ../index.rst:57
+msgid "This Administration Guide is for the Self-Hosted |prodname|. For Hosted-CentreStack, please reference the Hosted CentreStack Admin Guide."
+msgstr ""

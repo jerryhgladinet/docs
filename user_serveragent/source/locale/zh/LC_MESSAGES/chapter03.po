@@ -1,0 +1,1317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Administration and Configuration"
+msgstr "3 管理与配置"
+
+#: ../../chapter03.rst:6
+msgid ""
+"|prodname| File Server Agent runs as a Windows Service in the background."
+" Since it is a background service, it always runs regardless of the users"
+" logging into the server."
+msgstr "|prodname| 文件服务器代理作为一个Windows服务在后台运行。由于它是一个后台服务，无论用户是否登录到服务器，它始终都在运行。"
+
+#: ../../chapter03.rst:8
+msgid ""
+"The administration of the File Server Agent is done via a Windows "
+"application (the Cloud Server Console). Most of the time, the Cloud "
+"Server Console will launch into the web browser based administration "
+"console."
+msgstr "文件服务器代理的管理是通过一个Windows应用程序（云服务器控制台）来完成的。大多数情况下，云服务器控制台会启动基于Web浏览器的管理控制台。"
+
+#: ../../chapter03.rst:10
+msgid ""
+"There are two consoles, one on the Web Portal and the other one runs "
+"natively on a local machine. The one on the Web Portal is for general "
+"administration such as managing settings. The native console is for "
+"advanced troubleshooting such as collecting audit traces."
+msgstr "有两个控制台，一个在Web门户上，另一个在本地机器上本地运行。Web门户上的控制台用于一般管理，如管理设置。本地控制台用于高级故障排除，如收集审计跟踪。"
+
+#: ../../chapter03.rst:12
+msgid ""
+"You need to log into the Windows server's console to use the |prodname| "
+"Server Agent Management Console for administration-related tasks. If you "
+"manage the Windows Server from remote locations, you can use Remote "
+"Desktop, or other remote control tools to access to the Windows server "
+"before you start the |prodname| Server Agent Management Console."
+msgstr "您需要登录到Windows服务器的控制台，以使用 |prodname| 服务器代理管理控制台进行管理相关任务。如果您从远程位置管理Windows服务器，可以使用远程桌面或其他远程控制工具访问Windows服务器，然后启动 |prodname| 服务器代理管理控制台。"
+
+#: ../../chapter03.rst:17
+msgid "3.1 File Server Agent Components"
+msgstr "3.1 文件服务器代理组件"
+
+#: ../../chapter03.rst:19
+msgid "There are 3 windows services and 1 windows Application"
+msgstr "有3个Windows服务和1个Windows应用程序"
+
+#: ../../chapter03.rst:21
+msgid "Cloud Access Service (gladgroupsvc.exe) - This is the main sync service"
+msgstr "云访问服务（gladgroupsvc.exe）- 这是主要的同步服务"
+
+#: ../../chapter03.rst:23
+msgid ""
+"File Monitor Service (GladFileMonSvc) - This is responsible for Server "
+"Agent auto upgrade"
+msgstr "文件监控服务（GladFileMonSvc）- 负责服务器代理自动升级"
+
+#: ../../chapter03.rst:25
+msgid ""
+"File System Mounter (gladrmountsvc) - This is mount the Cloud File System"
+" for the Gateway mode"
+msgstr "文件系统挂载器（gladrmountsvc）- 这是为网关模式挂载云文件系统"
+
+#: ../../chapter03.rst:27
+msgid ""
+"Management Console (GtaskMMC.exe) - This is responsible talking to the "
+"background servicer and provide management feedback"
+msgstr "管理控制台（GtaskMMC.exe）- 负责与后台服务程序通信并提供管理反馈"
+
+#: ../../chapter03.rst:31
+msgid ""
+"If GtaskMMC.exe is run with /runlocal /server command line parameter, it "
+"will launch into the local native management console. Otherwise the "
+"/server flag alone will launch the web based console."
+msgstr "如果使用 /runlocal /server 命令行参数运行 GtaskMMC.exe，它将启动本地原生管理控制台。否则，单独的 /server 标志将启动基于网页的控制台。"
+
+#: ../../chapter03.rst:36
+msgid "GLADINET CLOUD ACCESS (GCA) SERVICE"
+msgstr "GLADINET云访问（GCA）服务"
+
+#: ../../chapter03.rst:38
+msgid ""
+"By default the File Server Agent background windows service runs as a "
+"local system account."
+msgstr "默认情况下，文件服务器代理后台Windows服务作为本地系统账户运行。"
+
+#: ../../chapter03.rst:43
+msgid "GCA LOCAL SYSTEM ACCOUNT SERVICE"
+msgstr "GCA 本地系统账户服务"
+
+#: ../../chapter03.rst:48
+msgid ""
+"Sometimes the LOCAL SYSTEM account doesn't have permission for the "
+"folders it wants to sync. In this case, the Log-on-as account for the "
+"Cloud Access Service (GladGroupSvc.exe) needs to be changed to a service "
+"account that has full control (read, write, delete, list) permission to "
+"the folder that it wants to sync."
+msgstr "有时本地系统帐户没有权限同步它想要同步的文件夹。在这种情况下，需要将云访问服务（GladGroupSvc.exe）的登录帐户更改为对其想要同步的文件夹具有完全控制（读取、写入、删除、列出）权限的服务帐户。"
+
+#: ../../chapter03.rst:50
+msgid ""
+"In an Active Directory environment, this normally can be changed to a "
+"Domain Admin Service Account."
+msgstr "在Active Directory环境中，通常可以将其更改为域管理员服务帐户。"
+
+#: ../../chapter03.rst:55
+msgid "3.2 Cloud Server Console - Web View"
+msgstr "3.2 云服务器控制台 - 网页视图"
+
+#: ../../chapter03.rst:57
+msgid ""
+"|prodname| Cloud Server Console will launch automatically after the "
+"reboot using the Tenant Admin credentials that were used to install the "
+"software."
+msgstr "|prodname| 云服务器控制台将在重启后自动启动，使用的是安装软件时所用的租户管理员凭证。"
+
+#: ../../chapter03.rst:61
+msgid ""
+"File Server Agent is tied to each Tenant, so the Tenant Admin's "
+"credential shall be used to link the File Server Agent to a specific "
+"Tenant."
+msgstr "文件服务器代理与每个租户绑定，因此应使用租户管理员的凭证将文件服务器代理链接到特定租户。"
+
+#: ../../chapter03.rst:63
+msgid ""
+"The cluster admin is also the Tenant Admin for the very first Tenant in "
+"the |prodname| system so by default it is a Tenant Admin as well."
+msgstr "集群管理员也是 |prodname| 系统中第一个租户的租户管理员，所以默认情况下它也是租户管理员。"
+
+#: ../../chapter03.rst:67
+msgid ""
+"File Server agent is managed at Tenant level (not per-user level, nor "
+"cluster-level either)"
+msgstr "文件服务器代理是在租户级别管理的（不是每个用户级别，也不是集群级别）"
+
+#: ../../chapter03.rst:70
+msgid "|prodname| Cloud Server Management Console Login:"
+msgstr "|prodname| 云服务器管理控制台登录："
+
+#: ../../chapter03.rst:75
+msgid "MANAGEMENT CONSOLE LOGIN"
+msgstr "管理控制台登录"
+
+#: ../../chapter03.rst:77
+msgid ""
+"|prodname| Cloud Server Management Console can also be launched from "
+"Windows Start Programs Menu:"
+msgstr "|prodname| 云服务器管理控制台也可以从Windows开始程序菜单启动："
+
+#: ../../chapter03.rst:79
+msgid "Launch the Console from the Start Menu."
+msgstr "从开始菜单启动控制台。"
+
+#: ../../chapter03.rst:84
+msgid "LAUNCH THE CONSOLE"
+msgstr "启动控制台"
+
+#: ../../chapter03.rst:86
+msgid ""
+"After launch, you see several options and tabs at the top of the view, "
+"Device Info is shown below."
+msgstr "启动后，您会看到视图顶部有几个选项和标签，下方显示的是设备信息。"
+
+#: ../../chapter03.rst:91 ../../chapter03.rst:109
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE INFO"
+msgstr "客户端管理控制台 - 设备信息"
+
+#: ../../chapter03.rst:93
+msgid "You can click on the left tab in the console to see more management items."
+msgstr "您可以点击控制台左侧的标签查看更多管理项。"
+
+#: ../../chapter03.rst:98
+msgid "ACCESSING THE CONSOLE MENU"
+msgstr "访问控制台菜单"
+
+#: ../../chapter03.rst:102
+msgid "3.2.1 Device Info"
+msgstr "3.2.1 设备信息"
+
+#: ../../chapter03.rst:104
+msgid ""
+"The default web console view is the device information panel. It shows "
+"the basic device information such as device name, device operating "
+"system, device version and etc."
+msgstr "默认的网页控制台视图是设备信息面板。它显示了基本的设备信息，如设备名称、设备操作系统、设备版本等。"
+
+#: ../../chapter03.rst:112
+msgid ""
+"**Monitor Device Connect Status** - The device may get disconnected from "
+"the Internet for whatever reason, including but not limited to Internet "
+"outage, software crash, background service not running and etc. If the "
+"device is not connected to generate a healthy heart beat connection to "
+"the |prodname| server side software, this setting will generate an email "
+"alert if the device is not actively connected to the tenant acacount. "
+"When this alert is received, it needs to be investigated at high priority"
+" because it will lead to synchronization break-down."
+msgstr "**监控设备连接状态** - 设备可能因各种原因与互联网断开连接，包括但不限于互联网中断、软件崩溃、后台服务未运行等。如果设备未连接到 |prodname| 服务器端软件以生成健康的心跳连接，当设备未积极连接到租户账户时，此设置将生成电子邮件警报。收到此警报时，需要高优先级调查，因为这将导致同步中断。"
+
+#: ../../chapter03.rst:120
+msgid "3.2.2 CIFS Shares"
+msgstr "3.2.2 CIFS 共享"
+
+#: ../../chapter03.rst:122
+msgid ""
+"CIFS (Common Internet File System) shares refers to Windows Network "
+"Shares that are available on the File Server Agent machine. CIFS shares "
+"or SMB (Server Message Block) shares are used interchangably here."
+msgstr "CIFS（公共互联网文件系统）共享指的是在文件服务器代理机器上可用的Windows网络共享。这里的CIFS共享或SMB（服务器消息块）共享可以互换使用。"
+
+#: ../../chapter03.rst:127
+msgid "CIFS SHARES"
+msgstr "CIFS 共享"
+
+#: ../../chapter03.rst:129
+msgid ""
+"You can start migrating file server network shares from the current "
+"machine to |prodname|."
+msgstr "您可以开始将文件服务器网络共享从当前机器迁移到 |prodname|。"
+
+#: ../../chapter03.rst:133
+msgid ""
+"Migration means setup two-way synchronization between the local folder "
+"and the remote |prodname| Server. It is a hybrid cloud configuration "
+"started by default. Over time, you may want to stop the local folder and "
+"go cloud only. That is reserved for future if you select to do so. Out of"
+" the box it is setup as a two-way synchronization folder for each CIFS "
+"share selected."
+msgstr "迁移意味着在本地文件夹和远程 |prodname| 服务器之间设置双向同步。这是默认启动的混合云配置。随着时间的推移，您可能会想停止使用本地文件夹，仅使用云服务。如果您选择这样做，那将是未来的事情。开箱即用，它被设置为每个CIFS共享所选的双向同步文件夹。"
+
+#: ../../chapter03.rst:139
+msgid "MIGRATE A SHARE"
+msgstr "迁移共享"
+
+#: ../../chapter03.rst:143
+msgid ""
+"The net result of migration is that you can access the files and folders "
+"from both the local file server and also the |prodname| side. Files "
+"changes on both side will synchronize to the other side. It is a hybrid "
+"local/cloud mode. Also when migration works on CIFS share (network "
+"share), optionally the local folder's NTFS permission can be replicated "
+"and synchronized to cloud side, while the local Active Directory users "
+"can be synchronized to cloud side."
+msgstr "迁移的最终结果是，您可以同时从本地文件服务器和 |prodname| 端访问文件和文件夹。两边的文件更改都会同步到另一边。这是一种混合的本地/云模式。此外，当迁移作用于CIFS共享（网络共享）时，可以选择将本地文件夹的NTFS权限复制并同步到云端，同时本地Active Directory用户也可以同步到云端。"
+
+#: ../../chapter03.rst:148
+msgid "Migrate"
+msgstr "迁移"
+
+#: ../../chapter03.rst:150
+msgid ""
+"Clicking on the migrate link button will start the migration process on a"
+" specific network share. Normally when the File Server Agent and the "
+"|prodname| Server are on two completely different locations, the "
+"**\"Direct Access\"** option will not be shown. The **\"Two Way Sync\"** "
+"will be the only option."
+msgstr "点击迁移链接按钮将开始对特定网络共享的迁移过程。通常情况下，当文件服务器代理和 |prodname| 服务器位于两个完全不同的位置时，**\"直接访问\"** 选项将不会显示。**\"双向同步\"** 将是唯一的选项。"
+
+#: ../../chapter03.rst:155
+msgid "MIGRATION OF DATA AND PERMISSIONS"
+msgstr "数据和权限迁移"
+
+#: ../../chapter03.rst:159
+msgid "3.2.3 Attached Folders"
+msgstr "3.2.3 已附加文件夹"
+
+#: ../../chapter03.rst:162
+msgid "How to Attach a Folder"
+msgstr "如何挂载一个文件夹"
+
+#: ../../chapter03.rst:164
+msgid ""
+"Attached folders, are folders on the local machine and can be "
+"synchronized to |prodname| and kept synchronized in a bi-directional way."
+msgstr "附加文件夹是本地机器上的文件夹，可以同步到 |prodname| 并以双向方式保持同步。"
+
+#: ../../chapter03.rst:166
+msgid ""
+"The Attached Folder section allows you to browse into the machine's file "
+"structure and pick a folder to synchronize. In the Console drop-down "
+"menu, select **\"Attached Folders\"**."
+msgstr "“附加文件夹”部分允许您浏览计算机的文件结构，并选择一个文件夹进行同步。在控制台下拉菜单中，选择 **“附加文件夹”**。"
+
+#: ../../chapter03.rst:171
+msgid "ATTACHED FOLDERS"
+msgstr "附加文件夹"
+
+#: ../../chapter03.rst:173
+msgid "In the new view click the Attach Folder icon."
+msgstr "在新视图中点击“附加文件夹”图标。"
+
+#: ../../chapter03.rst:178
+msgid "ATTACH FOLDER BUTTON"
+msgstr "附加文件夹按钮"
+
+#: ../../chapter03.rst:181
+msgid ""
+"In the folder selection view **(1)**, double click the drive **(2)** and "
+"navigate to the folder you wish to share. When you choose a folder, its "
+"path will appear in the Location field **(3)** and you should enter a "
+"name for your share in the Name field **(4)**. Click **\"ATTACH\"** to "
+"complete the process."
+msgstr "在文件夹选择视图 **(1)** 中，双击驱动器 **(2)** 并导航到您希望共享的文件夹。当您选择一个文件夹时，它的路径将出现在位置字段 **(3)** 中，您应该在名称字段 **(4)** 中为您的共享输入一个名称。点击 **\"ATTACH\"** 来完成这个过程。"
+
+#: ../../chapter03.rst:186
+msgid "ATTACHING A FOLDER"
+msgstr "附加文件夹"
+
+#: ../../chapter03.rst:189
+msgid "Filter Button"
+msgstr "过滤按钮"
+
+#: ../../chapter03.rst:191
+msgid ""
+"Using the Filter Button **(1)**, you can set some of your folders to be "
+"excluded from being synchronized. To accomplish this, after you click the"
+" **Filter** button, click the **(+)** button **(2)** and explore to a "
+"folder you wish to exclude. In this example, it is a sub-folder **(3)** "
+"of the **SA Share** folder."
+msgstr "使用过滤按钮 **(1)**，您可以设置某些文件夹以排除同步。为此，点击 **过滤** 按钮后，点击 **(+)** 按钮 **(2)**，然后浏览到您希望排除的文件夹。在此示例中，它是 **SA Share** 文件夹的一个子文件夹 **(3)**。"
+
+#: ../../chapter03.rst:196
+msgid "FILTER BUTTON"
+msgstr "过滤按钮"
+
+#: ../../chapter03.rst:199
+msgid "Diagnostic Button"
+msgstr "诊断按钮"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Diagnostic Button **(2)** can be used to **\"Compare\"** the cloud "
+"folder and the local network folder to determine if the y are the same. "
+"This is important to make sure that the local folder has been completely "
+"mirrored to the cloud."
+msgstr "诊断按钮 **(2)** 可用于 **\"比较\"** 云文件夹和本地网络文件夹，以确定它们是否相同。这一点非常重要，确保本地文件夹已完全镜像到云端。"
+
+#: ../../chapter03.rst:206
+msgid "DIAGNOSTIC BUTTON"
+msgstr "诊断按钮"
+
+#: ../../chapter03.rst:210
+msgid "Stop-Sync Button"
+msgstr "停止同步按钮"
+
+#: ../../chapter03.rst:212
+msgid ""
+"The Stop-Sync Button can be used to stop the synchronization between the "
+"folder from the Server Agent and the attached folder in the cloud. This "
+"is something you might want to do when all the users are accessing the "
+"folder from the cloud and no longer need local network access to the "
+"original folder. After the stop-sync, the local file changes are local "
+"changes, not related to cloud; and vise-versa, the file changes in the "
+"cloud will not be related to the local files, they are just two separate "
+"independent entities."
+msgstr "停止同步按钮可用于停止服务器代理中的文件夹与云中附加文件夹之间的同步。当所有用户都通过云访问文件夹且不再需要对原始文件夹的本地网络访问时，您可能会想要这样做。停止同步后，本地文件的更改是本地更改，与云无关；反之亦然，云中的文件更改不会与本地文件相关，它们只是两个独立的实体。"
+
+#: ../../chapter03.rst:217
+msgid ""
+"Stop-Sync is different from detach a previously attached folder. When a "
+"folder is detached, not only it stop-sync, but also the cloud side folder"
+" will be hidden and subject to retention policy for purge in the near "
+"future. So if your use case is to continue to use the files and folders "
+"from the cloud side and cloud side only, you want to do a stop-sync "
+"instead of doing a detach-folder."
+msgstr "停止同步与分离之前附加的文件夹不同。当一个文件夹被分离时，它不仅停止同步，而且云端的文件夹会被隐藏，并且很快会根据保留策略进行清除。所以，如果你的使用案例是继续只从云端使用文件和文件夹，你应该执行停止同步，而不是分离文件夹。"
+
+#: ../../chapter03.rst:227
+msgid "STOP-SYNC BUTTON"
+msgstr "停止同步按钮"
+
+#: ../../chapter03.rst:232
+msgid ""
+"What is the difference between Import a CIFS Share and attach a folder to"
+" |prodname|?"
+msgstr "导入CIFS共享与将文件夹附加到 |prodname| 之间有什么区别？"
+
+#: ../../chapter03.rst:234
+msgid ""
+"First of all, both maintain bi-directional synchronization. The key "
+"difference is \"Import CIFS Share\" will also import folder permission to"
+" |prodname|, while Attached Folder only synchronize folders without "
+"synchronize permissions."
+msgstr "首先，两者都保持双向同步。主要区别在于“导入CIFS共享”还会将文件夹权限导入到 |prodname|，而附加文件夹仅同步文件夹，不同步权限。"
+
+#: ../../chapter03.rst:236
+msgid "Under the hood, both are **\"Attached Folders\"**."
+msgstr "在底层，两者都是 **\"附加文件夹\"**。"
+
+#: ../../chapter03.rst:238
+msgid "\"Import CIFS Share\" = \"Attached Folder\" + \"Sync NTFS Permission\""
+msgstr "\"导入CIFS共享\" = \"附加文件夹\" + \"同步NTFS权限\""
+
+#: ../../chapter03.rst:242 ../../chapter03.rst:600
+msgid "Offline Folders"
+msgstr "离线文件夹"
+
+#: ../../chapter03.rst:244
+msgid ""
+"You can mark folders as offline. Offline folders will be pre-fetched to "
+"the local machine. Files changed remotely in the offline folders will "
+"also be pre-fetched to local machine."
+msgstr "您可以将文件夹标记为离线。离线文件夹将被预先获取到本地机器。远程更改的离线文件夹中的文件也将被预先获取到本地机器。"
+
+#: ../../chapter03.rst:246
+msgid ""
+"To access this feature, click the **\"Offline Folders\"** icon **(1)**. "
+"Then click he **(+)** icon **(2)** on the right side of the Offline "
+"Folders screen. In the explorer, navigate to the folder you wish to "
+"\"Offline\" and select it **(3)**. Then click **\"ENABLE OFFLINE "
+"ACCESS\"** **(4)** to complete the process."
+msgstr "要访问此功能，请点击 **“离线文件夹”** 图标 **(1)**。然后点击离线文件夹屏幕右侧的 **(+)** 图标 **(2)**。在资源管理器中，导航到您希望“离线”的文件夹并选择它 **(3)**。然后点击 **“启用离线访问” (4)** 完成此过程。"
+
+#: ../../chapter03.rst:251
+msgid "CHOOSING A FOLDER FOR OFFLINE ACCESS"
+msgstr "选择一个文件夹进行离线访问"
+
+#: ../../chapter03.rst:255
+msgid "When to use offline folder?"
+msgstr "何时使用离线文件夹？"
+
+#: ../../chapter03.rst:257
+msgid ""
+"When you have files and folders that you use frequently, you want to keep"
+" them local to the local file server, you can enable offline folder."
+msgstr "当您有经常使用的文件和文件夹时，您希望将它们保留在本地文件服务器上，您可以启用离线文件夹。"
+
+#: ../../chapter03.rst:260
+#, python-format
+msgid ""
+"Usually you use the offline folder for the gateway mode. When you use "
+"\"Migrate CIFS share\" or when you use \"Attach Folder\", the files and "
+"folders by default are local so there is no need to enable offline folder"
+" for this use case since files are 100% off-line from attached folders."
+msgstr "通常情况下，您会在网关模式下使用离线文件夹。当您使用“迁移CIFS共享”或者使用“附加文件夹”时，默认情况下文件和文件夹是本地的，因此由于附加文件夹中的文件是100%离线的，没有必要为这个用例启用离线文件夹。"
+
+#: ../../chapter03.rst:266
+msgid "Local File Lock"
+msgstr "本地文件锁定"
+
+#: ../../chapter03.rst:268
+msgid "Local File Lock section will show locked files from the local file server."
+msgstr "本地文件锁定部分将显示来自本地文件服务器的锁定文件。"
+
+#: ../../chapter03.rst:273 ../../chapter03.rst:284
+msgid "LOCKED FILES"
+msgstr "锁定文件"
+
+#: ../../chapter03.rst:277
+msgid "Locked Files"
+msgstr "锁定的文件"
+
+#: ../../chapter03.rst:279
+msgid ""
+"Locked files section will show locked files from the |prodname| Server, "
+"and provides information about who owns the file that is locked. "
+"Information shown includes: File Owner, File Path, Locked From, Type and "
+"Locked Time."
+msgstr "锁定文件部分将显示来自 |prodname| 服务器的锁定文件，并提供有关拥有锁定文件的用户的信息。显示的信息包括：文件所有者、文件路径、锁定来源、类型和锁定时间。"
+
+#: ../../chapter03.rst:288
+msgid "Pending Check-ins"
+msgstr "待处理的签入"
+
+#: ../../chapter03.rst:290
+msgid ""
+"Pending check-ins will show files that are manually checked out from the "
+"local machine but haven't checked-in yet."
+msgstr "待处理的签入将显示已从本地机器手动签出但尚未签入的文件。"
+
+#: ../../chapter03.rst:295
+msgid "PENDING CHECK-INS"
+msgstr "待审核的签入"
+
+#: ../../chapter03.rst:299
+msgid "3.2.4 Settings"
+msgstr "3.2.4 设置"
+
+#: ../../chapter03.rst:301
+msgid ""
+"Settings Manager section will show client settings that can be changed "
+"and managed from the web console."
+msgstr "设置管理器部分将显示可以通过网络控制台更改和管理的客户端设置。"
+
+#: ../../chapter03.rst:306
+msgid "SETTINGS MANAGER"
+msgstr "设置管理器"
+
+#: ../../chapter03.rst:310
+msgid "3.2.5 Task Manager"
+msgstr "3.2.5 任务管理器"
+
+#: ../../chapter03.rst:312
+msgid ""
+"Task Manager section will show the synchronization tasks that are running"
+" on the local machine. If there is a number on **\"Pending Tasks\"** or "
+"**\"Failed Tasks\"** you can click the text links next to those numbers "
+"to open a window that shows the tasks currently in progress. There are "
+"**\"PAUSE\"** and **\"START\"** buttons available on the left side of "
+"each of the task bars as well."
+msgstr "任务管理器部分将显示在本地机器上运行的同步任务。如果 **\"待处理任务\"** 或 **\"失败任务\"** 上有数字，您可以点击这些数字旁边的文本链接打开一个显示当前进行中任务的窗口。在每个任务栏的左侧也有 **\"暂停\"** 和 **\"开始\"** 按钮。"
+
+#: ../../chapter03.rst:317
+msgid "TASK MANAGER"
+msgstr "任务管理器"
+
+#: ../../chapter03.rst:321
+msgid "3.2.6 Migrate CIFS SHARES"
+msgstr "3.2.6 迁移CIFS共享"
+
+#: ../../chapter03.rst:323
+msgid ""
+"Migrate CIFS Shares can be accessed from the Console menu or the "
+"**\"MIGRATE CIFS SHARES\"** text link. You can pick a network share on "
+"the local server and synchronize it to the cluster server. As explained "
+"above, this is how you migrate a folder and its NTFS permissions at the "
+"same time."
+msgstr "迁移CIFS共享可以通过控制台菜单或 **\"MIGRATE CIFS SHARES\"** 文本链接访问。您可以选择本地服务器上的网络共享，并将其同步到集群服务器。如上所述，这是您同时迁移文件夹及其NTFS权限的方式。"
+
+#: ../../chapter03.rst:328
+msgid "MIGRATE CIFS SHARES"
+msgstr "迁移CIFS共享"
+
+#: ../../chapter03.rst:332
+msgid "3.2.7 Migrate Users"
+msgstr "3.2.7 迁移用户"
+
+#: ../../chapter03.rst:334
+msgid ""
+"Migrate users can import Active Directory users or local users to the "
+"|prodname| side as cloud users, while maintaining the same credentials as"
+" the local user."
+msgstr "迁移用户可以将Active Directory用户或本地用户导入到 |prodname| 端作为云用户，同时保持与本地用户相同的凭据。"
+
+#: ../../chapter03.rst:339
+msgid "MIGRATE USERS"
+msgstr "迁移用户"
+
+#: ../../chapter03.rst:344
+msgid "3.3 Cloud Server Console - Native"
+msgstr "3.3 云服务器控制台 - 原生"
+
+#: ../../chapter03.rst:346
+msgid ""
+"You can launch the native management console from the program's "
+"installation folder. From the Command Prompt use the following command, "
+"``C:\\\\Program Files\\\\Gladinet\\\\Cloud Server Agent>gtaskmmc "
+"/runlocal /server``"
+msgstr "您可以从程序的安装文件夹启动原生管理控制台。从命令提示符使用以下命令，``C:\Program Files\Gladinet\Cloud Server Agent>gtaskmmc /runlocal /server``"
+
+#: ../../chapter03.rst:351
+msgid "LAUNCHING THE NATIVE MANAGEMENT CONSOLE"
+msgstr "启动本地管理控制台"
+
+#: ../../chapter03.rst:353
+msgid ""
+"Once you have logged in the Native Console will open. This gives you "
+"local access to Server Agent settings."
+msgstr "一旦您登录，本地控制台将会打开。这使您可以本地访问服务器代理设置。"
+
+#: ../../chapter03.rst:358
+msgid "NATIVE MANAGEMENT CONSOLE"
+msgstr "本地管理控制台"
+
+#: ../../chapter03.rst:362
+msgid "3.3.1 Task Manager"
+msgstr "3.3.1 任务管理器"
+
+#: ../../chapter03.rst:364
+msgid "Task Manager shows all the system related tasks."
+msgstr "任务管理器显示所有系统相关任务。"
+
+#: ../../chapter03.rst:366
+msgid "You can also use the **\"Open My Cloud\"** link to access the Login Panel."
+msgstr "您也可以使用 **\"Open My Cloud\"** 链接来访问登录面板。"
+
+#: ../../chapter03.rst:368
+msgid ""
+"Each of the Task Manager sections below include a series of tabs that "
+"include the following:"
+msgstr "任务管理器的每个部分下面都包括一系列标签，其中包括以下内容："
+
+#: ../../chapter03.rst:370
+msgid "**'Summary'**"
+msgstr "**'摘要'**"
+
+#: ../../chapter03.rst:372
+msgid ""
+"This tab shows a summary of all the **\"System Update Tasks\"**. It shows"
+" the **\"Task Type\"** where the type is the name of the task. It shows "
+"the 'Status' as **\"Pending\"** which means that the **\"System Update "
+"Task\"** is always looking for changes and is always in **\"Pending\"** "
+"state in case there are any updates that needs to occur."
+msgstr "此标签显示所有 **\"系统更新任务\"** 的摘要。它显示了 **\"任务类型\"**，其中类型为任务的名称。它将状态显示为 **\"待定\"**，这意味着 **\"系统更新任务\"** 始终在寻找变化，并且在有更新需要发生的情况下始终处于 **\"待定\"** 状态。"
+
+#: ../../chapter03.rst:374
+msgid "Summary also shows the following:"
+msgstr "摘要还显示以下内容："
+
+#: ../../chapter03.rst:376
+msgid "**'Last Run Time'**"
+msgstr "**'上次运行时间'**"
+
+#: ../../chapter03.rst:378
+msgid ""
+"This shows the time when the Server Agent software last detected the "
+"changes on the local file system and ran to update the files in the "
+"cloud."
+msgstr "这显示了服务器代理软件最后一次检测到本地文件系统的更改并运行以更新云中的文件的时间。"
+
+#: ../../chapter03.rst:380
+msgid "**'Next Start Time'**"
+msgstr "**'下次开始时间'**"
+
+#: ../../chapter03.rst:382
+msgid ""
+"This shows the time when the **\"Update Task\"** will run next. The "
+"counter increments every 15 seconds. The software will run the update "
+"tasks right away. You can also use the **\"Pause\"** option to stop the "
+"update Administrator can force the updates by clicking on **\"Start "
+"Now\"** option in which case the task from updating local changes to the "
+"cloud. **\"Delete Task\"** option allows to delete any tasks for which "
+"updates are not desired. **\"Refresh\"** will refresh all the counters on"
+" the 'Summary' tab."
+msgstr "这显示了 **\"更新任务\"** 下次将何时运行。计数器每15秒增加一次。软件将立即执行更新任务。您也可以使用 **\"暂停\"** 选项来停止更新。管理员可以通过点击 **\"立即开始\"** 选项来强制更新，在这种情况下，任务会停止将本地更改更新到云端。**\"删除任务\"** 选项允许删除任何不需要更新的任务。**\"刷新\"** 将刷新'摘要'标签页上的所有计数器。"
+
+#: ../../chapter03.rst:384
+msgid "**'Completed Subtasks'**"
+msgstr "**'已完成的子任务'**"
+
+#: ../../chapter03.rst:386
+msgid "This shows the number of upload subtasks that have been completed."
+msgstr "这显示了已完成的上传子任务数量。"
+
+#: ../../chapter03.rst:388
+msgid "**'Running Subtasks'**"
+msgstr "**'运行中的子任务'**"
+
+#: ../../chapter03.rst:390
+msgid ""
+"This shows how many subtasks are currently running. (See Tab for more "
+"info)"
+msgstr "这显示了当前有多少子任务在运行。（更多信息请见标签页）"
+
+#: ../../chapter03.rst:392
+msgid "**'Pending Subtasks'**"
+msgstr "**'待处理的子任务'**"
+
+#: ../../chapter03.rst:394
+msgid ""
+"This shows the subtasks which are in pending state and waiting for their "
+"turn to get uploaded to the cloud. (See Tab for more info)"
+msgstr "这显示了处于待处理状态的子任务，它们正在等待上传到云端的机会。（更多信息请见标签页）"
+
+#: ../../chapter03.rst:396
+msgid "**'Pending Retry Subtasks'**"
+msgstr "**'待处理的重试子任务'**"
+
+#: ../../chapter03.rst:398
+msgid ""
+"This shows the number of any tasks which are pending retry meaning for "
+"some reason the changes for some files were not uploaded to the cloud and"
+" hence they are in the **\"Pending Retry Subtasks\"** queue and as soon "
+"as their turn comes the changes for files in **\"Pending Retry "
+"Subtasks**\" will also be uploaded to the cloud. (See Tab for more info)"
+msgstr "这显示了任何处于等待重试状态的任务数量，这意味着由于某些原因，一些文件的更改未能上传到云端，因此它们处于 **\"等待重试子任务\"** 队列中，一旦轮到它们，**\"等待重试子任务** \"中的文件更改也将上传到云端。（查看标签页了解更多信息）"
+
+#: ../../chapter03.rst:400
+msgid "**'Trace'**"
+msgstr "**'追踪'**"
+
+#: ../../chapter03.rst:402
+msgid "This tab provides trace information about tasks. (See Tab for more info)"
+msgstr "此标签页提供有关任务的跟踪信息。 (参见标签页以获取更多信息)"
+
+#: ../../chapter03.rst:408
+msgid "SYSTEM SYNC TASK - TRACE"
+msgstr "系统同步任务 - 跟踪"
+
+#: ../../chapter03.rst:410
+msgid ""
+"The **\"Trace\"** tab in the **\"System Sync Task\"** lists all the "
+"uploading, downloading, and monitoring tasks."
+msgstr "在 **\"系统同步任务\"** 中的 **\"追踪\"** 标签列出了所有的上传、下载和监控任务。"
+
+#: ../../chapter03.rst:413
+msgid "System Related Tasks"
+msgstr "系统相关任务"
+
+#: ../../chapter03.rst:418
+msgid "SYSTEM RELATED TASKS"
+msgstr "系统相关任务"
+
+#: ../../chapter03.rst:421
+msgid "System Sync Task"
+msgstr "系统同步任务"
+
+#: ../../chapter03.rst:426
+msgid "SYSTEM SYNC TASK"
+msgstr "系统同步任务"
+
+#: ../../chapter03.rst:428
+msgid ""
+"It is the master sync task and its job is to keep an eye on both local "
+"file changes and file changes that are done in the cloud. This is the "
+"task which triggers the **\"System Update Task\"** or the **\"System Sync"
+" Down Task\"**."
+msgstr "它是主同步任务，其工作是同时监视本地文件更改和在云中完成的文件更改。这是触发 **\"系统更新任务\"** 或 **\"系统向下同步任务\"** 的任务。"
+
+#: ../../chapter03.rst:431
+msgid "System Sync Down Task"
+msgstr "系统同步下载任务"
+
+#: ../../chapter03.rst:436
+msgid "SYSTEM SYNC DOWN TASK"
+msgstr "系统同步下行任务"
+
+#: ../../chapter03.rst:438
+msgid ""
+"It performs the exact same tasks as the **\"System Update Task\"** but "
+"its job is to ensure that the changes that are done to the files in the "
+"cloud are automatically synced down to the file server. The **\"System "
+"Update Task\"** and the **\"System Sync Down Task\"** are what provides "
+"the mirroring or two-way sync between the local files on the cloud server"
+" and the files in the cloud."
+msgstr "它执行的任务与 **“系统更新任务”** 完全相同，但它的工作是确保对云中文件所做的更改会自动同步到文件服务器。**“系统更新任务”** 和 **“系统同步下行任务”** 是提供本地文件与云中文件之间镜像或双向同步的功能。"
+
+#: ../../chapter03.rst:441
+msgid "System Update Task"
+msgstr "系统更新任务"
+
+#: ../../chapter03.rst:446
+msgid "SYSTEM UPDATE TASK"
+msgstr "系统更新任务"
+
+#: ../../chapter03.rst:448
+msgid ""
+"It shows all system related update tasks. Server Agent software checks "
+"the local file system every 15 seconds and when it notices the changes to"
+" the files, the changed files will be added to the upload queue. The real"
+" upload time depends on how big the upload queue is and if there is only "
+"one file with the changes, the changes to the file will be uploaded to "
+"the cloud in 15 seconds."
+msgstr "它显示了所有系统相关的更新任务。服务器代理软件每15秒检查一次本地文件系统，当它发现文件变化时，变更过的文件将被添加到上传队列。实际的上传时间取决于上传队列的大小，如果队列中只有一个文件发生了变化，那么文件的变化将在15秒内上传到云端。"
+
+#: ../../chapter03.rst:451
+msgid "Edit Account Information"
+msgstr "编辑账户信息"
+
+#: ../../chapter03.rst:456
+msgid "EDIT ACCOUNT INFORMATION"
+msgstr "编辑账户信息"
+
+#: ../../chapter03.rst:458
+msgid ""
+"This link at the bottom allows you to **Login with different "
+"credentials** to launch the Cloud Server Console and perform management "
+"related tasks."
+msgstr "此链接位于底部，允许您使用 **不同的凭据** 登录以启动云服务器控制台并执行相关的管理任务。"
+
+#: ../../chapter03.rst:462
+msgid "3.3.2 File Server"
+msgstr "3.3.2 文件服务器"
+
+#: ../../chapter03.rst:467
+msgid "FILE SERVER"
+msgstr "文件服务器"
+
+#: ../../chapter03.rst:469
+msgid ""
+"**\"File Server\"** shows all the data that have been uploaded to the "
+"cloud and the files and folder structure. It lists folder structure which"
+" includes sub-folders as well. The local folders that are attached either"
+" from the file server or a user's machine have the machine name in "
+"parenthesis."
+msgstr "**\"文件服务器\"** 显示了所有已上传到云端的数据以及文件和文件夹结构。它列出了包括子文件夹在内的文件夹结构。从文件服务器或用户机器附加的本地文件夹会在括号中显示机器名称。"
+
+#: ../../chapter03.rst:471
+msgid ""
+"An Administrator can create a new sub-folder below selected node or can "
+"attach additional local folders using the **\"Attach Local Folder\"** "
+"option under **\"Actions\"**. Attaching a local folder to |prodname| "
+"Cloud using the **\"Attach Local Folder\"** option allows immediate "
+"access to the local content from anywhere using any device. **\"Attached "
+"Local Folder\"** will be synchronized upwards to the cloud first and also"
+" the changes in the cloud will be sync down to the local file server."
+msgstr "管理员可以在选定节点下创建新的子文件夹，或者使用 **\"附加本地文件夹\"** 选项，在 **\"操作\"** 下附加额外的本地文件夹。通过 **\"附加本地文件夹\"** 选项将本地文件夹附加到 |prodname| 云，可以立即从任何地方使用任何设备访问本地内容。**\"附加的本地文件夹\"** 将首先与云端同步，云端的更改也会同步到本地文件服务器。"
+
+#: ../../chapter03.rst:473
+msgid ""
+"Administrator can also highlight an existing cloud folder and create new "
+"sub-folders underneath that highlighted folder."
+msgstr "管理员还可以突出显示现有的云文件夹，并在该突出显示的文件夹下创建新的子文件夹。"
+
+#: ../../chapter03.rst:476
+msgid ""
+"The two-way synchronization feature of the **\"Attach Local Folder\"** "
+"only applies to local folders such as those on the C: drive, D: drive and"
+" local hard drives in general. It won't work for network share. The two-"
+"way synchronization depends on the local file system's event change "
+"notification about files and folders. These changes will be detected and "
+"synchronization will happen based on the changes."
+msgstr "双向同步功能的 **\"附加本地文件夹\"** 仅适用于C:驱动器、D:驱动器以及一般的本地硬盘上的本地文件夹。它不适用于网络共享。双向同步依赖于本地文件系统对文件和文件夹变更的事件更改通知。这些变更将被检测到，并根据这些变更进行同步。"
+
+#: ../../chapter03.rst:478
+msgid ""
+"An administrator can also manage the folder using Web Portal by using the"
+" **\"Manage\"** option. This will allow an admin to convert any folders "
+"that have been attached to the cloud or are in the cloud to convert them "
+"into **\"Team Folders\"** for collaboration etc. Highlight the folder and"
+" select **\"Manage\"** under **\"Actions\"**."
+msgstr "管理员也可以通过使用Web门户中的 **\"管理\"** 选项来管理文件夹。这将允许管理员将已连接到云端或已在云端的任何文件夹转换为 **\"团队文件夹\"**，以便进行协作等。突出显示文件夹并在 **\"操作\"** 下选择 **\"管理\"**。"
+
+#: ../../chapter03.rst:483
+msgid "FILE SERVER - MANAGE FOLDER IN WEB PORTAL"
+msgstr "文件服务器 - 在网页门户中管理文件夹"
+
+#: ../../chapter03.rst:485
+msgid ""
+"In the Manage Folder view, you must add collaborators to make this a team"
+" folder. The pop-up lets you choose a source for your users/groups; "
+"either Existing User/Group or AD."
+msgstr "在管理文件夹视图中，您必须添加协作者以使其成为团队文件夹。弹出窗口允许您选择用户/组的来源；可以是现有用户/组或AD。"
+
+#: ../../chapter03.rst:490
+msgid "ADDING COLLABORATION"
+msgstr "添加协作功能"
+
+#: ../../chapter03.rst:496
+msgid "ACCESS TEAM FOLDER SETTINGS"
+msgstr "访问团队文件夹设置"
+
+#: ../../chapter03.rst:499
+msgid ""
+"Once you have added your users/groups, click the Disk icon to save your "
+"changes. Click the Settings tab to modify settings for this share."
+msgstr "添加用户/组后，点击磁盘图标保存更改。点击“设置”标签以修改此共享的设置。"
+
+#: ../../chapter03.rst:501
+msgid ""
+"In the Settings tab view, you can modify the settings for this share "
+"including: Basic Settings, Permissions, Secure Data Room, IP White List "
+"and Quota and Retention Policy. Under the **(+)** Settings sub-menu you "
+"have access to: Disable further sharing, Create CIFS Share and Disable "
+"Offline Access options."
+msgstr "在设置选项卡视图中，您可以修改此共享的设置，包括：基本设置、权限、安全数据室、IP白名单以及配额和保留策略。在 **(+)** 设置子菜单下，您可以访问：禁用进一步共享、创建CIFS共享以及禁用离线访问选项。"
+
+#: ../../chapter03.rst:506
+msgid "TEAM FOLDER SETTINGS"
+msgstr "团队文件夹设置"
+
+#: ../../chapter03.rst:508
+msgid ""
+"That diversion shows you how you can create, access and modify folders "
+"and settings from within the Web Portal of |prodname|. Now we return back"
+" to the File Server section of the Server Console in Server Agent. "
+"**\"Enable Background Prefetch\" (1)** makes the contents of the selected"
+" folder available offline."
+msgstr "这种转换展示了您如何在 |prodname| 的Web门户内创建、访问和修改文件夹和设置。现在我们回到服务器代理的服务器控制台中的文件服务器部分。**\"启用后台预取\" (1)** 会使所选文件夹的内容离线可用。"
+
+#: ../../chapter03.rst:513 ../../chapter03.rst:520
+msgid "FOLDER ACTIONS"
+msgstr "文件夹操作"
+
+#: ../../chapter03.rst:515
+msgid ""
+"**\"Delete\"** does not remove the content of the folder from local "
+"storage; however, it does detach the selected folder and its contents "
+"from the cloud. If you go to the Web Portal and re-create a folder with "
+"exactly the same name (including the machine's name and the parenthesis),"
+" the folder can be shown with a cloud-only context without any local "
+"machine relationship."
+msgstr "**\"删除\"** 并不会从本地存储中移除文件夹内容；然而，它会将选定的文件夹及其内容与云端解除关联。如果您转到 Web 门户并重新创建一个名称完全相同的文件夹（包括机器的名称和括号），则该文件夹可以显示为仅限云端的上下文，而与任何本地机器无关。"
+
+#: ../../chapter03.rst:523
+msgid ""
+"**\"Attach a Folder to Backup\"** (see above) allows an administrator to "
+"attach and two-way synchronize a local folder to the cloud. The default "
+"view shows all the \"Attached-Folders\" on the local machine that are "
+"attached to the cloud. To add a folder click the browse icon **(...)** "
+"and search for a folder to sync to the cloud."
+msgstr "**\"附加一个文件夹进行备份\"** （见上文）允许管理员附加并双向同步本地文件夹到云端。默认视图显示所有在本地机器上的\"已附加文件夹\"与云端相连。要添加一个文件夹，点击浏览图标 **(...)** 并搜索一个要同步到云端的文件夹。"
+
+#: ../../chapter03.rst:528
+msgid "ATTACH LOCAL FOLDER"
+msgstr "附加本地文件夹"
+
+#: ../../chapter03.rst:530
+msgid ""
+"Once a folder is attached, you can take advantage of one of the Folder "
+"Actions **\"Manage\"** that allows you to quickly open a Web Portal to "
+"edit Sharing and Collaboration settings for the folder."
+msgstr "一旦文件夹被关联，您可以利用文件夹操作中的一个功能 **\"管理\"**，该功能允许您快速打开一个Web门户来编辑该文件夹的共享和协作设置。"
+
+#: ../../chapter03.rst:535
+msgid "MANAGE FOLDER FROM WEB PORTAL"
+msgstr "从网页门户管理文件夹"
+
+#: ../../chapter03.rst:540
+msgid "SELECT SHARING AND COLLABORATION"
+msgstr "选择共享和协作"
+
+#: ../../chapter03.rst:544
+msgid "3.3.3 Attach/Backup"
+msgstr "3.3.3 附加/备份"
+
+#: ../../chapter03.rst:546
+msgid ""
+"Clicking the Attach/Backup button shows all of the folders currently "
+"attached."
+msgstr "点击“附加/备份”按钮会显示当前已附加的所有文件夹。"
+
+#: ../../chapter03.rst:551
+msgid "ALL FOLDERS WITHIN ADMIN'S ROOT FOLDER"
+msgstr "管理员根文件夹内的所有文件夹"
+
+#: ../../chapter03.rst:553
+msgid ""
+"By clicking the double-down-arrow icon on the right of each share you can"
+" see the details of the folder and if the folder is linked to a local "
+"folder you will see **\"Link to local\"**. If it is already linked you "
+"will see **\"Stop Sync\"**. As shown below, you can also **Detach** the "
+"folder in this location."
+msgstr "通过点击每个共享右侧的双下箭头图标，您可以查看文件夹的详细信息，如果文件夹链接到本地文件夹，您将看到 **\"链接到本地\"**。如果已经链接，您将看到 **\"停止同步\"**。如下所示，您也可以在此位置 **分离** 文件夹。"
+
+#: ../../chapter03.rst:558
+msgid "ATTACH/BACKUP SETTINGS"
+msgstr "附件/备份设置"
+
+#: ../../chapter03.rst:562
+msgid "Link to Local Folder"
+msgstr "链接到本地文件夹"
+
+#: ../../chapter03.rst:564
+msgid ""
+"You can take a folder that is in the cloud and sync it down to a local "
+"folder and then maintain two-way synchronization."
+msgstr "您可以将云中的文件夹同步到本地文件夹，然后保持双向同步。"
+
+#: ../../chapter03.rst:567
+msgid "Stop Sync"
+msgstr "停止同步"
+
+#: ../../chapter03.rst:569
+msgid ""
+"You can break the two-way sync between a local folder and a folder in the"
+" cloud. After stop sync, the two sides continue to exist but there is no "
+"relationship between them any longer."
+msgstr "您可以中断本地文件夹与云中文件夹之间的双向同步。停止同步后，双方仍然存在，但它们之间不再有任何关联。"
+
+#: ../../chapter03.rst:572
+msgid "Detach"
+msgstr "分离"
+
+#: ../../chapter03.rst:574
+msgid ""
+"Detach is the reverse of Attach. Attach means attach a local folder to "
+"the cloud under version control. Detach means remove it from the version "
+"control. Detach is an operation detaching the cloud side of the folder "
+"from version control. After detach, the local folder (if it is related to"
+" a local folder) is not affected at all. However, the folder in the cloud"
+" will disappear."
+msgstr "分离是附加的相反操作。附加意味着将本地文件夹在版本控制下附加到云端。分离则意味着将其从版本控制中移除。分离是一个将文件夹的云端部分从版本控制中分离的操作。分离之后，本地文件夹（如果它与本地文件夹有关）根本不会受到影响。然而，云端的文件夹将会消失。"
+
+#: ../../chapter03.rst:577
+msgid ""
+"If you want the cloud side of the folder to reappear, you can use \"Show "
+"Deleted\" in the Web Portal to show the deleted folder and bring it back."
+" Or you can create a same name folder from scratch to inherit the folder "
+"back."
+msgstr "如果您希望文件夹的云端部分重新出现，您可以在Web门户中使用\"显示已删除\"来显示已删除的文件夹并将其恢复。或者，您可以从头开始创建一个同名文件夹来继承该文件夹。"
+
+#: ../../chapter03.rst:581
+msgid "3.3.4 Audit Trace"
+msgstr "3.3.4 审计追踪"
+
+#: ../../chapter03.rst:583
+msgid ""
+"Audit trace shows the history of all the tasks that have taken place. "
+"Administrators can query the **\"Audit Trace\"** to see the history of "
+"uploads, downloads, changes, and monitoring on the files in the cloud. "
+"You can also filter the tasks you would like to query by using the "
+"**\"Only Show Traces Containing\"** field **(1)**."
+msgstr "审计跟踪显示了所有已发生任务的历史记录。管理员可以查询 **\"审计跟踪\"** 来查看云中文件的上传、下载、更改和监控历史。您还可以使用 **\"只显示包含以下内容的跟踪\"** 字段 **(1)** 来筛选您想要查询的任务。"
+
+#: ../../chapter03.rst:585
+msgid ""
+"As an administrator you can also specify the times that you would like to"
+" run the query for **(2)**. Additionally, you can specify the amount of "
+"traces you would like to query **(3)** where **\"0\"** means unlimited "
+"traces."
+msgstr "作为管理员，您还可以指定希望运行查询的时间 **(2)**。此外，您可以指定希望查询的跟踪数量 **(3)**，其中 **\"0\"** 表示无限制的跟踪。"
+
+#: ../../chapter03.rst:590
+msgid "AUDIT TRACE QUERY"
+msgstr "审计跟踪查询"
+
+#: ../../chapter03.rst:594
+msgid "3.3.5 Settings Manager"
+msgstr "3.3.5 设置管理器"
+
+#: ../../chapter03.rst:595
+msgid ""
+"Server Agent administrators can customize and configure many settings at "
+"the Server Console level by modifying the contents of the Settings "
+"Manager section."
+msgstr "服务器代理管理员可以通过修改“设置管理器”部分的内容，在服务器控制台级别自定义和配置许多设置。"
+
+#: ../../chapter03.rst:597
+msgid "From here you can also access the **\"Offline Folders\"** tab."
+msgstr "您也可以从这里访问 **“离线文件夹”** 标签。"
+
+#: ../../chapter03.rst:602
+msgid ""
+"This section lists all the cloud folders which have been enabled for "
+"**\"Offline Access\"**, meaning users who have access to offline folders "
+"can access and edit the contents of such folders even when they are not "
+"online. All the changes done to files in offline folders will be "
+"automatically synced as soon as the users come back online."
+msgstr "本节列出了所有已启用 **\"离线访问\"** 的云文件夹，这意味着拥有离线文件夹访问权限的用户即使在离线时也能访问和编辑这些文件夹的内容。用户一旦重新联网，离线文件夹中文件的所有更改都将自动同步。"
+
+#: ../../chapter03.rst:607
+msgid "OFFLINE FOLDERS"
+msgstr "离线文件夹"
+
+#: ../../chapter03.rst:609
+msgid ""
+"**\"Add New Offline Folder\"** You can click this link to configure a "
+"folder as an Offline Folder."
+msgstr "**\"添加新的离线文件夹\"** 您可以点击此链接来配置一个文件夹作为离线文件夹。"
+
+#: ../../chapter03.rst:612
+msgid "Settings Tab"
+msgstr "设置标签页"
+
+#: ../../chapter03.rst:615
+msgid "Bandwidth Control"
+msgstr "带宽控制"
+
+#: ../../chapter03.rst:617
+msgid ""
+"As an administrator you have full control over how much bandwidth should "
+"be consumed for uploading contents to the cloud and also for downloading "
+"contents from the cloud. You can also control how many consequent uploads"
+" and downloads are allowed at any one time."
+msgstr "作为管理员，您可以完全控制上传内容到云端和从云端下载内容时应消耗多少带宽。您还可以控制在任何时间允许的连续上传和下载的数量。"
+
+#: ../../chapter03.rst:622
+msgid "SETTINGS MANAGER - BANDWIDTH CONTROL"
+msgstr "设置管理器 - 带宽控制"
+
+#: ../../chapter03.rst:624
+msgid ""
+"**\"Download Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. This setting is applied to the local machine (Server Agent). "
+"Usually something > 100KB/s is good. If it is too small, it can "
+"negatively affect performance and usability."
+msgstr "**\"下载带宽限制（KB/s，0-不限制）\"** 默认值为 **\"0\"**。此设置应用于本地机器（服务器代理）。通常大于100KB/s会比较好。如果设置得太小，可能会对性能和可用性产生负面影响。"
+
+#: ../../chapter03.rst:626
+msgid ""
+"**\"Upload Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is **\"0\"**. "
+"This setting is applied to the local machine (Server Agent). Usually "
+"something > 100KB/s is good."
+msgstr "**\"上传带宽限制（KB/s，0-不限制）\"** 默认值为 **\"0\"**。此设置应用于本地机器（服务器代理）。通常情况下，大于100KB/s的设置就很不错。"
+
+#: ../../chapter03.rst:628
+msgid ""
+"**\"Number of Upload/Download Threads\"** Default is **\"5\"**. Set this "
+"from 5-10 in general. In some case, if you set it to a very big number "
+"such as 20, it may negatively affect performance. For example, if you are"
+" using Amazon S3 and Amazon S3 or other Cloud services may have per-"
+"client thread policy so if you have too many concurrent upload/download, "
+"it may get regulated outside of the Server Agent."
+msgstr "**\"上传/下载线程数\"** 默认为 **\"5\"**。通常情况下，将此值设置在5-10之间。在某些情况下，如果您将其设置为一个非常大的数字，例如20，可能会对性能产生负面影响。例如，如果您使用的是亚马逊S3，亚马逊S3或其他云服务可能有每个客户端的线程策略，所以如果您有太多的并发上传/下载，它可能会在服务器代理外部受到调节。"
+
+#: ../../chapter03.rst:631
+msgid "Cache"
+msgstr "缓存"
+
+#: ../../chapter03.rst:636
+msgid "SETTINGS MANAGER - CACHE SETTINGS"
+msgstr "设置管理器 - 缓存设置"
+
+#: ../../chapter03.rst:638
+msgid ""
+"You can change the location of Cache (for files downloaded locally from "
+"cloud). You can also set the cache size."
+msgstr "您可以更改本地从云端下载的文件的缓存位置。您还可以设置缓存大小。"
+
+#: ../../chapter03.rst:643
+msgid "Sync Control"
+msgstr "同步控制"
+
+#: ../../chapter03.rst:648
+msgid "SETTINGS MANAGER - SYNC CONTROL"
+msgstr "设置管理器 - 同步控制"
+
+#: ../../chapter03.rst:650
+msgid ""
+"**\"Throttle Sync\"** Default is **\"False\"**. If you set this flag to "
+"**\"True\"** it will stop and start the sync depending on the available "
+"bandwidth."
+msgstr "**\"同步节流\"** 默认为 **\"假\"**。如果您将此标志设置为 **\"真\"**，它将根据可用带宽停止并开始同步。"
+
+#: ../../chapter03.rst:652
+msgid ""
+"**\"Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"upload sync."
+msgstr "**\"同步限制上传带宽（KB/s，0-不限制）\"** 默认值为 **\"0\"**。其中 **\"0\"** 表示上传同步可用带宽不受限制。"
+
+#: ../../chapter03.rst:654
+msgid ""
+"**\"Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"download sync."
+msgstr "**\"同步限速下载带宽（KB/s，0-不限制）\"** 默认值为 **\"0\"**。其中 **\"0\"** 表示下载同步可用带宽不受限制。"
+
+#: ../../chapter03.rst:656
+msgid ""
+"**\"Full Speed Sync Stop Hour (dafault 7:00)\"** Default is **\"7\"**. "
+"Use this setting to set when full sync stops, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"全速同步停止时间（默认7:00）\"** 默认值为 **\"7\"**。使用此设置来指定全速同步何时停止，以避免在工作时间拖慢系统速度。"
+
+#: ../../chapter03.rst:658
+msgid ""
+"**\"Full Speed Sync Start Hour (dafault 20:00)\"** Default is **\"20\"**."
+"  Use this setting to set when full sync starts, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"全速同步开始时间（默认20:00）\"** 默认值为 **\"20\"**。 使用此设置来指定全速同步开始的时间，以避免在工作时间拖慢系统速度。"
+
+#: ../../chapter03.rst:660
+msgid ""
+"**\"Scan local files and sync up to cloud as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" local file system and make sure that everything which is not synced to "
+"the cloud is truly synced."
+msgstr "**\"扫描本地文件并根据需要同步到云端\"** 默认为 **\"False\"**。如果您希望代理扫描本地文件系统，并确保所有未与云端同步的内容都得到真正同步，请将此设置为 **\"True\"**。"
+
+#: ../../chapter03.rst:662
+msgid ""
+"**\"Scan cloud files and sync up to local as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" cloud and make sure that everything which is not synced to the local "
+"file system is truly synced."
+msgstr "**\"扫描云文件并根据需要同步到本地\"** 默认值为 **\"False\"**。如果您希望代理扫描云端，并确保所有未与本地文件系统同步的内容都得到真正同步，请将此设置为 **\"True\"**。"
+
+#: ../../chapter03.rst:664
+msgid ""
+"**\"Optimize Sync Down Notification\"** Default is **\"False\"**. If you "
+"want to see sync down notifications, then set this to **\"True\"**."
+msgstr "**\"优化同步下载通知\"** 默认为 **\"假\"**。如果您想看到同步下载通知，请将此设置为 **\"真\"**。"
+
+#: ../../chapter03.rst:666
+msgid ""
+"**\"Ignore file dummy change notification\"** Default is **\"False\"**. "
+"If you don't want to see dummy file change notifications, then set this "
+"to **\"True\"**."
+msgstr "**\"忽略文件虚拟更改通知\"** 默认值为 **\"False\"**。如果您不希望看到虚拟文件更改通知，则将此设置为 **\"True\"**。"
+
+#: ../../chapter03.rst:668
+msgid ""
+"**\"Enable sync folder permission in attached folder\"** Default is "
+"**\"False\"**."
+msgstr "**\"启用同步文件夹权限在附加文件夹\"** 默认为 **\"假\"**。"
+
+#: ../../chapter03.rst:672
+msgid "Advanced"
+msgstr "高级"
+
+#: ../../chapter03.rst:674
+msgid ""
+"Administrator can locate the cache directory under **\"Advanced\"** "
+"option in settings. Using the **\"Cache Size Limit (MB)\"** field can "
+"specify the size limit for the cache file."
+msgstr "管理员可以在设置中的 **“高级”** 选项下找到缓存目录。使用 **“缓存大小限制(MB)”** 字段可以指定缓存文件的大小限制。"
+
+#: ../../chapter03.rst:680
+msgid "SETTINGS MANAGER - ADVANCED"
+msgstr "设置管理器 - 高级"
+
+#: ../../chapter03.rst:682
+msgid ""
+"**\"Do not Mount Drive\"** Default is **\"False\"**. When you set this to"
+" **\"True\"** local drive on the Server Agent is unmounted."
+msgstr "**\"不要挂载驱动器\"** 默认值为 **\"假\"**。当您将此设置为 **\"真\"** 时，服务器代理上的本地驱动器将被卸载。"
+
+#: ../../chapter03.rst:684
+msgid "**\"Domain Controller IP or Hostname\"** This setting is empty by default."
+msgstr "**\"域控制器IP或主机名\"** 此设置默认为空。"
+
+#: ../../chapter03.rst:686
+msgid ""
+"**\"Enable In-place Open Zip File\"** Default is **\"False\"**. This "
+"field enables in-place editing on files which are in zipped folders in "
+"the cloud. You can also specify the maximum size for zipped files that "
+"are allowed for In-place editing."
+msgstr "**\"启用原地打开压缩文件\"** 默认值为 **\"False\"**。此字段允许在云中的压缩文件夹里对文件进行原地编辑。您还可以指定允许进行原地编辑的压缩文件的最大大小。"
+
+#: ../../chapter03.rst:688
+msgid ""
+"**\"Max Size of Zip File Allowed to Open Inplace\"** This is **\"20\"** "
+"by default. Use this field to set the maximum size of Zip Files that can "
+"be opened inside the Cloud Drive in MB."
+msgstr "**\"允许就地打开的 Zip 文件的最大大小\"** 默认为 **\"20\"**。使用此字段来设置可以在云盘中打开的 Zip 文件的最大大小（以MB为单位）。"
+
+#: ../../chapter03.rst:690
+msgid ""
+"**\"Ignore Settings in Group Policy\"** Default is **\"False\"**. When "
+"you set this flag to **\"True\"**, the configured settings in the Web "
+"Portal will be ignored and the settings configured here under "
+"``Settings`` > ``Advanced`` will take precedence."
+msgstr "**“忽略组策略中的设置”** 默认为 **“False”**。当您将此标志设置为 **“True”** 时，Web门户中配置的设置将被忽略，此处 ``设置`` > ``高级`` 下配置的设置将优先。"
+
+#: ../../chapter03.rst:692
+msgid ""
+"**\"Interval to Keep Group Relationship in Cache (Min)\"** The default is"
+" **\"60\"** minutes. This field is a performance optimization setting. "
+"The Server Agent will check the remote requests against the ACL (Access "
+"Control) set on the local files. Most of the times it involves Active "
+"Directory or NT domain group membership checking. The group membership "
+"checking is a CPU intensive work so the result is cached to improve "
+"performance. This controls how long the result will be cached. If users "
+"are not changing group frequently, you can set the interval to a long "
+"period of time."
+msgstr "**\"缓存中保留组关系的时间间隔（分钟）\"** 默认值为 **\"60\"** 分钟。此字段是性能优化设置。服务器代理将根据本地文件上设置的ACL（访问控制）检查远程请求。大多数情况下，它涉及到Active Directory或NT域组成员身份检查。组成员身份检查是一项CPU密集型工作，因此结果会被缓存以提高性能。这个控制项用于设置结果缓存的时长。如果用户不经常更换组，您可以将时间间隔设置为较长的时间。"
+
+#: ../../chapter03.rst:694
+msgid ""
+"**\"Purge File Sys DB Upon Start\"** The default is **\"False\"**. If you"
+" change this setting to True, upon startup the client will purge the "
+"cached cloud storage state file. This allows the client to rebuild the "
+"database as if it is being started for the first time."
+msgstr "**\"启动时清除文件系统数据库\"** 默认值为 **\"False\"**。如果您将此设置更改为True，客户端将在启动时清除缓存的云存储状态文件。这允许客户端重建数据库，就像它是第一次启动一样。"
+
+#: ../../chapter03.rst:696
+msgid ""
+"**\"Upload Hidden Files\"** The default is **\"False\"**. If this flag is"
+" set to **\"True\"** then hidden files will also be uploaded to the "
+"cloud."
+msgstr "**\"上传隐藏文件\"** 默认值为 **\"False\"**。如果此标志设置为 **\"True\"**，则隐藏文件也将被上传到云端。"
+
+#: ../../chapter03.rst:698
+msgid ""
+"**\"Upload System Files\"** The default is **\"False\"**. If this flag "
+"when set to **\"True\"** then system files will also be uploaded to the "
+"cloud."
+msgstr "**\"上传系统文件\"** 默认值为 **\"False\"**。如果此标志设置为 **\"True\"**，则系统文件也会被上传到云端。"
+
+#: ../../chapter03.rst:701
+msgid "Trace"
+msgstr "追踪"
+
+#: ../../chapter03.rst:703
+msgid ""
+"The audit trace log can grow exponentially if not kept under control. As "
+"an administrator you can specify the number of days to keep the audit "
+"trace. **\"Days of Audit Trace to Keep\"** setting is the field to "
+"specify the duration to keep the trace for."
+msgstr "如果不加以控制，审计跟踪日志可能会呈指数级增长。作为管理员，您可以指定保留审计跟踪的天数。**\"保留审计跟踪的天数\"** 设置是用来指定保留跟踪记录时长的字段。"
+
+#: ../../chapter03.rst:705
+msgid ""
+"Trace Level when set to **\"0\"** which is the default does not collect "
+"any traces meaning it is disabled."
+msgstr "当追踪级别设置为 **\"0\"** 时，即为默认值，不会收集任何追踪信息，意味着它是禁用的。"
+
+#: ../../chapter03.rst:707
+msgid "Trace Level 1 – error will collect all the error traces."
+msgstr "跟踪级别1 – 错误将收集所有错误跟踪。"
+
+#: ../../chapter03.rst:709
+msgid "Trace Level 2 – warning will collect warning traces along with errors."
+msgstr "跟踪级别2 – 警告将收集警告跟踪以及错误。"
+
+#: ../../chapter03.rst:711
+msgid ""
+"Trace Level 3 – info will collect errors, warnings, as well as info "
+"traces."
+msgstr "跟踪级别3 – 信息将收集错误、警告以及信息跟踪。"
+
+#: ../../chapter03.rst:713
+msgid ""
+"Trace Level 100 – verbose helps developers to collect detailed traces "
+"which helps them when debugging issues."
+msgstr "跟踪级别100 – 详细模式可以帮助开发者收集详细的跟踪信息，这在调试问题时非常有帮助。"
+
+#: ../../chapter03.rst:716
+msgid ""
+"When it is necessary to collect DebugView trace for debugging purpose, "
+"the Trace Level typically is set to 101."
+msgstr "当需要收集DebugView跟踪以用于调试目的时，跟踪级别通常设置为101。"
+
+#: ../../chapter03.rst:721
+msgid "SETTINGS MANAGER - TRACE"
+msgstr "设置管理器 - 跟踪"
+

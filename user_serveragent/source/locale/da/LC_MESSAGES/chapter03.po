@@ -1,0 +1,1317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Administration and Configuration"
+msgstr "3 Administration og konfiguration"
+
+#: ../../chapter03.rst:6
+msgid ""
+"|prodname| File Server Agent runs as a Windows Service in the background."
+" Since it is a background service, it always runs regardless of the users"
+" logging into the server."
+msgstr "|prodname| File Server Agent kører som en Windows-tjeneste i baggrunden. Da det er en baggrundstjeneste, kører den altid uanset brugernes login på serveren."
+
+#: ../../chapter03.rst:8
+msgid ""
+"The administration of the File Server Agent is done via a Windows "
+"application (the Cloud Server Console). Most of the time, the Cloud "
+"Server Console will launch into the web browser based administration "
+"console."
+msgstr "Administrationen af File Server Agent foregår via en Windows-applikation (Cloud Server Console). Det meste af tiden vil Cloud Server Console starte i administrationskonsollen baseret på webbrowser."
+
+#: ../../chapter03.rst:10
+msgid ""
+"There are two consoles, one on the Web Portal and the other one runs "
+"natively on a local machine. The one on the Web Portal is for general "
+"administration such as managing settings. The native console is for "
+"advanced troubleshooting such as collecting audit traces."
+msgstr "Der er to konsoller, en på Webportalen og den anden kører lokalt på en maskine. Den på Webportalen er til generel administration såsom indstillingsstyring. Den lokale konsol er til avanceret fejlfinding såsom indsamling af revisionsspor."
+
+#: ../../chapter03.rst:12
+msgid ""
+"You need to log into the Windows server's console to use the |prodname| "
+"Server Agent Management Console for administration-related tasks. If you "
+"manage the Windows Server from remote locations, you can use Remote "
+"Desktop, or other remote control tools to access to the Windows server "
+"before you start the |prodname| Server Agent Management Console."
+msgstr "Du skal logge ind på Windows-serverens konsol for at bruge |prodname| Server Agent Management Console til administrationsrelaterede opgaver. Hvis du administrerer Windows-serveren fra fjerne steder, kan du bruge Fjernskrivebord eller andre fjernstyringsværktøjer til at få adgang til Windows-serveren, før du starter |prodname| Server Agent Management Console."
+
+#: ../../chapter03.rst:17
+msgid "3.1 File Server Agent Components"
+msgstr "3.1 Komponenter til filserveragent"
+
+#: ../../chapter03.rst:19
+msgid "There are 3 windows services and 1 windows Application"
+msgstr "Der er 3 Windows-tjenester og 1 Windows-applikation"
+
+#: ../../chapter03.rst:21
+msgid "Cloud Access Service (gladgroupsvc.exe) - This is the main sync service"
+msgstr "Cloud Access Service (gladgroupsvc.exe) - Dette er den primære synkroniseringstjeneste"
+
+#: ../../chapter03.rst:23
+msgid ""
+"File Monitor Service (GladFileMonSvc) - This is responsible for Server "
+"Agent auto upgrade"
+msgstr "Filovervågningstjeneste (GladFileMonSvc) - Dette er ansvarlig for automatisk opgradering af Server Agent"
+
+#: ../../chapter03.rst:25
+msgid ""
+"File System Mounter (gladrmountsvc) - This is mount the Cloud File System"
+" for the Gateway mode"
+msgstr "Fil System Mounter (gladrmountsvc) - Dette er montere Cloud File System for Gateway-tilstand"
+
+#: ../../chapter03.rst:27
+msgid ""
+"Management Console (GtaskMMC.exe) - This is responsible talking to the "
+"background servicer and provide management feedback"
+msgstr "Administrationskonsol (GtaskMMC.exe) - Denne er ansvarlig for at kommunikere med baggrundstjenesten og levere administrationsfeedback"
+
+#: ../../chapter03.rst:31
+msgid ""
+"If GtaskMMC.exe is run with /runlocal /server command line parameter, it "
+"will launch into the local native management console. Otherwise the "
+"/server flag alone will launch the web based console."
+msgstr "Hvis GtaskMMC.exe køres med kommandolinjeparameteren /runlocal /server, vil den starte det lokale native administrationskonsol. Ellers vil /server-flaget alene starte webbaseret konsol."
+
+#: ../../chapter03.rst:36
+msgid "GLADINET CLOUD ACCESS (GCA) SERVICE"
+msgstr "GLADINET CLOUD ACCESS (GCA) SERVICE"
+
+#: ../../chapter03.rst:38
+msgid ""
+"By default the File Server Agent background windows service runs as a "
+"local system account."
+msgstr "Som standard kører File Server Agent baggrundstjenesten som en lokal systemkonto."
+
+#: ../../chapter03.rst:43
+msgid "GCA LOCAL SYSTEM ACCOUNT SERVICE"
+msgstr "GCA LOKAL SYSTEMKONTO SERVICE"
+
+#: ../../chapter03.rst:48
+msgid ""
+"Sometimes the LOCAL SYSTEM account doesn't have permission for the "
+"folders it wants to sync. In this case, the Log-on-as account for the "
+"Cloud Access Service (GladGroupSvc.exe) needs to be changed to a service "
+"account that has full control (read, write, delete, list) permission to "
+"the folder that it wants to sync."
+msgstr "Nogle gange har den LOKALE SYSTEM-konto ikke tilladelse til de mapper, den ønsker at synkronisere. I dette tilfælde skal Log-on-som-kontoen for Cloud Access Service (GladGroupSvc.exe) ændres til en servicekonto, der har fuld kontrol (læse, skrive, slette, liste) tilladelse til mappen, som den ønsker at synkronisere."
+
+#: ../../chapter03.rst:50
+msgid ""
+"In an Active Directory environment, this normally can be changed to a "
+"Domain Admin Service Account."
+msgstr "I et Active Directory-miljø kan dette normalt ændres til en domæneadministrator-tjenestekonto."
+
+#: ../../chapter03.rst:55
+msgid "3.2 Cloud Server Console - Web View"
+msgstr "3.2 Cloud Server-konsol - Webvisning"
+
+#: ../../chapter03.rst:57
+msgid ""
+"|prodname| Cloud Server Console will launch automatically after the "
+"reboot using the Tenant Admin credentials that were used to install the "
+"software."
+msgstr "|prodname| Cloud Server-konsollen vil automatisk starte efter genstart ved brug af de Tenant Admin-legitimationsoplysninger, der blev brugt til at installere softwaren."
+
+#: ../../chapter03.rst:61
+msgid ""
+"File Server Agent is tied to each Tenant, so the Tenant Admin's "
+"credential shall be used to link the File Server Agent to a specific "
+"Tenant."
+msgstr "File Server Agent er knyttet til hver Tenant, så Tenant Admins legitimationsoplysninger skal bruges til at forbinde File Server Agent med en specifik Tenant."
+
+#: ../../chapter03.rst:63
+msgid ""
+"The cluster admin is also the Tenant Admin for the very first Tenant in "
+"the |prodname| system so by default it is a Tenant Admin as well."
+msgstr "Klyngeadministratoren er også Tenant Admin for den allerførste Tenant i |prodname| systemet, så som standard er det også en Tenant Admin."
+
+#: ../../chapter03.rst:67
+msgid ""
+"File Server agent is managed at Tenant level (not per-user level, nor "
+"cluster-level either)"
+msgstr "File Server-agenten styres på Tenant-niveau (ikke på brugerniveau, ej heller på klyngeniveau)"
+
+#: ../../chapter03.rst:70
+msgid "|prodname| Cloud Server Management Console Login:"
+msgstr "|prodname| Cloud Server Management Konsol Login:"
+
+#: ../../chapter03.rst:75
+msgid "MANAGEMENT CONSOLE LOGIN"
+msgstr "STYRINGSKONSOLE LOGIN"
+
+#: ../../chapter03.rst:77
+msgid ""
+"|prodname| Cloud Server Management Console can also be launched from "
+"Windows Start Programs Menu:"
+msgstr "|prodname| Cloud Server Management Console kan også startes fra Windows Start Programmer-menuen:"
+
+#: ../../chapter03.rst:79
+msgid "Launch the Console from the Start Menu."
+msgstr "Start Menu fra Start Menuen."
+
+#: ../../chapter03.rst:84
+msgid "LAUNCH THE CONSOLE"
+msgstr "START KONSOLLET"
+
+#: ../../chapter03.rst:86
+msgid ""
+"After launch, you see several options and tabs at the top of the view, "
+"Device Info is shown below."
+msgstr "Efter opstart ser du flere muligheder og faner i toppen af visningen, Enhedsinfo vises nedenfor."
+
+#: ../../chapter03.rst:91 ../../chapter03.rst:109
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE INFO"
+msgstr "KUNDESTYRINGSPANEL - ENHEDSINFORMATION"
+
+#: ../../chapter03.rst:93
+msgid "You can click on the left tab in the console to see more management items."
+msgstr "Du kan klikke på fanen til venstre i konsollen for at se flere administrationspunkter."
+
+#: ../../chapter03.rst:98
+msgid "ACCESSING THE CONSOLE MENU"
+msgstr "ADGANG TIL KONSOLMENUEN"
+
+#: ../../chapter03.rst:102
+msgid "3.2.1 Device Info"
+msgstr "3.2.1 Enhedsinfo"
+
+#: ../../chapter03.rst:104
+msgid ""
+"The default web console view is the device information panel. It shows "
+"the basic device information such as device name, device operating "
+"system, device version and etc."
+msgstr "Standardvisningen i webkonsollen er enhedsinformationspanelet. Det viser grundlæggende enhedsoplysninger såsom enhedsnavn, enhedsoperativsystem, enhedsversion og lignende."
+
+#: ../../chapter03.rst:112
+msgid ""
+"**Monitor Device Connect Status** - The device may get disconnected from "
+"the Internet for whatever reason, including but not limited to Internet "
+"outage, software crash, background service not running and etc. If the "
+"device is not connected to generate a healthy heart beat connection to "
+"the |prodname| server side software, this setting will generate an email "
+"alert if the device is not actively connected to the tenant acacount. "
+"When this alert is received, it needs to be investigated at high priority"
+" because it will lead to synchronization break-down."
+msgstr "**Overvåg Enhedsforbindelsesstatus** - Enheden kan blive afbrudt fra internettet af forskellige årsager, herunder men ikke begrænset til internetnedbrud, softwarenedbrud, baggrundstjeneste kører ikke og lignende. Hvis enheden ikke er forbundet til at generere en sund hjerteslagsforbindelse til |prodname| server softwaren, vil denne indstilling generere en e-mail alarm, hvis enheden ikke er aktivt forbundet til lejerens konto. Når denne alarm modtages, skal den undersøges med høj prioritet, fordi det vil føre til nedbrud i synkroniseringen."
+
+#: ../../chapter03.rst:120
+msgid "3.2.2 CIFS Shares"
+msgstr "3.2.2 CIFS-andele"
+
+#: ../../chapter03.rst:122
+msgid ""
+"CIFS (Common Internet File System) shares refers to Windows Network "
+"Shares that are available on the File Server Agent machine. CIFS shares "
+"or SMB (Server Message Block) shares are used interchangably here."
+msgstr "CIFS (Common Internet File System) shares henviser til Windows Network Shares, der er tilgængelige på File Server Agent-maskinen. CIFS-shares eller SMB (Server Message Block) shares bruges her udskifteligt."
+
+#: ../../chapter03.rst:127
+msgid "CIFS SHARES"
+msgstr "CIFS SHARES"
+
+#: ../../chapter03.rst:129
+msgid ""
+"You can start migrating file server network shares from the current "
+"machine to |prodname|."
+msgstr "Du kan begynde at migrere fildelingsnetværk fra den nuværende maskine til |prodname|."
+
+#: ../../chapter03.rst:133
+msgid ""
+"Migration means setup two-way synchronization between the local folder "
+"and the remote |prodname| Server. It is a hybrid cloud configuration "
+"started by default. Over time, you may want to stop the local folder and "
+"go cloud only. That is reserved for future if you select to do so. Out of"
+" the box it is setup as a two-way synchronization folder for each CIFS "
+"share selected."
+msgstr "Migration betyder at opsætte tovejs synkronisering mellem den lokale mappe og den fjernbetjente |prodname| Server. Det er en hybrid cloud-konfiguration, der starter som standard. Over tid kan du ønske at stoppe den lokale mappe og kun gå til skyen. Det er reserveret til fremtiden, hvis du vælger at gøre det. Ud af boksen er det opsat som en tovejs synkroniseringsmappe for hver CIFS-andel valgt."
+
+#: ../../chapter03.rst:139
+msgid "MIGRATE A SHARE"
+msgstr "MIGRER EN SHARE"
+
+#: ../../chapter03.rst:143
+msgid ""
+"The net result of migration is that you can access the files and folders "
+"from both the local file server and also the |prodname| side. Files "
+"changes on both side will synchronize to the other side. It is a hybrid "
+"local/cloud mode. Also when migration works on CIFS share (network "
+"share), optionally the local folder's NTFS permission can be replicated "
+"and synchronized to cloud side, while the local Active Directory users "
+"can be synchronized to cloud side."
+msgstr "Det endelige resultat af migrationen er, at du kan få adgang til filer og mapper fra både den lokale filserver og også |prodname| siden. Filændringer på begge sider vil synkronisere til den anden side. Det er en hybrid lokal/sky-tilstand. Desuden, når migrationen fungerer på CIFS-share (netværksdeling), kan den lokale mappes NTFS-tilladelser valgfrit replikeres og synkroniseres til sky-siden, mens de lokale Active Directory-brugere kan synkroniseres til sky-siden."
+
+#: ../../chapter03.rst:148
+msgid "Migrate"
+msgstr "Migrer"
+
+#: ../../chapter03.rst:150
+msgid ""
+"Clicking on the migrate link button will start the migration process on a"
+" specific network share. Normally when the File Server Agent and the "
+"|prodname| Server are on two completely different locations, the "
+"**\"Direct Access\"** option will not be shown. The **\"Two Way Sync\"** "
+"will be the only option."
+msgstr "Ved at klikke på linkknappen for migrering vil starte migreringsprocessen på en specifik netværksdeling. Normalt når File Server Agent og |prodname| Server er på to helt forskellige steder, vil muligheden for **\"Direkte Adgang\"** ikke blive vist. **\"Tovejs Synkronisering\"** vil være den eneste mulighed."
+
+#: ../../chapter03.rst:155
+msgid "MIGRATION OF DATA AND PERMISSIONS"
+msgstr "MIGRATION AF DATA OG TILLADELSER"
+
+#: ../../chapter03.rst:159
+msgid "3.2.3 Attached Folders"
+msgstr "3.2.3 Vedhæftede mapper"
+
+#: ../../chapter03.rst:162
+msgid "How to Attach a Folder"
+msgstr "Sådan vedhæfter du en mappe"
+
+#: ../../chapter03.rst:164
+msgid ""
+"Attached folders, are folders on the local machine and can be "
+"synchronized to |prodname| and kept synchronized in a bi-directional way."
+msgstr "Vedhæftede mapper er mapper på den lokale maskine og kan synkroniseres til |prodname| og holdes synkroniseret på en tovejs måde."
+
+#: ../../chapter03.rst:166
+msgid ""
+"The Attached Folder section allows you to browse into the machine's file "
+"structure and pick a folder to synchronize. In the Console drop-down "
+"menu, select **\"Attached Folders\"**."
+msgstr "Sektionen 'Vedhæftede Mapper' giver dig mulighed for at navigere i maskinens filstruktur og vælge en mappe til synkronisering. I rullemenuen 'Konsol', vælg **\"Vedhæftede Mapper\"**."
+
+#: ../../chapter03.rst:171
+msgid "ATTACHED FOLDERS"
+msgstr "VEDHÆFTEDE MAPPER"
+
+#: ../../chapter03.rst:173
+msgid "In the new view click the Attach Folder icon."
+msgstr "I det nye visning klik på ikonet Tilføj mappe."
+
+#: ../../chapter03.rst:178
+msgid "ATTACH FOLDER BUTTON"
+msgstr "VEDHÆFT MAPPE-KNAP"
+
+#: ../../chapter03.rst:181
+msgid ""
+"In the folder selection view **(1)**, double click the drive **(2)** and "
+"navigate to the folder you wish to share. When you choose a folder, its "
+"path will appear in the Location field **(3)** and you should enter a "
+"name for your share in the Name field **(4)**. Click **\"ATTACH\"** to "
+"complete the process."
+msgstr "I mappevalgvisningen **(1)**, dobbeltklik på drevet **(2)** og naviger til den mappe, du ønsker at dele. Når du vælger en mappe, vil dens sti blive vist i Placeringsfeltet **(3)**, og du skal indtaste et navn til din deling i Navnefeltet **(4)**. Klik på **\"VEDHÆFT\"** for at fuldføre processen."
+
+#: ../../chapter03.rst:186
+msgid "ATTACHING A FOLDER"
+msgstr "VEDHÆFTNING AF EN MAPPE"
+
+#: ../../chapter03.rst:189
+msgid "Filter Button"
+msgstr "Filterknap"
+
+#: ../../chapter03.rst:191
+msgid ""
+"Using the Filter Button **(1)**, you can set some of your folders to be "
+"excluded from being synchronized. To accomplish this, after you click the"
+" **Filter** button, click the **(+)** button **(2)** and explore to a "
+"folder you wish to exclude. In this example, it is a sub-folder **(3)** "
+"of the **SA Share** folder."
+msgstr "Ved at bruge Filterknappen **(1)** kan du indstille nogle af dine mapper til at blive udelukket fra at blive synkroniseret. For at gøre dette, efter du har klikket på **Filter** knappen, klik på **(+)** knappen **(2)** og naviger til en mappe, du ønsker at udelukke. I dette eksempel er det en undermappe **(3)** i **SA Share** mappen."
+
+#: ../../chapter03.rst:196
+msgid "FILTER BUTTON"
+msgstr "FILTER KNAP"
+
+#: ../../chapter03.rst:199
+msgid "Diagnostic Button"
+msgstr "Diagnostisk knap"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Diagnostic Button **(2)** can be used to **\"Compare\"** the cloud "
+"folder and the local network folder to determine if the y are the same. "
+"This is important to make sure that the local folder has been completely "
+"mirrored to the cloud."
+msgstr "Diagnostikknap **(2)** kan bruges til at **\"Sammenligne\"** cloud-mappen og den lokale netværksmappe for at afgøre, om de er ens. Dette er vigtigt for at sikre, at den lokale mappe er blevet fuldstændig spejlet til skyen."
+
+#: ../../chapter03.rst:206
+msgid "DIAGNOSTIC BUTTON"
+msgstr "DIAGNOSTISK KNAP"
+
+#: ../../chapter03.rst:210
+msgid "Stop-Sync Button"
+msgstr "Stop-Synkroniseringsknap"
+
+#: ../../chapter03.rst:212
+msgid ""
+"The Stop-Sync Button can be used to stop the synchronization between the "
+"folder from the Server Agent and the attached folder in the cloud. This "
+"is something you might want to do when all the users are accessing the "
+"folder from the cloud and no longer need local network access to the "
+"original folder. After the stop-sync, the local file changes are local "
+"changes, not related to cloud; and vise-versa, the file changes in the "
+"cloud will not be related to the local files, they are just two separate "
+"independent entities."
+msgstr "Stop-Sync-knappen kan bruges til at stoppe synkroniseringen mellem mappen fra Server Agent og den tilknyttede mappe i skyen. Dette er noget, du måske vil gøre, når alle brugerne tilgår mappen fra skyen og ikke længere har brug for lokalnetværksadgang til den oprindelige mappe. Efter stop-synkroniseringen er lokale filændringer lokale ændringer, ikke relateret til skyen; og omvendt vil filændringer i skyen ikke være relateret til de lokale filer, de er bare to separate uafhængige enheder."
+
+#: ../../chapter03.rst:217
+msgid ""
+"Stop-Sync is different from detach a previously attached folder. When a "
+"folder is detached, not only it stop-sync, but also the cloud side folder"
+" will be hidden and subject to retention policy for purge in the near "
+"future. So if your use case is to continue to use the files and folders "
+"from the cloud side and cloud side only, you want to do a stop-sync "
+"instead of doing a detach-folder."
+msgstr "Stop-Sync er anderledes end at frakoble en tidligere tilknyttet mappe. Når en mappe frakobles, stopper den ikke kun synkroniseringen, men den tilsvarende mappe på cloud-siden vil også blive skjult og underlagt en bevarelsespolitik for snarlig sletning. Så hvis dit brugstilfælde er at fortsætte med at bruge filerne og mapperne fra cloud-siden og kun cloud-siden, vil du foretage en stop-synkronisering i stedet for at frakoble en mappe."
+
+#: ../../chapter03.rst:227
+msgid "STOP-SYNC BUTTON"
+msgstr "STOP-SYNKRONISERING KNAP"
+
+#: ../../chapter03.rst:232
+msgid ""
+"What is the difference between Import a CIFS Share and attach a folder to"
+" |prodname|?"
+msgstr "Hvad er forskellen mellem at importere en CIFS Share og at vedhæfte en mappe til |prodname|?"
+
+#: ../../chapter03.rst:234
+msgid ""
+"First of all, both maintain bi-directional synchronization. The key "
+"difference is \"Import CIFS Share\" will also import folder permission to"
+" |prodname|, while Attached Folder only synchronize folders without "
+"synchronize permissions."
+msgstr "Først og fremmest opretholder begge bi-direktionel synkronisering. Den væsentlige forskel er, at \"Importér CIFS Share\" også vil importere mappe tilladelser til |prodname|, mens Tilføjet Mappe kun synkroniserer mapper uden at synkronisere tilladelser."
+
+#: ../../chapter03.rst:236
+msgid "Under the hood, both are **\"Attached Folders\"**."
+msgstr "Under the hood, begge er **\"Vedhæftede mapper\"**."
+
+#: ../../chapter03.rst:238
+msgid "\"Import CIFS Share\" = \"Attached Folder\" + \"Sync NTFS Permission\""
+msgstr "\"Importér CIFS-share\" = \"Vedhæftet mappe\" + \"Synkroniser NTFS-tilladelser\""
+
+#: ../../chapter03.rst:242 ../../chapter03.rst:600
+msgid "Offline Folders"
+msgstr "Offline mapper"
+
+#: ../../chapter03.rst:244
+msgid ""
+"You can mark folders as offline. Offline folders will be pre-fetched to "
+"the local machine. Files changed remotely in the offline folders will "
+"also be pre-fetched to local machine."
+msgstr "Du kan markere mapper som offline. Offline-mapper vil blive forhåndsindlæst på den lokale maskine. Filer, der ændres fjernbetjening i de offline mapper, vil også blive forhåndsindlæst på den lokale maskine."
+
+#: ../../chapter03.rst:246
+msgid ""
+"To access this feature, click the **\"Offline Folders\"** icon **(1)**. "
+"Then click he **(+)** icon **(2)** on the right side of the Offline "
+"Folders screen. In the explorer, navigate to the folder you wish to "
+"\"Offline\" and select it **(3)**. Then click **\"ENABLE OFFLINE "
+"ACCESS\"** **(4)** to complete the process."
+msgstr "For at få adgang til denne funktion, klik på ikonet **\"Offline Mapper\"** **(1)**. Klik derefter på **(+)** ikonet **(2)** på højre side af Offline Mapper-skærmen. I stifinderen navigerer du til den mappe, du ønsker at gøre \"Offline\" og vælger den **(3)**. Klik derefter på **\"AKTIVÉR OFFLINE ADGANG\"** **(4)** for at fuldføre processen."
+
+#: ../../chapter03.rst:251
+msgid "CHOOSING A FOLDER FOR OFFLINE ACCESS"
+msgstr "VALG AF MAPPE TIL OFFLINE ADGANG"
+
+#: ../../chapter03.rst:255
+msgid "When to use offline folder?"
+msgstr "Hvornår skal man bruge offline mappe?"
+
+#: ../../chapter03.rst:257
+msgid ""
+"When you have files and folders that you use frequently, you want to keep"
+" them local to the local file server, you can enable offline folder."
+msgstr "Når du har filer og mapper, som du bruger ofte, og du ønsker at holde dem lokale på den lokale filserver, kan du aktivere offline mappe."
+
+#: ../../chapter03.rst:260
+#, python-format
+msgid ""
+"Usually you use the offline folder for the gateway mode. When you use "
+"\"Migrate CIFS share\" or when you use \"Attach Folder\", the files and "
+"folders by default are local so there is no need to enable offline folder"
+" for this use case since files are 100% off-line from attached folders."
+msgstr "Normalt bruger du offline-mappen til gateway-tilstand. Når du bruger \"Migrer CIFS-share\" eller når du bruger \"Vedhæft mappe\", er filer og mapper som standard lokale, så der er ikke behov for at aktivere offline-mappe for dette brugstilfælde, da filer er 100% offline fra vedhæftede mapper."
+
+#: ../../chapter03.rst:266
+msgid "Local File Lock"
+msgstr "Lokal Fil Låsning"
+
+#: ../../chapter03.rst:268
+msgid "Local File Lock section will show locked files from the local file server."
+msgstr "Sektionen Lokal Fil Låsning vil vise låste filer fra den lokale filserver."
+
+#: ../../chapter03.rst:273 ../../chapter03.rst:284
+msgid "LOCKED FILES"
+msgstr "LÅSTE FILER"
+
+#: ../../chapter03.rst:277
+msgid "Locked Files"
+msgstr "Låste filer"
+
+#: ../../chapter03.rst:279
+msgid ""
+"Locked files section will show locked files from the |prodname| Server, "
+"and provides information about who owns the file that is locked. "
+"Information shown includes: File Owner, File Path, Locked From, Type and "
+"Locked Time."
+msgstr "Sektionen for låste filer vil vise låste filer fra |prodname| Serveren og giver information om, hvem der ejer den låste fil. Oplysningerne omfatter: Filindehaver, Filsti, Låst Fra, Type og Låsetidspunkt."
+
+#: ../../chapter03.rst:288
+msgid "Pending Check-ins"
+msgstr "Afventende Check-ins"
+
+#: ../../chapter03.rst:290
+msgid ""
+"Pending check-ins will show files that are manually checked out from the "
+"local machine but haven't checked-in yet."
+msgstr "Ventende check-ins vil vise filer, der er manuelt tjekket ud fra den lokale maskine, men som endnu ikke er tjekket ind."
+
+#: ../../chapter03.rst:295
+msgid "PENDING CHECK-INS"
+msgstr "VENTENDE INDTJEKNINGER"
+
+#: ../../chapter03.rst:299
+msgid "3.2.4 Settings"
+msgstr "3.2.4 Indstillinger"
+
+#: ../../chapter03.rst:301
+msgid ""
+"Settings Manager section will show client settings that can be changed "
+"and managed from the web console."
+msgstr "Indstillingsmanagersektionen vil vise klientindstillinger, der kan ændres og administreres fra webkonsollen."
+
+#: ../../chapter03.rst:306
+msgid "SETTINGS MANAGER"
+msgstr "INDSTILLINGSMANAGER"
+
+#: ../../chapter03.rst:310
+msgid "3.2.5 Task Manager"
+msgstr "3.2.5 Opgavehåndtering"
+
+#: ../../chapter03.rst:312
+msgid ""
+"Task Manager section will show the synchronization tasks that are running"
+" on the local machine. If there is a number on **\"Pending Tasks\"** or "
+"**\"Failed Tasks\"** you can click the text links next to those numbers "
+"to open a window that shows the tasks currently in progress. There are "
+"**\"PAUSE\"** and **\"START\"** buttons available on the left side of "
+"each of the task bars as well."
+msgstr "Task Manager-sektionen vil vise de synkroniseringsopgaver, der kører på den lokale maskine. Hvis der er et tal ved **\"Ventende Opgaver\"** eller **\"Fejlede Opgaver\"**, kan du klikke på tekstlinksene ved siden af disse tal for at åbne et vindue, der viser de opgaver, der er i gang. Der er også **\"PAUSE\"** og **\"START\"** knapper tilgængelige på venstre side af hver af opgavelinjerne."
+
+#: ../../chapter03.rst:317
+msgid "TASK MANAGER"
+msgstr "OPGAVESTYRER"
+
+#: ../../chapter03.rst:321
+msgid "3.2.6 Migrate CIFS SHARES"
+msgstr "3.2.6 Migrer CIFS SHARES"
+
+#: ../../chapter03.rst:323
+msgid ""
+"Migrate CIFS Shares can be accessed from the Console menu or the "
+"**\"MIGRATE CIFS SHARES\"** text link. You can pick a network share on "
+"the local server and synchronize it to the cluster server. As explained "
+"above, this is how you migrate a folder and its NTFS permissions at the "
+"same time."
+msgstr "Migrer CIFS Shares kan tilgås fra konsolmenuen eller tekstlinket **\"MIGRER CIFS SHARES\"**. Du kan vælge en netværksdeling på den lokale server og synkronisere den med klynge-serveren. Som forklaret ovenfor, er dette hvordan du migrerer en mappe og dens NTFS-tilladelser på samme tid."
+
+#: ../../chapter03.rst:328
+msgid "MIGRATE CIFS SHARES"
+msgstr "MIGRER CIFS-AKTIER"
+
+#: ../../chapter03.rst:332
+msgid "3.2.7 Migrate Users"
+msgstr "3.2.7 Migrer brugere"
+
+#: ../../chapter03.rst:334
+msgid ""
+"Migrate users can import Active Directory users or local users to the "
+"|prodname| side as cloud users, while maintaining the same credentials as"
+" the local user."
+msgstr "Migrer brugere kan importere Active Directory-brugere eller lokale brugere til |prodname|-siden som cloudbrugere, samtidig med at de bevarer de samme legitimationsoplysninger som den lokale bruger."
+
+#: ../../chapter03.rst:339
+msgid "MIGRATE USERS"
+msgstr "MIGRER BRUGERE"
+
+#: ../../chapter03.rst:344
+msgid "3.3 Cloud Server Console - Native"
+msgstr "3.3 Cloud Server Konsol - Nativ"
+
+#: ../../chapter03.rst:346
+msgid ""
+"You can launch the native management console from the program's "
+"installation folder. From the Command Prompt use the following command, "
+"``C:\\\\Program Files\\\\Gladinet\\\\Cloud Server Agent>gtaskmmc "
+"/runlocal /server``"
+msgstr "Du kan starte den indfødte administrationskonsol fra programmets installationsmappe. Fra kommandoprompten brug følgende kommando, ``C:\Program Files\Gladinet\Cloud Server Agent>gtaskmmc /runlocal /server``"
+
+#: ../../chapter03.rst:351
+msgid "LAUNCHING THE NATIVE MANAGEMENT CONSOLE"
+msgstr "START AF DEN NATIVE STYRINGSCONSOLE"
+
+#: ../../chapter03.rst:353
+msgid ""
+"Once you have logged in the Native Console will open. This gives you "
+"local access to Server Agent settings."
+msgstr "Når du er logget ind, åbnes Native Console. Dette giver dig lokal adgang til Server Agent-indstillinger."
+
+#: ../../chapter03.rst:358
+msgid "NATIVE MANAGEMENT CONSOLE"
+msgstr "NATIV STYRINGSPANEL"
+
+#: ../../chapter03.rst:362
+msgid "3.3.1 Task Manager"
+msgstr "3.3.1 Opgavehåndtering"
+
+#: ../../chapter03.rst:364
+msgid "Task Manager shows all the system related tasks."
+msgstr "Opgavehåndtering viser alle systemrelaterede opgaver."
+
+#: ../../chapter03.rst:366
+msgid "You can also use the **\"Open My Cloud\"** link to access the Login Panel."
+msgstr "Du kan også bruge linket **\"Åbn Min Cloud\"** for at få adgang til loginpanelet."
+
+#: ../../chapter03.rst:368
+msgid ""
+"Each of the Task Manager sections below include a series of tabs that "
+"include the following:"
+msgstr "Hver af nedenstående afsnit i Opgavehåndteringen indeholder en række faner, der omfatter følgende:"
+
+#: ../../chapter03.rst:370
+msgid "**'Summary'**"
+msgstr "**'Resumé'**"
+
+#: ../../chapter03.rst:372
+msgid ""
+"This tab shows a summary of all the **\"System Update Tasks\"**. It shows"
+" the **\"Task Type\"** where the type is the name of the task. It shows "
+"the 'Status' as **\"Pending\"** which means that the **\"System Update "
+"Task\"** is always looking for changes and is always in **\"Pending\"** "
+"state in case there are any updates that needs to occur."
+msgstr "Denne fane viser et resumé af alle **\"Systemopdateringsopgaver\"**. Den viser **\"Opgavetype\"**, hvor typen er navnet på opgaven. Den viser 'Status' som **\"Afventer\"**, hvilket betyder, at **\"Systemopdateringsopgaven\"** altid søger efter ændringer og altid er i **\"Afventer\"** tilstand i tilfælde af, at der er opdateringer, der skal foretages."
+
+#: ../../chapter03.rst:374
+msgid "Summary also shows the following:"
+msgstr "Oversigten viser også følgende:"
+
+#: ../../chapter03.rst:376
+msgid "**'Last Run Time'**"
+msgstr "**'Sidste kørselstid'**"
+
+#: ../../chapter03.rst:378
+msgid ""
+"This shows the time when the Server Agent software last detected the "
+"changes on the local file system and ran to update the files in the "
+"cloud."
+msgstr "Dette viser tidspunktet for, hvornår Server Agent-softwaren sidst registrerede ændringer på det lokale filsystem og kørte for at opdatere filerne i skyen."
+
+#: ../../chapter03.rst:380
+msgid "**'Next Start Time'**"
+msgstr "**'Næste starttidspunkt'**"
+
+#: ../../chapter03.rst:382
+msgid ""
+"This shows the time when the **\"Update Task\"** will run next. The "
+"counter increments every 15 seconds. The software will run the update "
+"tasks right away. You can also use the **\"Pause\"** option to stop the "
+"update Administrator can force the updates by clicking on **\"Start "
+"Now\"** option in which case the task from updating local changes to the "
+"cloud. **\"Delete Task\"** option allows to delete any tasks for which "
+"updates are not desired. **\"Refresh\"** will refresh all the counters on"
+" the 'Summary' tab."
+msgstr "Dette viser tidspunktet for, hvornår **\"Opdater Opgave\"** vil køre næste gang. Tælleren forøges hvert 15. sekund. Softwaren vil udføre opdateringsopgaverne med det samme. Du kan også bruge **\"Pause\"**-muligheden til at stoppe opdateringen. Administratoren kan tvinge opdateringerne igennem ved at klikke på **\"Start nu\"**-muligheden, i hvilket tilfælde opgaven med at opdatere lokale ændringer til skyen vil blive udført. **\"Slet Opgave\"**-muligheden tillader at slette eventuelle opgaver, for hvilke opdateringer ikke er ønskede. **\"Opdater\"** vil opdatere alle tællere på 'Oversigt'-fanen."
+
+#: ../../chapter03.rst:384
+msgid "**'Completed Subtasks'**"
+msgstr "**'Fuldførte delopgaver'**"
+
+#: ../../chapter03.rst:386
+msgid "This shows the number of upload subtasks that have been completed."
+msgstr "Dette viser antallet af upload-underopgaver, der er blevet fuldført."
+
+#: ../../chapter03.rst:388
+msgid "**'Running Subtasks'**"
+msgstr "**'Kørende Underopgaver'**"
+
+#: ../../chapter03.rst:390
+msgid ""
+"This shows how many subtasks are currently running. (See Tab for more "
+"info)"
+msgstr "Dette viser, hvor mange underopgaver der kører i øjeblikket. (Se fane for mere info)"
+
+#: ../../chapter03.rst:392
+msgid "**'Pending Subtasks'**"
+msgstr "**'Afventende delopgaver'**"
+
+#: ../../chapter03.rst:394
+msgid ""
+"This shows the subtasks which are in pending state and waiting for their "
+"turn to get uploaded to the cloud. (See Tab for more info)"
+msgstr "Dette viser de underopgaver, som er i ventende tilstand og venter på deres tur til at blive uploadet til skyen. (Se fane for mere info)"
+
+#: ../../chapter03.rst:396
+msgid "**'Pending Retry Subtasks'**"
+msgstr "**'Afventer gentagelse af underopgaver'**"
+
+#: ../../chapter03.rst:398
+msgid ""
+"This shows the number of any tasks which are pending retry meaning for "
+"some reason the changes for some files were not uploaded to the cloud and"
+" hence they are in the **\"Pending Retry Subtasks\"** queue and as soon "
+"as their turn comes the changes for files in **\"Pending Retry "
+"Subtasks**\" will also be uploaded to the cloud. (See Tab for more info)"
+msgstr "Dette viser antallet af opgaver, som afventer genforsøg, hvilket betyder, at ændringerne for nogle filer af en eller anden grund ikke blev uploadet til skyen, og derfor er de i køen for **\"Afventer Genforsøgsopgaver\"**, og så snart det bliver deres tur, vil ændringerne for filerne i **\"Afventer Genforsøgsopgaver\"** også blive uploadet til skyen. (Se faneblad for mere info)"
+
+#: ../../chapter03.rst:400
+msgid "**'Trace'**"
+msgstr "**'Spor'**"
+
+#: ../../chapter03.rst:402
+msgid "This tab provides trace information about tasks. (See Tab for more info)"
+msgstr "Denne fane giver sporingsoplysninger om opgaver. (Se fane for mere info)"
+
+#: ../../chapter03.rst:408
+msgid "SYSTEM SYNC TASK - TRACE"
+msgstr "SYSTEM SYNC OPGAVE - SPORING"
+
+#: ../../chapter03.rst:410
+msgid ""
+"The **\"Trace\"** tab in the **\"System Sync Task\"** lists all the "
+"uploading, downloading, and monitoring tasks."
+msgstr "Fanen **\"Sporing\"** i **\"System Sync-opgave\"** lister alle opgaver for upload, download og overvågning."
+
+#: ../../chapter03.rst:413
+msgid "System Related Tasks"
+msgstr "Systemrelaterede opgaver"
+
+#: ../../chapter03.rst:418
+msgid "SYSTEM RELATED TASKS"
+msgstr "SYSTEMRELATEREDE OPGAVER"
+
+#: ../../chapter03.rst:421
+msgid "System Sync Task"
+msgstr "System Synkroniseringsopgave"
+
+#: ../../chapter03.rst:426
+msgid "SYSTEM SYNC TASK"
+msgstr "SYSTEM SYNKRONISERINGSOPGAVE"
+
+#: ../../chapter03.rst:428
+msgid ""
+"It is the master sync task and its job is to keep an eye on both local "
+"file changes and file changes that are done in the cloud. This is the "
+"task which triggers the **\"System Update Task\"** or the **\"System Sync"
+" Down Task\"**."
+msgstr "Det er hovedsynkroniseringsopgaven, og dens job er at holde øje med både lokale filændringer og filændringer, der er foretaget i skyen. Dette er opgaven, som udløser **\"Systemopdateringsopgaven\"** eller **\"System Synkroniser Ned-opgaven\"**."
+
+#: ../../chapter03.rst:431
+msgid "System Sync Down Task"
+msgstr "System Sync Ned Opgave"
+
+#: ../../chapter03.rst:436
+msgid "SYSTEM SYNC DOWN TASK"
+msgstr "SYSTEM SYNKRONISERING NED OPGAVE"
+
+#: ../../chapter03.rst:438
+msgid ""
+"It performs the exact same tasks as the **\"System Update Task\"** but "
+"its job is to ensure that the changes that are done to the files in the "
+"cloud are automatically synced down to the file server. The **\"System "
+"Update Task\"** and the **\"System Sync Down Task\"** are what provides "
+"the mirroring or two-way sync between the local files on the cloud server"
+" and the files in the cloud."
+msgstr "Den udfører nøjagtigt de samme opgaver som **\"Systemopdateringsopgaven\"**, men dens job er at sikre, at de ændringer, der er foretaget til filerne i skyen, automatisk synkroniseres ned til filserveren. **\"Systemopdateringsopgaven\"** og **\"Systemsynkroniseringsopgaven ned\"** er det, der giver spejlingen eller tovejssynkroniseringen mellem de lokale filer på skyserveren og filerne i skyen."
+
+#: ../../chapter03.rst:441
+msgid "System Update Task"
+msgstr "Systemopdateringsopgave"
+
+#: ../../chapter03.rst:446
+msgid "SYSTEM UPDATE TASK"
+msgstr "SYSTEMOPDATERINGSOPGAVE"
+
+#: ../../chapter03.rst:448
+msgid ""
+"It shows all system related update tasks. Server Agent software checks "
+"the local file system every 15 seconds and when it notices the changes to"
+" the files, the changed files will be added to the upload queue. The real"
+" upload time depends on how big the upload queue is and if there is only "
+"one file with the changes, the changes to the file will be uploaded to "
+"the cloud in 15 seconds."
+msgstr "Den viser alle systemrelaterede opdateringsopgaver. Server Agent-softwaren tjekker det lokale filsystem hvert 15. sekund, og når den bemærker ændringer i filerne, vil de ændrede filer blive tilføjet til uploadkøen. Den reelle uploadtid afhænger af, hvor stor uploadkøen er, og hvis der kun er én fil med ændringer, vil ændringerne til filen blive uploadet til skyen inden for 15 sekunder."
+
+#: ../../chapter03.rst:451
+msgid "Edit Account Information"
+msgstr "Rediger kontoinformation"
+
+#: ../../chapter03.rst:456
+msgid "EDIT ACCOUNT INFORMATION"
+msgstr "REDIGER KONTOINFORMATION"
+
+#: ../../chapter03.rst:458
+msgid ""
+"This link at the bottom allows you to **Login with different "
+"credentials** to launch the Cloud Server Console and perform management "
+"related tasks."
+msgstr "Dette link nederst giver dig mulighed for at **Logge ind med forskellige legitimationsoplysninger** for at starte Cloud Server-konsollen og udføre opgaver relateret til styring."
+
+#: ../../chapter03.rst:462
+msgid "3.3.2 File Server"
+msgstr "3.3.2 Filserver"
+
+#: ../../chapter03.rst:467
+msgid "FILE SERVER"
+msgstr "FILE SERVER"
+
+#: ../../chapter03.rst:469
+msgid ""
+"**\"File Server\"** shows all the data that have been uploaded to the "
+"cloud and the files and folder structure. It lists folder structure which"
+" includes sub-folders as well. The local folders that are attached either"
+" from the file server or a user's machine have the machine name in "
+"parenthesis."
+msgstr "**\"File Server\"** viser alle de data, der er blevet uploadet til skyen, samt filer og mappestrukturen. Den viser mappestrukturen, som også inkluderer undermapper. De lokale mapper, der er tilknyttet enten fra filserveren eller en brugers maskine, har maskinnavnet i parentes."
+
+#: ../../chapter03.rst:471
+msgid ""
+"An Administrator can create a new sub-folder below selected node or can "
+"attach additional local folders using the **\"Attach Local Folder\"** "
+"option under **\"Actions\"**. Attaching a local folder to |prodname| "
+"Cloud using the **\"Attach Local Folder\"** option allows immediate "
+"access to the local content from anywhere using any device. **\"Attached "
+"Local Folder\"** will be synchronized upwards to the cloud first and also"
+" the changes in the cloud will be sync down to the local file server."
+msgstr "En administrator kan oprette en ny undermappe under det valgte node eller kan tilknytte yderligere lokale mapper ved hjælp af **\"Vedhæft lokal mappe\"** muligheden under **\"Handlinger\"**. At tilknytte en lokal mappe til |prodname| Cloud ved hjælp af **\"Vedhæft lokal mappe\"** muligheden giver øjeblikkelig adgang til det lokale indhold fra hvor som helst ved brug af enhver enhed. **\"Vedhæftet lokal mappe\"** vil først blive synkroniseret opad til skyen og også ændringer i skyen vil blive synk ned til den lokale filserver."
+
+#: ../../chapter03.rst:473
+msgid ""
+"Administrator can also highlight an existing cloud folder and create new "
+"sub-folders underneath that highlighted folder."
+msgstr "Administratoren kan også fremhæve en eksisterende sky-mappe og oprette nye undermapper under den fremhævede mappe."
+
+#: ../../chapter03.rst:476
+msgid ""
+"The two-way synchronization feature of the **\"Attach Local Folder\"** "
+"only applies to local folders such as those on the C: drive, D: drive and"
+" local hard drives in general. It won't work for network share. The two-"
+"way synchronization depends on the local file system's event change "
+"notification about files and folders. These changes will be detected and "
+"synchronization will happen based on the changes."
+msgstr "Den tovejs synkroniseringsfunktion af **\"Vedhæft Lokal Mappe\"** gælder kun for lokale mapper såsom dem på C:-drevet, D:-drevet og lokale harddiske generelt. Det vil ikke fungere for netværksdeling. Den tovejs synkronisering afhænger af det lokale filsystems hændelsesændringsmeddelelse om filer og mapper. Disse ændringer vil blive opdaget, og synkronisering vil ske baseret på ændringerne."
+
+#: ../../chapter03.rst:478
+msgid ""
+"An administrator can also manage the folder using Web Portal by using the"
+" **\"Manage\"** option. This will allow an admin to convert any folders "
+"that have been attached to the cloud or are in the cloud to convert them "
+"into **\"Team Folders\"** for collaboration etc. Highlight the folder and"
+" select **\"Manage\"** under **\"Actions\"**."
+msgstr "En administrator kan også administrere mappen ved hjælp af Web Portal ved at bruge **\"Administrer\"** muligheden. Dette vil tillade en admin at konvertere eventuelle mapper, der er tilknyttet skyen eller er i skyen, til at konvertere dem til **\"Team Mapper\"** til samarbejde osv. Fremhæv mappen og vælg **\"Administrer\"** under **\"Handlinger\"**."
+
+#: ../../chapter03.rst:483
+msgid "FILE SERVER - MANAGE FOLDER IN WEB PORTAL"
+msgstr "FILSERVER - HÅNDTER MAPPE I WEBPORTAL"
+
+#: ../../chapter03.rst:485
+msgid ""
+"In the Manage Folder view, you must add collaborators to make this a team"
+" folder. The pop-up lets you choose a source for your users/groups; "
+"either Existing User/Group or AD."
+msgstr "I visningen Administrer mappe skal du tilføje samarbejdspartnere for at gøre dette til en teammappe. Pop-up-vinduet giver dig mulighed for at vælge en kilde til dine brugere/grupper; enten Eksisterende bruger/gruppe eller AD."
+
+#: ../../chapter03.rst:490
+msgid "ADDING COLLABORATION"
+msgstr "TILFØJELSE AF SAMARBEJDE"
+
+#: ../../chapter03.rst:496
+msgid "ACCESS TEAM FOLDER SETTINGS"
+msgstr "ADGANG TIL TEAM MAPPE INDSTILLINGER"
+
+#: ../../chapter03.rst:499
+msgid ""
+"Once you have added your users/groups, click the Disk icon to save your "
+"changes. Click the Settings tab to modify settings for this share."
+msgstr "Når du har tilføjet dine brugere/grupper, skal du klikke på disketteikonet for at gemme dine ændringer. Klik på fanen Indstillinger for at ændre indstillinger for denne fællesmappe."
+
+#: ../../chapter03.rst:501
+msgid ""
+"In the Settings tab view, you can modify the settings for this share "
+"including: Basic Settings, Permissions, Secure Data Room, IP White List "
+"and Quota and Retention Policy. Under the **(+)** Settings sub-menu you "
+"have access to: Disable further sharing, Create CIFS Share and Disable "
+"Offline Access options."
+msgstr "I indstillingsfanen kan du ændre indstillingerne for dette share, herunder: Grundlæggende indstillinger, Tilladelser, Sikker datarum, IP-hvidliste og Kvote- og tilbageholdelsespolitik. Under undermenuen **(+)** Indstillinger har du adgang til: Deaktiver yderligere deling, Opret CIFS Share og Deaktiver offlineadgang."
+
+#: ../../chapter03.rst:506
+msgid "TEAM FOLDER SETTINGS"
+msgstr "TEAM MAPPE INDSTILLINGER"
+
+#: ../../chapter03.rst:508
+msgid ""
+"That diversion shows you how you can create, access and modify folders "
+"and settings from within the Web Portal of |prodname|. Now we return back"
+" to the File Server section of the Server Console in Server Agent. "
+"**\"Enable Background Prefetch\" (1)** makes the contents of the selected"
+" folder available offline."
+msgstr "Denne afledning viser dig, hvordan du kan oprette, tilgå og ændre mapper og indstillinger fra Webportalen i |prodname|. Nu vender vi tilbage til Filserver-sektionen af Serverkonsollen i Serveragenten. **\"Aktivér Baggrundsindlæsning\" (1)** gør indholdet af den valgte mappe tilgængeligt offline."
+
+#: ../../chapter03.rst:513 ../../chapter03.rst:520
+msgid "FOLDER ACTIONS"
+msgstr "MAPPEHANDLINGER"
+
+#: ../../chapter03.rst:515
+msgid ""
+"**\"Delete\"** does not remove the content of the folder from local "
+"storage; however, it does detach the selected folder and its contents "
+"from the cloud. If you go to the Web Portal and re-create a folder with "
+"exactly the same name (including the machine's name and the parenthesis),"
+" the folder can be shown with a cloud-only context without any local "
+"machine relationship."
+msgstr "**\"Slet\"** fjerner ikke indholdet af mappen fra lokal lagring; det frakobler dog den valgte mappe og dens indhold fra skyen. Hvis du går til webportalen og opretter en mappe med præcis det samme navn (inklusive maskinens navn og parentesen), kan mappen vises med en sky-kun kontekst uden nogen lokal maskinrelation."
+
+#: ../../chapter03.rst:523
+msgid ""
+"**\"Attach a Folder to Backup\"** (see above) allows an administrator to "
+"attach and two-way synchronize a local folder to the cloud. The default "
+"view shows all the \"Attached-Folders\" on the local machine that are "
+"attached to the cloud. To add a folder click the browse icon **(...)** "
+"and search for a folder to sync to the cloud."
+msgstr "**\"Vedhæft en mappe til backup\"** (se ovenfor) giver en administrator mulighed for at vedhæfte og synkronisere en lokal mappe tovejs med skyen. Standardvisningen viser alle de \"Vedhæftede-Mapper\" på den lokale maskine, der er tilknyttet skyen. For at tilføje en mappe skal du klikke på gennemseikonet **(...)** og søge efter en mappe, der skal synkroniseres med skyen."
+
+#: ../../chapter03.rst:528
+msgid "ATTACH LOCAL FOLDER"
+msgstr "VEDHÆFT LOKAL MAPPE"
+
+#: ../../chapter03.rst:530
+msgid ""
+"Once a folder is attached, you can take advantage of one of the Folder "
+"Actions **\"Manage\"** that allows you to quickly open a Web Portal to "
+"edit Sharing and Collaboration settings for the folder."
+msgstr "Når en mappe er tilknyttet, kan du drage fordel af en af mappehandlingerne **\"Administrer\"**, der giver dig mulighed for hurtigt at åbne et webportal for at redigere indstillinger for deling og samarbejde for mappen."
+
+#: ../../chapter03.rst:535
+msgid "MANAGE FOLDER FROM WEB PORTAL"
+msgstr "STYR MAPPE FRA WEBPORTAL"
+
+#: ../../chapter03.rst:540
+msgid "SELECT SHARING AND COLLABORATION"
+msgstr "VÆLG DELING OG SAMARBEJDE"
+
+#: ../../chapter03.rst:544
+msgid "3.3.3 Attach/Backup"
+msgstr "3.3.3 Vedhæft/Sikkerhedskopi"
+
+#: ../../chapter03.rst:546
+msgid ""
+"Clicking the Attach/Backup button shows all of the folders currently "
+"attached."
+msgstr "At klikke på knappen Tilslut/Backup viser alle de mapper, der i øjeblikket er tilsluttet."
+
+#: ../../chapter03.rst:551
+msgid "ALL FOLDERS WITHIN ADMIN'S ROOT FOLDER"
+msgstr "ALLE MAPPER INDEN I ADMINISTRATORRENS RODMAPPE"
+
+#: ../../chapter03.rst:553
+msgid ""
+"By clicking the double-down-arrow icon on the right of each share you can"
+" see the details of the folder and if the folder is linked to a local "
+"folder you will see **\"Link to local\"**. If it is already linked you "
+"will see **\"Stop Sync\"**. As shown below, you can also **Detach** the "
+"folder in this location."
+msgstr "Ved at klikke på dobbelt-ned-pil-ikonet til højre for hver deling kan du se detaljerne i mappen, og hvis mappen er linket til en lokal mappe, vil du se **\"Link til lokal\"**. Hvis den allerede er linket, vil du se **\"Stop Sync\"**. Som vist nedenfor kan du også **Frigøre** mappen på dette sted."
+
+#: ../../chapter03.rst:558
+msgid "ATTACH/BACKUP SETTINGS"
+msgstr "VEDHÆFT/BACKUP-INDSTILLINGER"
+
+#: ../../chapter03.rst:562
+msgid "Link to Local Folder"
+msgstr "Link til lokal mappe"
+
+#: ../../chapter03.rst:564
+msgid ""
+"You can take a folder that is in the cloud and sync it down to a local "
+"folder and then maintain two-way synchronization."
+msgstr "Du kan tage en mappe, der er i skyen, og synkronisere den ned til en lokal mappe og derefter opretholde tovejs synkronisering."
+
+#: ../../chapter03.rst:567
+msgid "Stop Sync"
+msgstr "Stop synkronisering"
+
+#: ../../chapter03.rst:569
+msgid ""
+"You can break the two-way sync between a local folder and a folder in the"
+" cloud. After stop sync, the two sides continue to exist but there is no "
+"relationship between them any longer."
+msgstr "Du kan afbryde den tovejs synkronisering mellem en lokal mappe og en mappe i skyen. Efter stop af synkronisering fortsætter de to sider med at eksistere, men der er ikke længere nogen relation mellem dem."
+
+#: ../../chapter03.rst:572
+msgid "Detach"
+msgstr "Frakobl"
+
+#: ../../chapter03.rst:574
+msgid ""
+"Detach is the reverse of Attach. Attach means attach a local folder to "
+"the cloud under version control. Detach means remove it from the version "
+"control. Detach is an operation detaching the cloud side of the folder "
+"from version control. After detach, the local folder (if it is related to"
+" a local folder) is not affected at all. However, the folder in the cloud"
+" will disappear."
+msgstr "Detach er det modsatte af Attach. Attach betyder at tilknytte en lokal mappe til skyen under versionskontrol. Detach betyder at fjerne den fra versionskontrollen. Detach er en operation, der frakobler sky-siden af mappen fra versionskontrol. Efter detach er den lokale mappe (hvis den er relateret til en lokal mappe) slet ikke påvirket. Dog vil mappen i skyen forsvinde."
+
+#: ../../chapter03.rst:577
+msgid ""
+"If you want the cloud side of the folder to reappear, you can use \"Show "
+"Deleted\" in the Web Portal to show the deleted folder and bring it back."
+" Or you can create a same name folder from scratch to inherit the folder "
+"back."
+msgstr "Hvis du ønsker at sky-siden af mappen skal genopstå, kan du bruge \"Vis slettede\" i Webportalen til at vise den slettede mappe og bringe den tilbage. Eller du kan oprette en mappe med samme navn fra bunden for at arve mappen tilbage."
+
+#: ../../chapter03.rst:581
+msgid "3.3.4 Audit Trace"
+msgstr "3.3.4 Revisionspor"
+
+#: ../../chapter03.rst:583
+msgid ""
+"Audit trace shows the history of all the tasks that have taken place. "
+"Administrators can query the **\"Audit Trace\"** to see the history of "
+"uploads, downloads, changes, and monitoring on the files in the cloud. "
+"You can also filter the tasks you would like to query by using the "
+"**\"Only Show Traces Containing\"** field **(1)**."
+msgstr "Revisionsporing viser historikken over alle de opgaver, der har fundet sted. Administratorer kan forespørge **\"Revisionsporingen\"** for at se historikken for uploads, downloads, ændringer og overvågning af filerne i skyen. Du kan også filtrere de opgaver, du gerne vil forespørge, ved at bruge feltet **\"Vis kun spor, der indeholder\"** **(1)**."
+
+#: ../../chapter03.rst:585
+msgid ""
+"As an administrator you can also specify the times that you would like to"
+" run the query for **(2)**. Additionally, you can specify the amount of "
+"traces you would like to query **(3)** where **\"0\"** means unlimited "
+"traces."
+msgstr "Som administrator kan du også angive de tidspunkter, du gerne vil køre forespørgslen for **(2)**. Derudover kan du angive antallet af sporinger, du gerne vil forespørge **(3)**, hvor **\"0\"** betyder ubegrænsede sporinger."
+
+#: ../../chapter03.rst:590
+msgid "AUDIT TRACE QUERY"
+msgstr "REVISIONSSPORGSFØRING"
+
+#: ../../chapter03.rst:594
+msgid "3.3.5 Settings Manager"
+msgstr "3.3.5 Indstillingsadministrator"
+
+#: ../../chapter03.rst:595
+msgid ""
+"Server Agent administrators can customize and configure many settings at "
+"the Server Console level by modifying the contents of the Settings "
+"Manager section."
+msgstr "Server Agent-administratorer kan tilpasse og konfigurere mange indstillinger på Server Console-niveau ved at ændre indholdet af afsnittet Indstillingsmanager."
+
+#: ../../chapter03.rst:597
+msgid "From here you can also access the **\"Offline Folders\"** tab."
+msgstr "Herfra kan du også få adgang til fanen **\"Offline mapper\"**."
+
+#: ../../chapter03.rst:602
+msgid ""
+"This section lists all the cloud folders which have been enabled for "
+"**\"Offline Access\"**, meaning users who have access to offline folders "
+"can access and edit the contents of such folders even when they are not "
+"online. All the changes done to files in offline folders will be "
+"automatically synced as soon as the users come back online."
+msgstr "Denne sektion viser alle sky-mapper, som er blevet aktiveret for **\"Offline Adgang\"**, hvilket betyder, at brugere, der har adgang til offline mapper, kan tilgå og redigere indholdet af sådanne mapper, selv når de ikke er online. Alle ændringer foretaget til filer i offline mapper vil automatisk blive synkroniseret, så snart brugerne kommer online igen."
+
+#: ../../chapter03.rst:607
+msgid "OFFLINE FOLDERS"
+msgstr "OFFLINE MAPPER"
+
+#: ../../chapter03.rst:609
+msgid ""
+"**\"Add New Offline Folder\"** You can click this link to configure a "
+"folder as an Offline Folder."
+msgstr "**\"Tilføj ny offline-mappe\"** Du kan klikke på dette link for at konfigurere en mappe som en offline-mappe."
+
+#: ../../chapter03.rst:612
+msgid "Settings Tab"
+msgstr "Indstillinger-faneblad"
+
+#: ../../chapter03.rst:615
+msgid "Bandwidth Control"
+msgstr "Båndbreddekontrol"
+
+#: ../../chapter03.rst:617
+msgid ""
+"As an administrator you have full control over how much bandwidth should "
+"be consumed for uploading contents to the cloud and also for downloading "
+"contents from the cloud. You can also control how many consequent uploads"
+" and downloads are allowed at any one time."
+msgstr "Som administrator har du fuld kontrol over, hvor meget båndbredde der skal bruges til at uploade indhold til skyen og også til at downloade indhold fra skyen. Du kan også styre, hvor mange efterfølgende uploads og downloads der er tilladt på én gang."
+
+#: ../../chapter03.rst:622
+msgid "SETTINGS MANAGER - BANDWIDTH CONTROL"
+msgstr "INDSTILLINGER MANAGER - BÅNDBREDDEKONTROL"
+
+#: ../../chapter03.rst:624
+msgid ""
+"**\"Download Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. This setting is applied to the local machine (Server Agent). "
+"Usually something > 100KB/s is good. If it is too small, it can "
+"negatively affect performance and usability."
+msgstr "**\"Download Båndbreddegrænse (KB/s, 0-Ubegrænset)\"** Standard er **\"0\"**. Denne indstilling anvendes på den lokale maskine (Server Agent). Normalt er noget > 100KB/s godt. Hvis det er for lille, kan det negativt påvirke ydeevnen og brugervenligheden."
+
+#: ../../chapter03.rst:626
+msgid ""
+"**\"Upload Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is **\"0\"**. "
+"This setting is applied to the local machine (Server Agent). Usually "
+"something > 100KB/s is good."
+msgstr "**\"Upload båndbreddebegrænsning (KB/s, 0-Ubegrænset)\"** Standard er **\"0\"**. Denne indstilling anvendes på den lokale maskine (Server Agent). Normalt er noget > 100KB/s godt."
+
+#: ../../chapter03.rst:628
+msgid ""
+"**\"Number of Upload/Download Threads\"** Default is **\"5\"**. Set this "
+"from 5-10 in general. In some case, if you set it to a very big number "
+"such as 20, it may negatively affect performance. For example, if you are"
+" using Amazon S3 and Amazon S3 or other Cloud services may have per-"
+"client thread policy so if you have too many concurrent upload/download, "
+"it may get regulated outside of the Server Agent."
+msgstr "**\"Antal tråde til upload/download\"** Standard er **\"5\"**. Indstil dette fra 5-10 generelt. I nogle tilfælde, hvis du indstiller det til et meget stort tal som 20, kan det påvirke ydeevnen negativt. For eksempel, hvis du bruger Amazon S3 og Amazon S3 eller andre cloudtjenester kan have en pr. klient trådpolitik, så hvis du har for mange samtidige uploads/downloads, kan det blive reguleret uden for Server Agenten."
+
+#: ../../chapter03.rst:631
+msgid "Cache"
+msgstr "Cache"
+
+#: ../../chapter03.rst:636
+msgid "SETTINGS MANAGER - CACHE SETTINGS"
+msgstr "INDSTILLINGER FOR STYRING - CACHEINDSTILLINGER"
+
+#: ../../chapter03.rst:638
+msgid ""
+"You can change the location of Cache (for files downloaded locally from "
+"cloud). You can also set the cache size."
+msgstr "Du kan ændre placeringen af cachen (for filer downloadet lokalt fra skyen). Du kan også indstille cachens størrelse."
+
+#: ../../chapter03.rst:643
+msgid "Sync Control"
+msgstr "Synkroniseringskontrol"
+
+#: ../../chapter03.rst:648
+msgid "SETTINGS MANAGER - SYNC CONTROL"
+msgstr "INDSTILLINGER MANAGER - SYNKRONISERINGSKONTROL"
+
+#: ../../chapter03.rst:650
+msgid ""
+"**\"Throttle Sync\"** Default is **\"False\"**. If you set this flag to "
+"**\"True\"** it will stop and start the sync depending on the available "
+"bandwidth."
+msgstr "**\"Throttle Sync\"** Standardindstillingen er **\"False\"**. Hvis du sætter denne flag til **\"True\"**, vil det stoppe og starte synkroniseringen afhængigt af den tilgængelige båndbredde."
+
+#: ../../chapter03.rst:652
+msgid ""
+"**\"Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"upload sync."
+msgstr "**\"Synkroniseret begrænset upload-båndbredde (KB/s, 0-Ubegrænset)\"** Standard er **\"0\"**. Hvor **\"0\"** betyder at ubegrænset båndbredde er tilgængelig for upload-synkronisering."
+
+#: ../../chapter03.rst:654
+msgid ""
+"**\"Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"download sync."
+msgstr "**\"Synkroniseret begrænset download båndbredde (KB/s, 0-Ubegrænset)\"** Standard er **\"0\"**. Hvor **\"0\"** betyder at ubegrænset båndbredde er tilgængelig for synkroniseringsdownload."
+
+#: ../../chapter03.rst:656
+msgid ""
+"**\"Full Speed Sync Stop Hour (dafault 7:00)\"** Default is **\"7\"**. "
+"Use this setting to set when full sync stops, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"Fuld hastighed synkronisering stopper time (standard 7:00)\"** Standard er **\"7\"**. Brug denne indstilling til at sætte, hvornår fuld synkronisering stopper, for at undgå at belaste dit system i arbejdstiden."
+
+#: ../../chapter03.rst:658
+msgid ""
+"**\"Full Speed Sync Start Hour (dafault 20:00)\"** Default is **\"20\"**."
+"  Use this setting to set when full sync starts, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"Fuld hastighed synkronisering start time (standard 20:00)\"** Standard er **\"20\"**. Brug denne indstilling til at sætte, hvornår fuld synkronisering starter, for at undgå at belaste dit system i arbejdstiden."
+
+#: ../../chapter03.rst:660
+msgid ""
+"**\"Scan local files and sync up to cloud as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" local file system and make sure that everything which is not synced to "
+"the cloud is truly synced."
+msgstr "**\"Scan lokale filer og synkroniser med skyen efter behov\"** Standard er **\"Falsk\"**. Indstil dette til **\"Sand\"** hvis du ønsker, at agenten skal scanne det lokale filsystem og sikre, at alt, hvad der ikke er synkroniseret med skyen, virkelig bliver synkroniseret."
+
+#: ../../chapter03.rst:662
+msgid ""
+"**\"Scan cloud files and sync up to local as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" cloud and make sure that everything which is not synced to the local "
+"file system is truly synced."
+msgstr "**\"Scan skyfiler og synkroniser op til lokal efter behov\"** Standard er **\"Falsk\"**. Indstil dette til **\"Sand\"** hvis du ønsker, at agenten skal scanne skyen og sikre sig, at alt, hvad der ikke er synkroniseret med det lokale filsystem, virkelig er synkroniseret."
+
+#: ../../chapter03.rst:664
+msgid ""
+"**\"Optimize Sync Down Notification\"** Default is **\"False\"**. If you "
+"want to see sync down notifications, then set this to **\"True\"**."
+msgstr "**\"Optimer Synkroniseringsnedad Notifikation\"** Standard er **\"Falsk\"**. Hvis du ønsker at se synkroniseringsnedad notifikationer, så indstil dette til **\"Sand\"**."
+
+#: ../../chapter03.rst:666
+msgid ""
+"**\"Ignore file dummy change notification\"** Default is **\"False\"**. "
+"If you don't want to see dummy file change notifications, then set this "
+"to **\"True\"**."
+msgstr "**\"Ignorer dummy ændringsmeddelelse for fil\"** Standard er **\"Falsk\"**. Hvis du ikke ønsker at se dummy filændringsmeddelelser, så indstil dette til **\"Sand\"**."
+
+#: ../../chapter03.rst:668
+msgid ""
+"**\"Enable sync folder permission in attached folder\"** Default is "
+"**\"False\"**."
+msgstr "**\"Aktivér synkroniseringsmappe tilladelse i vedhæftet mappe\"** Standard er **\"Falsk\"**."
+
+#: ../../chapter03.rst:672
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: ../../chapter03.rst:674
+msgid ""
+"Administrator can locate the cache directory under **\"Advanced\"** "
+"option in settings. Using the **\"Cache Size Limit (MB)\"** field can "
+"specify the size limit for the cache file."
+msgstr "Administratoren kan finde cache-mappen under **\"Avanceret\"** indstilling i indstillingerne. Ved at bruge feltet **\"Cache Størrelsesgrænse (MB)\"** kan man angive en størrelsesgrænse for cache-filen."
+
+#: ../../chapter03.rst:680
+msgid "SETTINGS MANAGER - ADVANCED"
+msgstr "INDSTILLINGER MANAGER - AVANCERET"
+
+#: ../../chapter03.rst:682
+msgid ""
+"**\"Do not Mount Drive\"** Default is **\"False\"**. When you set this to"
+" **\"True\"** local drive on the Server Agent is unmounted."
+msgstr "**\"Mount ikke drev\"** Standard er **\"Falsk\"**. Når du sætter dette til **\"Sand\"** afmonteres lokalt drev på Server Agenten."
+
+#: ../../chapter03.rst:684
+msgid "**\"Domain Controller IP or Hostname\"** This setting is empty by default."
+msgstr "**\"Domænecontrollerens IP eller værtsnavn\"** Denne indstilling er som standard tom."
+
+#: ../../chapter03.rst:686
+msgid ""
+"**\"Enable In-place Open Zip File\"** Default is **\"False\"**. This "
+"field enables in-place editing on files which are in zipped folders in "
+"the cloud. You can also specify the maximum size for zipped files that "
+"are allowed for In-place editing."
+msgstr "**\"Aktivér Redigering af Zip-fil på stedet\"** Standard er **\"Falsk\"**. Dette felt gør det muligt at redigere filer, der er i zippede mapper i skyen, direkte på stedet. Du kan også angive den maksimale størrelse for zippede filer, der er tilladt til redigering på stedet."
+
+#: ../../chapter03.rst:688
+msgid ""
+"**\"Max Size of Zip File Allowed to Open Inplace\"** This is **\"20\"** "
+"by default. Use this field to set the maximum size of Zip Files that can "
+"be opened inside the Cloud Drive in MB."
+msgstr "**\"Maksimal størrelse af Zip-fil tilladt at åbne på stedet\"** Dette er som standard **\"20\"**. Brug dette felt til at indstille den maksimale størrelse af Zip-filer, der kan åbnes inde i Cloud Drive i MB."
+
+#: ../../chapter03.rst:690
+msgid ""
+"**\"Ignore Settings in Group Policy\"** Default is **\"False\"**. When "
+"you set this flag to **\"True\"**, the configured settings in the Web "
+"Portal will be ignored and the settings configured here under "
+"``Settings`` > ``Advanced`` will take precedence."
+msgstr "**\"Ignorer indstillinger i gruppepolitikken\"** Standard er **\"Falsk\"**. Når du sætter dette flag til **\"Sand\"**, vil de konfigurerede indstillinger i webportalen blive ignoreret, og indstillingerne konfigureret her under ``Indstillinger`` > ``Avanceret`` vil have forrang."
+
+#: ../../chapter03.rst:692
+msgid ""
+"**\"Interval to Keep Group Relationship in Cache (Min)\"** The default is"
+" **\"60\"** minutes. This field is a performance optimization setting. "
+"The Server Agent will check the remote requests against the ACL (Access "
+"Control) set on the local files. Most of the times it involves Active "
+"Directory or NT domain group membership checking. The group membership "
+"checking is a CPU intensive work so the result is cached to improve "
+"performance. This controls how long the result will be cached. If users "
+"are not changing group frequently, you can set the interval to a long "
+"period of time."
+msgstr "**\"Interval for at holde gruppeforhold i cachen (Min)\"** Standardindstillingen er **\"60\"** minutter. Dette felt er en indstilling for ydelsesoptimering. Serveragenten vil kontrollere de fjernanmodninger, der er mod ACL (adgangskontrolliste) sat på de lokale filer. Det involverer oftest kontrol af medlemskab i Active Directory eller NT-domænegruppe. Kontrol af gruppetilhørsforhold er et CPU-krævende arbejde, så resultatet cachelagres for at forbedre ydeevnen. Dette styrer, hvor længe resultatet vil blive cachelagret. Hvis brugerne ikke skifter gruppe ofte, kan du indstille intervallet til en lang periode."
+
+#: ../../chapter03.rst:694
+msgid ""
+"**\"Purge File Sys DB Upon Start\"** The default is **\"False\"**. If you"
+" change this setting to True, upon startup the client will purge the "
+"cached cloud storage state file. This allows the client to rebuild the "
+"database as if it is being started for the first time."
+msgstr "**\"Ryd Fil System DB Ved Start\"** Standardindstillingen er **\"Falsk\"**. Hvis du ændrer denne indstilling til Sand, vil klienten ved opstart slette den cachelagrede skyopbevaringstilstandsfil. Dette gør det muligt for klienten at genopbygge databasen, som om den startes for første gang."
+
+#: ../../chapter03.rst:696
+msgid ""
+"**\"Upload Hidden Files\"** The default is **\"False\"**. If this flag is"
+" set to **\"True\"** then hidden files will also be uploaded to the "
+"cloud."
+msgstr "**\"Upload skjulte filer\"** Standardindstillingen er **\"Falsk\"**. Hvis dette flag er sat til **\"Sandt\"**, vil skjulte filer også blive uploadet til skyen."
+
+#: ../../chapter03.rst:698
+msgid ""
+"**\"Upload System Files\"** The default is **\"False\"**. If this flag "
+"when set to **\"True\"** then system files will also be uploaded to the "
+"cloud."
+msgstr "**\"Upload Systemfiler\"** Standardindstillingen er **\"Falsk\"**. Hvis dette flag er sat til **\"Sand\"**, vil systemfiler også blive uploadet til skyen."
+
+#: ../../chapter03.rst:701
+msgid "Trace"
+msgstr "Spor"
+
+#: ../../chapter03.rst:703
+msgid ""
+"The audit trace log can grow exponentially if not kept under control. As "
+"an administrator you can specify the number of days to keep the audit "
+"trace. **\"Days of Audit Trace to Keep\"** setting is the field to "
+"specify the duration to keep the trace for."
+msgstr "Revisionsloggen kan vokse eksponentielt, hvis den ikke holdes under kontrol. Som administrator kan du angive antallet af dage, du vil beholde revisionsloggen. Indstillingen **\"Antal dage at beholde revisionslog for\"** er feltet, hvor du specificerer varigheden af loggens opbevaring."
+
+#: ../../chapter03.rst:705
+msgid ""
+"Trace Level when set to **\"0\"** which is the default does not collect "
+"any traces meaning it is disabled."
+msgstr "Sporingsniveau, når det er indstillet til **\"0\"**, hvilket er standard, indsamler ikke nogen spor, hvilket betyder, at det er deaktiveret."
+
+#: ../../chapter03.rst:707
+msgid "Trace Level 1 – error will collect all the error traces."
+msgstr "Trace-niveau 1 – fejl vil indsamle alle fejlsporingerne."
+
+#: ../../chapter03.rst:709
+msgid "Trace Level 2 – warning will collect warning traces along with errors."
+msgstr "Sporingsniveau 2 – advarsel vil indsamle advarselssporinger sammen med fejl."
+
+#: ../../chapter03.rst:711
+msgid ""
+"Trace Level 3 – info will collect errors, warnings, as well as info "
+"traces."
+msgstr "Trace Level 3 – info vil indsamle fejl, advarsler samt info spor."
+
+#: ../../chapter03.rst:713
+msgid ""
+"Trace Level 100 – verbose helps developers to collect detailed traces "
+"which helps them when debugging issues."
+msgstr "Sporingsniveau 100 – detaljeret hjælper udviklere med at indsamle detaljerede spor, som hjælper dem ved fejlfinding."
+
+#: ../../chapter03.rst:716
+msgid ""
+"When it is necessary to collect DebugView trace for debugging purpose, "
+"the Trace Level typically is set to 101."
+msgstr "Når det er nødvendigt at indsamle DebugView-sporing til fejlsøgningsformål, sættes sporingsniveauet typisk til 101."
+
+#: ../../chapter03.rst:721
+msgid "SETTINGS MANAGER - TRACE"
+msgstr "INDSTILLINGER MANAGER - SPOR"
+

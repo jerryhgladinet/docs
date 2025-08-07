@@ -1,0 +1,2431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Cluster Administration"
+msgstr "إدارة الكتلة"
+
+#: ../../chapter02.rst:7
+msgid "The Basics"
+msgstr "الأساسيات"
+
+#: ../../chapter02.rst:9
+msgid ""
+"To access your Cluster Administration features, log in to the Web Portal "
+"on the server. **The description in this guide presumes that you are "
+"signed in as the Master Administrator** (aka., Cluster Administrator, "
+"Server Administrator). Some of the options listed may not be available if"
+" you are logged in with different permissions (e.g. Delegated "
+"Administrator). In this document the |prodname| will also be referred to "
+"as simply, Cluster Server."
+msgstr "للوصول إلى ميزات إدارة العنقود الخاص بك، قم بتسجيل الدخول إلى البوابة الإلكترونية على الخادم. **يفترض الوصف في هذا الدليل أنك قد سجلت الدخول كمسؤول رئيسي** (أي مسؤول العنقود، مسؤول الخادم). قد لا تتوفر بعض الخيارات المدرجة إذا كنت قد سجلت الدخول بأذونات مختلفة (مثل مسؤول مفوض). في هذا الوثيقة، سيشار إلى |prodname| أيضًا ببساطة، خادم العنقود."
+
+#: ../../chapter02.rst:13
+msgid ""
+"The Web Portal URL is the server's DNS name, the IP Address or local host"
+" if you are on the server console."
+msgstr "عنوان URL للبوابة الإلكترونية هو اسم نظام تحديد الأسماء للخادم (DNS)، أو عنوان IP، أو المضيف المحلي إذا كنت على وحدة تحكم الخادم."
+
+#: ../../chapter02.rst:18
+msgid "**LOGIN SCREEN**"
+msgstr "**شاشة تسجيل الدخول**"
+
+#: ../../chapter02.rst:22
+msgid ""
+"At the bottom of the Login screen, there is version information, which "
+"will be useful to see which version you have installed."
+msgstr "في أسفل شاشة تسجيل الدخول، هناك معلومات الإصدار، والتي ستكون مفيدة لمعرفة أي إصدار قمت بتثبيته."
+
+#: ../../chapter02.rst:25
+msgid ""
+"The following graphic describes the various icons and components of the "
+"Administrator Dashboard and its sub-sections. Please refer to it as you "
+"read this guide to determine how to access various features."
+msgstr "الرسم التوضيحي التالي يصف الأيقونات والمكونات المختلفة للوحة تحكم المسؤول وأقسامها الفرعية. يُرجى الرجوع إليه أثناء قراءة هذا الدليل لتحديد كيفية الوصول إلى الميزات المختلفة."
+
+#: ../../chapter02.rst:30
+msgid "**CLUSTER MANAGER DASHBOARD**"
+msgstr "**لوحة تحكم مدير العقد**"
+
+#: ../../chapter02.rst:32
+msgid ""
+"After logging in, you can access the Cluster Manager Dashboard by "
+"clicking \"Cluster Dashboard\" icon **(1)**."
+msgstr "بعد تسجيل الدخول، يمكنك الوصول إلى لوحة تحكم مدير العنقود بالنقر على أيقونة \"لوحة تحكم العنقود\" **(1)**."
+
+#: ../../chapter02.rst:34
+msgid ""
+"By clicking the folder icon **(2)** In the top right of the interface you"
+" can toggle between the File Browser and Cluster Manager views.  The "
+"**File Browser** (My Files) view of the interface gives you access to "
+"your shared and unshared folders. This is also where you can create "
+"folders and upload files and folders for access. When the cluster "
+"administrator clicks the folder icon to get into the files and folder's "
+"view, the files and folders belong to the default tenant."
+msgstr "بالنقر على أيقونة المجلد **(2)** في الجهة العلوية اليمنى من الواجهة، يمكنك التبديل بين وجهات الاستعراض للمتصفح الملفات ومدير التجمع. وجهة الاستعراض **متصفح الملفات** (ملفاتي) تمنحك الوصول إلى المجلدات المشتركة وغير المشتركة. هنا أيضًا يمكنك إنشاء المجلدات ورفع الملفات والمجلدات للوصول إليها. عندما ينقر مدير التجمع على أيقونة المجلد للدخول إلى وجهة الاستعراض للملفات والمجلدات، فإن الملفات والمجلدات تنتمي إلى المستأجر الافتراضي."
+
+#: ../../chapter02.rst:39
+msgid ""
+"The cluster administrator will not be able to access files and folders "
+"that are not in the scope of the default tenant. To access files and "
+"folders that belong to a specific tenant, the web portal login has to be "
+"that of the tenant. So basically the cluster administrator can do "
+"administration work for a tenant that is under management. However, it is"
+" not easy for the cluster administrator to see the files and folders for "
+"that specific tenant until he/she gets the permission and the login "
+"credentials."
+msgstr "لن يتمكن مسؤول العقدة من الوصول إلى الملفات والمجلدات التي ليست ضمن نطاق المستأجر الافتراضي. للوصول إلى الملفات والمجلدات التي تنتمي إلى مستأجر معين، يجب أن يكون تسجيل الدخول إلى البوابة الإلكترونية خاصًا بذلك المستأجر. إذًا، بشكل أساسي يمكن لمسؤول العقدة القيام بأعمال الإدارة لمستأجر تحت الإدارة. ومع ذلك، ليس من السهل على مسؤول العقدة رؤية الملفات والمجلدات لذلك المستأجر المحدد حتى يحصل على الإذن وبيانات اعتماد تسجيل الدخول."
+
+#: ../../chapter02.rst:43
+msgid ""
+"The Cluster Manager (aka., Dashboard) allows you to manage Tenants "
+"**(3)**, Cluster Branding **(4)**, Reports **(5)**, and Group Policies "
+"**(6)**."
+msgstr "يتيح لك مدير العنقود (المعروف أيضًا بلوحة المعلومات) إدارة المستأجرين **(3)**، وتخصيص العلامة التجارية للعنقود **(4)**، والتقارير **(5)**، وسياسات المجموعة **(6)**."
+
+#: ../../chapter02.rst:47
+msgid ""
+"At a high level, the |prodname| web browser management interface allows "
+"you to manage clients (Tenants) and the overall system performance and "
+"statistics reports."
+msgstr "على مستوى عال، واجهة إدارة متصفح |prodname| تتيح لك إدارة العملاء (المستأجرين) وأداء النظام العام وتقارير إحصائيات."
+
+#: ../../chapter02.rst:51
+msgid "**EXTERNAL DNS**"
+msgstr "**DNS خارجي**"
+
+#: ../../chapter02.rst:53
+msgid ""
+"External DNS (External URL) is a very important property. It is used in "
+"directing how outside remote clients connect to the Cluster Server. It is"
+" also used in various email templates. If this property is not properly "
+"configured, the email template may be using IP address or NETBIOS name as"
+" the URL link."
+msgstr "DNS الخارجي (URL الخارجي) هو خاصية مهمة جدًا. يُستخدم في توجيه كيفية اتصال العملاء البعيدين بخادم الكتلة. كما يُستخدم في قوالب البريد الإلكتروني المختلفة. إذا لم يتم تكوين هذه الخاصية بشكل صحيح، قد تستخدم قالب البريد الإلكتروني عنوان IP أو اسم NETBIOS كرابط URL."
+
+#: ../../chapter02.rst:55
+msgid ""
+"To configure this setting, you must have a DNS name and SSL certificate "
+"setup; therefore, you can postpone the configuration of your DNS until "
+"you are ready."
+msgstr "لتكوين هذا الإعداد، يجب أن يكون لديك اسم DNS وإعداد شهادة SSL؛ لذلك، يمكنك تأجيل تكوين DNS الخاص بك حتى تكون جاهزًا."
+
+#: ../../chapter02.rst:57
+msgid "**Related tasks**"
+msgstr "**المهام ذات الصلة**"
+
+#: ../../chapter02.rst:59
+msgid ""
+"Configure the DNS registration to point a DNS name to the public static "
+"IP address of the Cluster Server."
+msgstr "قم بتكوين تسجيل DNS لتوجيه اسم DNS إلى عنوان IP الثابت العام لخادم الكتلة."
+
+#: ../../chapter02.rst:60
+msgid "Configure the IIS “Default Web Site” to bind to an SSL certificate."
+msgstr "قم بتكوين موقع الويب الافتراضي لـ IIS ليرتبط بشهادة SSL."
+
+#: ../../chapter02.rst:65
+msgid "Tenant Manager"
+msgstr "مدير المستأجر"
+
+#: ../../chapter02.rst:67 ../../chapter02.rst:122
+msgid "``Cluster Manager`` > ``Tenant Manager``"
+msgstr "``مدير العنقود`` > ``مدير المستأجر``"
+
+#: ../../chapter02.rst:71
+msgid ""
+"A tenant is usually mapped to a client of yours, a company, or a division"
+" of a company."
+msgstr "عادةً ما يتم تعيين المستأجر لعميل لك، شركة، أو قسم من شركة."
+
+#: ../../chapter02.rst:73
+msgid ""
+"The Cluster Server is multi-tenant capable, but can also be used for a "
+"single Tenant. To add or manage your tenants, click \"Tenants Count\" in "
+"your Dashboard to access Tenant Manager."
+msgstr "الخادم العنقودي قادر على استيعاب عدة مستأجرين، ولكن يمكن أيضًا استخدامه لمستأجر واحد. لإضافة مستأجرين أو إدارتهم، انقر على \"عدد المستأجرين\" في لوحة التحكم للوصول إلى مدير المستأجرين."
+
+#: ../../chapter02.rst:78
+msgid "TENANT MANAGER"
+msgstr "مدير المستأجر"
+
+#: ../../chapter02.rst:80
+msgid ""
+"You can access other important settings from context menu (Each tenant "
+"block has a tenant specific context menu):"
+msgstr "يمكنك الوصول إلى إعدادات مهمة أخرى من قائمة السياق (كل كتلة مستأجر لها قائمة سياق محددة للمستأجر):"
+
+#: ../../chapter02.rst:82
+msgid "Manage Tenant"
+msgstr "إدارة المستأجر"
+
+#: ../../chapter02.rst:83
+msgid "Force full scan for storage quota usage,"
+msgstr "إجراء فحص كامل لاستخدام حصة التخزين،"
+
+#: ../../chapter02.rst:84
+msgid "Change Tenant Admin Password,"
+msgstr "تغيير كلمة مرور مسؤول المستأجر"
+
+#: ../../chapter02.rst:85
+msgid "Edit Existing Default Storage"
+msgstr "تحرير التخزين الافتراضي الموجود"
+
+#: ../../chapter02.rst:86
+msgid "Delete Tenant"
+msgstr "حذف المستأجر"
+
+#: ../../chapter02.rst:88
+msgid "**Manage Tenant**"
+msgstr "**إدارة المستأجر**"
+
+#: ../../chapter02.rst:90
+msgid ""
+"This will drill deeper into the per-tenant management page view. By "
+"clicking the “Manage Tenant” option, the Cluster Admin sees the Tenant "
+"Dashboard as well as additional options to configure the Tenant settings."
+msgstr "سيتعمق هذا في عرض صفحة إدارة المستأجر لكل مستأجر. بالنقر على خيار \"إدارة المستأجر\"، يرى مسؤول العقد لوحة تحكم المستأجر بالإضافة إلى خيارات إضافية لتكوين إعدادات المستأجر."
+
+#: ../../chapter02.rst:92
+msgid "**Force full scan for storage quota usage**"
+msgstr "**إجراء فحص كامل لاستخدام حصة التخزين**"
+
+#: ../../chapter02.rst:94
+msgid ""
+"This will start a full scan of storage usage for the Tenant. As files are"
+" uploaded, modified or deleted during daily operation, the Tenant Quota "
+"is calculated. To ensure that the quota value shown for the tenant is "
+"accurate, it is important that you occasionally force a full scan of the "
+"tenant's quota usage."
+msgstr "سيبدأ هذا بفحص كامل لاستخدام التخزين للمستأجر. حيث يتم حساب حصة المستأجر عندما يتم رفع الملفات أو تعديلها أو حذفها أثناء العمليات اليومية. لضمان دقة قيمة الحصة المعروضة للمستأجر، من المهم أن تقوم بفرض فحص كامل لاستخدام حصة المستأجر بشكل دوري."
+
+#: ../../chapter02.rst:96
+msgid "**Change Tenant Admin Password**"
+msgstr "**تغيير كلمة مرور مسؤول المستأجر**"
+
+#: ../../chapter02.rst:98
+msgid ""
+"Provides a method for the Cluster Administrator to assist the Tenant "
+"Administrator with resetting passwords."
+msgstr "يوفر طريقة لمسؤول العنقود لمساعدة مسؤول الوحدة السكنية في إعادة تعيين كلمات المرور."
+
+#: ../../chapter02.rst:100
+msgid "**Edit Existing default storage**"
+msgstr "**تحرير التخزين الافتراضي الموجود**"
+
+#: ../../chapter02.rst:102
+msgid ""
+"When a Tenant outgrows their allocation of storage space or needs to move"
+" to a different storage location, this setting allows the Cluster "
+"Administrator to change the storage location."
+msgstr "عندما يتجاوز المستأجر تخصيصه لمساحة التخزين أو يحتاج إلى الانتقال إلى موقع تخزين مختلف، تتيح هذه الإعدادات لمسؤول العقد تغيير موقع التخزين."
+
+#: ../../chapter02.rst:106
+msgid ""
+"When changing a storage location for a Tenant, you typically manually "
+"copy the folder to the new location then re-configure the default storage"
+" location."
+msgstr "عند تغيير موقع التخزين لمستأجر، عادةً ما تقوم بنسخ المجلد يدويًا إلى الموقع الجديد ثم إعادة تكوين موقع التخزين الافتراضي."
+
+#: ../../chapter02.rst:110
+msgid ""
+"If you want to change the tenant's default storage location, make sure "
+"you copy tenant's file AS-IS from the source folder to its destination "
+"folder before you change the storage location here."
+msgstr "إذا كنت ترغب في تغيير موقع التخزين الافتراضي للمستأجر، تأكد من نسخ ملف المستأجر كما هو من المجلد المصدر إلى مجلد الوجهة قبل أن تغير موقع التخزين هنا."
+
+#: ../../chapter02.rst:112
+msgid "**Delete Tenant**"
+msgstr "**حذف المستأجر**"
+
+#: ../../chapter02.rst:114
+msgid "Deletes the tenant."
+msgstr "يحذف المستأجر."
+
+#: ../../chapter02.rst:118
+msgid ""
+"Please reference the :ref:`tenant_administration` section for more "
+"details about the Tenant Management."
+msgstr "يرجى الرجوع إلى قسم :ref:`tenant_administration` لمزيد من التفاصيل حول إدارة المستأجر."
+
+#: ../../chapter02.rst:121
+msgid "Create a New Tenant"
+msgstr "إنشاء مستأجر جديد"
+
+#: ../../chapter02.rst:124
+msgid ""
+"Click on the \"Plus\" sign in the ``New Tenant`` to start the creation of"
+" a new tenant."
+msgstr "انقر على علامة \"الزائد\" في ``المستأجر الجديد`` لبدء إنشاء مستأجر جديد."
+
+#: ../../chapter02.rst:130
+msgid "CREATING A NEW TENANT"
+msgstr "إنشاء مستأجر جديد"
+
+#: ../../chapter02.rst:132
+msgid ""
+"The first screen under \"New Tenant\" is asking for \"Start from "
+"Scratch\" or \"Import and migrate data from  Anchor\"."
+msgstr "الشاشة الأولى تحت \"مستأجر جديد\" تطلب منك الاختيار بين \"البدء من الصفر\" أو \"استيراد وترحيل البيانات من Anchor\"."
+
+#: ../../chapter02.rst:134
+msgid ""
+"When you select \"Add New Tenant from Scratch\", The next screen is "
+"asking for a few parameters related to who the tenant is."
+msgstr "عندما تختار \"إضافة مستأجر جديد من البداية\"، تطلب الشاشة التالية بعض المعلمات المتعلقة بمن هو المستأجر."
+
+#: ../../chapter02.rst:140
+msgid "TENANT MANAGER SETTINGS 1"
+msgstr "إعدادات مدير المستأجر 1"
+
+#: ../../chapter02.rst:142
+msgid ""
+"**\"Create with Default Settings\"** will get it done and the tenant will"
+" be granted all default settings, including the storage location "
+"allocation."
+msgstr "**\"إنشاء بالإعدادات الافتراضية\"** سيتم ذلك وسيتم منح المستأجر جميع الإعدادات الافتراضية، بما في ذلك تخصيص موقع التخزين."
+
+#: ../../chapter02.rst:144
+msgid ""
+"**\"Continue\"** allows you to customize the settings and storage "
+"location."
+msgstr "**\"استمر\"** يتيح لك تخصيص الإعدادات وموقع التخزين."
+
+#: ../../chapter02.rst:146
+msgid "If you pick **\"Continue\"**,"
+msgstr "إذا اخترت **\"متابعة\"**"
+
+#: ../../chapter02.rst:148
+msgid ""
+"The second screen under \"Add Tenant from Scratch\" is asking for the "
+"division of work between the cluster administrator and the tenant "
+"administrator."
+msgstr "الشاشة الثانية تحت \"إضافة مستأجر من البداية\" تطلب تقسيم العمل بين مسؤول العنقود ومسؤول المستأجر."
+
+#: ../../chapter02.rst:153
+msgid "TENANT MANAGER SETTINGS 2"
+msgstr "إعدادات مدير المستأجر 2"
+
+#: ../../chapter02.rst:155
+msgid ""
+"The third screen under \"Add Tenant\" is asking where the root storage "
+"for the tenant will be at."
+msgstr "الشاشة الثالثة تحت خيار \"إضافة مستأجر\" تسأل عن مكان التخزين الجذري للمستأجر."
+
+#: ../../chapter02.rst:161
+msgid "ADD TENANT STORAGE OPTIONS 1"
+msgstr "إضافة خيارات تخزين المستأجر 1"
+
+#: ../../chapter02.rst:163
+msgid "**Automatically assign a sub-folder from cluster default tenant**"
+msgstr "**تعيين تلقائي لمجلد فرعي من المستأجر الافتراضي للعنقود**"
+
+#: ../../chapter02.rst:165
+msgid ""
+"When selected, the tenant's default storage will be a sub-folder inside "
+"the cluster default tenant's storage folder. It is easier to manage when "
+"you don't need per-tenant storage access credentials. This is the easiest"
+" option because if every tenant is allocated a sub-folder from the "
+"default tenant, then the default tenant storage location is a single "
+"place to take care of all of your storage needs. The storage location is "
+"sandboxed away from the default tenant so even though from a physical "
+"location's perspective, it is a sub folder of the default tenant, but the"
+" default tenant will not be able to see the folder from |prodname|."
+msgstr "عند التحديد، سيكون التخزين الافتراضي للمستأجر عبارة عن مجلد فرعي داخل مجلد تخزين المستأجر الافتراضي للمجموعة. هذا الخيار أسهل في الإدارة عندما لا تحتاج إلى بيانات اعتماد الوصول إلى التخزين لكل مستأجر. هذا هو الخيار الأسهل لأنه إذا تم تخصيص مجلد فرعي لكل مستأجر من المستأجر الافتراضي، فإن موقع التخزين الافتراضي هو مكان واحد لرعاية جميع احتياجات التخزين الخاصة بك. موقع التخزين معزول عن المستأجر الافتراضي لذلك حتى من منظور موقع مادي، هو مجلد فرعي للمستأجر الافتراضي، لكن المستأجر الافتراضي لن يتمكن من رؤية المجلد من |prodname|."
+
+#: ../../chapter02.rst:168
+msgid "**Use existing file server or local disk as default storage**"
+msgstr "**استخدم الخادم الملفي الحالي أو القرص المحلي كتخزين افتراضي**"
+
+#: ../../chapter02.rst:170
+#, python-format
+msgid ""
+"Using this option, you can connect the tenant's root folder to a file "
+"server network share. If you want the tenant users to continue to share "
+"file server network share outside of |prodname|, it is recommended you "
+"use the \"Import Network Share\" feature in \"Team Folder\" instead of "
+"pointing the default storage to the file server share, because the "
+"Cluster Server will assume it has 100% of the control of the storage "
+"location."
+msgstr "باستخدام هذا الخيار، يمكنك ربط مجلد الجذر الخاص بالمستأجر بمشاركة شبكة خادم الملفات. إذا كنت تريد لمستخدمي المستأجر الاستمرار في مشاركة مشاركة شبكة خادم الملفات خارج |prodname|، يُنصح باستخدام ميزة \"استيراد مشاركة الشبكة\" في \"مجلد الفريق\" بدلاً من توجيه التخزين الافتراضي إلى مشاركة خادم الملفات، لأن الخادم العنقودي سيفترض أن لديه السيطرة الكاملة على موقع التخزين."
+
+#: ../../chapter02.rst:175
+msgid "ADD TENANT STORAGE OPTIONS 2"
+msgstr "إضافة خيارات تخزين المستأجر 2"
+
+#: ../../chapter02.rst:177
+msgid "**Use Cloud Storage as default storage**"
+msgstr "**استخدم التخزين السحابي كتخزين افتراضي**"
+
+#: ../../chapter02.rst:179
+msgid ""
+"When using this option, you can connect the tenant's root folder to "
+"Amazon S3, Windows Azure Blob, OpenStack storage as well as others."
+msgstr "عند استخدام هذا الخيار، يمكنك ربط مجلد الجذر الخاص بالمستأجر بتخزين Amazon S3، وBlob Windows Azure، وتخزين OpenStack بالإضافة إلى خيارات أخرى."
+
+#: ../../chapter02.rst:184
+msgid "CLOUD STORAGE SETTINGS"
+msgstr "إعدادات التخزين السحابي"
+
+#: ../../chapter02.rst:186
+msgid "**Using Amazon S3 bucket for tenant storage**"
+msgstr "**استخدام سطل Amazon S3 لتخزين المستأجر**"
+
+#: ../../chapter02.rst:188
+msgid ""
+"``Tenant Manager`` > ``{Create New Tenant}`` > ``Use Cloud Storage as "
+"Default Storage`` > ``Amazon S3``"
+msgstr "``مدير المستأجر`` > ``{إنشاء مستأجر جديد}`` > ``استخدام التخزين السحابي كتخزين افتراضي`` > ``أمازون S3``"
+
+#: ../../chapter02.rst:190
+msgid ""
+"You can pick Amazon S3 as the target storage for the tenant if you want "
+"to."
+msgstr "يمكنك اختيار Amazon S3 كتخزين هدف للمستأجر إذا أردت ذلك."
+
+#: ../../chapter02.rst:195
+msgid "AMAZON S3"
+msgstr "أمازون إس 3"
+
+#: ../../chapter02.rst:197
+msgid ""
+"After you pick the Amazon S3, the first screen will be asking for "
+"``Access Key`` and ``Secret Key``."
+msgstr "بعد اختيارك لـ Amazon S3، ستكون الشاشة الأولى تطلب ``Access Key`` و ``Secret Key``."
+
+#: ../../chapter02.rst:200
+msgid ""
+"You will need to log into your AWS console to get the access key and "
+"secret key. You can use master access key and secret key, by default the "
+"master key has default access to all buckets. You can also create an IAM "
+"user and use the key from a specific IAM user. However, by default, the "
+"IAM user is locked out of access to any bucket until bucket access policy"
+" is created and attached to the IAM user."
+msgstr "ستحتاج إلى تسجيل الدخول إلى لوحة تحكم AWS الخاصة بك للحصول على مفتاح الوصول والمفتاح السري. يمكنك استخدام مفتاح الوصول الرئيسي والمفتاح السري الرئيسي، بشكل افتراضي يمتلك المفتاح الرئيسي حق الوصول الافتراضي إلى جميع الحاويات. يمكنك أيضًا إنشاء مستخدم IAM واستخدام المفتاح من مستخدم IAM محدد. ومع ذلك، بشكل افتراضي، يتم منع مستخدم IAM من الوصول إلى أي حاوية حتى يتم إنشاء سياسة وصول الحاوية وربطها بمستخدم IAM."
+
+#: ../../chapter02.rst:202
+msgid ""
+"If you use IAM user, here is a sample S3 Bucket access policy to grant an"
+" IAM user to a specific bucket. As shown below, the policy gives an IAM "
+"user the ability to use bucket \"user3onlybucket\""
+msgstr "إذا كنت تستخدم مستخدم IAM، إليك نموذج سياسة الوصول إلى دلو S3 لمنح مستخدم IAM إلى دلو محدد. كما هو موضح أدناه، تمنح السياسة مستخدم IAM القدرة على استخدام دلو \"user3onlybucket\""
+
+#: ../../chapter02.rst:256
+msgid ""
+"After it is all setup properly, you can use the IAM user's access key id "
+"and secret access key to connect to the Amazon S3 bucket."
+msgstr "بعد الإعداد الصحيح لكل شيء، يمكنك استخدام معرّف مفتاح الوصول ومفتاح الوصول السري لمستخدم IAM للاتصال بحاوية Amazon S3."
+
+#: ../../chapter02.rst:261
+msgid "AMAZON S3 USER'S ACCESS KEY"
+msgstr "مفتاح وصول مستخدم AMAZON S3"
+
+#: ../../chapter02.rst:263
+msgid ""
+"When the correct access credentials are given, the next screen is to "
+"select a bucket from Amazon S3."
+msgstr "عندما تُعطى بيانات اعتماد الوصول الصحيحة، الشاشة التالية هي لاختيار دلو من أمازون S3."
+
+#: ../../chapter02.rst:268
+msgid "AMAZON S3 SELECTING A BUCKET"
+msgstr "تحديد دلو AMAZON S3"
+
+#: ../../chapter02.rst:270
+msgid ""
+"You can pre-create a bucket in Amazon S3 and then pick the bucket in the "
+"current page. After that, it will take a short while for the system to be"
+" ready for the new tenant created."
+msgstr "يمكنك إنشاء دلو مسبقًا في Amazon S3 ثم اختيار الدلو في الصفحة الحالية. بعد ذلك، سيستغرق النظام وقتًا قصيرًا ليكون جاهزًا للمستأجر الجديد المُنشأ."
+
+#: ../../chapter02.rst:275
+msgid "FINISHING AMAZON S3 CONFIGURATION"
+msgstr "إنهاء تكوين أمازون إس 3"
+
+#: ../../chapter02.rst:277
+msgid ""
+"After the tenant is created, you will be looking at the dashboard of the "
+"tenant."
+msgstr "بعد إنشاء المستأجر، ستكون تنظر إلى لوحة معلومات المستأجر."
+
+#: ../../chapter02.rst:280
+msgid "**Using Windows Azure Blob Storage for tenant storage**"
+msgstr "**استخدام تخزين Blob الخاص بـ Windows Azure لتخزين المستأجر**"
+
+#: ../../chapter02.rst:282
+msgid ""
+"In addition to Amazon S3 bucket, you can also use Windows Azure Blob "
+"Storage as the tenant's back end storage."
+msgstr "بالإضافة إلى دلو Amazon S3، يمكنك أيضًا استخدام تخزين Blob الخاص بـ Windows Azure كتخزين خلفي للمستأجر."
+
+#: ../../chapter02.rst:284
+msgid ""
+"Similar to the above Amazon S3 setup process, you can pick \"Windows "
+"Azure Blob\" as the option during the tenant creation process."
+msgstr "مشابهًا لعملية إعداد Amazon S3 أعلاه، يمكنك اختيار \"Windows Azure Blob\" كخيار خلال عملية إنشاء المستأجر."
+
+#: ../../chapter02.rst:289
+msgid "WINDOWS AZURE BLOB SETUP"
+msgstr "إعداد تخزين BLOB في WINDOWS AZURE"
+
+#: ../../chapter02.rst:291
+msgid "The next screen will be asking for ``Blob URL`` and the ``Primary key``."
+msgstr "ستطلب منك الشاشة التالية إدخال ``Blob URL`` و ``المفتاح الأساسي``."
+
+#: ../../chapter02.rst:296
+msgid "AZURE BLOB URL AND PRIMARY KEY"
+msgstr "عنوان URL لـ AZURE BLOB والمفتاح الأساسي"
+
+#: ../../chapter02.rst:298
+msgid "You can get this information from the Azure Portal."
+msgstr "يمكنك الحصول على هذه المعلومات من بوابة Azure."
+
+#: ../../chapter02.rst:303
+msgid "AZURE BLOB ACCESS KEYS"
+msgstr "مفاتيح الوصول إلى AZURE BLOB"
+
+#: ../../chapter02.rst:305
+msgid ""
+"Here is a simple mapping between Azure portal and the parameters it asks "
+"for."
+msgstr "ها هو تعيين بسيط بين بوابة أزور والمعاملات التي تطلبها."
+
+#: ../../chapter02.rst:310
+msgid "AZURE BLOB ACCOUNT SETTINGS"
+msgstr "إعدادات حساب AZURE BLOB"
+
+#: ../../chapter02.rst:312
+msgid ""
+"After you put in the account information, the next screen asks to pick a "
+"container to use."
+msgstr "بعد إدخال معلومات الحساب، تطلب الشاشة التالية اختيار حاوية للاستخدام."
+
+#: ../../chapter02.rst:317
+msgid "AZURE BLOB ACCOUNT INFORMATION"
+msgstr "معلومات حساب AZURE BLOB"
+
+#: ../../chapter02.rst:319
+msgid ""
+"After the container information is all set, the tenant account will be "
+"created."
+msgstr "بعد أن يتم تحديد معلومات الحاوية، سيتم إنشاء حساب المستأجر."
+
+#: ../../chapter02.rst:324
+msgid "Cluster Branding"
+msgstr "العلامة التجارية للمجموعة"
+
+#: ../../chapter02.rst:326
+msgid "``Cluster Manager`` > ``Cluster Branding``"
+msgstr "``مدير العنقود`` > ``العلامة التجارية للعنقود``"
+
+#: ../../chapter02.rst:328
+msgid ""
+"Cluster Branding is for changing the logo, bitmaps and other branding "
+"related information. There are two branding supports. One is self-service"
+" built-in branding, which is completely controlled by the “Cluster "
+"Branding” settings on the “Cluster Manager”. The other is full-branding "
+"service. Both rely on the “Cluster Branding” to change the look-and-feel "
+"of the web portal."
+msgstr "العلامة التجارية للمجموعة تُستخدم لتغيير الشعار والصور النقطية وغيرها من المعلومات المتعلقة بالعلامة التجارية. هناك دعمان للعلامة التجارية. الأول هو العلامة التجارية الذاتية الخدمة المدمجة، والتي يتم التحكم بها بالكامل من خلال إعدادات 'العلامة التجارية للمجموعة' في 'مدير المجموعة'. الآخر هو خدمة العلامة التجارية الكاملة. كلاهما يعتمدان على 'العلامة التجارية للمجموعة' لتغيير المظهر العام للبوابة الإلكترونية."
+
+#: ../../chapter02.rst:331
+msgid ""
+"Built-in branding will work with white-label clients, which upon the "
+"first connection to the cluster, will download the branding related "
+"information and  use the branding related information. As compared to "
+"full-branding service, the full branding clients will have artworks, logo"
+" bitmaps and related information burned into the client binaries."
+msgstr "سيعمل العلامة التجارية المدمجة مع العملاء الذين يحملون علامة تجارية بيضاء، والذين سيقومون عند الاتصال الأول بالمجموعة بتنزيل المعلومات المتعلقة بالعلامة التجارية واستخدام المعلومات المتعلقة بالعلامة التجارية. بالمقارنة مع خدمة العلامة التجارية الكاملة، سيكون لدى العملاء الذين يحملون العلامة التجارية الكاملة أعمال فنية، شعارات بتنسيق البتماب ومعلومات ذات صلة مدمجة في الثنائيات العميلة."
+
+#: ../../chapter02.rst:334
+msgid "General"
+msgstr "عام"
+
+#: ../../chapter02.rst:336
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``General``"
+msgstr "``مدير العنقود`` > ``العلامة التجارية للعنقود`` > ``عام``"
+
+#: ../../chapter02.rst:338
+msgid ""
+"Under the ``General`` tab you can specify the name and other settings as "
+"specified below."
+msgstr "تحت علامة التبويب ``عام`` يمكنك تحديد الاسم وإعدادات أخرى كما هو موضح أدناه."
+
+#: ../../chapter02.rst:343
+msgid "CLUSTER BRANDING"
+msgstr "تمييز التجمع"
+
+#: ../../chapter02.rst:345
+msgid "**Product Name (1)**"
+msgstr "**اسم المنتج (1)**"
+
+#: ../../chapter02.rst:347
+msgid ""
+"This is where you will specify what you would like to call the product. "
+"This is the name that users will see when they login either in web portal"
+" or the client applications. To access branding settings click \"Cluster "
+"Branding\" in Dashboard then \"EDIT\" and change the setting you want. "
+"Don't forget to save your settings. You can also choose a color theme "
+"which you would like your users to see when they login to the portal. You"
+" can choose a color theme that is close to your company colors."
+msgstr "هذا هو المكان الذي ستحدد فيه الاسم الذي ترغب في تسمية المنتج به. هذا هو الاسم الذي سيراه المستخدمون عند تسجيل الدخول سواء في البوابة الإلكترونية أو تطبيقات العميل. للوصول إلى إعدادات العلامة التجارية انقر على \"علامة تجمع العلامات التجارية\" في لوحة التحكم ثم \"تحرير\" وغير الإعداد الذي تريده. لا تنسى حفظ إعداداتك. يمكنك أيضًا اختيار نظام ألوان ترغب في أن يراه المستخدمون عند تسجيل الدخول إلى البوابة. يمكنك اختيار نظام ألوان يقترب من ألوان شركتك."
+
+#: ../../chapter02.rst:349
+msgid "**Home Page URL (2)**"
+msgstr "**الصفحة الرئيسية URL (2)**"
+
+#: ../../chapter02.rst:351
+msgid "This is the URL of your 'Home Page' page."
+msgstr "هذا هو عنوان URL لصفحة 'الصفحة الرئيسية' الخاصة بك."
+
+#: ../../chapter02.rst:356
+msgid "HOME PAGE URL AND COPYRIGHT STATEMENT"
+msgstr "عنوان URL للصفحة الرئيسية وبيان حقوق النشر"
+
+#: ../../chapter02.rst:359
+msgid "**'Copyright' Statement (3)**"
+msgstr "**'بيان حقوق النشر' (3)**"
+
+#: ../../chapter02.rst:361
+msgid "This is the contents of your 'Copyright' statement."
+msgstr "هذا هو محتوى بيان 'حقوق النشر' الخاص بك."
+
+#: ../../chapter02.rst:364
+msgid "Web Portal"
+msgstr "بوابة الويب"
+
+#: ../../chapter02.rst:366
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``"
+msgstr "``مدير العنقود`` > ``العلامة التجارية للعنقود`` > ``البوابة الإلكترونية``"
+
+#: ../../chapter02.rst:370
+msgid ""
+"In previous builds, the best way to get icons to work is by putting the "
+"icon files on the same server and reference the icons via a relative "
+"link."
+msgstr "في الإصدارات السابقة، كان أفضل طريقة لجعل الأيقونات تعمل هو وضع ملفات الأيقونات على نفس الخادم والإشارة إلى الأيقونات عبر رابط نسبي."
+
+#: ../../chapter02.rst:372
+msgid ""
+"For example, you can create a sub folder under the Install Folder of the "
+"Cluster Server, such as under root/imagetest folder. The dimensions for "
+"all icons for each setting under web portal should match what is "
+"displayed for each setting. The branding of the icons and images require "
+"the icons and images with the same width/height as specified or same "
+"aspect ratio if the resolution is higher."
+msgstr "على سبيل المثال، يمكنك إنشاء مجلد فرعي تحت مجلد التثبيت الخاص بخادم العنقود، مثل تحت مجلد root/imagetest. يجب أن تتطابق أبعاد جميع الأيقونات لكل إعداد تحت البوابة الإلكترونية مع ما يتم عرضه لكل إعداد. تتطلب العلامة التجارية للأيقونات والصور استخدام الأيقونات والصور بنفس العرض/الارتفاع كما هو محدد أو نفس نسبة الأبعاد إذا كانت الدقة أعلى."
+
+#: ../../chapter02.rst:374
+msgid ""
+"In later builds, the icons used are what-you-see-is-what-you-get and you "
+"can upload those icon sets."
+msgstr "في الإصدارات الأحدث، الأيقونات المستخدمة هي ما-تراه-هو-ما-تحصل-عليه ويمكنك رفع مجموعات الأيقونات هذه."
+
+#: ../../chapter02.rst:379
+msgid "WEB PORTAL SETTINGS"
+msgstr "إعدادات بوابة الويب"
+
+#: ../../chapter02.rst:382
+msgid "**Application Icon (1)**"
+msgstr "**أيقونة التطبيق (1)**"
+
+#: ../../chapter02.rst:384
+msgid ""
+"From the Web portal section of cluster branding, you can change the "
+"application icon. This is the image that is displayed next to the product"
+" name in the web portal."
+msgstr "من قسم بوابة الويب الخاصة بتمييز العنقود، يمكنك تغيير أيقونة التطبيق. هذه هي الصورة التي يتم عرضها بجانب اسم المنتج في البوابة الويب."
+
+#: ../../chapter02.rst:386
+msgid "**Tenant Logo (2)**"
+msgstr "**شعار المستأجر (2)**"
+
+#: ../../chapter02.rst:388
+msgid "This is where the logo that represents each tenant should be uploaded."
+msgstr "هذا هو المكان الذي يجب أن يتم فيه رفع شعار يمثل كل مستأجر."
+
+#: ../../chapter02.rst:390
+msgid "**Drive Icon (3)**"
+msgstr "**أيقونة القرص (3)**"
+
+#: ../../chapter02.rst:392
+msgid ""
+"This is the icon that will be used for the cloud drive. For example in "
+"the web portal tree view."
+msgstr "هذه هي الأيقونة التي ستُستخدم للقرص السحابي. على سبيل المثال في عرض شجرة البوابة الإلكترونية."
+
+#: ../../chapter02.rst:394
+msgid "**Logo Url (4) & Login Page Left Image (5)**"
+msgstr "**عنوان الشعار (4) وصورة الصفحة اليسرى لتسجيل الدخول (5)**"
+
+#: ../../chapter02.rst:396
+msgid ""
+"Please follow the same steps for branding settings for 'Login Background "
+"Image', 'File Share Stamp Icon', 'IOS Client App ID', 'Login Page Note', "
+"'Change Password URL', 'Tutorial Page URL'."
+msgstr "يرجى اتباع نفس الخطوات لإعدادات العلامة التجارية لـ 'صورة خلفية تسجيل الدخول'، و'أيقونة ختم مشاركة الملف'، و'معرف تطبيق عميل IOS'، و'ملاحظة صفحة تسجيل الدخول'، و'رابط تغيير كلمة المرور'، و'رابط صفحة الدليل'."
+
+#: ../../chapter02.rst:400
+msgid "Client Download"
+msgstr "تحميل العميل"
+
+#: ../../chapter02.rst:402
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Client Download``"
+msgstr "``مدير العنقود`` > ``العلامة التجارية للعنقود`` > ``تحميل العميل``"
+
+#: ../../chapter02.rst:404
+msgid "You can choose not to show the download link for some clients here."
+msgstr "يمكنك اختيار عدم إظهار رابط التحميل لبعض العملاء هنا."
+
+#: ../../chapter02.rst:409
+msgid "CLIENT DOWNLOAD SETTINGS"
+msgstr "إعدادات تحميل العميل"
+
+#: ../../chapter02.rst:412
+msgid "**Mobile Clients Download Links**"
+msgstr "**روابط تحميل التطبيقات المحمولة**"
+
+#: ../../chapter02.rst:414
+msgid ""
+"Once you brand your own iOS client and/or Android Client you can point "
+"the download link to your own AppStore and Google Play locations."
+msgstr "بمجرد أن تقوم بتخصيص عميل iOS الخاص بك و/أو عميل Android، يمكنك توجيه رابط التحميل إلى مواقع AppStore وGoogle Play الخاصة بك."
+
+#: ../../chapter02.rst:420
+msgid "CLIENT DOWNLOAD LINKS SETTINGS"
+msgstr "إعدادات روابط تحميل العميل"
+
+#: ../../chapter02.rst:424 ../../chapter02.rst:837
+msgid "Windows Client"
+msgstr "عميل ويندوز"
+
+#: ../../chapter02.rst:426
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``"
+msgstr "``مدير العقد`` > ``التمييز التجاري للعقد`` > ``عميل ويندوز``"
+
+#: ../../chapter02.rst:428
+msgid ""
+"The application icon and drive icon URLs can be specified here. Also, you"
+" can put in your company name under 'Manufacturer Name' along with the "
+"'Contact Info' email. You also have the option here to create your own "
+"branded MSI Windows client. You can also use your own code signing "
+"certificate in order to digitally sign the MSI package. The advantage of "
+"creating your own MSI client package is that when users download and "
+"install the Windows Client you provide, they will see your company name "
+"along with your branding during the client installation."
+msgstr "يمكن تحديد عناوين URL الخاصة بأيقونة التطبيق وأيقونة القرص هنا. كما يمكنك إدخال اسم شركتك تحت 'اسم الصانع' إلى جانب 'معلومات الاتصال' البريد الإلكتروني. لديك أيضًا الخيار هنا لإنشاء عميل MSI Windows الخاص بعلامتك التجارية. يمكنك أيضًا استخدام شهادة توقيع الكود الخاصة بك لتوقيع حزمة MSI رقميًا. إحدى مزايا إنشاء حزمة عميل MSI الخاصة بك هي أنه عندما يقوم المستخدمون بتنزيل وتثبيت عميل Windows الذي توفره، سيرون اسم شركتك إلى جانب علامتك التجارية أثناء تثبيت العميل."
+
+#: ../../chapter02.rst:430
+msgid ""
+"Windows client supports multiple languages. Some language packs are "
+"included and shipped with CentreStack. If you need to run the Windows "
+"client under a different language, you can set the UI Language there."
+msgstr "يدعم عميل ويندوز لغات متعددة. بعض حزم اللغات متضمنة ومرفقة مع CentreStack. إذا كنت بحاجة إلى تشغيل عميل ويندوز بلغة مختلفة، يمكنك ضبط لغة واجهة المستخدم هناك."
+
+#: ../../chapter02.rst:435
+msgid "WINDOWS CLIENT BRANDING"
+msgstr "تمييز عميل ويندوز"
+
+#: ../../chapter02.rst:437
+msgid ""
+"Once you clicked the \"Edit\" button to edit the Windows Client branding "
+"information, you will be able to provide EULA (End User License "
+"Agreement) and Code Signing Certificate."
+msgstr "بمجرد النقر على زر \"تحرير\" لتعديل معلومات العلامة التجارية لعميل Windows، ستتمكن من تقديم EULA (اتفاقية ترخيص المستخدم النهائي) وشهادة التوقيع الرمزي."
+
+#: ../../chapter02.rst:442
+msgid "WINDOWS CLIENT BRANDING SETTINGS"
+msgstr "إعدادات تخصيص عميل ويندوز"
+
+#: ../../chapter02.rst:445
+msgid "**EULA (1)**"
+msgstr "**اتفاقية ترخيص المستخدم النهائي (1)**"
+
+#: ../../chapter02.rst:447
+msgid "This will be a RTF file format as input."
+msgstr "هذا سيكون بتنسيق ملف RTF كمدخل."
+
+#: ../../chapter02.rst:450
+msgid "**Code Signing Certificate (2)**"
+msgstr "**شهادة توقيع الكود (2)**"
+
+#: ../../chapter02.rst:452
+msgid ""
+"You can acquire a code signing certificate from your code signing "
+"certificate vendor. Most SSL vendor also provide code signing "
+"certificate. Make sure you use SHA 256 (SHA2) as your digital signing "
+"certificate hash algorithm."
+msgstr "يمكنك الحصول على شهادة توقيع الكود من موزع شهادات توقيع الكود الخاص بك. معظم موزعي شهادات SSL يوفرون أيضًا شهادة توقيع الكود. تأكد من استخدام SHA 256 (SHA2) كخوارزمية تجزئة لشهادة التوقيع الرقمي الخاصة بك."
+
+#: ../../chapter02.rst:454
+msgid ""
+"If your Code Signing certificate is already installed you can also use "
+"the option - ``Sign using cert in certificate store`` **(3)**"
+msgstr "إذا كان شهادة التوقيع الخاصة بك مثبتة بالفعل، يمكنك أيضًا استخدام الخيار - ``التوقيع باستخدام الشهادة الموجودة في متجر الشهادات`` **(3)**"
+
+#: ../../chapter02.rst:458 ../../chapter02.rst:877
+msgid "Mac Client"
+msgstr "عميل ماك"
+
+#: ../../chapter02.rst:460
+msgid ""
+"You can configure the MAC client and MAC client installation package "
+"branding under here."
+msgstr "يمكنك تهيئة علامة العميل MAC وحزمة تثبيت عميل MAC من هنا."
+
+#: ../../chapter02.rst:463
+msgid "**Client Branding**"
+msgstr "**العلامة التجارية للعميل**"
+
+#: ../../chapter02.rst:468
+msgid "MAC CLIENT BRANDING"
+msgstr "تخصيص عميل MAC"
+
+#: ../../chapter02.rst:470
+msgid "**Installation Package Branding**"
+msgstr "**تغليف العلامة التجارية للتثبيت**"
+
+#: ../../chapter02.rst:472
+msgid ""
+"You can brand the Mac software agent package as well. You will need to go"
+" to https://www.centrestack.com/, login as a partner and go to the "
+"\"Branding\" section to create a branding task. The task will be "
+"fulfilled and completed and a Mac software agent package will be "
+"available for download once the branding task completes. It may take a "
+"couple of days for the task to finish."
+msgstr "يمكنك أيضًا تخصيص حزمة وكيل برمجيات Mac. ستحتاج إلى الذهاب إلى https://www.centrestack.com/، وتسجيل الدخول كشريك والانتقال إلى قسم \"العلامة التجارية\" لإنشاء مهمة تخصيص. سيتم الوفاء بالمهمة وإكمالها وستكون حزمة وكيل برمجيات Mac متاحة للتنزيل بمجرد اكتمال مهمة التخصيص. قد يستغرق الأمر بضعة أيام حتى تنتهي المهمة."
+
+#: ../../chapter02.rst:478
+msgid "MAC CLIENT BRANDING IN PARTNER PORTAL"
+msgstr "تخصيص علامة تجارية لعميل MAC في بوابة الشركاء"
+
+#: ../../chapter02.rst:483
+msgid ""
+"Mac software package branding is different from the Windows software "
+"package branding because the Mac software package branding will need to "
+"be done on a Mac machine. So the task will be created on the partner "
+"portal but will be completed asynchronously on a Mac machine."
+msgstr "تختلف علامة تجارية لحزمة برامج Mac عن علامة تجارية لحزمة برامج Windows لأن علامة تجارية لحزمة برامج Mac ستحتاج إلى أن تتم على جهاز Mac. لذلك سيتم إنشاء المهمة على بوابة الشركاء ولكن ستكتمل بشكل غير متزامن على جهاز Mac."
+
+#: ../../chapter02.rst:488
+msgid "Emails"
+msgstr "البريد الإلكتروني"
+
+#: ../../chapter02.rst:490
+msgid ""
+"There are many places in the Cluster Manager that need to contact the "
+"users via email. So the “Emails” tab is used to set up the email "
+"templates used for contacting users via email."
+msgstr "هناك العديد من الأماكن في مدير العنقود التي تحتاج إلى التواصل مع المستخدمين عبر البريد الإلكتروني. لذا فإن علامة التبويب \"الرسائل الإلكترونية\" تُستخدم لإعداد قوالب البريد الإلكتروني المستخدمة للتواصل مع المستخدمين عبر البريد الإلكتروني."
+
+#: ../../chapter02.rst:495
+msgid "EMAIL SETTINGS"
+msgstr "إعدادات البريد الإلكتروني"
+
+#: ../../chapter02.rst:497
+msgid "**Welcome Email for New Tenant**"
+msgstr "**رسالة الترحيب للمستأجر الجديد**"
+
+#: ../../chapter02.rst:499
+msgid ""
+"This is the email sent to the new tenant when the tenant is created. The "
+"email is sent to the tenant administrator."
+msgstr "هذا هو البريد الإلكتروني المرسل إلى المستأجر الجديد عند إنشاء المستأجر. يتم إرسال البريد الإلكتروني إلى مدير المستأجر."
+
+#: ../../chapter02.rst:502
+msgid "**Welcome Email for New Team User**"
+msgstr "**رسالة ترحيب للمستخدم الجديد في الفريق**"
+
+#: ../../chapter02.rst:504
+msgid ""
+"The team user is a regular user in a tenant. This is the email template "
+"that is sent to the user when the user account is created."
+msgstr "المستخدم في الفريق هو مستخدم عادي في المستأجر. هذا هو قالب البريد الإلكتروني الذي يُرسل إلى المستخدم عند إنشاء حساب المستخدم."
+
+#: ../../chapter02.rst:507
+msgid "**Welcome Email for New Guest User**"
+msgstr "**رسالة ترحيب للمستخدم الضيف الجديد**"
+
+#: ../../chapter02.rst:509
+msgid ""
+"Guest user is a regular user in a tenant that doesn't have a home "
+"directory associated. So the guest user can only operate within shared "
+"files and folders from other regular users. This is the email template "
+"that is sent to the guest user when the guest user's account was "
+"provisioned."
+msgstr "المستخدم الضيف هو مستخدم عادي في مستأجر ليس لديه دليل رئيسي مرتبط به. لذلك، لا يمكن للمستخدم الضيف العمل إلا ضمن الملفات والمجلدات المشتركة من المستخدمين العاديين الآخرين. هذا هو قالب البريد الإلكتروني الذي يتم إرساله إلى المستخدم الضيف عندما يتم توفير حساب المستخدم الضيف."
+
+#: ../../chapter02.rst:512
+msgid "**Email for File/Folder Share**"
+msgstr "**البريد الإلكتروني لمشاركة الملف/المجلد**"
+
+#: ../../chapter02.rst:514
+msgid ""
+"This is the email sent to a user when the user is about to receive "
+"file/folder shares."
+msgstr "هذه هي الرسالة الإلكترونية المرسلة إلى المستخدم عندما يكون على وشك استلام مشاركات الملفات/المجلدات."
+
+#: ../../chapter02.rst:517
+msgid "**Request a File**"
+msgstr "**طلب ملف**"
+
+#: ../../chapter02.rst:519
+msgid ""
+"This is the email sent to a user when the user is about to receive an "
+"invitation to upload a file."
+msgstr "هذا هو البريد الإلكتروني المرسل إلى المستخدم عندما يكون على وشك تلقي دعوة لتحميل ملف."
+
+#: ../../chapter02.rst:522
+msgid "**Notify external user that shared file changed**"
+msgstr "**إخطار المستخدم الخارجي بأن الملف المشترك قد تغير**"
+
+#: ../../chapter02.rst:524
+msgid ""
+"When a shared file/folder changed, this is the email that is sent to the "
+"user who receives file/folder shares."
+msgstr "عندما يتغير ملف/مجلد مشترك، هذا هو البريد الإلكتروني الذي يُرسل إلى المستخدم الذي يتلقى مشاركات الملفات/المجلدات."
+
+#: ../../chapter02.rst:527
+msgid "**Admin Reset User Password Email**"
+msgstr "**إعادة تعيين كلمة مرور المستخدم من قبل المسؤول**"
+
+#: ../../chapter02.rst:529
+msgid "This is the email that sent to a user when the user's password is reset."
+msgstr "هذا هو البريد الإلكتروني الذي يُرسل إلى المستخدم عندما يتم إعادة تعيين كلمة مرور المستخدم."
+
+#: ../../chapter02.rst:532
+msgid "**User Reset Password Email**"
+msgstr "**إعادة تعيين كلمة مرور المستخدم عبر البريد الإلكتروني**"
+
+#: ../../chapter02.rst:534
+msgid ""
+"This is the email that sent to a user when the user resets the password "
+"for himself/herself."
+msgstr "هذا هو البريد الإلكتروني الذي يُرسل إلى المستخدم عندما يقوم بإعادة تعيين كلمة المرور الخاصة به."
+
+#: ../../chapter02.rst:537
+msgid "**New Sign-in Action Email**"
+msgstr "**إجراء تسجيل الدخول الجديد بالبريد الإلكتروني**"
+
+#: ../../chapter02.rst:539
+msgid ""
+"This is the email notification sent to the user when the user logins from"
+" a specific machine."
+msgstr "هذا هو إشعار البريد الإلكتروني المرسل إلى المستخدم عند تسجيل الدخول من جهاز معين."
+
+#: ../../chapter02.rst:541
+msgid "**Settings**"
+msgstr "**الإعدادات**"
+
+#: ../../chapter02.rst:543
+msgid ""
+"This is to set the reply email address. Typically the email is sent with "
+"the SMTP service set. However, if the reply address is different, you can"
+" set it here."
+msgstr "هذا لضبط عنوان البريد الإلكتروني للرد. عادةً ما يتم إرسال البريد الإلكتروني بخدمة SMTP المضبوطة. ومع ذلك، إذا كان عنوان الرد مختلفًا، يمكنك ضبطه هنا."
+
+#: ../../chapter02.rst:547
+msgid "Android Client"
+msgstr "عميل أندرويد"
+
+#: ../../chapter02.rst:551
+msgid ""
+"Branding the android client can now be automated from your partner portal"
+" (https://partner.centrestack.com/login/). Please go to "
+"https://partner.centrestack.com/login/ to brand the Android client."
+msgstr "يمكن الآن أتمتة تخصيص عميل الأندرويد من خلال بوابة الشركاء الخاصة بك (https://partner.centrestack.com/login/). يرجى الذهاب إلى https://partner.centrestack.com/login/ لتخصيص عميل الأندرويد."
+
+#: ../../chapter02.rst:554
+msgid ""
+"The branding of Android client and iOS client is done from "
+"www.centrestack.com, instead of from your own server."
+msgstr "يتم تخصيص علامة تجارية لعميل أندرويد وعميل iOS من خلال www.centrestack.com، بدلاً من خادمك الخاص."
+
+#: ../../chapter02.rst:559
+msgid "ANDROID CLIENT BRANDING"
+msgstr "تخصيص عميل الأندرويد"
+
+#: ../../chapter02.rst:563
+msgid "iOS Client"
+msgstr "عميل iOS"
+
+#: ../../chapter02.rst:567
+msgid ""
+"Branding of iOS client can now be automated from partner portal "
+"(https://partner.centrestack.com/login/)."
+msgstr "يمكن الآن أتمتة تخصيص علامة تجارية لعميل iOS من خلال بوابة الشركاء (https://partner.centrestack.com/login/)."
+
+#: ../../chapter02.rst:569
+msgid ""
+"The information here in this section is preserved for legacy reference. "
+"Please go to https://partner.centrestack.com/login/ to brand iOS client."
+msgstr "المعلومات الموجودة هنا في هذا القسم محفوظة للرجوع إليها كمرجع قديم. يرجى الذهاب إلى https://partner.centrestack.com/login/ لتخصيص عميل iOS."
+
+#: ../../chapter02.rst:571
+msgid ""
+"As shown in the above picture, you can generate branding task and request"
+" for Android branding and iOS branding."
+msgstr "كما هو موضح في الصورة أعلاه، يمكنك إنشاء مهمة تمييز تجاري وطلب تمييز تجاري لنظامي التشغيل أندرويد وiOS."
+
+#: ../../chapter02.rst:576
+msgid "Export/Import"
+msgstr "تصدير/استيراد"
+
+#: ../../chapter02.rst:578
+msgid ""
+"You can either export the branding settings to another cluster or you can"
+" import branding settings from another cluster in this cluster under this"
+" setting."
+msgstr "يمكنك إما تصدير إعدادات العلامة التجارية إلى مجموعة أخرى أو يمكنك استيراد إعدادات العلامة التجارية من مجموعة أخرى في هذه المجموعة تحت هذا الإعداد"
+
+#: ../../chapter02.rst:583
+msgid "EXPORT/IMPORT SETTINGS"
+msgstr "تصدير/استيراد الإعدادات"
+
+#: ../../chapter02.rst:588
+msgid "Reports"
+msgstr "تقارير"
+
+#: ../../chapter02.rst:590
+msgid "``Cluster Manager`` > ``Reports``"
+msgstr "``مدير العنقود`` > ``التقارير``"
+
+#: ../../chapter02.rst:593
+msgid "Upload Report"
+msgstr "تحميل التقرير"
+
+#: ../../chapter02.rst:595
+msgid ""
+"Upload report tab shows you graphs for all the uploads that have taken "
+"place in the last sixty minutes, 24 hours, 30 days and a whole week."
+msgstr "تُظهر لك علامة تبويب تحميل التقرير الرسوم البيانية لجميع عمليات التحميل التي تمت في آخر ستين دقيقة، و٢٤ ساعة، و٣٠ يومًا، وأسبوع كامل."
+
+#: ../../chapter02.rst:601
+msgid "UPLOAD REPORT"
+msgstr "تقرير التحميل"
+
+#: ../../chapter02.rst:605
+msgid "Storage Statistics"
+msgstr "إحصائيات التخزين"
+
+#: ../../chapter02.rst:607
+msgid ""
+"Under storage statistics, you can see a quick overview of the overall "
+"storage statistics, size distribution file type distribution pie charts, "
+"and users who have used the most storage so far."
+msgstr "تحت إحصائيات التخزين، يمكنك رؤية نظرة عامة سريعة لإحصائيات التخزين الكلية، ومخططات توزيع حجم الملفات وتوزيع نوع الملف على شكل فطائر، والمستخدمين الذين استخدموا أكبر قدر من التخزين حتى الآن."
+
+#: ../../chapter02.rst:613
+msgid "STORAGE STATISTICS REPORT"
+msgstr "تقرير إحصائيات التخزين"
+
+#: ../../chapter02.rst:617
+msgid "Active Users"
+msgstr "المستخدمون النشطون"
+
+#: ../../chapter02.rst:619
+msgid ""
+"Active users reports the activity of users on the web portal. The active "
+"users report doesn't include users from windows client or other native "
+"clients because those users are more persistent (always there). To access"
+" this report, you can click on the active users section in the panel near"
+" the top of the screen."
+msgstr "تقارير المستخدمين النشطين تُظهر نشاط المستخدمين على البوابة الإلكترونية. تقرير المستخدمين النشطين لا يتضمن المستخدمين من عميل ويندوز أو غيره من العملاء الأصليين لأن هؤلاء المستخدمين أكثر استمرارية (دائمًا موجودين). للوصول إلى هذا التقرير، يمكنك النقر على قسم المستخدمين النشطين في اللوحة القريبة من أعلى الشاشة."
+
+#: ../../chapter02.rst:626
+msgid "ACTIVE USERS REPORT"
+msgstr "تقرير المستخدمين النشطين"
+
+#: ../../chapter02.rst:630
+msgid "Guest Users"
+msgstr "المستخدمون الضيوف"
+
+#: ../../chapter02.rst:632
+msgid ""
+"Other reports are also available such as Guest Users, which are users "
+"that don't have a home directory but are invited to participate on some "
+"shared folders and shared files."
+msgstr "تتوفر أيضًا تقارير أخرى مثل تقارير المستخدمين الضيوف، وهم المستخدمون الذين لا يمتلكون دليلًا منزليًا ولكن تمت دعوتهم للمشاركة في بعض المجلدات المشتركة والملفات المشتركة."
+
+#: ../../chapter02.rst:636
+msgid "Node Performance"
+msgstr "أداء العقدة"
+
+#: ../../chapter02.rst:638
+msgid ""
+"You can use the Node Performance to check out the worker node health and "
+"the database health."
+msgstr "يمكنك استخدام أداء العقدة للتحقق من صحة عقدة العامل وصحة قاعدة البيانات."
+
+#: ../../chapter02.rst:644
+msgid "NODE PERFORMANCE REPORT"
+msgstr "تقرير أداء العقدة"
+
+#: ../../chapter02.rst:647
+msgid "**Last Reported**"
+msgstr "**آخر تقرير**"
+
+#: ../../chapter02.rst:649
+msgid ""
+"You want to see this field has small numbers such as 6 seconds, 10 "
+"seconds. If you see sometime like 3 hours ago, that means the node is not"
+" reporting the health."
+msgstr "تريد أن ترى أن هذا الحقل يحتوي على أرقام صغيرة مثل 6 ثواني، 10 ثواني. إذا رأيت شيئًا مثل 3 ساعات مضت، فهذا يعني أن العقدة لا تبلغ عن الحالة الصحية."
+
+#: ../../chapter02.rst:652
+msgid "**Total Requests Processed**"
+msgstr "**إجمالي الطلبات التي تم معالجتها**"
+
+#: ../../chapter02.rst:654
+msgid ""
+"You want to see this number as big as possible. This number is cumulative"
+" since the service was last re-started. So the bigger the number, the "
+"more stable the service is. Also when you have multiple worker nodes, you"
+" want to see the Total Requests distributed evenly among the worker "
+"nodes."
+msgstr "تريد أن ترى هذا الرقم كبيرًا قدر الإمكان. هذا الرقم تراكمي منذ آخر إعادة تشغيل للخدمة. لذا كلما كان الرقم أكبر، كانت الخدمة أكثر استقرارًا. أيضًا عندما يكون لديك عقد عاملة متعددة، تريد أن ترى إجمالي الطلبات موزعًا بالتساوي بين عقد العمل."
+
+#: ../../chapter02.rst:657
+msgid "**Request Executing**"
+msgstr "**جارٍ تنفيذ الطلب**"
+
+#: ../../chapter02.rst:659
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of requests that are concurrently executing on the server. In general a "
+"number smaller than 100 is normal. Bigger than 100 is abnormal. Anything "
+"bigger than 20 will require investigation."
+msgstr "ترغب في رؤية هذا الرقم صغيرًا قدر الإمكان. يعني هذا عدد الطلبات التي يتم تنفيذها بشكل متزامن على الخادم. بشكل عام، رقم أقل من 100 يعتبر طبيعيًا. أكبر من 100 يعتبر غير طبيعي. أي شيء أكبر من 20 يتطلب تحقيقًا."
+
+#: ../../chapter02.rst:662
+msgid "**Last Request Time**"
+msgstr "**آخر وقت للطلب**"
+
+#: ../../chapter02.rst:664
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of milliseconds for the last request. In general, numbers smaller than "
+"3000 or 5000 are normal, which translates to below 3-5 seconds."
+msgstr "ترغب في رؤية هذا الرقم صغيرًا قدر الإمكان. هذا يعني عدد الملي ثانية لآخر طلب. بشكل عام، الأرقام التي تقل عن 3000 أو 5000 تعتبر طبيعية، والتي تترجم إلى أقل من 3-5 ثوانٍ."
+
+#: ../../chapter02.rst:667
+msgid "**Pending Change Notification**"
+msgstr "**إشعار بالتغييرات المعلقة**"
+
+#: ../../chapter02.rst:669
+msgid ""
+"For the files and folders that are changed, there is change notification "
+"written to the database. In general, you want to see the pending queue as"
+" short as possible."
+msgstr "بالنسبة للملفات والمجلدات التي تم تغييرها، يتم كتابة إشعار التغيير في قاعدة البيانات. بشكل عام، ترغب في رؤية قائمة الانتظار المعلقة قصيرة قدر الإمكان."
+
+#: ../../chapter02.rst:672
+msgid "**Active Node Request**"
+msgstr "**طلب العقدة النشطة**"
+
+#: ../../chapter02.rst:674
+msgid ""
+"These are the clients out there contacting the server. Usually it is just"
+" for reporting purposes."
+msgstr "هؤلاء هم العملاء الذين يتصلون بالخادم. عادةً ما يكون ذلك لأغراض التقارير."
+
+#: ../../chapter02.rst:677
+msgid "**Pending Change Polling**"
+msgstr "**استطلاع التغييرات المعلقة**"
+
+#: ../../chapter02.rst:679
+msgid ""
+"These are the clients out there polling to see whether there are files "
+"and folders that have been changed. Usually the smaller the better."
+msgstr "هؤلاء هم العملاء الذين يقومون بالاستطلاع لمعرفة ما إذا كانت هناك ملفات ومجلدات قد تغيرت. عادةً كلما كان الحجم أصغر كان ذلك أفضل."
+
+#: ../../chapter02.rst:682
+msgid "**Active Clients**"
+msgstr "**العملاء النشطون**"
+
+#: ../../chapter02.rst:684
+msgid "For reporting purpose."
+msgstr "لأغراض التقارير."
+
+#: ../../chapter02.rst:687
+msgid "**Pending Dir Request(H)**"
+msgstr "**طلب الدليل المعلق (H)**"
+
+#: ../../chapter02.rst:689
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the high priority queue."
+msgstr "قائمة الدليل المعلقة تنادي من العملاء البعيدين إلى الخادم الكتلي. هذه هي قائمة الأولوية العالية."
+
+#: ../../chapter02.rst:693
+msgid "**Pending Dir Request(L)**"
+msgstr "**طلب الدليل المعلق (L)**"
+
+#: ../../chapter02.rst:695
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the low priority queue."
+msgstr "قائمة الدليل المعلقة تنادي من العملاء البعيدين إلى الخادم الكتلي. هذه هي قائمة الأولوية المنخفضة."
+
+#: ../../chapter02.rst:698
+msgid ""
+"If you don't see the node performance report, check the **Internal URL** "
+"setting of each worker node."
+msgstr "إذا لم ترَ تقرير أداء العقدة، تحقق من إعداد **العنوان URL الداخلي** لكل عقدة عاملة."
+
+#: ../../chapter02.rst:700
+msgid "Under reports you can look at the upload graphs and storage statistics."
+msgstr "تحت التقارير يمكنك النظر إلى رسومات الرفع وإحصائيات التخزين."
+
+#: ../../chapter02.rst:705
+msgid "Bandwidth Usage"
+msgstr "استخدام النطاق الترددي"
+
+#: ../../chapter02.rst:707
+msgid ""
+"This shows the overall bandwidth usage statistics as well as more "
+"granular tenant and user level statistics."
+msgstr "هذا يظهر إحصائيات استخدام النطاق الترددي الإجمالية بالإضافة إلى إحصائيات أكثر تفصيلاً على مستوى المستأجر والمستخدم."
+
+#: ../../chapter02.rst:712
+msgid "BANDWIDTH USAGE REPORT"
+msgstr "تقرير استخدام النطاق الترددي"
+
+#: ../../chapter02.rst:716
+msgid "System Diagnostic Report"
+msgstr "تقرير تشخيص النظام"
+
+#: ../../chapter02.rst:718
+msgid "Click the Start Scanning button to generate system diagnostic report."
+msgstr "انقر على زر بدء الفحص لإنشاء تقرير تشخيص النظام."
+
+#: ../../chapter02.rst:723
+msgid "GENERATE REPORT"
+msgstr "إنشاء تقرير"
+
+#: ../../chapter02.rst:725
+msgid "A sample system diagnostic report is shown below."
+msgstr "يُظهر أدناه تقرير تشخيصي للنظام كمثال."
+
+#: ../../chapter02.rst:730
+msgid "SYSTEM DIAGNOSTIC REPORT"
+msgstr "تقرير تشخيص النظام"
+
+#: ../../chapter02.rst:733
+msgid "Audit Trace"
+msgstr "أثر التدقيق"
+
+#: ../../chapter02.rst:735
+msgid "This is a sample audit trace."
+msgstr "هذا مثال لسجل التدقيق."
+
+#: ../../chapter02.rst:740
+msgid "AUDIT TRACE"
+msgstr "أثر التدقيق"
+
+#: ../../chapter02.rst:744
+msgid "Cluster Controls"
+msgstr "عناصر تحكم الكتلة"
+
+#: ../../chapter02.rst:747
+msgid "Cluster Admin"
+msgstr "مسؤول العقدة"
+
+#: ../../chapter02.rst:749
+msgid "``Cluster Manager`` > ``Cluster Admin``"
+msgstr "``مدير العنقود`` > ``مسؤول العنقود``"
+
+#: ../../chapter02.rst:751
+msgid ""
+"Cluster Admin section is to change the properties of the default "
+"administrator and also to add additional people to be the cluster "
+"administrators. You can access the Cluster Admin from your Cluster "
+"Dashboard."
+msgstr "قسم مدير الكتلة هو لتغيير خصائص المسؤول الافتراضي وأيضًا لإضافة أشخاص إضافيين ليكونوا مدراء الكتلة. يمكنك الوصول إلى مدير الكتلة من لوحة تحكم الكتلة الخاصة بك."
+
+#: ../../chapter02.rst:759
+msgid "CLUSTER ADMIN SETTINGS"
+msgstr "إعدادات مسؤول الكتلة"
+
+#: ../../chapter02.rst:762
+msgid "Email Service"
+msgstr "خدمة البريد الإلكتروني"
+
+#: ../../chapter02.rst:764
+msgid "``Cluster Manager`` > ``Email Service``"
+msgstr "``مدير العنقود`` > ``خدمة البريد الإلكتروني``"
+
+#: ../../chapter02.rst:766
+msgid ""
+"There are many places in the |prodname| solution that the user needs to "
+"be contacted by Email. The Email service is used to set up the SMTP email"
+" service to send out the emails."
+msgstr "هناك العديد من الأماكن في حل |prodname| التي يحتاج المستخدم إلى التواصل بها عبر البريد الإلكتروني. يُستخدم خدمة البريد الإلكتروني لإعداد خدمة البريد الإلكتروني SMTP لإرسال الرسائل الإلكترونية."
+
+#: ../../chapter02.rst:768
+msgid ""
+"By default, it works out of box using the default email service with the "
+"Cluster Server's customer support email address as the sender."
+msgstr "بشكل افتراضي، يعمل خارج الصندوق باستخدام خدمة البريد الإلكتروني الافتراضية مع عنوان بريد الدعم الفني للعملاء لخادم الكتلة كمرسل."
+
+#: ../../chapter02.rst:770
+msgid ""
+"It is recommended that the SMTP service be setup to use your own SMTP "
+"service to send out emails."
+msgstr "يُوصى بإعداد خدمة SMTP لاستخدام خدمة SMTP الخاصة بك لإرسال الرسائل الإلكترونية."
+
+#: ../../chapter02.rst:772
+msgid ""
+"In the Authenticate User field, if your SMTP service doesn't require "
+"authentication, you can put dummy email in the field."
+msgstr "في حقل مصادقة المستخدم، إذا كانت خدمة SMTP الخاصة بك لا تتطلب مصادقة، يمكنك وضع بريد إلكتروني وهمي في الحقل."
+
+#: ../../chapter02.rst:776
+msgid "For example, if your email service is on Office 365,"
+msgstr "على سبيل المثال، إذا كانت خدمة البريد الإلكتروني الخاصة بك على Office 365،"
+
+#: ../../chapter02.rst:780
+msgid ":SMTP Server Address"
+msgstr "عنوان خادم SMTP"
+
+#: ../../chapter02.rst:780
+msgid "``smtp.office365.com``"
+msgstr "``smtp.office365.com``"
+
+#: ../../chapter02.rst:783
+msgid ":Use SSL"
+msgstr "استخدم SSL"
+
+#: ../../chapter02.rst:783
+msgid "``True``"
+msgstr "``صحيح``"
+
+#: ../../chapter02.rst:785
+msgid ":SMTP Server Port"
+msgstr ":منفذ خادم SMTP"
+
+#: ../../chapter02.rst:786
+msgid "``587``"
+msgstr "``587``"
+
+#: ../../chapter02.rst:794
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "إعدادات خدمة البريد الإلكتروني"
+
+#: ../../chapter02.rst:798
+msgid "Application Manager"
+msgstr "مدير التطبيقات"
+
+#: ../../chapter02.rst:800
+msgid "``Cluster Manager`` > ``Application Manager``"
+msgstr "``مدير العنقود`` > ``مدير التطبيقات``"
+
+#: ../../chapter02.rst:802
+msgid ""
+"You can access \"Application Manager\" from Cluster Dashboard, and "
+"configure Web Apps. This will enable the users to edit documents using "
+"the web apps. The applications here only apply to web portal based "
+"editing."
+msgstr "يمكنك الوصول إلى \"مدير التطبيقات\" من لوحة تحكم الكتلة، وتكوين تطبيقات الويب. سيتيح ذلك للمستخدمين تحرير الوثائق باستخدام تطبيقات الويب. التطبيقات هنا تنطبق فقط على التحرير القائم على بوابة الويب."
+
+#: ../../chapter02.rst:810
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "إعدادات مدير التطبيقات"
+
+#: ../../chapter02.rst:813
+msgid ""
+"Once an application is enabled, you will be able to see the context menu "
+"entry from the web based file and folder manager view."
+msgstr "بمجرد تمكين التطبيق، ستتمكن من رؤية إدخال قائمة السياق من واجهة إدارة الملفات والمجلدات القائمة على الويب."
+
+#: ../../chapter02.rst:818
+msgid "APPLICATION CONTEXT MENU"
+msgstr "قائمة سياق التطبيق"
+
+#: ../../chapter02.rst:822
+msgid "Client Version Manager"
+msgstr "مدير نسخة العميل"
+
+#: ../../chapter02.rst:824
+msgid "``Cluster Manager`` > ``Client Version Manager``"
+msgstr "``مدير العقد`` > ``مدير إصدار العميل``"
+
+#: ../../chapter02.rst:829
+msgid "CLIENT VERSION MANAGER"
+msgstr "مدير إصدار العميل"
+
+#: ../../chapter02.rst:831
+msgid ""
+"For Windows Client, Mac Client and Windows Server Agent, there is an auto"
+" client update feature. Each upgrade package contains the updated "
+"clients. By clicking on the ``Publish`` button, the newer package can be "
+"published to clients out there."
+msgstr "بالنسبة لعميل Windows وعميل Mac ووكيل خادم Windows، هناك ميزة تحديث تلقائي للعميل. يحتوي كل حزمة ترقية على العملاء المحدثين. بالنقر على زر ``نشر``، يمكن نشر الحزمة الأحدث للعملاء هناك."
+
+#: ../../chapter02.rst:834
+msgid ""
+"Every new Cluster Server upgrade contains the newer Windows client, "
+"Windows Server Agent and Mac Client. The Cluster users via manual "
+"download can get the clients that are included in the Cluster Server. "
+"However, for existing users with previously installed clients, those "
+"older clients will not auto upgrade until the newer client packages are "
+"published."
+msgstr "كل ترقية جديدة لخادم العنقود تحتوي على العميل الأحدث لنظام ويندوز، وكيل الخادم لويندوز والعميل لنظام ماك. يمكن لمستخدمي العنقود من خلال التحميل اليدوي الحصول على العملاء المدرجين في خادم العنقود. ومع ذلك، بالنسبة للمستخدمين الحاليين الذين لديهم عملاء مثبتين مسبقًا، فإن هؤلاء العملاء الأقدم لن يتم ترقيتهم تلقائيًا حتى يتم نشر حزم العميل الأحدث."
+
+#: ../../chapter02.rst:842
+msgid "WINDOWS CLIENT VERSION SETTINGS"
+msgstr "إعدادات نسخة عميل ويندوز"
+
+#: ../../chapter02.rst:844
+msgid "**Daily Upgrade Limit (1)**"
+msgstr "**حد الترقية اليومي (1)**"
+
+#: ../../chapter02.rst:846
+msgid ""
+"This is a per-worker node setting. For example, if you have 2 worker "
+"nodes, and set the daily upgrade limit to 100, maximum 200 clients will "
+"be upgraded per day."
+msgstr "هذا إعداد خاص بكل عقدة عاملة. على سبيل المثال، إذا كان لديك عقدتين عاملتين وقمت بتعيين حد الترقية اليومي إلى 100، فإن الحد الأقصى لعدد العملاء الذين سيتم ترقيتهم يوميًا هو 200 عميل."
+
+#: ../../chapter02.rst:848
+msgid "**Apply to Users (2)**"
+msgstr "**تطبيق على المستخدمين (2)**"
+
+#: ../../chapter02.rst:850
+msgid "This typically is used for testing prior to pushing the client out."
+msgstr "عادةً ما يُستخدم هذا للتجربة قبل دفع العميل للخارج."
+
+#: ../../chapter02.rst:853
+msgid "**Do Not Apply to Users (3)**"
+msgstr "**لا تنطبق على المستخدمين (3)**"
+
+#: ../../chapter02.rst:855
+msgid ""
+"This typically is used for testing prior to pushing the client out and to"
+" exclude certain users."
+msgstr "يُستخدم هذا عادةً للتجربة قبل دفع العميل للخارج ولإستثناء بعض المستخدمين."
+
+#: ../../chapter02.rst:859
+msgid ""
+"The windows client out there has a process running as a background "
+"windows service. The service will periodically check for a newer upgrade "
+"in about 1-2 hour intervals. Once a newer client package is published and"
+" discovered, the newer package will be downloaded. However, if the client"
+" is still actively running, the replacement and upgrade will not happen "
+"until the client application is stopped and restarted. This usually "
+"happens when the user logs off their Windows or restarts their desktop "
+"altogether."
+msgstr "العميل الموجود على نظام ويندوز لديه عملية تعمل كخدمة خلفية لنظام ويندوز. تقوم الخدمة بفحص دوري للتحديثات الجديدة تقريباً كل 1-2 ساعة. عندما يتم نشر حزمة عميل جديدة واكتشافها، سيتم تنزيل الحزمة الجديدة. ومع ذلك، إذا كان العميل لا يزال يعمل بنشاط، فلن يحدث الاستبدال والترقية حتى يتم إيقاف تشغيل تطبيق العميل وإعادة تشغيله. هذا يحدث عادةً عندما يقوم المستخدم بتسجيل الخروج من ويندوز أو إعادة تشغيل سطح المكتب بالكامل."
+
+#: ../../chapter02.rst:861
+msgid ""
+"If the Windows client software is actively running, the user may be "
+"seeing a message popup from the system tray area asking the user if they "
+"want to restart the client software and to receive the newer version."
+msgstr "إذا كان برنامج العميل الخاص بنظام Windows يعمل بنشاط، فقد يرى المستخدم رسالة منبثقة من منطقة شريط النظام تسأل المستخدم إذا كان يرغب في إعادة تشغيل برنامج العميل واستلام النسخة الأحدث."
+
+#: ../../chapter02.rst:863
+msgid ""
+"Once a client is published for client auto upgrade, you can use "
+"``Unpublish`` to stop the client auto upgrade."
+msgstr "بمجرد نشر عميل لترقية العميل التلقائية، يمكنك استخدام ``إلغاء النشر`` لإيقاف ترقية العميل التلقائية."
+
+#: ../../chapter02.rst:866
+msgid "Server Agent"
+msgstr "وكيل الخادم"
+
+#: ../../chapter02.rst:868
+msgid "Windows Server Agent can be separately published for auto upgrade."
+msgstr "يمكن نشر عامل وكيل Windows Server بشكل منفصل للترقية التلقائية."
+
+#: ../../chapter02.rst:873
+msgid "SERVER AGENT AUTO UPGRADE"
+msgstr "ترقية تلقائية لوكيل الخادم"
+
+#: ../../chapter02.rst:879
+msgid "Mac client can be separately published for auto upgrade."
+msgstr "يمكن نشر عميل Mac بشكل منفصل للترقية التلقائية."
+
+#: ../../chapter02.rst:884
+msgid "MAC CLIENT AUTO UPGRADE"
+msgstr "ترقية العميل لنظام الماك التلقائية"
+
+#: ../../chapter02.rst:888
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: ../../chapter02.rst:893
+msgid "CLUSTER SETTINGS"
+msgstr "إعدادات الكتلة"
+
+#: ../../chapter02.rst:897
+msgid "Cluster Settings"
+msgstr "إعدادات الكتلة"
+
+#: ../../chapter02.rst:899
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Cluster Settings``"
+msgstr "``مدير العنقود`` > ``إعدادات العنقود`` > ``إعدادات العنقود``"
+
+#: ../../chapter02.rst:904
+msgid "CLUSTER SETTINGS PERMISSIONS"
+msgstr "إعدادات أذونات التجمع"
+
+#: ../../chapter02.rst:907
+msgid "**Hide Login Failure Message**"
+msgstr "**إخفاء رسالة فشل تسجيل الدخول**"
+
+#: ../../chapter02.rst:909
+msgid ""
+"When checked, the login failed message will be replaced by a very generic"
+" “Login Failed” message. When un-checked, it may return a more meaningful"
+" login error, such as user-not-found, authentication-error and so on. "
+"This is a security feature if you don't want to give out too much "
+"information for hackers to guess a reason for authentication failure."
+msgstr "عند التحقق، سيتم استبدال رسالة فشل تسجيل الدخول برسالة عامة جدًا تقول \"فشل تسجيل الدخول\". عند عدم التحقق، قد تعود بخطأ تسجيل دخول أكثر معنى، مثل لم يتم العثور على المستخدم، خطأ في المصادقة وما إلى ذلك. هذه ميزة أمان إذا كنت لا ترغب في إعطاء معلومات كثيرة للمخترقين لتخمين سبب فشل المصادقة."
+
+#: ../../chapter02.rst:912
+msgid "**Hide build number from login page**"
+msgstr "**إخفاء رقم البناء من صفحة تسجيل الدخول**"
+
+#: ../../chapter02.rst:914
+msgid "This controls the build number on the web portal login page."
+msgstr "هذا يتحكم في رقم الإنشاء على صفحة تسجيل الدخول للبوابة الإلكترونية."
+
+#: ../../chapter02.rst:917
+msgid "**Hide support button**"
+msgstr "**إخفاء زر الدعم**"
+
+#: ../../chapter02.rst:919
+msgid "This hides the floating support icon."
+msgstr "هذا يخفي أيقونة الدعم العائمة."
+
+#: ../../chapter02.rst:922
+msgid "**Hide 'Forgot your password' link on login**"
+msgstr "**إخفاء رابط 'هل نسيت كلمة المرور؟' عند تسجيل الدخول**"
+
+#: ../../chapter02.rst:924
+msgid ""
+"Most often it is used when Active Directory integration is set. The user "
+"will need to do a forget-and-change password the normal Active Directory "
+"way instead of the way CentreStack provides. In this case, it is "
+"recommend to hide the \"Forgot your password\" link."
+msgstr "غالبًا ما يُستخدم عندما يتم ضبط التكامل مع Active Directory. سيحتاج المستخدم إلى نسيان كلمة المرور وتغييرها بالطريقة العادية لـ Active Directory بدلاً من الطريقة التي يوفرها CentreStack. في هذه الحالة، يُنصح بإخفاء رابط \"نسيت كلمة المرور\"."
+
+#: ../../chapter02.rst:927
+msgid "**Don't retry when login failed**"
+msgstr "**لا تُعِد المحاولة عند فشل تسجيل الدخول**"
+
+#: ../../chapter02.rst:929
+msgid ""
+"Most often it is used when the Active Directory user has low failed-count"
+" on lock-out policy. When the user's password is wrong, a few retries can"
+" lock out the user's Active Directory account. The retry feature can be "
+"used when there is no Active Directory lock out or when the lock out "
+"count is high."
+msgstr "غالبًا ما يُستخدم عندما يكون لدى المستخدم في الدليل النشط عدد قليل من محاولات الفشل في سياسة القفل. عندما تكون كلمة مرور المستخدم خاطئة، يمكن أن تؤدي بضع محاولات إلى قفل حساب المستخدم في الدليل النشط. يمكن استخدام ميزة إعادة المحاولة عندما لا يوجد قفل للدليل النشط أو عندما يكون عدد مرات القفل مرتفع."
+
+#: ../../chapter02.rst:931
+msgid "**Always display CAPTCHA on the web portal login page**"
+msgstr "**دائمًا عرض CAPTCHA على صفحة تسجيل الدخول للبوابة الإلكترونية**"
+
+#: ../../chapter02.rst:933
+msgid "**Allow multi-tenancy**"
+msgstr "**السماح بتعدد المستأجرين**"
+
+#: ../../chapter02.rst:935
+msgid "**Show tenant management screen after logging in**"
+msgstr "**عرض شاشة إدارة المستأجر بعد تسجيل الدخول**"
+
+#: ../../chapter02.rst:937
+msgid "**Show 'purge storage option' when delete user**"
+msgstr "**عرض خيار 'تطهير التخزين' عند حذف المستخدم**"
+
+#: ../../chapter02.rst:939
+msgid ""
+"By default, when a user is deleted, the user's home directory storage "
+"content is not touched for later use or review. If it is desired to "
+"delete the user's content when the user is deleted, this can show the "
+"purge option."
+msgstr "بشكل افتراضي، عندما يتم حذف مستخدم، لا يتم المساس بمحتوى مساحة التخزين الخاصة بالمستخدم لاستخدامها لاحقًا أو مراجعتها. إذا كان من المرغوب فيه حذف محتوى المستخدم عند حذف المستخدم، يمكن أن يظهر خيار التطهير."
+
+#: ../../chapter02.rst:942
+msgid "**Don't send email notification to user when purge deleted content**"
+msgstr "**لا ترسل إشعارًا بالبريد الإلكتروني للمستخدم عند حذف المحتوى نهائيًا**"
+
+#: ../../chapter02.rst:944
+msgid ""
+"When the user delete files, they are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification."
+msgstr "عندما يحذف المستخدم الملفات، فإنها لا تُحذف فعليًا على الفور. الحذف النهائي هو عملية غير متزامنة ومجدولة لوقت لاحق. تتحكم هذه الإعدادات في الإشعارات."
+
+#: ../../chapter02.rst:947
+msgid "**Don't send email notification to admin when purge deleted content**"
+msgstr "**لا ترسل إشعارًا بالبريد الإلكتروني إلى المسؤول عند حذف المحتوى نهائيًا**"
+
+#: ../../chapter02.rst:949
+msgid ""
+"When the user deletes files, They are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification to the administrator."
+msgstr "عندما يقوم المستخدم بحذف الملفات، فإنها لا تُحذف فعليًا على الفور. يتم جدولة عملية التطهير بشكل غير متزامن وتُجرى في وقت لاحق. تتحكم هذه الإعدادات في إشعار المسؤول."
+
+#: ../../chapter02.rst:952
+msgid "**Retrieve avatar from third party service (i.e. Google)**"
+msgstr "**استرجاع الصورة الرمزية من خدمة الطرف الثالث (مثل Google)**"
+
+#: ../../chapter02.rst:954
+msgid ""
+"This is a usability feature that users's picture can be queried from "
+"Google."
+msgstr "هذه ميزة سهولة الاستخدام التي يمكن من خلالها استعلام صور المستخدمين من Google."
+
+#: ../../chapter02.rst:957
+msgid "**Hide file extension in web file browser**"
+msgstr "**إخفاء امتداد الملف في متصفح الملفات الويب**"
+
+#: ../../chapter02.rst:959
+msgid "This setting will hide the file extension."
+msgstr "هذا الإعداد سيخفي امتداد الملف."
+
+#: ../../chapter02.rst:962
+msgid "**Disable Windows Client Auto-Logon**"
+msgstr "**تعطيل تسجيل الدخول التلقائي لعميل ويندوز**"
+
+#: ../../chapter02.rst:964
+msgid ""
+"This is a security feature. The result is every time the windows client "
+"is done running, the next time the user tries to login, it will not "
+"remember the login token and the user will have to re-type the credential"
+" to get in."
+msgstr "هذه ميزة أمان. النتيجة هي أنه في كل مرة ينتهي فيها عميل الويندوز من التشغيل، عندما يحاول المستخدم تسجيل الدخول في المرة التالية، لن يتذكر النظام رمز الدخول وسيتعين على المستخدم إعادة كتابة بيانات الاعتماد للدخول."
+
+#: ../../chapter02.rst:966
+msgid "**Allow personal data tagging**"
+msgstr "**السماح بوسم البيانات الشخصية**"
+
+#: ../../chapter02.rst:968
+msgid "**Only allow access performance information from local host**"
+msgstr "**السماح بالوصول إلى معلومات الأداء من المضيف المحلي فقط**"
+
+#: ../../chapter02.rst:970
+msgid ""
+"Only allow accessing performance data from http://localhost and not from "
+"external URL."
+msgstr "السماح بالوصول إلى بيانات الأداء من http://localhost فقط وليس من عنوان URL خارجي."
+
+#: ../../chapter02.rst:972
+msgid "**Allow tenant administrators to enable Team Folder backups**"
+msgstr "**السماح لمدراء المستأجرين بتمكين نسخ احتياطية لمجلدات الفريق**"
+
+#: ../../chapter02.rst:976
+msgid "Performance and Throttling"
+msgstr "الأداء والتحكم في النطاق الترددي"
+
+#: ../../chapter02.rst:978
+msgid ""
+"``Cluster Manager`` > ``Cluster Settings`` > ``Performance and "
+"Throttling``"
+msgstr "``مدير العنقود`` > ``إعدادات العنقود`` > ``الأداء والتحكم في النقل``"
+
+#: ../../chapter02.rst:983
+msgid "PERFORMANCE THROTTLING"
+msgstr "تحديد الأداء"
+
+#: ../../chapter02.rst:986
+msgid ""
+"**Don't show file icon preview if file size is larger than (KB, 0-No icon"
+" preview)**"
+msgstr "**لا تعرض معاينة أيقونة الملف إذا كان حجم الملف أكبر من (كيلوبايت، 0-لا معاينة للأيقونة)**"
+
+#: ../../chapter02.rst:988
+msgid ""
+"This is used to control iconview thumbnail generation in the web browser "
+"files and folders view. The generation of thumbnail takes CPU power from "
+"the Cluster Server. For big files, the generation of thumbnail may "
+"negatively affect the system performance. So it is recommended to cap the"
+" feature to a certain image size."
+msgstr "يُستخدم هذا للتحكم في إنشاء صور مصغرة لعرض الأيقونات في متصفح الويب لملفات ومجلدات العرض. إن إنشاء الصور المصغرة يستهلك قوة المعالج من الخادم العنقودي. بالنسبة للملفات الكبيرة، قد يؤثر إنشاء الصور المصغرة سلبًا على أداء النظام. لذا يُنصح بتحديد الخاصية لحجم معين للصورة."
+
+#: ../../chapter02.rst:991
+msgid ""
+"**Cluster Wide Upload Bandwidth Limit (Per Worker Node, KB/Sec, 0-No "
+"Limit)**"
+msgstr "**حد الرفع العريض للمجموعة (لكل عقدة عاملة، كيلوبايت/ثانية، 0-بدون حد)**"
+
+#: ../../chapter02.rst:993
+msgid "This is to limit upload bandwidth."
+msgstr "هذا للحد من عرض النطاق الترددي للتحميل"
+
+#: ../../chapter02.rst:996
+msgid "**Cluster Wide Download Bandwidth Limit (Per Worker Node, KB/Sec)**"
+msgstr "**حد النزيل العرضي للتحميل لكل عقدة عاملة (كيلوبايت/ثانية)**"
+
+#: ../../chapter02.rst:998
+msgid "This is to limit download bandwidth."
+msgstr "هذا للحد من عرض النطاق الترددي للتحميل."
+
+#: ../../chapter02.rst:1001
+msgid "**Size limit for folder download (MB, 0-no limit)**"
+msgstr "**حد الحجم لتنزيل المجلد (ميغابايت، 0 - بدون حد)**"
+
+#: ../../chapter02.rst:1003
+msgid ""
+"This is to prevent user downloading a very big folder and using up all "
+"the Cluster Server resources."
+msgstr "هذا لمنع المستخدم من تحميل مجلد كبير جدًا واستخدام جميع موارد خادم الكتلة."
+
+#: ../../chapter02.rst:1007
+msgid "Timeouts and Limits"
+msgstr "مهل وحدود"
+
+#: ../../chapter02.rst:1009
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Timeouts and Limits``"
+msgstr "``مدير العقد`` > ``إعدادات العقد`` > ``المهل الزمنية والحدود``"
+
+#: ../../chapter02.rst:1014
+msgid "TIMEOUTS AND LIMITS"
+msgstr "مهل وحدود"
+
+#: ../../chapter02.rst:1016
+msgid "**Web Browser Session Timeout (minutes, 0 - never timeout)**"
+msgstr "**مهلة جلسة المتصفح الويب (دقائق، 0 - لا تنتهي أبدًا)**"
+
+#: ../../chapter02.rst:1018
+msgid ""
+"This is the web browser session time out value. Default is set to 15 "
+"minutes. For default cluster administrator, we recommend increase this "
+"value to a bigger number so it is easier for web based management work "
+"not to time-out too soon."
+msgstr "هذه هي قيمة مهلة جلسة متصفح الويب. القيمة الافتراضية مضبوطة على 15 دقيقة. بالنسبة لمسؤول الكتلة الافتراضي، نوصي بزيادة هذه القيمة إلى رقم أكبر بحيث يكون من الأسهل عدم انتهاء العمل الإداري القائم على الويب بسرعة كبيرة."
+
+#: ../../chapter02.rst:1021
+msgid "**Native Client Token Timeout (days)**"
+msgstr "**مهلة رمز العميل الأصلي (أيام)**"
+
+#: ../../chapter02.rst:1023
+msgid "For Windows client and Mac client, this defines the token time to live."
+msgstr "لعميل Windows وعميل Mac، هذا يحدد مدة صلاحية الرمز المميز."
+
+#: ../../chapter02.rst:1026
+msgid "**Mobile Client Token Timeout (days, 0 - never timeout)**"
+msgstr "**مهلة رمز العميل المحمول (أيام، 0 - لا يوجد مهلة)**"
+
+#: ../../chapter02.rst:1028
+msgid "**Distributed Lock Idle Timeout (minutes, 0 - never timeout)**"
+msgstr "**مهلة قفل التوزيع (دقائق، 0 - لا يوجد مهلة)**"
+
+#: ../../chapter02.rst:1030
+msgid ""
+"This setting is related to automatic file locking. When a file is "
+"automatically locked, the machine that has the file locked will need to "
+"maintain a healthy heart beat with the Cluster Server. If the machine is "
+"offline (idle) and can't report back to the Cluster Server for a period "
+"of time, the lock that was automatically grabbed will need to be "
+"released."
+msgstr "هذا الإعداد متعلق بقفل الملفات تلقائيًا. عندما يتم قفل ملف تلقائيًا، ستحتاج الآلة التي قامت بقفل الملف إلى الحفاظ على تواصل نشط مع خادم العنقود. إذا كانت الآلة غير متصلة (غير نشطة) ولا تستطيع الإبلاغ عن حالتها إلى خادم العنقود لفترة من الزمن، سيحتاج القفل الذي تم الإمساك به تلقائيًا إلى أن يتم إطلاقه."
+
+#: ../../chapter02.rst:1032
+msgid ""
+"If this is not desired, the user can always use manual \"Check Out\" to "
+"lock a file and that will not be subject to the timeout."
+msgstr "إذا لم يكن هذا مرغوبًا فيه، يمكن للمستخدم دائمًا استخدام خيار \"التحقق اليدوي\" لقفل ملف وهذا لن يخضع للمهلة الزمنية."
+
+#: ../../chapter02.rst:1034
+msgid ""
+"**Send shared file change notifications every n minutes (0 - send "
+"immediately)**"
+msgstr "**إرسال إشعارات تغيير الملفات المشتركة كل n دقائق (0 - الإرسال فورًا)**"
+
+#: ../../chapter02.rst:1036
+msgid ""
+"**Open third party web application in new window when the height of the "
+"web browser is less than**"
+msgstr "**افتح تطبيق الويب الخاص بجهة خارجية في نافذة جديدة عندما يكون ارتفاع المتصفح أقل من**"
+
+#: ../../chapter02.rst:1038
+msgid ""
+"This is a usability feature. When using third party web application to "
+"edit documents in Cluster Server web browser file and folder view, if the"
+" web browser height is too short, the third party web application may not"
+" function properly."
+msgstr "هذه ميزة سهولة الاستخدام. عند استخدام تطبيق ويب خارجي لتحرير المستندات في عرض ملفات ومجلدات متصفح الويب الخاص بخادم العنقود، إذا كان ارتفاع متصفح الويب قصيرًا جدًا، قد لا يعمل التطبيق الويب الخارجي بشكل صحيح."
+
+#: ../../chapter02.rst:1041
+msgid "**Max Device Count (Concurrent Device Count) for Each User (0-Unlimited)**"
+msgstr "**الحد الأقصى لعدد الأجهزة (عدد الأجهزة المتزامنة) لكل مستخدم (0 - غير محدود)**"
+
+#: ../../chapter02.rst:1043
+msgid ""
+"This is the number of concurrent devices connected to the Cluster Server "
+"for each user. The default is not limited."
+msgstr "هذا هو عدد الأجهزة المتصلة في وقت واحد بخادم الكتلة لكل مستخدم. الافتراضي غير محدود."
+
+#: ../../chapter02.rst:1045
+msgid ""
+"**Purge Device Entry n Days After Device Disconnected (0 - let system "
+"decides)**"
+msgstr "**حذف مُدخل الجهاز بعد n أيام من انقطاع الاتصال بالجهاز (0 - يترك القرار للنظام)**"
+
+#: ../../chapter02.rst:1047
+msgid "**Maximum file search results**"
+msgstr "**الحد الأقصى لنتائج البحث عن الملفات**"
+
+#: ../../chapter02.rst:1051
+msgid "Languages"
+msgstr "اللغات"
+
+#: ../../chapter02.rst:1053
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Languages``"
+msgstr "``مدير العقد`` > ``إعدادات العقد`` > ``اللغات``"
+
+#: ../../chapter02.rst:1058
+msgid "LANGUAGE SETTINGS"
+msgstr "إعدادات اللغة"
+
+#: ../../chapter02.rst:1061
+msgid ""
+"This section sets up the web portal languages and also the client "
+"application languages for Windows client."
+msgstr "تقوم هذه القسم بإعداد لغات بوابة الويب وكذلك لغات تطبيق العميل لعميل ويندوز."
+
+#: ../../chapter02.rst:1064
+msgid ""
+"We have automated translation and provided the resource files that you "
+"can use to localize the web portal and clients in the language  of your "
+"choice. If there are strings that not translated yet in the language you "
+"want, just go ahead and select the string and put in the translated "
+"string in the window for the language selected."
+msgstr "لقد قمنا بأتمتة الترجمة ووفرنا ملفات الموارد التي يمكنك استخدامها لتحليل بوابة الويب والعملاء باللغة التي تختارها. إذا كانت هناك سلاسل لم يتم ترجمتها بعد باللغة التي تريدها، فقط تقدم واختر السلسلة وضع الترجمة في النافذة للغة المختارة."
+
+#: ../../chapter02.rst:1075
+msgid "Branding"
+msgstr "العلامة التجارية"
+
+#: ../../chapter02.rst:1077
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Branding``"
+msgstr "``مدير العنقود`` > ``إعدادات العنقود`` > ``العلامة التجارية``"
+
+#: ../../chapter02.rst:1082
+msgid "ENABLE TENANT BRANDING"
+msgstr "تمكين تخصيص العلامة التجارية للمستأجر"
+
+#: ../../chapter02.rst:1085
+msgid "**Don't Show Tutorial Videos**"
+msgstr "**لا تظهر مقاطع الفيديو التعليمية**"
+
+#: ../../chapter02.rst:1087
+msgid ""
+"At different places in the web portal, there are tutorial videos. This "
+"setting is to hide those videos, which may have CentreStack references "
+"inside."
+msgstr "في أماكن مختلفة داخل بوابة الويب، هناك مقاطع فيديو تعليمية. هذا الإعداد لإخفاء تلك الفيديوهات، والتي قد تحتوي على إشارات لـ CentreStack."
+
+#: ../../chapter02.rst:1090
+msgid "**Enable Tenant Branding**"
+msgstr "**تمكين تخصيص العلامة التجارية للمستأجر**"
+
+#: ../../chapter02.rst:1092
+msgid ""
+"Allow tenants in the system to have their own co-branding on a tenant-by-"
+"tenant basis. The branding can override the default Cluster wide branding"
+" when the solution is accessed via a specific URL. Most of the time, a "
+"wild card SSL certificate is used so the Cluster Server solution can be "
+"binded to different URL's within a common suffix."
+msgstr "السماح للمستأجرين في النظام بامتلاك علامتهم التجارية الخاصة على أساس كل مستأجر على حدة. يمكن للعلامة التجارية أن تحل محل العلامة التجارية الافتراضية للمجموعة عند الوصول إلى الحل عبر عنوان URL محدد. في معظم الأوقات، يتم استخدام شهادة SSL متعددة الاستخدامات بحيث يمكن ربط حل خادم المجموعة بعناوين URL مختلفة ضمن لاحقة مشتركة."
+
+#: ../../chapter02.rst:1094
+msgid ""
+"For example \\*.mycompany.com , while tenant1.mycompany.com is for tenant"
+" 1's access."
+msgstr "على سبيل المثال \*.mycompany.com ، بينما tenant1.mycompany.com مخصص لوصول المستأجر 1."
+
+#: ../../chapter02.rst:1098
+msgid "Change Log"
+msgstr "سجل التغييرات"
+
+#: ../../chapter02.rst:1100
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Change Log``"
+msgstr "``مدير العنقود`` > ``إعدادات العنقود`` > ``سجل التغييرات``"
+
+#: ../../chapter02.rst:1105
+msgid "CHANGE LOG SETTINGS"
+msgstr "تغيير إعدادات سجل التغييرات"
+
+#: ../../chapter02.rst:1108
+msgid "**Keep file change log for n days**"
+msgstr "**احتفظ بسجل تغييرات الملفات لمدة n أيام**"
+
+#: ../../chapter02.rst:1110
+msgid "This is a cluster wide retention policy for the file change log."
+msgstr "هذه سياسة الاحتفاظ بسجل تغيير الملفات على مستوى العنقود."
+
+#: ../../chapter02.rst:1112
+msgid ""
+"The file change log is in the SQL database, for deployments that are "
+"using SQL Express, it has size limitation for the database. In the "
+"deployment guide, there is option to split the file change log into MySQL"
+" database or split it to a different SQL database. This option typically "
+"is used to keep the size of SQL small."
+msgstr "سجل تغيير الملف موجود في قاعدة بيانات SQL، بالنسبة للتوزيعات التي تستخدم SQL Express، هناك قيود على حجم قاعدة البيانات. في دليل التوزيع، هناك خيار لتقسيم سجل تغيير الملف إلى قاعدة بيانات MySQL أو تقسيمه إلى قاعدة بيانات SQL مختلفة. يُستخدم هذا الخيار عادةً للحفاظ على حجم SQL صغير."
+
+#: ../../chapter02.rst:1116
+msgid ""
+"After the Cluster Server is running in production mode for a while, we "
+"recommend reviewing the file change log database table and the file index"
+" table to see how big those tables are."
+msgstr "بعد أن يعمل الخادم العنقودي في وضع الإنتاج لفترة من الوقت، نوصي بمراجعة جدول قاعدة بيانات سجل تغييرات الملفات وجدول فهرس الملفات لمعرفة حجم هذه الجداول."
+
+#: ../../chapter02.rst:1119
+msgid "**Email Address to Receive Cloud Monitor Messages**"
+msgstr "**عنوان البريد الإلكتروني لاستقبال رسائل مراقبة السحابة**"
+
+#: ../../chapter02.rst:1121
+msgid ""
+"From time to time, the cluster monitor service may send an email about "
+"the status and alerts."
+msgstr "من وقت لآخر، قد يرسل خدمة مراقبة العنقود رسالة بريد إلكتروني تتعلق بالحالة والتنبيهات."
+
+#: ../../chapter02.rst:1124
+msgid "**Logging DB Connection String**"
+msgstr "**سلسلة اتصال قاعدة بيانات السجلات**"
+
+#: ../../chapter02.rst:1126
+msgid ""
+"This is to split the file change log, device table, file index table and "
+"audit trace table out of the main database into a secondary database. The"
+" secondary database can be a Microsoft SQL Server or a MySQL Community "
+"server."
+msgstr "هذا من أجل تقسيم سجل تغييرات الملف، وجدول الأجهزة، وجدول فهرس الملفات، وجدول تتبع التدقيق خارج قاعدة البيانات الرئيسية إلى قاعدة بيانات ثانوية. يمكن أن تكون قاعدة البيانات الثانوية خادم Microsoft SQL أو خادم MySQL Community."
+
+#: ../../chapter02.rst:1128
+msgid ""
+"The Cluster Server database is split into the core part and the logging "
+"part. The core part can store the DB connection string that connects to "
+"the secondary database. This setting used to be in the web.config file."
+msgstr "تم تقسيم قاعدة بيانات الخادم العنقودي إلى الجزء الأساسي وجزء التسجيل. يمكن للجزء الأساسي تخزين سلسلة اتصال قاعدة البيانات التي تتصل بقاعدة البيانات الثانوية. كانت هذه الإعدادات موجودة سابقًا في ملف web.config."
+
+#: ../../chapter02.rst:1131
+msgid "**Logging DB Connection String (Read-only Replica)**"
+msgstr "**سلسلة اتصال قاعدة البيانات للتسجيل (نسخة القراءة فقط)**"
+
+#: ../../chapter02.rst:1135
+msgid "License String"
+msgstr "سلسلة الترخيص"
+
+#: ../../chapter02.rst:1137
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``License String``"
+msgstr "``مدير العقد`` > ``إعدادات العقد`` > ``سلسلة الترخيص``"
+
+#: ../../chapter02.rst:1139
+msgid "**License String** – Reserved."
+msgstr "**سلسلة الترخيص** – محفوظة."
+
+#: ../../chapter02.rst:1141
+msgid ""
+"This is for Cluster Servers that are isolated from the Internet, can't be"
+" activated online and has to use a license string for offline activation."
+msgstr "هذا مخصص لخوادم الكتلة التي تكون معزولة عن الإنترنت، ولا يمكن تفعيلها عبر الإنترنت ويجب استخدام سلسلة ترخيص للتفعيل دون اتصال"
+
+#: ../../chapter02.rst:1145
+msgid "Anti Virus"
+msgstr "مكافحة الفيروسات"
+
+#: ../../chapter02.rst:1147
+msgid "``Cluster Manager`` > ``Anti Virus``"
+msgstr "``مدير العنقود`` > ``مكافح الفيروسات``"
+
+#: ../../chapter02.rst:1149
+msgid ""
+"You can enable anti-virus protection which will ensure that the files "
+"being uploaded via the Cluster Server are scanned by the selected anti-"
+"virus software."
+msgstr "يمكنك تمكين الحماية من الفيروسات والتي ستضمن أن الملفات التي يتم تحميلها عبر الخادم العنقودي يتم فحصها بواسطة برنامج مكافحة الفيروسات المختار."
+
+#: ../../chapter02.rst:1151
+msgid ""
+"You will first need to obtain the anti-virus service that is independent "
+"from the Cluster Server, and get it directly from the anti-virus vendor. "
+"After that, you can integrate the anti-virus service into the Cluster "
+"Server."
+msgstr "ستحتاج أولاً إلى الحصول على خدمة مكافحة الفيروسات المستقلة عن الخادم العنقودي، والحصول عليها مباشرة من مورد خدمة مكافحة الفيروسات. بعد ذلك، يمكنك دمج خدمة مكافحة الفيروسات في الخادم العنقودي."
+
+#: ../../chapter02.rst:1157
+msgid "ANTI-VIRUS SETTINGS"
+msgstr "إعدادات مكافحة الفيروسات"
+
+#: ../../chapter02.rst:1160
+msgid "Worker Nodes"
+msgstr "عقد العمل"
+
+#: ../../chapter02.rst:1162
+msgid "``Cluster Manager`` > ``Worker Node``"
+msgstr "``مدير العقد`` > ``العقدة العاملة``"
+
+#: ../../chapter02.rst:1164
+msgid ""
+"Cluster Server Farm has two types of nodes, one is “Worker Node” and the "
+"other is “Web Nodes”."
+msgstr "مزرعة خوادم التجميع لديها نوعان من العقد، أحدهما هو 'Worker Node' والآخر هو 'Web Nodes'."
+
+#: ../../chapter02.rst:1170
+msgid "CLUSTER SERVER FARM NODES"
+msgstr "عقد مزرعة خوادم التجميع"
+
+#: ../../chapter02.rst:1173
+msgid ""
+"This type of node will contain services like Web Browser Based File "
+"Manager, Storage Service Connectors, and etc. Again, additional nodes can"
+" be added as the load increases. Because there is cache information "
+"located on each node, users will have an affinity to a single node once "
+"it is assigned. If the load balancer distributes users evenly to all "
+"worker nodes, the cache information may exist on all worker nodes."
+msgstr "هذا النوع من العقد سيحتوي على خدمات مثل مدير الملفات القائم على متصفح الويب، وموصلات خدمة التخزين، وما إلى ذلك. مرة أخرى، يمكن إضافة عقد إضافية مع زيادة الحمل. نظرًا لوجود معلومات الذاكرة المؤقتة على كل عقدة، سيكون للمستخدمين تفضيل لعقدة واحدة بمجرد تعيينها. إذا قام موزع الحمل بتوزيع المستخدمين بالتساوي على جميع العقد العاملة، فقد توجد معلومات الذاكرة المؤقتة على جميع العقد العاملة."
+
+#: ../../chapter02.rst:1179
+msgid "SSL NOTICE"
+msgstr "إشعار SSL"
+
+#: ../../chapter02.rst:1182
+msgid "**Worker Node Settings**"
+msgstr "**إعدادات العقدة العاملة**"
+
+#: ../../chapter02.rst:1184
+msgid ""
+"There are some settings that apply to all worker nodes. After you click "
+"on the \"Settings\" icon, the Advanced Setttings panel will show."
+msgstr "هناك بعض الإعدادات التي تنطبق على جميع عقد العمل. بعد النقر على أيقونة \"الإعدادات\"، ستظهر لوحة الإعدادات المتقدمة."
+
+#: ../../chapter02.rst:1189
+msgid "WORKER NODE SETTINGS"
+msgstr "إعدادات عقدة العمل"
+
+#: ../../chapter02.rst:1192
+msgid "**Always force SSL on Login**"
+msgstr "**دائمًا فرض SSL عند تسجيل الدخول**"
+
+#: ../../chapter02.rst:1194
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL on Login”. When this is checked and when "
+"|prodname| detects that the incoming connection is HTTP, it will do a "
+"redirect to HTTPS. If you turn on SSL, you will need to setup SSL "
+"certificate first."
+msgstr "في بيئة الإنتاج، تقريبًا في 100% من الوقت ستحتاج إلى التحقق من خيار 'فرض استخدام SSL دائمًا عند تسجيل الدخول'. عند تحديد هذا الخيار وعندما يكتشف |prodname| أن الاتصال الوارد هو HTTP، سيقوم بإعادة التوجيه إلى HTTPS. إذا قمت بتفعيل SSL، ستحتاج إلى إعداد شهادة SSL أولاً."
+
+#: ../../chapter02.rst:1196
+msgid ""
+"However, if you have SSL-offload, such that SSL is offloaded to a "
+"hardware appliance, and after that, the incoming connection is HTTP "
+"between the hardware appliance and |prodname|. In this SSL-offload case, "
+"you will NOT check “Always force SSL on Login” because it will create an "
+"infinite redirect loop because the incoming connection is always HTTP as "
+"far as the |prodname| Server is concerned."
+msgstr "ومع ذلك، إذا كان لديك تخفيف SSL، بحيث يتم تخفيف SSL إلى جهاز أجهزة، وبعد ذلك، يكون الاتصال الوارد HTTP بين جهاز الأجهزة و |prodname|. في حالة تخفيف SSL هذه، لن تقوم بالتحقق من 'فرض SSL دائمًا عند تسجيل الدخول' لأنه سيخلق حلقة إعادة توجيه لا نهائية لأن الاتصال الوارد دائمًا HTTP بقدر ما يتعلق الأمر بخادم |prodname|."
+
+#: ../../chapter02.rst:1199
+msgid "**Always force SSL for Native Clients**"
+msgstr "**دائمًا فرض SSL للعملاء الأصليين**"
+
+#: ../../chapter02.rst:1201
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL for Native Clients”."
+msgstr "في بيئة الإنتاج، ستحتاج تقريبًا في 100% من الوقت إلى التحقق من خيار \"فرض SSL دائمًا للعملاء الأصليين\"."
+
+#: ../../chapter02.rst:1203
+msgid ""
+"Especially, in the case of SSL-Offload, you MUST check “Always force SSL "
+"for Native Clients”. Otherwise, the |prodname| Server may think that the "
+"incoming connection is HTTP so it will continue to encourage the native "
+"clients (such as Windows client) to use HTTP instead of using HTTPS."
+msgstr "خاصةً، في حالة إلغاء تحميل SSL، يجب عليك التحقق من خيار \"إجبار العملاء الأصليين على استخدام SSL دائمًا\". وإلا، قد يعتقد خادم |prodname| أن الاتصال الوارد هو اتصال HTTP، لذا سيستمر في تشجيع العملاء الأصليين (مثل عميل Windows) على استخدام HTTP بدلاً من استخدام HTTPS."
+
+#: ../../chapter02.rst:1207
+msgid ""
+"In iOS devices, the Application Transport Security may be enforced by the"
+" operating system and HTTPS must be used for an iOS Application to "
+"connect to the Cluster Server."
+msgstr "في أجهزة iOS، قد يتم فرض أمان نقل التطبيقات بواسطة نظام التشغيل ويجب استخدام HTTPS لكي يتمكن التطبيق في iOS من الاتصال بخادم العنقود."
+
+#: ../../chapter02.rst:1210
+msgid "**Disable worker-node load balance**"
+msgstr "**تعطيل توازن الحمل لعقدة العامل**"
+
+#: ../../chapter02.rst:1212
+msgid ""
+"When you have your own load balancer, you will disable worker-node load "
+"balancing. The Cluster Server has built-in node-affinity load balancing, "
+"which can be per-tenant or per-user. When you have your own load "
+"balancer, you may have session-affinity or just simple round-robin, "
+"either one is fine."
+msgstr "عندما يكون لديك موازن تحميل خاص بك، سوف تقوم بتعطيل موازنة تحميل عقد العمل. يحتوي خادم العنقود على موازنة تحميل تقارب العقد مدمجة، والتي يمكن أن تكون لكل مستأجر أو لكل مستخدم. عندما يكون لديك موازن تحميل خاص بك، قد يكون لديك تقارب جلسة أو مجرد دوران بسيط، أي منهما جيد."
+
+#: ../../chapter02.rst:1216
+msgid "How to add a worker node?"
+msgstr "كيفية إضافة عقدة عاملة؟"
+
+#: ../../chapter02.rst:1218
+msgid ""
+"You just go ahead to install the Cluster Server during the installation "
+"and point the Cluster Server to the same database. Once the installation "
+"of the Cluster Server worker node is completed, reboot. The web portal "
+"page will pop up, asking you to add the worker node to the server farm."
+msgstr "ما عليك سوى المتابعة لتثبيت خادم العنقود أثناء التثبيت وتوجيه خادم العنقود إلى نفس قاعدة البيانات. بمجرد اكتمال تثبيت عقدة عامل خادم العنقود، أعد التشغيل. ستظهر صفحة البوابة الإلكترونية، مطالبةً بإضافة عقدة العامل إلى مزرعة الخوادم."
+
+#: ../../chapter02.rst:1222
+msgid "What if you changed the Cluster Server's Host Name?"
+msgstr "ماذا لو قمت بتغيير اسم مضيف خادم العنقود؟"
+
+#: ../../chapter02.rst:1224
+msgid ""
+"For Windows server 2012 and later Server OS, when a server is newly "
+"provisioned, it is typically named in hostname format similar (WIN-"
+"ABCDEFG). Sometimes, it is desired to change the name in the Control "
+"Panel -> Systems. If the Cluster Server is already installed, changing "
+"the name will make the Cluster Server add itself again with the new name."
+" So next time when you visit http://localhost on the Cluster Server after"
+" the server has been renamed, you will see the worker node section has "
+"both the node with the old name (which no longer exists) and the node "
+"with the new name (Which is current and good). In this case, you just "
+"need to simply remove the worker node with the old name."
+msgstr "بالنسبة لنظام التشغيل Windows Server 2012 والإصدارات الأحدث، عند توفير خادم جديد، يُسمى عادةً بتنسيق اسم المضيف المشابه (WIN-ABCDEFG). أحيانًا، يُرغب في تغيير الاسم في لوحة التحكم -> الأنظمة. إذا كان الخادم العنقودي مُثبتًا بالفعل، فإن تغيير الاسم سيجعل الخادم العنقودي يضيف نفسه مرة أخرى بالاسم الجديد. لذلك، في المرة التالية التي تزور فيها http://localhost على الخادم العنقودي بعد إعادة تسمية الخادم، سترى أن قسم عقدة العامل يحتوي على كل من العقدة بالاسم القديم (الذي لم يعد موجودًا) والعقدة بالاسم الجديد (الذي هو حالي وجيد). في هذه الحالة، كل ما عليك فعله هو إزالة عقدة العامل بالاسم القديم ببساطة."
+
+#: ../../chapter02.rst:1227
+msgid "**Worker Node Properties**"
+msgstr "**خصائص عقدة العامل**"
+
+#: ../../chapter02.rst:1232
+msgid "WORKER NODE PROPERTIES"
+msgstr "خصائص عقدة العامل"
+
+#: ../../chapter02.rst:1234
+msgid ""
+"You may need to modify the worker node properties when you setup SSL and "
+"the DNS name for the cluster."
+msgstr "قد تحتاج إلى تعديل خصائص عقدة العامل عند إعداد SSL واسم DNS للمجموعة."
+
+#: ../../chapter02.rst:1237
+msgid "**Node Name**"
+msgstr "**اسم العقدة**"
+
+#: ../../chapter02.rst:1239
+msgid ""
+"The **Node Name** needs to match the worker node's hostname. Sometimes, "
+"if you rename a worker node's Windows hostname (NETBIOS name) after the "
+"Cluster Server installation, upon reboot, the Cluster Server will pop up "
+"a web page, asking you to add the new worker node. In that case, you can "
+"go ahead and add the new worker node and then delete the old worker node."
+msgstr "يجب أن يتطابق **اسم العقدة** مع اسم المضيف لعقدة العامل. أحيانًا، إذا قمت بتغيير اسم المضيف لنظام ويندوز الخاص بعقدة العامل (اسم NETBIOS) بعد تثبيت خادم الكتلة، عند إعادة التشغيل، سيظهر خادم الكتلة صفحة ويب، يطلب منك إضافة عقدة عامل جديدة. في هذه الحالة، يمكنك المضي قدمًا وإضافة عقدة العامل الجديدة ثم حذف عقدة العامل القديمة."
+
+#: ../../chapter02.rst:1242
+msgid "**External URL**"
+msgstr "**رابط خارجي**"
+
+#: ../../chapter02.rst:1244
+msgid ""
+"The **External URL** needs to match the worker node's external URL. In a "
+"production environment, this typically is in an https:// format with the "
+"node's DNS name."
+msgstr "يجب أن يتطابق **العنوان URL الخارجي** مع عنوان URL الخارجي لعقدة العمل. في بيئة الإنتاج، يكون هذا عادةً بتنسيق https:// مع اسم DNS للعقدة."
+
+#: ../../chapter02.rst:1246
+msgid ""
+"External URL is a critical property for Email templates. Once the Cluster"
+" Server installation is finished, the dashboard will have a warning "
+"message, 'External DNS has not been configured for this worker node. Some"
+" functionality may not work properly. Config Now'"
+msgstr "الرابط الخارجي هو خاصية حاسمة لقوالب البريد الإلكتروني. بمجرد الانتهاء من تثبيت خادم العنقود، ستظهر رسالة تحذير في لوحة التحكم، 'لم يتم تكوين DNS الخارجي لعقدة العامل هذه. قد لا تعمل بعض الوظائف بشكل صحيح. قم بالتكوين الآن'"
+
+#: ../../chapter02.rst:1248
+msgid ""
+"The moment that you have finalized on the External DNS name of the "
+"Cluster Server, you must come here and configure the ExternalURL property"
+" for the Cluster Server."
+msgstr "في اللحظة التي تقرر فيها على اسم DNS الخارجي لخادم الكتلة، يجب عليك القدوم إلى هنا وتكوين خاصية ExternalURL لخادم الكتلة."
+
+#: ../../chapter02.rst:1251
+msgid "**Internal URL**"
+msgstr "**الرابط الداخلي**"
+
+#: ../../chapter02.rst:1253
+msgid ""
+"The **Internal URL** is the node's internal URL, typically in the form of"
+" http://local-ip-address format. In later Cluster Server builds, this "
+"property is hidden and there is no need to set it any more."
+msgstr "عنوان **URL الداخلي** هو عنوان URL الداخلي للعقدة، وعادةً ما يكون على شكل http://عنوان-ip-محلي. في إصدارات خادم العنقود الأحدث، تم إخفاء هذه الخاصية ولم يعد هناك حاجة لضبطها بعد الآن."
+
+#: ../../chapter02.rst:1255
+msgid "**Disable management functionality**"
+msgstr "**تعطيل وظائف الإدارة**"
+
+#: ../../chapter02.rst:1257
+msgid ""
+"You can create an internal facing worker node (that doesn't have an "
+"externalURL) and only allow management functionality on this worker node."
+" This is a security feature."
+msgstr "يمكنك إنشاء عقدة عامل داخلية (لا تمتلك عنوان URL خارجي) والسماح بوظائف الإدارة على هذه العقدة فقط. هذه ميزة أمان."
+
+#: ../../chapter02.rst:1260
+msgid "**Edit Cloud Monitor Setting**"
+msgstr "**تعديل إعدادات مراقبة السحابة**"
+
+#: ../../chapter02.rst:1265
+msgid "CLOUD MONITOR SETTINGS"
+msgstr "إعدادات مراقبة السحاب"
+
+#: ../../chapter02.rst:1268
+msgid "**Enable Storage Scan**"
+msgstr "**تمكين فحص التخزين**"
+
+#: ../../chapter02.rst:1270
+msgid ""
+"Enables or disables storage scan on the worker node. On the worker node, "
+"there is a cloud monitor service. The service will be doing background "
+"monitoring and make scan storage from time to time to correct quota "
+"calculation and perform other maintenance tasks."
+msgstr "يتيح أو يعطل فحص التخزين على عقدة العامل. على عقدة العامل، هناك خدمة مراقبة السحاب. ستقوم الخدمة بالمراقبة الخلفية وإجراء فحص التخزين من وقت لآخر لتصحيح حساب الحصة وأداء مهام الصيانة الأخرى."
+
+#: ../../chapter02.rst:1273
+msgid "**Scan Starts Hour**"
+msgstr "**ساعة بدء الفحص**"
+
+#: ../../chapter02.rst:1275
+msgid ""
+"Typically you will set the scan start time to sometime in the early "
+"morning like 1AM."
+msgstr "عادةً ما ستقوم بضبط وقت بدء الفحص ليكون في وقت مبكر من الصباح مثل الساعة الواحدة صباحًا."
+
+#: ../../chapter02.rst:1278
+msgid "**Scan End Hour**"
+msgstr "**ساعة انتهاء الفحص**"
+
+#: ../../chapter02.rst:1280
+msgid ""
+"Typically you will set the scan end time to sometime in the morning like "
+"8AM before everyone comes to work. The main idea is to leverage idle time"
+" (when people are not at work) to do the scanning."
+msgstr "عادةً ما ستقوم بضبط وقت انتهاء الفحص ليكون في وقت ما في الصباح مثل الساعة 8 صباحًا قبل أن يأتي الجميع إلى العمل. الفكرة الرئيسية هي استغلال وقت الفراغ (عندما لا يكون الناس في العمل) لإجراء الفحص."
+
+#: ../../chapter02.rst:1283
+msgid "**Scan User Storage Every (n) Days**"
+msgstr "**فحص تخزين المستخدم كل (n) أيام**"
+
+#: ../../chapter02.rst:1285
+msgid ""
+"Typically you can set it to every week or every other week. so a number "
+"between 7 to 15 is reasonable."
+msgstr "عادةً يمكنك ضبطه ليكون كل أسبوع أو كل أسبوعين. لذا فإن رقمًا بين 7 إلى 15 يعتبر معقولاً."
+
+#: ../../chapter02.rst:1288
+msgid "**Enable Change Monitor**"
+msgstr "**تمكين مراقبة التغيير**"
+
+#: ../../chapter02.rst:1290
+msgid ""
+"Enable change monitor monitors the attached local storage such as storage"
+" from file server network share and report file change notification to "
+"remotely connected clients. This usually is required if your users are "
+"both modifying documents directly from the backend attached network share"
+" and also from the front end Cluster access clients."
+msgstr "تمكين مراقب التغيير يراقب التخزين المحلي المرفق مثل التخزين من مشاركة الشبكة لخادم الملفات ويبلغ عن إشعارات تغيير الملف إلى العملاء المتصلين عن بعد. هذا مطلوب عادةً إذا كان المستخدمون يعدلون المستندات مباشرةً من مشاركة الشبكة المرفقة في الخلفية وأيضًا من عملاء وصول العنقود الأمامي."
+
+#: ../../chapter02.rst:1293
+msgid "**Index External Storage**"
+msgstr "**فهرسة التخزين الخارجي**"
+
+#: ../../chapter02.rst:1295
+msgid ""
+"This setting will index storage services added via the \"Storage "
+"Manager\". The index will be written to the files table in the database."
+msgstr "هذا الإعداد سيُفهرس خدمات التخزين المُضافة عبر \"مدير التخزين\". سيتم كتابة الفهرس إلى جدول الملفات في قاعدة البيانات."
+
+#: ../../chapter02.rst:1298
+msgid "**Enable Storage Purge of Deleted User**"
+msgstr "**تمكين تطهير التخزين للمستخدم المحذوف**"
+
+#: ../../chapter02.rst:1300
+msgid ""
+"When a user is deleted from the system, the user's home directory is not "
+"immediately removed. And a lot of times, you don't want to delete it at "
+"all. For example, a user is deleted from the Cluster Server, but the user"
+" may still continue to use the files and folder directly from the "
+"network."
+msgstr "عندما يتم حذف مستخدم من النظام، لا يتم إزالة دليل البداية الخاص به على الفور. وفي كثير من الأحيان، قد لا ترغب في حذفه على الإطلاق. على سبيل المثال، يتم حذف مستخدم من خادم العنقود، ولكن قد يستمر المستخدم في استخدام الملفات والمجلدات مباشرة من الشبكة."
+
+#: ../../chapter02.rst:1303
+msgid "**Process Background Task**"
+msgstr "**معالجة المهمة الخلفية**"
+
+#: ../../chapter02.rst:1305
+msgid "Whether this specific node will process the background task."
+msgstr "ما إذا كان هذا العقد المحدد سيعالج المهمة الخلفية."
+
+#: ../../chapter02.rst:1308
+msgid "**Enable Change Monitor for Home Drive**"
+msgstr "**تفعيل مراقبة التغيير لمحرك الأقراص الرئيسي**"
+
+#: ../../chapter02.rst:1310
+msgid ""
+"If Active Directory Home Drive integration is on, this will allow the "
+"Cluster Server to monitor the changes on the home drive and notify remote"
+" client agents that the files/folders have changed."
+msgstr "إذا كانت ميزة تكامل الـ Active Directory Home Drive قيد التشغيل، فسيسمح ذلك لخادم الكتلة بمراقبة التغييرات على القرص الرئيسي وإخطار وكلاء العميل البعيد بأن الملفات/المجلدات قد تغيرت."
+
+#: ../../chapter02.rst:1313
+msgid "**Send daily scan email**"
+msgstr "**إرسال بريد إلكتروني يومي للفحص**"
+
+#: ../../chapter02.rst:1315
+msgid ""
+"If the storage scan is enabled, a daily scan email will be sent to the "
+"cluster administrator about the result of the scan."
+msgstr "إذا تم تفعيل فحص التخزين، سيتم إرسال بريد إلكتروني يومي إلى مسؤول العنقود يخبره بنتيجة الفحص."
+
+#: ../../chapter02.rst:1318
+msgid "Web Node"
+msgstr "عقدة الويب"
+
+#: ../../chapter02.rst:1319
+msgid "``Cluster Manager`` > ``Web Node``"
+msgstr "``مدير العقد`` > ``العقدة الويب``"
+
+#: ../../chapter02.rst:1322
+msgid ""
+"In a small deployment, there is no need to have web nodes. You can go "
+"straight to worker nodes since worker nodes by defaults are web nodes "
+"too."
+msgstr "في توزيع صغير، لا حاجة لامتلاك عقد ويب. يمكنك الانتقال مباشرة إلى عقد العمل لأن عقد العمل بشكل افتراضي هي عقد ويب أيضًا."
+
+#: ../../chapter02.rst:1325
+msgid ""
+"The Account Management, Sign-in and Load-balancing services will be "
+"installed on this physical machine (or virtual machine). Depending on the"
+" load, you may need 1 to N such nodes. Normally, we recommend for every "
+"web front node, you can have 10+ worker nodes. When you have small "
+"deployments, you can skip web front nodes and combine them into worker "
+"nodes. All the installation work is the same. If you do not need web "
+"front node, you do not need to assign them in the cluster manager."
+msgstr "سيتم تثبيت خدمات إدارة الحسابات وتسجيل الدخول وتوازن الحمل على هذه الآلة الفعلية (أو الآلة الافتراضية). اعتمادًا على الحمل، قد تحتاج من 1 إلى N من هذه العقد. عادةً، نوصي بأن يكون لديك 10+ عقد عمل لكل عقدة واجهة ويب. عندما يكون لديك توزيعات صغيرة، يمكنك دمج عقد الواجهة الأمامية للويب مع عقد العمل. كل أعمال التثبيت هي نفسها. إذا لم تكن بحاجة إلى عقدة واجهة ويب، فلا داعي لتعيينها في مدير العقد."
+
+#: ../../chapter02.rst:1330
+msgid "WEB NODE"
+msgstr "عقدة الويب"
+
+#: ../../chapter02.rst:1332
+msgid "**Example:**"
+msgstr ""
+
+#: ../../chapter02.rst:1334
+msgid ""
+"ACME Corporation deploys two web front nodes node1.acme.com and "
+"node2.acme.com. Each node is running a copy of the Cluster Server "
+"connecting to the same SQL database."
+msgstr "قامت شركة ACME Corporation بتوظيف عقدتين أماميتين للويب هما node1.acme.com و node2.acme.com. كل عقدة تعمل على نسخة من الخادم العنقودي المتصل بنفس قاعدة بيانات SQL."
+
+#: ../../chapter02.rst:1336
+msgid ""
+"ACME Corporation acquires a domain name (DNS) of cloud.acme.com which is "
+"load balanced to node1.acme.com and node2.acme.com."
+msgstr "شركة ACME Corporation تستحوذ على اسم نطاق (DNS) وهو cloud.acme.com والذي يتم توازن الحمل له بين node1.acme.com و node2.acme.com."
+
+#: ../../chapter02.rst:1338
+msgid ""
+"When Users point their browsers to https://cloud.acme.com it is directed "
+"to one of the nodes login page."
+msgstr "عندما يوجه المستخدمون متصفحاتهم إلى https://cloud.acme.com يتم توجيههم إلى صفحة تسجيل الدخول الخاصة بأحد العقد."
+
+#: ../../chapter02.rst:1342
+msgid ""
+"NOTE 1: If you have hardware load balancing available, you do not need to"
+" use web nodes at all."
+msgstr "ملاحظة 1: إذا كان لديك توازن تحميل الأجهزة متاحًا، فلا تحتاج إلى استخدام عقد الويب على الإطلاق."
+
+#: ../../chapter02.rst:1344
+msgid ""
+"NOTE 2: Windows 2012/R2 comes with Network Load Balancing (NLB). If you "
+"use NLB, you do not need web nodes at all."
+msgstr "ملاحظة 2: يأتي Windows 2012/R2 مع توازن الحمل الشبكي (NLB). إذا كنت تستخدم NLB، فأنت لا تحتاج إلى عقد الويب على الإطلاق."
+
+#: ../../chapter02.rst:1346
+msgid "Basically, if you have any existing load balancer, you can omit web nodes."
+msgstr "بشكل أساسي، إذا كان لديك أي موازن تحميل موجود، يمكنك تجاهل عقد الويب."
+
+#: ../../chapter02.rst:1349
+msgid "Zones"
+msgstr "المناطق"
+
+#: ../../chapter02.rst:1351
+msgid "``Cluster Manager`` > ``Zones``"
+msgstr "``مدير العقد`` > ``المناطق``"
+
+#: ../../chapter02.rst:1353
+msgid ""
+"The concept of zone is to associate your worker nodes with the location "
+"of the storage. When you think about zones, you will think about your "
+"storage location first."
+msgstr "مفهوم المنطقة هو لربط عقد العمل الخاصة بك بموقع التخزين. عندما تفكر في المناطق، ستفكر أولاً في موقع التخزين الخاص بك."
+
+#: ../../chapter02.rst:1356
+msgid ""
+"For example, I have storage in LA so I have an LA zone. I also have "
+"storage in NY so I have a NY Zone."
+msgstr "على سبيل المثال، لديّ مساحة تخزين في لوس أنجلوس لذا لديّ منطقة لوس أنجلوس. كما أن لديّ مساحة تخزين في نيويورك لذا لديّ منطقة نيويورك."
+
+#: ../../chapter02.rst:1358
+msgid ""
+"You can have worker nodes from different zones as well and assign users "
+"to specific zone. If user's home directory is coming from LA zone, the "
+"user will need to be assigned to LA zone."
+msgstr "يمكنك أن تمتلك عقد عمال من مناطق مختلفة أيضًا وتعيين المستخدمين إلى منطقة محددة. إذا كانت الدليل الرئيسي للمستخدم قادمًا من منطقة لوس أنجلوس، فسيحتاج المستخدم إلى أن يتم تعيينه إلى منطقة لوس أنجلوس."
+
+#: ../../chapter02.rst:1364
+msgid "CONTROL PANEL STORAGE ZONES EDITOR"
+msgstr "محرر مناطق تخزين لوحة التحكم"
+
+#: ../../chapter02.rst:1369
+msgid "Default Group Policy"
+msgstr "المجموعة الافتراضية للسياسة"
+
+#: ../../chapter02.rst:1371
+msgid "``Cluster Manager`` > ``Default Group Policy``"
+msgstr "``مدير العنقود`` > ``سياسة المجموعة الافتراضية``"
+
+#: ../../chapter02.rst:1373
+msgid ""
+"Default group policy can be applied to all tenants in the cluster. "
+"However, if the tenant also defines its own group policy, the tenant "
+"policy can over ride cluster wide default group policy."
+msgstr "يمكن تطبيق سياسة المجموعة الافتراضية على جميع المستأجرين في العنقود. ومع ذلك، إذا قام المستأجر أيضًا بتعريف سياسة مجموعته الخاصة، فإن سياسة المستأجر يمكن أن تتجاوز سياسة المجموعة الافتراضية على مستوى العنقود."
+
+#: ../../chapter02.rst:1375
+msgid ""
+"Please reference the ``Group Policy`` in the tenant administrator section"
+" for full list of policy items."
+msgstr "يرجى الرجوع إلى ``سياسة المجموعة`` في قسم مسؤول المستأجر للحصول على قائمة كاملة بعناصر السياسة."
+
+#: ../../chapter02.rst:1381
+msgid "GROUP POLICY SETTINGS"
+msgstr "إعدادات سياسة المجموعة"
+

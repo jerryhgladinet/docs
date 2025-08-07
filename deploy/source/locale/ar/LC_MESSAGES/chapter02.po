@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:2
+msgid "Infrastructure Components"
+msgstr "مكونات البنية التحتية"
+
+#: ../../chapter02.rst:4
+msgid ""
+"There are three different infrastructure components (logical components "
+"that can co-exist in the same server). In the smallest deployment unit, "
+"the different components can co-exist in one single machine (all-in-one "
+"deployment)."
+msgstr "هناك ثلاثة مكونات بنية تحتية مختلفة (مكونات منطقية يمكن أن تتواجد معًا في نفس الخادم). في أصغر وحدة توزيع، يمكن أن تتواجد المكونات المختلفة في آلة واحدة (توزيع شامل في جهاز واحد)."
+
+#: ../../chapter02.rst:9
+msgid "1. Worker Node Component"
+msgstr "مكون عقدة العامل"
+
+#: ../../chapter02.rst:11
+msgid ""
+"Worker node contains services like Web Browser Based File Manager, "
+"Storage Service Connectors, Active Directory connector and other key "
+"components. It is responsible for data related activities such as file "
+"upload and download, permission, control and change notification. Since "
+"the data upload and download usually go through worker node, thus it is "
+"called a \"worker\" for data transfer."
+msgstr "يحتوي العقد العامل على خدمات مثل مدير الملفات القائم على متصفح الويب، وموصلات خدمة التخزين، وموصل الدليل النشط ومكونات أساسية أخرى. يكون مسؤولاً عن الأنشطة المتعلقة بالبيانات مثل تحميل وتنزيل الملفات، والتحكم في الأذونات، وإشعار التغيير. نظرًا لأن عمليات تحميل وتنزيل البيانات عادةً ما تمر عبر العقد العامل، لذلك يُطلق عليه \"عامل\" لنقل البيانات."
+
+#: ../../chapter02.rst:17
+msgid "Additional nodes can be added as the load increases."
+msgstr "يمكن إضافة عقد إضافية مع زيادة الحمل"
+
+#: ../../chapter02.rst:21
+msgid "2. Database Component"
+msgstr "2. مكون قاعدة البيانات"
+
+#: ../../chapter02.rst:23
+msgid ""
+"The database contains persistent information for the system. Database is "
+"a critical component for the smooth operation of the CentreStack server "
+"farm. Local database with latency less than 10 milliseconds is "
+"recommended."
+msgstr "تحتوي قاعدة البيانات على معلومات دائمة للنظام. تعتبر قاعدة البيانات مكونًا حيويًا لتشغيل مزرعة خوادم CentreStack بسلاسة. يُوصى باستخدام قاعدة بيانات محلية بزمن انتقال أقل من 10 ميلي ثانية."
+
+#: ../../chapter02.rst:27
+msgid ""
+"In order for all worker nodes be in the same server farm, they need to "
+"point to the same database."
+msgstr "لكي يكون جميع العقد العاملة في نفس مزرعة الخوادم، يجب أن تشير إلى نفس قاعدة البيانات."
+
+#: ../../chapter02.rst:32
+msgid "3. Storage Component"
+msgstr "3. مكون التخزين"
+
+#: ../../chapter02.rst:34
+msgid ""
+"The storage component is the persistent storage location for files and "
+"folders. There are two different types of storage services. One is "
+"managed by CentreStack, such as the default storage for the cluster and "
+"the default storage for tenants. The other is imported storage, for "
+"example, having existing file server network shares that aren't managed "
+"by CentreStack but can be imported into CentreStack for remote and mobile"
+" access."
+msgstr "المكون التخزيني هو الموقع التخزيني الدائم للملفات والمجلدات. هناك نوعان مختلفان من خدمات التخزين. أحدهما يدار بواسطة CentreStack، مثل التخزين الافتراضي للعنقود والتخزين الافتراضي للمستأجرين. الآخر هو التخزين المستورد، على سبيل المثال، وجود مشاركات الشبكة لخادم الملفات القائمة التي لا تدار بواسطة CentreStack ولكن يمكن استيرادها إلى CentreStack للوصول عن بعد والوصول المتنقل."
+

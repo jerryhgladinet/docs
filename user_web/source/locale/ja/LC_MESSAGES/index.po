@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the Triofox Web Portal User Guide. This guide describes web "
+"portal functionality for users as well as administrators in Triofox."
+msgstr "Triofox Webポータルユーザーガイドへようこそ。このガイドでは、Triofoxのユーザーや管理者向けのWebポータル機能について説明しています。"
+
+#: ../../index.rst:11
+msgid ""
+"Triofox helps businesses mobilize their file servers by enhancing "
+"existing Windows file servers with secure remote acccess, mobile file "
+"sharing, data protection and cloud migration, while addressing business "
+"concerns about security, privacy, compliance and control."
+msgstr "Triofoxは、セキュアなリモートアクセス、モバイルファイル共有、データ保護、クラウド移行を既存のWindowsファイルサーバーに追加することで、ビジネスのファイルサーバーをモバイル化を支援し、セキュリティ、プライバシー、コンプライアンス、コントロールに関するビジネス上の懸念に対応します。"
+
+#: ../../index.rst:14
+msgid ""
+"Triofox adds ransomware protection and automatic alert mechanism to your "
+"file servers. It continously monitors all the Triofox clients for any "
+"unusual activity and will automatically shut them down if it sees a "
+"possible attack."
+msgstr "Triofoxは、ファイルサーバーにランサムウェア保護と自動アラートメカニズムを追加します。それはすべてのTriofoxクライアントを継続的に監視し、異常な活動があれば自動的にシャットダウンします。可能な攻撃を検出した場合には、それらを即座に停止します。"
+
+#: ../../index.rst:17
+msgid ""
+"Triofox removes any need for businesses to rely on a VPN or a company "
+"computer to securely access files. With Triofox, data sprawl is "
+"eliminated as data stays on local file servers and mobile productivity is"
+" balanced by centralized management and access controls."
+msgstr "Triofoxは、企業がVPNや会社のコンピュータに依存する必要をなくします。Triofoxを使用すると、データの分散がなくなり、データはローカルファイルサーバーに留まり、モバイルの生産性は集中管理とアクセス制御によってバランスが取られます。"
+
+#: ../../index.rst:20
+msgid ""
+"Triofox natively integrates with Active Directory and maintains all the "
+"existing NTFS permissions and there is no need to recreate any user "
+"identities. With military grade encryption and secure connections, use "
+"existing users and permissions to save setup time and money. files stay "
+"on local file servers and encrypted at the end point cache."
+msgstr "TriofoxはActive Directoryとネイティブに統合し、既存のNTFS権限をすべて維持するため、ユーザーIDを再作成する必要はありません。軍事レベルの暗号化と安全な接続を使用して、設定時間と費用を節約するために既存のユーザーと権限を使用します。ファイルはローカルファイルサーバーに留まり、エンドポイントキャッシュで暗号化されます。"
+
+#: ../../index.rst:24
+msgid ""
+"Triofox includes the backend Triofox server, which runs on Windows server"
+" platform, and front end client applications for Microsoft Windows, Mac "
+"OSx, and mobile clients for the Android and Apple iOS operating systems."
+msgstr "Triofoxには、Windowsサーバープラットフォーム上で動作するバックエンドのTriofoxサーバーと、Microsoft Windows、Mac OSx用のフロントエンドクライアントアプリケーション、そしてAndroidおよびApple iOSオペレーティングシステム用のモバイルクライアントが含まれています。"
+
+#: ../../index.rst:28
+msgid ""
+"The Web portal is an important part of the solution for the following "
+"reasons:"
+msgstr "Webポータルは、以下の理由によりソリューションの重要な部分です:"
+
+#: ../../index.rst:30
+msgid "most of the management work is done on the web portal."
+msgstr "ほとんどの管理作業はウェブポータルで行われます。"
+
+#: ../../index.rst:31
+msgid ""
+"downloading other native client agent softwares starts from the web "
+"portal."
+msgstr "ウェブポータルから他のネイティブクライアントエージェントソフトウェアのダウンロードが始まります。"
+
+#: ../../index.rst:32
+msgid ""
+"web browser file manager have rich and responsive feature to manage "
+"files, sharing and collaboration."
+msgstr "ウェブブラウザファイルマネージャーには、ファイル管理、共有、コラボレーションのためのリッチでレスポンシブな機能が備わっています。"
+
+#: ../../index.rst:34
+msgid ""
+"Other important features and functions of the web portal are also covered"
+" in this document."
+msgstr "このドキュメントでは、ウェブポータルの他の重要な機能や機能についても説明しています。"
+
+#: ../../index.rst:39
+msgid "The web portal user guide is updated for version |release|"
+msgstr "ウェブポータルのユーザーガイドがバージョン |release| に更新されました"
+

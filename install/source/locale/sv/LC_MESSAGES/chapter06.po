@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter06.rst:3
+msgid "Enable SSL – Install SSL Certificate"
+msgstr "Aktivera SSL – Installera SSL-certifikat"
+
+#: ../../chapter06.rst:7
+msgid ""
+"Assuming that you have already setup your DNS to point to a DNS name "
+"connected to the |prodname| server and an SSL certificate already "
+"purchased for the DNS name. If not, you can acquire an SSL certificate "
+"from your SSL vendor."
+msgstr "Förutsatt att du redan har konfigurerat din DNS så att den pekar på ett DNS-namn som är kopplat till |prodname|-servern och att ett SSL-certifikat redan har köpts för DNS-namnet. Om inte kan du skaffa ett SSL-certifikat från din SSL-leverantör."
+
+#: ../../chapter06.rst:9
+msgid ""
+"We recommend using https://www.ssllabs.com/ to test your SSL setup "
+"because the SSL Labs site will produce a report on whether the SSL is "
+"compatible with all devices such as iOS devices."
+msgstr "Vi rekommenderar att använda https://www.ssllabs.com/ för att testa din SSL-konfiguration eftersom SSL Labs webbplats kommer att producera en rapport om huruvida SSL är kompatibel med alla enheter såsom iOS-enheter."
+
+#: ../../chapter06.rst:13
+msgid ""
+"You can also use openssl to check the SSL certificates and whether or not"
+" the whole certificate trust chain is completely installed on the server "
+"side."
+msgstr "Du kan också använda openssl för att kontrollera SSL-certifikaten och om hela certifikatets förtroendekedja är helt installerad på serversidan."
+
+#: ../../chapter06.rst:20
+msgid ""
+"You will install the SSL certificate using the IIS Manager. Look for "
+"\"Server Certificates\" and double click on it."
+msgstr "Du kommer att installera SSL-certifikatet med hjälp av IIS Manager. Sök efter \"Server Certifikat\" och dubbelklicka på det."
+
+#: ../../chapter06.rst:24
+msgid ""
+"Click on \"Import\" to import an existing SSL Certificate. Leave the "
+"Certificate Store as \"Personal\" or \"Web Hosting\", either option is "
+"fine."
+msgstr "Klicka på \"Importera\" för att importera ett befintligt SSL-certifikat. Lämna Certifikatlagret som \"Personligt\" eller \"Webbhotell\", båda alternativen är bra."
+
+#: ../../chapter06.rst:30
+msgid "Verify that the certificate is available:"
+msgstr "Verifiera att certifikatet är tillgängligt:"
+
+#: ../../chapter06.rst:34
+msgid ""
+"You can also verify the SSL certificate using the MMC/Certificates snap-"
+"in (Local Computer)."
+msgstr "Du kan också verifiera SSL-certifikatet med hjälp av MMC/Certifikat-snap-in (Lokal dator)."
+
+#: ../../chapter06.rst:38
+msgid ""
+"Now you can bind the \"Default Web Site\" to the SSL certificate for "
+"HTTPS. Right click on the \"Default Web Site\" and select \"Edit "
+"Bindings\"."
+msgstr "Nu kan du binda \"Default Web Site\" till SSL-certifikatet för HTTPS. Högerklicka på \"Default Web Site\" och välj \"Redigera bindningar\"."
+
+#: ../../chapter06.rst:43
+msgid "At the binding dialog, edit the HTTPS binding."
+msgstr "I bindningsdialogen, redigera HTTPS-bindningen."
+
+#: ../../chapter06.rst:47
+msgid ""
+"Now, change the SSL Certificate binding drop-down to the imported SSL "
+"certificate."
+msgstr "Nu, ändra bindningen för SSL-certifikatet i rullgardinsmenyn till det importerade SSL-certifikatet."
+

@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../sharing_collaborating.rst:2
+msgid "Sharing and Collaborating"
+msgstr "Jakaminen ja yhteistyö"
+
+#: ../../sharing_collaborating.rst:4
+msgid "User can select the files or folders to share from the Android devices."
+msgstr "Käyttäjä voi valita jaettavat tiedostot tai kansiot Android-laitteista."
+
+#: ../../sharing_collaborating.rst:10
+msgid "Share"
+msgstr "Jaa"
+
+#: ../../sharing_collaborating.rst:12
+msgid ""
+"User will be redirected to the **Share/Invite User** screen. There, add "
+"the email addresses of the users and select different options for "
+"sharing. Press the \">\" icon to add users to the share."
+msgstr "Käyttäjä ohjataan **Jaa/Kutsu käyttäjä** -näyttöön. Siellä lisää käyttäjien sähköpostiosoitteet ja valitse eri vaihtoehtoja jakamiseen. Paina \">\" -ikonia lisätäksesi käyttäjiä jakoon."
+
+#: ../../sharing_collaborating.rst:17
+msgid ""
+"On the next screen, touch the yellow arrow to select \"**Continue as it "
+"is now**\" (read-only access). Or select \"**Add user as a Guest User**\""
+" to get access to other settings."
+msgstr "Seuraavalla näytöllä kosketa keltaista nuolta valitaksesi \"**Jatka kuten nyt on**\" (vain luku -oikeus). Tai valitse \"**Lisää käyttäjä vieraana**\" päästäksesi käsiksi muihin asetuksiin."
+
+#: ../../sharing_collaborating.rst:21
+msgid ""
+"Before sending email share notification, specify how the user(s) can "
+"access the file or folder."
+msgstr "Ennen sähköpostin jakamisilmoituksen lähettämistä, määritä miten käyttäjä(t) voivat päästä käsiksi tiedostoon tai kansioon."
+
+#: ../../sharing_collaborating.rst:23
+msgid "Set the expiration time for the share."
+msgstr "Aseta jakamisen vanhentumisaika."
+
+#: ../../sharing_collaborating.rst:24
+msgid "Select \"Read Only\" or \"Full Control\"."
+msgstr "Valitse \"Vain luku\" tai \"Täysi hallinta\"."
+
+#: ../../sharing_collaborating.rst:25
+msgid "Select \"View only (no Download)\" if desired."
+msgstr "Valitse \"Vain katselu (ei latausta)\" jos haluat."
+
+#: ../../sharing_collaborating.rst:26
+msgid "Select \"Password Protection\" and enter a password."
+msgstr "Valitse \"Salasanasuojaus\" ja syötä salasana."
+
+#: ../../sharing_collaborating.rst:27
+msgid ""
+"Disable password protection and allow the user to create their own "
+"password from the link in the email they receive."
+msgstr "Poista salasanasuojaus käytöstä ja salli käyttäjän luoda oma salasanansa sähköpostissa saamansa linkin kautta."
+
+#: ../../sharing_collaborating.rst:29
+msgid "When selected the sharing options, tap on \"Share\" at the top right."
+msgstr "Kun olet valinnut jakamisvaihtoehdot, napauta yläoikealla olevaa \"Jaa\"."
+
+#: ../../sharing_collaborating.rst:34
+msgid ""
+"Sharing with an email user creates a **Guest User**. Each licensed user "
+"can create 3 guest user accounts. If there are 3 licensed users, then a "
+"total of 9 guest users can be added for that tenant. If the number of "
+"guest users has reached the limit, and the tenant is set up to auto grow "
+"the number of licensed users, then one more license will be added to the "
+"tenant."
+msgstr "Sähköpostikäyttäjän kanssa jakaminen luo **Vieraskäyttäjän**. Jokainen lisensoitu käyttäjä voi luoda 3 vieraskäyttäjätiliä. Jos on 3 lisensoitua käyttäjää, niin yhteensä 9 vieraskäyttäjää voidaan lisätä kyseiselle vuokraajalle. Jos vieraskäyttäjien määrä on saavuttanut rajan, ja vuokraaja on asetettu kasvattamaan automaattisesti lisensoitujen käyttäjien määrää, niin yksi lisenssi lisätään vuokraajalle."
+
+#: ../../sharing_collaborating.rst:38
+msgid "Share Via"
+msgstr "Jaa Via"
+
+#: ../../sharing_collaborating.rst:40
+msgid ""
+"User can share the file with a third-party application such as Gmail or "
+"WhatsApp."
+msgstr "Käyttäjä voi jakaa tiedoston kolmannen osapuolen sovelluksen, kuten Gmailin tai WhatsAppin kanssa."
+
+#: ../../sharing_collaborating.rst:46
+msgid "Get Public Link"
+msgstr "Hanki julkinen linkki"
+
+#: ../../sharing_collaborating.rst:48
+msgid ""
+"A URL will be provided that can be used to paste into an email or other "
+"field to share public read-only access to the file."
+msgstr "Tarjotaan URL-osoite, jota voidaan käyttää liittämään sähköpostiin tai muuhun kenttään, jotta tiedostoon pääsee käsiksi julkisesti vain luku -oikeuksin."
+
+#: ../../sharing_collaborating.rst:54
+msgid "Share Manager"
+msgstr "Jako Manager"
+
+#: ../../sharing_collaborating.rst:56
+msgid ""
+"User will be taken to a view and will see a list of all shares associated"
+" with the item. Tap on on a shared user, to resend the **share email** "
+"(1) and **get public link** (2)."
+msgstr "Käyttäjä siirtyy näkymään ja näkee listan kaikista kohteen kanssa jaetuista osuuksista. Napauta jaettua käyttäjää, uudelleenlähetä **jakosähköposti** (1) ja **hanki julkinen linkki** (2)."
+
+#: ../../sharing_collaborating.rst:58
+msgid ""
+"To delete a user share, press the **trash can** (3) icon next to the "
+"share. This will remove the share and prevent access by that user."
+msgstr "Käyttäjäjaon poistamiseksi paina **roskakori** (3) -kuvaketta jaon vieressä. Tämä poistaa jaon ja estää käyttäjän pääsyn."
+
+#: ../../sharing_collaborating.rst:60
+msgid ""
+"Touching the Share Menu button at the bottom right of the screen will "
+"give more options. **Add more users** (4) to the share list, **Share "
+"Via** (5) this file, **copy public (read-only) link** (2) to the "
+"clipboard, **refresh the list** (6)."
+msgstr "Koskettamalla näytön oikeassa alakulmassa olevaa Jaa-valikko -painiketta saat lisää vaihtoehtoja. **Lisää käyttäjiä** (4) jakolistaan, **Jaa kautta** (5) tämä tiedosto, **kopioi julkinen (vain luku) linkki** (2) leikepöydälle, **päivitä lista** (6)."
+
+#: ../../sharing_collaborating.rst:67
+msgid "Request a File"
+msgstr "Pyydä tiedostoa"
+
+#: ../../sharing_collaborating.rst:69
+msgid ""
+"This option is available only for folders. Selecting **Request a file** "
+"will take to a screen where user can share a link with another user so "
+"they can upload files to a specific folder."
+msgstr "Tämä vaihtoehto on käytettävissä vain kansioille. Valitsemalla **Pyydä tiedostoa** siirryt näyttöön, jossa käyttäjä voi jakaa linkin toisen käyttäjän kanssa, jotta he voivat ladata tiedostoja tiettyyn kansioon."
+
+#: ../../sharing_collaborating.rst:77
+msgid "Files Shared with Me"
+msgstr "Minulle jaetut tiedostot"
+
+#: ../../sharing_collaborating.rst:79
+msgid ""
+"User can access files shared by other users from **Files Shared with Me**"
+" from the side menu."
+msgstr "Käyttäjä voi käyttää muiden käyttäjien jakamia tiedostoja **Minulle jaetut tiedostot** -kohdasta sivuvalikosta."
+

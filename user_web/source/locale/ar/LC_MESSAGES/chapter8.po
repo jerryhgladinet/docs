@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter8.rst:3
+msgid "The Web Interface"
+msgstr "الواجهة الويب"
+
+#: ../../chapter8.rst:5
+msgid ""
+"The web client interface has three panels from left to right, the left "
+"tree panel, the middle file and folder panel, and the right information "
+"panel. Many of the management functionality are done over the web portal."
+" The web client also has the files and folder's view."
+msgstr "واجهة العميل الويب لديها ثلاثة ألواح من اليسار إلى اليمين، لوحة الشجرة اليسرى، ولوحة الملفات والمجلدات الوسطى، ولوحة المعلومات اليمنى. يتم العديد من وظائف الإدارة عبر بوابة الويب. كما يحتوي العميل الويب على عرض الملفات والمجلدات."
+
+#: ../../chapter8.rst:8
+msgid "Normal Web Portal View"
+msgstr "عرض البوابة الويب العادية"
+
+#: ../../chapter8.rst:13
+msgid "WEB PORTAL VIEW"
+msgstr "عرض بوابة الويب"
+
+#: ../../chapter8.rst:17
+msgid "Left Tree View and Right Info Panel"
+msgstr "عرض الشجرة اليسرى ولوحة المعلومات اليمنى"
+
+#: ../../chapter8.rst:19
+msgid ""
+"The left-tree view can be toggled by clicking the tree icon **(1)**. You "
+"can access the **\"Info Panel\"** by either clicking the icon settings "
+"menu **(2)** at the top-right and selecting **\"Show/Hide Info Panel for "
+"file/folder\"** text, or the Show/Hide button **(3)** on the bottom-right"
+" of the File Browser window."
+msgstr "يمكن تبديل عرض الشجرة اليسرى بالنقر على أيقونة الشجرة **(1)**. يمكنك الوصول إلى **\"لوحة المعلومات\"** إما بالنقر على قائمة إعدادات الأيقونة **(2)** في أعلى اليمين واختيار **\"إظهار/إخفاء لوحة المعلومات للملف/المجلد\"** ، أو زر إظهار/إخفاء **(3)** في أسفل يمين نافذة مستعرض الملفات."
+
+#: ../../chapter8.rst:24
+msgid "ACCESSING SIDE PANELS"
+msgstr "الوصول إلى الألواح الجانبية"
+
+#: ../../chapter8.rst:28
+msgid "Switch between Icon and List view"
+msgstr "التبديل بين عرض الأيقونات وعرض القائمة"
+
+#: ../../chapter8.rst:33
+msgid "SWITCH BETWEEN ICON AND LIST VIEWS"
+msgstr "التبديل بين عرض الأيقونات وقائمة العناصر"
+
+#: ../../chapter8.rst:36
+msgid ""
+"When switched into list view, you get access to other icons such as "
+"version information (see inset \"List View Example)."
+msgstr "عند التبديل إلى وضع العرض بالقائمة، ستحصل على إمكانية الوصول إلى أيقونات أخرى مثل معلومات الإصدار (انظر الإدراج \"مثال عرض القائمة)"
+
+#: ../../chapter8.rst:40
+msgid "Color Themes"
+msgstr "ألوان الثيمات"
+
+#: ../../chapter8.rst:42
+msgid ""
+"Users can customize their web portal theme by clicking the user settings "
+"icon **(1)** and then the down-arrow icon **(2)**. There are 12 pre-"
+"defined Color Themes and one custom theme option."
+msgstr "يمكن للمستخدمين تخصيص سمة بوابة الويب الخاصة بهم بالنقر على أيقونة إعدادات المستخدم **(1)** ثم أيقونة السهم لأسفل **(2)**. هناك 12 سمة لون محددة مسبقًا وخيار سمة مخصصة واحد."
+
+#: ../../chapter8.rst:47
+msgid "CUSTOMIZE YOUR WEB PORTAL THEME"
+msgstr "CUSTOMIZE YOUR WEB PORTAL THEME"
+
+#: ../../chapter8.rst:51
+msgid "Create Folders"
+msgstr "إنشاء مجلدات"
+
+#: ../../chapter8.rst:53
+msgid "Folders Created in |prodname| are Versioned Folders."
+msgstr "المجلدات التي تم إنشاؤها في |prodname| هي مجلدات ذات إصدارات."
+
+#: ../../chapter8.rst:55
+msgid ""
+"|prodname| will maintain the version history of any files uploaded to "
+"versioned folders. From |prodname|, a user can download any previous "
+"versions of a file. From the |prodname| Desktop/Server Agent, a user can "
+"restore previous versions of files and recover deleted files."
+msgstr "|prodname| سيحافظ على تاريخ الإصدارات لأي ملفات يتم تحميلها إلى المجلدات التي تحتوي على إصدارات. من خلال |prodname|، يمكن للمستخدم تنزيل أي من الإصدارات السابقة لملف. من خلال وكيل |prodname| لسطح المكتب/الخادم، يمكن للمستخدم استعادة الإصدارات السابقة للملفات واسترداد الملفات المحذوفة."
+
+#: ../../chapter8.rst:58
+msgid ""
+"To create a folder, go to the parent folder and click \"New Folder\" in "
+"the drop-down menu **(1)** or right click in the folder background and "
+"choose \"New Folder\" **(2)** from the context menu."
+msgstr "لإنشاء مجلد، انتقل إلى المجلد الرئيسي وانقر على \"مجلد جديد\" في القائمة المنسدلة **(1)** أو انقر بزر الماوس الأيمن في خلفية المجلد واختر \"مجلد جديد\" **(2)** من قائمة السياق."
+
+#: ../../chapter8.rst:63
+msgid "CREATING FOLDERS"
+msgstr "إنشاء مجلدات"
+
+#: ../../chapter8.rst:67
+msgid "Attach Folder from Clients"
+msgstr "إرفاق مجلد من العملاء"
+
+#: ../../chapter8.rst:69
+msgid ""
+"If you have the Windows Client installed, can also Attach a Local Folder "
+"from this client."
+msgstr "إذا كان لديك العميل الخاص بنظام التشغيل Windows مُثبتًا، يمكنك أيضًا إرفاق مجلد محلي من هذا العميل."
+
+#: ../../chapter8.rst:74
+msgid "ATTACHING A FOLDER"
+msgstr "إرفاق مجلد"
+
+#: ../../chapter8.rst:76
+msgid ""
+"These folders are the local folders from the local PC/Mac that |prodname|"
+" users have attached to |prodname|. Once a local folder is attached, a "
+"user can immediately access it in |prodname|. |prodname| will maintain "
+"the version history of files in the attached local folder. The local "
+"folder is also being synchronized with |prodname| (\"cloud side\")."
+msgstr "هذه المجلدات هي المجلدات المحلية من الكمبيوتر الشخصي/ماك التي قام مستخدمو |prodname| بإرفاقها بـ |prodname|. بمجرد إرفاق مجلد محلي، يمكن للمستخدم الوصول إليه فورًا في |prodname|. سيحافظ |prodname| على سجل الإصدارات للملفات في المجلد المحلي المرفق. كما يتم أيضًا مزامنة المجلد المحلي مع |prodname| (\"جانب السحابة\")."
+
+#: ../../chapter8.rst:81
+msgid "ATTACHED LOCAL FOLDER"
+msgstr "المجلد المحلي المرفق"
+
+#: ../../chapter8.rst:85
+msgid "Renaming/Deleting Folders"
+msgstr "إعادة تسمية/حذف المجلدات"
+
+#: ../../chapter8.rst:87
+msgid ""
+"Renaming and deleting files and folders can be achieved by right-clicking"
+" the file in the \"File Browser\" and selecting the appropriate context-"
+"menu item or using the small icons in the Detailed View bar of the "
+"selected item."
+msgstr "يمكن إعادة تسمية الملفات والمجلدات وحذفها من خلال النقر بزر الماوس الأيمن على الملف في \"متصفح الملفات\" واختيار العنصر المناسب من قائمة السياق أو استخدام الأيقونات الصغيرة في شريط العرض التفصيلي للعنصر المحدد."
+
+#: ../../chapter8.rst:92
+msgid "RENAMING FILES"
+msgstr "إعادة تسمية الملفات"
+
+#: ../../chapter8.rst:96
+msgid "Upload Files/Folders"
+msgstr "تحميل ملفات/مجلدات"
+
+#: ../../chapter8.rst:98
+msgid ""
+"In |prodname|, you have different options to upload files and folders. "
+"You can upload one file at a time using the 'Upload File' option under "
+"Upload You can also upload folders using the 'Upload Folder' option under"
+" Upload. Last but not least you can also use 'Upload Folders and Files' "
+"to upload multiple files simultaneously, or drag & drop files from a "
+"local desktop to the |prodname| Cloud web portal to start the upload."
+msgstr "في |prodname|، لديك خيارات مختلفة لرفع الملفات والمجلدات. يمكنك رفع ملف واحد في كل مرة باستخدام خيار 'رفع ملف' تحت قائمة رفع. كما يمكنك أيضًا رفع المجلدات باستخدام خيار 'رفع مجلد' تحت قائمة رفع. وأخيرًا وليس آخرًا يمكنك استخدام 'رفع المجلدات والملفات' لرفع عدة ملفات في نفس الوقت، أو سحب وإسقاط الملفات من سطح المكتب المحلي إلى بوابة |prodname| السحابية الإلكترونية لبدء الرفع."
+
+#: ../../chapter8.rst:100
+msgid ""
+"It is possible to upload multiple files at a time. This is supported on "
+"all browsers. The same is true for Upload Folder. To access these options"
+" you can click the \"+\" icon **(1)** or right click on the portal "
+"background **(2)** and select your upload option there."
+msgstr "من الممكن رفع عدة ملفات في وقت واحد. هذا مدعوم على جميع المتصفحات. والأمر نفسه ينطبق على خيار رفع المجلد. للوصول إلى هذه الخيارات يمكنك النقر على أيقونة \"+\" **(1)** أو النقر بزر الماوس الأيمن على خلفية البوابة **(2)** واختيار خيار الرفع من هناك."
+
+#: ../../chapter8.rst:105
+msgid "UPLOADING FILES AND FOLDERS"
+msgstr "تحميل الملفات والمجلدات"
+
+#: ../../chapter8.rst:108
+msgid ""
+"After clicking the upload option, you can browse to the file or folder "
+"you want to upload. Use the Ctrl key to select multiple items."
+msgstr "بعد النقر على خيار الرفع، يمكنك تصفح الملف أو المجلد الذي تريد رفعه. استخدم مفتاح Ctrl لتحديد عدة عناصر."
+
+#: ../../chapter8.rst:113
+msgid "SELECTING FILES FOR UPLOAD"
+msgstr "اختيار الملفات للتحميل"
+
+#: ../../chapter8.rst:117
+msgid "Upload Using Local Uploader"
+msgstr "التحميل باستخدام أداة الرفع المحلية"
+
+#: ../../chapter8.rst:119
+msgid ""
+"(This is Windows only feature) When uploading big files and big folders, "
+"the \"upload using local uploader\" may be the best option for web "
+"browser based upload. If it is enabled by the Tenant Manager (deselected)"
+" **(1)** in the Group Policy Home > Web Portal settings. Clicking this "
+"option **(2)** will download a thin local uploader binary first and then "
+"the local uploader will do the upload. The local uploader has retry and "
+"other reliability measures to make sure the upload is successful. "
+"Basically it uses the web browser to download an executable, and the "
+"executable does the rest of the uploading work."
+msgstr "(هذه الميزة متوفرة لنظام التشغيل Windows فقط) عند رفع الملفات الكبيرة والمجلدات الضخمة، قد تكون خيار \"استخدام برنامج الرفع المحلي\" هو الخيار الأمثل للرفع عبر متصفح الويب. إذا تم تفعيله من قبل مدير المستأجر (غير محدد) **(1)** في إعدادات الويب الخاصة بسياسة المجموعة الرئيسية. النقر على هذا الخيار **(2)** سيؤدي إلى تحميل برنامج الرفع المحلي الصغير أولاً، ومن ثم سيقوم برنامج الرفع المحلي بعملية الرفع. يحتوي برنامج الرفع المحلي على خيارات إعادة المحاولة وتدابير أخرى للموثوقية لضمان نجاح عملية الرفع. بشكل أساسي، يستخدم المتصفح لتحميل ملف تنفيذي، والملف التنفيذي يقوم ببقية عملية الرفع."
+
+#: ../../chapter8.rst:124
+msgid "ENABLE \"UPLOAD USING LOCAL UPLOADER\" OPTION"
+msgstr "تمكين خيار \"التحميل باستخدام أداة الرفع المحلية\""
+
+#: ../../chapter8.rst:127
+msgid "Drag and Drop Upload"
+msgstr "السحب والإفلات للتحميل"
+
+#: ../../chapter8.rst:129
+msgid ""
+"Latest web browsers that support HTML5 drag and drop upload will see "
+"\"Drop Files Here\" in an empty folder. These web browsers allow you to "
+"drag & drop multiple files directly to the |prodname| Cloud. In latest "
+"Google Chrome, Drag and drop folder is also supported while the other "
+"HTML5 based web browser support drag and drop multiple files."
+msgstr "أحدث متصفحات الويب التي تدعم تحميل السحب والإفلات لـ HTML5 ستظهر \"أسقط الملفات هنا\" في مجلد فارغ. تسمح لك هذه المتصفحات بسحب وإفلات ملفات متعددة مباشرةً إلى |prodname| السحابي. في أحدث نسخة من Google Chrome، يُدعم أيضًا سحب وإفلات المجلدات بينما يدعم المتصفح الآخر المبني على HTML5 سحب وإفلات ملفات متعددة."
+
+#: ../../chapter8.rst:135
+msgid "DRAG AND DROP FILES FOR UPLOAD"
+msgstr "اسحب وأفلت الملفات للتحميل"
+
+#: ../../chapter8.rst:139
+msgid "Downloading Files"
+msgstr "تحميل الملفات"
+
+#: ../../chapter8.rst:141
+msgid "There are several ways to download files in |prodname|:"
+msgstr "هناك عدة طرق لتحميل الملفات في |prodname|:"
+
+#: ../../chapter8.rst:143
+msgid ""
+"If you select a file in the \"File Browser\" you can use the download "
+"icon **(1)** in the top bar. You can also right-click a file and choose "
+"download **(2)** from the context menu. If you are in the \"Detailed "
+"View\" **(3)** you can select a file and download it in the same manner "
+"as in the icon view."
+msgstr "إذا قمت باختيار ملف في \"متصفح الملفات\" يمكنك استخدام أيقونة التحميل **(1)** الموجودة في الشريط العلوي. يمكنك أيضًا النقر بزر الماوس الأيمن على ملف واختيار التحميل **(2)** من القائمة السياقية. إذا كنت في \"العرض التفصيلي\" **(3)** يمكنك اختيار ملف وتحميله بنفس الطريقة كما في عرض الأيقونة."
+
+#: ../../chapter8.rst:148
+msgid "DOWNLOAD FILE OPTIONS"
+msgstr "خيارات تحميل الملف"
+
+#: ../../chapter8.rst:150
+msgid ""
+"If your are in \"Detailed View\" **(3)** any files with previous versions"
+" will show a number in the selected bar (e.g. \"V2\") **(4)** that you "
+"may click to open a list of all of the versions of that file."
+msgstr "إذا كنت في \"عرض مفصل\" **(3)** فإن أي ملفات لها إصدارات سابقة ستظهر رقمًا في الشريط المحدد (مثل \"V2\") **(4)** الذي يمكنك النقر عليه لفتح قائمة بجميع الإصدارات السابقة لذلك الملف."
+

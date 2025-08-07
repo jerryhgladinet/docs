@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../manage_edit.rst:2
+msgid "Manage and Edit"
+msgstr "Verwalten und Bearbeiten"
+
+#: ../../manage_edit.rst:6
+msgid "Managing Files and Folders"
+msgstr "Dateien und Ordner verwalten"
+
+#: ../../manage_edit.rst:8
+msgid ""
+"User can tap on a folder to open it for browsing and on a file to preview"
+" it."
+msgstr "Benutzer können auf einen Ordner tippen, um ihn zum Durchsuchen zu öffnen, und auf eine Datei, um sie zu betrachten."
+
+#: ../../manage_edit.rst:10
+msgid ""
+"Various operations can be performed in the menus, in the main list of "
+"files and folders, and in the preview itself."
+msgstr "Verschiedene Operationen können in den Menüs, in der Hauptliste der Dateien und Ordner sowie in der Vorschau selbst durchgeführt werden."
+
+#: ../../manage_edit.rst:14
+msgid "Preview"
+msgstr "Vorschau"
+
+#: ../../manage_edit.rst:16
+msgid ""
+"In the preview there is a 3-dot menu in the lower right corner that "
+"allows to perform some actions for the file."
+msgstr "In der Vorschau gibt es ein 3-Punkte-Menü in der unteren rechten Ecke, das einige Aktionen für die Datei ermöglicht."
+
+#: ../../manage_edit.rst:20
+msgid "**Open** the file in other applications."
+msgstr "**Öffnen** Sie die Datei in anderen Anwendungen."
+
+#: ../../manage_edit.rst:22
+msgid "**Download** a copy of the file to a folder on the device."
+msgstr "**Laden** Sie eine Kopie der Datei in einen Ordner auf dem Gerät herunter."
+
+#: ../../manage_edit.rst:24
+msgid "**Rename** allows to rename the file if user have the permission to do so."
+msgstr "**Umbenennen** erlaubt das Umbenennen der Datei, wenn der Benutzer die entsprechende Berechtigung hat."
+
+#: ../../manage_edit.rst:26
+msgid "**Delete** files from the folder if user have the permission."
+msgstr "**Löschen** Sie Dateien aus dem Ordner, wenn der Benutzer die Berechtigung hat."
+
+#: ../../manage_edit.rst:28
+msgid ""
+"**Share** allows to send access information to people with an email "
+"address."
+msgstr "**Teilen** ermöglicht es, Zugangsinformationen an Personen mit einer E-Mail-Adresse zu senden."
+
+#: ../../manage_edit.rst:30
+msgid ""
+"**Share Via** let the user share the file with a third-party application."
+" For example, by email or WhatsApp."
+msgstr "**Share Via** ermöglicht dem Benutzer, die Datei mit einer Drittanbieteranwendung zu teilen. Zum Beispiel per E-Mail oder WhatsApp."
+
+#: ../../manage_edit.rst:32
+msgid ""
+"**Get Public Link** gives user a link that anyone can use to access the "
+"file."
+msgstr "**Öffentlichen Link abrufen** gibt dem Benutzer einen Link, den jeder verwenden kann, um auf die Datei zuzugreifen."
+
+#: ../../manage_edit.rst:34
+msgid ""
+"**Share Manager** gives access to all the shares that exist for the file,"
+" where user can modify, delete, or add new shares."
+msgstr "**Share Manager** ermöglicht den Zugriff auf alle Freigaben, die für die Datei existieren, wo Benutzer Freigaben ändern, löschen oder neue hinzufügen können."
+
+#: ../../manage_edit.rst:37
+msgid "Download"
+msgstr "Herunterladen"
+
+#: ../../manage_edit.rst:39
+msgid ""
+"A file can be downloaded using the **Download** option. Select Download "
+"from the context menu to download a file and select a folder from the "
+"phone storage of user's choice."
+msgstr "Eine Datei kann über die Option **Download** heruntergeladen werden. Wählen Sie im Kontextmenü Download aus, um eine Datei herunterzuladen und wählen Sie einen Ordner aus dem Telefonspeicher des Benutzers aus."
+
+#: ../../manage_edit.rst:47
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../../manage_edit.rst:49
+msgid ""
+"A file can be deleted using the **Delete** option. Select it from the "
+"context menu to delete a file. Once the file is removed, it is no longer "
+"visible in the cloud drive."
+msgstr "Eine Datei kann mit der Option **Löschen** gelöscht werden. Wählen Sie diese aus dem Kontextmenü, um eine Datei zu löschen. Sobald die Datei entfernt wurde, ist sie nicht mehr im Cloud-Laufwerk sichtbar."
+
+#: ../../manage_edit.rst:54
+msgid "Rename"
+msgstr "Umbenennen"
+
+#: ../../manage_edit.rst:56
+msgid ""
+"User can rename a file or folder using the **Rename** option. When "
+"pressing **Rename**, a field appears where user can enter the new name."
+msgstr "Benutzer können eine Datei oder einen Ordner mit der Option **Umbenennen** umbenennen. Wenn man auf **Umbenennen** drückt, erscheint ein Feld, in dem der Benutzer den neuen Namen eingeben kann."
+
+#: ../../manage_edit.rst:61
+msgid "Copy and Cut"
+msgstr "Kopieren und Ausschneiden"
+
+#: ../../manage_edit.rst:63
+msgid ""
+"The **Copy** option lets user copy a file and paste it into another "
+"folder of choice. The **Cut** option allows to remove a file from a "
+"certain folder and paste it into another."
+msgstr "Die **Kopieren**-Option ermöglicht es dem Benutzer, eine Datei zu kopieren und sie in einen anderen gewählten Ordner einzufügen. Die **Ausschneiden**-Option erlaubt es, eine Datei aus einem bestimmten Ordner zu entfernen und sie in einen anderen einzufügen."
+
+#: ../../manage_edit.rst:69
+msgid "More Info"
+msgstr "Weitere Informationen"
+
+#: ../../manage_edit.rst:71
+msgid ""
+"The **More Info** option allows to view the details of the file which are"
+" working on or viewing."
+msgstr "Die Option **Weitere Informationen** ermöglicht es, die Details der Datei anzuzeigen, an der gearbeitet wird oder die betrachtet wird."
+
+#: ../../manage_edit.rst:79
+msgid "Marking As Favorite"
+msgstr "Als Favorit markieren"
+
+#: ../../manage_edit.rst:82
+msgid "Adding to Favorite"
+msgstr "Zu Favoriten hinzufügen"
+
+#: ../../manage_edit.rst:84
+msgid ""
+"User can add a file to the Favorites by pressing the **Star** icon. When "
+"adding a folder or a file to the Favorites, it will be marked with a "
+"green checkmark and will be accessible offline."
+msgstr "Benutzer können eine Datei zu den Favoriten hinzufügen, indem sie das **Stern**-Symbol drücken. Wenn ein Ordner oder eine Datei zu den Favoriten hinzugefügt wird, wird sie mit einem grünen Häkchen markiert und ist offline zugänglich."
+
+#: ../../manage_edit.rst:90
+msgid "Open Favorite Files"
+msgstr "Lieblingsdateien öffnen"
+
+#: ../../manage_edit.rst:92
+msgid ""
+"To open files from offline favorites, tap on the hamburger menu at the "
+"top left and select **Favorites**."
+msgstr "Um Dateien aus Offline-Favoriten zu öffnen, tippen Sie auf das Hamburger-Menü oben links und wählen Sie **Favoriten**."
+
+#: ../../manage_edit.rst:96
+msgid ""
+"In the **Offline Favorites** view, open a file by pressing the 3-dot "
+"button and selecting **Open File Locally**."
+msgstr "In der Ansicht **Offline-Favoriten** öffnen Sie eine Datei, indem Sie die 3-Punkt-Schaltfläche drücken und **Datei lokal öffnen** auswählen."
+
+#: ../../manage_edit.rst:100
+msgid ""
+"After selecting the option, a list of applications that can open the file"
+" will be displayed."
+msgstr "Nachdem Sie die Option ausgewählt haben, wird eine Liste von Anwendungen angezeigt, die die Datei öffnen können."
+
+#: ../../manage_edit.rst:105
+msgid "Remove from Favorite"
+msgstr "Von Favoriten entfernen"
+
+#: ../../manage_edit.rst:107
+msgid ""
+"To remove files from offline favorites, user can touch the yellow "
+"**Star** icon directly in the folders."
+msgstr "Um Dateien aus den Offline-Favoriten zu entfernen, kann der Benutzer direkt in den Ordnern das gelbe **Stern**-Symbol antippen."
+
+#: ../../manage_edit.rst:111
+msgid "Or press the hamburger menu at the top left and select **Favorites**."
+msgstr "Oder drücken Sie das Hamburger-Menü oben links und wählen Sie **Favoriten**."
+
+#: ../../manage_edit.rst:115
+msgid ""
+"In the **Offline Favorites** view, user can remove files by pressing the "
+"3-dot button. Once the file is removed, it is no longer available "
+"offline."
+msgstr "In der Ansicht **Offline-Favoriten** kann der Benutzer Dateien entfernen, indem er die 3-Punkte-Schaltfläche drückt. Sobald die Datei entfernt wurde, ist sie nicht mehr offline verfügbar."
+

@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter8.rst:3
+msgid "The Web Interface"
+msgstr "Die Web-Oberfläche"
+
+#: ../../chapter8.rst:5
+msgid ""
+"The web client interface has three panels from left to right, the left "
+"tree panel, the middle file and folder panel, and the right information "
+"panel. Many of the management functionality are done over the web portal."
+" The web client also has the files and folder's view."
+msgstr "Die Weboberfläche hat drei Bereiche von links nach rechts: das linke Baum-Panel, das mittlere Datei- und Ordner-Panel und das rechte Informations-Panel. Viele Verwaltungsfunktionen werden über das Webportal ausgeführt. Der Webclient verfügt auch über die Ansicht der Dateien und Ordner."
+
+#: ../../chapter8.rst:8
+msgid "Normal Web Portal View"
+msgstr "Normale Webportal-Ansicht"
+
+#: ../../chapter8.rst:13
+msgid "WEB PORTAL VIEW"
+msgstr "WEBPORTAL-ANSICHT"
+
+#: ../../chapter8.rst:17
+msgid "Left Tree View and Right Info Panel"
+msgstr "Linke Baumansicht und rechtes Informationspanel"
+
+#: ../../chapter8.rst:19
+msgid ""
+"The left-tree view can be toggled by clicking the tree icon **(1)**. You "
+"can access the **\"Info Panel\"** by either clicking the icon settings "
+"menu **(2)** at the top-right and selecting **\"Show/Hide Info Panel for "
+"file/folder\"** text, or the Show/Hide button **(3)** on the bottom-right"
+" of the File Browser window."
+msgstr "Die Baumansicht auf der linken Seite kann durch Klicken auf das Baum-Symbol **(1)** umgeschaltet werden. Sie können auf das **\"Info-Panel\"** zugreifen, indem Sie entweder das Symbol Einstellungsmenü **(2)** oben rechts anklicken und **\"Info-Panel für Datei/Ordner ein-/ausblenden\"** auswählen oder die Schaltfläche Ein-/Ausblenden **(3)** unten rechts im Dateibrowser-Fenster verwenden."
+
+#: ../../chapter8.rst:24
+msgid "ACCESSING SIDE PANELS"
+msgstr "SEITENPANEELE ZUGREIFEN"
+
+#: ../../chapter8.rst:28
+msgid "Switch between Icon and List view"
+msgstr "Zwischen Symbol- und Listenansicht wechseln"
+
+#: ../../chapter8.rst:33
+msgid "SWITCH BETWEEN ICON AND LIST VIEWS"
+msgstr "ZWISCHEN SYMBOL- UND LISTENANSICHTEN WECHSELN"
+
+#: ../../chapter8.rst:36
+msgid ""
+"When switched into list view, you get access to other icons such as "
+"version information (see inset \"List View Example)."
+msgstr "Wenn Sie in die Listenansicht wechseln, erhalten Sie Zugriff auf andere Symbole wie Versionsinformationen (siehe Einblendung \"Beispiel für Listenansicht\")."
+
+#: ../../chapter8.rst:40
+msgid "Color Themes"
+msgstr "Farbthemen"
+
+#: ../../chapter8.rst:42
+msgid ""
+"Users can customize their web portal theme by clicking the user settings "
+"icon **(1)** and then the down-arrow icon **(2)**. There are 12 pre-"
+"defined Color Themes and one custom theme option."
+msgstr "Benutzer können ihr Webportal-Design anpassen, indem sie auf das Benutzereinstellungen-Symbol **(1)** und dann auf das Pfeil-nach-unten-Symbol **(2)** klicken. Es gibt 12 vordefinierte Farbthemen und eine Option für ein benutzerdefiniertes Thema."
+
+#: ../../chapter8.rst:47
+msgid "CUSTOMIZE YOUR WEB PORTAL THEME"
+msgstr "PASSEN SIE DAS THEME IHRES WEBPORTALS AN"
+
+#: ../../chapter8.rst:51
+msgid "Create Folders"
+msgstr "Ordner erstellen"
+
+#: ../../chapter8.rst:53
+msgid "Folders Created in |prodname| are Versioned Folders."
+msgstr "Ordner, die in |prodname| erstellt werden, sind versionierte Ordner."
+
+#: ../../chapter8.rst:55
+msgid ""
+"|prodname| will maintain the version history of any files uploaded to "
+"versioned folders. From |prodname|, a user can download any previous "
+"versions of a file. From the |prodname| Desktop/Server Agent, a user can "
+"restore previous versions of files and recover deleted files."
+msgstr "|prodname| wird die Versionsgeschichte aller Dateien, die in versionierten Ordnern hochgeladen werden, beibehalten. Über |prodname| kann ein Benutzer jede frühere Version einer Datei herunterladen. Über den |prodname| Desktop/Server-Agent kann ein Benutzer frühere Versionen von Dateien wiederherstellen und gelöschte Dateien wiederherstellen."
+
+#: ../../chapter8.rst:58
+msgid ""
+"To create a folder, go to the parent folder and click \"New Folder\" in "
+"the drop-down menu **(1)** or right click in the folder background and "
+"choose \"New Folder\" **(2)** from the context menu."
+msgstr "Um einen Ordner zu erstellen, gehen Sie zum übergeordneten Ordner und klicken Sie im Dropdown-Menü auf \"Neuer Ordner\" **(1)** oder klicken Sie mit der rechten Maustaste auf den Hintergrund des Ordners und wählen Sie \"Neuer Ordner\" **(2)** aus dem Kontextmenü."
+
+#: ../../chapter8.rst:63
+msgid "CREATING FOLDERS"
+msgstr "ORDNER ERSTELLEN"
+
+#: ../../chapter8.rst:67
+msgid "Attach Folder from Clients"
+msgstr "Ordner von Clients anhängen"
+
+#: ../../chapter8.rst:69
+msgid ""
+"If you have the Windows Client installed, can also Attach a Local Folder "
+"from this client."
+msgstr "Wenn Sie den Windows-Client installiert haben, können Sie auch einen lokalen Ordner von diesem Client aus anhängen."
+
+#: ../../chapter8.rst:74
+msgid "ATTACHING A FOLDER"
+msgstr "EINEN ORDNER ANHÄNGEN"
+
+#: ../../chapter8.rst:76
+msgid ""
+"These folders are the local folders from the local PC/Mac that |prodname|"
+" users have attached to |prodname|. Once a local folder is attached, a "
+"user can immediately access it in |prodname|. |prodname| will maintain "
+"the version history of files in the attached local folder. The local "
+"folder is also being synchronized with |prodname| (\"cloud side\")."
+msgstr "Diese Ordner sind die lokalen Ordner vom lokalen PC/Mac, die |prodname|-Benutzer mit |prodname| verbunden haben. Sobald ein lokaler Ordner verbunden ist, kann ein Benutzer sofort in |prodname| darauf zugreifen. |prodname| wird die Versionshistorie von Dateien im verbundenen lokalen Ordner aufrechterhalten. Der lokale Ordner wird auch mit |prodname| (\"Cloud-Seite\") synchronisiert."
+
+#: ../../chapter8.rst:81
+msgid "ATTACHED LOCAL FOLDER"
+msgstr "ANGEHÄNGTER LOKALER ORDNER"
+
+#: ../../chapter8.rst:85
+msgid "Renaming/Deleting Folders"
+msgstr "Umbenennen/Löschen von Ordnern"
+
+#: ../../chapter8.rst:87
+msgid ""
+"Renaming and deleting files and folders can be achieved by right-clicking"
+" the file in the \"File Browser\" and selecting the appropriate context-"
+"menu item or using the small icons in the Detailed View bar of the "
+"selected item."
+msgstr "Das Umbenennen und Löschen von Dateien und Ordnern kann durchgeführt werden, indem man mit der rechten Maustaste auf die Datei im \"Dateibrowser\" klickt und den entsprechenden Kontextmenüpunkt auswählt oder die kleinen Symbole in der Detailansichtsleiste des ausgewählten Elements verwendet."
+
+#: ../../chapter8.rst:92
+msgid "RENAMING FILES"
+msgstr "DATEIEN UMBENENNEN"
+
+#: ../../chapter8.rst:96
+msgid "Upload Files/Folders"
+msgstr "Dateien/Ordner hochladen"
+
+#: ../../chapter8.rst:98
+msgid ""
+"In |prodname|, you have different options to upload files and folders. "
+"You can upload one file at a time using the 'Upload File' option under "
+"Upload You can also upload folders using the 'Upload Folder' option under"
+" Upload. Last but not least you can also use 'Upload Folders and Files' "
+"to upload multiple files simultaneously, or drag & drop files from a "
+"local desktop to the |prodname| Cloud web portal to start the upload."
+msgstr "In |prodname| haben Sie verschiedene Möglichkeiten, Dateien und Ordner hochzuladen. Sie können jeweils eine Datei mit der Option 'Datei hochladen' unter Hochladen hochladen. Sie können auch Ordner mit der Option 'Ordner hochladen' unter Hochladen hochladen. Zu guter Letzt können Sie auch 'Ordner und Dateien hochladen' verwenden, um mehrere Dateien gleichzeitig hochzuladen, oder Dateien per Drag & Drop vom lokalen Desktop in das |prodname| Cloud-Webportal ziehen, um den Upload zu starten."
+
+#: ../../chapter8.rst:100
+msgid ""
+"It is possible to upload multiple files at a time. This is supported on "
+"all browsers. The same is true for Upload Folder. To access these options"
+" you can click the \"+\" icon **(1)** or right click on the portal "
+"background **(2)** and select your upload option there."
+msgstr "Es ist möglich, mehrere Dateien gleichzeitig hochzuladen. Dies wird von allen Browsern unterstützt. Das Gleiche gilt für den Ordner-Upload. Um auf diese Optionen zuzugreifen, können Sie auf das \"+\" Symbol **(1)** klicken oder mit der rechten Maustaste auf den Portalhintergrund **(2)** klicken und dort Ihre Upload-Option auswählen."
+
+#: ../../chapter8.rst:105
+msgid "UPLOADING FILES AND FOLDERS"
+msgstr "DATEIEN UND ORDNER HOCHLADEN"
+
+#: ../../chapter8.rst:108
+msgid ""
+"After clicking the upload option, you can browse to the file or folder "
+"you want to upload. Use the Ctrl key to select multiple items."
+msgstr "Nachdem Sie auf die Upload-Option geklickt haben, können Sie zu der Datei oder dem Ordner navigieren, den Sie hochladen möchten. Verwenden Sie die Strg-Taste, um mehrere Elemente auszuwählen."
+
+#: ../../chapter8.rst:113
+msgid "SELECTING FILES FOR UPLOAD"
+msgstr "DATEIEN ZUM HOCHLADEN AUSWÄHLEN"
+
+#: ../../chapter8.rst:117
+msgid "Upload Using Local Uploader"
+msgstr "Hochladen mit lokalem Uploader"
+
+#: ../../chapter8.rst:119
+msgid ""
+"(This is Windows only feature) When uploading big files and big folders, "
+"the \"upload using local uploader\" may be the best option for web "
+"browser based upload. If it is enabled by the Tenant Manager (deselected)"
+" **(1)** in the Group Policy Home > Web Portal settings. Clicking this "
+"option **(2)** will download a thin local uploader binary first and then "
+"the local uploader will do the upload. The local uploader has retry and "
+"other reliability measures to make sure the upload is successful. "
+"Basically it uses the web browser to download an executable, and the "
+"executable does the rest of the uploading work."
+msgstr "(Diese Funktion ist nur für Windows verfügbar) Beim Hochladen großer Dateien und Ordner kann die Option \"mit lokalem Uploader hochladen\" die beste Wahl für das Hochladen über den Webbrowser sein. Wenn sie vom Tenant Manager (nicht ausgewählt) **(1)** in den Gruppenrichtlinien unter Home > Web Portal Einstellungen aktiviert ist. Durch Klicken auf diese Option **(2)** wird zunächst eine schlanke lokale Uploader-Datei heruntergeladen und dann führt der lokale Uploader den Upload durch. Der lokale Uploader verfügt über Wiederholungsversuche und andere Zuverlässigkeitsmaßnahmen, um sicherzustellen, dass der Upload erfolgreich ist. Im Grunde verwendet er den Webbrowser, um eine ausführbare Datei herunterzuladen, und die ausführbare Datei erledigt den Rest der Upload-Arbeit."
+
+#: ../../chapter8.rst:124
+msgid "ENABLE \"UPLOAD USING LOCAL UPLOADER\" OPTION"
+msgstr "OPTION \"HOCHLADEN MIT LOKALEM UPLOADER\" AKTIVIEREN"
+
+#: ../../chapter8.rst:127
+msgid "Drag and Drop Upload"
+msgstr "Drag-and-Drop-Upload"
+
+#: ../../chapter8.rst:129
+msgid ""
+"Latest web browsers that support HTML5 drag and drop upload will see "
+"\"Drop Files Here\" in an empty folder. These web browsers allow you to "
+"drag & drop multiple files directly to the |prodname| Cloud. In latest "
+"Google Chrome, Drag and drop folder is also supported while the other "
+"HTML5 based web browser support drag and drop multiple files."
+msgstr "Die neuesten Webbrowser, die HTML5 Drag-and-Drop-Upload unterstützen, zeigen in einem leeren Ordner \"Dateien hier ablegen\" an. Diese Webbrowser ermöglichen es Ihnen, mehrere Dateien direkt in die |prodname| Cloud zu ziehen und abzulegen. Im neuesten Google Chrome wird auch das Ziehen und Ablegen von Ordnern unterstützt, während andere auf HTML5 basierende Webbrowser das Ziehen und Ablegen mehrerer Dateien unterstützen."
+
+#: ../../chapter8.rst:135
+msgid "DRAG AND DROP FILES FOR UPLOAD"
+msgstr "DATEIEN ZUM HOCHLADEN ZIEHEN UND ABLEGEN"
+
+#: ../../chapter8.rst:139
+msgid "Downloading Files"
+msgstr "Dateien herunterladen"
+
+#: ../../chapter8.rst:141
+msgid "There are several ways to download files in |prodname|:"
+msgstr "Es gibt mehrere Möglichkeiten, Dateien in |prodname| herunterzuladen:"
+
+#: ../../chapter8.rst:143
+msgid ""
+"If you select a file in the \"File Browser\" you can use the download "
+"icon **(1)** in the top bar. You can also right-click a file and choose "
+"download **(2)** from the context menu. If you are in the \"Detailed "
+"View\" **(3)** you can select a file and download it in the same manner "
+"as in the icon view."
+msgstr "Wenn Sie im \"Dateibrowser\" eine Datei auswählen, können Sie das Download-Symbol **(1)** in der oberen Leiste verwenden. Sie können auch mit der rechten Maustaste auf eine Datei klicken und **(2)** aus dem Kontextmenü herunterladen. Wenn Sie sich in der \"Detailansicht\" **(3)** befinden, können Sie eine Datei auswählen und auf die gleiche Weise herunterladen, wie in der Symbolansicht."
+
+#: ../../chapter8.rst:148
+msgid "DOWNLOAD FILE OPTIONS"
+msgstr "DOWNLOAD DATEI-OPTIONEN"
+
+#: ../../chapter8.rst:150
+msgid ""
+"If your are in \"Detailed View\" **(3)** any files with previous versions"
+" will show a number in the selected bar (e.g. \"V2\") **(4)** that you "
+"may click to open a list of all of the versions of that file."
+msgstr "Wenn Sie sich in der \"Detaillierten Ansicht\" **(3)** befinden, wird bei Dateien mit früheren Versionen eine Zahl in der ausgewählten Leiste angezeigt (z.B. \"V2\") **(4)**, auf die Sie klicken können, um eine Liste aller Versionen dieser Datei zu öffnen."
+

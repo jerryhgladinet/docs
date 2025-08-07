@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter9.rst:3
+msgid "Sharing"
+msgstr "Deling"
+
+#: ../../chapter9.rst:6
+msgid "Sharing vs. Publishing"
+msgstr "Deling vs. Udgivelse"
+
+#: ../../chapter9.rst:8
+msgid ""
+"There are two ways to share files and folders in |prodname|  – publishing"
+" and sharing."
+msgstr "Der er to måder at dele filer og mapper i |prodname| – publicering og deling."
+
+#: ../../chapter9.rst:10
+msgid "**Publishing:**"
+msgstr "**Udgivelse:**"
+
+#: ../../chapter9.rst:12
+msgid ""
+"Only available for the administrator who can share any tenant-wide "
+"folder. It will only work with team-users in a specific |prodname| "
+"account (tenant account). Publishing a team folder can't go outside of "
+"the tenant scope."
+msgstr "Kun tilgængelig for administratoren, som kan dele enhver mappe på tværs af lejere. Det vil kun fungere med team-brugere i en specifik |prodname| konto (lejer konto). Offentliggørelse af en team-mappe kan ikke gå ud over lejerens omfang."
+
+#: ../../chapter9.rst:14
+msgid "**Sharing:**"
+msgstr "**Deling:**"
+
+#: ../../chapter9.rst:16
+msgid ""
+"Both the administrator and team-users can share files with anyone that "
+"has an email address. The recipient of the share will get an email with a"
+" link to open the folder or download the file. If the email recipient is "
+"also a |prodname| Cloud user, he/she can access the shared file or folder"
+" directly from |prodname|."
+msgstr "Både administratoren og team-brugerne kan dele filer med enhver, der har en e-mailadresse. Modtageren af delingen vil få en e-mail med et link til at åbne mappen eller downloade filen. Hvis e-mailmodtageren også er en |prodname| Cloud-bruger, kan han/hun få adgang til den delte fil eller mappe direkte fra |prodname|."
+
+#: ../../chapter9.rst:19
+msgid "Administrators can prevent team-users from sharing if needed."
+msgstr "Administratorer kan forhindre team-brugere i at dele, hvis det er nødvendigt."
+
+#: ../../chapter9.rst:22
+msgid "Sharing Files And Folders"
+msgstr "Deling af filer og mapper"
+
+#: ../../chapter9.rst:25
+msgid "File Sharing"
+msgstr "Fildeling"
+
+#: ../../chapter9.rst:27
+msgid ""
+"To share a file, click it and select the Share icon (1)revealed in the "
+"header of the file. You can also right click the file and select Share "
+"(2) in the context menu. Once the file is selected, if the right panel is"
+" open(click the encircled \"i\" button), there is a Share link (3) there "
+"as well."
+msgstr "For at dele en fil skal du klikke på den og vælge Del-ikonet (1), som vises i filens top. Du kan også højreklikke på filen og vælge Del (2) i genvejsmenuen. Når filen er valgt, hvis højre panel er åbent (klik på den cirklede \"i\"-knap), er der også et Del-link (3) der."
+
+#: ../../chapter9.rst:32
+msgid "SHARING FILES"
+msgstr "DELING AF FILER"
+
+#: ../../chapter9.rst:34
+msgid ""
+"After clicking 'Share' above, in 'Invite People' window, click the email "
+"field (4) and enter email addresses seperated by semicolons (;) for "
+"anyone that needs access to the file. You can also add notes (5) if "
+"required. Click CONTINUE (6)."
+msgstr "Efter at have klikket på 'Del' ovenfor, i vinduet 'Inviter personer', klik på e-mailfeltet (4) og indtast e-mailadresser adskilt af semikolon (;) for enhver, der har brug for adgang til filen. Du kan også tilføje noter (5), hvis det er nødvendigt. Klik på FORTSÆT (6)."
+
+#: ../../chapter9.rst:39
+msgid "INVITE PEOPLE TO YOUR SHARE"
+msgstr "INVITER PERSONER TIL DIN DELING"
+
+#: ../../chapter9.rst:42
+msgid ""
+"On the second share window you have access to the share options panel "
+"where you can make important decisions such as how long you want the "
+"share to be active and how much control you want to give the user (e.g., "
+"read only, full control access). You can also make this share available "
+"to the public by get"
+msgstr "På det andet delingsvindue har du adgang til delingsindstillingspanelet, hvor du kan træffe vigtige beslutninger såsom, hvor længe du ønsker at delingen skal være aktiv, og hvor meget kontrol du ønsker at give brugeren (f.eks. kun læseadgang, fuld kontroladgang). Du kan også gøre denne deling tilgængelig for offentligheden ved at få"
+
+#: ../../chapter9.rst:47
+msgid "SHARE OPTIONS PANEL"
+msgstr "DELEINDSTILLINGER-PANEL"
+
+#: ../../chapter9.rst:49
+msgid ""
+"You can access previously shared items by clicking the share icon (2) on "
+"a folder of file. Other shares can be accessed by opening the right panel"
+" (1) and clicking the edit button (3) next to the \"Shared Items\" "
+"option."
+msgstr "Du kan få adgang til tidligere delte elementer ved at klikke på delingsikonet (2) på en mappe eller fil. Andre delinger kan tilgås ved at åbne højre panel (1) og klikke på redigeringsknappen (3) ved siden af \"Delte elementer\"-muligheden."
+
+#: ../../chapter9.rst:54
+msgid "ACCESSING SHARED ITEMS SETTINGS"
+msgstr "ADGANG TIL INDSTILLINGER FOR DELTE ELEMENTER"
+
+#: ../../chapter9.rst:58
+msgid "Folder Sharing"
+msgstr "Mappe Deling"
+
+#: ../../chapter9.rst:60
+msgid ""
+"In this example, the icon view has been changed to detailed view (1) of "
+"the files in this folder. To share a folder, mouse-over it and select the"
+" Share icon (2) in its row. You can also right click the file and select "
+"'Share' in the context menu."
+msgstr "I dette eksempel er ikonvisningen ændret til detaljeret visning (1) af filerne i denne mappe. For at dele en mappe skal du holde musen over den og vælge Del-ikonet (2) i dens række. Du kan også højreklikke på filen og vælge 'Del' i genvejsmenuen."
+
+#: ../../chapter9.rst:65
+msgid "SHARING FOLDERS"
+msgstr "DELING AF MAPPER"
+
+#: ../../chapter9.rst:69
+msgid "Removing shares"
+msgstr "Fjernelse af delinger"
+
+#: ../../chapter9.rst:71
+msgid ""
+"During share setup, a user can define its expiration date. Once the share"
+" expires, other users will no longer be able to access the shares."
+msgstr "Under opsætningen af deling kan en bruger definere dens udløbsdato. Når delingen udløber, vil andre brugere ikke længere kunne få adgang til delingerne."
+
+#: ../../chapter9.rst:73
+msgid "Users can also delete the share manually. First go to the Drive Root (1)."
+msgstr "Brugere kan også slette delingen manuelt. Først gå til Drive Root (1)."
+
+#: ../../chapter9.rst:75
+msgid ""
+"To delete a user's access to a share, open the right panel click the "
+"\"Manage\" icon (2) on shared items. In the next panel choose the item "
+"you wish to modify, then in the pop-up window, click the Delete icon (3) "
+"to remove this user's permission from the share."
+msgstr "For at slette en brugers adgang til en deling, åbn højre panel klik på \"Administrer\" ikonet (2) på delte elementer. I det næste panel vælger du det element, du ønsker at ændre, og derefter i pop-op vinduet, klik på Slet ikonet (3) for at fjerne denne brugers tilladelse fra delingen."
+
+#: ../../chapter9.rst:80
+msgid "DELETING A USER'S PERMISSION"
+msgstr "SLETNING AF EN BRUGERS TILLADELSE"
+
+#: ../../chapter9.rst:84
+msgid "Accessing 'Files/Folders Shared With Me'"
+msgstr "Adgang til 'Filer/Mapper delt med mig'"
+
+#: ../../chapter9.rst:86
+msgid ""
+"When a file or folder is shared with the user, he/she will get an email. "
+"The link in the email can be used to open the file or folder."
+msgstr "Når en fil eller mappe deles med brugeren, vil han/hun modtage en e-mail. Linket i e-mailen kan bruges til at åbne filen eller mappen."
+
+#: ../../chapter9.rst:88
+msgid ""
+"If the user has a |prodname|  account with the given email address, the "
+"shared files and folders will appear under the 'Files shared with me' "
+"folder, in both the |prodname| Web Portal and |prodname| Desktop App."
+msgstr "Hvis brugeren har en |prodname| konto med den angivne e-mailadresse, vil de delte filer og mapper vises under mappen 'Filer delt med mig', både i |prodname| Webportalen og |prodname| Skrivebordsappen."
+
+#: ../../chapter9.rst:92
+msgid "Web Portal"
+msgstr "Webportal"
+
+#: ../../chapter9.rst:94
+msgid ""
+"You can access shared files by clicking the \"Shared files/folders\" "
+"button in the \"File Browser\" view of the Web Portal."
+msgstr "Du kan få adgang til delte filer ved at klikke på knappen \"Delte filer/mapper\" i \"Filbrowser\"-visningen af Webportalen."
+
+#: ../../chapter9.rst:99
+msgid "WEB PORTAL SHARED FILES LOCATION"
+msgstr "WEBPORTALENS DELTE FILERPLACERING"
+
+#: ../../chapter9.rst:103
+msgid "Windows Client"
+msgstr "Windows-klient"
+
+#: ../../chapter9.rst:105
+msgid ""
+"In the Windows Client you can access shared files by using windows "
+"explorer to navigate to the Cloud Drive (1) where you will find any "
+"shared files listed (2) with information about who shared (3) the file "
+"with you."
+msgstr "I Windows-klienten kan du få adgang til delte filer ved at bruge Windows Stifinder til at navigere til Cloud Drive (1), hvor du vil finde eventuelle delte filer opført (2) med oplysninger om, hvem der delte (3) filen med dig."
+
+#: ../../chapter9.rst:110
+msgid "WINDOWS CLIENT SHARED FILES LOCATION"
+msgstr "PLACERING AF DELTE FILER I WINDOWS-KLIENT"
+
+#: ../../chapter9.rst:113
+msgid ""
+"If the user has write permission to the folder shared, he can modify the "
+"files in the folder."
+msgstr "Hvis brugeren har skriverettigheder til den delte mappe, kan han ændre filerne i mappen."
+

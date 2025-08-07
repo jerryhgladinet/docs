@@ -4,7 +4,7 @@ Quick Installation Guide
 
 Overview
 ==============
-This guide describes how to install and configure Gladinet’s TrioFox. It provides step-by-step installation and configuration instructions and best practices. 
+This guide describes how to install and configure Gladinet's TrioFox. It provides step-by-step installation and configuration instructions and best practices. 
 
 TrioFox enhances existing file servers with mobile access, data protection, business continuity and data migration. TrioFox integrates with on-premises Active Directory to automatically discover all the existing file server shares and publish them as team folders.  
 
@@ -83,7 +83,7 @@ Installation and Configuration
 Step 1: Installation
 ------------------------------------------------
 
-Login to My TrioFox. If you do not have a My TrioFox account yet, click on ‘Register Free Account’ to sign-up.
+Login to My TrioFox. If you do not have a My TrioFox account yet, click on 'Register Free Account' to sign-up.
 
 
 .. image:: _static/InstallImage36.jpg
@@ -102,7 +102,7 @@ Login to My TrioFox. If you do not have a My TrioFox account yet, click on ‘Re
 .. image:: _static/InstallImage54.jpg
 
 
-4.	Accept the ‘License Agreement’ by clicking on the ‘I agree’ and click Next.
+4.	Accept the 'License Agreement' by clicking on the 'I agree' and click Next.
  
  .. image:: _static/InstallImage55.jpg
 
@@ -110,12 +110,12 @@ Login to My TrioFox. If you do not have a My TrioFox account yet, click on ‘Re
 
 .. image:: _static/InstallImage57.jpg
  
-6a. Click ‘here’ in order to setup proxy if required:
+6a. Click 'here' in order to setup proxy if required:
 
 .. image:: _static/InstallImage58.jpg
  
 
-6b. Check the box to ‘Enable Custom Proxy’ and fill in the required fields.
+6b. Check the box to 'Enable Custom Proxy' and fill in the required fields.
 
 .. image:: _static/InstallImage59.jpg
  
@@ -140,7 +140,7 @@ Step 2: Configuration
 
 TrioFox will launch the default browser after the reboot and it will go to the configuring page.
 
-1.  If you have an existing database, use the pull down to select a different option otherwise use the default which will also install MySQL Community Edition database. Click Apply to use the ‘Default – all in one’ database.
+1.  If you have an existing database, use the pull down to select a different option otherwise use the default which will also install MySQL Community Edition database. Click Apply to use the 'Default – all in one' database.
  
 .. image:: _static/InstallImage60.jpg
 
@@ -149,11 +149,11 @@ TrioFox will launch the default browser after the reboot and it will go to the c
   
 .. image:: _static/InstallImage61.jpg
 
-3. Enter the default Admin Account Information and click the checkbox to accept Gladinet’s TERMS OF SERVICE agreement. Click Continue to proceed.
+3. Enter the default Admin Account Information and click the checkbox to accept Gladinet's TERMS OF SERVICE agreement. Click Continue to proceed.
  
 .. image:: _static/InstallImage62.jpg
  
-4. Enter your Active Directory (LDAP) information on this screen in order to seamlessly connect to your AD environment. You can click on ‘Configure Later’ if you are not ready to connect to your AD environment at this time. 
+4. Enter your Active Directory (LDAP) information on this screen in order to seamlessly connect to your AD environment. You can click on 'Configure Later' if you are not ready to connect to your AD environment at this time. 
   
 .. image:: _static/InstallImage63.jpg
 
@@ -227,7 +227,7 @@ In order to test from outside your network, a secure (https) access point and a 
  
 .. image:: _static/InstallImage46.jpg
 
-2. Click ‘Install Windows Client’ on the left or ‘Download and install desktop or server client’ under user icon in the upper right.
+2. Click 'Install Windows Client' on the left or 'Download and install desktop or server client' under user icon in the upper right.
  
 .. image:: _static/InstallImage47.jpg
  

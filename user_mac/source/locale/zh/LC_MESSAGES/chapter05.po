@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:3
+msgid "5 Settings"
+msgstr "5个设置"
+
+#: ../../chapter05.rst:5
+msgid ""
+"To access the Client Settings, click the Client Icon on the top-right of "
+"your Mac Desktop. This will open the Cloud Settings Panel. Clicking the "
+"**Console (1)** icon will open the \"Client Management Console\" window "
+"where the user can configure additional settings. In the Console window, "
+"click the drop-down menu **(2)** and choose **\"Settings\" (3)**."
+msgstr "要访问客户端设置，请点击您Mac桌面右上角的客户端图标。这将打开云设置面板。点击 **控制台 (1)** 图标将打开“客户端管理控制台”窗口，在此用户可以配置附加设置。在控制台窗口中，点击下拉菜单 **(2)** 并选择 **“设置” (3)**。"
+
+#: ../../chapter05.rst:9
+msgid ""
+"There are many settings in this panel. Here are some specifically for the"
+" Mac Client."
+msgstr "此面板中有许多设置。这里有一些是专门针对Mac客户端的。"
+
+#: ../../chapter05.rst:11
+msgid ""
+"**Start Mac client automatically** - When this option is checked the user"
+" will be automatically authenticated to the cloud volume upon system "
+"restarts."
+msgstr "**启动 Mac 客户端** - 当此选项被勾选时，用户将在系统重启后自动认证到云端卷。"
+
+#: ../../chapter05.rst:13
+msgid ""
+"**Do not show Mac Client sync status pop up dialog** - There will be "
+"times when users do not want to see the sync progress windows which can "
+"be suppressed by selecting this opt ion."
+msgstr "**不显示Mac客户端同步状态弹出对话框** - 用户有时可能不希望看到同步进度窗口，可以通过选择此选项来抑制。"
+
+#: ../../chapter05.rst:19
+msgid "6 Third-Party Open Source Component"
+msgstr "6 第三方开源组件"
+
+#: ../../chapter05.rst:21
+msgid "The Mac client agent has OSXFUSE component from https://github.com/osxfuse"
+msgstr "Mac 客户端代理包含来自 https://github.com/osxfuse 的 OSXFUSE 组件"
+
+#: ../../chapter05.rst:23
+msgid "Please review the osxfuse license.txt here"
+msgstr "请在此处查阅osxfuse许可证.txt"
+
+#: ../../chapter05.rst:25
+msgid "https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt"
+msgstr "https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt"
+

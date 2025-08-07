@@ -10,7 +10,7 @@ Welcome to the CentreStack iOS Client User Guide. This guide describes the iOS c
 
 Users can access CentreStack cloud files using any device of their choice as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, Windows 8+, and more. We have created a native IOS application that you can download from the App Store. This provides access to files and folders in your CentreStack account.
 
-The white-labeled CentreStack iOS app called “Cloud Drive” by Gladinet that can be distributed by service providers and enterprises to their users. 
+The white-labeled CentreStack iOS app called "Cloud Drive" by Gladinet that can be distributed by service providers and enterprises to their users. 
 
 If you have the fully branded CentreStack iOS client, the look and feel of the app may be different but the functionality is the same. You can obtain a fully branded CentreStack IOS Client with your company name and product logo from https://partner.centrestack.com/login/ (partner portal). 
 
@@ -18,7 +18,7 @@ If you have the fully branded CentreStack iOS client, the look and feel of the a
 Download & Install
 ====================
 
-Search for Gladinet, Inc. as a publisher in ‘App Store’ to start the download and installation.
+Search for Gladinet, Inc. as a publisher in 'App Store' to start the download and installation.
 
 .. image:: _static/NewImage1-03192025.png
 
@@ -28,11 +28,11 @@ After the install open the app from its icon. Login using your credentials.
 .. image:: _static/NewImage2-03192025.png
 
 
-Enter Access Point (if not filled automatically) and your Username and tap “CONTINUE”. 
+Enter Access Point (if not filled automatically) and your Username and tap "CONTINUE". 
 
 .. image:: _static/NewImage3-03192025.png
 
-On the following screen, enter your Password and tap “SIGN IN”, to log in to your server. 
+On the following screen, enter your Password and tap "SIGN IN", to log in to your server. 
 
 
 Access, Upload and Create
@@ -129,14 +129,14 @@ You can also go into a folder and preview a file with multiple images. Once you 
 Delete
 -----------------
 
-A file can be deleted using the **‘Delete’** option. Select **‘Delete’** from the context menu to delete a file. Once the file has been deleted it will no longer be visible in the cloud drive.
+A file can be deleted using the **'Delete'** option. Select **'Delete'** from the context menu to delete a file. Once the file has been deleted it will no longer be visible in the cloud drive.
 
 .. image:: _static/NewImage18-03192025.png
 
 Rename
 -----------------
 
-You can rename a file or a folder using the **‘Rename’** option. Pressing **‘Rename’** will display a field to type in the new name.
+You can rename a file or a folder using the **'Rename'** option. Pressing **'Rename'** will display a field to type in the new name.
 
 .. image:: _static/NewImage17-03192025.png
 
@@ -268,4 +268,4 @@ https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Savin
 Conclusion
 ===============
 
-Gladinet’s vision is to enable access to enterprise data from anywhere using any device including mobile devices like Android, iPhones, and iPads. The iOS CentreStack application is feature-rich which allows enterprise users to not only access the data but also sync and collaborate on that data. Users can access, share, edit, and perform other functions on the data when accessing from iOS devices just like they do when they access it from Windows or MAC clients.
+Gladinet's vision is to enable access to enterprise data from anywhere using any device including mobile devices like Android, iPhones, and iPads. The iOS CentreStack application is feature-rich which allows enterprise users to not only access the data but also sync and collaborate on that data. Users can access, share, edit, and perform other functions on the data when accessing from iOS devices just like they do when they access it from Windows or MAC clients.

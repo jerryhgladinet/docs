@@ -1,0 +1,2430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Cluster Administration"
+msgstr "Administración de Clúster"
+
+#: ../../chapter02.rst:7
+msgid "The Basics"
+msgstr "Los Fundamentos"
+
+#: ../../chapter02.rst:9
+msgid ""
+"To access your Cluster Administration features, log in to the Web Portal "
+"on the server. **The description in this guide presumes that you are "
+"signed in as the Master Administrator** (aka., Cluster Administrator, "
+"Server Administrator). Some of the options listed may not be available if"
+" you are logged in with different permissions (e.g. Delegated "
+"Administrator). In this document the |prodname| will also be referred to "
+"as simply, Cluster Server."
+msgstr "Para acceder a las funciones de Administración de Clúster, inicie sesión en el Portal Web en el servidor. **La descripción en esta guía presupone que ha iniciado sesión como el Administrador Principal** (también conocido como Administrador del Clúster, Administrador del Servidor). Algunas de las opciones enumeradas pueden no estar disponibles si ha iniciado sesión con diferentes permisos (por ejemplo, Administrador Delegado). En este documento, el |prodname| también se denominará simplemente, Servidor de Clúster."
+
+#: ../../chapter02.rst:13
+msgid ""
+"The Web Portal URL is the server's DNS name, the IP Address or local host"
+" if you are on the server console."
+msgstr "La URL del Portal Web es el nombre DNS del servidor, la Dirección IP o localhost si estás en la consola del servidor."
+
+#: ../../chapter02.rst:18
+msgid "**LOGIN SCREEN**"
+msgstr "**PANTALLA DE INICIO DE SESIÓN**"
+
+#: ../../chapter02.rst:22
+msgid ""
+"At the bottom of the Login screen, there is version information, which "
+"will be useful to see which version you have installed."
+msgstr "En la parte inferior de la pantalla de inicio de sesión, hay información de la versión, que será útil para ver qué versión tienes instalada."
+
+#: ../../chapter02.rst:25
+msgid ""
+"The following graphic describes the various icons and components of the "
+"Administrator Dashboard and its sub-sections. Please refer to it as you "
+"read this guide to determine how to access various features."
+msgstr "El siguiente gráfico describe los diversos iconos y componentes del Panel de Administración y sus subsecciones. Por favor, consulte este mientras lee esta guía para determinar cómo acceder a las distintas funciones."
+
+#: ../../chapter02.rst:30
+msgid "**CLUSTER MANAGER DASHBOARD**"
+msgstr "**TABLERO DE CONTROL DEL GESTOR DE CLÚSTER**"
+
+#: ../../chapter02.rst:32
+msgid ""
+"After logging in, you can access the Cluster Manager Dashboard by "
+"clicking \"Cluster Dashboard\" icon **(1)**."
+msgstr "Después de iniciar sesión, puede acceder al Panel de Control del Administrador de Clúster haciendo clic en el icono **(1)** \"Panel de Control del Clúster\"."
+
+#: ../../chapter02.rst:34
+msgid ""
+"By clicking the folder icon **(2)** In the top right of the interface you"
+" can toggle between the File Browser and Cluster Manager views.  The "
+"**File Browser** (My Files) view of the interface gives you access to "
+"your shared and unshared folders. This is also where you can create "
+"folders and upload files and folders for access. When the cluster "
+"administrator clicks the folder icon to get into the files and folder's "
+"view, the files and folders belong to the default tenant."
+msgstr "Al hacer clic en el ícono de carpeta **(2)** en la parte superior derecha de la interfaz, puedes alternar entre las vistas del Explorador de Archivos y el Administrador de Clúster. La vista **Explorador de Archivos** (Mis Archivos) de la interfaz te da acceso a tus carpetas compartidas y no compartidas. Aquí también puedes crear carpetas y subir archivos y carpetas para acceder a ellos. Cuando el administrador del clúster hace clic en el ícono de carpeta para entrar a la vista de archivos y carpetas, los archivos y carpetas pertenecen al inquilino predeterminado."
+
+#: ../../chapter02.rst:39
+msgid ""
+"The cluster administrator will not be able to access files and folders "
+"that are not in the scope of the default tenant. To access files and "
+"folders that belong to a specific tenant, the web portal login has to be "
+"that of the tenant. So basically the cluster administrator can do "
+"administration work for a tenant that is under management. However, it is"
+" not easy for the cluster administrator to see the files and folders for "
+"that specific tenant until he/she gets the permission and the login "
+"credentials."
+msgstr "El administrador del clúster no podrá acceder a archivos y carpetas que no estén dentro del alcance del inquilino predeterminado. Para acceder a archivos y carpetas que pertenecen a un inquilino específico, el inicio de sesión en el portal web debe ser el del inquilino. Básicamente, el administrador del clúster puede realizar trabajos de administración para un inquilino que está bajo gestión. Sin embargo, no es fácil para el administrador del clúster ver los archivos y carpetas de ese inquilino específico hasta que obtenga el permiso y las credenciales de inicio de sesión."
+
+#: ../../chapter02.rst:43
+msgid ""
+"The Cluster Manager (aka., Dashboard) allows you to manage Tenants "
+"**(3)**, Cluster Branding **(4)**, Reports **(5)**, and Group Policies "
+"**(6)**."
+msgstr "El Administrador de Clúster (también conocido como Dashboard) te permite gestionar Tenants **(3)**, Personalización del Clúster **(4)**, Informes **(5)** y Políticas de Grupo **(6)**."
+
+#: ../../chapter02.rst:47
+msgid ""
+"At a high level, the |prodname| web browser management interface allows "
+"you to manage clients (Tenants) and the overall system performance and "
+"statistics reports."
+msgstr "A nivel general, la interfaz de gestión del navegador web |prodname| te permite administrar clientes (Inquilinos) y los informes de rendimiento del sistema y estadísticas generales."
+
+#: ../../chapter02.rst:51
+msgid "**EXTERNAL DNS**"
+msgstr "**DNS EXTERNO**"
+
+#: ../../chapter02.rst:53
+msgid ""
+"External DNS (External URL) is a very important property. It is used in "
+"directing how outside remote clients connect to the Cluster Server. It is"
+" also used in various email templates. If this property is not properly "
+"configured, the email template may be using IP address or NETBIOS name as"
+" the URL link."
+msgstr "El DNS externo (URL externa) es una propiedad muy importante. Se utiliza para dirigir cómo los clientes remotos externos se conectan al Servidor del Clúster. También se utiliza en varias plantillas de correo electrónico. Si esta propiedad no está configurada correctamente, la plantilla de correo electrónico puede estar utilizando la dirección IP o el nombre NETBIOS como enlace URL."
+
+#: ../../chapter02.rst:55
+msgid ""
+"To configure this setting, you must have a DNS name and SSL certificate "
+"setup; therefore, you can postpone the configuration of your DNS until "
+"you are ready."
+msgstr "Para configurar esta opción, debes tener un nombre DNS y un certificado SSL configurados; por lo tanto, puedes posponer la configuración de tu DNS hasta que estés listo."
+
+#: ../../chapter02.rst:57
+msgid "**Related tasks**"
+msgstr "**Tareas relacionadas**"
+
+#: ../../chapter02.rst:59
+msgid ""
+"Configure the DNS registration to point a DNS name to the public static "
+"IP address of the Cluster Server."
+msgstr "Configure la inscripción en el DNS para apuntar un nombre DNS a la dirección IP estática pública del Servidor de Clúster."
+
+#: ../../chapter02.rst:60
+msgid "Configure the IIS “Default Web Site” to bind to an SSL certificate."
+msgstr "Configurar el sitio web predeterminado de IIS para que se vincule a un certificado SSL."
+
+#: ../../chapter02.rst:65
+msgid "Tenant Manager"
+msgstr "Gestor de Arrendatarios"
+
+#: ../../chapter02.rst:67 ../../chapter02.rst:122
+msgid "``Cluster Manager`` > ``Tenant Manager``"
+msgstr "``Gestor de Clúster`` > ``Gestor de Inquilinos``"
+
+#: ../../chapter02.rst:71
+msgid ""
+"A tenant is usually mapped to a client of yours, a company, or a division"
+" of a company."
+msgstr "Un inquilino generalmente se asigna a un cliente suyo, una empresa o una división de una empresa."
+
+#: ../../chapter02.rst:73
+msgid ""
+"The Cluster Server is multi-tenant capable, but can also be used for a "
+"single Tenant. To add or manage your tenants, click \"Tenants Count\" in "
+"your Dashboard to access Tenant Manager."
+msgstr "El Servidor de Clúster es capaz de manejar múltiples inquilinos, pero también puede ser utilizado para un solo inquilino. Para agregar o gestionar tus inquilinos, haz clic en \"Cantidad de Inquilinos\" en tu Panel de Control para acceder al Gestor de Inquilinos."
+
+#: ../../chapter02.rst:78
+msgid "TENANT MANAGER"
+msgstr "GESTOR DE ARRENDATARIOS"
+
+#: ../../chapter02.rst:80
+msgid ""
+"You can access other important settings from context menu (Each tenant "
+"block has a tenant specific context menu):"
+msgstr "Puede acceder a otros ajustes importantes desde el menú contextual (Cada bloque de inquilino tiene un menú contextual específico para ese inquilino):"
+
+#: ../../chapter02.rst:82
+msgid "Manage Tenant"
+msgstr "Gestionar Inquilino"
+
+#: ../../chapter02.rst:83
+msgid "Force full scan for storage quota usage,"
+msgstr "Forzar escaneo completo para el uso de cuota de almacenamiento,"
+
+#: ../../chapter02.rst:84
+msgid "Change Tenant Admin Password,"
+msgstr "Cambiar Contraseña del Administrador del Inquilino"
+
+#: ../../chapter02.rst:85
+msgid "Edit Existing Default Storage"
+msgstr "Editar Almacenamiento Predeterminado Existente"
+
+#: ../../chapter02.rst:86
+msgid "Delete Tenant"
+msgstr "Eliminar inquilino"
+
+#: ../../chapter02.rst:88
+msgid "**Manage Tenant**"
+msgstr "**Gestionar Inquilino**"
+
+#: ../../chapter02.rst:90
+msgid ""
+"This will drill deeper into the per-tenant management page view. By "
+"clicking the “Manage Tenant” option, the Cluster Admin sees the Tenant "
+"Dashboard as well as additional options to configure the Tenant settings."
+msgstr "Esto profundizará en la vista de página de gestión por tenant. Al hacer clic en la opción \"Gestionar Tenant\", el Administrador del Clúster ve el Panel de Tenant así como opciones adicionales para configurar los ajustes del Tenant."
+
+#: ../../chapter02.rst:92
+msgid "**Force full scan for storage quota usage**"
+msgstr "**Forzar escaneo completo para el uso de cuota de almacenamiento**"
+
+#: ../../chapter02.rst:94
+msgid ""
+"This will start a full scan of storage usage for the Tenant. As files are"
+" uploaded, modified or deleted during daily operation, the Tenant Quota "
+"is calculated. To ensure that the quota value shown for the tenant is "
+"accurate, it is important that you occasionally force a full scan of the "
+"tenant's quota usage."
+msgstr "Esto iniciará un escaneo completo del uso de almacenamiento para el inquilino. A medida que se cargan, modifican o eliminan archivos durante la operación diaria, se calcula la Cuota del Inquilino. Para asegurar que el valor de la cuota mostrado para el inquilino sea preciso, es importante que ocasionalmente fuerce un escaneo completo del uso de la cuota del inquilino."
+
+#: ../../chapter02.rst:96
+msgid "**Change Tenant Admin Password**"
+msgstr "**Cambiar contraseña del administrador del inquilino**"
+
+#: ../../chapter02.rst:98
+msgid ""
+"Provides a method for the Cluster Administrator to assist the Tenant "
+"Administrator with resetting passwords."
+msgstr "Proporciona un método para que el Administrador del Clúster asista al Administrador del Inquilino con el restablecimiento de contraseñas."
+
+#: ../../chapter02.rst:100
+msgid "**Edit Existing default storage**"
+msgstr "**Editar el almacenamiento predeterminado existente**"
+
+#: ../../chapter02.rst:102
+msgid ""
+"When a Tenant outgrows their allocation of storage space or needs to move"
+" to a different storage location, this setting allows the Cluster "
+"Administrator to change the storage location."
+msgstr "Cuando un inquilino supera su asignación de espacio de almacenamiento o necesita mudarse a una ubicación de almacenamiento diferente, esta configuración permite al Administrador del Clúster cambiar la ubicación de almacenamiento."
+
+#: ../../chapter02.rst:106
+msgid ""
+"When changing a storage location for a Tenant, you typically manually "
+"copy the folder to the new location then re-configure the default storage"
+" location."
+msgstr "Al cambiar la ubicación de almacenamiento para un inquilino, normalmente se copia manualmente la carpeta a la nueva ubicación y luego se reconfigura la ubicación de almacenamiento predeterminada."
+
+#: ../../chapter02.rst:110
+msgid ""
+"If you want to change the tenant's default storage location, make sure "
+"you copy tenant's file AS-IS from the source folder to its destination "
+"folder before you change the storage location here."
+msgstr "Si desea cambiar la ubicación de almacenamiento predeterminada del inquilino, asegúrese de copiar el archivo del inquilino TAL CUAL de la carpeta de origen a la carpeta de destino antes de cambiar la ubicación de almacenamiento aquí."
+
+#: ../../chapter02.rst:112
+msgid "**Delete Tenant**"
+msgstr "**Eliminar inquilino**"
+
+#: ../../chapter02.rst:114
+msgid "Deletes the tenant."
+msgstr "Elimina el inquilino."
+
+#: ../../chapter02.rst:118
+msgid ""
+"Please reference the :ref:`tenant_administration` section for more "
+"details about the Tenant Management."
+msgstr "Por favor, consulte la sección :ref:`tenant_administration` para obtener más detalles sobre la Gestión de Tenants."
+
+#: ../../chapter02.rst:121
+msgid "Create a New Tenant"
+msgstr "Crear un Nuevo Inquilino"
+
+#: ../../chapter02.rst:124
+msgid ""
+"Click on the \"Plus\" sign in the ``New Tenant`` to start the creation of"
+" a new tenant."
+msgstr "Haga clic en el signo de \"más\" en el ``Nuevo inquilino`` para comenzar la creación de un nuevo inquilino."
+
+#: ../../chapter02.rst:130
+msgid "CREATING A NEW TENANT"
+msgstr "CREANDO UN NUEVO INQUILINO"
+
+#: ../../chapter02.rst:132
+msgid ""
+"The first screen under \"New Tenant\" is asking for \"Start from "
+"Scratch\" or \"Import and migrate data from  Anchor\"."
+msgstr "La primera pantalla en \"Nuevo Inquilino\" pregunta si desea \"Comenzar desde cero\" o \"Importar y migrar datos desde Anchor\"."
+
+#: ../../chapter02.rst:134
+msgid ""
+"When you select \"Add New Tenant from Scratch\", The next screen is "
+"asking for a few parameters related to who the tenant is."
+msgstr "Cuando seleccionas \"Añadir Nuevo Inquilino desde Cero\", la siguiente pantalla solicita algunos parámetros relacionados con quién es el inquilino."
+
+#: ../../chapter02.rst:140
+msgid "TENANT MANAGER SETTINGS 1"
+msgstr "CONFIGURACIÓN DEL ADMINISTRADOR DE TENANT 1"
+
+#: ../../chapter02.rst:142
+msgid ""
+"**\"Create with Default Settings\"** will get it done and the tenant will"
+" be granted all default settings, including the storage location "
+"allocation."
+msgstr "**\"Crear con Configuración Predeterminada\"** lo hará y al inquilino se le otorgarán todas las configuraciones predeterminadas, incluida la asignación de ubicación de almacenamiento."
+
+#: ../../chapter02.rst:144
+msgid ""
+"**\"Continue\"** allows you to customize the settings and storage "
+"location."
+msgstr "**\"Continuar\"** le permite personalizar la configuración y la ubicación de almacenamiento."
+
+#: ../../chapter02.rst:146
+msgid "If you pick **\"Continue\"**,"
+msgstr "Si selecciona **\"Continuar\"**"
+
+#: ../../chapter02.rst:148
+msgid ""
+"The second screen under \"Add Tenant from Scratch\" is asking for the "
+"division of work between the cluster administrator and the tenant "
+"administrator."
+msgstr "La segunda pantalla bajo \"Añadir inquilino desde cero\" está solicitando la división del trabajo entre el administrador del clúster y el administrador del inquilino."
+
+#: ../../chapter02.rst:153
+msgid "TENANT MANAGER SETTINGS 2"
+msgstr "CONFIGURACIÓN DEL ADMINISTRADOR DE TENANT 2"
+
+#: ../../chapter02.rst:155
+msgid ""
+"The third screen under \"Add Tenant\" is asking where the root storage "
+"for the tenant will be at."
+msgstr "La tercera pantalla bajo \"Agregar Inquilino\" pregunta dónde estará el almacenamiento raíz para el inquilino."
+
+#: ../../chapter02.rst:161
+msgid "ADD TENANT STORAGE OPTIONS 1"
+msgstr "AÑADIR OPCIONES DE ALMACENAMIENTO PARA INQUILINOS 1"
+
+#: ../../chapter02.rst:163
+msgid "**Automatically assign a sub-folder from cluster default tenant**"
+msgstr "**Asignar automáticamente una subcarpeta del inquilino predeterminado del clúster**"
+
+#: ../../chapter02.rst:165
+msgid ""
+"When selected, the tenant's default storage will be a sub-folder inside "
+"the cluster default tenant's storage folder. It is easier to manage when "
+"you don't need per-tenant storage access credentials. This is the easiest"
+" option because if every tenant is allocated a sub-folder from the "
+"default tenant, then the default tenant storage location is a single "
+"place to take care of all of your storage needs. The storage location is "
+"sandboxed away from the default tenant so even though from a physical "
+"location's perspective, it is a sub folder of the default tenant, but the"
+" default tenant will not be able to see the folder from |prodname|."
+msgstr "Cuando se selecciona, el almacenamiento predeterminado del inquilino será una subcarpeta dentro de la carpeta de almacenamiento del inquilino predeterminado del clúster. Es más fácil de gestionar cuando no necesitas credenciales de acceso al almacenamiento por inquilino. Esta es la opción más sencilla porque si a cada inquilino se le asigna una subcarpeta del inquilino predeterminado, entonces la ubicación de almacenamiento del inquilino predeterminado es un único lugar para atender todas tus necesidades de almacenamiento. La ubicación de almacenamiento está aislada del inquilino predeterminado, así que, aunque desde la perspectiva de la ubicación física, es una subcarpeta del inquilino predeterminado, pero el inquilino predeterminado no podrá ver la carpeta desde |prodname|."
+
+#: ../../chapter02.rst:168
+msgid "**Use existing file server or local disk as default storage**"
+msgstr "**Utilice el servidor de archivos existente o el disco local como almacenamiento predeterminado**"
+
+#: ../../chapter02.rst:170
+#, python-format
+msgid ""
+"Using this option, you can connect the tenant's root folder to a file "
+"server network share. If you want the tenant users to continue to share "
+"file server network share outside of |prodname|, it is recommended you "
+"use the \"Import Network Share\" feature in \"Team Folder\" instead of "
+"pointing the default storage to the file server share, because the "
+"Cluster Server will assume it has 100% of the control of the storage "
+"location."
+msgstr "Utilizando esta opción, puede conectar la carpeta raíz del inquilino a una compartición de red del servidor de archivos. Si desea que los usuarios del inquilino continúen compartiendo la compartición de red del servidor de archivos fuera de |prodname|, se recomienda utilizar la función \"Importar Compartición de Red\" en \"Carpeta de Equipo\" en lugar de apuntar el almacenamiento predeterminado a la compartición del servidor de archivos, porque el Servidor Cluster asumirá que tiene el 100% del control de la ubicación de almacenamiento."
+
+#: ../../chapter02.rst:175
+msgid "ADD TENANT STORAGE OPTIONS 2"
+msgstr "AÑADIR OPCIONES DE ALMACENAMIENTO PARA INQUILINOS 2"
+
+#: ../../chapter02.rst:177
+msgid "**Use Cloud Storage as default storage**"
+msgstr "**Utilice el almacenamiento en la nube como almacenamiento predeterminado**"
+
+#: ../../chapter02.rst:179
+msgid ""
+"When using this option, you can connect the tenant's root folder to "
+"Amazon S3, Windows Azure Blob, OpenStack storage as well as others."
+msgstr "Al utilizar esta opción, puede conectar la carpeta raíz del inquilino a Amazon S3, Windows Azure Blob, almacenamiento OpenStack así como a otros."
+
+#: ../../chapter02.rst:184
+msgid "CLOUD STORAGE SETTINGS"
+msgstr "CONFIGURACIÓN DE ALMACENAMIENTO EN LA NUBE"
+
+#: ../../chapter02.rst:186
+msgid "**Using Amazon S3 bucket for tenant storage**"
+msgstr "**Usando el bucket de Amazon S3 para almacenamiento de inquilinos**"
+
+#: ../../chapter02.rst:188
+msgid ""
+"``Tenant Manager`` > ``{Create New Tenant}`` > ``Use Cloud Storage as "
+"Default Storage`` > ``Amazon S3``"
+msgstr "``Gestor de inquilinos`` > ``{Crear nuevo inquilino}`` > ``Usar almacenamiento en la nube como almacenamiento predeterminado`` > ``Amazon S3``"
+
+#: ../../chapter02.rst:190
+msgid ""
+"You can pick Amazon S3 as the target storage for the tenant if you want "
+"to."
+msgstr "Puede elegir Amazon S3 como almacenamiento objetivo para el inquilino si así lo desea."
+
+#: ../../chapter02.rst:195
+msgid "AMAZON S3"
+msgstr "AMAZON S3"
+
+#: ../../chapter02.rst:197
+msgid ""
+"After you pick the Amazon S3, the first screen will be asking for "
+"``Access Key`` and ``Secret Key``."
+msgstr "Después de seleccionar Amazon S3, la primera pantalla solicitará el ``Access Key`` y el ``Secret Key``."
+
+#: ../../chapter02.rst:200
+msgid ""
+"You will need to log into your AWS console to get the access key and "
+"secret key. You can use master access key and secret key, by default the "
+"master key has default access to all buckets. You can also create an IAM "
+"user and use the key from a specific IAM user. However, by default, the "
+"IAM user is locked out of access to any bucket until bucket access policy"
+" is created and attached to the IAM user."
+msgstr "Necesitará iniciar sesión en su consola de AWS para obtener la clave de acceso y la clave secreta. Puede usar la clave de acceso maestra y la clave secreta, por defecto la clave maestra tiene acceso predeterminado a todos los buckets. También puede crear un usuario IAM y usar la clave de un usuario IAM específico. Sin embargo, por defecto, el usuario IAM no tiene acceso a ningún bucket hasta que se crea y se adjunta una política de acceso al bucket al usuario IAM."
+
+#: ../../chapter02.rst:202
+msgid ""
+"If you use IAM user, here is a sample S3 Bucket access policy to grant an"
+" IAM user to a specific bucket. As shown below, the policy gives an IAM "
+"user the ability to use bucket \"user3onlybucket\""
+msgstr "Si utiliza un usuario IAM, aquí tiene una política de acceso de muestra para un Bucket S3 que concede a un usuario IAM acceso a un bucket específico. Como se muestra a continuación, la política otorga a un usuario IAM la capacidad de utilizar el bucket \"user3onlybucket\""
+
+#: ../../chapter02.rst:256
+msgid ""
+"After it is all setup properly, you can use the IAM user's access key id "
+"and secret access key to connect to the Amazon S3 bucket."
+msgstr "Después de que todo esté configurado correctamente, puedes usar el ID de clave de acceso y la clave de acceso secreta del usuario IAM para conectarte al bucket de Amazon S3."
+
+#: ../../chapter02.rst:261
+msgid "AMAZON S3 USER'S ACCESS KEY"
+msgstr "CLAVE DE ACCESO DEL USUARIO DE AMAZON S3"
+
+#: ../../chapter02.rst:263
+msgid ""
+"When the correct access credentials are given, the next screen is to "
+"select a bucket from Amazon S3."
+msgstr "Cuando se proporcionan las credenciales de acceso correctas, la siguiente pantalla es para seleccionar un bucket de Amazon S3."
+
+#: ../../chapter02.rst:268
+msgid "AMAZON S3 SELECTING A BUCKET"
+msgstr "AMAZON S3 SELECCIONANDO UN CUBO"
+
+#: ../../chapter02.rst:270
+msgid ""
+"You can pre-create a bucket in Amazon S3 and then pick the bucket in the "
+"current page. After that, it will take a short while for the system to be"
+" ready for the new tenant created."
+msgstr "Puede pre-crear un bucket en Amazon S3 y luego seleccionar el bucket en la página actual. Después de eso, tomará un corto tiempo para que el sistema esté listo para el nuevo inquilino creado."
+
+#: ../../chapter02.rst:275
+msgid "FINISHING AMAZON S3 CONFIGURATION"
+msgstr "FINALIZANDO LA CONFIGURACIÓN DE AMAZON S3"
+
+#: ../../chapter02.rst:277
+msgid ""
+"After the tenant is created, you will be looking at the dashboard of the "
+"tenant."
+msgstr "Después de crear el inquilino, estará viendo el panel de control del inquilino."
+
+#: ../../chapter02.rst:280
+msgid "**Using Windows Azure Blob Storage for tenant storage**"
+msgstr "**Usando el Almacenamiento Blob de Windows Azure para el almacenamiento de inquilinos**"
+
+#: ../../chapter02.rst:282
+msgid ""
+"In addition to Amazon S3 bucket, you can also use Windows Azure Blob "
+"Storage as the tenant's back end storage."
+msgstr "Además de Amazon S3 bucket, también puede utilizar Windows Azure Blob Storage como almacenamiento trasero del inquilino."
+
+#: ../../chapter02.rst:284
+msgid ""
+"Similar to the above Amazon S3 setup process, you can pick \"Windows "
+"Azure Blob\" as the option during the tenant creation process."
+msgstr "De manera similar al proceso de configuración de Amazon S3 mencionado anteriormente, puedes elegir \"Windows Azure Blob\" como opción durante el proceso de creación del inquilino."
+
+#: ../../chapter02.rst:289
+msgid "WINDOWS AZURE BLOB SETUP"
+msgstr "CONFIGURACIÓN DE BLOB DE WINDOWS AZURE"
+
+#: ../../chapter02.rst:291
+msgid "The next screen will be asking for ``Blob URL`` and the ``Primary key``."
+msgstr "La siguiente pantalla solicitará la ``URL del Blob`` y la ``Clave primaria``."
+
+#: ../../chapter02.rst:296
+msgid "AZURE BLOB URL AND PRIMARY KEY"
+msgstr "URL DE BLOB AZURE Y CLAVE PRIMARIA"
+
+#: ../../chapter02.rst:298
+msgid "You can get this information from the Azure Portal."
+msgstr "Puede obtener esta información desde el Portal de Azure."
+
+#: ../../chapter02.rst:303
+msgid "AZURE BLOB ACCESS KEYS"
+msgstr "CLAVES DE ACCESO AZURE BLOB"
+
+#: ../../chapter02.rst:305
+msgid ""
+"Here is a simple mapping between Azure portal and the parameters it asks "
+"for."
+msgstr "Aquí hay una correspondencia simple entre el portal de Azure y los parámetros que solicita."
+
+#: ../../chapter02.rst:310
+msgid "AZURE BLOB ACCOUNT SETTINGS"
+msgstr "CONFIGURACIÓN DE CUENTA AZURE BLOB"
+
+#: ../../chapter02.rst:312
+msgid ""
+"After you put in the account information, the next screen asks to pick a "
+"container to use."
+msgstr "Después de ingresar la información de la cuenta, la siguiente pantalla solicita elegir un contenedor para utilizar."
+
+#: ../../chapter02.rst:317
+msgid "AZURE BLOB ACCOUNT INFORMATION"
+msgstr "INFORMACIÓN DE LA CUENTA AZURE BLOB"
+
+#: ../../chapter02.rst:319
+msgid ""
+"After the container information is all set, the tenant account will be "
+"created."
+msgstr "Después de que la información del contenedor esté completa, se creará la cuenta del inquilino."
+
+#: ../../chapter02.rst:324
+msgid "Cluster Branding"
+msgstr "Marca del Clúster"
+
+#: ../../chapter02.rst:326
+msgid "``Cluster Manager`` > ``Cluster Branding``"
+msgstr "``Gestor de Clústeres`` > ``Personalización del Clúster``"
+
+#: ../../chapter02.rst:328
+msgid ""
+"Cluster Branding is for changing the logo, bitmaps and other branding "
+"related information. There are two branding supports. One is self-service"
+" built-in branding, which is completely controlled by the “Cluster "
+"Branding” settings on the “Cluster Manager”. The other is full-branding "
+"service. Both rely on the “Cluster Branding” to change the look-and-feel "
+"of the web portal."
+msgstr "La personalización de Cluster es para cambiar el logotipo, los mapas de bits y otra información relacionada con la marca. Hay dos tipos de soporte para la personalización. Uno es la personalización incorporada de autoservicio, que está completamente controlada por los ajustes de 'Personalización de Cluster' en el 'Cluster Manager'. El otro es el servicio de personalización completa. Ambos dependen de la 'Personalización de Cluster' para cambiar la apariencia del portal web."
+
+#: ../../chapter02.rst:331
+msgid ""
+"Built-in branding will work with white-label clients, which upon the "
+"first connection to the cluster, will download the branding related "
+"information and  use the branding related information. As compared to "
+"full-branding service, the full branding clients will have artworks, logo"
+" bitmaps and related information burned into the client binaries."
+msgstr "La marca incorporada funcionará con clientes de marca blanca, que al conectarse por primera vez al clúster, descargarán la información relacionada con la marca y utilizarán dicha información. En comparación con el servicio de marca completa, los clientes de marca completa tendrán obras de arte, logotipos en mapa de bits e información relacionada integrados en los binarios del cliente."
+
+#: ../../chapter02.rst:334
+msgid "General"
+msgstr "General"
+
+#: ../../chapter02.rst:336
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``General``"
+msgstr "``Gestor de Clústeres`` > ``Personalización del Clúster`` > ``General``"
+
+#: ../../chapter02.rst:338
+msgid ""
+"Under the ``General`` tab you can specify the name and other settings as "
+"specified below."
+msgstr "En la pestaña ``General`` puedes especificar el nombre y otros ajustes como se indica a continuación."
+
+#: ../../chapter02.rst:343
+msgid "CLUSTER BRANDING"
+msgstr "BRANDING DE CLÚSTER"
+
+#: ../../chapter02.rst:345
+msgid "**Product Name (1)**"
+msgstr "**Nombre del Producto (1)**"
+
+#: ../../chapter02.rst:347
+msgid ""
+"This is where you will specify what you would like to call the product. "
+"This is the name that users will see when they login either in web portal"
+" or the client applications. To access branding settings click \"Cluster "
+"Branding\" in Dashboard then \"EDIT\" and change the setting you want. "
+"Don't forget to save your settings. You can also choose a color theme "
+"which you would like your users to see when they login to the portal. You"
+" can choose a color theme that is close to your company colors."
+msgstr "Aquí es donde especificará cómo le gustaría llamar al producto. Este es el nombre que los usuarios verán cuando inicien sesión, ya sea en el portal web o en las aplicaciones cliente. Para acceder a la configuración de marca, haga clic en \"Marca del Clúster\" en el Panel de Control, luego en \"EDITAR\" y cambie la configuración que desee. No olvide guardar su configuración. También puede elegir un tema de color que le gustaría que sus usuarios vean cuando inicien sesión en el portal. Puede elegir un tema de color que se acerque a los colores de su empresa."
+
+#: ../../chapter02.rst:349
+msgid "**Home Page URL (2)**"
+msgstr "**URL de la Página Principal (2)**"
+
+#: ../../chapter02.rst:351
+msgid "This is the URL of your 'Home Page' page."
+msgstr "Esta es la URL de tu página de 'Inicio'."
+
+#: ../../chapter02.rst:356
+msgid "HOME PAGE URL AND COPYRIGHT STATEMENT"
+msgstr ""
+
+#: ../../chapter02.rst:359
+msgid "**'Copyright' Statement (3)**"
+msgstr "**'Declaración de Derechos de Autor' (3)**"
+
+#: ../../chapter02.rst:361
+msgid "This is the contents of your 'Copyright' statement."
+msgstr "Este es el contenido de su declaración de 'Derechos de autor'."
+
+#: ../../chapter02.rst:364
+msgid "Web Portal"
+msgstr "Portal Web"
+
+#: ../../chapter02.rst:366
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``"
+msgstr "``Gestor de Clústeres`` > ``Branding de Clúster`` > ``Portal Web``"
+
+#: ../../chapter02.rst:370
+msgid ""
+"In previous builds, the best way to get icons to work is by putting the "
+"icon files on the same server and reference the icons via a relative "
+"link."
+msgstr "En versiones anteriores, la mejor manera de hacer que los iconos funcionen es colocando los archivos de iconos en el mismo servidor y referenciar los iconos a través de un enlace relativo."
+
+#: ../../chapter02.rst:372
+msgid ""
+"For example, you can create a sub folder under the Install Folder of the "
+"Cluster Server, such as under root/imagetest folder. The dimensions for "
+"all icons for each setting under web portal should match what is "
+"displayed for each setting. The branding of the icons and images require "
+"the icons and images with the same width/height as specified or same "
+"aspect ratio if the resolution is higher."
+msgstr "Por ejemplo, puedes crear una subcarpeta dentro de la Carpeta de Instalación del Servidor de Clúster, como bajo la carpeta root/imagetest. Las dimensiones de todos los iconos para cada configuración bajo el portal web deben coincidir con lo que se muestra para cada configuración. La marca de los iconos e imágenes requiere que los iconos e imágenes tengan el mismo ancho/alto especificado o la misma relación de aspecto si la resolución es más alta."
+
+#: ../../chapter02.rst:374
+msgid ""
+"In later builds, the icons used are what-you-see-is-what-you-get and you "
+"can upload those icon sets."
+msgstr "En versiones posteriores, los íconos utilizados son lo-que-ves-es-lo-que-obtienes y puedes subir esos conjuntos de íconos."
+
+#: ../../chapter02.rst:379
+msgid "WEB PORTAL SETTINGS"
+msgstr "CONFIGURACIÓN DEL PORTAL WEB"
+
+#: ../../chapter02.rst:382
+msgid "**Application Icon (1)**"
+msgstr "**Icono de la Aplicación (1)**"
+
+#: ../../chapter02.rst:384
+msgid ""
+"From the Web portal section of cluster branding, you can change the "
+"application icon. This is the image that is displayed next to the product"
+" name in the web portal."
+msgstr "Desde la sección de personalización de marca del clúster en el portal web, puedes cambiar el icono de la aplicación. Esta es la imagen que se muestra junto al nombre del producto en el portal web."
+
+#: ../../chapter02.rst:386
+msgid "**Tenant Logo (2)**"
+msgstr "**Logotipo del inquilino (2)**"
+
+#: ../../chapter02.rst:388
+msgid "This is where the logo that represents each tenant should be uploaded."
+msgstr "Aquí es donde se debe subir el logotipo que representa a cada inquilino."
+
+#: ../../chapter02.rst:390
+msgid "**Drive Icon (3)**"
+msgstr "**Icono de Unidad (3)**"
+
+#: ../../chapter02.rst:392
+msgid ""
+"This is the icon that will be used for the cloud drive. For example in "
+"the web portal tree view."
+msgstr "Este es el icono que se utilizará para la unidad en la nube. Por ejemplo, en la vista de árbol del portal web."
+
+#: ../../chapter02.rst:394
+msgid "**Logo Url (4) & Login Page Left Image (5)**"
+msgstr "**URL del logotipo (4) & Imagen izquierda de la página de inicio de sesión (5)**"
+
+#: ../../chapter02.rst:396
+msgid ""
+"Please follow the same steps for branding settings for 'Login Background "
+"Image', 'File Share Stamp Icon', 'IOS Client App ID', 'Login Page Note', "
+"'Change Password URL', 'Tutorial Page URL'."
+msgstr "Por favor, siga los mismos pasos para la configuración de marca para 'Imagen de fondo de inicio de sesión', 'Icono de sello de compartición de archivos', 'ID de la aplicación cliente IOS', 'Nota de la página de inicio de sesión', 'URL para cambiar la contraseña', 'URL de la página del tutorial'."
+
+#: ../../chapter02.rst:400
+msgid "Client Download"
+msgstr "Descarga del Cliente"
+
+#: ../../chapter02.rst:402
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Client Download``"
+msgstr "``Gestor de Clústeres`` > ``Personalización del Clúster`` > ``Descarga del Cliente``"
+
+#: ../../chapter02.rst:404
+msgid "You can choose not to show the download link for some clients here."
+msgstr "Puede elegir no mostrar el enlace de descarga para algunos clientes aquí."
+
+#: ../../chapter02.rst:409
+msgid "CLIENT DOWNLOAD SETTINGS"
+msgstr "CONFIGURACIÓN DE DESCARGA DEL CLIENTE"
+
+#: ../../chapter02.rst:412
+msgid "**Mobile Clients Download Links**"
+msgstr "**Enlaces de Descarga para Clientes Móviles**"
+
+#: ../../chapter02.rst:414
+msgid ""
+"Once you brand your own iOS client and/or Android Client you can point "
+"the download link to your own AppStore and Google Play locations."
+msgstr "Una vez que personalice su propio cliente de iOS y/o cliente de Android, puede dirigir el enlace de descarga a sus propias ubicaciones de AppStore y Google Play."
+
+#: ../../chapter02.rst:420
+msgid "CLIENT DOWNLOAD LINKS SETTINGS"
+msgstr "CONFIGURACIÓN DE ENLACES DE DESCARGA DEL CLIENTE"
+
+#: ../../chapter02.rst:424 ../../chapter02.rst:837
+msgid "Windows Client"
+msgstr "Cliente de Windows"
+
+#: ../../chapter02.rst:426
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``"
+msgstr "``Gestor de Clústeres`` > ``Personalización del Clúster`` > ``Cliente de Windows``"
+
+#: ../../chapter02.rst:428
+msgid ""
+"The application icon and drive icon URLs can be specified here. Also, you"
+" can put in your company name under 'Manufacturer Name' along with the "
+"'Contact Info' email. You also have the option here to create your own "
+"branded MSI Windows client. You can also use your own code signing "
+"certificate in order to digitally sign the MSI package. The advantage of "
+"creating your own MSI client package is that when users download and "
+"install the Windows Client you provide, they will see your company name "
+"along with your branding during the client installation."
+msgstr "Aquí se pueden especificar las URLs del icono de la aplicación y del icono de la unidad. Además, puedes incluir el nombre de tu empresa en 'Nombre del Fabricante' junto con el correo electrónico de 'Información de Contacto'. También tienes la opción de crear tu propio cliente MSI de Windows con marca propia. Puedes utilizar también tu propio certificado de firma de código para firmar digitalmente el paquete MSI. La ventaja de crear tu propio paquete de cliente MSI es que cuando los usuarios descargan e instalan el Cliente de Windows que proporcionas, verán el nombre de tu empresa junto con tu marca durante la instalación del cliente."
+
+#: ../../chapter02.rst:430
+msgid ""
+"Windows client supports multiple languages. Some language packs are "
+"included and shipped with CentreStack. If you need to run the Windows "
+"client under a different language, you can set the UI Language there."
+msgstr "El cliente de Windows soporta múltiples idiomas. Algunos paquetes de idiomas están incluidos y se envían con CentreStack. Si necesitas ejecutar el cliente de Windows en un idioma diferente, puedes configurar el Idioma de la Interfaz allí."
+
+#: ../../chapter02.rst:435
+msgid "WINDOWS CLIENT BRANDING"
+msgstr "BRANDING DEL CLIENTE DE WINDOWS"
+
+#: ../../chapter02.rst:437
+msgid ""
+"Once you clicked the \"Edit\" button to edit the Windows Client branding "
+"information, you will be able to provide EULA (End User License "
+"Agreement) and Code Signing Certificate."
+msgstr "Una vez que hagas clic en el botón \"Editar\" para editar la información de marca del Cliente de Windows, podrás proporcionar el EULA (Acuerdo de Licencia del Usuario Final) y el Certificado de Firma de Código."
+
+#: ../../chapter02.rst:442
+msgid "WINDOWS CLIENT BRANDING SETTINGS"
+msgstr "CONFIGURACIÓN DE MARCA DEL CLIENTE DE WINDOWS"
+
+#: ../../chapter02.rst:445
+msgid "**EULA (1)**"
+msgstr "**EULA (1)**"
+
+#: ../../chapter02.rst:447
+msgid "This will be a RTF file format as input."
+msgstr "Este será un formato de archivo RTF como entrada."
+
+#: ../../chapter02.rst:450
+msgid "**Code Signing Certificate (2)**"
+msgstr "**Certificado de Firma de Código (2)**"
+
+#: ../../chapter02.rst:452
+msgid ""
+"You can acquire a code signing certificate from your code signing "
+"certificate vendor. Most SSL vendor also provide code signing "
+"certificate. Make sure you use SHA 256 (SHA2) as your digital signing "
+"certificate hash algorithm."
+msgstr "Puede adquirir un certificado de firma de código de su proveedor de certificados de firma de código. La mayoría de los proveedores de SSL también ofrecen certificados de firma de código. Asegúrese de usar SHA 256 (SHA2) como algoritmo de hash de su certificado de firma digital."
+
+#: ../../chapter02.rst:454
+msgid ""
+"If your Code Signing certificate is already installed you can also use "
+"the option - ``Sign using cert in certificate store`` **(3)**"
+msgstr "Si su certificado de firma de código ya está instalado, también puede utilizar la opción - ``Sign using cert in certificate store`` **(3)**"
+
+#: ../../chapter02.rst:458 ../../chapter02.rst:877
+msgid "Mac Client"
+msgstr "Cliente Mac"
+
+#: ../../chapter02.rst:460
+msgid ""
+"You can configure the MAC client and MAC client installation package "
+"branding under here."
+msgstr "Puede configurar la marca del cliente MAC y el paquete de instalación del cliente MAC aquí."
+
+#: ../../chapter02.rst:463
+msgid "**Client Branding**"
+msgstr "**Marca del Cliente**"
+
+#: ../../chapter02.rst:468
+msgid "MAC CLIENT BRANDING"
+msgstr "BRANDING PARA CLIENTES MAC"
+
+#: ../../chapter02.rst:470
+msgid "**Installation Package Branding**"
+msgstr "**Paquete de Instalación de Marca**"
+
+#: ../../chapter02.rst:472
+msgid ""
+"You can brand the Mac software agent package as well. You will need to go"
+" to https://www.centrestack.com/, login as a partner and go to the "
+"\"Branding\" section to create a branding task. The task will be "
+"fulfilled and completed and a Mac software agent package will be "
+"available for download once the branding task completes. It may take a "
+"couple of days for the task to finish."
+msgstr "También puede personalizar el paquete del agente de software para Mac. Necesitará ir a https://www.centrestack.com/, iniciar sesión como socio y acceder a la sección \"Branding\" para crear una tarea de personalización. La tarea se cumplirá y completará y un paquete del agente de software para Mac estará disponible para descargar una vez que la tarea de personalización se complete. Puede tardar un par de días en finalizar la tarea."
+
+#: ../../chapter02.rst:478
+msgid "MAC CLIENT BRANDING IN PARTNER PORTAL"
+msgstr "BRANDING DEL CLIENTE MAC EN EL PORTAL DE SOCIOS"
+
+#: ../../chapter02.rst:483
+msgid ""
+"Mac software package branding is different from the Windows software "
+"package branding because the Mac software package branding will need to "
+"be done on a Mac machine. So the task will be created on the partner "
+"portal but will be completed asynchronously on a Mac machine."
+msgstr "El branding del paquete de software para Mac es diferente al branding del paquete de software para Windows porque el branding del paquete de software para Mac necesitará realizarse en una máquina Mac. Por lo tanto, la tarea se creará en el portal de socios pero se completará de manera asincrónica en una máquina Mac."
+
+#: ../../chapter02.rst:488
+msgid "Emails"
+msgstr "Correos electrónicos"
+
+#: ../../chapter02.rst:490
+msgid ""
+"There are many places in the Cluster Manager that need to contact the "
+"users via email. So the “Emails” tab is used to set up the email "
+"templates used for contacting users via email."
+msgstr "Hay muchos lugares en el Administrador de Clúster que necesitan contactar a los usuarios por correo electrónico. Por lo tanto, la pestaña “Correos electrónicos” se utiliza para configurar las plantillas de correo electrónico usadas para contactar a los usuarios vía email."
+
+#: ../../chapter02.rst:495
+msgid "EMAIL SETTINGS"
+msgstr "CONFIGURACIÓN DE CORREO ELECTRÓNICO"
+
+#: ../../chapter02.rst:497
+msgid "**Welcome Email for New Tenant**"
+msgstr "**Correo de bienvenida para nuevo inquilino**"
+
+#: ../../chapter02.rst:499
+msgid ""
+"This is the email sent to the new tenant when the tenant is created. The "
+"email is sent to the tenant administrator."
+msgstr "Este es el correo electrónico enviado al nuevo inquilino cuando se crea el inquilino. El correo electrónico se envía al administrador del inquilino."
+
+#: ../../chapter02.rst:502
+msgid "**Welcome Email for New Team User**"
+msgstr "**Correo de bienvenida para el nuevo usuario del equipo**"
+
+#: ../../chapter02.rst:504
+msgid ""
+"The team user is a regular user in a tenant. This is the email template "
+"that is sent to the user when the user account is created."
+msgstr "El usuario del equipo es un usuario regular en un inquilino. Esta es la plantilla de correo electrónico que se envía al usuario cuando se crea la cuenta de usuario."
+
+#: ../../chapter02.rst:507
+msgid "**Welcome Email for New Guest User**"
+msgstr "**Correo de bienvenida para el nuevo usuario invitado**"
+
+#: ../../chapter02.rst:509
+msgid ""
+"Guest user is a regular user in a tenant that doesn't have a home "
+"directory associated. So the guest user can only operate within shared "
+"files and folders from other regular users. This is the email template "
+"that is sent to the guest user when the guest user's account was "
+"provisioned."
+msgstr "El usuario invitado es un usuario regular en un inquilino que no tiene un directorio principal asociado. Por lo tanto, el usuario invitado solo puede operar dentro de los archivos y carpetas compartidos por otros usuarios regulares. Esta es la plantilla de correo electrónico que se envía al usuario invitado cuando se provisionó la cuenta del usuario invitado."
+
+#: ../../chapter02.rst:512
+msgid "**Email for File/Folder Share**"
+msgstr "**Correo electrónico para compartir archivo/carpeta**"
+
+#: ../../chapter02.rst:514
+msgid ""
+"This is the email sent to a user when the user is about to receive "
+"file/folder shares."
+msgstr "Este es el correo electrónico que se envía a un usuario cuando está a punto de recibir comparticiones de archivos/carpetas."
+
+#: ../../chapter02.rst:517
+msgid "**Request a File**"
+msgstr "**Solicitar un Archivo**"
+
+#: ../../chapter02.rst:519
+msgid ""
+"This is the email sent to a user when the user is about to receive an "
+"invitation to upload a file."
+msgstr "Este es el correo electrónico que se envía a un usuario cuando está a punto de recibir una invitación para subir un archivo."
+
+#: ../../chapter02.rst:522
+msgid "**Notify external user that shared file changed**"
+msgstr "**Notificar al usuario externo que el archivo compartido ha cambiado**"
+
+#: ../../chapter02.rst:524
+msgid ""
+"When a shared file/folder changed, this is the email that is sent to the "
+"user who receives file/folder shares."
+msgstr "Cuando un archivo/carpeta compartida cambia, este es el correo electrónico que se envía al usuario que recibe comparticiones de archivos/carpetas."
+
+#: ../../chapter02.rst:527
+msgid "**Admin Reset User Password Email**"
+msgstr "**Correo electrónico de restablecimiento de contraseña de administrador**"
+
+#: ../../chapter02.rst:529
+msgid "This is the email that sent to a user when the user's password is reset."
+msgstr "Este es el correo electrónico que se envía a un usuario cuando se restablece la contraseña del usuario."
+
+#: ../../chapter02.rst:532
+msgid "**User Reset Password Email**"
+msgstr "**Correo Electrónico de Restablecimiento de Contraseña del Usuario**"
+
+#: ../../chapter02.rst:534
+msgid ""
+"This is the email that sent to a user when the user resets the password "
+"for himself/herself."
+msgstr "Este es el correo electrónico que se envía a un usuario cuando el usuario restablece la contraseña por sí mismo."
+
+#: ../../chapter02.rst:537
+msgid "**New Sign-in Action Email**"
+msgstr "**Nuevo correo electrónico de acción de inicio de sesión**"
+
+#: ../../chapter02.rst:539
+msgid ""
+"This is the email notification sent to the user when the user logins from"
+" a specific machine."
+msgstr "Esta es la notificación por correo electrónico que se envía al usuario cuando inicia sesión desde una máquina específica."
+
+#: ../../chapter02.rst:541
+msgid "**Settings**"
+msgstr "**Configuración**"
+
+#: ../../chapter02.rst:543
+msgid ""
+"This is to set the reply email address. Typically the email is sent with "
+"the SMTP service set. However, if the reply address is different, you can"
+" set it here."
+msgstr "Esto es para configurar la dirección de correo electrónico de respuesta. Típicamente el correo electrónico se envía con el servicio SMTP configurado. Sin embargo, si la dirección de respuesta es diferente, puedes establecerla aquí."
+
+#: ../../chapter02.rst:547
+msgid "Android Client"
+msgstr "Cliente Android"
+
+#: ../../chapter02.rst:551
+msgid ""
+"Branding the android client can now be automated from your partner portal"
+" (https://partner.centrestack.com/login/). Please go to "
+"https://partner.centrestack.com/login/ to brand the Android client."
+msgstr "Personalizar el cliente de Android ahora se puede automatizar desde su portal de socios (https://partner.centrestack.com/login/). Por favor, vaya a https://partner.centrestack.com/login/ para personalizar el cliente de Android."
+
+#: ../../chapter02.rst:554
+msgid ""
+"The branding of Android client and iOS client is done from "
+"www.centrestack.com, instead of from your own server."
+msgstr "La personalización de la marca del cliente de Android y del cliente de iOS se realiza desde www.centrestack.com, en lugar de desde su propio servidor."
+
+#: ../../chapter02.rst:559
+msgid "ANDROID CLIENT BRANDING"
+msgstr "BRANDING DEL CLIENTE ANDROID"
+
+#: ../../chapter02.rst:563
+msgid "iOS Client"
+msgstr "Cliente iOS"
+
+#: ../../chapter02.rst:567
+msgid ""
+"Branding of iOS client can now be automated from partner portal "
+"(https://partner.centrestack.com/login/)."
+msgstr "La personalización de la marca del cliente de iOS ahora puede automatizarse desde el portal de socios (https://partner.centrestack.com/login/)."
+
+#: ../../chapter02.rst:569
+msgid ""
+"The information here in this section is preserved for legacy reference. "
+"Please go to https://partner.centrestack.com/login/ to brand iOS client."
+msgstr "La información aquí en esta sección se conserva como referencia histórica. Por favor, visite https://partner.centrestack.com/login/ para personalizar el cliente de iOS."
+
+#: ../../chapter02.rst:571
+msgid ""
+"As shown in the above picture, you can generate branding task and request"
+" for Android branding and iOS branding."
+msgstr "Como se muestra en la imagen anterior, puedes generar una tarea de marca y solicitar la personalización de marca para Android y iOS."
+
+#: ../../chapter02.rst:576
+msgid "Export/Import"
+msgstr "Exportar/Importar"
+
+#: ../../chapter02.rst:578
+msgid ""
+"You can either export the branding settings to another cluster or you can"
+" import branding settings from another cluster in this cluster under this"
+" setting."
+msgstr "Puede exportar la configuración de marca a otro clúster o puede importar la configuración de marca de otro clúster en este clúster bajo esta configuración."
+
+#: ../../chapter02.rst:583
+msgid "EXPORT/IMPORT SETTINGS"
+msgstr "EXPORTAR/IMPORTAR CONFIGURACIONES"
+
+#: ../../chapter02.rst:588
+msgid "Reports"
+msgstr "Informes"
+
+#: ../../chapter02.rst:590
+msgid "``Cluster Manager`` > ``Reports``"
+msgstr "``Gestor de Clústeres`` > ``Informes``"
+
+#: ../../chapter02.rst:593
+msgid "Upload Report"
+msgstr "Subir Informe"
+
+#: ../../chapter02.rst:595
+msgid ""
+"Upload report tab shows you graphs for all the uploads that have taken "
+"place in the last sixty minutes, 24 hours, 30 days and a whole week."
+msgstr "La pestaña de informe de subida muestra gráficos de todas las subidas que han ocurrido en los últimos sesenta minutos, 24 horas, 30 días y una semana completa."
+
+#: ../../chapter02.rst:601
+msgid "UPLOAD REPORT"
+msgstr "INFORME DE CARGA"
+
+#: ../../chapter02.rst:605
+msgid "Storage Statistics"
+msgstr "Estadísticas de Almacenamiento"
+
+#: ../../chapter02.rst:607
+msgid ""
+"Under storage statistics, you can see a quick overview of the overall "
+"storage statistics, size distribution file type distribution pie charts, "
+"and users who have used the most storage so far."
+msgstr "Bajo las estadísticas de almacenamiento, puedes ver un resumen rápido de las estadísticas generales de almacenamiento, gráficos de pastel de distribución de tamaño y tipo de archivo, y los usuarios que más almacenamiento han utilizado hasta ahora."
+
+#: ../../chapter02.rst:613
+msgid "STORAGE STATISTICS REPORT"
+msgstr "INFORME DE ESTADÍSTICAS DE ALMACENAMIENTO"
+
+#: ../../chapter02.rst:617
+msgid "Active Users"
+msgstr "Usuarios Activos"
+
+#: ../../chapter02.rst:619
+msgid ""
+"Active users reports the activity of users on the web portal. The active "
+"users report doesn't include users from windows client or other native "
+"clients because those users are more persistent (always there). To access"
+" this report, you can click on the active users section in the panel near"
+" the top of the screen."
+msgstr "Los informes de usuarios activos muestran la actividad de los usuarios en el portal web. El informe de usuarios activos no incluye a los usuarios del cliente de Windows u otros clientes nativos porque esos usuarios son más persistentes (siempre están presentes). Para acceder a este informe, puedes hacer clic en la sección de usuarios activos en el panel cerca de la parte superior de la pantalla."
+
+#: ../../chapter02.rst:626
+msgid "ACTIVE USERS REPORT"
+msgstr "INFORME DE USUARIOS ACTIVOS"
+
+#: ../../chapter02.rst:630
+msgid "Guest Users"
+msgstr "Usuarios Invitados"
+
+#: ../../chapter02.rst:632
+msgid ""
+"Other reports are also available such as Guest Users, which are users "
+"that don't have a home directory but are invited to participate on some "
+"shared folders and shared files."
+msgstr "También están disponibles otros informes como Usuarios Invitados, que son usuarios que no tienen un directorio personal pero están invitados a participar en algunas carpetas compartidas y archivos compartidos."
+
+#: ../../chapter02.rst:636
+msgid "Node Performance"
+msgstr "Rendimiento del Nodo"
+
+#: ../../chapter02.rst:638
+msgid ""
+"You can use the Node Performance to check out the worker node health and "
+"the database health."
+msgstr "Puede utilizar el Rendimiento del Nodo para verificar la salud del nodo trabajador y la salud de la base de datos."
+
+#: ../../chapter02.rst:644
+msgid "NODE PERFORMANCE REPORT"
+msgstr "INFORME DE RENDIMIENTO DEL NODO"
+
+#: ../../chapter02.rst:647
+msgid "**Last Reported**"
+msgstr "**Último reporte**"
+
+#: ../../chapter02.rst:649
+msgid ""
+"You want to see this field has small numbers such as 6 seconds, 10 "
+"seconds. If you see sometime like 3 hours ago, that means the node is not"
+" reporting the health."
+msgstr "Desea ver que este campo tenga números pequeños como 6 segundos, 10 segundos. Si ve algo como hace 3 horas, eso significa que el nodo no está informando sobre el estado."
+
+#: ../../chapter02.rst:652
+msgid "**Total Requests Processed**"
+msgstr "**Total de Solicitudes Procesadas**"
+
+#: ../../chapter02.rst:654
+msgid ""
+"You want to see this number as big as possible. This number is cumulative"
+" since the service was last re-started. So the bigger the number, the "
+"more stable the service is. Also when you have multiple worker nodes, you"
+" want to see the Total Requests distributed evenly among the worker "
+"nodes."
+msgstr "Desea ver este número lo más grande posible. Este número es acumulativo desde la última vez que se reinició el servicio. Por lo tanto, cuanto mayor sea el número, más estable será el servicio. Además, cuando tenga varios nodos trabajadores, querrá ver las Solicitudes Totales distribuidas uniformemente entre los nodos trabajadores."
+
+#: ../../chapter02.rst:657
+msgid "**Request Executing**"
+msgstr "**Ejecutando solicitud**"
+
+#: ../../chapter02.rst:659
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of requests that are concurrently executing on the server. In general a "
+"number smaller than 100 is normal. Bigger than 100 is abnormal. Anything "
+"bigger than 20 will require investigation."
+msgstr "Quieres ver este número lo más pequeño posible. Esto significa la cantidad de solicitudes que se están ejecutando simultáneamente en el servidor. En general, un número menor de 100 es normal. Mayor que 100 es anormal. Cualquier cosa mayor que 20 requerirá investigación."
+
+#: ../../chapter02.rst:662
+msgid "**Last Request Time**"
+msgstr "**Última Hora de la Solicitud**"
+
+#: ../../chapter02.rst:664
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of milliseconds for the last request. In general, numbers smaller than "
+"3000 or 5000 are normal, which translates to below 3-5 seconds."
+msgstr "Desea ver este número lo más pequeño posible. Esto significa el número de milisegundos para la última solicitud. En general, números menores a 3000 o 5000 son normales, lo que se traduce en menos de 3-5 segundos."
+
+#: ../../chapter02.rst:667
+msgid "**Pending Change Notification**"
+msgstr "**Notificación de Cambio Pendiente**"
+
+#: ../../chapter02.rst:669
+msgid ""
+"For the files and folders that are changed, there is change notification "
+"written to the database. In general, you want to see the pending queue as"
+" short as possible."
+msgstr "Para los archivos y carpetas que se modifican, hay una notificación de cambio escrita en la base de datos. En general, quieres ver la cola de pendientes lo más corta posible."
+
+#: ../../chapter02.rst:672
+msgid "**Active Node Request**"
+msgstr "**Solicitud de Nodo Activo**"
+
+#: ../../chapter02.rst:674
+msgid ""
+"These are the clients out there contacting the server. Usually it is just"
+" for reporting purposes."
+msgstr "Estos son los clientes que se comunican con el servidor. Generalmente es solo para fines de informes."
+
+#: ../../chapter02.rst:677
+msgid "**Pending Change Polling**"
+msgstr "**Sondeo de Cambios Pendientes**"
+
+#: ../../chapter02.rst:679
+msgid ""
+"These are the clients out there polling to see whether there are files "
+"and folders that have been changed. Usually the smaller the better."
+msgstr "Estos son los clientes que están sondeando para ver si hay archivos y carpetas que han cambiado. Por lo general, cuanto más pequeños, mejor."
+
+#: ../../chapter02.rst:682
+msgid "**Active Clients**"
+msgstr "**Clientes Activos**"
+
+#: ../../chapter02.rst:684
+msgid "For reporting purpose."
+msgstr "Para propósitos de reporte."
+
+#: ../../chapter02.rst:687
+msgid "**Pending Dir Request(H)**"
+msgstr "**Solicitud de Directorio Pendiente(H)**"
+
+#: ../../chapter02.rst:689
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the high priority queue."
+msgstr "Las llamadas de listado de directorios pendientes de los clientes remotos al Servidor de Clúster. Esta es la cola de alta prioridad."
+
+#: ../../chapter02.rst:693
+msgid "**Pending Dir Request(L)**"
+msgstr "**Solicitud de Directorio Pendiente(L)**"
+
+#: ../../chapter02.rst:695
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the low priority queue."
+msgstr "Las llamadas de listado de directorios pendientes de los clientes remotos al Servidor de Clúster. Esta es la cola de baja prioridad."
+
+#: ../../chapter02.rst:698
+msgid ""
+"If you don't see the node performance report, check the **Internal URL** "
+"setting of each worker node."
+msgstr "Si no ves el informe de rendimiento del nodo, verifica la configuración de **URL Interna** de cada nodo trabajador."
+
+#: ../../chapter02.rst:700
+msgid "Under reports you can look at the upload graphs and storage statistics."
+msgstr "Bajo los informes puedes mirar las gráficas de carga y las estadísticas de almacenamiento."
+
+#: ../../chapter02.rst:705
+msgid "Bandwidth Usage"
+msgstr "Uso de Ancho de Banda"
+
+#: ../../chapter02.rst:707
+msgid ""
+"This shows the overall bandwidth usage statistics as well as more "
+"granular tenant and user level statistics."
+msgstr "Esto muestra las estadísticas generales de uso de ancho de banda, así como estadísticas más detalladas a nivel de inquilino y usuario."
+
+#: ../../chapter02.rst:712
+msgid "BANDWIDTH USAGE REPORT"
+msgstr "INFORME DE USO DE ANCHO DE BANDA"
+
+#: ../../chapter02.rst:716
+msgid "System Diagnostic Report"
+msgstr "Informe de Diagnóstico del Sistema"
+
+#: ../../chapter02.rst:718
+msgid "Click the Start Scanning button to generate system diagnostic report."
+msgstr "Haga clic en el botón Iniciar escaneo para generar el informe de diagnóstico del sistema."
+
+#: ../../chapter02.rst:723
+msgid "GENERATE REPORT"
+msgstr "GENERAR INFORME"
+
+#: ../../chapter02.rst:725
+msgid "A sample system diagnostic report is shown below."
+msgstr "A continuación se muestra un ejemplo de informe de diagnóstico del sistema."
+
+#: ../../chapter02.rst:730
+msgid "SYSTEM DIAGNOSTIC REPORT"
+msgstr "INFORME DE DIAGNÓSTICO DEL SISTEMA"
+
+#: ../../chapter02.rst:733
+msgid "Audit Trace"
+msgstr "Rastro de Auditoría"
+
+#: ../../chapter02.rst:735
+msgid "This is a sample audit trace."
+msgstr "Esta es una muestra de rastro de auditoría."
+
+#: ../../chapter02.rst:740
+msgid "AUDIT TRACE"
+msgstr "TRAZA DE AUDITORÍA"
+
+#: ../../chapter02.rst:744
+msgid "Cluster Controls"
+msgstr "Controles de Clúster"
+
+#: ../../chapter02.rst:747
+msgid "Cluster Admin"
+msgstr "Administrador del Clúster"
+
+#: ../../chapter02.rst:749
+msgid "``Cluster Manager`` > ``Cluster Admin``"
+msgstr "``Gestor de Clúster`` > ``Administrador del Clúster``"
+
+#: ../../chapter02.rst:751
+msgid ""
+"Cluster Admin section is to change the properties of the default "
+"administrator and also to add additional people to be the cluster "
+"administrators. You can access the Cluster Admin from your Cluster "
+"Dashboard."
+msgstr "La sección de Administración de Clúster sirve para cambiar las propiedades del administrador predeterminado y también para agregar personas adicionales como administradores del clúster. Puedes acceder a la Administración de Clúster desde tu Panel de Control del Clúster."
+
+#: ../../chapter02.rst:759
+msgid "CLUSTER ADMIN SETTINGS"
+msgstr "CONFIGURACIÓN DEL ADMINISTRADOR DEL CLÚSTER"
+
+#: ../../chapter02.rst:762
+msgid "Email Service"
+msgstr "Servicio de Correo Electrónico"
+
+#: ../../chapter02.rst:764
+msgid "``Cluster Manager`` > ``Email Service``"
+msgstr "``Gestor de Clúster`` > ``Servicio de Correo Electrónico``"
+
+#: ../../chapter02.rst:766
+msgid ""
+"There are many places in the |prodname| solution that the user needs to "
+"be contacted by Email. The Email service is used to set up the SMTP email"
+" service to send out the emails."
+msgstr "Hay muchos lugares en la solución |prodname| donde es necesario contactar al usuario por correo electrónico. El servicio de Email se utiliza para configurar el servicio de correo SMTP para enviar los correos electrónicos."
+
+#: ../../chapter02.rst:768
+msgid ""
+"By default, it works out of box using the default email service with the "
+"Cluster Server's customer support email address as the sender."
+msgstr "Por defecto, funciona directamente usando el servicio de correo electrónico predeterminado con la dirección de correo electrónico de soporte al cliente del Servidor Cluster como remitente."
+
+#: ../../chapter02.rst:770
+msgid ""
+"It is recommended that the SMTP service be setup to use your own SMTP "
+"service to send out emails."
+msgstr "Se recomienda que el servicio SMTP se configure para usar su propio servicio SMTP para enviar correos electrónicos."
+
+#: ../../chapter02.rst:772
+msgid ""
+"In the Authenticate User field, if your SMTP service doesn't require "
+"authentication, you can put dummy email in the field."
+msgstr "En el campo Autenticar Usuario, si su servicio SMTP no requiere autenticación, puede poner un correo electrónico ficticio en el campo."
+
+#: ../../chapter02.rst:776
+msgid "For example, if your email service is on Office 365,"
+msgstr "Por ejemplo, si tu servicio de correo electrónico está en Office 365,"
+
+#: ../../chapter02.rst:780
+msgid ":SMTP Server Address"
+msgstr "Dirección del Servidor SMTP"
+
+#: ../../chapter02.rst:780
+msgid "``smtp.office365.com``"
+msgstr "``smtp.office365.com``"
+
+#: ../../chapter02.rst:783
+msgid ":Use SSL"
+msgstr "Usar SSL"
+
+#: ../../chapter02.rst:783
+msgid "``True``"
+msgstr "``Verdadero``"
+
+#: ../../chapter02.rst:785
+msgid ":SMTP Server Port"
+msgstr "Puerto del Servidor SMTP"
+
+#: ../../chapter02.rst:786
+msgid "``587``"
+msgstr "``587``"
+
+#: ../../chapter02.rst:794
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "CONFIGURACIÓN DEL SERVICIO DE CORREO ELECTRÓNICO"
+
+#: ../../chapter02.rst:798
+msgid "Application Manager"
+msgstr "Gestor de Aplicaciones"
+
+#: ../../chapter02.rst:800
+msgid "``Cluster Manager`` > ``Application Manager``"
+msgstr "``Gestor de Clúster`` > ``Gestor de Aplicaciones``"
+
+#: ../../chapter02.rst:802
+msgid ""
+"You can access \"Application Manager\" from Cluster Dashboard, and "
+"configure Web Apps. This will enable the users to edit documents using "
+"the web apps. The applications here only apply to web portal based "
+"editing."
+msgstr "Puede acceder al \"Administrador de Aplicaciones\" desde el Panel de Control del Clúster y configurar Aplicaciones Web. Esto permitirá a los usuarios editar documentos utilizando las aplicaciones web. Las aplicaciones aquí solo se aplican a la edición basada en el portal web."
+
+#: ../../chapter02.rst:810
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "CONFIGURACIÓN DEL GESTOR DE APLICACIONES"
+
+#: ../../chapter02.rst:813
+msgid ""
+"Once an application is enabled, you will be able to see the context menu "
+"entry from the web based file and folder manager view."
+msgstr "Una vez que se habilita una aplicación, podrás ver la entrada del menú contextual desde la vista del administrador de archivos y carpetas basado en la web."
+
+#: ../../chapter02.rst:818
+msgid "APPLICATION CONTEXT MENU"
+msgstr "MENÚ DE CONTEXTO DE LA APLICACIÓN"
+
+#: ../../chapter02.rst:822
+msgid "Client Version Manager"
+msgstr "Gestor de Versión del Cliente"
+
+#: ../../chapter02.rst:824
+msgid "``Cluster Manager`` > ``Client Version Manager``"
+msgstr "``Gestor de Clúster`` > ``Gestor de Versión del Cliente``"
+
+#: ../../chapter02.rst:829
+msgid "CLIENT VERSION MANAGER"
+msgstr "GESTOR DE VERSIÓN DEL CLIENTE"
+
+#: ../../chapter02.rst:831
+msgid ""
+"For Windows Client, Mac Client and Windows Server Agent, there is an auto"
+" client update feature. Each upgrade package contains the updated "
+"clients. By clicking on the ``Publish`` button, the newer package can be "
+"published to clients out there."
+msgstr "Para el Cliente de Windows, Cliente de Mac y Agente de Servidor de Windows, hay una función de actualización automática del cliente. Cada paquete de actualización contiene los clientes actualizados. Al hacer clic en el botón ``Publicar``, el paquete más reciente puede ser publicado para los clientes externos."
+
+#: ../../chapter02.rst:834
+msgid ""
+"Every new Cluster Server upgrade contains the newer Windows client, "
+"Windows Server Agent and Mac Client. The Cluster users via manual "
+"download can get the clients that are included in the Cluster Server. "
+"However, for existing users with previously installed clients, those "
+"older clients will not auto upgrade until the newer client packages are "
+"published."
+msgstr "Cada nueva actualización del Servidor Cluster contiene el cliente de Windows más reciente, el Agente de Servidor Windows y el Cliente Mac. Los usuarios del Cluster pueden obtener los clientes incluidos en el Servidor Cluster mediante descarga manual. Sin embargo, para los usuarios existentes con clientes previamente instalados, esos clientes antiguos no se actualizarán automáticamente hasta que se publiquen los nuevos paquetes de cliente."
+
+#: ../../chapter02.rst:842
+msgid "WINDOWS CLIENT VERSION SETTINGS"
+msgstr "CONFIGURACIÓN DE LA VERSIÓN DEL CLIENTE DE WINDOWS"
+
+#: ../../chapter02.rst:844
+msgid "**Daily Upgrade Limit (1)**"
+msgstr "**Límite Diario de Actualización (1)**"
+
+#: ../../chapter02.rst:846
+msgid ""
+"This is a per-worker node setting. For example, if you have 2 worker "
+"nodes, and set the daily upgrade limit to 100, maximum 200 clients will "
+"be upgraded per day."
+msgstr "Esta es una configuración por nodo trabajador. Por ejemplo, si tienes 2 nodos trabajadores y estableces el límite de actualización diaria en 100, se actualizará un máximo de 200 clientes por día."
+
+#: ../../chapter02.rst:848
+msgid "**Apply to Users (2)**"
+msgstr "**Aplicar a Usuarios (2)**"
+
+#: ../../chapter02.rst:850
+msgid "This typically is used for testing prior to pushing the client out."
+msgstr "Esto generalmente se utiliza para pruebas antes de implementar el cliente."
+
+#: ../../chapter02.rst:853
+msgid "**Do Not Apply to Users (3)**"
+msgstr "**No Aplicar a Usuarios (3)**"
+
+#: ../../chapter02.rst:855
+msgid ""
+"This typically is used for testing prior to pushing the client out and to"
+" exclude certain users."
+msgstr "Esto normalmente se utiliza para pruebas antes de distribuir el cliente y para excluir a ciertos usuarios."
+
+#: ../../chapter02.rst:859
+msgid ""
+"The windows client out there has a process running as a background "
+"windows service. The service will periodically check for a newer upgrade "
+"in about 1-2 hour intervals. Once a newer client package is published and"
+" discovered, the newer package will be downloaded. However, if the client"
+" is still actively running, the replacement and upgrade will not happen "
+"until the client application is stopped and restarted. This usually "
+"happens when the user logs off their Windows or restarts their desktop "
+"altogether."
+msgstr "El cliente de Windows tiene un proceso que se ejecuta como un servicio de fondo de Windows. El servicio comprobará periódicamente si hay una actualización más reciente en intervalos de aproximadamente 1-2 horas. Una vez que se publique y descubra un paquete de cliente más nuevo, este se descargará. Sin embargo, si el cliente aún está activo, el reemplazo y la actualización no ocurrirán hasta que la aplicación del cliente se detenga y se reinicie. Esto suele suceder cuando el usuario cierra sesión en su Windows o reinicia su escritorio por completo."
+
+#: ../../chapter02.rst:861
+msgid ""
+"If the Windows client software is actively running, the user may be "
+"seeing a message popup from the system tray area asking the user if they "
+"want to restart the client software and to receive the newer version."
+msgstr "Si el software cliente de Windows está en funcionamiento activo, es posible que el usuario vea un mensaje emergente en el área de notificación del sistema preguntándole si desea reiniciar el software cliente y recibir la versión más reciente."
+
+#: ../../chapter02.rst:863
+msgid ""
+"Once a client is published for client auto upgrade, you can use "
+"``Unpublish`` to stop the client auto upgrade."
+msgstr "Una vez que se publica un cliente para la actualización automática del mismo, puede utilizar ``Unpublish`` para detener la actualización automática del cliente."
+
+#: ../../chapter02.rst:866
+msgid "Server Agent"
+msgstr "Agente del Servidor"
+
+#: ../../chapter02.rst:868
+msgid "Windows Server Agent can be separately published for auto upgrade."
+msgstr "El Agente de Windows Server puede publicarse por separado para actualización automática."
+
+#: ../../chapter02.rst:873
+msgid "SERVER AGENT AUTO UPGRADE"
+msgstr "ACTUALIZACIÓN AUTOMÁTICA DEL AGENTE DEL SERVIDOR"
+
+#: ../../chapter02.rst:879
+msgid "Mac client can be separately published for auto upgrade."
+msgstr "El cliente para Mac puede publicarse por separado para la actualización automática."
+
+#: ../../chapter02.rst:884
+msgid "MAC CLIENT AUTO UPGRADE"
+msgstr "ACTUALIZACIÓN AUTOMÁTICA DEL CLIENTE MAC"
+
+#: ../../chapter02.rst:888
+msgid "Settings"
+msgstr "Configuración"
+
+#: ../../chapter02.rst:893
+msgid "CLUSTER SETTINGS"
+msgstr "CONFIGURACIÓN DEL CLÚSTER"
+
+#: ../../chapter02.rst:897
+msgid "Cluster Settings"
+msgstr "Configuración del Clúster"
+
+#: ../../chapter02.rst:899
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Cluster Settings``"
+msgstr "``Gestor de Clústeres`` > ``Configuración del Clúster`` > ``Configuración del Clúster``"
+
+#: ../../chapter02.rst:904
+msgid "CLUSTER SETTINGS PERMISSIONS"
+msgstr "PERMISOS DE CONFIGURACIÓN DE CLÚSTER"
+
+#: ../../chapter02.rst:907
+msgid "**Hide Login Failure Message**"
+msgstr "**Ocultar Mensaje de Fallo de Inicio de Sesión**"
+
+#: ../../chapter02.rst:909
+msgid ""
+"When checked, the login failed message will be replaced by a very generic"
+" “Login Failed” message. When un-checked, it may return a more meaningful"
+" login error, such as user-not-found, authentication-error and so on. "
+"This is a security feature if you don't want to give out too much "
+"information for hackers to guess a reason for authentication failure."
+msgstr "Cuando está marcada, el mensaje de error de inicio de sesión se reemplazará por un mensaje muy genérico de “Fallo de inicio de sesión”. Cuando no está marcada, puede devolver un error de inicio de sesión más significativo, como usuario-no-encontrado, error-de-autenticación y así sucesivamente. Esta es una característica de seguridad si no desea dar demasiada información para que los hackers adivinen una razón del fallo de autenticación."
+
+#: ../../chapter02.rst:912
+msgid "**Hide build number from login page**"
+msgstr "**Ocultar el número de compilación de la página de inicio de sesión**"
+
+#: ../../chapter02.rst:914
+msgid "This controls the build number on the web portal login page."
+msgstr "Esto controla el número de compilación en la página de inicio de sesión del portal web."
+
+#: ../../chapter02.rst:917
+msgid "**Hide support button**"
+msgstr "**Ocultar botón de soporte**"
+
+#: ../../chapter02.rst:919
+msgid "This hides the floating support icon."
+msgstr "Esto oculta el icono flotante de soporte."
+
+#: ../../chapter02.rst:922
+msgid "**Hide 'Forgot your password' link on login**"
+msgstr "**Ocultar el enlace '¿Olvidó su contraseña?' en el inicio de sesión**"
+
+#: ../../chapter02.rst:924
+msgid ""
+"Most often it is used when Active Directory integration is set. The user "
+"will need to do a forget-and-change password the normal Active Directory "
+"way instead of the way CentreStack provides. In this case, it is "
+"recommend to hide the \"Forgot your password\" link."
+msgstr "Generalmente se utiliza cuando se configura la integración con Active Directory. El usuario necesitará realizar un olvido y cambio de contraseña de la manera normal de Active Directory en lugar de la forma que proporciona CentreStack. En este caso, se recomienda ocultar el enlace \"¿Olvidó su contraseña?\""
+
+#: ../../chapter02.rst:927
+msgid "**Don't retry when login failed**"
+msgstr "**No reintentar cuando el inicio de sesión falla**"
+
+#: ../../chapter02.rst:929
+msgid ""
+"Most often it is used when the Active Directory user has low failed-count"
+" on lock-out policy. When the user's password is wrong, a few retries can"
+" lock out the user's Active Directory account. The retry feature can be "
+"used when there is no Active Directory lock out or when the lock out "
+"count is high."
+msgstr "La mayoría de las veces se utiliza cuando el usuario de Active Directory tiene un bajo número de intentos fallidos en la política de bloqueo. Cuando la contraseña del usuario es incorrecta, algunos intentos pueden bloquear la cuenta de Active Directory del usuario. La función de reintentar puede utilizarse cuando no hay bloqueo de Active Directory o cuando el conteo de bloqueos es alto."
+
+#: ../../chapter02.rst:931
+msgid "**Always display CAPTCHA on the web portal login page**"
+msgstr "**Mostrar siempre CAPTCHA en la página de inicio de sesión del portal web**"
+
+#: ../../chapter02.rst:933
+msgid "**Allow multi-tenancy**"
+msgstr "**Permitir multi-tenencia**"
+
+#: ../../chapter02.rst:935
+msgid "**Show tenant management screen after logging in**"
+msgstr "**Mostrar la pantalla de gestión de inquilinos después de iniciar sesión**"
+
+#: ../../chapter02.rst:937
+msgid "**Show 'purge storage option' when delete user**"
+msgstr "**Mostrar la opción 'purgar almacenamiento' al eliminar usuario**"
+
+#: ../../chapter02.rst:939
+msgid ""
+"By default, when a user is deleted, the user's home directory storage "
+"content is not touched for later use or review. If it is desired to "
+"delete the user's content when the user is deleted, this can show the "
+"purge option."
+msgstr "De forma predeterminada, cuando se elimina un usuario, el contenido de almacenamiento del directorio principal del usuario no se modifica para su uso o revisión posterior. Si se desea eliminar el contenido del usuario cuando se elimina al usuario, esto puede mostrar la opción de purga."
+
+#: ../../chapter02.rst:942
+msgid "**Don't send email notification to user when purge deleted content**"
+msgstr "**No enviar notificación por correo electrónico al usuario cuando se purgue contenido eliminado**"
+
+#: ../../chapter02.rst:944
+msgid ""
+"When the user delete files, they are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification."
+msgstr "Cuando el usuario elimina archivos, no se eliminan de inmediato. La purga es asincrónica y se programa para más tarde. Esta configuración controla la notificación."
+
+#: ../../chapter02.rst:947
+msgid "**Don't send email notification to admin when purge deleted content**"
+msgstr "**No enviar notificación por correo electrónico al administrador al purgar contenido eliminado**"
+
+#: ../../chapter02.rst:949
+msgid ""
+"When the user deletes files, They are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification to the administrator."
+msgstr "Cuando el usuario elimina archivos, no se eliminan de inmediato. La purga es asincrónica y se programa para más tarde. Esta configuración controla la notificación al administrador."
+
+#: ../../chapter02.rst:952
+msgid "**Retrieve avatar from third party service (i.e. Google)**"
+msgstr "**Recuperar avatar de un servicio de terceros (es decir, Google)**"
+
+#: ../../chapter02.rst:954
+msgid ""
+"This is a usability feature that users's picture can be queried from "
+"Google."
+msgstr "Esta es una característica de usabilidad que permite que la imagen del usuario pueda ser consultada desde Google."
+
+#: ../../chapter02.rst:957
+msgid "**Hide file extension in web file browser**"
+msgstr "**Ocultar la extensión de archivo en el navegador de archivos web**"
+
+#: ../../chapter02.rst:959
+msgid "This setting will hide the file extension."
+msgstr "Esta configuración ocultará la extensión del archivo."
+
+#: ../../chapter02.rst:962
+msgid "**Disable Windows Client Auto-Logon**"
+msgstr "**Deshabilitar el inicio de sesión automático del cliente de Windows**"
+
+#: ../../chapter02.rst:964
+msgid ""
+"This is a security feature. The result is every time the windows client "
+"is done running, the next time the user tries to login, it will not "
+"remember the login token and the user will have to re-type the credential"
+" to get in."
+msgstr "Esta es una característica de seguridad. El resultado es que cada vez que el cliente de Windows termina de ejecutarse, la próxima vez que el usuario intente iniciar sesión, no recordará el token de inicio de sesión y el usuario tendrá que volver a escribir las credenciales para entrar."
+
+#: ../../chapter02.rst:966
+msgid "**Allow personal data tagging**"
+msgstr "**Permitir el etiquetado de datos personales**"
+
+#: ../../chapter02.rst:968
+msgid "**Only allow access performance information from local host**"
+msgstr "**Permitir acceso a la información de rendimiento solo desde el host local**"
+
+#: ../../chapter02.rst:970
+msgid ""
+"Only allow accessing performance data from http://localhost and not from "
+"external URL."
+msgstr "Permitir el acceso a los datos de rendimiento solo desde http://localhost y no desde URL externas."
+
+#: ../../chapter02.rst:972
+msgid "**Allow tenant administrators to enable Team Folder backups**"
+msgstr "**Permitir a los administradores de inquilinos habilitar copias de seguridad de Carpetas de Equipo**"
+
+#: ../../chapter02.rst:976
+msgid "Performance and Throttling"
+msgstr "Rendimiento y Limitación"
+
+#: ../../chapter02.rst:978
+msgid ""
+"``Cluster Manager`` > ``Cluster Settings`` > ``Performance and "
+"Throttling``"
+msgstr "``Gestor de Clúster`` > ``Configuración del Clúster`` > ``Rendimiento y Limitación``"
+
+#: ../../chapter02.rst:983
+msgid "PERFORMANCE THROTTLING"
+msgstr "LIMITACIÓN DE RENDIMIENTO"
+
+#: ../../chapter02.rst:986
+msgid ""
+"**Don't show file icon preview if file size is larger than (KB, 0-No icon"
+" preview)**"
+msgstr "**No mostrar vista previa del icono del archivo si el tamaño del archivo es mayor que (KB, 0-Sin vista previa del icono)**"
+
+#: ../../chapter02.rst:988
+msgid ""
+"This is used to control iconview thumbnail generation in the web browser "
+"files and folders view. The generation of thumbnail takes CPU power from "
+"the Cluster Server. For big files, the generation of thumbnail may "
+"negatively affect the system performance. So it is recommended to cap the"
+" feature to a certain image size."
+msgstr "Esto se utiliza para controlar la generación de miniaturas de iconview en la vista de archivos y carpetas del navegador web. La generación de miniaturas consume potencia de CPU del Servidor Cluster. Para archivos grandes, la generación de miniaturas puede afectar negativamente el rendimiento del sistema. Por lo tanto, se recomienda limitar la característica a un cierto tamaño de imagen."
+
+#: ../../chapter02.rst:991
+msgid ""
+"**Cluster Wide Upload Bandwidth Limit (Per Worker Node, KB/Sec, 0-No "
+"Limit)**"
+msgstr "**Límite de Ancho de Banda de Subida en Todo el Clúster (Por Nodo de Trabajo, KB/Seg, 0-Sin Límite)**"
+
+#: ../../chapter02.rst:993
+msgid "This is to limit upload bandwidth."
+msgstr "Esto es para limitar el ancho de banda de subida."
+
+#: ../../chapter02.rst:996
+msgid "**Cluster Wide Download Bandwidth Limit (Per Worker Node, KB/Sec)**"
+msgstr "**Límite de Ancho de Banda de Descarga en Todo el Clúster (Por Nodo de Trabajo, KB/Seg)**"
+
+#: ../../chapter02.rst:998
+msgid "This is to limit download bandwidth."
+msgstr "Esto es para limitar el ancho de banda de descarga."
+
+#: ../../chapter02.rst:1001
+msgid "**Size limit for folder download (MB, 0-no limit)**"
+msgstr "**Límite de tamaño para descarga de carpetas (MB, 0-sin límite)**"
+
+#: ../../chapter02.rst:1003
+msgid ""
+"This is to prevent user downloading a very big folder and using up all "
+"the Cluster Server resources."
+msgstr "Esto es para prevenir que el usuario descargue una carpeta muy grande y utilice todos los recursos del Servidor Cluster."
+
+#: ../../chapter02.rst:1007
+msgid "Timeouts and Limits"
+msgstr "Tiempos de Espera y Límites"
+
+#: ../../chapter02.rst:1009
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Timeouts and Limits``"
+msgstr "``Gestor de Clúster`` > ``Configuración del Clúster`` > ``Tiempos de Espera y Límites``"
+
+#: ../../chapter02.rst:1014
+msgid "TIMEOUTS AND LIMITS"
+msgstr "TIEMPOS DE ESPERA Y LÍMITES"
+
+#: ../../chapter02.rst:1016
+msgid "**Web Browser Session Timeout (minutes, 0 - never timeout)**"
+msgstr "**Tiempo de espera de la sesión del navegador web (minutos, 0 - nunca expira)**"
+
+#: ../../chapter02.rst:1018
+msgid ""
+"This is the web browser session time out value. Default is set to 15 "
+"minutes. For default cluster administrator, we recommend increase this "
+"value to a bigger number so it is easier for web based management work "
+"not to time-out too soon."
+msgstr "Este es el valor de tiempo de espera de la sesión del navegador web. El valor predeterminado está configurado en 15 minutos. Para el administrador del clúster predeterminado, recomendamos aumentar este valor a un número mayor para que el trabajo de gestión basado en la web no caduque demasiado pronto."
+
+#: ../../chapter02.rst:1021
+msgid "**Native Client Token Timeout (days)**"
+msgstr "**Tiempo de Expiración del Token del Cliente Nativo (días)**"
+
+#: ../../chapter02.rst:1023
+msgid "For Windows client and Mac client, this defines the token time to live."
+msgstr "Para el cliente de Windows y el cliente de Mac, esto define el tiempo de vida del token."
+
+#: ../../chapter02.rst:1026
+msgid "**Mobile Client Token Timeout (days, 0 - never timeout)**"
+msgstr "**Tiempo de expiración del token del cliente móvil (días, 0 - nunca expira)**"
+
+#: ../../chapter02.rst:1028
+msgid "**Distributed Lock Idle Timeout (minutes, 0 - never timeout)**"
+msgstr "**Tiempo de inactividad del bloqueo distribuido (minutos, 0 - nunca expira)**"
+
+#: ../../chapter02.rst:1030
+msgid ""
+"This setting is related to automatic file locking. When a file is "
+"automatically locked, the machine that has the file locked will need to "
+"maintain a healthy heart beat with the Cluster Server. If the machine is "
+"offline (idle) and can't report back to the Cluster Server for a period "
+"of time, the lock that was automatically grabbed will need to be "
+"released."
+msgstr "Esta configuración está relacionada con el bloqueo automático de archivos. Cuando un archivo se bloquea automáticamente, la máquina que tiene el archivo bloqueado necesitará mantener un latido constante con el Servidor de Clúster. Si la máquina está fuera de línea (inactiva) y no puede reportarse al Servidor de Clúster durante un período de tiempo, el bloqueo que se obtuvo automáticamente necesitará ser liberado."
+
+#: ../../chapter02.rst:1032
+msgid ""
+"If this is not desired, the user can always use manual \"Check Out\" to "
+"lock a file and that will not be subject to the timeout."
+msgstr "Si esto no es deseado, el usuario siempre puede usar el \"Check Out\" manual para bloquear un archivo y eso no estará sujeto al tiempo de espera."
+
+#: ../../chapter02.rst:1034
+msgid ""
+"**Send shared file change notifications every n minutes (0 - send "
+"immediately)**"
+msgstr "**Enviar notificaciones de cambios en archivos compartidos cada n minutos (0 - enviar inmediatamente)**"
+
+#: ../../chapter02.rst:1036
+msgid ""
+"**Open third party web application in new window when the height of the "
+"web browser is less than**"
+msgstr "**Abrir la aplicación web de terceros en una nueva ventana cuando la altura del navegador web sea menor que**"
+
+#: ../../chapter02.rst:1038
+msgid ""
+"This is a usability feature. When using third party web application to "
+"edit documents in Cluster Server web browser file and folder view, if the"
+" web browser height is too short, the third party web application may not"
+" function properly."
+msgstr "Esta es una característica de usabilidad. Al usar una aplicación web de terceros para editar documentos en la vista de archivos y carpetas del navegador web de Cluster Server, si la altura del navegador web es demasiado baja, la aplicación web de terceros puede no funcionar correctamente."
+
+#: ../../chapter02.rst:1041
+msgid "**Max Device Count (Concurrent Device Count) for Each User (0-Unlimited)**"
+msgstr "**Cantidad máxima de dispositivos (Cantidad de dispositivos concurrentes) para cada usuario (0-Ilimitado)**"
+
+#: ../../chapter02.rst:1043
+msgid ""
+"This is the number of concurrent devices connected to the Cluster Server "
+"for each user. The default is not limited."
+msgstr "Este es el número de dispositivos concurrentes conectados al Servidor Cluster para cada usuario. El valor predeterminado no tiene límite."
+
+#: ../../chapter02.rst:1045
+msgid ""
+"**Purge Device Entry n Days After Device Disconnected (0 - let system "
+"decides)**"
+msgstr "**Eliminar entrada del dispositivo n días después de que el dispositivo se desconecte (0 - dejar que el sistema decida)**"
+
+#: ../../chapter02.rst:1047
+msgid "**Maximum file search results**"
+msgstr "**Máximo de resultados de búsqueda de archivos**"
+
+#: ../../chapter02.rst:1051
+msgid "Languages"
+msgstr "Idiomas"
+
+#: ../../chapter02.rst:1053
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Languages``"
+msgstr "``Gestor de Clústeres`` > ``Configuración del Clúster`` > ``Idiomas``"
+
+#: ../../chapter02.rst:1058
+msgid "LANGUAGE SETTINGS"
+msgstr "CONFIGURACIÓN DE IDIOMA"
+
+#: ../../chapter02.rst:1061
+msgid ""
+"This section sets up the web portal languages and also the client "
+"application languages for Windows client."
+msgstr "Esta sección configura los idiomas del portal web y también los idiomas de la aplicación cliente para el cliente de Windows."
+
+#: ../../chapter02.rst:1064
+msgid ""
+"We have automated translation and provided the resource files that you "
+"can use to localize the web portal and clients in the language  of your "
+"choice. If there are strings that not translated yet in the language you "
+"want, just go ahead and select the string and put in the translated "
+"string in the window for the language selected."
+msgstr "Hemos automatizado la traducción y proporcionado los archivos de recursos que puedes utilizar para localizar el portal web y los clientes en el idioma de tu elección. Si hay cadenas que aún no están traducidas en el idioma que deseas, simplemente selecciona la cadena y coloca la cadena traducida en la ventana para el idioma seleccionado."
+
+#: ../../chapter02.rst:1075
+msgid "Branding"
+msgstr "Marca"
+
+#: ../../chapter02.rst:1077
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Branding``"
+msgstr "``Gestor de Clústeres`` > ``Configuración del Clúster`` > ``Branding``"
+
+#: ../../chapter02.rst:1082
+msgid "ENABLE TENANT BRANDING"
+msgstr "HABILITAR LA MARCA DEL INQUILINO"
+
+#: ../../chapter02.rst:1085
+msgid "**Don't Show Tutorial Videos**"
+msgstr "**No mostrar videos tutoriales**"
+
+#: ../../chapter02.rst:1087
+msgid ""
+"At different places in the web portal, there are tutorial videos. This "
+"setting is to hide those videos, which may have CentreStack references "
+"inside."
+msgstr "En diferentes lugares del portal web, hay videos tutoriales. Esta configuración es para ocultar esos videos, que pueden contener referencias de CentreStack."
+
+#: ../../chapter02.rst:1090
+msgid "**Enable Tenant Branding**"
+msgstr "**Habilitar la Personalización del Inquilino**"
+
+#: ../../chapter02.rst:1092
+msgid ""
+"Allow tenants in the system to have their own co-branding on a tenant-by-"
+"tenant basis. The branding can override the default Cluster wide branding"
+" when the solution is accessed via a specific URL. Most of the time, a "
+"wild card SSL certificate is used so the Cluster Server solution can be "
+"binded to different URL's within a common suffix."
+msgstr "Permitir que los inquilinos en el sistema tengan su propia co-marca en una base de inquilino por inquilino. La marca puede reemplazar la marca predeterminada de todo el Cluster cuando se accede a la solución a través de una URL específica. La mayoría de las veces, se utiliza un certificado SSL comodín para que la solución Cluster Server pueda vincularse a diferentes URL's dentro de un sufijo común."
+
+#: ../../chapter02.rst:1094
+msgid ""
+"For example \\*.mycompany.com , while tenant1.mycompany.com is for tenant"
+" 1's access."
+msgstr "Por ejemplo \*.mycompany.com, mientras que tenant1.mycompany.com es para el acceso del inquilino 1."
+
+#: ../../chapter02.rst:1098
+msgid "Change Log"
+msgstr "Registro de Cambios"
+
+#: ../../chapter02.rst:1100
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Change Log``"
+msgstr "``Gestor de Clústeres`` > ``Configuración del Clúster`` > ``Registro de Cambios``"
+
+#: ../../chapter02.rst:1105
+msgid "CHANGE LOG SETTINGS"
+msgstr "CAMBIAR CONFIGURACIÓN DEL REGISTRO DE CAMBIOS"
+
+#: ../../chapter02.rst:1108
+msgid "**Keep file change log for n days**"
+msgstr "**Mantener el registro de cambios de archivos por n días**"
+
+#: ../../chapter02.rst:1110
+msgid "This is a cluster wide retention policy for the file change log."
+msgstr "Esta es una política de retención de registro de cambios de archivos para todo el clúster."
+
+#: ../../chapter02.rst:1112
+msgid ""
+"The file change log is in the SQL database, for deployments that are "
+"using SQL Express, it has size limitation for the database. In the "
+"deployment guide, there is option to split the file change log into MySQL"
+" database or split it to a different SQL database. This option typically "
+"is used to keep the size of SQL small."
+msgstr "El registro de cambios del archivo está en la base de datos SQL, para despliegues que utilizan SQL Express, existe una limitación de tamaño para la base de datos. En la guía de despliegue, hay una opción para dividir el registro de cambios del archivo en una base de datos MySQL o dividirlo en una base de datos SQL diferente. Esta opción se utiliza típicamente para mantener el tamaño de SQL pequeño."
+
+#: ../../chapter02.rst:1116
+msgid ""
+"After the Cluster Server is running in production mode for a while, we "
+"recommend reviewing the file change log database table and the file index"
+" table to see how big those tables are."
+msgstr "Después de que el Servidor Cluster haya estado funcionando en modo de producción por un tiempo, recomendamos revisar la tabla de la base de datos del registro de cambios de archivos y la tabla del índice de archivos para ver el tamaño de estas tablas."
+
+#: ../../chapter02.rst:1119
+msgid "**Email Address to Receive Cloud Monitor Messages**"
+msgstr "**Dirección de correo electrónico para recibir mensajes del Monitor de la nube**"
+
+#: ../../chapter02.rst:1121
+msgid ""
+"From time to time, the cluster monitor service may send an email about "
+"the status and alerts."
+msgstr "De vez en cuando, el servicio de monitoreo del clúster puede enviar un correo electrónico sobre el estado y las alertas."
+
+#: ../../chapter02.rst:1124
+msgid "**Logging DB Connection String**"
+msgstr "**Cadena de Conexión de Registro de la Base de Datos**"
+
+#: ../../chapter02.rst:1126
+msgid ""
+"This is to split the file change log, device table, file index table and "
+"audit trace table out of the main database into a secondary database. The"
+" secondary database can be a Microsoft SQL Server or a MySQL Community "
+"server."
+msgstr "Esto es para dividir el registro de cambios del archivo, la tabla de dispositivos, la tabla de índice de archivos y la tabla de trazas de auditoría fuera de la base de datos principal en una base de datos secundaria. La base de datos secundaria puede ser un servidor Microsoft SQL Server o un servidor MySQL Community."
+
+#: ../../chapter02.rst:1128
+msgid ""
+"The Cluster Server database is split into the core part and the logging "
+"part. The core part can store the DB connection string that connects to "
+"the secondary database. This setting used to be in the web.config file."
+msgstr "La base de datos del Servidor Cluster se divide en la parte central y la parte de registro. La parte central puede almacenar la cadena de conexión de la base de datos que se conecta con la base de datos secundaria. Esta configuración solía estar en el archivo web.config."
+
+#: ../../chapter02.rst:1131
+msgid "**Logging DB Connection String (Read-only Replica)**"
+msgstr "**Cadena de Conexión de Registro de la Base de Datos (Réplica de Solo Lectura)**"
+
+#: ../../chapter02.rst:1135
+msgid "License String"
+msgstr "Cadena de Licencia"
+
+#: ../../chapter02.rst:1137
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``License String``"
+msgstr "``Gestor de Clúster`` > ``Configuración del Clúster`` > ``Cadena de Licencia``"
+
+#: ../../chapter02.rst:1139
+msgid "**License String** – Reserved."
+msgstr "**Cadena de Licencia** – Reservado."
+
+#: ../../chapter02.rst:1141
+msgid ""
+"This is for Cluster Servers that are isolated from the Internet, can't be"
+" activated online and has to use a license string for offline activation."
+msgstr "Esto es para Servidores en Cluster que están aislados de Internet, no pueden ser activados en línea y tienen que usar una cadena de licencia para la activación sin conexión."
+
+#: ../../chapter02.rst:1145
+msgid "Anti Virus"
+msgstr "Antivirus"
+
+#: ../../chapter02.rst:1147
+msgid "``Cluster Manager`` > ``Anti Virus``"
+msgstr "``Gestor de Clúster`` > ``Antivirus``"
+
+#: ../../chapter02.rst:1149
+msgid ""
+"You can enable anti-virus protection which will ensure that the files "
+"being uploaded via the Cluster Server are scanned by the selected anti-"
+"virus software."
+msgstr "Puede habilitar la protección antivirus, lo que garantizará que los archivos que se suben a través del Servidor Cluster sean escaneados por el software antivirus seleccionado."
+
+#: ../../chapter02.rst:1151
+msgid ""
+"You will first need to obtain the anti-virus service that is independent "
+"from the Cluster Server, and get it directly from the anti-virus vendor. "
+"After that, you can integrate the anti-virus service into the Cluster "
+"Server."
+msgstr "Primero necesitará obtener el servicio de antivirus que es independiente del Servidor Cluster, y obtenerlo directamente del proveedor de antivirus. Después de eso, puede integrar el servicio de antivirus en el Servidor Cluster."
+
+#: ../../chapter02.rst:1157
+msgid "ANTI-VIRUS SETTINGS"
+msgstr "CONFIGURACIÓN DEL ANTIVIRUS"
+
+#: ../../chapter02.rst:1160
+msgid "Worker Nodes"
+msgstr "Nodos Trabajadores"
+
+#: ../../chapter02.rst:1162
+msgid "``Cluster Manager`` > ``Worker Node``"
+msgstr "``Gestor de Clúster`` > ``Nodo Trabajador``"
+
+#: ../../chapter02.rst:1164
+msgid ""
+"Cluster Server Farm has two types of nodes, one is “Worker Node” and the "
+"other is “Web Nodes”."
+msgstr "El Cluster Server Farm tiene dos tipos de nodos, uno es el “Nodo Trabajador” y el otro los “Nodos Web”."
+
+#: ../../chapter02.rst:1170
+msgid "CLUSTER SERVER FARM NODES"
+msgstr "NODOS DE GRANJA DE SERVIDORES CLÚSTER"
+
+#: ../../chapter02.rst:1173
+msgid ""
+"This type of node will contain services like Web Browser Based File "
+"Manager, Storage Service Connectors, and etc. Again, additional nodes can"
+" be added as the load increases. Because there is cache information "
+"located on each node, users will have an affinity to a single node once "
+"it is assigned. If the load balancer distributes users evenly to all "
+"worker nodes, the cache information may exist on all worker nodes."
+msgstr "Este tipo de nodo contendrá servicios como el Administrador de Archivos Basado en Navegador Web, Conectores de Servicio de Almacenamiento, etc. Nuevamente, se pueden agregar nodos adicionales a medida que aumenta la carga. Debido a que hay información de caché ubicada en cada nodo, los usuarios tendrán afinidad a un solo nodo una vez que se les asigne. Si el balanceador de carga distribuye a los usuarios de manera uniforme a todos los nodos de trabajo, la información de caché puede existir en todos los nodos de trabajo."
+
+#: ../../chapter02.rst:1179
+msgid "SSL NOTICE"
+msgstr "AVISO SSL"
+
+#: ../../chapter02.rst:1182
+msgid "**Worker Node Settings**"
+msgstr "**Configuración del Nodo Trabajador**"
+
+#: ../../chapter02.rst:1184
+msgid ""
+"There are some settings that apply to all worker nodes. After you click "
+"on the \"Settings\" icon, the Advanced Setttings panel will show."
+msgstr "Hay algunas configuraciones que se aplican a todos los nodos trabajadores. Después de hacer clic en el icono de \"Configuración\", se mostrará el panel de Configuración Avanzada."
+
+#: ../../chapter02.rst:1189
+msgid "WORKER NODE SETTINGS"
+msgstr "CONFIGURACIÓN DEL NODO TRABAJADOR"
+
+#: ../../chapter02.rst:1192
+msgid "**Always force SSL on Login**"
+msgstr "**Forzar siempre el uso de SSL al iniciar sesión**"
+
+#: ../../chapter02.rst:1194
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL on Login”. When this is checked and when "
+"|prodname| detects that the incoming connection is HTTP, it will do a "
+"redirect to HTTPS. If you turn on SSL, you will need to setup SSL "
+"certificate first."
+msgstr "En un entorno de producción, casi el 100% del tiempo necesitarás marcar la opción “Forzar siempre SSL en el inicio de sesión”. Cuando esto está marcado y cuando |prodname| detecta que la conexión entrante es HTTP, realizará una redirección a HTTPS. Si activas SSL, primero necesitarás configurar el certificado SSL."
+
+#: ../../chapter02.rst:1196
+msgid ""
+"However, if you have SSL-offload, such that SSL is offloaded to a "
+"hardware appliance, and after that, the incoming connection is HTTP "
+"between the hardware appliance and |prodname|. In this SSL-offload case, "
+"you will NOT check “Always force SSL on Login” because it will create an "
+"infinite redirect loop because the incoming connection is always HTTP as "
+"far as the |prodname| Server is concerned."
+msgstr "Sin embargo, si tiene SSL-offload, de modo que SSL se descarga en un dispositivo de hardware, y después de eso, la conexión entrante es HTTP entre el dispositivo de hardware y |prodname|. En este caso de SSL-offload, NO marcará la opción “Forzar siempre SSL en el inicio de sesión” porque creará un bucle de redirección infinito ya que la conexión entrante siempre es HTTP en lo que respecta al servidor |prodname|."
+
+#: ../../chapter02.rst:1199
+msgid "**Always force SSL for Native Clients**"
+msgstr "**Forzar siempre SSL para clientes nativos**"
+
+#: ../../chapter02.rst:1201
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL for Native Clients”."
+msgstr "En un entorno de producción, casi el 100% del tiempo necesitarás marcar la opción “Always force SSL for Native Clients”."
+
+#: ../../chapter02.rst:1203
+msgid ""
+"Especially, in the case of SSL-Offload, you MUST check “Always force SSL "
+"for Native Clients”. Otherwise, the |prodname| Server may think that the "
+"incoming connection is HTTP so it will continue to encourage the native "
+"clients (such as Windows client) to use HTTP instead of using HTTPS."
+msgstr "Especialmente, en el caso de SSL-Offload, DEBES marcar la opción “Forzar siempre SSL para clientes nativos”. De lo contrario, el servidor |prodname| podría pensar que la conexión entrante es HTTP, por lo que continuará alentando a los clientes nativos (como el cliente de Windows) a usar HTTP en lugar de HTTPS."
+
+#: ../../chapter02.rst:1207
+msgid ""
+"In iOS devices, the Application Transport Security may be enforced by the"
+" operating system and HTTPS must be used for an iOS Application to "
+"connect to the Cluster Server."
+msgstr "En dispositivos iOS, la Seguridad de Transporte de la Aplicación puede ser impuesta por el sistema operativo y se debe utilizar HTTPS para que una Aplicación iOS se conecte al Servidor de Clúster."
+
+#: ../../chapter02.rst:1210
+msgid "**Disable worker-node load balance**"
+msgstr "**Desactivar el equilibrio de carga del nodo trabajador**"
+
+#: ../../chapter02.rst:1212
+msgid ""
+"When you have your own load balancer, you will disable worker-node load "
+"balancing. The Cluster Server has built-in node-affinity load balancing, "
+"which can be per-tenant or per-user. When you have your own load "
+"balancer, you may have session-affinity or just simple round-robin, "
+"either one is fine."
+msgstr "Cuando tenga su propio balanceador de carga, desactivará el balanceo de carga del nodo trabajador. El Servidor de Clúster tiene un balanceo de carga de afinidad de nodo incorporado, que puede ser por inquilino o por usuario. Cuando tenga su propio balanceador de carga, puede tener afinidad de sesión o simplemente round-robin, cualquiera de los dos está bien."
+
+#: ../../chapter02.rst:1216
+msgid "How to add a worker node?"
+msgstr "¿Cómo agregar un nodo trabajador?"
+
+#: ../../chapter02.rst:1218
+msgid ""
+"You just go ahead to install the Cluster Server during the installation "
+"and point the Cluster Server to the same database. Once the installation "
+"of the Cluster Server worker node is completed, reboot. The web portal "
+"page will pop up, asking you to add the worker node to the server farm."
+msgstr "Simplemente proceda a instalar el Servidor de Clúster durante la instalación y dirija el Servidor de Clúster a la misma base de datos. Una vez completada la instalación del nodo obrero del Servidor de Clúster, reinicie. La página del portal web aparecerá, solicitándole que agregue el nodo obrero a la granja de servidores."
+
+#: ../../chapter02.rst:1222
+msgid "What if you changed the Cluster Server's Host Name?"
+msgstr "¿Qué pasaría si cambiara el Nombre de Host del Servidor de Clúster?"
+
+#: ../../chapter02.rst:1224
+msgid ""
+"For Windows server 2012 and later Server OS, when a server is newly "
+"provisioned, it is typically named in hostname format similar (WIN-"
+"ABCDEFG). Sometimes, it is desired to change the name in the Control "
+"Panel -> Systems. If the Cluster Server is already installed, changing "
+"the name will make the Cluster Server add itself again with the new name."
+" So next time when you visit http://localhost on the Cluster Server after"
+" the server has been renamed, you will see the worker node section has "
+"both the node with the old name (which no longer exists) and the node "
+"with the new name (Which is current and good). In this case, you just "
+"need to simply remove the worker node with the old name."
+msgstr "Para Windows Server 2012 y sistemas operativos de servidor posteriores, cuando se aprovisiona un servidor nuevo, normalmente se le asigna un nombre en formato de nombre de host similar (WIN-ABCDEFG). A veces, se desea cambiar el nombre en el Panel de Control -> Sistemas. Si el Cluster Server ya está instalado, cambiar el nombre hará que el Cluster Server se agregue de nuevo con el nuevo nombre. Por lo tanto, la próxima vez que visites http://localhost en el Cluster Server después de que el servidor haya sido renombrado, verás que la sección de nodo de trabajo tiene tanto el nodo con el nombre antiguo (que ya no existe) como el nodo con el nuevo nombre (que es el actual y está correcto). En este caso, simplemente necesitas eliminar el nodo de trabajo con el nombre antiguo."
+
+#: ../../chapter02.rst:1227
+msgid "**Worker Node Properties**"
+msgstr "**Propiedades del Nodo Trabajador**"
+
+#: ../../chapter02.rst:1232
+msgid "WORKER NODE PROPERTIES"
+msgstr "PROPIEDADES DEL NODO TRABAJADOR"
+
+#: ../../chapter02.rst:1234
+msgid ""
+"You may need to modify the worker node properties when you setup SSL and "
+"the DNS name for the cluster."
+msgstr "Es posible que necesite modificar las propiedades del nodo trabajador cuando configure SSL y el nombre DNS para el clúster."
+
+#: ../../chapter02.rst:1237
+msgid "**Node Name**"
+msgstr "**Nombre del Nodo**"
+
+#: ../../chapter02.rst:1239
+msgid ""
+"The **Node Name** needs to match the worker node's hostname. Sometimes, "
+"if you rename a worker node's Windows hostname (NETBIOS name) after the "
+"Cluster Server installation, upon reboot, the Cluster Server will pop up "
+"a web page, asking you to add the new worker node. In that case, you can "
+"go ahead and add the new worker node and then delete the old worker node."
+msgstr "El **Nombre del Nodo** necesita coincidir con el nombre de host del nodo trabajador. A veces, si cambias el nombre de host de Windows (nombre NETBIOS) de un nodo trabajador después de la instalación del Servidor de Clúster, al reiniciar, el Servidor de Clúster mostrará una página web, pidiéndote que agregues el nuevo nodo trabajador. En ese caso, puedes proceder a agregar el nuevo nodo trabajador y luego eliminar el nodo trabajador antiguo."
+
+#: ../../chapter02.rst:1242
+msgid "**External URL**"
+msgstr "**URL Externa**"
+
+#: ../../chapter02.rst:1244
+msgid ""
+"The **External URL** needs to match the worker node's external URL. In a "
+"production environment, this typically is in an https:// format with the "
+"node's DNS name."
+msgstr "La **URL externa** necesita coincidir con la URL externa del nodo trabajador. En un entorno de producción, esto típicamente está en formato https:// con el nombre DNS del nodo."
+
+#: ../../chapter02.rst:1246
+msgid ""
+"External URL is a critical property for Email templates. Once the Cluster"
+" Server installation is finished, the dashboard will have a warning "
+"message, 'External DNS has not been configured for this worker node. Some"
+" functionality may not work properly. Config Now'"
+msgstr "La URL externa es una propiedad crítica para las plantillas de correo electrónico. Una vez finalizada la instalación del Servidor de Clúster, el panel de control mostrará un mensaje de advertencia, 'El DNS externo no ha sido configurado para este nodo trabajador. Es posible que algunas funcionalidades no funcionen correctamente. Configurar Ahora'"
+
+#: ../../chapter02.rst:1248
+msgid ""
+"The moment that you have finalized on the External DNS name of the "
+"Cluster Server, you must come here and configure the ExternalURL property"
+" for the Cluster Server."
+msgstr "En el momento en que haya finalizado con el nombre de DNS externo del Servidor de Clúster, debe venir aquí y configurar la propiedad ExternalURL para el Servidor de Clúster."
+
+#: ../../chapter02.rst:1251
+msgid "**Internal URL**"
+msgstr "**URL Interna**"
+
+#: ../../chapter02.rst:1253
+msgid ""
+"The **Internal URL** is the node's internal URL, typically in the form of"
+" http://local-ip-address format. In later Cluster Server builds, this "
+"property is hidden and there is no need to set it any more."
+msgstr "La **URL interna** es la URL interna del nodo, generalmente en formato de http://dirección-ip-local. En versiones más recientes del Servidor de Clúster, esta propiedad está oculta y ya no es necesario configurarla."
+
+#: ../../chapter02.rst:1255
+msgid "**Disable management functionality**"
+msgstr "**Deshabilitar la funcionalidad de gestión**"
+
+#: ../../chapter02.rst:1257
+msgid ""
+"You can create an internal facing worker node (that doesn't have an "
+"externalURL) and only allow management functionality on this worker node."
+" This is a security feature."
+msgstr "Puede crear un nodo trabajador interno (que no tenga una URL externa) y solo permitir funcionalidad de gestión en este nodo trabajador. Esta es una característica de seguridad."
+
+#: ../../chapter02.rst:1260
+msgid "**Edit Cloud Monitor Setting**"
+msgstr "**Editar la Configuración del Monitor de Nube**"
+
+#: ../../chapter02.rst:1265
+msgid "CLOUD MONITOR SETTINGS"
+msgstr "CONFIGURACIÓN DEL MONITOR DE NUBE"
+
+#: ../../chapter02.rst:1268
+msgid "**Enable Storage Scan**"
+msgstr "**Habilitar Escaneo de Almacenamiento**"
+
+#: ../../chapter02.rst:1270
+msgid ""
+"Enables or disables storage scan on the worker node. On the worker node, "
+"there is a cloud monitor service. The service will be doing background "
+"monitoring and make scan storage from time to time to correct quota "
+"calculation and perform other maintenance tasks."
+msgstr "Habilita o deshabilita el escaneo de almacenamiento en el nodo trabajador. En el nodo trabajador, hay un servicio de monitorización en la nube. El servicio realizará monitoreo en segundo plano y escaneará el almacenamiento de vez en cuando para corregir el cálculo de cuota y realizar otras tareas de mantenimiento."
+
+#: ../../chapter02.rst:1273
+msgid "**Scan Starts Hour**"
+msgstr "**Hora de inicio del escaneo**"
+
+#: ../../chapter02.rst:1275
+msgid ""
+"Typically you will set the scan start time to sometime in the early "
+"morning like 1AM."
+msgstr "Normalmente configurarás la hora de inicio del escaneo a una hora temprana de la mañana, como la 1 AM."
+
+#: ../../chapter02.rst:1278
+msgid "**Scan End Hour**"
+msgstr "**Hora de finalización del escaneo**"
+
+#: ../../chapter02.rst:1280
+msgid ""
+"Typically you will set the scan end time to sometime in the morning like "
+"8AM before everyone comes to work. The main idea is to leverage idle time"
+" (when people are not at work) to do the scanning."
+msgstr "Normalmente, configurarás la hora de finalización del escaneo para alguna hora de la mañana, como las 8 AM, antes de que todos lleguen al trabajo. La idea principal es aprovechar el tiempo inactivo (cuando las personas no están trabajando) para realizar el escaneo."
+
+#: ../../chapter02.rst:1283
+msgid "**Scan User Storage Every (n) Days**"
+msgstr "**Escanear el almacenamiento del usuario cada (n) días**"
+
+#: ../../chapter02.rst:1285
+msgid ""
+"Typically you can set it to every week or every other week. so a number "
+"between 7 to 15 is reasonable."
+msgstr "Normalmente puedes configurarlo para cada semana o cada dos semanas. por lo tanto, un número entre 7 a 15 es razonable."
+
+#: ../../chapter02.rst:1288
+msgid "**Enable Change Monitor**"
+msgstr "**Habilitar Monitor de Cambios**"
+
+#: ../../chapter02.rst:1290
+msgid ""
+"Enable change monitor monitors the attached local storage such as storage"
+" from file server network share and report file change notification to "
+"remotely connected clients. This usually is required if your users are "
+"both modifying documents directly from the backend attached network share"
+" and also from the front end Cluster access clients."
+msgstr "Habilitar el monitor de cambios supervisa el almacenamiento local adjunto, como el almacenamiento de la red compartida del servidor de archivos, e informa a los clientes conectados de forma remota sobre las notificaciones de cambio de archivo. Esto generalmente es necesario si sus usuarios están modificando documentos directamente desde la red compartida adjunta al backend y también desde los clientes de acceso al Cluster frontal."
+
+#: ../../chapter02.rst:1293
+msgid "**Index External Storage**"
+msgstr "**Indexar Almacenamiento Externo**"
+
+#: ../../chapter02.rst:1295
+msgid ""
+"This setting will index storage services added via the \"Storage "
+"Manager\". The index will be written to the files table in the database."
+msgstr "Esta configuración indexará los servicios de almacenamiento agregados a través del \"Gestor de Almacenamiento\". El índice se escribirá en la tabla de archivos de la base de datos."
+
+#: ../../chapter02.rst:1298
+msgid "**Enable Storage Purge of Deleted User**"
+msgstr "**Habilitar la Purga de Almacenamiento de Usuario Eliminado**"
+
+#: ../../chapter02.rst:1300
+msgid ""
+"When a user is deleted from the system, the user's home directory is not "
+"immediately removed. And a lot of times, you don't want to delete it at "
+"all. For example, a user is deleted from the Cluster Server, but the user"
+" may still continue to use the files and folder directly from the "
+"network."
+msgstr "Cuando un usuario es eliminado del sistema, el directorio principal del usuario no se elimina inmediatamente. Y muchas veces, no se desea eliminarlo en absoluto. Por ejemplo, un usuario es eliminado del Servidor Cluster, pero el usuario aún puede continuar utilizando los archivos y carpetas directamente desde la red."
+
+#: ../../chapter02.rst:1303
+msgid "**Process Background Task**"
+msgstr "**Procesar Tarea en Segundo Plano**"
+
+#: ../../chapter02.rst:1305
+msgid "Whether this specific node will process the background task."
+msgstr "Si este nodo específico procesará la tarea en segundo plano."
+
+#: ../../chapter02.rst:1308
+msgid "**Enable Change Monitor for Home Drive**"
+msgstr "**Habilitar Monitor de Cambios para Unidad Principal**"
+
+#: ../../chapter02.rst:1310
+msgid ""
+"If Active Directory Home Drive integration is on, this will allow the "
+"Cluster Server to monitor the changes on the home drive and notify remote"
+" client agents that the files/folders have changed."
+msgstr "Si la integración del Home Drive de Active Directory está activada, esto permitirá que el Cluster Server monitoree los cambios en el home drive y notifique a los agentes clientes remotos que los archivos/carpetas han cambiado."
+
+#: ../../chapter02.rst:1313
+msgid "**Send daily scan email**"
+msgstr "**Enviar correo electrónico de escaneo diario**"
+
+#: ../../chapter02.rst:1315
+msgid ""
+"If the storage scan is enabled, a daily scan email will be sent to the "
+"cluster administrator about the result of the scan."
+msgstr "Si el escaneo de almacenamiento está habilitado, se enviará un correo electrónico diario al administrador del clúster sobre el resultado del escaneo."
+
+#: ../../chapter02.rst:1318
+msgid "Web Node"
+msgstr "Nodo Web"
+
+#: ../../chapter02.rst:1319
+msgid "``Cluster Manager`` > ``Web Node``"
+msgstr "``Gestor de Clúster`` > ``Nodo Web``"
+
+#: ../../chapter02.rst:1322
+msgid ""
+"In a small deployment, there is no need to have web nodes. You can go "
+"straight to worker nodes since worker nodes by defaults are web nodes "
+"too."
+msgstr "En una implementación pequeña, no es necesario tener nodos web. Puedes ir directamente a los nodos trabajadores ya que por defecto los nodos trabajadores también son nodos web."
+
+#: ../../chapter02.rst:1325
+msgid ""
+"The Account Management, Sign-in and Load-balancing services will be "
+"installed on this physical machine (or virtual machine). Depending on the"
+" load, you may need 1 to N such nodes. Normally, we recommend for every "
+"web front node, you can have 10+ worker nodes. When you have small "
+"deployments, you can skip web front nodes and combine them into worker "
+"nodes. All the installation work is the same. If you do not need web "
+"front node, you do not need to assign them in the cluster manager."
+msgstr "Los servicios de Gestión de Cuentas, Inicio de Sesión y Equilibrio de Carga se instalarán en esta máquina física (o máquina virtual). Dependiendo de la carga, puede necesitar de 1 a N de estos nodos. Normalmente, recomendamos que por cada nodo de interfaz web, se pueden tener más de 10 nodos de trabajo. Cuando se tienen implementaciones pequeñas, se pueden omitir los nodos de interfaz web y combinarlos con los nodos de trabajo. Todo el trabajo de instalación es el mismo. Si no necesita nodo de interfaz web, no es necesario asignarlos en el administrador del clúster."
+
+#: ../../chapter02.rst:1330
+msgid "WEB NODE"
+msgstr "NODO WEB"
+
+#: ../../chapter02.rst:1332
+msgid "**Example:**"
+msgstr ""
+
+#: ../../chapter02.rst:1334
+msgid ""
+"ACME Corporation deploys two web front nodes node1.acme.com and "
+"node2.acme.com. Each node is running a copy of the Cluster Server "
+"connecting to the same SQL database."
+msgstr "ACME Corporation implementa dos nodos frontales web node1.acme.com y node2.acme.com. Cada nodo está ejecutando una copia del Cluster Server que se conecta a la misma base de datos SQL."
+
+#: ../../chapter02.rst:1336
+msgid ""
+"ACME Corporation acquires a domain name (DNS) of cloud.acme.com which is "
+"load balanced to node1.acme.com and node2.acme.com."
+msgstr "ACME Corporation adquiere un nombre de dominio (DNS) de cloud.acme.com que está balanceado en carga a node1.acme.com y node2.acme.com."
+
+#: ../../chapter02.rst:1338
+msgid ""
+"When Users point their browsers to https://cloud.acme.com it is directed "
+"to one of the nodes login page."
+msgstr "Cuando los usuarios dirigen sus navegadores a https://cloud.acme.com, son redirigidos a la página de inicio de sesión de uno de los nodos."
+
+#: ../../chapter02.rst:1342
+msgid ""
+"NOTE 1: If you have hardware load balancing available, you do not need to"
+" use web nodes at all."
+msgstr "NOTA 1: Si dispone de balanceo de carga de hardware, no necesita utilizar nodos web en absoluto."
+
+#: ../../chapter02.rst:1344
+msgid ""
+"NOTE 2: Windows 2012/R2 comes with Network Load Balancing (NLB). If you "
+"use NLB, you do not need web nodes at all."
+msgstr "NOTA 2: Windows 2012/R2 viene con Balanceo de Carga de Red (NLB). Si usas NLB, no necesitas nodos web en absoluto."
+
+#: ../../chapter02.rst:1346
+msgid "Basically, if you have any existing load balancer, you can omit web nodes."
+msgstr "Básicamente, si tienes algún balanceador de carga existente, puedes omitir los nodos web."
+
+#: ../../chapter02.rst:1349
+msgid "Zones"
+msgstr "Zonas"
+
+#: ../../chapter02.rst:1351
+msgid "``Cluster Manager`` > ``Zones``"
+msgstr "``Gestor de Clústeres`` > ``Zonas``"
+
+#: ../../chapter02.rst:1353
+msgid ""
+"The concept of zone is to associate your worker nodes with the location "
+"of the storage. When you think about zones, you will think about your "
+"storage location first."
+msgstr "El concepto de zona es asociar tus nodos trabajadores con la ubicación del almacenamiento. Cuando pienses en zonas, primero pensarás en la ubicación de tu almacenamiento."
+
+#: ../../chapter02.rst:1356
+msgid ""
+"For example, I have storage in LA so I have an LA zone. I also have "
+"storage in NY so I have a NY Zone."
+msgstr "Por ejemplo, tengo almacenamiento en LA, por lo que tengo una zona de LA. También tengo almacenamiento en NY, por lo que tengo una zona de NY."
+
+#: ../../chapter02.rst:1358
+msgid ""
+"You can have worker nodes from different zones as well and assign users "
+"to specific zone. If user's home directory is coming from LA zone, the "
+"user will need to be assigned to LA zone."
+msgstr "Puede tener nodos trabajadores de diferentes zonas también y asignar usuarios a una zona específica. Si el directorio principal del usuario proviene de la zona de LA, el usuario deberá ser asignado a la zona de LA."
+
+#: ../../chapter02.rst:1364
+msgid "CONTROL PANEL STORAGE ZONES EDITOR"
+msgstr "EDITOR DE ZONAS DE ALMACENAMIENTO DEL PANEL DE CONTROL"
+
+#: ../../chapter02.rst:1369
+msgid "Default Group Policy"
+msgstr "Política de Grupo Predeterminada"
+
+#: ../../chapter02.rst:1371
+msgid "``Cluster Manager`` > ``Default Group Policy``"
+msgstr "``Gestor de Clústeres`` > ``Política de Grupo Predeterminada``"
+
+#: ../../chapter02.rst:1373
+msgid ""
+"Default group policy can be applied to all tenants in the cluster. "
+"However, if the tenant also defines its own group policy, the tenant "
+"policy can over ride cluster wide default group policy."
+msgstr "La política de grupo predeterminada se puede aplicar a todos los inquilinos del clúster. Sin embargo, si el inquilino también define su propia política de grupo, la política del inquilino puede anular la política de grupo predeterminada de todo el clúster."
+
+#: ../../chapter02.rst:1375
+msgid ""
+"Please reference the ``Group Policy`` in the tenant administrator section"
+" for full list of policy items."
+msgstr "Por favor, consulte la ``Política de Grupo`` en la sección del administrador del inquilino para obtener la lista completa de elementos de la política."
+
+#: ../../chapter02.rst:1381
+msgid "GROUP POLICY SETTINGS"
+msgstr "CONFIGURACIONES DE DIRECTIVA DE GRUPO"
+

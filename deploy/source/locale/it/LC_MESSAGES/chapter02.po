@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:2
+msgid "Infrastructure Components"
+msgstr "Componenti dell'infrastruttura"
+
+#: ../../chapter02.rst:4
+msgid ""
+"There are three different infrastructure components (logical components "
+"that can co-exist in the same server). In the smallest deployment unit, "
+"the different components can co-exist in one single machine (all-in-one "
+"deployment)."
+msgstr "Ci sono tre diversi componenti dell'infrastruttura (componenti logici che possono coesistere nello stesso server). Nell'unità di distribuzione più piccola, i diversi componenti possono coesistere in una singola macchina (distribuzione all-in-one)."
+
+#: ../../chapter02.rst:9
+msgid "1. Worker Node Component"
+msgstr "Componente Nodo Worker"
+
+#: ../../chapter02.rst:11
+msgid ""
+"Worker node contains services like Web Browser Based File Manager, "
+"Storage Service Connectors, Active Directory connector and other key "
+"components. It is responsible for data related activities such as file "
+"upload and download, permission, control and change notification. Since "
+"the data upload and download usually go through worker node, thus it is "
+"called a \"worker\" for data transfer."
+msgstr "Il nodo worker contiene servizi come il File Manager basato su Web Browser, i Connettori di Servizi di Archiviazione, il connettore di Active Directory e altri componenti chiave. È responsabile delle attività relative ai dati, come il caricamento e lo scaricamento dei file, il controllo dei permessi e la notifica dei cambiamenti. Poiché il caricamento e lo scaricamento dei dati avvengono solitamente tramite il nodo worker, per questo è chiamato \"worker\" per il trasferimento dei dati."
+
+#: ../../chapter02.rst:17
+msgid "Additional nodes can be added as the load increases."
+msgstr "È possibile aggiungere nodi aggiuntivi man mano che aumenta il carico."
+
+#: ../../chapter02.rst:21
+msgid "2. Database Component"
+msgstr "2. Componente Database"
+
+#: ../../chapter02.rst:23
+msgid ""
+"The database contains persistent information for the system. Database is "
+"a critical component for the smooth operation of the CentreStack server "
+"farm. Local database with latency less than 10 milliseconds is "
+"recommended."
+msgstr "Il database contiene informazioni persistenti per il sistema. Il database è un componente critico per il funzionamento fluido della server farm di CentreStack. Si raccomanda un database locale con una latenza inferiore ai 10 millisecondi."
+
+#: ../../chapter02.rst:27
+msgid ""
+"In order for all worker nodes be in the same server farm, they need to "
+"point to the same database."
+msgstr "Affinché tutti i nodi worker siano nello stesso server farm, devono puntare allo stesso database."
+
+#: ../../chapter02.rst:32
+msgid "3. Storage Component"
+msgstr "3. Componente di Archiviazione"
+
+#: ../../chapter02.rst:34
+msgid ""
+"The storage component is the persistent storage location for files and "
+"folders. There are two different types of storage services. One is "
+"managed by CentreStack, such as the default storage for the cluster and "
+"the default storage for tenants. The other is imported storage, for "
+"example, having existing file server network shares that aren't managed "
+"by CentreStack but can be imported into CentreStack for remote and mobile"
+" access."
+msgstr "Il componente di archiviazione è la posizione di memorizzazione persistente per file e cartelle. Esistono due tipi diversi di servizi di archiviazione. Uno è gestito da CentreStack, come l'archiviazione predefinita per il cluster e l'archiviazione predefinita per i tenant. L'altro è l'archiviazione importata, ad esempio, avere condivisioni di rete del file server esistenti che non sono gestite da CentreStack, ma possono essere importate in CentreStack per l'accesso remoto e mobile."
+

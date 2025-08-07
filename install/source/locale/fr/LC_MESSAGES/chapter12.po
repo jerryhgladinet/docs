@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter12.rst:3
+msgid "Advanced Topics"
+msgstr "Sujets Avancés"
+
+#: ../../chapter12.rst:5
+msgid ""
+"These advanced topics require changes to the web.config file which is "
+"critical for the smooth operation of CentreStack, therefore, it is not "
+"recommended that you change the web.config file without first consulting "
+"Gladinet support."
+msgstr "Ces sujets avancés nécessitent des modifications du fichier web.config qui est essentiel pour le fonctionnement fluide de CentreStack, par conséquent, il n'est pas recommandé de modifier le fichier web.config sans avoir d'abord consulté le support Gladinet."
+
+#: ../../chapter12.rst:10
+msgid "Split Database"
+msgstr "Fractionner la base de données"
+
+#: ../../chapter12.rst:12
+msgid "The database contains two types of information."
+msgstr "La base de données contient deux types d'informations."
+
+#: ../../chapter12.rst:14
+msgid ""
+"The first type of information is the configuration data that is "
+"relatively static. For example, user name, user email, user's published "
+"shared files and folder etc. This type of information is relatively "
+"small. It can be estimated at 5000 bytes per user. So if you have 2000 "
+"users, it can be estimated at 10 MB."
+msgstr "Le premier type d'informations est les données de configuration qui sont relativement statiques. Par exemple, le nom d'utilisateur, l'email de l'utilisateur, les fichiers partagés publiés de l'utilisateur et les dossiers, etc. Ce type d'informations est relativement petit. Il peut être estimé à 5000 octets par utilisateur. Donc, si vous avez 2000 utilisateurs, cela peut être estimé à 10 Mo."
+
+#: ../../chapter12.rst:17
+msgid ""
+"The second type of information is relatively more volatile. For example, "
+"the file change log, the audit trace and the file list for index. It can "
+"be estimated at 100 file changes per user per day and each file change "
+"can be estimated at 1000 bytes for database storage. So for a 15 day "
+"(Default change log history), it can be estimated at 100*1000*15 = 1.5MB "
+"per user for 15 day period. If you need HIPPA compliance, the default "
+"change log history can be significantly longer so this part of the "
+"database will be much bigger."
+msgstr "Le deuxième type d'information est relativement plus volatile. Par exemple, le journal des modifications de fichiers, la trace d'audit et la liste des fichiers pour l'indexation. On peut estimer à 100 changements de fichiers par utilisateur par jour et chaque changement de fichier peut être estimé à 1000 octets pour le stockage en base de données. Ainsi, pour une période de 15 jours (historique des changements par défaut), on peut estimer à 100*1000*15 = 1,5 Mo par utilisateur pour une période de 15 jours. Si vous avez besoin de conformité HIPPA, l'historique des changements par défaut peut être significativement plus long, donc cette partie de la base de données sera beaucoup plus grande."
+
+#: ../../chapter12.rst:23
+msgid ""
+"For performance and regulatory reasons, it is recommended to split the "
+"database into two separate databases, one that contains static "
+"information and one that contains relatively more volatile information."
+msgstr "Pour des raisons de performance et de réglementation, il est recommandé de séparer la base de données en deux bases distinctes, l'une contenant les informations statiques et l'autre contenant les informations relativement plus volatiles."
+
+#: ../../chapter12.rst:26
+msgid ""
+"The secondary database (for more volatile data) can be either MySQL "
+"Database or Micrsoft SQL Database."
+msgstr "La base de données secondaire (pour les données plus volatiles) peut être soit une base de données MySQL soit une base de données SQL Microsoft."
+
+#: ../../chapter12.rst:28
+msgid ""
+"To split the database, first create a new database that will be used to "
+"store the volatile information. Create a database user and allow this "
+"user full access to the database (equivalent to db_owner). Once the "
+"database and user are created, sign into the CentreStack management "
+"console as the cluster admin and navigate to Cluster Dashboard > Cluster "
+"Settings > Change Log. Update the \"Logging DB Connection String\" "
+"setting using an appropriate connection string:"
+msgstr "Pour diviser la base de données, commencez par créer une nouvelle base de données qui sera utilisée pour stocker les informations volatiles. Créez un utilisateur de base de données et permettez à cet utilisateur un accès complet à la base de données (équivalent à db_owner). Une fois la base de données et l'utilisateur créés, connectez-vous à la console de gestion CentreStack en tant qu'administrateur du cluster et naviguez vers Tableau de bord du cluster > Paramètres du cluster > Journal des modifications. Mettez à jour le paramètre \"Chaîne de connexion de la base de données de journalisation\" en utilisant une chaîne de connexion appropriée :"
+
+#: ../../chapter12.rst:34
+msgid "**Connection String Example for MySQL Database**"
+msgstr "**Exemple de chaîne de connexion pour la base de données MySQL**"
+
+#: ../../chapter12.rst:42
+msgid "**Connection String Example for Microsoft SQL Database**"
+msgstr "**Exemple de chaîne de connexion pour la base de données Microsoft SQL**"
+
+#: ../../chapter12.rst:52
+msgid "Change Authentication Algorithm to Version 2"
+msgstr "Changer l'algorithme d'authentification pour la version 2"
+
+#: ../../chapter12.rst:54
+msgid ""
+"If you have a new installation of CentreStack without any legacy user, we"
+" recommend you hard code the authentication algorithm to version 2."
+msgstr "Si vous avez une nouvelle installation de CentreStack sans aucun utilisateur existant, nous vous recommandons de coder en dur l'algorithme d'authentification à la version 2."
+
+#: ../../chapter12.rst:57
+msgid ""
+"You can locate the web.config file in the root folder of the installation"
+" directory (same web.config file as referenced in the previous section) "
+"and add a line inside the <appSettings file=\"branding.config\"> section."
+msgstr "Vous pouvez localiser le fichier web.config dans le dossier racine du répertoire d'installation (le même fichier web.config que celui mentionné dans la section précédente) et ajouter une ligne à l'intérieur de la section <appSettings file=\"branding.config\">."
+
+#: ../../chapter12.rst:66
+msgid "Change the Synchronized Uploader to Asynchronized Uploader"
+msgstr "Changer l'Uploader Synchronisé en Uploader Asynchronisé"
+
+#: ../../chapter12.rst:68
+msgid ""
+"Under the C:\\Program Files (x86)\\CentreStack\\ (or the installation "
+"directory), look into the UploadDownloadProxy and identify the web.config"
+" file. Find the line with the SyncedStorageProxiedPutUploadHandler and "
+"change it to StorageProxiedPutUploadHandler."
+msgstr "Sous C:\Program Files (x86)\CentreStack\ (ou le répertoire d'installation), consultez le UploadDownloadProxy et identifiez le fichier web.config. Trouvez la ligne avec le SyncedStorageProxiedPutUploadHandler et changez-la en StorageProxiedPutUploadHandler."
+
+#: ../../chapter12.rst:72
+msgid ""
+"This optimization might not work on all systems, therefore, it is "
+"recommend you test web portal Drag and Drop upload after you make the "
+"change. If it does not work for your IIS, you can revert the change back "
+"or consult Gladinet support."
+msgstr "Cette optimisation peut ne pas fonctionner sur tous les systèmes, par conséquent, il est recommandé de tester le téléversement par glisser-déposer du portail web après avoir effectué la modification. Si cela ne fonctionne pas pour votre IIS, vous pouvez annuler la modification ou consulter le support Gladinet."
+
+#: ../../chapter12.rst:83
+msgid "Zone Support"
+msgstr "Support de zone"
+
+#: ../../chapter12.rst:85
+msgid ""
+"If you have two independent CentreStack clusters, for example, one "
+"cluster in US and one cluster in UK, you can use the zone support to "
+"connect the two clusters together. The advantage of using zones is the "
+"end user login request will automatically be redirected to the zone the "
+"user belongs to."
+msgstr "Si vous disposez de deux clusters CentreStack indépendants, par exemple, un cluster aux États-Unis et un autre au Royaume-Uni, vous pouvez utiliser le support de zones pour connecter les deux clusters ensemble. L'avantage de l'utilisation des zones est que la demande de connexion de l'utilisateur final sera automatiquement redirigée vers la zone à laquelle l'utilisateur appartient."
+
+#: ../../chapter12.rst:90
+msgid "Scalability Tuning"
+msgstr "Ajustement de l'évolutivité"
+
+#: ../../chapter12.rst:92
+msgid ""
+"CentreStack is built on top of ASP.NET and WCF. By default, both ASP.NET "
+"and WCF has throttle control parameters that we can tune and remove. "
+"Please reference this MSDN article for performance tuning:"
+msgstr "CentreStack est construit sur la base de ASP.NET et WCF. Par défaut, ASP.NET et WCF disposent de paramètres de contrôle de la limitation que nous pouvons régler et supprimer. Veuillez consulter cet article MSDN pour l'optimisation des performances :"
+
+#: ../../chapter12.rst:95
+msgid "http://msdn.microsoft.com/en-us/library/ff647813.aspx"
+msgstr "http://msdn.microsoft.com/fr-fr/library/ff647813.aspx"
+
+#: ../../chapter12.rst:99 ../../chapter12.rst:103
+msgid "(image source: http://msdn.microsoft.com/en-us/library/ff647813.aspx)"
+msgstr "(source de l'image : http://msdn.microsoft.com/fr-fr/library/ff647813.aspx)"
+
+#: ../../chapter12.rst:106
+msgid "Tuning #1 – namespace/web.config"
+msgstr "Réglage #1 – namespace/web.config"
+
+#: ../../chapter12.rst:108
+msgid ""
+"There are three parameters about max concurrent calls, concurrent "
+"sessions and concurrent instances."
+msgstr "Il y a trois paramètres concernant les appels simultanés maximaux, les sessions simultanées et les instances simultanées."
+
+#: ../../chapter12.rst:117
+msgid "This is set in the <CENTRESTACKInstallDir>\\\\namespace\\\\web.config file"
+msgstr "Ceci est défini dans le fichier <CENTRESTACKInstallDir>\\namespace\\web.config"
+
+#: ../../chapter12.rst:119
+msgid ""
+"There may be existing blocks of serviceBehaviors and behavior blocks "
+"there. You can simply add the serviceThrottling block."
+msgstr "Il peut y avoir des blocs existants de serviceBehaviors et des blocs de comportement. Vous pouvez simplement ajouter le bloc serviceThrottling."
+
+#: ../../chapter12.rst:134
+msgid "Tuning #2 – aspnet.config"
+msgstr "Réglage #2 – aspnet.config"
+
+#: ../../chapter12.rst:136
+msgid ""
+"The aspnet.config is under "
+"c:\\\\windows\\\\Microsoft.NET\\\\Framework64\\\\v4.0.30319"
+msgstr "Le fichier aspnet.config se trouve sous c:\\windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+
+#: ../../chapter12.rst:138
+msgid ""
+"system.web is an element of <configuration> so you can add it inside the "
+"<configuration> block."
+msgstr "system.web est un élément de <configuration>, vous pouvez donc l'ajouter à l'intérieur du bloc <configuration>."
+
+#: ../../chapter12.rst:150
+msgid "Tuning #3 – machine.config"
+msgstr "Réglage #3 – machine.config"
+
+#: ../../chapter12.rst:152
+msgid ""
+"Machine.config is at "
+"%windir%\\\\Microsoft.NET\\\\Framework64\\\\[version]\\\\config\\\\machine.config"
+msgstr "Machine.config se trouve à %windir%\\Microsoft.NET\\Framework64\\[version]\\config\\machine.config"
+
+#: ../../chapter12.rst:154
+msgid ""
+"(%windir% typically is c:\\\\windows. [version] is 4.0.30319 for .NET "
+"framework 4)"
+msgstr "(%windir% est généralement c:\\windows. [version] est 4.0.30319 pour le framework .NET 4)"
+
+#: ../../chapter12.rst:156
+msgid "**processModel**"
+msgstr "**modèle de processus**"
+
+#: ../../chapter12.rst:158
+msgid ""
+"processModel is under <system.web> and <system.web> is under "
+"<configuration>. Most likely the processModel block is there alredy but "
+"with autoConfig set to true. We can change it to set to false and with "
+"the attributes set below."
+msgstr "processModel se trouve sous <system.web> et <system.web> est sous <configuration>. Il est très probable que le bloc processModel soit déjà présent mais configuré sur autoConfig à true. Nous pouvons le modifier pour le mettre sur false et avec les attributs définis ci-dessous."
+
+#: ../../chapter12.rst:171
+msgid "**connectionManagement**"
+msgstr "**gestionDesConnexions**"
+
+#: ../../chapter12.rst:173
+msgid ""
+"<system.net> is a block below <configuration>. Typically if <system.net> "
+"doesn't already exist, the block can be added to the bottom of the config"
+" file, right before the closing tag of <configuration>."
+msgstr "<system.net> est un bloc situé sous <configuration>. Généralement, si <system.net> n'existe pas déjà, le bloc peut être ajouté au bas du fichier de configuration, juste avant la balise de fermeture de <configuration>."
+
+#: ../../chapter12.rst:185
+msgid "Tuning #4 – appConcurrentRequestLimit"
+msgstr "Réglage #4 – appConcurrentRequestLimit"
+
+#: ../../chapter12.rst:193
+msgid "Need More Information?"
+msgstr "Besoin de plus d'informations ?"
+
+#: ../../chapter12.rst:195
+msgid "Contact Gladinet Support (support@gladinet.com) for more information."
+msgstr "Contactez le support Gladinet (support@gladinet.com) pour plus d'informations."
+

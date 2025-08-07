@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:4
+msgid "4 Folder and File Features"
+msgstr "4つのフォルダとファイルの機能"
+
+#: ../../chapter04.rst:6
+msgid ""
+"When you Right click on a folder or a file you can access the context "
+"menu, which allows you to Share, Get share link, enable offline Access, "
+"Open in web browser, and Force Refresh."
+msgstr "フォルダやファイルを右クリックすると、コンテキストメニューにアクセスできます。そこでは、共有、共有リンクの取得、オフラインアクセスの有効化、ウェブブラウザで開く、強制リフレッシュなどの操作が可能です。"
+
+#: ../../chapter04.rst:9
+msgid "Folder and File Sharing"
+msgstr "フォルダとファイルの共有"
+
+#: ../../chapter04.rst:11
+msgid ""
+"To share a file or folder, simply right click on it and select "
+"**\"Share\"** from the menu item:"
+msgstr "ファイルまたはフォルダを共有するには、それを右クリックしてメニュー項目から **「共有」** を選択します:"
+
+#: ../../chapter04.rst:15
+msgid ""
+"A wizard will be launched to allow you to \"Invite People\". To set this "
+"up, click the **Share Icon (1)**. In the new window enter the email(s) "
+"**(2)** of anyone you wish to share this with seperated by semicolons "
+"(;). Click **\"CONTINUE\" (3)**."
+msgstr "「人を招待する」ためのウィザードが起動します。これを設定するには、**共有アイコン (1)** をクリックしてください。新しいウィンドウで、共有したい人のメールアドレス **(2)** をセミコロン(;)で区切って入力します。**「続行」 (3)** をクリックします。"
+
+#: ../../chapter04.rst:17
+msgid ""
+"In the next window you can choose how you want to share: expiration time,"
+" access rights (read only, view only, full control). After making your "
+"option selections, choose **\"SHARE\" (4)** or **\"GET LINK\" (5)**. "
+"\"SHARE\" sends emails to your guest users and \"GET LINK\" opens a "
+"window with the URL you can use to create a custom email or use some "
+"other method to communicate with your guest users."
+msgstr "次のウィンドウでは、共有する方法を選択できます：有効期限、アクセス権限（読み取り専用、閲覧のみ、完全制御）。オプションを選択した後、**「SHARE」(4)** または **「GET LINK」(5)** を選択してください。「SHARE」はゲストユーザーにメールを送信し、「GET LINK」はカスタムメールを作成するために使用できるURLが含まれたウィンドウを開きます。または、ゲストユーザーと通信するための他の方法を使用します。"
+
+#: ../../chapter04.rst:23
+msgid "Edit Share"
+msgstr "共有を編集"
+
+#: ../../chapter04.rst:24
+msgid ""
+"If a file or a folder is already shared, you can right click on the "
+"shared file or folder and select 'Share' to access the edit share menu. "
+"Here you can delete the share, edit the share, resend the notification "
+"email, show share link and enable and disable public link."
+msgstr "ファイルやフォルダが既に共有されている場合、共有されているファイルやフォルダを右クリックして「共有」を選択し、共有の編集メニューにアクセスできます。ここで共有を削除したり、共有を編集したり、通知メールを再送したり、共有リンクを表示したり、公開リンクを有効または無効にしたりすることができます。"
+
+#: ../../chapter04.rst:30
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+#: ../../chapter04.rst:32
+msgid ""
+"To verify that the Cloud Drive Mac Client \"Finder\" extension is active,"
+" you can check the setting by clicking the System Preferences button and "
+"choosing **\"Extensions\"** from the preferences options."
+msgstr "Cloud Drive Macクライアントの「Finder」拡張機能がアクティブであることを確認するには、システム環境設定ボタンをクリックして、環境設定オプションから **「拡張機能」** を選択してチェックできます。"
+
+#: ../../chapter04.rst:36
+msgid ""
+"This will open the Extensions window. You will find the setting under the"
+" \"All\" category."
+msgstr "これにより、拡張機能ウィンドウが開きます。「すべて」カテゴリの下に設定が見つかります。"
+
+#: ../../chapter04.rst:42
+msgid "Icon Overlays"
+msgstr "アイコンのオーバーレイ"
+
+#: ../../chapter04.rst:44
+msgid "There are three icon overlays on files to represent different states."
+msgstr "ファイルの異なる状態を表すためのアイコンオーバーレイが3つあります。"
+
+#: ../../chapter04.rst:48
+msgid "**Thin Green Check Mark**"
+msgstr "**薄緑色のチェックマーク**"
+
+#: ../../chapter04.rst:50
+msgid ""
+"This icon overlay means files are in the cloud but the file content is "
+"not local."
+msgstr "このアイコンのオーバーレイは、ファイルがクラウド上にあるが、ファイルの内容はローカルにはないことを意味しています。"
+
+#: ../../chapter04.rst:52
+msgid "**Solid Circle Green Check Mark**"
+msgstr "**ソリッドサークルグリーンチェックマーク**"
+
+#: ../../chapter04.rst:54
+msgid ""
+"This icon overlay means files are in the cloud and are also available "
+"from local."
+msgstr "このアイコンのオーバーレイは、ファイルがクラウドにあり、ローカルからも利用可能であることを意味しています。"
+
+#: ../../chapter04.rst:56
+msgid "**Blue Uploading Icon**"
+msgstr "**ブルーアップロードアイコン**"
+
+#: ../../chapter04.rst:58
+msgid "This icon shows the file is being uploaded and not completely done yet."
+msgstr "このアイコンは、ファイルがまだ完全にアップロードされていないことを示しています。"
+

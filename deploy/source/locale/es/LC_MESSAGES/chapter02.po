@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:2
+msgid "Infrastructure Components"
+msgstr "Componentes de Infraestructura"
+
+#: ../../chapter02.rst:4
+msgid ""
+"There are three different infrastructure components (logical components "
+"that can co-exist in the same server). In the smallest deployment unit, "
+"the different components can co-exist in one single machine (all-in-one "
+"deployment)."
+msgstr "Existen tres diferentes componentes de infraestructura (componentes lógicos que pueden coexistir en el mismo servidor). En la unidad de despliegue más pequeña, los diferentes componentes pueden coexistir en una sola máquina (despliegue todo-en-uno)."
+
+#: ../../chapter02.rst:9
+msgid "1. Worker Node Component"
+msgstr "Componente del Nodo Trabajador"
+
+#: ../../chapter02.rst:11
+msgid ""
+"Worker node contains services like Web Browser Based File Manager, "
+"Storage Service Connectors, Active Directory connector and other key "
+"components. It is responsible for data related activities such as file "
+"upload and download, permission, control and change notification. Since "
+"the data upload and download usually go through worker node, thus it is "
+"called a \"worker\" for data transfer."
+msgstr "El nodo trabajador contiene servicios como el Administrador de Archivos Basado en Navegador Web, Conectores de Servicio de Almacenamiento, conector de Active Directory y otros componentes clave. Es responsable de actividades relacionadas con los datos, tales como la carga y descarga de archivos, permisos, control y notificación de cambios. Dado que la carga y descarga de datos generalmente pasa a través del nodo trabajador, por eso se le llama \"trabajador\" para la transferencia de datos."
+
+#: ../../chapter02.rst:17
+msgid "Additional nodes can be added as the load increases."
+msgstr "Se pueden añadir nodos adicionales a medida que aumenta la carga."
+
+#: ../../chapter02.rst:21
+msgid "2. Database Component"
+msgstr "2. Componente de Base de Datos"
+
+#: ../../chapter02.rst:23
+msgid ""
+"The database contains persistent information for the system. Database is "
+"a critical component for the smooth operation of the CentreStack server "
+"farm. Local database with latency less than 10 milliseconds is "
+"recommended."
+msgstr "La base de datos contiene información persistente para el sistema. La base de datos es un componente crítico para el funcionamiento fluido de la granja de servidores de CentreStack. Se recomienda una base de datos local con latencia menor a 10 milisegundos."
+
+#: ../../chapter02.rst:27
+msgid ""
+"In order for all worker nodes be in the same server farm, they need to "
+"point to the same database."
+msgstr "Para que todos los nodos de trabajo estén en la misma granja de servidores, necesitan apuntar a la misma base de datos."
+
+#: ../../chapter02.rst:32
+msgid "3. Storage Component"
+msgstr "3. Componente de Almacenamiento"
+
+#: ../../chapter02.rst:34
+msgid ""
+"The storage component is the persistent storage location for files and "
+"folders. There are two different types of storage services. One is "
+"managed by CentreStack, such as the default storage for the cluster and "
+"the default storage for tenants. The other is imported storage, for "
+"example, having existing file server network shares that aren't managed "
+"by CentreStack but can be imported into CentreStack for remote and mobile"
+" access."
+msgstr "El componente de almacenamiento es el lugar de almacenamiento persistente para archivos y carpetas. Hay dos tipos diferentes de servicios de almacenamiento. Uno es gestionado por CentreStack, como el almacenamiento predeterminado para el clúster y el almacenamiento predeterminado para los inquilinos. El otro es almacenamiento importado, por ejemplo, tener comparticiones de red de servidores de archivos existentes que no son gestionadas por CentreStack pero pueden ser importadas a CentreStack para acceso remoto y móvil."
+

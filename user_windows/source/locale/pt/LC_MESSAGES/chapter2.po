@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter2.rst:3
+msgid "Installation"
+msgstr "Instalação"
+
+#: ../../chapter2.rst:6
+msgid ""
+"First login to your |prodname| web portal and click the user icon (1) in "
+"the top right corner. Then click the client download button (2) and "
+"download the respective client installer package."
+msgstr "Primeiro faça login no seu portal web |prodname| e clique no ícone do usuário (1) no canto superior direito. Em seguida, clique no botão de download do cliente (2) e baixe o pacote de instalação do cliente respectivo."
+
+#: ../../chapter2.rst:9
+msgid ""
+"**NOTE:** It is very important that you log in to |prodname| as a user "
+"before downloading the Windows or Mac Clients. This gives you access to "
+"client installation packages that are already tied to your |prodname| "
+"account, which makes installation and accessing |prodname| easy."
+msgstr "**NOTA:** É muito importante que você faça login no |prodname| como usuário antes de baixar os Clientes para Windows ou Mac. Isso lhe dá acesso aos pacotes de instalação do cliente que já estão vinculados à sua conta |prodname|, o que facilita a instalação e o acesso ao |prodname|."
+
+#: ../../chapter2.rst:14
+msgid "DOWNLOAD YOUR CLIENT"
+msgstr "BAIXE SEU CLIENTE"
+
+#: ../../chapter2.rst:16
+msgid ""
+"Once you click the download button you will see a page of options "
+"including Windows Desktop Client (1), Mac OS X Client (2) or Mobile "
+"client (3) and download the associated package."
+msgstr "Uma vez que você clicar no botão de download, você verá uma página de opções incluindo o Cliente para Desktop Windows (1), Cliente para Mac OS X (2) ou Cliente Móvel (3) e baixar o pacote associado."
+
+#: ../../chapter2.rst:21
+msgid "CLIENT DOWNLOAD PAGE"
+msgstr "PÁGINA DE DOWNLOAD DO CLIENTE"
+
+#: ../../chapter2.rst:23
+msgid ""
+"Ensure that you choose the appropriate download for your operating system"
+" (eg, Windows 64-bit, Windows 32-bit). Run the downloaded MSI package to "
+"start the installation. Then click \"Next\" and follow the instructions "
+"to finish. In the Setup Windows Client screen, you can customize the "
+"installation if necessary."
+msgstr "Certifique-se de escolher o download apropriado para o seu sistema operacional (por exemplo, Windows 64-bit, Windows 32-bit). Execute o pacote MSI baixado para iniciar a instalação. Em seguida, clique em \"Próximo\" e siga as instruções para concluir. Na tela Configurar Cliente Windows, você pode personalizar a instalação, se necessário."
+
+#: ../../chapter2.rst:28
+msgid "CLOUD WINDOWS CLIENT INSTALLER"
+msgstr "INSTALADOR DO CLIENTE WINDOWS NA NUVEM"
+
+#: ../../chapter2.rst:31
+msgid "Log In to |prodname|"
+msgstr "Iniciar sessão no |prodname|"
+
+#: ../../chapter2.rst:33
+msgid ""
+"At the end of the installation, you will be prompted to enter your "
+"|prodname| user account credentials. These credentials will authorize "
+"your |prodname| Windows Client and connect it to your |prodname| user "
+"account. Access to your Windows Client agent is also available under the "
+"Windows Start Menu. If the \"Auto-login next time\" option is selected "
+"(default), the Cloud Windows Client will be launched at Windows Startup. "
+"You can see the client icon in the lower right of the desktop or in the "
+"right-bottom notifications areas of your task bar."
+msgstr "No final da instalação, será solicitado que você insira suas credenciais de conta de usuário |prodname|. Essas credenciais autorizarão seu Cliente Windows |prodname| e conectá-lo-ão à sua conta de usuário |prodname|. O acesso ao seu agente Cliente Windows também está disponível no Menu Iniciar do Windows. Se a opção \"Login automático na próxima vez\" estiver selecionada (padrão), o Cliente Windows da Nuvem será iniciado com o Windows. Você pode ver o ícone do cliente no canto inferior direito da área de trabalho ou na área de notificações no canto inferior direito da sua barra de tarefas."
+
+#: ../../chapter2.rst:38
+msgid "LOGGING INTO |prodname| CLIENT"
+msgstr "FAZENDO LOGIN NO CLIENTE |prodname|"
+
+#: ../../chapter2.rst:41
+msgid "Accessing Your Files and Folders"
+msgstr "Acessando Seus Arquivos e Pastas"
+
+#: ../../chapter2.rst:43
+msgid "There are two main ways to use |prodname| files and folders."
+msgstr "Existem duas maneiras principais de usar arquivos e pastas |prodname|."
+
+#: ../../chapter2.rst:45
+msgid "First, there is a |prodname| Cloud Drive."
+msgstr "Primeiro, existe um |prodname| Cloud Drive."
+
+#: ../../chapter2.rst:47
+msgid ""
+"With the |prodname| Cloud Drive, you have direct on-demand access to your"
+" cloud storage."
+msgstr "Com o |prodname| Cloud Drive, você tem acesso direto sob demanda ao seu armazenamento na nuvem."
+
+#: ../../chapter2.rst:49
+msgid "Second, there are synchronization folders."
+msgstr "Em segundo lugar, existem pastas de sincronização."
+
+#: ../../chapter2.rst:51
+msgid ""
+"Outside of the Cloud Drive, if you don't want to change where your "
+"existing folders are, you can then attach local folders as an access "
+"mechanism. The attached folder will be synchronized with Cloud in a bi-"
+"directional way."
+msgstr "Fora do Cloud Drive, se você não quiser mudar onde suas pastas existentes estão, você pode então anexar pastas locais como um mecanismo de acesso. A pasta anexada será sincronizada com o Cloud de maneira bidirecional."
+
+#: ../../chapter2.rst:54
+msgid "Cloud Drive Access"
+msgstr "Acesso ao Drive na Nuvem"
+
+#: ../../chapter2.rst:56
+msgid ""
+"After the installation is completed, a system tray icon will appear that "
+"allows you to open your |prodname| Drive."
+msgstr "Após a conclusão da instalação, aparecerá um ícone na bandeja do sistema que permite abrir o seu |prodname| Drive."
+
+#: ../../chapter2.rst:58
+msgid ""
+"If you click the system tray icon **(1)** which will open the tray menu. "
+"You can access the cloud drive by clicking the drive icon **(2)** which "
+"will open Windows Explorer in the Cloud Drive veiw **(3)**."
+msgstr "Se você clicar no ícone da bandeja do sistema **(1)**, será aberto o menu da bandeja. Você pode acessar o drive em nuvem clicando no ícone do drive **(2)**, o que abrirá o Windows Explorer na visualização do Cloud Drive **(3)**."
+
+#: ../../chapter2.rst:63
+msgid "ACCESSING THE CLOUD DRIVE"
+msgstr "ACESSANDO O DRIVE NA NUVEM"
+
+#: ../../chapter2.rst:65
+msgid ""
+"In the Cloud Drive folder, you can do typical Windows folder functions, "
+"and right click to access the Cloud Drive context menu **(4)**."
+msgstr "Na pasta Cloud Drive, você pode realizar funções típicas de pasta do Windows e clicar com o botão direito para acessar o menu de contexto do Cloud Drive **(4)**."
+
+#: ../../chapter2.rst:67
+msgid ""
+"Back in the Tray Menu, the three-dots **(5)** gives you access to other "
+"important functions (e.g., web portal, force sync, sign out, exit, enable"
+" debug trace)."
+msgstr "De volta ao Menu da Bandeja, os três pontos **(5)** dão acesso a outras funções importantes (por exemplo, portal web, forçar sincronização, sair, encerrar, habilitar rastreamento de depuração)."
+
+#: ../../chapter2.rst:72
+msgid "OTHER CLOUD DRIVE FUNCTIONS"
+msgstr "OUTRAS FUNÇÕES DO DRIVE NA NUVEM"
+
+#: ../../chapter2.rst:75
+msgid "Management Console"
+msgstr "Console de Gerenciamento"
+
+#: ../../chapter2.rst:77
+msgid ""
+"Also in the Tray Menu there is a Management Console icon **(6)**. Click "
+"this will give you access to the Management Console."
+msgstr "Também no Menu de Bandeja existe um ícone da Consola de Gestão **(6)**. Clicar neste ícone dará acesso à Consola de Gestão."
+
+#: ../../chapter2.rst:82
+msgid "ACCESSING THE MANAGEMENT CONSOLE"
+msgstr "ACESSANDO O CONSOLE DE GERENCIAMENTO"
+

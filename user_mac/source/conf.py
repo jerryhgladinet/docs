@@ -50,7 +50,45 @@ source_suffix = '.rst'
 master_doc = 'content'
 
 # General information about the project.
+#en
 project = 'Mac Client User Guide'
+
+#ar
+#project = 'دليل مستخدم عميل Mac'
+
+#da
+#project = 'Brugervejledning til Mac-klient'
+
+#de
+#project = 'Mac-Client-Benutzerhandbuch'
+
+#es
+#project = 'Guía del usuario del cliente Mac'
+
+#fi
+#project = 'Mac-asiakasohjelman käyttöopas'
+
+#fr
+#project = 'Guide de l\'utilisateur du client Mac'
+
+#it
+#project = 'Guida utente client Mac'
+
+#ja
+#project = 'Macクライアントユーザーガイド'
+
+#nl
+#project = 'Mac Client-gebruikershandleiding'
+
+#pt
+#project = 'Guia do utilizador do cliente Mac'
+
+#sv
+#project = 'Användarhandbok för Mac-klient'
+
+#zh
+#project = 'Mac 客户端用户指南'
+
 copyright = '2022 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
@@ -72,7 +110,13 @@ release = '9.7.41664'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
+locale_dirs = ['locale/']        # path is example but recommended.
+gettext_compact = False     # optional.
+html_context = {
+  'current_language': 'en',
+  'languages': [["English","en"], ["Français","fr"], ["Deutsche","de"], ["Español","es"], ["Italiano","it"], ["Português","pt"], ["Nederlands","nl"], ["中文", "zh"], ["日本語","ja"], ["Svenska","sv"], ["Suomi","fi"], ["Dansk","da"], ["عربي","ar"]]
+}
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:

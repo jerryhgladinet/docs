@@ -1,0 +1,552 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Tenant Administrator"
+msgstr "مسؤول المستأجر"
+
+#: ../../chapter11.rst:5
+msgid ""
+"Please reference the `Admin Guide`__ for full documentation of the tenant"
+" administration. Here we will go over several commonly touched areas for "
+"tenant administrators."
+msgstr "يرجى الرجوع إلى `دليل المسؤول`__ للحصول على توثيق كامل لإدارة المستأجر. هنا سنتناول عدة مناطق يتم التعامل معها بشكل متكرر من قبل مدراء المستأجرين."
+
+#: ../../chapter11.rst:10
+msgid ""
+"After you enter the \"management console\", you will be in the tenant "
+"manager. You can access the tenant by clicking on the desired tenant from"
+" the options."
+msgstr "بعد أن تدخل إلى \"لوحة التحكم\"، ستكون في مدير المستأجر. يمكنك الوصول إلى المستأجر بالنقر على المستأجر المطلوب من الخيارات."
+
+#: ../../chapter11.rst:15
+msgid ""
+"Under Management Console, an admin can configure storage, monitor shared "
+"objects, create and manage team folders, manage users, configure granular"
+" group policies, add new tenant administrators, look at different "
+"reports, and under advanced configure AD etc."
+msgstr "تحت وحدة التحكم الإدارية، يمكن للمسؤول تكوين التخزين، مراقبة الكائنات المشتركة، إنشاء وإدارة مجلدات الفريق، إدارة المستخدمين، تكوين سياسات المجموعة بدقة، إضافة مسؤولين جدد للمستأجرين، الاطلاع على تقارير مختلفة، وتحت الإعدادات المتقدمة تكوين AD إلخ."
+
+#: ../../chapter11.rst:17
+msgid ""
+"After you click a tenant, you will be in the tenant dashboard. You can "
+"click through to different managers. You can manage users **(1)** and "
+"folders **(2)**. If you are using an Active Directory for importing users"
+" and permissions you can connect to your Active Directory by clicking the"
+" \"Configure Now\" **(3)**."
+msgstr "بعد النقر على المستأجر، ستكون في لوحة تحكم المستأجر. يمكنك النقر للانتقال إلى مديرين مختلفين. يمكنك إدارة المستخدمين **(1)** والمجلدات **(2)**. إذا كنت تستخدم دليل نشط لاستيراد المستخدمين والأذونات يمكنك الاتصال بدليلك النشط بالنقر على \"تكوين الآن\" **(3)**."
+
+#: ../../chapter11.rst:22
+msgid "MANAGE USERS AND FILES"
+msgstr "إدارة المستخدمين والملفات"
+
+#: ../../chapter11.rst:27
+msgid "User Manager"
+msgstr "مدير المستخدمين"
+
+#: ../../chapter11.rst:29
+msgid ""
+"You can access the user manager by clicking one of these items in the "
+"Tenant Dashboard."
+msgstr "يمكنك الوصول إلى مدير المستخدمين بالنقر على أحد هذه العناصر في لوحة تحكم المستأجر."
+
+#: ../../chapter11.rst:34
+msgid "ACCESSING THE USER MANAGER"
+msgstr "الوصول إلى مدير المستخدمين"
+
+#: ../../chapter11.rst:38
+msgid "Active Directory - LDAP"
+msgstr "الدليل النشط - LDAP"
+
+#: ../../chapter11.rst:40
+msgid ""
+"When you \"Create or Migrate User\" **(1)** in user manager, there are "
+"some options for adding new users. Click \"Active Directory\" **(2)**, "
+"you can add your local AD settings. Select \"Enable Active Directory "
+"Integration\" **(3)**."
+msgstr "عندما تقوم بـ \"إنشاء أو ترحيل مستخدم\" **(1)** في مدير المستخدمين، هناك بعض الخيارات لإضافة مستخدمين جدد. انقر على \"دليل التكامل\" **(2)**، يمكنك إضافة إعدادات AD المحلية الخاصة بك. اختر \"تمكين دمج دليل التكامل\" **(3)**."
+
+#: ../../chapter11.rst:45
+msgid "CONNECTING TO ACTIVE DIRECTORY (AD)"
+msgstr "الاتصال بالدليل النشط (AD)"
+
+#: ../../chapter11.rst:47
+msgid ""
+"This gives you access to all the settings fields and the Advanced "
+"Settings Tab **(4)**. Once you have filled in the settings with an "
+"Administrator User account from your Active Directory, click **APPLY** to"
+" accept your changes."
+msgstr "هذا يمنحك الوصول إلى جميع حقول الإعدادات وعلامة التبويب الإعدادات المتقدمة **(4)**. بمجرد أن تقوم بملء الإعدادات باستخدام حساب مستخدم المسؤول من Active Directory الخاص بك، انقر على **APPLY** لقبول التغييرات."
+
+#: ../../chapter11.rst:51
+msgid "Add Users"
+msgstr "إضافة مستخدمين"
+
+#: ../../chapter11.rst:53
+msgid ""
+"You can add users from within the User Manager by clicking the \"Create "
+"or Migrate User\" button to open the **\"Options for Adding New Users\"**"
+" panel. In that panel you have several options: add a Native User, Batch "
+"Create Users, import Active Directory users and permissions, and if you "
+"have Server Agents actively connected, you will also see those servers "
+"listed here as well."
+msgstr "يمكنك إضافة مستخدمين من خلال مدير المستخدمين بالنقر على زر \"إنشاء أو ترحيل مستخدم\" لفتح لوحة **\"خيارات إضافة مستخدمين جدد\"**. في تلك اللوحة، لديك عدة خيارات: إضافة مستخدم أصلي، إنشاء مستخدمين دفعة واحدة، استيراد مستخدمين وصلاحيات الدليل النشط، وإذا كان لديك وكلاء خوادم نشطين متصلين، سترى أيضًا تلك الخوادم مدرجة هنا كذلك."
+
+#: ../../chapter11.rst:58
+msgid "ADDING USERS"
+msgstr "إضافة المستخدمين"
+
+#: ../../chapter11.rst:60
+msgid "**Native User**"
+msgstr "**مستخدم أصلي**"
+
+#: ../../chapter11.rst:62
+msgid ""
+"Native user refers to |prodname| user that is not related to any Active "
+"Directory."
+msgstr "المستخدم الأصلي يشير إلى مستخدم |prodname| الذي لا يرتبط بأي دليل نشط."
+
+#: ../../chapter11.rst:65
+msgid "**Batch create users**"
+msgstr "**إنشاء مستخدمين دفعة واحدة**"
+
+#: ../../chapter11.rst:67
+msgid ""
+"These are native users in a comma separated file that can be paste into a"
+" text area so the users can be batch created."
+msgstr "هؤلاء هم المستخدمون الأصليون في ملف مفصول بفواصل يمكن لصقه في منطقة نصية حتى يمكن إنشاء المستخدمين دفعة واحدة."
+
+#: ../../chapter11.rst:70
+msgid "**Active Directory**"
+msgstr "**الدليل النشط**"
+
+#: ../../chapter11.rst:72
+msgid ""
+"Active Directory means users from Local Area Network (LAN) that is in the"
+" same network as the |prodname| server."
+msgstr "يعني دليل النشاط المستخدمين من شبكة المنطقة المحلية (LAN) التي تكون في نفس الشبكة مع خادم |prodname|."
+
+#: ../../chapter11.rst:75
+msgid "**Server-Agent-Name**"
+msgstr "**اسم-وكيل-الخادم**"
+
+#: ../../chapter11.rst:77
+msgid ""
+"If you already have the \"Server Agent\" installed and the server agent "
+"is actively connected to |prodname|, you will also see the server agents "
+"listed by name in the Add User page."
+msgstr "إذا كنت قد قمت بالفعل بتثبيت \"وكيل الخادم\" وكان وكيل الخادم متصلاً بنشاط بـ |prodname|، فسوف ترى أيضًا وكلاء الخادم مدرجين بالاسم في صفحة إضافة مستخدم."
+
+#: ../../chapter11.rst:83
+msgid "Native Users"
+msgstr "المستخدمون الأصليون"
+
+#: ../../chapter11.rst:85
+msgid ""
+"When a new user is created, the administrator will specify the amount of "
+"cloud storage that the new user is allowed to use. The email address will"
+" send a welcome email to the new user and will serve as his/her username."
+msgstr "عند إنشاء مستخدم جديد، سيحدد المسؤول كمية التخزين السحابي المسموح بها للمستخدم الجديد. سيتم إرسال بريد إلكتروني ترحيبي إلى المستخدم الجديد وسيكون عنوان البريد الإلكتروني هو اسم المستخدم الخاص به/بها."
+
+#: ../../chapter11.rst:90
+msgid "ADDING A NATIVE USER"
+msgstr "إضافة مستخدم أصلي"
+
+#: ../../chapter11.rst:94
+msgid ""
+"When quota is left as zero, it means no limitation until the tenant quota"
+" limit is hit."
+msgstr "عندما يترك الحصة صفرًا، فهذا يعني عدم وجود قيود حتى يتم الوصول إلى حد الحصة الخاصة بالمستأجر."
+
+#: ../../chapter11.rst:97
+msgid "Active Directory Users from LDAP"
+msgstr "مستخدمو الدليل النشط من LDAP"
+
+#: ../../chapter11.rst:99
+msgid ""
+"If the Active Directory (LDAP) is not already configured, you will need "
+"to configure it first. You can from \"Settings\" > \"Active Directory\", "
+"or \"Create or Migrate User\" > \"Active Directory\" to access the "
+"settings."
+msgstr "إذا لم يتم تكوين الدليل النشط (LDAP) بالفعل، ستحتاج إلى تكوينه أولاً. يمكنك من \"الإعدادات\" > \"الدليل النشط\"، أو \"إنشاء أو ترحيل مستخدم\" > \"الدليل النشط\" للوصول إلى الإعدادات."
+
+#: ../../chapter11.rst:104
+msgid "CONFIGURE YOUR ACTIVE DIRECTORY SETTINGS"
+msgstr "قم بتهيئة إعدادات الدليل النشط الخاص بك"
+
+#: ../../chapter11.rst:106
+msgid ""
+"If the Active Directory (LDAP) is already configured, you will see the "
+"Active Directory name at the bottom of the AD icon in the \"Add User\" "
+"view."
+msgstr "إذا تم تكوين الدليل النشط (LDAP) بالفعل، سترى اسم الدليل النشط في أسفل رمز الدليل النشط في عرض \"إضافة مستخدم\"."
+
+#: ../../chapter11.rst:108
+msgid "Add Active Directory Users where those users are from local area network."
+msgstr "أضف مستخدمي Active Directory حيث يكون هؤلاء المستخدمون من شبكة محلية"
+
+#: ../../chapter11.rst:113
+msgid "ADDING ACTIVE DIRECTORY USERS"
+msgstr "إضافة مستخدمي الدليل النشط"
+
+#: ../../chapter11.rst:116
+msgid ""
+"After the Active Directory is configured, you can use the Add User wizard"
+" to import Active Directory users into |prodname|."
+msgstr "بعد تكوين Active Directory، يمكنك استخدام معالج إضافة مستخدم لاستيراد مستخدمي Active Directory إلى |prodname|."
+
+#: ../../chapter11.rst:121
+msgid ""
+"For best practice, you will only configure Active Directory via LDAP if "
+"the file server is also local in the same network as the Active Directory"
+" server."
+msgstr "للممارسة الأفضل، يجب أن تقوم بتكوين الدليل النشط عبر LDAP فقط إذا كان الخادم الملفات موجودًا محليًا في نفس الشبكة مع خادم الدليل النشط."
+
+#: ../../chapter11.rst:126
+msgid "Active Directory Users from Server Agent"
+msgstr "مستخدمو Active Directory من وكيل الخادم"
+
+#: ../../chapter11.rst:128
+msgid ""
+"When the Server Agent is available and connects to the specific tenant in"
+" |prodname|, the Server Agent will show up with the server's name at the "
+"bottom of the icon."
+msgstr "عندما يكون عامل الخادم متاحًا ويتصل بالمستأجر المحدد في |prodname|، سيظهر عامل الخادم مع اسم الخادم في أسفل الأيقونة."
+
+#: ../../chapter11.rst:132
+msgid ""
+"Click through the Server Agent icon, you will see the \"Add User\" wizard"
+" and complete the wizard to add users. This is very similar to the add AD"
+" user from local LDAP process above."
+msgstr "انقر على أيقونة وكيل الخادم، سترى معالج \"إضافة مستخدم\" وأكمل المعالج لإضافة المستخدمين. هذا مشابه جدًا لعملية إضافة مستخدم AD من عملية LDAP المحلية أعلاه."
+
+#: ../../chapter11.rst:136
+msgid ""
+"When the Active Directory is at a remote location, not directly connected"
+" to |prodname| server, Server Agent can be used to facilitate the "
+"communication. Server Agent doesn't need to be installed directly on a "
+"remote Active Directory server, the Server Agent needs to be installed on"
+" a remote file server that is part of the remote Active Directory domain."
+msgstr "عندما يكون دليل التفعيل في موقع بعيد، غير متصل مباشرة بخادم |prodname|، يمكن استخدام وكيل الخادم لتسهيل الاتصال. لا يحتاج وكيل الخادم إلى أن يتم تثبيته مباشرة على خادم دليل التفعيل البعيد، يجب تثبيت وكيل الخادم على خادم ملفات بعيد يكون جزءًا من نطاق دليل التفعيل البعيد."
+
+#: ../../chapter11.rst:140
+msgid "Deleting Users"
+msgstr "حذف المستخدمين"
+
+#: ../../chapter11.rst:142
+msgid ""
+"When a user leaves the team, administrators can delete the user's login. "
+"Just click the Delete icon in 'User Manager' window."
+msgstr "عندما يغادر المستخدم الفريق، يمكن للمدراء حذف تسجيل دخول المستخدم. فقط انقر على أيقونة الحذف في نافذة 'مدير المستخدم'."
+
+#: ../../chapter11.rst:147
+msgid "DELETING A USER"
+msgstr "حذف مستخدم"
+
+#: ../../chapter11.rst:151
+msgid "Managing User Quotas"
+msgstr "إدارة حصص المستخدمين"
+
+#: ../../chapter11.rst:153
+msgid ""
+"Administrators can assign a quota to each user. A user will not be "
+"allowed to upload files to |prodname| once their quota has been reached."
+msgstr "يمكن للمسؤولين تعيين حصة لكل مستخدم. لن يُسمح للمستخدم برفع الملفات إلى |prodname| بمجرد الوصول إلى حصته."
+
+#: ../../chapter11.rst:155
+msgid ""
+"If the quota is 0 for the user, there is no limit on how much storage the"
+" user can use."
+msgstr "إذا كان الحصة التخزينية للمستخدم صفراً، فلا يوجد حد لكمية التخزين التي يمكن للمستخدم استخدامها."
+
+#: ../../chapter11.rst:157
+msgid ""
+"Click the 'Management Console' and select 'Users'. Click the \"Edit\" "
+"icon on an user to manage. On \"Storage\" tab, select \"Edit\" icon for "
+"storage quota."
+msgstr "انقر على 'لوحة التحكم' واختر 'المستخدمين'. انقر على أيقونة \"تحرير\" بجانب المستخدم لإدارته. في علامة التبويب \"التخزين\"، اختر أيقونة \"تحرير\" لحصة التخزين."
+
+#: ../../chapter11.rst:162
+msgid "EDITING STORAGE QUOTA"
+msgstr "تحرير حصة التخزين"
+
+#: ../../chapter11.rst:166
+msgid "Managing User Credentials"
+msgstr "إدارة بيانات اعتماد المستخدم"
+
+#: ../../chapter11.rst:168
+msgid "Admins can change user passwords and login emails, if needed."
+msgstr "يمكن للمدراء تغيير كلمات مرور المستخدمين ورسائل البريد الإلكتروني لتسجيل الدخول، إذا لزم الأمر."
+
+#: ../../chapter11.rst:170
+msgid "Click 'Management Console' and select 'User Manager'"
+msgstr "انقر على 'لوحة التحكم' واختر 'مدير المستخدمين'"
+
+#: ../../chapter11.rst:171
+msgid "Click the \"manage user\" menu icon in the user block"
+msgstr "انقر على أيقونة القائمة \"إدارة المستخدم\" في كتلة المستخدم"
+
+#: ../../chapter11.rst:172
+msgid "After that, can use \"Reset Password\" link to help the user."
+msgstr "بعد ذلك، يمكن استخدام رابط \"إعادة تعيين كلمة المرور\" لمساعدة المستخدم."
+
+#: ../../chapter11.rst:177
+msgid "RESET USER PASSWORD"
+msgstr "إعادة تعيين كلمة مرور المستخدم"
+
+#: ../../chapter11.rst:180
+msgid ""
+"After changing the login password, an email will be sent to notify the "
+"user of the change. Admins can choose to include the new password in the "
+"email, or exclude the new password from the email. If the password is not"
+" included, the admin will need to convey the new password to the user in "
+"some other way."
+msgstr "بعد تغيير كلمة المرور لتسجيل الدخول، سيتم إرسال بريد إلكتروني لإخطار المستخدم بالتغيير. يمكن للمدراء اختيار إدراج كلمة المرور الجديدة في البريد الإلكتروني، أو استثناء كلمة المرور الجديدة من البريد الإلكتروني. إذا لم تُدرج كلمة المرور، سيحتاج المدير إلى إبلاغ المستخدم بكلمة المرور الجديدة بطريقة أخرى."
+
+#: ../../chapter11.rst:185
+msgid "PASSWORD OPTIONS"
+msgstr "خيارات كلمة المرور"
+
+#: ../../chapter11.rst:188
+msgid ""
+"When either the email or password is changed, please update the "
+"corresponding login credentials in the |prodname| Cloud Desktop or Cloud "
+"Server."
+msgstr "عند تغيير البريد الإلكتروني أو كلمة المرور، يرجى تحديث بيانات اعتماد تسجيل الدخول المقابلة في |prodname| سطح المكتب السحابي أو الخادم السحابي."
+
+#: ../../chapter11.rst:192
+msgid ""
+"This only applies to a native |prodname| user. If you have Active "
+"Directory users, you will need to manage user's credential the Active "
+"Directory way."
+msgstr "هذا ينطبق فقط على مستخدم |prodname| الأصلي. إذا كان لديك مستخدمون من Active Directory، ستحتاج إلى إدارة بيانات اعتماد المستخدم بطريقة Active Directory."
+
+#: ../../chapter11.rst:196
+msgid "Team Folders"
+msgstr "مجلدات الفريق"
+
+#: ../../chapter11.rst:198
+msgid ""
+"Adding files and folders can be accomplished by clicking \"Add a new team"
+" folder\" (**+**) icon on \"Team Folders\" page. Once the **\"Team Folder"
+" Storage Locations\"** view opens you can choose from many options: "
+"Existing Tenant Storage, File Servers in Local Area Network, Remote File "
+"Servers or Cloud Storage."
+msgstr "يمكن إضافة الملفات والمجلدات عن طريق النقر على أيقونة \"إضافة مجلد فريق جديد\" (**+**) في صفحة \"مجلدات الفريق\". بمجرد فتح نافذة **\"مواقع تخزين مجلد الفريق\"** يمكنك الاختيار من بين العديد من الخيارات: التخزين الموجود للمستأجر، خوادم الملفات في شبكة المنطقة المحلية، خوادم الملفات البعيدة أو التخزين السحابي."
+
+#: ../../chapter11.rst:203
+msgid "WAYS TO ADD STORAGE LOCATIONS"
+msgstr "طرق إضافة مواقع التخزين"
+
+#: ../../chapter11.rst:206
+msgid "**File Servers**"
+msgstr "**ملقمات الملفات**"
+
+#: ../../chapter11.rst:208
+msgid ""
+"If you have an existing file server in the Local Area Network (LAN), you "
+"can import the network share directly to |prodname| **(1)**. Under Remote"
+" File Servers, you can install the Server Agent client **(2)** and access"
+" your file server remotely."
+msgstr "إذا كان لديك خادم ملفات موجود في الشبكة المحلية (LAN)، يمكنك استيراد المشاركة الشبكية مباشرةً إلى |prodname| **(1)**. تحت خوادم الملفات البعيدة، يمكنك تثبيت عميل وكيل الخادم **(2)** والوصول إلى خادم الملفات الخاص بك عن بُعد."
+
+#: ../../chapter11.rst:213
+msgid "ADDING REMOTE FILES"
+msgstr "إضافة ملفات بعيدة"
+
+#: ../../chapter11.rst:218
+msgid ""
+"The Server Agent is only required when the remote file server doesn't "
+"have direct LAN (local area network) access"
+msgstr "الوكيل الخاص بالخادم مطلوب فقط عندما لا يكون للخادم البعيد وصول مباشر لشبكة الاتصال المحلية (LAN)"
+
+#: ../../chapter11.rst:218
+msgid ""
+"to |prodname|. The Server Agent will be used in this case to facilitate "
+"communication between the |prodname| server to the remote file server."
+msgstr "إلى |prodname|. سيتم استخدام وكيل الخادم في هذه الحالة لتسهيل الاتصال بين خادم |prodname| والخادم الملف البعيد."
+
+#: ../../chapter11.rst:221
+msgid ""
+"|prodname| enables the creation of team folders which are owned by the "
+"administrator and published to other |prodname| users."
+msgstr "|prodname| يتيح إنشاء مجلدات الفريق التي يمتلكها المسؤول ويتم نشرها لمستخدمي |prodname| الآخرين."
+
+#: ../../chapter11.rst:223
+msgid ""
+"Once a folder is published, it is displayed as a team folder to the users"
+" who have access permissions. Users can access these folders from "
+"|prodname| Web or other client agents. The published folder will appear "
+"under the user's root folder, and its name will be appended with \"(Team "
+"Folder)\"."
+msgstr "بمجرد نشر مجلد، يتم عرضه كمجلد فريق للمستخدمين الذين لديهم أذونات الوصول. يمكن للمستخدمين الوصول إلى هذه المجلدات من خلال |prodname| ويب أو وكلاء العميل الآخرين. سيظهر المجلد المنشور تحت مجلد الجذر الخاص بالمستخدم، وسيتم إلحاق اسمه بـ \"(مجلد الفريق)\"."
+
+#: ../../chapter11.rst:229
+msgid "TEAM FOLDER TAG"
+msgstr "علامة مجلد الفريق"
+
+#: ../../chapter11.rst:233
+msgid ""
+"Different upload methods may have different advantage and disadvantage on"
+" different web browsers and different web browser configuration, such as "
+"whether it is HTML5 enabled, Java enabled or Flash enabled."
+msgstr "قد تختلف طرق التحميل في مزاياها وعيوبها باختلاف متصفحات الويب وتكويناتها، مثل ما إذا كانت تدعم HTML5 أو Java أو Flash."
+
+#: ../../chapter11.rst:236
+msgid ""
+"By default, only one upload method was exposed in the web user interface."
+" However, the tenant administrator, based on the kind of web browser the "
+"company is using and the kind of configuration the web browser has, can "
+"decide which upload method to expose to the end user (Team User)."
+msgstr "بشكل افتراضي، كانت واجهة المستخدم الويب تعرض طريقة تحميل واحدة فقط. ومع ذلك، يمكن لمدير المستأجر، بناءً على نوع متصفح الويب الذي تستخدمه الشركة ونوع التكوين الذي يحتويه متصفح الويب، أن يقرر أي طريقة تحميل يتم عرضها للمستخدم النهائي (المستخدم الفريق)."
+
+#: ../../chapter11.rst:239
+msgid ""
+"Below is the Settings -> Clients & Applications -> Web Portal setting "
+"administrator can control."
+msgstr "أدناه هي إعدادات -> العملاء والتطبيقات -> إعداد بوابة الويب التي يمكن للمسؤول التحكم بها."
+
+#: ../../chapter11.rst:244
+msgid "UPLOADER METHOD OPTIONS"
+msgstr "خيارات طريقة الرافع"
+
+#: ../../chapter11.rst:246
+msgid "Web Browser - Disable Java Uploader"
+msgstr "متصفح الويب - تعطيل أداة رفع الجافا"
+
+#: ../../chapter11.rst:248
+msgid ""
+"Deselect this if your companies' desktop system web browsers use a Java "
+"Uploader."
+msgstr "قم بإلغاء تحديد هذا الخيار إذا كانت متصفحات الويب الخاصة بأنظمة سطح المكتب في شركتك تستخدم أداة رفع البيانات بجافا."
+
+#: ../../chapter11.rst:250
+msgid "Web Browser - Disable Flash Uploader"
+msgstr "متصفح الويب - تعطيل أداة رفع ملفات فلاش"
+
+#: ../../chapter11.rst:252
+msgid ""
+"Deselect this if your company uses browsers that require Flash uploader "
+"functionality."
+msgstr "قم بإلغاء تحديد هذا الخيار إذا كانت شركتك تستخدم متصفحات تتطلب وظائف مُحمّل Flash."
+
+#: ../../chapter11.rst:254
+msgid "Web Browser - Disable Local Uploader"
+msgstr "متصفح الويب - تعطيل أداة الرفع المحلية"
+
+#: ../../chapter11.rst:256
+msgid ""
+"Deselect this if your company allows the use of a local executable to "
+"upload files."
+msgstr "قم بإلغاء تحديد هذا الخيار إذا كانت شركتك تسمح باستخدام تنفيذي محلي لرفع الملفات."
+
+#: ../../chapter11.rst:260
+msgid "Sharing Security"
+msgstr "أمان المشاركة"
+
+#: ../../chapter11.rst:263
+msgid "Preventing Users From Sharing"
+msgstr "منع المستخدمين من المشاركة"
+
+#: ../../chapter11.rst:265
+msgid ""
+"Sometimes for security reasons, users should not be allowed to share "
+"files/folders."
+msgstr "في بعض الأحيان، ولأسباب أمنية، يجب ألا يُسمح للمستخدمين بمشاركة الملفات/المجلدات."
+
+#: ../../chapter11.rst:267
+msgid "There are two types of files and folders a user can access."
+msgstr "هناك نوعان من الملفات والمجلدات التي يمكن للمستخدم الوصول إليها."
+
+#: ../../chapter11.rst:269
+msgid ""
+"User's own folders, including versioned folders and attached local "
+"folders from the user's desktop."
+msgstr "مجلدات المستخدم الخاصة، بما في ذلك المجلدات ذات الإصدارات والمجلدات المحلية المرفقة من سطح مكتب المستخدم."
+
+#: ../../chapter11.rst:271
+msgid ""
+"When an administrator creates new users, he/she can disable sharing home "
+"directory content with external party, to prevent the newly created user "
+"from sharing his/her own files and folders."
+msgstr "عندما يقوم المسؤول بإنشاء مستخدمين جدد، يمكنه تعطيل مشاركة محتوى الدليل الرئيسي مع الطرف الخارجي، لمنع المستخدم الجديد من مشاركة ملفاته ومجلداته الخاصة."
+
+#: ../../chapter11.rst:277
+msgid "MANAGE USER SETTINGS"
+msgstr "إدارة إعدادات المستخدم"
+
+#: ../../chapter11.rst:279
+msgid ""
+"In the Manage User panel, access the \"Storage\" settings (4). Once you "
+"are in the Storage View you can select (5) the \"Disable external sharing"
+" of this user's home directory content\" option."
+msgstr "في لوحة إدارة المستخدم، ادخل إلى إعدادات \"التخزين\" (4). بمجرد أن تكون في عرض التخزين يمكنك اختيار (5) خيار \"تعطيل المشاركة الخارجية لمحتوى دليل الصفحة الرئيسية لهذا المستخدم\"."
+
+#: ../../chapter11.rst:284
+msgid "DISABLE EXTERNAL SHARING"
+msgstr "تعطيل المشاركة الخارجية"
+
+#: ../../chapter11.rst:287
+msgid ""
+"When publishing a team folder, administrator can check 'Disable further "
+"sharing', to prevent users from sharing anything in the team folder. You "
+"can access this setting after choosing your storage location. Click the "
+"\"Create Team Folder\" **(+)** icon (1) and select your storage type (2),"
+" \"New Team Folder\" window opens, click \"Settings\" icon (3), then "
+"select the \"Disable further sharing\" option (4)."
+msgstr "عند نشر مجلد الفريق، يمكن للمدير التحقق من 'تعطيل المشاركة الإضافية'، لمنع المستخدمين من مشاركة أي شيء في مجلد الفريق. يمكنك الوصول إلى هذا الإعداد بعد اختيار موقع التخزين الخاص بك. انقر على أيقونة \"إنشاء مجلد فريق\" **(+)** (1) واختر نوع التخزين الخاص بك (2)، تفتح نافذة \"مجلد فريق جديد\"، انقر على أيقونة \"الإعدادات\" (3)، ثم اختر خيار \"تعطيل المشاركة الإضافية\" (4)."
+
+#: ../../chapter11.rst:292
+msgid "DISABLE FURTHER SHARING"
+msgstr "تعطيل المشاركة الإضافية"
+
+#: ../../chapter11.rst:296
+msgid "Protecting Shares By Requiring Login"
+msgstr "حماية المشاركات بمطالبة تسجيل الدخول"
+
+#: ../../chapter11.rst:298
+msgid ""
+"When a user shares a file or folder, |prodname| will generate a URL. By "
+"default, anyone can use the URL to access the share."
+msgstr "عندما يشارك المستخدم ملفًا أو مجلدًا، سيقوم |prodname| بإنشاء رابط URL. بشكل افتراضي، يمكن لأي شخص استخدام الرابط للوصول إلى المشاركة."
+
+#: ../../chapter11.rst:300
+msgid ""
+"Administrators can protect shares by requiring login credentials. Once "
+"enabled, when a user accesses the share URL, he /she will be prompted to "
+"login to the |prodname| Cloud. After login, the user can view the "
+"file/folder shared with him/her under 'Files shared with me'."
+msgstr "يمكن للمسؤولين حماية المشاركات عن طريق طلب بيانات اعتماد الدخول. بمجرد التفعيل، عندما يقوم المستخدم بالوصول إلى رابط المشاركة، سيُطلب منه/منها تسجيل الدخول إلى |prodname| Cloud. بعد تسجيل الدخول، يمكن للمستخدم مشاهدة الملف/المجلد المشارك معه تحت 'الملفات المشاركة معي'."
+
+#: ../../chapter11.rst:303
+msgid ""
+"To access this setting use the \"Settings\" menu (1) and in the \"Data "
+"Leak Protection\" (2) -> \"Sharing\" (3) panel, select the \"Users must "
+"log in to access the content in 'Files shared with me' folder\" setting "
+"(4)."
+msgstr "للوصول إلى هذا الإعداد استخدم قائمة \"الإعدادات\" (1) وفي لوحة \"حماية تسرب البيانات\" (2) -> \"المشاركة\" (3)، اختر إعداد \"يجب على المستخدمين تسجيل الدخول للوصول إلى المحتوى في مجلد 'الملفات المشتركة معي'\" (4)."
+
+#: ../../chapter11.rst:308
+msgid "SECURING SHARED FILES AND FOLDERS"
+msgstr "تأمين الملفات والمجلدات المشتركة"
+

@@ -13,7 +13,7 @@ The |prodname| Cloud administrator has the option of enabling a setting that cau
     
     If you want the file to stay locked regardless what situation the agent machine is in, manual lock is recommened. A manually locked file will need to be manually unlocked.
 
-Files can be manually locked. Right-click on any file **(1)** in the |prodname| drive and then select “check out (Lock) This File” **(2)** to toggle between its locked and unlocked state. Then click OK in the pop-up **(3)**. 
+Files can be manually locked. Right-click on any file **(1)** in the |prodname| drive and then select "check out (Lock) This File" **(2)** to toggle between its locked and unlocked state. Then click OK in the pop-up **(3)**. 
 
 .. figure:: _static/image_s5_1_1-03192025.png
     :align: center

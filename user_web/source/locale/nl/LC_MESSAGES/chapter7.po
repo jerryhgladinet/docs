@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter7.rst:3
+msgid "Folder Legends in Web Interface"
+msgstr "Maplegendes in de webinterface"
+
+#: ../../chapter7.rst:5
+msgid "There are many different folders in the web interface."
+msgstr "Er zijn veel verschillende mappen in de webinterface."
+
+#: ../../chapter7.rst:7
+msgid "Here is a list of them."
+msgstr "Hier is een lijst van hen."
+
+#: ../../chapter7.rst:9
+msgid "**Mounted Storage**"
+msgstr "**Gemonteerde Opslag**"
+
+#: ../../chapter7.rst:15
+msgid ""
+"This folder represents mounted/attached storage. For example, a mounted "
+"file server network share or a connected Amazon S3 bucket will look like "
+"this."
+msgstr "Deze map vertegenwoordigt gekoppelde/aangesloten opslag. Bijvoorbeeld, een gekoppelde netwerkshare van een bestandsserver of een verbonden Amazon S3-bucket zal er zo uitzien."
+
+#: ../../chapter7.rst:17
+msgid "**Sync From Remote**"
+msgstr "**Synchroniseer van Afstand**"
+
+#: ../../chapter7.rst:23
+msgid ""
+"This folder represents synchronization folders from remote PCs or Server "
+"Agents."
+msgstr "Deze map vertegenwoordigt synchronisatiemappen van externe pc's of Server Agents."
+
+#: ../../chapter7.rst:25
+msgid "**Received Shares**"
+msgstr "**Ontvangen Shares**"
+
+#: ../../chapter7.rst:31
+msgid ""
+"This folder represents the root folder of all the shared files and "
+"folders from other users."
+msgstr "Deze map vertegenwoordigt de hoofdmap van alle gedeelde bestanden en mappen van andere gebruikers."
+
+#: ../../chapter7.rst:33
+msgid "**Regular Folder**"
+msgstr "**Reguliere Map**"
+
+#: ../../chapter7.rst:39
+msgid "This folder represents a single shared folder received from other users."
+msgstr "Deze map vertegenwoordigt een enkele gedeelde map ontvangen van andere gebruikers."
+
+#: ../../chapter7.rst:41
+msgid "**Team Folder**"
+msgstr "**Teammap**"
+
+#: ../../chapter7.rst:47
+msgid ""
+"This folder represent a team folder that is published to users and viewed"
+" from the users who received the team folder."
+msgstr "Deze map vertegenwoordigt een teammap die is gepubliceerd voor gebruikers en bekeken wordt door de gebruikers die de teammap hebben ontvangen."
+
+#: ../../chapter7.rst:49
+msgid "**Version Control**"
+msgstr "**Versiebeheer**"
+
+#: ../../chapter7.rst:55
+msgid ""
+"Version folder represents folders that every files inside is under "
+"version control."
+msgstr "Versiemap vertegenwoordigt mappen waarin elk bestand onder versiebeheer staat."
+
+#: ../../chapter7.rst:59
+msgid ""
+"If a folder doesn't have the version folder icon, doesn't mean it is not "
+"a version folder."
+msgstr "Als een map geen versiemap-pictogram heeft, betekent dit niet dat het geen versiemap is."
+
+#: ../../chapter7.rst:61
+msgid ""
+"As long as one of the parent folder is a version folder, everything "
+"inside is under version control."
+msgstr "Zolang een van de bovenliggende mappen een versiemap is, is alles binnenin onder versiebeheer."
+
+#: ../../chapter7.rst:63
+msgid ""
+"If the administrator setup the user as version control from the root, the"
+" team user may not see the version folder icon either when version "
+"control is on by default."
+msgstr "Als de beheerder de gebruiker als versiebeheer vanaf de root instelt, ziet de teamgebruiker mogelijk ook niet het versiemap pictogram wanneer versiebeheer standaard is ingeschakeld."
+

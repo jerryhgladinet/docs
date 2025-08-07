@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "البدء"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "مقدمة"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Administration Guide. This guide describes "
+"administration tasks for |prodname|, the mobile access and secure file "
+"sharing solution that focuses on local file server cloud-enablement."
+msgstr "مرحبًا بكم في دليل إدارة |prodname|. يصف هذا الدليل المهام الإدارية لـ |prodname|، حل الوصول المتحرك ومشاركة الملفات الآمنة الذي يركز على تمكين الخادم المحلي للملفات بالسحابة."
+
+#: ../../index.rst:10
+msgid ""
+"|prodname| runs on the Windows Server platform and includes client agent "
+"software applications for Microsoft Windows, Mac OS X, and Mobile Clients"
+" for the Android and Apple iOS operating systems."
+msgstr "|prodname| يعمل على منصة Windows Server ويشمل تطبيقات برمجية لعميل النظام لـ Microsoft Windows و Mac OS X وعملاء الجوال لأنظمة تشغيل Android و Apple iOS."
+
+#: ../../index.rst:13
+msgid ""
+"|prodname| includes a client application for Windows File Server, which "
+"is named \"Server Agent\". This document is about |prodname| itself, not "
+"about the \"Server Agent\"."
+msgstr "|prodname| يتضمن تطبيق عميل لخادم ملفات ويندوز، والذي يُسمى \"وكيل الخادم\". هذا المستند يتعلق بـ |prodname| نفسه، وليس عن \"وكيل الخادم\"."
+
+#: ../../index.rst:16
+msgid "This admin guide is written for |prodname| version |release|"
+msgstr "هذا الدليل الإداري مكتوب لـ |prodname| الإصدار |release|"
+
+#: ../../index.rst:19
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: ../../index.rst:21
+msgid ""
+"|prodname| is a mobile access and secure file sharing solution. It "
+"differentiates itself from other File Sync and Share solutions by "
+"focusing on data security, permission controls and, file server cloud-"
+"enablements including data protection and cloud migration. |prodname| "
+"surpasses the competition in the following areas:"
+msgstr "|prodname| هو حل للوصول عبر الهاتف المحمول ومشاركة الملفات بأمان. يتميز عن غيره من حلول مزامنة الملفات ومشاركتها من خلال التركيز على أمان البيانات، وضوابط الإذن، وتمكين خوادم الملفات السحابية بما في ذلك حماية البيانات والهجرة إلى السحابة. يتفوق |prodname| على المنافسين في المجالات التالية:"
+
+#: ../../index.rst:24
+msgid ""
+"Maintaining Active Directory, security and NTFS permissions on files and "
+"folders."
+msgstr "الحفاظ على أذونات الدليل النشط، الأمان، وأذونات NTFS على الملفات والمجلدات."
+
+#: ../../index.rst:25
+msgid "Providing live time sync-and-share with versioning and revision controls."
+msgstr "توفير مزامنة ومشاركة فورية مع التحكم في الإصدارات والمراجعات."
+
+#: ../../index.rst:26
+msgid ""
+"Providing On-Demand access that honors Read-Only, and Write permissions "
+"in Real-Time."
+msgstr "توفير وصول فوري يحترم أذونات القراءة فقط، والكتابة في الوقت الحقيقي."
+
+#: ../../index.rst:27
+msgid "Mirroring of local network shares for Team Collaboration in the Cloud."
+msgstr "مزامنة مشاركات الشبكة المحلية للتعاون الجماعي في السحابة."
+
+#: ../../index.rst:28
+msgid ""
+"Provide drive mapping and file locking functionality for files in the "
+"Cloud."
+msgstr "توفير وظائف تعيين الأقراص وقفل الملفات للملفات الموجودة في السحابة."
+
+#: ../../index.rst:30
+msgid ""
+"|prodname| is a software solution built on top of the Microsoft Web "
+"Platform. It provides file access and sharing functionality from PCs, "
+"Macs, File Servers, Web Browsers, and Mobile Devices. In addition, it "
+"also brings data protection and cloud migration features."
+msgstr "|prodname| هو حل برمجي يعتمد على منصة مايكروسوفت الويبية. يوفر وظائف الوصول إلى الملفات ومشاركتها من الحواسيب الشخصية، وأجهزة ماك، وخوادم الملفات، ومتصفحات الويب، والأجهزة المحمولة. بالإضافة إلى ذلك، يقدم أيضًا ميزات الحماية للبيانات ونقلها إلى السحابة."
+
+#: ../../index.rst:32
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy |prodname|."
+msgstr "يمكن نشر الخدمات بتركيبات مرنة لتلبية احتياجات مختلفة. هناك طريقتان أساسيتان لنشر |prodname|."
+
+#: ../../index.rst:34
+msgid ""
+"Deploy the |prodname| server in the same site as the File Servers and "
+"Active Directory domain controllers:"
+msgstr "قم بتثبيت خادم |prodname| في نفس الموقع مثل خوادم الملفات ووحدات تحكم نطاق Active Directory:"
+
+#: ../../index.rst:38
+msgid ""
+"See also: `File Server Remote Access <https://www.gladinet.com/hybrid-"
+"cloud-with-file-server.html>`_"
+msgstr "انظر أيضا: `الوصول عن بعد إلى خادم الملفات <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../index.rst:40
+msgid ""
+"Deploy in a cloud data center, such as Amazon Web Services EC2, Microsoft"
+" Azure, or in a Data Center where the Managed Service Provider (MSP) "
+"hosts their infrastructure:"
+msgstr "نشر في مركز بيانات سحابي، مثل خدمات أمازون ويب Amazon Web Services EC2، أو مايكروسوفت أزور Microsoft Azure، أو في مركز بيانات حيث يستضيف مزود الخدمة المُدارة (MSP) بنيتهم التحتية:"
+
+#: ../../index.rst:46
+msgid ""
+"Please reference the `“Installation Checklist”`__ as well as the "
+"`“Installation Guide”`__ for information on how to setup and deploy "
+"CentreStack. This guide is focused on the administration of |prodname|."
+msgstr "يرجى الرجوع إلى `\"قائمة التحقق من التثبيت\"`__ وكذلك `\"دليل التثبيت\"`__ للحصول على معلومات حول كيفية إعداد ونشر CentreStack. يركز هذا الدليل على إدارة |prodname|."
+
+#: ../../index.rst:57
+msgid ""
+"This Administration Guide is for the Self-Hosted |prodname|. For Hosted-"
+"CentreStack, please reference the Hosted CentreStack Admin Guide."
+msgstr "هذا الدليل الإداري مخصص لـ |prodname| ذاتي الاستضافة. بالنسبة لـ Hosted-CentreStack، يُرجى الرجوع إلى دليل إدارة Hosted CentreStack."
+

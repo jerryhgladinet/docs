@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter06.rst:3
+msgid "Enable SSL – Install SSL Certificate"
+msgstr "Activer SSL – Installer le certificat SSL"
+
+#: ../../chapter06.rst:7
+msgid ""
+"Assuming that you have already setup your DNS to point to a DNS name "
+"connected to the |prodname| server and an SSL certificate already "
+"purchased for the DNS name. If not, you can acquire an SSL certificate "
+"from your SSL vendor."
+msgstr "En supposant que vous avez déjà configuré votre DNS pour pointer vers un nom DNS connecté au serveur |prodname| et qu'un certificat SSL a déjà été acheté pour le nom DNS. Si ce n'est pas le cas, vous pouvez acquérir un certificat SSL auprès de votre fournisseur SSL."
+
+#: ../../chapter06.rst:9
+msgid ""
+"We recommend using https://www.ssllabs.com/ to test your SSL setup "
+"because the SSL Labs site will produce a report on whether the SSL is "
+"compatible with all devices such as iOS devices."
+msgstr "Nous recommandons d'utiliser https://www.ssllabs.com/ pour tester votre configuration SSL car le site SSL Labs produira un rapport indiquant si le SSL est compatible avec tous les appareils tels que les appareils iOS."
+
+#: ../../chapter06.rst:13
+msgid ""
+"You can also use openssl to check the SSL certificates and whether or not"
+" the whole certificate trust chain is completely installed on the server "
+"side."
+msgstr "Vous pouvez également utiliser openssl pour vérifier les certificats SSL et si toute la chaîne de confiance du certificat est complètement installée du côté serveur."
+
+#: ../../chapter06.rst:20
+msgid ""
+"You will install the SSL certificate using the IIS Manager. Look for "
+"\"Server Certificates\" and double click on it."
+msgstr "Vous installerez le certificat SSL à l'aide du gestionnaire IIS. Recherchez \"Certificats de serveur\" et double-cliquez dessus."
+
+#: ../../chapter06.rst:24
+msgid ""
+"Click on \"Import\" to import an existing SSL Certificate. Leave the "
+"Certificate Store as \"Personal\" or \"Web Hosting\", either option is "
+"fine."
+msgstr "Cliquez sur « Importer » pour importer un certificat SSL existant. Laissez le magasin de certificats sur « Personnel » ou « Hébergement Web », les deux options sont correctes."
+
+#: ../../chapter06.rst:30
+msgid "Verify that the certificate is available:"
+msgstr "Vérifiez que le certificat est disponible :"
+
+#: ../../chapter06.rst:34
+msgid ""
+"You can also verify the SSL certificate using the MMC/Certificates snap-"
+"in (Local Computer)."
+msgstr "Vous pouvez également vérifier le certificat SSL en utilisant la console MMC/Certificats (Ordinateur local)."
+
+#: ../../chapter06.rst:38
+msgid ""
+"Now you can bind the \"Default Web Site\" to the SSL certificate for "
+"HTTPS. Right click on the \"Default Web Site\" and select \"Edit "
+"Bindings\"."
+msgstr "Vous pouvez maintenant lier le \"Site Web par défaut\" au certificat SSL pour HTTPS. Cliquez droit sur le \"Site Web par défaut\" et sélectionnez \"Modifier les liaisons\"."
+
+#: ../../chapter06.rst:43
+msgid "At the binding dialog, edit the HTTPS binding."
+msgstr "Dans la boîte de dialogue de liaison, modifiez la liaison HTTPS."
+
+#: ../../chapter06.rst:47
+msgid ""
+"Now, change the SSL Certificate binding drop-down to the imported SSL "
+"certificate."
+msgstr "Maintenant, changez la liaison du certificat SSL dans le menu déroulant pour le certificat SSL importé."
+

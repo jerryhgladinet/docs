@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Kom godt i gang"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the Triofox Web Portal User Guide. This guide describes web "
+"portal functionality for users as well as administrators in Triofox."
+msgstr "Velkommen til Triofox Web Portal Brugervejledning. Denne vejledning beskriver webportalens funktionalitet for brugere såvel som administratorer i Triofox."
+
+#: ../../index.rst:11
+msgid ""
+"Triofox helps businesses mobilize their file servers by enhancing "
+"existing Windows file servers with secure remote acccess, mobile file "
+"sharing, data protection and cloud migration, while addressing business "
+"concerns about security, privacy, compliance and control."
+msgstr "Triofox hjælper virksomheder med at mobilisere deres filservere ved at forbedre eksisterende Windows-filservere med sikker fjernadgang, mobil fildeling, databeskyttelse og cloud-migrering, samtidig med at man tager højde for forretningsmæssige bekymringer omkring sikkerhed, privatliv, overholdelse og kontrol."
+
+#: ../../index.rst:14
+msgid ""
+"Triofox adds ransomware protection and automatic alert mechanism to your "
+"file servers. It continously monitors all the Triofox clients for any "
+"unusual activity and will automatically shut them down if it sees a "
+"possible attack."
+msgstr "Triofox tilføjer ransomware-beskyttelse og automatisk alarmmekanisme til dine filservere. Det overvåger løbende alle Triofox-klienter for usædvanlig aktivitet og vil automatisk lukke dem ned, hvis det registrerer et muligt angreb."
+
+#: ../../index.rst:17
+msgid ""
+"Triofox removes any need for businesses to rely on a VPN or a company "
+"computer to securely access files. With Triofox, data sprawl is "
+"eliminated as data stays on local file servers and mobile productivity is"
+" balanced by centralized management and access controls."
+msgstr "Triofox fjerner ethvert behov for virksomheder at stole på en VPN eller en firmacomputer for at få sikker adgang til filer. Med Triofox elimineres dataspredning, da data forbliver på lokale filservere, og mobil produktivitet balanceres af centraliseret styring og adgangskontrol."
+
+#: ../../index.rst:20
+msgid ""
+"Triofox natively integrates with Active Directory and maintains all the "
+"existing NTFS permissions and there is no need to recreate any user "
+"identities. With military grade encryption and secure connections, use "
+"existing users and permissions to save setup time and money. files stay "
+"on local file servers and encrypted at the end point cache."
+msgstr "Triofox integrerer sig naturligt med Active Directory og bevarer alle eksisterende NTFS-tilladelser, og der er ikke behov for at genskabe nogen brugeridentiteter. Med militærkryptering og sikre forbindelser, brug eksisterende brugere og tilladelser for at spare opsætningstid og penge. Filerne forbliver på lokale filservere og krypteres i endepunktets cache."
+
+#: ../../index.rst:24
+msgid ""
+"Triofox includes the backend Triofox server, which runs on Windows server"
+" platform, and front end client applications for Microsoft Windows, Mac "
+"OSx, and mobile clients for the Android and Apple iOS operating systems."
+msgstr "Triofox omfatter den bagerste Triofox-server, som kører på Windows-serverplatformen, og front-end klientapplikationer til Microsoft Windows, Mac OSx og mobile klienter til Android og Apple iOS-operativsystemerne."
+
+#: ../../index.rst:28
+msgid ""
+"The Web portal is an important part of the solution for the following "
+"reasons:"
+msgstr "Webportalen er en vigtig del af løsningen af følgende årsager:"
+
+#: ../../index.rst:30
+msgid "most of the management work is done on the web portal."
+msgstr "det meste af ledelsesarbejdet udføres på webportalen."
+
+#: ../../index.rst:31
+msgid ""
+"downloading other native client agent softwares starts from the web "
+"portal."
+msgstr "download af andre native client agent software starter fra webportalen."
+
+#: ../../index.rst:32
+msgid ""
+"web browser file manager have rich and responsive feature to manage "
+"files, sharing and collaboration."
+msgstr "webbrowserens filhåndtering har rige og responsive funktioner til at håndtere filer, deling og samarbejde."
+
+#: ../../index.rst:34
+msgid ""
+"Other important features and functions of the web portal are also covered"
+" in this document."
+msgstr "Andre vigtige funktioner og funktioner af webportalen er også dækket i dette dokument."
+
+#: ../../index.rst:39
+msgid "The web portal user guide is updated for version |release|"
+msgstr "Webportalens brugervejledning er opdateret til version |release|"
+

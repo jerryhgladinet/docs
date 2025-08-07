@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../access_upload.rst:2
+msgid "Accessing Folders and Files"
+msgstr "Zugriff auf Ordner und Dateien"
+
+#: ../../access_upload.rst:5
+msgid ""
+"After logging in, users will see the files and folders they have access "
+"to, as shown on the following screen."
+msgstr "Nach der Anmeldung sehen die Benutzer die Dateien und Ordner, zu denen sie Zugang haben, wie auf dem folgenden Bildschirm dargestellt."
+
+#: ../../access_upload.rst:9
+msgid ""
+"Tap on a folder to see the files and subfolders it contains. Tapping on "
+"the 3 vertical dots icon for any item will display edit and collaboration"
+" options."
+msgstr "Tippen Sie auf einen Ordner, um die enthaltenen Dateien und Unterordner zu sehen. Wenn Sie auf das Symbol mit den 3 vertikalen Punkten für ein Element tippen, werden Bearbeitungs- und Zusammenarbeitsoptionen angezeigt."
+
+#: ../../access_upload.rst:11
+msgid ""
+"Which are **Copy, Cut, Rename, Delete, Share, Share Manager and More "
+"Info**. Detailed explanations are given in later sections."
+msgstr "Welche sind **Kopieren, Ausschneiden, Umbenennen, Löschen, Teilen, Freigabe-Manager und Mehr Infos**. Detaillierte Erklärungen finden Sie in den späteren Abschnitten."
+
+#: ../../access_upload.rst:15
+msgid ""
+"Users can also long press to make multiple selection, then copy, cut or "
+"delete on selected folders and files using the icons in the top menu."
+msgstr "Benutzer können auch lange drücken, um mehrere Auswahlmöglichkeiten zu treffen, dann mit den Symbolen im oberen Menü Ordner und Dateien kopieren, ausschneiden oder löschen."
+
+#: ../../access_upload.rst:21
+msgid "Top Menu Icons"
+msgstr "Symbole des Hauptmenüs"
+
+#: ../../access_upload.rst:23
+msgid "Here are the icons of the top menu bar."
+msgstr "Hier sind die Symbole der oberen Menüleiste."
+
+#: ../../access_upload.rst:28
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: ../../access_upload.rst:30
+msgid ""
+"To refresh a screen, swipe down or touch the **Refresh** (1) button in "
+"the top menu, and the screen will be refreshed automatically."
+msgstr "Um einen Bildschirm zu aktualisieren, wischen Sie nach unten oder berühren Sie die Schaltfläche **Aktualisieren** (1) im oberen Menü, und der Bildschirm wird automatisch aktualisiert."
+
+#: ../../access_upload.rst:33
+msgid "Show Deleted Folders and Files"
+msgstr "Gelöschte Ordner und Dateien anzeigen"
+
+#: ../../access_upload.rst:35
+msgid ""
+"Tap on the second icon (2) to switch between **Show Deleted Files** and "
+"**Hide Deleted Files**. The default mode is **Hide Deleted Files**."
+msgstr "Tippen Sie auf das zweite Symbol (2), um zwischen **Gelöschte Dateien anzeigen** und **Gelöschte Dateien ausblenden** zu wechseln. Der Standardmodus ist **Gelöschte Dateien ausblenden**."
+
+#: ../../access_upload.rst:40
+msgid "Change View Mode"
+msgstr "Ansichtsmodus ändern"
+
+#: ../../access_upload.rst:42
+msgid ""
+"Press the third icon (3) to switch view mode between **List View** and "
+"**Grid View**. The default view mode is **List View**."
+msgstr "Drücken Sie das dritte Symbol (3), um zwischen der Ansichtsmodus **Listenansicht** und **Rasteransicht** zu wechseln. Der Standardansichtsmodus ist **Listenansicht**."
+
+#: ../../access_upload.rst:47
+msgid "Sort Menu"
+msgstr "Sortiermenü"
+
+#: ../../access_upload.rst:49
+msgid ""
+"The **Sort Menu** (4) allows user to change the order in which the files "
+"are displayed."
+msgstr "Das **Sortiermenü** (4) ermöglicht es dem Benutzer, die Reihenfolge zu ändern, in der die Dateien angezeigt werden."
+
+#: ../../access_upload.rst:53
+msgid "**Z-A** displays the files in reverse alphabetical order."
+msgstr "**Z-A** zeigt die Dateien in umgekehrter alphabetischer Reihenfolge an."
+
+#: ../../access_upload.rst:55
+msgid "**A-Z** displays the files in alphabetical order."
+msgstr "**A-Z** zeigt die Dateien in alphabetischer Reihenfolge an."
+
+#: ../../access_upload.rst:57
+msgid ""
+"**Last Modified** displays the files in the order in which they were last"
+" edited."
+msgstr "**Zuletzt geändert** zeigt die Dateien in der Reihenfolge an, in der sie zuletzt bearbeitet wurden."
+
+#: ../../access_upload.rst:59
+msgid ""
+"**Oldest** displays the files that were added first at the top of the "
+"file browser."
+msgstr "**Älteste** zeigt die Dateien, die zuerst hinzugefügt wurden, oben im Dateibrowser an."
+
+#: ../../access_upload.rst:61
+msgid ""
+"**Largest** displays the files in the order that the largest files appear"
+" first."
+msgstr "**Größte** zeigt die Dateien in der Reihenfolge an, in der die größten Dateien zuerst erscheinen."
+
+#: ../../access_upload.rst:63
+msgid ""
+"**Smallest** displays the files in the order that the smallest files "
+"appear first."
+msgstr "**Kleinste** zeigt die Dateien in der Reihenfolge an, in der die kleinsten Dateien zuerst erscheinen."
+
+#: ../../access_upload.rst:65
+msgid ""
+"**Extension A-Z** displays the files in the alphabetical order of their "
+"extension."
+msgstr "**Erweiterung A-Z** zeigt die Dateien in alphabetischer Reihenfolge ihrer Erweiterung an."
+
+#: ../../access_upload.rst:67
+msgid ""
+"**Extension Z-A** displays the files in the reverse order of the alphabet"
+" by their extension."
+msgstr "**Erweiterung Z-A** zeigt die Dateien in umgekehrter alphabetischer Reihenfolge ihrer Erweiterungen an."
+
+#: ../../access_upload.rst:71
+msgid "Main operations"
+msgstr "Hauptoperationen"
+
+#: ../../access_upload.rst:73
+msgid ""
+"Tapping on the plus (+) icon will give users several options for the "
+"folder they are in: **Upload Files** (1), **Upload Media** (2), **Take "
+"Photo to Upload or Scan** (3), **Create New Folder** (4) and **Create New"
+" File** (5)."
+msgstr "Durch Tippen auf das Pluszeichen (+) erhalten Benutzer mehrere Optionen für den Ordner, in dem sie sich befinden: **Dateien hochladen** (1), **Medien hochladen** (2), **Foto aufnehmen oder scannen zum Hochladen** (3), **Neuen Ordner erstellen** (4) und **Neue Datei erstellen** (5)."
+
+#: ../../access_upload.rst:79
+msgid "Upload Files"
+msgstr "Dateien hochladen"
+
+#: ../../access_upload.rst:81
+msgid ""
+"By selecting the **Upload Files** icon, user can add existing files from "
+"the phone storage. It will be redirected to a phone storage screen where "
+"can navigate and select a file to upload."
+msgstr "Durch das Auswählen des Symbols **Dateien hochladen** kann der Benutzer vorhandene Dateien aus dem Telefonspeicher hinzufügen. Es wird zu einem Bildschirm für den Telefonspeicher weitergeleitet, wo man navigieren und eine Datei zum Hochladen auswählen kann."
+
+#: ../../access_upload.rst:83
+msgid ""
+"User can also long press files to multi-select, then press **SELECT** to "
+"complete the upload."
+msgstr "Benutzer können auch Dateien lange drücken, um sie mehrfach auszuwählen, und dann **AUSWÄHLEN** drücken, um den Upload abzuschließen."
+
+#: ../../access_upload.rst:88
+msgid "Uploading Media"
+msgstr "Medien hochladen"
+
+#: ../../access_upload.rst:90
+msgid ""
+"User can directly access media files from the Media apps by selecting the"
+" **Upload Media** icon, and add existing files from those apps."
+msgstr "Benutzer können direkt auf Mediendateien aus den Media-Apps zugreifen, indem sie das Symbol **Medien hochladen** auswählen und vorhandene Dateien aus diesen Apps hinzufügen."
+
+#: ../../access_upload.rst:95
+msgid "Take Photo to Upload or Scan"
+msgstr "Foto aufnehmen oder scannen zum Hochladen"
+
+#: ../../access_upload.rst:97
+msgid ""
+"User will be prompted for media files permission if CentreStack app have "
+"not previously been granted this permission."
+msgstr "Der Benutzer wird um Erlaubnis für Mediendateien gefragt, falls die CentreStack-App diese Berechtigung zuvor nicht erhalten hat."
+
+#: ../../access_upload.rst:102
+msgid "Take Photo to Upload"
+msgstr "Foto aufnehmen zum Hochladen"
+
+#: ../../access_upload.rst:104
+msgid "Take and upload new photo when select the **Camera** (1) icon."
+msgstr "Ein neues Foto aufnehmen und hochladen, wenn das **Kamera** (1) Symbol ausgewählt wird."
+
+#: ../../access_upload.rst:109
+msgid "Take Photo to Scan"
+msgstr "Foto aufnehmen zum Scannen"
+
+#: ../../access_upload.rst:111
+msgid ""
+"Take a new photo and scan to upload it when tapping on the **Scan** (2) "
+"icon."
+msgstr "Machen Sie ein neues Foto und scannen Sie es zum Hochladen, wenn Sie auf das **Scan** (2) Symbol tippen."
+
+#: ../../access_upload.rst:113
+msgid "First, crop the photo to the ideal shape, and touch **NEXT**."
+msgstr "Zuerst schneiden Sie das Foto auf die ideale Form zu und berühren Sie **WEITER**."
+
+#: ../../access_upload.rst:117
+msgid ""
+"On the second page, change the color filter applied to the photo. Tap on "
+"**SAVE** to upload the photo."
+msgstr "Auf der zweiten Seite ändern Sie den auf das Foto angewendeten Farbfilter. Tippen Sie auf **SPEICHERN**, um das Foto hochzuladen."
+
+#: ../../access_upload.rst:122
+msgid "Create New Folders"
+msgstr "Neue Ordner erstellen"
+
+#: ../../access_upload.rst:124
+msgid ""
+"To create new folders, press the plus (+) icon at the bottom right of the"
+" screen. Then select the **Add Folder** icon."
+msgstr "Um neue Ordner zu erstellen, drücken Sie das Pluszeichen (+) unten rechts auf dem Bildschirm. Wählen Sie dann das Symbol **Ordner hinzufügen** aus."
+
+#: ../../access_upload.rst:126
+msgid ""
+"After entering the name of the folder and tapping on the **CREATE** "
+"button, a new folder will be created."
+msgstr "Nachdem Sie den Namen des Ordners eingegeben und auf die Schaltfläche **ERSTELLEN** getippt haben, wird ein neuer Ordner erstellt."
+
+#: ../../access_upload.rst:131
+msgid "Create New Files"
+msgstr "Neue Dateien erstellen"
+
+#: ../../access_upload.rst:133
+msgid ""
+"The **New File** icon allows to create a blank new Office file. User can "
+"choose between an Excel, Word, PowerPoint or a Text file."
+msgstr "Das Symbol **Neue Datei** ermöglicht das Erstellen einer neuen, leeren Office-Datei. Der Benutzer kann zwischen Excel, Word, PowerPoint oder einer Textdatei wählen."
+
+#: ../../access_upload.rst:137
+msgid ""
+"Choose the type of file and enter the name in the text box. Then touch "
+"**CREATE** to save."
+msgstr "Wählen Sie den Dateityp aus und geben Sie den Namen in das Textfeld ein. Berühren Sie dann **ERSTELLEN**, um zu speichern."
+

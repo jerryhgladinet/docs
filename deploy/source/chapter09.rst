@@ -8,7 +8,7 @@ Database
     All other components are stateless and replaceable.
     In a disaster recovery scenario, as soon as the SQL Server is restored,
     other worker nodes can be re-installed and will start working immediately.
-    You can also point the worker node’s database reference to the new SQL Server;
+    You can also point the worker node's database reference to the new SQL Server;
     it will work immediately with the information from the database.
 
     The worker nodes are stateless so it is not required to backup any worker nodes.

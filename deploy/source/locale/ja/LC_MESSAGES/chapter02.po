@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:2
+msgid "Infrastructure Components"
+msgstr "インフラストラクチャコンポーネント"
+
+#: ../../chapter02.rst:4
+msgid ""
+"There are three different infrastructure components (logical components "
+"that can co-exist in the same server). In the smallest deployment unit, "
+"the different components can co-exist in one single machine (all-in-one "
+"deployment)."
+msgstr "3つの異なるインフラコンポーネントがあります（同じサーバー内で共存できる論理コンポーネント）。最小のデプロイメントユニットでは、異なるコンポーネントが1台のマシン内で共存できます（オールインワンデプロイメント）。"
+
+#: ../../chapter02.rst:9
+msgid "1. Worker Node Component"
+msgstr "ワーカーノードコンポーネント"
+
+#: ../../chapter02.rst:11
+msgid ""
+"Worker node contains services like Web Browser Based File Manager, "
+"Storage Service Connectors, Active Directory connector and other key "
+"components. It is responsible for data related activities such as file "
+"upload and download, permission, control and change notification. Since "
+"the data upload and download usually go through worker node, thus it is "
+"called a \"worker\" for data transfer."
+msgstr "ワーカーノードには、Webブラウザベースのファイルマネージャー、ストレージサービスコネクタ、Active Directoryコネクタなどの重要なコンポーネントが含まれています。これは、ファイルのアップロードやダウンロード、権限の管理、変更通知など、データ関連の活動を担当しています。データのアップロードとダウンロードは通常ワーカーノードを経由するため、データ転送の「ワーカー」と呼ばれています。"
+
+#: ../../chapter02.rst:17
+msgid "Additional nodes can be added as the load increases."
+msgstr "負荷が増加するにつれて、追加のノードを追加できます。"
+
+#: ../../chapter02.rst:21
+msgid "2. Database Component"
+msgstr "2. データベースコンポーネント"
+
+#: ../../chapter02.rst:23
+msgid ""
+"The database contains persistent information for the system. Database is "
+"a critical component for the smooth operation of the CentreStack server "
+"farm. Local database with latency less than 10 milliseconds is "
+"recommended."
+msgstr "データベースにはシステムの永続的な情報が含まれています。データベースはCentreStackサーバーファームのスムーズな運用にとって重要なコンポーネントです。10ミリ秒未満のレイテンシーを持つローカルデータベースが推奨されます。"
+
+#: ../../chapter02.rst:27
+msgid ""
+"In order for all worker nodes be in the same server farm, they need to "
+"point to the same database."
+msgstr "すべてのワーカーノードが同じサーバーファーム内にあるためには、同じデータベースを指す必要があります。"
+
+#: ../../chapter02.rst:32
+msgid "3. Storage Component"
+msgstr "3. ストレージコンポーネント"
+
+#: ../../chapter02.rst:34
+msgid ""
+"The storage component is the persistent storage location for files and "
+"folders. There are two different types of storage services. One is "
+"managed by CentreStack, such as the default storage for the cluster and "
+"the default storage for tenants. The other is imported storage, for "
+"example, having existing file server network shares that aren't managed "
+"by CentreStack but can be imported into CentreStack for remote and mobile"
+" access."
+msgstr "ストレージコンポーネントは、ファイルやフォルダの永続的な保存場所です。ストレージサービスには2種類あります。一つはCentreStackが管理するもので、クラスターのデフォルトストレージやテナントのデフォルトストレージなどがあります。もう一つはインポートされたストレージで、例えば、CentreStackが管理していない既存のファイルサーバーネットワーク共有がありますが、これらをCentreStackにインポートして、リモートアクセスやモバイルアクセスを可能にすることができます。"
+

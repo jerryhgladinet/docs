@@ -162,7 +162,7 @@ Normally, we don't recommend checking the "Enable offline access for all folders
 
 .. note::
 
-    This will automatically download ALL folders and files to the user’s device and automatically update them whenever they have changed anywhere in the network. This will cause a significant increase in network traffic, especially during the initial download of all folders.
+    This will automatically download ALL folders and files to the user's device and automatically update them whenever they have changed anywhere in the network. This will cause a significant increase in network traffic, especially during the initial download of all folders.
 
 Without it, the user can still pick and choose which folder to mark as offline.
 

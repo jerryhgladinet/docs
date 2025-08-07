@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Partner Portal"
+msgstr "Partnerportal"
+
+#: ../../chapter02.rst:5
+msgid ""
+"To start the Hosted-|prodname| version, the first thing to do is to "
+"acquire a |prodname| partner account and login to the web portal."
+msgstr "For at starte den hostede |prodname|-version, er det første, man skal gøre, at anskaffe en |prodname| partnerkonto og logge ind på webportalen."
+
+#: ../../chapter02.rst:10
+msgid "|prodname| WEBSITE"
+msgstr "|prodname| HJEMMESIDE"
+
+#: ../../chapter02.rst:12
+msgid ""
+"The Partner Portal is the centralized place to manage the managed service"
+" provider's (MSP's) clients. The activities on the partner portal include"
+" creating Tenants and managing Tenants."
+msgstr "Partnerportalen er det centrale sted at administrere de administrerede tjenesteudbyderes (MSP'ernes) klienter. Aktiviteterne på partnerportalen inkluderer oprettelse af Lejere og administration af Lejere."
+
+#: ../../chapter02.rst:17
+msgid "PARTNER LOGIN"
+msgstr "PARTNER LOGIND"
+
+#: ../../chapter02.rst:19
+msgid ""
+"After logging into the Partner Portal, you can see most options by "
+"expanding the left-side menu. **(1)** From the collapsable menu, choose "
+"one of the two hosting options: \"Self-Hosted |prodname|\" **(2)**, which"
+" is for the self-hosted |prodname|, or \"Hosted |prodname|\" **(3)**. In "
+"the image below you can see that we have already \"Branded\" this account"
+" with \"ACME Cloud Services\" **(4)** (see \"Branding\" section **(5)** "
+"below for more information). You can also access useful information here,"
+" such as \"Compare CentreStack Editions\" **(6)** and \"Training Videos\""
+" **(7)** to help you get started."
+msgstr "Efter at have logget ind på Partnerportalen kan du se de fleste muligheder ved at udvide menuen til venstre. **(1)** Fra den sammenklappelige menu skal du vælge en af de to hostingmuligheder: \"Selvhostet |prodname|\" **(2)**, som er til selvhostet |prodname|, eller \"Hostet |prodname|\" **(3)**. På billedet nedenfor kan du se, at vi allerede har \"Branded\" denne konto med \"ACME Cloud Services\" **(4)** (se \"Branding\"-afsnittet **(5)** nedenfor for mere information). Du kan også finde nyttige oplysninger her, såsom \"Sammenlign CentreStack-udgaver\" **(6)** og \"Træningsvideoer\" **(7)** for at hjælpe dig i gang."
+
+#: ../../chapter02.rst:24
+msgid "PARTNER DASHBOARD"
+msgstr "PARTNER DASHBOARD"
+
+#: ../../chapter02.rst:26
+msgid ""
+"Because this guide is focused on our \"Hosted\" solution, choose the "
+"\"Hosted |prodname|\" option from the left panel."
+msgstr "Fordi denne guide er fokuseret på vores \"Hosted\" løsning, vælg \"Hosted |prodname|\" muligheden fra venstre panel."
+
+#: ../../chapter02.rst:31
+msgid "HOSTED |prodname| TENANT MANAGEMENT"
+msgstr "HOSTED |prodname| TENANTSTYRING"
+
+#: ../../chapter02.rst:34
+msgid "Tenant Management"
+msgstr "Lejers styring"
+
+#: ../../chapter02.rst:36
+msgid ""
+"After you are in the Hosted |prodname| section, you can view the Tenant "
+"manager."
+msgstr "Når du er i sektionen Hosted |prodname|, kan du se Tenant manager."
+
+#: ../../chapter02.rst:40
+msgid "A Tenant is usually mapped to a client of yours."
+msgstr "En Tenant er normalt tilknyttet en klient af din."
+
+#: ../../chapter02.rst:43
+msgid "New Tenant"
+msgstr "Ny Lejer"
+
+#: ../../chapter02.rst:45
+msgid ""
+"To start creating the first Tenant, you can use the \"Register a Tenant\""
+" link."
+msgstr "For at begynde at oprette den første lejer kan du bruge linket \"Registrer en lejer\"."
+
+#: ../../chapter02.rst:50
+msgid "CREATE A NEW TENANT"
+msgstr "OPRET EN NY LEJER"
+
+#: ../../chapter02.rst:52
+msgid ""
+"During the creation of a Tenant, it asks for basic Tenant-related "
+"information such as company name, contact name, email and other "
+"information."
+msgstr "Under oprettelsen af en lejer bedes der om grundlæggende lejer-relateret information såsom firmanavn, kontaktnavn, e-mail og anden information."
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you need to get to the advanced section to further customize the "
+"creation of the Tenant, you can click on the \"Advanced Settings\" link."
+msgstr "Hvis du skal videre til den avancerede sektion for at tilpasse oprettelsen af Tenant yderligere, kan du klikke på linket \"Avancerede indstillinger\"."
+
+#: ../../chapter02.rst:59
+msgid "NEW TENANT SETTINGS"
+msgstr "NYE LEJERINDSTILLINGER"
+
+#: ../../chapter02.rst:62
+msgid "Advanced Settings"
+msgstr "Avancerede indstillinger"
+
+#: ../../chapter02.rst:67
+msgid "ADVANCED SETTINGS"
+msgstr "AVANCEREDE INDSTILLINGER"
+
+#: ../../chapter02.rst:69
+msgid ""
+"For MSPs and the Tenant internal IT staff, there is a division of work "
+"and responsibility. Sometimes managed service providers do more work and "
+"have more responsibility, but other times the Tenant IT staff has more. "
+"The Advanced Settings defines how the work is divided between these two "
+"entities."
+msgstr "For MSP'er og den interne IT-afdeling hos Tenant er der en opdeling af arbejde og ansvar. Nogle gange udfører managed service providers mere arbejde og har større ansvar, men andre gange har Tenant IT-afdelingen mere. De avancerede indstillinger definerer, hvordan arbejdet er fordelt mellem disse to enheder."
+
+#: ../../chapter02.rst:71
+msgid "View and edit group policy"
+msgstr "Se og rediger gruppepolitik"
+
+#: ../../chapter02.rst:73
+msgid "Whether the Tenant itself (Tenant Administrator) can manage group policy."
+msgstr "Om Tenant selv (Tenant Administrator) kan administrere gruppepolitik."
+
+#: ../../chapter02.rst:76
+msgid "Allow Tenant to edit branding setting"
+msgstr "Tillad lejer at redigere brandingindstilling"
+
+#: ../../chapter02.rst:78
+msgid ""
+"Normally the Tenant will pick up the service provider's default branding "
+"setting. If this setting is allowed the Tenant can define their own "
+"branding."
+msgstr "Normalt vil lejeren overtage tjenesteudbyderens standard brandingindstilling. Hvis denne indstilling er tilladt, kan lejeren definere deres egen branding."
+
+#: ../../chapter02.rst:81
+msgid "Edit Tenant Administrator info"
+msgstr "Rediger oplysninger om lejeradministrator"
+
+#: ../../chapter02.rst:83
+msgid ""
+"Tenant admin can change the email and the name of the Tenant "
+"administrator."
+msgstr "Lejeradministratoren kan ændre e-mailen og navnet på lejeradministratoren."
+
+#: ../../chapter02.rst:85
+msgid "Allow creation of guest users"
+msgstr "Tillad oprettelse af gæstebrugere"
+
+#: ../../chapter02.rst:87
+msgid ""
+"The Guest user is related to files and folder sharing. This setting "
+"allows Tenant users to create guest users."
+msgstr "Gæstebrugeren er relateret til deling af filer og mapper. Denne indstilling giver lejerbrugere mulighed for at oprette gæstebrugere."
+
+#: ../../chapter02.rst:89
+msgid ""
+"Show Data-At-Rest Encryption configuration page (Requires empty storage "
+"container)"
+msgstr "Vis konfigurationssiden for Data-At-Rest-kryptering (Kræver tom opbevaringscontainer)"
+
+#: ../../chapter02.rst:91
+msgid ""
+"This option allows Tenant to set encryption upon the first use. The "
+"Tenant will enable the encryption with a pass phrase."
+msgstr "Denne mulighed giver Tenant mulighed for at sætte kryptering ved første brug. Tenant vil aktivere krypteringen med en adgangssætning."
+
+#: ../../chapter02.rst:93
+msgid "User License Count"
+msgstr "Brugerlicenstælling"
+
+#: ../../chapter02.rst:95
+msgid "By default, the Tenant user count can be anything above 3 users."
+msgstr "Som standard kan antallet af brugere i en tenant være mere end 3 brugere."
+
+#: ../../chapter02.rst:97
+msgid "Hosting Data Center"
+msgstr "Hosting af datacenter"
+
+#: ../../chapter02.rst:99
+msgid ""
+"If a managed service provider has both self-hosted |prodname| environment"
+" and Hosted |prodname|, the managed service provider can leverage self-"
+"hosted |prodname| to create Tenants."
+msgstr "Hvis en administreret tjenesteudbyder har både selvhostet |prodname| miljø og Hosted |prodname|, kan tjenesteudbyderen udnytte selvhostet |prodname| til at oprette Tenants."
+
+#: ../../chapter02.rst:101
+msgid ""
+"After a Tenant is created, you can manage the Tenants in \"Registered "
+"Tenants\" section."
+msgstr "Efter en lejer er oprettet, kan du administrere lejerne i sektionen \"Registrerede lejere\"."
+
+#: ../../chapter02.rst:106
+msgid "MANAGING YOUR TENANT"
+msgstr "STYRING AF DIN LEJER"
+
+#: ../../chapter02.rst:109
+msgid "Branding"
+msgstr "Branding"
+
+#: ../../chapter02.rst:111
+msgid ""
+"You can create the branding and then apply the branding information to "
+"your Tenants."
+msgstr "Du kan oprette branding og derefter anvende brandingoplysningerne på dine lejere."
+
+#: ../../chapter02.rst:116
+msgid "PARTNER BRANDING SETTINGS"
+msgstr "PARTNER BRANDING INDSTILLINGER"
+
+#: ../../chapter02.rst:119
+msgid "Apply Branding to the Tenant"
+msgstr "Anvend branding til lejemålet"
+
+#: ../../chapter02.rst:121
+msgid ""
+"**Default branding is applied this way:** On \"Registered Tenants\" "
+"section, click \"Brand\"."
+msgstr "**Standardbranding anvendes på denne måde:** I sektionen \"Registrerede Lejere\" klik på \"Brand\"."
+
+#: ../../chapter02.rst:127
+msgid "APPLY PARTNER BRANDING"
+msgstr "ANVEND PARTNER-BRANDING"
+
+#: ../../chapter02.rst:129
+msgid ""
+"If the Tenant is allowed to change the branding, this can be done from "
+"the Tenant dashboard."
+msgstr "Hvis lejeren har tilladelse til at ændre branding, kan dette gøres fra lejerens dashboard."
+
+#: ../../chapter02.rst:134
+msgid "ACCESS TO TENANT BRANDING"
+msgstr "ADGANG TIL LEJER BRANDING"
+
+#: ../../chapter02.rst:136
+msgid ""
+"Once you are in the Branding Settings, you can choose a settings group "
+"from the Branding submenu. The setting categories are: ``General``, ``Web"
+" Portal``, ``Client Download``, ``Windows Client``, ``Mac Client``, "
+"``Emails``, ``Email Service``, and ``Branding Tasks``."
+msgstr "Når du er i Branding-indstillingerne, kan du vælge en indstillingsgruppe fra Branding-undermenuen. Indstillingskategorierne er: ``Generelt``, ``Webportal``, ``Klientdownload``, ``Windows-klient``, ``Mac-klient``, ``E-mails``, ``E-mailtjeneste`` og ``Brandingopgaver``."
+
+#: ../../chapter02.rst:141
+msgid "TENANT BRANDING SETTINGS"
+msgstr "INDSTILLINGER FOR LEJERBRANDING"
+
+#: ../../chapter02.rst:143
+msgid ""
+"After the branding is created, you can apply the branding to a specific "
+"Tenant. In this example, we created a new logo and uploaded it to the "
+"logo section in the partner portal."
+msgstr "Efter branding er oprettet, kan du anvende branding på en specifik lejer. I dette eksempel har vi oprettet en ny logo og uploadet den til logosektionen i partnerportalen."
+
+#: ../../chapter02.rst:148
+msgid "REPLACE THIS"
+msgstr ""
+
+#: ../../chapter02.rst:150
+msgid ""
+"After that, we can apply the branding and you can see the difference "
+"before-branding and after-branding."
+msgstr "Efter det kan vi anvende branding, og du kan se forskellen før-branding og efter-branding."
+
+#: ../../chapter02.rst:153
+msgid "Before - Default"
+msgstr "Før - Standard"
+
+#: ../../chapter02.rst:158
+msgid "DEFAULT BRANDING"
+msgstr "STANDARD BRANDING"
+
+#: ../../chapter02.rst:161
+msgid "Now - Your Branding"
+msgstr "Nu - Dit Branding"
+
+#: ../../chapter02.rst:166
+msgid "CUSTOM BRANDING"
+msgstr "TILPASSET BRANDING"
+

@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../task_manager.rst:2
+msgid "Task Manager"
+msgstr "مدير المهام"
+
+#: ../../task_manager.rst:4
+msgid "Access the **Task Manager** from the side menu."
+msgstr "الوصول إلى **مدير المهام** من القائمة الجانبية."
+
+#: ../../task_manager.rst:8
+msgid ""
+"If some tasks are pending, the list will be shown in the Task Manager. "
+"Tap on the **Refresh** (1) button to update the task list and the "
+"**Delete** (2) to delete all tasks."
+msgstr "إذا كانت هناك مهام معلقة، سيتم عرض القائمة في مدير المهام. انقر على زر **تحديث** (1) لتحديث قائمة المهام وزر **حذف** (2) لحذف جميع المهام."
+
+#: ../../task_manager.rst:12
+msgid "Any individual task can be deleted by pressing the delete button."
+msgstr "يمكن حذف أي مهمة فردية بالضغط على زر الحذف."
+
+#: ../../task_manager.rst:16
+msgid ""
+"A task that is displayed as a green running image means that it is "
+"currently being executed."
+msgstr "المهمة التي تظهر على شكل صورة خضراء تعني أنها قيد التنفيذ حاليًا"
+
+#: ../../task_manager.rst:20
+msgid "Once all tasks are completed, the **No Tasks Found** page is displayed."
+msgstr "بمجرد الانتهاء من جميع المهام، يتم عرض صفحة **لا توجد مهام**."
+

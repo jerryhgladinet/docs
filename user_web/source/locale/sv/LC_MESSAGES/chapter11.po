@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Tenant Administrator"
+msgstr "Hyresgästadministratör"
+
+#: ../../chapter11.rst:5
+msgid ""
+"Please reference the `Admin Guide`__ for full documentation of the tenant"
+" administration. Here we will go over several commonly touched areas for "
+"tenant administrators."
+msgstr "Vänligen se `Admin Guide`__ för fullständig dokumentation av hyresgästadministrationen. Här kommer vi att gå igenom flera områden som ofta hanteras av hyresgästadministratörer."
+
+#: ../../chapter11.rst:10
+msgid ""
+"After you enter the \"management console\", you will be in the tenant "
+"manager. You can access the tenant by clicking on the desired tenant from"
+" the options."
+msgstr "Efter att du har gått in på \"hanteringskonsolen\" kommer du att befinna dig i hyresvärdshanteraren. Du kan komma åt hyresgästen genom att klicka på önskad hyresgäst från alternativen."
+
+#: ../../chapter11.rst:15
+msgid ""
+"Under Management Console, an admin can configure storage, monitor shared "
+"objects, create and manage team folders, manage users, configure granular"
+" group policies, add new tenant administrators, look at different "
+"reports, and under advanced configure AD etc."
+msgstr "Under Management Console kan en administratör konfigurera lagring, övervaka delade objekt, skapa och hantera teammappar, hantera användare, konfigurera detaljerade grupprinciper, lägga till nya administratörer för hyresgäster, titta på olika rapporter och under avancerat konfigurera AD etc."
+
+#: ../../chapter11.rst:17
+msgid ""
+"After you click a tenant, you will be in the tenant dashboard. You can "
+"click through to different managers. You can manage users **(1)** and "
+"folders **(2)**. If you are using an Active Directory for importing users"
+" and permissions you can connect to your Active Directory by clicking the"
+" \"Configure Now\" **(3)**."
+msgstr "Efter att du klickat på en hyresgäst kommer du att vara i hyresgästens instrumentpanel. Du kan klicka dig vidare till olika hanterare. Du kan hantera användare **(1)** och mappar **(2)**. Om du använder en Active Directory för att importera användare och behörigheter kan du ansluta till din Active Directory genom att klicka på \"Konfigurera nu\" **(3)**."
+
+#: ../../chapter11.rst:22
+msgid "MANAGE USERS AND FILES"
+msgstr "HANTERA ANVÄNDARE OCH FILER"
+
+#: ../../chapter11.rst:27
+msgid "User Manager"
+msgstr "Användarhanterare"
+
+#: ../../chapter11.rst:29
+msgid ""
+"You can access the user manager by clicking one of these items in the "
+"Tenant Dashboard."
+msgstr "Du kan komma åt användarhanteraren genom att klicka på något av dessa objekt i Tenant Dashboard."
+
+#: ../../chapter11.rst:34
+msgid "ACCESSING THE USER MANAGER"
+msgstr "ÅTKOMST TILL ANVÄNDARHANTERINGEN"
+
+#: ../../chapter11.rst:38
+msgid "Active Directory - LDAP"
+msgstr "Active Directory - LDAP"
+
+#: ../../chapter11.rst:40
+msgid ""
+"When you \"Create or Migrate User\" **(1)** in user manager, there are "
+"some options for adding new users. Click \"Active Directory\" **(2)**, "
+"you can add your local AD settings. Select \"Enable Active Directory "
+"Integration\" **(3)**."
+msgstr "När du \"Skapa eller migrera användare\" **(1)** i användarhanteraren finns det några alternativ för att lägga till nya användare. Klicka på \"Active Directory\" **(2)**, du kan lägga till dina lokala AD-inställningar. Välj \"Aktivera Active Directory-integrering\" **(3)**."
+
+#: ../../chapter11.rst:45
+msgid "CONNECTING TO ACTIVE DIRECTORY (AD)"
+msgstr "ANSLUTNING TILL ACTIVE DIRECTORY (AD)"
+
+#: ../../chapter11.rst:47
+msgid ""
+"This gives you access to all the settings fields and the Advanced "
+"Settings Tab **(4)**. Once you have filled in the settings with an "
+"Administrator User account from your Active Directory, click **APPLY** to"
+" accept your changes."
+msgstr "Detta ger dig tillgång till alla inställningsfält och fliken för avancerade inställningar **(4)**. När du har fyllt i inställningarna med ett administratörskonto från din Active Directory klickar du på **TILLÄMPA** för att acceptera dina ändringar."
+
+#: ../../chapter11.rst:51
+msgid "Add Users"
+msgstr "Lägg till användare"
+
+#: ../../chapter11.rst:53
+msgid ""
+"You can add users from within the User Manager by clicking the \"Create "
+"or Migrate User\" button to open the **\"Options for Adding New Users\"**"
+" panel. In that panel you have several options: add a Native User, Batch "
+"Create Users, import Active Directory users and permissions, and if you "
+"have Server Agents actively connected, you will also see those servers "
+"listed here as well."
+msgstr "Du kan lägga till användare från användarhanteraren genom att klicka på knappen \"Skapa eller migrera användare\" för att öppna panelen **\"Alternativ för att lägga till nya användare\"**. I den panelen har du flera alternativ: lägg till en inhemsk användare, skapa användare i batch, importera Active Directory-användare och behörigheter, och om du har Serveragenter aktivt anslutna kommer du även att se dessa servrar listade här."
+
+#: ../../chapter11.rst:58
+msgid "ADDING USERS"
+msgstr "LÄGGA TILL ANVÄNDARE"
+
+#: ../../chapter11.rst:60
+msgid "**Native User**"
+msgstr "**Infödd användare**"
+
+#: ../../chapter11.rst:62
+msgid ""
+"Native user refers to |prodname| user that is not related to any Active "
+"Directory."
+msgstr "Native användare avser |prodname| användare som inte är relaterad till någon Active Directory."
+
+#: ../../chapter11.rst:65
+msgid "**Batch create users**"
+msgstr "**Skapa användare i batch**"
+
+#: ../../chapter11.rst:67
+msgid ""
+"These are native users in a comma separated file that can be paste into a"
+" text area so the users can be batch created."
+msgstr "Det här är inhemska användare i en kommaseparerad fil som kan klistras in i ett textområde så att användarna kan skapas i batch."
+
+#: ../../chapter11.rst:70
+msgid "**Active Directory**"
+msgstr "**Active Directory**"
+
+#: ../../chapter11.rst:72
+msgid ""
+"Active Directory means users from Local Area Network (LAN) that is in the"
+" same network as the |prodname| server."
+msgstr "Active Directory innebär användare från Local Area Network (LAN) som är i samma nätverk som |prodname|-servern."
+
+#: ../../chapter11.rst:75
+msgid "**Server-Agent-Name**"
+msgstr "**Server-Agent-Namn**"
+
+#: ../../chapter11.rst:77
+msgid ""
+"If you already have the \"Server Agent\" installed and the server agent "
+"is actively connected to |prodname|, you will also see the server agents "
+"listed by name in the Add User page."
+msgstr "Om du redan har \"Server Agent\" installerad och serveragenten är aktivt ansluten till |prodname|, kommer du också att se serveragenterna listade med namn på sidan för att lägga till användare."
+
+#: ../../chapter11.rst:83
+msgid "Native Users"
+msgstr "Infödda användare"
+
+#: ../../chapter11.rst:85
+msgid ""
+"When a new user is created, the administrator will specify the amount of "
+"cloud storage that the new user is allowed to use. The email address will"
+" send a welcome email to the new user and will serve as his/her username."
+msgstr "När en ny användare skapas kommer administratören att ange mängden molnlagring som den nya användaren får använda. E-postadressen kommer att skicka ett välkomstmeddelande till den nya användaren och kommer att fungera som hans/hennes användarnamn."
+
+#: ../../chapter11.rst:90
+msgid "ADDING A NATIVE USER"
+msgstr "LÄGGA TILL EN INHEMSK ANVÄNDARE"
+
+#: ../../chapter11.rst:94
+msgid ""
+"When quota is left as zero, it means no limitation until the tenant quota"
+" limit is hit."
+msgstr "När kvoten är satt till noll innebär det ingen begränsning tills gränsen för hyresgästens kvot är nådd."
+
+#: ../../chapter11.rst:97
+msgid "Active Directory Users from LDAP"
+msgstr "Active Directory-användare från LDAP"
+
+#: ../../chapter11.rst:99
+msgid ""
+"If the Active Directory (LDAP) is not already configured, you will need "
+"to configure it first. You can from \"Settings\" > \"Active Directory\", "
+"or \"Create or Migrate User\" > \"Active Directory\" to access the "
+"settings."
+msgstr "Om Active Directory (LDAP) inte redan är konfigurerad måste du konfigurera den först. Du kan från \"Inställningar\" > \"Active Directory\", eller \"Skapa eller migrera användare\" > \"Active Directory\" för att komma åt inställningarna."
+
+#: ../../chapter11.rst:104
+msgid "CONFIGURE YOUR ACTIVE DIRECTORY SETTINGS"
+msgstr "KONFIGURERA DINA ACTIVE DIRECTORY-INSTÄLLNINGAR"
+
+#: ../../chapter11.rst:106
+msgid ""
+"If the Active Directory (LDAP) is already configured, you will see the "
+"Active Directory name at the bottom of the AD icon in the \"Add User\" "
+"view."
+msgstr "Om Active Directory (LDAP) redan är konfigurerad kommer du att se Active Directory-namnet längst ner på AD-ikonen i \"Lägg till användare\"-vyn."
+
+#: ../../chapter11.rst:108
+msgid "Add Active Directory Users where those users are from local area network."
+msgstr "Lägg till Active Directory-användare där användarna kommer från lokalt nätverk."
+
+#: ../../chapter11.rst:113
+msgid "ADDING ACTIVE DIRECTORY USERS"
+msgstr "LÄGGA TILL AKTIVA KATALOGBRUKARE"
+
+#: ../../chapter11.rst:116
+msgid ""
+"After the Active Directory is configured, you can use the Add User wizard"
+" to import Active Directory users into |prodname|."
+msgstr "Efter att Active Directory har konfigurerats kan du använda guiden Lägg till användare för att importera Active Directory-användare till |prodname|."
+
+#: ../../chapter11.rst:121
+msgid ""
+"For best practice, you will only configure Active Directory via LDAP if "
+"the file server is also local in the same network as the Active Directory"
+" server."
+msgstr "För bästa praxis bör du endast konfigurera Active Directory via LDAP om filservern också är lokal i samma nätverk som Active Directory-servern."
+
+#: ../../chapter11.rst:126
+msgid "Active Directory Users from Server Agent"
+msgstr "Active Directory-användare från Server Agent"
+
+#: ../../chapter11.rst:128
+msgid ""
+"When the Server Agent is available and connects to the specific tenant in"
+" |prodname|, the Server Agent will show up with the server's name at the "
+"bottom of the icon."
+msgstr "När Server Agent är tillgänglig och ansluter till den specifika klienten i |prodname|, kommer Server Agent att visas med serverns namn längst ner på ikonen."
+
+#: ../../chapter11.rst:132
+msgid ""
+"Click through the Server Agent icon, you will see the \"Add User\" wizard"
+" and complete the wizard to add users. This is very similar to the add AD"
+" user from local LDAP process above."
+msgstr "Klicka på Server Agent-ikonen, så ser du \"Lägg till användare\"-guiden och slutför guiden för att lägga till användare. Detta är mycket likt processen att lägga till AD-användare från lokal LDAP ovan."
+
+#: ../../chapter11.rst:136
+msgid ""
+"When the Active Directory is at a remote location, not directly connected"
+" to |prodname| server, Server Agent can be used to facilitate the "
+"communication. Server Agent doesn't need to be installed directly on a "
+"remote Active Directory server, the Server Agent needs to be installed on"
+" a remote file server that is part of the remote Active Directory domain."
+msgstr "När Active Directory finns på en avlägsen plats, inte direkt ansluten till |prodname| server, kan Server Agent användas för att underlätta kommunikationen. Server Agent behöver inte installeras direkt på en avlägsen Active Directory-server, Server Agent behöver installeras på en avlägsen filserver som är en del av den avlägsna Active Directory-domänen."
+
+#: ../../chapter11.rst:140
+msgid "Deleting Users"
+msgstr "Radera användare"
+
+#: ../../chapter11.rst:142
+msgid ""
+"When a user leaves the team, administrators can delete the user's login. "
+"Just click the Delete icon in 'User Manager' window."
+msgstr "När en användare lämnar teamet kan administratörer radera användarens inloggning. Klicka bara på Radera-ikonen i 'Användarhanteraren'-fönstret."
+
+#: ../../chapter11.rst:147
+msgid "DELETING A USER"
+msgstr "TA BORT EN ANVÄNDARE"
+
+#: ../../chapter11.rst:151
+msgid "Managing User Quotas"
+msgstr "Hantera användarkvoter"
+
+#: ../../chapter11.rst:153
+msgid ""
+"Administrators can assign a quota to each user. A user will not be "
+"allowed to upload files to |prodname| once their quota has been reached."
+msgstr "Administratörer kan tilldela en kvot till varje användare. En användare kommer inte att tillåtas att ladda upp filer till |prodname| när deras kvot har uppnåtts."
+
+#: ../../chapter11.rst:155
+msgid ""
+"If the quota is 0 for the user, there is no limit on how much storage the"
+" user can use."
+msgstr "Om kvoten är 0 för användaren finns det ingen begränsning för hur mycket lagring användaren kan använda."
+
+#: ../../chapter11.rst:157
+msgid ""
+"Click the 'Management Console' and select 'Users'. Click the \"Edit\" "
+"icon on an user to manage. On \"Storage\" tab, select \"Edit\" icon for "
+"storage quota."
+msgstr "Klicka på 'Hanteringskonsolen' och välj 'Användare'. Klicka på \"Redigera\"-ikonen för en användare för att hantera. På fliken \"Lagring\", välj \"Redigera\"-ikonen för lagringskvoten."
+
+#: ../../chapter11.rst:162
+msgid "EDITING STORAGE QUOTA"
+msgstr "REDIGERA LAGRINGSKVOT"
+
+#: ../../chapter11.rst:166
+msgid "Managing User Credentials"
+msgstr "Hantering av användaruppgifter"
+
+#: ../../chapter11.rst:168
+msgid "Admins can change user passwords and login emails, if needed."
+msgstr "Administratörer kan ändra användares lösenord och inloggnings-e-postadresser vid behov."
+
+#: ../../chapter11.rst:170
+msgid "Click 'Management Console' and select 'User Manager'"
+msgstr "Klicka på 'Hanteringskonsol' och välj 'Användarhanterare'"
+
+#: ../../chapter11.rst:171
+msgid "Click the \"manage user\" menu icon in the user block"
+msgstr "Klicka på menikonen \"hantera användare\" i användarblocket"
+
+#: ../../chapter11.rst:172
+msgid "After that, can use \"Reset Password\" link to help the user."
+msgstr "Efter det kan använda \"Återställ lösenord\"-länken för att hjälpa användaren."
+
+#: ../../chapter11.rst:177
+msgid "RESET USER PASSWORD"
+msgstr "ÅTERSTÄLL ANVÄNDARENS LÖSENORD"
+
+#: ../../chapter11.rst:180
+msgid ""
+"After changing the login password, an email will be sent to notify the "
+"user of the change. Admins can choose to include the new password in the "
+"email, or exclude the new password from the email. If the password is not"
+" included, the admin will need to convey the new password to the user in "
+"some other way."
+msgstr "Efter att inloggningslösenordet har ändrats kommer ett e-postmeddelande att skickas för att meddela användaren om ändringen. Administratörer kan välja att inkludera det nya lösenordet i e-postmeddelandet eller att utesluta det nya lösenordet från e-postmeddelandet. Om lösenordet inte inkluderas måste administratören på något annat sätt meddela användaren det nya lösenordet."
+
+#: ../../chapter11.rst:185
+msgid "PASSWORD OPTIONS"
+msgstr "LÖSENORDSALTERNATIV"
+
+#: ../../chapter11.rst:188
+msgid ""
+"When either the email or password is changed, please update the "
+"corresponding login credentials in the |prodname| Cloud Desktop or Cloud "
+"Server."
+msgstr "När antingen e-postadressen eller lösenordet ändras, vänligen uppdatera motsvarande inloggningsuppgifter i |prodname| Cloud Desktop eller Cloud Server."
+
+#: ../../chapter11.rst:192
+msgid ""
+"This only applies to a native |prodname| user. If you have Active "
+"Directory users, you will need to manage user's credential the Active "
+"Directory way."
+msgstr "Detta gäller endast för en infödd |prodname|-användare. Om du har Active Directory-användare måste du hantera användarens referenser på Active Directory-sättet."
+
+#: ../../chapter11.rst:196
+msgid "Team Folders"
+msgstr "Team Mappar"
+
+#: ../../chapter11.rst:198
+msgid ""
+"Adding files and folders can be accomplished by clicking \"Add a new team"
+" folder\" (**+**) icon on \"Team Folders\" page. Once the **\"Team Folder"
+" Storage Locations\"** view opens you can choose from many options: "
+"Existing Tenant Storage, File Servers in Local Area Network, Remote File "
+"Servers or Cloud Storage."
+msgstr "Att lägga till filer och mappar kan göras genom att klicka på ikonen \"Lägg till en ny teammapp\" (**+**) på sidan \"Teammappar\". När vyn **\"Lagringsplatser för teammapp\"** öppnas kan du välja mellan många alternativ: Befintlig hyresgästs lagring, filservrar i lokalt nätverk, fjärranslutna filservrar eller molnlagring."
+
+#: ../../chapter11.rst:203
+msgid "WAYS TO ADD STORAGE LOCATIONS"
+msgstr "SÄTT ATT LÄGGA TILL LAGRINGSPLATSER"
+
+#: ../../chapter11.rst:206
+msgid "**File Servers**"
+msgstr "**Filservrar**"
+
+#: ../../chapter11.rst:208
+msgid ""
+"If you have an existing file server in the Local Area Network (LAN), you "
+"can import the network share directly to |prodname| **(1)**. Under Remote"
+" File Servers, you can install the Server Agent client **(2)** and access"
+" your file server remotely."
+msgstr "Om du har en befintlig filserver i det lokala nätverket (LAN), kan du importera nätverksresursen direkt till |prodname| **(1)**. Under Fjärranslutna Filservrar kan du installera Server Agent-klienten **(2)** och få åtkomst till din filserver på distans."
+
+#: ../../chapter11.rst:213
+msgid "ADDING REMOTE FILES"
+msgstr "LÄGGA TILL FJÄRRFILER"
+
+#: ../../chapter11.rst:218
+msgid ""
+"The Server Agent is only required when the remote file server doesn't "
+"have direct LAN (local area network) access"
+msgstr "Serveragenten krävs endast när den fjärranslutna filservern inte har direkt LAN-åtkomst (lokalt nätverk)"
+
+#: ../../chapter11.rst:218
+msgid ""
+"to |prodname|. The Server Agent will be used in this case to facilitate "
+"communication between the |prodname| server to the remote file server."
+msgstr "till |prodname|. Serveragenten kommer att användas i detta fall för att underlätta kommunikationen mellan |prodname|-servern och den fjärranslutna filservern."
+
+#: ../../chapter11.rst:221
+msgid ""
+"|prodname| enables the creation of team folders which are owned by the "
+"administrator and published to other |prodname| users."
+msgstr "|prodname| möjliggör skapandet av teammappar som ägs av administratören och publiceras till andra |prodname|-användare."
+
+#: ../../chapter11.rst:223
+msgid ""
+"Once a folder is published, it is displayed as a team folder to the users"
+" who have access permissions. Users can access these folders from "
+"|prodname| Web or other client agents. The published folder will appear "
+"under the user's root folder, and its name will be appended with \"(Team "
+"Folder)\"."
+msgstr "När en mapp har publicerats visas den som en teammapp för användare som har åtkomsträttigheter. Användare kan komma åt dessa mappar från |prodname| Web eller andra klientagenter. Den publicerade mappen kommer att visas under användarens rotmapp, och dess namn kommer att få tillägget \"(Teammapp)\"."
+
+#: ../../chapter11.rst:229
+msgid "TEAM FOLDER TAG"
+msgstr "TEAM MAPP TAGG"
+
+#: ../../chapter11.rst:233
+msgid ""
+"Different upload methods may have different advantage and disadvantage on"
+" different web browsers and different web browser configuration, such as "
+"whether it is HTML5 enabled, Java enabled or Flash enabled."
+msgstr "Olika uppladdningsmetoder kan ha olika fördelar och nackdelar i olika webbläsare och webbläsarkonfigurationer, såsom om de är HTML5-aktiverade, Java-aktiverade eller Flash-aktiverade."
+
+#: ../../chapter11.rst:236
+msgid ""
+"By default, only one upload method was exposed in the web user interface."
+" However, the tenant administrator, based on the kind of web browser the "
+"company is using and the kind of configuration the web browser has, can "
+"decide which upload method to expose to the end user (Team User)."
+msgstr "Som standard var endast en uppladdningsmetod synlig i webbgränssnittet. Dock kan hyresvärdsadministratören, beroende på vilken typ av webbläsare företaget använder och vilken typ av konfiguration webbläsaren har, bestämma vilken uppladdningsmetod som ska vara tillgänglig för slutanvändaren (Team-användare)."
+
+#: ../../chapter11.rst:239
+msgid ""
+"Below is the Settings -> Clients & Applications -> Web Portal setting "
+"administrator can control."
+msgstr "Nedan är Inställningar -> Klienter & Applikationer -> Webportalinställning som administratören kan kontrollera."
+
+#: ../../chapter11.rst:244
+msgid "UPLOADER METHOD OPTIONS"
+msgstr "UPPLADDARE METODALTERNATIV"
+
+#: ../../chapter11.rst:246
+msgid "Web Browser - Disable Java Uploader"
+msgstr "Webbläsare - Inaktivera Java-uppladdare"
+
+#: ../../chapter11.rst:248
+msgid ""
+"Deselect this if your companies' desktop system web browsers use a Java "
+"Uploader."
+msgstr "Avmarkera detta om ditt företags skrivbordsystem webbläsare använder en Java Uploader."
+
+#: ../../chapter11.rst:250
+msgid "Web Browser - Disable Flash Uploader"
+msgstr "Webbläsare - Inaktivera Flash-uppladdare"
+
+#: ../../chapter11.rst:252
+msgid ""
+"Deselect this if your company uses browsers that require Flash uploader "
+"functionality."
+msgstr "Avmarkera detta om ditt företag använder webbläsare som kräver Flash-uppladdningsfunktionalitet."
+
+#: ../../chapter11.rst:254
+msgid "Web Browser - Disable Local Uploader"
+msgstr "Webbläsare - Inaktivera lokal uppladdare"
+
+#: ../../chapter11.rst:256
+msgid ""
+"Deselect this if your company allows the use of a local executable to "
+"upload files."
+msgstr "Avmarkera detta om ditt företag tillåter användning av en lokal körbar fil för att ladda upp filer."
+
+#: ../../chapter11.rst:260
+msgid "Sharing Security"
+msgstr "Delningssäkerhet"
+
+#: ../../chapter11.rst:263
+msgid "Preventing Users From Sharing"
+msgstr "Förhindra att användare delar"
+
+#: ../../chapter11.rst:265
+msgid ""
+"Sometimes for security reasons, users should not be allowed to share "
+"files/folders."
+msgstr "Ibland av säkerhetsskäl bör användare inte tillåtas att dela filer/mappar."
+
+#: ../../chapter11.rst:267
+msgid "There are two types of files and folders a user can access."
+msgstr "Det finns två typer av filer och mappar som en användare kan komma åt."
+
+#: ../../chapter11.rst:269
+msgid ""
+"User's own folders, including versioned folders and attached local "
+"folders from the user's desktop."
+msgstr "Användarens egna mappar, inklusive versionshanterade mappar och anslutna lokala mappar från användarens skrivbord."
+
+#: ../../chapter11.rst:271
+msgid ""
+"When an administrator creates new users, he/she can disable sharing home "
+"directory content with external party, to prevent the newly created user "
+"from sharing his/her own files and folders."
+msgstr "När en administratör skapar nya användare kan han/hon inaktivera delning av innehåll i hemkatalogen med extern part, för att förhindra att den nyss skapade användaren delar sina egna filer och mappar."
+
+#: ../../chapter11.rst:277
+msgid "MANAGE USER SETTINGS"
+msgstr "HANTERA ANVÄNDARINSTÄLLNINGAR"
+
+#: ../../chapter11.rst:279
+msgid ""
+"In the Manage User panel, access the \"Storage\" settings (4). Once you "
+"are in the Storage View you can select (5) the \"Disable external sharing"
+" of this user's home directory content\" option."
+msgstr "I hanteringspanelen för användare, gå till \"Lagrings\"-inställningarna (4). När du är i Lagringsvyn kan du välja (5) alternativet \"Inaktivera extern delning av innehållet i den här användarens hemkatalog\"."
+
+#: ../../chapter11.rst:284
+msgid "DISABLE EXTERNAL SHARING"
+msgstr "INAKTIVERA EXTERN DELNING"
+
+#: ../../chapter11.rst:287
+msgid ""
+"When publishing a team folder, administrator can check 'Disable further "
+"sharing', to prevent users from sharing anything in the team folder. You "
+"can access this setting after choosing your storage location. Click the "
+"\"Create Team Folder\" **(+)** icon (1) and select your storage type (2),"
+" \"New Team Folder\" window opens, click \"Settings\" icon (3), then "
+"select the \"Disable further sharing\" option (4)."
+msgstr "När en administratör publicerar en teammapp kan de kryssa i 'Inaktivera vidare delning' för att förhindra att användare delar något i teammappen. Du kan komma åt den här inställningen efter att du har valt din lagringsplats. Klicka på ikonen \"Skapa teammapp\" **(+)** (1) och välj din lagringstyp (2), fönstret \"Ny teammapp\" öppnas, klicka på ikonen \"Inställningar\" (3), välj sedan alternativet \"Inaktivera vidare delning\" (4)."
+
+#: ../../chapter11.rst:292
+msgid "DISABLE FURTHER SHARING"
+msgstr "INAKTIVERA YTTERLIGARE DELNING"
+
+#: ../../chapter11.rst:296
+msgid "Protecting Shares By Requiring Login"
+msgstr "Skydda delningar genom att kräva inloggning"
+
+#: ../../chapter11.rst:298
+msgid ""
+"When a user shares a file or folder, |prodname| will generate a URL. By "
+"default, anyone can use the URL to access the share."
+msgstr "När en användare delar en fil eller mapp kommer |prodname| att generera en URL. Som standard kan vem som helst använda URL:en för att komma åt delningen."
+
+#: ../../chapter11.rst:300
+msgid ""
+"Administrators can protect shares by requiring login credentials. Once "
+"enabled, when a user accesses the share URL, he /she will be prompted to "
+"login to the |prodname| Cloud. After login, the user can view the "
+"file/folder shared with him/her under 'Files shared with me'."
+msgstr "Administratörer kan skydda delningar genom att kräva inloggningsuppgifter. När det är aktiverat kommer en användare som går till delnings-URL:en att uppmanas att logga in på |prodname| Cloud. Efter inloggningen kan användaren se filen/mappen som delats med honom/henne under 'Filer delade med mig'."
+
+#: ../../chapter11.rst:303
+msgid ""
+"To access this setting use the \"Settings\" menu (1) and in the \"Data "
+"Leak Protection\" (2) -> \"Sharing\" (3) panel, select the \"Users must "
+"log in to access the content in 'Files shared with me' folder\" setting "
+"(4)."
+msgstr "För att komma åt denna inställning använd \"Inställningar\"-menyn (1) och i panelen \"Dataskydd\" (2) -> \"Delning\" (3), välj inställningen \"Användare måste logga in för att komma åt innehållet i mappen 'Filer delade med mig'\" (4)."
+
+#: ../../chapter11.rst:308
+msgid "SECURING SHARED FILES AND FOLDERS"
+msgstr "SÄKRA DELADE FILER OCH MAPPAR"
+

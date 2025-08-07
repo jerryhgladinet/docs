@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:2
+msgid "Terminology"
+msgstr "用語"
+
+#: ../../chapter03.rst:5
+msgid "CentreStack Partner Portal"
+msgstr "CentreStack パートナーポータル"
+
+#: ../../chapter03.rst:7
+msgid ""
+"The Partner Portal can be found by going to http://www.centrestack.com. "
+"Click on \"Partner\" to sign up for your partner account log in "
+"credentials, and then you can log into your partner account at anytime. "
+"From the Partner Portal, You are able to download the CentreStack "
+"software and can start the trial process. Later, you can acquire licenses"
+" to turn the trial into a production environment."
+msgstr "パートナーポータルは、http://www.centrestack.com にアクセスして見つけることができます。\"パートナー\"をクリックしてパートナーアカウントのログイン情報をサインアップし、その後はいつでもパートナーアカウントにログインできます。パートナーポータルから、CentreStackソフトウェアをダウンロードし、トライアルプロセスを開始することができます。後ほど、ライセンスを取得してトライアルを本番環境に変えることができます。"
+
+#: ../../chapter03.rst:13
+msgid "You can manage hosted-tenants from the partner portal."
+msgstr "パートナーポータルからホストされたテナントを管理できます。"
+
+#: ../../chapter03.rst:15
+msgid ""
+"You can also come back to the partner portal any time that your "
+"CentreStack software needs to be upgraded to a later version."
+msgstr "パートナーポータルには、CentreStackソフトウェアをより新しいバージョンにアップグレードする必要があるときにも、いつでも戻ってくることができます。"
+
+#: ../../chapter03.rst:19
+msgid "CentreStack Cluster - Server Farm"
+msgstr "CentreStack Cluster - サーバーファーム"
+
+#: ../../chapter03.rst:21
+msgid ""
+"Multiple CentreStack single-machine nodes connect together by pointing to"
+" the same database and then share the same configuration information from"
+" the database so that CentreStack can indirectly share the persistent "
+"storage location in a symmetrical way."
+msgstr "複数のCentreStackシングルマシンノードが同じデータベースを指すことで接続され、データベースから同じ設定情報を共有することで、CentreStackは間接的に永続的なストレージの場所を対称的に共有することができます。"
+
+#: ../../chapter03.rst:23
+msgid ""
+"Indirectly, the database contains storage related information so all the "
+"nodes in the server farm share storage related configuration."
+msgstr "間接的に、データベースにはストレージ関連の情報が含まれているため、サーバーファーム内のすべてのノードがストレージ関連の設定を共有しています。"
+
+#: ../../chapter03.rst:26
+msgid ""
+"The whole CentreStack cluster operates as if it is a single entity. The "
+"smallest cluster is a single CentreStack worker node, which contains all "
+"the functionality and different logical nodes together."
+msgstr "CentreStackクラスタ全体が単一のエンティティとして動作します。最小のクラスタは単一のCentreStackワーカーノードで、すべての機能と異なる論理ノードをまとめて含んでいます。"
+
+#: ../../chapter03.rst:29
+msgid "Another term for the cluster is the **CentreStack server farm**."
+msgstr "クラスターの別名は、**CentreStackサーバーファーム** です。"
+
+#: ../../chapter03.rst:33
+msgid "The smallest cluster can be a single all-in-one worker node."
+msgstr "最小のクラスターは、オールインワンの単一ワーカーノードであることができます。"
+
+#: ../../chapter03.rst:36
+msgid "Master Admin/Cluster Admin"
+msgstr "マスター管理者/クラスター管理者"
+
+#: ../../chapter03.rst:38
+msgid ""
+"In this guide, we refer to the admin user as the user that manages the "
+"whole CentreStack server farm. The server farm can be as small as a "
+"single CentreStack server. If so, the admin user will still need to "
+"manage it regardless of the size of the server farm."
+msgstr "このガイドでは、管理者ユーザーをCentreStackサーバーファーム全体を管理するユーザーとして参照しています。サーバーファームは単一のCentreStackサーバーであることもあります。その場合でも、サーバーファームの規模に関わらず、管理者ユーザーはそれを管理する必要があります。"
+
+#: ../../chapter03.rst:43
+msgid ""
+"The Master Admin is the very first user on the CentreStack server farm. "
+"Typically, it is the user who installs the CentreStack server software."
+msgstr "マスター管理者はCentreStackサーバーファームの最初のユーザーです。通常、CentreStackサーバーソフトウェアをインストールするユーザーです。"
+
+#: ../../chapter03.rst:46
+msgid ""
+"Since this user later may set up optional Active Directory connections, "
+"it is recommended that this user's email address is not from the same "
+"Active Directory to avoid circular dependency."
+msgstr "このユーザーが後でオプショナルなActive Directory接続を設定する可能性があるため、循環依存を避けるために、このユーザーのメールアドレスは同じActive Directoryからのものでないことをお勧めします。"
+
+#: ../../chapter03.rst:50
+msgid "Tenant"
+msgstr "テナント"
+
+#: ../../chapter03.rst:52
+msgid ""
+"CentreStack is a multi-tenant ready solution. A tenant here usually is "
+"mapped to:"
+msgstr "CentreStackはマルチテナント対応のソリューションです。ここでのテナントは通常、以下にマッピングされます："
+
+#: ../../chapter03.rst:55
+msgid "a company (if you are the company IT)"
+msgstr "会社（もし貴方が会社のITなら）"
+
+#: ../../chapter03.rst:56
+msgid "a client of yours (if you are a Managed Service Provider/MSP)"
+msgstr "お客様（マネージドサービスプロバイダー/MSPである場合）"
+
+#: ../../chapter03.rst:58
+msgid "Tenants are created by the cluster administrator."
+msgstr "テナントはクラスター管理者によって作成されます。"
+
+#: ../../chapter03.rst:60
+msgid ""
+"You can use the CentreStack server in a single tenant setup because it is"
+" just a special case of multi-tenancy."
+msgstr "CentreStackサーバーは、マルチテナントの特別なケースに過ぎないため、シングルテナント設定で使用することができます。"
+
+#: ../../chapter03.rst:64
+msgid ""
+"From a reporting perspective, a tenant contains a number of users and "
+"also storage quota and storage consumption."
+msgstr "レポートの観点から見ると、テナントには多数のユーザーが含まれ、ストレージのクォータとストレージの消費も含まれます。"
+
+#: ../../chapter03.rst:67
+msgid ""
+"From the technical side, a tenant is usually connected to an Active "
+"Directory and can have a bunch of connected file servers either directly "
+"or through server agents."
+msgstr "技術的な側面からすると、テナントは通常アクティブディレクトリに接続され、直接またはサーバーエージェントを介して多数の接続されたファイルサーバーを持つことができます。"
+
+#: ../../chapter03.rst:71
+msgid "Tenant Admin"
+msgstr "テナント管理者"
+
+#: ../../chapter03.rst:73
+msgid ""
+"These are the users who actually use the product but are the admins for "
+"their teams (tenant or company)."
+msgstr "これらは製品を実際に使用しているユーザーですが、彼らのチーム（テナントまたは会社）の管理者です。"
+
+#: ../../chapter03.rst:75
+msgid ""
+"This is the very first tenant account user. Usually, the Tenant User is "
+"created by Master Admin."
+msgstr "これは最初のテナントアカウントユーザーです。通常、テナントユーザーはマスター管理者によって作成されます。"
+
+#: ../../chapter03.rst:77
+msgid ""
+"The Master Admin is also the Tenant Admin for his own team/company "
+"(default tenant). Tenant admin can later delegate administrative tasks to"
+" other team users."
+msgstr "マスター管理者は、彼のチーム/会社（デフォルトテナント）のテナント管理者でもあります。テナント管理者は後に、他のチームユーザーに管理タスクを委任することができます。"
+
+#: ../../chapter03.rst:79
+msgid ""
+"By default the cluster administrator can help the tenant administrator on"
+" the management scope."
+msgstr "デフォルトでは、クラスタ管理者はテナント管理者の管理範囲で支援ができます。"
+
+#: ../../chapter03.rst:82
+msgid "Tenant User"
+msgstr "テナントユーザー"
+
+#: ../../chapter03.rst:84
+msgid ""
+"The tenant user (team user) is a user inside a specific Tenant.  Team "
+"users are created by the Tenant Admin (or by cluster admin on behalf of "
+"the tenant admin). Team users can come from four different places:"
+msgstr "テナントユーザー（チームユーザー）は特定のテナント内のユーザーです。チームユーザーはテナント管理者（またはクラスター管理者がテナント管理者を代行して）によって作成されます。チームユーザーは4つの異なる場所から来ることがあります："
+
+#: ../../chapter03.rst:86
+msgid "Native CentreStack User (created from scratch)"
+msgstr "ネイティブCentreStackユーザー（ゼロから作成）"
+
+#: ../../chapter03.rst:87
+msgid "Active Directory User from local LDAP"
+msgstr "ローカルLDAPからのActive Directoryユーザー"
+
+#: ../../chapter03.rst:88
+msgid "Active Directory User from remote CentreStack Server Agent"
+msgstr "リモートCentreStackサーバーエージェントからのActive Directoryユーザー"
+
+#: ../../chapter03.rst:89
+msgid "Azure AD or other single-sign-on integrated identity provider"
+msgstr "Azure ADまたは他のシングルサインオン統合アイデンティティプロバイダー"
+
+#: ../../chapter03.rst:91
+msgid ""
+"Team users always belong to a specific tenant and can't span multiple "
+"tenants. However, a team user can receive file and folder share from "
+"multiple users and from multiple tenants."
+msgstr "チームユーザーは常に特定のテナントに属しており、複数のテナントにまたがることはできません。しかし、チームユーザーは複数のユーザーや複数のテナントからファイルやフォルダの共有を受け取ることができます。"
+
+#: ../../chapter03.rst:97
+msgid ""
+"A Native CentreStack user can be mapped to Active Directory user or Azure"
+" AD user later if necessary."
+msgstr "ネイティブのCentreStackユーザーは、必要に応じて後からActive DirectoryユーザーやAzure ADユーザーにマッピングすることができます。"
+
+#: ../../chapter03.rst:101
+msgid "Guest User"
+msgstr "ゲストユーザー"
+
+#: ../../chapter03.rst:103
+msgid ""
+"The guest users are users outside of the tenant users domain but receive "
+"file or folder shares from team user. The Team user creates guest users "
+"through the file sharing or folder sharing activities. Guest users "
+"typically are external users outside of an organization that are already "
+"using CentreStack."
+msgstr "ゲストユーザーは、チームユーザーからファイルやフォルダの共有を受け取るテナントユーザーのドメイン外のユーザーです。チームユーザーは、ファイル共有やフォルダ共有の活動を通じてゲストユーザーを作成します。ゲストユーザーは通常、CentreStackを既に使用している組織外の外部ユーザーです。"
+
+#: ../../chapter03.rst:108
+msgid "Anonymous User"
+msgstr "匿名ユーザー"
+
+#: ../../chapter03.rst:110
+msgid ""
+"The anonymous users are a type of the guest user that doesn't require "
+"editing permission. They can receive files and folder shares and can view"
+" the file and folder share from within a web browser user interface."
+msgstr "匿名ユーザーは、編集権限を必要としないゲストユーザーの一種です。彼らはファイルやフォルダの共有を受け取ることができ、ウェブブラウザのユーザーインターフェース内でファイルやフォルダの共有を閲覧することができます。"
+
+#: ../../chapter03.rst:114
+msgid "Client Agent Software"
+msgstr "クライアントエージェントソフトウェア"
+
+#: ../../chapter03.rst:116
+msgid "CentreStack contains various client agents which include:"
+msgstr "CentreStackには、以下を含むさまざまなクライアントエージェントが含まれています:"
+
+#: ../../chapter03.rst:118
+msgid "Web Browser Based File Manager"
+msgstr "ウェブブラウザベースのファイルマネージャ"
+
+#: ../../chapter03.rst:119
+msgid "Windows Desktop Client with Mapped Drive"
+msgstr "Windowsデスクトップクライアントとマップされたドライブ"
+
+#: ../../chapter03.rst:120
+msgid "Windows File Server Agent with 2-way synchronization"
+msgstr "Windowsファイルサーバーエージェントと2ウェイ同期"
+
+#: ../../chapter03.rst:121
+msgid "Mac OS X client and"
+msgstr "Mac OS X クライアントと"
+
+#: ../../chapter03.rst:125
+msgid "Mobile Applications:"
+msgstr "モバイルアプリケーション:"
+
+#: ../../chapter03.rst:123
+msgid "iOS"
+msgstr "iOS"
+
+#: ../../chapter03.rst:124
+msgid "Android"
+msgstr "アンドロイド"
+
+#: ../../chapter03.rst:125
+msgid "Windows Phone"
+msgstr "ウィンドウズ フォン"
+
+#: ../../chapter03.rst:127
+msgid ""
+"These client agents provide file access and sharing features from the "
+"native client operating systems."
+msgstr "これらのクライアントエージェントは、ネイティブクライアントのオペレーティングシステムからファイルアクセスおよび共有機能を提供します。"
+
+#: ../../chapter03.rst:130
+msgid ""
+"The discussion of the client agents are outside the scope of this "
+"deployment guide."
+msgstr "クライアントエージェントの議論は、この展開ガイドの範囲外です。"
+

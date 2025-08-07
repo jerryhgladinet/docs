@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:2
+msgid "Getting Started"
+msgstr "入门"
+
+#: ../../index.rst:4
+msgid ""
+"Welcome to the CentreStack Android Client User Guide. This guide "
+"describes the Android client application for CentreStack, the managed "
+"file synchronization, and sharing solution."
+msgstr "欢迎阅读CentreStack Android客户端用户指南。本指南介绍了CentreStack的Android客户端应用程序，这是一个管理文件同步和共享的解决方案。"
+
+#: ../../index.rst:6
+msgid ""
+"Users can access his cloud files using any device of their choice as "
+"CentreStack has clients for Windows, Mac, iPhone, iPad, Android, and "
+"more. User can download from the Google Play Store this a native Android "
+"application. That provides access to files and folders in user's "
+"CentreStack account."
+msgstr "用户可以使用他们选择的任何设备访问其云文件，因为CentreStack拥有Windows、Mac、iPhone、iPad、Android等客户端。用户可以从Google Play商店下载这个原生Android应用程序。该应用程序提供对用户CentreStack账户中的文件和文件夹的访问。"
+
+#: ../../index.rst:8
+msgid ""
+"The white-labeled CentreStack Android app called \"Cloud Android Client\""
+" by Gladinet can be distributed by service providers and enterprises to "
+"their users."
+msgstr "Gladinet 推出的白标 CentreStack Android 应用程序名为“Cloud Android Client”，可以由服务提供商和企业分发给他们的用户。"
+
+#: ../../index.rst:10
+msgid ""
+"User can obtain a fully branded CentreStack Android Client with company "
+"name and product logo from the Partner Portal "
+"https://www.centrestack.com. The look and feel of the app may be "
+"different but the functionality is the same."
+msgstr "用户可以从合作伙伴门户网站https://www.centrestack.com 获取一个完全品牌化的CentreStack Android客户端，包含公司名称和产品logo。应用的外观可能有所不同，但功能是相同的。"
+

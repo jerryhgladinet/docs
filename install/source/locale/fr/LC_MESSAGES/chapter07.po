@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter07.rst:3
+msgid "Setup Worker Node for SSL"
+msgstr "Configurer le nœud de travail pour SSL"
+
+#: ../../chapter07.rst:5
+msgid ""
+"Login to the Web Portal as the Cluster Administrator, go to \"Cluster "
+"Dashboard\", and click on \"Worker Note Count\"."
+msgstr "Connectez-vous au portail Web en tant qu'administrateur de cluster, allez dans \"Tableau de bord du cluster\" et cliquez sur \"Nombre de notes de travail\"."
+
+#: ../../chapter07.rst:9
+msgid "then you can see \"Cluster Worker Nodes\"."
+msgstr "alors vous pouvez voir \"Nœuds de travail du Cluster\"."
+
+#: ../../chapter07.rst:13
+msgid "There is an \"Advanced Setting\" icon on the page."
+msgstr "Il y a une icône « Paramètres avancés » sur la page."
+
+#: ../../chapter07.rst:17
+msgid ""
+"Now, check **\"Always force SSL on Login\"** and **\"Always force SSL for"
+" Native Clients\"** boxes."
+msgstr "Maintenant, cochez les cases **\"Toujours forcer le SSL à la connexion\"** et **\"Toujours forcer le SSL pour les clients natifs\"**."
+
+#: ../../chapter07.rst:21
+msgid ""
+"If you use the self-signed SSL certificate, the web portal is the only "
+"client that allows you to login after some SSL certificate warning. All "
+"other native clients such as Windows, mobile, and Mac clients will reject"
+" the connection."
+msgstr "Si vous utilisez un certificat SSL auto-signé, le portail web est le seul client qui vous permet de vous connecter après certains avertissements de certificat SSL. Tous les autres clients natifs tels que Windows, mobile et Mac rejetteront la connexion."
+
+#: ../../chapter07.rst:23
+msgid "You can also modify the node property for the node."
+msgstr "Vous pouvez également modifier la propriété du nœud pour le nœud."
+
+#: ../../chapter07.rst:27
+msgid ""
+"The Node Name needs to match the hostname of the node. You can get the "
+"hostname of the node by going into Command Prompt(Press Windows+R and "
+"then type in cmd) and typing in hostname."
+msgstr "Le nom du nœud doit correspondre au nom d'hôte du nœud. Vous pouvez obtenir le nom d'hôte du nœud en allant dans l'invite de commande (appuyez sur Windows+R puis tapez cmd) et en tapant hostname."
+
+#: ../../chapter07.rst:31
+msgid ""
+"The External URL should match the external URL for HTTPS. (If you do not "
+"have a SSL certificate installed yet, this can be HTTP for now)."
+msgstr "L'URL externe doit correspondre à l'URL externe pour HTTPS. (Si vous n'avez pas encore installé de certificat SSL, cela peut être HTTP pour le moment)."
+
+#: ../../chapter07.rst:35
+msgid ""
+"The Internal URL will need to match the internal IP address or node's "
+"private DNS name and the HTTP or HTTPS protocol."
+msgstr "L'URL interne devra correspondre à l'adresse IP interne ou au nom DNS privé du nœud ainsi qu'au protocole HTTP ou HTTPS."
+

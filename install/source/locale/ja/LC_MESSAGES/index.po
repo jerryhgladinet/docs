@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Server Installation Guide. This guide describes"
+" the installation tasks for |prodname|, the managed file synchronization "
+"and sharing solution."
+msgstr "ようこそ |prodname| サーバーインストールガイドへ。このガイドでは、管理されたファイル同期および共有ソリューションである |prodname| のインストールタスクについて説明します。"
+
+#: ../../index.rst:10
+msgid ""
+"|prodname| includes the |prodname| server, which runs on the Microsoft "
+"Windows server platform, and client agent applications for Web browsers, "
+"Microsoft Windows, Mac OS X, and for mobile platforms such as the Android"
+" and the Apple iOS operating systems."
+msgstr "|prodname| には、Microsoft Windowsサーバープラットフォーム上で動作する |prodname| サーバーと、Webブラウザ、Microsoft Windows、Mac OS X、AndroidやApple iOSなどのモバイルプラットフォーム用のクライアントエージェントアプリケーションが含まれています。"
+
+#: ../../index.rst:13
+msgid "Overview"
+msgstr "概要"
+
+#: ../../index.rst:15
+msgid ""
+"|prodname| is a managed file sync and share solution that focuses on "
+"local file server cloud-enablement. It differentiates from other file "
+"sync and share solutions (EFSS) by focusing on the security, control, "
+"file server and team collaboration. |prodname| does really well in the "
+"following areas:"
+msgstr "|prodname| は、ローカルファイルサーバーのクラウド化に焦点を当てた管理されたファイル同期および共有ソリューションです。他のファイル同期および共有ソリューション（EFSS）とは、セキュリティ、コントロール、ファイルサーバー、およびチームコラボレーションに焦点を当てることで差別化しています。|prodname| は、以下の領域で非常に優れています:"
+
+#: ../../index.rst:17
+msgid ""
+"maintain security by migrating files and folders while keeping the NTFS "
+"permissions intact."
+msgstr "NTFSのアクセス許可をそのままに、ファイルやフォルダを移行してセキュリティを維持します。"
+
+#: ../../index.rst:18
+msgid ""
+"provide on-demand access that honors read-only and write permission in "
+"real-time."
+msgstr "リアルタイムで読み取り専用と書き込み権限を尊重するオンデマンドアクセスを提供します。"
+
+#: ../../index.rst:19
+msgid ""
+"mirror local network shares on file servers to allow for team "
+"collaboration in the cloud."
+msgstr "ファイルサーバー上のローカルネットワーク共有をミラーリングして、クラウドでのチームコラボレーションを可能にします。"
+
+#: ../../index.rst:20
+msgid "provide virtual drive letter mapping to the files and folders for access."
+msgstr "ファイルやフォルダへのアクセスのための仮想ドライブ文字のマッピングを提供します。"
+
+#: ../../index.rst:21
+msgid ""
+"provide file locking, version control, client encryption, and more "
+"advanced features for managing all virtual drives."
+msgstr "ファイルロック、バージョン管理、クライアント暗号化など、すべての仮想ドライブを管理するためのより高度な機能を提供します。"
+
+#: ../../index.rst:23
+msgid ""
+"|prodname| Server is a software built on top of the Microsoft Web "
+"Platform:"
+msgstr "|prodname| サーバーは、Microsoft Web Platformの上に構築されたソフトウェアです:"
+
+#: ../../index.rst:25
+msgid "Windows Server"
+msgstr "Windowsサーバー"
+
+#: ../../index.rst:26
+msgid "IIS (Internet Information Server)"
+msgstr "IIS (インターネットインフォメーションサーバー)"
+
+#: ../../index.rst:27
+msgid ".NET Framework and ASP.NET"
+msgstr ".NET フレームワークとASP.NET"
+
+#: ../../index.rst:28
+msgid "WCF (Windows Communication Foundation)"
+msgstr "WCF (Windows Communication Foundation)"
+
+#: ../../index.rst:29
+msgid "PostgreSQL, MySQL or SQL Server"
+msgstr "PostgreSQL、MySQL、またはSQL Server"
+
+#: ../../index.rst:31
+msgid ""
+"Since the |prodname| Server is built on top of the Microsoft Web "
+"Platform, it integrates very well with other Microsoft components such as"
+" the NTFS Permission on files and folders, the Active Directory users and"
+" the File Server network shares."
+msgstr "|prodname| サーバーはMicrosoft Webプラットフォーム上に構築されているため、NTFSのファイルやフォルダの権限、Active Directoryユーザー、ファイルサーバーネットワーク共有など、他のMicrosoftコンポーネントと非常によく統合されています。"
+
+#: ../../index.rst:33
+msgid ""
+"It provides file access and sharing functionality through client agents "
+"for PCs, Macs, File Servers, Web Browsers, and Mobile Devices. The client"
+" agent software on Windows and Mac provides real drive mapping and volume"
+" mounting support that contains advanced optimization for WAN(Wide Area "
+"Network) data transfer."
+msgstr "クライアントエージェントは、PC、Mac、ファイルサーバー、Webブラウザ、モバイルデバイスを通じてファイルアクセスと共有機能を提供します。WindowsとMacのクライアントエージェントソフトウェアは、WAN（ワイドエリアネットワーク）データ転送のための高度な最適化を含む、実際のドライブマッピングとボリュームマウントサポートを提供します。"
+
+#: ../../index.rst:35
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy the |prodname| Server:"
+msgstr "サービスは、さまざまなニーズに合わせて柔軟な組み合わせで展開することができます。|prodname| サーバーを展開する主な方法は2つあります:"
+
+#: ../../index.rst:37
+msgid ""
+"Deploy in the same site as the File Servers and Active Directory domain "
+"controllers:"
+msgstr "ファイルサーバーとアクティブディレクトリドメインコントローラーと同じサイトにデプロイします:"
+
+#: ../../index.rst:41
+msgid "See also:"
+msgstr "参照："
+
+#: ../../index.rst:43
+msgid ""
+"`File Server Remote Access <https://www.gladinet.com/hybrid-cloud-with-"
+"file-server.html>`_"
+msgstr "`ファイルサーバーリモートアクセス <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../index.rst:45
+msgid ""
+"Deploy in a site remotely, such as Amazon Web Services EC2, Microsoft "
+"Azure, or in a Data Center where the Managed Service Provider (MSP) hosts"
+" their infrastructure:"
+msgstr "リモートサイトで展開する、例えばAmazon Web Services EC2、Microsoft Azure、またはマネージドサービスプロバイダー（MSP）がインフラをホストしているデータセンター:"
+
+#: ../../index.rst:50
+msgid "System Components"
+msgstr "システムコンポーネント"
+
+#: ../../index.rst:52
+msgid ""
+"There are three different system components (logical components that can "
+"co-exist in the same server) in the |prodname| server. In the smallest "
+"depl oyment unit, the three different components can co-exist in one "
+"single machine (all-in-one deployment)."
+msgstr "三つの異なるシステムコンポーネント（同じサーバー内で共存可能な論理コンポーネント）が |prodname| サーバーにあります。最小のデプロイメント単位では、三つの異なるコンポーネントが一つのマシン内で共存可能です（オールインワンデプロイメント）。"
+
+#: ../../index.rst:57
+msgid "1. Web Server Component - The |prodname| Server"
+msgstr "ウェブサーバーコンポーネント - |prodname| サーバー"
+
+#: ../../index.rst:58
+msgid ""
+"The Web Server component is ASP.NET and WFC code that is hosted by IIS on"
+" a Windows Server. The Web Server component is actually comprised of two "
+"separate \"sub-components\":"
+msgstr "Webサーバーコンポーネントは、Windows Server上のIISによってホストされるASP.NETおよびWFCコードです。Webサーバーコンポーネントは、実際には2つの別々の「サブコンポーネント」で構成されています："
+
+#: ../../index.rst:60
+msgid "Web Node"
+msgstr "ウェブノード"
+
+#: ../../index.rst:61
+msgid "Worker Node"
+msgstr "ワーカーノード"
+
+#: ../../index.rst:63
+msgid ""
+"These sub-components exist for historical purposes and there are still "
+"elements in the Cluster Manager user interface for configuring these sub-"
+"components."
+msgstr "これらのサブコンポーネントは歴史的な目的で存在しており、これらのサブコンポーネントを設定するための要素がクラスターマネージャユーザーインターフェースにまだ存在しています。"
+
+#: ../../index.rst:66
+msgid "2. Database - Configuration Information and System Log"
+msgstr "2. データベース - 設定情報およびシステムログ"
+
+#: ../../index.rst:68
+msgid ""
+"The database contains persistent information for the system. This "
+"persistent information includes static configuration information such as "
+"user name, file storage and active directory connection information. The "
+"database also stores dynamic information such as activity log, file "
+"change log and audit traces."
+msgstr "データベースには、システムの永続的な情報が含まれています。この永続的な情報には、ユーザー名、ファイルストレージ、アクティブディレクトリ接続情報などの静的な設定情報が含まれます。データベースは、アクティビティログ、ファイル変更ログ、および監査トレースなどの動的情報も保存します。"
+
+#: ../../index.rst:70
+msgid ""
+"|prodname| supports the MySQL and Microsoft SQL Server Database "
+"Management Systems (DMBS). The all-in-one deployment will deploy MySQL "
+"Community Edition on the |prodname| server. The all-in-one deployment is "
+"useful for evaluating the software but an external database server is "
+"recommended for Production deployments."
+msgstr "|prodname| は、MySQLおよびMicrosoft SQL Serverデータベース管理システム(DMBS)をサポートしています。オールインワンデプロイメントでは、MySQL Community Editionを |prodname| サーバーにデプロイします。オールインワンデプロイメントはソフトウェアの評価には便利ですが、本番環境のデプロイメントには外部データベースサーバーが推奨されます。"
+
+#: ../../index.rst:73
+msgid "3. Back-end File Storage - Where Files and Folders are Stored"
+msgstr "3. バックエンドファイルストレージ - ファイルとフォルダが保存されている場所"
+
+#: ../../index.rst:75
+msgid ""
+"The back-end file storage component is the persistent storage location "
+"for files and folders. There are two different types of storage services."
+" One is managed by |prodname|, such as the default storage for the "
+"cluster and the default storage for tenants. The other is imported "
+"storage, for example, existing file server network shares that weren't "
+"managed by |prodname| but can be imported to |prodname| for remote and "
+"mobile access."
+msgstr "バックエンドのファイルストレージコンポーネントは、ファイルやフォルダーの永続的な保存場所です。異なるタイプのストレージサービスが二つあります。一つは |prodname| によって管理されるもので、クラスターのデフォルトストレージやテナントのデフォルトストレージなどがあります。もう一つはインポートされたストレージで、例えば、|prodname| によって管理されていなかった既存のファイルサーバーネットワークシェアがありますが、リモートアクセスやモバイルアクセスのために |prodname| にインポートすることができます。"
+

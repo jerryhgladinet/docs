@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Komma igång"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the Hosted-|prodname| Administration Guide. This guide "
+"describes administration tasks for |prodname| (Hosted Version), the "
+"managed file synchronization and sharing solution."
+msgstr "Välkommen till administrationsguiden för Hosted-|prodname|. Denna guide beskriver administrativa uppgifter för |prodname| (Hosted Version), den hanterade lösningen för filsynkronisering och delning."
+
+#: ../../index.rst:12
+msgid ""
+"|prodname| Server can be self-hosted, or already hosted by |websiteurl|. "
+"This guide is for the Hosted-|prodname|."
+msgstr "|prodname| Server kan vara självhostad eller redan hostad av |websiteurl|. Denna guide är för Hosted-|prodname|."
+
+#: ../../index.rst:16
+msgid ""
+"When |prodname| is already hosted, a lot of the |prodname| side of the "
+"setup and administration work are not necessary anymore. Administrators "
+"can focus on their customers and help their customers."
+msgstr "När |prodname| redan är värd, är mycket av installations- och administrationsarbetet på |prodname|-sidan inte längre nödvändigt. Administratörer kan fokusera på sina kunder och hjälpa sina kunder."
+
+#: ../../index.rst:22
+msgid "This admin guide is written for |prodname| version |release|"
+msgstr "Denna administratörsguide är skriven för |prodname| version |release|"
+

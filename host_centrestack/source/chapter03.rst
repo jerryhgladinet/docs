@@ -323,10 +323,11 @@ Role manager can further define what each users in the tenant can do and what th
 
     CREATING A NEW ROLE
 
-Collaboration
-^^^^^^^^^^^^^^^^
 
-Collaboration is centered around storage folders and assigning users to folders with specific permissions.
+
+
+
+
 
 Team Folder
 ==============

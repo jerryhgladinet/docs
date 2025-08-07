@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter10.rst:3
+msgid "Branding"
+msgstr "品牌"
+
+#: ../../chapter10.rst:5
+msgid ""
+"You can brand the web portal, Windows and Mac clients, iOS and Android "
+"Applications."
+msgstr "您可以为网页门户、Windows 和 Mac 客户端、iOS 和 Android 应用程序进行品牌定制。"
+
+#: ../../chapter10.rst:8
+msgid "Self-Service Branding"
+msgstr "自助品牌化"
+
+#: ../../chapter10.rst:10
+msgid ""
+"The self-service branding starts with the \"Cluster Manager\". In order "
+"to start the branding, you will login to the web portal as the Cluster "
+"Administrator."
+msgstr "自助品牌化起始于“集群管理器”。为了开始品牌化，您将以集群管理员的身份登录到Web门户。"
+
+#: ../../chapter10.rst:13
+msgid ""
+"After you login to the web portal, click to the \"Cluster Branding\" "
+"Pages."
+msgstr "登录到网页门户后，点击进入“集群品牌”页面。"
+
+#: ../../chapter10.rst:17
+msgid ""
+"Please reference the \"Branding\" section in the `Admin Guide`__ for the "
+"self-hosted |prodname| server."
+msgstr "请参考 `管理指南`__ 中的“品牌”部分，了解自托管的 |prodname| 服务器。"
+

@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "2 Installation"
+msgstr "2 التثبيت"
+
+#: ../../chapter02.rst:6
+msgid ""
+"You can download and install the File Server Agent software directly from"
+" the Web Portal. Complete the following steps to install the |prodname| "
+"File Server Agent software on your file server."
+msgstr "يمكنك تحميل وتثبيت برنامج وكيل خادم الملفات مباشرة من البوابة الإلكترونية. اتبع الخطوات التالية لتثبيت برنامج وكيل |prodname| خادم الملفات على خادم الملفات الخاص بك."
+
+#: ../../chapter02.rst:11
+msgid "2.1 System Requirement"
+msgstr "2.1 متطلبات النظام"
+
+#: ../../chapter02.rst:13
+msgid "File Server Agent can be installed on the following OS"
+msgstr "يمكن تثبيت وكيل خادم الملفات على أنظمة التشغيل التالية"
+
+#: ../../chapter02.rst:15
+msgid "Server OS"
+msgstr "نظام التشغيل الخادم"
+
+#: ../../chapter02.rst:17
+msgid "Windows 2022"
+msgstr "ويندوز 2022"
+
+#: ../../chapter02.rst:18
+msgid "Windows 2019"
+msgstr "ويندوز 2019"
+
+#: ../../chapter02.rst:19
+msgid "Windows 2016"
+msgstr "ويندوز 2016"
+
+#: ../../chapter02.rst:21
+msgid "Client OS"
+msgstr "نظام التشغيل للعميل"
+
+#: ../../chapter02.rst:23
+msgid "Windows 10"
+msgstr "ويندوز 10"
+
+#: ../../chapter02.rst:24
+msgid "Windows 8.1"
+msgstr "ويندوز 8.1"
+
+#: ../../chapter02.rst:25
+msgid "Windows 8.0"
+msgstr "ويندوز 8.0"
+
+#: ../../chapter02.rst:26
+msgid "Windows 7"
+msgstr "ويندوز 7"
+
+#: ../../chapter02.rst:27
+msgid "Windows Vista"
+msgstr "ويندوز فيستا"
+
+#: ../../chapter02.rst:28
+msgid "Windows XP"
+msgstr "ويندوز إكس بي"
+
+#: ../../chapter02.rst:33
+msgid "2.2 Preparation"
+msgstr "2.2 التحضير"
+
+#: ../../chapter02.rst:35
+msgid ""
+"File Server Agent depends on .NET framework 2.0 or later. If you are "
+"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"need to prepare the .NET environment. This usually can be done from the "
+"Windows Server Manager > Manage Roles and Features and then in the "
+"features section, select .NET Framework 3.5"
+msgstr "يعتمد وكيل خادم الملفات على إطار عمل .NET الإصدار 2.0 أو الأحدث. إذا كنت تقوم بتثبيت وكيل خادم الملفات على Windows Server 2022/2019/2016، فأنت بحاجة إلى تجهيز بيئة .NET. عادةً ما يمكن إنجاز ذلك من خلال Windows Server Manager > Manage Roles and Features ثم في قسم الميزات، اختر .NET Framework 3.5"
+
+#: ../../chapter02.rst:40
+msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
+msgstr "ميزة إطار عمل .NET لويندوز سيرفر 2016"
+
+#: ../../chapter02.rst:43
+msgid ""
+"If you are installing File Server Agent on Windows 8/Windows 10, you can "
+"get .NET framework 2.0 (3.5) installed from \"Program Files\" -> Windows "
+"Components."
+msgstr "إذا كنت تقوم بتثبيت وكيل خادم الملفات على Windows 8/Windows 10، يمكنك الحصول على .NET framework 2.0 (3.5) من خلال \"ملفات البرامج\" -> مكونات Windows."
+
+#: ../../chapter02.rst:48
+msgid "WINDOWS 10 .NET FRAMEWORK 3.5 FEATURE"
+msgstr "ميزة إطار عمل .NET 3.5 في ويندوز 10"
+
+#: ../../chapter02.rst:53
+msgid "2.3 Install"
+msgstr "2.3 تثبيت"
+
+#: ../../chapter02.rst:57
+msgid ""
+"Always install |prodname| File Server Agent as a Tenant Administrator "
+"when you are at the login dialog."
+msgstr "قم دائمًا بتثبيت وكيل خادم الملفات |prodname| كمسؤول للمستأجر عندما تكون في مربع الحوار لتسجيل الدخول."
+
+#: ../../chapter02.rst:59
+msgid ""
+"File Server Agent belongs to a specific Tenant instead of belonging to a "
+"specific user. So it is best to download the File Server Agent as the "
+"Tenant Administrator and set it up to connect to the same Tenant "
+"Administrator's account."
+msgstr "ينتمي عامل خادم الملفات إلى مستأجر معين بدلاً من أن يكون ملكًا لمستخدم معين. لذلك من الأفضل تنزيل عامل خادم الملفات كمسؤول المستأجر وإعداده للاتصال بحساب مسؤول المستأجر نفسه."
+
+#: ../../chapter02.rst:62
+msgid "Step 1 - Download the Installer Package"
+msgstr "الخطوة 1 - تحميل حزمة المثبت"
+
+#: ../../chapter02.rst:64
+msgid ""
+"From the File Server you wish to install the File Server Agent; open a "
+"browser and log in to the Web Portal as the Tenant Administrator. From "
+"the Management Console, click the **(+)** in the \"Remote Active "
+"Directory\" section on the right-hand side."
+msgstr "من خادم الملفات الذي ترغب في تثبيت وكيل خادم الملفات عليه؛ افتح متصفحًا وقم بتسجيل الدخول إلى البوابة الإلكترونية كمسؤول المستأجر. من لوحة التحكم، انقر على الرمز **(+)** في قسم \"الدليل النشط عن بعد\" الموجود في الجانب الأيمن."
+
+#: ../../chapter02.rst:69
+msgid "SERVER AGENT DOWNLOADS ACCESS"
+msgstr "تنزيلات وكيل الخادم الوصول"
+
+#: ../../chapter02.rst:71
+msgid ""
+"In the pop-up window, choose your Download Package from the pull-down "
+"menu and click **Go** to begin the installation."
+msgstr "في النافذة المنبثقة، اختر حزمة التحميل الخاصة بك من القائمة المنسدلة وانقر على **Go** لبدء التثبيت."
+
+#: ../../chapter02.rst:73
+msgid ""
+"A window will open. Click the MSI file at the bottom of the browser to "
+"open the installer."
+msgstr "ستفتح نافذة. انقر على ملف MSI في أسفل المتصفح لفتح المثبت."
+
+#: ../../chapter02.rst:78
+msgid "OPEN THE INSTALLER"
+msgstr "افتح المثبت"
+
+#: ../../chapter02.rst:82
+msgid ""
+"File Server agent software is capable of synchronizing three things "
+"between the local file server and remote cloud storage account."
+msgstr "برنامج وكيل خادم الملفات قادر على مزامنة ثلاثة أشياء بين خادم الملفات المحلي وحساب التخزين السحابي البعيد."
+
+#: ../../chapter02.rst:84
+msgid "synchronize selected files and folders."
+msgstr "مزامنة الملفات والمجلدات المحددة."
+
+#: ../../chapter02.rst:85
+msgid "synchronize selected Active Directory users from local to cloud."
+msgstr "مزامنة المستخدمين المحددين من Active Directory من النظام المحلي إلى السحابة."
+
+#: ../../chapter02.rst:86
+msgid "synchronize NTFS permissions on the local file server to cloud."
+msgstr "مزامنة أذونات NTFS على الخادم المحلي للملفات مع السحابة."
+
+#: ../../chapter02.rst:88
+msgid ""
+"You can start installing file server agent from \"Adding Remote Active "
+"Directory\" or from \"Adding Team Folder via Remote Server Agent\"."
+msgstr "يمكنك البدء في تثبيت وكيل خادم الملفات من \"إضافة دليل نشط عن بُعد\" أو من \"إضافة مجلد فريق عبر وكيل الخادم البعيد\"."
+
+#: ../../chapter02.rst:91
+msgid "Step 2 - Run the Installer Package"
+msgstr "الخطوة 2 - تشغيل حزمة المثبت"
+
+#: ../../chapter02.rst:93
+msgid "Click **\"Run\"** to start the installation."
+msgstr "انقر على **\"تشغيل\"** لبدء التثبيت."
+
+#: ../../chapter02.rst:98
+msgid "RUN THE SERVER AGENT INSTALLER"
+msgstr "تشغيل برنامج تثبيت وكيل الخادم"
+
+#: ../../chapter02.rst:101
+msgid "Step 3 - Welcome Screen"
+msgstr "الخطوة 3 - شاشة الترحيب"
+
+#: ../../chapter02.rst:103 ../../chapter02.rst:111
+msgid "On the Welcome Screen choose **\"Next\"** to continue."
+msgstr "على شاشة الترحيب اختر **\"التالي\"** للمتابعة."
+
+#: ../../chapter02.rst:108
+msgid "WELCOME SCREEN"
+msgstr "شاشة الترحيب"
+
+#: ../../chapter02.rst:114
+msgid "Step 4 - License Agreement"
+msgstr "الخطوة 4 - اتفاقية الترخيص"
+
+#: ../../chapter02.rst:116
+msgid ""
+"Read and accept the license agreement by choosing **\"I Agree\"** and "
+"click the **\"Next\"** button."
+msgstr "اقرأ ووافق على اتفاقية الترخيص من خلال اختيار **\"أوافق\"** ثم انقر على زر **\"التالي\"**."
+
+#: ../../chapter02.rst:121
+msgid "ACCEPT LICENSE AGREEMENT"
+msgstr "قبول اتفاقية الترخيص"
+
+#: ../../chapter02.rst:124
+msgid "Step 5 - Confirm Installation"
+msgstr "الخطوة 5 - تأكيد التثبيت"
+
+#: ../../chapter02.rst:126
+msgid ""
+"Now we will complete the File Server Agent installation. Click "
+"**\"Next\"** to finish."
+msgstr "الآن سنقوم بإكمال تثبيت وكيل خادم الملفات. انقر على **\"التالي\"** للانتهاء."
+
+#: ../../chapter02.rst:131
+msgid "CONFIRM INSTALLATION"
+msgstr "تأكيد التثبيت"
+
+#: ../../chapter02.rst:134
+msgid "Step 6 - Installation is Finishing"
+msgstr "الخطوة 6 - انتهاء التثبيت"
+
+#: ../../chapter02.rst:136
+msgid "It will only take a few minutes to complete the installation."
+msgstr "لن يستغرق الأمر سوى بضع دقائق لإكمال التثبيت."
+
+#: ../../chapter02.rst:141
+msgid "FINAL INSTALLATION PROCESS"
+msgstr "عملية التثبيت النهائية"
+
+#: ../../chapter02.rst:144
+msgid "Step 7 - Installation Complete"
+msgstr "الخطوة 7 - اكتمال التثبيت"
+
+#: ../../chapter02.rst:146
+msgid ""
+"Once the installation is completed, click the **\"Close\"** button to "
+"finish."
+msgstr "بمجرد اكتمال التثبيت، انقر على زر **\"إغلاق\"** للانتهاء."
+
+#: ../../chapter02.rst:151
+msgid "CLOSE INSTALLATION WINDOW"
+msgstr "إغلاق نافذة التثبيت"
+
+#: ../../chapter02.rst:154
+msgid "Step 8 - Restart Your System"
+msgstr "الخطوة 8 - أعد تشغيل النظام"
+
+#: ../../chapter02.rst:156
+msgid "Just restart your system and File Server Agent is ready to use."
+msgstr "ما عليك سوى إعادة تشغيل النظام ووكيل خادم الملفات جاهز للاستخدام."
+
+#: ../../chapter02.rst:161
+msgid "RESTART YOUR SYSTEM"
+msgstr "أعد تشغيل نظامك"
+
+#: ../../chapter02.rst:165
+msgid "Step 9 - Login To |prodname|"
+msgstr "الخطوة 9 - تسجيل الدخول إلى |prodname|"
+
+#: ../../chapter02.rst:167
+msgid ""
+"After the reboot, log back into Windows as the same Windows user. Be "
+"patient, as it will take a few minutes for the Login Panel to display. "
+"Login to |prodname| as using your Tenant Administrator credentials."
+msgstr "بعد إعادة التشغيل، قم بتسجيل الدخول مرة أخرى إلى ويندوز باستخدام نفس مستخدم ويندوز. كن صبورًا، حيث سيستغرق الأمر بضع دقائق حتى يظهر لوحة الدخول. قم بتسجيل الدخول إلى |prodname| باستخدام بيانات اعتماد مسؤول المستأجر."
+
+#: ../../chapter02.rst:170
+msgid ""
+"The File Server Agent can be logged in to the Tenant already if you don't"
+" see the login dialog. You can go to the Web Portal side, login as the "
+"Tenant Administrator and go to the \"Device Manager\" side to see the "
+"File Server Agent."
+msgstr "قد يكون وكيل خادم الملفات قد سُجل دخوله بالفعل إلى المستأجر إذا لم ترَ مربع الحوار لتسجيل الدخول. يمكنك الانتقال إلى جانب البوابة الإلكترونية، وتسجيل الدخول كمسؤول المستأجر والذهاب إلى جانب \"إدارة الأجهزة\" لرؤية وكيل خادم الملفات."
+
+#: ../../chapter02.rst:175
+msgid "LOG IN AS TENANT ADMIN"
+msgstr "تسجيل الدخول كمسؤول المستأجر"
+

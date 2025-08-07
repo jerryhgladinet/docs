@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../settings.rst:2
+msgid "Settings"
+msgstr "设置"
+
+#: ../../settings.rst:4
+msgid ""
+"Here users can make changes for the app settings. If the user have set up"
+" a profile photo via the web portal, can see it through the person icon."
+msgstr "在这里，用户可以更改应用程序设置。如果用户通过网络门户设置了个人资料照片，可以通过人物图标查看。"
+
+#: ../../settings.rst:8
+msgid "Personal Information"
+msgstr "个人信息"
+
+#: ../../settings.rst:10
+msgid "Under **Personal Information** User basic details will be shown."
+msgstr "在 **个人信息** 下将显示用户的基本详情。"
+
+#: ../../settings.rst:15
+msgid "Name"
+msgstr "名称"
+
+#: ../../settings.rst:17
+msgid ""
+"Displays the username, which can be edited by touching the pencil button."
+" After updated, touch in the green icon to save the change."
+msgstr "显示用户名，可以通过触摸铅笔按钮进行编辑。更新后，触摸绿色图标以保存更改。"
+
+#: ../../settings.rst:25
+msgid "Email"
+msgstr "电子邮件"
+
+#: ../../settings.rst:27
+msgid ""
+"Shows the user's email address, which can be edited by touching the "
+"pencil button. Then, touch on the green icon to save the change."
+msgstr "显示用户的电子邮件地址，可以通过触摸铅笔按钮进行编辑。然后，触摸绿色图标以保存更改。"
+
+#: ../../settings.rst:33
+msgid "The login password can also be updated by touching on the key button."
+msgstr "登录密码也可以通过触摸钥匙按钮来更新。"
+
+#: ../../settings.rst:38
+msgid "Quota Used"
+msgstr "已使用配额"
+
+#: ../../settings.rst:40
+msgid "Here users can view the information about his used quota."
+msgstr "在这里，用户可以查看他所使用的配额信息。"
+
+#: ../../settings.rst:45
+msgid "Theme"
+msgstr "主题"
+
+#: ../../settings.rst:47
+msgid ""
+"To change the theme color of the App, choose the preferred one from the "
+"list provided. The default color for Cloud Drive app is **Blue**."
+msgstr "要更改应用程序的主题颜色，请从提供的列表中选择首选项。Cloud Drive应用程序的默认颜色是 **蓝色**。"
+
+#: ../../settings.rst:52
+msgid "Security"
+msgstr "安全性"
+
+#: ../../settings.rst:54
+msgid ""
+"More security can be added to the app. When closing and reopening, a PIN "
+"or Biometrics check can be added to prevent accessing the root files."
+msgstr "可以向应用程序添加更多安全措施。关闭并重新打开时，可以添加PIN码或生物识别检查，以防止访问根文件。"
+
+#: ../../settings.rst:57
+msgid "PIN Code"
+msgstr "PIN码"
+
+#: ../../settings.rst:60
+msgid "Enable PIN Code"
+msgstr "启用PIN码"
+
+#: ../../settings.rst:62
+msgid "Enable PIN Code by touching the corresponding switch:"
+msgstr "通过触摸相应的开关来启用PIN码:"
+
+#: ../../settings.rst:66
+msgid ""
+"Then, a dialog box will appear where can enter PIN Code. A PIN Code is a "
+"4-digit number."
+msgstr "然后，会出现一个对话框，在其中可以输入PIN码。PIN码是一个4位数字。"
+
+#: ../../settings.rst:70
+msgid ""
+"Once confirmed the PIN, will return to the Settings page and see that the"
+" PIN Code is enabled."
+msgstr "一旦确认了PIN码，将返回到设置页面并看到PIN码已启用。"
+
+#: ../../settings.rst:74
+msgid ""
+"When closing and reopening the app, a dialog box will appear asking for "
+"the PIN Code. Users can also close this dialog box and enter the user "
+"password instead."
+msgstr "当关闭并重新打开应用程序时，会出现一个对话框，询问PIN码。用户也可以关闭此对话框，改为输入用户密码。"
+
+#: ../../settings.rst:76
+msgid "After authenticated, can access all files and folders."
+msgstr "认证后，可以访问所有文件和文件夹。"
+
+#: ../../settings.rst:83
+msgid "Reset PIN"
+msgstr "重置 PIN 码"
+
+#: ../../settings.rst:85
+msgid "Reset the PIN is possible by tapping the **Reset PIN** button:"
+msgstr "通过点击 **重置 PIN** 按钮可以重置 PIN："
+
+#: ../../settings.rst:89
+msgid ""
+"To reset PIN, first enter the old PIN and then enter the new PIN twice to"
+" confirm. Once the new PIN is activated, can use the new PIN to access "
+"the app."
+msgstr "要重置PIN码，首先输入旧的PIN码，然后输入新的PIN码两次以确认。一旦新的PIN码激活后，可以使用新的PIN码来访问应用程序。"
+
+#: ../../settings.rst:94
+msgid "Remove PIN"
+msgstr "移除PIN码"
+
+#: ../../settings.rst:96
+msgid ""
+"The PIN Code can be removed by touching the switch or by tapping on "
+"**Reset PIN** and use **Remove PIN**."
+msgstr "通过触摸开关或点击 **重置PIN码** 并使用 **移除PIN码**，可以移除PIN码。"
+
+#: ../../settings.rst:102
+msgid "Enter the PIN Code to remove it:"
+msgstr "输入PIN码以将其移除："
+
+#: ../../settings.rst:106
+msgid "Touch **Use Password** to use the user password to remove the PIN:"
+msgstr "点击 **使用密码** 来用用户密码移除PIN码："
+
+#: ../../settings.rst:111
+msgid "Biometrics Sign in"
+msgstr "生物识别登录"
+
+#: ../../settings.rst:114
+msgid "Enable Biometrics"
+msgstr "启用生物识别技术"
+
+#: ../../settings.rst:116
+msgid "Enable Biometrics by tapping this switch:"
+msgstr "通过点击此开关启用生物识别技术："
+
+#: ../../settings.rst:120
+msgid ""
+"If a yellow warning message is shown, it means the device does not have "
+"any biometrics enrolled. Go to the Settings and set this up."
+msgstr "如果显示黄色警告消息，这意味着该设备尚未注册任何生物识别信息。请前往设置以进行设置。"
+
+#: ../../settings.rst:124
+msgid ""
+"After tapping on the switch, will see a dialog box where can authenticate"
+" the biometrics. The biometrics can be a fingerprint or a face ID."
+msgstr "在点击开关之后，会看到一个对话框，在这里可以进行生物特征认证。生物特征可以是指纹或面部识别。"
+
+#: ../../settings.rst:128
+msgid ""
+"When closing and reopening the app, a dialog box appears asking for "
+"Biometrics Authentication. Can also close this dialog and enter the user "
+"password instead."
+msgstr "当关闭并重新打开应用程序时，会出现一个对话框，要求进行生物特征认证。也可以关闭此对话框并输入用户密码。"
+
+#: ../../settings.rst:130
+msgid "After authentication, user can access the files and folders."
+msgstr "经过身份验证后，用户可以访问文件和文件夹。"
+
+#: ../../settings.rst:137
+msgid "Remove Biometrics"
+msgstr "移除生物特征"
+
+#: ../../settings.rst:139
+msgid "Remove Biometrics by touching the switch:"
+msgstr "通过触摸开关来移除生物特征："
+
+#: ../../settings.rst:143
+msgid "Authenticate to remove biometrics:"
+msgstr "进行身份验证以移除生物特征:"
+
+#: ../../settings.rst:147
+msgid ""
+"Or tap in **Use Password** to use the user password to remove the "
+"biometrics:"
+msgstr "或点击 **使用密码** 以使用用户密码来移除生物特征识别："
+
+#: ../../settings.rst:152
+msgid "Only enable either PIN Code or Biometrics at the same time."
+msgstr "只能同时启用PIN码或生物识别。"
+
+#: ../../settings.rst:155
+msgid "Notification Center"
+msgstr "通知中心"
+
+#: ../../settings.rst:157
+msgid ""
+"In this section, can enable notifications for the app while uploading and"
+" downloading."
+msgstr "在此部分中，可以在上传和下载时为应用程序启用通知。"
+
+#: ../../settings.rst:161
+msgid ""
+"Enable **All Notifications** gives the CentreStack app permission to send"
+" all notifications."
+msgstr "启用 **所有通知** 会授权CentreStack应用发送所有通知。"
+
+#: ../../settings.rst:163
+msgid ""
+"Also enable other notifications by selecting **File Synced Up**, **File "
+"Synced Down**, and **Cache Updated**."
+msgstr "同时通过选择 **文件同步上行**、**文件同步下行** 和 **缓存更新** 来启用其他通知。"
+
+#: ../../settings.rst:166
+msgid "Media Backup"
+msgstr "媒体备份"
+
+#: ../../settings.rst:168
+msgid ""
+"Set up a **Media Backup** folder to synchronize media files from the "
+"local phone storage."
+msgstr "设置一个 **媒体备份** 文件夹来同步本地手机存储中的媒体文件。"
+
+#: ../../settings.rst:171
+msgid "Set up Backup Folder"
+msgstr "设置备份文件夹"
+
+#: ../../settings.rst:173
+msgid ""
+"Touch the pencil button to set a name for the backup folder, and tap the "
+"green check mark button to save."
+msgstr "点击铅笔按钮为备份文件夹设置一个名称，然后点击绿色的勾选按钮进行保存。"
+
+#: ../../settings.rst:179
+msgid ""
+"Tap on the switch to enable **Media Backup**. If permission to media "
+"files are not granted for the app, a dialog will appear asking to allow "
+"the app to access media files."
+msgstr "点击开关以启用 **媒体备份**。如果未授权应用访问媒体文件的权限，将出现一个对话框，请求允许应用访问媒体文件。"
+
+#: ../../settings.rst:183
+msgid ""
+"If the name of an existing folder matches the backup folder name, will "
+"receive a warning to either change to a different backup folder name or "
+"use that folder as the backup folder."
+msgstr "如果现有文件夹的名称与备份文件夹名称相匹配，将收到警告，要么更改为不同的备份文件夹名称，要么使用该文件夹作为备份文件夹。"
+
+#: ../../settings.rst:187
+msgid ""
+"Go back to the root directory and check the media backup folder with an "
+"attached folder icon. The backup media files are located in the folder "
+"under the device type name."
+msgstr "返回根目录并检查带有附加文件夹图标的媒体备份文件夹。备份媒体文件位于设备类型名称下的文件夹中。"
+
+#: ../../settings.rst:194
+msgid "Backup Folder Disconnection"
+msgstr "备份文件夹断开连接"
+
+#: ../../settings.rst:196
+msgid ""
+"To disconnect from the Media Backup folder, just tap on the switch to "
+"close it."
+msgstr "要断开与媒体备份文件夹的连接，只需点击开关即可关闭。"
+
+#: ../../settings.rst:201
+msgid "Wi-Fi Only"
+msgstr "仅限Wi-Fi"
+
+#: ../../settings.rst:203
+msgid ""
+"If this switch is enabled, media files can only be synchronized under Wi-"
+"Fi connection."
+msgstr "如果启用此开关，媒体文件只能在Wi-Fi连接下同步。"
+
+#: ../../settings.rst:208
+msgid "Cache"
+msgstr "缓存"
+
+#: ../../settings.rst:210
+msgid ""
+"The Cache size is calculated from temporary files, icons and previews. "
+"This can be cleared using the button below."
+msgstr "缓存大小是根据临时文件、图标和预览计算的。可以使用下面的按钮清除。"
+
+#: ../../settings.rst:217
+msgid "Favorite Files cannot be removed when the File Cache is cleared."
+msgstr "当文件缓存被清除时，无法移除收藏文件。"
+

@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Deployment Options"
+msgstr "Distributionsalternativ"
+
+#: ../../chapter08.rst:5
+msgid ""
+"As documented above, CentreStack has three logical components, the "
+"database, the worker node and the storage. This section will go through "
+"different deployment options."
+msgstr "Som dokumenterat ovan har CentreStack tre logiska komponenter, databasen, arbetsnoden och lagringen. Detta avsnitt kommer att gå igenom olika distributionsalternativ."
+
+#: ../../chapter08.rst:9
+msgid "All-In-One Deployment"
+msgstr "Allt-i-ett-implementering"
+
+#: ../../chapter08.rst:11
+msgid ""
+"This is the simplest deployment. The database , the worker nodes are all "
+"on the same machine as the storage. When you are serving < 1000 users or "
+"you are doing Proof-of-Concept (POC), this is the ideal deployment "
+"because of its simplicity. You can have the CentreStack installer install"
+" the SQL Express/MySQL on the same machine before installing CentreStack "
+"software and then pointing the database to localhost\\\\SQLEXPRESS or "
+"local MySQL. In the All-In-One deployment, the storage location is "
+"typically set to a folder on local C: drive or local D: drive."
+msgstr "Detta är den enklaste installationen. Databasen och arbetsnoderna finns alla på samma maskin som lagringen. När du betjänar < 1000 användare eller du gör ett Proof-of-Concept (POC), är detta den ideala installationen på grund av dess enkelhet. Du kan låta CentreStack-installationsprogrammet installera SQL Express/MySQL på samma maskin innan du installerar CentreStack-programvaran och sedan peka databasen till localhost\\SQLEXPRESS eller lokal MySQL. I Allt-i-ett-installationen är lagringsplatsen vanligtvis inställd på en mapp på lokal C: enhet eller lokal D: enhet."
+
+#: ../../chapter08.rst:17
+msgid ""
+"The installer can install SQL EXPRESS so it is a one-click installation "
+"for convenience. No need to do a separate SQL EXPRESS installation."
+msgstr "Installationsprogrammet kan installera SQL EXPRESS så det är en installation med ett klick för bekvämlighet. Ingen separat installation av SQL EXPRESS behövs."
+
+#: ../../chapter08.rst:22
+msgid ""
+"If this is the first time you are installing CentreStack, this is the "
+"recommended setup because it is the easiest to setup and only takes 15-30"
+" minutes on a clean machine. The installer will take care of all the "
+"installation without other manual steps."
+msgstr "Om detta är första gången du installerar CentreStack, är detta den rekommenderade installationen eftersom det är enklast att konfigurera och tar bara 15-30 minuter på en ren dator. Installationsprogrammet kommer att sköta hela installationen utan andra manuella steg."
+
+#: ../../chapter08.rst:26
+msgid ""
+"In the latest CentreStack installer, the installer is capable of doing "
+"the all-in-one installation without asking you to setup database "
+"separately."
+msgstr "I den senaste CentreStack-installatören är installatören kapabel att utföra en allt-i-ett-installation utan att be dig att konfigurera databasen separat."
+
+#: ../../chapter08.rst:29
+msgid "Single-Server Deployment"
+msgstr "Installation på en enda server"
+
+#: ../../chapter08.rst:31
+msgid ""
+"This is another simple deployment. It is very similar to the All-In-One "
+"deployment. The only difference is that the file storage is off the "
+"machine instead of on the machine."
+msgstr "Detta är en annan enkel installation. Den är mycket lik Allt-i-ett-installationen. Den enda skillnaden är att filförvaringen är utanför maskinen istället för på maskinen."
+
+#: ../../chapter08.rst:33
+msgid ""
+"The external file storage can be file storage on a UNC path or it can "
+"also be an object storage service."
+msgstr "Den externa fillagringen kan vara fillagring på en UNC-sökväg eller det kan också vara en objektlagringstjänst."
+
+#: ../../chapter08.rst:35
+msgid ""
+"In this deployment, the database and the Worker Node/Web Node are still "
+"deployed on the same machine."
+msgstr "I denna distribution är databasen och Worker Node/Web Node fortfarande distribuerade på samma maskin."
+
+#: ../../chapter08.rst:40
+msgid "Two-Server Deployment"
+msgstr "Två-serverinstallation"
+
+#: ../../chapter08.rst:42
+msgid ""
+"In the two server deployment, the database is installed in its own "
+"server; away from the CentreStack worker node. Usually, this is an "
+"intermediate step leading to the \"Three-Server Deployment\" and a step "
+"towards scaling up the server farm."
+msgstr "I en tvåserverinstallation är databasen installerad på sin egen server; separerad från CentreStacks arbetsnod. Vanligtvis är detta ett mellansteg som leder till \"Tre-Server Installationen\" och ett steg mot att skala upp serverfarmen."
+
+#: ../../chapter08.rst:49
+msgid "Three-Server Deployment for Redundancy"
+msgstr "Tredubbel serverinstallation för redundans"
+
+#: ../../chapter08.rst:51
+msgid ""
+"The 3-machine deployment is another simple deployment. The database node "
+"is installed separately. Two CentreStack worker nodes are installed. The "
+"\"External URL\" field for each node is the same, such as "
+"\"cloud.acme.com\". The load balancer will do a round robin load "
+"balancing to either node. A variation of the deployment is to set "
+"\"External URL\" field differently for the two worker nodes. When "
+"\"External URL\" field is the same as the load balancer URL, everything "
+"is round robin. When \"External URL\" is different, such as "
+"node1.acme.com and node2.acme.com, the users will have affinity to one of"
+" the node. For example, if user1 is assigned to node1.acme.com, he will "
+"continue to use node1.acme.com. In this deployment, the size of the "
+"cluster is supporting 2000 concurrent-users per node. The benefit is that"
+" if one node is down, there is another node for redundancy."
+msgstr "3-maskininstallationen är en annan enkel installation. Databasnoden installeras separat. Två CentreStack-arbetarnoder installeras. Fältet \"Externa URL\" för varje nod är detsamma, till exempel \"cloud.acme.com\". Lastbalanseraren kommer att göra en rund-robin-lastbalansering till antingen nod. En variation av installationen är att ställa in fältet \"Externa URL\" olika för de två arbetarnoderna. När fältet \"Externa URL\" är detsamma som lastbalanserarens URL är allt rund-robin. När \"Externa URL\" är olika, till exempel node1.acme.com och node2.acme.com, kommer användarna att ha affinitet till en av noderna. Till exempel, om användare1 tilldelas node1.acme.com, kommer han att fortsätta använda node1.acme.com. I denna installation stöder storleken på klustret 2000 samtidiga användare per nod. Fördelen är att om en nod är nere finns det en annan nod för redundans."
+
+#: ../../chapter08.rst:65
+msgid "Multiple-Machine Deployment for Scalability"
+msgstr "Flermaskinsdistribution för skalbarhet"
+
+#: ../../chapter08.rst:67
+msgid ""
+"In this deployment, you will have clear separation of database , storage "
+"service, and the worker nodes in a farm of servers."
+msgstr "I denna distribution kommer du att ha en tydlig separation av databas, lagringstjänst och arbetsnoder i en serverfarm."
+
+#: ../../chapter08.rst:70
+msgid ""
+"The database  is not a CentreStack worker node; it is just a server that "
+"runs SQL Server or MySQL."
+msgstr "Databasen är inte en CentreStack-arbetsnod; det är bara en server som kör SQL Server eller MySQL."
+
+#: ../../chapter08.rst:72
+msgid ""
+"The worker nodes are all CentreStack nodes which run the same software. "
+"Most of the time, in the multiple-machine deployment, a hardware load "
+"balancer is used to distribute the load evenly."
+msgstr "Arbetarnoderna är alla CentreStack-noder som kör samma programvara. För det mesta, i distribution med flera maskiner, används en hårdvarubalanserare för att fördela belastningen jämnt."
+
+#: ../../chapter08.rst:77
+msgid ""
+"Inside a worker node, there is further division of work between a 'web "
+"node' and the rest 'worker node'."
+msgstr "Inuti en arbetsnod finns det ytterligare arbetsuppdelning mellan en 'webbnod' och resten 'arbetsnod'."
+
+#: ../../chapter08.rst:79
+msgid ""
+"The web  nodes are used for user login. After login, the user will be re-"
+"directed to the corresponding worker node. (The web  node can be omitted "
+"if you have an existing Load Balancer)."
+msgstr "Webbnoderna används för användarinloggning. Efter inloggning kommer användaren att omdirigeras till motsvarande arbetsnod. (Webbnoden kan utelämnas om du har en befintlig lastbalanserare)."
+
+#: ../../chapter08.rst:82
+msgid ""
+"For the load balancing to work, all the worker nodes have to be on the "
+"same DNS domain and same level of sub domain (for example, they can be "
+"covered by same SSL wildcard certificate, such as \\*.acme.com).  The "
+"load balancing requires at least two worker nodes."
+msgstr "För att lastbalanseringen ska fungera måste alla arbetsnoder vara inom samma DNS-domän och på samma nivå av underdomän (till exempel kan de täckas av samma SSL wildcard-certifikat, såsom \*.acme.com). Lastbalanseringen kräver minst två arbetsnoder."
+
+#: ../../chapter08.rst:85
+msgid ""
+"Install the CentreStack server on the first worker node machine. Reboot "
+"and setup the cluster admin account."
+msgstr "Installera CentreStack-servern på den första arbetsnodens maskin. Starta om och konfigurera klusteradministratörskontot."
+
+#: ../../chapter08.rst:89
+msgid ""
+"We recommend you setup and configure the first node and make sure it runs"
+" smoothly first, before you setup and install the second node."
+msgstr "Vi rekommenderar att du konfigurerar och installerar den första noden och ser till att den fungerar smidigt först, innan du konfigurerar och installerar den andra noden."
+
+#: ../../chapter08.rst:92
+msgid "Install the CentreStack server on all the other work nodes."
+msgstr "Installera CentreStack-servern på alla andra arbetsnoder."
+
+#: ../../chapter08.rst:94
+msgid ""
+"On the database configuration window, use the same database server as the"
+" first installation."
+msgstr "I databaskonfigurationsfönstret, använd samma databasserver som vid den första installationen."
+
+#: ../../chapter08.rst:97
+msgid ""
+"Please DO NOT add web nodes to the Cluster Worker Node list. Most of the "
+"time when you have a multi-worker-node design, you are servicing many "
+"users, and most of the time you have your own load balancer. In the case "
+"when you have your own load balancer, the web node functionality is "
+"merged into worker node. So you can have a zero-web-node configuration."
+msgstr "Vänligen LÄGG INTE till webbnoder till listan över arbetsnoderna i klustret. För det mesta när du har en design med flera arbetsnoder, betjänar du många användare, och för det mesta har du din egen lastbalanserare. I det fall du har din egen lastbalanserare, är webbnodsfunktionaliteten sammanslagen med arbetsnoden. Så du kan ha en konfiguration utan webbnoder."
+
+#: ../../chapter08.rst:102
+msgid "Setup DNS Load balancing for all worker nodes."
+msgstr "Ställ in DNS-lastbalansering för alla arbetsnoder."
+
+#: ../../chapter08.rst:104
+msgid ""
+"Most of the time you set up a firewall or a load balancer and point the "
+"DNS to the load balancer. The load balancer will then forward to the "
+"CentreStack worker node."
+msgstr "För det mesta konfigurerar du en brandvägg eller en lastbalanserare och pekar DNS:en till lastbalanseraren. Lastbalanseraren kommer sedan att vidarebefordra till CentreStack-arbetarnoden."
+
+#: ../../chapter08.rst:109
+msgid ""
+"If you are using hardware load balancer, you can skip web-nodes and have "
+"an all-worker-node cluster."
+msgstr "Om du använder en hårdvarubalanserare kan du hoppa över webbnoder och ha en kluster med enbart arbetsnoder."
+
+#: ../../chapter08.rst:112
+msgid "Typical Deployment in Enterprises"
+msgstr "Typisk distribution i företag"
+
+#: ../../chapter08.rst:114
+msgid ""
+"Here is a typical deployment schema in Visio Diagram for very big "
+"deployments in large enterprises. In this deployment, the management "
+"functionality can be separated to internal management node (A property of"
+" worker node). When management functionality is separated to internal DNS"
+" names, the management web portal is internal only and thus more secure."
+msgstr "Här är ett typiskt distributionschema i Visio-diagram för mycket stora distributioner i stora företag. I denna distribution kan hanteringsfunktionaliteten separeras till en intern hanteringsnod (En egenskap hos arbetsnoden). När hanteringsfunktionaliteten är separerad till interna DNS-namn är hanteringswebbportalen endast intern och därmed säkrare."
+
+#: ../../chapter08.rst:121
+msgid "High Availability Deployment"
+msgstr "Hög tillgänglighet i driftsättning"
+
+#: ../../chapter08.rst:123
+msgid ""
+"For high availability, you can prepare the high availability deployment "
+"in three different layers and make sure it is high availability within "
+"each layer."
+msgstr "För hög tillgänglighet kan du förbereda distributionen av hög tillgänglighet i tre olika lager och se till att det är hög tillgänglighet inom varje lager."
+
+#: ../../chapter08.rst:126
+msgid "Storage"
+msgstr "Lagring"
+
+#: ../../chapter08.rst:128
+msgid ""
+"If you are using Microsoft File Server Share as your storage, you can "
+"prepare it to be replicated, for example using DFS."
+msgstr "Om du använder Microsoft File Server Share som din lagring kan du förbereda den för replikering, till exempel med DFS."
+
+#: ../../chapter08.rst:130
+msgid ""
+"If you are using Amazon S3 or Windows Azure Blob, by default it is "
+"redundant and high availability."
+msgstr "Om du använder Amazon S3 eller Windows Azure Blob är det som standard redundant och hög tillgänglighet."
+
+#: ../../chapter08.rst:132
+msgid "Database"
+msgstr "Databas"
+
+#: ../../chapter08.rst:134
+msgid ""
+"You can use the Microsoft SQL Server Availability Group Clustering or "
+"Availability Group Fail Over to make database high availability."
+msgstr "Du kan använda Microsoft SQL Server Availability Group Clustering eller Availability Group Fail Over för att göra databasen högt tillgänglig."
+
+#: ../../chapter08.rst:137
+msgid "CentreStack Worker Node"
+msgstr "CentreStack-arbetarnod"
+
+#: ../../chapter08.rst:139
+msgid ""
+"You can have multiple centrestack worker nodes in a round robin load "
+"balancing setup to provide high availability."
+msgstr "Du kan ha flera Centrestack-arbetarnoder i en rund-robin lastbalanseringsuppsättning för att tillhandahålla hög tillgänglighet."
+

@@ -1,0 +1,1317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Administration and Configuration"
+msgstr "3 Beheer en Configuratie"
+
+#: ../../chapter03.rst:6
+msgid ""
+"|prodname| File Server Agent runs as a Windows Service in the background."
+" Since it is a background service, it always runs regardless of the users"
+" logging into the server."
+msgstr "|prodname| File Server Agent draait als een Windows-service op de achtergrond. Omdat het een achtergrondservice is, draait het altijd, ongeacht welke gebruikers inloggen op de server."
+
+#: ../../chapter03.rst:8
+msgid ""
+"The administration of the File Server Agent is done via a Windows "
+"application (the Cloud Server Console). Most of the time, the Cloud "
+"Server Console will launch into the web browser based administration "
+"console."
+msgstr "Het beheer van de File Server Agent gebeurt via een Windows-applicatie (de Cloud Server Console). Meestal zal de Cloud Server Console starten in de op een webbrowser gebaseerde beheerconsole."
+
+#: ../../chapter03.rst:10
+msgid ""
+"There are two consoles, one on the Web Portal and the other one runs "
+"natively on a local machine. The one on the Web Portal is for general "
+"administration such as managing settings. The native console is for "
+"advanced troubleshooting such as collecting audit traces."
+msgstr "Er zijn twee consoles, één op het Webportaal en de andere draait native op een lokale machine. Die op het Webportaal is voor algemeen beheer zoals het beheren van instellingen. De native console is voor geavanceerde probleemoplossing zoals het verzamelen van audit sporen."
+
+#: ../../chapter03.rst:12
+msgid ""
+"You need to log into the Windows server's console to use the |prodname| "
+"Server Agent Management Console for administration-related tasks. If you "
+"manage the Windows Server from remote locations, you can use Remote "
+"Desktop, or other remote control tools to access to the Windows server "
+"before you start the |prodname| Server Agent Management Console."
+msgstr "U moet inloggen op de console van de Windows-server om de |prodname| Server Agent Management Console te gebruiken voor administratieve taken. Als u de Windows Server beheert vanaf externe locaties, kunt u Remote Desktop of andere externe besturingstools gebruiken om toegang te krijgen tot de Windows-server voordat u de |prodname| Server Agent Management Console start."
+
+#: ../../chapter03.rst:17
+msgid "3.1 File Server Agent Components"
+msgstr "3.1 Componenten van File Server Agent"
+
+#: ../../chapter03.rst:19
+msgid "There are 3 windows services and 1 windows Application"
+msgstr "Er zijn 3 Windows-services en 1 Windows-applicatie"
+
+#: ../../chapter03.rst:21
+msgid "Cloud Access Service (gladgroupsvc.exe) - This is the main sync service"
+msgstr "Cloud Access Service (gladgroupsvc.exe) - Dit is de belangrijkste synchronisatiedienst"
+
+#: ../../chapter03.rst:23
+msgid ""
+"File Monitor Service (GladFileMonSvc) - This is responsible for Server "
+"Agent auto upgrade"
+msgstr "Bestand Monitor Service (GladFileMonSvc) - Dit is verantwoordelijk voor de automatische upgrade van de Server Agent"
+
+#: ../../chapter03.rst:25
+msgid ""
+"File System Mounter (gladrmountsvc) - This is mount the Cloud File System"
+" for the Gateway mode"
+msgstr "Bestandssysteemkoppelaar (gladrmountsvc) - Dit is het koppelen van het Cloud Bestandssysteem voor de Gateway-modus"
+
+#: ../../chapter03.rst:27
+msgid ""
+"Management Console (GtaskMMC.exe) - This is responsible talking to the "
+"background servicer and provide management feedback"
+msgstr "Beheerconsole (GtaskMMC.exe) - Dit is verantwoordelijk voor het communiceren met de achtergrondservice en het geven van beheerfeedback"
+
+#: ../../chapter03.rst:31
+msgid ""
+"If GtaskMMC.exe is run with /runlocal /server command line parameter, it "
+"will launch into the local native management console. Otherwise the "
+"/server flag alone will launch the web based console."
+msgstr "Als GtaskMMC.exe wordt uitgevoerd met de opdrachtregelparameter /runlocal /server, wordt de lokale native beheerconsole gestart. Anders zal de /server vlag alleen de webgebaseerde console lanceren."
+
+#: ../../chapter03.rst:36
+msgid "GLADINET CLOUD ACCESS (GCA) SERVICE"
+msgstr "GLADINET CLOUD TOEGANG (GCA) SERVICE"
+
+#: ../../chapter03.rst:38
+msgid ""
+"By default the File Server Agent background windows service runs as a "
+"local system account."
+msgstr "Standaard draait de File Server Agent-achtergrondservice als een lokaal systeemaccount."
+
+#: ../../chapter03.rst:43
+msgid "GCA LOCAL SYSTEM ACCOUNT SERVICE"
+msgstr "GCA LOKAAL SYSTEEMACCOUNT SERVICE"
+
+#: ../../chapter03.rst:48
+msgid ""
+"Sometimes the LOCAL SYSTEM account doesn't have permission for the "
+"folders it wants to sync. In this case, the Log-on-as account for the "
+"Cloud Access Service (GladGroupSvc.exe) needs to be changed to a service "
+"account that has full control (read, write, delete, list) permission to "
+"the folder that it wants to sync."
+msgstr "Soms heeft het LOCAL SYSTEM-account geen toestemming voor de mappen die het wil synchroniseren. In dit geval moet het aanmelden-als-account voor de Cloud Access Service (GladGroupSvc.exe) worden gewijzigd in een serviceaccount dat volledige controle (lezen, schrijven, verwijderen, lijsten) toestemming heeft voor de map die het wil synchroniseren."
+
+#: ../../chapter03.rst:50
+msgid ""
+"In an Active Directory environment, this normally can be changed to a "
+"Domain Admin Service Account."
+msgstr "In een Active Directory-omgeving kan dit normaal gesproken worden gewijzigd naar een Domein Admin Service Account."
+
+#: ../../chapter03.rst:55
+msgid "3.2 Cloud Server Console - Web View"
+msgstr "3.2 Cloud Server Console - Webweergave"
+
+#: ../../chapter03.rst:57
+msgid ""
+"|prodname| Cloud Server Console will launch automatically after the "
+"reboot using the Tenant Admin credentials that were used to install the "
+"software."
+msgstr "|prodname| Cloud Server Console wordt automatisch gestart na de herstart met de Tenant Admin-referenties die zijn gebruikt om de software te installeren."
+
+#: ../../chapter03.rst:61
+msgid ""
+"File Server Agent is tied to each Tenant, so the Tenant Admin's "
+"credential shall be used to link the File Server Agent to a specific "
+"Tenant."
+msgstr "File Server Agent is gekoppeld aan elke Tenant, dus de inloggegevens van de Tenant Admin moeten worden gebruikt om de File Server Agent te koppelen aan een specifieke Tenant."
+
+#: ../../chapter03.rst:63
+msgid ""
+"The cluster admin is also the Tenant Admin for the very first Tenant in "
+"the |prodname| system so by default it is a Tenant Admin as well."
+msgstr "De clusterbeheerder is ook de Tenant Admin voor de allereerste Tenant in het |prodname| systeem, dus standaard is het ook een Tenant Admin."
+
+#: ../../chapter03.rst:67
+msgid ""
+"File Server agent is managed at Tenant level (not per-user level, nor "
+"cluster-level either)"
+msgstr "File Server-agent wordt beheerd op Tenant-niveau (niet op gebruikersniveau, noch op clusterniveau)"
+
+#: ../../chapter03.rst:70
+msgid "|prodname| Cloud Server Management Console Login:"
+msgstr "|prodname| Cloud Server Management Console Login:"
+
+#: ../../chapter03.rst:75
+msgid "MANAGEMENT CONSOLE LOGIN"
+msgstr "BEHEERCONSOLE AANMELDEN"
+
+#: ../../chapter03.rst:77
+msgid ""
+"|prodname| Cloud Server Management Console can also be launched from "
+"Windows Start Programs Menu:"
+msgstr "|prodname| Cloud Server Management Console kan ook gestart worden vanuit het Windows Start Programma's Menu:"
+
+#: ../../chapter03.rst:79
+msgid "Launch the Console from the Start Menu."
+msgstr "Start de Console vanuit het Startmenu."
+
+#: ../../chapter03.rst:84
+msgid "LAUNCH THE CONSOLE"
+msgstr "START DE CONSOLE"
+
+#: ../../chapter03.rst:86
+msgid ""
+"After launch, you see several options and tabs at the top of the view, "
+"Device Info is shown below."
+msgstr "Na de lancering ziet u verschillende opties en tabbladen bovenaan de weergave, Apparaatinformatie wordt hieronder getoond."
+
+#: ../../chapter03.rst:91 ../../chapter03.rst:109
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE INFO"
+msgstr "CLIENTBEHEERCONSOLE - APPARAATINFORMATIE"
+
+#: ../../chapter03.rst:93
+msgid "You can click on the left tab in the console to see more management items."
+msgstr "U kunt op het linker tabblad in de console klikken om meer beheeritems te zien."
+
+#: ../../chapter03.rst:98
+msgid "ACCESSING THE CONSOLE MENU"
+msgstr "TOEGANG TOT HET CONSOLEMENU"
+
+#: ../../chapter03.rst:102
+msgid "3.2.1 Device Info"
+msgstr "3.2.1 Apparaatinformatie"
+
+#: ../../chapter03.rst:104
+msgid ""
+"The default web console view is the device information panel. It shows "
+"the basic device information such as device name, device operating "
+"system, device version and etc."
+msgstr "De standaardweergave van de webconsole is het apparaatinformatiepaneel. Het toont de basisinformatie van het apparaat zoals apparaatnaam, besturingssysteem van het apparaat, apparaatversie en dergelijke."
+
+#: ../../chapter03.rst:112
+msgid ""
+"**Monitor Device Connect Status** - The device may get disconnected from "
+"the Internet for whatever reason, including but not limited to Internet "
+"outage, software crash, background service not running and etc. If the "
+"device is not connected to generate a healthy heart beat connection to "
+"the |prodname| server side software, this setting will generate an email "
+"alert if the device is not actively connected to the tenant acacount. "
+"When this alert is received, it needs to be investigated at high priority"
+" because it will lead to synchronization break-down."
+msgstr "**Monitor Apparaat Verbindingsstatus** - Het apparaat kan om welke reden dan ook de verbinding met het internet verliezen, inclusief maar niet beperkt tot internetstoring, softwarecrash, achtergrondservice die niet draait, enzovoort. Als het apparaat niet verbonden is om een gezonde hartslagverbinding met de |prodname| server software te genereren, zal deze instelling een e-mailwaarschuwing genereren als het apparaat niet actief is verbonden met het tenantaccount. Wanneer deze waarschuwing wordt ontvangen, moet dit met hoge prioriteit worden onderzocht omdat het zal leiden tot een onderbreking in de synchronisatie."
+
+#: ../../chapter03.rst:120
+msgid "3.2.2 CIFS Shares"
+msgstr "3.2.2 CIFS Shares"
+
+#: ../../chapter03.rst:122
+msgid ""
+"CIFS (Common Internet File System) shares refers to Windows Network "
+"Shares that are available on the File Server Agent machine. CIFS shares "
+"or SMB (Server Message Block) shares are used interchangably here."
+msgstr "CIFS (Common Internet File System) shares verwijst naar Windows Netwerk Shares die beschikbaar zijn op de File Server Agent machine. CIFS shares of SMB (Server Message Block) shares worden hier door elkaar gebruikt."
+
+#: ../../chapter03.rst:127
+msgid "CIFS SHARES"
+msgstr "CIFS-SHARES"
+
+#: ../../chapter03.rst:129
+msgid ""
+"You can start migrating file server network shares from the current "
+"machine to |prodname|."
+msgstr "U kunt beginnen met het migreren van netwerkshares van de fileserver vanaf de huidige machine naar |prodname|."
+
+#: ../../chapter03.rst:133
+msgid ""
+"Migration means setup two-way synchronization between the local folder "
+"and the remote |prodname| Server. It is a hybrid cloud configuration "
+"started by default. Over time, you may want to stop the local folder and "
+"go cloud only. That is reserved for future if you select to do so. Out of"
+" the box it is setup as a two-way synchronization folder for each CIFS "
+"share selected."
+msgstr "Migratie betekent het instellen van tweerichtingssynchronisatie tussen de lokale map en de externe |prodname| Server. Het is een hybride cloudconfiguratie die standaard wordt gestart. Na verloop van tijd wilt u misschien de lokale map stoppen en alleen voor de cloud kiezen. Dat is voorbehouden voor de toekomst als u ervoor kiest om dit te doen. Standaard is het ingesteld als een tweerichtingssynchronisatiemap voor elke geselecteerde CIFS-share."
+
+#: ../../chapter03.rst:139
+msgid "MIGRATE A SHARE"
+msgstr "MIGREER EEN SHARE"
+
+#: ../../chapter03.rst:143
+msgid ""
+"The net result of migration is that you can access the files and folders "
+"from both the local file server and also the |prodname| side. Files "
+"changes on both side will synchronize to the other side. It is a hybrid "
+"local/cloud mode. Also when migration works on CIFS share (network "
+"share), optionally the local folder's NTFS permission can be replicated "
+"and synchronized to cloud side, while the local Active Directory users "
+"can be synchronized to cloud side."
+msgstr "Het nettoresultaat van de migratie is dat u toegang hebt tot de bestanden en mappen van zowel de lokale bestandsserver als ook de |prodname| kant. Bestandswijzigingen aan beide kanten worden gesynchroniseerd naar de andere kant. Het is een hybride lokale/cloud-modus. Ook wanneer de migratie werkt op een CIFS-share (netwerkshare), kan optioneel de NTFS-permissie van de lokale map worden gerepliceerd en gesynchroniseerd naar de cloudkant, terwijl de lokale Active Directory-gebruikers kunnen worden gesynchroniseerd naar de cloudkant."
+
+#: ../../chapter03.rst:148
+msgid "Migrate"
+msgstr "Migreren"
+
+#: ../../chapter03.rst:150
+msgid ""
+"Clicking on the migrate link button will start the migration process on a"
+" specific network share. Normally when the File Server Agent and the "
+"|prodname| Server are on two completely different locations, the "
+"**\"Direct Access\"** option will not be shown. The **\"Two Way Sync\"** "
+"will be the only option."
+msgstr "Door op de migratielinkknop te klikken, start het migratieproces op een specifieke netwerkshare. Normaal gesproken, wanneer de File Server Agent en de |prodname| Server zich op twee volledig verschillende locaties bevinden, zal de optie **\"Directe Toegang\"** niet worden getoond. De optie **\"Tweerichtingssynchronisatie\"** zal de enige optie zijn."
+
+#: ../../chapter03.rst:155
+msgid "MIGRATION OF DATA AND PERMISSIONS"
+msgstr "MIGRATIE VAN GEGEVENS EN RECHTEN"
+
+#: ../../chapter03.rst:159
+msgid "3.2.3 Attached Folders"
+msgstr "3.2.3 Gekoppelde Mappen"
+
+#: ../../chapter03.rst:162
+msgid "How to Attach a Folder"
+msgstr "Hoe een map te koppelen"
+
+#: ../../chapter03.rst:164
+msgid ""
+"Attached folders, are folders on the local machine and can be "
+"synchronized to |prodname| and kept synchronized in a bi-directional way."
+msgstr "Aangekoppelde mappen zijn mappen op de lokale machine en kunnen gesynchroniseerd worden met |prodname| en blijven op een bidirectionele manier gesynchroniseerd."
+
+#: ../../chapter03.rst:166
+msgid ""
+"The Attached Folder section allows you to browse into the machine's file "
+"structure and pick a folder to synchronize. In the Console drop-down "
+"menu, select **\"Attached Folders\"**."
+msgstr "Het gedeelte 'Gekoppelde Mappen' stelt u in staat om door de bestandsstructuur van de machine te bladeren en een map te selecteren om te synchroniseren. In het console-uitklapmenu selecteert u **\"Gekoppelde Mappen\"**."
+
+#: ../../chapter03.rst:171
+msgid "ATTACHED FOLDERS"
+msgstr "GEKOPPELDE MAPPEN"
+
+#: ../../chapter03.rst:173
+msgid "In the new view click the Attach Folder icon."
+msgstr "In de nieuwe weergave klikt u op het pictogram Map koppelen."
+
+#: ../../chapter03.rst:178
+msgid "ATTACH FOLDER BUTTON"
+msgstr "KNOP VOOR HET KOPPELEN VAN EEN MAP"
+
+#: ../../chapter03.rst:181
+msgid ""
+"In the folder selection view **(1)**, double click the drive **(2)** and "
+"navigate to the folder you wish to share. When you choose a folder, its "
+"path will appear in the Location field **(3)** and you should enter a "
+"name for your share in the Name field **(4)**. Click **\"ATTACH\"** to "
+"complete the process."
+msgstr "In de mapselectieweergave **(1)**, dubbelklik op het station **(2)** en navigeer naar de map die u wilt delen. Wanneer u een map kiest, zal het pad ervan verschijnen in het Locatieveld **(3)** en u dient een naam voor uw share in te voeren in het Naamveld **(4)**. Klik op **\"ATTACH\"** om het proces te voltooien."
+
+#: ../../chapter03.rst:186
+msgid "ATTACHING A FOLDER"
+msgstr "EEN MAP KOPPELEN"
+
+#: ../../chapter03.rst:189
+msgid "Filter Button"
+msgstr "Filterknop"
+
+#: ../../chapter03.rst:191
+msgid ""
+"Using the Filter Button **(1)**, you can set some of your folders to be "
+"excluded from being synchronized. To accomplish this, after you click the"
+" **Filter** button, click the **(+)** button **(2)** and explore to a "
+"folder you wish to exclude. In this example, it is a sub-folder **(3)** "
+"of the **SA Share** folder."
+msgstr "Door de knop **Filter** **(1)** te gebruiken, kunt u sommige van uw mappen instellen om niet gesynchroniseerd te worden. Om dit te doen, klik na het klikken op de knop **Filter**, op de knop **(+)** **(2)** en navigeer naar een map die u wilt uitsluiten. In dit voorbeeld is het een submap **(3)** van de map **SA Share**."
+
+#: ../../chapter03.rst:196
+msgid "FILTER BUTTON"
+msgstr "FILTERKNOP"
+
+#: ../../chapter03.rst:199
+msgid "Diagnostic Button"
+msgstr "Diagnostische knop"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Diagnostic Button **(2)** can be used to **\"Compare\"** the cloud "
+"folder and the local network folder to determine if the y are the same. "
+"This is important to make sure that the local folder has been completely "
+"mirrored to the cloud."
+msgstr "De Diagnostische Knop **(2)** kan gebruikt worden om de cloudmap en de lokale netwerkmap te **\"Vergelijken\"** om te bepalen of ze hetzelfde zijn. Dit is belangrijk om er zeker van te zijn dat de lokale map volledig gespiegeld is naar de cloud."
+
+#: ../../chapter03.rst:206
+msgid "DIAGNOSTIC BUTTON"
+msgstr "DIAGNOSTISCHE KNOP"
+
+#: ../../chapter03.rst:210
+msgid "Stop-Sync Button"
+msgstr "Stop-Synchronisatie Knop"
+
+#: ../../chapter03.rst:212
+msgid ""
+"The Stop-Sync Button can be used to stop the synchronization between the "
+"folder from the Server Agent and the attached folder in the cloud. This "
+"is something you might want to do when all the users are accessing the "
+"folder from the cloud and no longer need local network access to the "
+"original folder. After the stop-sync, the local file changes are local "
+"changes, not related to cloud; and vise-versa, the file changes in the "
+"cloud will not be related to the local files, they are just two separate "
+"independent entities."
+msgstr "De Stop-Sync-knop kan worden gebruikt om de synchronisatie tussen de map van de Server Agent en de gekoppelde map in de cloud te stoppen. Dit is iets wat u misschien wilt doen wanneer alle gebruikers toegang hebben tot de map vanuit de cloud en geen lokale netwerktoegang meer nodig hebben tot de oorspronkelijke map. Na de stop-sync zijn de lokale bestandswijzigingen lokale wijzigingen, niet gerelateerd aan de cloud; en omgekeerd, de bestandswijzigingen in de cloud zullen niet gerelateerd zijn aan de lokale bestanden, het zijn gewoon twee aparte onafhankelijke entiteiten."
+
+#: ../../chapter03.rst:217
+msgid ""
+"Stop-Sync is different from detach a previously attached folder. When a "
+"folder is detached, not only it stop-sync, but also the cloud side folder"
+" will be hidden and subject to retention policy for purge in the near "
+"future. So if your use case is to continue to use the files and folders "
+"from the cloud side and cloud side only, you want to do a stop-sync "
+"instead of doing a detach-folder."
+msgstr "Stop-Sync verschilt van het loskoppelen van een eerder gekoppelde map. Wanneer een map wordt losgekoppeld, wordt niet alleen de synchronisatie gestopt, maar zal ook de map aan de cloudzijde verborgen worden en onderworpen zijn aan het retentiebeleid om op korte termijn verwijderd te worden. Dus als uw gebruikssituatie is om de bestanden en mappen vanaf de cloudzijde en alleen de cloudzijde te blijven gebruiken, wilt u een stop-sync uitvoeren in plaats van een detach-folder."
+
+#: ../../chapter03.rst:227
+msgid "STOP-SYNC BUTTON"
+msgstr "STOP-SYNC KNOP"
+
+#: ../../chapter03.rst:232
+msgid ""
+"What is the difference between Import a CIFS Share and attach a folder to"
+" |prodname|?"
+msgstr "Wat is het verschil tussen het importeren van een CIFS Share en het koppelen van een map aan |prodname|?"
+
+#: ../../chapter03.rst:234
+msgid ""
+"First of all, both maintain bi-directional synchronization. The key "
+"difference is \"Import CIFS Share\" will also import folder permission to"
+" |prodname|, while Attached Folder only synchronize folders without "
+"synchronize permissions."
+msgstr "Allereerst behouden beide bi-directionele synchronisatie. Het belangrijkste verschil is dat \"Import CIFS Share\" ook mapmachtigingen zal importeren naar |prodname|, terwijl Attached Folder alleen mappen synchroniseert zonder machtigingen te synchroniseren."
+
+#: ../../chapter03.rst:236
+msgid "Under the hood, both are **\"Attached Folders\"**."
+msgstr "Onder de motorkap zijn beide **\"Aangesloten Mappen\"**."
+
+#: ../../chapter03.rst:238
+msgid "\"Import CIFS Share\" = \"Attached Folder\" + \"Sync NTFS Permission\""
+msgstr "\"CIFS Share Importeren\" = \"Gekoppelde Map\" + \"NTFS Rechten Synchroniseren\""
+
+#: ../../chapter03.rst:242 ../../chapter03.rst:600
+msgid "Offline Folders"
+msgstr "Offline Mappen"
+
+#: ../../chapter03.rst:244
+msgid ""
+"You can mark folders as offline. Offline folders will be pre-fetched to "
+"the local machine. Files changed remotely in the offline folders will "
+"also be pre-fetched to local machine."
+msgstr "U kunt mappen als offline markeren. Offline mappen worden vooraf opgehaald naar de lokale machine. Bestanden die op afstand zijn gewijzigd in de offline mappen, worden ook vooraf opgehaald naar de lokale machine."
+
+#: ../../chapter03.rst:246
+msgid ""
+"To access this feature, click the **\"Offline Folders\"** icon **(1)**. "
+"Then click he **(+)** icon **(2)** on the right side of the Offline "
+"Folders screen. In the explorer, navigate to the folder you wish to "
+"\"Offline\" and select it **(3)**. Then click **\"ENABLE OFFLINE "
+"ACCESS\"** **(4)** to complete the process."
+msgstr "Om toegang te krijgen tot deze functie, klik op het icoon **\"Offline Mappen\"** **(1)**. Klik vervolgens op het **(+)** icoon **(2)** aan de rechterkant van het scherm Offline Mappen. Navigeer in de verkenner naar de map die je \"Offline\" wilt maken en selecteer deze **(3)**. Klik dan op **\"OFFLINE TOEGANG INSCHAKELEN\"** **(4)** om het proces te voltooien."
+
+#: ../../chapter03.rst:251
+msgid "CHOOSING A FOLDER FOR OFFLINE ACCESS"
+msgstr "EEN MAP KIEZEN VOOR OFFLINE TOEGANG"
+
+#: ../../chapter03.rst:255
+msgid "When to use offline folder?"
+msgstr "Wanneer gebruik je een offline map?"
+
+#: ../../chapter03.rst:257
+msgid ""
+"When you have files and folders that you use frequently, you want to keep"
+" them local to the local file server, you can enable offline folder."
+msgstr "Wanneer u bestanden en mappen heeft die u vaak gebruikt, wilt u ze lokaal houden op de lokale bestandsserver, u kunt de offline map inschakelen."
+
+#: ../../chapter03.rst:260
+#, python-format
+msgid ""
+"Usually you use the offline folder for the gateway mode. When you use "
+"\"Migrate CIFS share\" or when you use \"Attach Folder\", the files and "
+"folders by default are local so there is no need to enable offline folder"
+" for this use case since files are 100% off-line from attached folders."
+msgstr "Meestal gebruikt u de offline map voor de gatewaymodus. Wanneer u \"Migratie van CIFS-share\" gebruikt of wanneer u \"Map koppelen\" gebruikt, zijn de bestanden en mappen standaard lokaal, dus er is geen noodzaak om de offline map voor dit gebruik te activeren aangezien de bestanden 100% offline zijn van de gekoppelde mappen."
+
+#: ../../chapter03.rst:266
+msgid "Local File Lock"
+msgstr "Lokaal Bestandsvergrendeling"
+
+#: ../../chapter03.rst:268
+msgid "Local File Lock section will show locked files from the local file server."
+msgstr "De sectie Lokale Bestandsvergrendeling toont vergrendelde bestanden van de lokale bestandsserver."
+
+#: ../../chapter03.rst:273 ../../chapter03.rst:284
+msgid "LOCKED FILES"
+msgstr "VERGRENDELDE BESTANDEN"
+
+#: ../../chapter03.rst:277
+msgid "Locked Files"
+msgstr "Vergrendelde Bestanden"
+
+#: ../../chapter03.rst:279
+msgid ""
+"Locked files section will show locked files from the |prodname| Server, "
+"and provides information about who owns the file that is locked. "
+"Information shown includes: File Owner, File Path, Locked From, Type and "
+"Locked Time."
+msgstr "De sectie met vergrendelde bestanden toont vergrendelde bestanden van de |prodname| Server en geeft informatie over wie het eigenaar is van het vergrendelde bestand. Getoonde informatie omvat: Bestandseigenaar, Bestandspad, Vergrendeld Van, Type en Vergrendeltijd."
+
+#: ../../chapter03.rst:288
+msgid "Pending Check-ins"
+msgstr "In afwachting van inchecken"
+
+#: ../../chapter03.rst:290
+msgid ""
+"Pending check-ins will show files that are manually checked out from the "
+"local machine but haven't checked-in yet."
+msgstr "In afwachting zijnde check-ins zullen bestanden tonen die handmatig zijn uitgecheckt van de lokale machine maar nog niet zijn ingecheckt."
+
+#: ../../chapter03.rst:295
+msgid "PENDING CHECK-INS"
+msgstr "IN AFWACHTING VAN INCHECKEN"
+
+#: ../../chapter03.rst:299
+msgid "3.2.4 Settings"
+msgstr "3.2.4 Instellingen"
+
+#: ../../chapter03.rst:301
+msgid ""
+"Settings Manager section will show client settings that can be changed "
+"and managed from the web console."
+msgstr "Het gedeelte Instellingenbeheer toont clientinstellingen die gewijzigd en beheerd kunnen worden vanuit de webconsole."
+
+#: ../../chapter03.rst:306
+msgid "SETTINGS MANAGER"
+msgstr "INSTELLINGENBEHEER"
+
+#: ../../chapter03.rst:310
+msgid "3.2.5 Task Manager"
+msgstr "3.2.5 Taakbeheer"
+
+#: ../../chapter03.rst:312
+msgid ""
+"Task Manager section will show the synchronization tasks that are running"
+" on the local machine. If there is a number on **\"Pending Tasks\"** or "
+"**\"Failed Tasks\"** you can click the text links next to those numbers "
+"to open a window that shows the tasks currently in progress. There are "
+"**\"PAUSE\"** and **\"START\"** buttons available on the left side of "
+"each of the task bars as well."
+msgstr "Het gedeelte Taakbeheer toont de synchronisatietaken die op de lokale machine draaien. Als er een nummer staat bij **\"Wachtende Taken\"** of **\"Mislukte Taken\"**, kunt u op de tekstlinks naast die nummers klikken om een venster te openen dat de taken toont die momenteel in uitvoering zijn. Er zijn **\"PAUZEER\"** en **\"START\"** knoppen beschikbaar aan de linkerkant van elke taakbalk."
+
+#: ../../chapter03.rst:317
+msgid "TASK MANAGER"
+msgstr "TAAKBEHEERDER"
+
+#: ../../chapter03.rst:321
+msgid "3.2.6 Migrate CIFS SHARES"
+msgstr "3.2.6 Migratie van CIFS SHARES"
+
+#: ../../chapter03.rst:323
+msgid ""
+"Migrate CIFS Shares can be accessed from the Console menu or the "
+"**\"MIGRATE CIFS SHARES\"** text link. You can pick a network share on "
+"the local server and synchronize it to the cluster server. As explained "
+"above, this is how you migrate a folder and its NTFS permissions at the "
+"same time."
+msgstr "Migreren van CIFS Shares is toegankelijk via het Consolemenu of de **\"MIGREREN CIFS SHARES\"** tekstlink. U kunt een netwerkshare op de lokale server kiezen en deze synchroniseren met de clusterserver. Zoals hierboven uitgelegd, is dit hoe u een map en de bijbehorende NTFS-permissies tegelijkertijd migreert."
+
+#: ../../chapter03.rst:328
+msgid "MIGRATE CIFS SHARES"
+msgstr "MIGREER CIFS SHARES"
+
+#: ../../chapter03.rst:332
+msgid "3.2.7 Migrate Users"
+msgstr "3.2.7 Gebruikers migreren"
+
+#: ../../chapter03.rst:334
+msgid ""
+"Migrate users can import Active Directory users or local users to the "
+"|prodname| side as cloud users, while maintaining the same credentials as"
+" the local user."
+msgstr "Gebruikers kunnen Active Directory-gebruikers of lokale gebruikers migreren naar de |prodname| kant als cloudgebruikers, terwijl ze dezelfde inloggegevens behouden als de lokale gebruiker."
+
+#: ../../chapter03.rst:339
+msgid "MIGRATE USERS"
+msgstr "GEBRUIKERS MIGREREN"
+
+#: ../../chapter03.rst:344
+msgid "3.3 Cloud Server Console - Native"
+msgstr "3.3 Cloud Server Console - Native"
+
+#: ../../chapter03.rst:346
+msgid ""
+"You can launch the native management console from the program's "
+"installation folder. From the Command Prompt use the following command, "
+"``C:\\\\Program Files\\\\Gladinet\\\\Cloud Server Agent>gtaskmmc "
+"/runlocal /server``"
+msgstr "U kunt de native beheerconsole starten vanuit de installatiemap van het programma. Gebruik vanuit de Opdrachtprompt het volgende commando, ``C:\\Program Files\\Gladinet\\Cloud Server Agent>gtaskmmc /runlocal /server``"
+
+#: ../../chapter03.rst:351
+msgid "LAUNCHING THE NATIVE MANAGEMENT CONSOLE"
+msgstr "HET STARTEN VAN DE INHEEMSE BEHEERCONSOLE"
+
+#: ../../chapter03.rst:353
+msgid ""
+"Once you have logged in the Native Console will open. This gives you "
+"local access to Server Agent settings."
+msgstr "Zodra u bent ingelogd, wordt de Native Console geopend. Hiermee heeft u lokale toegang tot de instellingen van de Server Agent."
+
+#: ../../chapter03.rst:358
+msgid "NATIVE MANAGEMENT CONSOLE"
+msgstr "INHEEMSE BEHEERCONSOLE"
+
+#: ../../chapter03.rst:362
+msgid "3.3.1 Task Manager"
+msgstr "3.3.1 Taakbeheer"
+
+#: ../../chapter03.rst:364
+msgid "Task Manager shows all the system related tasks."
+msgstr "Taakbeheer toont alle systeemgerelateerde taken."
+
+#: ../../chapter03.rst:366
+msgid "You can also use the **\"Open My Cloud\"** link to access the Login Panel."
+msgstr "U kunt ook de **\"Open My Cloud\"** link gebruiken om toegang te krijgen tot het Login Paneel."
+
+#: ../../chapter03.rst:368
+msgid ""
+"Each of the Task Manager sections below include a series of tabs that "
+"include the following:"
+msgstr "Elk van de onderstaande secties van de Taakbeheerder bevat een reeks tabbladen met het volgende:"
+
+#: ../../chapter03.rst:370
+msgid "**'Summary'**"
+msgstr "**'Samenvatting'**"
+
+#: ../../chapter03.rst:372
+msgid ""
+"This tab shows a summary of all the **\"System Update Tasks\"**. It shows"
+" the **\"Task Type\"** where the type is the name of the task. It shows "
+"the 'Status' as **\"Pending\"** which means that the **\"System Update "
+"Task\"** is always looking for changes and is always in **\"Pending\"** "
+"state in case there are any updates that needs to occur."
+msgstr "Deze tab toont een overzicht van alle **\"Systeemupdate Taken\"**. Het toont het **\"Taaktype\"** waarbij het type de naam van de taak is. Het toont de 'Status' als **\"In afwachting\"** wat betekent dat de **\"Systeemupdate Taak\"** altijd op zoek is naar wijzigingen en altijd in **\"In afwachting\"** staat voor het geval er updates moeten plaatsvinden."
+
+#: ../../chapter03.rst:374
+msgid "Summary also shows the following:"
+msgstr "Samenvatting toont ook het volgende:"
+
+#: ../../chapter03.rst:376
+msgid "**'Last Run Time'**"
+msgstr "**'Laatste Uitvoeringstijd'**"
+
+#: ../../chapter03.rst:378
+msgid ""
+"This shows the time when the Server Agent software last detected the "
+"changes on the local file system and ran to update the files in the "
+"cloud."
+msgstr "Dit toont het tijdstip waarop de Server Agent software voor het laatst de wijzigingen in het lokale bestandssysteem heeft gedetecteerd en is uitgevoerd om de bestanden in de cloud bij te werken."
+
+#: ../../chapter03.rst:380
+msgid "**'Next Start Time'**"
+msgstr "**'Volgende Starttijd'**"
+
+#: ../../chapter03.rst:382
+msgid ""
+"This shows the time when the **\"Update Task\"** will run next. The "
+"counter increments every 15 seconds. The software will run the update "
+"tasks right away. You can also use the **\"Pause\"** option to stop the "
+"update Administrator can force the updates by clicking on **\"Start "
+"Now\"** option in which case the task from updating local changes to the "
+"cloud. **\"Delete Task\"** option allows to delete any tasks for which "
+"updates are not desired. **\"Refresh\"** will refresh all the counters on"
+" the 'Summary' tab."
+msgstr "Dit toont de tijd waarop de **\"Update Taak\"** volgende keer zal uitvoeren. De teller verhoogt elke 15 seconden. De software zal de update taken meteen uitvoeren. U kunt ook de **\"Pauze\"** optie gebruiken om de update te stoppen. Beheerder kan de updates forceren door te klikken op de **\"Start Nu\"** optie, in welk geval de taak van het bijwerken van lokale wijzigingen naar de cloud gaat. **\"Verwijder Taak\"** optie staat toe om taken te verwijderen waarvoor updates niet gewenst zijn. **\"Vernieuwen\"** zal alle tellers op het 'Samenvatting' tabblad vernieuwen."
+
+#: ../../chapter03.rst:384
+msgid "**'Completed Subtasks'**"
+msgstr "**'Voltooide Subtaken'**"
+
+#: ../../chapter03.rst:386
+msgid "This shows the number of upload subtasks that have been completed."
+msgstr "Dit toont het aantal voltooide uploadsubtaken."
+
+#: ../../chapter03.rst:388
+msgid "**'Running Subtasks'**"
+msgstr "**'Lopende Subtaken'**"
+
+#: ../../chapter03.rst:390
+msgid ""
+"This shows how many subtasks are currently running. (See Tab for more "
+"info)"
+msgstr "Dit toont hoeveel subtaken er momenteel actief zijn. (Zie tabblad voor meer informatie)"
+
+#: ../../chapter03.rst:392
+msgid "**'Pending Subtasks'**"
+msgstr "**'Hangende Subtaken'**"
+
+#: ../../chapter03.rst:394
+msgid ""
+"This shows the subtasks which are in pending state and waiting for their "
+"turn to get uploaded to the cloud. (See Tab for more info)"
+msgstr "Dit toont de subtaken die in afwachting zijn en wachten op hun beurt om naar de cloud geüpload te worden. (Zie tabblad voor meer informatie)"
+
+#: ../../chapter03.rst:396
+msgid "**'Pending Retry Subtasks'**"
+msgstr "**'In afwachting van opnieuw proberen van subtaken'**"
+
+#: ../../chapter03.rst:398
+msgid ""
+"This shows the number of any tasks which are pending retry meaning for "
+"some reason the changes for some files were not uploaded to the cloud and"
+" hence they are in the **\"Pending Retry Subtasks\"** queue and as soon "
+"as their turn comes the changes for files in **\"Pending Retry "
+"Subtasks**\" will also be uploaded to the cloud. (See Tab for more info)"
+msgstr "Dit toont het aantal taken dat wacht op een nieuwe poging, wat betekent dat om een of andere reden de wijzigingen voor sommige bestanden niet naar de cloud zijn geüpload en daarom staan ze in de wachtrij voor **\"Taken in afwachting van nieuwe poging\"** en zodra hun beurt komt, zullen de wijzigingen voor bestanden in **\"Taken in afwachting van nieuwe poging\"** ook naar de cloud geüpload worden. (Zie tabblad voor meer informatie)"
+
+#: ../../chapter03.rst:400
+msgid "**'Trace'**"
+msgstr "**'Traceer'**"
+
+#: ../../chapter03.rst:402
+msgid "This tab provides trace information about tasks. (See Tab for more info)"
+msgstr "Deze tab geeft trace-informatie over taken. (Zie Tab voor meer info)"
+
+#: ../../chapter03.rst:408
+msgid "SYSTEM SYNC TASK - TRACE"
+msgstr "SYSTEEM SYNCHRONISATIETAAK - TRACE"
+
+#: ../../chapter03.rst:410
+msgid ""
+"The **\"Trace\"** tab in the **\"System Sync Task\"** lists all the "
+"uploading, downloading, and monitoring tasks."
+msgstr "Het tabblad **\"Trace\"** in de **\"System Sync Task\"** toont alle upload-, download- en monitor taken."
+
+#: ../../chapter03.rst:413
+msgid "System Related Tasks"
+msgstr "Systeemgerelateerde taken"
+
+#: ../../chapter03.rst:418
+msgid "SYSTEM RELATED TASKS"
+msgstr "SYSTEEMGERELATEERDE TAKEN"
+
+#: ../../chapter03.rst:421
+msgid "System Sync Task"
+msgstr "Systeem Synchronisatie Taak"
+
+#: ../../chapter03.rst:426
+msgid "SYSTEM SYNC TASK"
+msgstr "SYSTEEM SYNCHRONISATIETAAK"
+
+#: ../../chapter03.rst:428
+msgid ""
+"It is the master sync task and its job is to keep an eye on both local "
+"file changes and file changes that are done in the cloud. This is the "
+"task which triggers the **\"System Update Task\"** or the **\"System Sync"
+" Down Task\"**."
+msgstr "Het is de hoofdsynchronisatietaak en het is zijn taak om zowel lokale bestandswijzigingen als bestandswijzigingen die in de cloud worden gedaan in de gaten te houden. Dit is de taak die de **\"Systeem Update Taak\"** of de **\"Systeem Sync Down Taak\"** activeert."
+
+#: ../../chapter03.rst:431
+msgid "System Sync Down Task"
+msgstr "Systeem Synchronisatie Taak"
+
+#: ../../chapter03.rst:436
+msgid "SYSTEM SYNC DOWN TASK"
+msgstr "SYSTEEM SYNCHRONISATIE TAAK"
+
+#: ../../chapter03.rst:438
+msgid ""
+"It performs the exact same tasks as the **\"System Update Task\"** but "
+"its job is to ensure that the changes that are done to the files in the "
+"cloud are automatically synced down to the file server. The **\"System "
+"Update Task\"** and the **\"System Sync Down Task\"** are what provides "
+"the mirroring or two-way sync between the local files on the cloud server"
+" and the files in the cloud."
+msgstr "Het voert exact dezelfde taken uit als de **\"Systeemupdate Taak\"** maar het zorgt ervoor dat de wijzigingen die in de cloud aan de bestanden worden gedaan automatisch gesynchroniseerd worden naar de bestandsserver. De **\"Systeemupdate Taak\"** en de **\"Systeem Sync Down Taak\"** zijn wat de spiegeling of tweewegsynchronisatie tussen de lokale bestanden op de cloudserver en de bestanden in de cloud biedt."
+
+#: ../../chapter03.rst:441
+msgid "System Update Task"
+msgstr "Systeemupdate Taak"
+
+#: ../../chapter03.rst:446
+msgid "SYSTEM UPDATE TASK"
+msgstr "SYSTEEM UPDATE TAAK"
+
+#: ../../chapter03.rst:448
+msgid ""
+"It shows all system related update tasks. Server Agent software checks "
+"the local file system every 15 seconds and when it notices the changes to"
+" the files, the changed files will be added to the upload queue. The real"
+" upload time depends on how big the upload queue is and if there is only "
+"one file with the changes, the changes to the file will be uploaded to "
+"the cloud in 15 seconds."
+msgstr "Het toont alle systeemgerelateerde update taken. Server Agent software controleert elke 15 seconden het lokale bestandssysteem en wanneer het wijzigingen aan de bestanden opmerkt, zullen de gewijzigde bestanden worden toegevoegd aan de uploadwachtrij. De werkelijke uploadtijd is afhankelijk van hoe groot de uploadwachtrij is en als er slechts één bestand met wijzigingen is, zullen de wijzigingen aan het bestand binnen 15 seconden naar de cloud worden geüpload."
+
+#: ../../chapter03.rst:451
+msgid "Edit Account Information"
+msgstr "Accountgegevens bewerken"
+
+#: ../../chapter03.rst:456
+msgid "EDIT ACCOUNT INFORMATION"
+msgstr "BEWERK ACCOUNTINFORMATIE"
+
+#: ../../chapter03.rst:458
+msgid ""
+"This link at the bottom allows you to **Login with different "
+"credentials** to launch the Cloud Server Console and perform management "
+"related tasks."
+msgstr "Deze link onderaan stelt u in staat om **In te loggen met verschillende inloggegevens** om de Cloud Server Console te starten en beheergerelateerde taken uit te voeren."
+
+#: ../../chapter03.rst:462
+msgid "3.3.2 File Server"
+msgstr "3.3.2 Bestandsserver"
+
+#: ../../chapter03.rst:467
+msgid "FILE SERVER"
+msgstr "FILE SERVER"
+
+#: ../../chapter03.rst:469
+msgid ""
+"**\"File Server\"** shows all the data that have been uploaded to the "
+"cloud and the files and folder structure. It lists folder structure which"
+" includes sub-folders as well. The local folders that are attached either"
+" from the file server or a user's machine have the machine name in "
+"parenthesis."
+msgstr "**\"Bestandsserver\"** toont alle gegevens die naar de cloud zijn geüpload en de bestanden- en mappenstructuur. Het geeft een mappenstructuur weer die ook submappen bevat. De lokale mappen die zijn gekoppeld vanaf de bestandsserver of de machine van een gebruiker hebben de machinenaam tussen haakjes."
+
+#: ../../chapter03.rst:471
+msgid ""
+"An Administrator can create a new sub-folder below selected node or can "
+"attach additional local folders using the **\"Attach Local Folder\"** "
+"option under **\"Actions\"**. Attaching a local folder to |prodname| "
+"Cloud using the **\"Attach Local Folder\"** option allows immediate "
+"access to the local content from anywhere using any device. **\"Attached "
+"Local Folder\"** will be synchronized upwards to the cloud first and also"
+" the changes in the cloud will be sync down to the local file server."
+msgstr "Een beheerder kan een nieuwe submap onder de geselecteerde node creëren of extra lokale mappen koppelen met behulp van de optie **\"Lokale Map Koppelen\"** onder **\"Acties\"**. Het koppelen van een lokale map aan |prodname| Cloud met de optie **\"Lokale Map Koppelen\"** biedt onmiddellijke toegang tot de lokale inhoud vanaf elke locatie met elk apparaat. **\"Gekoppelde Lokale Map\"** zal eerst naar de cloud gesynchroniseerd worden en ook de wijzigingen in de cloud zullen naar de lokale bestandsserver gesynchroniseerd worden."
+
+#: ../../chapter03.rst:473
+msgid ""
+"Administrator can also highlight an existing cloud folder and create new "
+"sub-folders underneath that highlighted folder."
+msgstr "De beheerder kan ook een bestaande cloudmap markeren en nieuwe submappen onder die gemarkeerde map maken."
+
+#: ../../chapter03.rst:476
+msgid ""
+"The two-way synchronization feature of the **\"Attach Local Folder\"** "
+"only applies to local folders such as those on the C: drive, D: drive and"
+" local hard drives in general. It won't work for network share. The two-"
+"way synchronization depends on the local file system's event change "
+"notification about files and folders. These changes will be detected and "
+"synchronization will happen based on the changes."
+msgstr "De functie voor tweerichtingssynchronisatie van de **\"Lokale Map Koppelen\"** is alleen van toepassing op lokale mappen zoals die op de C: schijf, D: schijf en lokale harde schijven in het algemeen. Het werkt niet voor netwerkshares. De tweerichtingssynchronisatie is afhankelijk van de notificatie over bestands- en mapwijzigingen van het lokale bestandssysteem. Deze wijzigingen zullen worden gedetecteerd en de synchronisatie zal plaatsvinden op basis van de wijzigingen."
+
+#: ../../chapter03.rst:478
+msgid ""
+"An administrator can also manage the folder using Web Portal by using the"
+" **\"Manage\"** option. This will allow an admin to convert any folders "
+"that have been attached to the cloud or are in the cloud to convert them "
+"into **\"Team Folders\"** for collaboration etc. Highlight the folder and"
+" select **\"Manage\"** under **\"Actions\"**."
+msgstr "Een beheerder kan ook de map beheren via het Webportaal door gebruik te maken van de optie **\"Beheren\"**. Dit stelt een beheerder in staat om mappen die aan de cloud zijn gekoppeld of zich in de cloud bevinden om te zetten in **\"Team Mappen\"** voor samenwerking en dergelijke. Markeer de map en selecteer **\"Beheren\"** onder **\"Acties\"**."
+
+#: ../../chapter03.rst:483
+msgid "FILE SERVER - MANAGE FOLDER IN WEB PORTAL"
+msgstr "FILE SERVER - BEHEER MAP IN WEBPORTAAL"
+
+#: ../../chapter03.rst:485
+msgid ""
+"In the Manage Folder view, you must add collaborators to make this a team"
+" folder. The pop-up lets you choose a source for your users/groups; "
+"either Existing User/Group or AD."
+msgstr "In de beheerweergave van de map moet u medewerkers toevoegen om dit een teammap te maken. Het pop-upvenster laat u een bron kiezen voor uw gebruikers/groepen; ofwel Bestaande Gebruiker/Groep of AD."
+
+#: ../../chapter03.rst:490
+msgid "ADDING COLLABORATION"
+msgstr "SAMENWERKING TOEVOEGEN"
+
+#: ../../chapter03.rst:496
+msgid "ACCESS TEAM FOLDER SETTINGS"
+msgstr "TOEGANG TOT TEAMMAPINSTELLINGEN"
+
+#: ../../chapter03.rst:499
+msgid ""
+"Once you have added your users/groups, click the Disk icon to save your "
+"changes. Click the Settings tab to modify settings for this share."
+msgstr "Nadat u uw gebruikers/groepen heeft toegevoegd, klikt u op het schijfpictogram om uw wijzigingen op te slaan. Klik op het tabblad Instellingen om de instellingen voor deze share te wijzigen."
+
+#: ../../chapter03.rst:501
+msgid ""
+"In the Settings tab view, you can modify the settings for this share "
+"including: Basic Settings, Permissions, Secure Data Room, IP White List "
+"and Quota and Retention Policy. Under the **(+)** Settings sub-menu you "
+"have access to: Disable further sharing, Create CIFS Share and Disable "
+"Offline Access options."
+msgstr "In het tabblad Instellingen kunt u de instellingen voor deze share wijzigen, waaronder: Basisinstellingen, Machtigingen, Veilige Dataruimte, IP-witte lijst en Quota- en Retentiebeleid. Onder het submenu **(+)** Instellingen heeft u toegang tot: Verder delen uitschakelen, CIFS Share maken en Offline toegang uitschakelen opties."
+
+#: ../../chapter03.rst:506
+msgid "TEAM FOLDER SETTINGS"
+msgstr "TEAMMAP INSTELLINGEN"
+
+#: ../../chapter03.rst:508
+msgid ""
+"That diversion shows you how you can create, access and modify folders "
+"and settings from within the Web Portal of |prodname|. Now we return back"
+" to the File Server section of the Server Console in Server Agent. "
+"**\"Enable Background Prefetch\" (1)** makes the contents of the selected"
+" folder available offline."
+msgstr "Die omleiding laat u zien hoe u mappen en instellingen kunt aanmaken, openen en wijzigen vanuit het Webportaal van |prodname|. Nu gaan we terug naar het gedeelte Bestandsserver van de Serverconsole in Server Agent. **\"Achtergrond prefetch inschakelen\" (1)** maakt de inhoud van de geselecteerde map offline beschikbaar."
+
+#: ../../chapter03.rst:513 ../../chapter03.rst:520
+msgid "FOLDER ACTIONS"
+msgstr "MAPACTIES"
+
+#: ../../chapter03.rst:515
+msgid ""
+"**\"Delete\"** does not remove the content of the folder from local "
+"storage; however, it does detach the selected folder and its contents "
+"from the cloud. If you go to the Web Portal and re-create a folder with "
+"exactly the same name (including the machine's name and the parenthesis),"
+" the folder can be shown with a cloud-only context without any local "
+"machine relationship."
+msgstr "**\"Verwijderen\"** verwijdert de inhoud van de map niet uit de lokale opslag; het ontkoppelt echter wel de geselecteerde map en de inhoud ervan van de cloud. Als u naar het Webportaal gaat en een map met precies dezelfde naam opnieuw aanmaakt (inclusief de naam van de machine en de haakjes), kan de map worden weergegeven met een context die alleen in de cloud bestaat, zonder enige lokale machine-relatie."
+
+#: ../../chapter03.rst:523
+msgid ""
+"**\"Attach a Folder to Backup\"** (see above) allows an administrator to "
+"attach and two-way synchronize a local folder to the cloud. The default "
+"view shows all the \"Attached-Folders\" on the local machine that are "
+"attached to the cloud. To add a folder click the browse icon **(...)** "
+"and search for a folder to sync to the cloud."
+msgstr "**\"Een map koppelen om te back-uppen\"** (zie hierboven) stelt een beheerder in staat om een lokale map te koppelen en tweerichtingssynchronisatie met de cloud uit te voeren. De standaardweergave toont alle \"Gekoppelde-Mappen\" op de lokale machine die gekoppeld zijn aan de cloud. Om een map toe te voegen, klik op het bladericoon **(...)** en zoek naar een map om te synchroniseren met de cloud."
+
+#: ../../chapter03.rst:528
+msgid "ATTACH LOCAL FOLDER"
+msgstr "KOPPEL LOKALE MAP"
+
+#: ../../chapter03.rst:530
+msgid ""
+"Once a folder is attached, you can take advantage of one of the Folder "
+"Actions **\"Manage\"** that allows you to quickly open a Web Portal to "
+"edit Sharing and Collaboration settings for the folder."
+msgstr "Zodra een map is gekoppeld, kunt u gebruikmaken van een van de Mapacties **\"Beheren\"** die u in staat stelt om snel een Webportaal te openen om de instellingen voor Delen en Samenwerking voor de map te bewerken."
+
+#: ../../chapter03.rst:535
+msgid "MANAGE FOLDER FROM WEB PORTAL"
+msgstr "BEHEER MAP VANUIT WEBPORTAAL"
+
+#: ../../chapter03.rst:540
+msgid "SELECT SHARING AND COLLABORATION"
+msgstr "SELECTEER DELEN EN SAMENWERKING"
+
+#: ../../chapter03.rst:544
+msgid "3.3.3 Attach/Backup"
+msgstr "3.3.3 Koppelen/Back-uppen"
+
+#: ../../chapter03.rst:546
+msgid ""
+"Clicking the Attach/Backup button shows all of the folders currently "
+"attached."
+msgstr "Door op de knop Attach/Backup te klikken worden alle momenteel gekoppelde mappen weergegeven."
+
+#: ../../chapter03.rst:551
+msgid "ALL FOLDERS WITHIN ADMIN'S ROOT FOLDER"
+msgstr "ALLE MAPPEN BINNEN DE ROOTMAP VAN DE BEHEERDER"
+
+#: ../../chapter03.rst:553
+msgid ""
+"By clicking the double-down-arrow icon on the right of each share you can"
+" see the details of the folder and if the folder is linked to a local "
+"folder you will see **\"Link to local\"**. If it is already linked you "
+"will see **\"Stop Sync\"**. As shown below, you can also **Detach** the "
+"folder in this location."
+msgstr "Door op het dubbele-omlaag-pijl icoon aan de rechterkant van elke share te klikken, kunt u de details van de map zien en als de map gekoppeld is aan een lokale map ziet u **\"Link naar lokaal\"**. Als het al gekoppeld is ziet u **\"Stop Sync\"**. Zoals hieronder getoond, kunt u ook de map **Loskoppelen** op deze locatie."
+
+#: ../../chapter03.rst:558
+msgid "ATTACH/BACKUP SETTINGS"
+msgstr "INSTELLINGEN VOOR BIJLAGE/BACK-UP"
+
+#: ../../chapter03.rst:562
+msgid "Link to Local Folder"
+msgstr "Link naar lokale map"
+
+#: ../../chapter03.rst:564
+msgid ""
+"You can take a folder that is in the cloud and sync it down to a local "
+"folder and then maintain two-way synchronization."
+msgstr "U kunt een map die in de cloud staat synchroniseren naar een lokale map en vervolgens tweerichtingssynchronisatie onderhouden."
+
+#: ../../chapter03.rst:567
+msgid "Stop Sync"
+msgstr "Stop synchronisatie"
+
+#: ../../chapter03.rst:569
+msgid ""
+"You can break the two-way sync between a local folder and a folder in the"
+" cloud. After stop sync, the two sides continue to exist but there is no "
+"relationship between them any longer."
+msgstr "U kunt de tweerichtingssynchronisatie tussen een lokale map en een map in de cloud verbreken. Na het stoppen van de synchronisatie blijven beide kanten bestaan, maar is er geen relatie meer tussen hen."
+
+#: ../../chapter03.rst:572
+msgid "Detach"
+msgstr "Loskoppelen"
+
+#: ../../chapter03.rst:574
+msgid ""
+"Detach is the reverse of Attach. Attach means attach a local folder to "
+"the cloud under version control. Detach means remove it from the version "
+"control. Detach is an operation detaching the cloud side of the folder "
+"from version control. After detach, the local folder (if it is related to"
+" a local folder) is not affected at all. However, the folder in the cloud"
+" will disappear."
+msgstr "Detach is het tegenovergestelde van Attach. Attach betekent een lokale map koppelen aan de cloud onder versiebeheer. Detach betekent het verwijderen uit het versiebeheer. Detach is een operatie waarbij de cloudkant van de map losgekoppeld wordt van versiebeheer. Na detach is de lokale map (als deze gerelateerd is aan een lokale map) helemaal niet beïnvloed. Echter, de map in de cloud zal verdwijnen."
+
+#: ../../chapter03.rst:577
+msgid ""
+"If you want the cloud side of the folder to reappear, you can use \"Show "
+"Deleted\" in the Web Portal to show the deleted folder and bring it back."
+" Or you can create a same name folder from scratch to inherit the folder "
+"back."
+msgstr "Als u wilt dat de cloudkant van de map opnieuw verschijnt, kunt u 'Verwijderde weergeven' gebruiken in het Webportaal om de verwijderde map te tonen en deze terug te halen. Of u kunt een map met dezelfde naam vanaf het begin maken om de map terug te erven."
+
+#: ../../chapter03.rst:581
+msgid "3.3.4 Audit Trace"
+msgstr "3.3.4 Audit Trace"
+
+#: ../../chapter03.rst:583
+msgid ""
+"Audit trace shows the history of all the tasks that have taken place. "
+"Administrators can query the **\"Audit Trace\"** to see the history of "
+"uploads, downloads, changes, and monitoring on the files in the cloud. "
+"You can also filter the tasks you would like to query by using the "
+"**\"Only Show Traces Containing\"** field **(1)**."
+msgstr "Audit trace toont de geschiedenis van alle uitgevoerde taken. Beheerders kunnen de **\"Audit Trace\"** raadplegen om de geschiedenis van uploads, downloads, wijzigingen en monitoring van de bestanden in de cloud te zien. U kunt ook de taken filteren die u wilt opvragen door gebruik te maken van het veld **\"Only Show Traces Containing\"** **(1)**."
+
+#: ../../chapter03.rst:585
+msgid ""
+"As an administrator you can also specify the times that you would like to"
+" run the query for **(2)**. Additionally, you can specify the amount of "
+"traces you would like to query **(3)** where **\"0\"** means unlimited "
+"traces."
+msgstr "Als beheerder kunt u ook de tijden specificeren waarop u de query wilt uitvoeren **(2)**. Daarnaast kunt u het aantal sporen specificeren dat u wilt opvragen **(3)** waarbij **\"0\"** staat voor onbeperkte sporen."
+
+#: ../../chapter03.rst:590
+msgid "AUDIT TRACE QUERY"
+msgstr "AUDIT TRACE QUERY"
+
+#: ../../chapter03.rst:594
+msgid "3.3.5 Settings Manager"
+msgstr "3.3.5 Instellingenbeheer"
+
+#: ../../chapter03.rst:595
+msgid ""
+"Server Agent administrators can customize and configure many settings at "
+"the Server Console level by modifying the contents of the Settings "
+"Manager section."
+msgstr "Server Agent-beheerders kunnen veel instellingen op het niveau van de Server Console aanpassen en configureren door de inhoud van de sectie Instellingenbeheer te wijzigen."
+
+#: ../../chapter03.rst:597
+msgid "From here you can also access the **\"Offline Folders\"** tab."
+msgstr "Vanaf hier kunt u ook toegang krijgen tot het tabblad **\"Offline Mappen\"**."
+
+#: ../../chapter03.rst:602
+msgid ""
+"This section lists all the cloud folders which have been enabled for "
+"**\"Offline Access\"**, meaning users who have access to offline folders "
+"can access and edit the contents of such folders even when they are not "
+"online. All the changes done to files in offline folders will be "
+"automatically synced as soon as the users come back online."
+msgstr "Deze sectie toont alle cloudmappen die zijn ingeschakeld voor **\"Offline Toegang\"**, wat betekent dat gebruikers die toegang hebben tot offline mappen de inhoud van dergelijke mappen kunnen openen en bewerken, zelfs wanneer ze niet online zijn. Alle wijzigingen die in offline mappen aan bestanden worden gedaan, worden automatisch gesynchroniseerd zodra de gebruikers weer online zijn."
+
+#: ../../chapter03.rst:607
+msgid "OFFLINE FOLDERS"
+msgstr "OFFLINE MAPPEN"
+
+#: ../../chapter03.rst:609
+msgid ""
+"**\"Add New Offline Folder\"** You can click this link to configure a "
+"folder as an Offline Folder."
+msgstr "**\"Nieuwe offline map toevoegen\"** U kunt op deze link klikken om een map als offline map te configureren."
+
+#: ../../chapter03.rst:612
+msgid "Settings Tab"
+msgstr "Instellingen Tabblad"
+
+#: ../../chapter03.rst:615
+msgid "Bandwidth Control"
+msgstr "Bandbreedtebeheer"
+
+#: ../../chapter03.rst:617
+msgid ""
+"As an administrator you have full control over how much bandwidth should "
+"be consumed for uploading contents to the cloud and also for downloading "
+"contents from the cloud. You can also control how many consequent uploads"
+" and downloads are allowed at any one time."
+msgstr "Als beheerder heeft u volledige controle over hoeveel bandbreedte gebruikt mag worden voor het uploaden van inhoud naar de cloud en ook voor het downloaden van inhoud uit de cloud. U kunt ook bepalen hoeveel opeenvolgende uploads en downloads tegelijkertijd zijn toegestaan."
+
+#: ../../chapter03.rst:622
+msgid "SETTINGS MANAGER - BANDWIDTH CONTROL"
+msgstr "INSTELLINGENBEHEER - BANDBREEDTEBEHEER"
+
+#: ../../chapter03.rst:624
+msgid ""
+"**\"Download Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. This setting is applied to the local machine (Server Agent). "
+"Usually something > 100KB/s is good. If it is too small, it can "
+"negatively affect performance and usability."
+msgstr "**\"Download Bandbreedtelimiet (KB/s, 0-Onbeperkt)\"** Standaard is **\"0\"**. Deze instelling is van toepassing op de lokale machine (Server Agent). Meestal is iets > 100KB/s goed. Als het te klein is, kan het de prestaties en bruikbaarheid negatief beïnvloeden."
+
+#: ../../chapter03.rst:626
+msgid ""
+"**\"Upload Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is **\"0\"**. "
+"This setting is applied to the local machine (Server Agent). Usually "
+"something > 100KB/s is good."
+msgstr "**\"Upload Bandbreedte Limiet (KB/s, 0-Onbeperkt)\"** Standaard is **\"0\"**. Deze instelling is van toepassing op de lokale machine (Server Agent). Meestal is iets > 100KB/s goed."
+
+#: ../../chapter03.rst:628
+msgid ""
+"**\"Number of Upload/Download Threads\"** Default is **\"5\"**. Set this "
+"from 5-10 in general. In some case, if you set it to a very big number "
+"such as 20, it may negatively affect performance. For example, if you are"
+" using Amazon S3 and Amazon S3 or other Cloud services may have per-"
+"client thread policy so if you have too many concurrent upload/download, "
+"it may get regulated outside of the Server Agent."
+msgstr "**\"Aantal upload-/downloadthreads\"** Standaard is **\"5\"**. Stel dit in het algemeen in op 5-10. In sommige gevallen, als u het op een zeer groot aantal zoals 20 instelt, kan dit de prestaties negatief beïnvloeden. Bijvoorbeeld, als u Amazon S3 gebruikt en Amazon S3 of andere cloudservices kunnen een per-client threadbeleid hebben, dus als u te veel gelijktijdige uploads/downloads heeft, kan het buiten de Server Agent gereguleerd worden."
+
+#: ../../chapter03.rst:631
+msgid "Cache"
+msgstr "Cache"
+
+#: ../../chapter03.rst:636
+msgid "SETTINGS MANAGER - CACHE SETTINGS"
+msgstr "INSTELLINGENBEHEER - CACHE-INSTELLINGEN"
+
+#: ../../chapter03.rst:638
+msgid ""
+"You can change the location of Cache (for files downloaded locally from "
+"cloud). You can also set the cache size."
+msgstr "U kunt de locatie van de cache wijzigen (voor bestanden die lokaal uit de cloud zijn gedownload). U kunt ook de grootte van de cache instellen."
+
+#: ../../chapter03.rst:643
+msgid "Sync Control"
+msgstr "Synchronisatiebeheer"
+
+#: ../../chapter03.rst:648
+msgid "SETTINGS MANAGER - SYNC CONTROL"
+msgstr "INSTELLINGENBEHEER - SYNCHRONISATIECONTROLE"
+
+#: ../../chapter03.rst:650
+msgid ""
+"**\"Throttle Sync\"** Default is **\"False\"**. If you set this flag to "
+"**\"True\"** it will stop and start the sync depending on the available "
+"bandwidth."
+msgstr "**\"Throttle Sync\"** Standaard is **\"False\"**. Als u deze vlag instelt op **\"True\"**, zal de synchronisatie stoppen en starten afhankelijk van de beschikbare bandbreedte."
+
+#: ../../chapter03.rst:652
+msgid ""
+"**\"Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"upload sync."
+msgstr "**\"Synchronisatie Begrensde Upload Bandbreedte (KB/s, 0-Onbeperkt)\"** Standaard is **\"0\"**. Waar **\"0\"** betekent dat onbeperkte bandbreedte beschikbaar is voor uploadsynchronisatie."
+
+#: ../../chapter03.rst:654
+msgid ""
+"**\"Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"download sync."
+msgstr "**\"Sync Throttled Download Bandbreedte (KB/s, 0-Onbeperkt)\"** Standaard is **\"0\"**. Waar **\"0\"** betekent dat onbeperkte bandbreedte beschikbaar is voor download sync."
+
+#: ../../chapter03.rst:656
+msgid ""
+"**\"Full Speed Sync Stop Hour (dafault 7:00)\"** Default is **\"7\"**. "
+"Use this setting to set when full sync stops, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"Volledige Snelheidssynchronisatie Stopuur (standaard 7:00)\"** Standaard is **\"7\"**. Gebruik deze instelling om te bepalen wanneer de volledige synchronisatie stopt, om te voorkomen dat uw systeem vertraagt tijdens kantooruren."
+
+#: ../../chapter03.rst:658
+msgid ""
+"**\"Full Speed Sync Start Hour (dafault 20:00)\"** Default is **\"20\"**."
+"  Use this setting to set when full sync starts, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"Volledige Synchronisatie Startuur (standaard 20:00)\"** Standaard is **\"20\"**. Gebruik deze instelling om te bepalen wanneer de volledige synchronisatie begint, om te voorkomen dat uw systeem tijdens kantooruren vertraagt."
+
+#: ../../chapter03.rst:660
+msgid ""
+"**\"Scan local files and sync up to cloud as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" local file system and make sure that everything which is not synced to "
+"the cloud is truly synced."
+msgstr "**\"Scan lokale bestanden en synchroniseer indien nodig met de cloud\"** Standaard is **\"False\"**. Zet dit op **\"True\"** als u wilt dat de agent het lokale bestandssysteem scant en ervoor zorgt dat alles wat niet met de cloud is gesynchroniseerd daadwerkelijk gesynchroniseerd is."
+
+#: ../../chapter03.rst:662
+msgid ""
+"**\"Scan cloud files and sync up to local as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" cloud and make sure that everything which is not synced to the local "
+"file system is truly synced."
+msgstr "**\"Scan cloud-bestanden en synchroniseer indien nodig naar lokaal\"** Standaard is **\"False\"**. Zet dit op **\"True\"** als u wilt dat de agent de cloud scant en ervoor zorgt dat alles wat niet gesynchroniseerd is met het lokale bestandssysteem daadwerkelijk gesynchroniseerd is."
+
+#: ../../chapter03.rst:664
+msgid ""
+"**\"Optimize Sync Down Notification\"** Default is **\"False\"**. If you "
+"want to see sync down notifications, then set this to **\"True\"**."
+msgstr "**\"Optimaliseer Synchronisatie Download Notificatie\"** Standaard is **\"False\"**. Als u synchronisatie download notificaties wilt zien, zet dit dan op **\"True\"**."
+
+#: ../../chapter03.rst:666
+msgid ""
+"**\"Ignore file dummy change notification\"** Default is **\"False\"**. "
+"If you don't want to see dummy file change notifications, then set this "
+"to **\"True\"**."
+msgstr "**\"Negeer dummy-wijzigingsmeldingen van bestanden\"** Standaard is **\"False\"**. Als u geen dummy-wijzigingsmeldingen van bestanden wilt zien, zet dit dan op **\"True\"**."
+
+#: ../../chapter03.rst:668
+msgid ""
+"**\"Enable sync folder permission in attached folder\"** Default is "
+"**\"False\"**."
+msgstr "**\"Schakel synchronisatiemapmachtiging in bijgevoegde map\"** Standaard is **\"False\"**."
+
+#: ../../chapter03.rst:672
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: ../../chapter03.rst:674
+msgid ""
+"Administrator can locate the cache directory under **\"Advanced\"** "
+"option in settings. Using the **\"Cache Size Limit (MB)\"** field can "
+"specify the size limit for the cache file."
+msgstr "De beheerder kan de cachemap vinden onder de **\"Geavanceerd\"** optie in de instellingen. Met het veld **\"Cache Size Limit (MB)\"** kan de groottebeperking voor het cachebestand worden opgegeven."
+
+#: ../../chapter03.rst:680
+msgid "SETTINGS MANAGER - ADVANCED"
+msgstr "INSTELLINGENBEHEER - GEAVANCEERD"
+
+#: ../../chapter03.rst:682
+msgid ""
+"**\"Do not Mount Drive\"** Default is **\"False\"**. When you set this to"
+" **\"True\"** local drive on the Server Agent is unmounted."
+msgstr "**\"Drive niet koppelen\"** Standaard is **\"False\"**. Wanneer je dit instelt op **\"True\"** wordt de lokale schijf op de Server Agent ontkoppeld."
+
+#: ../../chapter03.rst:684
+msgid "**\"Domain Controller IP or Hostname\"** This setting is empty by default."
+msgstr "**\"IP-adres of hostnaam van domeincontroller\"** Deze instelling is standaard leeg."
+
+#: ../../chapter03.rst:686
+msgid ""
+"**\"Enable In-place Open Zip File\"** Default is **\"False\"**. This "
+"field enables in-place editing on files which are in zipped folders in "
+"the cloud. You can also specify the maximum size for zipped files that "
+"are allowed for In-place editing."
+msgstr "**\"In-place Open Zip-bestand inschakelen\"** Standaard is **\"False\"**. Dit veld maakt in-place bewerken mogelijk op bestanden die zich in gezipte mappen in de cloud bevinden. U kunt ook de maximale grootte voor gezipte bestanden opgeven die zijn toegestaan voor In-place bewerken."
+
+#: ../../chapter03.rst:688
+msgid ""
+"**\"Max Size of Zip File Allowed to Open Inplace\"** This is **\"20\"** "
+"by default. Use this field to set the maximum size of Zip Files that can "
+"be opened inside the Cloud Drive in MB."
+msgstr "**\"Maximale grootte van Zip-bestand toegestaan om Inplace te openen\"** Dit is standaard **\"20\"**. Gebruik dit veld om de maximale grootte van Zip-bestanden die binnen de Cloud Drive kunnen worden geopend in MB in te stellen."
+
+#: ../../chapter03.rst:690
+msgid ""
+"**\"Ignore Settings in Group Policy\"** Default is **\"False\"**. When "
+"you set this flag to **\"True\"**, the configured settings in the Web "
+"Portal will be ignored and the settings configured here under "
+"``Settings`` > ``Advanced`` will take precedence."
+msgstr "**\"Negeer instellingen in Groepsbeleid\"** Standaard is **\"False\"**. Wanneer u deze vlag instelt op **\"True\"**, worden de geconfigureerde instellingen in het Webportaal genegeerd en krijgen de hier geconfigureerde instellingen onder ``Instellingen`` > ``Geavanceerd`` voorrang."
+
+#: ../../chapter03.rst:692
+msgid ""
+"**\"Interval to Keep Group Relationship in Cache (Min)\"** The default is"
+" **\"60\"** minutes. This field is a performance optimization setting. "
+"The Server Agent will check the remote requests against the ACL (Access "
+"Control) set on the local files. Most of the times it involves Active "
+"Directory or NT domain group membership checking. The group membership "
+"checking is a CPU intensive work so the result is cached to improve "
+"performance. This controls how long the result will be cached. If users "
+"are not changing group frequently, you can set the interval to a long "
+"period of time."
+msgstr "**\"Interval om Groepsrelatie in Cache te Houden (Min)\"** De standaard is **\"60\"** minuten. Dit veld is een instelling voor prestatieoptimalisatie. De Server Agent zal de externe verzoeken controleren tegen de ACL (Toegangscontrolelijst) ingesteld op de lokale bestanden. Meestal betreft het controleren van lidmaatschap van Active Directory of NT-domeingroepen. Het controleren van groepslidmaatschap is een CPU-intensief werk dus het resultaat wordt gecachet om de prestaties te verbeteren. Dit bepaalt hoe lang het resultaat gecachet zal worden. Als gebruikers niet vaak van groep veranderen, kunt u het interval op een lange periode instellen."
+
+#: ../../chapter03.rst:694
+msgid ""
+"**\"Purge File Sys DB Upon Start\"** The default is **\"False\"**. If you"
+" change this setting to True, upon startup the client will purge the "
+"cached cloud storage state file. This allows the client to rebuild the "
+"database as if it is being started for the first time."
+msgstr "**\"Verwijder bestandssysteem DB bij opstarten\"** De standaardinstelling is **\"False\"**. Als u deze instelling wijzigt in True, zal de client bij het opstarten de gecachte cloudopslagstatusbestand verwijderen. Dit stelt de client in staat de database opnieuw op te bouwen alsof deze voor de eerste keer wordt gestart."
+
+#: ../../chapter03.rst:696
+msgid ""
+"**\"Upload Hidden Files\"** The default is **\"False\"**. If this flag is"
+" set to **\"True\"** then hidden files will also be uploaded to the "
+"cloud."
+msgstr "**\"Upload verborgen bestanden\"** De standaardwaarde is **\"False\"**. Als deze optie is ingesteld op **\"True\"**, dan zullen ook verborgen bestanden worden geüpload naar de cloud."
+
+#: ../../chapter03.rst:698
+msgid ""
+"**\"Upload System Files\"** The default is **\"False\"**. If this flag "
+"when set to **\"True\"** then system files will also be uploaded to the "
+"cloud."
+msgstr "**\"Upload Systeembestanden\"** De standaard is **\"False\"**. Als deze vlag is ingesteld op **\"True\"**, dan zullen ook systeembestanden naar de cloud worden geüpload."
+
+#: ../../chapter03.rst:701
+msgid "Trace"
+msgstr "Traceer"
+
+#: ../../chapter03.rst:703
+msgid ""
+"The audit trace log can grow exponentially if not kept under control. As "
+"an administrator you can specify the number of days to keep the audit "
+"trace. **\"Days of Audit Trace to Keep\"** setting is the field to "
+"specify the duration to keep the trace for."
+msgstr "Het audit-tracelog kan exponentieel groeien als het niet onder controle wordt gehouden. Als beheerder kunt u het aantal dagen opgeven dat het audit-tracelog bewaard moet blijven. De instelling **\"Aantal dagen om het audit-tracelog te bewaren\"** is het veld om de duur op te geven dat het spoor bewaard moet blijven."
+
+#: ../../chapter03.rst:705
+msgid ""
+"Trace Level when set to **\"0\"** which is the default does not collect "
+"any traces meaning it is disabled."
+msgstr "Trace Level wanneer ingesteld op **\"0\"** wat de standaard is verzamelt geen sporen wat betekent dat het is uitgeschakeld."
+
+#: ../../chapter03.rst:707
+msgid "Trace Level 1 – error will collect all the error traces."
+msgstr "Traceerniveau 1 – error verzamelt alle foutsporen."
+
+#: ../../chapter03.rst:709
+msgid "Trace Level 2 – warning will collect warning traces along with errors."
+msgstr "Traceerniveau 2 – waarschuwing verzamelt waarschuwingssporen samen met fouten."
+
+#: ../../chapter03.rst:711
+msgid ""
+"Trace Level 3 – info will collect errors, warnings, as well as info "
+"traces."
+msgstr "Trace Level 3 – info zal fouten, waarschuwingen, evenals informatie traces verzamelen."
+
+#: ../../chapter03.rst:713
+msgid ""
+"Trace Level 100 – verbose helps developers to collect detailed traces "
+"which helps them when debugging issues."
+msgstr "Trace Level 100 – verbose helpt ontwikkelaars bij het verzamelen van gedetailleerde sporen die hen helpen bij het debuggen van problemen."
+
+#: ../../chapter03.rst:716
+msgid ""
+"When it is necessary to collect DebugView trace for debugging purpose, "
+"the Trace Level typically is set to 101."
+msgstr "Wanneer het noodzakelijk is om DebugView trace te verzamelen voor debugdoeleinden, wordt het Trace Level doorgaans ingesteld op 101."
+
+#: ../../chapter03.rst:721
+msgid "SETTINGS MANAGER - TRACE"
+msgstr "INSTELLINGENBEHEER - TRACE"
+

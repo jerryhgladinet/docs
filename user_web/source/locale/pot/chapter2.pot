@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../chapter2.rst:3
+msgid "Background"
+msgstr ""
+
+#: ../../chapter2.rst:6
+msgid "Architectural Background"
+msgstr ""
+
+#: ../../chapter2.rst:7
+msgid "Before we examine the capabilities of the solution, let's review its architectural background. As illustrated in Figure 1, the |prodname| File Sync and Share platform has three primary components:"
+msgstr ""
+
+#: ../../chapter2.rst:10
+msgid "The Storage Layer and the Internal IT infrastructure such as Active Directory and File Server - to the right"
+msgstr ""
+
+#: ../../chapter2.rst:11
+msgid "The |prodname| Cluster (Server Farm) - at the center"
+msgstr ""
+
+#: ../../chapter2.rst:12
+msgid "The |prodname| access client agents - to the left"
+msgstr ""
+
+#: ../../chapter2.rst:16
+msgid "The web portal belongs to the client tier on the left. Web portal functionality includes"
+msgstr ""
+
+#: ../../chapter2.rst:18
+msgid "administration"
+msgstr ""
+
+#: ../../chapter2.rst:19
+msgid "files and folders management"
+msgstr ""
+
+#: ../../chapter2.rst:20
+msgid "download other client agent software"
+msgstr ""
+
+#: ../../chapter2.rst:21
+msgid "files and folders sharing"
+msgstr ""
+
+#: ../../chapter2.rst:24
+msgid "Two Deployment Scenarios"
+msgstr ""
+
+#: ../../chapter2.rst:25
+msgid "The services can be deployed in flexible combinations to meet different needs. There are two primary ways to deploy |prodname|."
+msgstr ""
+
+#: ../../chapter2.rst:27
+msgid "Deploy in the same site as the File Servers and Active Directory domain controllers:"
+msgstr ""
+
+#: ../../chapter2.rst:31
+msgid "Deploy in a site remote, such as Amazon Web Services EC2, Microsoft Azure, or in a Data Center where the Managed Service Provider (MSP) hosts their infrastructure:"
+msgstr ""
+
+#: ../../chapter2.rst:36
+msgid "Existing Infrastructure"
+msgstr ""
+
+#: ../../chapter2.rst:39
+msgid "Active Directory"
+msgstr ""
+
+#: ../../chapter2.rst:40
+msgid "|prodname| can connect to existing IT infrastructure such as current file servers and existing Active Directory."
+msgstr ""
+
+#: ../../chapter2.rst:44
+msgid "Data Storage"
+msgstr ""
+
+#: ../../chapter2.rst:45
+msgid "|prodname| Storage can actually be powered by any storage service, including:"
+msgstr ""
+
+#: ../../chapter2.rst:47
+msgid "Local File Server Network Share"
+msgstr ""
+
+#: ../../chapter2.rst:49
+msgid "CIFS/SMB Network Share"
+msgstr ""
+
+#: ../../chapter2.rst:50
+msgid "DFS (Microsoft Distributed File System)"
+msgstr ""
+
+#: ../../chapter2.rst:52
+msgid "Cloud Storage Services"
+msgstr ""
+
+#: ../../chapter2.rst:54
+msgid "Amazon S3 (or any S3 compatible service)"
+msgstr ""
+
+#: ../../chapter2.rst:55
+msgid "OpenStack Swift"
+msgstr ""
+
+#: ../../chapter2.rst:56
+msgid "Windows Azure Blob Storage"
+msgstr ""
+
+#: ../../chapter2.rst:57
+msgid "Windows Azure File Storage"
+msgstr ""
+
+#: ../../chapter2.rst:58
+msgid "Google Cloud Storage"
+msgstr ""
+
+#: ../../chapter2.rst:59
+msgid "Rackspace CloudFiles"
+msgstr ""
+
+#: ../../chapter2.rst:61
+msgid "When a new |prodname| account (Tenant Account) is created, any of these services can be selected to power the tenant's root storage folder. And, regardless of which provider you select here, additional services can be mounted below the root of the tenants' storage tree where they will appear as a sub-folder in the root folder."
+msgstr ""
+
+#: ../../chapter2.rst:65
+msgid "|prodname| Server Farm (Cluster)"
+msgstr ""
+
+#: ../../chapter2.rst:67
+msgid "The |prodname| Cluster (One or more |prodname| servers) provides the access infrastructure and management services and acts as a liaison between the user-facing access clients and the backend storage services. It consists of a group of web services which include:"
+msgstr ""
+
+#: ../../chapter2.rst:69
+msgid "Account Management"
+msgstr ""
+
+#: ../../chapter2.rst:70
+msgid "Login and User Load Balancing"
+msgstr ""
+
+#: ../../chapter2.rst:71
+msgid "Web Portal UI"
+msgstr ""
+
+#: ../../chapter2.rst:72
+msgid "Generic Storage Services (powered by backend provider)"
+msgstr ""
+
+#: ../../chapter2.rst:73
+msgid "Data Persistence"
+msgstr ""
+
+#: ../../chapter2.rst:74
+msgid "Local Storage/Device Relay"
+msgstr ""
+
+#: ../../chapter2.rst:76
+msgid "These services can be deployed in flexible combinations to meet different needs."
+msgstr ""
+
+#: ../../chapter2.rst:78
+msgid "|prodname| has an all-in-one installer, so it can easily be self-hosted by you or you can use the one hosted already in the cloud."
+msgstr ""
+
+#: ../../chapter2.rst:83
+msgid "|prodname| Client Agent Software"
+msgstr ""
+
+#: ../../chapter2.rst:85
+msgid "The |prodname| Clients enable the use of |prodname| services. Supported clients include:"
+msgstr ""
+
+#: ../../chapter2.rst:87
+msgid "Desktop Client for Windows"
+msgstr ""
+
+#: ../../chapter2.rst:88
+msgid "Desktop Client for Mac"
+msgstr ""
+
+#: ../../chapter2.rst:89
+msgid "Server Agent for Windows Server (background sync)"
+msgstr ""
+
+#: ../../chapter2.rst:90
+msgid "iOS client for iPhone and iPad"
+msgstr ""
+
+#: ../../chapter2.rst:91
+msgid "Android Client"
+msgstr ""
+
+#: ../../chapter2.rst:92
+msgid "Windows Phone Client"
+msgstr ""
+
+#: ../../chapter2.rst:93
+msgid "Windows Tablet Client"
+msgstr ""
+
+#: ../../chapter2.rst:94
+msgid "Web Client (Internet Explorer, Chrome, Safari, Firefox, Opera and etc)"
+msgstr ""
+
+#: ../../chapter2.rst:96
+msgid "These clients allow native use of cloud storage on the corresponding device through a mapped drive, file share or whatever mechanism is commonly used to access files. This makes it easy for a user to access all their files with any device or share them with users of any device."
+msgstr ""
+
+#: ../../chapter2.rst:98
+msgid "Each client tries to keep things familiar for the end user. For example, the server client integrates cloud storage with file shares so that shared cloud folders can be easily published as file shares with access controls that can be based on existing Active Directory identities and the desktop client maintains a mapped drive view of the cloud storage which operates like any other drive on the desktop."
+msgstr ""

@@ -49,7 +49,45 @@ source_suffix = '.rst'
 master_doc = 'contents'
 
 # General information about the project.
+#en
 project = 'CentreStack iOS User Guide'
+
+#ar
+#project = 'دليل مستخدم CentreStack iOS'
+
+#da
+#project = 'CentreStack iOS brugervejledning'
+
+#de
+#project = 'CentreStack iOS-Benutzerhandbuch'
+
+#es
+#project = 'Guía del usuario de CentreStack para iOS'
+
+#fi
+#project = 'CentreStack iOS -käyttöopas'
+
+#fr
+#project = 'Guide de l\'utilisateur de CentreStack iOS'
+
+#it
+#project = 'Guida utente di CentreStack iOS'
+
+#ja
+#project = 'CentreStack iOS ユーザーガイド'
+
+#nl
+#project = 'CentreStack iOS-gebruikershandleiding'
+
+#pt
+#project = 'Guia do utilizador do CentreStack iOS'
+
+#sv
+#project = 'CentreStack iOS användarhandbok'
+
+#zh
+#project = 'CentreStack iOS 用户指南'
+
 copyright = '2025 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'
 
@@ -68,6 +106,12 @@ release = '2025.3.29'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
+locale_dirs = ['locale/']        # path is example but recommended.
+gettext_compact = False     # optional.
+html_context = {
+  'current_language': 'en',
+  'languages': [["English","en"], ["Français","fr"], ["Deutsche","de"], ["Español","es"], ["Italiano","it"], ["Português","pt"], ["Nederlands","nl"], ["中文", "zh"], ["日本語","ja"], ["Svenska","sv"], ["Suomi","fi"], ["Dansk","da"], ["عربي","ar"]]
+}
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:

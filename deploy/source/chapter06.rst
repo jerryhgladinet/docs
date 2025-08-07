@@ -2,7 +2,7 @@
 --------------------------
 
 In the CentreStack system, for each tenant, there is one mandatory primary storage and there can be multiple,
-optional auxiliary storage services. The primary storage is the tenant’s default root storage folder.
+optional auxiliary storage services. The primary storage is the tenant's default root storage folder.
 
 If you setup the CentreStack in Amazon EC2 environment, the primary storage usually is an Amazon S3 bucket.
 

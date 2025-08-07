@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter01.rst:3
+msgid "Administration Scope"
+msgstr "Administrationsomfång"
+
+#: ../../chapter01.rst:7
+msgid "Management"
+msgstr "Hantering"
+
+#: ../../chapter01.rst:9
+msgid ""
+"In |prodname|, objects that can be managed are defined in the following "
+"picture. You can manage objects at different levels from one single "
+"management portal."
+msgstr "I |prodname| definieras hanterbara objekt i följande bild. Du kan hantera objekt på olika nivåer från en enda hanteringsportal."
+
+#: ../../chapter01.rst:16
+msgid "Partner Portal"
+msgstr "Partnerportal"
+
+#: ../../chapter01.rst:18
+msgid ""
+"The Partner Portal is used primarily for managing licenses and licenses "
+"distribution amongst all of your |prodname| Servers."
+msgstr "Partnerportalen används främst för att hantera licenser och licensdistribution bland alla dina |prodname| Servrar."
+
+#: ../../chapter01.rst:20
+msgid ""
+"You can login the partner portal through here: "
+"https://partner.centrestack.com/login/. From the Partner Portal you can "
+"download the |prodname| software as well as manage the licensing of your "
+"Servers."
+msgstr "Du kan logga in på partnerportalen här: https://partner.centrestack.com/login/. Från Partner Portalen kan du ladda ner |prodname|-mjukvaran samt hantera licensieringen av dina servrar."
+
+#: ../../chapter01.rst:24
+msgid ""
+"Commonly, you will download the |prodname| software, set it up and "
+"leverage the built-in 30 day trial time to finish the setup. Towards the "
+"end of the trial, you assign licenses from the partner portal to your "
+"Server and activate it into a production environment."
+msgstr "Vanligtvis laddar du ner |prodname|-mjukvaran, installerar den och använder den inbyggda 30-dagars provperioden för att slutföra installationen. Mot slutet av provperioden tilldelar du licenser från partnerportalen till din server och aktiverar den till en produktionsmiljö."
+
+#: ../../chapter01.rst:28
+msgid ""
+"Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can "
+"be managed via the Partner Portal."
+msgstr "Både självhostade servrar och hostade CentreStack-tenant (sync4share) kan hanteras via Partnerportalen."
+
+#: ../../chapter01.rst:32
+msgid "Self-Hosted |prodname|"
+msgstr "Självhostad |prodname|"
+
+#: ../../chapter01.rst:34
+msgid ""
+"In the User Interface, the Self-Hosted |prodname| instance is referred to"
+" as a Cluster or a Server Farm. A Cluster can be as small as a single "
+"Server or scaled out to include multiple Servers in a Server farm."
+msgstr "I användargränssnittet refereras den självhostade |prodname|-instansen till som en kluster eller en serverfarm. En kluster kan vara så liten som en enskild server eller skalas ut för att inkludera flera servrar i en serverfarm."
+
+#: ../../chapter01.rst:36
+msgid "**Hosted CentreStack**"
+msgstr "**Hostad CentreStack**"
+
+#: ../../chapter01.rst:38
+msgid ""
+"In the Partner Portal, you can also manage tenants which are hosted by "
+"CentreStack (sync4share). This document doesn't cover Hosted CentreStack."
+" Please refer to the Hosted CentreStack Administration Guide "
+"(https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) "
+"for more information on hosted options."
+msgstr "I Partner Portal kan du också hantera klienter som är värdar av CentreStack (sync4share). Detta dokument täcker inte Hosted CentreStack. Vänligen se Hosted CentreStack Administration Guide (https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) för mer information om värdalternativ."
+
+#: ../../chapter01.rst:42
+msgid "**Tenants**"
+msgstr "**Hyresgäster**"
+
+#: ../../chapter01.rst:44
+msgid ""
+"In a |prodname| management interface, most of the time you are managing "
+"tenants. It can be a single tenant when deployed for a single company, or"
+" it can be multiple tenants. A tenant is a management and billing scope "
+"that includes a number of users and a specific amount of storage. It "
+"normally maps to a company or a client of yours."
+msgstr "I ett |prodname| administrationsgränssnitt hanterar du oftast hyresgäster. Det kan vara en enda hyresgäst när det är implementerat för ett enda företag, eller det kan vara flera hyresgäster. En hyresgäst är ett förvaltnings- och faktureringsomfång som inkluderar ett antal användare och en specifik mängd lagring. Det motsvarar normalt ett företag eller en klient till dig."
+
+#: ../../chapter01.rst:49
+msgid "**Users, Devices, File Server Shares**"
+msgstr "**Användare, Enheter, Fildelningar på Server**"
+
+#: ../../chapter01.rst:51
+msgid ""
+"In each tenant, the objects you manage include Users and Devices as well "
+"as File Server Network Shares for Team Folder collaboration (Team "
+"Shares)."
+msgstr "I varje klient hanterar du objekt som inkluderar Användare och Enheter samt Nätverksdelningar för filserver för samarbete i Teammappar (Team Shares)."
+
+#: ../../chapter01.rst:54
+msgid ""
+"This document is focused on the management scope for a Self-Hosted "
+"|prodname|. In the server management interface, there are two "
+"administration scopes: Cluster Administrator and Tenant Administrator."
+msgstr "Detta dokument fokuserar på hanteringsomfånget för en självhostad |prodname|. I serverhanteringsgränssnittet finns det två administrationsområden: Klusteradministratör och Hyresgästadministratör."
+
+#: ../../chapter01.rst:59
+msgid "Cluster Administrator"
+msgstr "Klusteradministratör"
+
+#: ../../chapter01.rst:61
+msgid ""
+"The Cluster Administrator can manage cluster-wide functionalities, such "
+"as email SMTP server setup and worker node properties etc."
+msgstr "Klusteradministratören kan hantera klusterövergripande funktioner, såsom inställningar för e-post SMTP-server och egenskaper för arbetsnod etc."
+
+#: ../../chapter01.rst:64
+msgid ""
+"In the Deployment Guide, the Cluster Administrator is often referred to "
+"as the Master Admin, Root Admin, or just Server Administrator. Even "
+"though the Cluster Server Farm can have multiple Servers, most of the "
+"time, a server-farm with one single server is sufficient for your use "
+"case and your user base."
+msgstr "I distributionsguiden refereras klusteradministratören ofta till som Master Admin, Root Admin eller bara Serveradministratör. Även om klusterserverfarmen kan ha flera servrar, är det mesta av tiden en server-farm med en enda server tillräcklig för ditt användningsfall och din användarbas."
+
+#: ../../chapter01.rst:70
+msgid "Tenant Administrator"
+msgstr "Hyresgästadministratör"
+
+#: ../../chapter01.rst:72
+msgid ""
+"Tenant Administrator can manage Tenant-Wide functionalities, such as "
+"Group Policies. The Cluster Admin is also a Tenant Admin for the very "
+"first Tenant (Default Tenant) so the Cluster Administrator manages both "
+"Cluster Administration and Tenant Administration (for the default "
+"tenant). In the multiple-tenant case, each Tenant Administrator will be "
+"responsible for the Tenant's administration scope."
+msgstr "Hyresgästadministratören kan hantera funktioner för hela hyresgästen, såsom grupprinciper. Klusteradministratören är också en hyresgästadministratör för den allra första hyresgästen (Standardhyresgästen) så klusteradministratören hanterar både klusteradministration och hyresgästadministration (för standardhyresgästen). I fallet med flera hyresgäster kommer varje hyresgästadministratör att vara ansvarig för administrationen av hyresgästens omfattning."
+
+#: ../../chapter01.rst:78
+msgid ""
+"The Cluster Administrator by default can help each Tenant Administrator "
+"manage at the tenant level."
+msgstr "Klusteradministratören kan som standard hjälpa varje hyresadministratör att hantera på hyresnivå."
+
+#: ../../chapter01.rst:80
+msgid ""
+"In real-world scenarios, the tenant is often mapped to an organization; a"
+" client of an MSP or a customer that has many employees."
+msgstr "I verkliga scenarier är hyresgästen ofta kopplad till en organisation; en klient hos en MSP eller en kund som har många anställda."
+
+#: ../../chapter01.rst:82
+msgid ""
+"There are two icons related to cluster administration and tenant "
+"administration:"
+msgstr "Det finns två ikoner relaterade till klusteradministration och hyresgästadministration:"
+
+#: ../../chapter01.rst:84
+msgid "Cluster Manager icon"
+msgstr "Ikon för klusthanteraren"
+
+#: ../../chapter01.rst:88
+msgid "Tenant Manager icon"
+msgstr "Ikon för hyresvärdshanteraren"
+
+#: ../../chapter01.rst:94
+msgid "Tenant(s) usually map to your organization(s) or client(s)."
+msgstr "Hyresgäst(er) motsvarar vanligtvis din organisation eller klient(er)."
+
+#: ../../chapter01.rst:96
+msgid ""
+"If you are logged in as the Default Cluster Admin, you will manage the "
+"tenant-level scope from the \"Tenant Manager\" instead of using the "
+"\"Tenant Manager icon\"."
+msgstr "Om du är inloggad som standardklusteradministratören kommer du att hantera tenant-nivån från \"Tenant Manager\" istället för att använda \"Tenant Manager-ikonen\"."
+
+#: ../../chapter01.rst:102
+msgid ""
+"1: All the administration work is performed via the web portal inside a "
+"web browser. Recommended browsers include Google Chrome first, followed "
+"by Firefox, Internet Explorer, Safari, and Opera. (Internet Explorer "
+"requires version 9 and above and includes Microsoft Edge Browser)"
+msgstr "All administration arbete utförs via webbportalen inuti en webbläsare. Rekommenderade webbläsare inkluderar Google Chrome först, följt av Firefox, Internet Explorer, Safari och Opera. (Internet Explorer kräver version 9 och högre och inkluderar Microsoft Edge Browser)"
+
+#: ../../chapter01.rst:104
+msgid ""
+"2: The very first user who installed the Cluster Server is also the "
+"Cluster Admin and Tenant Admin for the Default Tenant. In order for the "
+"Cluster Admin to be familiar with the tenant functionality, the Cluster "
+"Admin is provided a small 3-user default account (Tenant Account)."
+msgstr "2: Den allra första användaren som installerade klusterservern är också klusteradministratören och hyresgästadministratören för standardhyresgästen. För att klusteradministratören ska bli bekant med hyresgästens funktionalitet, tillhandahålls klusteradministratören ett litet standardkonto för 3 användare (hyresgästkontot)."
+
+#: ../../chapter01.rst:107
+msgid ""
+"3: You can start the administration work at any time by pointing your web"
+" browser to the Cluster Server's IP Address or DNS name. If you are on "
+"the Cluster Server console, you can even use http://localhost to get "
+"started."
+msgstr "3: Du kan påbörja administrationsarbetet när som helst genom att rikta din webbläsare till klusterserverns IP-adress eller DNS-namn. Om du är på klusterserverns konsol kan du även använda http://localhost för att komma igång."
+

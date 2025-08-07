@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Locking Files"
+msgstr "Tiedostojen lukitseminen"
+
+#: ../../chapter5.rst:6
+msgid ""
+"The |prodname| Cloud administrator has the option of enabling a setting "
+"that causes files to automatically become locked when they are in use - "
+"automatic distributed lock (see administration guide). This prevents more"
+" than one person from updating the file at the same time which can cause "
+"undesirable results."
+msgstr "The |prodname| Cloud -ylläpitäjällä on mahdollisuus ottaa käyttöön asetus, joka lukitsee tiedostot automaattisesti niiden ollessa käytössä - automaattinen hajautettu lukitus (katso hallintaopas). Tämä estää useampaa kuin yhtä henkilöä päivittämästä tiedostoa samaan aikaan, mikä voi aiheuttaa ei-toivottuja tuloksia."
+
+#: ../../chapter5.rst:10
+msgid "When to use automatic lock and when to use manual lock?"
+msgstr "Milloin käyttää automaattista lukitusta ja milloin manuaalista lukitusta?"
+
+#: ../../chapter5.rst:12
+msgid ""
+"When files are automatic locked, the same files need to be automatically "
+"unlocked. When files are automaticall locked, the agent that locks the "
+"file needs to maintain health heart beat with the central |prodname| "
+"server. When the heart beat can't be maintained, the file will be "
+"automatically unlocked."
+msgstr "Kun tiedostot lukitaan automaattisesti, samat tiedostot on avattava automaattisesti. Kun tiedostot on lukittu automaattisesti, lukitsevan agentin on ylläpidettävä terveellistä sydämen sykettä keskus |prodname| palvelimen kanssa. Kun sydämen sykettä ei voida ylläpitää, tiedosto avataan automaattisesti."
+
+#: ../../chapter5.rst:14
+msgid ""
+"If you want the file to stay locked regardless what situation the agent "
+"machine is in, manual lock is recommened. A manually locked file will "
+"need to be manually unlocked."
+msgstr "Jos haluat, että tiedosto pysyy lukittuna riippumatta siitä, missä tilanteessa agenttikone on, manuaalinen lukitus on suositeltavaa. Manuaalisesti lukitun tiedoston on oltava manuaalisesti avattava."
+
+#: ../../chapter5.rst:16
+msgid ""
+"Files can be manually locked. Right-click on any file **(1)** in the "
+"|prodname| drive and then select \"check out (Lock) This File\" **(2)** "
+"to toggle between its locked and unlocked state. Then click OK in the "
+"pop-up **(3)**."
+msgstr "Tiedostoja voidaan lukita manuaalisesti. Napsauta hiiren kakkospainikkeella mitä tahansa tiedostoa **(1)** |prodname|-asemassa ja valitse sitten \"tarkista ulos (Lukitse) tämä tiedosto\" **(2)** vaihtaaksesi sen lukitun ja lukitsemattoman tilan välillä. Klikkaa sitten OK ponnahdusikkunassa **(3)**."
+
+#: ../../chapter5.rst:21
+msgid "LOCKING A LOCAL FILE"
+msgstr "LUKITA LOKAALITIEDOSTO"
+
+#: ../../chapter5.rst:23
+msgid ""
+"The context menu will give the option to lock the file. It will stay "
+"locked until you 'Unlock' it. When you are finished with the file, you "
+"can unlock it by right-clicking it and choosing Check In from the context"
+" menu."
+msgstr "Kontekstivalikko antaa mahdollisuuden lukita tiedoston. Se pysyy lukittuna, kunnes avaat sen 'Avaa lukitus' -toiminnolla. Kun olet valmis tiedoston kanssa, voit avata sen lukituksen napsauttamalla sitä hiiren kakkospainikkeella ja valitsemalla kontekstivalikosta 'Kirjaa ulos'."
+
+#: ../../chapter5.rst:27
+msgid "Offline Access"
+msgstr "Offline-käyttö"
+
+#: ../../chapter5.rst:29
+msgid ""
+"Cloud Drive files aren't fully synced by default; only the files you are "
+"using are synced. You can Force Sync your files however. Right-click the "
+"folder you want to make \"Offline\" and choose \"Enable Offline Access "
+"**(1)**. Once this is done, you can click your drive icon, and then "
+"choose \"Force Sync All Offline Folders\" **(2)** to sync any folders you"
+" have enabled for Offline Access."
+msgstr "Pilvipalvelun tiedostot eivät synkronoidu oletusarvoisesti täysin; vain käyttämäsi tiedostot synkronoidaan. Voit kuitenkin pakottaa tiedostojen synkronoinnin. Napsauta hiiren kakkospainikkeella kansiota, jonka haluat tehdä \"Offline\"-tilaan ja valitse \"Ota Offline-käyttö käyttöön **(1)**. Kun olet tehnyt tämän, voit napsauttaa asemasi kuvaketta ja valita sitten \"Pakota synkronoi kaikki Offline-kansiot\" **(2)** synkronoidaksesi kaikki Offline-käyttöön otetut kansiot."
+
+#: ../../chapter5.rst:31
+msgid ""
+"Also, you might want to pause the synchronization of files while you are "
+"working on them. This can be done from the Cloud Drive icon as well. In "
+"the menu, choose \"Pause Sync\" **(3)** temporarily stop files from "
+"sychronizing. The benefit is that you can keep modifying documents "
+"(drafts) locally until it is all done and then you can uncheck the "
+"\"Pause\" and connect to the |prodname| cloud drive to upload any "
+"changes."
+msgstr "Lisäksi saatat haluta keskeyttää tiedostojen synkronoinnin työskennellessäsi niiden parissa. Tämä onnistuu myös Cloud Drive -kuvakkeen kautta. Valikosta valitse \"Tauota synkrointi\" **(3)** väliaikaisesti estääksesi tiedostojen synkronoinnin. Hyöty on, että voit jatkaa asiakirjojen (luonnosten) muokkaamista paikallisesti, kunnes kaikki on valmista, ja sitten voit poistaa \"Tauko\"-valinnan ja yhdistää |prodname| pilviasemaan ladataksesi kaikki muutokset."
+
+#: ../../chapter5.rst:36
+msgid "OFFLINE ACCESS"
+msgstr "OFFLINE-KÄYTTÖ"
+

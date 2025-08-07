@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:3
+msgid "Management Console"
+msgstr "管理控制台"
+
+#: ../../chapter05.rst:5
+msgid ""
+"If you are logged in as the Tenant administrator, access the Management "
+"Console by clicking the gear icon on the top right of the **\"File "
+"Browser\"** view."
+msgstr "如果您以租户管理员的身份登录，可以通过点击 **“文件浏览器”** 视图右上角的齿轮图标来访问管理控制台。"
+
+#: ../../chapter05.rst:7
+msgid ""
+"The Tenant Administrator will see the files and folders view by default "
+"upon initial login."
+msgstr "租户管理员在初次登录后，默认将看到文件和文件夹视图。"
+
+#: ../../chapter05.rst:13
+msgid ""
+"If you are the cluster administrator, you may not see the \"Management "
+"Console\" icon. Instead, you can manage the default tenant from the "
+"Cluster Manager -> Tenant Manager and click through to manage the default"
+" tenant."
+msgstr "如果您是集群管理员，可能看不到“管理控制台”图标。相反，您可以通过集群管理器 -> 租户管理器来管理默认租户，并点击以管理默认租户。"
+
+#: ../../chapter05.rst:17
+msgid "Here is the Tenant Management Console."
+msgstr "这里是租户管理控制台。"
+
+#: ../../chapter05.rst:21
+msgid ""
+"Please reference the `CentreStack Admin Guide`_ for complete details "
+"about Tenant administration."
+msgstr "请参考 `CentreStack 管理员指南`_ 以获取有关租户管理的完整详情。"
+
+#: ../../chapter05.rst:23
+msgid "Here are a few points that are more important during the deployment phase."
+msgstr "在部署阶段，以下几点尤为重要。"
+
+#: ../../chapter05.rst:26
+msgid "Add Tenant"
+msgstr "添加租户"
+
+#: ../../chapter05.rst:28
+msgid ""
+"You can add a tenant by clicking the 'New Tenant' Button in the Tenant "
+"Manager"
+msgstr "您可以通过在租户管理器中点击'新建租户'按钮来添加一个租户"
+
+#: ../../chapter05.rst:34
+msgid "Team Folders"
+msgstr "团队文件夹"
+
+#: ../../chapter05.rst:36
+msgid ""
+"Team Folders are created by the tenant admin. The users that can be "
+"assigned to the team folders are the team users within the tenant. Each "
+"team user can be assigned read or write permissions to the team folder. "
+"For the team users that are not assigned with a specific team folder, the"
+" team folder will not show up. Team folders users can also be assigned "
+"the \"Owner\" permission. The owner permission allows the \"owner\" to "
+"maintain and manage the team folder permissions."
+msgstr "团队文件夹由租户管理员创建。可以分配给团队文件夹的用户是租户内的团队用户。每个团队用户可以被分配读权限或写权限到团队文件夹。对于那些没有被分配特定团队文件夹的团队用户，他们将看不到团队文件夹。团队文件夹的用户也可以被分配“拥有者”权限。拥有者权限允许“拥有者”维护和管理团队文件夹权限。"
+
+#: ../../chapter05.rst:42
+msgid ""
+"You can navigate to the Team Folders by clicking on the \"Team Folders\" "
+"tab from the left side menu of Tenant Manager."
+msgstr "您可以通过点击租户管理器左侧菜单的“团队文件夹”标签，导航至团队文件夹。"
+
+#: ../../chapter05.rst:44
+msgid "Here is the Team Folders page."
+msgstr "这是团队文件夹页面。"
+
+#: ../../chapter05.rst:50
+msgid "User Manager"
+msgstr "用户管理器"
+
+#: ../../chapter05.rst:52
+msgid ""
+"In the user manager, you can create users, import users from Active "
+"Directory over LDAP or import users from Active Directory via Server "
+"Agent. Click on the \"Users\" tab from the left side menu of Tenant "
+"Manager. Then click on \"Create or Migrate Users\"."
+msgstr "在用户管理器中，您可以创建用户，通过LDAP从活动目录中导入用户，或通过服务器代理从活动目录中导入用户。从租户管理器的左侧菜单中点击“用户”标签。然后点击“创建或迁移用户”。"
+
+#: ../../chapter05.rst:58
+msgid "This should take you to a menu of options to add a new user to the tenant."
+msgstr "这应该会带您进入一个菜单，您可以在其中为租户添加新用户。"
+
+#: ../../chapter05.rst:64
+msgid "Delegate Administration"
+msgstr "委派管理"
+
+#: ../../chapter05.rst:66
+msgid ""
+"You can add full delegated admin to the list of \"Cloud Administrators\"."
+" Once you reach the tenant dashboard, click \"Settings\" from left side "
+"menu, and then go to the \"User Account & Security\". In \"User Account &"
+" Security\", Click on \"Tenant Administrators\"."
+msgstr "您可以将完全委派的管理员添加到“云管理员”列表中。访问租户仪表板后，从左侧菜单点击“设置”，然后进入“用户账户与安全”。在“用户账户与安全”中，点击“租户管理员”。"
+
+#: ../../chapter05.rst:72
+msgid ""
+"At the bottom of the Tenant Administrators page, you can designate the "
+"delegated admin."
+msgstr "在租户管理员页面的底部，您可以指定委派的管理员。"
+
+#: ../../chapter05.rst:77
+msgid "Active Directory Integration (Optional)"
+msgstr "Active Directory集成（可选）"
+
+#: ../../chapter05.rst:79
+msgid ""
+"It is optional to setup the Active Directory Integration. You can get to "
+"the integration page from the Management Console -> Settings -> Active "
+"Directory Settings. The active directory setting here refers to local "
+"Active Directory with LDAP integration. For remote Active Directory, "
+"server agent can be used to connect remote file server folders and remote"
+" Active Directory."
+msgstr "设置Active Directory集成是可选的。您可以通过管理控制台 -> 设置 -> Active Directory设置进入集成页面。这里的活动目录设置是指具有LDAP集成的本地Active Directory。对于远程Active Directory，可以使用服务器代理来连接远程文件服务器文件夹和远程Active Directory。"
+
+#: ../../chapter05.rst:84
+msgid ""
+"Once you reach the tenant dashboard, click \"Settings\" from left side "
+"menu, and then go to the \"Active Directory\" option."
+msgstr "一旦您进入租户仪表板，点击左侧菜单的\"设置\"，然后转到\"Active Directory\"选项。"
+
+#: ../../chapter05.rst:88
+msgid ""
+"This will take you to the Active Directory Page. After you turn on the "
+"switch and enable Active Directory Integration, you can fill in your "
+"information for Active Directory."
+msgstr "这将带您前往Active Directory页面。开启开关并启用Active Directory集成后，您可以填写Active Directory的信息。"
+
+#: ../../chapter05.rst:94
+msgid ""
+"If this specific tenant's Active Directory is at a remote location, "
+"please use the CentreStack Server Agent to connect the Active Directory "
+"(No need to use LDAP over Internet WAN connection)."
+msgstr "如果这个特定租户的活动目录位于远程位置，请使用CentreStack服务器代理来连接活动目录（无需通过互联网WAN连接使用LDAP）。"
+
+#: ../../chapter05.rst:100
+msgid "Branding"
+msgstr "品牌"
+
+#: ../../chapter05.rst:102
+msgid ""
+"You can brand the web portal, Windows and Mac clients, iOS and Android "
+"Applications."
+msgstr "您可以为网页门户、Windows 和 Mac 客户端、iOS 和 Android 应用程序进行品牌定制。"
+
+#: ../../chapter05.rst:104
+msgid ""
+"The self-service branding starts with the \"Cluster Manager\". In order "
+"to start the branding, you will login to the web portal as the Cluster "
+"Administrator."
+msgstr "自助品牌化起始于“集群管理器”。为了开始品牌化，您将以集群管理员的身份登录到Web门户。"
+
+#: ../../chapter05.rst:107
+msgid ""
+"After you login to the web portal, click to the \"Cluster Branding\" "
+"Pages."
+msgstr "登录到网页门户后，点击进入“集群品牌”页面。"
+
+#: ../../chapter05.rst:111
+msgid ""
+"Please reference the \"Cluster Branding\" section in the `Admin Guide`_ "
+"for the self-hosted CentreStack server."
+msgstr "请参考自托管CentreStack服务器的 `管理员指南`_ 中的\"集群品牌\"部分。"
+

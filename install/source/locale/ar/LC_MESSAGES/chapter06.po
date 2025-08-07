@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter06.rst:3
+msgid "Enable SSL – Install SSL Certificate"
+msgstr "تمكين SSL – تثبيت شهادة SSL"
+
+#: ../../chapter06.rst:7
+msgid ""
+"Assuming that you have already setup your DNS to point to a DNS name "
+"connected to the |prodname| server and an SSL certificate already "
+"purchased for the DNS name. If not, you can acquire an SSL certificate "
+"from your SSL vendor."
+msgstr "افتراضًا أنك قد قمت بالفعل بإعداد نظام DNS الخاص بك للإشارة إلى اسم DNS متصل بخادم |prodname| وشهادة SSL مشتراة بالفعل لاسم DNS. إذا لم يكن الأمر كذلك، يمكنك الحصول على شهادة SSL من موزع SSL الخاص بك."
+
+#: ../../chapter06.rst:9
+msgid ""
+"We recommend using https://www.ssllabs.com/ to test your SSL setup "
+"because the SSL Labs site will produce a report on whether the SSL is "
+"compatible with all devices such as iOS devices."
+msgstr "نوصي باستخدام https://www.ssllabs.com/ لاختبار إعداد SSL الخاص بك لأن موقع SSL Labs سينتج تقريرًا حول ما إذا كان SSL متوافقًا مع جميع الأجهزة مثل أجهزة iOS."
+
+#: ../../chapter06.rst:13
+msgid ""
+"You can also use openssl to check the SSL certificates and whether or not"
+" the whole certificate trust chain is completely installed on the server "
+"side."
+msgstr "يمكنك أيضًا استخدام openssl لفحص شهادات SSL وما إذا كانت سلسلة الثقة بالشهادة بأكملها مُثبتة بشكل كامل على جانب الخادم."
+
+#: ../../chapter06.rst:20
+msgid ""
+"You will install the SSL certificate using the IIS Manager. Look for "
+"\"Server Certificates\" and double click on it."
+msgstr "ستقوم بتثبيت شهادة SSL باستخدام مدير IIS. ابحث عن \"شهادات الخادم\" وانقر عليها مرتين."
+
+#: ../../chapter06.rst:24
+msgid ""
+"Click on \"Import\" to import an existing SSL Certificate. Leave the "
+"Certificate Store as \"Personal\" or \"Web Hosting\", either option is "
+"fine."
+msgstr "انقر على \"استيراد\" لاستيراد شهادة SSL موجودة. اترك متجر الشهادات على \"شخصي\" أو \"استضافة الويب\"، أي من الخيارين مناسب."
+
+#: ../../chapter06.rst:30
+msgid "Verify that the certificate is available:"
+msgstr "تحقق من توفر الشهادة:"
+
+#: ../../chapter06.rst:34
+msgid ""
+"You can also verify the SSL certificate using the MMC/Certificates snap-"
+"in (Local Computer)."
+msgstr "يمكنك أيضًا التحقق من شهادة SSL باستخدام أداة إدارة MMC/Certificates (الكمبيوتر المحلي)."
+
+#: ../../chapter06.rst:38
+msgid ""
+"Now you can bind the \"Default Web Site\" to the SSL certificate for "
+"HTTPS. Right click on the \"Default Web Site\" and select \"Edit "
+"Bindings\"."
+msgstr "الآن يمكنك ربط \"موقع الويب الافتراضي\" بشهادة SSL لـ HTTPS. انقر بزر الماوس الأيمن على \"موقع الويب الافتراضي\" واختر \"تحرير الروابط\"."
+
+#: ../../chapter06.rst:43
+msgid "At the binding dialog, edit the HTTPS binding."
+msgstr "في مربع الحوار الربط، قم بتعديل الربط HTTPS."
+
+#: ../../chapter06.rst:47
+msgid ""
+"Now, change the SSL Certificate binding drop-down to the imported SSL "
+"certificate."
+msgstr "الآن، قم بتغيير قائمة ارتباط شهادة SSL إلى الشهادة المستوردة."
+

@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter8.rst:3
+msgid "The Web Interface"
+msgstr "Webbgränssnittet"
+
+#: ../../chapter8.rst:5
+msgid ""
+"The web client interface has three panels from left to right, the left "
+"tree panel, the middle file and folder panel, and the right information "
+"panel. Many of the management functionality are done over the web portal."
+" The web client also has the files and folder's view."
+msgstr "Webbklientgränssnittet har tre paneler från vänster till höger, det vänstra trädpanelen, den mellersta fil- och mappanelen och den högra informationspanelen. Många av hanteringsfunktionerna görs via webbportalen. Webbklienten har också fil- och mappvisningen."
+
+#: ../../chapter8.rst:8
+msgid "Normal Web Portal View"
+msgstr "Normal webbportalvy"
+
+#: ../../chapter8.rst:13
+msgid "WEB PORTAL VIEW"
+msgstr "WEBBPORTALVY"
+
+#: ../../chapter8.rst:17
+msgid "Left Tree View and Right Info Panel"
+msgstr "Vänster Trädvy och Höger Informationspanel"
+
+#: ../../chapter8.rst:19
+msgid ""
+"The left-tree view can be toggled by clicking the tree icon **(1)**. You "
+"can access the **\"Info Panel\"** by either clicking the icon settings "
+"menu **(2)** at the top-right and selecting **\"Show/Hide Info Panel for "
+"file/folder\"** text, or the Show/Hide button **(3)** on the bottom-right"
+" of the File Browser window."
+msgstr "Trädvyn till vänster kan växlas genom att klicka på trädikonen **(1)**. Du kan komma åt **\"Info Panelen\"** antingen genom att klicka på ikoninställningsmenyn **(2)** högst upp till höger och välja **\"Visa/Dölj Info Panel för fil/mapp\"** text, eller Visa/Dölj-knappen **(3)** nere till höger i Filbläddrarens fönster."
+
+#: ../../chapter8.rst:24
+msgid "ACCESSING SIDE PANELS"
+msgstr "ÅTKOMST TILL SIDOPANELER"
+
+#: ../../chapter8.rst:28
+msgid "Switch between Icon and List view"
+msgstr "Växla mellan ikon- och listvy"
+
+#: ../../chapter8.rst:33
+msgid "SWITCH BETWEEN ICON AND LIST VIEWS"
+msgstr "VÄXLA MELLAN IKON- OCH LISTVYER"
+
+#: ../../chapter8.rst:36
+msgid ""
+"When switched into list view, you get access to other icons such as "
+"version information (see inset \"List View Example)."
+msgstr "När du växlar till listvy får du tillgång till andra ikoner såsom versionsinformation (se inlag \"Listvyexempel\")."
+
+#: ../../chapter8.rst:40
+msgid "Color Themes"
+msgstr "Färgteman"
+
+#: ../../chapter8.rst:42
+msgid ""
+"Users can customize their web portal theme by clicking the user settings "
+"icon **(1)** and then the down-arrow icon **(2)**. There are 12 pre-"
+"defined Color Themes and one custom theme option."
+msgstr "Användare kan anpassa temat för sin webbportal genom att klicka på ikonen för användarinställningar **(1)** och sedan på nedåtpilens ikon **(2)**. Det finns 12 fördefinierade färgteman och ett alternativ för anpassat tema."
+
+#: ../../chapter8.rst:47
+msgid "CUSTOMIZE YOUR WEB PORTAL THEME"
+msgstr "ANPASSA DITT WEBBPORTALSTEMA"
+
+#: ../../chapter8.rst:51
+msgid "Create Folders"
+msgstr "Skapa mappar"
+
+#: ../../chapter8.rst:53
+msgid "Folders Created in |prodname| are Versioned Folders."
+msgstr "Mappar som skapas i |prodname| är versionshanterade mappar."
+
+#: ../../chapter8.rst:55
+msgid ""
+"|prodname| will maintain the version history of any files uploaded to "
+"versioned folders. From |prodname|, a user can download any previous "
+"versions of a file. From the |prodname| Desktop/Server Agent, a user can "
+"restore previous versions of files and recover deleted files."
+msgstr "|prodname| kommer att bibehålla versionshistoriken för alla filer som laddas upp till versionshanterade mappar. Från |prodname| kan en användare ladda ner tidigare versioner av en fil. Från |prodname| Desktop/Server Agent kan en användare återställa tidigare versioner av filer och återställa raderade filer."
+
+#: ../../chapter8.rst:58
+msgid ""
+"To create a folder, go to the parent folder and click \"New Folder\" in "
+"the drop-down menu **(1)** or right click in the folder background and "
+"choose \"New Folder\" **(2)** from the context menu."
+msgstr "För att skapa en mapp, gå till överordnad mapp och klicka på \"Ny mapp\" i rullgardinsmenyn **(1)** eller högerklicka i mappbakgrunden och välj \"Ny mapp\" **(2)** från snabbmenyn."
+
+#: ../../chapter8.rst:63
+msgid "CREATING FOLDERS"
+msgstr "SKAPA MAPPAR"
+
+#: ../../chapter8.rst:67
+msgid "Attach Folder from Clients"
+msgstr "Anslut mapp från klienter"
+
+#: ../../chapter8.rst:69
+msgid ""
+"If you have the Windows Client installed, can also Attach a Local Folder "
+"from this client."
+msgstr "Om du har Windows-klienten installerad kan du också koppla en lokal mapp från denna klient."
+
+#: ../../chapter8.rst:74
+msgid "ATTACHING A FOLDER"
+msgstr "BIFOGA EN MAPP"
+
+#: ../../chapter8.rst:76
+msgid ""
+"These folders are the local folders from the local PC/Mac that |prodname|"
+" users have attached to |prodname|. Once a local folder is attached, a "
+"user can immediately access it in |prodname|. |prodname| will maintain "
+"the version history of files in the attached local folder. The local "
+"folder is also being synchronized with |prodname| (\"cloud side\")."
+msgstr "Dessa mappar är de lokala mapparna från den lokala PC/Mac som |prodname|-användare har kopplat till |prodname|. Så snart en lokal mapp är kopplad kan en användare omedelbart komma åt den i |prodname|. |prodname| kommer att bibehålla versionshistoriken för filer i den bifogade lokala mappen. Den lokala mappen synkroniseras också med |prodname| (\"molnsidan\")."
+
+#: ../../chapter8.rst:81
+msgid "ATTACHED LOCAL FOLDER"
+msgstr "LOKAL ANSLUTEN MAPP"
+
+#: ../../chapter8.rst:85
+msgid "Renaming/Deleting Folders"
+msgstr "Byta namn på/radera mappar"
+
+#: ../../chapter8.rst:87
+msgid ""
+"Renaming and deleting files and folders can be achieved by right-clicking"
+" the file in the \"File Browser\" and selecting the appropriate context-"
+"menu item or using the small icons in the Detailed View bar of the "
+"selected item."
+msgstr "Att byta namn på och radera filer och mappar kan göras genom att högerklicka på filen i \"Filbläddraren\" och välja lämpligt alternativ i snabbmenyn eller använda de små ikonerna i Detaljerad Vy-fältet för det markerade objektet."
+
+#: ../../chapter8.rst:92
+msgid "RENAMING FILES"
+msgstr "OMDÖPNING AV FILER"
+
+#: ../../chapter8.rst:96
+msgid "Upload Files/Folders"
+msgstr "Ladda upp filer/mappar"
+
+#: ../../chapter8.rst:98
+msgid ""
+"In |prodname|, you have different options to upload files and folders. "
+"You can upload one file at a time using the 'Upload File' option under "
+"Upload You can also upload folders using the 'Upload Folder' option under"
+" Upload. Last but not least you can also use 'Upload Folders and Files' "
+"to upload multiple files simultaneously, or drag & drop files from a "
+"local desktop to the |prodname| Cloud web portal to start the upload."
+msgstr "I |prodname| har du olika alternativ för att ladda upp filer och mappar. Du kan ladda upp en fil i taget med hjälp av alternativet 'Ladda upp fil' under Ladda upp. Du kan också ladda upp mappar med hjälp av alternativet 'Ladda upp mapp' under Ladda upp. Sist men inte minst kan du även använda 'Ladda upp mappar och filer' för att ladda upp flera filer samtidigt, eller dra och släppa filer från en lokal skrivbord till |prodname| Cloud webbportal för att starta uppladdningen."
+
+#: ../../chapter8.rst:100
+msgid ""
+"It is possible to upload multiple files at a time. This is supported on "
+"all browsers. The same is true for Upload Folder. To access these options"
+" you can click the \"+\" icon **(1)** or right click on the portal "
+"background **(2)** and select your upload option there."
+msgstr "Det är möjligt att ladda upp flera filer samtidigt. Detta stöds av alla webbläsare. Detsamma gäller för Ladda upp mapp. För att komma åt dessa alternativ kan du klicka på \"+\" ikonen **(1)** eller högerklicka på portalens bakgrund **(2)** och välja ditt uppladdningsalternativ där."
+
+#: ../../chapter8.rst:105
+msgid "UPLOADING FILES AND FOLDERS"
+msgstr "UPPLADDNING AV FILER OCH MAPPAR"
+
+#: ../../chapter8.rst:108
+msgid ""
+"After clicking the upload option, you can browse to the file or folder "
+"you want to upload. Use the Ctrl key to select multiple items."
+msgstr "Efter att ha klickat på uppladdningsalternativet kan du bläddra till filen eller mappen du vill ladda upp. Använd Ctrl-tangenten för att välja flera objekt."
+
+#: ../../chapter8.rst:113
+msgid "SELECTING FILES FOR UPLOAD"
+msgstr "VÄLJA FILER FÖR UPPLADDNING"
+
+#: ../../chapter8.rst:117
+msgid "Upload Using Local Uploader"
+msgstr "Ladda upp med lokal uppladdare"
+
+#: ../../chapter8.rst:119
+msgid ""
+"(This is Windows only feature) When uploading big files and big folders, "
+"the \"upload using local uploader\" may be the best option for web "
+"browser based upload. If it is enabled by the Tenant Manager (deselected)"
+" **(1)** in the Group Policy Home > Web Portal settings. Clicking this "
+"option **(2)** will download a thin local uploader binary first and then "
+"the local uploader will do the upload. The local uploader has retry and "
+"other reliability measures to make sure the upload is successful. "
+"Basically it uses the web browser to download an executable, and the "
+"executable does the rest of the uploading work."
+msgstr "(Detta är en funktion enbart för Windows) När du laddar upp stora filer och stora mappar kan \"uppladdning med lokal uppladdare\" vara det bästa alternativet för uppladdning baserad på webbläsare. Om det är aktiverat av Tenant Manager (avmarkerat) **(1)** i Grupppolicy Hem > Web Portal-inställningar. Genom att klicka på detta alternativ **(2)** kommer en tunn lokal uppladdningsklient först att laddas ner och sedan kommer den lokala uppladdaren att utföra uppladdningen. Den lokala uppladdaren har återförsök och andra tillförlitlighetsåtgärder för att säkerställa att uppladdningen lyckas. I grund och botten använder den webbläsaren för att ladda ner en körbar fil, och den körbara filen utför resten av uppladdningsarbetet."
+
+#: ../../chapter8.rst:124
+msgid "ENABLE \"UPLOAD USING LOCAL UPLOADER\" OPTION"
+msgstr "AKTIVERA ALTERNATIVET \"LADDA UPP MED LOKAL UPPLADDARE\""
+
+#: ../../chapter8.rst:127
+msgid "Drag and Drop Upload"
+msgstr "Dra och släpp-uppladdning"
+
+#: ../../chapter8.rst:129
+msgid ""
+"Latest web browsers that support HTML5 drag and drop upload will see "
+"\"Drop Files Here\" in an empty folder. These web browsers allow you to "
+"drag & drop multiple files directly to the |prodname| Cloud. In latest "
+"Google Chrome, Drag and drop folder is also supported while the other "
+"HTML5 based web browser support drag and drop multiple files."
+msgstr "Senaste webbläsare som stödjer HTML5 drag and drop-uppladdning kommer att se \"Släpp filer här\" i en tom mapp. Dessa webbläsare tillåter dig att dra & släppa flera filer direkt till |prodname| Cloud. I senaste Google Chrome stöds även dra och släppa mappar medan andra HTML5-baserade webbläsare stöder dra och släppa flera filer."
+
+#: ../../chapter8.rst:135
+msgid "DRAG AND DROP FILES FOR UPLOAD"
+msgstr "DRAG OCH SLÄPP FILER FÖR ATT LADDA UPP"
+
+#: ../../chapter8.rst:139
+msgid "Downloading Files"
+msgstr "Ladda ner filer"
+
+#: ../../chapter8.rst:141
+msgid "There are several ways to download files in |prodname|:"
+msgstr "Det finns flera sätt att ladda ner filer i |prodname|:"
+
+#: ../../chapter8.rst:143
+msgid ""
+"If you select a file in the \"File Browser\" you can use the download "
+"icon **(1)** in the top bar. You can also right-click a file and choose "
+"download **(2)** from the context menu. If you are in the \"Detailed "
+"View\" **(3)** you can select a file and download it in the same manner "
+"as in the icon view."
+msgstr "Om du väljer en fil i \"Filbläddraren\" kan du använda nedladdningsikonen **(1)** i den övre verktygsfältet. Du kan också högerklicka på en fil och välja nedladdning **(2)** från snabbmenyn. Om du är i \"Detaljerad vy\" **(3)** kan du välja en fil och ladda ner den på samma sätt som i ikonvyn."
+
+#: ../../chapter8.rst:148
+msgid "DOWNLOAD FILE OPTIONS"
+msgstr "ALTERNATIV FÖR NEDLADDNING AV FIL"
+
+#: ../../chapter8.rst:150
+msgid ""
+"If your are in \"Detailed View\" **(3)** any files with previous versions"
+" will show a number in the selected bar (e.g. \"V2\") **(4)** that you "
+"may click to open a list of all of the versions of that file."
+msgstr "Om du är i \"Detaljerad vy\" **(3)** kommer alla filer med tidigare versioner att visa ett nummer i det markerade fältet (t.ex. \"V2\") **(4)** som du kan klicka på för att öppna en lista över alla versioner av den filen."
+

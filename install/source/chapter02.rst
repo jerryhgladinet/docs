@@ -133,7 +133,7 @@ And accept the EULA
 
 .. image:: _static/image_s2_5_3_v3.png
 
-Click ‘Next’
+Click 'Next'
 
 .. image:: _static/image_s2_5_5_v3.png
 

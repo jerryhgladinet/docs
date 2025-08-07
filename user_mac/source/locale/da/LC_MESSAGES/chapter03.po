@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Connecting To The Cloud"
+msgstr "3 Tilslutning til skyen"
+
+#: ../../chapter03.rst:5
+msgid ""
+"You can access the cloud drive  from the main screen of your Mac by "
+"clicking on the Cloud Drive icon."
+msgstr "Du kan få adgang til cloud-drevet fra hovedskærmen på din Mac ved at klikke på Cloud Drive-ikonet."
+
+#: ../../chapter03.rst:11
+msgid ""
+"You can access the cloud drive menu from the top panel by clicking on the"
+" |prodname| Cloud Drive icon."
+msgstr "Du kan få adgang til cloud-drev menuen fra top panelet ved at klikke på |prodname| Cloud Drive-ikonet."
+
+#: ../../chapter03.rst:17
+msgid "Transferring Files"
+msgstr "Overførsel af filer"
+
+#: ../../chapter03.rst:19
+msgid ""
+"Now you can use the Cloud Storage as if it were a real drive on the Mac "
+"system. Simply drag-and-drop to copy local documents to the Cloud "
+"Storage."
+msgstr "Nu kan du bruge Cloud Storage, som om det var et rigtigt drev på Mac-systemet. Træk og slip blot for at kopiere lokale dokumenter til Cloud Storage."
+
+#: ../../chapter03.rst:23
+msgid ""
+"|prodname| Cloud Drive makes it very easy to move data into cloud storage"
+" or extract data from cloud storage."
+msgstr "|prodname| Cloud Drive gør det meget nemt at flytte data til cloudlagring eller hente data fra cloudlagring."
+
+#: ../../chapter03.rst:27
+msgid "Attaching Local Folders"
+msgstr "Tilknytning af lokale mapper"
+
+#: ../../chapter03.rst:29
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr "Det virtuelle drev giver adgang til filer og mapper efter behov fra |prodname| Cloud-lagringskontoen."
+
+#: ../../chapter03.rst:31
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account."
+msgstr "Nogle gange er det også ønskeligt at arbejde inden i en lokal mappe og have den lokale mappe synkroniseret med |prodname| Cloud storage-kontoen."
+
+#: ../../chapter03.rst:33
+msgid ""
+"To attach a folder click the Cloud Drive icon **(1)** then click the "
+"Console Settings gear icon **(2)**. A browser window will open showing "
+"the Device Info for your Mac. The menu button **(3)** gives you access to"
+" the Attached Folders button **(4)**. When you click that, you can add a "
+"folder from your hard drive by clicking the Add Folder button **(5)**, "
+"then explore to the folder you want to attach **(6)** and set the "
+"\"Name\" **(7)** you want to use for that folder when accessing it from "
+"the Web Portal."
+msgstr "For at vedhæfte en mappe skal du klikke på Cloud Drive-ikonet **(1)** og derefter klikke på tandhjulsikonet for Konsolindstillinger **(2)**. Et browservindue vil åbne, der viser Enhedsinfo for din Mac. Menuknappen **(3)** giver dig adgang til knappen Vedhæftede Mapper **(4)**. Når du klikker på den, kan du tilføje en mappe fra din harddisk ved at klikke på Tilføj Mappe-knappen **(5)**, derefter navigere til den mappe, du ønsker at vedhæfte **(6)** og indstille det \"Navn\" **(7)**, du ønsker at bruge for den mappe, når du tilgår den fra Webportalen."
+
+#: ../../chapter03.rst:39
+msgid "Settings Web Page"
+msgstr "Indstillinger for web-side"
+
+#: ../../chapter03.rst:41
+msgid "You can get access to the settings web page from the settings button."
+msgstr "Du kan få adgang til indstillingswebsiden fra indstillingsknappen."
+
+#: ../../chapter03.rst:45
+msgid "After it is clicked, a web page will lauch into your default web browser."
+msgstr "Når der er klikket, vil en webside åbne i din standardwebbrowser."
+
+#: ../../chapter03.rst:51
+msgid "Device Information"
+msgstr "Enhedsinformation"
+
+#: ../../chapter03.rst:53
+msgid "The first section in the settings page is the \"Device Info\" section."
+msgstr "Den første sektion på indstillingssiden er \"Enhedsinfo\"-sektionen."
+
+#: ../../chapter03.rst:55
+msgid ""
+"In the device info section, you can see the device name, logged in user, "
+"Device Type, OS Type and other information."
+msgstr "I afsnittet om enhedsinfo kan du se enhedsnavnet, den bruger, der er logget ind, enhedstype, OS-type og andre oplysninger."
+
+#: ../../chapter03.rst:58
+msgid "Attached Folders"
+msgstr "Vedhæftede mapper"
+
+#: ../../chapter03.rst:60
+msgid ""
+"Attach Folder means attach a local folder to cloud (|prodname| account). "
+"The end result is to setup a bi-directional synchronization between the "
+"local folder and the cloud so the changes from within the local folder "
+"will synchronize to cloud and changes from cloud in that specific folder "
+"will sync back to local folder."
+msgstr "At knytte en mappe betyder at tilkoble en lokal mappe til skyen (|prodname| konto). Det endelige resultat er at opsætte en tovejs synkronisering mellem den lokale mappe og skyen, så ændringerne fra den lokale mappe vil synkronisere til skyen, og ændringer fra skyen i den specifikke mappe vil synkronisere tilbage til den lokale mappe."
+
+#: ../../chapter03.rst:62
+msgid ""
+"To set this up from the Console, you click the pulldown menu and choose "
+"**\"Attached Folders\" (1)**. In the new view you click the **Add (2)** "
+"button and then explore by double-clicking (drill down) to the folder you"
+" wish to attach **(3)**. Once you have selected the folder, enter the "
+"**\"Name\" (4)** you want to use for that folder and click **\"ATTACH\"**"
+" to complete the process. In this example, the folder is on the Desktop "
+"of the Mac computer."
+msgstr "For at opsætte dette fra konsollen, klikker du på rullemenuen og vælger **\"Vedhæftede Mapper\" (1)**. I det nye vindue klikker du på **Tilføj (2)** knappen og derefter udforsker du ved at dobbeltklikke (bore ned) til den mappe, du ønsker at vedhæfte **(3)**. Når du har valgt mappen, indtaster du det **\"Navn\" (4)**, du ønsker at bruge for den mappe og klikker på **\"VEDHÆFT\"** for at fuldføre processen. I dette eksempel er mappen på skrivebordet på Mac-computeren."
+
+#: ../../chapter03.rst:66
+msgid "Once it is attached, you can see it in a list."
+msgstr "Når den er tilsluttet, kan du se den på en liste."
+
+#: ../../chapter03.rst:70
+msgid ""
+"You can also verify that the local folder is attached by logging into the"
+" web portal where you will see it listed in your ``FILE BROWSER`` view."
+msgstr "Du kan også bekræfte, at den lokale mappe er tilknyttet ved at logge ind på webportalen, hvor du vil se den opført i din ``FILE BROWSER`` visning."
+
+#: ../../chapter03.rst:74
+msgid ""
+"As shown in the example here, the local folder named \"Mac User 1 "
+"Attached\" is now synchronized with cloud."
+msgstr "Som vist i eksemplet her, er den lokale mappe med navnet \"Mac Bruger 1 Tilsluttet\" nu synkroniseret med skyen."
+
+#: ../../chapter03.rst:78
+msgid "Offline Folders"
+msgstr "Offline mapper"
+
+#: ../../chapter03.rst:80
+msgid ""
+"You can mark certain folders as offline. The folders that are marked as "
+"offline will pre-fetch the content of the folder and cache it locally. To"
+" accomplish this you first click the **\"+\" plus (1)** icon. Then choose"
+" a folder that you would like to have access to while offline. Once a "
+"folder has been marked as offline, it will show in this list **(2)**."
+msgstr "Du kan markere bestemte mapper som offline. De mapper, der er markeret som offline, vil forudhente indholdet af mappen og cache det lokalt. For at gøre dette skal du først klikke på **\"+\" plus (1)** ikonet. Vælg derefter en mappe, som du gerne vil have adgang til, mens du er offline. Når en mappe er markeret som offline, vil den blive vist på denne liste **(2)**."
+
+#: ../../chapter03.rst:86
+msgid "Locked Files"
+msgstr "Låste filer"
+
+#: ../../chapter03.rst:88
+msgid ""
+"If any of the files are currently in **\"Locked\"** status, you will see "
+"it in this view."
+msgstr "Hvis nogen af filerne er i **\"Låst\"** status, vil du se det i denne visning."
+
+#: ../../chapter03.rst:93
+msgid "Pending Check-Ins"
+msgstr "Afventende Check-Ins"
+
+#: ../../chapter03.rst:95
+msgid ""
+"If any of the files are currently **Checked Out** you will see them "
+"listed in this view."
+msgstr "Hvis nogen af filerne er **Checked Out** vil du se dem opført i denne visning."
+

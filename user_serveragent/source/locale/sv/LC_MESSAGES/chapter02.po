@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "2 Installation"
+msgstr "2 Installation"
+
+#: ../../chapter02.rst:6
+msgid ""
+"You can download and install the File Server Agent software directly from"
+" the Web Portal. Complete the following steps to install the |prodname| "
+"File Server Agent software on your file server."
+msgstr "Du kan ladda ner och installera programvaran File Server Agent direkt från webbportalen. Följ dessa steg för att installera |prodname| File Server Agent-programvaran på din filserver."
+
+#: ../../chapter02.rst:11
+msgid "2.1 System Requirement"
+msgstr "2.1 Systemkrav"
+
+#: ../../chapter02.rst:13
+msgid "File Server Agent can be installed on the following OS"
+msgstr "File Server Agent kan installeras på följande operativsystem"
+
+#: ../../chapter02.rst:15
+msgid "Server OS"
+msgstr "Server OS"
+
+#: ../../chapter02.rst:17
+msgid "Windows 2022"
+msgstr "Windows 2022"
+
+#: ../../chapter02.rst:18
+msgid "Windows 2019"
+msgstr "Windows 2019"
+
+#: ../../chapter02.rst:19
+msgid "Windows 2016"
+msgstr "Windows 2016"
+
+#: ../../chapter02.rst:21
+msgid "Client OS"
+msgstr "Klient-OS"
+
+#: ../../chapter02.rst:23
+msgid "Windows 10"
+msgstr "Windows 10"
+
+#: ../../chapter02.rst:24
+msgid "Windows 8.1"
+msgstr "Windows 8.1"
+
+#: ../../chapter02.rst:25
+msgid "Windows 8.0"
+msgstr "Windows 8.0"
+
+#: ../../chapter02.rst:26
+msgid "Windows 7"
+msgstr "Windows 7"
+
+#: ../../chapter02.rst:27
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+#: ../../chapter02.rst:28
+msgid "Windows XP"
+msgstr "Windows XP"
+
+#: ../../chapter02.rst:33
+msgid "2.2 Preparation"
+msgstr "2.2 Förberedelse"
+
+#: ../../chapter02.rst:35
+msgid ""
+"File Server Agent depends on .NET framework 2.0 or later. If you are "
+"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"need to prepare the .NET environment. This usually can be done from the "
+"Windows Server Manager > Manage Roles and Features and then in the "
+"features section, select .NET Framework 3.5"
+msgstr "File Server Agent är beroende av .NET framework 2.0 eller senare. Om du installerar File Server Agent på Windows Server 2022/2019/2016, behöver du förbereda .NET-miljön. Detta kan vanligtvis göras från Windows Server Manager > Hantera roller och funktioner och sedan i avsnittet för funktioner, välj .NET Framework 3.5"
+
+#: ../../chapter02.rst:40
+msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
+msgstr "WINDOWS SERVER 2016 .NET FRAMEWORK-FUNKTION"
+
+#: ../../chapter02.rst:43
+msgid ""
+"If you are installing File Server Agent on Windows 8/Windows 10, you can "
+"get .NET framework 2.0 (3.5) installed from \"Program Files\" -> Windows "
+"Components."
+msgstr "Om du installerar File Server Agent på Windows 8/Windows 10 kan du få .NET framework 2.0 (3.5) installerat från \"Programfiler\" -> Windows-komponenter."
+
+#: ../../chapter02.rst:48
+msgid "WINDOWS 10 .NET FRAMEWORK 3.5 FEATURE"
+msgstr "WINDOWS 10 .NET FRAMEWORK 3.5-FUNKTION"
+
+#: ../../chapter02.rst:53
+msgid "2.3 Install"
+msgstr "2.3 Installera"
+
+#: ../../chapter02.rst:57
+msgid ""
+"Always install |prodname| File Server Agent as a Tenant Administrator "
+"when you are at the login dialog."
+msgstr "Installera alltid |prodname| File Server Agent som en Tenant Administrator när du är vid inloggningsdialogen."
+
+#: ../../chapter02.rst:59
+msgid ""
+"File Server Agent belongs to a specific Tenant instead of belonging to a "
+"specific user. So it is best to download the File Server Agent as the "
+"Tenant Administrator and set it up to connect to the same Tenant "
+"Administrator's account."
+msgstr "File Server Agent tillhör en specifik hyresgäst istället för att tillhöra en specifik användare. Därför är det bäst att ladda ner File Server Agent som hyresgästadministratören och konfigurera den för att ansluta till samma hyresgästadministratörs konto."
+
+#: ../../chapter02.rst:62
+msgid "Step 1 - Download the Installer Package"
+msgstr "Steg 1 - Ladda ner installationspaketet"
+
+#: ../../chapter02.rst:64
+msgid ""
+"From the File Server you wish to install the File Server Agent; open a "
+"browser and log in to the Web Portal as the Tenant Administrator. From "
+"the Management Console, click the **(+)** in the \"Remote Active "
+"Directory\" section on the right-hand side."
+msgstr "Från filservern där du vill installera File Server Agent; öppna en webbläsare och logga in på webbportalen som administratör för hyresgästen. Från hanteringskonsolen klickar du på **(+)** i avsnittet \"Remote Active Directory\" på höger sida."
+
+#: ../../chapter02.rst:69
+msgid "SERVER AGENT DOWNLOADS ACCESS"
+msgstr "SERVERAGENT NEDLADDNINGAR ÅTKOMST"
+
+#: ../../chapter02.rst:71
+msgid ""
+"In the pop-up window, choose your Download Package from the pull-down "
+"menu and click **Go** to begin the installation."
+msgstr "I popup-fönstret väljer du ditt nedladdningspaket från rullgardinsmenyn och klickar på **Go** för att starta installationen."
+
+#: ../../chapter02.rst:73
+msgid ""
+"A window will open. Click the MSI file at the bottom of the browser to "
+"open the installer."
+msgstr "Ett fönster kommer att öppnas. Klicka på MSI-filen längst ned i webbläsaren för att öppna installationsprogrammet."
+
+#: ../../chapter02.rst:78
+msgid "OPEN THE INSTALLER"
+msgstr "ÖPPNA INSTALLATIONSPROGRAMMET"
+
+#: ../../chapter02.rst:82
+msgid ""
+"File Server agent software is capable of synchronizing three things "
+"between the local file server and remote cloud storage account."
+msgstr "Filserveragentprogramvaran kan synkronisera tre saker mellan den lokala filservern och det fjärran molnlagringskontot."
+
+#: ../../chapter02.rst:84
+msgid "synchronize selected files and folders."
+msgstr "synkronisera utvalda filer och mappar."
+
+#: ../../chapter02.rst:85
+msgid "synchronize selected Active Directory users from local to cloud."
+msgstr "synkronisera utvalda Active Directory-användare från lokalt till moln."
+
+#: ../../chapter02.rst:86
+msgid "synchronize NTFS permissions on the local file server to cloud."
+msgstr "synkronisera NTFS-behörigheter från den lokala filservern till molnet."
+
+#: ../../chapter02.rst:88
+msgid ""
+"You can start installing file server agent from \"Adding Remote Active "
+"Directory\" or from \"Adding Team Folder via Remote Server Agent\"."
+msgstr "Du kan börja installera filserveragenten från \"Lägga till fjärrstyrd Active Directory\" eller från \"Lägga till teammapp via fjärrserveragent\"."
+
+#: ../../chapter02.rst:91
+msgid "Step 2 - Run the Installer Package"
+msgstr "Steg 2 - Kör installationspaketet"
+
+#: ../../chapter02.rst:93
+msgid "Click **\"Run\"** to start the installation."
+msgstr "Klicka **\"Kör\"** för att starta installationen."
+
+#: ../../chapter02.rst:98
+msgid "RUN THE SERVER AGENT INSTALLER"
+msgstr "KÖR SERVERAGENTINSTALLATIONEN"
+
+#: ../../chapter02.rst:101
+msgid "Step 3 - Welcome Screen"
+msgstr "Steg 3 - Välkomstskärm"
+
+#: ../../chapter02.rst:103 ../../chapter02.rst:111
+msgid "On the Welcome Screen choose **\"Next\"** to continue."
+msgstr "På välkomstskärmen väljer du **\"Nästa\"** för att fortsätta."
+
+#: ../../chapter02.rst:108
+msgid "WELCOME SCREEN"
+msgstr "VÄLKOMSTSKÄRM"
+
+#: ../../chapter02.rst:114
+msgid "Step 4 - License Agreement"
+msgstr "Steg 4 - Licensavtal"
+
+#: ../../chapter02.rst:116
+msgid ""
+"Read and accept the license agreement by choosing **\"I Agree\"** and "
+"click the **\"Next\"** button."
+msgstr "Läs och acceptera licensavtalet genom att välja **\"Jag godkänner\"** och klicka på **\"Nästa\"**-knappen."
+
+#: ../../chapter02.rst:121
+msgid "ACCEPT LICENSE AGREEMENT"
+msgstr "ACCEPTERA LICENSAVTAL"
+
+#: ../../chapter02.rst:124
+msgid "Step 5 - Confirm Installation"
+msgstr "Steg 5 - Bekräfta installationen"
+
+#: ../../chapter02.rst:126
+msgid ""
+"Now we will complete the File Server Agent installation. Click "
+"**\"Next\"** to finish."
+msgstr "Nu kommer vi att slutföra installationen av File Server Agent. Klicka på **\"Nästa\"** för att avsluta."
+
+#: ../../chapter02.rst:131
+msgid "CONFIRM INSTALLATION"
+msgstr "BEKRÄFTA INSTALLATION"
+
+#: ../../chapter02.rst:134
+msgid "Step 6 - Installation is Finishing"
+msgstr "Steg 6 - Installationen avslutas"
+
+#: ../../chapter02.rst:136
+msgid "It will only take a few minutes to complete the installation."
+msgstr "Det tar bara några minuter att slutföra installationen."
+
+#: ../../chapter02.rst:141
+msgid "FINAL INSTALLATION PROCESS"
+msgstr "SLUTLIG INSTALLATIONSPROCESS"
+
+#: ../../chapter02.rst:144
+msgid "Step 7 - Installation Complete"
+msgstr "Steg 7 - Installationen är klar"
+
+#: ../../chapter02.rst:146
+msgid ""
+"Once the installation is completed, click the **\"Close\"** button to "
+"finish."
+msgstr "När installationen är slutförd, klicka på **\"Stäng\"**-knappen för att avsluta."
+
+#: ../../chapter02.rst:151
+msgid "CLOSE INSTALLATION WINDOW"
+msgstr "STÄNG INSTALLATIONSFÖNSTRET"
+
+#: ../../chapter02.rst:154
+msgid "Step 8 - Restart Your System"
+msgstr "Steg 8 - Starta om ditt system"
+
+#: ../../chapter02.rst:156
+msgid "Just restart your system and File Server Agent is ready to use."
+msgstr "Starta bara om ditt system så är File Server Agent redo att användas."
+
+#: ../../chapter02.rst:161
+msgid "RESTART YOUR SYSTEM"
+msgstr "STARTA OM DITT SYSTEM"
+
+#: ../../chapter02.rst:165
+msgid "Step 9 - Login To |prodname|"
+msgstr "Steg 9 - Logga in på |prodname|"
+
+#: ../../chapter02.rst:167
+msgid ""
+"After the reboot, log back into Windows as the same Windows user. Be "
+"patient, as it will take a few minutes for the Login Panel to display. "
+"Login to |prodname| as using your Tenant Administrator credentials."
+msgstr "Efter omstarten, logga in igen på Windows som samma Windows-användare. Ha tålamod, eftersom det kommer att ta några minuter för inloggningspanelen att visas. Logga in på |prodname| som med dina administratörsuppgifter för hyresgästen."
+
+#: ../../chapter02.rst:170
+msgid ""
+"The File Server Agent can be logged in to the Tenant already if you don't"
+" see the login dialog. You can go to the Web Portal side, login as the "
+"Tenant Administrator and go to the \"Device Manager\" side to see the "
+"File Server Agent."
+msgstr "File Server Agenten kan redan vara inloggad på klienten om du inte ser inloggningsdialogen. Du kan gå till webbportalen, logga in som klientadministratören och gå till \"Enhetshanteraren\" för att se File Server Agenten."
+
+#: ../../chapter02.rst:175
+msgid "LOG IN AS TENANT ADMIN"
+msgstr "LOGGA IN SOM HYRESVÄRDADMIN"
+

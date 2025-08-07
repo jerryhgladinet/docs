@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter2.rst:3
+msgid "Installation"
+msgstr "インストール"
+
+#: ../../chapter2.rst:6
+msgid ""
+"First login to your |prodname| web portal and click the user icon (1) in "
+"the top right corner. Then click the client download button (2) and "
+"download the respective client installer package."
+msgstr "まず、|prodname| のウェブポータルにログインし、右上隅にあるユーザーアイコン(1)をクリックしてください。次に、クライアントダウンロードボタン(2)をクリックし、該当するクライアントインストーラーパッケージをダウンロードしてください。"
+
+#: ../../chapter2.rst:9
+msgid ""
+"**NOTE:** It is very important that you log in to |prodname| as a user "
+"before downloading the Windows or Mac Clients. This gives you access to "
+"client installation packages that are already tied to your |prodname| "
+"account, which makes installation and accessing |prodname| easy."
+msgstr "**注意:** WindowsまたはMacクライアントをダウンロードする前に、ユーザーとして |prodname| にログインすることが非常に重要です。これにより、|prodname| アカウントに既に紐付けられているクライアントインストールパッケージにアクセスでき、インストールや |prodname| へのアクセスが容易になります。"
+
+#: ../../chapter2.rst:14
+msgid "DOWNLOAD YOUR CLIENT"
+msgstr "クライアントをダウンロード"
+
+#: ../../chapter2.rst:16
+msgid ""
+"Once you click the download button you will see a page of options "
+"including Windows Desktop Client (1), Mac OS X Client (2) or Mobile "
+"client (3) and download the associated package."
+msgstr "ダウンロードボタンをクリックすると、Windowsデスクトップクライアント（1）、Mac OS Xクライアント（2）、モバイルクライアント（3）を含むオプションのページが表示され、関連するパッケージをダウンロードできます。"
+
+#: ../../chapter2.rst:21
+msgid "CLIENT DOWNLOAD PAGE"
+msgstr "クライアントダウンロードページ"
+
+#: ../../chapter2.rst:23
+msgid ""
+"Ensure that you choose the appropriate download for your operating system"
+" (eg, Windows 64-bit, Windows 32-bit). Run the downloaded MSI package to "
+"start the installation. Then click \"Next\" and follow the instructions "
+"to finish. In the Setup Windows Client screen, you can customize the "
+"installation if necessary."
+msgstr "ご使用のオペレーティングシステムに適したダウンロードを選択してください（例：Windows 64ビット、Windows 32ビット）。ダウンロードしたMSIパッケージを実行してインストールを開始します。次に「次へ」をクリックし、指示に従って完了させてください。セットアップWindowsクライアント画面では、必要に応じてインストールをカスタマイズできます。"
+
+#: ../../chapter2.rst:28
+msgid "CLOUD WINDOWS CLIENT INSTALLER"
+msgstr "クラウドWindowsクライアントインストーラ"
+
+#: ../../chapter2.rst:31
+msgid "Log In to |prodname|"
+msgstr "ログイン |prodname|"
+
+#: ../../chapter2.rst:33
+msgid ""
+"At the end of the installation, you will be prompted to enter your "
+"|prodname| user account credentials. These credentials will authorize "
+"your |prodname| Windows Client and connect it to your |prodname| user "
+"account. Access to your Windows Client agent is also available under the "
+"Windows Start Menu. If the \"Auto-login next time\" option is selected "
+"(default), the Cloud Windows Client will be launched at Windows Startup. "
+"You can see the client icon in the lower right of the desktop or in the "
+"right-bottom notifications areas of your task bar."
+msgstr "インストール終了時に、|prodname| ユーザーアカウントの認証情報を入力するよう求められます。これらの認証情報により、|prodname| Windowsクライアントが |prodname| ユーザーアカウントに接続されます。Windowsクライアントエージェントには、Windowsスタートメニューからもアクセスできます。\"次回から自動ログイン\"オプションが選択されている場合（デフォルト）、Cloud WindowsクライアントはWindowsのスタートアップ時に起動します。クライアントのアイコンはデスクトップの右下、またはタスクバーの右下の通知エリアに表示されます。"
+
+#: ../../chapter2.rst:38
+msgid "LOGGING INTO |prodname| CLIENT"
+msgstr "ログイン中 |prodname| クライアント"
+
+#: ../../chapter2.rst:41
+msgid "Accessing Your Files and Folders"
+msgstr "ファイルとフォルダへのアクセス"
+
+#: ../../chapter2.rst:43
+msgid "There are two main ways to use |prodname| files and folders."
+msgstr "|prodname| ファイルとフォルダを使用する主な方法は2つあります。"
+
+#: ../../chapter2.rst:45
+msgid "First, there is a |prodname| Cloud Drive."
+msgstr "まず、|prodname| クラウドドライブがあります。"
+
+#: ../../chapter2.rst:47
+msgid ""
+"With the |prodname| Cloud Drive, you have direct on-demand access to your"
+" cloud storage."
+msgstr "|prodname| クラウドドライブを使用すると、クラウドストレージに直接オンデマンドでアクセスできます。"
+
+#: ../../chapter2.rst:49
+msgid "Second, there are synchronization folders."
+msgstr "第二に、同期フォルダがあります。"
+
+#: ../../chapter2.rst:51
+msgid ""
+"Outside of the Cloud Drive, if you don't want to change where your "
+"existing folders are, you can then attach local folders as an access "
+"mechanism. The attached folder will be synchronized with Cloud in a bi-"
+"directional way."
+msgstr "クラウドドライブの外部で、既存のフォルダの場所を変更したくない場合は、アクセスメカニズムとしてローカルフォルダをアタッチすることができます。アタッチされたフォルダは、双方向にクラウドと同期されます。"
+
+#: ../../chapter2.rst:54
+msgid "Cloud Drive Access"
+msgstr "クラウドドライブアクセス"
+
+#: ../../chapter2.rst:56
+msgid ""
+"After the installation is completed, a system tray icon will appear that "
+"allows you to open your |prodname| Drive."
+msgstr "インストールが完了すると、システムトレイアイコンが表示され、|prodname| ドライブを開くことができます。"
+
+#: ../../chapter2.rst:58
+msgid ""
+"If you click the system tray icon **(1)** which will open the tray menu. "
+"You can access the cloud drive by clicking the drive icon **(2)** which "
+"will open Windows Explorer in the Cloud Drive veiw **(3)**."
+msgstr "システムトレイのアイコン **(1)** をクリックするとトレイメニューが開きます。ドライブアイコン **(2)** をクリックすると、クラウドドライブビュー **(3)** でWindowsエクスプローラが開きます。"
+
+#: ../../chapter2.rst:63
+msgid "ACCESSING THE CLOUD DRIVE"
+msgstr "クラウドドライブにアクセスする"
+
+#: ../../chapter2.rst:65
+msgid ""
+"In the Cloud Drive folder, you can do typical Windows folder functions, "
+"and right click to access the Cloud Drive context menu **(4)**."
+msgstr "クラウドドライブフォルダでは、一般的なWindowsフォルダ機能を実行することができ、右クリックしてクラウドドライブのコンテキストメニューにアクセスすることができます **(4)**。"
+
+#: ../../chapter2.rst:67
+msgid ""
+"Back in the Tray Menu, the three-dots **(5)** gives you access to other "
+"important functions (e.g., web portal, force sync, sign out, exit, enable"
+" debug trace)."
+msgstr "トレイメニューに戻ると、三つのドット **(5)** は他の重要な機能（例えば、ウェブポータル、強制同期、サインアウト、終了、デバッグトレースを有効にする）へのアクセスを提供します。"
+
+#: ../../chapter2.rst:72
+msgid "OTHER CLOUD DRIVE FUNCTIONS"
+msgstr "その他のクラウドドライブ機能"
+
+#: ../../chapter2.rst:75
+msgid "Management Console"
+msgstr "管理コンソール"
+
+#: ../../chapter2.rst:77
+msgid ""
+"Also in the Tray Menu there is a Management Console icon **(6)**. Click "
+"this will give you access to the Management Console."
+msgstr "トレイメニューには、管理コンソールアイコン **(6)** もあります。これをクリックすると、管理コンソールにアクセスできます。"
+
+#: ../../chapter2.rst:82
+msgid "ACCESSING THE MANAGEMENT CONSOLE"
+msgstr "管理コンソールへのアクセス"
+

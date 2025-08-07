@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Deployment Options"
+msgstr "خيارات التوزيع"
+
+#: ../../chapter08.rst:5
+msgid ""
+"As documented above, CentreStack has three logical components, the "
+"database, the worker node and the storage. This section will go through "
+"different deployment options."
+msgstr "كما هو موثق أعلاه، يتكون CentreStack من ثلاثة مكونات منطقية، قاعدة البيانات، العقدة العاملة والتخزين. ستمر هذه القسم بخيارات النشر المختلفة."
+
+#: ../../chapter08.rst:9
+msgid "All-In-One Deployment"
+msgstr "التوزيع المتكامل"
+
+#: ../../chapter08.rst:11
+msgid ""
+"This is the simplest deployment. The database , the worker nodes are all "
+"on the same machine as the storage. When you are serving < 1000 users or "
+"you are doing Proof-of-Concept (POC), this is the ideal deployment "
+"because of its simplicity. You can have the CentreStack installer install"
+" the SQL Express/MySQL on the same machine before installing CentreStack "
+"software and then pointing the database to localhost\\\\SQLEXPRESS or "
+"local MySQL. In the All-In-One deployment, the storage location is "
+"typically set to a folder on local C: drive or local D: drive."
+msgstr "هذا هو أبسط توزيع. قاعدة البيانات، وعقد العمل كلها على نفس الجهاز كالتخزين. عندما تخدم < 1000 مستخدم أو تقوم بإثبات المفهوم (POC)، هذا هو التوزيع المثالي بسبب بساطته. يمكنك أن تجعل مثبت CentreStack يثبت SQL Express/MySQL على نفس الجهاز قبل تثبيت برنامج CentreStack ثم توجيه قاعدة البيانات إلى localhost\\SQLEXPRESS أو MySQL المحلي. في التوزيع الشامل، يتم تعيين موقع التخزين عادةً إلى مجلد على القرص C: المحلي أو القرص D: المحلي."
+
+#: ../../chapter08.rst:17
+msgid ""
+"The installer can install SQL EXPRESS so it is a one-click installation "
+"for convenience. No need to do a separate SQL EXPRESS installation."
+msgstr "يمكن للمثبت تثبيت SQL EXPRESS لذا فهو تثبيت بنقرة واحدة للراحة. لا حاجة لإجراء تثبيت منفصل لـ SQL EXPRESS."
+
+#: ../../chapter08.rst:22
+msgid ""
+"If this is the first time you are installing CentreStack, this is the "
+"recommended setup because it is the easiest to setup and only takes 15-30"
+" minutes on a clean machine. The installer will take care of all the "
+"installation without other manual steps."
+msgstr "إذا كانت هذه هي المرة الأولى التي تقوم فيها بتثبيت CentreStack، فهذا هو الإعداد الموصى به لأنه الأسهل في الإعداد ولا يستغرق سوى 15-30 دقيقة على جهاز نظيف. سيتولى المثبت الاهتمام بكل خطوات التثبيت دون خطوات يدوية أخرى."
+
+#: ../../chapter08.rst:26
+msgid ""
+"In the latest CentreStack installer, the installer is capable of doing "
+"the all-in-one installation without asking you to setup database "
+"separately."
+msgstr "في أحدث برنامج تثبيت لـ CentreStack، يكون البرنامج قادرًا على إجراء التثبيت الشامل دون الحاجة إلى إعداد قاعدة البيانات بشكل منفصل."
+
+#: ../../chapter08.rst:29
+msgid "Single-Server Deployment"
+msgstr "التوزيع على خادم واحد"
+
+#: ../../chapter08.rst:31
+msgid ""
+"This is another simple deployment. It is very similar to the All-In-One "
+"deployment. The only difference is that the file storage is off the "
+"machine instead of on the machine."
+msgstr "هذا توزيع بسيط آخر. إنه مشابه جدًا للتوزيع الشامل. الفرق الوحيد هو أن تخزين الملفات يكون خارج الجهاز بدلاً من داخله."
+
+#: ../../chapter08.rst:33
+msgid ""
+"The external file storage can be file storage on a UNC path or it can "
+"also be an object storage service."
+msgstr "يمكن أن يكون التخزين الخارجي للملفات عبارة عن تخزين للملفات على مسار UNC أو يمكن أن يكون أيضًا خدمة تخزين كائنات."
+
+#: ../../chapter08.rst:35
+msgid ""
+"In this deployment, the database and the Worker Node/Web Node are still "
+"deployed on the same machine."
+msgstr "في هذا النشر، لا يزال يتم نشر قاعدة البيانات وعقدة العامل/عقدة الويب على نفس الجهاز."
+
+#: ../../chapter08.rst:40
+msgid "Two-Server Deployment"
+msgstr "توزيع الخادمين"
+
+#: ../../chapter08.rst:42
+msgid ""
+"In the two server deployment, the database is installed in its own "
+"server; away from the CentreStack worker node. Usually, this is an "
+"intermediate step leading to the \"Three-Server Deployment\" and a step "
+"towards scaling up the server farm."
+msgstr "في نشر الخادمين، يتم تثبيت قاعدة البيانات في خادمها الخاص؛ بعيدًا عن عقدة عامل CentreStack. عادةً، هذه خطوة وسيطة تؤدي إلى \"نشر الثلاثة خوادم\" وخطوة نحو توسيع مزرعة الخوادم."
+
+#: ../../chapter08.rst:49
+msgid "Three-Server Deployment for Redundancy"
+msgstr "توزيع الخوادم الثلاثة للتكرار"
+
+#: ../../chapter08.rst:51
+msgid ""
+"The 3-machine deployment is another simple deployment. The database node "
+"is installed separately. Two CentreStack worker nodes are installed. The "
+"\"External URL\" field for each node is the same, such as "
+"\"cloud.acme.com\". The load balancer will do a round robin load "
+"balancing to either node. A variation of the deployment is to set "
+"\"External URL\" field differently for the two worker nodes. When "
+"\"External URL\" field is the same as the load balancer URL, everything "
+"is round robin. When \"External URL\" is different, such as "
+"node1.acme.com and node2.acme.com, the users will have affinity to one of"
+" the node. For example, if user1 is assigned to node1.acme.com, he will "
+"continue to use node1.acme.com. In this deployment, the size of the "
+"cluster is supporting 2000 concurrent-users per node. The benefit is that"
+" if one node is down, there is another node for redundancy."
+msgstr "يُعد توزيع الـ3 آلات توزيعًا بسيطًا آخر. يتم تثبيت عقدة قاعدة البيانات بشكل منفصل. يتم تثبيت عقدتين لعمال CentreStack. يكون حقل \"العنوان الخارجي\" لكل عقدة متماثلًا، مثل \"cloud.acme.com\". سيقوم جهاز التوازن بتحميل التوازن بالتناوب إلى أي من العقدتين. إحدى تنويعات التوزيع هي ضبط حقل \"العنوان الخارجي\" بشكل مختلف لعقدتي العمل. عندما يكون حقل \"العنوان الخارجي\" مطابقًا لعنوان جهاز التوازن، يكون كل شيء بالتناوب. عندما يكون \"العنوان الخارجي\" مختلفًا، مثل node1.acme.com وnode2.acme.com، سيكون للمستخدمين توجه نحو إحدى العقد. على سبيل المثال، إذا تم تعيين المستخدم1 إلى node1.acme.com، سيستمر في استخدام node1.acme.com. في هذا التوزيع، يدعم حجم التجمع 2000 مستخدم متزامن لكل عقدة. الفائدة هي أنه إذا تعطلت عقدة واحدة، يوجد عقدة أخرى كاحتياط."
+
+#: ../../chapter08.rst:65
+msgid "Multiple-Machine Deployment for Scalability"
+msgstr "توزيع على أجهزة متعددة للتوسع"
+
+#: ../../chapter08.rst:67
+msgid ""
+"In this deployment, you will have clear separation of database , storage "
+"service, and the worker nodes in a farm of servers."
+msgstr "في هذا الانتشار، سيكون لديك فصل واضح لقاعدة البيانات، خدمة التخزين، وعقد العمل في مزرعة من الخوادم."
+
+#: ../../chapter08.rst:70
+msgid ""
+"The database  is not a CentreStack worker node; it is just a server that "
+"runs SQL Server or MySQL."
+msgstr "قاعدة البيانات ليست عقدة عاملة في CentreStack؛ إنها مجرد خادم يشغل SQL Server أو MySQL."
+
+#: ../../chapter08.rst:72
+msgid ""
+"The worker nodes are all CentreStack nodes which run the same software. "
+"Most of the time, in the multiple-machine deployment, a hardware load "
+"balancer is used to distribute the load evenly."
+msgstr "عقد العمال هي كلها عقد CentreStack التي تشغل نفس البرمجيات. معظم الوقت، في توزيع متعدد الآلات، يُستخدم موزع تحميل الأجهزة لتوزيع الحمل بالتساوي."
+
+#: ../../chapter08.rst:77
+msgid ""
+"Inside a worker node, there is further division of work between a 'web "
+"node' and the rest 'worker node'."
+msgstr "داخل عقدة العامل، هناك تقسيم أكثر للعمل بين 'عقدة الويب' وبقية 'عقدة العامل'."
+
+#: ../../chapter08.rst:79
+msgid ""
+"The web  nodes are used for user login. After login, the user will be re-"
+"directed to the corresponding worker node. (The web  node can be omitted "
+"if you have an existing Load Balancer)."
+msgstr "يُستخدم عقد الويب لتسجيل دخول المستخدم. بعد تسجيل الدخول، سيتم إعادة توجيه المستخدم إلى عقدة العامل المقابلة. (يمكن حذف عقدة الويب إذا كان لديك موازن تحميل موجود)."
+
+#: ../../chapter08.rst:82
+msgid ""
+"For the load balancing to work, all the worker nodes have to be on the "
+"same DNS domain and same level of sub domain (for example, they can be "
+"covered by same SSL wildcard certificate, such as \\*.acme.com).  The "
+"load balancing requires at least two worker nodes."
+msgstr "لكي يعمل التوازن في الحمل، يجب أن تكون جميع العقد العاملة في نفس نطاق DNS وعلى نفس مستوى النطاق الفرعي (على سبيل المثال، يمكن تغطيتها بشهادة SSL العامة نفسها، مثل \*.acme.com). يتطلب التوازن في الحمل على الأقل عقدتين عاملتين."
+
+#: ../../chapter08.rst:85
+msgid ""
+"Install the CentreStack server on the first worker node machine. Reboot "
+"and setup the cluster admin account."
+msgstr "قم بتثبيت خادم CentreStack على آلة عقدة العامل الأولى. أعد التشغيل وقم بإعداد حساب مسؤول الكتلة."
+
+#: ../../chapter08.rst:89
+msgid ""
+"We recommend you setup and configure the first node and make sure it runs"
+" smoothly first, before you setup and install the second node."
+msgstr "نوصي بإعداد العقدة الأولى وتهيئتها والتأكد من أنها تعمل بسلاسة أولاً، قبل أن تقوم بإعداد وتثبيت العقدة الثانية."
+
+#: ../../chapter08.rst:92
+msgid "Install the CentreStack server on all the other work nodes."
+msgstr "قم بتثبيت خادم CentreStack على جميع عقد العمل الأخرى."
+
+#: ../../chapter08.rst:94
+msgid ""
+"On the database configuration window, use the same database server as the"
+" first installation."
+msgstr "في نافذة تكوين قاعدة البيانات، استخدم نفس خادم قاعدة البيانات كما في التثبيت الأول."
+
+#: ../../chapter08.rst:97
+msgid ""
+"Please DO NOT add web nodes to the Cluster Worker Node list. Most of the "
+"time when you have a multi-worker-node design, you are servicing many "
+"users, and most of the time you have your own load balancer. In the case "
+"when you have your own load balancer, the web node functionality is "
+"merged into worker node. So you can have a zero-web-node configuration."
+msgstr "يرجى عدم إضافة عقد ويب إلى قائمة عقد العامل في الكتلة. في معظم الأحيان عندما يكون لديك تصميم متعدد العقد العاملة، فأنت تخدم العديد من المستخدمين، وفي معظم الأحيان لديك موازن تحميل خاص بك. في الحالة التي يكون لديك موازن تحميل خاص بك، يتم دمج وظيفة عقدة الويب في عقدة العامل. لذا يمكنك أن تكون لديك تكوين بدون عقد ويب."
+
+#: ../../chapter08.rst:102
+msgid "Setup DNS Load balancing for all worker nodes."
+msgstr "إعداد توازن تحميل DNS لجميع عقد العمل."
+
+#: ../../chapter08.rst:104
+msgid ""
+"Most of the time you set up a firewall or a load balancer and point the "
+"DNS to the load balancer. The load balancer will then forward to the "
+"CentreStack worker node."
+msgstr "معظم الوقت تقوم بإعداد جدار حماية أو موازن تحميل وتوجيه نظام أسماء النطاقات إلى موازن التحميل. ثم يقوم موازن التحميل بالتوجيه إلى عقدة عامل CentreStack."
+
+#: ../../chapter08.rst:109
+msgid ""
+"If you are using hardware load balancer, you can skip web-nodes and have "
+"an all-worker-node cluster."
+msgstr "إذا كنت تستخدم موازن تحميل الأجهزة، يمكنك تخطي عقد الويب والحصول على مجموعة عقد عاملة بالكامل."
+
+#: ../../chapter08.rst:112
+msgid "Typical Deployment in Enterprises"
+msgstr "النشر النموذجي في المؤسسات"
+
+#: ../../chapter08.rst:114
+msgid ""
+"Here is a typical deployment schema in Visio Diagram for very big "
+"deployments in large enterprises. In this deployment, the management "
+"functionality can be separated to internal management node (A property of"
+" worker node). When management functionality is separated to internal DNS"
+" names, the management web portal is internal only and thus more secure."
+msgstr "ها هو مخطط نشر نموذجي في رسم بياني Visio للنشرات الكبيرة في المؤسسات الكبيرة. في هذا النشر، يمكن فصل وظائف الإدارة إلى عقدة إدارة داخلية (خاصية العقدة العاملة). عندما يتم فصل وظائف الإدارة إلى أسماء DNS داخلية، يكون بوابة الويب الإدارية داخلية فقط وبالتالي أكثر أمانًا."
+
+#: ../../chapter08.rst:121
+msgid "High Availability Deployment"
+msgstr "توزيع عالي التوفر"
+
+#: ../../chapter08.rst:123
+msgid ""
+"For high availability, you can prepare the high availability deployment "
+"in three different layers and make sure it is high availability within "
+"each layer."
+msgstr "لضمان التوفر العالي، يمكنك إعداد توزيع التوفر العالي في ثلاث طبقات مختلفة والتأكد من أنه يتمتع بالتوفر العالي ضمن كل طبقة."
+
+#: ../../chapter08.rst:126
+msgid "Storage"
+msgstr "تخزين"
+
+#: ../../chapter08.rst:128
+msgid ""
+"If you are using Microsoft File Server Share as your storage, you can "
+"prepare it to be replicated, for example using DFS."
+msgstr "إذا كنت تستخدم خادم ملفات مايكروسوفت كوسيلة تخزين، يمكنك تجهيزه ليتم تكراره، على سبيل المثال باستخدام DFS."
+
+#: ../../chapter08.rst:130
+msgid ""
+"If you are using Amazon S3 or Windows Azure Blob, by default it is "
+"redundant and high availability."
+msgstr "إذا كنت تستخدم Amazon S3 أو Windows Azure Blob، فبشكل افتراضي هو متكرر ومتوفر بدرجة عالية."
+
+#: ../../chapter08.rst:132
+msgid "Database"
+msgstr "قاعدة البيانات"
+
+#: ../../chapter08.rst:134
+msgid ""
+"You can use the Microsoft SQL Server Availability Group Clustering or "
+"Availability Group Fail Over to make database high availability."
+msgstr "يمكنك استخدام تجمع مجموعة توفر خادم Microsoft SQL أو فشل التبديل في مجموعة التوفر لجعل قاعدة البيانات عالية التوفر."
+
+#: ../../chapter08.rst:137
+msgid "CentreStack Worker Node"
+msgstr "عقدة عامل CentreStack"
+
+#: ../../chapter08.rst:139
+msgid ""
+"You can have multiple centrestack worker nodes in a round robin load "
+"balancing setup to provide high availability."
+msgstr "يمكنك أن تمتلك عقد عمال مركز الاستقرار المتعددة في إعداد التوازن التحميلي الدائري لتوفير توافرية عالية."
+

@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../access_upload.rst:2
+msgid "Accessing Folders and Files"
+msgstr "访问文件夹和文件"
+
+#: ../../access_upload.rst:5
+msgid ""
+"After logging in, users will see the files and folders they have access "
+"to, as shown on the following screen."
+msgstr "登录后，用户将看到他们有权访问的文件和文件夹，如下屏幕所示。"
+
+#: ../../access_upload.rst:9
+msgid ""
+"Tap on a folder to see the files and subfolders it contains. Tapping on "
+"the 3 vertical dots icon for any item will display edit and collaboration"
+" options."
+msgstr "点击一个文件夹可以查看它包含的文件和子文件夹。点击任何项目的3个垂直点图标将显示编辑和协作选项。"
+
+#: ../../access_upload.rst:11
+msgid ""
+"Which are **Copy, Cut, Rename, Delete, Share, Share Manager and More "
+"Info**. Detailed explanations are given in later sections."
+msgstr "其中包括 **复制、剪切、重命名、删除、共享、共享管理以及更多信息**。后续章节将提供详细解释。"
+
+#: ../../access_upload.rst:15
+msgid ""
+"Users can also long press to make multiple selection, then copy, cut or "
+"delete on selected folders and files using the icons in the top menu."
+msgstr "用户也可以长按进行多选，然后使用顶部菜单中的图标复制、剪切或删除选定的文件夹和文件。"
+
+#: ../../access_upload.rst:21
+msgid "Top Menu Icons"
+msgstr "顶部菜单图标"
+
+#: ../../access_upload.rst:23
+msgid "Here are the icons of the top menu bar."
+msgstr "这里是顶部菜单栏的图标。"
+
+#: ../../access_upload.rst:28
+msgid "Refresh"
+msgstr "刷新"
+
+#: ../../access_upload.rst:30
+msgid ""
+"To refresh a screen, swipe down or touch the **Refresh** (1) button in "
+"the top menu, and the screen will be refreshed automatically."
+msgstr "要刷新屏幕，请向下滑动或触摸顶部菜单中的 **刷新** (1) 按钮，屏幕将自动刷新。"
+
+#: ../../access_upload.rst:33
+msgid "Show Deleted Folders and Files"
+msgstr "显示已删除的文件夹和文件"
+
+#: ../../access_upload.rst:35
+msgid ""
+"Tap on the second icon (2) to switch between **Show Deleted Files** and "
+"**Hide Deleted Files**. The default mode is **Hide Deleted Files**."
+msgstr "点击第二个图标（2）来切换 **显示已删除文件** 和 **隐藏已删除文件**。默认模式是 **隐藏已删除文件**。"
+
+#: ../../access_upload.rst:40
+msgid "Change View Mode"
+msgstr "更改查看模式"
+
+#: ../../access_upload.rst:42
+msgid ""
+"Press the third icon (3) to switch view mode between **List View** and "
+"**Grid View**. The default view mode is **List View**."
+msgstr "点击第三个图标（3）可以在 **列表视图** 和 **网格视图** 之间切换。默认视图模式为 **列表视图**。"
+
+#: ../../access_upload.rst:47
+msgid "Sort Menu"
+msgstr "排序菜单"
+
+#: ../../access_upload.rst:49
+msgid ""
+"The **Sort Menu** (4) allows user to change the order in which the files "
+"are displayed."
+msgstr "The **排序菜单** (4) 允许用户更改文件显示的顺序。"
+
+#: ../../access_upload.rst:53
+msgid "**Z-A** displays the files in reverse alphabetical order."
+msgstr "**Z-A** 按字母顺序倒序显示文件。"
+
+#: ../../access_upload.rst:55
+msgid "**A-Z** displays the files in alphabetical order."
+msgstr "**A-Z** 按字母顺序显示文件。"
+
+#: ../../access_upload.rst:57
+msgid ""
+"**Last Modified** displays the files in the order in which they were last"
+" edited."
+msgstr "**最后修改** 显示文件按照它们最后被编辑的顺序。"
+
+#: ../../access_upload.rst:59
+msgid ""
+"**Oldest** displays the files that were added first at the top of the "
+"file browser."
+msgstr "**最旧的** 文件将显示在文件浏览器的顶部。"
+
+#: ../../access_upload.rst:61
+msgid ""
+"**Largest** displays the files in the order that the largest files appear"
+" first."
+msgstr "**最大** 的文件按最大文件首先出现的顺序显示。"
+
+#: ../../access_upload.rst:63
+msgid ""
+"**Smallest** displays the files in the order that the smallest files "
+"appear first."
+msgstr "**最小** 显示文件的顺序是最小的文件首先出现。"
+
+#: ../../access_upload.rst:65
+msgid ""
+"**Extension A-Z** displays the files in the alphabetical order of their "
+"extension."
+msgstr "**扩展名 A-Z** 按照文件扩展名的字母顺序显示文件。"
+
+#: ../../access_upload.rst:67
+msgid ""
+"**Extension Z-A** displays the files in the reverse order of the alphabet"
+" by their extension."
+msgstr "**扩展名 Z-A** 按扩展名的字母顺序倒序显示文件。"
+
+#: ../../access_upload.rst:71
+msgid "Main operations"
+msgstr "主要操作"
+
+#: ../../access_upload.rst:73
+msgid ""
+"Tapping on the plus (+) icon will give users several options for the "
+"folder they are in: **Upload Files** (1), **Upload Media** (2), **Take "
+"Photo to Upload or Scan** (3), **Create New Folder** (4) and **Create New"
+" File** (5)."
+msgstr "点击加号（+）图标将为用户提供几个选项，用于他们所在的文件夹：**上传文件** (1)，**上传媒体** (2)，**拍照上传或扫描** (3)，**创建新文件夹** (4) 以及 **创建新文件** (5)。"
+
+#: ../../access_upload.rst:79
+msgid "Upload Files"
+msgstr "上传文件"
+
+#: ../../access_upload.rst:81
+msgid ""
+"By selecting the **Upload Files** icon, user can add existing files from "
+"the phone storage. It will be redirected to a phone storage screen where "
+"can navigate and select a file to upload."
+msgstr "通过选择 **上传文件** 图标，用户可以从手机存储中添加现有文件。它将被重定向到手机存储屏幕，在那里可以导航并选择要上传的文件。"
+
+#: ../../access_upload.rst:83
+msgid ""
+"User can also long press files to multi-select, then press **SELECT** to "
+"complete the upload."
+msgstr "用户也可以长按文件进行多选，然后按 **SELECT** 完成上传。"
+
+#: ../../access_upload.rst:88
+msgid "Uploading Media"
+msgstr "上传媒体"
+
+#: ../../access_upload.rst:90
+msgid ""
+"User can directly access media files from the Media apps by selecting the"
+" **Upload Media** icon, and add existing files from those apps."
+msgstr "用户可以通过选择 **上传媒体** 图标，直接从媒体应用程序访问媒体文件，并从这些应用程序添加现有文件。"
+
+#: ../../access_upload.rst:95
+msgid "Take Photo to Upload or Scan"
+msgstr "拍照上传或扫描"
+
+#: ../../access_upload.rst:97
+msgid ""
+"User will be prompted for media files permission if CentreStack app have "
+"not previously been granted this permission."
+msgstr "如果CentreStack应用之前未获得此权限，用户将被提示媒体文件权限。"
+
+#: ../../access_upload.rst:102
+msgid "Take Photo to Upload"
+msgstr "拍照上传"
+
+#: ../../access_upload.rst:104
+msgid "Take and upload new photo when select the **Camera** (1) icon."
+msgstr "选择 **相机** (1) 图标时拍摄并上传新照片。"
+
+#: ../../access_upload.rst:109
+msgid "Take Photo to Scan"
+msgstr "拍照扫描"
+
+#: ../../access_upload.rst:111
+msgid ""
+"Take a new photo and scan to upload it when tapping on the **Scan** (2) "
+"icon."
+msgstr "拍摄新照片并在点击 **扫描** (2) 图标时上传。"
+
+#: ../../access_upload.rst:113
+msgid "First, crop the photo to the ideal shape, and touch **NEXT**."
+msgstr "首先，将照片裁剪成理想的形状，然后点击 **下一步**。"
+
+#: ../../access_upload.rst:117
+msgid ""
+"On the second page, change the color filter applied to the photo. Tap on "
+"**SAVE** to upload the photo."
+msgstr "在第二页，更改应用于照片的颜色滤镜。点击 **保存** 上传照片。"
+
+#: ../../access_upload.rst:122
+msgid "Create New Folders"
+msgstr "创建新文件夹"
+
+#: ../../access_upload.rst:124
+msgid ""
+"To create new folders, press the plus (+) icon at the bottom right of the"
+" screen. Then select the **Add Folder** icon."
+msgstr "要创建新文件夹，请按屏幕右下角的加号（+）图标。然后选择 **添加文件夹** 图标。"
+
+#: ../../access_upload.rst:126
+msgid ""
+"After entering the name of the folder and tapping on the **CREATE** "
+"button, a new folder will be created."
+msgstr "输入文件夹名称并点击 **创建** 按钮后，将创建一个新文件夹。"
+
+#: ../../access_upload.rst:131
+msgid "Create New Files"
+msgstr "创建新文件"
+
+#: ../../access_upload.rst:133
+msgid ""
+"The **New File** icon allows to create a blank new Office file. User can "
+"choose between an Excel, Word, PowerPoint or a Text file."
+msgstr "点击 **新建文件** 图标可以创建一个空白的新Office文件。用户可以选择创建Excel、Word、PowerPoint或文本文件。"
+
+#: ../../access_upload.rst:137
+msgid ""
+"Choose the type of file and enter the name in the text box. Then touch "
+"**CREATE** to save."
+msgstr "选择文件类型并在文本框中输入名称。然后触摸 **CREATE** 以保存。"
+

@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:2
+msgid "Active Directory Integration"
+msgstr "Active Directory 集成"
+
+#: ../../chapter05.rst:4
+msgid "There are three ways to connect Active Directory into CentreStack."
+msgstr "有三种方法将 Active Directory 连接到 CentreStack。"
+
+#: ../../chapter05.rst:8
+msgid "1. LDAP"
+msgstr "LDAP"
+
+#: ../../chapter05.rst:10
+msgid ""
+"For the first way, if the Active Directory is in the same Local Area "
+"Network (LAN), then a direct LDAP/LDAPS connection is recommended."
+msgstr "对于第一种方式，如果活动目录位于同一局域网(LAN)内，则建议使用直接的LDAP/LDAPS连接。"
+
+#: ../../chapter05.rst:15
+msgid "2. Server Agent Proxy"
+msgstr "2. 服务器代理代理"
+
+#: ../../chapter05.rst:17
+msgid ""
+"For the Second way, if the Active Directory is in a remote office, such "
+"as on a customer's premise, away from the CentreStack server, then a "
+"client agent software called, \"File Server Agent\" can be installed on "
+"the remote file server to help import Active Directory users over to "
+"CentreStack."
+msgstr "对于第二种方式，如果活动目录位于远程办公室，例如在客户的场所，远离CentreStack服务器，那么可以在远程文件服务器上安装名为“文件服务器代理”的客户端软件，以帮助将活动目录用户导入到CentreStack。"
+
+#: ../../chapter05.rst:23
+msgid "CentreStack allows you to connect to multiple active directory services."
+msgstr "CentreStack允许您连接到多个活动目录服务。"
+
+#: ../../chapter05.rst:26
+msgid "3. Azure AD Support"
+msgstr "3. 支持Azure AD"
+
+#: ../../chapter05.rst:27
+msgid ""
+"Via the Azure AD support, you can setup Azure AD so users can be "
+"authenticated by Azure AD instead of from a local Active Directory."
+msgstr "通过 Azure AD 支持，您可以设置 Azure AD，以便用户可以通过 Azure AD 进行身份验证，而不是来自本地 Active Directory。"
+
+#: ../../chapter05.rst:31
+msgid "**\"Proxied AD User\"**"
+msgstr "**\"代理 AD 用户\"**"
+
+#: ../../chapter05.rst:33
+msgid ""
+"It is also possible to use the Active Directory from a remote location "
+"where the server agent (included client software) is used. In this case "
+"\"Proxied AD User\" will be referred to users imported from server "
+"agent's side of the Active Directory."
+msgstr "也可以在服务器代理（包括客户端软件）使用的远程位置使用Active Directory。在这种情况下，“Proxied AD User”将指代从服务器代理端导入的Active Directory用户。"
+
+#: ../../chapter05.rst:36
+msgid "**\"AD User\"**"
+msgstr "**\"AD 用户\"**"
+
+#: ../../chapter05.rst:38
+msgid ""
+"The \"AD user\" is reserved to refer to users from local LDAP Active "
+"Directory."
+msgstr "“AD用户”是指来自本地LDAP活动目录的用户。"
+
+#: ../../chapter05.rst:43
+msgid ""
+"When should you use LDAP, and when should you use \"Server Agent\" for AD"
+" integration?"
+msgstr "您应该何时使用LDAP，以及何时应该使用“Server Agent”进行AD集成？"
+
+#: ../../chapter05.rst:45
+msgid "If AD is local to the CentreStack server, then LDAP is recommended."
+msgstr "如果AD位于CentreStack服务器本地，则推荐使用LDAP。"
+
+#: ../../chapter05.rst:47
+msgid "If AD is remote, then Server Agent is recommended."
+msgstr "如果AD是远程的，那么建议使用服务器代理。"
+

@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:4
+msgid "4 Folder and File Features"
+msgstr "4 Características de Carpetas y Archivos"
+
+#: ../../chapter04.rst:6
+msgid ""
+"When you Right click on a folder or a file you can access the context "
+"menu, which allows you to Share, Get share link, enable offline Access, "
+"Open in web browser, and Force Refresh."
+msgstr "Cuando haces clic derecho en una carpeta o un archivo puedes acceder al menú contextual, que te permite Compartir, Obtener enlace de compartición, habilitar Acceso sin conexión, Abrir en el navegador web y Forzar actualización."
+
+#: ../../chapter04.rst:9
+msgid "Folder and File Sharing"
+msgstr "Compartir Carpetas y Archivos"
+
+#: ../../chapter04.rst:11
+msgid ""
+"To share a file or folder, simply right click on it and select "
+"**\"Share\"** from the menu item:"
+msgstr "Para compartir un archivo o carpeta, simplemente haz clic derecho sobre él y selecciona **\"Compartir\"** del elemento del menú:"
+
+#: ../../chapter04.rst:15
+msgid ""
+"A wizard will be launched to allow you to \"Invite People\". To set this "
+"up, click the **Share Icon (1)**. In the new window enter the email(s) "
+"**(2)** of anyone you wish to share this with seperated by semicolons "
+"(;). Click **\"CONTINUE\" (3)**."
+msgstr "Se iniciará un asistente para permitirte \"Invitar a Personas\". Para configurarlo, haz clic en el **Icono de Compartir (1)**. En la nueva ventana, introduce el o los correos electrónicos **(2)** de las personas con las que deseas compartir esto, separados por punto y coma (;). Haz clic en **\"CONTINUAR\" (3)**."
+
+#: ../../chapter04.rst:17
+msgid ""
+"In the next window you can choose how you want to share: expiration time,"
+" access rights (read only, view only, full control). After making your "
+"option selections, choose **\"SHARE\" (4)** or **\"GET LINK\" (5)**. "
+"\"SHARE\" sends emails to your guest users and \"GET LINK\" opens a "
+"window with the URL you can use to create a custom email or use some "
+"other method to communicate with your guest users."
+msgstr "En la siguiente ventana puedes elegir cómo quieres compartir: tiempo de caducidad, derechos de acceso (solo lectura, solo visualización, control total). Después de seleccionar tus opciones, elige **\"COMPARTIR\" (4)** o **\"OBTENER ENLACE\" (5)**. \"COMPARTIR\" envía correos electrónicos a tus usuarios invitados y \"OBTENER ENLACE\" abre una ventana con la URL que puedes usar para crear un correo electrónico personalizado o utilizar algún otro método para comunicarte con tus usuarios invitados."
+
+#: ../../chapter04.rst:23
+msgid "Edit Share"
+msgstr "Editar Compartir"
+
+#: ../../chapter04.rst:24
+msgid ""
+"If a file or a folder is already shared, you can right click on the "
+"shared file or folder and select 'Share' to access the edit share menu. "
+"Here you can delete the share, edit the share, resend the notification "
+"email, show share link and enable and disable public link."
+msgstr "Si un archivo o una carpeta ya está compartido, puedes hacer clic derecho en el archivo o carpeta compartida y seleccionar 'Compartir' para acceder al menú de edición de compartición. Aquí puedes eliminar la compartición, editar la compartición, reenviar el correo electrónico de notificación, mostrar el enlace de compartición y habilitar y deshabilitar el enlace público."
+
+#: ../../chapter04.rst:30
+msgid "Troubleshooting"
+msgstr "Resolución de problemas"
+
+#: ../../chapter04.rst:32
+msgid ""
+"To verify that the Cloud Drive Mac Client \"Finder\" extension is active,"
+" you can check the setting by clicking the System Preferences button and "
+"choosing **\"Extensions\"** from the preferences options."
+msgstr "Para verificar que la extensión \"Finder\" del Cliente de Cloud Drive para Mac está activa, puedes comprobar la configuración haciendo clic en el botón de Preferencias del Sistema y eligiendo **\"Extensiones\"** de las opciones de preferencias."
+
+#: ../../chapter04.rst:36
+msgid ""
+"This will open the Extensions window. You will find the setting under the"
+" \"All\" category."
+msgstr "Esto abrirá la ventana de Extensiones. Encontrarás la configuración en la categoría \"Todo\"."
+
+#: ../../chapter04.rst:42
+msgid "Icon Overlays"
+msgstr "Superposiciones de Iconos"
+
+#: ../../chapter04.rst:44
+msgid "There are three icon overlays on files to represent different states."
+msgstr "Hay tres superposiciones de iconos en los archivos para representar diferentes estados."
+
+#: ../../chapter04.rst:48
+msgid "**Thin Green Check Mark**"
+msgstr "**Marca de verificación verde delgada**"
+
+#: ../../chapter04.rst:50
+msgid ""
+"This icon overlay means files are in the cloud but the file content is "
+"not local."
+msgstr "Este icono de superposición indica que los archivos están en la nube pero el contenido del archivo no es local."
+
+#: ../../chapter04.rst:52
+msgid "**Solid Circle Green Check Mark**"
+msgstr "**Marca de verificación verde círculo sólido**"
+
+#: ../../chapter04.rst:54
+msgid ""
+"This icon overlay means files are in the cloud and are also available "
+"from local."
+msgstr "Este icono de superposición indica que los archivos están en la nube y también están disponibles localmente."
+
+#: ../../chapter04.rst:56
+msgid "**Blue Uploading Icon**"
+msgstr "**Icono de Subida Azul**"
+
+#: ../../chapter04.rst:58
+msgid "This icon shows the file is being uploaded and not completely done yet."
+msgstr "Este icono muestra que el archivo está siendo subido y aún no se ha completado."
+

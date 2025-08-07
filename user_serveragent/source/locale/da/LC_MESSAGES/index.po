@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "1 Introduction"
+msgstr ""
+
+#: ../../index.rst:6
+msgid ""
+"|prodname| File Server Agent is a client agent software that runs on "
+"Windows machines and connect network shares on the Windows machine to "
+"|prodname|."
+msgstr "|prodname| File Server Agent er en klientagentsoftware, der kører på Windows-maskiner og forbinder netværksdelinger på Windows-maskinen med |prodname|."
+
+#: ../../index.rst:10
+msgid ""
+"It is a file server enablement to allow remote and mobile access, while "
+"at the same time, provide business continuity through file "
+"synchronization and version control."
+msgstr "Det er en aktivering af filserver for at tillade fjern- og mobiladgang, samtidig med at det giver forretningskontinuitet gennem filsynkronisering og versionskontrol."
+
+#: ../../index.rst:12
+msgid ""
+"It is also a hybrid cloud setup that allows files and folders to be "
+"accessed from both local area network (file server map drive) and from "
+"remote locations/Cloud/Internet (via virtual mapped drive)."
+msgstr "Det er også en hybrid cloud-opsætning, der gør det muligt at få adgang til filer og mapper fra både lokalt netværk (filserver netværksdrev) og fra fjerne steder/Cloud/Internet (via virtuelt tilkoblet drev)."
+
+#: ../../index.rst:16
+msgid "This is |prodname| File Server Agent Administration Guide."
+msgstr "Dette er |prodname| administrationsvejledning for filserveragent."
+
+#: ../../index.rst:20
+msgid "**File Server Agent** version 9.7.2576 or later"
+msgstr "**File Server Agent** version 9.7.2576 eller nyere"
+
+#: ../../index.rst:25
+msgid "1.1 Background"
+msgstr "1.1 Baggrund"
+
+#: ../../index.rst:29
+msgid "Security or Mobility?"
+msgstr "Sikkerhed eller mobilitet?"
+
+#: ../../index.rst:31
+msgid ""
+"Businesses need ways to access local file server over the Internet from "
+"mobile devices and remote locations for productivity gain. This trend is "
+"pushing local file server content outward towards public file-sharing "
+"services such as Dropbox and OneDrive. Employees are using 3rd-party "
+"file-sharing services on their own to improve productivity."
+msgstr "Virksomheder har brug for måder at få adgang til lokal filserver over internettet fra mobile enheder og fjerntliggende steder for at øge produktiviteten. Denne tendens skubber indholdet på den lokale filserver udad mod offentlige fildelingstjenester som Dropbox og OneDrive. Medarbejdere bruger tredjeparts fildelingstjenester på egen hånd for at forbedre produktiviteten."
+
+#: ../../index.rst:33
+msgid ""
+"Security and control is a big concern for businesses that are sensitive "
+"to regulation and data leakage problems. The lack of granular permissions"
+" and control over file sharing in public file-sharing services is forcing"
+" companies to give up on these 3rd-party services."
+msgstr "Sikkerhed og kontrol er en stor bekymring for virksomheder, der er følsomme over for regulering og problemer med datalækage. Manglen på detaljerede tilladelser og kontrol med fildeling i offentlige fildelingstjenester tvinger virksomheder til at opgive disse tredjepartstjenester."
+
+#: ../../index.rst:35
+msgid ""
+"They then revert to the use of virtual private networks (VPNs) to provide"
+" remote access to corporate data. However, VPN has its own problems; it "
+"is not a good fit for the modern mobility, nor is it productivity "
+"friendly. Most of the time, VPN is a headache for managed service "
+"providers and company IT department, for the number of VPN related "
+"support tickets."
+msgstr "Derefter vender de tilbage til brugen af virtuelle private netværk (VPN'er) for at give fjernadgang til virksomhedens data. VPN har dog sine egne problemer; det passer ikke godt til den moderne mobilitet, og det er heller ikke produktivitetsvenligt. Det meste af tiden er VPN en hovedpine for udbydere af administrerede tjenester og virksomhedens IT-afdeling på grund af antallet af VPN-relaterede supportbilletter."
+
+#: ../../index.rst:39
+msgid "Security + Mobility"
+msgstr "Sikkerhed + Mobilitet"
+
+#: ../../index.rst:41
+msgid ""
+"This is why you need |prodname|; resolving issues between file-sharing "
+"requirements, mobility and remote access, while preventing the leakage of"
+" your critical data through security and control. |prodname| takes care "
+"of the following objectives:"
+msgstr "Dette er grunden til, at du har brug for |prodname|; at løse problemer mellem krav til fildeling, mobilitet og fjernadgang, samtidig med at forhindre lækage af dine kritiske data gennem sikkerhed og kontrol. |prodname| tager sig af følgende mål:"
+
+#: ../../index.rst:43
+msgid "Make the Windows file server mobility and remote-access friendly"
+msgstr "Gør Windows-filserveren mobil og fjernadgangsvenlig"
+
+#: ../../index.rst:44
+msgid "Maintain file-server accessing paradigm for local and remote access"
+msgstr "Bevar filserver-adgangsparadigmet for lokal og fjernadgang"
+
+#: ../../index.rst:46
+msgid "Provide NTFS security permissions"
+msgstr "Angiv NTFS-sikkerhedstilladelser"
+
+#: ../../index.rst:47
+msgid "Allow Active Directory integration"
+msgstr "Tillad integration med Active Directory"
+
+#: ../../index.rst:48
+msgid "Drive Mapping and on-demand access"
+msgstr "Drevtilknytning og adgang efter behov"
+
+#: ../../index.rst:50
+msgid ""
+"File sync and share features integrated into a traditional Windows file "
+"server network share"
+msgstr "Filsynkronisering og delingsfunktioner integreret i et traditionelt Windows-filservernetværksshare"
+
+#: ../../index.rst:54
+msgid "Overview"
+msgstr "Oversigt"
+
+#: ../../index.rst:56
+msgid ""
+"|prodname| is the overall solution, and the File Server Agent client "
+"application is software that connects file servers to the |prodname| "
+"file-sharing solution."
+msgstr "|prodname| er den samlede løsning, og File Server Agent-klientapplikationen er software, der forbinder filservere til |prodname| fil-delingsløsningen."
+
+#: ../../index.rst:58
+msgid ""
+"The |prodname| File Server Agent is client-agent software that runs on "
+"Windows machines as a background service, while connecting to |prodname| "
+"servers (typically setup in a data center away from the file server)."
+msgstr "Den |prodname| File Server Agent er en klient-agent software, der kører på Windows-maskiner som en baggrundstjeneste, samtidig med at den forbinder til |prodname| servere (typisk opsat i et datacenter væk fra filserveren)."
+
+#: ../../index.rst:60
+msgid ""
+"File Server Agent allows you to turn your file servers into cloud-"
+"friendly servers to migrate the file server shares to the |prodname| "
+"environment, while maintaining the two-way synchronization for as long as"
+" you need it to be. During this process, the existing share permissions "
+"are also migrated to |prodname|. This allows the Windows file server "
+"network share to be used locally without change, and at the same time, "
+"the network shares are synchronizing with |prodname| Server to form a "
+"Hybrid Cloud solution."
+msgstr "File Server Agent gør det muligt for dig at omdanne dine filservere til sky-venlige servere for at migrere filserverdelingerne til |prodname|-miljøet, samtidig med at der opretholdes tovejssynkronisering så længe du har brug for det. I denne proces migreres de eksisterende delingstilladelser også til |prodname|. Dette tillader, at Windows filserver netværksdelingen kan bruges lokalt uden ændringer, og samtidig synkroniseres netværksdelingerne med |prodname| Server for at danne en Hybrid Cloud-løsning."
+
+#: ../../index.rst:62
+msgid ""
+"File Server Agent technology turns any Windows file server into a private"
+" cloud storage that can be accessed from anywhere using any device, while"
+" maintaining existing identities and permissions."
+msgstr "File Server Agent-teknologien omdanner enhver Windows-filserver til en privat cloudlagring, som kan tilgås fra hvor som helst ved brug af enhver enhed, samtidig med at eksisterende identiteter og tilladelser bevares."
+
+#: ../../index.rst:66
+msgid "As a Summary"
+msgstr ""
+
+#: ../../index.rst:68
+msgid ""
+"File Server Agent can sync folders and files between the local file "
+"server and the remote |prodname| Server."
+msgstr "File Server Agent kan synkronisere mapper og filer mellem den lokale filserver og den fjernbetjente |prodname| Server."
+
+#: ../../index.rst:69
+msgid ""
+"File Server Agent can sync NTFS folder permissions from a local file "
+"server to the remote |prodname| Server."
+msgstr "File Server Agent kan synkronisere NTFS-mappe tilladelser fra en lokal filserver til den fjern |prodname| Server."
+
+#: ../../index.rst:70
+msgid ""
+"File Server Agent can export users to the remote |prodname| Server from a"
+" user's local Active Directory."
+msgstr "File Server Agent kan eksportere brugere til den fjernbetjente |prodname| Server fra en brugers lokale Active Directory."
+
+#: ../../index.rst:71
+msgid ""
+"File Server Agent activity runs as a Windows background service on the "
+"local file server."
+msgstr "File Server Agent-aktivitet kører som en Windows-baggrundstjeneste på den lokale filserver."
+
+#: ../../index.rst:72
+msgid ""
+"Users use their local Active Directory identity to access files locally "
+"and from the |prodname| Server."
+msgstr "Brugere anvender deres lokale Active Directory-identitet til at få adgang til filer lokalt og fra |prodname| Server."
+
+#: ../../index.rst:77
+msgid "|prodname| ACCESS FROM LOCAL FILE SERVER"
+msgstr "|prodname| ADGANG FRA LOKAL FILESERVER"
+
+#: ../../index.rst:81
+msgid ""
+"When should you use File Server Agent to connect your file server to "
+"|prodname|?"
+msgstr "Hvornår skal du bruge File Server Agent til at forbinde din filserver til |prodname|?"
+
+#: ../../index.rst:83
+msgid ""
+"When should you use a direct server message block (SMB) network share "
+"connection?"
+msgstr "Hvornår skal du bruge en direkte serverbeskedblok (SMB) netværksdelingsforbindelse?"
+
+#: ../../index.rst:85
+msgid ""
+"Typically, when a file server is away not in the same data center or "
+"network, we recommend using Server Agent. (e.g. there is no physical "
+"connection between |prodname| and the \"Server Agent\" target system)"
+msgstr "Normalt, når en filserver er væk, ikke i det samme datacenter eller netværk, anbefaler vi at bruge Server Agent. (f.eks. der er ingen fysisk forbindelse mellem |prodname| og \"Server Agent\" målsystemet)"
+
+#: ../../index.rst:87
+msgid ""
+"For file servers in the same data center, but in a different VLAN, we "
+"recommend opening up the VLAN so the |prodname| can direct access the "
+"file server without using a Server Agent since both are already in the "
+"same data center."
+msgstr "For filservere i samme datacenter, men i et andet VLAN, anbefaler vi at åbne VLAN'et, så |prodname| kan få direkte adgang til filserveren uden at bruge en Server Agent, da begge allerede er i samme datacenter."
+
+#: ../../index.rst:92
+msgid "How it solves the problem?"
+msgstr "Hvordan løser det problemet?"
+
+#: ../../index.rst:94
+msgid ""
+"You or your managed service provider (MSP) owns the |prodname| software. "
+"File data is either located on the local file server or the |prodname| "
+"Server. Either way, you control the data to prevent unauthorized access."
+msgstr "Du eller din administrerede serviceudbyder (MSP) ejer |prodname|-softwaren. Fildata er enten placeret på den lokale filserver eller |prodname|-serveren. Uanset hvad kontrollerer du dataene for at forhindre uautoriseret adgang."
+
+#: ../../index.rst:96
+msgid ""
+"|prodname| Server is operating from a data center or local office, behind"
+" a firewall connected to the Internet. Typical SMB protocol shares are "
+"not available to the Internet; however, the HTTPS communication (Internet"
+" facing) capability of the |prodname| Server makes it friendly to mobile "
+"and remote devices."
+msgstr "|prodname| Server fungerer fra et datacenter eller lokalt kontor, bag en firewall forbundet til internettet. Typiske SMB-protokoldelinger er ikke tilgængelige på internettet; dog gør HTTPS-kommunikationen (internetvendt) kapaciteten af |prodname| Server den venlig over for mobile og fjernenheder."
+
+#: ../../index.rst:98
+msgid ""
+"|prodname| Server either directly leverages the local Active Directory "
+"and NTFS permission or replicates these features to maintain a local-"
+"file-server access paradigm."
+msgstr "|prodname| Server udnytter enten direkte det lokale Active Directory og NTFS-tilladelser eller replikerer disse funktioner for at opretholde et lokalt filserveradgangsparadigme."
+
+#: ../../index.rst:102
+msgid "What is a typical way to use File Server Agent?"
+msgstr "Hvad er en typisk måde at bruge File Server Agent på?"
+
+#: ../../index.rst:104
+msgid ""
+"When your client needs to store files in local-network shared folders, "
+"Server Agent can be helpful for connecting these shares to |prodname|. "
+"This typically happens when there is a lot of users in the local office, "
+"or the Internet speed is ok but not great coming into the office."
+msgstr "Når din klient har brug for at gemme filer i delte mapper på det lokale netværk, kan Server Agent være nyttig til at forbinde disse delinger med |prodname|. Dette sker typisk, når der er mange brugere på det lokale kontor, eller internethastigheden er ok, men ikke fantastisk ind til kontoret."
+
+#: ../../index.rst:106
+msgid ""
+"One typical use case is you have remote workers or a branch office that "
+"have need to access the file server network share without using the VPN. "
+"You don't want to copy the file server content out just for the remote "
+"workers because that will create too many copies and lost track of which "
+"side has the newer version. Setting it up in a hybrid mode, and with two-"
+"way synchronization between local file server and remote |prodname| "
+"Server is a better way to go."
+msgstr "Et typisk brugstilfælde er, når du har fjernarbejdere eller en filial, der har behov for at få adgang til filserverens netværksdeling uden at bruge VPN. Du ønsker ikke at kopiere filserverens indhold ud kun for fjernarbejderne, fordi det vil skabe for mange kopier og miste overblikket over, hvilken side der har den nyere version. Det er bedre at sætte det op i en hybridtilstand, og med tovejssynkronisering mellem lokal filserver og fjern |prodname| Server."
+

@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "2 Installation"
+msgstr "2 Installatie"
+
+#: ../../chapter02.rst:6
+msgid ""
+"You can download and install the File Server Agent software directly from"
+" the Web Portal. Complete the following steps to install the |prodname| "
+"File Server Agent software on your file server."
+msgstr "U kunt de File Server Agent-software rechtstreeks downloaden en installeren vanuit het Webportaal. Voltooi de volgende stappen om de |prodname| File Server Agent-software op uw bestandsserver te installeren."
+
+#: ../../chapter02.rst:11
+msgid "2.1 System Requirement"
+msgstr "2.1 Systeemvereiste"
+
+#: ../../chapter02.rst:13
+msgid "File Server Agent can be installed on the following OS"
+msgstr "File Server Agent kan geïnstalleerd worden op de volgende besturingssystemen"
+
+#: ../../chapter02.rst:15
+msgid "Server OS"
+msgstr "Server OS"
+
+#: ../../chapter02.rst:17
+msgid "Windows 2022"
+msgstr "Windows 2022"
+
+#: ../../chapter02.rst:18
+msgid "Windows 2019"
+msgstr "Windows 2019"
+
+#: ../../chapter02.rst:19
+msgid "Windows 2016"
+msgstr "Windows 2016"
+
+#: ../../chapter02.rst:21
+msgid "Client OS"
+msgstr "Client OS"
+
+#: ../../chapter02.rst:23
+msgid "Windows 10"
+msgstr "Windows 10"
+
+#: ../../chapter02.rst:24
+msgid "Windows 8.1"
+msgstr "Windows 8.1"
+
+#: ../../chapter02.rst:25
+msgid "Windows 8.0"
+msgstr "Windows 8.0"
+
+#: ../../chapter02.rst:26
+msgid "Windows 7"
+msgstr "Windows 7"
+
+#: ../../chapter02.rst:27
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+#: ../../chapter02.rst:28
+msgid "Windows XP"
+msgstr "Windows XP"
+
+#: ../../chapter02.rst:33
+msgid "2.2 Preparation"
+msgstr "2.2 Voorbereiding"
+
+#: ../../chapter02.rst:35
+msgid ""
+"File Server Agent depends on .NET framework 2.0 or later. If you are "
+"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"need to prepare the .NET environment. This usually can be done from the "
+"Windows Server Manager > Manage Roles and Features and then in the "
+"features section, select .NET Framework 3.5"
+msgstr "File Server Agent is afhankelijk van .NET framework 2.0 of hoger. Als u de File Server Agent installeert op Windows Server 2022/2019/2016, moet u de .NET-omgeving voorbereiden. Dit kan meestal gedaan worden vanuit de Windows Server Manager > Manage Roles and Features en dan in de sectie features, selecteer .NET Framework 3.5"
+
+#: ../../chapter02.rst:40
+msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
+msgstr "WINDOWS SERVER 2016 .NET FRAMEWORK-FUNCTIE"
+
+#: ../../chapter02.rst:43
+msgid ""
+"If you are installing File Server Agent on Windows 8/Windows 10, you can "
+"get .NET framework 2.0 (3.5) installed from \"Program Files\" -> Windows "
+"Components."
+msgstr "Als u File Server Agent installeert op Windows 8/Windows 10, kunt u .NET framework 2.0 (3.5) installeren vanuit \"Programma's\" -> Windows-onderdelen."
+
+#: ../../chapter02.rst:48
+msgid "WINDOWS 10 .NET FRAMEWORK 3.5 FEATURE"
+msgstr "WINDOWS 10 .NET FRAMEWORK 3.5 FUNCTIE"
+
+#: ../../chapter02.rst:53
+msgid "2.3 Install"
+msgstr "2.3 Installeren"
+
+#: ../../chapter02.rst:57
+msgid ""
+"Always install |prodname| File Server Agent as a Tenant Administrator "
+"when you are at the login dialog."
+msgstr "Installeer altijd |prodname| File Server Agent als een Tenant Administrator wanneer u zich op het inlogdialoogvenster bevindt."
+
+#: ../../chapter02.rst:59
+msgid ""
+"File Server Agent belongs to a specific Tenant instead of belonging to a "
+"specific user. So it is best to download the File Server Agent as the "
+"Tenant Administrator and set it up to connect to the same Tenant "
+"Administrator's account."
+msgstr "File Server Agent behoort tot een specifieke Tenant in plaats van tot een specifieke gebruiker. Het is daarom het beste om de File Server Agent te downloaden als de Tenant Administrator en deze in te stellen om verbinding te maken met hetzelfde Tenant Administrator-account."
+
+#: ../../chapter02.rst:62
+msgid "Step 1 - Download the Installer Package"
+msgstr "Stap 1 - Download het installatiepakket"
+
+#: ../../chapter02.rst:64
+msgid ""
+"From the File Server you wish to install the File Server Agent; open a "
+"browser and log in to the Web Portal as the Tenant Administrator. From "
+"the Management Console, click the **(+)** in the \"Remote Active "
+"Directory\" section on the right-hand side."
+msgstr "Vanaf de bestandsserver waarop u de File Server Agent wilt installeren; open een browser en log in op het Webportaal als de Tenant Administrator. Vanuit de Management Console klikt u op de **(+)** in de sectie \"Remote Active Directory\" aan de rechterkant."
+
+#: ../../chapter02.rst:69
+msgid "SERVER AGENT DOWNLOADS ACCESS"
+msgstr "SERVER AGENT DOWNLOADS TOEGANG"
+
+#: ../../chapter02.rst:71
+msgid ""
+"In the pop-up window, choose your Download Package from the pull-down "
+"menu and click **Go** to begin the installation."
+msgstr "In het pop-upvenster kiest u uw Downloadpakket uit het uitklapmenu en klikt u op **Go** om de installatie te starten."
+
+#: ../../chapter02.rst:73
+msgid ""
+"A window will open. Click the MSI file at the bottom of the browser to "
+"open the installer."
+msgstr "Er zal een venster openen. Klik op het MSI-bestand onderaan de browser om de installateur te openen."
+
+#: ../../chapter02.rst:78
+msgid "OPEN THE INSTALLER"
+msgstr "OPEN HET INSTALLATIEPROGRAMMA"
+
+#: ../../chapter02.rst:82
+msgid ""
+"File Server agent software is capable of synchronizing three things "
+"between the local file server and remote cloud storage account."
+msgstr "File Server-agentsoftware is in staat om drie dingen te synchroniseren tussen de lokale fileserver en de externe cloudopslagaccount."
+
+#: ../../chapter02.rst:84
+msgid "synchronize selected files and folders."
+msgstr "synchroniseer geselecteerde bestanden en mappen."
+
+#: ../../chapter02.rst:85
+msgid "synchronize selected Active Directory users from local to cloud."
+msgstr "synchroniseer geselecteerde Active Directory-gebruikers van lokaal naar de cloud."
+
+#: ../../chapter02.rst:86
+msgid "synchronize NTFS permissions on the local file server to cloud."
+msgstr "synchroniseer NTFS-rechten op de lokale bestandsserver naar de cloud."
+
+#: ../../chapter02.rst:88
+msgid ""
+"You can start installing file server agent from \"Adding Remote Active "
+"Directory\" or from \"Adding Team Folder via Remote Server Agent\"."
+msgstr "U kunt beginnen met het installeren van de fileserver-agent vanuit \"Remote Active Directory toevoegen\" of vanuit \"Teammap toevoegen via Remote Server Agent\"."
+
+#: ../../chapter02.rst:91
+msgid "Step 2 - Run the Installer Package"
+msgstr "Stap 2 - Voer het installatiepakket uit"
+
+#: ../../chapter02.rst:93
+msgid "Click **\"Run\"** to start the installation."
+msgstr "Klik **\"Start\"** om de installatie te starten."
+
+#: ../../chapter02.rst:98
+msgid "RUN THE SERVER AGENT INSTALLER"
+msgstr "VOER HET INSTALLATIEPROGRAMMA VOOR DE SERVERAGENT UIT"
+
+#: ../../chapter02.rst:101
+msgid "Step 3 - Welcome Screen"
+msgstr "Stap 3 - Welkomstscherm"
+
+#: ../../chapter02.rst:103 ../../chapter02.rst:111
+msgid "On the Welcome Screen choose **\"Next\"** to continue."
+msgstr "Op het welkomstscherm kiest u **\"Volgende\"** om door te gaan."
+
+#: ../../chapter02.rst:108
+msgid "WELCOME SCREEN"
+msgstr "WELKOMSTSCHERM"
+
+#: ../../chapter02.rst:114
+msgid "Step 4 - License Agreement"
+msgstr "Stap 4 - Licentieovereenkomst"
+
+#: ../../chapter02.rst:116
+msgid ""
+"Read and accept the license agreement by choosing **\"I Agree\"** and "
+"click the **\"Next\"** button."
+msgstr "Lees en accepteer de licentieovereenkomst door **\"Ik ga akkoord\"** te kiezen en klik op de **\"Volgende\"** knop."
+
+#: ../../chapter02.rst:121
+msgid "ACCEPT LICENSE AGREEMENT"
+msgstr "LICENTIEOVEREENKOMST ACCEPTEREN"
+
+#: ../../chapter02.rst:124
+msgid "Step 5 - Confirm Installation"
+msgstr "Stap 5 - Bevestig de installatie"
+
+#: ../../chapter02.rst:126
+msgid ""
+"Now we will complete the File Server Agent installation. Click "
+"**\"Next\"** to finish."
+msgstr "Nu zullen we de installatie van de File Server Agent voltooien. Klik op **\"Volgende\"** om te voltooien."
+
+#: ../../chapter02.rst:131
+msgid "CONFIRM INSTALLATION"
+msgstr "BEVESTIG INSTALLATIE"
+
+#: ../../chapter02.rst:134
+msgid "Step 6 - Installation is Finishing"
+msgstr "Stap 6 - De installatie wordt afgerond"
+
+#: ../../chapter02.rst:136
+msgid "It will only take a few minutes to complete the installation."
+msgstr "Het zal slechts enkele minuten duren om de installatie te voltooien."
+
+#: ../../chapter02.rst:141
+msgid "FINAL INSTALLATION PROCESS"
+msgstr "EINDINSTALLATIEPROCES"
+
+#: ../../chapter02.rst:144
+msgid "Step 7 - Installation Complete"
+msgstr "Stap 7 - Installatie Voltooid"
+
+#: ../../chapter02.rst:146
+msgid ""
+"Once the installation is completed, click the **\"Close\"** button to "
+"finish."
+msgstr "Zodra de installatie is voltooid, klik op de **\"Sluiten\"** knop om te voltooien."
+
+#: ../../chapter02.rst:151
+msgid "CLOSE INSTALLATION WINDOW"
+msgstr "INSTALLATIEVENSTER SLUITEN"
+
+#: ../../chapter02.rst:154
+msgid "Step 8 - Restart Your System"
+msgstr "Stap 8 - Herstart uw systeem"
+
+#: ../../chapter02.rst:156
+msgid "Just restart your system and File Server Agent is ready to use."
+msgstr "Start uw systeem gewoon opnieuw op en File Server Agent is klaar voor gebruik."
+
+#: ../../chapter02.rst:161
+msgid "RESTART YOUR SYSTEM"
+msgstr "HERSTART UW SYSTEEM"
+
+#: ../../chapter02.rst:165
+msgid "Step 9 - Login To |prodname|"
+msgstr "Stap 9 - Inloggen op |prodname|"
+
+#: ../../chapter02.rst:167
+msgid ""
+"After the reboot, log back into Windows as the same Windows user. Be "
+"patient, as it will take a few minutes for the Login Panel to display. "
+"Login to |prodname| as using your Tenant Administrator credentials."
+msgstr "Na de herstart, log opnieuw in op Windows als dezelfde Windows-gebruiker. Wees geduldig, want het duurt een paar minuten voordat het inlogpaneel wordt weergegeven. Log in op |prodname| als uw Tenant Administrator-referenties."
+
+#: ../../chapter02.rst:170
+msgid ""
+"The File Server Agent can be logged in to the Tenant already if you don't"
+" see the login dialog. You can go to the Web Portal side, login as the "
+"Tenant Administrator and go to the \"Device Manager\" side to see the "
+"File Server Agent."
+msgstr "De File Server Agent kan al ingelogd zijn op de Tenant als u het inlogdialoogvenster niet ziet. U kunt naar de Web Portal gaan, inloggen als de Tenantbeheerder en naar de \"Apparaatbeheer\" gaan om de File Server Agent te zien."
+
+#: ../../chapter02.rst:175
+msgid "LOG IN AS TENANT ADMIN"
+msgstr "INLOGGEN ALS TENANTBEHEERDER"
+

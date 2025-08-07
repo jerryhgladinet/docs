@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Connecting To The Cloud"
+msgstr "3 Conectando con la Nube"
+
+#: ../../chapter03.rst:5
+msgid ""
+"You can access the cloud drive  from the main screen of your Mac by "
+"clicking on the Cloud Drive icon."
+msgstr "Puedes acceder al disco en la nube desde la pantalla principal de tu Mac haciendo clic en el icono de Cloud Drive."
+
+#: ../../chapter03.rst:11
+msgid ""
+"You can access the cloud drive menu from the top panel by clicking on the"
+" |prodname| Cloud Drive icon."
+msgstr "Puedes acceder al menú de la unidad en la nube desde el panel superior haciendo clic en el icono de |prodname| Cloud Drive."
+
+#: ../../chapter03.rst:17
+msgid "Transferring Files"
+msgstr "Transferencia de Archivos"
+
+#: ../../chapter03.rst:19
+msgid ""
+"Now you can use the Cloud Storage as if it were a real drive on the Mac "
+"system. Simply drag-and-drop to copy local documents to the Cloud "
+"Storage."
+msgstr "Ahora puedes usar el Almacenamiento en la Nube como si fuera una unidad real en el sistema Mac. Simplemente arrastra y suelta para copiar documentos locales al Almacenamiento en la Nube."
+
+#: ../../chapter03.rst:23
+msgid ""
+"|prodname| Cloud Drive makes it very easy to move data into cloud storage"
+" or extract data from cloud storage."
+msgstr "|prodname| Cloud Drive facilita mucho la tarea de mover datos al almacenamiento en la nube o extraer datos del almacenamiento en la nube."
+
+#: ../../chapter03.rst:27
+msgid "Attaching Local Folders"
+msgstr "Adjuntando Carpetas Locales"
+
+#: ../../chapter03.rst:29
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr "La unidad virtual proporciona acceso bajo demanda a archivos y carpetas desde la cuenta de almacenamiento en la nube de |prodname|."
+
+#: ../../chapter03.rst:31
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account."
+msgstr "A veces también es deseable trabajar dentro de una carpeta local y tener la carpeta local sincronizada con la cuenta de almacenamiento en la nube de |prodname|."
+
+#: ../../chapter03.rst:33
+msgid ""
+"To attach a folder click the Cloud Drive icon **(1)** then click the "
+"Console Settings gear icon **(2)**. A browser window will open showing "
+"the Device Info for your Mac. The menu button **(3)** gives you access to"
+" the Attached Folders button **(4)**. When you click that, you can add a "
+"folder from your hard drive by clicking the Add Folder button **(5)**, "
+"then explore to the folder you want to attach **(6)** and set the "
+"\"Name\" **(7)** you want to use for that folder when accessing it from "
+"the Web Portal."
+msgstr "Para adjuntar una carpeta, haga clic en el icono de Cloud Drive **(1)** y luego haga clic en el icono de engranaje de Configuración de la Consola **(2)**. Se abrirá una ventana del navegador mostrando la Información del Dispositivo para su Mac. El botón de menú **(3)** le da acceso al botón de Carpetas Adjuntas **(4)**. Al hacer clic en eso, puede agregar una carpeta de su disco duro haciendo clic en el botón Añadir Carpeta **(5)**, luego explorar hasta la carpeta que desea adjuntar **(6)** y establecer el \"Nombre\" **(7)** que desea usar para esa carpeta al acceder a ella desde el Portal Web."
+
+#: ../../chapter03.rst:39
+msgid "Settings Web Page"
+msgstr "Página de Configuración Web"
+
+#: ../../chapter03.rst:41
+msgid "You can get access to the settings web page from the settings button."
+msgstr "Puede acceder a la página web de configuración desde el botón de ajustes."
+
+#: ../../chapter03.rst:45
+msgid "After it is clicked, a web page will lauch into your default web browser."
+msgstr "Después de hacer clic, se abrirá una página web en su navegador web predeterminado."
+
+#: ../../chapter03.rst:51
+msgid "Device Information"
+msgstr "Información del Dispositivo"
+
+#: ../../chapter03.rst:53
+msgid "The first section in the settings page is the \"Device Info\" section."
+msgstr "La primera sección en la página de configuración es la sección \"Información del Dispositivo\"."
+
+#: ../../chapter03.rst:55
+msgid ""
+"In the device info section, you can see the device name, logged in user, "
+"Device Type, OS Type and other information."
+msgstr "En la sección de información del dispositivo, puedes ver el nombre del dispositivo, usuario conectado, Tipo de Dispositivo, Tipo de SO y otra información."
+
+#: ../../chapter03.rst:58
+msgid "Attached Folders"
+msgstr "Carpetas Adjuntas"
+
+#: ../../chapter03.rst:60
+msgid ""
+"Attach Folder means attach a local folder to cloud (|prodname| account). "
+"The end result is to setup a bi-directional synchronization between the "
+"local folder and the cloud so the changes from within the local folder "
+"will synchronize to cloud and changes from cloud in that specific folder "
+"will sync back to local folder."
+msgstr "Adjuntar Carpeta significa adjuntar una carpeta local a la nube (cuenta |prodname|). El resultado final es configurar una sincronización bidireccional entre la carpeta local y la nube, de modo que los cambios dentro de la carpeta local se sincronicen con la nube y los cambios de la nube en esa carpeta específica se sincronicen de vuelta con la carpeta local."
+
+#: ../../chapter03.rst:62
+msgid ""
+"To set this up from the Console, you click the pulldown menu and choose "
+"**\"Attached Folders\" (1)**. In the new view you click the **Add (2)** "
+"button and then explore by double-clicking (drill down) to the folder you"
+" wish to attach **(3)**. Once you have selected the folder, enter the "
+"**\"Name\" (4)** you want to use for that folder and click **\"ATTACH\"**"
+" to complete the process. In this example, the folder is on the Desktop "
+"of the Mac computer."
+msgstr "Para configurar esto desde la Consola, haga clic en el menú desplegable y elija **\"Carpetas adjuntas\" (1)**. En la nueva vista haga clic en el botón **Agregar (2)** y luego explore haciendo doble clic (profundizar) en la carpeta que desea adjuntar **(3)**. Una vez que haya seleccionado la carpeta, ingrese el **\"Nombre\" (4)** que desea usar para esa carpeta y haga clic en **\"ADJUNTAR\"** para completar el proceso. En este ejemplo, la carpeta está en el Escritorio de la computadora Mac."
+
+#: ../../chapter03.rst:66
+msgid "Once it is attached, you can see it in a list."
+msgstr "Una vez que esté adjunto, podrás verlo en una lista."
+
+#: ../../chapter03.rst:70
+msgid ""
+"You can also verify that the local folder is attached by logging into the"
+" web portal where you will see it listed in your ``FILE BROWSER`` view."
+msgstr "También puede verificar que la carpeta local está adjunta iniciando sesión en el portal web donde la verá listada en su vista de ``EXPLORADOR DE ARCHIVOS``."
+
+#: ../../chapter03.rst:74
+msgid ""
+"As shown in the example here, the local folder named \"Mac User 1 "
+"Attached\" is now synchronized with cloud."
+msgstr "Como se muestra en el ejemplo aquí, la carpeta local llamada \"Mac User 1 Attached\" ahora está sincronizada con la nube."
+
+#: ../../chapter03.rst:78
+msgid "Offline Folders"
+msgstr "Carpetas sin conexión"
+
+#: ../../chapter03.rst:80
+msgid ""
+"You can mark certain folders as offline. The folders that are marked as "
+"offline will pre-fetch the content of the folder and cache it locally. To"
+" accomplish this you first click the **\"+\" plus (1)** icon. Then choose"
+" a folder that you would like to have access to while offline. Once a "
+"folder has been marked as offline, it will show in this list **(2)**."
+msgstr "Puede marcar ciertas carpetas como fuera de línea. Las carpetas que se marcan como fuera de línea pre-cargarán el contenido de la carpeta y lo almacenarán en caché localmente. Para hacer esto, primero haga clic en el icono **\"+\" plus (1)**. Luego elija una carpeta a la que le gustaría tener acceso mientras está fuera de línea. Una vez que una carpeta ha sido marcada como fuera de línea, aparecerá en esta lista **(2)**."
+
+#: ../../chapter03.rst:86
+msgid "Locked Files"
+msgstr "Archivos bloqueados"
+
+#: ../../chapter03.rst:88
+msgid ""
+"If any of the files are currently in **\"Locked\"** status, you will see "
+"it in this view."
+msgstr "Si alguno de los archivos está actualmente en estado **\"Bloqueado\"**, lo verás en esta vista."
+
+#: ../../chapter03.rst:93
+msgid "Pending Check-Ins"
+msgstr "Check-ins Pendientes"
+
+#: ../../chapter03.rst:95
+msgid ""
+"If any of the files are currently **Checked Out** you will see them "
+"listed in this view."
+msgstr "Si alguno de los archivos está actualmente **Checked Out**, los verás listados en esta vista."
+

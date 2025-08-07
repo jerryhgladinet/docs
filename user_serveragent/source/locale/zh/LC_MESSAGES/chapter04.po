@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:3
+msgid "4 Advanced Topics"
+msgstr "4个高级主题"
+
+#: ../../chapter04.rst:8
+msgid "4.1 Migration Users"
+msgstr "4.1 迁移用户"
+
+#: ../../chapter04.rst:10
+msgid ""
+"With the Server Agent installed, it can be used to migrate Active "
+"Directory users to |prodname| users."
+msgstr "安装了服务器代理后，可以用它来将Active Directory用户迁移到 |prodname| 用户。"
+
+#: ../../chapter04.rst:12
+msgid "The process can be started from the Tenant Administrator Web Portal."
+msgstr "该过程可以从租户管理员Web门户开始。"
+
+#: ../../chapter04.rst:19
+msgid "4.2 Migrate File Server Network or CIFS Share to |prodname|"
+msgstr "4.2 将文件服务器网络或CIFS共享迁移到 |prodname|"
+
+#: ../../chapter04.rst:21
+msgid ""
+"With the Server Agent installed, it can be used to migrate local folder "
+"(which is published as network share) to |prodname| as a team folder, and"
+" at the same time, migrate Active Directory users to |prodname| users."
+msgstr "安装了服务器代理后，可以将本地文件夹（发布为网络共享的文件夹）迁移到 |prodname| 作为团队文件夹，同时将Active Directory用户迁移到 |prodname| 用户。"
+
+#: ../../chapter04.rst:23
+msgid ""
+"The steps can be started from the migration wizard in the Tenant Admin's "
+"Web Portal."
+msgstr "可以从租户管理员的Web门户中的迁移向导开始这些步骤。"
+
+#: ../../chapter04.rst:30
+msgid "4.3 Conclusion"
+msgstr "4.3 结论"
+
+#: ../../chapter04.rst:32
+msgid ""
+"Businesses are looking for ways to access file server contents over the "
+"Internet. They are looking for technologies which will allow them to "
+"migrate the data residing on On-Premise file servers to the cloud and "
+"provide a unified namespace across all distributed file servers. They are"
+" also looking for ways to give remote users easy and secure access to "
+"their file server without disrupting the existing work flow in the "
+"company."
+msgstr "企业正在寻找方法通过互联网访问文件服务器内容。他们正在寻找技术，这些技术将允许他们将位于本地文件服务器上的数据迁移到云端，并在所有分布式文件服务器之间提供统一的命名空间。他们还在寻找方法，让远程用户能够轻松且安全地访问他们的文件服务器，同时不干扰公司现有的工作流程。"
+
+#: ../../chapter04.rst:34
+msgid ""
+"|prodname| Cloud Server (File Server Agent) combines the strengths of "
+"cloud storage technology and traditional file server to enable data "
+"access from the cloud by enabling sync, share, and collaboration on that "
+"data."
+msgstr "|prodname| 云服务器（文件服务器代理）结合了云存储技术和传统文件服务器的优势，通过启用数据同步、共享和协作，实现了从云端访问数据的能力。"
+

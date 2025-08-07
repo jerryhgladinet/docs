@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:3
+msgid "Web Portal"
+msgstr "网页门户"
+
+#: ../../chapter04.rst:5
+msgid ""
+"Click the Portal – \"My Files\" Link for the default Cluster Admin to "
+"view his files/folders over the web portal:"
+msgstr "点击门户网站 - \"我的文件\" 链接以便默认集群管理员通过网络门户查看他的文件/文件夹："
+
+#: ../../chapter04.rst:9
+msgid "See below image for the files and folder view:"
+msgstr "请参见下图以查看文件和文件夹视图："
+
+#: ../../chapter04.rst:13
+msgid ""
+"From here you can test the installation by creating files, migrating, "
+"editing, sharing and deleting files to verify the storage setup is "
+"working as expected."
+msgstr "在此您可以通过创建文件、迁移、编辑、共享和删除文件来测试安装是否按预期工作，以验证存储设置是否正常。"
+

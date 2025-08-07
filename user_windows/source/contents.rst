@@ -17,10 +17,3 @@ Contents:
    chapter4.rst
    chapter5.rst
    chapter6.rst
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

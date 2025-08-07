@@ -1,0 +1,1092 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:8
+msgid "Getting Started"
+msgstr "Comenzando"
+
+#: ../../index.rst:11
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:13
+msgid ""
+"Welcome to the CentreStack Server Deployment Guide. This guide describes "
+"deployment tasks for CentreStack, a managed file synchronization and "
+"sharing solution that focuses on local file server cloud-enablement."
+msgstr "Bienvenido a la Guía de Implementación del Servidor CentreStack. Esta guía describe las tareas de implementación para CentreStack, una solución gestionada de sincronización y compartición de archivos que se centra en la habilitación en la nube de servidores de archivos locales."
+
+#: ../../index.rst:17
+msgid ""
+"CentreStack includes the CentreStack server, which runs on the Microsoft "
+"Windows server platform, and client agent applications for Microsoft "
+"Windows, Mac OS X, web browsers, Android and Apple iOS operating systems."
+msgstr "CentreStack incluye el servidor CentreStack, que funciona en la plataforma del servidor Microsoft Windows, y aplicaciones de agente cliente para los sistemas operativos Microsoft Windows, Mac OS X, navegadores web, Android y Apple iOS."
+
+#: ../../index.rst:23
+msgid "This guide is updated to match build |release|"
+msgstr "Esta guía se ha actualizado para coincidir con la compilación |release|"
+
+#: ../../index.rst:28
+msgid "Overview"
+msgstr "Visión general"
+
+#: ../../index.rst:30
+msgid ""
+"CentreStack is a managed file sync and share solution that focuses on "
+"local file server cloud-enablement. It differentiates from other file "
+"sync and share solutions (EFSS) by focusing on security, control, file "
+"server and team collaboration. CentreStack does really well in the "
+"following areas:"
+msgstr "CentreStack es una solución gestionada de sincronización y compartición de archivos que se centra en la habilitación de servidores de archivos locales en la nube. Se diferencia de otras soluciones de sincronización y compartición de archivos (EFSS) al enfocarse en la seguridad, el control, el servidor de archivos y la colaboración en equipo. CentreStack destaca especialmente en las siguientes áreas:"
+
+#: ../../index.rst:32
+msgid ""
+"provide on-demand access that honors read-only and write permissions in "
+"real-time."
+msgstr "proporcionar acceso bajo demanda que respeta los permisos de solo lectura y escritura en tiempo real."
+
+#: ../../index.rst:33
+msgid ""
+"mirror local network share on file server to team collaboration in the "
+"cloud."
+msgstr "replicar compartición de red local en el servidor de archivos para la colaboración en equipo en la nube."
+
+#: ../../index.rst:34
+msgid "provide virtual drive letter mapping to the files and folders for access."
+msgstr "proporcionar mapeo de letra de unidad virtual a los archivos y carpetas para acceso."
+
+#: ../../index.rst:35
+msgid ""
+"provide file locking, version control, client encryption and etc features"
+" for the virtual drive."
+msgstr "proporcionar bloqueo de archivos, control de versiones, cifrado de cliente y etcétera para la unidad virtual."
+
+#: ../../index.rst:39
+msgid ""
+"In summary, you can think of CentreStack as a way to elevate and turn a "
+"Windows File Server in a local area network into a Cloud/Internet facing "
+"file server solution with remote and mobile access, while at the same "
+"time, the drive mapping, the NTFS permission, and file locking are "
+"preserved before and after the cloud-enablement."
+msgstr "En resumen, puedes considerar a CentreStack como una forma de elevar y convertir un Servidor de Archivos de Windows en una red de área local en una solución de servidor de archivos orientada a la nube/internet con acceso remoto y móvil, mientras que al mismo tiempo, el mapeo de unidades, el permiso NTFS y el bloqueo de archivos se conservan antes y después de la habilitación en la nube."
+
+#: ../../index.rst:43
+msgid ""
+"The CentreStack server is a pure software built on top of the Microsoft "
+"Web Platform, which includes:"
+msgstr "El servidor CentreStack es un software puro construido sobre la plataforma web de Microsoft, que incluye:"
+
+#: ../../index.rst:45
+msgid "Windows Server,"
+msgstr "Windows Server,"
+
+#: ../../index.rst:46
+msgid "IIS (Internet Information Server),"
+msgstr "IIS (Servidor de Información de Internet),"
+
+#: ../../index.rst:47
+msgid ".NET Framework and ASP.NET"
+msgstr ".NET Framework y ASP.NET"
+
+#: ../../index.rst:48
+msgid "WCF (Windows Communication Foundation)"
+msgstr "WCF (Windows Communication Foundation)"
+
+#: ../../index.rst:50
+msgid ""
+"Since the CentreStack server is built on top of the Microsoft Web "
+"Platform, it integrates very well with Microsoft components such as NTFS "
+"Permission, Active Directory, File Server network shares, file locking "
+"and drive mapping."
+msgstr "Dado que el servidor CentreStack está construido sobre la Plataforma Web de Microsoft, se integra muy bien con componentes de Microsoft como Permiso NTFS, Active Directory, comparticiones de red del Servidor de Archivos, bloqueo de archivos y mapeo de unidades."
+
+#: ../../index.rst:54
+msgid ""
+"It provides file access and sharing functionality through client agents "
+"for remote PCs, Macs, File Servers, Web Browsers, and Mobile Devices."
+msgstr "Proporciona funcionalidad de acceso y compartición de archivos a través de agentes cliente para PCs remotos, Macs, Servidores de Archivos, Navegadores Web y Dispositivos Móviles."
+
+#: ../../index.rst:56
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy the CentreStack."
+msgstr "Los servicios se pueden implementar en combinaciones flexibles para satisfacer diferentes necesidades. Hay dos formas principales de implementar el CentreStack."
+
+#: ../../index.rst:58
+msgid ""
+"Deploy in the same site as the File Servers and Active Directory domain "
+"controllers:"
+msgstr "Despliegue en el mismo sitio que los servidores de archivos y controladores de dominio de Active Directory:"
+
+#: ../../index.rst:62
+msgid ""
+"Deploy in a remote site, such as Amazon Web Services EC2, Microsoft "
+"Azure, or in a Data Center where the Managed Service Provider (MSP) hosts"
+" their infrastructure:"
+msgstr "Despliegue en un sitio remoto, como Amazon Web Services EC2, Microsoft Azure o en un Centro de Datos donde el Proveedor de Servicios Gestionados (MSP) aloja su infraestructura:"
+
+#: ../../index.rst:70
+msgid ""
+"With the Hosted-CentreStack solution, the CentreStack server is already "
+"deployed on https://sync4share.com. Therefore, there is no need to deploy"
+" a CentreStack server. Instead, you can start using the hosted-"
+"centrestack web portal and client agents directly."
+msgstr "Con la solución Hosted-CentreStack, el servidor CentreStack ya está desplegado en https://sync4share.com. Por lo tanto, no es necesario desplegar un servidor CentreStack. En su lugar, puedes comenzar a usar directamente el portal web hosted-centrestack y los agentes cliente."
+
+#: ../../index.rst:76
+msgid ""
+"Moving forward, this document will refer to the deployment of the Self-"
+"Hosted CentreStack server, and its related client agent applications."
+msgstr "Avanzando, este documento hará referencia a la implementación del servidor CentreStack autoalojado y sus aplicaciones de agente cliente relacionadas."
+
+#: ../../index.rst:80
+msgid ""
+"There are three different infrastructure components (logical components "
+"that can co-exist in the same server). In the smallest deployment unit, "
+"the different components can co-exist in one single machine (all-in-one "
+"deployment)."
+msgstr "Existen tres diferentes componentes de infraestructura (componentes lógicos que pueden coexistir en el mismo servidor). En la unidad de despliegue más pequeña, los diferentes componentes pueden coexistir en una sola máquina (despliegue todo-en-uno)."
+
+#: ../../index.rst:85
+msgid "1. Worker Node Component"
+msgstr "Componente del Nodo Trabajador"
+
+#: ../../index.rst:87
+msgid ""
+"Worker node contains services like Web Browser Based File Manager, "
+"Storage Service Connectors, Active Directory connector and other key "
+"components. It is responsible for data related activities such as file "
+"upload and download, permission, control and change notification. Since "
+"the data upload and download usually go through worker node, thus it is "
+"called a \"worker\" for data transfer."
+msgstr "El nodo trabajador contiene servicios como el Administrador de Archivos Basado en Navegador Web, Conectores de Servicio de Almacenamiento, conector de Active Directory y otros componentes clave. Es responsable de actividades relacionadas con los datos, tales como la carga y descarga de archivos, permisos, control y notificación de cambios. Dado que la carga y descarga de datos generalmente pasa a través del nodo trabajador, por eso se le llama \"trabajador\" para la transferencia de datos."
+
+#: ../../index.rst:93
+msgid "Additional nodes can be added as the load increases."
+msgstr "Se pueden añadir nodos adicionales a medida que aumenta la carga."
+
+#: ../../index.rst:97
+msgid "2. Database Component"
+msgstr "2. Componente de Base de Datos"
+
+#: ../../index.rst:99
+msgid ""
+"The database contains persistent information for the system. A Database "
+"is a critical component for the smooth operation of the CentreStack "
+"server farm. A Local database with latency less than 10 milliseconds is "
+"recommended."
+msgstr "La base de datos contiene información persistente para el sistema. Una base de datos es un componente crítico para el funcionamiento fluido de la granja de servidores de CentreStack. Se recomienda una base de datos local con una latencia menor a 10 milisegundos."
+
+#: ../../index.rst:103
+msgid ""
+"In order for all worker nodes to be in the same server farm, they need to"
+" point to the same database."
+msgstr "Para que todos los nodos de trabajo estén en la misma granja de servidores, necesitan apuntar a la misma base de datos."
+
+#: ../../index.rst:108
+msgid "3. Storage Component"
+msgstr "3. Componente de Almacenamiento"
+
+#: ../../index.rst:110
+msgid ""
+"The storage component is the persistent storage location for files and "
+"folders. There are two different types of storage services. One is "
+"managed by CentreStack, such as the default storage for the cluster and "
+"the default storage for tenants. The other is imported storage, for "
+"example, having existing file server network shares that aren't managed "
+"by CentreStack but can be imported into CentreStack for remote and mobile"
+" access."
+msgstr "El componente de almacenamiento es el lugar de almacenamiento persistente para archivos y carpetas. Hay dos tipos diferentes de servicios de almacenamiento. Uno es gestionado por CentreStack, como el almacenamiento predeterminado para el clúster y el almacenamiento predeterminado para los inquilinos. El otro es almacenamiento importado, por ejemplo, tener comparticiones de red de servidores de archivos existentes que no son gestionadas por CentreStack pero pueden ser importadas a CentreStack para acceso remoto y móvil."
+
+#: ../../index.rst:117
+msgid "Terminology"
+msgstr ""
+
+#: ../../index.rst:120
+msgid "CentreStack Partner Portal"
+msgstr "Portal de Socios de CentreStack"
+
+#: ../../index.rst:122
+msgid ""
+"The Partner Portal can be found by going to http://www.centrestack.com. "
+"Click on \"Partner\" to sign up for your partner account log in "
+"credentials, and then you can log into your partner account at anytime. "
+"From the Partner Portal, You are able to download the CentreStack "
+"software and can start the trial process. Later, you can acquire licenses"
+" to turn the trial into a production environment."
+msgstr "El Portal de Socios se puede encontrar visitando http://www.centrestack.com. Haga clic en \"Socio\" para registrarse y obtener sus credenciales de inicio de sesión de cuenta de socio, y luego podrá iniciar sesión en su cuenta de socio en cualquier momento. Desde el Portal de Socios, puede descargar el software de CentreStack y comenzar el proceso de prueba. Más tarde, puede adquirir licencias para convertir la prueba en un entorno de producción."
+
+#: ../../index.rst:128
+msgid "You can manage hosted-tenants from the partner portal."
+msgstr "Puede gestionar inquilinos alojados desde el portal de socios."
+
+#: ../../index.rst:130
+msgid ""
+"You can also come back to the partner portal any time that your "
+"CentreStack software needs to be upgraded to a later version."
+msgstr "También puede volver al portal de socios en cualquier momento que su software CentreStack necesite actualizarse a una versión posterior."
+
+#: ../../index.rst:134
+msgid "CentreStack Cluster - Server Farm"
+msgstr "Centro de Cluster de CentreStack - Granja de Servidores"
+
+#: ../../index.rst:136
+msgid ""
+"Multiple CentreStack single-machine nodes connect together by pointing to"
+" the same database and then share the same configuration information from"
+" the database so that CentreStack can indirectly share the persistent "
+"storage location in a symmetrical way."
+msgstr "Varios nodos de una sola máquina de CentreStack se conectan entre sí al apuntar a la misma base de datos y luego comparten la misma información de configuración de la base de datos para que CentreStack pueda compartir indirectamente la ubicación de almacenamiento persistente de manera simétrica."
+
+#: ../../index.rst:138
+msgid ""
+"Indirectly, the database contains storage related information so all the "
+"nodes in the server farm share storage related configuration."
+msgstr "Indirectamente, la base de datos contiene información relacionada con el almacenamiento, por lo que todos los nodos en el conjunto de servidores comparten la configuración relacionada con el almacenamiento."
+
+#: ../../index.rst:141
+msgid ""
+"The whole CentreStack cluster operates as if it is a single entity. The "
+"smallest cluster is a single CentreStack worker node, which contains all "
+"the functionality and different logical nodes together."
+msgstr "Todo el clúster de CentreStack opera como si fuera una única entidad. El clúster más pequeño es un solo nodo trabajador de CentreStack, que contiene toda la funcionalidad y los diferentes nodos lógicos juntos."
+
+#: ../../index.rst:144
+msgid "Another term for the cluster is the **CentreStack server farm**."
+msgstr "Otro término para el clúster es la **granja de servidores de CentreStack**."
+
+#: ../../index.rst:148
+msgid "The smallest cluster can be a single all-in-one worker node."
+msgstr "El clúster más pequeño puede ser un único nodo trabajador todo en uno."
+
+#: ../../index.rst:151
+msgid "Master Admin/Cluster Admin"
+msgstr "Administrador Maestro/Administrador de Clúster"
+
+#: ../../index.rst:153
+msgid ""
+"In this guide, we refer to the admin user as the user that manages the "
+"whole CentreStack server farm. The server farm can be as small as a "
+"single CentreStack server. If so, the admin user will still need to "
+"manage it regardless of the size of the server farm."
+msgstr "En esta guía, nos referimos al usuario administrador como el usuario que gestiona toda la granja de servidores de CentreStack. La granja de servidores puede ser tan pequeña como un único servidor de CentreStack. Si es así, el usuario administrador aún necesitará gestionarlo independientemente del tamaño de la granja de servidores."
+
+#: ../../index.rst:158
+msgid ""
+"The Master Admin is the very first user on the CentreStack server farm. "
+"Typically, it is the user who installs the CentreStack server software."
+msgstr "El Administrador Maestro es el primer usuario en la granja de servidores de CentreStack. Típicamente, es el usuario que instala el software del servidor CentreStack."
+
+#: ../../index.rst:161
+msgid ""
+"Since this user later may set up optional Active Directory connections, "
+"it is recommended that this user's email address is not from the same "
+"Active Directory to avoid circular dependency."
+msgstr "Dado que este usuario podría configurar conexiones opcionales de Active Directory más adelante, se recomienda que la dirección de correo electrónico de este usuario no sea del mismo Active Directory para evitar dependencias circulares."
+
+#: ../../index.rst:165
+msgid "Tenant"
+msgstr "Inquilino"
+
+#: ../../index.rst:167
+msgid ""
+"CentreStack is a multi-tenant ready solution. A tenant here usually is "
+"mapped to:"
+msgstr "CentreStack es una solución lista para múltiples inquilinos. Un inquilino aquí generalmente se asigna a:"
+
+#: ../../index.rst:170
+msgid "a company (if you are the company IT)"
+msgstr "una empresa (si usted es el IT de la empresa)"
+
+#: ../../index.rst:171
+msgid "a client of yours (if you are a Managed Service Provider/MSP)"
+msgstr "un cliente suyo (si usted es un Proveedor de Servicios Gestionados/MSP)"
+
+#: ../../index.rst:173
+msgid "Tenants are created by the cluster administrator."
+msgstr "Los inquilinos son creados por el administrador del clúster."
+
+#: ../../index.rst:175
+msgid ""
+"You can use the CentreStack server in a single tenant setup because it is"
+" just a special case of multi-tenancy."
+msgstr "Puede utilizar el servidor de CentreStack en una configuración de un solo inquilino porque es simplemente un caso especial de multi-inquilinidad."
+
+#: ../../index.rst:179
+msgid ""
+"From a reporting perspective, a tenant contains a number of users and "
+"also storage quota and storage consumption."
+msgstr "Desde una perspectiva de informes, un inquilino contiene un número de usuarios y también cuota de almacenamiento y consumo de almacenamiento."
+
+#: ../../index.rst:182
+msgid ""
+"From the technical side, a tenant is usually connected to an Active "
+"Directory and can have a bunch of connected file servers either directly "
+"or through server agents."
+msgstr "Desde el punto de vista técnico, un inquilino suele estar conectado a un Active Directory y puede tener un montón de servidores de archivos conectados directamente o a través de agentes de servidor."
+
+#: ../../index.rst:186
+msgid "Tenant Admin"
+msgstr "Administrador del Inquilino"
+
+#: ../../index.rst:188
+msgid ""
+"These are the users who actually use the product but are the admins for "
+"their teams (tenant or company)."
+msgstr "Estos son los usuarios que realmente utilizan el producto pero son los administradores de sus equipos (inquilino o empresa)."
+
+#: ../../index.rst:190
+msgid ""
+"This is the very first tenant account user. Usually, the Tenant User is "
+"created by Master Admin."
+msgstr "Este es el primer usuario de la cuenta de inquilino. Normalmente, el Usuario del Inquilino es creado por el Administrador Maestro."
+
+#: ../../index.rst:192
+msgid ""
+"The Master Admin is also the Tenant Admin for his own team/company "
+"(default tenant). Tenant admin can later delegate administrative tasks to"
+" other team users."
+msgstr "El Administrador Principal también es el Administrador del Inquilino para su propio equipo/empresa (inquilino predeterminado). El administrador del inquilino puede luego delegar tareas administrativas a otros usuarios del equipo."
+
+#: ../../index.rst:194
+msgid ""
+"By default the cluster administrator can help the tenant administrator on"
+" the management scope."
+msgstr "Por defecto, el administrador del clúster puede ayudar al administrador del inquilino en el ámbito de la gestión."
+
+#: ../../index.rst:197
+msgid "Tenant User"
+msgstr "Usuario del Inquilino"
+
+#: ../../index.rst:199
+msgid ""
+"The tenant user (team user) is a user inside a specific Tenant.  Team "
+"users are created by the Tenant Admin (or by cluster admin on behalf of "
+"the tenant admin). Team users can come from four different places:"
+msgstr "El usuario del inquilino (usuario del equipo) es un usuario dentro de un inquilino específico. Los usuarios del equipo son creados por el Administrador del Inquilino (o por el administrador del clúster en nombre del administrador del inquilino). Los usuarios del equipo pueden provenir de cuatro lugares diferentes:"
+
+#: ../../index.rst:201
+msgid "Native CentreStack User (created from scratch)"
+msgstr "Usuario Nativo de CentreStack (creado desde cero)"
+
+#: ../../index.rst:202
+msgid "Active Directory User from local LDAP"
+msgstr "Usuario de Active Directory desde LDAP local"
+
+#: ../../index.rst:203
+msgid "Active Directory User from remote CentreStack Server Agent"
+msgstr "Usuario de Active Directory desde un Agente de Servidor CentreStack remoto"
+
+#: ../../index.rst:204
+msgid "Azure AD or other single-sign-on integrated identity provider"
+msgstr "Azure AD u otro proveedor de identidad integrado con inicio de sesión único"
+
+#: ../../index.rst:206
+msgid ""
+"Team users always belong to a specific tenant and can't span multiple "
+"tenants. However, a team user can receive file and folder share from "
+"multiple users and from multiple tenants."
+msgstr "Los usuarios del equipo siempre pertenecen a un inquilino específico y no pueden abarcar varios inquilinos. Sin embargo, un usuario del equipo puede recibir archivos compartidos y carpetas de varios usuarios y de varios inquilinos."
+
+#: ../../index.rst:212
+msgid ""
+"A Native CentreStack user can be mapped to Active Directory user or Azure"
+" AD user later if necessary."
+msgstr "Un usuario nativo de CentreStack puede ser mapeado a un usuario de Active Directory o Azure AD más tarde si es necesario."
+
+#: ../../index.rst:216
+msgid "Guest User"
+msgstr "Usuario Invitado"
+
+#: ../../index.rst:218
+msgid ""
+"The guest users are users outside of the tenant users domain but receive "
+"file or folder shares from team user. The Team user creates guest users "
+"through the file sharing or folder sharing activities. Guest users "
+"typically are external users outside of an organization that are already "
+"using CentreStack."
+msgstr "Los usuarios invitados son usuarios que están fuera del dominio de los usuarios del inquilino pero reciben comparticiones de archivos o carpetas de un usuario del equipo. El usuario del equipo crea usuarios invitados a través de las actividades de compartir archivos o carpetas. Los usuarios invitados suelen ser usuarios externos fuera de una organización que ya están utilizando CentreStack."
+
+#: ../../index.rst:223
+msgid "Anonymous User"
+msgstr "Usuario Anónimo"
+
+#: ../../index.rst:225
+msgid ""
+"The anonymous users are a type of the guest user that doesn't require "
+"editing permission. They can receive files and folder shares and can view"
+" the file and folder share from within a web browser user interface."
+msgstr "Los usuarios anónimos son un tipo de usuario invitado que no requiere permiso de edición. Pueden recibir archivos y carpetas compartidas y pueden ver el archivo y la carpeta compartida desde una interfaz de usuario de navegador web."
+
+#: ../../index.rst:229
+msgid "Client Agent Software"
+msgstr "Software del Agente Cliente"
+
+#: ../../index.rst:231
+msgid "CentreStack contains various client agents which include:"
+msgstr "CentreStack contiene varios agentes cliente que incluyen:"
+
+#: ../../index.rst:233
+msgid "Web Browser Based File Manager"
+msgstr "Gestor de Archivos Basado en Navegador Web"
+
+#: ../../index.rst:234
+msgid "Windows Desktop Client with Mapped Drive"
+msgstr "Cliente de Escritorio Windows con Unidad Mapeada"
+
+#: ../../index.rst:235
+msgid "Windows File Server Agent with 2-way synchronization"
+msgstr "Agente de Servidor de Archivos de Windows con sincronización bidireccional"
+
+#: ../../index.rst:236
+msgid "Mac OS X client and"
+msgstr "Cliente para Mac OS X y"
+
+#: ../../index.rst:240
+msgid "Mobile Applications:"
+msgstr "Aplicaciones Móviles:"
+
+#: ../../index.rst:238
+msgid "iOS"
+msgstr "iOS"
+
+#: ../../index.rst:239
+msgid "Android"
+msgstr "Android"
+
+#: ../../index.rst:240
+msgid "Windows Phone"
+msgstr "Windows Phone"
+
+#: ../../index.rst:242
+msgid ""
+"These client agents provide file access and sharing features from the "
+"native client operating systems."
+msgstr "Estos agentes cliente proporcionan funciones de acceso y compartición de archivos desde los sistemas operativos cliente nativos."
+
+#: ../../index.rst:245
+msgid ""
+"The discussion of the client agents are outside the scope of this "
+"deployment guide."
+msgstr "La discusión de los agentes del cliente está fuera del alcance de esta guía de implementación."
+
+#: ../../index.rst:248
+msgid "System Requirements"
+msgstr "Requisitos del Sistema"
+
+#: ../../index.rst:250
+msgid ""
+"CentreStack server is built on top of the Microsoft Web Platform, which "
+"includes:"
+msgstr "El servidor de CentreStack está construido sobre la Plataforma Web de Microsoft, que incluye:"
+
+#: ../../index.rst:252
+msgid "Windows Server base operating system"
+msgstr "Sistema operativo base de Windows Server"
+
+#: ../../index.rst:253
+msgid "Internet Information Server 7/8/10 (IIS)"
+msgstr "Servidor de Información de Internet 7/8/10 (IIS)"
+
+#: ../../index.rst:254
+msgid ".Net Framework 4.5+"
+msgstr ".Net Framework 4.5+"
+
+#: ../../index.rst:255
+msgid "ASP.NET"
+msgstr "ASP.NET"
+
+#: ../../index.rst:256
+msgid "MySQL, Microsoft SQL Server or Microsoft SQL Server Express"
+msgstr "MySQL, Microsoft SQL Server o Microsoft SQL Server Express"
+
+#: ../../index.rst:258
+msgid "The base operating system can be either:"
+msgstr "El sistema operativo base puede ser:"
+
+#: ../../index.rst:260
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
+
+#: ../../index.rst:261
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
+
+#: ../../index.rst:262
+msgid "Windows Server 2016"
+msgstr "Windows Server 2016"
+
+#: ../../index.rst:264
+msgid ""
+"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"comes directly with these newer server OS platforms. It is easier and "
+"faster to install CentreStack software on Windows Server 2022/2019/2016."
+msgstr "Recomendamos Windows Server 2022/2019/2016 ya que .Net Framework 4.5+ viene directamente con estas plataformas de servidor más nuevas. Es más fácil y rápido instalar el software de CentreStack en Windows Server 2022/2019/2016."
+
+#: ../../index.rst:269
+msgid ""
+"The CentreStack server installer is capable of installing all the "
+"dependency system components such as .NET Framework and etc. For "
+"installation, a clean machine is recommended."
+msgstr "El instalador del servidor CentreStack es capaz de instalar todos los componentes del sistema de dependencia como .NET Framework y etc. Para la instalación, se recomienda una máquina limpia."
+
+#: ../../index.rst:271
+msgid ""
+"There is no need to prepare the machine beyond the clean state of the "
+"basic Operating System software."
+msgstr "No es necesario preparar la máquina más allá del estado limpio del software básico del Sistema Operativo."
+
+#: ../../index.rst:275
+msgid "Windows Server 2022, 2019, 2016"
+msgstr "Windows Server 2022, 2019, 2016"
+
+#: ../../index.rst:277
+msgid ""
+"The base operating system provides the base of the Microsoft Web "
+"Platform. It will be loaded with the mentioned Microsoft components "
+"before the core CentreStack software is installed."
+msgstr "El sistema operativo base proporciona la base de la Plataforma Web de Microsoft. Se cargará con los componentes de Microsoft mencionados antes de que se instale el software central de CentreStack."
+
+#: ../../index.rst:281
+msgid ""
+"The CentreStack installer will install and load  all the dependency "
+"Windows components."
+msgstr "El instalador de CentreStack instalará y cargará todos los componentes dependientes de Windows."
+
+#: ../../index.rst:285
+msgid ""
+"Base Operating System with English locale is recommended. (The User "
+"Interface can be in a different locale.)"
+msgstr "Se recomienda un Sistema Operativo base con configuración regional en inglés. (La Interfaz de Usuario puede estar en una configuración regional diferente.)"
+
+#: ../../index.rst:288
+msgid "SQL Server / MySQL Server"
+msgstr "SQL Server / MySQL Server"
+
+#: ../../index.rst:290
+msgid ""
+"The Microsoft SQL Server or SQL Server Express or MySQL is used to store "
+"static configuration information such as the user name, email, storage "
+"configuration, files and folders, sharing information and others."
+msgstr "Microsoft SQL Server, SQL Server Express o MySQL se utilizan para almacenar información de configuración estática como el nombre de usuario, correo electrónico, configuración de almacenamiento, archivos y carpetas, información de compartición y otros."
+
+#: ../../index.rst:293
+msgid ""
+"It is recommended that the SQL Server has daily backups since it contains"
+" configuration information for the service to run properly."
+msgstr "Se recomienda que el SQL Server tenga copias de seguridad diarias ya que contiene información de configuración necesaria para el funcionamiento correcto del servicio."
+
+#: ../../index.rst:295
+msgid ""
+"If you have SQL Server Standard Edition or SQL Server Enterprise Edition,"
+" you can take advantage of the high availability features like Always-On "
+"Clustering or Always-On Fail Over Group."
+msgstr "Si cuenta con SQL Server Standard Edition o SQL Server Enterprise Edition, puede aprovechar las características de alta disponibilidad como el Clustering Always-On o el Grupo de Conmutación por Error Always-On."
+
+#: ../../index.rst:298
+msgid "MySQL Community Edition is also supported."
+msgstr "También se admite la edición comunitaria de MySQL."
+
+#: ../../index.rst:300
+msgid ""
+"If you are setting CentreStack server up in Amazon AWS, Amazon Aurora DB "
+"is also recommended."
+msgstr "Si está configurando el servidor de CentreStack en Amazon AWS, también se recomienda Amazon Aurora DB."
+
+#: ../../index.rst:304
+msgid ""
+"The CentreStack server installer is capable of installing SQL Express or "
+"MySQL. If you only need an all-in-one deployment for a single server "
+"deployment, the installer can install the database automatically."
+msgstr "El instalador del servidor CentreStack tiene la capacidad de instalar SQL Express o MySQL. Si solo necesita una implementación todo en uno para una implementación de servidor único, el instalador puede instalar la base de datos automáticamente."
+
+#: ../../index.rst:307
+msgid ".Net Framework 4"
+msgstr ".Net Framework 4"
+
+#: ../../index.rst:309
+msgid ""
+"The CentreStack Server is built with .Net Framework 4, with ASP.NET and "
+"WCF."
+msgstr "El servidor CentreStack está construido con .Net Framework 4, con ASP.NET y WCF."
+
+#: ../../index.rst:311
+msgid ""
+"We recommend .Net Framework 4.5 and above as it works better with remote "
+"clients that have Internet Explorer 10 or 11."
+msgstr "Recomendamos .Net Framework 4.5 o superior ya que funciona mejor con clientes remotos que tienen Internet Explorer 10 u 11."
+
+#: ../../index.rst:315
+msgid ""
+"The CentreStack server Installer will install .NET 4.5 and other "
+"dependency components automatically."
+msgstr "El instalador del servidor CentreStack instalará automáticamente .NET 4.5 y otros componentes de dependencia."
+
+#: ../../index.rst:319
+msgid "ASP.NET 4.5/4.6/4.7"
+msgstr "ASP.NET 4.5/4.6/4.7"
+
+#: ../../index.rst:321
+msgid ""
+"CentreStack web browser portal user interface is written in ASP.NET, HTML"
+" and JavaScript."
+msgstr "La interfaz de usuario del portal del navegador web de CentreStack está escrita en ASP.NET, HTML y JavaScript."
+
+#: ../../index.rst:324
+msgid "Internet Information Server (IIS)"
+msgstr "Servidor de Información de Internet (IIS)"
+
+#: ../../index.rst:326
+msgid ""
+"CentreStack Server-side services are hosted inside the Internet "
+"Information Server (IIS). It provides brokerage functionalities and "
+"secure gateway between the Client Agents and the back-end storage. It is "
+"also a value-add layer on top of the back-end storage."
+msgstr "Los servicios del lado del servidor de CentreStack están alojados dentro del Servidor de Información de Internet (IIS). Proporciona funcionalidades de intermediación y una pasarela segura entre los Agentes Cliente y el almacenamiento de fondo. También es una capa de valor añadido sobre el almacenamiento de fondo."
+
+#: ../../index.rst:332
+msgid ""
+"The CentreStack Server Installer will enable IIS Service if not already. "
+"So no manual step required."
+msgstr "El instalador de CentreStack Server habilitará el Servicio IIS si aún no está activo. Por lo tanto, no se requiere ningún paso manual."
+
+#: ../../index.rst:335
+msgid "Recommended Hardware Specification"
+msgstr "Especificaciones Recomendadas de Hardware"
+
+#: ../../index.rst
+msgid "Memory"
+msgstr "Memoria"
+
+#: ../../index.rst:339
+msgid "4GB, (8+GB is better for production environment)"
+msgstr "4GB, (8+GB es mejor para el entorno de producción)"
+
+#: ../../index.rst
+msgid "Hard Drive"
+msgstr "Disco Duro"
+
+#: ../../index.rst:343
+msgid "100G"
+msgstr "100G"
+
+#: ../../index.rst
+msgid "Operating System"
+msgstr "Sistema Operativo"
+
+#: ../../index.rst:347
+msgid "Windows 2022, Windows 2019, Windows 2016"
+msgstr "Windows 2022, Windows 2019, Windows 2016"
+
+#: ../../index.rst
+msgid "CPU"
+msgstr "CPU"
+
+#: ../../index.rst:351
+msgid ""
+"Intel, minimum 2-Core, prefer 4-Core (or 2-vCPU/4-vCPU  if on a virtual "
+"machine)"
+msgstr "Intel, mínimo 2 núcleos, se prefiere 4 núcleos (o 2-vCPU/4-vCPU si está en una máquina virtual)"
+
+#: ../../index.rst:355
+msgid ""
+"Virtual Machines are recommended. A Clean machine built from a base OS "
+"with English Locale is recommended. After providing the clean machine, "
+"the CentreStack Server installer will install the rest of the Windows "
+"system components and CentreStack components automatically. The software "
+"is hypervisor neutral. The hypervisor can be Hyper-V, VMWare or others. "
+"The software can be installed on a physical machine as well if needed."
+msgstr "Se recomiendan Máquinas Virtuales. Se recomienda una máquina limpia construida a partir de un sistema operativo base con configuración regional en inglés. Después de proporcionar la máquina limpia, el instalador del Servidor CentreStack instalará automáticamente el resto de los componentes del sistema Windows y los componentes de CentreStack. El software es neutral al hipervisor. El hipervisor puede ser Hyper-V, VMWare u otros. El software también se puede instalar en una máquina física si es necesario."
+
+#: ../../index.rst:361
+msgid "Capacity Planning"
+msgstr "Planificación de Capacidad"
+
+#: ../../index.rst:363
+msgid ""
+"For user counts smaller than 1000, a single CentreStack server is enough."
+" Most of the time, an all-in-one server deployment will be sufficient. In"
+" this case you will install the CentreStack Server in a single physical "
+"or virtual machine. The default CentreStack installer will install all "
+"the components (Database/Web Node/Worker Node) on one machine."
+msgstr "Para cuentas de usuario menores a 1000, un único servidor CentreStack es suficiente. La mayoría de las veces, una implementación de servidor todo en uno será suficiente. En este caso instalarás el Servidor CentreStack en una única máquina física o virtual. El instalador predeterminado de CentreStack instalará todos los componentes (Base de Datos/Nodo Web/Nodo de Trabajo) en una máquina."
+
+#: ../../index.rst:366
+msgid ""
+"For user counts greater than 1000, it is recommended to have the SQL "
+"Server node in a separate physical or virtual machine."
+msgstr "Para un número de usuarios mayor a 1000, se recomienda tener el nodo de SQL Server en una máquina física o virtual separada."
+
+#: ../../index.rst:368
+msgid ""
+"The rest of the worker nodes will share the load for the users in a "
+"capacity of 1000 each."
+msgstr "El resto de los nodos de trabajo compartirán la carga para los usuarios con una capacidad de 1000 cada uno."
+
+#: ../../index.rst:370
+msgid ""
+"In this case a virtual machine is recommended for each worker node and "
+"you should use a wild card SSL certificate for each worker node."
+msgstr "En este caso se recomienda una máquina virtual para cada nodo trabajador y debe usar un certificado SSL comodín para cada nodo trabajador."
+
+#: ../../index.rst:374
+msgid ""
+"In some big deployments, the SSL can be off-loaded to hardware load "
+"balancer such as Citrix NetScaler or F5 BIG IP."
+msgstr "En algunas implementaciones grandes, el SSL puede ser transferido a un balanceador de carga de hardware como Citrix NetScaler o F5 BIG IP."
+
+#: ../../index.rst:376
+msgid ""
+"The capacity of 1000 is referring to concurrent users. It is possible "
+"that you may have 5000 named users but only 1000 of them are using the "
+"product concurrently. So, in this case the per-server capacity can be "
+"5000 named users."
+msgstr "La capacidad de 1000 se refiere a usuarios concurrentes. Es posible que tengas 5000 usuarios nombrados pero solo 1000 de ellos estén utilizando el producto de manera concurrente. Entonces, en este caso la capacidad por servidor puede ser de 5000 usuarios nombrados."
+
+#: ../../index.rst:382
+msgid ""
+"(A Concurrent-User is defined as the users making requests in a 10-second"
+" period. For example, if you make a request A, and I make a request B, "
+"and if the time-difference between request A and request B is less than "
+"10 seconds, request A and request B are concurrent)."
+msgstr "(Un Usuario Concurrente se define como los usuarios que realizan solicitudes en un período de 10 segundos. Por ejemplo, si tú realizas una solicitud A, y yo realizo una solicitud B, y si la diferencia de tiempo entre la solicitud A y la solicitud B es menor de 10 segundos, la solicitud A y la solicitud B son concurrentes)."
+
+#: ../../index.rst:386
+msgid ""
+"**EXAMPLE**\\:  If you have 300,000 users in your company, you may need "
+"between 30-60 worker nodes (5000 – 10,000 named users for each worker "
+"node). You can scale up the memory size for each worker node to reduce "
+"the number of worker nodes required."
+msgstr "**EJEMPLO**\: Si tienes 300,000 usuarios en tu empresa, podrías necesitar entre 30-60 nodos trabajadores (5000 – 10,000 usuarios nombrados para cada nodo trabajador). Puedes aumentar la cantidad de memoria para cada nodo trabajador para reducir el número de nodos necesarios."
+
+#: ../../index.rst:390
+msgid "Load Balancing"
+msgstr "Balanceo de Carga"
+
+#: ../../index.rst:392
+msgid ""
+"Our recommendation is to have your own load balancing device if possible."
+" However, CentreStack is capable of using worker nodes (for web function "
+"only) for load-balancing if you do not have an existing load balancer. "
+"You can pick a worker node to be the node exposed for login/contact point"
+" and pass the actual work to others."
+msgstr "Nuestra recomendación es tener su propio dispositivo de equilibrio de carga si es posible. Sin embargo, CentreStack es capaz de utilizar nodos de trabajo (solo para función web) para equilibrio de carga si no tiene un equilibrador de carga existente. Puede elegir un nodo de trabajo para ser el nodo expuesto para inicio de sesión/punto de contacto y pasar el trabajo real a otros."
+
+#: ../../index.rst:396
+msgid ""
+"If you have a hardware load balancer such as F5, you can skip web nodes, "
+"and have F5 directly load balance to a farm of worker nodes. You can also"
+" use the Network Load Balancing feature which is included in Windows "
+"2022/2019/2016 for load balancing."
+msgstr "Si cuenta con un balanceador de carga de hardware como F5, puede omitir los nodos web y hacer que F5 equilibre la carga directamente a un conjunto de nodos trabajadores. También puede utilizar la función de Balanceo de Carga de Red que se incluye en Windows 2022/2019/2016 para el balanceo de carga."
+
+#: ../../index.rst:401
+msgid "Active Directory Integration"
+msgstr "Integración con Active Directory"
+
+#: ../../index.rst:403
+msgid "There are three ways to connect Active Directory into CentreStack."
+msgstr "Hay tres maneras de conectar el Active Directory con CentreStack."
+
+#: ../../index.rst:407
+msgid "1. LDAP"
+msgstr "LDAP"
+
+#: ../../index.rst:409
+msgid ""
+"For the first way, if the Active Directory is in the same Local Area "
+"Network (LAN), then a direct LDAP/LDAPS connection is recommended."
+msgstr "Para la primera forma, si el Active Directory se encuentra en la misma Red de Área Local (LAN), entonces se recomienda una conexión directa LDAP/LDAPS."
+
+#: ../../index.rst:414
+msgid "2. Server Agent Proxy"
+msgstr "2. Proxy del Agente del Servidor"
+
+#: ../../index.rst:416
+msgid ""
+"For the Second way, if the Active Directory is in a remote office, such "
+"as on a customer's premise, away from the CentreStack server, then a "
+"client agent software called, \"File Server Agent\" can be installed on "
+"the remote file server to help import Active Directory users over to "
+"CentreStack."
+msgstr "Para la segunda forma, si el Active Directory se encuentra en una oficina remota, como en las instalaciones de un cliente, lejos del servidor de CentreStack, entonces se puede instalar un software de agente cliente llamado \"File Server Agent\" en el servidor de archivos remoto para ayudar a importar usuarios de Active Directory a CentreStack."
+
+#: ../../index.rst:422
+msgid "CentreStack allows you to connect to multiple active directory services."
+msgstr "CentreStack te permite conectar con múltiples servicios de directorio activo."
+
+#: ../../index.rst:425
+msgid "3. Azure AD Support"
+msgstr "3. Soporte de Azure AD"
+
+#: ../../index.rst:426
+msgid ""
+"Via the Azure AD support, you can setup Azure AD so users can be "
+"authenticated by Azure AD instead of from a local Active Directory."
+msgstr "Mediante el soporte de Azure AD, puede configurar Azure AD para que los usuarios sean autenticados por Azure AD en lugar de un Active Directory local."
+
+#: ../../index.rst:430
+msgid "**\"Proxied AD User\"**"
+msgstr "**\"Usuario de AD en Proxy\"**"
+
+#: ../../index.rst:432
+msgid ""
+"It is also possible to use the Active Directory from a remote location "
+"where the server agent (included client software) is used. In this case "
+"\"Proxied AD User\" will be referred to users imported from server "
+"agent's side of the Active Directory."
+msgstr "También es posible utilizar el Active Directory desde una ubicación remota donde se utiliza el agente del servidor (software cliente incluido). En este caso, \"Usuario de AD Proxy\" se referirá a los usuarios importados desde el lado del agente del servidor del Active Directory."
+
+#: ../../index.rst:435
+msgid "**\"AD User\"**"
+msgstr "**\"Usuario de AD\"**"
+
+#: ../../index.rst:437
+msgid ""
+"The \"AD user\" is reserved to refer to users from local LDAP Active "
+"Directory."
+msgstr "El \"usuario de AD\" está reservado para referirse a usuarios del Directorio Activo LDAP local."
+
+#: ../../index.rst:442
+msgid ""
+"When should you use LDAP, and when should you use \"Server Agent\" for AD"
+" integration?"
+msgstr "¿Cuándo debería usar LDAP y cuándo debería usar \"Server Agent\" para la integración con AD?"
+
+#: ../../index.rst:444
+msgid "If AD is local to the CentreStack server, then LDAP is recommended."
+msgstr "Si el AD está local al servidor de CentreStack, entonces se recomienda LDAP."
+
+#: ../../index.rst:446
+msgid "If AD is remote, then Server Agent is recommended."
+msgstr "Si el AD es remoto, entonces se recomienda el Agente de Servidor."
+
+#: ../../index.rst:450
+msgid "Storage Considerations"
+msgstr "Consideraciones de Almacenamiento"
+
+#: ../../index.rst:452
+msgid ""
+"In the CentreStack system, for each tenant, there is one mandatory "
+"primary storage and there can be multiple, optional auxiliary storage "
+"services. The primary storage is the tenant's default root storage "
+"folder."
+msgstr "En el sistema CentreStack, para cada inquilino, hay un almacenamiento primario obligatorio y puede haber múltiples servicios de almacenamiento auxiliar opcionales. El almacenamiento primario es la carpeta de almacenamiento raíz predeterminada del inquilino."
+
+#: ../../index.rst:455
+msgid ""
+"If you setup the CentreStack in Amazon EC2 environment, the primary "
+"storage usually is an Amazon S3 bucket."
+msgstr "Si configuras CentreStack en el entorno de Amazon EC2, el almacenamiento primario suele ser un bucket de Amazon S3."
+
+#: ../../index.rst:457
+msgid ""
+"If you setup the CentreStack on-premise, the primary storage can be your "
+"file server storage and the auxiliary storage can be other cloud storage "
+"services or other local file server storage. OpenStack Swift is also a "
+"popular storage service in private enterprises."
+msgstr "Si configura CentreStack localmente, el almacenamiento principal puede ser el almacenamiento de su servidor de archivos y el almacenamiento auxiliar puede ser otros servicios de almacenamiento en la nube u otro almacenamiento de servidor de archivos local. OpenStack Swift también es un servicio de almacenamiento popular en empresas privadas."
+
+#: ../../index.rst:460
+msgid ""
+"CentreStack can be setup in a Rackspace data center on Cloud Server, "
+"Windows Azure VM, IBM SoftLayer Data Center and connect to Cloud Files, "
+"Azure Blob Storage, and SoftLayer Object Storage (OpenStack Swift based) "
+"respectively."
+msgstr "CentreStack puede configurarse en un centro de datos de Rackspace en Cloud Server, VM de Windows Azure, Centro de Datos de IBM SoftLayer y conectarse a Cloud Files, Azure Blob Storage y SoftLayer Object Storage (basado en OpenStack Swift) respectivamente."
+
+#: ../../index.rst:463
+msgid ""
+"CentreStack can also be setup next to a File Server and connect directly "
+"to a File Server Network Share."
+msgstr "CentreStack también puede configurarse junto a un Servidor de Archivos y conectarse directamente a una Compartición de Red de Servidor de Archivos."
+
+#: ../../index.rst:467
+msgid ""
+"If you will later have multiple CentreStack worker nodes in the cluster, "
+"make sure you use storage service connector in a way that can be accessed"
+" from all of the worker nodes."
+msgstr "Si más adelante va a tener varios nodos trabajadores de CentreStack en el clúster, asegúrese de usar el conector del servicio de almacenamiento de manera que todos los nodos trabajadores puedan acceder a él."
+
+#: ../../index.rst:470
+msgid ""
+"For example, C:\\\\ Drive of a specific worker node is not a good one to "
+"be accessed from all worker nodes. However, if it is published as a "
+"network share, it is good for all worker nodes."
+msgstr "Por ejemplo, la unidad C:\\ de un nodo de trabajo específico no es buena para ser accedida desde todos los nodos de trabajo. Sin embargo, si se publica como un recurso compartido de red, es bueno para todos los nodos de trabajo."
+
+#: ../../index.rst:474
+msgid "Backup CentreStack"
+msgstr "Centro de Respaldo CentreStack"
+
+#: ../../index.rst:477
+msgid "Database"
+msgstr "Base de datos"
+
+#: ../../index.rst:479
+msgid ""
+"Only the CentreStack database contains persistent configuration "
+"information. All other components are stateless and replaceable. In a "
+"disaster recovery scenario, as soon as the SQL Server is restored, other "
+"worker nodes can be re-installed and will start working immediately. You "
+"can also point the worker node's database reference to the new SQL "
+"Server; it will work immediately with the information from the database."
+msgstr "Solo la base de datos de CentreStack contiene información de configuración persistente. Todos los demás componentes son sin estado y reemplazables. En un escenario de recuperación de desastres, tan pronto como se restaure el SQL Server, otros nodos de trabajo pueden ser reinstalados y comenzarán a funcionar inmediatamente. También puede apuntar la referencia de la base de datos del nodo de trabajo al nuevo SQL Server; funcionará inmediatamente con la información de la base de datos."
+
+#: ../../index.rst:486
+msgid ""
+"The worker nodes are stateless so it is not required to backup any worker"
+" nodes. They can be provisioned by a clean OS with a copy of CentreStack."
+" As soon as they are connected to the same database they become a node in"
+" the cluster."
+msgstr "Los nodos trabajadores son efímeros por lo que no es necesario hacer copia de seguridad de ningún nodo trabajador. Pueden ser aprovisionados por un sistema operativo limpio con una copia de CentreStack. Tan pronto como se conectan a la misma base de datos, se convierten en un nodo en el clúster."
+
+#: ../../index.rst:491
+msgid "Storage (Files and Folders)"
+msgstr "Almacenamiento (Archivos y Carpetas)"
+
+#: ../../index.rst:493
+msgid ""
+"You will also need to back up your storage services. Most of the time, if"
+" you are using Cloud Storage services such as Amazon S3 or OpenStack "
+"Swift, the service has built-in redundancy. For local storage, DFS "
+"replication, RAID array or Microsoft Storage Space can all be options to "
+"provide storage service redundancy."
+msgstr "También necesitará hacer una copia de seguridad de sus servicios de almacenamiento. La mayoría de las veces, si está utilizando servicios de almacenamiento en la nube como Amazon S3 u OpenStack Swift, el servicio cuenta con redundancia integrada. Para el almacenamiento local, la replicación DFS, el arreglo RAID o el Espacio de Almacenamiento de Microsoft pueden ser opciones para proporcionar redundancia del servicio de almacenamiento."
+
+#: ../../index.rst:498
+msgid "Deployment Scenarios"
+msgstr "Escenarios de Despliegue"
+
+#: ../../index.rst:501
+msgid "Private On-premise"
+msgstr "Privado en las instalaciones"
+
+#: ../../index.rst:503
+msgid ""
+"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"In this scenario, Active Directory is typically at the same site and "
+"primary storage is from file server or NAS storage."
+msgstr "Puede preparar un Windows Server 2022/2019/2016 e instalar CentreStack. En este escenario, Active Directory suele estar en el mismo sitio y el almacenamiento primario proviene del servidor de archivos o almacenamiento NAS."
+
+#: ../../index.rst:506
+msgid ""
+"In this case, most of the time you are using CentreStack as a way to "
+"replace VPN to provide access to onsite file server from mobile devices "
+"and remote devices."
+msgstr "En este caso, la mayoría de las veces estás utilizando CentreStack como una forma de reemplazar VPN para proporcionar acceso al servidor de archivos local desde dispositivos móviles y dispositivos remotos."
+
+#: ../../index.rst:511
+msgid ""
+"Business Access use case - provide access to file server via CentreStack "
+"to mobile devices. When employees are in the office, they access the file"
+" server their normal way without noticing any difference, and while on "
+"the road or from remote location, they can use mobile and remote device "
+"to access file server network shares."
+msgstr "Caso de uso de Business Access: proporcionar acceso al servidor de archivos a través de CentreStack a dispositivos móviles. Cuando los empleados están en la oficina, acceden al servidor de archivos de la manera habitual sin notar ninguna diferencia, y mientras están de viaje o desde una ubicación remota, pueden usar dispositivos móviles y remotos para acceder a las unidades de red del servidor de archivos."
+
+#: ../../index.rst:521
+msgid "Private Off-Premise"
+msgstr "Privado Fuera de las Instalaciones"
+
+#: ../../index.rst:523
+msgid ""
+"Normally, a managed service provider (MSP) manages your IT services, such"
+" as hosted exchange servers, hosted file servers etc. You can ask the "
+"same managed service provider to install and manage the CentreStack for "
+"you in their data center."
+msgstr "Normalmente, un proveedor de servicios gestionados (MSP) administra tus servicios de TI, como servidores de intercambio alojados, servidores de archivos alojados, etc. Puedes pedirle al mismo proveedor de servicios gestionados que instale y administre CentreStack para ti en su centro de datos."
+
+#: ../../index.rst:526
+msgid ""
+"Usually from this deployment scenario, if the file server is already in "
+"the same data center, typically it turned into the \"Private On-premise\""
+" deployment."
+msgstr "Normalmente, en este escenario de implementación, si el servidor de archivos ya se encuentra en el mismo centro de datos, típicamente se convierte en la implementación \"Privada On-premise\"."
+
+#: ../../index.rst:529
+msgid ""
+"If on the other hand, the file servers are away from the data center, "
+"this gets turned into \"Business Continuity\" use case, where the server "
+"agent can be installed on the local file server and connects the local "
+"file servers to the remote CentreStack server in the data center."
+msgstr "Si por otro lado, los servidores de archivos están lejos del centro de datos, esto se convierte en un caso de uso de \"Continuidad del Negocio\", donde el agente del servidor puede instalarse en el servidor de archivos local y conectar los servidores de archivos locales con el servidor CentreStack remoto en el centro de datos."
+
+#: ../../index.rst:535
+msgid "Virtual Private Cloud"
+msgstr "Nube Privada Virtual"
+
+#: ../../index.rst:537
+msgid ""
+"In this deployment scenario, you would deploy the CentreStack solution in"
+" a virtual private cloud environment such as Amazon EC2. CentreStack is "
+"also available in the form of AMI image to facilitate creation of EC2 "
+"instances. In this deployment scenario, the typical primary storage "
+"connection is to the Amazon S3 storage. You can also setup CentreStack "
+"solution in an environment like HP Helion (OpenStack) Cloud, with a "
+"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
+msgstr "En este escenario de despliegue, implementarías la solución de CentreStack en un entorno de nube privada virtual como Amazon EC2. CentreStack también está disponible en forma de imagen AMI para facilitar la creación de instancias EC2. En este escenario de despliegue, la conexión de almacenamiento primario típica es al almacenamiento de Amazon S3. También puedes configurar la solución de CentreStack en un entorno como HP Helion (OpenStack) Cloud, con un Windows Server 2022/2019/2016 conectando al almacenamiento de OpenStack Swift."
+
+#: ../../index.rst:544
+msgid "Multi-Site Deployment"
+msgstr "Despliegue Multi-Sitio"
+
+#: ../../index.rst:545
+msgid "Please reference multi-site deployment."
+msgstr "Por favor, consulte la implementación en múltiples sitios."
+
+#: ../../index.rst:548
+msgid "Security Consideration"
+msgstr "Consideraciones de Seguridad"
+
+#: ../../index.rst:551
+msgid "Access Clients and CentreStack"
+msgstr "Clientes de Acceso y CentreStack"
+
+#: ../../index.rst:553
+msgid ""
+"The access client agents will be configured with an access end point in "
+"the form of https://cloud.acme.com, where cloud.acme.com is the DNS name "
+"of your CentreStack server. The communication from the access clients, "
+"such as login request will be protected by SSL over HTTP (HTTPS)."
+msgstr "Los agentes de cliente de acceso se configurarán con un punto final de acceso en la forma de https://cloud.acme.com, donde cloud.acme.com es el nombre DNS de su servidor CentreStack. La comunicación de los clientes de acceso, como la solicitud de inicio de sesión, estará protegida por SSL sobre HTTP (HTTPS)."
+
+#: ../../index.rst:559
+msgid ""
+"We recommend using https://www.ssllabs.com/ to check out the strength of "
+"your SSL certificate and whether or not it is compatible with iOS 9 and "
+"above devices."
+msgstr "Recomendamos utilizar https://www.ssllabs.com/ para comprobar la fortaleza de su certificado SSL y si es compatible o no con dispositivos iOS 9 y superiores."
+
+#: ../../index.rst:563
+msgid "CentreStack and Active Directory"
+msgstr "CentreStack y Active Directory"
+
+#: ../../index.rst:565
+msgid ""
+"If the CentreStack is configured with Active Directory, CentreStack will "
+"authenticate users on behalf of the active directory by contacting the "
+"Active Directory over LDAP or LDAPS. There is no direct communication "
+"between the access clients and the Active Directory."
+msgstr "Si CentreStack está configurado con Active Directory, CentreStack autenticará a los usuarios en nombre del directorio activo contactando al Active Directory a través de LDAP o LDAPS. No hay comunicación directa entre los clientes de acceso y el Active Directory."
+

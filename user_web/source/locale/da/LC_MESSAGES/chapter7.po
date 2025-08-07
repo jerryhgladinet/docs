@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter7.rst:3
+msgid "Folder Legends in Web Interface"
+msgstr "Mappelegender i webgrænsefladen"
+
+#: ../../chapter7.rst:5
+msgid "There are many different folders in the web interface."
+msgstr "Der er mange forskellige mapper i webgrænsefladen."
+
+#: ../../chapter7.rst:7
+msgid "Here is a list of them."
+msgstr "Her er en liste over dem."
+
+#: ../../chapter7.rst:9
+msgid "**Mounted Storage**"
+msgstr "**Monteret Lagerplads**"
+
+#: ../../chapter7.rst:15
+msgid ""
+"This folder represents mounted/attached storage. For example, a mounted "
+"file server network share or a connected Amazon S3 bucket will look like "
+"this."
+msgstr "Denne mappe repræsenterer monteret/tilkoblet lagring. For eksempel vil et monteret netværksdrev fra en filserver eller en tilsluttet Amazon S3-spand se sådan ud."
+
+#: ../../chapter7.rst:17
+msgid "**Sync From Remote**"
+msgstr "**Synkroniser Fra Fjern**"
+
+#: ../../chapter7.rst:23
+msgid ""
+"This folder represents synchronization folders from remote PCs or Server "
+"Agents."
+msgstr "Denne mappe repræsenterer synkroniseringsmapper fra fjerne pc'er eller Serveragenter."
+
+#: ../../chapter7.rst:25
+msgid "**Received Shares**"
+msgstr "**Modtagne delinger**"
+
+#: ../../chapter7.rst:31
+msgid ""
+"This folder represents the root folder of all the shared files and "
+"folders from other users."
+msgstr "Denne mappe repræsenterer rodmappen for alle de delte filer og mapper fra andre brugere."
+
+#: ../../chapter7.rst:33
+msgid "**Regular Folder**"
+msgstr "**Almindelig mappe**"
+
+#: ../../chapter7.rst:39
+msgid "This folder represents a single shared folder received from other users."
+msgstr "Denne mappe repræsenterer en enkelt delt mappe modtaget fra andre brugere."
+
+#: ../../chapter7.rst:41
+msgid "**Team Folder**"
+msgstr "**Teammappe**"
+
+#: ../../chapter7.rst:47
+msgid ""
+"This folder represent a team folder that is published to users and viewed"
+" from the users who received the team folder."
+msgstr "Denne mappe repræsenterer en teammappe, der er offentliggjort til brugere og set fra de brugere, der har modtaget teammappen."
+
+#: ../../chapter7.rst:49
+msgid "**Version Control**"
+msgstr "**Versionskontrol**"
+
+#: ../../chapter7.rst:55
+msgid ""
+"Version folder represents folders that every files inside is under "
+"version control."
+msgstr "Versionsmappe repræsenterer mapper, hvor hver fil indeni er under versionskontrol."
+
+#: ../../chapter7.rst:59
+msgid ""
+"If a folder doesn't have the version folder icon, doesn't mean it is not "
+"a version folder."
+msgstr "Hvis en mappe ikke har versionsmappeikonet, betyder det ikke, at det ikke er en versionsmappe."
+
+#: ../../chapter7.rst:61
+msgid ""
+"As long as one of the parent folder is a version folder, everything "
+"inside is under version control."
+msgstr "Så længe en af overmapperne er en versionsmappe, er alt indeni under versionskontrol."
+
+#: ../../chapter7.rst:63
+msgid ""
+"If the administrator setup the user as version control from the root, the"
+" team user may not see the version folder icon either when version "
+"control is on by default."
+msgstr "Hvis administratoren konfigurerer brugeren som versionskontrol fra roden, kan teambrugeren muligvis heller ikke se versionsmappens ikon, når versionskontrol er aktiveret som standard."
+

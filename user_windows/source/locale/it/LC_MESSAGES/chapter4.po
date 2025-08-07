@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter4.rst:3
+msgid "Folder and File Features"
+msgstr "Funzionalità di Cartelle e File"
+
+#: ../../chapter4.rst:5
+msgid ""
+"When you right-click on a folder or a file you will see the context menu."
+" Use this menu to perform various actions on the file."
+msgstr "Quando si fa clic con il pulsante destro su una cartella o un file, verrà visualizzato il menu contestuale. Utilizza questo menu per eseguire varie azioni sul file."
+
+#: ../../chapter4.rst:8
+msgid "Cloud Drive Context Menus"
+msgstr "Menu contestuali di Cloud Drive"
+
+#: ../../chapter4.rst:10
+msgid ""
+"The context menu will vary depending on what you right-click on. For "
+"instance, in the image below you see three variants of the context menu."
+msgstr "Il menu contestuale varierà a seconda di ciò su cui fai clic con il tasto destro. Ad esempio, nell'immagine qui sotto vedi tre varianti del menu contestuale."
+
+#: ../../chapter4.rst:15
+msgid "CLOUD DRIVE CONTEXT MENU"
+msgstr "MENU CONTESTUALE DI CLOUD DRIVE"
+
+#: ../../chapter4.rst:18
+msgid "Context Menu for Files"
+msgstr "Menu contestuale per i file"
+
+#: ../../chapter4.rst:21 ../../chapter4.rst:42
+msgid "**Share...**"
+msgstr "**Condividi...**"
+
+#: ../../chapter4.rst:21
+msgid ""
+"This is to share out the file with anyone by email. Multiple emails can "
+"be added at the same time by seperating them with a \";\"."
+msgstr "Questo serve per condividere il file con chiunque via email. È possibile aggiungere più email contemporaneamente separandole con un \";\"."
+
+#: ../../chapter4.rst:24
+msgid "**Get Share Link (Read Only): <filename>**"
+msgstr "**Ottieni Link di Condivisione (Sola Lettura): <filename>**"
+
+#: ../../chapter4.rst:24
+msgid ""
+"This is to get a read-only web link to the file. This option allows you "
+"to share a file as a public (Read Only) link. Anyone with the link can "
+"access this file. Click this option to copy the public link to your "
+"clipboard. Once you click \"Ok\", you can paste that link anywhere (e.g.,"
+" email, social media)."
+msgstr "Questa opzione serve per ottenere un link web in sola lettura al file. Questa opzione permette di condividere un file tramite un link pubblico (solo lettura). Chiunque in possesso del link può accedere a questo file. Clicca su questa opzione per copiare il link pubblico negli appunti. Una volta cliccato su \"Ok\", potrai incollare il link ovunque (ad esempio, email, social media)."
+
+#: ../../chapter4.rst:27
+msgid "**Manage Revisions**"
+msgstr "**Gestisci le Revisioni**"
+
+#: ../../chapter4.rst:27
+msgid ""
+"This option will open a web browser where you get access to the Web "
+"Portal version manager for the file."
+msgstr "Questa opzione aprirà un browser web dove otterrai accesso al gestore della versione del Portale Web per il file."
+
+#: ../../chapter4.rst:30
+msgid "**Check Out (Lock) <filename>**"
+msgstr "**Controlla (Blocca) <filename>**"
+
+#: ../../chapter4.rst:30
+msgid ""
+"This option is to manually check out file. All changes to the file will "
+"remain local until it is Checked In."
+msgstr "Questa opzione serve per effettuare il check-out manuale del file. Tutte le modifiche al file rimarranno locali fino a quando non verrà effettuato il Check-In."
+
+#: ../../chapter4.rst:33 ../../chapter4.rst:54
+msgid "**Force refresh**"
+msgstr "**Forza l'aggiornamento**"
+
+#: ../../chapter4.rst:33 ../../chapter4.rst:54
+msgid "Click this to synchronize the web portal with your local folder."
+msgstr "Clicca qui per sincronizzare il portale web con la tua cartella locale."
+
+#: ../../chapter4.rst:36
+msgid "Context Menu for Folders"
+msgstr "Menu contestuale per le cartelle"
+
+#: ../../chapter4.rst:39
+msgid "**Request a file**"
+msgstr "**Richiedi un file**"
+
+#: ../../chapter4.rst:39
+msgid ""
+"This is to share out a folder link to a user and request the user to "
+"upload a file. You can request a file from multiple emails at once by "
+"using a \";\" to seperate them. This upload link can be set to expire in "
+"a certain amount of time or never."
+msgstr "Questo serve per condividere un link di una cartella con un utente e richiedere all'utente di caricare un file. Puoi richiedere un file da più email contemporaneamente utilizzando un \";\" per separarle. Questo link di caricamento può essere impostato per scadere dopo un certo periodo di tempo o mai."
+
+#: ../../chapter4.rst:42
+msgid ""
+"This is to share out the folder with anyone by email. Multiple emails can"
+" be added at the same time by seperating them with a \";\"."
+msgstr "Questo serve per condividere la cartella con chiunque tramite email. È possibile aggiungere più email contemporaneamente separandole con un \";\"."
+
+#: ../../chapter4.rst:45
+msgid "**Get Share Link (Read Only): <foldername>**"
+msgstr "**Ottieni Link di Condivisione (Sola Lettura): <foldername>**"
+
+#: ../../chapter4.rst:45
+msgid ""
+"This is to get a read-only web link to the folder. This option allows you"
+" to share a folder as a public (Read Only) link. Anyone with the link can"
+" access this folder. Click this option to copy the public link to your "
+"clipboard. Once you click Ok, you can paste that link anywhere (e.g., "
+"email, social media)."
+msgstr "Questo serve per ottenere un link web in sola lettura alla cartella. Questa opzione consente di condividere una cartella tramite un link pubblico (sola lettura). Chiunque in possesso del link può accedere a questa cartella. Clicca su questa opzione per copiare il link pubblico negli appunti. Una volta cliccato su Ok, potrai incollare il link ovunque (ad esempio, email, social media)."
+
+#: ../../chapter4.rst:48
+msgid "**Enable/Disable Offline Access**"
+msgstr "**Abilita/Disabilita Accesso Offline**"
+
+#: ../../chapter4.rst:48
+msgid ""
+"This is to enable offline access to the folder so the folder content can "
+"be pre-fetched."
+msgstr "Questo serve per abilitare l'accesso offline alla cartella in modo che il contenuto della cartella possa essere pre-caricato."
+
+#: ../../chapter4.rst:51
+msgid "**Open in Web Browser**"
+msgstr "**Apri nel browser web**"
+
+#: ../../chapter4.rst:51
+msgid "Opens a web browser and take you to that file in the Web Portal."
+msgstr "Apre un browser web e ti porta a quel file nel Portale Web."
+

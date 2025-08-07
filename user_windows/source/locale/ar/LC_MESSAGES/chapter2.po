@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter2.rst:3
+msgid "Installation"
+msgstr "التثبيت"
+
+#: ../../chapter2.rst:6
+msgid ""
+"First login to your |prodname| web portal and click the user icon (1) in "
+"the top right corner. Then click the client download button (2) and "
+"download the respective client installer package."
+msgstr "قم أولاً بتسجيل الدخول إلى بوابة الويب الخاصة بـ |prodname| وانقر على أيقونة المستخدم (1) في الزاوية العليا اليمنى. ثم انقر على زر تحميل العميل (2) وقم بتنزيل حزمة مثبت العميل المناسبة."
+
+#: ../../chapter2.rst:9
+msgid ""
+"**NOTE:** It is very important that you log in to |prodname| as a user "
+"before downloading the Windows or Mac Clients. This gives you access to "
+"client installation packages that are already tied to your |prodname| "
+"account, which makes installation and accessing |prodname| easy."
+msgstr "**ملاحظة:** من المهم جدًا أن تقوم بتسجيل الدخول إلى |prodname| كمستخدم قبل تنزيل عملاء Windows أو Mac. هذا يمنحك الوصول إلى حزم تثبيت العميل التي تم ربطها بالفعل بحساب |prodname| الخاص بك، مما يجعل عملية التثبيت والوصول إلى |prodname| سهلة."
+
+#: ../../chapter2.rst:14
+msgid "DOWNLOAD YOUR CLIENT"
+msgstr "قم بتنزيل عميلك"
+
+#: ../../chapter2.rst:16
+msgid ""
+"Once you click the download button you will see a page of options "
+"including Windows Desktop Client (1), Mac OS X Client (2) or Mobile "
+"client (3) and download the associated package."
+msgstr "بمجرد النقر على زر التحميل، سترى صفحة من الخيارات تشمل عميل سطح المكتب لنظام التشغيل Windows (1)، عميل نظام التشغيل Mac OS X (2) أو العميل المحمول (3) وقم بتحميل الحزمة المرتبطة."
+
+#: ../../chapter2.rst:21
+msgid "CLIENT DOWNLOAD PAGE"
+msgstr "صفحة تحميل العميل"
+
+#: ../../chapter2.rst:23
+msgid ""
+"Ensure that you choose the appropriate download for your operating system"
+" (eg, Windows 64-bit, Windows 32-bit). Run the downloaded MSI package to "
+"start the installation. Then click \"Next\" and follow the instructions "
+"to finish. In the Setup Windows Client screen, you can customize the "
+"installation if necessary."
+msgstr "تأكد من اختيار التنزيل المناسب لنظام التشغيل الخاص بك (مثلاً، ويندوز 64-بت، ويندوز 32-بت). قم بتشغيل حزمة MSI التي تم تنزيلها لبدء التثبيت. ثم انقر على \"التالي\" واتبع التعليمات للانتهاء. في شاشة إعداد عميل ويندوز، يمكنك تخصيص التثبيت إذا لزم الأمر."
+
+#: ../../chapter2.rst:28
+msgid "CLOUD WINDOWS CLIENT INSTALLER"
+msgstr "مُثبِّت عميل ويندوز السحابي"
+
+#: ../../chapter2.rst:31
+msgid "Log In to |prodname|"
+msgstr "تسجيل الدخول إلى |prodname|"
+
+#: ../../chapter2.rst:33
+msgid ""
+"At the end of the installation, you will be prompted to enter your "
+"|prodname| user account credentials. These credentials will authorize "
+"your |prodname| Windows Client and connect it to your |prodname| user "
+"account. Access to your Windows Client agent is also available under the "
+"Windows Start Menu. If the \"Auto-login next time\" option is selected "
+"(default), the Cloud Windows Client will be launched at Windows Startup. "
+"You can see the client icon in the lower right of the desktop or in the "
+"right-bottom notifications areas of your task bar."
+msgstr "في نهاية التثبيت، سيُطلب منك إدخال بيانات اعتماد حساب المستخدم الخاص بك في |prodname|. ستُخول هذه البيانات وكيل عميل |prodname| Windows وتربطه بحساب المستخدم الخاص بك في |prodname|. كما يمكن الوصول إلى وكيل عميل Windows الخاص بك من خلال قائمة ابدأ في Windows. إذا تم اختيار خيار \"تسجيل الدخول التلقائي في المرة القادمة\" (الافتراضي)، سيتم تشغيل عميل Cloud Windows عند بدء تشغيل Windows. يمكنك رؤية أيقونة العميل في الجزء الأيمن السفلي من سطح المكتب أو في مناطق الإشعارات اليمنى السفلية من شريط المهام."
+
+#: ../../chapter2.rst:38
+msgid "LOGGING INTO |prodname| CLIENT"
+msgstr "تسجيل الدخول إلى عميل |prodname|"
+
+#: ../../chapter2.rst:41
+msgid "Accessing Your Files and Folders"
+msgstr "الوصول إلى ملفاتك ومجلداتك"
+
+#: ../../chapter2.rst:43
+msgid "There are two main ways to use |prodname| files and folders."
+msgstr "هناك طريقتان رئيسيتان لاستخدام ملفات ومجلدات |prodname|."
+
+#: ../../chapter2.rst:45
+msgid "First, there is a |prodname| Cloud Drive."
+msgstr "أولاً، هناك |prodname| Cloud Drive."
+
+#: ../../chapter2.rst:47
+msgid ""
+"With the |prodname| Cloud Drive, you have direct on-demand access to your"
+" cloud storage."
+msgstr "مع |prodname| Cloud Drive، لديك وصول مباشر وفوري إلى تخزينك السحابي."
+
+#: ../../chapter2.rst:49
+msgid "Second, there are synchronization folders."
+msgstr "ثانيًا، هناك مجلدات المزامنة."
+
+#: ../../chapter2.rst:51
+msgid ""
+"Outside of the Cloud Drive, if you don't want to change where your "
+"existing folders are, you can then attach local folders as an access "
+"mechanism. The attached folder will be synchronized with Cloud in a bi-"
+"directional way."
+msgstr "خارج الـ Cloud Drive، إذا كنت لا ترغب في تغيير مكان المجلدات الحالية الخاصة بك، يمكنك بعد ذلك ربط المجلدات المحلية كآلية وصول. سيتم مزامنة المجلد المرفق مع السحابة بطريقة ثنائية الاتجاه."
+
+#: ../../chapter2.rst:54
+msgid "Cloud Drive Access"
+msgstr "وصول إلى القرص السحابي"
+
+#: ../../chapter2.rst:56
+msgid ""
+"After the installation is completed, a system tray icon will appear that "
+"allows you to open your |prodname| Drive."
+msgstr "بعد اكتمال التثبيت، ستظهر أيقونة في منطقة الإشعارات تتيح لك فتح محرك الأقراص |prodname| الخاص بك."
+
+#: ../../chapter2.rst:58
+msgid ""
+"If you click the system tray icon **(1)** which will open the tray menu. "
+"You can access the cloud drive by clicking the drive icon **(2)** which "
+"will open Windows Explorer in the Cloud Drive veiw **(3)**."
+msgstr "إذا نقرت على أيقونة منطقة الإعلام **(1)** سيتم فتح قائمة الصينية. يمكنك الوصول إلى القرص السحابي بالنقر على أيقونة القرص **(2)** والتي ستفتح مستكشف ويندوز في وضع عرض القرص السحابي **(3)**."
+
+#: ../../chapter2.rst:63
+msgid "ACCESSING THE CLOUD DRIVE"
+msgstr "الوصول إلى القرص السحابي"
+
+#: ../../chapter2.rst:65
+msgid ""
+"In the Cloud Drive folder, you can do typical Windows folder functions, "
+"and right click to access the Cloud Drive context menu **(4)**."
+msgstr "في مجلد السحابة الإلكترونية، يمكنك أداء وظائف المجلدات النمطية لنظام ويندوز، والنقر بزر الفأرة الأيمن للوصول إلى قائمة سياق السحابة الإلكترونية **(4)**."
+
+#: ../../chapter2.rst:67
+msgid ""
+"Back in the Tray Menu, the three-dots **(5)** gives you access to other "
+"important functions (e.g., web portal, force sync, sign out, exit, enable"
+" debug trace)."
+msgstr "في قائمة العلبة، تمنحك النقاط الثلاث **(5)** الوصول إلى وظائف مهمة أخرى (مثل بوابة الويب، الفرض على المزامنة، تسجيل الخروج، الخروج، تمكين تتبع التصحيح)."
+
+#: ../../chapter2.rst:72
+msgid "OTHER CLOUD DRIVE FUNCTIONS"
+msgstr "وظائف أخرى للسحابة الإلكترونية"
+
+#: ../../chapter2.rst:75
+msgid "Management Console"
+msgstr "وحدة التحكم الإدارية"
+
+#: ../../chapter2.rst:77
+msgid ""
+"Also in the Tray Menu there is a Management Console icon **(6)**. Click "
+"this will give you access to the Management Console."
+msgstr "كذلك في قائمة الصينية هناك أيقونة وحدة التحكم الإدارية **(6)**. النقر على هذا سيمنحك الوصول إلى وحدة التحكم الإدارية."
+
+#: ../../chapter2.rst:82
+msgid "ACCESSING THE MANAGEMENT CONSOLE"
+msgstr "الوصول إلى وحدة التحكم الإدارية"
+

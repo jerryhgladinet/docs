@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Partner Portal"
+msgstr "Portail Partenaire"
+
+#: ../../chapter02.rst:5
+msgid ""
+"To start the Hosted-|prodname| version, the first thing to do is to "
+"acquire a |prodname| partner account and login to the web portal."
+msgstr "Pour démarrer la version Hosted-|prodname|, la première chose à faire est d'acquérir un compte partenaire |prodname| et de se connecter au portail web."
+
+#: ../../chapter02.rst:10
+msgid "|prodname| WEBSITE"
+msgstr "|prodname| SITE WEB"
+
+#: ../../chapter02.rst:12
+msgid ""
+"The Partner Portal is the centralized place to manage the managed service"
+" provider's (MSP's) clients. The activities on the partner portal include"
+" creating Tenants and managing Tenants."
+msgstr "Le Portail Partenaire est le lieu centralisé pour gérer les clients du prestataire de services gérés (MSP). Les activités sur le portail partenaire incluent la création de Locataires et la gestion des Locataires."
+
+#: ../../chapter02.rst:17
+msgid "PARTNER LOGIN"
+msgstr "CONNEXION PARTENAIRE"
+
+#: ../../chapter02.rst:19
+msgid ""
+"After logging into the Partner Portal, you can see most options by "
+"expanding the left-side menu. **(1)** From the collapsable menu, choose "
+"one of the two hosting options: \"Self-Hosted |prodname|\" **(2)**, which"
+" is for the self-hosted |prodname|, or \"Hosted |prodname|\" **(3)**. In "
+"the image below you can see that we have already \"Branded\" this account"
+" with \"ACME Cloud Services\" **(4)** (see \"Branding\" section **(5)** "
+"below for more information). You can also access useful information here,"
+" such as \"Compare CentreStack Editions\" **(6)** and \"Training Videos\""
+" **(7)** to help you get started."
+msgstr "Après vous être connecté au Portail Partenaire, vous pouvez voir la plupart des options en déployant le menu latéral gauche. **(1)** À partir du menu déroulant, choisissez l'une des deux options d'hébergement : \"Auto-hébergé |prodname|\" **(2)**, qui est pour le |prodname| auto-hébergé, ou \"Hébergé |prodname|\" **(3)**. Dans l'image ci-dessous, vous pouvez voir que nous avons déjà \"Personnalisé\" ce compte avec \"ACME Cloud Services\" **(4)** (voir la section \"Personnalisation\" **(5)** ci-dessous pour plus d'informations). Vous pouvez également accéder ici à des informations utiles, telles que \"Comparer les éditions CentreStack\" **(6)** et \"Vidéos de formation\" **(7)** pour vous aider à démarrer."
+
+#: ../../chapter02.rst:24
+msgid "PARTNER DASHBOARD"
+msgstr "TABLEAU DE BORD PARTENAIRE"
+
+#: ../../chapter02.rst:26
+msgid ""
+"Because this guide is focused on our \"Hosted\" solution, choose the "
+"\"Hosted |prodname|\" option from the left panel."
+msgstr "Parce que ce guide est axé sur notre solution \"Hébergée\", choisissez l'option \"Hébergé |prodname|\" dans le panneau de gauche."
+
+#: ../../chapter02.rst:31
+msgid "HOSTED |prodname| TENANT MANAGEMENT"
+msgstr "GESTION DE LOCATAIRE HÉBERGÉ |prodname|"
+
+#: ../../chapter02.rst:34
+msgid "Tenant Management"
+msgstr "Gestion des locataires"
+
+#: ../../chapter02.rst:36
+msgid ""
+"After you are in the Hosted |prodname| section, you can view the Tenant "
+"manager."
+msgstr "Après être dans la section Hébergé |prodname|, vous pouvez consulter le gestionnaire de locataires."
+
+#: ../../chapter02.rst:40
+msgid "A Tenant is usually mapped to a client of yours."
+msgstr "Un locataire est généralement associé à un client de chez vous."
+
+#: ../../chapter02.rst:43
+msgid "New Tenant"
+msgstr "Nouveau Locataire"
+
+#: ../../chapter02.rst:45
+msgid ""
+"To start creating the first Tenant, you can use the \"Register a Tenant\""
+" link."
+msgstr "Pour commencer à créer le premier locataire, vous pouvez utiliser le lien « Enregistrer un locataire »."
+
+#: ../../chapter02.rst:50
+msgid "CREATE A NEW TENANT"
+msgstr "CRÉER UN NOUVEAU LOCATAIRE"
+
+#: ../../chapter02.rst:52
+msgid ""
+"During the creation of a Tenant, it asks for basic Tenant-related "
+"information such as company name, contact name, email and other "
+"information."
+msgstr "Lors de la création d'un locataire, il est demandé des informations de base liées au locataire telles que le nom de l'entreprise, le nom du contact, l'email et d'autres informations."
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you need to get to the advanced section to further customize the "
+"creation of the Tenant, you can click on the \"Advanced Settings\" link."
+msgstr "Si vous devez accéder à la section avancée pour personnaliser davantage la création du locataire, vous pouvez cliquer sur le lien \"Paramètres avancés\"."
+
+#: ../../chapter02.rst:59
+msgid "NEW TENANT SETTINGS"
+msgstr "NOUVEAUX PARAMÈTRES DE LOCATAIRE"
+
+#: ../../chapter02.rst:62
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: ../../chapter02.rst:67
+msgid "ADVANCED SETTINGS"
+msgstr "PARAMÈTRES AVANCÉS"
+
+#: ../../chapter02.rst:69
+msgid ""
+"For MSPs and the Tenant internal IT staff, there is a division of work "
+"and responsibility. Sometimes managed service providers do more work and "
+"have more responsibility, but other times the Tenant IT staff has more. "
+"The Advanced Settings defines how the work is divided between these two "
+"entities."
+msgstr "Pour les MSP et le personnel informatique interne du locataire, il existe une répartition du travail et des responsabilités. Parfois, les prestataires de services gérés font plus de travail et ont plus de responsabilités, mais d'autres fois, c'est le personnel informatique du locataire qui en a plus. Les Paramètres Avancés définissent comment le travail est réparti entre ces deux entités."
+
+#: ../../chapter02.rst:71
+msgid "View and edit group policy"
+msgstr "Afficher et modifier la politique de groupe"
+
+#: ../../chapter02.rst:73
+msgid "Whether the Tenant itself (Tenant Administrator) can manage group policy."
+msgstr "Si le locataire lui-même (Administrateur du locataire) peut gérer la stratégie de groupe."
+
+#: ../../chapter02.rst:76
+msgid "Allow Tenant to edit branding setting"
+msgstr "Permettre au locataire de modifier le paramétrage de la marque"
+
+#: ../../chapter02.rst:78
+msgid ""
+"Normally the Tenant will pick up the service provider's default branding "
+"setting. If this setting is allowed the Tenant can define their own "
+"branding."
+msgstr "Normalement, le locataire adoptera le paramétrage de marque par défaut du prestataire de services. Si ce paramétrage est autorisé, le locataire peut définir sa propre marque."
+
+#: ../../chapter02.rst:81
+msgid "Edit Tenant Administrator info"
+msgstr "Modifier les informations de l'administrateur du locataire"
+
+#: ../../chapter02.rst:83
+msgid ""
+"Tenant admin can change the email and the name of the Tenant "
+"administrator."
+msgstr "L'administrateur du locataire peut changer l'email et le nom de l'administrateur du locataire."
+
+#: ../../chapter02.rst:85
+msgid "Allow creation of guest users"
+msgstr "Autoriser la création d'utilisateurs invités"
+
+#: ../../chapter02.rst:87
+msgid ""
+"The Guest user is related to files and folder sharing. This setting "
+"allows Tenant users to create guest users."
+msgstr "L'utilisateur invité est lié au partage de fichiers et de dossiers. Ce paramètre permet aux utilisateurs du Tenant de créer des utilisateurs invités."
+
+#: ../../chapter02.rst:89
+msgid ""
+"Show Data-At-Rest Encryption configuration page (Requires empty storage "
+"container)"
+msgstr "Afficher la page de configuration du chiffrement des données au repos (nécessite un conteneur de stockage vide)"
+
+#: ../../chapter02.rst:91
+msgid ""
+"This option allows Tenant to set encryption upon the first use. The "
+"Tenant will enable the encryption with a pass phrase."
+msgstr "Cette option permet au locataire de configurer le chiffrement lors de la première utilisation. Le locataire activera le chiffrement avec une phrase secrète."
+
+#: ../../chapter02.rst:93
+msgid "User License Count"
+msgstr "Nombre de licences utilisateur"
+
+#: ../../chapter02.rst:95
+msgid "By default, the Tenant user count can be anything above 3 users."
+msgstr "Par défaut, le nombre d'utilisateurs du locataire peut être supérieur à 3 utilisateurs."
+
+#: ../../chapter02.rst:97
+msgid "Hosting Data Center"
+msgstr "Centre de données d'hébergement"
+
+#: ../../chapter02.rst:99
+msgid ""
+"If a managed service provider has both self-hosted |prodname| environment"
+" and Hosted |prodname|, the managed service provider can leverage self-"
+"hosted |prodname| to create Tenants."
+msgstr "Si un fournisseur de services gérés dispose à la fois d'un environnement |prodname| auto-hébergé et d'un |prodname| hébergé, le fournisseur de services gérés peut tirer parti de |prodname| auto-hébergé pour créer des locataires."
+
+#: ../../chapter02.rst:101
+msgid ""
+"After a Tenant is created, you can manage the Tenants in \"Registered "
+"Tenants\" section."
+msgstr "Après la création d'un locataire, vous pouvez gérer les locataires dans la section « Locataires enregistrés »."
+
+#: ../../chapter02.rst:106
+msgid "MANAGING YOUR TENANT"
+msgstr "GESTION DE VOTRE LOCATAIRE"
+
+#: ../../chapter02.rst:109
+msgid "Branding"
+msgstr "Marque"
+
+#: ../../chapter02.rst:111
+msgid ""
+"You can create the branding and then apply the branding information to "
+"your Tenants."
+msgstr "Vous pouvez créer le branding puis appliquer les informations de branding à vos locataires."
+
+#: ../../chapter02.rst:116
+msgid "PARTNER BRANDING SETTINGS"
+msgstr "PARAMÈTRES DE MARQUE PARTENAIRE"
+
+#: ../../chapter02.rst:119
+msgid "Apply Branding to the Tenant"
+msgstr "Appliquer le branding au locataire"
+
+#: ../../chapter02.rst:121
+msgid ""
+"**Default branding is applied this way:** On \"Registered Tenants\" "
+"section, click \"Brand\"."
+msgstr "**Le branding par défaut est appliqué de cette manière :** Dans la section \"Locataires Enregistrés\", cliquez sur \"Marque\"."
+
+#: ../../chapter02.rst:127
+msgid "APPLY PARTNER BRANDING"
+msgstr "APPLIQUER LE BRANDING PARTENAIRE"
+
+#: ../../chapter02.rst:129
+msgid ""
+"If the Tenant is allowed to change the branding, this can be done from "
+"the Tenant dashboard."
+msgstr "Si le locataire est autorisé à modifier l'identité visuelle, cela peut être fait depuis le tableau de bord du locataire."
+
+#: ../../chapter02.rst:134
+msgid "ACCESS TO TENANT BRANDING"
+msgstr "ACCÈS AU BRANDING DU LOCATAIRE"
+
+#: ../../chapter02.rst:136
+msgid ""
+"Once you are in the Branding Settings, you can choose a settings group "
+"from the Branding submenu. The setting categories are: ``General``, ``Web"
+" Portal``, ``Client Download``, ``Windows Client``, ``Mac Client``, "
+"``Emails``, ``Email Service``, and ``Branding Tasks``."
+msgstr "Une fois dans les Paramètres de Marque, vous pouvez choisir un groupe de paramètres dans le sous-menu Marque. Les catégories de paramètres sont : ``Général``, ``Portail Web``, ``Téléchargement Client``, ``Client Windows``, ``Client Mac``, ``Emails``, ``Service Email``, et ``Tâches de Marque``."
+
+#: ../../chapter02.rst:141
+msgid "TENANT BRANDING SETTINGS"
+msgstr "PARAMÈTRES DE PERSONNALISATION DU LOCATAIRE"
+
+#: ../../chapter02.rst:143
+msgid ""
+"After the branding is created, you can apply the branding to a specific "
+"Tenant. In this example, we created a new logo and uploaded it to the "
+"logo section in the partner portal."
+msgstr "Après la création de la marque, vous pouvez appliquer la marque à un locataire spécifique. Dans cet exemple, nous avons créé un nouveau logo et l'avons téléchargé dans la section logo du portail partenaire."
+
+#: ../../chapter02.rst:148
+msgid "REPLACE THIS"
+msgstr ""
+
+#: ../../chapter02.rst:150
+msgid ""
+"After that, we can apply the branding and you can see the difference "
+"before-branding and after-branding."
+msgstr "Après cela, nous pouvons appliquer le branding et vous pourrez voir la différence avant et après le branding."
+
+#: ../../chapter02.rst:153
+msgid "Before - Default"
+msgstr "Avant - Par défaut"
+
+#: ../../chapter02.rst:158
+msgid "DEFAULT BRANDING"
+msgstr "MARQUE PAR DÉFAUT"
+
+#: ../../chapter02.rst:161
+msgid "Now - Your Branding"
+msgstr "Maintenant - Votre Marque"
+
+#: ../../chapter02.rst:166
+msgid "CUSTOM BRANDING"
+msgstr "PERSONNALISATION DE LA MARQUE"
+

@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter2.rst:3
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../chapter2.rst:6
+msgid ""
+"First login to your |prodname| web portal and click the user icon (1) in "
+"the top right corner. Then click the client download button (2) and "
+"download the respective client installer package."
+msgstr "Logga först in på din |prodname| webbportal och klicka på användarikonen (1) i det övre högra hörnet. Klicka sedan på knappen för nedladdning av klient (2) och ladda ner motsvarande klientinstallationspaket."
+
+#: ../../chapter2.rst:9
+msgid ""
+"**NOTE:** It is very important that you log in to |prodname| as a user "
+"before downloading the Windows or Mac Clients. This gives you access to "
+"client installation packages that are already tied to your |prodname| "
+"account, which makes installation and accessing |prodname| easy."
+msgstr "**OBS:** Det är mycket viktigt att du loggar in på |prodname| som användare innan du laddar ner Windows- eller Mac-klienterna. Detta ger dig tillgång till klientinstallationspaket som redan är kopplade till ditt |prodname|-konto, vilket underlättar installationen och tillgången till |prodname|."
+
+#: ../../chapter2.rst:14
+msgid "DOWNLOAD YOUR CLIENT"
+msgstr "LADDA NER DIN KLIENT"
+
+#: ../../chapter2.rst:16
+msgid ""
+"Once you click the download button you will see a page of options "
+"including Windows Desktop Client (1), Mac OS X Client (2) or Mobile "
+"client (3) and download the associated package."
+msgstr "När du klickar på nedladdningsknappen kommer du att se en sida med alternativ inklusive Windows Desktop Client (1), Mac OS X Client (2) eller Mobile client (3) och ladda ner det associerade paketet."
+
+#: ../../chapter2.rst:21
+msgid "CLIENT DOWNLOAD PAGE"
+msgstr "KLIENT NEDLADDNINGSSIDAN"
+
+#: ../../chapter2.rst:23
+msgid ""
+"Ensure that you choose the appropriate download for your operating system"
+" (eg, Windows 64-bit, Windows 32-bit). Run the downloaded MSI package to "
+"start the installation. Then click \"Next\" and follow the instructions "
+"to finish. In the Setup Windows Client screen, you can customize the "
+"installation if necessary."
+msgstr "Se till att du väljer rätt nedladdning för ditt operativsystem (t.ex. Windows 64-bit, Windows 32-bit). Kör det nedladdade MSI-paketet för att starta installationen. Klicka sedan på \"Nästa\" och följ instruktionerna för att slutföra. I fönstret 'Ställ in Windows-klient' kan du anpassa installationen om det behövs."
+
+#: ../../chapter2.rst:28
+msgid "CLOUD WINDOWS CLIENT INSTALLER"
+msgstr "CLOUD WINDOWS-KLIENTINSTALLATÖR"
+
+#: ../../chapter2.rst:31
+msgid "Log In to |prodname|"
+msgstr "Logga in till |prodname|"
+
+#: ../../chapter2.rst:33
+msgid ""
+"At the end of the installation, you will be prompted to enter your "
+"|prodname| user account credentials. These credentials will authorize "
+"your |prodname| Windows Client and connect it to your |prodname| user "
+"account. Access to your Windows Client agent is also available under the "
+"Windows Start Menu. If the \"Auto-login next time\" option is selected "
+"(default), the Cloud Windows Client will be launched at Windows Startup. "
+"You can see the client icon in the lower right of the desktop or in the "
+"right-bottom notifications areas of your task bar."
+msgstr "Vid installationens slut kommer du att uppmanas att ange dina |prodname| användarkontouppgifter. Dessa uppgifter kommer att auktorisera din |prodname| Windows-klient och koppla den till ditt |prodname| användarkonto. Åtkomst till din Windows-klientagent finns också tillgänglig under Windows Start-menyn. Om alternativet \"Logga in automatiskt nästa gång\" är valt (standard), kommer Cloud Windows-klienten att startas vid Windows uppstart. Du kan se klientikonen längst ner till höger på skrivbordet eller i det högra nedre meddelandefältet på din aktivitetsfält."
+
+#: ../../chapter2.rst:38
+msgid "LOGGING INTO |prodname| CLIENT"
+msgstr "LOGGA IN I |prodname| KLIENT"
+
+#: ../../chapter2.rst:41
+msgid "Accessing Your Files and Folders"
+msgstr "Åtkomst till dina filer och mappar"
+
+#: ../../chapter2.rst:43
+msgid "There are two main ways to use |prodname| files and folders."
+msgstr "Det finns två huvudsakliga sätt att använda |prodname|-filer och mappar."
+
+#: ../../chapter2.rst:45
+msgid "First, there is a |prodname| Cloud Drive."
+msgstr "Först finns det en |prodname| Cloud Drive."
+
+#: ../../chapter2.rst:47
+msgid ""
+"With the |prodname| Cloud Drive, you have direct on-demand access to your"
+" cloud storage."
+msgstr "Med |prodname| Cloud Drive har du direkt åtkomst till ditt molnlagring på begäran."
+
+#: ../../chapter2.rst:49
+msgid "Second, there are synchronization folders."
+msgstr "För det andra finns det synkroniseringsmappar."
+
+#: ../../chapter2.rst:51
+msgid ""
+"Outside of the Cloud Drive, if you don't want to change where your "
+"existing folders are, you can then attach local folders as an access "
+"mechanism. The attached folder will be synchronized with Cloud in a bi-"
+"directional way."
+msgstr "Utanför Cloud Drive, om du inte vill ändra var dina befintliga mappar finns, kan du sedan koppla lokala mappar som en åtkomstmekanism. Den bifogade mappen kommer att synkroniseras med Cloud på ett tvåvägs sätt."
+
+#: ../../chapter2.rst:54
+msgid "Cloud Drive Access"
+msgstr "Åtkomst till molndisk"
+
+#: ../../chapter2.rst:56
+msgid ""
+"After the installation is completed, a system tray icon will appear that "
+"allows you to open your |prodname| Drive."
+msgstr "Efter att installationen är slutförd kommer en ikon i systemfältet att visas som låter dig öppna din |prodname| Drive."
+
+#: ../../chapter2.rst:58
+msgid ""
+"If you click the system tray icon **(1)** which will open the tray menu. "
+"You can access the cloud drive by clicking the drive icon **(2)** which "
+"will open Windows Explorer in the Cloud Drive veiw **(3)**."
+msgstr "Om du klickar på systemfältets ikon **(1)** öppnas en meny. Du kan komma åt molndisken genom att klicka på enhetsikonen **(2)** vilket öppnar Utforskaren i Molndiskvyn **(3)**."
+
+#: ../../chapter2.rst:63
+msgid "ACCESSING THE CLOUD DRIVE"
+msgstr "ÅTKOMST TILL MOLNDRIVEN"
+
+#: ../../chapter2.rst:65
+msgid ""
+"In the Cloud Drive folder, you can do typical Windows folder functions, "
+"and right click to access the Cloud Drive context menu **(4)**."
+msgstr "I Cloud Drive-mappen kan du utföra typiska Windows-mappfunktioner och högerklicka för att komma åt Cloud Drives snabbmeny **(4)**."
+
+#: ../../chapter2.rst:67
+msgid ""
+"Back in the Tray Menu, the three-dots **(5)** gives you access to other "
+"important functions (e.g., web portal, force sync, sign out, exit, enable"
+" debug trace)."
+msgstr "Tillbaka i Aktivitetsfältets meny ger de tre punkterna **(5)** dig tillgång till andra viktiga funktioner (t.ex. webbportal, tvinga synkronisering, logga ut, avsluta, aktivera felsökningsspårning)."
+
+#: ../../chapter2.rst:72
+msgid "OTHER CLOUD DRIVE FUNCTIONS"
+msgstr "ANDRA FUNKTIONER FÖR MOLNLAGRING"
+
+#: ../../chapter2.rst:75
+msgid "Management Console"
+msgstr "Hanteringskonsol"
+
+#: ../../chapter2.rst:77
+msgid ""
+"Also in the Tray Menu there is a Management Console icon **(6)**. Click "
+"this will give you access to the Management Console."
+msgstr "I brickmenyn finns också en ikon för hanteringskonsolen **(6)**. Klicka här ger dig tillgång till hanteringskonsolen."
+
+#: ../../chapter2.rst:82
+msgid "ACCESSING THE MANAGEMENT CONSOLE"
+msgstr "ÅTKOMST TILL HANTERINGSKONSOLEN"
+

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Connecting To The Cloud"
+msgstr "3 Verbindung zur Cloud"
+
+#: ../../chapter03.rst:5
+msgid ""
+"You can access the cloud drive  from the main screen of your Mac by "
+"clicking on the Cloud Drive icon."
+msgstr "Sie können auf das Cloud-Laufwerk vom Hauptbildschirm Ihres Mac aus zugreifen, indem Sie auf das Cloud Drive-Symbol klicken."
+
+#: ../../chapter03.rst:11
+msgid ""
+"You can access the cloud drive menu from the top panel by clicking on the"
+" |prodname| Cloud Drive icon."
+msgstr "Sie können auf das Cloud-Laufwerk-Menü über das obere Panel zugreifen, indem Sie auf das |prodname| Cloud Drive-Symbol klicken."
+
+#: ../../chapter03.rst:17
+msgid "Transferring Files"
+msgstr "Dateien übertragen"
+
+#: ../../chapter03.rst:19
+msgid ""
+"Now you can use the Cloud Storage as if it were a real drive on the Mac "
+"system. Simply drag-and-drop to copy local documents to the Cloud "
+"Storage."
+msgstr "Nun können Sie den Cloud-Speicher verwenden, als wäre es ein echtes Laufwerk im Mac-System. Ziehen Sie einfach per Drag-and-Drop lokale Dokumente in den Cloud-Speicher."
+
+#: ../../chapter03.rst:23
+msgid ""
+"|prodname| Cloud Drive makes it very easy to move data into cloud storage"
+" or extract data from cloud storage."
+msgstr "|prodname| Cloud Drive erleichtert das Verschieben von Daten in den Cloud-Speicher oder das Extrahieren von Daten aus dem Cloud-Speicher erheblich."
+
+#: ../../chapter03.rst:27
+msgid "Attaching Local Folders"
+msgstr "Lokale Ordner anhängen"
+
+#: ../../chapter03.rst:29
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr "Das virtuelle Laufwerk bietet bei Bedarf Zugriff auf Dateien und Ordner vom |prodname| Cloud-Speicherkonto."
+
+#: ../../chapter03.rst:31
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account."
+msgstr "Manchmal ist es auch wünschenswert, innerhalb eines lokalen Ordners zu arbeiten und zu haben, dass der lokale Ordner mit dem |prodname| Cloud-Speicherkonto synchronisiert wird."
+
+#: ../../chapter03.rst:33
+msgid ""
+"To attach a folder click the Cloud Drive icon **(1)** then click the "
+"Console Settings gear icon **(2)**. A browser window will open showing "
+"the Device Info for your Mac. The menu button **(3)** gives you access to"
+" the Attached Folders button **(4)**. When you click that, you can add a "
+"folder from your hard drive by clicking the Add Folder button **(5)**, "
+"then explore to the folder you want to attach **(6)** and set the "
+"\"Name\" **(7)** you want to use for that folder when accessing it from "
+"the Web Portal."
+msgstr "Um einen Ordner anzuhängen, klicken Sie auf das Cloud Drive-Symbol **(1)** und dann auf das Zahnradsymbol der Konsoleneinstellungen **(2)**. Ein Browserfenster wird geöffnet, das die Geräteinformationen für Ihren Mac anzeigt. Die Menütaste **(3)** gibt Ihnen Zugriff auf die Schaltfläche für angehängte Ordner **(4)**. Wenn Sie darauf klicken, können Sie einen Ordner von Ihrer Festplatte hinzufügen, indem Sie auf die Schaltfläche Ordner hinzufügen **(5)** klicken, dann navigieren Sie zu dem Ordner, den Sie anhängen möchten **(6)** und legen Sie den \"Namen\" **(7)** fest, den Sie verwenden möchten, um von dem Webportal aus auf diesen Ordner zuzugreifen."
+
+#: ../../chapter03.rst:39
+msgid "Settings Web Page"
+msgstr "Einstellungen Webseite"
+
+#: ../../chapter03.rst:41
+msgid "You can get access to the settings web page from the settings button."
+msgstr "Sie können auf die Einstellungs-Webseite über den Einstellungsbutton zugreifen."
+
+#: ../../chapter03.rst:45
+msgid "After it is clicked, a web page will lauch into your default web browser."
+msgstr "Nachdem darauf geklickt wurde, wird eine Webseite in Ihrem Standard-Webbrowser geöffnet."
+
+#: ../../chapter03.rst:51
+msgid "Device Information"
+msgstr "Geräteinformationen"
+
+#: ../../chapter03.rst:53
+msgid "The first section in the settings page is the \"Device Info\" section."
+msgstr "Der erste Abschnitt auf der Einstellungsseite ist der Abschnitt \"Geräteinformationen\"."
+
+#: ../../chapter03.rst:55
+msgid ""
+"In the device info section, you can see the device name, logged in user, "
+"Device Type, OS Type and other information."
+msgstr "Im Abschnitt Geräteinformationen können Sie den Gerätenamen, angemeldeten Benutzer, Gerätetyp, Betriebssystemtyp und andere Informationen sehen."
+
+#: ../../chapter03.rst:58
+msgid "Attached Folders"
+msgstr "Angehängte Ordner"
+
+#: ../../chapter03.rst:60
+msgid ""
+"Attach Folder means attach a local folder to cloud (|prodname| account). "
+"The end result is to setup a bi-directional synchronization between the "
+"local folder and the cloud so the changes from within the local folder "
+"will synchronize to cloud and changes from cloud in that specific folder "
+"will sync back to local folder."
+msgstr "Ordner anhängen bedeutet, einen lokalen Ordner mit der Cloud (|prodname| Konto) zu verbinden. Das Endergebnis ist die Einrichtung einer bidirektionalen Synchronisation zwischen dem lokalen Ordner und der Cloud, sodass Änderungen innerhalb des lokalen Ordners mit der Cloud synchronisiert werden und Änderungen aus der Cloud in diesem spezifischen Ordner zurück in den lokalen Ordner synchronisiert werden."
+
+#: ../../chapter03.rst:62
+msgid ""
+"To set this up from the Console, you click the pulldown menu and choose "
+"**\"Attached Folders\" (1)**. In the new view you click the **Add (2)** "
+"button and then explore by double-clicking (drill down) to the folder you"
+" wish to attach **(3)**. Once you have selected the folder, enter the "
+"**\"Name\" (4)** you want to use for that folder and click **\"ATTACH\"**"
+" to complete the process. In this example, the folder is on the Desktop "
+"of the Mac computer."
+msgstr "Um dies über die Konsole einzurichten, klicken Sie auf das Pulldown-Menü und wählen **\"Angehängte Ordner\" (1)**. In der neuen Ansicht klicken Sie auf die Schaltfläche **Hinzufügen (2)** und erkunden dann durch Doppelklicken (nach unten navigieren) den Ordner, den Sie anhängen möchten **(3)**. Nachdem Sie den Ordner ausgewählt haben, geben Sie den **\"Namen\" (4)** ein, den Sie für diesen Ordner verwenden möchten, und klicken Sie auf **\"ANHÄNGEN\"**, um den Vorgang abzuschließen. In diesem Beispiel befindet sich der Ordner auf dem Desktop des Mac-Computers."
+
+#: ../../chapter03.rst:66
+msgid "Once it is attached, you can see it in a list."
+msgstr "Sobald es angehängt ist, können Sie es in einer Liste sehen."
+
+#: ../../chapter03.rst:70
+msgid ""
+"You can also verify that the local folder is attached by logging into the"
+" web portal where you will see it listed in your ``FILE BROWSER`` view."
+msgstr "Sie können auch überprüfen, ob der lokale Ordner angehängt ist, indem Sie sich im Webportal anmelden, wo Sie ihn in Ihrer ``DATEI-EXPLORER`` Ansicht aufgelistet sehen werden."
+
+#: ../../chapter03.rst:74
+msgid ""
+"As shown in the example here, the local folder named \"Mac User 1 "
+"Attached\" is now synchronized with cloud."
+msgstr "Wie hier im Beispiel gezeigt, ist der lokale Ordner namens \"Mac User 1 Attached\" jetzt mit der Cloud synchronisiert."
+
+#: ../../chapter03.rst:78
+msgid "Offline Folders"
+msgstr "Offline-Ordner"
+
+#: ../../chapter03.rst:80
+msgid ""
+"You can mark certain folders as offline. The folders that are marked as "
+"offline will pre-fetch the content of the folder and cache it locally. To"
+" accomplish this you first click the **\"+\" plus (1)** icon. Then choose"
+" a folder that you would like to have access to while offline. Once a "
+"folder has been marked as offline, it will show in this list **(2)**."
+msgstr "Sie können bestimmte Ordner als offline markieren. Die als offline markierten Ordner werden den Inhalt des Ordners vorab abrufen und lokal zwischenspeichern. Um dies zu erreichen, klicken Sie zunächst auf das **\"+\" Plus (1)** Symbol. Wählen Sie dann einen Ordner aus, auf den Sie offline zugreifen möchten. Sobald ein Ordner als offline markiert wurde, wird er in dieser Liste **(2)** angezeigt."
+
+#: ../../chapter03.rst:86
+msgid "Locked Files"
+msgstr "Gesperrte Dateien"
+
+#: ../../chapter03.rst:88
+msgid ""
+"If any of the files are currently in **\"Locked\"** status, you will see "
+"it in this view."
+msgstr "Wenn sich eine der Dateien derzeit im **\"Gesperrt\"** Status befindet, werden Sie dies in dieser Ansicht sehen."
+
+#: ../../chapter03.rst:93
+msgid "Pending Check-Ins"
+msgstr "Ausstehende Eincheckungen"
+
+#: ../../chapter03.rst:95
+msgid ""
+"If any of the files are currently **Checked Out** you will see them "
+"listed in this view."
+msgstr "Wenn eine der Dateien derzeit **Ausgecheckt** ist, werden sie in dieser Ansicht aufgelistet."
+

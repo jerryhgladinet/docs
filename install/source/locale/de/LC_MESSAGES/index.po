@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "Einführung"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Server Installation Guide. This guide describes"
+" the installation tasks for |prodname|, the managed file synchronization "
+"and sharing solution."
+msgstr "Willkommen im |prodname| Server-Installationshandbuch. Dieser Leitfaden beschreibt die Installationsaufgaben für |prodname|, die verwaltete Lösung für Dateisynchronisation und -freigabe."
+
+#: ../../index.rst:10
+msgid ""
+"|prodname| includes the |prodname| server, which runs on the Microsoft "
+"Windows server platform, and client agent applications for Web browsers, "
+"Microsoft Windows, Mac OS X, and for mobile platforms such as the Android"
+" and the Apple iOS operating systems."
+msgstr "|prodname| beinhaltet den |prodname| Server, der auf der Microsoft Windows Server-Plattform läuft, sowie Client-Agent-Anwendungen für Webbrowser, Microsoft Windows, Mac OS X und für mobile Plattformen wie das Android- und das Apple iOS-Betriebssystem."
+
+#: ../../index.rst:13
+msgid "Overview"
+msgstr "Überblick"
+
+#: ../../index.rst:15
+msgid ""
+"|prodname| is a managed file sync and share solution that focuses on "
+"local file server cloud-enablement. It differentiates from other file "
+"sync and share solutions (EFSS) by focusing on the security, control, "
+"file server and team collaboration. |prodname| does really well in the "
+"following areas:"
+msgstr "|prodname| ist eine verwaltete Datei-Synchronisierungs- und Freigabelösung, die sich auf die Cloud-Aktivierung lokaler Dateiserver konzentriert. Sie unterscheidet sich von anderen Datei-Synchronisierungs- und Freigabelösungen (EFSS) durch den Fokus auf Sicherheit, Kontrolle, Dateiserver und Teamzusammenarbeit. |prodname| zeichnet sich besonders in den folgenden Bereichen aus:"
+
+#: ../../index.rst:17
+msgid ""
+"maintain security by migrating files and folders while keeping the NTFS "
+"permissions intact."
+msgstr "Sicherheit wahren, indem Dateien und Ordner migriert werden, während die NTFS-Berechtigungen erhalten bleiben."
+
+#: ../../index.rst:18
+msgid ""
+"provide on-demand access that honors read-only and write permission in "
+"real-time."
+msgstr "Bieten Sie bedarfsgerechten Zugriff, der Lese- und Schreibberechtigungen in Echtzeit respektiert."
+
+#: ../../index.rst:19
+msgid ""
+"mirror local network shares on file servers to allow for team "
+"collaboration in the cloud."
+msgstr "Spiegeln Sie lokale Netzwerkfreigaben auf Dateiservern, um Teamarbeit in der Cloud zu ermöglichen."
+
+#: ../../index.rst:20
+msgid "provide virtual drive letter mapping to the files and folders for access."
+msgstr "Stellen Sie eine virtuelle Laufwerksbuchstaben-Zuordnung für den Zugriff auf Dateien und Ordner bereit."
+
+#: ../../index.rst:21
+msgid ""
+"provide file locking, version control, client encryption, and more "
+"advanced features for managing all virtual drives."
+msgstr "Dateisperren, Versionskontrolle, Client-Verschlüsselung und weitere fortgeschrittene Funktionen für die Verwaltung aller virtuellen Laufwerke bereitstellen."
+
+#: ../../index.rst:23
+msgid ""
+"|prodname| Server is a software built on top of the Microsoft Web "
+"Platform:"
+msgstr "|prodname| Server ist eine Software, die auf der Microsoft Webplattform aufbaut:"
+
+#: ../../index.rst:25
+msgid "Windows Server"
+msgstr "Windows Server"
+
+#: ../../index.rst:26
+msgid "IIS (Internet Information Server)"
+msgstr "IIS (Internetinformationsdienste)"
+
+#: ../../index.rst:27
+msgid ".NET Framework and ASP.NET"
+msgstr ".NET Framework und ASP.NET"
+
+#: ../../index.rst:28
+msgid "WCF (Windows Communication Foundation)"
+msgstr "WCF (Windows Communication Foundation)"
+
+#: ../../index.rst:29
+msgid "PostgreSQL, MySQL or SQL Server"
+msgstr "PostgreSQL, MySQL oder SQL Server"
+
+#: ../../index.rst:31
+msgid ""
+"Since the |prodname| Server is built on top of the Microsoft Web "
+"Platform, it integrates very well with other Microsoft components such as"
+" the NTFS Permission on files and folders, the Active Directory users and"
+" the File Server network shares."
+msgstr "Da der |prodname| Server auf der Microsoft Web Platform aufbaut, integriert er sich sehr gut mit anderen Microsoft-Komponenten wie den NTFS-Berechtigungen auf Dateien und Ordnern, den Active Directory-Benutzern und den Netzwerkfreigaben des Dateiservers."
+
+#: ../../index.rst:33
+msgid ""
+"It provides file access and sharing functionality through client agents "
+"for PCs, Macs, File Servers, Web Browsers, and Mobile Devices. The client"
+" agent software on Windows and Mac provides real drive mapping and volume"
+" mounting support that contains advanced optimization for WAN(Wide Area "
+"Network) data transfer."
+msgstr "Es bietet Dateizugriffs- und Freigabefunktionalität über Client-Agenten für PCs, Macs, Dateiserver, Webbrowser und mobile Geräte. Die Client-Agent-Software auf Windows und Mac bietet echte Laufwerkszuordnung und Volumenmontageunterstützung, die eine fortgeschrittene Optimierung für die WAN-Datenübertragung (Wide Area Network) enthält."
+
+#: ../../index.rst:35
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy the |prodname| Server:"
+msgstr "Die Dienste können in flexiblen Kombinationen bereitgestellt werden, um unterschiedliche Anforderungen zu erfüllen. Es gibt zwei primäre Wege, den |prodname| Server zu deployen:"
+
+#: ../../index.rst:37
+msgid ""
+"Deploy in the same site as the File Servers and Active Directory domain "
+"controllers:"
+msgstr "Im selben Standort wie die Dateiserver und Active Directory-Domänencontroller bereitstellen:"
+
+#: ../../index.rst:41
+msgid "See also:"
+msgstr "Siehe auch:"
+
+#: ../../index.rst:43
+msgid ""
+"`File Server Remote Access <https://www.gladinet.com/hybrid-cloud-with-"
+"file-server.html>`_"
+msgstr "`Dateiserver-Fernzugriff <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../index.rst:45
+msgid ""
+"Deploy in a site remotely, such as Amazon Web Services EC2, Microsoft "
+"Azure, or in a Data Center where the Managed Service Provider (MSP) hosts"
+" their infrastructure:"
+msgstr "In einer entfernten Umgebung bereitstellen, wie zum Beispiel Amazon Web Services EC2, Microsoft Azure oder in einem Datenzentrum, in dem der Managed Service Provider (MSP) seine Infrastruktur hostet:"
+
+#: ../../index.rst:50
+msgid "System Components"
+msgstr "Systemkomponenten"
+
+#: ../../index.rst:52
+msgid ""
+"There are three different system components (logical components that can "
+"co-exist in the same server) in the |prodname| server. In the smallest "
+"depl oyment unit, the three different components can co-exist in one "
+"single machine (all-in-one deployment)."
+msgstr "Es gibt drei verschiedene Systemkomponenten (logische Komponenten, die im selben Server koexistieren können) im |prodname| Server. In der kleinsten Einsatz-Einheit können die drei verschiedenen Komponenten in einer einzigen Maschine koexistieren (All-in-One-Installation)."
+
+#: ../../index.rst:57
+msgid "1. Web Server Component - The |prodname| Server"
+msgstr "Webserver-Komponente – Der |prodname| Server"
+
+#: ../../index.rst:58
+msgid ""
+"The Web Server component is ASP.NET and WFC code that is hosted by IIS on"
+" a Windows Server. The Web Server component is actually comprised of two "
+"separate \"sub-components\":"
+msgstr "Die Webserver-Komponente ist ASP.NET und WFC-Code, der von IIS auf einem Windows-Server gehostet wird. Die Webserver-Komponente besteht eigentlich aus zwei separaten \"Unterkomponenten\":"
+
+#: ../../index.rst:60
+msgid "Web Node"
+msgstr "Webknoten"
+
+#: ../../index.rst:61
+msgid "Worker Node"
+msgstr "Arbeitsknoten"
+
+#: ../../index.rst:63
+msgid ""
+"These sub-components exist for historical purposes and there are still "
+"elements in the Cluster Manager user interface for configuring these sub-"
+"components."
+msgstr "Diese Unterkomponenten existieren aus historischen Gründen und es gibt immer noch Elemente in der Benutzeroberfläche des Cluster-Managers zur Konfiguration dieser Unterkomponenten."
+
+#: ../../index.rst:66
+msgid "2. Database - Configuration Information and System Log"
+msgstr "2. Datenbank - Konfigurationsinformationen und Systemprotokoll"
+
+#: ../../index.rst:68
+msgid ""
+"The database contains persistent information for the system. This "
+"persistent information includes static configuration information such as "
+"user name, file storage and active directory connection information. The "
+"database also stores dynamic information such as activity log, file "
+"change log and audit traces."
+msgstr "Die Datenbank enthält persistente Informationen für das System. Diese persistenten Informationen umfassen statische Konfigurationsinformationen wie Benutzername, Dateispeicher und Verbindungsinformationen für das Active Directory. Die Datenbank speichert auch dynamische Informationen wie Aktivitätsprotokoll, Dateiänderungsprotokoll und Audit-Spuren."
+
+#: ../../index.rst:70
+msgid ""
+"|prodname| supports the MySQL and Microsoft SQL Server Database "
+"Management Systems (DMBS). The all-in-one deployment will deploy MySQL "
+"Community Edition on the |prodname| server. The all-in-one deployment is "
+"useful for evaluating the software but an external database server is "
+"recommended for Production deployments."
+msgstr "|prodname| unterstützt die Datenbankmanagementsysteme (DBMS) MySQL und Microsoft SQL Server. Die All-in-One-Installation wird MySQL Community Edition auf dem |prodname|-Server installieren. Die All-in-One-Installation ist nützlich, um die Software zu evaluieren, aber ein externer Datenbankserver wird für Produktionseinsätze empfohlen."
+
+#: ../../index.rst:73
+msgid "3. Back-end File Storage - Where Files and Folders are Stored"
+msgstr "3. Backend-Dateispeicherung – Wo Dateien und Ordner gespeichert sind"
+
+#: ../../index.rst:75
+msgid ""
+"The back-end file storage component is the persistent storage location "
+"for files and folders. There are two different types of storage services."
+" One is managed by |prodname|, such as the default storage for the "
+"cluster and the default storage for tenants. The other is imported "
+"storage, for example, existing file server network shares that weren't "
+"managed by |prodname| but can be imported to |prodname| for remote and "
+"mobile access."
+msgstr "Die Backend-Dateispeicherkomponente ist der dauerhafte Speicherort für Dateien und Ordner. Es gibt zwei verschiedene Arten von Speicherdiensten. Der eine wird von |prodname| verwaltet, wie der Standardspeicher für das Cluster und der Standardspeicher für Mandanten. Der andere ist importierter Speicher, zum Beispiel bestehende Dateiserver-Netzwerkfreigaben, die nicht von |prodname| verwaltet wurden, aber für den Fern- und mobilen Zugriff zu |prodname| importiert werden können."
+

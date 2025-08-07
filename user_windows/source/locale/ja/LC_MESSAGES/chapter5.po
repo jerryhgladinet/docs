@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Locking Files"
+msgstr "ファイルのロック"
+
+#: ../../chapter5.rst:6
+msgid ""
+"The |prodname| Cloud administrator has the option of enabling a setting "
+"that causes files to automatically become locked when they are in use - "
+"automatic distributed lock (see administration guide). This prevents more"
+" than one person from updating the file at the same time which can cause "
+"undesirable results."
+msgstr "|prodname| クラウド管理者は、使用中のファイルが自動的にロックされるようにする設定を有効にするオプションがあります - 自動分散ロック（管理ガイドを参照）。これにより、同時に複数の人がファイルを更新することが防げ、望ましくない結果を引き起こすことがあります。"
+
+#: ../../chapter5.rst:10
+msgid "When to use automatic lock and when to use manual lock?"
+msgstr "自動ロックと手動ロックはいつ使用するべきですか？"
+
+#: ../../chapter5.rst:12
+msgid ""
+"When files are automatic locked, the same files need to be automatically "
+"unlocked. When files are automaticall locked, the agent that locks the "
+"file needs to maintain health heart beat with the central |prodname| "
+"server. When the heart beat can't be maintained, the file will be "
+"automatically unlocked."
+msgstr "ファイルが自動的にロックされるとき、同じファイルは自動的にアンロックされる必要があります。ファイルが自動的にロックされるとき、そのファイルをロックするエージェントは、中央の |prodname| サーバーと健全なハートビートを維持する必要があります。ハートビートを維持できない場合、ファイルは自動的にアンロックされます。"
+
+#: ../../chapter5.rst:14
+msgid ""
+"If you want the file to stay locked regardless what situation the agent "
+"machine is in, manual lock is recommened. A manually locked file will "
+"need to be manually unlocked."
+msgstr "エージェントマシンの状態に関わらずファイルをロックしたままにしておきたい場合は、手動ロックを推奨します。手動でロックされたファイルは、手動でアンロックする必要があります。"
+
+#: ../../chapter5.rst:16
+msgid ""
+"Files can be manually locked. Right-click on any file **(1)** in the "
+"|prodname| drive and then select \"check out (Lock) This File\" **(2)** "
+"to toggle between its locked and unlocked state. Then click OK in the "
+"pop-up **(3)**."
+msgstr "ファイルは手動でロックすることができます。任意のファイル **(1)** の |prodname| ドライブで右クリックし、\"このファイルをチェックアウト（ロック）する\" **(2)** を選択して、ロック状態とアンロック状態を切り替えます。次に、ポップアップ **(3)** でOKをクリックします。"
+
+#: ../../chapter5.rst:21
+msgid "LOCKING A LOCAL FILE"
+msgstr "ローカルファイルのロック"
+
+#: ../../chapter5.rst:23
+msgid ""
+"The context menu will give the option to lock the file. It will stay "
+"locked until you 'Unlock' it. When you are finished with the file, you "
+"can unlock it by right-clicking it and choosing Check In from the context"
+" menu."
+msgstr "コンテキストメニューからファイルをロックするオプションが表示されます。'Unlock'を選択するまでファイルはロックされたままになります。ファイルの使用が終わったら、右クリックしてコンテキストメニューからチェックインを選択してファイルのロックを解除できます。"
+
+#: ../../chapter5.rst:27
+msgid "Offline Access"
+msgstr "オフラインアクセス"
+
+#: ../../chapter5.rst:29
+msgid ""
+"Cloud Drive files aren't fully synced by default; only the files you are "
+"using are synced. You can Force Sync your files however. Right-click the "
+"folder you want to make \"Offline\" and choose \"Enable Offline Access "
+"**(1)**. Once this is done, you can click your drive icon, and then "
+"choose \"Force Sync All Offline Folders\" **(2)** to sync any folders you"
+" have enabled for Offline Access."
+msgstr "クラウドドライブのファイルはデフォルトでは完全に同期されていません。使用しているファイルのみが同期されます。ただし、ファイルの強制同期を行うことができます。\"オフライン\"にしたいフォルダを右クリックし、「オフラインアクセスを有効にする **(1)**」を選択します。これが完了したら、ドライブアイコンをクリックし、「オフラインアクセス用に有効にしたフォルダをすべて強制同期する **(2)**」を選択して、オフラインアクセス用に有効にしたフォルダを同期できます。"
+
+#: ../../chapter5.rst:31
+msgid ""
+"Also, you might want to pause the synchronization of files while you are "
+"working on them. This can be done from the Cloud Drive icon as well. In "
+"the menu, choose \"Pause Sync\" **(3)** temporarily stop files from "
+"sychronizing. The benefit is that you can keep modifying documents "
+"(drafts) locally until it is all done and then you can uncheck the "
+"\"Pause\" and connect to the |prodname| cloud drive to upload any "
+"changes."
+msgstr "また、ファイルに作業している間は、ファイルの同期を一時停止することもできます。これは、Cloud Driveのアイコンからも行うことができます。メニューで「Pause Sync」**(3)** を選択し、ファイルの同期を一時的に停止します。その利点は、ドキュメント（下書き）をローカルで変更し続けることができ、すべてが完了したら「Pause」のチェックを外して、|prodname| クラウドドライブに接続して変更をアップロードできることです。"
+
+#: ../../chapter5.rst:36
+msgid "OFFLINE ACCESS"
+msgstr "オフラインアクセス"
+

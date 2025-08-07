@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../on_premise.rst:3
+msgid "\"On-Premise Self-Hosted\" Quick Start"
+msgstr "\"On-Premise Self-Hosted\" Hurtig start"
+
+#: ../../on_premise.rst:6
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: ../../on_premise.rst:8
+msgid ""
+"To deploy an on-premise self-hosted centrestack, the CentreStack server "
+"is directly installed in the company network. On one-hand, it is facing "
+"the Internet with port 443 (HTTPS) like any web server does; and on the "
+"other-hand, it is connecting to company internal network and IT "
+"infrastructures such as File Servers and Active Directory. The "
+"CentreStack server normally sits in the DMZ or behind a firewall to "
+"protect against un-authorized outside access."
+msgstr "For at udrulle en on-premise self-hosted centrestack installeres CentreStack-serveren direkte i virksomhedens netværk. På den ene side står den over for internettet med port 443 (HTTPS) som enhver webserver gør; og på den anden side forbinder den sig til virksomhedens interne netværk og IT-infrastrukturer såsom filservere og Active Directory. CentreStack-serveren er normalt placeret i DMZ eller bag en firewall for at beskytte mod uautoriseret ekstern adgang."
+
+#: ../../on_premise.rst:14
+msgid ""
+"The business objective is giving mobile and remote access to file servers"
+" without the need of a VPN. It is more productive than traditional VPN  "
+"by greatly reducing the number of VPN support tickets for internal "
+"enterprise IT department or for the managed service provider."
+msgstr "Forretningsmålet er at give mobil og fjernadgang til filservere uden behov for en VPN. Det er mere produktivt end traditionel VPN ved at reducere antallet af VPN-supportbilletter for den interne IT-afdeling i virksomheden eller for udbyderen af administrerede tjenester."
+
+#: ../../on_premise.rst:21
+msgid "See also :"
+msgstr "Se også :"
+
+#: ../../on_premise.rst:23
+msgid ""
+"`Remote File Server Access <https://www.gladinet.com/hybrid-cloud-with-"
+"file-server.html>`_"
+msgstr "`Fjernadgang til filserver <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../on_premise.rst:26
+msgid "Preparation"
+msgstr "Forberedelse"
+
+#: ../../on_premise.rst:28
+msgid ""
+"The CentreStack server is a web server, passing file and folder access "
+"between remote client agents to backend file servers. Here is a list of "
+"items to prepare ahead of time."
+msgstr "CentreStack-serveren er en webserver, der formidler fil- og mappeadgang mellem fjerne klientagenter og backend-filservere. Her er en liste over ting, der skal forberedes på forhånd."
+
+#: ../../on_premise.rst:35
+msgid "a dedicated Windows Server machine:"
+msgstr "en dedikeret Windows Server-maskine:"
+
+#: ../../on_premise.rst:32
+msgid "Operating System (2022 / 2019 / 2016)"
+msgstr "Operativsystem (2022 / 2019 / 2016)"
+
+#: ../../on_premise.rst:33
+msgid "8G memory"
+msgstr "8G hukommelse"
+
+#: ../../on_premise.rst:34
+msgid "Dual core or more cores (vCPU or CPU)"
+msgstr "Dual core eller flere kerner (vCPU eller CPU)"
+
+#: ../../on_premise.rst:35
+msgid "100G hard drive space."
+msgstr "100G harddiskplads."
+
+#: ../../on_premise.rst:37
+msgid "a SSL certificate (for production)"
+msgstr "et SSL-certifikat (til produktion)"
+
+#: ../../on_premise.rst:38
+msgid "a DNS name (for production)"
+msgstr "et DNS-navn (til produktion)"
+
+#: ../../on_premise.rst:40
+msgid ""
+"Since you can turn a test (POC) environment directly into a production "
+"environment, you can start with requirement #1  for test and POC (proof "
+"of concept) environment and later acquire SSL certificate and DNS name."
+msgstr "Da du kan omdanne et test (POC) miljø direkte til et produktionsmiljø, kan du starte med krav #1 for test og POC (proof of concept) miljø og senere anskaffe SSL-certifikat og DNS-navn."
+
+#: ../../on_premise.rst:44
+msgid ""
+"Sometimes, CentreStack can be installed directly on the File Server "
+"itself if the goal is to reduce the number of servers. Even though we "
+"recommend using a dedicated clean Windows Server, as long as the existing"
+" file server doesn't have IIS/Default-Web-Site conflict, nor SQL Express "
+"conflict, the CentreStack server can be installed on the file server."
+msgstr "Nogle gange kan CentreStack installeres direkte på selve filserveren, hvis målet er at reducere antallet af servere. Selvom vi anbefaler at bruge en dedikeret ren Windows Server, så længe den eksisterende filserver ikke har en IIS/Default-Web-Site-konflikt eller SQL Express-konflikt, kan CentreStack-serveren installeres på filserveren."
+
+#: ../../on_premise.rst:51
+msgid "Download & Installation"
+msgstr "Download & Installation"
+
+#: ../../on_premise.rst:53
+msgid ""
+"After you decide and have acquired the Windows Server to install the "
+"CentreStack software, you can go to the partner portal and download the "
+"software."
+msgstr "Når du har besluttet dig for og anskaffet Windows Serveren til at installere CentreStack-softwaren, kan du gå til partnerportalen og downloade softwaren."
+
+#: ../../on_premise.rst:57
+msgid "The Installer will install everything from beginning to end."
+msgstr "Installationsprogrammet vil installere alt fra begyndelsen til slutningen."
+
+#: ../../on_premise.rst:62
+msgid "Please reference the following two guides for more information:"
+msgstr "Henvis venligst til de følgende to vejledninger for mere information:"
+
+#: ../../on_premise.rst:64
+msgid ""
+"`Deployment Guide "
+"<http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+msgstr "`Udrulningsguide <http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+
+#: ../../on_premise.rst:65
+msgid ""
+"`Installation Guide "
+"<http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+msgstr "`Installationsguide <http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+

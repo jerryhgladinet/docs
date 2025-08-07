@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Connecting To The Cloud"
+msgstr "3 Verbinding Maken Met De Cloud"
+
+#: ../../chapter03.rst:5
+msgid ""
+"You can access the cloud drive  from the main screen of your Mac by "
+"clicking on the Cloud Drive icon."
+msgstr "U kunt de cloudschijf openen vanaf het hoofdscherm van uw Mac door te klikken op het Cloud Drive-pictogram."
+
+#: ../../chapter03.rst:11
+msgid ""
+"You can access the cloud drive menu from the top panel by clicking on the"
+" |prodname| Cloud Drive icon."
+msgstr "U kunt het cloud drive-menu openen vanuit het bovenste paneel door te klikken op het |prodname| Cloud Drive-pictogram."
+
+#: ../../chapter03.rst:17
+msgid "Transferring Files"
+msgstr "Bestanden Overzetten"
+
+#: ../../chapter03.rst:19
+msgid ""
+"Now you can use the Cloud Storage as if it were a real drive on the Mac "
+"system. Simply drag-and-drop to copy local documents to the Cloud "
+"Storage."
+msgstr "Nu kunt u de Cloudopslag gebruiken alsof het een echte schijf op het Mac-systeem is. Sleep documenten eenvoudigweg naar de Cloudopslag om ze te kopiëren."
+
+#: ../../chapter03.rst:23
+msgid ""
+"|prodname| Cloud Drive makes it very easy to move data into cloud storage"
+" or extract data from cloud storage."
+msgstr "|prodname| Cloud Drive maakt het heel eenvoudig om gegevens naar cloudopslag te verplaatsen of gegevens uit cloudopslag te extraheren."
+
+#: ../../chapter03.rst:27
+msgid "Attaching Local Folders"
+msgstr "Lokale mappen koppelen"
+
+#: ../../chapter03.rst:29
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr "De virtuele schijf biedt on-demand toegang tot bestanden en mappen vanuit de |prodname| Cloud opslagaccount."
+
+#: ../../chapter03.rst:31
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account."
+msgstr "Soms is het ook wenselijk om binnen een lokale map te werken en de lokale map te synchroniseren met het |prodname| Cloud opslagaccount."
+
+#: ../../chapter03.rst:33
+msgid ""
+"To attach a folder click the Cloud Drive icon **(1)** then click the "
+"Console Settings gear icon **(2)**. A browser window will open showing "
+"the Device Info for your Mac. The menu button **(3)** gives you access to"
+" the Attached Folders button **(4)**. When you click that, you can add a "
+"folder from your hard drive by clicking the Add Folder button **(5)**, "
+"then explore to the folder you want to attach **(6)** and set the "
+"\"Name\" **(7)** you want to use for that folder when accessing it from "
+"the Web Portal."
+msgstr "Om een map te koppelen, klik op het Cloud Drive pictogram **(1)** en vervolgens op het Console-instellingen tandwielpictogram **(2)**. Er wordt een browservenster geopend met de Apparaatinformatie voor uw Mac. De menuknop **(3)** geeft u toegang tot de knop Gekoppelde Mappen **(4)**. Wanneer u daarop klikt, kunt u een map van uw harde schijf toevoegen door op de knop Map Toevoegen **(5)** te klikken, navigeer dan naar de map die u wilt koppelen **(6)** en stel de \"Naam\" **(7)** in die u wilt gebruiken voor die map bij toegang vanuit het Webportaal."
+
+#: ../../chapter03.rst:39
+msgid "Settings Web Page"
+msgstr "Instellingen Webpagina"
+
+#: ../../chapter03.rst:41
+msgid "You can get access to the settings web page from the settings button."
+msgstr "U kunt toegang krijgen tot de instellingen webpagina vanuit de instellingen knop."
+
+#: ../../chapter03.rst:45
+msgid "After it is clicked, a web page will lauch into your default web browser."
+msgstr "Nadat erop geklikt is, zal een webpagina openen in uw standaard webbrowser."
+
+#: ../../chapter03.rst:51
+msgid "Device Information"
+msgstr "Apparaatinformatie"
+
+#: ../../chapter03.rst:53
+msgid "The first section in the settings page is the \"Device Info\" section."
+msgstr "Het eerste gedeelte op de instellingenpagina is de sectie 'Apparaatinformatie'."
+
+#: ../../chapter03.rst:55
+msgid ""
+"In the device info section, you can see the device name, logged in user, "
+"Device Type, OS Type and other information."
+msgstr "In de sectie apparaatinformatie kunt u de apparaatnaam, ingelogde gebruiker, Apparaattype, Besturingssysteemtype en andere informatie zien."
+
+#: ../../chapter03.rst:58
+msgid "Attached Folders"
+msgstr "Gekoppelde Mappen"
+
+#: ../../chapter03.rst:60
+msgid ""
+"Attach Folder means attach a local folder to cloud (|prodname| account). "
+"The end result is to setup a bi-directional synchronization between the "
+"local folder and the cloud so the changes from within the local folder "
+"will synchronize to cloud and changes from cloud in that specific folder "
+"will sync back to local folder."
+msgstr "Een map koppelen betekent het koppelen van een lokale map aan de cloud (|prodname| account). Het uiteindelijke resultaat is het opzetten van een bidirectionele synchronisatie tussen de lokale map en de cloud, zodat wijzigingen binnen de lokale map gesynchroniseerd worden met de cloud en wijzigingen vanuit de cloud in die specifieke map terug gesynchroniseerd worden naar de lokale map."
+
+#: ../../chapter03.rst:62
+msgid ""
+"To set this up from the Console, you click the pulldown menu and choose "
+"**\"Attached Folders\" (1)**. In the new view you click the **Add (2)** "
+"button and then explore by double-clicking (drill down) to the folder you"
+" wish to attach **(3)**. Once you have selected the folder, enter the "
+"**\"Name\" (4)** you want to use for that folder and click **\"ATTACH\"**"
+" to complete the process. In this example, the folder is on the Desktop "
+"of the Mac computer."
+msgstr "Om dit vanuit de Console in te stellen, klikt u op het uitklapmenu en kiest u voor **\"Aangesloten mappen\" (1)**. In de nieuwe weergave klikt u op de knop **Toevoegen (2)** en vervolgens verkent u door dubbel te klikken (dieper ingaan) naar de map die u wilt koppelen **(3)**. Nadat u de map heeft geselecteerd, voert u de **\"Naam\" (4)** in die u voor die map wilt gebruiken en klikt u op **\"KOPPELEN\"** om het proces te voltooien. In dit voorbeeld bevindt de map zich op het bureaublad van de Mac-computer."
+
+#: ../../chapter03.rst:66
+msgid "Once it is attached, you can see it in a list."
+msgstr "Zodra het is bijgevoegd, kunt u het in een lijst zien."
+
+#: ../../chapter03.rst:70
+msgid ""
+"You can also verify that the local folder is attached by logging into the"
+" web portal where you will see it listed in your ``FILE BROWSER`` view."
+msgstr "U kunt ook verifiëren dat de lokale map is gekoppeld door in te loggen op het webportaal waar u deze zult zien weergegeven in uw ``FILE BROWSER`` weergave."
+
+#: ../../chapter03.rst:74
+msgid ""
+"As shown in the example here, the local folder named \"Mac User 1 "
+"Attached\" is now synchronized with cloud."
+msgstr "Zoals hier in het voorbeeld te zien is, is de lokale map genaamd \"Mac Gebruiker 1 Gekoppeld\" nu gesynchroniseerd met de cloud."
+
+#: ../../chapter03.rst:78
+msgid "Offline Folders"
+msgstr "Offline Mappen"
+
+#: ../../chapter03.rst:80
+msgid ""
+"You can mark certain folders as offline. The folders that are marked as "
+"offline will pre-fetch the content of the folder and cache it locally. To"
+" accomplish this you first click the **\"+\" plus (1)** icon. Then choose"
+" a folder that you would like to have access to while offline. Once a "
+"folder has been marked as offline, it will show in this list **(2)**."
+msgstr "U kunt bepaalde mappen als offline markeren. De mappen die als offline zijn gemarkeerd, zullen de inhoud van de map vooraf ophalen en lokaal cachen. Om dit te doen klikt u eerst op het **\"+\" plus (1)** icoon. Kies vervolgens een map waartoe u toegang wilt hebben terwijl u offline bent. Zodra een map als offline is gemarkeerd, zal deze in deze lijst verschijnen **(2)**."
+
+#: ../../chapter03.rst:86
+msgid "Locked Files"
+msgstr "Vergrendelde Bestanden"
+
+#: ../../chapter03.rst:88
+msgid ""
+"If any of the files are currently in **\"Locked\"** status, you will see "
+"it in this view."
+msgstr "Als een van de bestanden momenteel de status **\"Vergrendeld\"** heeft, ziet u dit in deze weergave."
+
+#: ../../chapter03.rst:93
+msgid "Pending Check-Ins"
+msgstr "In afwachting van inchecken"
+
+#: ../../chapter03.rst:95
+msgid ""
+"If any of the files are currently **Checked Out** you will see them "
+"listed in this view."
+msgstr "Als een van de bestanden momenteel **Uitgecheckt** is, ziet u ze in deze weergave."
+

@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../access_upload.rst:2
+msgid "Accessing Folders and Files"
+msgstr "Accesso a Cartelle e File"
+
+#: ../../access_upload.rst:5
+msgid ""
+"After logging in, users will see the files and folders they have access "
+"to, as shown on the following screen."
+msgstr "Dopo aver effettuato l'accesso, gli utenti vedranno i file e le cartelle a cui hanno accesso, come mostrato nella schermata seguente."
+
+#: ../../access_upload.rst:9
+msgid ""
+"Tap on a folder to see the files and subfolders it contains. Tapping on "
+"the 3 vertical dots icon for any item will display edit and collaboration"
+" options."
+msgstr "Tocca una cartella per vedere i file e le sottocartelle che contiene. Toccando l'icona dei 3 puntini verticali per qualsiasi elemento verranno visualizzate le opzioni di modifica e collaborazione."
+
+#: ../../access_upload.rst:11
+msgid ""
+"Which are **Copy, Cut, Rename, Delete, Share, Share Manager and More "
+"Info**. Detailed explanations are given in later sections."
+msgstr "Quali sono **Copia, Taglia, Rinomina, Elimina, Condividi, Gestione Condivisioni e Altre Informazioni**. Spiegazioni dettagliate sono fornite nelle sezioni successive."
+
+#: ../../access_upload.rst:15
+msgid ""
+"Users can also long press to make multiple selection, then copy, cut or "
+"delete on selected folders and files using the icons in the top menu."
+msgstr "Gli utenti possono anche premere a lungo per effettuare selezioni multiple, quindi copiare, tagliare o eliminare le cartelle e i file selezionati utilizzando le icone nel menu in alto."
+
+#: ../../access_upload.rst:21
+msgid "Top Menu Icons"
+msgstr "Icone del menu superiore"
+
+#: ../../access_upload.rst:23
+msgid "Here are the icons of the top menu bar."
+msgstr "Ecco le icone della barra del menu superiore."
+
+#: ../../access_upload.rst:28
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#: ../../access_upload.rst:30
+msgid ""
+"To refresh a screen, swipe down or touch the **Refresh** (1) button in "
+"the top menu, and the screen will be refreshed automatically."
+msgstr "Per aggiornare una schermata, scorri verso il basso o tocca il pulsante **Aggiorna** (1) nel menu in alto, e la schermata verrà aggiornata automaticamente."
+
+#: ../../access_upload.rst:33
+msgid "Show Deleted Folders and Files"
+msgstr "Mostra Cartelle e File Eliminati"
+
+#: ../../access_upload.rst:35
+msgid ""
+"Tap on the second icon (2) to switch between **Show Deleted Files** and "
+"**Hide Deleted Files**. The default mode is **Hide Deleted Files**."
+msgstr "Tocca la seconda icona (2) per alternare tra **Mostra File Cancellati** e **Nascondi File Cancellati**. La modalità predefinita è **Nascondi File Cancellati**."
+
+#: ../../access_upload.rst:40
+msgid "Change View Mode"
+msgstr "Cambia Modalità di Visualizzazione"
+
+#: ../../access_upload.rst:42
+msgid ""
+"Press the third icon (3) to switch view mode between **List View** and "
+"**Grid View**. The default view mode is **List View**."
+msgstr "Premi la terza icona (3) per cambiare la modalità di visualizzazione tra **Vista Elenco** e **Vista Griglia**. La modalità di visualizzazione predefinita è **Vista Elenco**."
+
+#: ../../access_upload.rst:47
+msgid "Sort Menu"
+msgstr "Ordina Menu"
+
+#: ../../access_upload.rst:49
+msgid ""
+"The **Sort Menu** (4) allows user to change the order in which the files "
+"are displayed."
+msgstr "Il **Menu Ordina** (4) consente all'utente di modificare l'ordine in cui i file vengono visualizzati."
+
+#: ../../access_upload.rst:53
+msgid "**Z-A** displays the files in reverse alphabetical order."
+msgstr "**Z-A** visualizza i file in ordine alfabetico inverso."
+
+#: ../../access_upload.rst:55
+msgid "**A-Z** displays the files in alphabetical order."
+msgstr "**A-Z** visualizza i file in ordine alfabetico."
+
+#: ../../access_upload.rst:57
+msgid ""
+"**Last Modified** displays the files in the order in which they were last"
+" edited."
+msgstr "**Ultima Modifica** mostra i file nell'ordine in cui sono stati modificati per ultimi."
+
+#: ../../access_upload.rst:59
+msgid ""
+"**Oldest** displays the files that were added first at the top of the "
+"file browser."
+msgstr "**Più vecchi** mostra i file che sono stati aggiunti per primi in cima all'esploratore file."
+
+#: ../../access_upload.rst:61
+msgid ""
+"**Largest** displays the files in the order that the largest files appear"
+" first."
+msgstr "**Più grandi** visualizza i file nell'ordine in cui appaiono per primi i file di dimensioni maggiori."
+
+#: ../../access_upload.rst:63
+msgid ""
+"**Smallest** displays the files in the order that the smallest files "
+"appear first."
+msgstr "**Più piccoli** visualizza i file nell'ordine in cui appaiono per primi i file più piccoli."
+
+#: ../../access_upload.rst:65
+msgid ""
+"**Extension A-Z** displays the files in the alphabetical order of their "
+"extension."
+msgstr "**L'estensione A-Z** visualizza i file in ordine alfabetico in base alla loro estensione."
+
+#: ../../access_upload.rst:67
+msgid ""
+"**Extension Z-A** displays the files in the reverse order of the alphabet"
+" by their extension."
+msgstr "**L'estensione Z-A** visualizza i file in ordine alfabetico inverso in base alla loro estensione."
+
+#: ../../access_upload.rst:71
+msgid "Main operations"
+msgstr "Operazioni principali"
+
+#: ../../access_upload.rst:73
+msgid ""
+"Tapping on the plus (+) icon will give users several options for the "
+"folder they are in: **Upload Files** (1), **Upload Media** (2), **Take "
+"Photo to Upload or Scan** (3), **Create New Folder** (4) and **Create New"
+" File** (5)."
+msgstr "Toccando l'icona del più (+) verranno fornite agli utenti diverse opzioni per la cartella in cui si trovano: **Carica File** (1), **Carica Media** (2), **Scatta Foto per Caricare o Scansionare** (3), **Crea Nuova Cartella** (4) e **Crea Nuovo File** (5)."
+
+#: ../../access_upload.rst:79
+msgid "Upload Files"
+msgstr "Carica File"
+
+#: ../../access_upload.rst:81
+msgid ""
+"By selecting the **Upload Files** icon, user can add existing files from "
+"the phone storage. It will be redirected to a phone storage screen where "
+"can navigate and select a file to upload."
+msgstr "Selezionando l'icona **Carica File**, l'utente può aggiungere file esistenti dalla memoria del telefono. Sarà reindirizzato a una schermata di memoria del telefono dove può navigare e selezionare un file da caricare."
+
+#: ../../access_upload.rst:83
+msgid ""
+"User can also long press files to multi-select, then press **SELECT** to "
+"complete the upload."
+msgstr "L'utente può anche premere a lungo sui file per selezionarli multipli, quindi premere **SELECT** per completare il caricamento."
+
+#: ../../access_upload.rst:88
+msgid "Uploading Media"
+msgstr "Caricamento dei Media"
+
+#: ../../access_upload.rst:90
+msgid ""
+"User can directly access media files from the Media apps by selecting the"
+" **Upload Media** icon, and add existing files from those apps."
+msgstr "L'utente può accedere direttamente ai file multimediali dalle app Media selezionando l'icona **Carica Media** e aggiungendo file esistenti da quelle app."
+
+#: ../../access_upload.rst:95
+msgid "Take Photo to Upload or Scan"
+msgstr "Scatta una foto per caricare o scansionare"
+
+#: ../../access_upload.rst:97
+msgid ""
+"User will be prompted for media files permission if CentreStack app have "
+"not previously been granted this permission."
+msgstr "Se l'app di CentreStack non ha ricevuto in precedenza il permesso per i file multimediali, verrà richiesta l'autorizzazione all'utente."
+
+#: ../../access_upload.rst:102
+msgid "Take Photo to Upload"
+msgstr "Scatta Foto per Caricare"
+
+#: ../../access_upload.rst:104
+msgid "Take and upload new photo when select the **Camera** (1) icon."
+msgstr "Scatta e carica una nuova foto quando selezioni l'icona **Fotocamera** (1)."
+
+#: ../../access_upload.rst:109
+msgid "Take Photo to Scan"
+msgstr "Scatta Foto per Scansionare"
+
+#: ../../access_upload.rst:111
+msgid ""
+"Take a new photo and scan to upload it when tapping on the **Scan** (2) "
+"icon."
+msgstr "Scatta una nuova foto e scansiona per caricarla quando tocchi l'icona **Scan** (2)."
+
+#: ../../access_upload.rst:113
+msgid "First, crop the photo to the ideal shape, and touch **NEXT**."
+msgstr "Prima, ritaglia la foto nella forma ideale e tocca **NEXT**."
+
+#: ../../access_upload.rst:117
+msgid ""
+"On the second page, change the color filter applied to the photo. Tap on "
+"**SAVE** to upload the photo."
+msgstr "Nella seconda pagina, cambia il filtro colore applicato alla foto. Tocca **SALVA** per caricare la foto."
+
+#: ../../access_upload.rst:122
+msgid "Create New Folders"
+msgstr "Crea Nuove Cartelle"
+
+#: ../../access_upload.rst:124
+msgid ""
+"To create new folders, press the plus (+) icon at the bottom right of the"
+" screen. Then select the **Add Folder** icon."
+msgstr "Per creare nuove cartelle, premere l'icona del più (+) nell'angolo in basso a destra dello schermo. Quindi selezionare l'icona **Aggiungi Cartella**."
+
+#: ../../access_upload.rst:126
+msgid ""
+"After entering the name of the folder and tapping on the **CREATE** "
+"button, a new folder will be created."
+msgstr "Dopo aver inserito il nome della cartella e premuto sul pulsante **CREA**, verrà creata una nuova cartella."
+
+#: ../../access_upload.rst:131
+msgid "Create New Files"
+msgstr "Crea Nuovi File"
+
+#: ../../access_upload.rst:133
+msgid ""
+"The **New File** icon allows to create a blank new Office file. User can "
+"choose between an Excel, Word, PowerPoint or a Text file."
+msgstr "L'icona **Nuovo File** consente di creare un nuovo file Office vuoto. L'utente può scegliere tra un file Excel, Word, PowerPoint o un file di testo."
+
+#: ../../access_upload.rst:137
+msgid ""
+"Choose the type of file and enter the name in the text box. Then touch "
+"**CREATE** to save."
+msgstr "Scegli il tipo di file e inserisci il nome nel campo di testo. Quindi tocca **CREA** per salvare."
+

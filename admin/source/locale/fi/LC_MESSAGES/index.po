@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "Aloittaminen"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Administration Guide. This guide describes "
+"administration tasks for |prodname|, the mobile access and secure file "
+"sharing solution that focuses on local file server cloud-enablement."
+msgstr "Tervetuloa |prodname| hallintaoppaaseen. Tämä opas kuvaa hallintatehtäviä |prodname|:lle, mobiilikäyttöön ja turvalliseen tiedostonjakoon keskittyvälle ratkaisulle, joka keskittyy paikallisen tiedostopalvelimen pilvipalveluominaisuuksien mahdollistamiseen."
+
+#: ../../index.rst:10
+msgid ""
+"|prodname| runs on the Windows Server platform and includes client agent "
+"software applications for Microsoft Windows, Mac OS X, and Mobile Clients"
+" for the Android and Apple iOS operating systems."
+msgstr "|prodname| toimii Windows Server -alustalla ja siihen sisältyy asiakasagenttiohjelmistoja Microsoft Windowsille, Mac OS X:lle sekä mobiilisovelluksia Androidille ja Apple iOS -käyttöjärjestelmille."
+
+#: ../../index.rst:13
+msgid ""
+"|prodname| includes a client application for Windows File Server, which "
+"is named \"Server Agent\". This document is about |prodname| itself, not "
+"about the \"Server Agent\"."
+msgstr "|prodname| sisältää asiakassovelluksen Windows-tiedostopalvelimelle, jota kutsutaan \"Server Agent\" -nimellä. Tämä asiakirja käsittelee |prodname|-ohjelmaa itseään, ei \"Server Agent\" -sovellusta."
+
+#: ../../index.rst:16
+msgid "This admin guide is written for |prodname| version |release|"
+msgstr "Tämä hallintapainike on kirjoitettu |prodname| versiolle |release|"
+
+#: ../../index.rst:19
+msgid "Overview"
+msgstr "Yleiskatsaus"
+
+#: ../../index.rst:21
+msgid ""
+"|prodname| is a mobile access and secure file sharing solution. It "
+"differentiates itself from other File Sync and Share solutions by "
+"focusing on data security, permission controls and, file server cloud-"
+"enablements including data protection and cloud migration. |prodname| "
+"surpasses the competition in the following areas:"
+msgstr "|prodname| on mobiilikäyttöön ja turvalliseen tiedostonjakoon tarkoitettu ratkaisu. Se erottuu muista tiedostojen synkronointi- ja jakoratkaisuista keskittymällä tietoturvaan, käyttöoikeuksien hallintaan sekä tiedostopalvelimien pilvipalveluvalmiuksiin, mukaan lukien tietosuoja ja pilveen siirtyminen. |prodname| on kilpailijoitaan edellä seuraavilla alueilla:"
+
+#: ../../index.rst:24
+msgid ""
+"Maintaining Active Directory, security and NTFS permissions on files and "
+"folders."
+msgstr "Ylläpidetään Active Directorya, turvallisuutta ja NTFS-oikeuksia tiedostoissa ja kansioissa."
+
+#: ../../index.rst:25
+msgid "Providing live time sync-and-share with versioning and revision controls."
+msgstr "Tarjoaa reaaliaikaisen synkronoinnin ja jakamisen versionhallinnalla ja muutoshistorialla."
+
+#: ../../index.rst:26
+msgid ""
+"Providing On-Demand access that honors Read-Only, and Write permissions "
+"in Real-Time."
+msgstr "Tarjoamme käyttöön On-Demand -pääsyn, joka kunnioittaa reaaliaikaisia luku- ja kirjoitusoikeuksia."
+
+#: ../../index.rst:27
+msgid "Mirroring of local network shares for Team Collaboration in the Cloud."
+msgstr "Paikallisten verkkolevyjen peilaus tiimityöskentelyyn pilvessä."
+
+#: ../../index.rst:28
+msgid ""
+"Provide drive mapping and file locking functionality for files in the "
+"Cloud."
+msgstr "Tarjoa aseman kartoitus- ja tiedostonlukitustoimintoja pilvessä oleville tiedostoille."
+
+#: ../../index.rst:30
+msgid ""
+"|prodname| is a software solution built on top of the Microsoft Web "
+"Platform. It provides file access and sharing functionality from PCs, "
+"Macs, File Servers, Web Browsers, and Mobile Devices. In addition, it "
+"also brings data protection and cloud migration features."
+msgstr "|prodname| on ohjelmistoratkaisu, joka on rakennettu Microsoftin web-alustan päälle. Se tarjoaa tiedostojen käyttö- ja jakamistoimintoja PC:iltä, Maceiltä, tiedostopalvelimilta, verkkoselaimista ja mobiililaitteista. Lisäksi se tuo mukanaan tietojen suojauksen ja pilveen siirtymisen ominaisuuksia."
+
+#: ../../index.rst:32
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy |prodname|."
+msgstr "Palvelut voidaan ottaa käyttöön joustavissa yhdistelmissä eri tarpeiden mukaan. |prodname| voidaan ottaa käyttöön kahdella pääasiallisella tavalla."
+
+#: ../../index.rst:34
+msgid ""
+"Deploy the |prodname| server in the same site as the File Servers and "
+"Active Directory domain controllers:"
+msgstr "Asenna |prodname| palvelin samalle sivustolle tiedostopalvelimien ja Active Directory -toimialueohjainten kanssa:"
+
+#: ../../index.rst:38
+msgid ""
+"See also: `File Server Remote Access <https://www.gladinet.com/hybrid-"
+"cloud-with-file-server.html>`_"
+msgstr "Katso myös: `Tiedostopalvelimen etäkäyttö <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../index.rst:40
+msgid ""
+"Deploy in a cloud data center, such as Amazon Web Services EC2, Microsoft"
+" Azure, or in a Data Center where the Managed Service Provider (MSP) "
+"hosts their infrastructure:"
+msgstr "Asenna pilvitietokeskukseen, kuten Amazon Web Services EC2, Microsoft Azure tai tietokeskukseen, jossa Managed Service Provider (MSP) isännöi infrastruktuuriaan:"
+
+#: ../../index.rst:46
+msgid ""
+"Please reference the `“Installation Checklist”`__ as well as the "
+"`“Installation Guide”`__ for information on how to setup and deploy "
+"CentreStack. This guide is focused on the administration of |prodname|."
+msgstr "Viitaa `\"Asennustarkistuslistaan\"`__ sekä `\"Asennusoppaaseen\"`__ saadaksesi tietoa CentreStackin asentamisesta ja käyttöönotosta. Tämä opas keskittyy |prodname|-tuotteen hallintaan."
+
+#: ../../index.rst:57
+msgid ""
+"This Administration Guide is for the Self-Hosted |prodname|. For Hosted-"
+"CentreStack, please reference the Hosted CentreStack Admin Guide."
+msgstr "Tämä hallintaopas on tarkoitettu itsehostattavalle |prodname|. Hosted-CentreStackia varten katso Hosted CentreStack Admin Guide."
+

@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter07.rst:2
+msgid "Deployment Scenarios"
+msgstr "Scenari di Distribuzione"
+
+#: ../../chapter07.rst:5
+msgid "Private On-premise"
+msgstr "Privato On-premise"
+
+#: ../../chapter07.rst:7
+msgid ""
+"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"In this scenario, Active Directory is typically at the same site and "
+"primary storage is from file server or NAS storage."
+msgstr "È possibile preparare un server Windows Server 2022/2019/2016 e installare CentreStack. In questo scenario, di solito Active Directory si trova nello stesso sito e lo storage primario proviene da server di file o storage NAS."
+
+#: ../../chapter07.rst:10
+msgid ""
+"In this case, most of the time you are using CentreStack as a way to "
+"replace VPN to provide access to onsite file server from mobile devices "
+"and remote devices."
+msgstr "Nella maggior parte dei casi, utilizzi CentreStack come metodo per sostituire la VPN per fornire accesso al file server locale da dispositivi mobili e dispositivi remoti."
+
+#: ../../chapter07.rst:15
+msgid ""
+"Business Access use case - provide access to file server via CentreStack "
+"to mobile devices. When employees are in the office, they access the file"
+" server their normal way without noticing any difference, and while on "
+"the road or from remote location, they can use mobile and remote device "
+"to access file server network shares."
+msgstr "Caso d'uso di Business Access - fornire l'accesso al file server tramite CentreStack ai dispositivi mobili. Quando i dipendenti sono in ufficio, accedono al file server nel modo abituale senza notare alcuna differenza, e mentre sono in viaggio o da una posizione remota, possono utilizzare dispositivi mobili e da remoto per accedere alle condivisioni di rete del file server."
+
+#: ../../chapter07.rst:25
+msgid "Private Off-Premise"
+msgstr "Privato Off-Premise"
+
+#: ../../chapter07.rst:27
+msgid ""
+"Normally, a managed service provider (MSP) manages your IT services, such"
+" as hosted exchange servers, hosted file servers etc. You can ask the "
+"same managed service provider to install and manage the CentreStack for "
+"you in their data center."
+msgstr "Normalmente, un fornitore di servizi gestiti (MSP) gestisce i tuoi servizi IT, come server di scambio ospitati, server di file ospitati ecc. Puoi chiedere allo stesso fornitore di servizi gestiti di installare e gestire il CentreStack per te nel loro data center."
+
+#: ../../chapter07.rst:30
+msgid ""
+"Usually from this deployment scenario, if the file server is already in "
+"the same data center, typically it turned into the \"Private On-premise\""
+" deployment."
+msgstr "Di solito, in questo scenario di distribuzione, se il file server si trova già nello stesso data center, tipicamente si trasforma in una distribuzione \"Privata On-premise\"."
+
+#: ../../chapter07.rst:33
+msgid ""
+"If on the other hand, the file servers are away from the data center, "
+"this gets turned into \"Business Continuity\" use case, where the server "
+"agent can be installed on the local file server and connects the local "
+"file servers to the remote CentreStack server in the data center."
+msgstr "Se, d'altra parte, i file server sono lontani dal data center, ciò si trasforma in un caso d'uso di \"Continuità Operativa\", dove l'agente server può essere installato sul file server locale e collega i file server locali al server CentreStack remoto nel data center."
+
+#: ../../chapter07.rst:39
+msgid "Virtual Private Cloud"
+msgstr "Cloud Privato Virtuale"
+
+#: ../../chapter07.rst:41
+msgid ""
+"In this deployment scenario, you would deploy the CentreStack solution in"
+" a virtual private cloud environment such as Amazon EC2. CentreStack is "
+"also available in the form of AMI image to facilitate creation of EC2 "
+"instances. In this deployment scenario, the typical primary storage "
+"connection is to the Amazon S3 storage. You can also setup CentreStack "
+"solution in an environment like HP Helion (OpenStack) Cloud, with a "
+"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
+msgstr "In questo scenario di distribuzione, si dispiegherebbe la soluzione CentreStack in un ambiente di cloud privato virtuale come Amazon EC2. CentreStack è disponibile anche sotto forma di immagine AMI per facilitare la creazione di istanze EC2. In questo scenario di distribuzione, la connessione tipica allo storage primario è allo storage Amazon S3. È possibile anche configurare la soluzione CentreStack in un ambiente come HP Helion (OpenStack) Cloud, con un Windows Server 2022/2019/2016 che si connette allo storage OpenStack Swift."
+
+#: ../../chapter07.rst:48
+msgid "Multi-Site Deployment"
+msgstr "Distribuzione Multi-Sito"
+
+#: ../../chapter07.rst:49
+msgid "Please reference multi-site deployment."
+msgstr "Si prega di fare riferimento al dispiegamento multi-sito."
+

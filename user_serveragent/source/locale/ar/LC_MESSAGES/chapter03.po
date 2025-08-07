@@ -1,0 +1,1318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Administration and Configuration"
+msgstr "3 الإدارة والتهيئة"
+
+#: ../../chapter03.rst:6
+msgid ""
+"|prodname| File Server Agent runs as a Windows Service in the background."
+" Since it is a background service, it always runs regardless of the users"
+" logging into the server."
+msgstr "|prodname| عامل خادم الملفات يعمل كخدمة ويندوز في الخلفية. نظرًا لأنه خدمة خلفية، فهو يعمل دائمًا بغض النظر عن تسجيل دخول المستخدمين إلى الخادم."
+
+#: ../../chapter03.rst:8
+msgid ""
+"The administration of the File Server Agent is done via a Windows "
+"application (the Cloud Server Console). Most of the time, the Cloud "
+"Server Console will launch into the web browser based administration "
+"console."
+msgstr "يتم إدارة وكيل خادم الملفات من خلال تطبيق ويندوز (وحدة تحكم الخادم السحابي). في معظم الأوقات، ستنتقل وحدة تحكم الخادم السحابي إلى وحدة التحكم الإدارية المبنية على متصفح الويب."
+
+#: ../../chapter03.rst:10
+msgid ""
+"There are two consoles, one on the Web Portal and the other one runs "
+"natively on a local machine. The one on the Web Portal is for general "
+"administration such as managing settings. The native console is for "
+"advanced troubleshooting such as collecting audit traces."
+msgstr "هناك نوعان من وحدات التحكم، واحدة على بوابة الويب والأخرى تعمل بشكل أصلي على جهاز محلي. وحدة التحكم الموجودة على بوابة الويب مخصصة للإدارة العامة مثل إدارة الإعدادات. أما وحدة التحكم الأصلية فهي لاستكشاف الأخطاء وإصلاحها المتقدم مثل جمع سجلات التدقيق."
+
+#: ../../chapter03.rst:12
+msgid ""
+"You need to log into the Windows server's console to use the |prodname| "
+"Server Agent Management Console for administration-related tasks. If you "
+"manage the Windows Server from remote locations, you can use Remote "
+"Desktop, or other remote control tools to access to the Windows server "
+"before you start the |prodname| Server Agent Management Console."
+msgstr "تحتاج إلى تسجيل الدخول إلى وحدة تحكم خادم Windows لاستخدام وحدة تحكم إدارة وكيل |prodname| للمهام المتعلقة بالإدارة. إذا كنت تدير خادم Windows من مواقع بعيدة، يمكنك استخدام سطح المكتب البعيد، أو أدوات التحكم عن بعد الأخرى للوصول إلى خادم Windows قبل أن تبدأ وحدة تحكم وكيل |prodname| Server Agent Management Console."
+
+#: ../../chapter03.rst:17
+msgid "3.1 File Server Agent Components"
+msgstr "3.1 مكونات وكيل خادم الملفات"
+
+#: ../../chapter03.rst:19
+msgid "There are 3 windows services and 1 windows Application"
+msgstr "هناك 3 خدمات ويندوز وتطبيق ويندوز واحد"
+
+#: ../../chapter03.rst:21
+msgid "Cloud Access Service (gladgroupsvc.exe) - This is the main sync service"
+msgstr "خدمة الوصول إلى السحاب (gladgroupsvc.exe) - هذه هي الخدمة الرئيسية للمزامنة"
+
+#: ../../chapter03.rst:23
+msgid ""
+"File Monitor Service (GladFileMonSvc) - This is responsible for Server "
+"Agent auto upgrade"
+msgstr "خدمة مراقبة الملفات (GladFileMonSvc) - هذه مسؤولة عن ترقية وكيل الخادم تلقائيًا"
+
+#: ../../chapter03.rst:25
+msgid ""
+"File System Mounter (gladrmountsvc) - This is mount the Cloud File System"
+" for the Gateway mode"
+msgstr "مُثبِّت نظام الملفات (gladrmountsvc) - هذا يقوم بتثبيت نظام الملفات السحابي لوضع البوابة"
+
+#: ../../chapter03.rst:27
+msgid ""
+"Management Console (GtaskMMC.exe) - This is responsible talking to the "
+"background servicer and provide management feedback"
+msgstr "وحدة التحكم الإدارية (GtaskMMC.exe) - هذه مسؤولة عن التحدث إلى الخدمة الخلفية وتقديم تعليقات الإدارة"
+
+#: ../../chapter03.rst:31
+msgid ""
+"If GtaskMMC.exe is run with /runlocal /server command line parameter, it "
+"will launch into the local native management console. Otherwise the "
+"/server flag alone will launch the web based console."
+msgstr "إذا تم تشغيل GtaskMMC.exe مع معامل سطر الأوامر /runlocal /server، فسوف يتم تشغيل واجهة إدارة النظام الأصلية المحلية. وإلا فإن علامة /server وحدها ستقوم بتشغيل واجهة التحكم القائمة على الويب."
+
+#: ../../chapter03.rst:36
+msgid "GLADINET CLOUD ACCESS (GCA) SERVICE"
+msgstr "خدمة GLADINET CLOUD ACCESS (GCA)"
+
+#: ../../chapter03.rst:38
+msgid ""
+"By default the File Server Agent background windows service runs as a "
+"local system account."
+msgstr "بشكل افتراضي، يعمل خدمة نافذة خلفية وكيل الخادم الملفات كحساب نظام محلي."
+
+#: ../../chapter03.rst:43
+msgid "GCA LOCAL SYSTEM ACCOUNT SERVICE"
+msgstr "خدمة حساب النظام المحلي لـ GCA"
+
+#: ../../chapter03.rst:48
+msgid ""
+"Sometimes the LOCAL SYSTEM account doesn't have permission for the "
+"folders it wants to sync. In this case, the Log-on-as account for the "
+"Cloud Access Service (GladGroupSvc.exe) needs to be changed to a service "
+"account that has full control (read, write, delete, list) permission to "
+"the folder that it wants to sync."
+msgstr "أحيانًا لا يمتلك حساب النظام المحلي (LOCAL SYSTEM) الإذن اللازم للمجلدات التي يرغب في مزامنتها. في هذه الحالة، يجب تغيير حساب تسجيل الدخول لخدمة الوصول إلى السحابة (GladGroupSvc.exe) إلى حساب خدمة يمتلك صلاحيات كاملة (قراءة، كتابة، حذف، إدراج) للمجلد الذي يرغب في مزامنته."
+
+#: ../../chapter03.rst:50
+msgid ""
+"In an Active Directory environment, this normally can be changed to a "
+"Domain Admin Service Account."
+msgstr "في بيئة الدليل النشط، يمكن تغيير هذا عادةً إلى حساب خدمة مسؤول النطاق."
+
+#: ../../chapter03.rst:55
+msgid "3.2 Cloud Server Console - Web View"
+msgstr "3.2 وحدة تحكم الخادم السحابي - عرض الويب"
+
+#: ../../chapter03.rst:57
+msgid ""
+"|prodname| Cloud Server Console will launch automatically after the "
+"reboot using the Tenant Admin credentials that were used to install the "
+"software."
+msgstr "|prodname| سيتم تشغيل وحدة تحكم الخادم السحابي تلقائيًا بعد إعادة التشغيل باستخدام بيانات اعتماد مسؤول الإيجار التي تم استخدامها لتثبيت البرنامج."
+
+#: ../../chapter03.rst:61
+msgid ""
+"File Server Agent is tied to each Tenant, so the Tenant Admin's "
+"credential shall be used to link the File Server Agent to a specific "
+"Tenant."
+msgstr "وكيل خادم الملفات مرتبط بكل مستأجر، لذا يجب استخدام بيانات اعتماد مسؤول المستأجر لربط وكيل خادم الملفات بمستأجر محدد."
+
+#: ../../chapter03.rst:63
+msgid ""
+"The cluster admin is also the Tenant Admin for the very first Tenant in "
+"the |prodname| system so by default it is a Tenant Admin as well."
+msgstr "المسؤول عن العقد هو أيضًا المسؤول عن المستأجر الأول في نظام |prodname| لذلك بشكل افتراضي هو مسؤول المستأجر كذلك."
+
+#: ../../chapter03.rst:67
+msgid ""
+"File Server agent is managed at Tenant level (not per-user level, nor "
+"cluster-level either)"
+msgstr "يتم إدارة وكيل خادم الملفات على مستوى المستأجر (وليس على مستوى المستخدم الفردي، ولا على مستوى العنقود أيضًا)"
+
+#: ../../chapter03.rst:70
+msgid "|prodname| Cloud Server Management Console Login:"
+msgstr "|prodname| لوحة تسجيل الدخول لإدارة الخادم السحابي:"
+
+#: ../../chapter03.rst:75
+msgid "MANAGEMENT CONSOLE LOGIN"
+msgstr "تسجيل دخول لوحة التحكم"
+
+#: ../../chapter03.rst:77
+msgid ""
+"|prodname| Cloud Server Management Console can also be launched from "
+"Windows Start Programs Menu:"
+msgstr "|prodname| يمكن أيضًا تشغيل لوحة تحكم خادم السحاب من قائمة برامج بدء تشغيل ويندوز:"
+
+#: ../../chapter03.rst:79
+msgid "Launch the Console from the Start Menu."
+msgstr "قم بتشغيل الوحدة الطرفية من قائمة البدء."
+
+#: ../../chapter03.rst:84
+msgid "LAUNCH THE CONSOLE"
+msgstr "تشغيل وحدة التحكم"
+
+#: ../../chapter03.rst:86
+msgid ""
+"After launch, you see several options and tabs at the top of the view, "
+"Device Info is shown below."
+msgstr "بعد الإطلاق، سترى عدة خيارات وعلامات تبويب في أعلى العرض، يتم عرض معلومات الجهاز أدناه."
+
+#: ../../chapter03.rst:91 ../../chapter03.rst:109
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE INFO"
+msgstr "لوحة تحكم إدارة العميل - معلومات الجهاز"
+
+#: ../../chapter03.rst:93
+msgid "You can click on the left tab in the console to see more management items."
+msgstr "يمكنك النقر على علامة التبويب اليسرى في الوحدة الطرفية لرؤية المزيد من عناصر الإدارة."
+
+#: ../../chapter03.rst:98
+msgid "ACCESSING THE CONSOLE MENU"
+msgstr "الوصول إلى قائمة الوحدة الطرفية"
+
+#: ../../chapter03.rst:102
+msgid "3.2.1 Device Info"
+msgstr "3.2.1 معلومات الجهاز"
+
+#: ../../chapter03.rst:104
+msgid ""
+"The default web console view is the device information panel. It shows "
+"the basic device information such as device name, device operating "
+"system, device version and etc."
+msgstr "العرض الافتراضي لوحة التحكم على الويب هو لوحة معلومات الجهاز. يعرض المعلومات الأساسية للجهاز مثل اسم الجهاز، نظام تشغيل الجهاز، إصدار الجهاز وغيرها."
+
+#: ../../chapter03.rst:112
+msgid ""
+"**Monitor Device Connect Status** - The device may get disconnected from "
+"the Internet for whatever reason, including but not limited to Internet "
+"outage, software crash, background service not running and etc. If the "
+"device is not connected to generate a healthy heart beat connection to "
+"the |prodname| server side software, this setting will generate an email "
+"alert if the device is not actively connected to the tenant acacount. "
+"When this alert is received, it needs to be investigated at high priority"
+" because it will lead to synchronization break-down."
+msgstr "**مراقبة حالة اتصال الجهاز** - قد ينقطع اتصال الجهاز بالإنترنت لأي سبب من الأسباب، بما في ذلك على سبيل المثال لا الحصر، انقطاع الإنترنت، تعطل البرنامج، عدم تشغيل الخدمة الخلفية وغيرها. إذا لم يكن الجهاز متصلاً لإنشاء اتصال نبضي صحي مع برنامج خادم |prodname| ، فإن هذا الإعداد سيولد تنبيهًا بالبريد الإلكتروني إذا لم يكن الجهاز متصلاً بنشاط بحساب المستأجر. عند استلام هذا التنبيه، يجب التحقيق فيه بأولوية عالية لأنه سيؤدي إلى انقطاع التزامن."
+
+#: ../../chapter03.rst:120
+msgid "3.2.2 CIFS Shares"
+msgstr "3.2.2 مشاركات CIFS"
+
+#: ../../chapter03.rst:122
+msgid ""
+"CIFS (Common Internet File System) shares refers to Windows Network "
+"Shares that are available on the File Server Agent machine. CIFS shares "
+"or SMB (Server Message Block) shares are used interchangably here."
+msgstr "تشير مشاركات CIFS (نظام الملفات المشترك عبر الإنترنت) إلى مشاركات الشبكة الخاصة بنظام Windows المتاحة على جهاز وكيل خادم الملفات. يتم استخدام مشاركات CIFS أو مشاركات SMB (بروتوكول رسائل الخادم) بالتبادل هنا."
+
+#: ../../chapter03.rst:127
+msgid "CIFS SHARES"
+msgstr "مشاركات CIFS"
+
+#: ../../chapter03.rst:129
+msgid ""
+"You can start migrating file server network shares from the current "
+"machine to |prodname|."
+msgstr "يمكنك البدء في ترحيل مشاركات الشبكة لخادم الملفات من الجهاز الحالي إلى |prodname|."
+
+#: ../../chapter03.rst:133
+msgid ""
+"Migration means setup two-way synchronization between the local folder "
+"and the remote |prodname| Server. It is a hybrid cloud configuration "
+"started by default. Over time, you may want to stop the local folder and "
+"go cloud only. That is reserved for future if you select to do so. Out of"
+" the box it is setup as a two-way synchronization folder for each CIFS "
+"share selected."
+msgstr "تعني الهجرة إعداد مزامنة ثنائية الاتجاه بين المجلد المحلي والخادم البعيد |prodname|. إنها تكوين السحابة المختلطة الذي يبدأ افتراضيًا. مع مرور الوقت، قد ترغب في إيقاف المجلد المحلي والانتقال إلى السحابة فقط. هذا محفوظ للمستقبل إذا اخترت القيام بذلك. من خارج الصندوق، يتم إعداده كمجلد مزامنة ثنائي الاتجاه لكل مشاركة CIFS محددة."
+
+#: ../../chapter03.rst:139
+msgid "MIGRATE A SHARE"
+msgstr "ترحيل مشاركة"
+
+#: ../../chapter03.rst:143
+msgid ""
+"The net result of migration is that you can access the files and folders "
+"from both the local file server and also the |prodname| side. Files "
+"changes on both side will synchronize to the other side. It is a hybrid "
+"local/cloud mode. Also when migration works on CIFS share (network "
+"share), optionally the local folder's NTFS permission can be replicated "
+"and synchronized to cloud side, while the local Active Directory users "
+"can be synchronized to cloud side."
+msgstr "النتيجة النهائية للترحيل هي أنه يمكنك الوصول إلى الملفات والمجلدات من خلال خادم الملفات المحلي وأيضًا من جانب |prodname|. سيتم مزامنة تغييرات الملفات على كلا الجانبين مع الجانب الآخر. إنها وضعية مختلطة بين المحلي/السحابة. أيضًا عندما يعمل الترحيل على مشاركة CIFS (مشاركة الشبكة)، اختياريًا يمكن تكرار أذونات NTFS للمجلد المحلي ومزامنتها إلى جانب السحابة، بينما يمكن مزامنة مستخدمي الدليل النشط المحلي إلى جانب السحابة."
+
+#: ../../chapter03.rst:148
+msgid "Migrate"
+msgstr "ترحيل"
+
+#: ../../chapter03.rst:150
+msgid ""
+"Clicking on the migrate link button will start the migration process on a"
+" specific network share. Normally when the File Server Agent and the "
+"|prodname| Server are on two completely different locations, the "
+"**\"Direct Access\"** option will not be shown. The **\"Two Way Sync\"** "
+"will be the only option."
+msgstr "النقر على زر رابط الترحيل سيبدأ عملية الترحيل على مشاركة الشبكة المحددة. عادةً عندما يكون عامل خادم الملفات وخادم |prodname| في موقعين مختلفين تمامًا، لن تظهر خيار **\"الوصول المباشر\"**. خيار **\"المزامنة الثنائية\"** سيكون الخيار الوحيد."
+
+#: ../../chapter03.rst:155
+msgid "MIGRATION OF DATA AND PERMISSIONS"
+msgstr "هجرة البيانات والأذونات"
+
+#: ../../chapter03.rst:159
+msgid "3.2.3 Attached Folders"
+msgstr "3.2.3 المجلدات المرفقة"
+
+#: ../../chapter03.rst:162
+msgid "How to Attach a Folder"
+msgstr "كيفية إرفاق مجلد"
+
+#: ../../chapter03.rst:164
+msgid ""
+"Attached folders, are folders on the local machine and can be "
+"synchronized to |prodname| and kept synchronized in a bi-directional way."
+msgstr "المجلدات المرفقة، هي مجلدات على الجهاز المحلي ويمكن مزامنتها مع |prodname| والحفاظ على مزامنتها بطريقة ثنائية الاتجاه."
+
+#: ../../chapter03.rst:166
+msgid ""
+"The Attached Folder section allows you to browse into the machine's file "
+"structure and pick a folder to synchronize. In the Console drop-down "
+"menu, select **\"Attached Folders\"**."
+msgstr "تتيح لك قسم المجلدات المرفقة تصفح بنية ملفات الجهاز واختيار مجلد للمزامنة. من قائمة الكونسول المنسدلة، اختر **\"المجلدات المرفقة\"**."
+
+#: ../../chapter03.rst:171
+msgid "ATTACHED FOLDERS"
+msgstr "المجلدات المرفقة"
+
+#: ../../chapter03.rst:173
+msgid "In the new view click the Attach Folder icon."
+msgstr "في العرض الجديد، انقر على أيقونة إرفاق مجلد."
+
+#: ../../chapter03.rst:178
+msgid "ATTACH FOLDER BUTTON"
+msgstr "زر إرفاق مجلد"
+
+#: ../../chapter03.rst:181
+msgid ""
+"In the folder selection view **(1)**, double click the drive **(2)** and "
+"navigate to the folder you wish to share. When you choose a folder, its "
+"path will appear in the Location field **(3)** and you should enter a "
+"name for your share in the Name field **(4)**. Click **\"ATTACH\"** to "
+"complete the process."
+msgstr "في واجهة اختيار المجلد **(1)**، انقر نقرًا مزدوجًا على القرص **(2)** وانتقل إلى المجلد الذي ترغب في مشاركته. عند اختيار مجلد، ستظهر مساره في حقل الموقع **(3)** ويجب عليك إدخال اسم للمشاركة في حقل الاسم **(4)**. انقر على **\"ATTACH\"** لإكمال العملية."
+
+#: ../../chapter03.rst:186
+msgid "ATTACHING A FOLDER"
+msgstr "إرفاق مجلد"
+
+#: ../../chapter03.rst:189
+msgid "Filter Button"
+msgstr "زر التصفية"
+
+#: ../../chapter03.rst:191
+msgid ""
+"Using the Filter Button **(1)**, you can set some of your folders to be "
+"excluded from being synchronized. To accomplish this, after you click the"
+" **Filter** button, click the **(+)** button **(2)** and explore to a "
+"folder you wish to exclude. In this example, it is a sub-folder **(3)** "
+"of the **SA Share** folder."
+msgstr "باستخدام زر الفلتر **(1)**، يمكنك تعيين بعض المجلدات ليتم استثناؤها من عملية المزامنة. لتحقيق ذلك، بعد النقر على زر **الفلتر**، انقر على زر **(+)** **(2)** وتصفح إلى المجلد الذي ترغب في استثنائه. في هذا المثال، هو مجلد فرعي **(3)** من مجلد **SA Share**."
+
+#: ../../chapter03.rst:196
+msgid "FILTER BUTTON"
+msgstr "زر التصفية"
+
+#: ../../chapter03.rst:199
+msgid "Diagnostic Button"
+msgstr "زر التشخيص"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Diagnostic Button **(2)** can be used to **\"Compare\"** the cloud "
+"folder and the local network folder to determine if the y are the same. "
+"This is important to make sure that the local folder has been completely "
+"mirrored to the cloud."
+msgstr "يمكن استخدام زر التشخيص **(2)** لـ **\"مقارنة\"** المجلد السحابي والمجلد الشبكي المحلي لتحديد ما إذا كانا متطابقين. هذا مهم للتأكد من أن المجلد المحلي قد تم نسخه بالكامل إلى السحابة."
+
+#: ../../chapter03.rst:206
+msgid "DIAGNOSTIC BUTTON"
+msgstr "زر التشخيص"
+
+#: ../../chapter03.rst:210
+msgid "Stop-Sync Button"
+msgstr "زر إيقاف المزامنة"
+
+#: ../../chapter03.rst:212
+msgid ""
+"The Stop-Sync Button can be used to stop the synchronization between the "
+"folder from the Server Agent and the attached folder in the cloud. This "
+"is something you might want to do when all the users are accessing the "
+"folder from the cloud and no longer need local network access to the "
+"original folder. After the stop-sync, the local file changes are local "
+"changes, not related to cloud; and vise-versa, the file changes in the "
+"cloud will not be related to the local files, they are just two separate "
+"independent entities."
+msgstr "يمكن استخدام زر إيقاف المزامنة لإيقاف عملية المزامنة بين المجلد من وكيل الخادم والمجلد المرفق في السحابة. قد ترغب في القيام بذلك عندما يكون جميع المستخدمين يصلون إلى المجلد من السحابة ولا يحتاجون بعد ذلك إلى الوصول المحلي للشبكة إلى المجلد الأصلي. بعد إيقاف المزامنة، تصبح التغييرات المحلية في الملفات تغييرات محلية، ولا تتعلق بالسحابة؛ وبالمثل، فإن التغييرات في الملفات في السحابة لن تكون متعلقة بالملفات المحلية، فهما كيانان مستقلان منفصلان."
+
+#: ../../chapter03.rst:217
+msgid ""
+"Stop-Sync is different from detach a previously attached folder. When a "
+"folder is detached, not only it stop-sync, but also the cloud side folder"
+" will be hidden and subject to retention policy for purge in the near "
+"future. So if your use case is to continue to use the files and folders "
+"from the cloud side and cloud side only, you want to do a stop-sync "
+"instead of doing a detach-folder."
+msgstr "إيقاف المزامنة يختلف عن فصل مجلد تم إرفاقه مسبقًا. عندما يتم فصل مجلد، لا يتوقف عن المزامنة فحسب، بل إن المجلد الموجود على السحابة سيتم إخفاؤه ويخضع لسياسة الاحتفاظ ليتم تطهيره في المستقبل القريب. لذا إذا كانت حالة الاستخدام لديك هي الاستمرار في استخدام الملفات والمجلدات من جانب السحابة وجانب السحابة فقط، فإنك تريد إجراء إيقاف المزامنة بدلاً من فصل المجلد."
+
+#: ../../chapter03.rst:227
+msgid "STOP-SYNC BUTTON"
+msgstr "زر إيقاف المزامنة"
+
+#: ../../chapter03.rst:232
+msgid ""
+"What is the difference between Import a CIFS Share and attach a folder to"
+" |prodname|?"
+msgstr "ما الفرق بين استيراد مشاركة CIFS وإرفاق مجلد بـ |prodname|؟"
+
+#: ../../chapter03.rst:234
+msgid ""
+"First of all, both maintain bi-directional synchronization. The key "
+"difference is \"Import CIFS Share\" will also import folder permission to"
+" |prodname|, while Attached Folder only synchronize folders without "
+"synchronize permissions."
+msgstr "أولاً، كلاهما يحافظ على التزامن الثنائي الاتجاه. الفرق الرئيسي هو أن \"استيراد مشاركة CIFS\" سيقوم أيضًا باستيراد أذونات المجلد إلى |prodname|، بينما المجلد المرفق يقوم فقط بمزامنة المجلدات دون مزامنة الأذونات."
+
+#: ../../chapter03.rst:236
+msgid "Under the hood, both are **\"Attached Folders\"**."
+msgstr "من الناحية الفنية، كلاهما **\"مجلدات مرفقة\"**."
+
+#: ../../chapter03.rst:238
+msgid "\"Import CIFS Share\" = \"Attached Folder\" + \"Sync NTFS Permission\""
+msgstr "استيراد مشاركة CIFS\" = \"المجلد المرفق\" + \"مزامنة أذونات NTFS"
+
+#: ../../chapter03.rst:242 ../../chapter03.rst:600
+msgid "Offline Folders"
+msgstr "مجلدات غير متصلة"
+
+#: ../../chapter03.rst:244
+msgid ""
+"You can mark folders as offline. Offline folders will be pre-fetched to "
+"the local machine. Files changed remotely in the offline folders will "
+"also be pre-fetched to local machine."
+msgstr "يمكنك تحديد المجلدات كغير متصلة بالشبكة. سيتم تحميل المجلدات غير المتصلة بالشبكة مسبقًا إلى الجهاز المحلي. كما سيتم تحميل الملفات التي تم تغييرها عن بُعد في المجلدات غير المتصلة بالشبكة مسبقًا إلى الجهاز المحلي."
+
+#: ../../chapter03.rst:246
+msgid ""
+"To access this feature, click the **\"Offline Folders\"** icon **(1)**. "
+"Then click he **(+)** icon **(2)** on the right side of the Offline "
+"Folders screen. In the explorer, navigate to the folder you wish to "
+"\"Offline\" and select it **(3)**. Then click **\"ENABLE OFFLINE "
+"ACCESS\"** **(4)** to complete the process."
+msgstr "للوصول إلى هذه الميزة، انقر على أيقونة **\"مجلدات بلا اتصال\"** **(1)**. ثم انقر على أيقونة **(+)** **(2)** الموجودة على الجانب الأيمن من شاشة مجلدات بلا اتصال. في المستكشف، تصفح إلى المجلد الذي ترغب في جعله \"بلا اتصال\" وحدده **(3)**. ثم انقر على **\"تمكين الوصول بلا اتصال\"** **(4)** لإتمام العملية."
+
+#: ../../chapter03.rst:251
+msgid "CHOOSING A FOLDER FOR OFFLINE ACCESS"
+msgstr "اختيار مجلد للوصول إليه دون اتصال"
+
+#: ../../chapter03.rst:255
+msgid "When to use offline folder?"
+msgstr "متى تستخدم مجلد غير متصل؟"
+
+#: ../../chapter03.rst:257
+msgid ""
+"When you have files and folders that you use frequently, you want to keep"
+" them local to the local file server, you can enable offline folder."
+msgstr "عندما يكون لديك ملفات ومجلدات تستخدمها بشكل متكرر، وتريد الاحتفاظ بها محليًا على خادم الملفات المحلي، يمكنك تمكين مجلد غير متصل بالشبكة."
+
+#: ../../chapter03.rst:260
+#, python-format
+msgid ""
+"Usually you use the offline folder for the gateway mode. When you use "
+"\"Migrate CIFS share\" or when you use \"Attach Folder\", the files and "
+"folders by default are local so there is no need to enable offline folder"
+" for this use case since files are 100% off-line from attached folders."
+msgstr "عادةً ما تستخدم المجلد غير المتصل لوضع البوابة. عند استخدام \"نقل مشاركة CIFS\" أو عند استخدام \"إرفاق مجلد\"، تكون الملفات والمجلدات افتراضيًا محلية لذا لا حاجة لتفعيل مجلد غير متصل لهذه الحالة الاستخدامية لأن الملفات تكون 100% غير متصلة من المجلدات المرفقة."
+
+#: ../../chapter03.rst:266
+msgid "Local File Lock"
+msgstr "قفل الملف المحلي"
+
+#: ../../chapter03.rst:268
+msgid "Local File Lock section will show locked files from the local file server."
+msgstr "سيعرض قسم قفل الملف المحلي الملفات المقفلة من خادم الملفات المحلي."
+
+#: ../../chapter03.rst:273 ../../chapter03.rst:284
+msgid "LOCKED FILES"
+msgstr "الملفات المقفلة"
+
+#: ../../chapter03.rst:277
+msgid "Locked Files"
+msgstr "الملفات المقفلة"
+
+#: ../../chapter03.rst:279
+msgid ""
+"Locked files section will show locked files from the |prodname| Server, "
+"and provides information about who owns the file that is locked. "
+"Information shown includes: File Owner, File Path, Locked From, Type and "
+"Locked Time."
+msgstr "سيعرض قسم الملفات المقفلة الملفات المقفلة من |prodname| Server، ويوفر معلومات حول من يملك الملف المقفل. المعلومات المعروضة تشمل: مالك الملف، مسار الملف، المقفل من، النوع ووقت الإقفال."
+
+#: ../../chapter03.rst:288
+msgid "Pending Check-ins"
+msgstr "التحققات المعلقة"
+
+#: ../../chapter03.rst:290
+msgid ""
+"Pending check-ins will show files that are manually checked out from the "
+"local machine but haven't checked-in yet."
+msgstr "سيعرض قيد الانتظار للتسجيل الملفات التي تم تسجيل خروجها يدويًا من الجهاز المحلي ولكن لم يتم تسجيل دخولها بعد."
+
+#: ../../chapter03.rst:295
+msgid "PENDING CHECK-INS"
+msgstr "التحققات المعلقة"
+
+#: ../../chapter03.rst:299
+msgid "3.2.4 Settings"
+msgstr "3.2.4 الإعدادات"
+
+#: ../../chapter03.rst:301
+msgid ""
+"Settings Manager section will show client settings that can be changed "
+"and managed from the web console."
+msgstr "سيعرض قسم مدير الإعدادات الإعدادات التي يمكن تغييرها وإدارتها من وحدة التحكم الويب."
+
+#: ../../chapter03.rst:306
+msgid "SETTINGS MANAGER"
+msgstr "مدير الإعدادات"
+
+#: ../../chapter03.rst:310
+msgid "3.2.5 Task Manager"
+msgstr "3.2.5 مدير المهام"
+
+#: ../../chapter03.rst:312
+msgid ""
+"Task Manager section will show the synchronization tasks that are running"
+" on the local machine. If there is a number on **\"Pending Tasks\"** or "
+"**\"Failed Tasks\"** you can click the text links next to those numbers "
+"to open a window that shows the tasks currently in progress. There are "
+"**\"PAUSE\"** and **\"START\"** buttons available on the left side of "
+"each of the task bars as well."
+msgstr "سيعرض قسم مدير المهام المهام المتزامنة التي تعمل على الجهاز المحلي. إذا كان هناك رقم على **\"المهام المعلقة\"** أو **\"المهام الفاشلة\"** يمكنك النقر على روابط النص بجانب هذه الأرقام لفتح نافذة تعرض المهام الجارية حاليًا. هناك أزرار **\"إيقاف مؤقت\"** و **\"بدء\"** متاحة على الجانب الأيسر من شريط كل مهمة كذلك."
+
+#: ../../chapter03.rst:317
+msgid "TASK MANAGER"
+msgstr "مدير المهام"
+
+#: ../../chapter03.rst:321
+msgid "3.2.6 Migrate CIFS SHARES"
+msgstr "3.2.6 ترحيل مشاركات CIFS"
+
+#: ../../chapter03.rst:323
+msgid ""
+"Migrate CIFS Shares can be accessed from the Console menu or the "
+"**\"MIGRATE CIFS SHARES\"** text link. You can pick a network share on "
+"the local server and synchronize it to the cluster server. As explained "
+"above, this is how you migrate a folder and its NTFS permissions at the "
+"same time."
+msgstr "يمكن الوصول إلى نقل مشاركات CIFS من قائمة الوحدة الطرفية أو رابط النص **\"نقل مشاركات CIFS\"**. يمكنك اختيار مشاركة شبكة على الخادم المحلي ومزامنتها مع خادم العنقود. كما هو موضح أعلاه، هذه هي الطريقة التي تنقل بها مجلد وأذونات NTFS الخاصة به في نفس الوقت."
+
+#: ../../chapter03.rst:328
+msgid "MIGRATE CIFS SHARES"
+msgstr "ترحيل مشاركات CIFS"
+
+#: ../../chapter03.rst:332
+msgid "3.2.7 Migrate Users"
+msgstr "3.2.7 نقل المستخدمين"
+
+#: ../../chapter03.rst:334
+msgid ""
+"Migrate users can import Active Directory users or local users to the "
+"|prodname| side as cloud users, while maintaining the same credentials as"
+" the local user."
+msgstr "يمكن للمستخدمين الذين يقومون بالترحيل استيراد مستخدمي Active Directory أو المستخدمين المحليين إلى جانب |prodname| كمستخدمين سحابيين، مع الحفاظ على نفس بيانات اعتماد المستخدم المحلي."
+
+#: ../../chapter03.rst:339
+msgid "MIGRATE USERS"
+msgstr "ترحيل المستخدمين"
+
+#: ../../chapter03.rst:344
+msgid "3.3 Cloud Server Console - Native"
+msgstr "3.3 وحدة تحكم الخادم السحابي - أصلية"
+
+#: ../../chapter03.rst:346
+msgid ""
+"You can launch the native management console from the program's "
+"installation folder. From the Command Prompt use the following command, "
+"``C:\\\\Program Files\\\\Gladinet\\\\Cloud Server Agent>gtaskmmc "
+"/runlocal /server``"
+msgstr "يمكنك تشغيل وحدة التحكم الإدارية الأصلية من مجلد تثبيت البرنامج. من موجه الأوامر استخدم الأمر التالي، ``C:\\Program Files\\Gladinet\\Cloud Server Agent>gtaskmmc /runlocal /server``"
+
+#: ../../chapter03.rst:351
+msgid "LAUNCHING THE NATIVE MANAGEMENT CONSOLE"
+msgstr "إطلاق وحدة التحكم الإدارية الأصلية"
+
+#: ../../chapter03.rst:353
+msgid ""
+"Once you have logged in the Native Console will open. This gives you "
+"local access to Server Agent settings."
+msgstr "بمجرد تسجيل الدخول، ستفتح واجهة التحكم الأصلية. هذا يمنحك الوصول المحلي إلى إعدادات وكيل الخادم."
+
+#: ../../chapter03.rst:358
+msgid "NATIVE MANAGEMENT CONSOLE"
+msgstr "وحدة التحكم الإدارية الأصلية"
+
+#: ../../chapter03.rst:362
+msgid "3.3.1 Task Manager"
+msgstr "3.3.1 مدير المهام"
+
+#: ../../chapter03.rst:364
+msgid "Task Manager shows all the system related tasks."
+msgstr "يعرض مدير المهام جميع المهام المتعلقة بالنظام."
+
+#: ../../chapter03.rst:366
+msgid "You can also use the **\"Open My Cloud\"** link to access the Login Panel."
+msgstr "يمكنك أيضًا استخدام الرابط **\"افتح سحابتي\"** للوصول إلى لوحة الدخول."
+
+#: ../../chapter03.rst:368
+msgid ""
+"Each of the Task Manager sections below include a series of tabs that "
+"include the following:"
+msgstr "كل قسم من أقسام مدير المهام أدناه يتضمن مجموعة من العلامات التبويب التي تشمل ما يلي:"
+
+#: ../../chapter03.rst:370
+msgid "**'Summary'**"
+msgstr "**'ملخص'**"
+
+#: ../../chapter03.rst:372
+msgid ""
+"This tab shows a summary of all the **\"System Update Tasks\"**. It shows"
+" the **\"Task Type\"** where the type is the name of the task. It shows "
+"the 'Status' as **\"Pending\"** which means that the **\"System Update "
+"Task\"** is always looking for changes and is always in **\"Pending\"** "
+"state in case there are any updates that needs to occur."
+msgstr "تُظهر هذه العلامة التبويب ملخصًا لجميع **\"مهام تحديث النظام\"**. تُظهر **\"نوع المهمة\"** حيث يكون النوع هو اسم المهمة. تُظهر 'الحالة' كـ **\"قيد الانتظار\"** وهذا يعني أن **\"مهمة تحديث النظام\"** دائمًا في حالة بحث عن التغييرات وهي دائمًا في حالة **\"قيد الانتظار\"** في حال وجود أي تحديثات تحتاج إلى حدوث."
+
+#: ../../chapter03.rst:374
+msgid "Summary also shows the following:"
+msgstr "الملخص يظهر أيضًا ما يلي:"
+
+#: ../../chapter03.rst:376
+msgid "**'Last Run Time'**"
+msgstr "**'آخر وقت للتشغيل'**"
+
+#: ../../chapter03.rst:378
+msgid ""
+"This shows the time when the Server Agent software last detected the "
+"changes on the local file system and ran to update the files in the "
+"cloud."
+msgstr "هذا يظهر الوقت الذي اكتشف فيه برنامج وكيل الخادم آخر مرة التغييرات على نظام الملفات المحلي وعمل على تحديث الملفات في السحابة."
+
+#: ../../chapter03.rst:380
+msgid "**'Next Start Time'**"
+msgstr "**'وقت البدء التالي'**"
+
+#: ../../chapter03.rst:382
+msgid ""
+"This shows the time when the **\"Update Task\"** will run next. The "
+"counter increments every 15 seconds. The software will run the update "
+"tasks right away. You can also use the **\"Pause\"** option to stop the "
+"update Administrator can force the updates by clicking on **\"Start "
+"Now\"** option in which case the task from updating local changes to the "
+"cloud. **\"Delete Task\"** option allows to delete any tasks for which "
+"updates are not desired. **\"Refresh\"** will refresh all the counters on"
+" the 'Summary' tab."
+msgstr "هذا يُظهر الوقت الذي ستُجرى فيه مهمة **\"تحديث المهمة\"** التالية. يزداد العداد كل 15 ثانية. سيقوم البرنامج بتنفيذ مهام التحديث فورًا. يمكنك أيضًا استخدام خيار **\"الإيقاف المؤقت\"** لإيقاف التحديث يمكن للمسؤول فرض التحديثات بالنقر على خيار **\"ابدأ الآن\"** وفي هذه الحالة ستُجرى المهمة من تحديث التغييرات المحلية إلى السحابة. خيار **\"حذف المهمة\"** يسمح بحذف أي مهام لا يُرغب في تحديثها. **\"تحديث\"** سيُجدد جميع العدادات في علامة التبويب 'الملخص'."
+
+#: ../../chapter03.rst:384
+msgid "**'Completed Subtasks'**"
+msgstr "**'المهام الفرعية المكتملة'**"
+
+#: ../../chapter03.rst:386
+msgid "This shows the number of upload subtasks that have been completed."
+msgstr "هذا يظهر عدد مهام التحميل الفرعية التي تم إكمالها."
+
+#: ../../chapter03.rst:388
+msgid "**'Running Subtasks'**"
+msgstr "**'جارٍ تشغيل المهام الفرعية'**"
+
+#: ../../chapter03.rst:390
+msgid ""
+"This shows how many subtasks are currently running. (See Tab for more "
+"info)"
+msgstr "هذا يظهر عدد المهام الفرعية الجارية حاليًا. (انظر العلامة التبويب لمزيد من المعلومات)"
+
+#: ../../chapter03.rst:392
+msgid "**'Pending Subtasks'**"
+msgstr "**'المهام الفرعية المعلقة'**"
+
+#: ../../chapter03.rst:394
+msgid ""
+"This shows the subtasks which are in pending state and waiting for their "
+"turn to get uploaded to the cloud. (See Tab for more info)"
+msgstr "هذا يظهر المهام الفرعية التي تكون في حالة انتظار وتنتظر دورها ليتم تحميلها إلى السحابة. (انظر اللسان لمزيد من المعلومات)"
+
+#: ../../chapter03.rst:396
+msgid "**'Pending Retry Subtasks'**"
+msgstr "**'مهام فرعية قيد إعادة المحاولة'**"
+
+#: ../../chapter03.rst:398
+msgid ""
+"This shows the number of any tasks which are pending retry meaning for "
+"some reason the changes for some files were not uploaded to the cloud and"
+" hence they are in the **\"Pending Retry Subtasks\"** queue and as soon "
+"as their turn comes the changes for files in **\"Pending Retry "
+"Subtasks**\" will also be uploaded to the cloud. (See Tab for more info)"
+msgstr "هذا يظهر عدد المهام المعلقة التي تنتظر إعادة المحاولة، وهذا يعني أن التغييرات الخاصة ببعض الملفات لم يتم تحميلها إلى السحابة لسبب ما وبالتالي هي في قائمة **\"مهام إعادة المحاولة المعلقة\"** وبمجرد أن يأتي دورها سيتم أيضًا تحميل التغييرات للملفات في **\"مهام إعادة المحاولة المعلقة\"** إلى السحابة. (انظر اللسان لمزيد من المعلومات)"
+
+#: ../../chapter03.rst:400
+msgid "**'Trace'**"
+msgstr "**'تتبع'**"
+
+#: ../../chapter03.rst:402
+msgid "This tab provides trace information about tasks. (See Tab for more info)"
+msgstr "هذه العلامة توفر معلومات تتبع عن المهام. (انظر العلامة لمزيد من المعلومات)"
+
+#: ../../chapter03.rst:408
+msgid "SYSTEM SYNC TASK - TRACE"
+msgstr "مهمة مزامنة النظام - تتبع"
+
+#: ../../chapter03.rst:410
+msgid ""
+"The **\"Trace\"** tab in the **\"System Sync Task\"** lists all the "
+"uploading, downloading, and monitoring tasks."
+msgstr "تبويب **\"التتبع\"** في مهمة **\"مزامنة النظام\"** يعرض جميع مهام الرفع والتنزيل والمراقبة."
+
+#: ../../chapter03.rst:413
+msgid "System Related Tasks"
+msgstr "المهام المتعلقة بالنظام"
+
+#: ../../chapter03.rst:418
+msgid "SYSTEM RELATED TASKS"
+msgstr "المهام المتعلقة بالنظام"
+
+#: ../../chapter03.rst:421
+msgid "System Sync Task"
+msgstr "مهمة مزامنة النظام"
+
+#: ../../chapter03.rst:426
+msgid "SYSTEM SYNC TASK"
+msgstr "مهمة مزامنة النظام"
+
+#: ../../chapter03.rst:428
+msgid ""
+"It is the master sync task and its job is to keep an eye on both local "
+"file changes and file changes that are done in the cloud. This is the "
+"task which triggers the **\"System Update Task\"** or the **\"System Sync"
+" Down Task\"**."
+msgstr "إنها مهمة المزامنة الرئيسية ووظيفتها هي مراقبة التغييرات في الملفات المحلية والتغييرات التي تتم في السحابة. هذه هي المهمة التي تُطلق مهمة **\"تحديث النظام\"** أو مهمة **\"المزامنة الهابطة للنظام\"**."
+
+#: ../../chapter03.rst:431
+msgid "System Sync Down Task"
+msgstr "مهمة مزامنة النظام لأسفل"
+
+#: ../../chapter03.rst:436
+msgid "SYSTEM SYNC DOWN TASK"
+msgstr "مهمة تزامن النظام توقفت"
+
+#: ../../chapter03.rst:438
+msgid ""
+"It performs the exact same tasks as the **\"System Update Task\"** but "
+"its job is to ensure that the changes that are done to the files in the "
+"cloud are automatically synced down to the file server. The **\"System "
+"Update Task\"** and the **\"System Sync Down Task\"** are what provides "
+"the mirroring or two-way sync between the local files on the cloud server"
+" and the files in the cloud."
+msgstr "يقوم بنفس المهام التي يقوم بها **\"مهمة تحديث النظام\"** ولكن وظيفته هي التأكد من أن التغييرات التي تتم على الملفات في السحابة يتم مزامنتها تلقائيًا مع خادم الملفات. **\"مهمة تحديث النظام\"** و **\"مهمة مزامنة النظام للأسفل\"** هما ما يوفران المرآة أو المزامنة الثنائية بين الملفات المحلية على خادم السحابة والملفات في السحابة."
+
+#: ../../chapter03.rst:441
+msgid "System Update Task"
+msgstr "مهمة تحديث النظام"
+
+#: ../../chapter03.rst:446
+msgid "SYSTEM UPDATE TASK"
+msgstr "مهمة تحديث النظام"
+
+#: ../../chapter03.rst:448
+msgid ""
+"It shows all system related update tasks. Server Agent software checks "
+"the local file system every 15 seconds and when it notices the changes to"
+" the files, the changed files will be added to the upload queue. The real"
+" upload time depends on how big the upload queue is and if there is only "
+"one file with the changes, the changes to the file will be uploaded to "
+"the cloud in 15 seconds."
+msgstr "يعرض جميع مهام التحديث المتعلقة بالنظام. يقوم برنامج وكيل الخادم بفحص نظام الملفات المحلي كل 15 ثانية، وعندما يلاحظ تغييرات في الملفات، سيتم إضافة الملفات التي تغيرت إلى قائمة الرفع. يعتمد وقت الرفع الفعلي على حجم قائمة الرفع وإذا كان هناك ملف واحد فقط تغيرت فيه البيانات، سيتم رفع التغييرات إلى السحابة في غضون 15 ثانية."
+
+#: ../../chapter03.rst:451
+msgid "Edit Account Information"
+msgstr "تعديل معلومات الحساب"
+
+#: ../../chapter03.rst:456
+msgid "EDIT ACCOUNT INFORMATION"
+msgstr "تحرير معلومات الحساب"
+
+#: ../../chapter03.rst:458
+msgid ""
+"This link at the bottom allows you to **Login with different "
+"credentials** to launch the Cloud Server Console and perform management "
+"related tasks."
+msgstr "هذا الرابط في الأسفل يتيح لك **تسجيل الدخول ببيانات اعتماد مختلفة** لبدء وحدة تحكم الخادم السحابي وأداء المهام المتعلقة بالإدارة."
+
+#: ../../chapter03.rst:462
+msgid "3.3.2 File Server"
+msgstr "3.3.2 خادم الملفات"
+
+#: ../../chapter03.rst:467
+msgid "FILE SERVER"
+msgstr "خادم الملفات"
+
+#: ../../chapter03.rst:469
+msgid ""
+"**\"File Server\"** shows all the data that have been uploaded to the "
+"cloud and the files and folder structure. It lists folder structure which"
+" includes sub-folders as well. The local folders that are attached either"
+" from the file server or a user's machine have the machine name in "
+"parenthesis."
+msgstr "**\"خادم الملفات\"** يعرض جميع البيانات التي تم تحميلها إلى السحابة وهيكل الملفات والمجلدات. يُظهر هيكل المجلد الذي يتضمن الفروع الفرعية أيضًا. المجلدات المحلية المرفقة سواءً من خادم الملفات أو جهاز المستخدم لها اسم الجهاز بين قوسين."
+
+#: ../../chapter03.rst:471
+msgid ""
+"An Administrator can create a new sub-folder below selected node or can "
+"attach additional local folders using the **\"Attach Local Folder\"** "
+"option under **\"Actions\"**. Attaching a local folder to |prodname| "
+"Cloud using the **\"Attach Local Folder\"** option allows immediate "
+"access to the local content from anywhere using any device. **\"Attached "
+"Local Folder\"** will be synchronized upwards to the cloud first and also"
+" the changes in the cloud will be sync down to the local file server."
+msgstr "يمكن للمسؤول إنشاء مجلد فرعي جديد أسفل العقدة المحددة أو يمكنه إرفاق مجلدات محلية إضافية باستخدام خيار **\"إرفاق مجلد محلي\"** تحت **\"الإجراءات\"**. إرفاق مجلد محلي بـ |prodname| السحابة باستخدام خيار **\"إرفاق مجلد محلي\"** يتيح الوصول الفوري إلى المحتوى المحلي من أي مكان باستخدام أي جهاز. سيتم مزامنة **\"المجلد المحلي المرفق\"** مع السحابة أولاً وكذلك سيتم مزامنة التغييرات في السحابة مع الخادم الملفي المحلي."
+
+#: ../../chapter03.rst:473
+msgid ""
+"Administrator can also highlight an existing cloud folder and create new "
+"sub-folders underneath that highlighted folder."
+msgstr "يمكن للمسؤول أيضًا تحديد مجلد سحابي موجود وإنشاء مجلدات فرعية جديدة تحت ذلك المجلد المحدد."
+
+#: ../../chapter03.rst:476
+msgid ""
+"The two-way synchronization feature of the **\"Attach Local Folder\"** "
+"only applies to local folders such as those on the C: drive, D: drive and"
+" local hard drives in general. It won't work for network share. The two-"
+"way synchronization depends on the local file system's event change "
+"notification about files and folders. These changes will be detected and "
+"synchronization will happen based on the changes."
+msgstr "ميزة التزامن الثنائي لخاصية **\"إرفاق مجلد محلي\"** تنطبق فقط على المجلدات المحلية مثل تلك الموجودة على القرص C: والقرص D: والأقراص الصلبة المحلية بشكل عام. لن تعمل للمشاركة الشبكية. يعتمد التزامن الثنائي على إشعارات تغيير النظام الملفي المحلي حول الملفات والمجلدات. سيتم اكتشاف هذه التغييرات وسيحدث التزامن استنادًا إلى التغييرات."
+
+#: ../../chapter03.rst:478
+msgid ""
+"An administrator can also manage the folder using Web Portal by using the"
+" **\"Manage\"** option. This will allow an admin to convert any folders "
+"that have been attached to the cloud or are in the cloud to convert them "
+"into **\"Team Folders\"** for collaboration etc. Highlight the folder and"
+" select **\"Manage\"** under **\"Actions\"**."
+msgstr "يمكن للمسؤول أيضًا إدارة المجلد باستخدام البوابة الإلكترونية من خلال استخدام خيار **\"إدارة\"**. سيسمح هذا للمسؤول بتحويل أي مجلدات تم ربطها بالسحابة أو الموجودة في السحابة لتحويلها إلى **\"مجلدات الفريق\"** للتعاون وما إلى ذلك. قم بتسليط الضوء على المجلد واختر **\"إدارة\"** تحت **\"الإجراءات\"**."
+
+#: ../../chapter03.rst:483
+msgid "FILE SERVER - MANAGE FOLDER IN WEB PORTAL"
+msgstr "خادم الملفات - إدارة المجلد في بوابة الويب"
+
+#: ../../chapter03.rst:485
+msgid ""
+"In the Manage Folder view, you must add collaborators to make this a team"
+" folder. The pop-up lets you choose a source for your users/groups; "
+"either Existing User/Group or AD."
+msgstr "في واجهة إدارة المجلد، يجب عليك إضافة المتعاونين لجعل هذا المجلد مجلد فريق. تتيح لك النافذة المنبثقة اختيار مصدر لمستخدميك/مجموعاتك؛ إما مستخدم/مجموعة موجودة أو AD."
+
+#: ../../chapter03.rst:490
+msgid "ADDING COLLABORATION"
+msgstr "إضافة التعاون"
+
+#: ../../chapter03.rst:496
+msgid "ACCESS TEAM FOLDER SETTINGS"
+msgstr "الوصول إلى إعدادات مجلد الفريق"
+
+#: ../../chapter03.rst:499
+msgid ""
+"Once you have added your users/groups, click the Disk icon to save your "
+"changes. Click the Settings tab to modify settings for this share."
+msgstr "بمجرد إضافة المستخدمين/المجموعات الخاصة بك، انقر على أيقونة القرص لحفظ التغييرات. انقر على علامة التبويب الإعدادات لتعديل الإعدادات الخاصة بهذا المشاركة."
+
+#: ../../chapter03.rst:501
+msgid ""
+"In the Settings tab view, you can modify the settings for this share "
+"including: Basic Settings, Permissions, Secure Data Room, IP White List "
+"and Quota and Retention Policy. Under the **(+)** Settings sub-menu you "
+"have access to: Disable further sharing, Create CIFS Share and Disable "
+"Offline Access options."
+msgstr "في عرض تبويب الإعدادات، يمكنك تعديل إعدادات هذه المشاركة بما في ذلك: الإعدادات الأساسية، الأذونات، غرفة البيانات الآمنة، قائمة الـ IP البيضاء وسياسة الحصة والاحتفاظ. تحت قائمة الإعدادات الفرعية **(+)** لديك الوصول إلى: تعطيل المشاركة الإضافية، إنشاء مشاركة CIFS وتعطيل خيارات الوصول غير المتصل."
+
+#: ../../chapter03.rst:506
+msgid "TEAM FOLDER SETTINGS"
+msgstr "إعدادات مجلد الفريق"
+
+#: ../../chapter03.rst:508
+msgid ""
+"That diversion shows you how you can create, access and modify folders "
+"and settings from within the Web Portal of |prodname|. Now we return back"
+" to the File Server section of the Server Console in Server Agent. "
+"**\"Enable Background Prefetch\" (1)** makes the contents of the selected"
+" folder available offline."
+msgstr "تُظهر لك هذه الحيلة كيف يمكنك إنشاء والوصول وتعديل المجلدات والإعدادات من خلال بوابة الويب الخاصة بـ |prodname|. الآن نعود مرة أخرى إلى قسم خادم الملفات في وحدة تحكم الخادم في وكيل الخادم. **\"تمكين الجلب المسبق في الخلفية\" (1)** يجعل محتويات المجلد المحدد متاحة دون اتصال."
+
+#: ../../chapter03.rst:513 ../../chapter03.rst:520
+msgid "FOLDER ACTIONS"
+msgstr "إجراءات المجلد"
+
+#: ../../chapter03.rst:515
+msgid ""
+"**\"Delete\"** does not remove the content of the folder from local "
+"storage; however, it does detach the selected folder and its contents "
+"from the cloud. If you go to the Web Portal and re-create a folder with "
+"exactly the same name (including the machine's name and the parenthesis),"
+" the folder can be shown with a cloud-only context without any local "
+"machine relationship."
+msgstr "**\"حذف\"** لا يزيل محتويات المجلد من التخزين المحلي؛ ولكنه يفصل المجلد المحدد ومحتوياته عن السحابة. إذا ذهبت إلى البوابة الإلكترونية وأعدت إنشاء مجلد بنفس الاسم تمامًا (بما في ذلك اسم الجهاز والأقواس)، يمكن عرض المجلد بسياق السحابة فقط دون أي علاقة بالجهاز المحلي."
+
+#: ../../chapter03.rst:523
+msgid ""
+"**\"Attach a Folder to Backup\"** (see above) allows an administrator to "
+"attach and two-way synchronize a local folder to the cloud. The default "
+"view shows all the \"Attached-Folders\" on the local machine that are "
+"attached to the cloud. To add a folder click the browse icon **(...)** "
+"and search for a folder to sync to the cloud."
+msgstr "**\"إرفاق مجلد للنسخ الاحتياطي\"** (انظر أعلاه) يسمح للمسؤول بإرفاق مجلد محلي ومزامنته ثنائية الاتجاه مع السحابة. العرض الافتراضي يظهر جميع \"المجلدات-المرفقة\" على الجهاز المحلي المرتبطة بالسحابة. لإضافة مجلد انقر على أيقونة الاستعراض **(...)** وابحث عن مجلد لمزامنته مع السحابة."
+
+#: ../../chapter03.rst:528
+msgid "ATTACH LOCAL FOLDER"
+msgstr "إرفاق مجلد محلي"
+
+#: ../../chapter03.rst:530
+msgid ""
+"Once a folder is attached, you can take advantage of one of the Folder "
+"Actions **\"Manage\"** that allows you to quickly open a Web Portal to "
+"edit Sharing and Collaboration settings for the folder."
+msgstr "بمجرد إرفاق مجلد، يمكنك الاستفادة من إحدى إجراءات المجلد **\"إدارة\"** التي تتيح لك فتح بوابة ويب بسرعة لتعديل إعدادات المشاركة والتعاون للمجلد."
+
+#: ../../chapter03.rst:535
+msgid "MANAGE FOLDER FROM WEB PORTAL"
+msgstr "إدارة المجلد من بوابة الويب"
+
+#: ../../chapter03.rst:540
+msgid "SELECT SHARING AND COLLABORATION"
+msgstr "اختيار المشاركة والتعاون"
+
+#: ../../chapter03.rst:544
+msgid "3.3.3 Attach/Backup"
+msgstr "3.3.3 إرفاق/نسخ احتياطي"
+
+#: ../../chapter03.rst:546
+msgid ""
+"Clicking the Attach/Backup button shows all of the folders currently "
+"attached."
+msgstr "النقر على زر الإرفاق/النسخ الاحتياطي يعرض جميع المجلدات المرفقة حاليًا."
+
+#: ../../chapter03.rst:551
+msgid "ALL FOLDERS WITHIN ADMIN'S ROOT FOLDER"
+msgstr "جميع المجلدات داخل مجلد الجذر الخاص بالمسؤول"
+
+#: ../../chapter03.rst:553
+msgid ""
+"By clicking the double-down-arrow icon on the right of each share you can"
+" see the details of the folder and if the folder is linked to a local "
+"folder you will see **\"Link to local\"**. If it is already linked you "
+"will see **\"Stop Sync\"**. As shown below, you can also **Detach** the "
+"folder in this location."
+msgstr "بالنقر على أيقونة السهم المزدوج للأسفل على يمين كل مشاركة، يمكنك رؤية تفاصيل المجلد وإذا كان المجلد مرتبطًا بمجلد محلي سترى **\"رابط إلى محلي\"**. إذا كان مرتبطًا بالفعل سترى **\"إيقاف المزامنة\"**. كما هو موضح أدناه، يمكنك أيضًا **فصل** المجلد في هذا الموقع."
+
+#: ../../chapter03.rst:558
+msgid "ATTACH/BACKUP SETTINGS"
+msgstr "إعدادات الإرفاق/النسخ الاحتياطي"
+
+#: ../../chapter03.rst:562
+msgid "Link to Local Folder"
+msgstr "رابط إلى المجلد المحلي"
+
+#: ../../chapter03.rst:564
+msgid ""
+"You can take a folder that is in the cloud and sync it down to a local "
+"folder and then maintain two-way synchronization."
+msgstr "يمكنك أخذ مجلد موجود في السحابة ومزامنته مع مجلد محلي ثم الحفاظ على مزامنة ثنائية الاتجاه."
+
+#: ../../chapter03.rst:567
+msgid "Stop Sync"
+msgstr "إيقاف المزامنة"
+
+#: ../../chapter03.rst:569
+msgid ""
+"You can break the two-way sync between a local folder and a folder in the"
+" cloud. After stop sync, the two sides continue to exist but there is no "
+"relationship between them any longer."
+msgstr "يمكنك قطع التزامن الثنائي بين مجلد محلي ومجلد في السحابة. بعد إيقاف التزامن، يستمر وجود الجانبين ولكن لا توجد علاقة بينهما بعد الآن."
+
+#: ../../chapter03.rst:572
+msgid "Detach"
+msgstr "فصل"
+
+#: ../../chapter03.rst:574
+msgid ""
+"Detach is the reverse of Attach. Attach means attach a local folder to "
+"the cloud under version control. Detach means remove it from the version "
+"control. Detach is an operation detaching the cloud side of the folder "
+"from version control. After detach, the local folder (if it is related to"
+" a local folder) is not affected at all. However, the folder in the cloud"
+" will disappear."
+msgstr "الفصل هو عكس الإرفاق. الإرفاق يعني ربط مجلد محلي بالسحابة تحت التحكم بالإصدارات. الفصل يعني إزالته من التحكم بالإصدارات. الفصل هو عملية فصل جانب السحابة للمجلد عن التحكم بالإصدارات. بعد الفصل، المجلد المحلي (إذا كان مرتبطًا بمجلد محلي) لا يتأثر على الإطلاق. ومع ذلك، سيختفي المجلد في السحابة."
+
+#: ../../chapter03.rst:577
+msgid ""
+"If you want the cloud side of the folder to reappear, you can use \"Show "
+"Deleted\" in the Web Portal to show the deleted folder and bring it back."
+" Or you can create a same name folder from scratch to inherit the folder "
+"back."
+msgstr "إذا أردت أن تظهر الجانب السحابي للمجلد مرة أخرى، يمكنك استخدام \"إظهار المحذوفات\" في البوابة الويب لإظهار المجلد المحذوف واستعادته. أو يمكنك إنشاء مجلد بنفس الاسم من البداية لوراثة المجلد مرة أخرى."
+
+#: ../../chapter03.rst:581
+msgid "3.3.4 Audit Trace"
+msgstr "3.3.4 أثر التدقيق"
+
+#: ../../chapter03.rst:583
+msgid ""
+"Audit trace shows the history of all the tasks that have taken place. "
+"Administrators can query the **\"Audit Trace\"** to see the history of "
+"uploads, downloads, changes, and monitoring on the files in the cloud. "
+"You can also filter the tasks you would like to query by using the "
+"**\"Only Show Traces Containing\"** field **(1)**."
+msgstr "تُظهر سجلات التدقيق تاريخ جميع المهام التي تم إجراؤها. يمكن للمدراء استعلام سجل **\"التدقيق\"** لمشاهدة تاريخ الرفع والتنزيل والتغييرات والمراقبة على الملفات في السحابة. يمكنك أيضًا تصفية المهام التي ترغب في الاستعلام عنها باستخدام حقل **\"عرض السجلات التي تحتوي فقط\"** **(1)**."
+
+#: ../../chapter03.rst:585
+msgid ""
+"As an administrator you can also specify the times that you would like to"
+" run the query for **(2)**. Additionally, you can specify the amount of "
+"traces you would like to query **(3)** where **\"0\"** means unlimited "
+"traces."
+msgstr "كمسؤول يمكنك أيضًا تحديد الأوقات التي ترغب في تشغيل الاستعلام فيها **(2)**. بالإضافة إلى ذلك، يمكنك تحديد عدد الآثار التي ترغب في الاستعلام عنها **(3)** حيث يعني **\"0\"** عدد آثار غير محدود."
+
+#: ../../chapter03.rst:590
+msgid "AUDIT TRACE QUERY"
+msgstr "استعلام تتبع التدقيق"
+
+#: ../../chapter03.rst:594
+msgid "3.3.5 Settings Manager"
+msgstr "3.3.5 مدير الإعدادات"
+
+#: ../../chapter03.rst:595
+msgid ""
+"Server Agent administrators can customize and configure many settings at "
+"the Server Console level by modifying the contents of the Settings "
+"Manager section."
+msgstr "يمكن لمدراء وكلاء الخادم تخصيص وتكوين العديد من الإعدادات على مستوى وحدة تحكم الخادم من خلال تعديل محتويات قسم مدير الإعدادات."
+
+#: ../../chapter03.rst:597
+msgid "From here you can also access the **\"Offline Folders\"** tab."
+msgstr "من هنا يمكنك أيضًا الوصول إلى علامة التبويب **\"المجلدات غير المتصلة\"**."
+
+#: ../../chapter03.rst:602
+msgid ""
+"This section lists all the cloud folders which have been enabled for "
+"**\"Offline Access\"**, meaning users who have access to offline folders "
+"can access and edit the contents of such folders even when they are not "
+"online. All the changes done to files in offline folders will be "
+"automatically synced as soon as the users come back online."
+msgstr "تُعرض هذه القسم جميع المجلدات السحابية التي تم تفعيلها لـ **\"الوصول غير المتصل\"**، مما يعني أن المستخدمين الذين لديهم حق الوصول إلى المجلدات غير المتصلة يمكنهم الوصول إلى محتويات هذه المجلدات وتعديلها حتى عندما لا يكونون متصلين بالإنترنت. سيتم مزامنة جميع التغييرات التي تم إجراؤها على الملفات في المجلدات غير المتصلة تلقائيًا بمجرد عودة المستخدمين إلى الاتصال بالإنترنت."
+
+#: ../../chapter03.rst:607
+msgid "OFFLINE FOLDERS"
+msgstr "المجلدات غير المتصلة"
+
+#: ../../chapter03.rst:609
+msgid ""
+"**\"Add New Offline Folder\"** You can click this link to configure a "
+"folder as an Offline Folder."
+msgstr "**\"إضافة مجلد غير متصل جديد\"** يمكنك النقر على هذا الرابط لتكوين مجلد كمجلد غير متصل."
+
+#: ../../chapter03.rst:612
+msgid "Settings Tab"
+msgstr "علامة التبويب الإعدادات"
+
+#: ../../chapter03.rst:615
+msgid "Bandwidth Control"
+msgstr "تحكم في النطاق الترددي"
+
+#: ../../chapter03.rst:617
+msgid ""
+"As an administrator you have full control over how much bandwidth should "
+"be consumed for uploading contents to the cloud and also for downloading "
+"contents from the cloud. You can also control how many consequent uploads"
+" and downloads are allowed at any one time."
+msgstr "كمسؤول لديك السيطرة الكاملة على كمية النطاق الترددي التي يجب استهلاكها لرفع المحتويات إلى السحابة وكذلك لتنزيل المحتويات من السحابة. يمكنك أيضًا التحكم في عدد عمليات الرفع والتنزيل المتتالية المسموح بها في أي وقت."
+
+#: ../../chapter03.rst:622
+msgid "SETTINGS MANAGER - BANDWIDTH CONTROL"
+msgstr "مدير الإعدادات - التحكم في النطاق الترددي"
+
+#: ../../chapter03.rst:624
+msgid ""
+"**\"Download Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. This setting is applied to the local machine (Server Agent). "
+"Usually something > 100KB/s is good. If it is too small, it can "
+"negatively affect performance and usability."
+msgstr "**\"حد تنزيل النطاق الترددي (كيلوبايت/ثانية، 0-غير محدود)\"** الافتراضي هو **\"0\"**. يتم تطبيق هذا الإعداد على الجهاز المحلي (وكيل الخادم). عادةً ما يكون أي شيء > 100 كيلوبايت/ثانية جيدًا. إذا كان صغيرًا جدًا، يمكن أن يؤثر سلبًا على الأداء وسهولة الاستخدام."
+
+#: ../../chapter03.rst:626
+msgid ""
+"**\"Upload Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is **\"0\"**. "
+"This setting is applied to the local machine (Server Agent). Usually "
+"something > 100KB/s is good."
+msgstr "**\"حد الرفع للعرض الترددي (كيلوبايت/ثانية، 0-غير محدود)\"** الافتراضي هو **\"0\"**. يتم تطبيق هذا الإعداد على الجهاز المحلي (وكيل الخادم). عادةً، شيء > 100 كيلوبايت/ثانية يكون جيدًا."
+
+#: ../../chapter03.rst:628
+msgid ""
+"**\"Number of Upload/Download Threads\"** Default is **\"5\"**. Set this "
+"from 5-10 in general. In some case, if you set it to a very big number "
+"such as 20, it may negatively affect performance. For example, if you are"
+" using Amazon S3 and Amazon S3 or other Cloud services may have per-"
+"client thread policy so if you have too many concurrent upload/download, "
+"it may get regulated outside of the Server Agent."
+msgstr "**\"عدد خيوط التحميل/الرفع\"** الافتراضي هو **\"5\"**. يُضبط هذا العدد بين 5-10 عمومًا. في بعض الحالات، إذا تم ضبطه على رقم كبير جدًا مثل 20، قد يؤثر ذلك سلبًا على الأداء. على سبيل المثال، إذا كنت تستخدم Amazon S3 ولدى Amazon S3 أو خدمات السحاب الأخرى سياسة خيوط لكل عميل، فإذا كان لديك العديد من عمليات الرفع/التحميل المتزامنة، قد يتم تنظيمها خارج وكيل الخادم."
+
+#: ../../chapter03.rst:631
+msgid "Cache"
+msgstr "ذاكرة التخزين المؤقت"
+
+#: ../../chapter03.rst:636
+msgid "SETTINGS MANAGER - CACHE SETTINGS"
+msgstr "مدير الإعدادات - إعدادات الذاكرة المؤقتة"
+
+#: ../../chapter03.rst:638
+msgid ""
+"You can change the location of Cache (for files downloaded locally from "
+"cloud). You can also set the cache size."
+msgstr "يمكنك تغيير موقع الذاكرة المؤقتة (للملفات التي تم تنزيلها محليًا من السحابة). يمكنك أيضًا تعيين حجم الذاكرة المؤقتة."
+
+#: ../../chapter03.rst:643
+msgid "Sync Control"
+msgstr "تحكم المزامنة"
+
+#: ../../chapter03.rst:648
+msgid "SETTINGS MANAGER - SYNC CONTROL"
+msgstr "مدير الإعدادات - التحكم بالمزامنة"
+
+#: ../../chapter03.rst:650
+msgid ""
+"**\"Throttle Sync\"** Default is **\"False\"**. If you set this flag to "
+"**\"True\"** it will stop and start the sync depending on the available "
+"bandwidth."
+msgstr "**\"تحديد التزامن\"** الافتراضي هو **\"خطأ\"**. إذا قمت بتعيين هذا العلم إلى **\"صحيح\"** فسوف يتوقف ويبدأ التزامن بناءً على النطاق الترددي المتاح."
+
+#: ../../chapter03.rst:652
+msgid ""
+"**\"Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"upload sync."
+msgstr "**\"تحديد سرعة الرفع المتزامن للنطاق الترددي (كيلوبايت/ثانية، 0-غير محدود)\"** القيمة الافتراضية هي **\"0\"**. حيث أن **\"0\"** تعني أن النطاق الترددي المتاح للرفع المتزامن غير محدود."
+
+#: ../../chapter03.rst:654
+msgid ""
+"**\"Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"download sync."
+msgstr "**\"تحديد سرعة تنزيل المزامنة (كيلوبايت/ثانية، 0 - غير محدود)\"** القيمة الافتراضية هي **\"0\"**. حيث إن **\"0\"** يعني أن النطاق الترددي غير محدود لتنزيل المزامنة."
+
+#: ../../chapter03.rst:656
+msgid ""
+"**\"Full Speed Sync Stop Hour (dafault 7:00)\"** Default is **\"7\"**. "
+"Use this setting to set when full sync stops, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"ساعة توقف المزامنة الكاملة (الافتراضية 7:00)\"** الافتراضي هو **\"7\"**. استخدم هذا الإعداد لتحديد وقت توقف المزامنة الكاملة، لمنع إبطاء نظامك خلال ساعات العمل."
+
+#: ../../chapter03.rst:658
+msgid ""
+"**\"Full Speed Sync Start Hour (dafault 20:00)\"** Default is **\"20\"**."
+"  Use this setting to set when full sync starts, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"ساعة بدء المزامنة الكاملة (الافتراضي 20:00)\"** الافتراضي هو **\"20\"**. استخدم هذا الإعداد لتحديد موعد بدء المزامنة الكاملة، لمنع إبطاء نظامك خلال ساعات العمل."
+
+#: ../../chapter03.rst:660
+msgid ""
+"**\"Scan local files and sync up to cloud as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" local file system and make sure that everything which is not synced to "
+"the cloud is truly synced."
+msgstr "**\"فحص الملفات المحلية ومزامنتها مع السحابة عند الضرورة\"** الافتراضي هو **\"خطأ\"**. قم بتعيين هذا إلى **\"صحيح\"** إذا كنت تريد من الوكيل فحص نظام الملفات المحلي والتأكد من أن كل شيء غير متزامن مع السحابة قد تم مزامنته فعليًا."
+
+#: ../../chapter03.rst:662
+msgid ""
+"**\"Scan cloud files and sync up to local as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" cloud and make sure that everything which is not synced to the local "
+"file system is truly synced."
+msgstr "**\"فحص الملفات السحابية ومزامنتها مع الملفات المحلية عند الضرورة\"** الافتراضي هو **\"خطأ\"**. قم بتعيين هذا إلى **\"صحيح\"** إذا كنت تريد من الوكيل أن يفحص السحابة ويتأكد من أن كل شيء غير مزامن مع نظام الملفات المحلي قد تمت مزامنته بالفعل."
+
+#: ../../chapter03.rst:664
+msgid ""
+"**\"Optimize Sync Down Notification\"** Default is **\"False\"**. If you "
+"want to see sync down notifications, then set this to **\"True\"**."
+msgstr "**\"تحسين إشعارات المزامنة الهابطة\"** الافتراضي هو **\"خطأ\"**. إذا كنت ترغب في رؤية إشعارات المزامنة الهابطة، فعليك ضبط هذا على **\"صحيح\"**."
+
+#: ../../chapter03.rst:666
+msgid ""
+"**\"Ignore file dummy change notification\"** Default is **\"False\"**. "
+"If you don't want to see dummy file change notifications, then set this "
+"to **\"True\"**."
+msgstr "**\"تجاهل إشعارات تغيير الملف الوهمي\"** الافتراضي هو **\"خطأ\"**. إذا كنت لا ترغب في رؤية إشعارات تغيير الملف الوهمي، فاضبط هذا على **\"صحيح\"**."
+
+#: ../../chapter03.rst:668
+msgid ""
+"**\"Enable sync folder permission in attached folder\"** Default is "
+"**\"False\"**."
+msgstr "**\"تمكين إذن مجلد المزامنة في المجلد المرفق\"** الافتراضي هو **\"خطأ\"**."
+
+#: ../../chapter03.rst:672
+msgid "Advanced"
+msgstr "متقدم"
+
+#: ../../chapter03.rst:674
+msgid ""
+"Administrator can locate the cache directory under **\"Advanced\"** "
+"option in settings. Using the **\"Cache Size Limit (MB)\"** field can "
+"specify the size limit for the cache file."
+msgstr "يمكن للمسؤول تحديد موقع دليل الذاكرة المؤقتة تحت خيار **\"متقدم\"** في الإعدادات. باستخدام حقل **\"حد حجم الذاكرة المؤقتة (ميغابايت)\"** يمكن تحديد الحد الأقصى لحجم ملف الذاكرة المؤقتة."
+
+#: ../../chapter03.rst:680
+msgid "SETTINGS MANAGER - ADVANCED"
+msgstr "مدير الإعدادات - متقدم"
+
+#: ../../chapter03.rst:682
+msgid ""
+"**\"Do not Mount Drive\"** Default is **\"False\"**. When you set this to"
+" **\"True\"** local drive on the Server Agent is unmounted."
+msgstr "**\"لا تقم بتحميل القرص\"** الافتراضي هو **\"خطأ\"**. عندما تضبط هذا على **\"صحيح\"** يتم إلغاء تحميل القرص المحلي على وكيل الخادم."
+
+#: ../../chapter03.rst:684
+msgid "**\"Domain Controller IP or Hostname\"** This setting is empty by default."
+msgstr "**\"عنوان IP لمتحكم النطاق أو اسم المضيف\"** هذا الإعداد فارغ بشكل افتراضي."
+
+#: ../../chapter03.rst:686
+msgid ""
+"**\"Enable In-place Open Zip File\"** Default is **\"False\"**. This "
+"field enables in-place editing on files which are in zipped folders in "
+"the cloud. You can also specify the maximum size for zipped files that "
+"are allowed for In-place editing."
+msgstr "**\"تمكين فتح ملف الضغط في مكانه\"** الافتراضي هو **\"خطأ\"**. يتيح هذا الحقل التحرير في مكانه للملفات الموجودة في مجلدات الضغط في السحابة. يمكنك أيضًا تحديد الحجم الأقصى لملفات الضغط المسموح بها للتحرير في مكانه."
+
+#: ../../chapter03.rst:688
+msgid ""
+"**\"Max Size of Zip File Allowed to Open Inplace\"** This is **\"20\"** "
+"by default. Use this field to set the maximum size of Zip Files that can "
+"be opened inside the Cloud Drive in MB."
+msgstr "**\"الحد الأقصى لحجم ملف Zip المسموح بفتحه مباشرة\"** هذا هو **\"20\"** بشكل افتراضي. استخدم هذا الحقل لتعيين الحد الأقصى لحجم ملفات Zip التي يمكن فتحها داخل السحابة الإلكترونية بالميغابايت."
+
+#: ../../chapter03.rst:690
+msgid ""
+"**\"Ignore Settings in Group Policy\"** Default is **\"False\"**. When "
+"you set this flag to **\"True\"**, the configured settings in the Web "
+"Portal will be ignored and the settings configured here under "
+"``Settings`` > ``Advanced`` will take precedence."
+msgstr "**\"تجاهل الإعدادات في سياسة المجموعة\"** الافتراضي هو **\"خطأ\"**. عندما تضبط هذا العلم على **\"صحيح\"**، سيتم تجاهل الإعدادات المكونة في البوابة الإلكترونية وستأخذ الإعدادات المكونة هنا الأسبقية تحت ``الإعدادات`` > ``متقدم``."
+
+#: ../../chapter03.rst:692
+msgid ""
+"**\"Interval to Keep Group Relationship in Cache (Min)\"** The default is"
+" **\"60\"** minutes. This field is a performance optimization setting. "
+"The Server Agent will check the remote requests against the ACL (Access "
+"Control) set on the local files. Most of the times it involves Active "
+"Directory or NT domain group membership checking. The group membership "
+"checking is a CPU intensive work so the result is cached to improve "
+"performance. This controls how long the result will be cached. If users "
+"are not changing group frequently, you can set the interval to a long "
+"period of time."
+msgstr "**\"فترة الاحتفاظ بعلاقات المجموعة في الذاكرة المؤقتة (دقيقة)\"** القيمة الافتراضية هي **\"60\"** دقيقة. هذا الحقل هو إعداد لتحسين الأداء. سيقوم وكيل الخادم بفحص الطلبات البعيدة مقابل قائمة التحكم في الوصول (ACL) المحددة على الملفات المحلية. في أغلب الأوقات يتضمن ذلك التحقق من عضوية مجموعة Active Directory أو NT domain. التحقق من عضوية المجموعة هو عمل مكثف للمعالج لذا يتم تخزين النتيجة مؤقتًا لتحسين الأداء. هذا يتحكم في المدة التي ستُخزن فيها النتيجة. إذا لم يكن المستخدمون يغيرون المجموعات بشكل متكرر، يمكنك ضبط الفترة إلى مدة طويلة من الزمن."
+
+#: ../../chapter03.rst:694
+msgid ""
+"**\"Purge File Sys DB Upon Start\"** The default is **\"False\"**. If you"
+" change this setting to True, upon startup the client will purge the "
+"cached cloud storage state file. This allows the client to rebuild the "
+"database as if it is being started for the first time."
+msgstr "**\"إفراغ قاعدة بيانات نظام الملفات عند البدء\"** القيمة الافتراضية هي **\"خطأ\"**. إذا قمت بتغيير هذا الإعداد إلى صحيح، عند بدء التشغيل سيقوم العميل بإفراغ ملف حالة التخزين السحابي المخبأ. هذا يسمح للعميل بإعادة بناء قاعدة البيانات كما لو كان يتم تشغيله للمرة الأولى."
+
+#: ../../chapter03.rst:696
+msgid ""
+"**\"Upload Hidden Files\"** The default is **\"False\"**. If this flag is"
+" set to **\"True\"** then hidden files will also be uploaded to the "
+"cloud."
+msgstr "**\"تحميل الملفات المخفية\"** الافتراضي هو **\"خطأ\"**. إذا تم تعيين هذا الخيار إلى **\"صحيح\"** فسيتم أيضًا تحميل الملفات المخفية إلى السحابة."
+
+#: ../../chapter03.rst:698
+msgid ""
+"**\"Upload System Files\"** The default is **\"False\"**. If this flag "
+"when set to **\"True\"** then system files will also be uploaded to the "
+"cloud."
+msgstr "**\"رفع ملفات النظام\"** الافتراضي هو **\"خطأ\"**. إذا تم تعيين هذا العلم إلى **\"صحيح\"** فسيتم أيضًا رفع ملفات النظام إلى السحابة."
+
+#: ../../chapter03.rst:701
+msgid "Trace"
+msgstr "تتبع"
+
+#: ../../chapter03.rst:703
+msgid ""
+"The audit trace log can grow exponentially if not kept under control. As "
+"an administrator you can specify the number of days to keep the audit "
+"trace. **\"Days of Audit Trace to Keep\"** setting is the field to "
+"specify the duration to keep the trace for."
+msgstr "يمكن أن ينمو سجل التتبع التدقيق بشكل كبير إذا لم يتم السيطرة عليه. كمسؤول، يمكنك تحديد عدد الأيام للاحتفاظ بسجل التتبع. إعداد **\"أيام الاحتفاظ بسجل التتبع\"** هو الحقل الذي تحدد فيه المدة للاحتفاظ بالتتبع."
+
+#: ../../chapter03.rst:705
+msgid ""
+"Trace Level when set to **\"0\"** which is the default does not collect "
+"any traces meaning it is disabled."
+msgstr "مستوى التتبع عند ضبطه على **\"0\"** وهو الافتراضي لا يجمع أي تتبعات، مما يعني أنه معطل."
+
+#: ../../chapter03.rst:707
+msgid "Trace Level 1 – error will collect all the error traces."
+msgstr "مستوى التتبع 1 – الخطأ سيجمع كل سجلات الأخطاء."
+
+#: ../../chapter03.rst:709
+msgid "Trace Level 2 – warning will collect warning traces along with errors."
+msgstr "مستوى التتبع 2 – التحذير سيجمع سجلات التحذير بالإضافة إلى الأخطاء."
+
+#: ../../chapter03.rst:711
+msgid ""
+"Trace Level 3 – info will collect errors, warnings, as well as info "
+"traces."
+msgstr "مستوى التتبع 3 – سيجمع المعلومات الخاطئة والتحذيرات، بالإضافة إلى أثر المعلومات."
+
+#: ../../chapter03.rst:713
+msgid ""
+"Trace Level 100 – verbose helps developers to collect detailed traces "
+"which helps them when debugging issues."
+msgstr "مستوى التتبع 100 - يساعد الوضوح المطورين على جمع تتبعات مفصلة تساعدهم أثناء تصحيح الأخطاء."
+
+#: ../../chapter03.rst:716
+msgid ""
+"When it is necessary to collect DebugView trace for debugging purpose, "
+"the Trace Level typically is set to 101."
+msgstr "عندما يكون من الضروري جمع أثر DebugView لأغراض التصحيح، يتم عادةً تعيين مستوى الأثر إلى 101."
+
+#: ../../chapter03.rst:721
+msgid "SETTINGS MANAGER - TRACE"
+msgstr "مدير الإعدادات - التتبع"
+

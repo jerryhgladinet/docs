@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:3
+msgid "5 Settings"
+msgstr "5 Asetukset"
+
+#: ../../chapter05.rst:5
+msgid ""
+"To access the Client Settings, click the Client Icon on the top-right of "
+"your Mac Desktop. This will open the Cloud Settings Panel. Clicking the "
+"**Console (1)** icon will open the \"Client Management Console\" window "
+"where the user can configure additional settings. In the Console window, "
+"click the drop-down menu **(2)** and choose **\"Settings\" (3)**."
+msgstr "Päästäksesi asiakasasetuksiin, napsauta asiakasikonia Mac-työpöydän oikeasta yläkulmasta. Tämä avaa pilviasetusten paneelin. Napsauttamalla **Console (1)** -ikonia avautuu \"Asiakashallintakonsoli\"-ikkuna, jossa käyttäjä voi määrittää lisäasetuksia. Konsoli-ikkunassa napsauta avattavaa valikkoa **(2)** ja valitse **\"Asetukset\" (3)**."
+
+#: ../../chapter05.rst:9
+msgid ""
+"There are many settings in this panel. Here are some specifically for the"
+" Mac Client."
+msgstr "Tässä paneelissa on monia asetuksia. Tässä on joitakin erityisesti Mac-asiakasohjelmaa varten."
+
+#: ../../chapter05.rst:11
+msgid ""
+"**Start Mac client automatically** - When this option is checked the user"
+" will be automatically authenticated to the cloud volume upon system "
+"restarts."
+msgstr "**Käynnistä Mac-asiakasohjelma automaattisesti** - Kun tämä vaihtoehto on valittuna, käyttäjä todennetaan automaattisesti pilvitallennustilaan järjestelmän uudelleenkäynnistyksen yhteydessä."
+
+#: ../../chapter05.rst:13
+msgid ""
+"**Do not show Mac Client sync status pop up dialog** - There will be "
+"times when users do not want to see the sync progress windows which can "
+"be suppressed by selecting this opt ion."
+msgstr "**Älä näytä Mac-asiakasohjelman synkronointitilan ponnahdusikkunaa** - On tilanteita, kun käyttäjät eivät halua nähdä synkronointiedistymisen ikkunoita, mikä voidaan estää valitsemalla tämä vaihtoehto."
+
+#: ../../chapter05.rst:19
+msgid "6 Third-Party Open Source Component"
+msgstr "6 Kolmannen osapuolen avoimen lähdekoodin komponentti"
+
+#: ../../chapter05.rst:21
+msgid "The Mac client agent has OSXFUSE component from https://github.com/osxfuse"
+msgstr "Mac-asiakasagentti sisältää OSXFUSE-komponentin osoitteesta https://github.com/osxfuse"
+
+#: ../../chapter05.rst:23
+msgid "Please review the osxfuse license.txt here"
+msgstr "Ole hyvä ja tarkista osxfuse-lisenssi.txt täältä"
+
+#: ../../chapter05.rst:25
+msgid "https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt"
+msgstr "https://github.com/osxfuse/osxfuse/blob/master/LICENSE.txt"
+

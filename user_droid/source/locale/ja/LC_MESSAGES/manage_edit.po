@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../manage_edit.rst:2
+msgid "Manage and Edit"
+msgstr "管理と編集"
+
+#: ../../manage_edit.rst:6
+msgid "Managing Files and Folders"
+msgstr "ファイルとフォルダの管理"
+
+#: ../../manage_edit.rst:8
+msgid ""
+"User can tap on a folder to open it for browsing and on a file to preview"
+" it."
+msgstr "ユーザーはフォルダをタップしてブラウジングを開始し、ファイルをタップしてプレビューできます。"
+
+#: ../../manage_edit.rst:10
+msgid ""
+"Various operations can be performed in the menus, in the main list of "
+"files and folders, and in the preview itself."
+msgstr "メニュー、ファイルやフォルダのメインリスト、プレビュー自体で様々な操作が実行できます。"
+
+#: ../../manage_edit.rst:14
+msgid "Preview"
+msgstr "プレビュー"
+
+#: ../../manage_edit.rst:16
+msgid ""
+"In the preview there is a 3-dot menu in the lower right corner that "
+"allows to perform some actions for the file."
+msgstr "プレビューには、右下隅に3点メニューがあり、ファイルに対していくつかのアクションを実行できます。"
+
+#: ../../manage_edit.rst:20
+msgid "**Open** the file in other applications."
+msgstr "**他のアプリケーションで** ファイルを開く。"
+
+#: ../../manage_edit.rst:22
+msgid "**Download** a copy of the file to a folder on the device."
+msgstr "**ダウンロード** デバイス上のフォルダにファイルのコピーを保存します。"
+
+#: ../../manage_edit.rst:24
+msgid "**Rename** allows to rename the file if user have the permission to do so."
+msgstr "**名前の変更** は、ユーザーが許可を持っている場合にファイルの名前を変更することを可能にします。"
+
+#: ../../manage_edit.rst:26
+msgid "**Delete** files from the folder if user have the permission."
+msgstr "**削除** フォルダからファイルを削除する場合は、ユーザーにはその権限が必要です。"
+
+#: ../../manage_edit.rst:28
+msgid ""
+"**Share** allows to send access information to people with an email "
+"address."
+msgstr "**共有** では、メールアドレスを持つ人々にアクセス情報を送信できます。"
+
+#: ../../manage_edit.rst:30
+msgid ""
+"**Share Via** let the user share the file with a third-party application."
+" For example, by email or WhatsApp."
+msgstr "**Share Via** は、ユーザーがサードパーティアプリケーションとファイルを共有できるようにします。例えば、メールやWhatsAppを通じて。"
+
+#: ../../manage_edit.rst:32
+msgid ""
+"**Get Public Link** gives user a link that anyone can use to access the "
+"file."
+msgstr "**公開リンクを取得** は、誰でもファイルにアクセスできるリンクをユーザーに提供します。"
+
+#: ../../manage_edit.rst:34
+msgid ""
+"**Share Manager** gives access to all the shares that exist for the file,"
+" where user can modify, delete, or add new shares."
+msgstr "**Share Manager** では、ファイルに存在するすべての共有にアクセスでき、ユーザーは共有の変更、削除、または新しい共有の追加ができます。"
+
+#: ../../manage_edit.rst:37
+msgid "Download"
+msgstr "ダウンロード"
+
+#: ../../manage_edit.rst:39
+msgid ""
+"A file can be downloaded using the **Download** option. Select Download "
+"from the context menu to download a file and select a folder from the "
+"phone storage of user's choice."
+msgstr "ファイルは、**ダウンロード** オプションを使用してダウンロードできます。コンテキストメニューからダウンロードを選択し、ユーザーの選択した電話のストレージからフォルダを選択してください。"
+
+#: ../../manage_edit.rst:47
+msgid "Delete"
+msgstr "削除"
+
+#: ../../manage_edit.rst:49
+msgid ""
+"A file can be deleted using the **Delete** option. Select it from the "
+"context menu to delete a file. Once the file is removed, it is no longer "
+"visible in the cloud drive."
+msgstr "ファイルは、**削除** オプションを使用して削除できます。コンテキストメニューからそれを選択してファイルを削除します。ファイルが削除されると、クラウドドライブではもう表示されません。"
+
+#: ../../manage_edit.rst:54
+msgid "Rename"
+msgstr "名前の変更"
+
+#: ../../manage_edit.rst:56
+msgid ""
+"User can rename a file or folder using the **Rename** option. When "
+"pressing **Rename**, a field appears where user can enter the new name."
+msgstr "ユーザーは **名前の変更** オプションを使用してファイルまたはフォルダの名前を変更できます。**名前の変更** を押すと、新しい名前を入力できるフィールドが表示されます。"
+
+#: ../../manage_edit.rst:61
+msgid "Copy and Cut"
+msgstr "コピーとカット"
+
+#: ../../manage_edit.rst:63
+msgid ""
+"The **Copy** option lets user copy a file and paste it into another "
+"folder of choice. The **Cut** option allows to remove a file from a "
+"certain folder and paste it into another."
+msgstr "**コピー** オプションでは、ユーザーがファイルをコピーして選択した別のフォルダに貼り付けることができます。**カット** オプションでは、特定のフォルダからファイルを削除して別のフォルダに貼り付けることができます。"
+
+#: ../../manage_edit.rst:69
+msgid "More Info"
+msgstr "詳細情報"
+
+#: ../../manage_edit.rst:71
+msgid ""
+"The **More Info** option allows to view the details of the file which are"
+" working on or viewing."
+msgstr "**詳細情報** オプションでは、作業中または閲覧中のファイルの詳細を表示できます。"
+
+#: ../../manage_edit.rst:79
+msgid "Marking As Favorite"
+msgstr "お気に入りとしてマーク"
+
+#: ../../manage_edit.rst:82
+msgid "Adding to Favorite"
+msgstr "お気に入りに追加"
+
+#: ../../manage_edit.rst:84
+msgid ""
+"User can add a file to the Favorites by pressing the **Star** icon. When "
+"adding a folder or a file to the Favorites, it will be marked with a "
+"green checkmark and will be accessible offline."
+msgstr "ユーザーは、**Star** アイコンを押すことでファイルをお気に入りに追加できます。フォルダやファイルをお気に入りに追加すると、緑のチェックマークが付けられ、オフラインでもアクセス可能になります。"
+
+#: ../../manage_edit.rst:90
+msgid "Open Favorite Files"
+msgstr "お気に入りファイルを開く"
+
+#: ../../manage_edit.rst:92
+msgid ""
+"To open files from offline favorites, tap on the hamburger menu at the "
+"top left and select **Favorites**."
+msgstr "オフラインのお気に入りからファイルを開くには、左上のハンバーガーメニューをタップして **お気に入り** を選択します。"
+
+#: ../../manage_edit.rst:96
+msgid ""
+"In the **Offline Favorites** view, open a file by pressing the 3-dot "
+"button and selecting **Open File Locally**."
+msgstr "「 **オフラインファボリット** 」ビューで、3点ボタンを押して「 **ローカルでファイルを開く** 」を選択してファイルを開きます。"
+
+#: ../../manage_edit.rst:100
+msgid ""
+"After selecting the option, a list of applications that can open the file"
+" will be displayed."
+msgstr "オプションを選択すると、ファイルを開くことができるアプリケーションのリストが表示されます。"
+
+#: ../../manage_edit.rst:105
+msgid "Remove from Favorite"
+msgstr "お気に入りから削除"
+
+#: ../../manage_edit.rst:107
+msgid ""
+"To remove files from offline favorites, user can touch the yellow "
+"**Star** icon directly in the folders."
+msgstr "オフラインお気に入りからファイルを削除するには、ユーザーはフォルダ内の黄色い **Star** アイコンに直接触れることができます。"
+
+#: ../../manage_edit.rst:111
+msgid "Or press the hamburger menu at the top left and select **Favorites**."
+msgstr "または、左上のハンバーガーメニューを押して、**お気に入り** を選択します。"
+
+#: ../../manage_edit.rst:115
+msgid ""
+"In the **Offline Favorites** view, user can remove files by pressing the "
+"3-dot button. Once the file is removed, it is no longer available "
+"offline."
+msgstr "**オフラインファボリット** ビューでは、ユーザーは3ドットボタンを押してファイルを削除できます。ファイルが削除されると、オフラインで利用できなくなります。"
+

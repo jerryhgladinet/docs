@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter4.rst:3
+msgid "Folder and File Features"
+msgstr "Funktioner för mappar och filer"
+
+#: ../../chapter4.rst:5
+msgid ""
+"When you right-click on a folder or a file you will see the context menu."
+" Use this menu to perform various actions on the file."
+msgstr "När du högerklickar på en mapp eller en fil kommer du att se snabbmenyn. Använd denna meny för att utföra olika åtgärder på filen."
+
+#: ../../chapter4.rst:8
+msgid "Cloud Drive Context Menus"
+msgstr "Kontextmenyer för molndisk"
+
+#: ../../chapter4.rst:10
+msgid ""
+"The context menu will vary depending on what you right-click on. For "
+"instance, in the image below you see three variants of the context menu."
+msgstr "Kontextmenyn kommer att variera beroende på vad du högerklickar på. Till exempel ser du tre varianter av kontextmenyn i bilden nedan."
+
+#: ../../chapter4.rst:15
+msgid "CLOUD DRIVE CONTEXT MENU"
+msgstr "KONTEXTMENY FÖR MOLNLAGRING"
+
+#: ../../chapter4.rst:18
+msgid "Context Menu for Files"
+msgstr "Kontextmeny för filer"
+
+#: ../../chapter4.rst:21 ../../chapter4.rst:42
+msgid "**Share...**"
+msgstr "**Dela...**"
+
+#: ../../chapter4.rst:21
+msgid ""
+"This is to share out the file with anyone by email. Multiple emails can "
+"be added at the same time by seperating them with a \";\"."
+msgstr "Detta är för att dela ut filen med vem som helst via e-post. Flera e-postadresser kan läggas till samtidigt genom att separera dem med ett \";\"."
+
+#: ../../chapter4.rst:24
+msgid "**Get Share Link (Read Only): <filename>**"
+msgstr "**Få delningslänk (endast läs): <filename>**"
+
+#: ../../chapter4.rst:24
+msgid ""
+"This is to get a read-only web link to the file. This option allows you "
+"to share a file as a public (Read Only) link. Anyone with the link can "
+"access this file. Click this option to copy the public link to your "
+"clipboard. Once you click \"Ok\", you can paste that link anywhere (e.g.,"
+" email, social media)."
+msgstr "Detta är för att få en skrivskyddad webblänk till filen. Detta alternativ låter dig dela en fil som en offentlig (endast läs) länk. Vem som helst med länken kan komma åt denna fil. Klicka på detta alternativ för att kopiera den offentliga länken till ditt urklipp. När du klickar på \"Ok\" kan du klistra in den länken var som helst (t.ex. e-post, sociala medier)."
+
+#: ../../chapter4.rst:27
+msgid "**Manage Revisions**"
+msgstr "**Hantera revisioner**"
+
+#: ../../chapter4.rst:27
+msgid ""
+"This option will open a web browser where you get access to the Web "
+"Portal version manager for the file."
+msgstr "Detta alternativ öppnar en webbläsare där du får tillgång till webbportalens versionshanterare för filen."
+
+#: ../../chapter4.rst:30
+msgid "**Check Out (Lock) <filename>**"
+msgstr "**Kontrollera ut (Lås) <filename>**"
+
+#: ../../chapter4.rst:30
+msgid ""
+"This option is to manually check out file. All changes to the file will "
+"remain local until it is Checked In."
+msgstr "Det här alternativet är för att manuellt checka ut filen. Alla ändringar i filen förblir lokala tills den checkas in."
+
+#: ../../chapter4.rst:33 ../../chapter4.rst:54
+msgid "**Force refresh**"
+msgstr "**Tvinga uppdatering**"
+
+#: ../../chapter4.rst:33 ../../chapter4.rst:54
+msgid "Click this to synchronize the web portal with your local folder."
+msgstr "Klicka på detta för att synkronisera webbportalen med din lokala mapp."
+
+#: ../../chapter4.rst:36
+msgid "Context Menu for Folders"
+msgstr "Kontextmeny för mappar"
+
+#: ../../chapter4.rst:39
+msgid "**Request a file**"
+msgstr "**Begär en fil**"
+
+#: ../../chapter4.rst:39
+msgid ""
+"This is to share out a folder link to a user and request the user to "
+"upload a file. You can request a file from multiple emails at once by "
+"using a \";\" to seperate them. This upload link can be set to expire in "
+"a certain amount of time or never."
+msgstr "Detta är för att dela en mapp-länk till en användare och be användaren att ladda upp en fil. Du kan begära en fil från flera e-postadresser samtidigt genom att använda ett \";\" för att separera dem. Denna uppladdningslänk kan ställas in på att löpa ut efter en viss tid eller aldrig."
+
+#: ../../chapter4.rst:42
+msgid ""
+"This is to share out the folder with anyone by email. Multiple emails can"
+" be added at the same time by seperating them with a \";\"."
+msgstr "Detta är för att dela ut mappen med vem som helst via e-post. Flera e-postadresser kan läggas till samtidigt genom att separera dem med ett \";\"."
+
+#: ../../chapter4.rst:45
+msgid "**Get Share Link (Read Only): <foldername>**"
+msgstr "**Få delningslänk (endast läs): <foldername>**"
+
+#: ../../chapter4.rst:45
+msgid ""
+"This is to get a read-only web link to the folder. This option allows you"
+" to share a folder as a public (Read Only) link. Anyone with the link can"
+" access this folder. Click this option to copy the public link to your "
+"clipboard. Once you click Ok, you can paste that link anywhere (e.g., "
+"email, social media)."
+msgstr "Detta är för att få en skrivskyddad webblänk till mappen. Det här alternativet låter dig dela en mapp som en offentlig (Skrivskyddad) länk. Alla som har länken kan komma åt denna mapp. Klicka på detta alternativ för att kopiera den offentliga länken till ditt urklipp. När du klickar på Ok kan du klistra in den länken var som helst (t.ex. e-post, sociala medier)."
+
+#: ../../chapter4.rst:48
+msgid "**Enable/Disable Offline Access**"
+msgstr "**Aktivera/Inaktivera offlineåtkomst**"
+
+#: ../../chapter4.rst:48
+msgid ""
+"This is to enable offline access to the folder so the folder content can "
+"be pre-fetched."
+msgstr "Detta är för att möjliggöra offline-åtkomst till mappen så att mappinnehållet kan förhämtas."
+
+#: ../../chapter4.rst:51
+msgid "**Open in Web Browser**"
+msgstr "**Öppna i webbläsare**"
+
+#: ../../chapter4.rst:51
+msgid "Opens a web browser and take you to that file in the Web Portal."
+msgstr "Öppnar en webbläsare och tar dig till den filen i webbportalen."
+

@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:52-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../manage_edit.rst:2
+msgid "Manage and Edit"
+msgstr ""
+
+#: ../manage_edit.rst:6
+msgid "Managing Files and Folders"
+msgstr ""
+
+#: ../manage_edit.rst:8
+msgid "User can tap on a folder to open it for browsing and on a file to preview it."
+msgstr ""
+
+#: ../manage_edit.rst:10
+msgid "Various operations can be performed in the menus, in the main list of files and folders, and in the preview itself."
+msgstr ""
+
+#: ../manage_edit.rst:14
+msgid "Preview"
+msgstr ""
+
+#: ../manage_edit.rst:16
+msgid "In the preview there is a 3-dot menu in the lower right corner that allows to perform some actions for the file."
+msgstr ""
+
+#: ../manage_edit.rst:20
+msgid "**Open** the file in other applications."
+msgstr ""
+
+#: ../manage_edit.rst:22
+msgid "**Download** a copy of the file to a folder on the device."
+msgstr ""
+
+#: ../manage_edit.rst:24
+msgid "**Rename** allows to rename the file if user have the permission to do so."
+msgstr ""
+
+#: ../manage_edit.rst:26
+msgid "**Delete** files from the folder if user have the permission."
+msgstr ""
+
+#: ../manage_edit.rst:28
+msgid "**Share** allows to send access information to people with an email address."
+msgstr ""
+
+#: ../manage_edit.rst:30
+msgid "**Share Via** let the user share the file with a third-party application. For example, by email or WhatsApp."
+msgstr ""
+
+#: ../manage_edit.rst:32
+msgid "**Get Public Link** gives user a link that anyone can use to access the file."
+msgstr ""
+
+#: ../manage_edit.rst:34
+msgid "**Share Manager** gives access to all the shares that exist for the file, where user can modify, delete, or add new shares."
+msgstr ""
+
+#: ../manage_edit.rst:37
+msgid "Download"
+msgstr ""
+
+#: ../manage_edit.rst:39
+msgid "A file can be downloaded using the **Download** option. Select Download from the context menu to download a file and select a folder from the phone storage of user's choice."
+msgstr ""
+
+#: ../manage_edit.rst:47
+msgid "Delete"
+msgstr ""
+
+#: ../manage_edit.rst:49
+msgid "A file can be deleted using the **Delete** option. Select it from the context menu to delete a file. Once the file is removed, it is no longer visible in the cloud drive."
+msgstr ""
+
+#: ../manage_edit.rst:54
+msgid "Rename"
+msgstr ""
+
+#: ../manage_edit.rst:56
+msgid "User can rename a file or folder using the **Rename** option. When pressing **Rename**, a field appears where user can enter the new name."
+msgstr ""
+
+#: ../manage_edit.rst:61
+msgid "Copy and Cut"
+msgstr ""
+
+#: ../manage_edit.rst:63
+msgid "The **Copy** option lets user copy a file and paste it into another folder of choice. The **Cut** option allows to remove a file from a certain folder and paste it into another."
+msgstr ""
+
+#: ../manage_edit.rst:69
+msgid "More Info"
+msgstr ""
+
+#: ../manage_edit.rst:71
+msgid "The **More Info** option allows to view the details of the file which are working on or viewing."
+msgstr ""
+
+#: ../manage_edit.rst:79
+msgid "Marking As Favorite"
+msgstr ""
+
+#: ../manage_edit.rst:82
+msgid "Adding to Favorite"
+msgstr ""
+
+#: ../manage_edit.rst:84
+msgid "User can add a file to the Favorites by pressing the **Star** icon. When adding a folder or a file to the Favorites, it will be marked with a green checkmark and will be accessible offline."
+msgstr ""
+
+#: ../manage_edit.rst:90
+msgid "Open Favorite Files"
+msgstr ""
+
+#: ../manage_edit.rst:92
+msgid "To open files from offline favorites, tap on the hamburger menu at the top left and select **Favorites**."
+msgstr ""
+
+#: ../manage_edit.rst:96
+msgid "In the **Offline Favorites** view, open a file by pressing the 3-dot button and selecting **Open File Locally**."
+msgstr ""
+
+#: ../manage_edit.rst:100
+msgid "After selecting the option, a list of applications that can open the file will be displayed."
+msgstr ""
+
+#: ../manage_edit.rst:105
+msgid "Remove from Favorite"
+msgstr ""
+
+#: ../manage_edit.rst:107
+msgid "To remove files from offline favorites, user can touch the yellow **Star** icon directly in the folders."
+msgstr ""
+
+#: ../manage_edit.rst:111
+msgid "Or press the hamburger menu at the top left and select **Favorites**."
+msgstr ""
+
+#: ../manage_edit.rst:115
+msgid "In the **Offline Favorites** view, user can remove files by pressing the 3-dot button. Once the file is removed, it is no longer available offline."
+msgstr ""

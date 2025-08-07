@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "File Browser"
+msgstr "متصفح الملفات"
+
+#: ../../chapter6.rst:5
+msgid ""
+"After you log in to the web portal, the file and folder view **(1)** will"
+" show important settings and features that can be accessed by clicking "
+"the icons in the top right **(2)**. The small down arrow icon **(3)** "
+"allows you to choose different icon sizes or switch to a detailed list "
+"view, which gives you access to more information about the files **(4)**,"
+" such as versions."
+msgstr "بعد تسجيل الدخول إلى البوابة الإلكترونية، ستعرض واجهة الملفات والمجلدات **(1)** إعدادات وميزات مهمة يمكن الوصول إليها بالنقر على الأيقونات الموجودة في الزاوية العلوية اليمنى **(2)**. أيقونة السهم الصغير لأسفل **(3)** تتيح لك اختيار أحجام أيقونات مختلفة أو الانتقال إلى عرض قائمة تفصيلية، مما يمنحك الوصول إلى مزيد من المعلومات حول الملفات **(4)** ، مثل الإصدارات."
+
+#: ../../chapter6.rst:11
+msgid "IMPORTANT SETTINGS AND FEATURES"
+msgstr "إعدادات وميزات هامة"
+
+#: ../../chapter6.rst:13
+msgid ""
+"The small user icon **(5)** gives you access to template settings, "
+"connected devices, guest users, notifications storage information, "
+"feedback, and client download options. You can also change your password "
+"or logout."
+msgstr "يمنحك أيقونة المستخدم الصغيرة **(5)** الوصول إلى إعدادات القالب، والأجهزة المتصلة، والمستخدمين الضيوف، ومعلومات التخزين، والتعليقات، وخيارات تنزيل العميل. يمكنك أيضًا تغيير كلمة المرور الخاصة بك أو تسجيل الخروج."
+
+#: ../../chapter6.rst:18
+msgid "TEMPLATE, DOWNLOAD AND OTHER SETTINGS"
+msgstr "قالب، تحميل وإعدادات أخرى"
+
+#: ../../chapter6.rst:20
+msgid ""
+"The question icon **(6)** takes you to the Web Portal Tutorial. The "
+"stacked bar icon **(7)** is for access to the Cluster Manager. The person"
+" icon **(8)** opens the user settings menu."
+msgstr "أيقونة السؤال **(6)** تأخذك إلى البرنامج التعليمي للبوابة الإلكترونية. أيقونة الشريط المكدس **(7)** هي للوصول إلى مدير العنقود. أيقونة الشخص **(8)** تفتح قائمة إعدادات المستخدم."
+
+#: ../../chapter6.rst:25
+msgid "SETTINGS AND ICONS"
+msgstr "الإعدادات والأيقونات"
+
+#: ../../chapter6.rst:27
+msgid ""
+"The icon with the encircled \"i\" **(9)** opens up an additional panel "
+"for additional information and options, including sharing, downloading, "
+"and revision history. The icon with squares **(10)** allows you to change"
+" how the files are displayed. The three stacked dots **(11)** opens a "
+"menu for more options in the file manager."
+msgstr "الرمز الذي يحتوي على حرف \"i\" داخل دائرة **(9)** يفتح لوحة إضافية لمعلومات وخيارات إضافية، بما في ذلك المشاركة والتنزيل وسجل المراجعات. الرمز الذي يحتوي على مربعات **(10)** يتيح لك تغيير طريقة عرض الملفات. النقاط الثلاث المتراصة **(11)** تفتح قائمة لمزيد من الخيارات في مدير الملفات."
+

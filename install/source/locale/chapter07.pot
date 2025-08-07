@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:55-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../chapter07.rst:3
+msgid "Setup Worker Node for SSL"
+msgstr ""
+
+#: ../chapter07.rst:5
+msgid "Login to the Web Portal as the Cluster Administrator, go to \"Cluster Dashboard\", and click on \"Worker Note Count\"."
+msgstr ""
+
+#: ../chapter07.rst:9
+msgid "then you can see \"Cluster Worker Nodes\"."
+msgstr ""
+
+#: ../chapter07.rst:13
+msgid "There is an \"Advanced Setting\" icon on the page."
+msgstr ""
+
+#: ../chapter07.rst:17
+msgid "Now, check **\"Always force SSL on Login\"** and **\"Always force SSL for Native Clients\"** boxes."
+msgstr ""
+
+#: ../chapter07.rst:21
+msgid "If you use the self-signed SSL certificate, the web portal is the only client that allows you to login after some SSL certificate warning. All other native clients such as Windows, mobile, and Mac clients will reject the connection."
+msgstr ""
+
+#: ../chapter07.rst:23
+msgid "You can also modify the node property for the node."
+msgstr ""
+
+#: ../chapter07.rst:27
+msgid "The Node Name needs to match the hostname of the node. You can get the hostname of the node by going into Command Prompt(Press Windows+R and then type in cmd) and typing in hostname."
+msgstr ""
+
+#: ../chapter07.rst:31
+msgid "The External URL should match the external URL for HTTPS. (If you do not have a SSL certificate installed yet, this can be HTTP for now)."
+msgstr ""
+
+#: ../chapter07.rst:35
+msgid "The Internal URL will need to match the internal IP address or node's private DNS name and the HTTP or HTTPS protocol."
+msgstr ""

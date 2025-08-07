@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Upgrade CentreStack"
+msgstr "Centro de Actualización CentreStack"
+
+#: ../../chapter11.rst:5
+msgid ""
+"We publish updated notes to our public blog forum called `CentreStack "
+"Blog`_. It is recommended that you perform an update if your self-hosted "
+"CentreStack and clients are three months or older."
+msgstr "Publicamos notas actualizadas en nuestro foro de blog público llamado `CentreStack Blog`_. Se recomienda realizar una actualización si su CentreStack autoalojado y los clientes tienen tres meses o más."
+
+#: ../../chapter11.rst:8
+msgid "Using the GUI Installer to Upgrade"
+msgstr "Usando el Instalador GUI para Actualizar"
+
+#: ../../chapter11.rst:10
+msgid ""
+"To install an update go to your `Partner Portal`_ (Self-Hosted "
+"CentreStack -> Download) and download the GUI installer."
+msgstr "Para instalar una actualización, vaya a su `Portal de Socios`_ (Centro de Autoalojamiento de CentreStack -> Descargar) y descargue el instalador GUI."
+
+#: ../../chapter11.rst:14
+msgid ""
+"When you run the GUI installer, it will detect the existing installation "
+"and perform an upgrade."
+msgstr "Cuando ejecute el instalador GUI, detectará la instalación existente y realizará una actualización."
+

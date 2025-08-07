@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter09.rst:2
+msgid "Backup CentreStack"
+msgstr "Centro di Backup CentreStack"
+
+#: ../../chapter09.rst:5
+msgid "Database"
+msgstr "Database"
+
+#: ../../chapter09.rst:7
+msgid ""
+"Only the CentreStack database contains persistent configuration "
+"information. All other components are stateless and replaceable. In a "
+"disaster recovery scenario, as soon as the SQL Server is restored, other "
+"worker nodes can be re-installed and will start working immediately. You "
+"can also point the worker node's database reference to the new SQL "
+"Server; it will work immediately with the information from the database."
+msgstr "Solo il database di CentreStack contiene informazioni di configurazione persistenti. Tutti gli altri componenti sono senza stato e sostituibili. In uno scenario di disaster recovery, non appena il SQL Server viene ripristinato, altri nodi worker possono essere reinstallati e inizieranno a lavorare immediatamente. È possibile anche indirizzare il riferimento al database del nodo worker verso il nuovo SQL Server; funzionerà immediatamente con le informazioni provenienti dal database."
+
+#: ../../chapter09.rst:14
+msgid ""
+"The worker nodes are stateless so it is not required to backup any worker"
+" nodes. They can be provisioned by a clean OS with a copy of CentreStack."
+" As soon as they are connected to the same database they become a node in"
+" the cluster."
+msgstr "I nodi worker sono senza stato, quindi non è necessario eseguire il backup di alcun nodo worker. Possono essere provisionati da un sistema operativo pulito con una copia di CentreStack. Non appena si connettono allo stesso database diventano un nodo nel cluster."
+
+#: ../../chapter09.rst:19
+msgid "Storage (Files and Folders)"
+msgstr "Archiviazione (File e Cartelle)"
+
+#: ../../chapter09.rst:21
+msgid ""
+"You will also need to back up your storage services. Most of the time, if"
+" you are using Cloud Storage services such as Amazon S3 or OpenStack "
+"Swift, the service has built-in redundancy. For local storage, DFS "
+"replication, RAID array or Microsoft Storage Space can all be options to "
+"provide storage service redundancy."
+msgstr "Dovrete anche eseguire il backup dei vostri servizi di archiviazione. La maggior parte delle volte, se utilizzate servizi di Cloud Storage come Amazon S3 o OpenStack Swift, il servizio ha una ridondanza integrata. Per l'archiviazione locale, la replicazione DFS, l'array RAID o lo Spazio di Archiviazione Microsoft possono essere tutte opzioni per fornire ridondanza del servizio di archiviazione."
+

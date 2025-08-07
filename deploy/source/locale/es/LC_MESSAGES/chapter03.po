@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:2
+msgid "Terminology"
+msgstr ""
+
+#: ../../chapter03.rst:5
+msgid "CentreStack Partner Portal"
+msgstr "Portal de Socios de CentreStack"
+
+#: ../../chapter03.rst:7
+msgid ""
+"The Partner Portal can be found by going to http://www.centrestack.com. "
+"Click on \"Partner\" to sign up for your partner account log in "
+"credentials, and then you can log into your partner account at anytime. "
+"From the Partner Portal, You are able to download the CentreStack "
+"software and can start the trial process. Later, you can acquire licenses"
+" to turn the trial into a production environment."
+msgstr "El Portal de Socios se puede encontrar visitando http://www.centrestack.com. Haga clic en \"Socio\" para registrarse y obtener sus credenciales de inicio de sesión de cuenta de socio, y luego podrá iniciar sesión en su cuenta de socio en cualquier momento. Desde el Portal de Socios, puede descargar el software de CentreStack y comenzar el proceso de prueba. Más tarde, puede adquirir licencias para convertir la prueba en un entorno de producción."
+
+#: ../../chapter03.rst:13
+msgid "You can manage hosted-tenants from the partner portal."
+msgstr "Puede gestionar inquilinos alojados desde el portal de socios."
+
+#: ../../chapter03.rst:15
+msgid ""
+"You can also come back to the partner portal any time that your "
+"CentreStack software needs to be upgraded to a later version."
+msgstr "También puede volver al portal de socios en cualquier momento que su software CentreStack necesite actualizarse a una versión posterior."
+
+#: ../../chapter03.rst:19
+msgid "CentreStack Cluster - Server Farm"
+msgstr "Centro de Cluster de CentreStack - Granja de Servidores"
+
+#: ../../chapter03.rst:21
+msgid ""
+"Multiple CentreStack single-machine nodes connect together by pointing to"
+" the same database and then share the same configuration information from"
+" the database so that CentreStack can indirectly share the persistent "
+"storage location in a symmetrical way."
+msgstr "Varios nodos de una sola máquina de CentreStack se conectan entre sí al apuntar a la misma base de datos y luego comparten la misma información de configuración de la base de datos para que CentreStack pueda compartir indirectamente la ubicación de almacenamiento persistente de manera simétrica."
+
+#: ../../chapter03.rst:23
+msgid ""
+"Indirectly, the database contains storage related information so all the "
+"nodes in the server farm share storage related configuration."
+msgstr "Indirectamente, la base de datos contiene información relacionada con el almacenamiento, por lo que todos los nodos en el conjunto de servidores comparten la configuración relacionada con el almacenamiento."
+
+#: ../../chapter03.rst:26
+msgid ""
+"The whole CentreStack cluster operates as if it is a single entity. The "
+"smallest cluster is a single CentreStack worker node, which contains all "
+"the functionality and different logical nodes together."
+msgstr "Todo el clúster de CentreStack opera como si fuera una única entidad. El clúster más pequeño es un solo nodo trabajador de CentreStack, que contiene toda la funcionalidad y los diferentes nodos lógicos juntos."
+
+#: ../../chapter03.rst:29
+msgid "Another term for the cluster is the **CentreStack server farm**."
+msgstr "Otro término para el clúster es la **granja de servidores de CentreStack**."
+
+#: ../../chapter03.rst:33
+msgid "The smallest cluster can be a single all-in-one worker node."
+msgstr "El clúster más pequeño puede ser un único nodo trabajador todo en uno."
+
+#: ../../chapter03.rst:36
+msgid "Master Admin/Cluster Admin"
+msgstr "Administrador Maestro/Administrador de Clúster"
+
+#: ../../chapter03.rst:38
+msgid ""
+"In this guide, we refer to the admin user as the user that manages the "
+"whole CentreStack server farm. The server farm can be as small as a "
+"single CentreStack server. If so, the admin user will still need to "
+"manage it regardless of the size of the server farm."
+msgstr "En esta guía, nos referimos al usuario administrador como el usuario que gestiona toda la granja de servidores de CentreStack. La granja de servidores puede ser tan pequeña como un único servidor de CentreStack. Si es así, el usuario administrador aún necesitará gestionarlo independientemente del tamaño de la granja de servidores."
+
+#: ../../chapter03.rst:43
+msgid ""
+"The Master Admin is the very first user on the CentreStack server farm. "
+"Typically, it is the user who installs the CentreStack server software."
+msgstr "El Administrador Maestro es el primer usuario en la granja de servidores de CentreStack. Típicamente, es el usuario que instala el software del servidor CentreStack."
+
+#: ../../chapter03.rst:46
+msgid ""
+"Since this user later may set up optional Active Directory connections, "
+"it is recommended that this user's email address is not from the same "
+"Active Directory to avoid circular dependency."
+msgstr "Dado que este usuario podría configurar conexiones opcionales de Active Directory más adelante, se recomienda que la dirección de correo electrónico de este usuario no sea del mismo Active Directory para evitar dependencias circulares."
+
+#: ../../chapter03.rst:50
+msgid "Tenant"
+msgstr "Inquilino"
+
+#: ../../chapter03.rst:52
+msgid ""
+"CentreStack is a multi-tenant ready solution. A tenant here usually is "
+"mapped to:"
+msgstr "CentreStack es una solución lista para múltiples inquilinos. Un inquilino aquí generalmente se asigna a:"
+
+#: ../../chapter03.rst:55
+msgid "a company (if you are the company IT)"
+msgstr "una empresa (si usted es el IT de la empresa)"
+
+#: ../../chapter03.rst:56
+msgid "a client of yours (if you are a Managed Service Provider/MSP)"
+msgstr "un cliente suyo (si usted es un Proveedor de Servicios Gestionados/MSP)"
+
+#: ../../chapter03.rst:58
+msgid "Tenants are created by the cluster administrator."
+msgstr "Los inquilinos son creados por el administrador del clúster."
+
+#: ../../chapter03.rst:60
+msgid ""
+"You can use the CentreStack server in a single tenant setup because it is"
+" just a special case of multi-tenancy."
+msgstr "Puede utilizar el servidor de CentreStack en una configuración de un solo inquilino porque es simplemente un caso especial de multi-inquilinidad."
+
+#: ../../chapter03.rst:64
+msgid ""
+"From a reporting perspective, a tenant contains a number of users and "
+"also storage quota and storage consumption."
+msgstr "Desde una perspectiva de informes, un inquilino contiene un número de usuarios y también cuota de almacenamiento y consumo de almacenamiento."
+
+#: ../../chapter03.rst:67
+msgid ""
+"From the technical side, a tenant is usually connected to an Active "
+"Directory and can have a bunch of connected file servers either directly "
+"or through server agents."
+msgstr "Desde el punto de vista técnico, un inquilino suele estar conectado a un Active Directory y puede tener un montón de servidores de archivos conectados directamente o a través de agentes de servidor."
+
+#: ../../chapter03.rst:71
+msgid "Tenant Admin"
+msgstr "Administrador del Inquilino"
+
+#: ../../chapter03.rst:73
+msgid ""
+"These are the users who actually use the product but are the admins for "
+"their teams (tenant or company)."
+msgstr "Estos son los usuarios que realmente utilizan el producto pero son los administradores de sus equipos (inquilino o empresa)."
+
+#: ../../chapter03.rst:75
+msgid ""
+"This is the very first tenant account user. Usually, the Tenant User is "
+"created by Master Admin."
+msgstr "Este es el primer usuario de la cuenta de inquilino. Normalmente, el Usuario del Inquilino es creado por el Administrador Maestro."
+
+#: ../../chapter03.rst:77
+msgid ""
+"The Master Admin is also the Tenant Admin for his own team/company "
+"(default tenant). Tenant admin can later delegate administrative tasks to"
+" other team users."
+msgstr "El Administrador Principal también es el Administrador del Inquilino para su propio equipo/empresa (inquilino predeterminado). El administrador del inquilino puede luego delegar tareas administrativas a otros usuarios del equipo."
+
+#: ../../chapter03.rst:79
+msgid ""
+"By default the cluster administrator can help the tenant administrator on"
+" the management scope."
+msgstr "Por defecto, el administrador del clúster puede ayudar al administrador del inquilino en el ámbito de la gestión."
+
+#: ../../chapter03.rst:82
+msgid "Tenant User"
+msgstr "Usuario del Inquilino"
+
+#: ../../chapter03.rst:84
+msgid ""
+"The tenant user (team user) is a user inside a specific Tenant.  Team "
+"users are created by the Tenant Admin (or by cluster admin on behalf of "
+"the tenant admin). Team users can come from four different places:"
+msgstr "El usuario del inquilino (usuario del equipo) es un usuario dentro de un inquilino específico. Los usuarios del equipo son creados por el Administrador del Inquilino (o por el administrador del clúster en nombre del administrador del inquilino). Los usuarios del equipo pueden provenir de cuatro lugares diferentes:"
+
+#: ../../chapter03.rst:86
+msgid "Native CentreStack User (created from scratch)"
+msgstr "Usuario Nativo de CentreStack (creado desde cero)"
+
+#: ../../chapter03.rst:87
+msgid "Active Directory User from local LDAP"
+msgstr "Usuario de Active Directory desde LDAP local"
+
+#: ../../chapter03.rst:88
+msgid "Active Directory User from remote CentreStack Server Agent"
+msgstr "Usuario de Active Directory desde un Agente de Servidor CentreStack remoto"
+
+#: ../../chapter03.rst:89
+msgid "Azure AD or other single-sign-on integrated identity provider"
+msgstr "Azure AD u otro proveedor de identidad integrado con inicio de sesión único"
+
+#: ../../chapter03.rst:91
+msgid ""
+"Team users always belong to a specific tenant and can't span multiple "
+"tenants. However, a team user can receive file and folder share from "
+"multiple users and from multiple tenants."
+msgstr "Los usuarios del equipo siempre pertenecen a un inquilino específico y no pueden abarcar varios inquilinos. Sin embargo, un usuario del equipo puede recibir archivos compartidos y carpetas de varios usuarios y de varios inquilinos."
+
+#: ../../chapter03.rst:97
+msgid ""
+"A Native CentreStack user can be mapped to Active Directory user or Azure"
+" AD user later if necessary."
+msgstr "Un usuario nativo de CentreStack puede ser mapeado a un usuario de Active Directory o Azure AD más tarde si es necesario."
+
+#: ../../chapter03.rst:101
+msgid "Guest User"
+msgstr "Usuario Invitado"
+
+#: ../../chapter03.rst:103
+msgid ""
+"The guest users are users outside of the tenant users domain but receive "
+"file or folder shares from team user. The Team user creates guest users "
+"through the file sharing or folder sharing activities. Guest users "
+"typically are external users outside of an organization that are already "
+"using CentreStack."
+msgstr "Los usuarios invitados son usuarios que están fuera del dominio de los usuarios del inquilino pero reciben comparticiones de archivos o carpetas de un usuario del equipo. El usuario del equipo crea usuarios invitados a través de las actividades de compartir archivos o carpetas. Los usuarios invitados suelen ser usuarios externos fuera de una organización que ya están utilizando CentreStack."
+
+#: ../../chapter03.rst:108
+msgid "Anonymous User"
+msgstr "Usuario Anónimo"
+
+#: ../../chapter03.rst:110
+msgid ""
+"The anonymous users are a type of the guest user that doesn't require "
+"editing permission. They can receive files and folder shares and can view"
+" the file and folder share from within a web browser user interface."
+msgstr "Los usuarios anónimos son un tipo de usuario invitado que no requiere permiso de edición. Pueden recibir archivos y carpetas compartidas y pueden ver el archivo y la carpeta compartida desde una interfaz de usuario de navegador web."
+
+#: ../../chapter03.rst:114
+msgid "Client Agent Software"
+msgstr "Software del Agente Cliente"
+
+#: ../../chapter03.rst:116
+msgid "CentreStack contains various client agents which include:"
+msgstr "CentreStack contiene varios agentes cliente que incluyen:"
+
+#: ../../chapter03.rst:118
+msgid "Web Browser Based File Manager"
+msgstr "Gestor de Archivos Basado en Navegador Web"
+
+#: ../../chapter03.rst:119
+msgid "Windows Desktop Client with Mapped Drive"
+msgstr "Cliente de Escritorio Windows con Unidad Mapeada"
+
+#: ../../chapter03.rst:120
+msgid "Windows File Server Agent with 2-way synchronization"
+msgstr "Agente de Servidor de Archivos de Windows con sincronización bidireccional"
+
+#: ../../chapter03.rst:121
+msgid "Mac OS X client and"
+msgstr "Cliente para Mac OS X y"
+
+#: ../../chapter03.rst:125
+msgid "Mobile Applications:"
+msgstr "Aplicaciones Móviles:"
+
+#: ../../chapter03.rst:123
+msgid "iOS"
+msgstr "iOS"
+
+#: ../../chapter03.rst:124
+msgid "Android"
+msgstr "Android"
+
+#: ../../chapter03.rst:125
+msgid "Windows Phone"
+msgstr "Windows Phone"
+
+#: ../../chapter03.rst:127
+msgid ""
+"These client agents provide file access and sharing features from the "
+"native client operating systems."
+msgstr "Estos agentes cliente proporcionan funciones de acceso y compartición de archivos desde los sistemas operativos cliente nativos."
+
+#: ../../chapter03.rst:130
+msgid ""
+"The discussion of the client agents are outside the scope of this "
+"deployment guide."
+msgstr "La discusión de los agentes del cliente está fuera del alcance de esta guía de implementación."
+

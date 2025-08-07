@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "البدء"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "مقدمة"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Windows Client User Guide. This guide describes"
+" client functionality for users in |prodname|."
+msgstr "مرحبًا بك في دليل مستخدم عميل |prodname| لنظام التشغيل Windows. يصف هذا الدليل وظائف العميل للمستخدمين في |prodname|."
+
+#: ../../index.rst:11
+msgid "Client Agents"
+msgstr "وكلاء العميل"
+
+#: ../../index.rst:13
+msgid ""
+"|prodname| client agents are available for Windows, Mac, iOS, Android, "
+"and Windows phones. These clients are designed to work with your "
+"|prodname| account which can be powered by any supported storage service."
+msgstr "عملاء |prodname| متاحون لأنظمة التشغيل ويندوز، ماك، آي أو إس، أندرويد، وهواتف ويندوز. هؤلاء العملاء مصممون للعمل مع حساب |prodname| الخاص بك الذي يمكن تشغيله بواسطة أي خدمة تخزين مدعومة."
+
+#: ../../index.rst:16
+msgid "Windows Client Agent"
+msgstr "وكيل عميل ويندوز"
+
+#: ../../index.rst:19
+msgid "System Requirement"
+msgstr "متطلبات النظام"
+
+#: ../../index.rst:21
+msgid "OS - Windows XP, Vista, 7/8/8.1/10"
+msgstr "نظام التشغيل - ويندوز XP، فيستا، 7/8/8.1/10"
+
+#: ../../index.rst:22
+msgid ""
+"Normally on windows server type machine such as 2025/2022/2019/2016, use "
+"server agent instead of client agent. However, the client agent can run "
+"as desktop application on Windows Server OS as well.  For example, if you"
+" plan to have the desktop agent run in a terminal server environment, you"
+" need to install desktop agent instead of server agent."
+msgstr "عادةً على أجهزة الخادم من نوع ويندوز مثل 2025/2022/2019/2016، استخدم وكيل الخادم بدلاً من وكيل العميل. ومع ذلك، يمكن أيضًا تشغيل وكيل العميل كتطبيق سطح مكتب على نظام التشغيل ويندوز سيرفر. على سبيل المثال، إذا كنت تخطط لتشغيل وكيل سطح المكتب في بيئة خادم طرفية، فأنت بحاجة إلى تثبيت وكيل سطح المكتب بدلاً من وكيل الخادم."
+
+#: ../../index.rst:24
+msgid "Hard Drive - 100MB"
+msgstr "قرص صلب - 100 ميغابايت"
+
+#: ../../index.rst:24
+msgid "50MB for the installed program"
+msgstr "50 ميغابايت للبرنامج المثبت"
+
+#: ../../index.rst:25
+msgid "at least 50MB for the operation of cache folder"
+msgstr "على الأقل 50 ميغابايت لتشغيل مجلد الذاكرة المؤقتة"
+
+#: ../../index.rst:26
+msgid "CPU - No specific requirement (Intel/AMD x86/x64)"
+msgstr "وحدة المعالجة المركزية - لا توجد متطلبات محددة (إنتل/أيه إم دي x86/x64)"
+
+#: ../../index.rst:27
+msgid "Internet Connection"
+msgstr "اتصال بالإنترنت"
+
+#: ../../index.rst:31
+msgid "This guide is written against Windows Client agent version |release|"
+msgstr "هذا الدليل مكتوب بالنسبة لنسخة وكيل عميل ويندوز |release|"
+

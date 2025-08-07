@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Initial login"
+msgstr "تسجيل الدخول الأولي"
+
+#: ../../chapter5.rst:5
+msgid "To get started, point your web browser at the |prodname| server."
+msgstr "للبدء، قم بتوجيه متصفح الويب الخاص بك إلى خادم |prodname|."
+
+#: ../../chapter5.rst:7
+msgid ""
+"If you are the system administrator for the |prodname| server and you are"
+" in the server's console, you can point your web browser at "
+"http://localhost"
+msgstr "إذا كنت مسؤول النظام لخادم |prodname| وكنت في وحدة تحكم الخادم، يمكنك توجيه متصفح الويب الخاص بك إلى http://localhost"
+
+#: ../../chapter5.rst:11
+msgid ""
+"If you are in the Local Area Network, you can point your web browser at "
+"the IP address of the |prodname| server - http://<ip-address>"
+msgstr "إذا كنت ضمن شبكة المنطقة المحلية، يمكنك توجيه متصفح الويب الخاص بك إلى عنوان IP الخاص بخادم |prodname| - http://[ip-address]"
+
+#: ../../chapter5.rst:14
+msgid ""
+"Most common, and in production,  you will be pointing your web browser at"
+" the |prodname| server's DNS name, such as https://<DNS-Name-Of-Server>"
+msgstr "الأكثر شيوعًا، وأثناء الإنتاج، ستقوم بتوجيه متصفح الويب الخاص بك إلى اسم نظام أسماء النطاقات لخادم |prodname|، مثل https://[DNS-Name-Of-Server]"
+
+#: ../../chapter5.rst:17
+msgid "Once you are in the web portal, you will be seeing the login page first."
+msgstr "بمجرد دخولك إلى البوابة الإلكترونية، سترى صفحة تسجيل الدخول أولاً."
+
+#: ../../chapter5.rst:23
+msgid "|prodname| LOGIN"
+msgstr "|prodname| تسجيل الدخول"
+

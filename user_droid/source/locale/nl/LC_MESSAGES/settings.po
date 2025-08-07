@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../settings.rst:2
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../../settings.rst:4
+msgid ""
+"Here users can make changes for the app settings. If the user have set up"
+" a profile photo via the web portal, can see it through the person icon."
+msgstr "Hier kunnen gebruikers wijzigingen aanbrengen in de app-instellingen. Als de gebruiker een profielfoto heeft ingesteld via het webportaal, kan deze worden gezien via het persoon-icoon."
+
+#: ../../settings.rst:8
+msgid "Personal Information"
+msgstr "Persoonlijke Informatie"
+
+#: ../../settings.rst:10
+msgid "Under **Personal Information** User basic details will be shown."
+msgstr "Onder **Persoonlijke Informatie** worden de basisgegevens van de gebruiker getoond."
+
+#: ../../settings.rst:15
+msgid "Name"
+msgstr "Naam"
+
+#: ../../settings.rst:17
+msgid ""
+"Displays the username, which can be edited by touching the pencil button."
+" After updated, touch in the green icon to save the change."
+msgstr "Toont de gebruikersnaam, die bewerkt kan worden door op de potloodknop te tikken. Na het bijwerken, tik op het groene icoon om de wijziging op te slaan."
+
+#: ../../settings.rst:25
+msgid "Email"
+msgstr "E-mail"
+
+#: ../../settings.rst:27
+msgid ""
+"Shows the user's email address, which can be edited by touching the "
+"pencil button. Then, touch on the green icon to save the change."
+msgstr "Toont het e-mailadres van de gebruiker, dat bewerkt kan worden door op de potloodknop te tikken. Tik vervolgens op het groene pictogram om de wijziging op te slaan."
+
+#: ../../settings.rst:33
+msgid "The login password can also be updated by touching on the key button."
+msgstr "Het inlogwachtwoord kan ook worden bijgewerkt door op de sleutelknop te tikken."
+
+#: ../../settings.rst:38
+msgid "Quota Used"
+msgstr "Gebruikte Quota"
+
+#: ../../settings.rst:40
+msgid "Here users can view the information about his used quota."
+msgstr "Hier kunnen gebruikers de informatie over hun gebruikte quota bekijken."
+
+#: ../../settings.rst:45
+msgid "Theme"
+msgstr "Thema"
+
+#: ../../settings.rst:47
+msgid ""
+"To change the theme color of the App, choose the preferred one from the "
+"list provided. The default color for Cloud Drive app is **Blue**."
+msgstr "Om de themakleur van de App te wijzigen, kies de gewenste uit de lijst die wordt aangeboden. De standaardkleur voor de Cloud Drive-app is **Blauw**."
+
+#: ../../settings.rst:52
+msgid "Security"
+msgstr "Beveiliging"
+
+#: ../../settings.rst:54
+msgid ""
+"More security can be added to the app. When closing and reopening, a PIN "
+"or Biometrics check can be added to prevent accessing the root files."
+msgstr "Meer beveiliging kan aan de app worden toegevoegd. Bij het sluiten en opnieuw openen kan een PIN of biometrische controle worden toegevoegd om toegang tot de rootbestanden te voorkomen."
+
+#: ../../settings.rst:57
+msgid "PIN Code"
+msgstr "PIN-code"
+
+#: ../../settings.rst:60
+msgid "Enable PIN Code"
+msgstr "PIN-code inschakelen"
+
+#: ../../settings.rst:62
+msgid "Enable PIN Code by touching the corresponding switch:"
+msgstr "PIN-code inschakelen door de bijbehorende schakelaar aan te raken:"
+
+#: ../../settings.rst:66
+msgid ""
+"Then, a dialog box will appear where can enter PIN Code. A PIN Code is a "
+"4-digit number."
+msgstr "Vervolgens verschijnt er een dialoogvenster waar u de PIN-code kunt invoeren. Een PIN-code is een 4-cijferig nummer."
+
+#: ../../settings.rst:70
+msgid ""
+"Once confirmed the PIN, will return to the Settings page and see that the"
+" PIN Code is enabled."
+msgstr "Zodra de PIN bevestigd is, keert u terug naar de instellingenpagina en ziet u dat de PIN-code is ingeschakeld."
+
+#: ../../settings.rst:74
+msgid ""
+"When closing and reopening the app, a dialog box will appear asking for "
+"the PIN Code. Users can also close this dialog box and enter the user "
+"password instead."
+msgstr "Wanneer u de app sluit en opnieuw opent, verschijnt er een dialoogvenster waarin om de PIN-code wordt gevraagd. Gebruikers kunnen dit dialoogvenster ook sluiten en in plaats daarvan het gebruikerswachtwoord invoeren."
+
+#: ../../settings.rst:76
+msgid "After authenticated, can access all files and folders."
+msgstr "Na authenticatie toegang tot alle bestanden en mappen."
+
+#: ../../settings.rst:83
+msgid "Reset PIN"
+msgstr "PIN resetten"
+
+#: ../../settings.rst:85
+msgid "Reset the PIN is possible by tapping the **Reset PIN** button:"
+msgstr "Het opnieuw instellen van de PIN is mogelijk door op de **Reset PIN** knop te tikken:"
+
+#: ../../settings.rst:89
+msgid ""
+"To reset PIN, first enter the old PIN and then enter the new PIN twice to"
+" confirm. Once the new PIN is activated, can use the new PIN to access "
+"the app."
+msgstr "Om de PIN te resetten, voer eerst de oude PIN in en voer dan twee keer de nieuwe PIN in ter bevestiging. Zodra de nieuwe PIN is geactiveerd, kunt u de nieuwe PIN gebruiken om toegang te krijgen tot de app."
+
+#: ../../settings.rst:94
+msgid "Remove PIN"
+msgstr "PIN verwijderen"
+
+#: ../../settings.rst:96
+msgid ""
+"The PIN Code can be removed by touching the switch or by tapping on "
+"**Reset PIN** and use **Remove PIN**."
+msgstr "De PIN-code kan worden verwijderd door de schakelaar aan te raken of door op **Reset PIN** te tikken en **PIN verwijderen** te gebruiken."
+
+#: ../../settings.rst:102
+msgid "Enter the PIN Code to remove it:"
+msgstr "Voer de pincode in om deze te verwijderen:"
+
+#: ../../settings.rst:106
+msgid "Touch **Use Password** to use the user password to remove the PIN:"
+msgstr "Raak **Gebruik wachtwoord** aan om de pincode te verwijderen met het gebruikerswachtwoord:"
+
+#: ../../settings.rst:111
+msgid "Biometrics Sign in"
+msgstr "Biometrisch aanmelden"
+
+#: ../../settings.rst:114
+msgid "Enable Biometrics"
+msgstr "Biometrie inschakelen"
+
+#: ../../settings.rst:116
+msgid "Enable Biometrics by tapping this switch:"
+msgstr "Activeer Biometrie door op deze schakelaar te tikken:"
+
+#: ../../settings.rst:120
+msgid ""
+"If a yellow warning message is shown, it means the device does not have "
+"any biometrics enrolled. Go to the Settings and set this up."
+msgstr "Als er een geel waarschuwingsbericht wordt weergegeven, betekent dit dat het apparaat geen biometrische gegevens heeft geregistreerd. Ga naar de instellingen en stel dit in."
+
+#: ../../settings.rst:124
+msgid ""
+"After tapping on the switch, will see a dialog box where can authenticate"
+" the biometrics. The biometrics can be a fingerprint or a face ID."
+msgstr "Na het tikken op de schakelaar verschijnt er een dialoogvenster waar u de biometrie kunt verifiëren. De biometrie kan een vingerafdruk of een gezichts-ID zijn."
+
+#: ../../settings.rst:128
+msgid ""
+"When closing and reopening the app, a dialog box appears asking for "
+"Biometrics Authentication. Can also close this dialog and enter the user "
+"password instead."
+msgstr "Wanneer u de app sluit en opnieuw opent, verschijnt er een dialoogvenster dat vraagt om Biometrische Authenticatie. U kunt dit dialoogvenster ook sluiten en in plaats daarvan het gebruikerswachtwoord invoeren."
+
+#: ../../settings.rst:130
+msgid "After authentication, user can access the files and folders."
+msgstr "Na authenticatie kan de gebruiker de bestanden en mappen openen."
+
+#: ../../settings.rst:137
+msgid "Remove Biometrics"
+msgstr "Biometrie verwijderen"
+
+#: ../../settings.rst:139
+msgid "Remove Biometrics by touching the switch:"
+msgstr "Verwijder biometrie door de schakelaar aan te raken:"
+
+#: ../../settings.rst:143
+msgid "Authenticate to remove biometrics:"
+msgstr "Authenticeren om biometrie te verwijderen:"
+
+#: ../../settings.rst:147
+msgid ""
+"Or tap in **Use Password** to use the user password to remove the "
+"biometrics:"
+msgstr "Of tik op **Gebruik wachtwoord** om de biometrie te verwijderen met het gebruikerswachtwoord:"
+
+#: ../../settings.rst:152
+msgid "Only enable either PIN Code or Biometrics at the same time."
+msgstr "Schakel tegelijkertijd alleen PIN-code of biometrie in."
+
+#: ../../settings.rst:155
+msgid "Notification Center"
+msgstr "Notificatiecentrum"
+
+#: ../../settings.rst:157
+msgid ""
+"In this section, can enable notifications for the app while uploading and"
+" downloading."
+msgstr "In dit gedeelte kunt u meldingen voor de app inschakelen tijdens het uploaden en downloaden."
+
+#: ../../settings.rst:161
+msgid ""
+"Enable **All Notifications** gives the CentreStack app permission to send"
+" all notifications."
+msgstr "Inschakelen van **Alle meldingen** geeft de CentreStack-app toestemming om alle meldingen te versturen."
+
+#: ../../settings.rst:163
+msgid ""
+"Also enable other notifications by selecting **File Synced Up**, **File "
+"Synced Down**, and **Cache Updated**."
+msgstr "Schakel ook andere meldingen in door **Bestand gesynchroniseerd omhoog**, **Bestand gesynchroniseerd omlaag**, en **Cache bijgewerkt** te selecteren."
+
+#: ../../settings.rst:166
+msgid "Media Backup"
+msgstr "Media-back-up"
+
+#: ../../settings.rst:168
+msgid ""
+"Set up a **Media Backup** folder to synchronize media files from the "
+"local phone storage."
+msgstr "Stel een **Media Backup** map in om mediabestanden te synchroniseren van de lokale telefoonopslag."
+
+#: ../../settings.rst:171
+msgid "Set up Backup Folder"
+msgstr "Back-upmap instellen"
+
+#: ../../settings.rst:173
+msgid ""
+"Touch the pencil button to set a name for the backup folder, and tap the "
+"green check mark button to save."
+msgstr "Raak de potloodknop aan om een naam in te stellen voor de back-upmap, en tik op de groene vinkknop om op te slaan."
+
+#: ../../settings.rst:179
+msgid ""
+"Tap on the switch to enable **Media Backup**. If permission to media "
+"files are not granted for the app, a dialog will appear asking to allow "
+"the app to access media files."
+msgstr "Tik op de schakelaar om **Media Backup** in te schakelen. Als de app geen toestemming heeft voor mediabestanden, verschijnt er een dialoogvenster met het verzoek om de app toegang te geven tot mediabestanden."
+
+#: ../../settings.rst:183
+msgid ""
+"If the name of an existing folder matches the backup folder name, will "
+"receive a warning to either change to a different backup folder name or "
+"use that folder as the backup folder."
+msgstr "Als de naam van een bestaande map overeenkomt met de naam van de back-upmap, krijgt u een waarschuwing om ofwel een andere naam voor de back-upmap te kiezen of die map als back-upmap te gebruiken."
+
+#: ../../settings.rst:187
+msgid ""
+"Go back to the root directory and check the media backup folder with an "
+"attached folder icon. The backup media files are located in the folder "
+"under the device type name."
+msgstr "Ga terug naar de hoofdmap en controleer de map voor mediaback-up met een bijgevoegd mapicoon. De back-upmediabestanden bevinden zich in de map onder de naam van het apparaattype."
+
+#: ../../settings.rst:194
+msgid "Backup Folder Disconnection"
+msgstr "Back-upmap Verbinding Verbroken"
+
+#: ../../settings.rst:196
+msgid ""
+"To disconnect from the Media Backup folder, just tap on the switch to "
+"close it."
+msgstr "Om de verbinding met de map Media Backup te verbreken, tik je gewoon op de schakelaar om deze te sluiten."
+
+#: ../../settings.rst:201
+msgid "Wi-Fi Only"
+msgstr "Alleen Wi-Fi"
+
+#: ../../settings.rst:203
+msgid ""
+"If this switch is enabled, media files can only be synchronized under Wi-"
+"Fi connection."
+msgstr "Als deze schakelaar is ingeschakeld, kunnen mediabestanden alleen worden gesynchroniseerd met een Wi-Fi-verbinding."
+
+#: ../../settings.rst:208
+msgid "Cache"
+msgstr "Cache"
+
+#: ../../settings.rst:210
+msgid ""
+"The Cache size is calculated from temporary files, icons and previews. "
+"This can be cleared using the button below."
+msgstr "De grootte van de cache wordt berekend aan de hand van tijdelijke bestanden, pictogrammen en voorbeelden. Dit kan worden gewist met de onderstaande knop."
+
+#: ../../settings.rst:217
+msgid "Favorite Files cannot be removed when the File Cache is cleared."
+msgstr "Favoriete bestanden kunnen niet worden verwijderd wanneer de bestandscache wordt gewist."
+

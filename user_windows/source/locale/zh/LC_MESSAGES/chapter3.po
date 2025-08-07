@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter3.rst:3
+msgid "Connecting To The Cloud"
+msgstr "连接到云端"
+
+#: ../../chapter3.rst:7
+msgid "Transferring Files"
+msgstr "传输文件"
+
+#: ../../chapter3.rst:9
+msgid ""
+"Now you can use the Cloud Storage as if it were a Virtual Drive or "
+"Folder. Simply drag and drop to copy local documents to the Cloud "
+"Storage."
+msgstr "现在您可以像使用虚拟驱动器或文件夹一样使用云存储。只需拖放即可将本地文档复制到云存储。"
+
+#: ../../chapter3.rst:11
+msgid "You can access your cloud drive directly with a drive letter."
+msgstr "您可以直接使用驱动器字母访问您的云盘。"
+
+#: ../../chapter3.rst:17
+msgid "THE CLOUD DRIVE"
+msgstr "云端驱动器"
+
+#: ../../chapter3.rst:19
+msgid ""
+"|prodname| Windows Desktop Agent makes it very easy to move data into "
+"cloud storage or extract data from cloud storage."
+msgstr "|prodname| Windows 桌面代理使得将数据移动到云存储或从云存储中提取数据变得非常容易。"
+
+#: ../../chapter3.rst:22
+msgid "Attaching Local Folders"
+msgstr "附加本地文件夹"
+
+#: ../../chapter3.rst:24
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr "虚拟驱动器提供对 |prodname| 云存储账户中文件和文件夹的按需访问。"
+
+#: ../../chapter3.rst:26
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account. "
+"You can right click on a local folder (1) and select \"Attach this Folder"
+" to |prodname|\" (2). The pop-up (3) shows you where this folder is "
+"located on your system and allows you to change the name of the folder if"
+" you don't want to use the default."
+msgstr "有时候，在本地文件夹内工作并使其与 |prodname| 云存储账户同步也是可取的。您可以右键点击一个本地文件夹（1），然后选择“将此文件夹附加到 |prodname|”（2）。弹出窗口（3）会显示此文件夹在您系统上的位置，并允许您更改文件夹名称，如果您不想使用默认名称的话。"
+
+#: ../../chapter3.rst:31
+msgid "ATTACH A FOLDER TO |prodname|"
+msgstr "将文件夹附加到 |prodname|"
+
+#: ../../chapter3.rst:35
+msgid "Benefits of Attached folders:"
+msgstr "附加文件夹的好处:"
+
+#: ../../chapter3.rst:37
+msgid "They will be synchronized with the cloud."
+msgstr "它们将与云同步。"
+
+#: ../../chapter3.rst:39
+msgid ""
+"Their contents immediately become accessible even before the sync is "
+"completed."
+msgstr "它们的内容在同步完成之前就可以立即访问。"
+
+#: ../../chapter3.rst:41
+msgid "They can maintain a versioned backup of their contents."
+msgstr "他们可以维护其内容的版本化备份。"
+
+#: ../../chapter3.rst:43
+msgid "Their content is available locally when offline."
+msgstr "他们的内容在离线时可以本地访问。"
+
+#: ../../chapter3.rst:45
+msgid "They can be used in the same ways as any local folder."
+msgstr "它们可以像任何本地文件夹一样使用。"
+

@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter01.rst:3
+msgid "Administration Scope"
+msgstr "Verwaltungsbereich"
+
+#: ../../chapter01.rst:7
+msgid "Management"
+msgstr "Verwaltung"
+
+#: ../../chapter01.rst:9
+msgid ""
+"In |prodname|, objects that can be managed are defined in the following "
+"picture. You can manage objects at different levels from one single "
+"management portal."
+msgstr "In |prodname| sind die verwaltbaren Objekte in der folgenden Abbildung definiert. Sie können Objekte auf verschiedenen Ebenen von einem einzigen Verwaltungsportal aus verwalten."
+
+#: ../../chapter01.rst:16
+msgid "Partner Portal"
+msgstr "Partnerportal"
+
+#: ../../chapter01.rst:18
+msgid ""
+"The Partner Portal is used primarily for managing licenses and licenses "
+"distribution amongst all of your |prodname| Servers."
+msgstr "Das Partnerportal wird hauptsächlich für die Verwaltung von Lizenzen und die Lizenzverteilung unter all Ihren |prodname| Servern verwendet."
+
+#: ../../chapter01.rst:20
+msgid ""
+"You can login the partner portal through here: "
+"https://partner.centrestack.com/login/. From the Partner Portal you can "
+"download the |prodname| software as well as manage the licensing of your "
+"Servers."
+msgstr "Sie können sich über diesen Link im Partnerportal anmelden: https://partner.centrestack.com/login/. Im Partnerportal können Sie die |prodname|-Software herunterladen sowie die Lizenzierung Ihrer Server verwalten."
+
+#: ../../chapter01.rst:24
+msgid ""
+"Commonly, you will download the |prodname| software, set it up and "
+"leverage the built-in 30 day trial time to finish the setup. Towards the "
+"end of the trial, you assign licenses from the partner portal to your "
+"Server and activate it into a production environment."
+msgstr "Häufig laden Sie die |prodname| Software herunter, richten sie ein und nutzen die eingebaute 30-tägige Testzeit, um die Einrichtung abzuschließen. Gegen Ende der Testphase weisen Sie Lizenzen aus dem Partnerportal Ihrem Server zu und aktivieren ihn für eine Produktivumgebung."
+
+#: ../../chapter01.rst:28
+msgid ""
+"Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can "
+"be managed via the Partner Portal."
+msgstr "Sowohl selbst gehostete Server als auch gehostete CentreStack-Mandanten (sync4share) können über das Partnerportal verwaltet werden."
+
+#: ../../chapter01.rst:32
+msgid "Self-Hosted |prodname|"
+msgstr "Self-Hosted |prodname|"
+
+#: ../../chapter01.rst:34
+msgid ""
+"In the User Interface, the Self-Hosted |prodname| instance is referred to"
+" as a Cluster or a Server Farm. A Cluster can be as small as a single "
+"Server or scaled out to include multiple Servers in a Server farm."
+msgstr "In der Benutzeroberfläche wird die selbstgehostete |prodname|-Instanz als Cluster oder Serverfarm bezeichnet. Ein Cluster kann so klein wie ein einzelner Server sein oder auf mehrere Server in einer Serverfarm skaliert werden."
+
+#: ../../chapter01.rst:36
+msgid "**Hosted CentreStack**"
+msgstr "**Hosted CentreStack**"
+
+#: ../../chapter01.rst:38
+msgid ""
+"In the Partner Portal, you can also manage tenants which are hosted by "
+"CentreStack (sync4share). This document doesn't cover Hosted CentreStack."
+" Please refer to the Hosted CentreStack Administration Guide "
+"(https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) "
+"for more information on hosted options."
+msgstr "Im Partnerportal können Sie auch Mandanten verwalten, die von CentreStack (sync4share) gehostet werden. Dieses Dokument behandelt nicht den gehosteten CentreStack. Bitte beziehen Sie sich auf den Verwaltungsleitfaden für gehostete CentreStack (https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) für weitere Informationen zu gehosteten Optionen."
+
+#: ../../chapter01.rst:42
+msgid "**Tenants**"
+msgstr "**Mieter**"
+
+#: ../../chapter01.rst:44
+msgid ""
+"In a |prodname| management interface, most of the time you are managing "
+"tenants. It can be a single tenant when deployed for a single company, or"
+" it can be multiple tenants. A tenant is a management and billing scope "
+"that includes a number of users and a specific amount of storage. It "
+"normally maps to a company or a client of yours."
+msgstr "In einer |prodname| Management-Schnittstelle verwalten Sie meistens Mandanten. Es kann sich um einen einzelnen Mandanten handeln, wenn er für ein einzelnes Unternehmen bereitgestellt wird, oder um mehrere Mandanten. Ein Mandant ist ein Verwaltungs- und Abrechnungsbereich, der eine Anzahl von Benutzern und eine bestimmte Menge an Speicher umfasst. Normalerweise entspricht dies einem Unternehmen oder einem Kunden von Ihnen."
+
+#: ../../chapter01.rst:49
+msgid "**Users, Devices, File Server Shares**"
+msgstr "**Benutzer, Geräte, Dateiserver-Freigaben**"
+
+#: ../../chapter01.rst:51
+msgid ""
+"In each tenant, the objects you manage include Users and Devices as well "
+"as File Server Network Shares for Team Folder collaboration (Team "
+"Shares)."
+msgstr "In jedem Mandanten verwalten Sie Objekte wie Benutzer und Geräte sowie Netzwerkfreigaben von Dateiservern für die Teamordner-Zusammenarbeit (Team Shares)."
+
+#: ../../chapter01.rst:54
+msgid ""
+"This document is focused on the management scope for a Self-Hosted "
+"|prodname|. In the server management interface, there are two "
+"administration scopes: Cluster Administrator and Tenant Administrator."
+msgstr "Dieses Dokument konzentriert sich auf den Verwaltungsbereich für einen Self-Hosted |prodname|. In der Serververwaltungsschnittstelle gibt es zwei Verwaltungsbereiche: Cluster-Administrator und Tenant-Administrator."
+
+#: ../../chapter01.rst:59
+msgid "Cluster Administrator"
+msgstr "Cluster-Administrator"
+
+#: ../../chapter01.rst:61
+msgid ""
+"The Cluster Administrator can manage cluster-wide functionalities, such "
+"as email SMTP server setup and worker node properties etc."
+msgstr "Der Cluster-Administrator kann clusterweite Funktionalitäten verwalten, wie z.B. die Einrichtung des E-Mail-SMTP-Servers und Eigenschaften von Worker-Knoten usw."
+
+#: ../../chapter01.rst:64
+msgid ""
+"In the Deployment Guide, the Cluster Administrator is often referred to "
+"as the Master Admin, Root Admin, or just Server Administrator. Even "
+"though the Cluster Server Farm can have multiple Servers, most of the "
+"time, a server-farm with one single server is sufficient for your use "
+"case and your user base."
+msgstr "Im Bereitstellungshandbuch wird der Cluster-Administrator oft als Hauptadmin, Root-Admin oder einfach als Serveradministrator bezeichnet. Obwohl der Cluster-Server-Farm mehrere Server haben kann, ist die meiste Zeit eine Server-Farm mit einem einzigen Server ausreichend für Ihren Anwendungsfall und Ihre Benutzerbasis."
+
+#: ../../chapter01.rst:70
+msgid "Tenant Administrator"
+msgstr "Mandant Administrator"
+
+#: ../../chapter01.rst:72
+msgid ""
+"Tenant Administrator can manage Tenant-Wide functionalities, such as "
+"Group Policies. The Cluster Admin is also a Tenant Admin for the very "
+"first Tenant (Default Tenant) so the Cluster Administrator manages both "
+"Cluster Administration and Tenant Administration (for the default "
+"tenant). In the multiple-tenant case, each Tenant Administrator will be "
+"responsible for the Tenant's administration scope."
+msgstr "Der Tenant-Administrator kann tenantweite Funktionen verwalten, wie zum Beispiel Gruppenrichtlinien. Der Cluster-Administrator ist auch ein Tenant-Administrator für den allerersten Tenant (Standard-Tenant), sodass der Cluster-Administrator sowohl die Cluster-Verwaltung als auch die Tenant-Verwaltung (für den Standard-Tenant) übernimmt. Im Fall mehrerer Tenants ist jeder Tenant-Administrator für den Verwaltungsbereich des Tenants verantwortlich."
+
+#: ../../chapter01.rst:78
+msgid ""
+"The Cluster Administrator by default can help each Tenant Administrator "
+"manage at the tenant level."
+msgstr "Der Cluster-Administrator kann standardmäßig jedem Tenant-Administrator helfen, auf der Mandantenebene zu verwalten."
+
+#: ../../chapter01.rst:80
+msgid ""
+"In real-world scenarios, the tenant is often mapped to an organization; a"
+" client of an MSP or a customer that has many employees."
+msgstr "In realen Szenarien wird der Mandant häufig einer Organisation zugeordnet; einem Kunden eines MSP oder einem Kunden, der viele Mitarbeiter hat."
+
+#: ../../chapter01.rst:82
+msgid ""
+"There are two icons related to cluster administration and tenant "
+"administration:"
+msgstr "Es gibt zwei Symbole, die sich auf Cluster-Verwaltung und Mandanten-Verwaltung beziehen:"
+
+#: ../../chapter01.rst:84
+msgid "Cluster Manager icon"
+msgstr "Cluster-Manager-Symbol"
+
+#: ../../chapter01.rst:88
+msgid "Tenant Manager icon"
+msgstr "Symbol für Tenant-Manager"
+
+#: ../../chapter01.rst:94
+msgid "Tenant(s) usually map to your organization(s) or client(s)."
+msgstr "Mandant(en) entsprechen in der Regel Ihrer Organisation(en) oder Ihrem/Ihren Kunden."
+
+#: ../../chapter01.rst:96
+msgid ""
+"If you are logged in as the Default Cluster Admin, you will manage the "
+"tenant-level scope from the \"Tenant Manager\" instead of using the "
+"\"Tenant Manager icon\"."
+msgstr "Wenn Sie als Standard-Clusteradministrator angemeldet sind, verwalten Sie den Tenant-Bereich über den \"Tenant Manager\" anstelle des \"Tenant Manager-Symbols\"."
+
+#: ../../chapter01.rst:102
+msgid ""
+"1: All the administration work is performed via the web portal inside a "
+"web browser. Recommended browsers include Google Chrome first, followed "
+"by Firefox, Internet Explorer, Safari, and Opera. (Internet Explorer "
+"requires version 9 and above and includes Microsoft Edge Browser)"
+msgstr "Alle Administrationsarbeiten werden über das Webportal in einem Webbrowser durchgeführt. Empfohlene Browser sind zuerst Google Chrome, gefolgt von Firefox, Internet Explorer, Safari und Opera. (Internet Explorer erfordert Version 9 oder höher und beinhaltet den Microsoft Edge Browser)"
+
+#: ../../chapter01.rst:104
+msgid ""
+"2: The very first user who installed the Cluster Server is also the "
+"Cluster Admin and Tenant Admin for the Default Tenant. In order for the "
+"Cluster Admin to be familiar with the tenant functionality, the Cluster "
+"Admin is provided a small 3-user default account (Tenant Account)."
+msgstr "Der allererste Benutzer, der den Cluster-Server installiert hat, ist auch der Cluster-Administrator und Tenant-Administrator für den Standard-Tenant. Damit der Cluster-Administrator mit der Funktionalität des Tenants vertraut ist, wird ihm ein kleines Standardkonto mit 3 Benutzern (Tenant-Konto) zur Verfügung gestellt."
+
+#: ../../chapter01.rst:107
+msgid ""
+"3: You can start the administration work at any time by pointing your web"
+" browser to the Cluster Server's IP Address or DNS name. If you are on "
+"the Cluster Server console, you can even use http://localhost to get "
+"started."
+msgstr "3: Sie können die Verwaltungsarbeit jederzeit beginnen, indem Sie Ihren Webbrowser auf die IP-Adresse oder den DNS-Namen des Cluster-Servers richten. Wenn Sie sich an der Konsole des Cluster-Servers befinden, können Sie sogar http://localhost verwenden, um zu beginnen."
+

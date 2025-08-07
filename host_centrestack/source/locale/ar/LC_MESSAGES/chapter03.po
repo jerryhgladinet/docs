@@ -1,0 +1,572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "Manage Tenant"
+msgstr "إدارة المستأجر"
+
+#: ../../chapter03.rst:5
+msgid ""
+"By default, the |prodname| partner account holder has the \"Single-pane-"
+"of-glass\" view of all his tenants in the partner portal and can manage "
+"the Tenants in \"Registered Tenants\" section.."
+msgstr "بشكل افتراضي، يمتلك حامل حساب شريك |prodname| نظرة \"شاملة\" لجميع المستأجرين في بوابة الشريك ويمكنه إدارة المستأجرين في قسم \"المستأجرين المسجلين\"."
+
+#: ../../chapter03.rst:10
+msgid "MANAGE TENANT OPTION"
+msgstr "خيار إدارة المستأجر"
+
+#: ../../chapter03.rst:12
+msgid ""
+"After you click through to the \"Manage\" option, the tenant dashboard "
+"will show."
+msgstr "بعد النقر على خيار \"إدارة\"، ستظهر لوحة معلومات المستأجر."
+
+#: ../../chapter03.rst:15
+msgid "Tenant Dashboard"
+msgstr "لوحة تحكم المستأجر"
+
+#: ../../chapter03.rst:17
+msgid ""
+"The dashboard contains the two most important assets: the ``users`` and "
+"the ``Team Folders``."
+msgstr "تحتوي لوحة التحكم على أهم موردين: ``المستخدمين`` و ``مجلدات الفريق``."
+
+#: ../../chapter03.rst:21
+msgid ""
+"Basically from a management perspective, you are helping the tenant "
+"manage their users and their common work areas - the Team Folders."
+msgstr "من منظور الإدارة، أنت تساعد المستأجر في إدارة مستخدميه ومناطق العمل المشتركة لديهم - مجلدات الفريق."
+
+#: ../../chapter03.rst:26
+msgid "TENANT DASHBOARD"
+msgstr "لوحة تحكم المستأجر"
+
+#: ../../chapter03.rst:28
+msgid ""
+"There is also a Quick Access panel on the dashboard that you can see the "
+"second level of details on the tenant management scope."
+msgstr "هناك أيضًا لوحة وصول سريع على لوحة القيادة حيث يمكنك رؤية مستوى التفاصيل الثاني في نطاق إدارة المستأجر."
+
+#: ../../chapter03.rst:33
+msgid "QUICK ACCESS PANEL"
+msgstr "لوحة الوصول السريع"
+
+#: ../../chapter03.rst:36
+msgid "Reports"
+msgstr "تقارير"
+
+#: ../../chapter03.rst:38
+msgid "In ``REPORTS``, you can see reports related to the tenant."
+msgstr "في ``REPORTS``، يمكنك مشاهدة التقارير المتعلقة بالمستأجر."
+
+#: ../../chapter03.rst:43
+msgid "REPORTS"
+msgstr "التقارير"
+
+#: ../../chapter03.rst:45
+msgid ""
+"Once you click the **\"Reports\"** button you will see the **\"Upload "
+"Report\"** by default. You can use the tab at the top to choose other "
+"report options."
+msgstr "بمجرد النقر على زر **\"التقارير\"** سترى **\"تقرير التحميل\"** بشكل افتراضي. يمكنك استخدام العلامة التبويب في الأعلى لاختيار خيارات تقارير أخرى."
+
+#: ../../chapter03.rst:50
+msgid "REPORTS MENU"
+msgstr "قائمة التقارير"
+
+#: ../../chapter03.rst:52
+msgid "Upload Report"
+msgstr "تحميل التقرير"
+
+#: ../../chapter03.rst:54
+msgid ""
+"the number of files uploaded into hosted |prodname| in the last 30 days "
+"or last week."
+msgstr "عدد الملفات التي تم تحميلها إلى |prodname| المستضاف في آخر 30 يومًا أو الأسبوع الماضي."
+
+#: ../../chapter03.rst:56
+msgid "Storage Statistics"
+msgstr "إحصائيات التخزين"
+
+#: ../../chapter03.rst:58
+msgid ""
+"The files and folder number and size and other statistics of files and "
+"folders."
+msgstr "عدد الملفات والمجلدات وحجمها وإحصائيات أخرى للملفات والمجلدات."
+
+#: ../../chapter03.rst:60
+msgid "Team Folders"
+msgstr "مجلدات الفريق"
+
+#: ../../chapter03.rst:62
+msgid "All the Team Folders in the tenant."
+msgstr "جميع مجلدات الفريق في المستأجر."
+
+#: ../../chapter03.rst:64 ../../chapter03.rst:372
+msgid "Shared Objects"
+msgstr "الكائنات المشتركة"
+
+#: ../../chapter03.rst:66
+msgid "All the peer-to-peer share objects in the tenant."
+msgstr "جميع كائنات المشاركة نظير إلى نظير في المستأجر."
+
+#: ../../chapter03.rst:68
+msgid "Audit Trace"
+msgstr "أثر التدقيق"
+
+#: ../../chapter03.rst:70
+msgid "The management scope events in the tenant."
+msgstr "أحداث نطاق الإدارة في المستأجر."
+
+#: ../../chapter03.rst:72
+msgid "File Change Logging"
+msgstr "تسجيل تغييرات الملفات"
+
+#: ../../chapter03.rst:74
+msgid "The file change events in the tenant."
+msgstr "أحداث تغيير الملفات في المستأجر."
+
+#: ../../chapter03.rst:78
+msgid "Tenant Branding"
+msgstr "العلامة التجارية للمستأجر"
+
+#: ../../chapter03.rst:80
+msgid ""
+"After you setup default branding and apply to the tenants, you can "
+"continue to fine tune the branding on a per-tenant basis."
+msgstr "بعد أن تقوم بإعداد العلامة التجارية الافتراضية وتطبيقها على المستأجرين، يمكنك الاستمرار في تحسين العلامة التجارية على أساس كل مستأجر على حدة."
+
+#: ../../chapter03.rst:85
+msgid "TENANT BRANDING"
+msgstr "العلامة التجارية للمستأجر"
+
+#: ../../chapter03.rst:87
+msgid ""
+"In the ``TENANT BRANDING`` section, you can setup and change tenant "
+"specific branding information."
+msgstr "في قسم ``تخصيص العلامة التجارية للمستأجر``، يمكنك إعداد وتغيير معلومات العلامة التجارية الخاصة بالمستأجر."
+
+#: ../../chapter03.rst:93
+msgid "BRANDING OPTIONS"
+msgstr "خيارات العلامة التجارية"
+
+#: ../../chapter03.rst:95
+msgid "Customized URL for your business"
+msgstr "عنوان URL مخصص لعملك"
+
+#: ../../chapter03.rst:97
+msgid ""
+"Upon creating the tenant, the tenant is assigned a random string of "
+"digits for the custom site. You can change the URL so that it is more "
+"related to the customer's business name."
+msgstr "عند إنشاء المستأجر، يُعطى المستأجر سلسلة عشوائية من الأرقام للموقع المخصص. يمكنك تغيير الرابط ليكون أكثر صلة باسم أعمال العميل."
+
+#: ../../chapter03.rst:103
+msgid "GENERAL OPTIONS"
+msgstr "خيارات عامة"
+
+#: ../../chapter03.rst:107
+msgid ""
+"The ``Customized URL`` field is very important for the tenant branding. "
+"It is like a key to a list of information belonging to the tenant. For "
+"tenant branding to work, the tenant will need to login to the specific "
+"URL that is assigned to them."
+msgstr "حقل ``الرابط المخصص`` مهم جدًا للعلامة التجارية للمستأجر. إنه مثل مفتاح لقائمة المعلومات التي تخص المستأجر. لكي تعمل العلامة التجارية للمستأجر، يجب على المستأجر تسجيل الدخول إلى الرابط المحدد الذي يُخصص لهم."
+
+#: ../../chapter03.rst:110
+msgid "Group Policy"
+msgstr "سياسة المجموعة"
+
+#: ../../chapter03.rst:115
+msgid "GROUP POLICY"
+msgstr "سياسة المجموعة"
+
+#: ../../chapter03.rst:117
+msgid ""
+"``GROUP POLICY`` is documented in the |prodname| Admin Guide. Look for "
+"the group policy section in the |prodname| Admin Guide. Please see the "
+"`Documentation Page`__ for more information."
+msgstr "``سياسة المجموعة`` موثقة في دليل إدارة |prodname|. ابحث عن قسم سياسة المجموعة في دليل إدارة |prodname|. يرجى مراجعة `صفحة التوثيق`__ للمزيد من المعلومات."
+
+#: ../../chapter03.rst:125
+msgid "DOCUMENTATION WEB PAGE"
+msgstr "صفحة وثائق الويب"
+
+#: ../../chapter03.rst:128
+msgid "Control Panel"
+msgstr "لوحة التحكم"
+
+#: ../../chapter03.rst:133
+msgid "CONTROL PANEL"
+msgstr "لوحة التحكم"
+
+#: ../../chapter03.rst:135
+msgid "In the ``CONTROL PANEL`` section, you will see the following sections."
+msgstr "في قسم ``لوحة التحكم``, سترى الأقسام التالية."
+
+#: ../../chapter03.rst:140
+msgid "CONTROL PANEL SETTINGS"
+msgstr "إعدادات لوحة التحكم"
+
+#: ../../chapter03.rst:143
+msgid "Tenant Administrators"
+msgstr "مسؤولو المستأجرين"
+
+#: ../../chapter03.rst:148
+msgid "TENANT ADMINISTRATORS"
+msgstr "مسؤولو المستأجرين"
+
+#: ../../chapter03.rst:150
+msgid ""
+"You can change the tenant's administrator information here and also "
+"define delegate administrators."
+msgstr "يمكنك تغيير معلومات مسؤول المستأجر هنا وتحديد مسؤولين منتدبين أيضًا."
+
+#: ../../chapter03.rst:155
+msgid "TENANT ADMINISTRATOR SETTINGS"
+msgstr "إعدادات مسؤول النظام للمستأجر"
+
+#: ../../chapter03.rst:158
+msgid "Single Sign-On"
+msgstr "تسجيل دخول موحد"
+
+#: ../../chapter03.rst:163
+msgid "SINGLE SIGN ON"
+msgstr "تسجيل دخول موحد"
+
+#: ../../chapter03.rst:165
+msgid ""
+"It is recommended to setup tenant specific ``custom URL`` before setting "
+"up the Single Sign-On since this is a tenant-specific Single Sign-On "
+"setting."
+msgstr "يُوصى بإعداد ``عنوان URL مخصص`` خاص بالمستأجر قبل إعداد تسجيل الدخول الموحد نظرًا لأن هذا إعداد تسجيل دخول موحد خاص بالمستأجر."
+
+#: ../../chapter03.rst:171
+msgid "SINGLE SIGN-ON SETTINGS"
+msgstr "إعدادات تسجيل الدخول الموحد"
+
+#: ../../chapter03.rst:173 ../../chapter03.rst:191
+msgid "Check the |prodname| Admin Guide for more details."
+msgstr "راجع دليل إدارة |prodname| لمزيد من التفاصيل."
+
+#: ../../chapter03.rst:176
+msgid "Azure AD"
+msgstr "Azure AD"
+
+#: ../../chapter03.rst:181
+msgid "AZURE AD"
+msgstr "AZURE AD"
+
+#: ../../chapter03.rst:183
+msgid ""
+"In Azure AD, you can setup the tenant to login using credentials from "
+"Azure AD."
+msgstr "في Azure AD، يمكنك إعداد المستأجر لتسجيل الدخول باستخدام بيانات الاعتماد من Azure AD."
+
+#: ../../chapter03.rst:189
+msgid "AZURE AD SETTINGS"
+msgstr "إعدادات AZURE AD"
+
+#: ../../chapter03.rst:194
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: ../../chapter03.rst:199
+msgid "NOTIFICATIONS"
+msgstr "الإشعارات"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Notification section defines what kind of notifications the tenant "
+"wants to configure."
+msgstr "تعرّف قسم الإشعارات على نوع الإشعارات التي يرغب المستأجر في تهيئتها."
+
+#: ../../chapter03.rst:206
+msgid "NOTIFICATIONS SETTINGS"
+msgstr "إعدادات الإشعارات"
+
+#: ../../chapter03.rst:209
+msgid "Device Manager"
+msgstr "مدير الجهاز"
+
+#: ../../chapter03.rst:214
+msgid "DEVICE MANAGER"
+msgstr "مدير الجهاز"
+
+#: ../../chapter03.rst:219
+msgid "DEVICE MANAGER SETTINGS"
+msgstr "إعدادات مدير الجهاز"
+
+#: ../../chapter03.rst:222
+msgid "Application Manager"
+msgstr "مدير التطبيقات"
+
+#: ../../chapter03.rst:227
+msgid "APPLICATION MANAGER"
+msgstr "مدير التطبيقات"
+
+#: ../../chapter03.rst:232
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "إعدادات مدير التطبيقات"
+
+#: ../../chapter03.rst:235
+msgid "Sharepoint Online"
+msgstr "شيربوينت أونلاين"
+
+#: ../../chapter03.rst:240
+msgid "SHAREPOINT ONLINE"
+msgstr "شيربوينت أونلاين"
+
+#: ../../chapter03.rst:245
+msgid "SHAREPOINT ONLINE SETTINGS"
+msgstr "إعدادات SHAREPOINT ONLINE"
+
+#: ../../chapter03.rst:248
+msgid "Email Service"
+msgstr "خدمة البريد الإلكتروني"
+
+#: ../../chapter03.rst:253
+msgid "EMAIL SERVICE"
+msgstr "خدمة البريد الإلكتروني"
+
+#: ../../chapter03.rst:258
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "إعدادات خدمة البريد الإلكتروني"
+
+#: ../../chapter03.rst:261
+msgid "User Manager"
+msgstr "مدير المستخدمين"
+
+#: ../../chapter03.rst:266
+msgid "USER MANAGER"
+msgstr "مدير المستخدم"
+
+#: ../../chapter03.rst:268
+msgid "User manager is where to manage the users for the tenant."
+msgstr "مدير المستخدم هو المكان لإدارة المستخدمين للمستأجر."
+
+#: ../../chapter03.rst:273
+msgid "USER MANAGER SETTINGS"
+msgstr "إعدادات مدير المستخدم"
+
+#: ../../chapter03.rst:276
+msgid "Add User"
+msgstr "إضافة مستخدم"
+
+#: ../../chapter03.rst:278
+msgid ""
+"Users can be created directly with user name and email. If the Server "
+"Agent is used, users can also be created from the Server Agent where "
+"Active Directory users from a remote Server Agent can be imported into "
+"|prodname|."
+msgstr "يمكن إنشاء المستخدمين مباشرةً بواسطة اسم المستخدم والبريد الإلكتروني. إذا تم استخدام وكيل الخادم، يمكن أيضًا إنشاء المستخدمين من خلال وكيل الخادم حيث يمكن استيراد مستخدمي الدليل النشط من وكيل خادم بعيد إلى |prodname|."
+
+#: ../../chapter03.rst:283
+msgid "ADDING USERS"
+msgstr "إضافة المستخدمين"
+
+#: ../../chapter03.rst:285
+msgid ""
+"Before the Server Agent is used, there are two options: \"Native User\" "
+"and \"Batch create users\". If you use Server Agent to connect a remote "
+"file server to this specific tenant, the remote Active Directory will "
+"also show up."
+msgstr "قبل استخدام وكيل الخادم، هناك خياران: \"المستخدم الأصلي\" و \"إنشاء المستخدمين دفعة واحدة\". إذا استخدمت وكيل الخادم لربط خادم ملفات بعيد بهذا المستأجر المحدد، فإن دليل Active Directory البعيد سيظهر أيضًا."
+
+#: ../../chapter03.rst:290
+msgid "CLICK TO CREATE OR MIGRATE A USER"
+msgstr "انقر لإنشاء أو ترحيل مستخدم"
+
+#: ../../chapter03.rst:292
+msgid ""
+"Guest users are those users that don't have home directory storage, but "
+"can receive file and folder shares from regular users."
+msgstr "المستخدمون الضيوف هم أولئك المستخدمون الذين لا يمتلكون مساحة تخزين للدليل الرئيسي، ولكن يمكنهم استلام مشاركات الملفات والمجلدات من المستخدمين العاديين."
+
+#: ../../chapter03.rst:297
+msgid "SOURCES OF USERS"
+msgstr "مصادر المستخدمين"
+
+#: ../../chapter03.rst:300
+msgid "Group Manager"
+msgstr "مدير المجموعة"
+
+#: ../../chapter03.rst:302
+msgid ""
+"You can create native |prodname| groups to help manage the assignment of "
+"users to folders and files for read and write permission."
+msgstr "يمكنك إنشاء مجموعات |prodname| أصلية للمساعدة في إدارة تعيين المستخدمين إلى المجلدات والملفات لأذونات القراءة والكتابة."
+
+#: ../../chapter03.rst:304
+msgid ""
+"If you have the Server Agent connected, the Server Agent can import Proxy"
+" Active Directory group instead."
+msgstr "إذا كان لديك وكيل الخادم متصلاً، يمكن لوكيل الخادم استيراد مجموعة الوكيل النشط للدليل بدلاً من ذلك."
+
+#: ../../chapter03.rst:309
+msgid "GROUPS"
+msgstr "المجموعات"
+
+#: ../../chapter03.rst:312
+msgid "Role Manager"
+msgstr "مدير الأدوار"
+
+#: ../../chapter03.rst:314
+msgid ""
+"Role manager can further define what each users in the tenant can do and "
+"what they have access to."
+msgstr "يمكن لمدير الأدوار تحديد ما يمكن لكل مستخدم في المستأجر القيام به والوصول إليه."
+
+#: ../../chapter03.rst:319
+msgid "ROLES"
+msgstr "الأدوار"
+
+#: ../../chapter03.rst:324
+msgid "CREATING A NEW ROLE"
+msgstr "إنشاء دور جديد"
+
+#: ../../chapter03.rst:329
+msgid ""
+"Collaboration is centered around storage folders and assigning users to "
+"folders with specific permissions."
+msgstr "التعاون يتمحور حول مجلدات التخزين وتعيين المستخدمين للمجلدات بأذونات محددة."
+
+#: ../../chapter03.rst:332
+msgid "Team Folder"
+msgstr "مجلد الفريق"
+
+#: ../../chapter03.rst:337
+msgid "TEAM FOLDERS"
+msgstr "مجلدات الفريق"
+
+#: ../../chapter03.rst:339
+msgid ""
+"The idea of a Team Folder is similar to that of a local network share. "
+"Users can be assigned to a Team Folder with read and write permissions at"
+" the share level. Inside the folder, at the sub-folder level, each sub-"
+"folder can define its own folder level permissions."
+msgstr "فكرة مجلد الفريق تشبه فكرة المشاركة الشبكية المحلية. يمكن تعيين المستخدمين إلى مجلد الفريق بأذونات القراءة والكتابة على مستوى المشاركة. داخل المجلد، على مستوى المجلد الفرعي، يمكن لكل مجلد فرعي تحديد أذوناته الخاصة على مستوى المجلد."
+
+#: ../../chapter03.rst:342
+msgid "Add a Team Folder"
+msgstr "أضف مجلد فريق"
+
+#: ../../chapter03.rst:347
+msgid "CREATING A TEAM FOLDER"
+msgstr "إنشاء مجلد فريق"
+
+#: ../../chapter03.rst:349
+msgid ""
+"In the hosted |prodname| environment, you can create Team Folders in "
+"several different ways."
+msgstr "في بيئة |prodname| المستضافة، يمكنك إنشاء مجلدات الفريق بعدة طرق مختلفة."
+
+#: ../../chapter03.rst:352
+msgid "Default Storage"
+msgstr "التخزين الافتراضي"
+
+#: ../../chapter03.rst:352
+msgid ""
+"Create a new Team Folder from scratch using the default storage. It will "
+"be empty to start with and you can put files and folders inside later."
+msgstr "قم بإنشاء مجلد فريق جديد من البداية باستخدام التخزين الافتراضي. سيكون فارغًا في البداية ويمكنك وضع الملفات والمجلدات بداخله لاحقًا."
+
+#: ../../chapter03.rst:355
+msgid "Existing Folder(s)"
+msgstr "المجلدات الموجودة"
+
+#: ../../chapter03.rst:355
+msgid ""
+"Create a new folder by selecting one or more existing folders. Those "
+"selected folders will show up inside the Team Folder."
+msgstr "قم بإنشاء مجلد جديد عن طريق اختيار مجلد أو أكثر موجود. ستظهر المجلدات المختارة داخل مجلد الفريق."
+
+#: ../../chapter03.rst:358
+msgid "Publish Tenant Home Storage As a Team Folder"
+msgstr "نشر التخزين الرئيسي للمستأجر كمجلد فريق"
+
+#: ../../chapter03.rst:358
+msgid ""
+"The tenant's home storage will be published to users in the same tenant "
+"so they can see file and folder contents from the home storage. Some "
+"specialized folders such as folders from remote file servers or remote "
+"cloud storage services are not included in this scope."
+msgstr "سيتم نشر التخزين المنزلي للمستأجر للمستخدمين في نفس المستأجر حتى يتمكنوا من رؤية محتويات الملفات والمجلدات من التخزين المنزلي. بعض المجلدات المتخصصة مثل المجلدات من خوادم الملفات البعيدة أو خدمات التخزين السحابي البعيدة ليست مشمولة في هذا النطاق."
+
+#: ../../chapter03.rst:362
+msgid "Remote File Server (with Server Agent)"
+msgstr "الخادم البعيد للملفات (مع وكيل الخادم)"
+
+#: ../../chapter03.rst:361
+msgid ""
+"Once you install the Server Agent on your remote server, you can create a"
+" Team Folder here."
+msgstr "بمجرد تثبيت وكيل الخادم على الخادم البعيد الخاص بك، يمكنك إنشاء مجلد فريق هنا."
+
+#: ../../chapter03.rst:364
+msgid ""
+"Initially without remote Server Agent installed, the Remote server "
+"section is empty. If there is at least one Server Agent installed, the "
+"remote file server will show up under the \"Remote File Servers\" section"
+" and you will be able to import file servers from a remote location, "
+"together with Active Directory Identities and the corresponding folder "
+"level NTFS permissions."
+msgstr "في البداية بدون تثبيت وكيل الخادم البعيد، ستكون قسم الخوادم البعيدة فارغًا. إذا تم تثبيت وكيل خادم واحد على الأقل، سيظهر الخادم الملف البعيد تحت قسم \"خوادم الملفات البعيدة\" وسوف تكون قادرًا على استيراد الخوادم الملفات من موقع بعيد، مع هويات الدليل النشط وأذونات NTFS على مستوى المجلد المقابلة."
+
+#: ../../chapter03.rst:369
+msgid "TEAM FOLDER SETTINGS"
+msgstr "إعدادات مجلد الفريق"
+
+#: ../../chapter03.rst:377
+msgid "REPORTS > SHARED OBJECTS"
+msgstr "التقارير > الكائنات المشتركة"
+
+#: ../../chapter03.rst:379
+msgid ""
+"In |prodname|, you can share files and folders from your file browser. "
+"Once a something has been shared it will show up in the Shared Objects "
+"view of the Reports section of the portal. The shares can be read-only or"
+" full access, and can be controlled by date or shared as a public link. "
+"This is how Guest Users are created in |prodname|."
+msgstr "في |prodname|، يمكنك مشاركة الملفات والمجلدات من متصفح الملفات الخاص بك. بمجرد مشاركة شيء ما، سيظهر في عرض الكائنات المشتركة في قسم التقارير من البوابة. يمكن أن تكون المشاركات للقراءة فقط أو بالوصول الكامل، ويمكن التحكم بها بتاريخ أو مشاركتها كرابط عام. هكذا يتم إنشاء المستخدمين الضيوف في |prodname|."
+
+#: ../../chapter03.rst:384
+msgid "SHARED OBJECT SETTINGS"
+msgstr "إعدادات الكائن المشترك"
+
+#: ../../chapter03.rst:389
+msgid "Storage Manager"
+msgstr "مدير التخزين"
+
+#: ../../chapter03.rst:394
+msgid "SETTING UP BACKEND STORAGE"
+msgstr "إعداد التخزين الخلفي"
+
+#: ../../chapter03.rst:396
+msgid ""
+"Storage Manager is where you can define more secondary storage services "
+"and mount them into |prodname| so you can access them all from one single"
+" location."
+msgstr "مدير التخزين هو المكان الذي يمكنك فيه تحديد المزيد من خدمات التخزين الثانوية وتركيبها في |prodname| حتى تتمكن من الوصول إليها جميعًا من موقع واحد"
+

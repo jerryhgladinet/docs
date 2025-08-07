@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:3
+msgid "Management Console"
+msgstr "Hanteringskonsol"
+
+#: ../../chapter05.rst:5
+msgid ""
+"If you are logged in as the Tenant administrator, access the Management "
+"Console by clicking the gear icon on the top right of the **\"File "
+"Browser\"** view."
+msgstr "Om du är inloggad som administratör för hyresgästen, få tillgång till hanteringskonsolen genom att klicka på kugghjulsikonen högst upp till höger i **\"Filbläddraren\"** vy."
+
+#: ../../chapter05.rst:7
+msgid ""
+"The Tenant Administrator will see the files and folders view by default "
+"upon initial login."
+msgstr "Hyresgästadministratören kommer som standard att se vyerna för filer och mappar vid första inloggningen."
+
+#: ../../chapter05.rst:13
+msgid ""
+"If you are the cluster administrator, you may not see the \"Management "
+"Console\" icon. Instead, you can manage the default tenant from the "
+"Cluster Manager -> Tenant Manager and click through to manage the default"
+" tenant."
+msgstr "Om du är klusteradministratören kanske du inte ser ikonen \"Hanteringskonsol\". Istället kan du hantera standardhyresgästen från Klusterhanteraren -> Hyresgästhanteraren och klicka dig vidare för att hantera standardhyresgästen."
+
+#: ../../chapter05.rst:17
+msgid "Here is the Tenant Management Console."
+msgstr "Här är Tenant Management Console."
+
+#: ../../chapter05.rst:21
+msgid ""
+"Please reference the `CentreStack Admin Guide`_ for complete details "
+"about Tenant administration."
+msgstr "Vänligen se `CentreStack Admin Guide`_ för fullständig information om administration av Tenant."
+
+#: ../../chapter05.rst:23
+msgid "Here are a few points that are more important during the deployment phase."
+msgstr "Här är några punkter som är viktigare under utrullningsfasen."
+
+#: ../../chapter05.rst:26
+msgid "Add Tenant"
+msgstr "Lägg till hyresgäst"
+
+#: ../../chapter05.rst:28
+msgid ""
+"You can add a tenant by clicking the 'New Tenant' Button in the Tenant "
+"Manager"
+msgstr "Du kan lägga till en hyresgäst genom att klicka på 'Ny hyresgäst'-knappen i Hyresgästhanteraren"
+
+#: ../../chapter05.rst:34
+msgid "Team Folders"
+msgstr "Team Mappar"
+
+#: ../../chapter05.rst:36
+msgid ""
+"Team Folders are created by the tenant admin. The users that can be "
+"assigned to the team folders are the team users within the tenant. Each "
+"team user can be assigned read or write permissions to the team folder. "
+"For the team users that are not assigned with a specific team folder, the"
+" team folder will not show up. Team folders users can also be assigned "
+"the \"Owner\" permission. The owner permission allows the \"owner\" to "
+"maintain and manage the team folder permissions."
+msgstr "Team-mappar skapas av administratören för hyresgästen. Användarna som kan tilldelas team-mapparna är teamanvändarna inom hyresgästen. Varje teamanvändare kan tilldelas läs- eller skrivrättigheter till team-mappen. För de teamanvändare som inte är tilldelade en specifik team-mapp kommer team-mappen inte att visas. Användare av team-mappar kan också tilldelas \"Ägare\"-behörigheten. Ägarbehörigheten tillåter \"ägaren\" att underhålla och hantera team-mappens behörigheter."
+
+#: ../../chapter05.rst:42
+msgid ""
+"You can navigate to the Team Folders by clicking on the \"Team Folders\" "
+"tab from the left side menu of Tenant Manager."
+msgstr "Du kan navigera till Teammapparna genom att klicka på fliken \"Teammappar\" i den vänstra sidomenyn i Tenant Manager."
+
+#: ../../chapter05.rst:44
+msgid "Here is the Team Folders page."
+msgstr "Här är sidan för Teammappar."
+
+#: ../../chapter05.rst:50
+msgid "User Manager"
+msgstr "Användarhanterare"
+
+#: ../../chapter05.rst:52
+msgid ""
+"In the user manager, you can create users, import users from Active "
+"Directory over LDAP or import users from Active Directory via Server "
+"Agent. Click on the \"Users\" tab from the left side menu of Tenant "
+"Manager. Then click on \"Create or Migrate Users\"."
+msgstr "I användarhanteraren kan du skapa användare, importera användare från Active Directory över LDAP eller importera användare från Active Directory via Server Agent. Klicka på fliken \"Användare\" i den vänstra sidomenyn i Tenant Manager. Klicka sedan på \"Skapa eller migrera användare\"."
+
+#: ../../chapter05.rst:58
+msgid "This should take you to a menu of options to add a new user to the tenant."
+msgstr "Detta bör ta dig till en meny med alternativ för att lägga till en ny användare i klienten."
+
+#: ../../chapter05.rst:64
+msgid "Delegate Administration"
+msgstr "Delegerad administration"
+
+#: ../../chapter05.rst:66
+msgid ""
+"You can add full delegated admin to the list of \"Cloud Administrators\"."
+" Once you reach the tenant dashboard, click \"Settings\" from left side "
+"menu, and then go to the \"User Account & Security\". In \"User Account &"
+" Security\", Click on \"Tenant Administrators\"."
+msgstr "Du kan lägga till fullständig delegerad administratör i listan över \"Cloud Administrators\". När du kommer till hyresgästens instrumentpanel klickar du på \"Inställningar\" i vänster sidomeny och går sedan till \"Användarkonto & Säkerhet\". I \"Användarkonto & Säkerhet\" klickar du på \"Tenant Administrators\"."
+
+#: ../../chapter05.rst:72
+msgid ""
+"At the bottom of the Tenant Administrators page, you can designate the "
+"delegated admin."
+msgstr "Längst ned på sidan för hyresadministratörer kan du utse den delegerade administratören."
+
+#: ../../chapter05.rst:77
+msgid "Active Directory Integration (Optional)"
+msgstr "Active Directory-integrering (Valfritt)"
+
+#: ../../chapter05.rst:79
+msgid ""
+"It is optional to setup the Active Directory Integration. You can get to "
+"the integration page from the Management Console -> Settings -> Active "
+"Directory Settings. The active directory setting here refers to local "
+"Active Directory with LDAP integration. For remote Active Directory, "
+"server agent can be used to connect remote file server folders and remote"
+" Active Directory."
+msgstr "Det är valfritt att konfigurera integrationen med Active Directory. Du kan komma till integrationssidan via Hanteringskonsolen -> Inställningar -> Active Directory-inställningar. Active Directory-inställningen här avser lokal Active Directory med LDAP-integration. För fjärran Active Directory kan serveragent användas för att ansluta fjärranslutna filservermappar och fjärran Active Directory."
+
+#: ../../chapter05.rst:84
+msgid ""
+"Once you reach the tenant dashboard, click \"Settings\" from left side "
+"menu, and then go to the \"Active Directory\" option."
+msgstr "När du kommer till hyresgästens instrumentpanel, klicka på \"Inställningar\" från menyn på vänster sida, och gå sedan till alternativet \"Active Directory\"."
+
+#: ../../chapter05.rst:88
+msgid ""
+"This will take you to the Active Directory Page. After you turn on the "
+"switch and enable Active Directory Integration, you can fill in your "
+"information for Active Directory."
+msgstr "Detta tar dig till sidan för Active Directory. När du aktiverar växeln och slår på Active Directory-integrationen kan du fylla i din information för Active Directory."
+
+#: ../../chapter05.rst:94
+msgid ""
+"If this specific tenant's Active Directory is at a remote location, "
+"please use the CentreStack Server Agent to connect the Active Directory "
+"(No need to use LDAP over Internet WAN connection)."
+msgstr "Om denna specifika hyresgästs Active Directory finns på en avlägsen plats, använd CentreStack Server Agent för att ansluta till Active Directory (det är inte nödvändigt att använda LDAP över internet-WAN-anslutning)."
+
+#: ../../chapter05.rst:100
+msgid "Branding"
+msgstr "Branding"
+
+#: ../../chapter05.rst:102
+msgid ""
+"You can brand the web portal, Windows and Mac clients, iOS and Android "
+"Applications."
+msgstr "Du kan märka webbportalen, Windows- och Mac-klienter, iOS- och Android-applikationer."
+
+#: ../../chapter05.rst:104
+msgid ""
+"The self-service branding starts with the \"Cluster Manager\". In order "
+"to start the branding, you will login to the web portal as the Cluster "
+"Administrator."
+msgstr "Självbetjäning för varumärkning börjar med \"Cluster Manager\". För att påbörja varumärkningen kommer du att logga in på webbportalen som klusteradministratören."
+
+#: ../../chapter05.rst:107
+msgid ""
+"After you login to the web portal, click to the \"Cluster Branding\" "
+"Pages."
+msgstr "Efter att du loggat in på webbportalen, klicka på sidorna för \"Cluster Branding\"."
+
+#: ../../chapter05.rst:111
+msgid ""
+"Please reference the \"Cluster Branding\" section in the `Admin Guide`_ "
+"for the self-hosted CentreStack server."
+msgstr "Vänligen se avsnittet \"Cluster Branding\" i `Admin Guide`_ för den självhostade CentreStack-servern."
+

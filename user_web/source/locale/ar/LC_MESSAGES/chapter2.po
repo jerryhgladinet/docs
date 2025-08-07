@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter2.rst:3
+msgid "Background"
+msgstr ""
+
+#: ../../chapter2.rst:6
+msgid "Architectural Background"
+msgstr "الخلفية المعمارية"
+
+#: ../../chapter2.rst:7
+msgid ""
+"Before we examine the capabilities of the solution, let's review its "
+"architectural background. As illustrated in Figure 1, the |prodname| File"
+" Sync and Share platform has three primary components:"
+msgstr "قبل أن نستعرض قدرات الحل، دعونا نراجع خلفيته المعمارية. كما هو موضح في الشكل 1، منصة |prodname| لمزامنة الملفات ومشاركتها لديها ثلاثة مكونات رئيسية:"
+
+#: ../../chapter2.rst:10
+msgid ""
+"The Storage Layer and the Internal IT infrastructure such as Active "
+"Directory and File Server - to the right"
+msgstr "طبقة التخزين والبنية التحتية لتكنولوجيا المعلومات الداخلية مثل الدليل النشط وخادم الملفات - إلى اليمين"
+
+#: ../../chapter2.rst:11
+msgid "The |prodname| Cluster (Server Farm) - at the center"
+msgstr "عنقود |prodname| (مزرعة الخوادم) - في المركز"
+
+#: ../../chapter2.rst:12
+msgid "The |prodname| access client agents - to the left"
+msgstr "وكلاء عميل الوصول |prodname| - إلى اليسار"
+
+#: ../../chapter2.rst:16
+msgid ""
+"The web portal belongs to the client tier on the left. Web portal "
+"functionality includes"
+msgstr "البوابة الإلكترونية تنتمي إلى طبقة العميل على اليسار. تشمل وظائف البوابة الإلكترونية"
+
+#: ../../chapter2.rst:18
+msgid "administration"
+msgstr "الإدارة"
+
+#: ../../chapter2.rst:19
+msgid "files and folders management"
+msgstr "إدارة الملفات والمجلدات"
+
+#: ../../chapter2.rst:20
+msgid "download other client agent software"
+msgstr "تحميل برنامج وكيل العميل الآخر"
+
+#: ../../chapter2.rst:21
+msgid "files and folders sharing"
+msgstr "مشاركة الملفات والمجلدات"
+
+#: ../../chapter2.rst:24
+msgid "Two Deployment Scenarios"
+msgstr "سيناريوهات النشر الاثنين"
+
+#: ../../chapter2.rst:25
+msgid ""
+"The services can be deployed in flexible combinations to meet different "
+"needs. There are two primary ways to deploy |prodname|."
+msgstr "يمكن نشر الخدمات بتركيبات مرنة لتلبية احتياجات مختلفة. هناك طريقتان أساسيتان لنشر |prodname|."
+
+#: ../../chapter2.rst:27
+msgid ""
+"Deploy in the same site as the File Servers and Active Directory domain "
+"controllers:"
+msgstr "نشر في نفس الموقع مثل خوادم الملفات ومتحكمات نطاق Active Directory:"
+
+#: ../../chapter2.rst:31
+msgid ""
+"Deploy in a site remote, such as Amazon Web Services EC2, Microsoft "
+"Azure, or in a Data Center where the Managed Service Provider (MSP) hosts"
+" their infrastructure:"
+msgstr "قم بالتنصيب في موقع بعيد، مثل خدمات أمازون ويب Amazon Web Services EC2، أو مايكروسوفت أزور Microsoft Azure، أو في مركز بيانات يستضيف فيه مزود الخدمة المُدارة (MSP) بنيتهم التحتية:"
+
+#: ../../chapter2.rst:36
+msgid "Existing Infrastructure"
+msgstr "البنية التحتية الحالية"
+
+#: ../../chapter2.rst:39
+msgid "Active Directory"
+msgstr "الدليل النشط"
+
+#: ../../chapter2.rst:40
+msgid ""
+"|prodname| can connect to existing IT infrastructure such as current file"
+" servers and existing Active Directory."
+msgstr "|prodname| يمكنه الاتصال بالبنية التحتية لتكنولوجيا المعلومات الحالية مثل خوادم الملفات الحالية ودليل Active Directory الموجود."
+
+#: ../../chapter2.rst:44
+msgid "Data Storage"
+msgstr "تخزين البيانات"
+
+#: ../../chapter2.rst:45
+msgid ""
+"|prodname| Storage can actually be powered by any storage service, "
+"including:"
+msgstr "|prodname| التخزين يمكن أن يعمل بالفعل بواسطة أي خدمة تخزين، بما في ذلك:"
+
+#: ../../chapter2.rst:47
+msgid "Local File Server Network Share"
+msgstr "شبكة مشاركة ملفات الخادم المحلي"
+
+#: ../../chapter2.rst:49
+msgid "CIFS/SMB Network Share"
+msgstr "شبكة مشاركة CIFS/SMB"
+
+#: ../../chapter2.rst:50
+msgid "DFS (Microsoft Distributed File System)"
+msgstr "DFS (نظام الملفات الموزع من مايكروسوفت)"
+
+#: ../../chapter2.rst:52
+msgid "Cloud Storage Services"
+msgstr "خدمات التخزين السحابي"
+
+#: ../../chapter2.rst:54
+msgid "Amazon S3 (or any S3 compatible service)"
+msgstr "أمازون S3 (أو أي خدمة متوافقة مع S3)"
+
+#: ../../chapter2.rst:55
+msgid "OpenStack Swift"
+msgstr "OpenStack سويفت"
+
+#: ../../chapter2.rst:56
+msgid "Windows Azure Blob Storage"
+msgstr "تخزين بلوب ويندوز أزور"
+
+#: ../../chapter2.rst:57
+msgid "Windows Azure File Storage"
+msgstr "تخزين ملفات ويندوز أزور"
+
+#: ../../chapter2.rst:58
+msgid "Google Cloud Storage"
+msgstr "تخزين سحابي من Google"
+
+#: ../../chapter2.rst:59
+msgid "Rackspace CloudFiles"
+msgstr "ملفات Rackspace Cloud"
+
+#: ../../chapter2.rst:61
+msgid ""
+"When a new |prodname| account (Tenant Account) is created, any of these "
+"services can be selected to power the tenant's root storage folder. And, "
+"regardless of which provider you select here, additional services can be "
+"mounted below the root of the tenants' storage tree where they will "
+"appear as a sub-folder in the root folder."
+msgstr "عندما يتم إنشاء حساب |prodname| جديد (حساب المستأجر)، يمكن اختيار أي من هذه الخدمات لتشغيل مجلد التخزين الجذري للمستأجر. وبغض النظر عن أي مزود تختاره هنا، يمكن تركيب خدمات إضافية أسفل جذر شجرة تخزين المستأجرين حيث ستظهر كمجلد فرعي في المجلد الجذري."
+
+#: ../../chapter2.rst:65
+msgid "|prodname| Server Farm (Cluster)"
+msgstr "|prodname| مزرعة الخوادم (العنقودية)"
+
+#: ../../chapter2.rst:67
+msgid ""
+"The |prodname| Cluster (One or more |prodname| servers) provides the "
+"access infrastructure and management services and acts as a liaison "
+"between the user-facing access clients and the backend storage services. "
+"It consists of a group of web services which include:"
+msgstr "يوفر تجمع |prodname| (خادم واحد أو أكثر من خوادم |prodname|) البنية التحتية للوصول وخدمات الإدارة ويعمل كوسيط بين عملاء الوصول الذين يواجهون المستخدمين وخدمات التخزين الخلفية. يتكون من مجموعة من خدمات الويب والتي تشمل:"
+
+#: ../../chapter2.rst:69
+msgid "Account Management"
+msgstr "إدارة الحسابات"
+
+#: ../../chapter2.rst:70
+msgid "Login and User Load Balancing"
+msgstr "تسجيل الدخول وتوازن تحميل المستخدم"
+
+#: ../../chapter2.rst:71
+msgid "Web Portal UI"
+msgstr "واجهة المستخدم للبوابة الإلكترونية"
+
+#: ../../chapter2.rst:72
+msgid "Generic Storage Services (powered by backend provider)"
+msgstr "خدمات التخزين العامة (مدعومة من مزود الخدمة الخلفي)"
+
+#: ../../chapter2.rst:73
+msgid "Data Persistence"
+msgstr "استمرارية البيانات"
+
+#: ../../chapter2.rst:74
+msgid "Local Storage/Device Relay"
+msgstr "تخزين/جهاز ترحيل محلي"
+
+#: ../../chapter2.rst:76
+msgid ""
+"These services can be deployed in flexible combinations to meet different"
+" needs."
+msgstr "يمكن نشر هذه الخدمات بتركيبات مرنة لتلبية احتياجات مختلفة."
+
+#: ../../chapter2.rst:78
+msgid ""
+"|prodname| has an all-in-one installer, so it can easily be self-hosted "
+"by you or you can use the one hosted already in the cloud."
+msgstr "|prodname| يمتلك مُثبتًا شاملاً، لذا يُمكنك استضافته بنفسك بسهولة أو يُمكنك استخدام النسخة المُستضافة بالفعل في السحابة."
+
+#: ../../chapter2.rst:83
+msgid "|prodname| Client Agent Software"
+msgstr "|prodname| برنامج وكيل العميل"
+
+#: ../../chapter2.rst:85
+msgid ""
+"The |prodname| Clients enable the use of |prodname| services. Supported "
+"clients include:"
+msgstr "يتيح عملاء |prodname| استخدام خدمات |prodname|. العملاء المدعومون يشملون:"
+
+#: ../../chapter2.rst:87
+msgid "Desktop Client for Windows"
+msgstr "عميل سطح المكتب لنظام التشغيل ويندوز"
+
+#: ../../chapter2.rst:88
+msgid "Desktop Client for Mac"
+msgstr "عميل سطح المكتب لنظام التشغيل ماك"
+
+#: ../../chapter2.rst:89
+msgid "Server Agent for Windows Server (background sync)"
+msgstr "وكيل الخادم لويندوز سيرفر (مزامنة الخلفية)"
+
+#: ../../chapter2.rst:90
+msgid "iOS client for iPhone and iPad"
+msgstr "عميل iOS للآيفون والآيباد"
+
+#: ../../chapter2.rst:91
+msgid "Android Client"
+msgstr "عميل أندرويد"
+
+#: ../../chapter2.rst:92
+msgid "Windows Phone Client"
+msgstr "عميل ويندوز فون"
+
+#: ../../chapter2.rst:93
+msgid "Windows Tablet Client"
+msgstr "عميل الجهاز اللوحي ويندوز"
+
+#: ../../chapter2.rst:94
+msgid "Web Client (Internet Explorer, Chrome, Safari, Firefox, Opera and etc)"
+msgstr "عميل الويب (إنترنت إكسبلورر، كروم، سفاري، فايرفوكس، أوبرا وغيرها)"
+
+#: ../../chapter2.rst:96
+msgid ""
+"These clients allow native use of cloud storage on the corresponding "
+"device through a mapped drive, file share or whatever mechanism is "
+"commonly used to access files. This makes it easy for a user to access "
+"all their files with any device or share them with users of any device."
+msgstr "تسمح هذه العملاء باستخدام سحابة التخزين بشكل أصيل على الجهاز المقابل من خلال محرك مخصص، أو مشاركة ملفات أو أي آلية معتادة للوصول إلى الملفات. هذا يجعل من السهل على المستخدم الوصول إلى جميع ملفاتهم باستخدام أي جهاز أو مشاركتها مع مستخدمي أي جهاز."
+
+#: ../../chapter2.rst:98
+msgid ""
+"Each client tries to keep things familiar for the end user. For example, "
+"the server client integrates cloud storage with file shares so that "
+"shared cloud folders can be easily published as file shares with access "
+"controls that can be based on existing Active Directory identities and "
+"the desktop client maintains a mapped drive view of the cloud storage "
+"which operates like any other drive on the desktop."
+msgstr "يحاول كل عميل الحفاظ على الأمور مألوفة للمستخدم النهائي. على سبيل المثال، يدمج عميل الخادم التخزين السحابي مع المشاركات الملفية بحيث يمكن نشر المجلدات السحابية المشتركة بسهولة كمشاركات ملفات مع ضوابط الوصول التي يمكن أن تستند إلى هويات Active Directory القائمة ويحافظ عميل سطح المكتب على عرض محرك الأقراص المعين للتخزين السحابي الذي يعمل مثل أي محرك أقراص آخر على سطح المكتب."
+

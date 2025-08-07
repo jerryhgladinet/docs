@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Installation"
+msgstr "安装"
+
+#: ../../chapter02.rst:7
+msgid ""
+"If this is the very first time you are installing |prodname| server, it "
+"is recommended that you do the all-in-one installation by preparing a "
+"clean Windows 2025/2022/2019/2016 virtual machine and installing with all"
+" the default parameters. The All-in-one deployment is the smallest fully "
+"functional setup and can be used for production environment with < 1000 "
+"users."
+msgstr "如果这是您第一次安装 |prodname| 服务器，建议您准备一台干净的 Windows 2025/2022/2019/2016 虚拟机，并使用所有默认参数进行全功能安装。全功能一体化部署是最小的完全功能设置，可用于少于 1000 用户的生产环境。"
+
+#: ../../chapter02.rst:11
+msgid "Step 1: Prepare the File Storage"
+msgstr "步骤1：准备文件存储"
+
+#: ../../chapter02.rst:13
+msgid ""
+"|prodname| server is about to cloudify your file storage and enable "
+"remote and mobile access, with sync and share capability. So, the first "
+"question is: What is your file storage solution?"
+msgstr "|prodname| 服务器即将云化您的文件存储，并启用远程和移动访问，具备同步和共享功能。那么，首个问题是：您的文件存储解决方案是什么？"
+
+#: ../../chapter02.rst:15
+msgid ""
+"Your file storage can be a Windows File Server network share or any "
+"storage devices that supports CIFS/SMB protocol. It can also be from "
+"iSCSI devices that you can mount storage directly as a drive letter in "
+"the |prodname| server. It can also be a container inside a private "
+"instance of OpenStack Swift, a bucket in Amazon S3 compatible storage, or"
+" a container from Windows Azure blob storage. You will need the basic "
+"access information ready. For example,"
+msgstr "您的文件存储可以是Windows文件服务器网络共享，或任何支持CIFS/SMB协议的存储设备。它也可以来自于您可以直接作为驱动器字母在 |prodname| 服务器上挂载的iSCSI设备。它还可以是OpenStack Swift私有实例中的容器、Amazon S3兼容存储的存储桶，或者Windows Azure blob存储的容器。您将需要准备基本的访问信息。例如，"
+
+#: ../../chapter02.rst:17
+msgid "**Windows File Server**"
+msgstr "**Windows 文件服务器**"
+
+#: ../../chapter02.rst:19
+msgid ""
+"If it is a Windows File Server, you will need the UNC path to the network"
+" share and the user credentials for accessing the folder."
+msgstr "如果它是一个Windows文件服务器，您将需要网络共享的UNC路径和访问文件夹的用户凭据。"
+
+#: ../../chapter02.rst:21
+msgid ""
+"If it is from a local C: drive or local D: drive, you will need a local "
+"user credential that has full permission to the local folder."
+msgstr "如果它来自本地C:驱动器或本地D:驱动器，您将需要一个具有对本地文件夹完全权限的本地用户凭证。"
+
+#: ../../chapter02.rst:23
+msgid "**OpenStack Swift**"
+msgstr "**OpenStack Swift**"
+
+#: ../../chapter02.rst:25
+msgid ""
+"If it is OpenStack Swift, you will need the authentication URL and "
+"credentials and understand the version of your authentication setup, such"
+" as KeyStone V2 or KeyStone V3 or just the classic authentication."
+msgstr "如果是OpenStack Swift，您将需要认证URL和凭据，并了解您的认证设置版本，例如KeyStone V2或KeyStone V3，或者只是经典认证。"
+
+#: ../../chapter02.rst:27
+msgid "**Amazon S3**"
+msgstr "**亚马逊S3**"
+
+#: ../../chapter02.rst:29
+msgid ""
+"If it is Amazon S3, you will need the Access Key and Secret Key and a "
+"Bucket Name. If the Access Key and Secret Key is from an IAM user, you "
+"will need to make sure the IAM user has full permission to the bucket."
+msgstr "如果是Amazon S3，您将需要访问密钥和秘密密钥以及一个存储桶名称。如果访问密钥和秘密密钥来自IAM用户，您需要确保IAM用户对存储桶有完全的权限。"
+
+#: ../../chapter02.rst:31
+msgid "**Windows Azure Blob Storage**"
+msgstr "**Windows Azure Blob 存储**"
+
+#: ../../chapter02.rst:33
+msgid ""
+"You will need the \"Storage Account Name\" and the \"Primary Key\" and a "
+"container name."
+msgstr "您将需要“存储账户名称”、“主密钥”和一个容器名称。"
+
+#: ../../chapter02.rst:37
+msgid ""
+"The initial deployment of |prodname| configures the back end storage to "
+"use the ``C:\\CentreStack`` directory on the |prodname| server. This "
+"default back end storage location can be changed to another location at a"
+" later time by modifying the back end storage of the default tenant. Each"
+" |prodname| tenant can be configured for different back end storage "
+"locations."
+msgstr "初始部署 |prodname| 时，会配置后端存储使用 |prodname| 服务器上的 ``C:\CentreStack`` 目录。这个默认的后端存储位置稍后可以通过修改默认租户的后端存储来更改。每个 |prodname| 租户都可以配置不同的后端存储位置。"
+
+#: ../../chapter02.rst:40
+msgid "Step 2: Prepare Active Directory (Optional)"
+msgstr "步骤2：准备活动目录（可选）"
+
+#: ../../chapter02.rst:42
+msgid ""
+"If you are integrating Active Directory, you will need the following "
+"information:"
+msgstr "如果您正在集成Active Directory，您将需要以下信息："
+
+#: ../../chapter02.rst:44
+msgid "The DNS name (or IP address) of an Active Directory Domain Controller."
+msgstr "Active Directory 域控制器的 DNS 名称（或 IP 地址）。"
+
+#: ../../chapter02.rst:45
+msgid "A service account that can access the Active Directory."
+msgstr "一个可以访问活动目录的服务账户。"
+
+#: ../../chapter02.rst:46
+msgid "The DNS name of the Active Directory Domain."
+msgstr "活动目录域的DNS名称。"
+
+#: ../../chapter02.rst:50
+msgid ""
+"If your Active Directory or the client's Active Directory is remotely "
+"located with regard to the |prodname| Server, then you should use Server "
+"Agent software to connect the Active Directory instead of using LDAP to "
+"connect Active Directory."
+msgstr "如果您的活动目录或客户的活动目录与 |prodname| 服务器相对较远，则应使用服务器代理软件来连接活动目录，而不是使用LDAP连接活动目录。"
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you are using Single Sign-On service such as Azure AD, Active "
+"Directory Federation Service, OneLogin or OKTA, you can confige SAML "
+"based authentication instead of using Active Directory directly. Normally"
+" those identity service providers are connected to the corporate Active "
+"Directory anyway."
+msgstr "如果您正在使用单点登录服务，如Azure AD、Active Directory 联合服务、OneLogin或OKTA，您可以配置基于SAML的身份验证，而不是直接使用Active Directory。通常这些身份服务提供商都会连接到企业的Active Directory。"
+
+#: ../../chapter02.rst:57
+msgid "Step 3: Prepare the Database Server"
+msgstr "步骤3：准备数据库服务器"
+
+#: ../../chapter02.rst:61
+msgid ""
+"If you are installing the all-in-one instance, you can skip this step "
+"because the all-in-one installer will install a PostgreSQL and configure "
+"the database accordingly. See `Step 5: Start Installation`_ below for "
+"more about the all-in-one installation."
+msgstr "如果您正在安装全功能一体化实例，您可以跳过此步骤，因为全功能一体化安装程序将会安装PostgreSQL并相应地配置数据库。有关全功能一体化安装的更多信息，请参见下面的 `步骤5：开始安装`_。"
+
+#: ../../chapter02.rst:63
+msgid ""
+"This step is only for installation that has a separate database node "
+"which is not installed by default with any worker node."
+msgstr "此步骤仅适用于安装了独立数据库节点的安装情况，该数据库节点默认不会随任何工作节点一起安装。"
+
+#: ../../chapter02.rst:65
+msgid ""
+"All |prodname| servers in a cluster will share one single centralized "
+"database."
+msgstr "集群中的所有 |prodname| 服务器将共享一个单一的集中式数据库。"
+
+#: ../../chapter02.rst:69
+msgid ""
+"With the release of the |prodname| version 9.5.5409.41172, the default "
+"database engine for the \"all in one\" deployment has switched to "
+"PostgreSQL as opposed to Microsoft SQL Server Express Edition. The main "
+"reason to make this switch was to avoid the built-in limitations of SQL "
+"Server Express Edition (1 GB RAM and 10 GB max database file size)."
+msgstr "随着 |prodname| 版本9.5.5409.41172的发布，\"一体化\"部署的默认数据库引擎已从Microsoft SQL Server Express Edition切换到PostgreSQL。进行这一切换的主要原因是为了避免SQL Server Express Edition内置的限制（1 GB RAM和10 GB最大数据库文件大小）。"
+
+#: ../../chapter02.rst:71
+msgid ""
+"There are two places that store persistent information. The first place "
+"is the File Storage mentioned in Step 1. The second place is the "
+"|prodname| database. There is configuration information such as user "
+"name, team folder, shared folder, login token in the database. There is "
+"also runtime information such as audit trace and file change log in the "
+"database."
+msgstr "有两个地方存储持久信息。第一个地方是第一步中提到的文件存储。第二个地方是 |prodname| 数据库。数据库中有配置信息，如用户名、团队文件夹、共享文件夹、登录令牌。数据库中还有运行时信息，如审计跟踪和文件更改日志。"
+
+#: ../../chapter02.rst:73
+msgid ""
+"The default |prodname| deployment utilizes a PostgreSQL local database on"
+" the |prodname| Server. We provide this option to allow the trial "
+"installation to be as simple as possible."
+msgstr "默认的 |prodname| 部署使用的是位于 |prodname| 服务器上的 PostgreSQL 本地数据库。我们提供这个选项是为了让试用安装尽可能简单。"
+
+#: ../../chapter02.rst:75
+msgid ""
+"Currently |prodname| supports PostgreSQL, MySQL or Microsoft SQL Server "
+"Database Management Systems (DBMS). Some good reasons for deploying an "
+"external database server are performance, scalability and/or high "
+"availability."
+msgstr "目前 |prodname| 支持PostgreSQL、MySQL或Microsoft SQL Server数据库管理系统（DBMS）。部署外部数据库服务器的一些好处包括性能、可扩展性和/或高可用性。"
+
+#: ../../chapter02.rst:78
+msgid "Microsoft SQL Server"
+msgstr "Microsoft SQL Server"
+
+#: ../../chapter02.rst:79
+msgid ""
+"If you are using an external Microsoft SQL Server as opposed to the "
+"default MySQL all-in-one deployment, then you must ensure the **SQL "
+"Server Authentication is configured for Mixed Mode Authentication**. The "
+"|prodname| Server connection requires the use of a SQL account, not a "
+"Windows integrated authentication account."
+msgstr "如果您使用的是外部Microsoft SQL Server而不是默认的MySQL全包部署，则必须确保 **SQL Server认证配置为混合模式认证**。|prodname| 服务器连接需要使用SQL账户，而不是Windows集成认证账户。"
+
+#: ../../chapter02.rst:81
+msgid ""
+"During the setup of the first worker node, the installer will need to "
+"create a database, create tables inside the database and create stored "
+"procedures in the database. Therefore, it requires a SQL security account"
+" that has enough privileges for the installation."
+msgstr "在设置第一个工作节点期间，安装程序需要创建一个数据库，在数据库中创建表，并在数据库中创建存储过程。因此，它需要一个具有足够安装权限的SQL安全账户。"
+
+#: ../../chapter02.rst:83
+msgid ""
+"If the database server is external to the |prodname| server, make sure "
+"TCP protocol is enabled and firewall is opened to accept SQL connections."
+" Default TCP port is 1433 and that port needs to be opened on firewall. "
+"If you have SQL Server listening on a different port, that port will need"
+" to be opened as well."
+msgstr "如果数据库服务器位于 |prodname| 服务器之外，请确保启用了TCP协议，并且防火墙已开放以接受SQL连接。默认的TCP端口是1433，防火墙需要开放该端口。如果您的SQL Server监听的是其他端口，也需要将该端口开放。"
+
+#: ../../chapter02.rst:86
+msgid "MySQL Server"
+msgstr "MySQL服务器"
+
+#: ../../chapter02.rst:87
+msgid ""
+"MySQL typically listens on TCP port 3306. Make sure this port is opened "
+"on the firewall."
+msgstr "MySQL通常监听TCP端口3306。确保防火墙已开放此端口。"
+
+#: ../../chapter02.rst:90
+msgid "PostgreSQL Server"
+msgstr "PostgreSQL服务器"
+
+#: ../../chapter02.rst:91
+msgid ""
+"PostgreSQL usually is the default option for the all-in-one installation."
+" The default port is 5679 but most of the time the database is running on"
+" the \"localhost\", same as the |prodname| server."
+msgstr "PostgreSQL通常是全功能安装的默认选项。默认端口是5679，但大多数情况下数据库运行在\"localhost\"上，与 |prodname| 服务器相同。"
+
+#: ../../chapter02.rst:95
+msgid "Step 4: Prepare the |prodname| Server"
+msgstr "步骤4：准备 |prodname| 服务器"
+
+#: ../../chapter02.rst:97
+msgid ""
+"The easiest way to prepare the |prodname| server is to have a clean "
+"Windows Server 2025/2022/2019/2016 OS with English locale and make sure "
+"the worker nodes are all in the same time zone."
+msgstr "准备 |prodname| 服务器的最简单方法是使用一个干净的英文区域设置的Windows Server 2025/2022/2019/2016操作系统，并确保所有工作节点都处于相同的时区。"
+
+#: ../../chapter02.rst:99
+msgid ""
+"We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a "
+"preferred server OS running on a virtual machine."
+msgstr "我们推荐使用 Windows Server 2025、2022、2019 或 Windows Server 2016 作为首选的服务器操作系统，在虚拟机上运行。"
+
+#: ../../chapter02.rst:105
+msgid "**Supported Operating Systems**"
+msgstr "**支持的操作系统**"
+
+#: ../../chapter02.rst:102
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../chapter02.rst:103
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
+
+#: ../../chapter02.rst:104
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
+
+#: ../../chapter02.rst:105
+msgid "Windows Server 2016"
+msgstr "Windows Server 2016"
+
+#: ../../chapter02.rst:109
+msgid "**Supported CPU**"
+msgstr "**支持的CPU**"
+
+#: ../../chapter02.rst:108
+msgid "64-bit Intel or AMD x64 architecture"
+msgstr "64位英特尔或AMD x64架构"
+
+#: ../../chapter02.rst:109
+msgid "2 - virtual CPUs minimum (4 - virtual CPUs or more are recommended)"
+msgstr "2 - 虚拟CPU最小配置（建议4 - 虚拟CPU或更多）"
+
+#: ../../chapter02.rst:112
+msgid "**Memory**"
+msgstr "**内存**"
+
+#: ../../chapter02.rst:112
+msgid "8GB RAM minimum (16 GB or more is preferred)"
+msgstr "最低需要8GB RAM（建议16GB或更多）"
+
+#: ../../chapter02.rst:115
+msgid "**Hard Disk space**"
+msgstr "**硬盘空间**"
+
+#: ../../chapter02.rst:115
+msgid ""
+"100 GB minimum, preferably SSD. This assumes back end file storage is not"
+" located on the |prodname| server itself."
+msgstr "至少100GB，最好是SSD。这假设后端文件存储不位于 |prodname| 服务器本身。"
+
+#: ../../chapter02.rst:118
+msgid "Step 5: Start Installation"
+msgstr "步骤5：开始安装"
+
+#: ../../chapter02.rst:120
+msgid ""
+"You can get the |prodname| installation package from the |prodname| "
+"partner portal (by logging in to https://partner.centrestack.com/login/) "
+"and going to the Self-Hosted |prodname| section."
+msgstr "您可以从 |prodname| 合作伙伴门户网站（通过登录https://partner.centrestack.com/login/）获取 |prodname| 安装包，并前往自托管 |prodname| 部分。"
+
+#: ../../chapter02.rst:124
+msgid ""
+"Sign into the |prodname| server console (RDP or physical console are "
+"fine) with administrator rights. Once you click the **\"Download\"** "
+"button on the Partner Portal, the installer will appear either in "
+"downloads or as a link at the bottom of your browser. Click the "
+"executable file to begin the installation."
+msgstr "使用管理员权限登录到 |prodname| 服务器控制台（远程桌面或物理控制台均可）。一旦您在合作伙伴门户上点击 **\"下载\"** 按钮，安装程序将出现在下载文件夹中或作为浏览器底部的链接。点击可执行文件开始安装。"
+
+#: ../../chapter02.rst:126
+msgid "You will see the welcome screen."
+msgstr "您将看到欢迎界面。"
+
+#: ../../chapter02.rst:130 ../../chapter02.rst:136
+msgid "Click 'Next'"
+msgstr "点击“下一步”"
+
+#: ../../chapter02.rst:132
+msgid "And accept the EULA"
+msgstr "并接受最终用户许可协议"
+
+#: ../../chapter02.rst:140
+msgid "And Click Install."
+msgstr "点击安装。"
+
+#: ../../chapter02.rst:144
+msgid ""
+"After the installation has been completed successfully, a reboot is "
+"required. Click 'Restart'."
+msgstr "安装成功完成后，需要重新启动。点击“重启”。"
+
+#: ../../chapter02.rst:148
+msgid ""
+"|prodname| will install and then you will need to restart your system to "
+"complete the installation."
+msgstr "|prodname| 将会安装，然后您需要重启系统以完成安装。"
+
+#: ../../chapter02.rst:152
+msgid ""
+"|prodname| is a multi-tenant solution. The Tenant Manager scope is "
+"defined for a tenant administrator. For a multi-tenant Cluster Server "
+"system, each tenant has an administrator. For a single-tenant Cluster "
+"Server system, the default cluster administrator is also the tenant "
+"administrator."
+msgstr "|prodname| 是一个多租户解决方案。租户管理范围是为租户管理员定义的。对于多租户集群服务器系统，每个租户都有一个管理员。对于单租户集群服务器系统，默认的集群管理员也是租户管理员。"
+
+#: ../../chapter02.rst:156
+msgid ""
+"After the reboot and login to the Windows session again with the same "
+"Windows admin user credential, it may take 3-5 minutes before all the "
+"windows services start and a web browser page will pop-up."
+msgstr "重新启动并使用相同的Windows管理员用户凭据再次登录Windows会话后，可能需要3-5分钟所有的windows服务才会启动，随后会弹出一个网页浏览器页面。"
+
+#: ../../chapter02.rst:159
+msgid ""
+"For the next screen, if you have an existing database use the pull-down "
+"menu to select a different option otherwise use the default which will "
+"also install the PostgreSQL Community Edition database."
+msgstr "对于下一个屏幕，如果您有现有的数据库，请使用下拉菜单选择其他选项；否则，请使用默认选项，该选项也将安装PostgreSQL社区版数据库。"
+
+#: ../../chapter02.rst:163
+msgid ""
+"In the next screen, enter your Partner Account login credentials to "
+"complete the installation."
+msgstr "在下一个屏幕中，输入您的合作伙伴账户登录凭据以完成安装。"
+

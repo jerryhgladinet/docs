@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../task_manager.rst:2
+msgid "Task Manager"
+msgstr "Gerenciador de Tarefas"
+
+#: ../../task_manager.rst:4
+msgid "Access the **Task Manager** from the side menu."
+msgstr "Acesse o **Gerenciador de Tarefas** a partir do menu lateral."
+
+#: ../../task_manager.rst:8
+msgid ""
+"If some tasks are pending, the list will be shown in the Task Manager. "
+"Tap on the **Refresh** (1) button to update the task list and the "
+"**Delete** (2) to delete all tasks."
+msgstr "Se algumas tarefas estiverem pendentes, a lista será exibida no Gerenciador de Tarefas. Toque no botão **Atualizar** (1) para atualizar a lista de tarefas e no **Excluir** (2) para deletar todas as tarefas."
+
+#: ../../task_manager.rst:12
+msgid "Any individual task can be deleted by pressing the delete button."
+msgstr "Qualquer tarefa individual pode ser excluída pressionando o botão de deletar."
+
+#: ../../task_manager.rst:16
+msgid ""
+"A task that is displayed as a green running image means that it is "
+"currently being executed."
+msgstr "Uma tarefa que é exibida como uma imagem verde em execução significa que ela está sendo executada no momento."
+
+#: ../../task_manager.rst:20
+msgid "Once all tasks are completed, the **No Tasks Found** page is displayed."
+msgstr "Uma vez que todas as tarefas estejam concluídas, a página **Nenhuma Tarefa Encontrada** será exibida."
+

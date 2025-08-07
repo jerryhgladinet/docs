@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Tenant Administrator"
+msgstr "Vuokraajan pääkäyttäjä"
+
+#: ../../chapter11.rst:5
+msgid ""
+"Please reference the `Admin Guide`__ for full documentation of the tenant"
+" administration. Here we will go over several commonly touched areas for "
+"tenant administrators."
+msgstr "Viitaa `Admin Guide`__ saadaksesi kattavan dokumentaation vuokraajan hallinnasta. Tässä käymme läpi useita yleisesti käsiteltäviä alueita vuokraajan ylläpitäjille."
+
+#: ../../chapter11.rst:10
+msgid ""
+"After you enter the \"management console\", you will be in the tenant "
+"manager. You can access the tenant by clicking on the desired tenant from"
+" the options."
+msgstr "Kun olet kirjautunut sisään \"hallintakonsoliin\", olet vuokraajan hallinnassa. Voit käyttää vuokraajaa napsauttamalla haluamaasi vuokraajaa vaihtoehdoista."
+
+#: ../../chapter11.rst:15
+msgid ""
+"Under Management Console, an admin can configure storage, monitor shared "
+"objects, create and manage team folders, manage users, configure granular"
+" group policies, add new tenant administrators, look at different "
+"reports, and under advanced configure AD etc."
+msgstr "Hallintakonsolin alla ylläpitäjä voi määrittää tallennustilaa, valvoa jaettuja kohteita, luoda ja hallita tiimikansioita, hallita käyttäjiä, määrittää tarkkoja ryhmäkäytäntöjä, lisätä uusia vuokraajan ylläpitäjiä, tarkastella erilaisia raportteja ja edistyneissä asetuksissa konfiguroida AD:tä jne."
+
+#: ../../chapter11.rst:17
+msgid ""
+"After you click a tenant, you will be in the tenant dashboard. You can "
+"click through to different managers. You can manage users **(1)** and "
+"folders **(2)**. If you are using an Active Directory for importing users"
+" and permissions you can connect to your Active Directory by clicking the"
+" \"Configure Now\" **(3)**."
+msgstr "Kun napsautat vuokralaista, siirryt vuokralaisen hallintapaneeliin. Voit siirtyä eri hallintoihin. Voit hallita käyttäjiä **(1)** ja kansioita **(2)**. Jos käytät Active Directorya käyttäjien ja oikeuksien tuomiseen, voit yhdistää Active Directorysi napsauttamalla \"Konfiguroi nyt\" **(3)**."
+
+#: ../../chapter11.rst:22
+msgid "MANAGE USERS AND FILES"
+msgstr "HALLITSE KÄYTTÄJIÄ JA TIEDOSTOJA"
+
+#: ../../chapter11.rst:27
+msgid "User Manager"
+msgstr "Käyttäjähallinta"
+
+#: ../../chapter11.rst:29
+msgid ""
+"You can access the user manager by clicking one of these items in the "
+"Tenant Dashboard."
+msgstr "Voit käyttää käyttäjähallintaa napsauttamalla jotakin näistä kohteista Vuokraajan koontinäytössä."
+
+#: ../../chapter11.rst:34
+msgid "ACCESSING THE USER MANAGER"
+msgstr "KÄYTTÄJÄHALLINNAN KÄYTTÖÖNOTTO"
+
+#: ../../chapter11.rst:38
+msgid "Active Directory - LDAP"
+msgstr "Active Directory - LDAP"
+
+#: ../../chapter11.rst:40
+msgid ""
+"When you \"Create or Migrate User\" **(1)** in user manager, there are "
+"some options for adding new users. Click \"Active Directory\" **(2)**, "
+"you can add your local AD settings. Select \"Enable Active Directory "
+"Integration\" **(3)**."
+msgstr "Kun luot tai siirrät käyttäjää **(1)** käyttäjähallinnassa, on olemassa joitakin vaihtoehtoja uusien käyttäjien lisäämiseen. Napsauta \"Active Directory\" **(2)**, voit lisätä paikalliset AD-asetuksesi. Valitse \"Ota käyttöön Active Directory -integraatio\" **(3)**."
+
+#: ../../chapter11.rst:45
+msgid "CONNECTING TO ACTIVE DIRECTORY (AD)"
+msgstr "YHDISTÄMINEN AKTIIVIHAKEMISTOON (AD)"
+
+#: ../../chapter11.rst:47
+msgid ""
+"This gives you access to all the settings fields and the Advanced "
+"Settings Tab **(4)**. Once you have filled in the settings with an "
+"Administrator User account from your Active Directory, click **APPLY** to"
+" accept your changes."
+msgstr "Tämä antaa sinulle pääsyn kaikkiin asetusalueisiin ja Lisäasetukset-välilehteen **(4)**. Kun olet täyttänyt asetukset Aktiivihakemiston Ylläpitäjän käyttäjätilillä, napsauta **APPLY** hyväksyäksesi muutokset."
+
+#: ../../chapter11.rst:51
+msgid "Add Users"
+msgstr "Lisää käyttäjiä"
+
+#: ../../chapter11.rst:53
+msgid ""
+"You can add users from within the User Manager by clicking the \"Create "
+"or Migrate User\" button to open the **\"Options for Adding New Users\"**"
+" panel. In that panel you have several options: add a Native User, Batch "
+"Create Users, import Active Directory users and permissions, and if you "
+"have Server Agents actively connected, you will also see those servers "
+"listed here as well."
+msgstr "Voit lisätä käyttäjiä Käyttäjähallinnan kautta napsauttamalla **\"Luo tai Siirrä Käyttäjä\"** -painiketta, jolloin avautuu **\"Vaihtoehdot Uusien Käyttäjien Lisäämiseksi\"** -paneeli. Tässä paneelissa on useita vaihtoehtoja: lisää Natiivikäyttäjä, Luo Käyttäjiä Erissä, tuo Active Directory -käyttäjiä ja oikeuksia, ja jos sinulla on aktiivisesti yhdistettyjä Palvelinagentteja, näet myös nämä palvelimet täällä."
+
+#: ../../chapter11.rst:58
+msgid "ADDING USERS"
+msgstr "KÄYTTÄJIEN LISÄÄMINEN"
+
+#: ../../chapter11.rst:60
+msgid "**Native User**"
+msgstr "**Natiivikäyttäjä**"
+
+#: ../../chapter11.rst:62
+msgid ""
+"Native user refers to |prodname| user that is not related to any Active "
+"Directory."
+msgstr "Natiivikäyttäjä viittaa |prodname| käyttäjään, joka ei liity mihinkään Active Directoryyn."
+
+#: ../../chapter11.rst:65
+msgid "**Batch create users**"
+msgstr "**Erän käyttäjien luonti**"
+
+#: ../../chapter11.rst:67
+msgid ""
+"These are native users in a comma separated file that can be paste into a"
+" text area so the users can be batch created."
+msgstr "Nämä ovat natiiveja käyttäjiä pilkulla erotetussa tiedostossa, jonka voi liittää tekstikenttään, jotta käyttäjät voidaan luoda erissä."
+
+#: ../../chapter11.rst:70
+msgid "**Active Directory**"
+msgstr "**Active Directory**"
+
+#: ../../chapter11.rst:72
+msgid ""
+"Active Directory means users from Local Area Network (LAN) that is in the"
+" same network as the |prodname| server."
+msgstr "Active Directory tarkoittaa käyttäjiä paikallisverkosta (LAN), joka on samassa verkossa kuin |prodname| palvelin."
+
+#: ../../chapter11.rst:75
+msgid "**Server-Agent-Name**"
+msgstr "**Palvelin-Agentin-Nimi**"
+
+#: ../../chapter11.rst:77
+msgid ""
+"If you already have the \"Server Agent\" installed and the server agent "
+"is actively connected to |prodname|, you will also see the server agents "
+"listed by name in the Add User page."
+msgstr "Jos sinulla on jo \"Server Agent\" asennettuna ja palvelinagentti on aktiivisesti yhdistettynä |prodname|, näet myös palvelinagentit nimeltä Lisää käyttäjä -sivulla."
+
+#: ../../chapter11.rst:83
+msgid "Native Users"
+msgstr "Natiivikäyttäjät"
+
+#: ../../chapter11.rst:85
+msgid ""
+"When a new user is created, the administrator will specify the amount of "
+"cloud storage that the new user is allowed to use. The email address will"
+" send a welcome email to the new user and will serve as his/her username."
+msgstr "Kun uusi käyttäjä luodaan, ylläpitäjä määrittää, kuinka paljon pilvitallennustilaa uusi käyttäjä saa käyttää. Sähköpostiosoite lähettää tervetuloviestin uudelle käyttäjälle ja toimii hänen käyttäjätunnuksenaan."
+
+#: ../../chapter11.rst:90
+msgid "ADDING A NATIVE USER"
+msgstr "LISÄÄMÄLLÄ NATIIVI KÄYTTÄJÄ"
+
+#: ../../chapter11.rst:94
+msgid ""
+"When quota is left as zero, it means no limitation until the tenant quota"
+" limit is hit."
+msgstr "Kun kiintiö jätetään nollaksi, se tarkoittaa, että rajoituksia ei ole ennen kuin vuokralaisen kiintiöraja saavutetaan."
+
+#: ../../chapter11.rst:97
+msgid "Active Directory Users from LDAP"
+msgstr "Active Directory -käyttäjät LDAP:sta"
+
+#: ../../chapter11.rst:99
+msgid ""
+"If the Active Directory (LDAP) is not already configured, you will need "
+"to configure it first. You can from \"Settings\" > \"Active Directory\", "
+"or \"Create or Migrate User\" > \"Active Directory\" to access the "
+"settings."
+msgstr "Jos Active Directory (LDAP) ei ole vielä määritetty, sinun on määritettävä se ensin. Voit mennä \"Asetukset\" > \"Active Directory\" tai \"Luo tai siirrä käyttäjä\" > \"Active Directory\" päästäksesi asetuksiin."
+
+#: ../../chapter11.rst:104
+msgid "CONFIGURE YOUR ACTIVE DIRECTORY SETTINGS"
+msgstr "MÄÄRITÄ AKTIIVIHAKEMISTON ASETUKSET"
+
+#: ../../chapter11.rst:106
+msgid ""
+"If the Active Directory (LDAP) is already configured, you will see the "
+"Active Directory name at the bottom of the AD icon in the \"Add User\" "
+"view."
+msgstr "Jos Active Directory (LDAP) on jo määritetty, näet Active Directoryn nimen AD-kuvakkeen alaosassa \"Lisää käyttäjä\" -näkymässä."
+
+#: ../../chapter11.rst:108
+msgid "Add Active Directory Users where those users are from local area network."
+msgstr "Lisää Active Directory -käyttäjiä, jotka ovat paikallisverkosta."
+
+#: ../../chapter11.rst:113
+msgid "ADDING ACTIVE DIRECTORY USERS"
+msgstr "LISÄÄ AKTIIVIHAKEMISTON KÄYTTÄJIÄ"
+
+#: ../../chapter11.rst:116
+msgid ""
+"After the Active Directory is configured, you can use the Add User wizard"
+" to import Active Directory users into |prodname|."
+msgstr "Active Directoryn konfiguroinnin jälkeen voit käyttää Lisää käyttäjä -velhoa tuodaksesi Active Directory -käyttäjiä |prodname|-palveluun."
+
+#: ../../chapter11.rst:121
+msgid ""
+"For best practice, you will only configure Active Directory via LDAP if "
+"the file server is also local in the same network as the Active Directory"
+" server."
+msgstr "Parhaan käytännön mukaan konfiguroit Active Directoryn LDAP:n kautta vain, jos tiedostopalvelin on myös paikallisesti samassa verkossa kuin Active Directory -palvelin."
+
+#: ../../chapter11.rst:126
+msgid "Active Directory Users from Server Agent"
+msgstr "Active Directory -käyttäjät palvelinagentista"
+
+#: ../../chapter11.rst:128
+msgid ""
+"When the Server Agent is available and connects to the specific tenant in"
+" |prodname|, the Server Agent will show up with the server's name at the "
+"bottom of the icon."
+msgstr "Kun Server Agent on saatavilla ja yhdistää tiettyyn tenanttiin |prodname|, Server Agent näkyy palvelimen nimen kanssa kuvakkeen alaosassa."
+
+#: ../../chapter11.rst:132
+msgid ""
+"Click through the Server Agent icon, you will see the \"Add User\" wizard"
+" and complete the wizard to add users. This is very similar to the add AD"
+" user from local LDAP process above."
+msgstr "Napsauttamalla Palvelinagentin kuvaketta näet \"Lisää käyttäjä\" -velhon ja saat velhon suoritettua lisätäksesi käyttäjiä. Tämä on hyvin samankaltaista kuin yllä oleva AD-käyttäjän lisääminen paikallisesta LDAP:sta -prosessi."
+
+#: ../../chapter11.rst:136
+msgid ""
+"When the Active Directory is at a remote location, not directly connected"
+" to |prodname| server, Server Agent can be used to facilitate the "
+"communication. Server Agent doesn't need to be installed directly on a "
+"remote Active Directory server, the Server Agent needs to be installed on"
+" a remote file server that is part of the remote Active Directory domain."
+msgstr "Kun Active Directory on kaukaisessa sijainnissa, eikä ole suoraan yhdistetty |prodname| palvelimeen, Server Agentia voidaan käyttää viestinnän helpottamiseen. Server Agentia ei tarvitse asentaa suoraan etäiseen Active Directory -palvelimeen, Server Agent on asennettava etäiselle tiedostopalvelimelle, joka on osa etäistä Active Directory -toimialuetta."
+
+#: ../../chapter11.rst:140
+msgid "Deleting Users"
+msgstr "Käyttäjien poistaminen"
+
+#: ../../chapter11.rst:142
+msgid ""
+"When a user leaves the team, administrators can delete the user's login. "
+"Just click the Delete icon in 'User Manager' window."
+msgstr "Kun käyttäjä poistuu tiimistä, ylläpitäjät voivat poistaa käyttäjän kirjautumistiedot. Klikkaa vain Poista-kuvaketta 'Käyttäjänhallinta'-ikkunassa."
+
+#: ../../chapter11.rst:147
+msgid "DELETING A USER"
+msgstr "KÄYTTÄJÄN POISTAMINEN"
+
+#: ../../chapter11.rst:151
+msgid "Managing User Quotas"
+msgstr "Käyttäjäkiintiöiden hallinta"
+
+#: ../../chapter11.rst:153
+msgid ""
+"Administrators can assign a quota to each user. A user will not be "
+"allowed to upload files to |prodname| once their quota has been reached."
+msgstr "Ylläpitäjät voivat määrittää kiintiön kullekin käyttäjälle. Käyttäjä ei voi ladata tiedostoja |prodname|, kun hänen kiintiönsä on täyttynyt."
+
+#: ../../chapter11.rst:155
+msgid ""
+"If the quota is 0 for the user, there is no limit on how much storage the"
+" user can use."
+msgstr "Jos käyttäjän kiintiö on 0, käyttäjällä ei ole rajoitusta tallennustilan määrässä."
+
+#: ../../chapter11.rst:157
+msgid ""
+"Click the 'Management Console' and select 'Users'. Click the \"Edit\" "
+"icon on an user to manage. On \"Storage\" tab, select \"Edit\" icon for "
+"storage quota."
+msgstr "Napsauta 'Hallintakonsoli' ja valitse 'Käyttäjät'. Napsauta käyttäjän kohdalla \"Muokkaa\"-kuvaketta hallintaan. \"Tallennus\"-välilehdellä valitse tallennuskiintiön \"Muokkaa\"-kuvake."
+
+#: ../../chapter11.rst:162
+msgid "EDITING STORAGE QUOTA"
+msgstr "MUOKATAAN TALLETUSTILAN KIINTIÖTÄ"
+
+#: ../../chapter11.rst:166
+msgid "Managing User Credentials"
+msgstr "Käyttäjätunnusten hallinta"
+
+#: ../../chapter11.rst:168
+msgid "Admins can change user passwords and login emails, if needed."
+msgstr "Ylläpitäjät voivat tarvittaessa vaihtaa käyttäjien salasanoja ja kirjautumissähköposteja."
+
+#: ../../chapter11.rst:170
+msgid "Click 'Management Console' and select 'User Manager'"
+msgstr "Napsauta 'Management Console' ja valitse 'User Manager'"
+
+#: ../../chapter11.rst:171
+msgid "Click the \"manage user\" menu icon in the user block"
+msgstr "Napsauta käyttäjälohkossa \"hallitse käyttäjää\" -valikkokuvaketta"
+
+#: ../../chapter11.rst:172
+msgid "After that, can use \"Reset Password\" link to help the user."
+msgstr "Sen jälkeen voi käyttää \"Resetoi salasana\" -linkkiä auttaakseen käyttäjää."
+
+#: ../../chapter11.rst:177
+msgid "RESET USER PASSWORD"
+msgstr "NOLLAA KÄYTTÄJÄN SALASANA"
+
+#: ../../chapter11.rst:180
+msgid ""
+"After changing the login password, an email will be sent to notify the "
+"user of the change. Admins can choose to include the new password in the "
+"email, or exclude the new password from the email. If the password is not"
+" included, the admin will need to convey the new password to the user in "
+"some other way."
+msgstr "Kun kirjautumissalasana on vaihdettu, käyttäjälle lähetetään sähköpostitse ilmoitus muutoksesta. Ylläpitäjät voivat valita, sisällytetäänkö uusi salasana sähköpostiin vai jätetäänkö se pois sähköpostista. Jos salasanaa ei sisällytetä, ylläpitäjän on välitettävä uusi salasana käyttäjälle jollakin toisella tavalla."
+
+#: ../../chapter11.rst:185
+msgid "PASSWORD OPTIONS"
+msgstr "SALASANAVAIHTOEHDOT"
+
+#: ../../chapter11.rst:188
+msgid ""
+"When either the email or password is changed, please update the "
+"corresponding login credentials in the |prodname| Cloud Desktop or Cloud "
+"Server."
+msgstr "Kun joko sähköposti tai salasana vaihdetaan, päivitä vastaavat kirjautumistiedot |prodname| Cloud Desktopissa tai Cloud Serverissä."
+
+#: ../../chapter11.rst:192
+msgid ""
+"This only applies to a native |prodname| user. If you have Active "
+"Directory users, you will need to manage user's credential the Active "
+"Directory way."
+msgstr "Tämä koskee vain natiivia |prodname| käyttäjää. Jos sinulla on Active Directory -käyttäjiä, sinun tulee hallita käyttäjän tunnistetietoja Active Directoryn tavoin."
+
+#: ../../chapter11.rst:196
+msgid "Team Folders"
+msgstr "Tiimityökansiot"
+
+#: ../../chapter11.rst:198
+msgid ""
+"Adding files and folders can be accomplished by clicking \"Add a new team"
+" folder\" (**+**) icon on \"Team Folders\" page. Once the **\"Team Folder"
+" Storage Locations\"** view opens you can choose from many options: "
+"Existing Tenant Storage, File Servers in Local Area Network, Remote File "
+"Servers or Cloud Storage."
+msgstr "Tiedostojen ja kansioiden lisääminen onnistuu napsauttamalla \"Lisää uusi tiimikansio\" (**+**) -kuvaketta \"Tiimikansiot\"-sivulla. Kun **\"Tiimikansion tallennuspaikat\"** -näkymä avautuu, voit valita useista vaihtoehdoista: Olemassa oleva vuokraajan tallennustila, paikallisen alueen verkon tiedostopalvelimet, etätiedostopalvelimet tai pilvitallennustila."
+
+#: ../../chapter11.rst:203
+msgid "WAYS TO ADD STORAGE LOCATIONS"
+msgstr "TAVOJA LISÄTÄ TALLENNUSPAIKKOJA"
+
+#: ../../chapter11.rst:206
+msgid "**File Servers**"
+msgstr "**Tiedostopalvelimet**"
+
+#: ../../chapter11.rst:208
+msgid ""
+"If you have an existing file server in the Local Area Network (LAN), you "
+"can import the network share directly to |prodname| **(1)**. Under Remote"
+" File Servers, you can install the Server Agent client **(2)** and access"
+" your file server remotely."
+msgstr "Jos sinulla on olemassa oleva tiedostopalvelin paikallisverkossa (LAN), voit tuoda verkkoresurssin suoraan |prodname| **(1)**. Etätiedostopalvelimien alla voit asentaa Server Agent -asiakasohjelman **(2)** ja käyttää tiedostopalvelintasi etäyhteyden kautta."
+
+#: ../../chapter11.rst:213
+msgid "ADDING REMOTE FILES"
+msgstr "LISÄÄ ETÄTIEDOSTOJA"
+
+#: ../../chapter11.rst:218
+msgid ""
+"The Server Agent is only required when the remote file server doesn't "
+"have direct LAN (local area network) access"
+msgstr "Palvelinagentti vaaditaan vain, kun etäinen tiedostopalvelin ei ole suorassa LAN (local area network) yhteydessä"
+
+#: ../../chapter11.rst:218
+msgid ""
+"to |prodname|. The Server Agent will be used in this case to facilitate "
+"communication between the |prodname| server to the remote file server."
+msgstr "to |prodname|. Server Agentia käytetään tässä tapauksessa helpottamaan viestintää |prodname| palvelimen ja etäisen tiedostopalvelimen välillä."
+
+#: ../../chapter11.rst:221
+msgid ""
+"|prodname| enables the creation of team folders which are owned by the "
+"administrator and published to other |prodname| users."
+msgstr "|prodname| mahdollistaa tiimikansioiden luomisen, jotka ovat ylläpitäjän omistuksessa ja jaettu muiden |prodname| käyttäjien kanssa."
+
+#: ../../chapter11.rst:223
+msgid ""
+"Once a folder is published, it is displayed as a team folder to the users"
+" who have access permissions. Users can access these folders from "
+"|prodname| Web or other client agents. The published folder will appear "
+"under the user's root folder, and its name will be appended with \"(Team "
+"Folder)\"."
+msgstr "Kun kansio on julkaistu, se näkyy tiimikansiona käyttäjille, joilla on käyttöoikeudet. Käyttäjät voivat käyttää näitä kansioita |prodname| Webistä tai muista asiakasagenteista. Julkaistu kansio ilmestyy käyttäjän juurikansion alle, ja sen nimeen lisätään \"(Tiimikansio)\"."
+
+#: ../../chapter11.rst:229
+msgid "TEAM FOLDER TAG"
+msgstr "TIIMIKANSION TUNNISTE"
+
+#: ../../chapter11.rst:233
+msgid ""
+"Different upload methods may have different advantage and disadvantage on"
+" different web browsers and different web browser configuration, such as "
+"whether it is HTML5 enabled, Java enabled or Flash enabled."
+msgstr "Eri latausmenetelmillä voi olla erilaisia etuja ja haittoja eri verkkoselaimissa ja eri selainasetuksissa, kuten siinä, onko HTML5, Java tai Flash käytössä."
+
+#: ../../chapter11.rst:236
+msgid ""
+"By default, only one upload method was exposed in the web user interface."
+" However, the tenant administrator, based on the kind of web browser the "
+"company is using and the kind of configuration the web browser has, can "
+"decide which upload method to expose to the end user (Team User)."
+msgstr "Oletuksena verkkokäyttöliittymässä oli käytössä vain yksi latausmenetelmä. Vuokraajan ylläpitäjä voi kuitenkin päättää, minkä latausmenetelmän haluaa asettaa loppukäyttäjän (tiimikäyttäjän) käyttöön, riippuen siitä, minkälaista verkkoselainta yritys käyttää ja millainen selaimen konfiguraatio on."
+
+#: ../../chapter11.rst:239
+msgid ""
+"Below is the Settings -> Clients & Applications -> Web Portal setting "
+"administrator can control."
+msgstr "Alla on Asetukset -> Asiakkaat & Sovellukset -> Web-portaalin asetukset, joita ylläpitäjä voi hallita."
+
+#: ../../chapter11.rst:244
+msgid "UPLOADER METHOD OPTIONS"
+msgstr "LATAAJAN MENETELMÄVAIHTOEHDOT"
+
+#: ../../chapter11.rst:246
+msgid "Web Browser - Disable Java Uploader"
+msgstr "Web-selain - Poista Java-latausohjelma käytöstä"
+
+#: ../../chapter11.rst:248
+msgid ""
+"Deselect this if your companies' desktop system web browsers use a Java "
+"Uploader."
+msgstr "Poista tämä valinta, jos yrityksesi työpöytäjärjestelmän verkkoselaimet käyttävät Java-latausohjelmaa."
+
+#: ../../chapter11.rst:250
+msgid "Web Browser - Disable Flash Uploader"
+msgstr "Web-selain - Poista Flash-latauspalvelu käytöstä"
+
+#: ../../chapter11.rst:252
+msgid ""
+"Deselect this if your company uses browsers that require Flash uploader "
+"functionality."
+msgstr "Poista tämä valinta, jos yrityksesi käyttää selaimia, jotka vaativat Flash-latausohjelman toiminnallisuutta."
+
+#: ../../chapter11.rst:254
+msgid "Web Browser - Disable Local Uploader"
+msgstr "Web-selain - Poista paikallinen lähettäjä käytöstä"
+
+#: ../../chapter11.rst:256
+msgid ""
+"Deselect this if your company allows the use of a local executable to "
+"upload files."
+msgstr "Poista tämä valinta, jos yrityksesi sallii paikallisen suoritettavan tiedoston käytön tiedostojen lataamiseen."
+
+#: ../../chapter11.rst:260
+msgid "Sharing Security"
+msgstr "Jakamisen turvallisuus"
+
+#: ../../chapter11.rst:263
+msgid "Preventing Users From Sharing"
+msgstr "Estämisen käyttäjien jakamisesta"
+
+#: ../../chapter11.rst:265
+msgid ""
+"Sometimes for security reasons, users should not be allowed to share "
+"files/folders."
+msgstr "Joskus turvallisuussyistä käyttäjien ei tulisi voida jakaa tiedostoja/kansioita."
+
+#: ../../chapter11.rst:267
+msgid "There are two types of files and folders a user can access."
+msgstr "Käyttäjä voi käyttää kahta erilaista tiedostoa ja kansiota."
+
+#: ../../chapter11.rst:269
+msgid ""
+"User's own folders, including versioned folders and attached local "
+"folders from the user's desktop."
+msgstr "Käyttäjän omat kansiot, mukaan lukien versionoidut kansiot ja käyttäjän työpöydältä liitetyt paikalliset kansiot."
+
+#: ../../chapter11.rst:271
+msgid ""
+"When an administrator creates new users, he/she can disable sharing home "
+"directory content with external party, to prevent the newly created user "
+"from sharing his/her own files and folders."
+msgstr "Kun ylläpitäjä luo uusia käyttäjiä, hän voi estää kotihakemiston sisällön jakamisen ulkopuolisten kanssa, jotta vasta luotu käyttäjä ei voi jakaa omia tiedostojaan ja kansioitaan."
+
+#: ../../chapter11.rst:277
+msgid "MANAGE USER SETTINGS"
+msgstr "HALLINNOI KÄYTTÄJÄASETUKSIA"
+
+#: ../../chapter11.rst:279
+msgid ""
+"In the Manage User panel, access the \"Storage\" settings (4). Once you "
+"are in the Storage View you can select (5) the \"Disable external sharing"
+" of this user's home directory content\" option."
+msgstr "Hallintapaneelissa 'Käyttäjän hallinta' siirry 'Tallennus' asetuksiin (4). Tallennusnäkymässä voit valita (5) 'Estä tämän käyttäjän kotihakemiston sisällön ulkoinen jakaminen' -vaihtoehdon."
+
+#: ../../chapter11.rst:284
+msgid "DISABLE EXTERNAL SHARING"
+msgstr "POISTA ULKOINEN JAKAMINEN"
+
+#: ../../chapter11.rst:287
+msgid ""
+"When publishing a team folder, administrator can check 'Disable further "
+"sharing', to prevent users from sharing anything in the team folder. You "
+"can access this setting after choosing your storage location. Click the "
+"\"Create Team Folder\" **(+)** icon (1) and select your storage type (2),"
+" \"New Team Folder\" window opens, click \"Settings\" icon (3), then "
+"select the \"Disable further sharing\" option (4)."
+msgstr "Kun julkaisee tiimikansion, ylläpitäjä voi valita 'Estä edelleen jakaminen', jotta käyttäjät eivät voi jakaa mitään tiimikansion sisällöstä. Pääset tähän asetukseen valittuasi tallennuspaikan. Napsauta \"Luo tiimikansio\" **(+)** -kuvaketta (1) ja valitse tallennustyyppisi (2), \"Uusi tiimikansio\" -ikkuna avautuu, napsauta \"Asetukset\" -kuvaketta (3), ja valitse sitten \"Estä edelleen jakaminen\" -vaihtoehto (4)."
+
+#: ../../chapter11.rst:292
+msgid "DISABLE FURTHER SHARING"
+msgstr "ESTÄ LISÄJAKAMINEN"
+
+#: ../../chapter11.rst:296
+msgid "Protecting Shares By Requiring Login"
+msgstr "Jakamisen suojaaminen vaatimalla kirjautumista"
+
+#: ../../chapter11.rst:298
+msgid ""
+"When a user shares a file or folder, |prodname| will generate a URL. By "
+"default, anyone can use the URL to access the share."
+msgstr "Kun käyttäjä jakaa tiedoston tai kansion, |prodname| luo URL-osoitteen. Oletusarvoisesti kuka tahansa voi käyttää URL-osoitetta jaettuun sisältöön pääsemiseksi."
+
+#: ../../chapter11.rst:300
+msgid ""
+"Administrators can protect shares by requiring login credentials. Once "
+"enabled, when a user accesses the share URL, he /she will be prompted to "
+"login to the |prodname| Cloud. After login, the user can view the "
+"file/folder shared with him/her under 'Files shared with me'."
+msgstr "Ylläpitäjät voivat suojata jaettuja kansioita vaatimalla kirjautumistunnukset. Kun tämä on otettu käyttöön, käyttäjää pyydetään kirjautumaan |prodname| Cloudiin, kun hän yrittää päästä jakolinkkiin. Kirjautumisen jälkeen käyttäjä näkee 'Minulle jaetut tiedostot' -kohdassa tiedoston/kansion, joka on jaettu hänen kanssaan."
+
+#: ../../chapter11.rst:303
+msgid ""
+"To access this setting use the \"Settings\" menu (1) and in the \"Data "
+"Leak Protection\" (2) -> \"Sharing\" (3) panel, select the \"Users must "
+"log in to access the content in 'Files shared with me' folder\" setting "
+"(4)."
+msgstr "Päästäksesi tähän asetukseen käytä \"Asetukset\"-valikkoa (1) ja \"Tietovuodon estäminen\" (2) -> \"Jakaminen\" (3) -paneelissa, valitse \"Käyttäjien on kirjauduttava sisään päästäkseen käsiksi 'Jaetut kanssani' -kansion sisältöön\"-asetus (4)."
+
+#: ../../chapter11.rst:308
+msgid "SECURING SHARED FILES AND FOLDERS"
+msgstr "TURVAA JAETUT TIEDOSTOT JA KANSIOT"
+

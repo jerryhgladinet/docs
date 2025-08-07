@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../data_center.rst:3
+msgid "\"Data-Center MSP-Hosted\" Quick Start"
+msgstr "\"Data-Center MSP-Hosted\" Início Rápido"
+
+#: ../../data_center.rst:6
+msgid "Introduction"
+msgstr "Introdução"
+
+#: ../../data_center.rst:8
+msgid ""
+"If you are a managed service provider who manages hundreds or thousands "
+"of end points across multiple clients, it is a good option that you setup"
+" CentreStack server in a data center."
+msgstr "Se você é um provedor de serviços gerenciados que gerencia centenas ou milhares de pontos finais em vários clientes, é uma boa opção configurar o servidor CentreStack em um centro de dados."
+
+#: ../../data_center.rst:11
+msgid ""
+"There are a couple advantages of setting the CentreStack server up in a "
+"data center:"
+msgstr "Existem algumas vantagens em configurar o servidor CentreStack em um data center:"
+
+#: ../../data_center.rst:13
+msgid ""
+"The data center is closer to the Internet backbone than a business office"
+" is, thus it has faster Internet speed."
+msgstr "O data center está mais próximo da espinha dorsal da Internet do que um escritório comercial, portanto, possui uma velocidade de Internet mais rápida."
+
+#: ../../data_center.rst:14
+msgid ""
+"Setting it up in a central location and in a multi-tenant fashion is "
+"easier to manage as compared to a one-centrestack-instance-per-client "
+"setup."
+msgstr "Configurá-lo em um local central e de forma multiusuário é mais fácil de gerenciar em comparação com uma configuração de uma instância do centrestack por cliente."
+
+#: ../../data_center.rst:20
+msgid "Preparation"
+msgstr "Preparação"
+
+#: ../../data_center.rst:22
+msgid ""
+"The preparation step is very similar to the On-Premise Self-Hosted "
+"version of CentreStack."
+msgstr "O passo de preparação é muito semelhante à versão On-Premise Self-Hosted do CentreStack."
+
+#: ../../data_center.rst:24
+msgid "When it comes to choosing a data center, you have several options:"
+msgstr "Quando se trata de escolher um centro de dados, você tem várias opções:"
+
+#: ../../data_center.rst:26
+msgid "A local data center you already use for hosting"
+msgstr "Um centro de dados local que você já utiliza para hospedagem"
+
+#: ../../data_center.rst:27
+msgid "Amazon EC2 data center"
+msgstr "Centro de dados Amazon EC2"
+
+#: ../../data_center.rst:28
+msgid "Azure Compute data center"
+msgstr "Centro de dados do Azure Compute"
+
+#: ../../data_center.rst:29
+msgid "Any other data center that provides Windows Server"
+msgstr "Qualquer outro data center que fornece Windows Server"
+
+#: ../../data_center.rst:32
+msgid ""
+"The CentreStack server is a web server, passing file and folder access "
+"between remote client agents to backend file servers. Here are a list of "
+"items to prepare ahead of time:"
+msgstr "O servidor CentreStack é um servidor web, que faz a intermediação do acesso a arquivos e pastas entre agentes clientes remotos e servidores de arquivos backend. Aqui está uma lista de itens para preparar com antecedência:"
+
+#: ../../data_center.rst:35
+msgid "A dedicated Windows Server machine:"
+msgstr "Uma máquina dedicada de Servidor Windows:"
+
+#: ../../data_center.rst:37
+msgid "Operating System (2025 / 2022 / 2019 / 2016)"
+msgstr "Sistema Operacional (2025 / 2022 / 2019 / 2016)"
+
+#: ../../data_center.rst:38
+msgid "8G memory"
+msgstr "8G de memória"
+
+#: ../../data_center.rst:39
+msgid "Dual core or more cores (vCPU or CPU)"
+msgstr "Dual core ou mais núcleos (vCPU ou CPU)"
+
+#: ../../data_center.rst:40
+msgid "100G hard drive space."
+msgstr "100G de espaço em disco."
+
+#: ../../data_center.rst:42
+msgid "A SSL certificate (for production)"
+msgstr "Um certificado SSL (para produção)"
+
+#: ../../data_center.rst:43
+msgid "A DNS name (for production)"
+msgstr "Um nome DNS (para produção)"
+
+#: ../../data_center.rst:45
+msgid ""
+"Since you can turn a test (POC) environment directly into a production "
+"environment, you can start with requirement #1  for test and POC (proof "
+"of concept) environment and later acquire SSL certificate and DNS name."
+msgstr "Uma vez que você pode transformar um ambiente de teste (POC) diretamente em um ambiente de produção, você pode começar com o requisito #1 para teste e ambiente POC (prova de conceito) e depois adquirir certificado SSL e nome DNS."
+
+#: ../../data_center.rst:49
+msgid ""
+"In Amazon EC2 or Azure Compute, you will need to find the virtual machine"
+" images that are similar to the specificication."
+msgstr "No Amazon EC2 ou Azure Compute, você precisará encontrar as imagens de máquinas virtuais que são semelhantes à especificação."
+
+#: ../../data_center.rst:53
+msgid "Download & Install"
+msgstr "Baixar & Instalar"
+
+#: ../../data_center.rst:55
+msgid ""
+"After you decide and have acquired the Windows Server (Usually a virtual "
+"machine in a data center) to install the CentreStack software, you can go"
+" to the partner portal and download the software."
+msgstr "Depois de decidir e adquirir o Windows Server (geralmente uma máquina virtual em um data center) para instalar o software CentreStack, você pode ir ao portal do parceiro e baixar o software."
+
+#: ../../data_center.rst:60
+msgid "The Installer will install everything from beginning to end."
+msgstr "O Instalador irá instalar tudo do início ao fim."
+
+#: ../../data_center.rst:65
+msgid "Please reference the following two guides for more information:"
+msgstr "Por favor, consulte os dois guias a seguir para mais informações:"
+
+#: ../../data_center.rst:67
+msgid ""
+"`Deployment Guide "
+"<http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+msgstr "`Guia de Implantação <http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+
+#: ../../data_center.rst:68
+msgid ""
+"`Installation Guide "
+"<http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+msgstr "`Guia de Instalação <http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+

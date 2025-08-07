@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter3.rst:3
+msgid "Connecting To The Cloud"
+msgstr "الاتصال بالسحابة"
+
+#: ../../chapter3.rst:7
+msgid "Transferring Files"
+msgstr "نقل الملفات"
+
+#: ../../chapter3.rst:9
+msgid ""
+"Now you can use the Cloud Storage as if it were a Virtual Drive or "
+"Folder. Simply drag and drop to copy local documents to the Cloud "
+"Storage."
+msgstr "الآن يمكنك استخدام التخزين السحابي كما لو كان محرك أقراص أو مجلد افتراضي. ببساطة اسحب وأفلت لنسخ المستندات المحلية إلى التخزين السحابي."
+
+#: ../../chapter3.rst:11
+msgid "You can access your cloud drive directly with a drive letter."
+msgstr "يمكنك الوصول إلى سحابتك الخاصة مباشرةً بحرف محرك الأقراص."
+
+#: ../../chapter3.rst:17
+msgid "THE CLOUD DRIVE"
+msgstr "القرص السحابي"
+
+#: ../../chapter3.rst:19
+msgid ""
+"|prodname| Windows Desktop Agent makes it very easy to move data into "
+"cloud storage or extract data from cloud storage."
+msgstr "|prodname| وكيل سطح المكتب Windows يجعل نقل البيانات إلى التخزين السحابي أو استخراج البيانات من التخزين السحابي أمرًا سهلاً للغاية."
+
+#: ../../chapter3.rst:22
+msgid "Attaching Local Folders"
+msgstr "إرفاق المجلدات المحلية"
+
+#: ../../chapter3.rst:24
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr "يوفر القرص الافتراضي الوصول حسب الطلب إلى الملفات والمجلدات من حساب تخزين |prodname| السحابي."
+
+#: ../../chapter3.rst:26
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account. "
+"You can right click on a local folder (1) and select \"Attach this Folder"
+" to |prodname|\" (2). The pop-up (3) shows you where this folder is "
+"located on your system and allows you to change the name of the folder if"
+" you don't want to use the default."
+msgstr "أحيانًا يكون من المرغوب فيه أيضًا العمل داخل مجلد محلي، وجعل المجلد المحلي يتزامن مع حساب تخزين |prodname| السحابي. يمكنك النقر بزر الماوس الأيمن على مجلد محلي (1) واختيار \"إرفاق هذا المجلد بـ |prodname|\" (2). تظهر النافذة المنبثقة (3) مكان هذا المجلد على نظامك وتتيح لك تغيير اسم المجلد إذا كنت لا ترغب في استخدام الاسم الافتراضي."
+
+#: ../../chapter3.rst:31
+msgid "ATTACH A FOLDER TO |prodname|"
+msgstr "إرفاق مجلد بـ |prodname|"
+
+#: ../../chapter3.rst:35
+msgid "Benefits of Attached folders:"
+msgstr "فوائد المجلدات المرفقة:"
+
+#: ../../chapter3.rst:37
+msgid "They will be synchronized with the cloud."
+msgstr "سيتم مزامنتها مع السحابة."
+
+#: ../../chapter3.rst:39
+msgid ""
+"Their contents immediately become accessible even before the sync is "
+"completed."
+msgstr "تصبح محتوياتهم قابلة للوصول على الفور حتى قبل اكتمال عملية المزامنة."
+
+#: ../../chapter3.rst:41
+msgid "They can maintain a versioned backup of their contents."
+msgstr "يمكنهم الاحتفاظ بنسخة احتياطية متعددة الإصدارات من محتوياتهم."
+
+#: ../../chapter3.rst:43
+msgid "Their content is available locally when offline."
+msgstr "محتواهم متاح محليًا عندما يكون غير متصل بالإنترنت."
+
+#: ../../chapter3.rst:45
+msgid "They can be used in the same ways as any local folder."
+msgstr "يمكن استخدامها بنفس الطرق كأي مجلد محلي."
+

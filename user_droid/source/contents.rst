@@ -22,12 +22,3 @@ Contents:
    my_devices
    logging_out
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-

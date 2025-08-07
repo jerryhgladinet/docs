@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter04.rst:2
+msgid "System Requirements"
+msgstr "Systeemvereisten"
+
+#: ../../chapter04.rst:4
+msgid ""
+"CentreStack server is built on top of the Microsoft Web Platform, which "
+"includes:"
+msgstr "CentreStack-server is gebouwd op de Microsoft Web Platform, dat omvat:"
+
+#: ../../chapter04.rst:6
+msgid "Windows Server base operating system"
+msgstr "Windows Server basisbesturingssysteem"
+
+#: ../../chapter04.rst:7
+msgid "Internet Information Server 7/8/10 (IIS)"
+msgstr "Internet Information Server 7/8/10 (IIS)"
+
+#: ../../chapter04.rst:8
+msgid ".Net Framework 4.5+"
+msgstr ".Net Framework 4.5+"
+
+#: ../../chapter04.rst:9
+msgid "ASP.NET"
+msgstr "ASP.NET"
+
+#: ../../chapter04.rst:10
+msgid "PostgreSQL, MySQL, Microsoft SQL Server or Microsoft SQL Server Express"
+msgstr "PostgreSQL, MySQL, Microsoft SQL Server of Microsoft SQL Server Express"
+
+#: ../../chapter04.rst:12
+msgid "The base operating system can be either:"
+msgstr "Het basisbesturingssysteem kan zijn:"
+
+#: ../../chapter04.rst:14
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
+
+#: ../../chapter04.rst:15
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
+
+#: ../../chapter04.rst:16
+msgid "Windows Server 2016"
+msgstr "Windows Server 2016"
+
+#: ../../chapter04.rst:18
+msgid ""
+"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"comes directly with these newer server OS platforms. It is easier and "
+"faster to install CentreStack software on Windows Server 2022/2019/2016."
+msgstr "We raden Windows Server 2022/2019/2016 aan, omdat .Net Framework 4.5+ rechtstreeks bij deze nieuwere serverbesturingssystemen wordt geleverd. Het is gemakkelijker en sneller om CentreStack-software op Windows Server 2022/2019/2016 te installeren."
+
+#: ../../chapter04.rst:23
+msgid ""
+"The CentreStack server installer is capable of installing all the "
+"dependency system components such as .NET Framework and etc. For "
+"installation, a clean machine is recommended."
+msgstr "De CentreStack serverinstallatie kan alle afhankelijke systeemcomponenten installeren, zoals het .NET Framework en dergelijke. Voor de installatie wordt een schone machine aanbevolen."
+
+#: ../../chapter04.rst:25
+msgid ""
+"There is no need to prepare the machine beyond the clean state of the "
+"basic Operating System software."
+msgstr "Er is geen noodzaak om de machine voor te bereiden buiten de schone staat van de basisbesturingssysteemsoftware."
+
+#: ../../chapter04.rst:29
+msgid "Windows Server 2022, 2019, 2016"
+msgstr "Windows Server 2022, 2019, 2016"
+
+#: ../../chapter04.rst:31
+msgid ""
+"The base operating system provides the base of the Microsoft Web "
+"Platform. It will be loaded with the mentioned Microsoft components "
+"before the core CentreStack software is installed."
+msgstr "Het basisbesturingssysteem vormt de basis van het Microsoft Web Platform. Het zal worden geladen met de genoemde Microsoft-componenten voordat de kernsoftware van CentreStack wordt geïnstalleerd."
+
+#: ../../chapter04.rst:35
+msgid ""
+"The CentreStack installer will install and load  all the dependency "
+"Windows components."
+msgstr "De CentreStack-installateur zal alle afhankelijke Windows-componenten installeren en laden."
+
+#: ../../chapter04.rst:39
+msgid ""
+"Base Operating System with English locale is recommended. (The User "
+"Interface can be in a different locale.)"
+msgstr "Een basisbesturingssysteem met Engelse locale wordt aanbevolen. (De gebruikersinterface kan in een andere locale zijn.)"
+
+#: ../../chapter04.rst:42
+msgid "SQL Server / MySQL Server"
+msgstr "SQL Server / MySQL Server"
+
+#: ../../chapter04.rst:44
+msgid ""
+"The Microsoft SQL Server or SQL Server Express or MySQL is used to store "
+"static configuration information such as the user name, email, storage "
+"configuration, files and folders, sharing information and others."
+msgstr "De Microsoft SQL Server of SQL Server Express of MySQL wordt gebruikt om statische configuratie-informatie op te slaan zoals de gebruikersnaam, e-mail, opslagconfiguratie, bestanden en mappen, deelinformatie en andere."
+
+#: ../../chapter04.rst:47
+msgid ""
+"It is recommended that the SQL Server has daily backups since it contains"
+" configuration information for the service to run properly."
+msgstr "Het wordt aanbevolen dat de SQL Server dagelijkse back-ups heeft, aangezien het configuratie-informatie bevat die nodig is voor de service om correct te functioneren."
+
+#: ../../chapter04.rst:49
+msgid ""
+"If you have SQL Server Standard Edition or SQL Server Enterprise Edition,"
+" you can take advantage of the high availability features like Always-On "
+"Clustering or Always-On Fail Over Group."
+msgstr "Als u SQL Server Standard Edition of SQL Server Enterprise Edition heeft, kunt u gebruikmaken van de functies voor hoge beschikbaarheid zoals Always-On Clustering of Always-On Failovergroep."
+
+#: ../../chapter04.rst:52
+msgid "MySQL Community Edition is also supported."
+msgstr "MySQL Community Edition wordt ook ondersteund."
+
+#: ../../chapter04.rst:54
+msgid ""
+"If you are setting CentreStack server up in Amazon AWS, Amazon Aurora DB "
+"is also recommended."
+msgstr "Als u de CentreStack-server instelt in Amazon AWS, wordt ook Amazon Aurora DB aanbevolen."
+
+#: ../../chapter04.rst:58
+msgid ""
+"The CentreStack server installer is capable of installing SQL Express or "
+"MySQL. If you only need an all-in-one deployment for a single server "
+"deployment, the installer can install the database automatically."
+msgstr "De CentreStack serverinstallatie kan SQL Express of MySQL installeren. Als u alleen een alles-in-één implementatie nodig heeft voor een enkele serverimplementatie, kan de installatie de database automatisch installeren."
+
+#: ../../chapter04.rst:61
+msgid ".Net Framework 4"
+msgstr ".Net Framework 4"
+
+#: ../../chapter04.rst:63
+msgid ""
+"The CentreStack Server is built with .Net Framework 4, with ASP.NET and "
+"WCF."
+msgstr "De CentreStack Server is gebouwd met .Net Framework 4, met ASP.NET en WCF."
+
+#: ../../chapter04.rst:65
+msgid ""
+"We recommend .Net Framework 4.5 and above as it works better with remote "
+"clients that have Internet Explorer 10 or 11."
+msgstr "We raden .Net Framework 4.5 en hoger aan omdat het beter werkt met externe clients die Internet Explorer 10 of 11 hebben."
+
+#: ../../chapter04.rst:69
+msgid ""
+"The CentreStack server Installer will install .NET 4.5 and other "
+"dependency components automatically."
+msgstr "De CentreStack serverinstallatie zal automatisch .NET 4.5 en andere afhankelijke componenten installeren."
+
+#: ../../chapter04.rst:73
+msgid "ASP.NET 4.5/4.6/4.7"
+msgstr "ASP.NET 4.5/4.6/4.7"
+
+#: ../../chapter04.rst:75
+msgid ""
+"CentreStack web browser portal user interface is written in ASP.NET, HTML"
+" and JavaScript."
+msgstr "De CentreStack-webbrowserportaal gebruikersinterface is geschreven in ASP.NET, HTML en JavaScript."
+
+#: ../../chapter04.rst:78
+msgid "Internet Information Server (IIS)"
+msgstr "Internet Information Server (IIS)"
+
+#: ../../chapter04.rst:80
+msgid ""
+"CentreStack Server-side services are hosted inside the Internet "
+"Information Server (IIS). It provides brokerage functionalities and "
+"secure gateway between the Client Agents and the back-end storage. It is "
+"also a value-add layer on top of the back-end storage."
+msgstr "CentreStack Server-side services worden gehost binnen de Internet Information Server (IIS). Het biedt bemiddelingsfunctionaliteiten en een beveiligde gateway tussen de Client Agents en de back-end opslag. Het is ook een toegevoegde waarde laag bovenop de back-end opslag."
+
+#: ../../chapter04.rst:86
+msgid ""
+"The CentreStack Server Installer will enable IIS Service if not already. "
+"So no manual step required."
+msgstr "De CentreStack Server Installer zal de IIS Service inschakelen indien deze nog niet actief is. Dus geen handmatige stappen vereist."
+
+#: ../../chapter04.rst:89
+msgid "Recommended Hardware Specification"
+msgstr "Aanbevolen Hardware Specificatie"
+
+#: ../../chapter04.rst
+msgid "Memory"
+msgstr "Geheugen"
+
+#: ../../chapter04.rst:93
+msgid "4GB, (8+GB is better for production environment)"
+msgstr "4GB, (8+ GB is beter voor productieomgeving)"
+
+#: ../../chapter04.rst
+msgid "Hard Drive"
+msgstr "Harde schijf"
+
+#: ../../chapter04.rst:97
+msgid "100G"
+msgstr "100G"
+
+#: ../../chapter04.rst
+msgid "Operating System"
+msgstr "Besturingssysteem"
+
+#: ../../chapter04.rst:101
+msgid "Windows 2022, Windows 2019, Windows 2016"
+msgstr "Windows 2022, Windows 2019, Windows 2016"
+
+#: ../../chapter04.rst
+msgid "CPU"
+msgstr "CPU"
+
+#: ../../chapter04.rst:105
+msgid ""
+"Intel, minimum 2-Core, prefer 4-Core (or 2-vCPU/4-vCPU  if on a virtual "
+"machine)"
+msgstr "Intel, minimaal 2-Core, bij voorkeur 4-Core (of 2-vCPU/4-vCPU als op een virtuele machine)"
+
+#: ../../chapter04.rst:109
+msgid ""
+"Virtual Machines are recommended. A Clean machine built from a base OS "
+"with English Locale is recommended. After providing the clean machine, "
+"the CentreStack Server installer will install the rest of the Windows "
+"system components and CentreStack components automatically. The software "
+"is hypervisor neutral. The hypervisor can be Hyper-V, VMWare or others. "
+"The software can be installed on a physical machine as well if needed."
+msgstr "Virtuele machines worden aanbevolen. Een schone machine, opgebouwd vanuit een basis OS met Engelse landinstelling, wordt aanbevolen. Nadat de schone machine is voorzien, zal de CentreStack Server installateur automatisch de rest van de Windows systeemcomponenten en CentreStack componenten installeren. De software is hypervisor neutraal. De hypervisor kan Hyper-V, VMWare of andere zijn. De software kan ook op een fysieke machine geïnstalleerd worden indien nodig."
+
+#: ../../chapter04.rst:115
+msgid "Capacity Planning"
+msgstr "Capaciteitsplanning"
+
+#: ../../chapter04.rst:117
+msgid ""
+"For user counts smaller than 1000, a single CentreStack server is enough."
+" Most of the time, an all-in-one server deployment will be sufficient. In"
+" this case you will install the CentreStack Server in a single physical "
+"or virtual machine. The default CentreStack installer will install all "
+"the components (Database/Web Node/Worker Node) on one machine."
+msgstr "Voor gebruikersaantallen kleiner dan 1000 is één CentreStack-server voldoende. Meestal zal een all-in-one serverinstallatie toereikend zijn. In dit geval installeert u de CentreStack Server op één fysieke of virtuele machine. De standaard CentreStack-installer zal alle componenten (Database/Web Node/Worker Node) op één machine installeren."
+
+#: ../../chapter04.rst:120
+msgid ""
+"For user counts greater than 1000, it is recommended to have the SQL "
+"Server node in a separate physical or virtual machine."
+msgstr "Voor gebruikersaantallen groter dan 1000 wordt aanbevolen om de SQL Server-node op een aparte fysieke of virtuele machine te hebben."
+
+#: ../../chapter04.rst:122
+msgid ""
+"The rest of the worker nodes will share the load for the users in a "
+"capacity of 1000 each."
+msgstr "De rest van de werkknopen zal de belasting voor de gebruikers delen met een capaciteit van 1000 elk."
+
+#: ../../chapter04.rst:124
+msgid ""
+"In this case a virtual machine is recommended for each worker node and "
+"you should use a wild card SSL certificate for each worker node."
+msgstr "In dit geval wordt een virtuele machine aanbevolen voor elke werknode en u zou een wildcard SSL-certificaat moeten gebruiken voor elke werknode."
+
+#: ../../chapter04.rst:128
+msgid ""
+"In some big deployments, the SSL can be off-loaded to hardware load "
+"balancer such as Citrix NetScaler or F5 BIG IP."
+msgstr "In sommige grote implementaties kan de SSL worden overgedragen aan hardware load balancers zoals Citrix NetScaler of F5 BIG IP."
+
+#: ../../chapter04.rst:130
+msgid ""
+"The capacity of 1000 is referring to concurrent users. It is possible "
+"that you may have 5000 named users but only 1000 of them are using the "
+"product concurrently. So, in this case the per-server capacity can be "
+"5000 named users."
+msgstr "De capaciteit van 1000 verwijst naar gelijktijdige gebruikers. Het is mogelijk dat u 5000 benoemde gebruikers heeft, maar dat slechts 1000 van hen het product gelijktijdig gebruiken. Dus in dit geval kan de capaciteit per server 5000 benoemde gebruikers zijn."
+
+#: ../../chapter04.rst:136
+msgid ""
+"(A Concurrent-User is defined as the users making requests in a 10-second"
+" period. For example, if you make a request A, and I make a request B, "
+"and if the time-difference between request A and request B is less than "
+"10 seconds, request A and request B are concurrent)."
+msgstr "(Een gelijktijdige gebruiker wordt gedefinieerd als de gebruikers die verzoeken doen in een periode van 10 seconden. Bijvoorbeeld, als u een verzoek A doet, en ik doe een verzoek B, en als het tijdsverschil tussen verzoek A en verzoek B minder dan 10 seconden is, dan zijn verzoek A en verzoek B gelijktijdig)."
+
+#: ../../chapter04.rst:140
+msgid ""
+"**EXAMPLE**\\:  If you have 300,000 users in your company, you may need "
+"between 30-60 worker nodes (5000 – 10,000 named users for each worker "
+"node). You can scale up the memory size for each worker node to reduce "
+"the number of worker nodes required."
+msgstr "**VOORBEELD**\: Als u 300.000 gebruikers in uw bedrijf heeft, heeft u mogelijk tussen de 30-60 werkernodes nodig (5000 – 10.000 benoemde gebruikers voor elke werkernode). U kunt de geheugengrootte voor elke werkernode opschalen om het aantal benodigde werkernodes te verminderen."
+
+#: ../../chapter04.rst:144
+msgid "Load Balancing"
+msgstr "Load Balancing"
+
+#: ../../chapter04.rst:146
+msgid ""
+"Our recommendation is to have your own load balancing device if possible."
+" However, CentreStack is capable of using worker nodes (for web function "
+"only) for load-balancing if you do not have an existing load balancer. "
+"You can pick a worker node to be the node exposed for login/contact point"
+" and pass the actual work to others."
+msgstr "Onze aanbeveling is om, indien mogelijk, uw eigen load balancing apparaat te hebben. Echter, CentreStack is in staat om werkernodes (alleen voor webfunctie) te gebruiken voor load-balancing als u geen bestaande load balancer heeft. U kunt een werkernode kiezen om de node te zijn die wordt blootgesteld voor inloggen/contactpunt en het eigenlijke werk doorgeven aan anderen."
+
+#: ../../chapter04.rst:150
+msgid ""
+"If you have a hardware load balancer such as F5, you can skip web nodes, "
+"and have F5 directly load balance to a farm of worker nodes. You can also"
+" use the Network Load Balancing feature which is included in Windows "
+"2022/2019/2016 for load balancing."
+msgstr "Als u een hardware load balancer zoals F5 heeft, kunt u webnodes overslaan en F5 direct laten balanceren naar een cluster van werkernodes. U kunt ook gebruikmaken van de Network Load Balancing-functie die is inbegrepen in Windows 2022/2019/2016 voor load balancing."
+

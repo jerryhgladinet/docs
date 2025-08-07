@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter06.rst:3
+msgid "Enable SSL – Install SSL Certificate"
+msgstr "SSL aktivieren – SSL-Zertifikat installieren"
+
+#: ../../chapter06.rst:7
+msgid ""
+"Assuming that you have already setup your DNS to point to a DNS name "
+"connected to the |prodname| server and an SSL certificate already "
+"purchased for the DNS name. If not, you can acquire an SSL certificate "
+"from your SSL vendor."
+msgstr "Angenommen, Sie haben bereits Ihre DNS so eingerichtet, dass sie auf einen DNS-Namen verweist, der mit dem |prodname| Server verbunden ist, und ein SSL-Zertifikat für den DNS-Namen bereits erworben wurde. Falls nicht, können Sie ein SSL-Zertifikat von Ihrem SSL-Anbieter erwerben."
+
+#: ../../chapter06.rst:9
+msgid ""
+"We recommend using https://www.ssllabs.com/ to test your SSL setup "
+"because the SSL Labs site will produce a report on whether the SSL is "
+"compatible with all devices such as iOS devices."
+msgstr "Wir empfehlen die Verwendung von https://www.ssllabs.com/ zum Testen Ihrer SSL-Konfiguration, da die SSL Labs-Website einen Bericht darüber erstellt, ob das SSL mit allen Geräten wie iOS-Geräten kompatibel ist."
+
+#: ../../chapter06.rst:13
+msgid ""
+"You can also use openssl to check the SSL certificates and whether or not"
+" the whole certificate trust chain is completely installed on the server "
+"side."
+msgstr "Sie können auch openssl verwenden, um die SSL-Zertifikate zu überprüfen und ob die gesamte Zertifikatsvertrauenskette vollständig auf der Serverseite installiert ist."
+
+#: ../../chapter06.rst:20
+msgid ""
+"You will install the SSL certificate using the IIS Manager. Look for "
+"\"Server Certificates\" and double click on it."
+msgstr "Sie werden das SSL-Zertifikat mit dem IIS-Manager installieren. Suchen Sie nach \"Serverzertifikate\" und doppelklicken Sie darauf."
+
+#: ../../chapter06.rst:24
+msgid ""
+"Click on \"Import\" to import an existing SSL Certificate. Leave the "
+"Certificate Store as \"Personal\" or \"Web Hosting\", either option is "
+"fine."
+msgstr "Klicken Sie auf \"Importieren\", um ein vorhandenes SSL-Zertifikat zu importieren. Lassen Sie den Zertifikatspeicher auf \"Persönlich\" oder \"Webhosting\", beide Optionen sind in Ordnung."
+
+#: ../../chapter06.rst:30
+msgid "Verify that the certificate is available:"
+msgstr "Überprüfen Sie, ob das Zertifikat verfügbar ist:"
+
+#: ../../chapter06.rst:34
+msgid ""
+"You can also verify the SSL certificate using the MMC/Certificates snap-"
+"in (Local Computer)."
+msgstr "Sie können das SSL-Zertifikat auch über das MMC/Snap-In 'Zertifikate' (Lokaler Computer) überprüfen."
+
+#: ../../chapter06.rst:38
+msgid ""
+"Now you can bind the \"Default Web Site\" to the SSL certificate for "
+"HTTPS. Right click on the \"Default Web Site\" and select \"Edit "
+"Bindings\"."
+msgstr "Nun können Sie die \"Standardwebsite\" an das SSL-Zertifikat für HTTPS binden. Klicken Sie mit der rechten Maustaste auf die \"Standardwebsite\" und wählen Sie \"Bindungen bearbeiten\"."
+
+#: ../../chapter06.rst:43
+msgid "At the binding dialog, edit the HTTPS binding."
+msgstr "Im Bindungsdialog bearbeiten Sie die HTTPS-Bindung."
+
+#: ../../chapter06.rst:47
+msgid ""
+"Now, change the SSL Certificate binding drop-down to the imported SSL "
+"certificate."
+msgstr "Ändern Sie nun die Dropdown-Auswahl der SSL-Zertifikatbindung auf das importierte SSL-Zertifikat."
+

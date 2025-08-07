@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter4.rst:3
+msgid "Different Scope of Users"
+msgstr "Verschillende Gebruikersniveaus"
+
+#: ../../chapter4.rst:7
+msgid "Tenant Administrator"
+msgstr "Tenantbeheerder"
+
+#: ../../chapter4.rst:9
+msgid ""
+"Tenant is a management scope that typically map to a company or a group "
+"of users that collaborates on a set of documents. In |prodname|, it is "
+"referred to as the Tenant Account as well."
+msgstr "Een tenant is een beheerscope die doorgaans overeenkomt met een bedrijf of een groep gebruikers die samenwerken aan een reeks documenten. In |prodname| wordt dit ook wel de Tenant Account genoemd."
+
+#: ../../chapter4.rst:11
+msgid ""
+"On a per-tenant basis, you can create team users inside the tenant; you "
+"can setup Active Directory connection per-tenant; you can setup team "
+"folder to share among users inside the tenant."
+msgstr "Op basis van elke tenant kunt u teamgebruikers binnen de tenant aanmaken; u kunt per tenant een Active Directory-verbinding instellen; u kunt een teammap instellen om te delen onder gebruikers binnen de tenant."
+
+#: ../../chapter4.rst:13
+msgid ""
+"As a |prodname| administrator, you can think of a tenant as a company, "
+"who is your client/customer, which in turn may have some of its own users"
+" too."
+msgstr "Als |prodname| beheerder kunt u een tenant zien als een bedrijf, dat uw klant is, en op zijn beurt ook eigen gebruikers kan hebben."
+
+#: ../../chapter4.rst:17
+msgid "Team User"
+msgstr "Teamgebruiker"
+
+#: ../../chapter4.rst:19
+msgid ""
+"Team user are users inside a tenant scope. They have credentials to login"
+" to |prodname|. They are regular users in a tenant that have home "
+"directory and storage quota assigned. If a tenant is a company, the team "
+"user are employees in the company."
+msgstr "Teamgebruikers zijn gebruikers binnen de reikwijdte van een tenant. Ze hebben inloggegevens om in te loggen op |prodname|. Het zijn reguliere gebruikers in een tenant die een thuismap en opslagquotum toegewezen hebben gekregen. Als een tenant een bedrijf is, zijn de teamgebruikers werknemers in het bedrijf."
+
+#: ../../chapter4.rst:23
+msgid "Delegate Administrator"
+msgstr "Gedelegeerd Beheerder"
+
+#: ../../chapter4.rst:25
+msgid ""
+"A delegated administrator is a team user most of the time. However, "
+"delegated administrators can be elevated to full tenant administrators by"
+" clicking on the \"Manage Team Cloud\" link. This link is only visible if"
+" you are logged in as a Delegate Administrator. To create this type of "
+"administrator follow these steps as Tenant Admin."
+msgstr "Een gedelegeerde beheerder is meestal een teamgebruiker. Echter, gedelegeerde beheerders kunnen verheven worden tot volledige tenantbeheerders door te klikken op de link \"Beheer Team Cloud\". Deze link is alleen zichtbaar als u bent ingelogd als een Gedelegeerde Beheerder. Om dit type beheerder te creëren volgt u deze stappen als Tenant Admin."
+
+#: ../../chapter4.rst:27
+msgid ""
+"Logged in as Tenant Admin, you can delegate administrators through the "
+"Control Panel of the Tenant Dashboard (1)."
+msgstr "Aangemeld als Tenant Admin, kunt u beheerders delegeren via het Configuratiescherm van het Tenant Dashboard (1)."
+
+#: ../../chapter4.rst:32
+msgid "TENANT ADMINISTRATORS SETTINGS"
+msgstr "INSTELLINGEN VAN TENANTBEHEERDERS"
+
+#: ../../chapter4.rst:34
+msgid ""
+"In the Tenant Administrators panel you can choose a user you want to add "
+"from the field upon clicking the \"Edit\" option (2). Choose \"Update\" "
+"(3) when finished."
+msgstr "In het paneel van Tenantbeheerders kunt u een gebruiker kiezen die u wilt toevoegen vanuit het veld nadat u op de optie \"Bewerken\" (2) heeft geklikt. Kies \"Bijwerken\" (3) als u klaar bent."
+
+#: ../../chapter4.rst:36
+msgid ""
+"Tenant administrators can be removed by clearing the field given in the "
+"\"Edit\" option."
+msgstr "Tenantbeheerders kunnen worden verwijderd door het veld leeg te maken in de optie \"Bewerken\"."
+
+#: ../../chapter4.rst:41
+msgid "DELEGATED ADMINISTRATORS"
+msgstr "GEDELEGEERDE BEHEERDERS"
+
+#: ../../chapter4.rst:43
+msgid ""
+"When a team user (with delegate administrator assignment) logs in, there "
+"will be a \"Manage Team Cloud\" link available (4)."
+msgstr "Wanneer een teamgebruiker (met toegewezen beheerdersrechten) inlogt, zal er een link 'Beheer Team Cloud' beschikbaar zijn (4)."
+
+#: ../../chapter4.rst:48
+msgid "MANAGE TEAM CLOUD ACCESS"
+msgstr "BEHEER TEAM CLOUD TOEGANG"
+
+#: ../../chapter4.rst:50
+msgid ""
+"And when the delegate administrator is finished managing the team cloud, "
+"they can return to their normal File Browser view by clicking \"Return To"
+" My Cloud\" (5)."
+msgstr "En wanneer de gedelegeerde beheerder klaar is met het beheren van de teamcloud, kunnen ze terugkeren naar hun normale Bestandsbrowserweergave door te klikken op \"Terug naar Mijn Cloud\" (5)."
+
+#: ../../chapter4.rst:55
+msgid "Guest User"
+msgstr "Gastgebruiker"
+
+#: ../../chapter4.rst:57
+msgid ""
+"Guest user are users that have credentials to login to |prodname|, but "
+"these users don't have home directory."
+msgstr "Gastgebruikers zijn gebruikers die inloggegevens hebben om in te loggen op |prodname|, maar deze gebruikers hebben geen thuismap."
+
+#: ../../chapter4.rst:60
+msgid "Anonymous User"
+msgstr "Anonieme Gebruiker"
+
+#: ../../chapter4.rst:62
+msgid ""
+"If the public link and anonymous (no login required) sharing is enabled, "
+"users can use a link to come to the web portal and see files and folders "
+"that are shared."
+msgstr "Als de openbare link en anoniem delen (geen inloggen vereist) is ingeschakeld, kunnen gebruikers een link gebruiken om naar het webportaal te komen en de bestanden en mappen te zien die gedeeld zijn."
+
+#: ../../chapter4.rst:70
+msgid "PUBLIC LINK"
+msgstr "OPENBARE LINK"
+

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Initial login"
+msgstr "Inicio de sesión inicial"
+
+#: ../../chapter5.rst:5
+msgid "To get started, point your web browser at the |prodname| server."
+msgstr "Para comenzar, apunta tu navegador web hacia el servidor |prodname|."
+
+#: ../../chapter5.rst:7
+msgid ""
+"If you are the system administrator for the |prodname| server and you are"
+" in the server's console, you can point your web browser at "
+"http://localhost"
+msgstr "Si usted es el administrador del sistema para el servidor |prodname| y se encuentra en la consola del servidor, puede dirigir su navegador web a http://localhost"
+
+#: ../../chapter5.rst:11
+msgid ""
+"If you are in the Local Area Network, you can point your web browser at "
+"the IP address of the |prodname| server - http://<ip-address>"
+msgstr "Si te encuentras en la Red de Área Local, puedes dirigir tu navegador web a la dirección IP del servidor de |prodname| - http://<ip-address>"
+
+#: ../../chapter5.rst:14
+msgid ""
+"Most common, and in production,  you will be pointing your web browser at"
+" the |prodname| server's DNS name, such as https://<DNS-Name-Of-Server>"
+msgstr "Lo más común, y en producción, será que apuntes tu navegador web al nombre DNS del servidor de |prodname|, como https://<DNS-Name-Of-Server>"
+
+#: ../../chapter5.rst:17
+msgid "Once you are in the web portal, you will be seeing the login page first."
+msgstr "Una vez que estés en el portal web, verás primero la página de inicio de sesión."
+
+#: ../../chapter5.rst:23
+msgid "|prodname| LOGIN"
+msgstr "|prodname| INICIAR SESIÓN"
+

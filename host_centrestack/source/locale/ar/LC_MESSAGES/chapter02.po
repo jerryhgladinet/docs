@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Partner Portal"
+msgstr "بوابة الشركاء"
+
+#: ../../chapter02.rst:5
+msgid ""
+"To start the Hosted-|prodname| version, the first thing to do is to "
+"acquire a |prodname| partner account and login to the web portal."
+msgstr "لبدء استخدام نسخة |prodname| المستضافة، أول شيء يجب القيام به هو الحصول على حساب شريك |prodname| وتسجيل الدخول إلى البوابة الإلكترونية."
+
+#: ../../chapter02.rst:10
+msgid "|prodname| WEBSITE"
+msgstr "|prodname| موقع الويب"
+
+#: ../../chapter02.rst:12
+msgid ""
+"The Partner Portal is the centralized place to manage the managed service"
+" provider's (MSP's) clients. The activities on the partner portal include"
+" creating Tenants and managing Tenants."
+msgstr "البوابة الشريكة هي المكان المركزي لإدارة عملاء مقدم الخدمة المُدارة (MSP). تشمل الأنشطة في البوابة الشريكة إنشاء المستأجرين وإدارة المستأجرين."
+
+#: ../../chapter02.rst:17
+msgid "PARTNER LOGIN"
+msgstr "تسجيل دخول الشريك"
+
+#: ../../chapter02.rst:19
+msgid ""
+"After logging into the Partner Portal, you can see most options by "
+"expanding the left-side menu. **(1)** From the collapsable menu, choose "
+"one of the two hosting options: \"Self-Hosted |prodname|\" **(2)**, which"
+" is for the self-hosted |prodname|, or \"Hosted |prodname|\" **(3)**. In "
+"the image below you can see that we have already \"Branded\" this account"
+" with \"ACME Cloud Services\" **(4)** (see \"Branding\" section **(5)** "
+"below for more information). You can also access useful information here,"
+" such as \"Compare CentreStack Editions\" **(6)** and \"Training Videos\""
+" **(7)** to help you get started."
+msgstr "بعد تسجيل الدخول إلى بوابة الشركاء، يمكنك رؤية معظم الخيارات من خلال توسيع القائمة الجانبية اليسرى. **(1)** من القائمة القابلة للطي، اختر أحد خياري الاستضافة: \"الاستضافة الذاتية لـ |prodname|\" **(2)**، والتي تكون لـ |prodname| الذاتية الاستضافة، أو \"استضافة |prodname|\" **(3)**. في الصورة أدناه يمكنك أن ترى أننا قد \"وضعنا العلامة التجارية\" لهذا الحساب بـ \"خدمات السحابة ACME\" **(4)** (انظر قسم \"العلامة التجارية\" **(5)** أدناه لمزيد من المعلومات). يمكنك أيضًا الوصول إلى معلومات مفيدة هنا، مثل \"مقارنة إصدارات CentreStack\" **(6)** و \"فيديوهات التدريب\" **(7)** لمساعدتك على البدء."
+
+#: ../../chapter02.rst:24
+msgid "PARTNER DASHBOARD"
+msgstr "لوحة تحكم الشريك"
+
+#: ../../chapter02.rst:26
+msgid ""
+"Because this guide is focused on our \"Hosted\" solution, choose the "
+"\"Hosted |prodname|\" option from the left panel."
+msgstr "نظرًا لأن هذا الدليل يركز على حل \"المستضاف\" الخاص بنا، اختر خيار \"|prodname| المستضاف\" من اللوحة اليسرى."
+
+#: ../../chapter02.rst:31
+msgid "HOSTED |prodname| TENANT MANAGEMENT"
+msgstr "إدارة المستأجرين المستضافين |prodname|"
+
+#: ../../chapter02.rst:34
+msgid "Tenant Management"
+msgstr "إدارة المستأجرين"
+
+#: ../../chapter02.rst:36
+msgid ""
+"After you are in the Hosted |prodname| section, you can view the Tenant "
+"manager."
+msgstr "بعد أن تكون في قسم |prodname| المستضاف، يمكنك مشاهدة مدير الوحدات السكنية."
+
+#: ../../chapter02.rst:40
+msgid "A Tenant is usually mapped to a client of yours."
+msgstr "عادةً ما يُقابل المستأجر عميلًا لك."
+
+#: ../../chapter02.rst:43
+msgid "New Tenant"
+msgstr "مستأجر جديد"
+
+#: ../../chapter02.rst:45
+msgid ""
+"To start creating the first Tenant, you can use the \"Register a Tenant\""
+" link."
+msgstr "لبدء إنشاء المستأجر الأول، يمكنك استخدام رابط \"تسجيل مستأجر\"."
+
+#: ../../chapter02.rst:50
+msgid "CREATE A NEW TENANT"
+msgstr "إنشاء مستأجر جديد"
+
+#: ../../chapter02.rst:52
+msgid ""
+"During the creation of a Tenant, it asks for basic Tenant-related "
+"information such as company name, contact name, email and other "
+"information."
+msgstr "أثناء إنشاء مستأجر، يطلب المعلومات الأساسية المتعلقة بالمستأجر مثل اسم الشركة، اسم جهة الاتصال، البريد الإلكتروني ومعلومات أخرى."
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you need to get to the advanced section to further customize the "
+"creation of the Tenant, you can click on the \"Advanced Settings\" link."
+msgstr "إذا كنت بحاجة إلى الوصول إلى القسم المتقدم لتخصيص إنشاء المستأجر بشكل أكبر، يمكنك النقر على رابط \"الإعدادات المتقدمة\"."
+
+#: ../../chapter02.rst:59
+msgid "NEW TENANT SETTINGS"
+msgstr "إعدادات المستأجر الجديد"
+
+#: ../../chapter02.rst:62
+msgid "Advanced Settings"
+msgstr "الإعدادات المتقدمة"
+
+#: ../../chapter02.rst:67
+msgid "ADVANCED SETTINGS"
+msgstr "الإعدادات المتقدمة"
+
+#: ../../chapter02.rst:69
+msgid ""
+"For MSPs and the Tenant internal IT staff, there is a division of work "
+"and responsibility. Sometimes managed service providers do more work and "
+"have more responsibility, but other times the Tenant IT staff has more. "
+"The Advanced Settings defines how the work is divided between these two "
+"entities."
+msgstr "بالنسبة لمقدمي الخدمات المُدارة وطاقم تكنولوجيا المعلومات الداخلي للمستأجر، هناك تقسيم للعمل والمسؤولية. أحيانًا يقوم مقدمو الخدمات المُدارة بالمزيد من العمل ولديهم مسؤوليات أكبر، ولكن في أوقات أخرى يكون لطاقم تكنولوجيا المعلومات للمستأجر دور أكبر. تحدد الإعدادات المتقدمة كيفية تقسيم العمل بين هاتين الكيانين."
+
+#: ../../chapter02.rst:71
+msgid "View and edit group policy"
+msgstr "عرض وتعديل سياسة المجموعة"
+
+#: ../../chapter02.rst:73
+msgid "Whether the Tenant itself (Tenant Administrator) can manage group policy."
+msgstr "ما إذا كان المستأجر نفسه (مدير المستأجر) يمكنه إدارة سياسة المجموعة."
+
+#: ../../chapter02.rst:76
+msgid "Allow Tenant to edit branding setting"
+msgstr "السماح للمستأجر بتعديل إعدادات العلامة التجارية"
+
+#: ../../chapter02.rst:78
+msgid ""
+"Normally the Tenant will pick up the service provider's default branding "
+"setting. If this setting is allowed the Tenant can define their own "
+"branding."
+msgstr "عادةً ما يتبنى المستأجر إعدادات العلامة التجارية الافتراضية لمقدم الخدمة. إذا كان هذا الإعداد مسموحًا به، يمكن للمستأجر تحديد علامتهم التجارية الخاصة."
+
+#: ../../chapter02.rst:81
+msgid "Edit Tenant Administrator info"
+msgstr "تعديل معلومات مسؤول المستأجر"
+
+#: ../../chapter02.rst:83
+msgid ""
+"Tenant admin can change the email and the name of the Tenant "
+"administrator."
+msgstr "يمكن لمسؤول المستأجر تغيير البريد الإلكتروني واسم مسؤول المستأجر."
+
+#: ../../chapter02.rst:85
+msgid "Allow creation of guest users"
+msgstr "السماح بإنشاء مستخدمين ضيوف"
+
+#: ../../chapter02.rst:87
+msgid ""
+"The Guest user is related to files and folder sharing. This setting "
+"allows Tenant users to create guest users."
+msgstr "المستخدم الضيف مرتبط بمشاركة الملفات والمجلدات. تسمح هذه الإعدادات لمستخدمي المستأجر بإنشاء مستخدمين ضيوف."
+
+#: ../../chapter02.rst:89
+msgid ""
+"Show Data-At-Rest Encryption configuration page (Requires empty storage "
+"container)"
+msgstr "عرض صفحة تكوين تشفير البيانات أثناء الراحة (يتطلب حاوية تخزين فارغة)"
+
+#: ../../chapter02.rst:91
+msgid ""
+"This option allows Tenant to set encryption upon the first use. The "
+"Tenant will enable the encryption with a pass phrase."
+msgstr "تتيح هذه الخيار للمستأجر تعيين التشفير عند الاستخدام الأول. سيقوم المستأجر بتمكين التشفير باستخدام عبارة مرور."
+
+#: ../../chapter02.rst:93
+msgid "User License Count"
+msgstr "عدد تراخيص المستخدم"
+
+#: ../../chapter02.rst:95
+msgid "By default, the Tenant user count can be anything above 3 users."
+msgstr "بشكل افتراضي، يمكن أن يكون عدد مستخدمي المستأجر أكثر من 3 مستخدمين."
+
+#: ../../chapter02.rst:97
+msgid "Hosting Data Center"
+msgstr "مركز استضافة البيانات"
+
+#: ../../chapter02.rst:99
+msgid ""
+"If a managed service provider has both self-hosted |prodname| environment"
+" and Hosted |prodname|, the managed service provider can leverage self-"
+"hosted |prodname| to create Tenants."
+msgstr "إذا كان مزود الخدمة المُدار يمتلك بيئة |prodname| ذاتية الاستضافة و |prodname| مُستضافة، فيمكن لمزود الخدمة المُدار الاستفادة من |prodname| ذاتية الاستضافة لإنشاء المستأجرين."
+
+#: ../../chapter02.rst:101
+msgid ""
+"After a Tenant is created, you can manage the Tenants in \"Registered "
+"Tenants\" section."
+msgstr "بعد إنشاء المستأجر، يمكنك إدارة المستأجرين في قسم \"المستأجرون المسجلون\"."
+
+#: ../../chapter02.rst:106
+msgid "MANAGING YOUR TENANT"
+msgstr "إدارة المستأجر الخاص بك"
+
+#: ../../chapter02.rst:109
+msgid "Branding"
+msgstr "العلامة التجارية"
+
+#: ../../chapter02.rst:111
+msgid ""
+"You can create the branding and then apply the branding information to "
+"your Tenants."
+msgstr "يمكنك إنشاء العلامة التجارية ثم تطبيق معلومات العلامة التجارية على المستأجرين لديك."
+
+#: ../../chapter02.rst:116
+msgid "PARTNER BRANDING SETTINGS"
+msgstr "إعدادات تمييز الشريك"
+
+#: ../../chapter02.rst:119
+msgid "Apply Branding to the Tenant"
+msgstr "تطبيق العلامة التجارية على المستأجر"
+
+#: ../../chapter02.rst:121
+msgid ""
+"**Default branding is applied this way:** On \"Registered Tenants\" "
+"section, click \"Brand\"."
+msgstr "**يتم تطبيق العلامة التجارية الافتراضية بهذه الطريقة:** في قسم \"المستأجرين المسجلين\"، انقر على \"العلامة التجارية\"."
+
+#: ../../chapter02.rst:127
+msgid "APPLY PARTNER BRANDING"
+msgstr "تطبيق العلامة التجارية للشريك"
+
+#: ../../chapter02.rst:129
+msgid ""
+"If the Tenant is allowed to change the branding, this can be done from "
+"the Tenant dashboard."
+msgstr "إذا كان يُسمح للمستأجر بتغيير العلامة التجارية، فيمكن القيام بذلك من لوحة تحكم المستأجر."
+
+#: ../../chapter02.rst:134
+msgid "ACCESS TO TENANT BRANDING"
+msgstr "الوصول إلى تخصيص العلامة التجارية للمستأجر"
+
+#: ../../chapter02.rst:136
+msgid ""
+"Once you are in the Branding Settings, you can choose a settings group "
+"from the Branding submenu. The setting categories are: ``General``, ``Web"
+" Portal``, ``Client Download``, ``Windows Client``, ``Mac Client``, "
+"``Emails``, ``Email Service``, and ``Branding Tasks``."
+msgstr "بمجرد أن تكون في إعدادات العلامة التجارية، يمكنك اختيار مجموعة إعدادات من القائمة الفرعية للعلامة التجارية. تتضمن فئات الإعداد: ``عام``, ``بوابة الويب``, ``تحميل العميل``, ``عميل ويندوز``, ``عميل ماك``, ``الرسائل الإلكترونية``, ``خدمة البريد الإلكتروني``, و ``مهام العلامة التجارية``."
+
+#: ../../chapter02.rst:141
+msgid "TENANT BRANDING SETTINGS"
+msgstr "إعدادات تخصيص العلامة التجارية للمستأجر"
+
+#: ../../chapter02.rst:143
+msgid ""
+"After the branding is created, you can apply the branding to a specific "
+"Tenant. In this example, we created a new logo and uploaded it to the "
+"logo section in the partner portal."
+msgstr "بعد إنشاء العلامة التجارية، يمكنك تطبيق العلامة التجارية على مستأجر محدد. في هذا المثال، قمنا بإنشاء شعار جديد وقمنا بتحميله إلى قسم الشعار في بوابة الشريك."
+
+#: ../../chapter02.rst:148
+msgid "REPLACE THIS"
+msgstr ""
+
+#: ../../chapter02.rst:150
+msgid ""
+"After that, we can apply the branding and you can see the difference "
+"before-branding and after-branding."
+msgstr "بعد ذلك، يمكننا تطبيق العلامة التجارية وستتمكن من رؤية الفرق قبل وبعد التسويق."
+
+#: ../../chapter02.rst:153
+msgid "Before - Default"
+msgstr "قبل - الافتراضي"
+
+#: ../../chapter02.rst:158
+msgid "DEFAULT BRANDING"
+msgstr "العلامة التجارية الافتراضية"
+
+#: ../../chapter02.rst:161
+msgid "Now - Your Branding"
+msgstr "الآن - العلامة التجارية الخاصة بك"
+
+#: ../../chapter02.rst:166
+msgid "CUSTOM BRANDING"
+msgstr "العلامة التجارية المخصصة"
+

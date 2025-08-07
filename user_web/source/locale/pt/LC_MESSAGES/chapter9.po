@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter9.rst:3
+msgid "Sharing"
+msgstr "Compartilhamento"
+
+#: ../../chapter9.rst:6
+msgid "Sharing vs. Publishing"
+msgstr "Compartilhamento vs. Publicação"
+
+#: ../../chapter9.rst:8
+msgid ""
+"There are two ways to share files and folders in |prodname|  – publishing"
+" and sharing."
+msgstr "Existem duas maneiras de compartilhar arquivos e pastas no |prodname| – publicando e compartilhando."
+
+#: ../../chapter9.rst:10
+msgid "**Publishing:**"
+msgstr "**Publicação:**"
+
+#: ../../chapter9.rst:12
+msgid ""
+"Only available for the administrator who can share any tenant-wide "
+"folder. It will only work with team-users in a specific |prodname| "
+"account (tenant account). Publishing a team folder can't go outside of "
+"the tenant scope."
+msgstr "Disponível apenas para o administrador que pode compartilhar qualquer pasta em todo o inquilino. Só funcionará com usuários de equipe em uma conta específica |prodname| (conta de inquilino). Publicar uma pasta de equipe não pode ultrapassar o âmbito do inquilino."
+
+#: ../../chapter9.rst:14
+msgid "**Sharing:**"
+msgstr "**Partilha:**"
+
+#: ../../chapter9.rst:16
+msgid ""
+"Both the administrator and team-users can share files with anyone that "
+"has an email address. The recipient of the share will get an email with a"
+" link to open the folder or download the file. If the email recipient is "
+"also a |prodname| Cloud user, he/she can access the shared file or folder"
+" directly from |prodname|."
+msgstr "Tanto o administrador quanto os usuários da equipe podem compartilhar arquivos com qualquer pessoa que possua um endereço de e-mail. O destinatário do compartilhamento receberá um e-mail com um link para abrir a pasta ou baixar o arquivo. Se o destinatário do e-mail também for um usuário do |prodname| Cloud, ele/ela poderá acessar o arquivo ou pasta compartilhada diretamente do |prodname|."
+
+#: ../../chapter9.rst:19
+msgid "Administrators can prevent team-users from sharing if needed."
+msgstr "Os administradores podem impedir que os utilizadores da equipa partilhem, se necessário."
+
+#: ../../chapter9.rst:22
+msgid "Sharing Files And Folders"
+msgstr "Compartilhando Arquivos e Pastas"
+
+#: ../../chapter9.rst:25
+msgid "File Sharing"
+msgstr "Partilha de Ficheiros"
+
+#: ../../chapter9.rst:27
+msgid ""
+"To share a file, click it and select the Share icon (1)revealed in the "
+"header of the file. You can also right click the file and select Share "
+"(2) in the context menu. Once the file is selected, if the right panel is"
+" open(click the encircled \"i\" button), there is a Share link (3) there "
+"as well."
+msgstr "Para compartilhar um arquivo, clique nele e selecione o ícone de Compartilhamento (1) exibido no cabeçalho do arquivo. Você também pode clicar com o botão direito no arquivo e selecionar Compartilhar (2) no menu de contexto. Uma vez que o arquivo esteja selecionado, se o painel direito estiver aberto (clique no botão \"i\" circulado), também haverá um link de Compartilhamento (3) ali."
+
+#: ../../chapter9.rst:32
+msgid "SHARING FILES"
+msgstr "COMPARTILHAMENTO DE ARQUIVOS"
+
+#: ../../chapter9.rst:34
+msgid ""
+"After clicking 'Share' above, in 'Invite People' window, click the email "
+"field (4) and enter email addresses seperated by semicolons (;) for "
+"anyone that needs access to the file. You can also add notes (5) if "
+"required. Click CONTINUE (6)."
+msgstr "Após clicar em 'Compartilhar' acima, na janela 'Convidar Pessoas', clique no campo de e-mail (4) e insira os endereços de e-mail separados por ponto e vírgula (;) para qualquer pessoa que precise de acesso ao arquivo. Você também pode adicionar notas (5), se necessário. Clique em CONTINUAR (6)."
+
+#: ../../chapter9.rst:39
+msgid "INVITE PEOPLE TO YOUR SHARE"
+msgstr "CONVIDAR PESSOAS PARA O SEU COMPARTILHAMENTO"
+
+#: ../../chapter9.rst:42
+msgid ""
+"On the second share window you have access to the share options panel "
+"where you can make important decisions such as how long you want the "
+"share to be active and how much control you want to give the user (e.g., "
+"read only, full control access). You can also make this share available "
+"to the public by get"
+msgstr "Na segunda janela de compartilhamento, você tem acesso ao painel de opções de compartilhamento, onde pode tomar decisões importantes, como por quanto tempo deseja que o compartilhamento esteja ativo e quanto controle deseja dar ao usuário (por exemplo, acesso somente leitura, acesso total). Você também pode tornar esse compartilhamento disponível ao público por obter"
+
+#: ../../chapter9.rst:47
+msgid "SHARE OPTIONS PANEL"
+msgstr "PAINEL DE OPÇÕES DE COMPARTILHAMENTO"
+
+#: ../../chapter9.rst:49
+msgid ""
+"You can access previously shared items by clicking the share icon (2) on "
+"a folder of file. Other shares can be accessed by opening the right panel"
+" (1) and clicking the edit button (3) next to the \"Shared Items\" "
+"option."
+msgstr "Você pode acessar itens compartilhados anteriormente clicando no ícone de compartilhamento (2) em uma pasta ou arquivo. Outros compartilhamentos podem ser acessados abrindo o painel direito (1) e clicando no botão de edição (3) ao lado da opção \"Itens Compartilhados\"."
+
+#: ../../chapter9.rst:54
+msgid "ACCESSING SHARED ITEMS SETTINGS"
+msgstr "ACESSANDO CONFIGURAÇÕES DE ITENS COMPARTILHADOS"
+
+#: ../../chapter9.rst:58
+msgid "Folder Sharing"
+msgstr "Partilha de Pastas"
+
+#: ../../chapter9.rst:60
+msgid ""
+"In this example, the icon view has been changed to detailed view (1) of "
+"the files in this folder. To share a folder, mouse-over it and select the"
+" Share icon (2) in its row. You can also right click the file and select "
+"'Share' in the context menu."
+msgstr "Neste exemplo, a visualização do ícone foi alterada para a visualização detalhada (1) dos arquivos nesta pasta. Para compartilhar uma pasta, passe o mouse sobre ela e selecione o ícone de Compartilhamento (2) na sua linha. Você também pode clicar com o botão direito do mouse no arquivo e selecionar 'Compartilhar' no menu de contexto."
+
+#: ../../chapter9.rst:65
+msgid "SHARING FOLDERS"
+msgstr "COMPARTILHAMENTO DE PASTAS"
+
+#: ../../chapter9.rst:69
+msgid "Removing shares"
+msgstr "Removendo compartilhamentos"
+
+#: ../../chapter9.rst:71
+msgid ""
+"During share setup, a user can define its expiration date. Once the share"
+" expires, other users will no longer be able to access the shares."
+msgstr "Durante a configuração do compartilhamento, um usuário pode definir sua data de expiração. Uma vez que o compartilhamento expire, outros usuários não poderão mais acessar os compartilhamentos."
+
+#: ../../chapter9.rst:73
+msgid "Users can also delete the share manually. First go to the Drive Root (1)."
+msgstr "Os usuários também podem excluir o compartilhamento manualmente. Primeiro vá para a Raiz do Drive (1)."
+
+#: ../../chapter9.rst:75
+msgid ""
+"To delete a user's access to a share, open the right panel click the "
+"\"Manage\" icon (2) on shared items. In the next panel choose the item "
+"you wish to modify, then in the pop-up window, click the Delete icon (3) "
+"to remove this user's permission from the share."
+msgstr "Para excluir o acesso de um usuário a um compartilhamento, abra o painel direito e clique no ícone \"Gerenciar\" (2) nos itens compartilhados. No próximo painel, escolha o item que deseja modificar e, em seguida, na janela pop-up, clique no ícone de Excluir (3) para remover a permissão deste usuário do compartilhamento."
+
+#: ../../chapter9.rst:80
+msgid "DELETING A USER'S PERMISSION"
+msgstr "EXCLUINDO A PERMISSÃO DE UM USUÁRIO"
+
+#: ../../chapter9.rst:84
+msgid "Accessing 'Files/Folders Shared With Me'"
+msgstr "Acessando 'Arquivos/Pastas Compartilhados Comigo'"
+
+#: ../../chapter9.rst:86
+msgid ""
+"When a file or folder is shared with the user, he/she will get an email. "
+"The link in the email can be used to open the file or folder."
+msgstr "Quando um arquivo ou pasta é compartilhado com o usuário, ele/ela receberá um e-mail. O link no e-mail pode ser usado para abrir o arquivo ou pasta."
+
+#: ../../chapter9.rst:88
+msgid ""
+"If the user has a |prodname|  account with the given email address, the "
+"shared files and folders will appear under the 'Files shared with me' "
+"folder, in both the |prodname| Web Portal and |prodname| Desktop App."
+msgstr "Se o usuário tiver uma conta |prodname| com o endereço de email fornecido, os arquivos e pastas compartilhados aparecerão na pasta 'Arquivos compartilhados comigo', tanto no Portal Web |prodname| quanto no Aplicativo de Desktop |prodname|."
+
+#: ../../chapter9.rst:92
+msgid "Web Portal"
+msgstr "Portal Web"
+
+#: ../../chapter9.rst:94
+msgid ""
+"You can access shared files by clicking the \"Shared files/folders\" "
+"button in the \"File Browser\" view of the Web Portal."
+msgstr "Você pode acessar arquivos compartilhados clicando no botão \"Arquivos/pastas compartilhados\" na visualização \"Navegador de Arquivos\" do Portal Web."
+
+#: ../../chapter9.rst:99
+msgid "WEB PORTAL SHARED FILES LOCATION"
+msgstr "LOCALIZAÇÃO DOS ARQUIVOS COMPARTILHADOS NO PORTAL WEB"
+
+#: ../../chapter9.rst:103
+msgid "Windows Client"
+msgstr "Cliente Windows"
+
+#: ../../chapter9.rst:105
+msgid ""
+"In the Windows Client you can access shared files by using windows "
+"explorer to navigate to the Cloud Drive (1) where you will find any "
+"shared files listed (2) with information about who shared (3) the file "
+"with you."
+msgstr "No Cliente Windows, você pode acessar arquivos compartilhados usando o explorador de arquivos para navegar até o Cloud Drive (1) onde encontrará qualquer arquivo compartilhado listado (2) com informações sobre quem compartilhou (3) o arquivo com você."
+
+#: ../../chapter9.rst:110
+msgid "WINDOWS CLIENT SHARED FILES LOCATION"
+msgstr "LOCALIZAÇÃO DOS ARQUIVOS COMPARTILHADOS DO CLIENTE WINDOWS"
+
+#: ../../chapter9.rst:113
+msgid ""
+"If the user has write permission to the folder shared, he can modify the "
+"files in the folder."
+msgstr "Se o usuário tem permissão de escrita na pasta compartilhada, ele pode modificar os arquivos na pasta."
+

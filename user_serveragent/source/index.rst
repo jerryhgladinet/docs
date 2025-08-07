@@ -67,7 +67,7 @@ As a Summary
 
 1.  File Server Agent can sync folders and files between the local file server and the remote |prodname| Server.
 2.  File Server Agent can sync NTFS folder permissions from a local file server to the remote |prodname| Server.
-3.  File Server Agent can export users to the remote |prodname| Server from a user’s local Active Directory.
+3.  File Server Agent can export users to the remote |prodname| Server from a user's local Active Directory.
 4.  File Server Agent activity runs as a Windows background service on the local file server.
 5.  Users use their local Active Directory identity to access files locally and from the |prodname| Server.
 
@@ -82,7 +82,7 @@ As a Summary
     
     When should you use a direct server message block (SMB) network share connection?
     
-    Typically, when a file server is away not in the same data center or network, we recommend using Server Agent. (e.g. there is no physical connection between |prodname| and the “Server Agent” target system)
+    Typically, when a file server is away not in the same data center or network, we recommend using Server Agent. (e.g. there is no physical connection between |prodname| and the "Server Agent" target system)
     
     For file servers in the same data center, but in a different VLAN, we recommend opening up the VLAN so the |prodname| 
     can direct access the file server without using a Server Agent since both are already in the same data center.

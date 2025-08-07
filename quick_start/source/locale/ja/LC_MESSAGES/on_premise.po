@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../on_premise.rst:3
+msgid "\"On-Premise Self-Hosted\" Quick Start"
+msgstr "\"オンプレミス セルフホスティング\" クイックスタート"
+
+#: ../../on_premise.rst:6
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../on_premise.rst:8
+msgid ""
+"To deploy an on-premise self-hosted centrestack, the CentreStack server "
+"is directly installed in the company network. On one-hand, it is facing "
+"the Internet with port 443 (HTTPS) like any web server does; and on the "
+"other-hand, it is connecting to company internal network and IT "
+"infrastructures such as File Servers and Active Directory. The "
+"CentreStack server normally sits in the DMZ or behind a firewall to "
+"protect against un-authorized outside access."
+msgstr "オンプレミスのセルフホステッドCentreStackを展開するには、CentreStackサーバーを会社のネットワークに直接インストールします。一方で、他のウェブサーバーと同様にポート443（HTTPS）を使用してインターネットに面しており、他方で、ファイルサーバーやアクティブディレクトリなどの社内ネットワークおよびITインフラストラクチャに接続しています。CentreStackサーバーは通常、DMZに設置されるか、または不正な外部アクセスから保護するためにファイアウォールの後ろに置かれます。"
+
+#: ../../on_premise.rst:14
+msgid ""
+"The business objective is giving mobile and remote access to file servers"
+" without the need of a VPN. It is more productive than traditional VPN  "
+"by greatly reducing the number of VPN support tickets for internal "
+"enterprise IT department or for the managed service provider."
+msgstr "ビジネスの目的は、VPNを必要とせずにファイルサーバーへのモバイルおよびリモートアクセスを提供することです。これは、従来のVPNよりも生産性が高く、企業の内部IT部門またはマネージドサービスプロバイダーのVPNサポートチケットの数を大幅に削減します。"
+
+#: ../../on_premise.rst:21
+msgid "See also :"
+msgstr "参照："
+
+#: ../../on_premise.rst:23
+msgid ""
+"`Remote File Server Access <https://www.gladinet.com/hybrid-cloud-with-"
+"file-server.html>`_"
+msgstr "`リモートファイルサーバーアクセス <https://www.gladinet.com/hybrid-cloud-with-file-server.html>`_"
+
+#: ../../on_premise.rst:26
+msgid "Preparation"
+msgstr "準備"
+
+#: ../../on_premise.rst:28
+msgid ""
+"The CentreStack server is a web server, passing file and folder access "
+"between remote client agents to backend file servers. Here is a list of "
+"items to prepare ahead of time."
+msgstr "CentreStackサーバーはWebサーバーであり、リモートクライアントエージェントとバックエンドファイルサーバー間のファイルおよびフォルダーアクセスを仲介します。事前に準備しておくべき項目のリストは以下の通りです。"
+
+#: ../../on_premise.rst:35
+msgid "a dedicated Windows Server machine:"
+msgstr "専用のWindows Serverマシン:"
+
+#: ../../on_premise.rst:32
+msgid "Operating System (2022 / 2019 / 2016)"
+msgstr "オペレーティングシステム (2022 / 2019 / 2016)"
+
+#: ../../on_premise.rst:33
+msgid "8G memory"
+msgstr "8Gメモリ"
+
+#: ../../on_premise.rst:34
+msgid "Dual core or more cores (vCPU or CPU)"
+msgstr "デュアルコアまたはそれ以上のコア（vCPUまたはCPU）"
+
+#: ../../on_premise.rst:35
+msgid "100G hard drive space."
+msgstr "100Gのハードドライブスペース。"
+
+#: ../../on_premise.rst:37
+msgid "a SSL certificate (for production)"
+msgstr "SSL証明書（本番用）"
+
+#: ../../on_premise.rst:38
+msgid "a DNS name (for production)"
+msgstr "本番用のDNS名"
+
+#: ../../on_premise.rst:40
+msgid ""
+"Since you can turn a test (POC) environment directly into a production "
+"environment, you can start with requirement #1  for test and POC (proof "
+"of concept) environment and later acquire SSL certificate and DNS name."
+msgstr "テスト（POC）環境を直接本番環境に変えることができるため、テストおよびPOC（概念実証）環境に対する要件#1から始め、後にSSL証明書とDNS名を取得できます。"
+
+#: ../../on_premise.rst:44
+msgid ""
+"Sometimes, CentreStack can be installed directly on the File Server "
+"itself if the goal is to reduce the number of servers. Even though we "
+"recommend using a dedicated clean Windows Server, as long as the existing"
+" file server doesn't have IIS/Default-Web-Site conflict, nor SQL Express "
+"conflict, the CentreStack server can be installed on the file server."
+msgstr "場合によっては、サーバーの数を減らすことが目的であれば、CentreStackをファイルサーバー自体に直接インストールすることができます。専用のクリーンなWindowsサーバーの使用を推奨していますが、既存のファイルサーバーにIIS/Default-Web-Siteの競合やSQL Expressの競合がない限り、CentreStackサーバーはファイルサーバーにインストールできます。"
+
+#: ../../on_premise.rst:51
+msgid "Download & Installation"
+msgstr "ダウンロードとインストール"
+
+#: ../../on_premise.rst:53
+msgid ""
+"After you decide and have acquired the Windows Server to install the "
+"CentreStack software, you can go to the partner portal and download the "
+"software."
+msgstr "Windows Serverを購入し、CentreStackソフトウェアをインストールすることを決定した後、パートナーポータルにアクセスしてソフトウェアをダウンロードすることができます。"
+
+#: ../../on_premise.rst:57
+msgid "The Installer will install everything from beginning to end."
+msgstr "インストーラーは初めから終わりまで全てをインストールします。"
+
+#: ../../on_premise.rst:62
+msgid "Please reference the following two guides for more information:"
+msgstr "以下の二つのガイドを参照してください。"
+
+#: ../../on_premise.rst:64
+msgid ""
+"`Deployment Guide "
+"<http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+msgstr "`デプロイメントガイド <http://www.centrestack.com/Library/DeploymentGuide/index.html>`_"
+
+#: ../../on_premise.rst:65
+msgid ""
+"`Installation Guide "
+"<http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+msgstr "`インストールガイド <http://www.centrestack.com/Library/InstallGuide/index.html>`_"
+

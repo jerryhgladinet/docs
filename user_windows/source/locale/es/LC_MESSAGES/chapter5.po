@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter5.rst:3
+msgid "Locking Files"
+msgstr "Bloqueo de Archivos"
+
+#: ../../chapter5.rst:6
+msgid ""
+"The |prodname| Cloud administrator has the option of enabling a setting "
+"that causes files to automatically become locked when they are in use - "
+"automatic distributed lock (see administration guide). This prevents more"
+" than one person from updating the file at the same time which can cause "
+"undesirable results."
+msgstr "El administrador de |prodname| Cloud tiene la opción de habilitar una configuración que hace que los archivos se bloqueen automáticamente cuando están en uso - bloqueo distribuido automático (consulte la guía de administración). Esto evita que más de una persona actualice el archivo al mismo tiempo, lo que puede causar resultados indeseables."
+
+#: ../../chapter5.rst:10
+msgid "When to use automatic lock and when to use manual lock?"
+msgstr "¿Cuándo usar bloqueo automático y cuándo usar bloqueo manual?"
+
+#: ../../chapter5.rst:12
+msgid ""
+"When files are automatic locked, the same files need to be automatically "
+"unlocked. When files are automaticall locked, the agent that locks the "
+"file needs to maintain health heart beat with the central |prodname| "
+"server. When the heart beat can't be maintained, the file will be "
+"automatically unlocked."
+msgstr "Cuando los archivos están bloqueados automáticamente, los mismos archivos necesitan ser desbloqueados automáticamente. Cuando los archivos están bloqueados automáticamente, el agente que bloquea el archivo necesita mantener un latido del corazón saludable con el servidor central |prodname|. Cuando el latido del corazón no se puede mantener, el archivo será desbloqueado automáticamente."
+
+#: ../../chapter5.rst:14
+msgid ""
+"If you want the file to stay locked regardless what situation the agent "
+"machine is in, manual lock is recommened. A manually locked file will "
+"need to be manually unlocked."
+msgstr "Si desea que el archivo permanezca bloqueado independientemente de la situación en la que se encuentre la máquina agente, se recomienda el bloqueo manual. Un archivo bloqueado manualmente necesitará ser desbloqueado manualmente."
+
+#: ../../chapter5.rst:16
+msgid ""
+"Files can be manually locked. Right-click on any file **(1)** in the "
+"|prodname| drive and then select \"check out (Lock) This File\" **(2)** "
+"to toggle between its locked and unlocked state. Then click OK in the "
+"pop-up **(3)**."
+msgstr "Los archivos pueden bloquearse manualmente. Haz clic derecho en cualquier archivo **(1)** en la unidad |prodname| y luego selecciona \"hacer check out (Bloquear) Este Archivo\" **(2)** para alternar entre su estado bloqueado y desbloqueado. Luego haz clic en Aceptar en el emergente **(3)**."
+
+#: ../../chapter5.rst:21
+msgid "LOCKING A LOCAL FILE"
+msgstr "BLOQUEO DE UN ARCHIVO LOCAL"
+
+#: ../../chapter5.rst:23
+msgid ""
+"The context menu will give the option to lock the file. It will stay "
+"locked until you 'Unlock' it. When you are finished with the file, you "
+"can unlock it by right-clicking it and choosing Check In from the context"
+" menu."
+msgstr "El menú contextual ofrecerá la opción de bloquear el archivo. Permanecerá bloqueado hasta que lo 'Desbloquees'. Cuando hayas terminado con el archivo, puedes desbloquearlo haciendo clic derecho sobre él y seleccionando Check In en el menú contextual."
+
+#: ../../chapter5.rst:27
+msgid "Offline Access"
+msgstr "Acceso sin conexión"
+
+#: ../../chapter5.rst:29
+msgid ""
+"Cloud Drive files aren't fully synced by default; only the files you are "
+"using are synced. You can Force Sync your files however. Right-click the "
+"folder you want to make \"Offline\" and choose \"Enable Offline Access "
+"**(1)**. Once this is done, you can click your drive icon, and then "
+"choose \"Force Sync All Offline Folders\" **(2)** to sync any folders you"
+" have enabled for Offline Access."
+msgstr "Los archivos de Cloud Drive no se sincronizan completamente por defecto; solo se sincronizan los archivos que estás utilizando. Sin embargo, puedes Forzar la Sincronización de tus archivos. Haz clic derecho en la carpeta que deseas hacer \"Offline\" y elige \"Habilitar Acceso Offline **(1)**. Una vez hecho esto, puedes hacer clic en el icono de tu unidad y luego elegir \"Forzar Sincronización de Todas las Carpetas Offline\" **(2)** para sincronizar cualquier carpeta que hayas habilitado para Acceso Offline."
+
+#: ../../chapter5.rst:31
+msgid ""
+"Also, you might want to pause the synchronization of files while you are "
+"working on them. This can be done from the Cloud Drive icon as well. In "
+"the menu, choose \"Pause Sync\" **(3)** temporarily stop files from "
+"sychronizing. The benefit is that you can keep modifying documents "
+"(drafts) locally until it is all done and then you can uncheck the "
+"\"Pause\" and connect to the |prodname| cloud drive to upload any "
+"changes."
+msgstr "También, es posible que quieras pausar la sincronización de archivos mientras trabajas en ellos. Esto se puede hacer desde el icono de Cloud Drive también. En el menú, elige \"Pausar sincronización\" **(3)** para detener temporalmente la sincronización de archivos. La ventaja es que puedes seguir modificando documentos (borradores) localmente hasta que todo esté terminado y luego puedes desmarcar la opción \"Pausa\" y conectarte al |prodname| cloud drive para subir cualquier cambio."
+
+#: ../../chapter5.rst:36
+msgid "OFFLINE ACCESS"
+msgstr "ACCESO SIN CONEXIÓN"
+

@@ -4,7 +4,7 @@ Background
 
 Architectural Background
 =========================
-Before we examine the capabilities of the solution, let’s review its architectural background. As illustrated in Figure 1, the |prodname| File Sync and Share platform 
+Before we examine the capabilities of the solution, let's review its architectural background. As illustrated in Figure 1, the |prodname| File Sync and Share platform 
 has three primary components:
 
     *	The Storage Layer and the Internal IT infrastructure such as Active Directory and File Server - to the right

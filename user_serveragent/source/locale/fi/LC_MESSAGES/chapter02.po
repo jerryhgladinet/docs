@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "2 Installation"
+msgstr "2 Asennus"
+
+#: ../../chapter02.rst:6
+msgid ""
+"You can download and install the File Server Agent software directly from"
+" the Web Portal. Complete the following steps to install the |prodname| "
+"File Server Agent software on your file server."
+msgstr "Voit ladata ja asentaa File Server Agent -ohjelmiston suoraan Web-portaalista. Suorita seuraavat vaiheet asentaaksesi |prodname| File Server Agent -ohjelmiston tiedostopalvelimellesi."
+
+#: ../../chapter02.rst:11
+msgid "2.1 System Requirement"
+msgstr "2.1 Järjestelmävaatimukset"
+
+#: ../../chapter02.rst:13
+msgid "File Server Agent can be installed on the following OS"
+msgstr "Tiedostopalvelimen agentti voidaan asentaa seuraaviin käyttöjärjestelmiin"
+
+#: ../../chapter02.rst:15
+msgid "Server OS"
+msgstr "Palvelimen käyttöjärjestelmä"
+
+#: ../../chapter02.rst:17
+msgid "Windows 2022"
+msgstr "Windows 2022"
+
+#: ../../chapter02.rst:18
+msgid "Windows 2019"
+msgstr "Windows 2019"
+
+#: ../../chapter02.rst:19
+msgid "Windows 2016"
+msgstr "Windows 2016"
+
+#: ../../chapter02.rst:21
+msgid "Client OS"
+msgstr "Asiakkaan käyttöjärjestelmä"
+
+#: ../../chapter02.rst:23
+msgid "Windows 10"
+msgstr "Windows 10"
+
+#: ../../chapter02.rst:24
+msgid "Windows 8.1"
+msgstr "Windows 8.1"
+
+#: ../../chapter02.rst:25
+msgid "Windows 8.0"
+msgstr "Windows 8.0"
+
+#: ../../chapter02.rst:26
+msgid "Windows 7"
+msgstr "Windows 7"
+
+#: ../../chapter02.rst:27
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+#: ../../chapter02.rst:28
+msgid "Windows XP"
+msgstr "Windows XP"
+
+#: ../../chapter02.rst:33
+msgid "2.2 Preparation"
+msgstr "2.2 Valmistelu"
+
+#: ../../chapter02.rst:35
+msgid ""
+"File Server Agent depends on .NET framework 2.0 or later. If you are "
+"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"need to prepare the .NET environment. This usually can be done from the "
+"Windows Server Manager > Manage Roles and Features and then in the "
+"features section, select .NET Framework 3.5"
+msgstr "Tiedostopalvelimen agentti edellyttää .NET-ympäristöä 2.0 tai uudempaa. Jos asennat tiedostopalvelimen agentin Windows Server 2022/2019/2016 -palvelimelle, sinun on valmisteltava .NET-ympäristö. Tämä voidaan yleensä tehdä Windows Server Manager > Manage Roles and Features -kohdasta ja sitten ominaisuuksien osiosta valitsemalla .NET Framework 3.5"
+
+#: ../../chapter02.rst:40
+msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
+msgstr "WINDOWS SERVER 2016 .NET FRAMEWORK -OMINAISUUS"
+
+#: ../../chapter02.rst:43
+msgid ""
+"If you are installing File Server Agent on Windows 8/Windows 10, you can "
+"get .NET framework 2.0 (3.5) installed from \"Program Files\" -> Windows "
+"Components."
+msgstr "Jos asennat File Server Agentin Windows 8/Windows 10 -käyttöjärjestelmään, voit asentaa .NET framework 2.0 (3.5) -ohjelmiston kohdasta \"Ohjelmatiedostot\" -> Windowsin osat."
+
+#: ../../chapter02.rst:48
+msgid "WINDOWS 10 .NET FRAMEWORK 3.5 FEATURE"
+msgstr "WINDOWS 10 .NET FRAMEWORK 3.5 OMINAISUUS"
+
+#: ../../chapter02.rst:53
+msgid "2.3 Install"
+msgstr "2.3 Asenna"
+
+#: ../../chapter02.rst:57
+msgid ""
+"Always install |prodname| File Server Agent as a Tenant Administrator "
+"when you are at the login dialog."
+msgstr "Asenna aina |prodname| File Server Agent Tenant Administratorina, kun olet kirjautumisikkunassa."
+
+#: ../../chapter02.rst:59
+msgid ""
+"File Server Agent belongs to a specific Tenant instead of belonging to a "
+"specific user. So it is best to download the File Server Agent as the "
+"Tenant Administrator and set it up to connect to the same Tenant "
+"Administrator's account."
+msgstr "Tiedostopalvelimen agentti kuuluu tiettyyn vuokraajaan sen sijaan, että se kuuluisi tiettyyn käyttäjään. Siksi on parasta ladata Tiedostopalvelimen agentti vuokraajan pääkäyttäjänä ja asettaa se yhdistämään samaan vuokraajan pääkäyttäjän tiliin."
+
+#: ../../chapter02.rst:62
+msgid "Step 1 - Download the Installer Package"
+msgstr "Vaihe 1 - Lataa asennuspaketti"
+
+#: ../../chapter02.rst:64
+msgid ""
+"From the File Server you wish to install the File Server Agent; open a "
+"browser and log in to the Web Portal as the Tenant Administrator. From "
+"the Management Console, click the **(+)** in the \"Remote Active "
+"Directory\" section on the right-hand side."
+msgstr "Siitä tiedostopalvelimesta, johon haluat asentaa Tiedostopalvelimen Agentin; avaa selain ja kirjaudu Web-portaaliin Pääkäyttäjänä. Hallintakonsolista napsauta **(+)** kohdassa \"Etäaktiivihakemisto\" oikealla puolella."
+
+#: ../../chapter02.rst:69
+msgid "SERVER AGENT DOWNLOADS ACCESS"
+msgstr "PALVELINAGENTIN LATAUKSET PÄÄSY"
+
+#: ../../chapter02.rst:71
+msgid ""
+"In the pop-up window, choose your Download Package from the pull-down "
+"menu and click **Go** to begin the installation."
+msgstr "Valitse ponnahdusikkunasta Latauspakettisi avattavasta valikosta ja napsauta **Go** aloittaaksesi asennuksen."
+
+#: ../../chapter02.rst:73
+msgid ""
+"A window will open. Click the MSI file at the bottom of the browser to "
+"open the installer."
+msgstr "Ikkuna avautuu. Napsauta selaimen alareunassa olevaa MSI-tiedostoa avataksesi asennusohjelman."
+
+#: ../../chapter02.rst:78
+msgid "OPEN THE INSTALLER"
+msgstr "AVAA ASENNUSOHJELMA"
+
+#: ../../chapter02.rst:82
+msgid ""
+"File Server agent software is capable of synchronizing three things "
+"between the local file server and remote cloud storage account."
+msgstr "Tiedostopalvelimen agenttiohjelmisto pystyy synkronoimaan kolme asiaa paikallisen tiedostopalvelimen ja etäisen pilvitallennustilin välillä."
+
+#: ../../chapter02.rst:84
+msgid "synchronize selected files and folders."
+msgstr "synkronoi valitut tiedostot ja kansiot."
+
+#: ../../chapter02.rst:85
+msgid "synchronize selected Active Directory users from local to cloud."
+msgstr "synkronoi valitut Active Directory -käyttäjät paikallisesta pilveen."
+
+#: ../../chapter02.rst:86
+msgid "synchronize NTFS permissions on the local file server to cloud."
+msgstr "synkronoi NTFS-käyttöoikeudet paikalliselta tiedostopalvelimelta pilveen."
+
+#: ../../chapter02.rst:88
+msgid ""
+"You can start installing file server agent from \"Adding Remote Active "
+"Directory\" or from \"Adding Team Folder via Remote Server Agent\"."
+msgstr "Voit aloittaa tiedostopalvelimen agentin asentamisen kohdasta \"Etäaktiivihakemiston lisääminen\" tai kohdasta \"Tiimikansion lisääminen etäpalvelimen agentin kautta\"."
+
+#: ../../chapter02.rst:91
+msgid "Step 2 - Run the Installer Package"
+msgstr "Vaihe 2 - Suorita asennuspaketti"
+
+#: ../../chapter02.rst:93
+msgid "Click **\"Run\"** to start the installation."
+msgstr "Klikkaa **\"Käynnistä\"** aloittaaksesi asennuksen."
+
+#: ../../chapter02.rst:98
+msgid "RUN THE SERVER AGENT INSTALLER"
+msgstr "AJA PALVELINAGENTIN ASENTAJA"
+
+#: ../../chapter02.rst:101
+msgid "Step 3 - Welcome Screen"
+msgstr "Vaihe 3 - Tervetulonäyttö"
+
+#: ../../chapter02.rst:103 ../../chapter02.rst:111
+msgid "On the Welcome Screen choose **\"Next\"** to continue."
+msgstr "Tervetulonäytöllä valitse **\"Seuraava\"** jatkaaksesi."
+
+#: ../../chapter02.rst:108
+msgid "WELCOME SCREEN"
+msgstr "TERVETULONÄYTTÖ"
+
+#: ../../chapter02.rst:114
+msgid "Step 4 - License Agreement"
+msgstr "Vaihe 4 - Lisenssisopimus"
+
+#: ../../chapter02.rst:116
+msgid ""
+"Read and accept the license agreement by choosing **\"I Agree\"** and "
+"click the **\"Next\"** button."
+msgstr "Lue ja hyväksy lisenssisopimus valitsemalla **\"Hyväksyn\"** ja napsauta **\"Seuraava\"** -painiketta."
+
+#: ../../chapter02.rst:121
+msgid "ACCEPT LICENSE AGREEMENT"
+msgstr "HYVÄKSY LISENSSISOPIMUS"
+
+#: ../../chapter02.rst:124
+msgid "Step 5 - Confirm Installation"
+msgstr "Vaihe 5 - Vahvista asennus"
+
+#: ../../chapter02.rst:126
+msgid ""
+"Now we will complete the File Server Agent installation. Click "
+"**\"Next\"** to finish."
+msgstr "Nyt viimeistelemme File Server Agent -asennuksen. Napsauta **\"Seuraava\"** päättääksesi."
+
+#: ../../chapter02.rst:131
+msgid "CONFIRM INSTALLATION"
+msgstr "VAHVISTA ASENNUS"
+
+#: ../../chapter02.rst:134
+msgid "Step 6 - Installation is Finishing"
+msgstr "Vaihe 6 - Asennus on päättymässä"
+
+#: ../../chapter02.rst:136
+msgid "It will only take a few minutes to complete the installation."
+msgstr "Asennuksen suorittaminen vie vain muutaman minuutin."
+
+#: ../../chapter02.rst:141
+msgid "FINAL INSTALLATION PROCESS"
+msgstr "VIIMEISTELYASENNUKSEN VAIHEET"
+
+#: ../../chapter02.rst:144
+msgid "Step 7 - Installation Complete"
+msgstr "Vaihe 7 - Asennus valmis"
+
+#: ../../chapter02.rst:146
+msgid ""
+"Once the installation is completed, click the **\"Close\"** button to "
+"finish."
+msgstr "Kun asennus on valmistunut, napsauta **\"Sulje\"**-painiketta lopettaaksesi."
+
+#: ../../chapter02.rst:151
+msgid "CLOSE INSTALLATION WINDOW"
+msgstr "SULJE ASENNUSIKKUNA"
+
+#: ../../chapter02.rst:154
+msgid "Step 8 - Restart Your System"
+msgstr "Vaihe 8 - Käynnistä järjestelmäsi uudelleen"
+
+#: ../../chapter02.rst:156
+msgid "Just restart your system and File Server Agent is ready to use."
+msgstr "Käynnistä järjestelmäsi uudelleen, niin File Server Agent on valmis käytettäväksi."
+
+#: ../../chapter02.rst:161
+msgid "RESTART YOUR SYSTEM"
+msgstr "KÄYNNISTÄ JÄRJESTELMÄSI UUDELLEEN"
+
+#: ../../chapter02.rst:165
+msgid "Step 9 - Login To |prodname|"
+msgstr "Vaihe 9 - Kirjaudu sisään |prodname|"
+
+#: ../../chapter02.rst:167
+msgid ""
+"After the reboot, log back into Windows as the same Windows user. Be "
+"patient, as it will take a few minutes for the Login Panel to display. "
+"Login to |prodname| as using your Tenant Administrator credentials."
+msgstr "Käynnistyksen jälkeen kirjaudu takaisin Windowsiin samalla Windows-käyttäjällä. Ole kärsivällinen, sillä kirjautumispaneelin näkyminen kestää muutaman minuutin. Kirjaudu |prodname| käyttäen Tenant Administrator -tunnuksiasi."
+
+#: ../../chapter02.rst:170
+msgid ""
+"The File Server Agent can be logged in to the Tenant already if you don't"
+" see the login dialog. You can go to the Web Portal side, login as the "
+"Tenant Administrator and go to the \"Device Manager\" side to see the "
+"File Server Agent."
+msgstr "Tiedostopalvelimen agenttiin voi olla jo kirjauduttu Tenantissa, jos kirjautumisikkunaa ei näy. Voit siirtyä Web-portaalin puolelle, kirjautua Tenantin pääkäyttäjänä ja siirtyä \"Laitteistonhallinta\"-osioon nähdäksesi tiedostopalvelimen agentin."
+
+#: ../../chapter02.rst:175
+msgid "LOG IN AS TENANT ADMIN"
+msgstr "KIRJAUDU SISÄÄN TENANT-ADMINISTRAATTORINA"
+

@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "1 Getting Started"
+msgstr "1 Introduzione"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the |prodname| Mac OS X Client User Guide. This guide "
+"describes client functionality for users in |prodname|, the managed file "
+"synchronization and sharing solution that focuses on file server cloud-"
+"enablement."
+msgstr "Benvenuti nella guida utente del client |prodname| per Mac OS X. Questa guida descrive le funzionalità del client per gli utenti di |prodname|, la soluzione gestita di sincronizzazione e condivisione di file che si concentra sull'abilitazione al cloud dei file server."
+
+#: ../../index.rst:12
+msgid "Mac OS X Clients"
+msgstr "Client Mac OS X"
+
+#: ../../index.rst:14
+msgid ""
+"|prodname| client agents are available for Windows, Mac, iOS, Android, "
+"and Windows phones. These clients are designed to work with your "
+"|prodname| account that your Managed Service Provider has set up for you "
+"or your company IT has setup for you."
+msgstr "|prodname| client agent sono disponibili per Windows, Mac, iOS, Android e telefoni Windows. Questi client sono progettati per funzionare con il tuo account |prodname| che il tuo Managed Service Provider ha configurato per te o che l'IT della tua azienda ha impostato per te."
+
+#: ../../index.rst:18
+msgid "System Requirement"
+msgstr "Requisiti di Sistema"
+
+#: ../../index.rst:20
+msgid "Mac OS X 10.14/10.13/10.12"
+msgstr "Mac OS X 10.14/10.13/10.12"
+
+#: ../../index.rst:22
+msgid ""
+"Mac OS X client for these OS versions are actively maintained and relesed"
+" regularlly."
+msgstr "Il client Mac OS X per queste versioni del sistema operativo è attivamente mantenuto e rilasciato regolarmente."
+
+#: ../../index.rst:24
+msgid "Mac OS X 10.7/10.8/10.9/10.10/10.11"
+msgstr "Mac OS X 10.7/10.8/10.9/10.10/10.11"
+
+#: ../../index.rst:26
+msgid ""
+"Mac OS X client for these OS versions are available but not actively "
+"maintained."
+msgstr "Il client Mac OS X per queste versioni del sistema operativo è disponibile ma non è attivamente mantenuto."
+
+#: ../../index.rst:32
+msgid "This guide is updated to match Mac Client version 9.7.41664"
+msgstr "Questa guida è stata aggiornata per corrispondere alla versione 9.7.41664 del Client Mac"
+

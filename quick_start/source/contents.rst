@@ -16,11 +16,3 @@ Contents:
    data_center
    cloud_host
    faq
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

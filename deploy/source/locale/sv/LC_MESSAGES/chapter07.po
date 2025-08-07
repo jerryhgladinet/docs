@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter07.rst:2
+msgid "Deployment Scenarios"
+msgstr "Distributionsscenarier"
+
+#: ../../chapter07.rst:5
+msgid "Private On-premise"
+msgstr "Privat På-plats"
+
+#: ../../chapter07.rst:7
+msgid ""
+"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"In this scenario, Active Directory is typically at the same site and "
+"primary storage is from file server or NAS storage."
+msgstr "Du kan förbereda en Windows Server 2022/2019/2016 och installera CentreStack. I detta scenario är Active Directory vanligtvis på samma plats och primär lagring kommer från filserver eller NAS-lagring."
+
+#: ../../chapter07.rst:10
+msgid ""
+"In this case, most of the time you are using CentreStack as a way to "
+"replace VPN to provide access to onsite file server from mobile devices "
+"and remote devices."
+msgstr "I de flesta fall använder du CentreStack som ett sätt att ersätta VPN för att ge tillgång till filserver på plats från mobila enheter och fjärranslutna enheter."
+
+#: ../../chapter07.rst:15
+msgid ""
+"Business Access use case - provide access to file server via CentreStack "
+"to mobile devices. When employees are in the office, they access the file"
+" server their normal way without noticing any difference, and while on "
+"the road or from remote location, they can use mobile and remote device "
+"to access file server network shares."
+msgstr "Business Access-användningsfall - ge tillgång till filserver via CentreStack till mobila enheter. När anställda är på kontoret, får de tillgång till filservern på sitt vanliga sätt utan att märka någon skillnad, och när de är på resande fot eller från en avlägsen plats, kan de använda mobil och fjärranordning för att komma åt filserverns nätverksdelningar."
+
+#: ../../chapter07.rst:25
+msgid "Private Off-Premise"
+msgstr "Privat Off-Premise"
+
+#: ../../chapter07.rst:27
+msgid ""
+"Normally, a managed service provider (MSP) manages your IT services, such"
+" as hosted exchange servers, hosted file servers etc. You can ask the "
+"same managed service provider to install and manage the CentreStack for "
+"you in their data center."
+msgstr "Vanligtvis hanterar en Managed Service Provider (MSP) dina IT-tjänster, såsom värdtjänster för Exchange-servrar, värdtjänster för filservrar osv. Du kan be samma Managed Service Provider att installera och hantera CentreStack åt dig i deras datacenter."
+
+#: ../../chapter07.rst:30
+msgid ""
+"Usually from this deployment scenario, if the file server is already in "
+"the same data center, typically it turned into the \"Private On-premise\""
+" deployment."
+msgstr "Vanligtvis från detta distributionsscenario, om filservern redan finns i samma datacenter, blir det typiskt en \"Privat On-premise\"-distribution."
+
+#: ../../chapter07.rst:33
+msgid ""
+"If on the other hand, the file servers are away from the data center, "
+"this gets turned into \"Business Continuity\" use case, where the server "
+"agent can be installed on the local file server and connects the local "
+"file servers to the remote CentreStack server in the data center."
+msgstr "Å andra sidan, om filserverarna är borta från datacentret, förvandlas detta till ett \"Business Continuity\"-fall, där serveragenten kan installeras på den lokala filservern och ansluta de lokala filserverarna till den avlägsna CentreStack-servern i datacentret."
+
+#: ../../chapter07.rst:39
+msgid "Virtual Private Cloud"
+msgstr "Virtuell privat moln"
+
+#: ../../chapter07.rst:41
+msgid ""
+"In this deployment scenario, you would deploy the CentreStack solution in"
+" a virtual private cloud environment such as Amazon EC2. CentreStack is "
+"also available in the form of AMI image to facilitate creation of EC2 "
+"instances. In this deployment scenario, the typical primary storage "
+"connection is to the Amazon S3 storage. You can also setup CentreStack "
+"solution in an environment like HP Helion (OpenStack) Cloud, with a "
+"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
+msgstr "I detta distributionscenario skulle du distribuera CentreStack-lösningen i en virtuell privat molnmiljö som Amazon EC2. CentreStack finns också tillgänglig i form av AMI-bild för att underlätta skapandet av EC2-instanser. I detta distributionsscenario är den typiska primära lagringsanslutningen till Amazon S3-lagring. Du kan också ställa in CentreStack-lösningen i en miljö som HP Helion (OpenStack) Cloud, med en Windows Server 2022/2019/2016 som ansluter till OpenStack Swift-lagring."
+
+#: ../../chapter07.rst:48
+msgid "Multi-Site Deployment"
+msgstr "Multi-Site-utplacering"
+
+#: ../../chapter07.rst:49
+msgid "Please reference multi-site deployment."
+msgstr "Vänligen hänvisa till distribution på flera platser."
+

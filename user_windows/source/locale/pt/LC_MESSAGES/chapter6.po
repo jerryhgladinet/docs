@@ -1,0 +1,856 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "Client Side Management Console"
+msgstr "Console de Gerenciamento do Lado do Cliente"
+
+#: ../../chapter6.rst:6
+msgid "Client Side Management Console - Native"
+msgstr "Console de Gerenciamento do Lado do Cliente - Nativo"
+
+#: ../../chapter6.rst:9
+msgid ""
+"The desktop client has a management console that controls the client side"
+" of the behavior. The management console can be started from the system "
+"tray icon **(1)**. In the Client Menu, click on the management console "
+"icon **(2)**."
+msgstr "O cliente de desktop possui um console de gerenciamento que controla o lado do cliente do comportamento. O console de gerenciamento pode ser iniciado a partir do ícone da bandeja do sistema **(1)**. No Menu do Cliente, clique no ícone do console de gerenciamento **(2)**."
+
+#: ../../chapter6.rst:15
+msgid "WINDOWS CLIENT MANAGEM ENT CONSOLE"
+msgstr "CONSOLE DE GESTÃO DO CLIENTE WINDOWS"
+
+#: ../../chapter6.rst:17
+msgid "The management console has seven sections:"
+msgstr "O console de gerenciamento possui sete seções:"
+
+#: ../../chapter6.rst:20
+msgid "Section Name"
+msgstr ""
+
+#: ../../chapter6.rst:20
+msgid "Description"
+msgstr ""
+
+#: ../../chapter6.rst:22
+msgid "Dashboard (3)"
+msgstr "Painel de Controle (3)"
+
+#: ../../chapter6.rst:22
+msgid ""
+"Dashboard shows whether it is windows client/server agent, the access "
+"point URL and the version."
+msgstr "O painel mostra se é um agente de cliente/servidor Windows, o URL do ponto de acesso e a versão."
+
+#: ../../chapter6.rst:25
+msgid "Attached Folders (4)"
+msgstr "Pastas Anexadas (4)"
+
+#: ../../chapter6.rst:25
+msgid ""
+"You will attach local folder to sync with Cloud, and also you can scan "
+"attached folder."
+msgstr "Você irá anexar uma pasta local para sincronizar com a Nuvem, e também poderá escanear a pasta anexada."
+
+#: ../../chapter6.rst:28
+msgid "Offline Folders (5)"
+msgstr "Pastas Offline (5)"
+
+#: ../../chapter6.rst:28
+msgid ""
+"All offline folders will be listed here. You also can enable offline "
+"access to a folder in this section."
+msgstr "Todas as pastas offline serão listadas aqui. Você também pode habilitar o acesso offline a uma pasta nesta seção."
+
+#: ../../chapter6.rst:32
+msgid "Locked Files (6)"
+msgstr "Arquivos Bloqueados (6)"
+
+#: ../../chapter6.rst:32
+msgid "All locked files will be listed here."
+msgstr "Todos os arquivos bloqueados serão listados aqui."
+
+#: ../../chapter6.rst:35
+msgid "Pending Check-ins (7)"
+msgstr "Check-ins Pendentes (7)"
+
+#: ../../chapter6.rst:35
+msgid ""
+"All checked-out files will be listed here. You also can check-out a file "
+"in this section."
+msgstr "Todos os arquivos retirados serão listados aqui. Você também pode retirar um arquivo nesta seção."
+
+#: ../../chapter6.rst:38
+msgid "Settings (8)"
+msgstr "Configurações (8)"
+
+#: ../../chapter6.rst:38
+msgid "Settings Manager stores the different client-side settings"
+msgstr "O Gerenciador de Configurações armazena as diferentes configurações do lado do cliente"
+
+#: ../../chapter6.rst:41
+msgid "Sync Status (9)"
+msgstr "Estado de Sincronização (9)"
+
+#: ../../chapter6.rst:41
+msgid ""
+"Show sync status. You can pause the sync here. You observe summary of all"
+" the sync tasks from task manager in this section."
+msgstr "Mostrar status de sincronização. Você pode pausar a sincronização aqui. Você observa o resumo de todas as tarefas de sincronização a partir do gerenciador de tarefas nesta seção."
+
+#: ../../chapter6.rst:48 ../../chapter6.rst:403
+msgid "Attached Folders"
+msgstr "Pastas Anexadas"
+
+#: ../../chapter6.rst:50
+msgid ""
+"You can attach local (from your Client Device) folders to |prodname| by "
+"clicking the \"Attached Folders\" button **(1)**. In the main view, and "
+"then click \"Attach a Local Folder to the Cloud\" **(2)**. This will open"
+" a wizard. Type in the location of the folder in the provided field or "
+"click the \"...\" button **(3)** to explore to a folder you wish to "
+"attach **(4)**. Click \"Attach\" to complete the process."
+msgstr "Você pode anexar pastas locais (do seu Dispositivo Cliente) ao |prodname| clicando no botão \"Pastas Anexadas\" **(1)**. Na visão principal, e depois clique em \"Anexar uma Pasta Local à Nuvem\" **(2)**. Isso abrirá um assistente. Digite a localização da pasta no campo fornecido ou clique no botão \"...\" **(3)** para navegar até uma pasta que deseja anexar **(4)**. Clique em \"Anexar\" para completar o processo."
+
+#: ../../chapter6.rst:55
+msgid "ATTACH A FOLDER TO BACKUP"
+msgstr "ANEXAR UMA PASTA PARA BACKUP"
+
+#: ../../chapter6.rst:59
+msgid "Settings Explained"
+msgstr "Configurações Explicadas"
+
+#: ../../chapter6.rst:61
+msgid ""
+"There are many settings under the Settings Manager in the desktop client."
+" To access them click the Settings tab."
+msgstr "Existem muitas configurações no Gerenciador de Configurações no cliente de desktop. Para acessá-las, clique na aba Configurações."
+
+#: ../../chapter6.rst:66
+msgid "SETTINGS TAB - SETTINGS MANAGER"
+msgstr "ABA DE CONFIGURAÇÕES - GERENCIADOR DE CONFIGURAÇÕES"
+
+#: ../../chapter6.rst:70
+msgid "Sync Throttle"
+msgstr "Sincronização de Aceleração"
+
+#: ../../chapter6.rst:72
+msgid ""
+"False (default) - If true, the Upload and Download Throttling control "
+"defined under this settings."
+msgstr "Falso (padrão) - Se verdadeiro, o controle de Limitação de Upload e Download definido sob estas configurações."
+
+#: ../../chapter6.rst:75
+msgid "Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Sincronizar Largura de Banda de Upload Limitada (KB/s, 0 - Ilimitado)"
+
+#: ../../chapter6.rst:77 ../../chapter6.rst:82
+msgid ""
+"0 (default) - The default setting is unlimited KB/s, enter a number here "
+"to reduce the bandwidth consummed to the set limit."
+msgstr "0 (padrão) - A configuração padrão é de KB/s ilimitados, insira um número aqui para reduzir a largura de banda consumida para o limite estabelecido."
+
+#: ../../chapter6.rst:80
+msgid "Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Sincronização da Largura de Banda de Download Limitada (KB/s, 0 - Ilimitado)"
+
+#: ../../chapter6.rst:85
+msgid "Full Speed Sync Stop Hour (default 7:00)"
+msgstr "Hora de Paragem da Sincronização a Velocidade Total (padrão 7:00)"
+
+#: ../../chapter6.rst:87
+msgid ""
+"7 (default) - This setting represents the hour (24 hour clock) of the day"
+" when Full Speed synchronization will stop - Usually it is desired to "
+"have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "7 (padrão) - Esta configuração representa a hora (relógio de 24 horas) do dia em que a sincronização em Velocidade Máxima será interrompida - Geralmente, deseja-se ter a sincronização em velocidade máxima durante a noite, quando a utilização da Internet é baixa."
+
+#: ../../chapter6.rst:90
+msgid "Full Speed Sync Start Hour (default 20:00)"
+msgstr "Hora de Início da Sincronização em Velocidade Total (padrão 20:00)"
+
+#: ../../chapter6.rst:92
+msgid ""
+"20 (default) - This setting represents the hour (24 hour clock) of the "
+"day when Full Speed synchronization will begin - Usually it is desired to"
+" have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "20 (padrão) - Esta configuração representa a hora (relógio de 24 horas) do dia em que a sincronização em Velocidade Máxima começará - Geralmente, deseja-se ter a sincronização em velocidade máxima durante a noite, quando a utilização da Internet é baixa."
+
+#: ../../chapter6.rst:95
+msgid "Scan local files and sync-up to cloud as necessary"
+msgstr "Digitalizar arquivos locais e sincronizar com a nuvem conforme necessário"
+
+#: ../../chapter6.rst:97
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" local files are more accurate than the information in the cloud."
+msgstr "Falso (padrão) - O cliente de desktop cria um banco de dados de estado que descreve quais arquivos estão sincronizados e quais não estão. No caso em que o cliente de desktop é reconfigurado, as informações de estado podem ser perdidas. Esta opção pode ser usada para escanear arquivos locais e carregá-los para a nuvem conforme necessário. Esta é uma maneira rápida de reconstruir informações de estado quando os arquivos locais são mais precisos do que as informações na nuvem."
+
+#: ../../chapter6.rst:100
+msgid "Scan cloud files and sync-down to local as necessary"
+msgstr "Digitalizar arquivos na nuvem e sincronizar para o local conforme necessário"
+
+#: ../../chapter6.rst:102
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" cloud files are more accurate than the local files."
+msgstr "Falso (padrão) - O cliente de desktop cria um banco de dados de estado que descreve quais arquivos estão sincronizados e quais não estão. No caso em que o cliente de desktop é reconfigurado, as informações de estado podem ser perdidas. Esta opção pode ser usada para escanear arquivos locais e carregá-los para a nuvem conforme necessário. Esta é uma maneira rápida de reconstruir informações de estado quando os arquivos na nuvem estão mais precisos do que os arquivos locais."
+
+#: ../../chapter6.rst:105
+msgid "Allow shortcuts to sync"
+msgstr "Permitir que os atalhos sincronizem"
+
+#: ../../chapter6.rst:107
+msgid ""
+"False (default) - By default, the Windows Client does not support "
+"file/folder shortcuts, as we cannot guarantee that the shortcuts in the "
+"cloud are always valid. If a user creates a shortcut from a computer and "
+"links to a local file. The shortcut is then uploaded to the cloud. If the"
+" user accesses the Windows Client from another computer, the shortcut "
+"will not work unless both computers have exactly the same files and "
+"folder structures. If the shortcut is broken, Windows Explorer will "
+"aggressively try to resolve the broken shortcut paths, which will slow "
+"down the Windows Client. If users only access their cloud files from the "
+"same computer/device, they may still want to save their shortcuts to the "
+"cloud. In this case, you should enable the \"Allow shortcuts to sync\" "
+"setting."
+msgstr "Falso (padrão) - Por padrão, o Cliente Windows não suporta atalhos de arquivo/pasta, pois não podemos garantir que os atalhos na nuvem estejam sempre válidos. Se um usuário cria um atalho de um computador e o vincula a um arquivo local. O atalho é então carregado para a nuvem. Se o usuário acessar o Cliente Windows de outro computador, o atalho não funcionará a menos que ambos os computadores tenham exatamente a mesma estrutura de arquivos e pastas. Se o atalho estiver quebrado, o Windows Explorer tentará resolver agressivamente os caminhos dos atalhos quebrados, o que vai desacelerar o Cliente Windows. Se os usuários acessam seus arquivos na nuvem apenas do mesmo computador/dispositivo, eles ainda podem querer salvar seus atalhos na nuvem. Neste caso, você deve habilitar a configuração \"Permitir sincronização de atalhos\"."
+
+#: ../../chapter6.rst:110
+msgid "Disable file-change logs for dummy files (zero byte files)"
+msgstr "Desativar registros de alteração de arquivo para arquivos fictícios (arquivos de zero byte)"
+
+#: ../../chapter6.rst:112
+msgid ""
+"False (default) - When set to True, sync will ignore file change log for "
+"empty files."
+msgstr "Falso (padrão) - Quando definido como Verdadeiro, a sincronização irá ignorar o registro de alterações de arquivo para arquivos vazios."
+
+#: ../../chapter6.rst:115
+msgid "Scheduled Sync"
+msgstr "Sincronização Agendada"
+
+#: ../../chapter6.rst:118
+msgid "Enable Scheduled Sync"
+msgstr "Ativar Sincronização Agendada"
+
+#: ../../chapter6.rst:120
+msgid ""
+"False (default) - If true, the synchronization and transferring of files "
+"will follow the schedule defined in this section."
+msgstr "Falso (padrão) - Se verdadeiro, a sincronização e transferência de arquivos seguirão o cronograma definido nesta seção."
+
+#: ../../chapter6.rst:123
+msgid "Pause Sync Start Hour (default 7:00)"
+msgstr "Hora de Início da Pausa de Sincronização (padrão 7:00)"
+
+#: ../../chapter6.rst:125
+msgid ""
+"7 (default) - This setting represents the hour (24-hour clock) of the day"
+" when synchronization will pause."
+msgstr "7 (padrão) - Esta configuração representa a hora (relógio de 24 horas) do dia em que a sincronização será pausada."
+
+#: ../../chapter6.rst:128
+msgid "Pause Sync End Hour (default 20:00)"
+msgstr "Hora de Término da Pausa de Sincronização (padrão 20:00)"
+
+#: ../../chapter6.rst:130
+msgid ""
+"20 (default) - This setting represents the hour (24-hour clock) of the "
+"day when synchronization will start."
+msgstr "20 (padrão) - Esta configuração representa a hora (relógio de 24 horas) do dia em que a sincronização começará."
+
+#: ../../chapter6.rst:133
+msgid "Mapped Drive Control"
+msgstr "Controle de Unidade Mapeada"
+
+#: ../../chapter6.rst:136
+msgid "Always allow PDF preview"
+msgstr "Permitir sempre a pré-visualização de PDF"
+
+#: ../../chapter6.rst:138
+msgid ""
+"False (default) - If true, always allow windows client to show PDF file "
+"preview."
+msgstr "Falso (padrão) - Se verdadeiro, sempre permitir que o cliente Windows mostre a pré-visualização de arquivos PDF."
+
+#: ../../chapter6.rst:141
+msgid "Do not show storage quota"
+msgstr "Não mostrar cota de armazenamento"
+
+#: ../../chapter6.rst:143
+msgid ""
+"False (default) - If true, do not show the user's storage quota on "
+"windows client drive."
+msgstr "Falso (padrão) - Se verdadeiro, não mostrar a quota de armazenamento do usuário no drive do cliente Windows."
+
+#: ../../chapter6.rst:146
+msgid "When starting up the client, open the mounted drive automatically"
+msgstr "Ao iniciar o cliente, abrir a unidade montada automaticamente"
+
+#: ../../chapter6.rst:148
+msgid ""
+"True (default) - When starting up the client, automatically open File "
+"Explorer to show the windows client drive."
+msgstr "Verdadeiro (padrão) - Ao iniciar o cliente, abrir automaticamente o Explorador de Arquivos para mostrar o drive do cliente windows."
+
+#: ../../chapter6.rst:151
+msgid "Cloud drive label"
+msgstr "Etiqueta de unidade na nuvem"
+
+#: ../../chapter6.rst:153
+msgid ""
+"My Cloud Drive (default) - This is the drive label you can see from the "
+"Windows Explorer."
+msgstr "Meu Disco na Nuvem (padrão) - Este é o rótulo do disco que você pode ver a partir do Explorador de Arquivos do Windows."
+
+#: ../../chapter6.rst:156
+msgid "Drive Letter"
+msgstr "Letra de Unidade"
+
+#: ../../chapter6.rst:158
+msgid "M (default) - This is the drive letter assignment."
+msgstr "M (padrão) - Esta é a atribuição de letra de unidade."
+
+#: ../../chapter6.rst:161
+msgid "In offline-mode, only show files that are cached and available locally"
+msgstr "No modo offline, mostrar apenas os arquivos que estão em cache e disponíveis localmente"
+
+#: ../../chapter6.rst:163
+msgid ""
+"False (default) - If true, when working in offline mode, only show files "
+"that are already in cache. Hide any files are not in cache."
+msgstr "Falso (padrão) - Se verdadeiro, ao trabalhar em modo offline, mostrar apenas os arquivos que já estão no cache. Ocultar quaisquer arquivos que não estejam no cache."
+
+#: ../../chapter6.rst:166
+msgid "Disable \"check-out\" on files and folders"
+msgstr "Desativar \"check-out\" em arquivos e pastas"
+
+#: ../../chapter6.rst:168
+msgid "False (default) - If true, disable manual file lock/unlock."
+msgstr "Falso (padrão) - Se verdadeiro, desativa o bloqueio/desbloqueio manual de arquivos."
+
+#: ../../chapter6.rst:171
+msgid "Use Windows' default browser to open files and folders"
+msgstr "Use o navegador padrão do Windows para abrir arquivos e pastas"
+
+#: ../../chapter6.rst:173
+msgid ""
+"False (default) - If true, on windows client drive, when right click "
+"file/folder and select Open in Web Browser, open default browser to show "
+"the selected files."
+msgstr "Falso (padrão) - Se verdadeiro, no drive do cliente Windows, ao clicar com o botão direito do mouse em arquivo/pasta e selecionar Abrir no Navegador Web, abrir o navegador padrão para mostrar os arquivos selecionados."
+
+#: ../../chapter6.rst:176
+msgid "Always sync folder meta-data when browsing with Windows Explorer"
+msgstr "Sincronize sempre os metadados da pasta ao navegar com o Windows Explorer"
+
+#: ../../chapter6.rst:178
+msgid ""
+"False (default) - If true, when visiting cloud folder in windows client "
+"drive, the client will ignore local folder listing cahe. It will always "
+"get latest folder listing cache from cloud. It will generate high dir "
+"request to the server."
+msgstr "Falso (padrão) - Se verdadeiro, ao visitar a pasta na nuvem no drive do cliente Windows, o cliente ignorará o cache de listagem de pastas local. Ele sempre obterá a listagem de pastas mais recente da nuvem. Isso gerará um alto número de solicitações de diretório ao servidor."
+
+#: ../../chapter6.rst:181
+msgid "Disable drive mounting"
+msgstr "Desativar montagem de unidade"
+
+#: ../../chapter6.rst:183
+msgid ""
+"False (default) - If true, no Cloud Drive will be mounted under My "
+"Computer for the Windows Client."
+msgstr "Falso (padrão) - Se verdadeiro, nenhum Cloud Drive será montado sob Meu Computador para o Cliente Windows."
+
+#: ../../chapter6.rst:186
+msgid "Create cloud drive shortcut under My Documents"
+msgstr "Criar atalho de unidade na nuvem em Meus Documentos"
+
+#: ../../chapter6.rst:188
+msgid ""
+"True (default) - If true, there is a shortcut to the Cloud Drive under "
+"the My Documents' folder."
+msgstr "Verdadeiro (padrão) - Se verdadeiro, existe um atalho para o Cloud Drive na pasta 'Meus Documentos'."
+
+#: ../../chapter6.rst:191
+msgid "Large File Upload"
+msgstr "Upload de Arquivos Grandes"
+
+#: ../../chapter6.rst:194
+msgid "Enable \"chunking\" when uploading files larger than a specific size (MB)"
+msgstr "Ative o \"chunking\" ao fazer upload de arquivos maiores que um tamanho específico (MB)"
+
+#: ../../chapter6.rst:196
+msgid ""
+"15 (default) - When uploading large file, the client can split the file "
+"in small chunks and upload small chunks in parallel. It can improve the "
+"upload speed. Also if a chunk fails, only need to retry the chunk. This "
+"setting defines how large the file size is to enable the chunk feature."
+msgstr "15 (padrão) - Ao fazer upload de um arquivo grande, o cliente pode dividir o arquivo em pequenos pedaços e fazer o upload dos pedaços simultaneamente. Isso pode melhorar a velocidade de upload. Além disso, se um pedaço falhar, só é necessário tentar novamente com esse pedaço. Esta configuração define qual o tamanho do arquivo para habilitar o recurso de pedaços."
+
+#: ../../chapter6.rst:199
+msgid "Default file chunk unit size (MB)"
+msgstr "Tamanho padrão da unidade de fragmento de arquivo (MB)"
+
+#: ../../chapter6.rst:201
+msgid "20 (default) - This setting defines the chunk size."
+msgstr "20 (padrão) - Esta configuração define o tamanho do bloco."
+
+#: ../../chapter6.rst:204
+msgid "Bandwidth Control"
+msgstr "Controle de Largura de Banda"
+
+#: ../../chapter6.rst:207
+msgid "Download Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Limite de Largura de Banda de Download (KB/s, 0 - Ilimitado)"
+
+#: ../../chapter6.rst:209
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your download bandwidth to the number you enter in Kilobytes."
+msgstr "0 (padrão) - Esta configuração é padrão para ilimitado. Altere isso para limitar sua largura de banda de download para o número que você inserir em Kilobytes."
+
+#: ../../chapter6.rst:212
+msgid "Upload Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Limite de Largura de Banda de Upload (KB/s, 0-Ilimitado)"
+
+#: ../../chapter6.rst:214
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your upload bandwidth to the number you enter in Kilobytes."
+msgstr "0 (padrão) - Esta configuração é padrão para ilimitado. Altere isto para limitar a sua largura de banda de upload para o número que você inserir em Kilobytes."
+
+#: ../../chapter6.rst:217
+msgid "Maximum number of file transfert threads"
+msgstr "Número máximo de threads de transferência de arquivo"
+
+#: ../../chapter6.rst:219
+msgid ""
+"5 (default) - Use this setting to restrict the number of threads used "
+"during synchronization."
+msgstr "5 (padrão) - Utilize esta configuração para restringir o número de threads usadas durante a sincronização."
+
+#: ../../chapter6.rst:222
+msgid "Local Cache"
+msgstr "Cache Local"
+
+#: ../../chapter6.rst:225
+msgid "Cache Directory"
+msgstr "Diretório de Cache"
+
+#: ../../chapter6.rst:227
+msgid ""
+"C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\gteamclient\\\\cache "
+"(default) - Use this setting to change the default location of the cache."
+msgstr "C:\\Users\\username\\AppData\\Local\\gteamclient\\cache (padrão) - Utilize esta configuração para alterar o local padrão do cache."
+
+#: ../../chapter6.rst:230
+msgid "Cache Size Limit (MB)"
+msgstr "Limite do Tamanho do Cache (MB)"
+
+#: ../../chapter6.rst:232
+msgid ""
+"0 (default) - The default setting is zero which is unlimited. Set this to"
+" a different number to limit the cache to that size in MB. You can "
+"disable the cache (not recommended) using the Web Portal's Tenant "
+"Dashboard > Roles settings."
+msgstr "0 (padrão) - A configuração padrão é zero, o que significa ilimitado. Defina este valor para um número diferente para limitar o cache a esse tamanho em MB. Você pode desativar o cache (não recomendado) usando o Painel do Inquilino do Portal Web > Configurações de Papéis."
+
+#: ../../chapter6.rst:235
+msgid "Minimum free disk space (GB)"
+msgstr "Espaço livre mínimo em disco (GB)"
+
+#: ../../chapter6.rst:237
+msgid ""
+"5 (default) - The cache will leave defined free disk space on the disk. "
+"This can prevent the cached files use the entire disk. If zero, the cache"
+" can take entire disk space."
+msgstr "5 (padrão) - O cache deixará espaço livre definido no disco. Isso pode impedir que os arquivos em cache usem todo o espaço do disco. Se zero, o cache pode ocupar todo o espaço do disco."
+
+#: ../../chapter6.rst:240
+msgid "Outlook Plugin"
+msgstr "Plugin do Outlook"
+
+#: ../../chapter6.rst:243
+msgid "Prompt for conversion when a file is larger than a specific size (KB)"
+msgstr "Solicitar conversão quando um arquivo for maior que um tamanho específico (KB)"
+
+#: ../../chapter6.rst:245
+msgid ""
+"0 (default) - Default to never prompt. This setting defines how large the"
+" attachment file size is to use the Outlook plugin to automatically "
+"upload the file to Centrestack cloud."
+msgstr "0 (padrão) - Padrão para nunca perguntar. Esta configuração define o tamanho do arquivo de anexo grande o suficiente para usar o plugin do Outlook para carregar automaticamente o arquivo para a nuvem do Centrestack."
+
+#: ../../chapter6.rst:248
+msgid "Attachments cache folder"
+msgstr "Pasta de cache de anexos"
+
+#: ../../chapter6.rst:250
+msgid "Outlook plugin will upload file to the defined folder."
+msgstr "O plugin do Outlook irá fazer o upload do arquivo para a pasta definida."
+
+#: ../../chapter6.rst:253
+msgid "Link expiration time"
+msgstr "Tempo de expiração do link"
+
+#: ../../chapter6.rst:255
+msgid ""
+"Never (default) - When attaching a file to an Outlook email, the Windows "
+"Client can upload the file to the cloud and generate a link to access the"
+" file. The link is added in the email, to reduce email size. This setting"
+" defines how long the link will expire."
+msgstr "Nunca (padrão) - Ao anexar um arquivo a um e-mail do Outlook, o Cliente Windows pode fazer o upload do arquivo para a nuvem e gerar um link para acessar o arquivo. O link é adicionado no e-mail, para reduzir o tamanho do e-mail. Esta configuração define quanto tempo o link expirará."
+
+#: ../../chapter6.rst:258
+msgid "Notifications"
+msgstr "Notificações"
+
+#: ../../chapter6.rst:261
+msgid "Disable offline-mode notification"
+msgstr "Desativar notificação de modo offline"
+
+#: ../../chapter6.rst:263
+msgid ""
+"False (default) - A system that goes into offline mode will send a "
+"notification by default. Change this to True to hide that notification."
+msgstr "Falso (padrão) - Um sistema que entra em modo offline enviará uma notificação por padrão. Altere isso para Verdadeiro para ocultar essa notificação."
+
+#: ../../chapter6.rst:266
+msgid "Disable File-change notification"
+msgstr "Desativar notificação de alteração de arquivo"
+
+#: ../../chapter6.rst:268
+msgid ""
+"False (default) - When files are modified by other people or by the same "
+"user but from another machine, there is a file change notification. "
+"Change this setting to True to turn off that notification."
+msgstr "Falso (padrão) - Quando arquivos são modificados por outras pessoas ou pelo mesmo usuário, mas de outra máquina, há uma notificação de alteração de arquivo. Altere esta configuração para Verdadeiro para desativar essa notificação."
+
+#: ../../chapter6.rst:271
+msgid "Disable large file-download tracker window"
+msgstr "Desativar janela de rastreamento de download de arquivos grandes"
+
+#: ../../chapter6.rst:273
+msgid ""
+"False (default) - When Windows Explorer is downloading a large file in "
+"the background, by default there is a large file download progress dialog"
+" showing. This setting allows you to turn off that notification."
+msgstr "Falso (padrão) - Quando o Windows Explorer está a baixar um arquivo grande em segundo plano, por padrão há um diálogo de progresso de download do arquivo grande a ser mostrado. Esta configuração permite que você desative essa notificação."
+
+#: ../../chapter6.rst:276
+msgid "Disable automatic task tracker for scheduled tasks"
+msgstr "Desativar rastreador de tarefas automático para tarefas agendadas"
+
+#: ../../chapter6.rst:278
+msgid ""
+"False (default) - By default, there is an automatic task tracker for "
+"scheduled tasks. This setting allows you to turn off the tracker."
+msgstr "Falso (padrão) - Por padrão, existe um rastreador de tarefas automático para tarefas agendadas. Esta configuração permite que você desative o rastreador."
+
+#: ../../chapter6.rst:281
+msgid "Disable in-place-editing and preview-disabled notifications"
+msgstr "Desativar a edição no local e as notificações de pré-visualização desativada"
+
+#: ../../chapter6.rst:283
+msgid ""
+"False (default) - When in-place-editing zip/exe file and preview-"
+"disabled, by default, the system will send a notification. This setting "
+"allows you to turn off that notification."
+msgstr "Falso (padrão) - Quando estiver editando arquivos zip/exe no local e a pré-visualização estiver desativada, por padrão, o sistema enviará uma notificação. Esta configuração permite que você desative essa notificação."
+
+#: ../../chapter6.rst:286
+msgid "Disable shut-down confirmation"
+msgstr "Desativar confirmação de desligamento"
+
+#: ../../chapter6.rst:288
+msgid ""
+"False (default) - When shutdown the desktop client, there is a shutdown "
+"confirmation window. This setting controls whether that confirmation "
+"dialog will be shown. Set this to True to hide the confirmation dialog."
+msgstr "Falso (padrão) - Ao desligar o cliente de desktop, há uma janela de confirmação de desligamento. Esta configuração controla se essa caixa de diálogo de confirmação será exibida. Defina isso como Verdadeiro para ocultar a caixa de diálogo de confirmação."
+
+#: ../../chapter6.rst:291
+msgid "Disable folder move confirmation"
+msgstr "Desativar a confirmação de movimentação de pasta"
+
+#: ../../chapter6.rst:293
+msgid ""
+"False (default) - When moving a folder within windows client drive, by "
+"default, the system will show a confirmation dialog. This setting allows "
+"you to turn off that confirmation dialog."
+msgstr "Falso (padrão) - Ao mover uma pasta dentro do drive do cliente Windows, por padrão, o sistema exibirá uma caixa de diálogo de confirmação. Esta configuração permite desativar essa caixa de diálogo de confirmação."
+
+#: ../../chapter6.rst:296
+msgid "Advanced Settings"
+msgstr "Configurações Avançadas"
+
+#: ../../chapter6.rst:299
+msgid "Enable in-place opening of zip and exe files"
+msgstr "Habilitar a abertura de arquivos zip e exe no próprio local"
+
+#: ../../chapter6.rst:301
+msgid ""
+"False (default) - By default, Windows Client doesn't allow a user to open"
+" zip files in mounted M drive directly. This is because opening a zip "
+"file means to download the whole zip file to cache first. When the zip "
+"file is big, the download will generate high network traffic and cause "
+"windows explorer to slow down. Change this to True if you want users to "
+"be able to open Zip files within the M drive. The next setting determines"
+" the size limit of this feature."
+msgstr "Falso (padrão) - Por padrão, o Cliente Windows não permite que um usuário abra arquivos zip diretamente na unidade M montada. Isso ocorre porque abrir um arquivo zip significa baixar todo o arquivo zip para o cache primeiro. Quando o arquivo zip é grande, o download gera alto tráfego de rede e causa lentidão no explorador de arquivos do Windows. Altere isso para Verdadeiro se desejar que os usuários possam abrir arquivos Zip dentro da unidade M. A próxima configuração determina o limite de tamanho desta funcionalidade."
+
+#: ../../chapter6.rst:304
+msgid "Max size of zip files allowed to open in-place (MB)"
+msgstr "Tamanho máximo de arquivos zip permitidos para abrir no local (MB)"
+
+#: ../../chapter6.rst:306
+msgid ""
+"20 (default) - This defines the size limit for the zip file the user is "
+"allowed to open. It is designed to prevent user/windows explorer from "
+"downloading very large zip files. By default, it is 20M. When admin "
+"enables inplace zip file opening, only files within 20M can be opened."
+msgstr "20 (padrão) - Isso define o limite de tamanho para o arquivo zip que o usuário está autorizado a abrir. É projetado para evitar que o usuário/explorador de arquivos baixe arquivos zip muito grandes. Por padrão, é 20M. Quando o administrador ativa a abertura de arquivo zip no local, apenas arquivos dentro de 20M podem ser abertos."
+
+#: ../../chapter6.rst:309
+msgid "Max size of files for thumbnail generation (MB)"
+msgstr "Tamanho máximo dos arquivos para geração de miniaturas (MB)"
+
+#: ../../chapter6.rst:311
+msgid "0 (default) - This defines the file size limit for generating thumbnail."
+msgstr "0 (padrão) - Isso define o limite de tamanho de arquivo para gerar miniatura."
+
+#: ../../chapter6.rst:314
+msgid "Always allow picture previews"
+msgstr "Permitir sempre a visualização de imagens"
+
+#: ../../chapter6.rst:316
+msgid ""
+"False (default) - If this is turned on preview thumbnails will be "
+"generated for your local files. This consumes a lot of bandwidth for "
+"unnecessary downloading of image files."
+msgstr "Falso (padrão) - Se esta opção estiver ativada, miniaturas de pré-visualização serão geradas para seus arquivos locais. Isso consome muita largura de banda pelo download desnecessário de arquivos de imagem."
+
+#: ../../chapter6.rst:319
+msgid "Enable slow network mode"
+msgstr "Ativar modo de rede lenta"
+
+#: ../../chapter6.rst:321
+msgid "False (default) - No further information."
+msgstr "Falso (padrão) - Sem mais informações."
+
+#: ../../chapter6.rst:324
+msgid "Prevent computer from falling asleep during sync"
+msgstr "Evitar que o computador entre em modo de espera durante a sincronização"
+
+#: ../../chapter6.rst:326
+msgid ""
+"True (default) - Nighttime is typically a good time to transfer files at "
+"full speed. However, the machine may go into a sleeping state, preventing"
+" the transfer of files. This setting can prevent the sleep mode from "
+"activating."
+msgstr "Verdadeiro (padrão) - A noite geralmente é um bom momento para transferir arquivos em velocidade máxima. No entanto, o computador pode entrar em estado de repouso, impedindo a transferência de arquivos. Esta configuração pode evitar que o modo de repouso seja ativado."
+
+#: ../../chapter6.rst:329
+msgid "Mount drive in global space"
+msgstr "Montar unidade no espaço global"
+
+#: ../../chapter6.rst:331
+msgid "False (default) - No furter information."
+msgstr "Falso (padrão) - Sem mais informações."
+
+#: ../../chapter6.rst:334
+msgid "Upload hidden files"
+msgstr "Carregar arquivos ocultos"
+
+#: ../../chapter6.rst:336
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"Hidden Files to the cloud."
+msgstr "Falso (padrão) - Altere esta configuração para Verdadeiro se desejar carregar Arquivos Ocultos na nuvem."
+
+#: ../../chapter6.rst:339
+msgid "Upload system files"
+msgstr "Carregar arquivos do sistema"
+
+#: ../../chapter6.rst:341
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"System Files to the cloud."
+msgstr "Falso (padrão) - Altere esta configuração para Verdadeiro se desejar carregar Arquivos de Sistema na nuvem."
+
+#: ../../chapter6.rst:344
+msgid "Use Volume Shadow-Copy to upload files that are constantly accessed"
+msgstr "Utilize Cópia de Sombra de Volume para carregar arquivos que são constantemente acessados"
+
+#: ../../chapter6.rst:346
+msgid ""
+"False (default) - By default an actively opened file will not be uploaded"
+" until it has been closed. This setting can override that behavior, "
+"uploading all of the files regardless of their open status."
+msgstr "Falso (padrão) - Por padrão, um arquivo aberto ativamente não será carregado até que tenha sido fechado. Esta configuração pode substituir esse comportamento, carregando todos os arquivos independentemente do seu status de aberto."
+
+#: ../../chapter6.rst:349
+msgid "Disable AutoCAD optimization"
+msgstr "Desativar otimização do AutoCAD"
+
+#: ../../chapter6.rst:351
+msgid ""
+"False (default) - By default, windows client will delay the sync of "
+"AutoCAD files by combining several changes into a single change. This is "
+"specific for users who save frequently or have the AutoCAD autosave "
+"feature enabled with short intervals. The file change will not be "
+"uploaded to the cloud immediately after the file saving. Leave it Uncheck"
+" if only one person is working on the AutoCAD files. When the setting is "
+"checked, windows client will sync the file to cloud as soon as the file "
+"is saved. Check the setting if the user needs the change to be uploaded "
+"to cloud as soon as possible. When multiple users are working on same set"
+" of AutoCAD files, check the setting."
+msgstr "Falso (padrão) - Por padrão, o cliente do Windows atrasará a sincronização de arquivos do AutoCAD combinando várias alterações em uma única mudança. Isso é específico para usuários que salvam com frequência ou têm o recurso de salvamento automático do AutoCAD ativado com intervalos curtos. A alteração do arquivo não será carregada na nuvem imediatamente após o salvamento do arquivo. Deixe desmarcado se apenas uma pessoa estiver trabalhando nos arquivos do AutoCAD. Quando a configuração estiver marcada, o cliente do Windows sincronizará o arquivo com a nuvem assim que o arquivo for salvo. Marque a configuração se o usuário precisar que a mudança seja carregada na nuvem o mais rápido possível. Quando vários usuários estiverem trabalhando no mesmo conjunto de arquivos do AutoCAD, marque a configuração."
+
+#: ../../chapter6.rst:354
+msgid "Diagnostics"
+msgstr "Diagnósticos"
+
+#: ../../chapter6.rst:357
+msgid "Days of audit trace to keep"
+msgstr "Dias de rastreio de auditoria para manter"
+
+#: ../../chapter6.rst:359
+msgid "5 (default) - This setting defines how many days to keep the audit trace."
+msgstr "5 (padrão) - Esta configuração define quantos dias manter o rastro de auditoria."
+
+#: ../../chapter6.rst:362
+msgid "Trace Level (0-Disable, 1-error, 2-warning, 3-info, 100-verbose)"
+msgstr "Nível de Rastreamento (0-Desativar, 1-erro, 2-aviso, 3-informação, 100-detalhado)"
+
+#: ../../chapter6.rst:364
+msgid ""
+"0 (default) - By default, the trace level is 0. It can be changed to the "
+"levels shown, or 101 for maximum debug trace."
+msgstr "0 (padrão) - Por padrão, o nível de rastreamento é 0. Pode ser alterado para os níveis mostrados, ou 101 para o rastreamento de depuração máximo."
+
+#: ../../chapter6.rst:368
+msgid "Sync Status"
+msgstr "Estado da Sincronização"
+
+#: ../../chapter6.rst:371
+msgid "Task Manager"
+msgstr "Gerenciador de Tarefas"
+
+#: ../../chapter6.rst:373
+msgid ""
+"Click on the Task Manager icon on top right corner of client menu to open"
+" Task Manager. You can see the summary for all the sync tasks."
+msgstr "Clique no ícone do Gerenciador de Tarefas no canto superior direito do menu do cliente para abrir o Gerenciador de Tarefas. Você pode ver o resumo de todas as tarefas de sincronização."
+
+#: ../../chapter6.rst:378
+msgid "TASK MANAGER"
+msgstr "GERENCIADOR DE TAREFAS"
+
+#: ../../chapter6.rst:382
+msgid "Client Side Management Console - Web Portal"
+msgstr "Console de Gerenciamento do Lado do Cliente - Portal Web"
+
+#: ../../chapter6.rst:384
+msgid ""
+"Click the system tray icon (1) open the tray menu. From the three-dots "
+"(2) you can access other functions. By choosing \"Web Portal\" (3), the "
+"Windows client web portal will be opened in a default web browser. Click "
+"\"Management Console\" icon (4) to access management console from web."
+msgstr "Clique no ícone da bandeja do sistema (1) para abrir o menu da bandeja. A partir dos três pontos (2), você pode acessar outras funções. Ao escolher \"Portal Web\" (3), o portal web do cliente Windows será aberto no navegador web padrão. Clique no ícone \"Console de Gerenciamento\" (4) para acessar o console de gerenciamento pela web."
+
+#: ../../chapter6.rst:389
+msgid "ACCESS MANAGEMENT CONSOLE WEB PORTAL"
+msgstr "CONSOLE DE GESTÃO DE ACESSO PORTAL WEB"
+
+#: ../../chapter6.rst:392
+msgid "Device Information"
+msgstr "Informações do Dispositivo"
+
+#: ../../chapter6.rst:394
+msgid ""
+"Device Manager has an overview of the device including details such as "
+"Device Owner, Device Type, OS Type, Device Client Version (software build"
+" number), Last Login Time, Sync Status, Cache Size, Last Report Time, and"
+" more. Click \"Manage\" icon to see Device details."
+msgstr "O Gerenciador de Dispositivos oferece uma visão geral do dispositivo, incluindo detalhes como Proprietário do Dispositivo, Tipo de Dispositivo, Tipo de SO, Versão do Cliente do Dispositivo (número da versão do software), Último Acesso, Status de Sincronização, Tamanho do Cache, Último Relatório e mais. Clique no ícone \"Gerenciar\" para ver os detalhes do Dispositivo."
+
+#: ../../chapter6.rst:399
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE MANAGER"
+msgstr "CONSOLE DE GESTÃO DE CLIENTES - GERENCIADOR DE DISPOSITIVOS"
+
+#: ../../chapter6.rst:405
+msgid ""
+"Attached Folders are local folders that are maintaining a two-way "
+"synchronization relationship with cloud storage."
+msgstr "Pastas Anexadas são pastas locais que estão mantendo um relacionamento de sincronização bidirecional com o armazenamento em nuvem."
+
+#: ../../chapter6.rst:410
+msgid "ATTACHING A FOLDER TO THE CLOUD"
+msgstr "ANEXANDO UMA PASTA À NUVEM"
+
+#: ../../chapter6.rst:413
+msgid "Locked Files"
+msgstr "Arquivos Bloqueados"
+
+#: ../../chapter6.rst:415
+msgid ""
+"A file that is in use is locked. In the image below, the user has opened "
+"the document **(1)** in Word. When a user is editing a Word Document, "
+"that file will remain locked while it is open in Word. Sometimes you will"
+" need to click the \"Refresh\" text **(2)** to see files that are locked "
+"in the Locked Files view. These are locked files from the local device. "
+"The locked files include automatically locked files (e.g., opened in "
+"Word) and manually locked files (e.g., right-clicked and locked in "
+"context menu). If you need to force-unlock a file, this can be done using"
+" the lock icon **(3)**."
+msgstr "Um arquivo que está em uso está bloqueado. Na imagem abaixo, o usuário abriu o documento **(1)** no Word. Quando um usuário está editando um Documento do Word, esse arquivo permanecerá bloqueado enquanto estiver aberto no Word. Às vezes, você precisará clicar no texto \"Atualizar\" **(2)** para ver arquivos que estão bloqueados na visualização de Arquivos Bloqueados. Estes são arquivos bloqueados do dispositivo local. Os arquivos bloqueados incluem arquivos bloqueados automaticamente (por exemplo, abertos no Word) e arquivos bloqueados manualmente (por exemplo, clicados com o botão direito e bloqueados no menu de contexto). Se você precisar forçar o desbloqueio de um arquivo, isso pode ser feito usando o ícone de bloqueio **(3)**."
+
+#: ../../chapter6.rst:420
+msgid "LOCKED FILES VIEW"
+msgstr "VISUALIZAÇÃO DE ARQUIVOS BLOQUEADOS"
+
+#: ../../chapter6.rst:423
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../../chapter6.rst:425
+msgid "Settings are settings that can be applied to the current device."
+msgstr "As configurações são definições que podem ser aplicadas ao dispositivo atual."
+
+#: ../../chapter6.rst:430
+msgid "CONSOLE SETTINGS"
+msgstr "CONFIGURAÇÕES DO CONSOLE"
+

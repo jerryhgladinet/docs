@@ -1,0 +1,2430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Cluster Administration"
+msgstr "クラスタ管理"
+
+#: ../../chapter02.rst:7
+msgid "The Basics"
+msgstr "基本情報"
+
+#: ../../chapter02.rst:9
+msgid ""
+"To access your Cluster Administration features, log in to the Web Portal "
+"on the server. **The description in this guide presumes that you are "
+"signed in as the Master Administrator** (aka., Cluster Administrator, "
+"Server Administrator). Some of the options listed may not be available if"
+" you are logged in with different permissions (e.g. Delegated "
+"Administrator). In this document the |prodname| will also be referred to "
+"as simply, Cluster Server."
+msgstr "クラスター管理機能にアクセスするには、サーバー上のWebポータルにログインしてください。**このガイドの説明では、マスター管理者としてサインインしていることを前提としています** （別名、クラスター管理者、サーバー管理者）。異なる権限でログインしている場合（例：委任された管理者）、リストされているオプションの一部は利用できない場合があります。この文書では、|prodname| を単にクラスターサーバーとも呼びます。"
+
+#: ../../chapter02.rst:13
+msgid ""
+"The Web Portal URL is the server's DNS name, the IP Address or local host"
+" if you are on the server console."
+msgstr "WebポータルのURLは、サーバーのDNS名、IPアドレス、またはサーバーコンソール上にいる場合はローカルホストです。"
+
+#: ../../chapter02.rst:18
+msgid "**LOGIN SCREEN**"
+msgstr "**ログイン画面**"
+
+#: ../../chapter02.rst:22
+msgid ""
+"At the bottom of the Login screen, there is version information, which "
+"will be useful to see which version you have installed."
+msgstr "ログイン画面の下部には、インストールされているバージョンを確認できるバージョン情報があります。"
+
+#: ../../chapter02.rst:25
+msgid ""
+"The following graphic describes the various icons and components of the "
+"Administrator Dashboard and its sub-sections. Please refer to it as you "
+"read this guide to determine how to access various features."
+msgstr "次のグラフィックは、管理者ダッシュボードとそのサブセクションのさまざまなアイコンとコンポーネントを説明しています。このガイドを読む際には、それを参照して、さまざまな機能にどのようにアクセスするかを確認してください。"
+
+#: ../../chapter02.rst:30
+msgid "**CLUSTER MANAGER DASHBOARD**"
+msgstr "**クラスターマネージャーダッシュボード**"
+
+#: ../../chapter02.rst:32
+msgid ""
+"After logging in, you can access the Cluster Manager Dashboard by "
+"clicking \"Cluster Dashboard\" icon **(1)**."
+msgstr "ログイン後、「クラスターダッシュボード」アイコン **(1)** をクリックすると、クラスターマネージャーダッシュボードにアクセスできます。"
+
+#: ../../chapter02.rst:34
+msgid ""
+"By clicking the folder icon **(2)** In the top right of the interface you"
+" can toggle between the File Browser and Cluster Manager views.  The "
+"**File Browser** (My Files) view of the interface gives you access to "
+"your shared and unshared folders. This is also where you can create "
+"folders and upload files and folders for access. When the cluster "
+"administrator clicks the folder icon to get into the files and folder's "
+"view, the files and folders belong to the default tenant."
+msgstr "フォルダアイコン **(2)** をクリックすると、ファイルブラウザとクラスターマネージャのビューを切り替えることができます。**ファイルブラウザ** （マイファイル）ビューでは、共有フォルダと非共有フォルダにアクセスできます。また、ここでフォルダを作成したり、ファイルやフォルダをアップロードしてアクセスすることもできます。クラスター管理者がフォルダアイコンをクリックしてファイルとフォルダのビューに入ると、ファイルとフォルダはデフォルトテナントに属します。"
+
+#: ../../chapter02.rst:39
+msgid ""
+"The cluster administrator will not be able to access files and folders "
+"that are not in the scope of the default tenant. To access files and "
+"folders that belong to a specific tenant, the web portal login has to be "
+"that of the tenant. So basically the cluster administrator can do "
+"administration work for a tenant that is under management. However, it is"
+" not easy for the cluster administrator to see the files and folders for "
+"that specific tenant until he/she gets the permission and the login "
+"credentials."
+msgstr "クラスタ管理者は、デフォルトテナントの範囲にないファイルやフォルダにアクセスすることはできません。特定のテナントに属するファイルやフォルダにアクセスするには、そのテナントのウェブポータルログインが必要です。つまり、クラスタ管理者は管理下にあるテナントの管理作業を行うことができます。しかし、特定のテナントのファイルやフォルダを見ることは、許可とログイン情報を得るまで容易ではありません。"
+
+#: ../../chapter02.rst:43
+msgid ""
+"The Cluster Manager (aka., Dashboard) allows you to manage Tenants "
+"**(3)**, Cluster Branding **(4)**, Reports **(5)**, and Group Policies "
+"**(6)**."
+msgstr "クラスターマネージャー（ダッシュボードとも呼ばれます）を使用すると、テナント **(3)**、クラスターブランディング **(4)**、レポート **(5)**、およびグループポリシー **(6)** を管理できます。"
+
+#: ../../chapter02.rst:47
+msgid ""
+"At a high level, the |prodname| web browser management interface allows "
+"you to manage clients (Tenants) and the overall system performance and "
+"statistics reports."
+msgstr "高いレベルで、|prodname| のウェブブラウザ管理インターフェースを使用すると、クライアント（テナント）の管理やシステム全体のパフォーマンスと統計レポートを管理できます。"
+
+#: ../../chapter02.rst:51
+msgid "**EXTERNAL DNS**"
+msgstr "**外部DNS**"
+
+#: ../../chapter02.rst:53
+msgid ""
+"External DNS (External URL) is a very important property. It is used in "
+"directing how outside remote clients connect to the Cluster Server. It is"
+" also used in various email templates. If this property is not properly "
+"configured, the email template may be using IP address or NETBIOS name as"
+" the URL link."
+msgstr "外部DNS（外部URL）は非常に重要なプロパティです。これは、外部のリモートクライアントがクラスターサーバーに接続する方法を指示するために使用されます。また、様々なメールテンプレートで使用されます。このプロパティが適切に設定されていない場合、メールテンプレートはIPアドレスまたはNETBIOS名をURLリンクとして使用している可能性があります。"
+
+#: ../../chapter02.rst:55
+msgid ""
+"To configure this setting, you must have a DNS name and SSL certificate "
+"setup; therefore, you can postpone the configuration of your DNS until "
+"you are ready."
+msgstr "この設定を構成するには、DNS名とSSL証明書の設定が必要です。したがって、準備ができるまでDNSの設定を延期することができます。"
+
+#: ../../chapter02.rst:57
+msgid "**Related tasks**"
+msgstr "**関連タスク**"
+
+#: ../../chapter02.rst:59
+msgid ""
+"Configure the DNS registration to point a DNS name to the public static "
+"IP address of the Cluster Server."
+msgstr "クラスターサーバーのパブリック静的IPアドレスにDNS名を指すようにDNS登録を設定します。"
+
+#: ../../chapter02.rst:60
+msgid "Configure the IIS “Default Web Site” to bind to an SSL certificate."
+msgstr "IISの「デフォルトWebサイト」をSSL証明書にバインドするように設定します。"
+
+#: ../../chapter02.rst:65
+msgid "Tenant Manager"
+msgstr "テナントマネージャー"
+
+#: ../../chapter02.rst:67 ../../chapter02.rst:122
+msgid "``Cluster Manager`` > ``Tenant Manager``"
+msgstr "``クラスターマネージャー`` > ``テナントマネージャー``"
+
+#: ../../chapter02.rst:71
+msgid ""
+"A tenant is usually mapped to a client of yours, a company, or a division"
+" of a company."
+msgstr "テナントは通常、あなたのクライアント、会社、または会社の部門にマッピングされます。"
+
+#: ../../chapter02.rst:73
+msgid ""
+"The Cluster Server is multi-tenant capable, but can also be used for a "
+"single Tenant. To add or manage your tenants, click \"Tenants Count\" in "
+"your Dashboard to access Tenant Manager."
+msgstr "クラスターサーバーはマルチテナントに対応していますが、単一テナントでも使用できます。テナントを追加または管理するには、ダッシュボードで「テナント数」をクリックしてテナントマネージャーにアクセスしてください。"
+
+#: ../../chapter02.rst:78
+msgid "TENANT MANAGER"
+msgstr "テナントマネージャー"
+
+#: ../../chapter02.rst:80
+msgid ""
+"You can access other important settings from context menu (Each tenant "
+"block has a tenant specific context menu):"
+msgstr "コンテキストメニューから他の重要な設定にアクセスできます（各テナントブロックにはテナント固有のコンテキストメニューがあります）:"
+
+#: ../../chapter02.rst:82
+msgid "Manage Tenant"
+msgstr "テナントの管理"
+
+#: ../../chapter02.rst:83
+msgid "Force full scan for storage quota usage,"
+msgstr "ストレージクォータ使用量のための強制フルスキャンを行う,"
+
+#: ../../chapter02.rst:84
+msgid "Change Tenant Admin Password,"
+msgstr "テナント管理者パスワードの変更,"
+
+#: ../../chapter02.rst:85
+msgid "Edit Existing Default Storage"
+msgstr "既存のデフォルトストレージを編集"
+
+#: ../../chapter02.rst:86
+msgid "Delete Tenant"
+msgstr "テナントを削除"
+
+#: ../../chapter02.rst:88
+msgid "**Manage Tenant**"
+msgstr "**テナントの管理**"
+
+#: ../../chapter02.rst:90
+msgid ""
+"This will drill deeper into the per-tenant management page view. By "
+"clicking the “Manage Tenant” option, the Cluster Admin sees the Tenant "
+"Dashboard as well as additional options to configure the Tenant settings."
+msgstr "これにより、テナントごとの管理ページビューがさらに詳細になります。「テナントの管理」オプションをクリックすると、クラスタ管理者はテナントダッシュボードと、テナント設定を構成するための追加オプションを表示します。"
+
+#: ../../chapter02.rst:92
+msgid "**Force full scan for storage quota usage**"
+msgstr "**ストレージクォータ使用量の完全スキャンを強制する**"
+
+#: ../../chapter02.rst:94
+msgid ""
+"This will start a full scan of storage usage for the Tenant. As files are"
+" uploaded, modified or deleted during daily operation, the Tenant Quota "
+"is calculated. To ensure that the quota value shown for the tenant is "
+"accurate, it is important that you occasionally force a full scan of the "
+"tenant's quota usage."
+msgstr "テナントのストレージ使用量の全スキャンを開始します。ファイルが日々の運用でアップロード、変更、または削除されると、テナントのクオータが計算されます。テナントのクオータ値が正確であることを確認するために、定期的にテナントのクオータ使用量の全スキャンを強制的に行うことが重要です。"
+
+#: ../../chapter02.rst:96
+msgid "**Change Tenant Admin Password**"
+msgstr "**テナント管理者のパスワードを変更する**"
+
+#: ../../chapter02.rst:98
+msgid ""
+"Provides a method for the Cluster Administrator to assist the Tenant "
+"Administrator with resetting passwords."
+msgstr "クラスター管理者がテナント管理者を支援してパスワードをリセットする方法を提供します。"
+
+#: ../../chapter02.rst:100
+msgid "**Edit Existing default storage**"
+msgstr "**既存のデフォルトストレージを編集**"
+
+#: ../../chapter02.rst:102
+msgid ""
+"When a Tenant outgrows their allocation of storage space or needs to move"
+" to a different storage location, this setting allows the Cluster "
+"Administrator to change the storage location."
+msgstr "テナントが割り当てられたストレージスペースを超えた場合や別のストレージ場所に移動する必要がある場合、この設定によりクラスタ管理者はストレージの場所を変更できます。"
+
+#: ../../chapter02.rst:106
+msgid ""
+"When changing a storage location for a Tenant, you typically manually "
+"copy the folder to the new location then re-configure the default storage"
+" location."
+msgstr "テナントのストレージ場所を変更する場合、通常はフォルダを新しい場所に手動でコピーしてから、デフォルトのストレージ場所を再設定します。"
+
+#: ../../chapter02.rst:110
+msgid ""
+"If you want to change the tenant's default storage location, make sure "
+"you copy tenant's file AS-IS from the source folder to its destination "
+"folder before you change the storage location here."
+msgstr "テナントのデフォルトのストレージ場所を変更したい場合は、ここでストレージの場所を変更する前に、ソースフォルダから宛先フォルダへテナントのファイルをそのままコピーしてください。"
+
+#: ../../chapter02.rst:112
+msgid "**Delete Tenant**"
+msgstr "**テナントを削除**"
+
+#: ../../chapter02.rst:114
+msgid "Deletes the tenant."
+msgstr "テナントを削除します。"
+
+#: ../../chapter02.rst:118
+msgid ""
+"Please reference the :ref:`tenant_administration` section for more "
+"details about the Tenant Management."
+msgstr "テナント管理についての詳細は、:ref:`tenant_administration` セクションを参照してください。"
+
+#: ../../chapter02.rst:121
+msgid "Create a New Tenant"
+msgstr "新しいテナントを作成する"
+
+#: ../../chapter02.rst:124
+msgid ""
+"Click on the \"Plus\" sign in the ``New Tenant`` to start the creation of"
+" a new tenant."
+msgstr "``New Tenant`` にある「プラス」記号をクリックして、新しいテナントの作成を開始します。"
+
+#: ../../chapter02.rst:130
+msgid "CREATING A NEW TENANT"
+msgstr "新しいテナントの作成"
+
+#: ../../chapter02.rst:132
+msgid ""
+"The first screen under \"New Tenant\" is asking for \"Start from "
+"Scratch\" or \"Import and migrate data from  Anchor\"."
+msgstr "「新しいテナント」の最初の画面では、「ゼロから始める」か「Anchorからデータをインポートして移行する」かを尋ねています。"
+
+#: ../../chapter02.rst:134
+msgid ""
+"When you select \"Add New Tenant from Scratch\", The next screen is "
+"asking for a few parameters related to who the tenant is."
+msgstr "「新しいテナントをゼロから追加」を選択すると、次の画面でテナントに関連するいくつかのパラメータを求められます。"
+
+#: ../../chapter02.rst:140
+msgid "TENANT MANAGER SETTINGS 1"
+msgstr "テナントマネージャー設定 1"
+
+#: ../../chapter02.rst:142
+msgid ""
+"**\"Create with Default Settings\"** will get it done and the tenant will"
+" be granted all default settings, including the storage location "
+"allocation."
+msgstr "**「デフォルト設定で作成」** により、テナントはデフォルト設定を含むすべての設定が適用され、ストレージの場所の割り当てが行われます。"
+
+#: ../../chapter02.rst:144
+msgid ""
+"**\"Continue\"** allows you to customize the settings and storage "
+"location."
+msgstr "**「続行」** では、設定と保存場所をカスタマイズできます。"
+
+#: ../../chapter02.rst:146
+msgid "If you pick **\"Continue\"**,"
+msgstr "もし **「続ける」** を選んだら、"
+
+#: ../../chapter02.rst:148
+msgid ""
+"The second screen under \"Add Tenant from Scratch\" is asking for the "
+"division of work between the cluster administrator and the tenant "
+"administrator."
+msgstr "「ゼロからテナントを追加」の二番目の画面では、クラスタ管理者とテナント管理者の間の業務分担を尋ねています。"
+
+#: ../../chapter02.rst:153
+msgid "TENANT MANAGER SETTINGS 2"
+msgstr "テナントマネージャー設定 2"
+
+#: ../../chapter02.rst:155
+msgid ""
+"The third screen under \"Add Tenant\" is asking where the root storage "
+"for the tenant will be at."
+msgstr "「テナントの追加」の三番目の画面では、テナントのルートストレージがどこにあるかを尋ねています。"
+
+#: ../../chapter02.rst:161
+msgid "ADD TENANT STORAGE OPTIONS 1"
+msgstr "テナントストレージオプションを追加 1"
+
+#: ../../chapter02.rst:163
+msgid "**Automatically assign a sub-folder from cluster default tenant**"
+msgstr "**クラスターデフォルトテナントからサブフォルダーを自動的に割り当てる**"
+
+#: ../../chapter02.rst:165
+msgid ""
+"When selected, the tenant's default storage will be a sub-folder inside "
+"the cluster default tenant's storage folder. It is easier to manage when "
+"you don't need per-tenant storage access credentials. This is the easiest"
+" option because if every tenant is allocated a sub-folder from the "
+"default tenant, then the default tenant storage location is a single "
+"place to take care of all of your storage needs. The storage location is "
+"sandboxed away from the default tenant so even though from a physical "
+"location's perspective, it is a sub folder of the default tenant, but the"
+" default tenant will not be able to see the folder from |prodname|."
+msgstr "選択された場合、テナントのデフォルトストレージは、クラスターデフォルトテナントのストレージフォルダ内のサブフォルダになります。テナントごとのストレージアクセス資格情報が不要な場合に管理が容易です。これは最も簡単なオプションです。なぜなら、すべてのテナントにデフォルトテナントからサブフォルダが割り当てられている場合、デフォルトテナントのストレージロケーションは、すべてのストレージニーズをケアするための単一の場所となるからです。ストレージロケーションはデフォルトテナントからサンドボックス化されているため、物理的な位置から見るとデフォルトテナントのサブフォルダであっても、デフォルトテナントは |prodname| からそのフォルダを見ることができません。"
+
+#: ../../chapter02.rst:168
+msgid "**Use existing file server or local disk as default storage**"
+msgstr "**既存のファイルサーバーやローカルディスクをデフォルトストレージとして使用する**"
+
+#: ../../chapter02.rst:170
+#, python-format
+msgid ""
+"Using this option, you can connect the tenant's root folder to a file "
+"server network share. If you want the tenant users to continue to share "
+"file server network share outside of |prodname|, it is recommended you "
+"use the \"Import Network Share\" feature in \"Team Folder\" instead of "
+"pointing the default storage to the file server share, because the "
+"Cluster Server will assume it has 100% of the control of the storage "
+"location."
+msgstr "このオプションを使用すると、テナントのルートフォルダをファイルサーバーネットワーク共有に接続できます。テナントユーザーが |prodname| の外でファイルサーバーネットワーク共有を引き続き共有したい場合は、「チームフォルダー」の「ネットワーク共有のインポート」機能を使用することをお勧めします。これは、クラスターサーバーがストレージの場所を100％コントロールしていると見なすためです。"
+
+#: ../../chapter02.rst:175
+msgid "ADD TENANT STORAGE OPTIONS 2"
+msgstr "テナントストレージオプションを追加 2"
+
+#: ../../chapter02.rst:177
+msgid "**Use Cloud Storage as default storage**"
+msgstr "**クラウドストレージをデフォルトのストレージとして使用する**"
+
+#: ../../chapter02.rst:179
+msgid ""
+"When using this option, you can connect the tenant's root folder to "
+"Amazon S3, Windows Azure Blob, OpenStack storage as well as others."
+msgstr "このオプションを使用すると、テナントのルートフォルダをAmazon S3、Windows Azure Blob、OpenStackストレージなどに接続できます。"
+
+#: ../../chapter02.rst:184
+msgid "CLOUD STORAGE SETTINGS"
+msgstr "クラウドストレージ設定"
+
+#: ../../chapter02.rst:186
+msgid "**Using Amazon S3 bucket for tenant storage**"
+msgstr "**Amazon S3バケットをテナントストレージとして使用する**"
+
+#: ../../chapter02.rst:188
+msgid ""
+"``Tenant Manager`` > ``{Create New Tenant}`` > ``Use Cloud Storage as "
+"Default Storage`` > ``Amazon S3``"
+msgstr "``テナントマネージャー`` > ``{新しいテナントを作成}`` > ``クラウドストレージをデフォルトストレージとして使用`` > ``Amazon S3``"
+
+#: ../../chapter02.rst:190
+msgid ""
+"You can pick Amazon S3 as the target storage for the tenant if you want "
+"to."
+msgstr "テナントのターゲットストレージとしてAmazon S3を選択することもできます。"
+
+#: ../../chapter02.rst:195
+msgid "AMAZON S3"
+msgstr "アマゾンS3"
+
+#: ../../chapter02.rst:197
+msgid ""
+"After you pick the Amazon S3, the first screen will be asking for "
+"``Access Key`` and ``Secret Key``."
+msgstr "Amazon S3を選んだ後、最初の画面で ``アクセスキー`` と ``シークレットキー`` を求められます。"
+
+#: ../../chapter02.rst:200
+msgid ""
+"You will need to log into your AWS console to get the access key and "
+"secret key. You can use master access key and secret key, by default the "
+"master key has default access to all buckets. You can also create an IAM "
+"user and use the key from a specific IAM user. However, by default, the "
+"IAM user is locked out of access to any bucket until bucket access policy"
+" is created and attached to the IAM user."
+msgstr "AWSコンソールにログインして、アクセスキーとシークレットキーを取得する必要があります。デフォルトでは、マスターアクセスキーとシークレットキーを使用でき、マスターキーにはすべてのバケットへのデフォルトアクセス権があります。また、IAMユーザーを作成し、特定のIAMユーザーからのキーを使用することもできます。ただし、デフォルトでは、IAMユーザーはバケットアクセスポリシーが作成され、IAMユーザーに添付されるまで、どのバケットへのアクセスもロックアウトされます。"
+
+#: ../../chapter02.rst:202
+msgid ""
+"If you use IAM user, here is a sample S3 Bucket access policy to grant an"
+" IAM user to a specific bucket. As shown below, the policy gives an IAM "
+"user the ability to use bucket \"user3onlybucket\""
+msgstr "IAMユーザーを使用する場合、以下のサンプルS3バケットアクセスポリシーは、IAMユーザーに特定のバケットへのアクセス権を付与します。以下に示すポリシーは、IAMユーザーがバケット「user3onlybucket」を使用する能力を与えます"
+
+#: ../../chapter02.rst:256
+msgid ""
+"After it is all setup properly, you can use the IAM user's access key id "
+"and secret access key to connect to the Amazon S3 bucket."
+msgstr "すべてが適切に設定された後、IAMユーザーのアクセスキーIDとシークレットアクセスキーを使用してAmazon S3バケットに接続できます。"
+
+#: ../../chapter02.rst:261
+msgid "AMAZON S3 USER'S ACCESS KEY"
+msgstr "AMAZON S3 ユーザーのアクセスキー"
+
+#: ../../chapter02.rst:263
+msgid ""
+"When the correct access credentials are given, the next screen is to "
+"select a bucket from Amazon S3."
+msgstr "正しいアクセス資格情報が与えられたとき、次の画面ではAmazon S3からバケットを選択します。"
+
+#: ../../chapter02.rst:268
+msgid "AMAZON S3 SELECTING A BUCKET"
+msgstr "AMAZON S3 バケットの選択"
+
+#: ../../chapter02.rst:270
+msgid ""
+"You can pre-create a bucket in Amazon S3 and then pick the bucket in the "
+"current page. After that, it will take a short while for the system to be"
+" ready for the new tenant created."
+msgstr "Amazon S3にバケットを事前に作成し、現在のページでそのバケットを選択することができます。その後、システムが新しく作成されたテナントの準備が整うまで少し時間がかかります。"
+
+#: ../../chapter02.rst:275
+msgid "FINISHING AMAZON S3 CONFIGURATION"
+msgstr "AMAZON S3 設定の完了"
+
+#: ../../chapter02.rst:277
+msgid ""
+"After the tenant is created, you will be looking at the dashboard of the "
+"tenant."
+msgstr "テナントが作成された後、テナントのダッシュボードを見ることになります。"
+
+#: ../../chapter02.rst:280
+msgid "**Using Windows Azure Blob Storage for tenant storage**"
+msgstr "**Windows Azure Blob ストレージをテナントストレージとして使用する**"
+
+#: ../../chapter02.rst:282
+msgid ""
+"In addition to Amazon S3 bucket, you can also use Windows Azure Blob "
+"Storage as the tenant's back end storage."
+msgstr "Amazon S3バケットに加えて、Windows Azure Blob Storageをテナントのバックエンドストレージとして使用することもできます。"
+
+#: ../../chapter02.rst:284
+msgid ""
+"Similar to the above Amazon S3 setup process, you can pick \"Windows "
+"Azure Blob\" as the option during the tenant creation process."
+msgstr "上記のAmazon S3セットアッププロセスと同様に、テナント作成プロセス中に「Windows Azure Blob」をオプションとして選択できます。"
+
+#: ../../chapter02.rst:289
+msgid "WINDOWS AZURE BLOB SETUP"
+msgstr "WINDOWS AZURE BLOBのセットアップ"
+
+#: ../../chapter02.rst:291
+msgid "The next screen will be asking for ``Blob URL`` and the ``Primary key``."
+msgstr "次の画面では、``Blob URL`` と ``プライマリキー`` を求められます。"
+
+#: ../../chapter02.rst:296
+msgid "AZURE BLOB URL AND PRIMARY KEY"
+msgstr "AZURE BLOB URLとプライマリーキー"
+
+#: ../../chapter02.rst:298
+msgid "You can get this information from the Azure Portal."
+msgstr "この情報はAzureポータルから取得できます。"
+
+#: ../../chapter02.rst:303
+msgid "AZURE BLOB ACCESS KEYS"
+msgstr "AZURE BLOB アクセスキー"
+
+#: ../../chapter02.rst:305
+msgid ""
+"Here is a simple mapping between Azure portal and the parameters it asks "
+"for."
+msgstr "Azure ポータルとそれが要求するパラメーターとの間のシンプルなマッピングはこちらです。"
+
+#: ../../chapter02.rst:310
+msgid "AZURE BLOB ACCOUNT SETTINGS"
+msgstr "AZURE BLOB アカウント設定"
+
+#: ../../chapter02.rst:312
+msgid ""
+"After you put in the account information, the next screen asks to pick a "
+"container to use."
+msgstr "アカウント情報を入力した後、次の画面で使用するコンテナを選択するよう求められます。"
+
+#: ../../chapter02.rst:317
+msgid "AZURE BLOB ACCOUNT INFORMATION"
+msgstr "AZURE BLOB アカウント情報"
+
+#: ../../chapter02.rst:319
+msgid ""
+"After the container information is all set, the tenant account will be "
+"created."
+msgstr "コンテナ情報の設定が完了した後、テナントアカウントが作成されます。"
+
+#: ../../chapter02.rst:324
+msgid "Cluster Branding"
+msgstr "クラスターブランディング"
+
+#: ../../chapter02.rst:326
+msgid "``Cluster Manager`` > ``Cluster Branding``"
+msgstr "``クラスターマネージャー`` > ``クラスターブランディング``"
+
+#: ../../chapter02.rst:328
+msgid ""
+"Cluster Branding is for changing the logo, bitmaps and other branding "
+"related information. There are two branding supports. One is self-service"
+" built-in branding, which is completely controlled by the “Cluster "
+"Branding” settings on the “Cluster Manager”. The other is full-branding "
+"service. Both rely on the “Cluster Branding” to change the look-and-feel "
+"of the web portal."
+msgstr "クラスターブランディングは、ロゴ、ビットマップ、その他のブランディング関連情報を変更するためのものです。ブランディングのサポートは二つあります。一つは、完全に「クラスターマネージャ」の「クラスターブランディング」設定によって制御されるセルフサービスの内蔵ブランディングです。もう一つはフルブランディングサービスです。どちらも「クラスターブランディング」を利用してウェブポータルのルックアンドフィールを変更します。"
+
+#: ../../chapter02.rst:331
+msgid ""
+"Built-in branding will work with white-label clients, which upon the "
+"first connection to the cluster, will download the branding related "
+"information and  use the branding related information. As compared to "
+"full-branding service, the full branding clients will have artworks, logo"
+" bitmaps and related information burned into the client binaries."
+msgstr "組み込みブランディングは、ホワイトラベルクライアントと連携して動作し、クラスターへの最初の接続時にブランディング関連情報をダウンロードし、その情報を使用します。フルブランディングサービスと比較して、フルブランディングクライアントはアートワーク、ロゴのビットマップ、関連情報をクライアントのバイナリに焼き付けています。"
+
+#: ../../chapter02.rst:334
+msgid "General"
+msgstr "一般"
+
+#: ../../chapter02.rst:336
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``General``"
+msgstr "``クラスターマネージャー`` > ``クラスターブランディング`` > ``一般``"
+
+#: ../../chapter02.rst:338
+msgid ""
+"Under the ``General`` tab you can specify the name and other settings as "
+"specified below."
+msgstr "``General`` タブでは、以下に指定されている名前やその他の設定を指定することができます。"
+
+#: ../../chapter02.rst:343
+msgid "CLUSTER BRANDING"
+msgstr "クラスターブランディング"
+
+#: ../../chapter02.rst:345
+msgid "**Product Name (1)**"
+msgstr "**製品名 (1)**"
+
+#: ../../chapter02.rst:347
+msgid ""
+"This is where you will specify what you would like to call the product. "
+"This is the name that users will see when they login either in web portal"
+" or the client applications. To access branding settings click \"Cluster "
+"Branding\" in Dashboard then \"EDIT\" and change the setting you want. "
+"Don't forget to save your settings. You can also choose a color theme "
+"which you would like your users to see when they login to the portal. You"
+" can choose a color theme that is close to your company colors."
+msgstr "これは、製品につけたい名前を指定する場所です。これは、ユーザーがウェブポータルまたはクライアントアプリケーションにログインするときに表示される名前です。ブランディング設定にアクセスするには、ダッシュボードで「クラスターブランディング」をクリックし、「EDIT」をクリックして、変更したい設定を変更します。設定を保存するのを忘れないでください。また、ポータルにログインするときにユーザーに表示される色テーマを選択することもできます。会社の色に近い色テーマを選ぶことができます。"
+
+#: ../../chapter02.rst:349
+msgid "**Home Page URL (2)**"
+msgstr "**ホームページのURL (2)**"
+
+#: ../../chapter02.rst:351
+msgid "This is the URL of your 'Home Page' page."
+msgstr "これがあなたの「ホームページ」ページのURLです。"
+
+#: ../../chapter02.rst:356
+msgid "HOME PAGE URL AND COPYRIGHT STATEMENT"
+msgstr "ホームページのURLと著作権表示"
+
+#: ../../chapter02.rst:359
+msgid "**'Copyright' Statement (3)**"
+msgstr "**'著作権'声明 (3)**"
+
+#: ../../chapter02.rst:361
+msgid "This is the contents of your 'Copyright' statement."
+msgstr "これがあなたの「著作権」声明の内容です。"
+
+#: ../../chapter02.rst:364
+msgid "Web Portal"
+msgstr "ウェブポータル"
+
+#: ../../chapter02.rst:366
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``"
+msgstr "``クラスターマネージャー`` > ``クラスターブランディング`` > ``ウェブポータル``"
+
+#: ../../chapter02.rst:370
+msgid ""
+"In previous builds, the best way to get icons to work is by putting the "
+"icon files on the same server and reference the icons via a relative "
+"link."
+msgstr "以前のビルドでは、アイコンを機能させる最良の方法は、アイコンファイルを同じサーバーに置き、相対リンクを使用してアイコンを参照することです。"
+
+#: ../../chapter02.rst:372
+msgid ""
+"For example, you can create a sub folder under the Install Folder of the "
+"Cluster Server, such as under root/imagetest folder. The dimensions for "
+"all icons for each setting under web portal should match what is "
+"displayed for each setting. The branding of the icons and images require "
+"the icons and images with the same width/height as specified or same "
+"aspect ratio if the resolution is higher."
+msgstr "たとえば、クラスターサーバーのインストールフォルダーの下に、root/imagetestフォルダーの下にサブフォルダーを作成することができます。ウェブポータルの各設定のアイコンのサイズは、各設定に表示されるものと一致している必要があります。アイコンと画像のブランディングには、指定された幅/高さと同じか、解像度が高い場合は同じアスペクト比のアイコンと画像が必要です。"
+
+#: ../../chapter02.rst:374
+msgid ""
+"In later builds, the icons used are what-you-see-is-what-you-get and you "
+"can upload those icon sets."
+msgstr "後のビルドでは、使用されるアイコンは見たままのものであり、それらのアイコンセットをアップロードすることができます。"
+
+#: ../../chapter02.rst:379
+msgid "WEB PORTAL SETTINGS"
+msgstr "ウェブポータル設定"
+
+#: ../../chapter02.rst:382
+msgid "**Application Icon (1)**"
+msgstr "**アプリケーションアイコン (1)**"
+
+#: ../../chapter02.rst:384
+msgid ""
+"From the Web portal section of cluster branding, you can change the "
+"application icon. This is the image that is displayed next to the product"
+" name in the web portal."
+msgstr "クラスターブランディングのWebポータルセクションから、アプリケーションアイコンを変更することができます。これは、Webポータルで製品名の隣に表示される画像です。"
+
+#: ../../chapter02.rst:386
+msgid "**Tenant Logo (2)**"
+msgstr "**テナントロゴ (2)**"
+
+#: ../../chapter02.rst:388
+msgid "This is where the logo that represents each tenant should be uploaded."
+msgstr "ここには、各テナントを代表するロゴをアップロードする場所です。"
+
+#: ../../chapter02.rst:390
+msgid "**Drive Icon (3)**"
+msgstr "**ドライブアイコン (3)**"
+
+#: ../../chapter02.rst:392
+msgid ""
+"This is the icon that will be used for the cloud drive. For example in "
+"the web portal tree view."
+msgstr "これはクラウドドライブに使用されるアイコンです。例えば、ウェブポータルのツリービューで。"
+
+#: ../../chapter02.rst:394
+msgid "**Logo Url (4) & Login Page Left Image (5)**"
+msgstr "**ロゴURL (4) & ログインページ左画像 (5)**"
+
+#: ../../chapter02.rst:396
+msgid ""
+"Please follow the same steps for branding settings for 'Login Background "
+"Image', 'File Share Stamp Icon', 'IOS Client App ID', 'Login Page Note', "
+"'Change Password URL', 'Tutorial Page URL'."
+msgstr "「ログイン背景画像」、「ファイル共有スタンプアイコン」、「IOSクライアントアプリID」、「ログインページノート」、「パスワード変更URL」、「チュートリアルページURL」のブランディング設定についても同じ手順に従ってください。"
+
+#: ../../chapter02.rst:400
+msgid "Client Download"
+msgstr "クライアントダウンロード"
+
+#: ../../chapter02.rst:402
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Client Download``"
+msgstr "``クラスターマネージャー`` > ``クラスターブランディング`` > ``クライアントダウンロード``"
+
+#: ../../chapter02.rst:404
+msgid "You can choose not to show the download link for some clients here."
+msgstr "こちらでは、一部のクライアントにダウンロードリンクを表示しないように選択できます。"
+
+#: ../../chapter02.rst:409
+msgid "CLIENT DOWNLOAD SETTINGS"
+msgstr "クライアントダウンロード設定"
+
+#: ../../chapter02.rst:412
+msgid "**Mobile Clients Download Links**"
+msgstr "**モバイルクライアントのダウンロードリンク**"
+
+#: ../../chapter02.rst:414
+msgid ""
+"Once you brand your own iOS client and/or Android Client you can point "
+"the download link to your own AppStore and Google Play locations."
+msgstr "独自のiOSクライアントおよび/またはAndroidクライアントをブランド化すると、ダウンロードリンクを独自のAppStoreおよびGoogle Playの場所に指定できます。"
+
+#: ../../chapter02.rst:420
+msgid "CLIENT DOWNLOAD LINKS SETTINGS"
+msgstr "クライアントダウンロードリンク設定"
+
+#: ../../chapter02.rst:424 ../../chapter02.rst:837
+msgid "Windows Client"
+msgstr "Windows クライアント"
+
+#: ../../chapter02.rst:426
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``"
+msgstr "``クラスターマネージャー`` > ``クラスターブランディング`` > ``Windowsクライアント``"
+
+#: ../../chapter02.rst:428
+msgid ""
+"The application icon and drive icon URLs can be specified here. Also, you"
+" can put in your company name under 'Manufacturer Name' along with the "
+"'Contact Info' email. You also have the option here to create your own "
+"branded MSI Windows client. You can also use your own code signing "
+"certificate in order to digitally sign the MSI package. The advantage of "
+"creating your own MSI client package is that when users download and "
+"install the Windows Client you provide, they will see your company name "
+"along with your branding during the client installation."
+msgstr "アプリケーションアイコンとドライブアイコンのURLはこちらで指定できます。また、「製造者名」の欄には、あなたの会社名と「連絡先情報」のメールアドレスを入れることができます。ここでは、独自のブランドを持つMSI Windowsクライアントを作成するオプションもあります。また、独自のコード署名証明書を使用して、MSIパッケージにデジタル署名を行うこともできます。独自のMSIクライアントパッケージを作成する利点は、ユーザーが提供するWindowsクライアントをダウンロードしてインストールする際に、クライアントのインストール中にあなたの会社名とブランディングが表示されることです。"
+
+#: ../../chapter02.rst:430
+msgid ""
+"Windows client supports multiple languages. Some language packs are "
+"included and shipped with CentreStack. If you need to run the Windows "
+"client under a different language, you can set the UI Language there."
+msgstr "Windowsクライアントは複数の言語をサポートしています。いくつかの言語パックはCentreStackと一緒に同梱されています。異なる言語でWindowsクライアントを実行する必要がある場合は、そこでUI言語を設定できます。"
+
+#: ../../chapter02.rst:435
+msgid "WINDOWS CLIENT BRANDING"
+msgstr "WINDOWS クライアント ブランディング"
+
+#: ../../chapter02.rst:437
+msgid ""
+"Once you clicked the \"Edit\" button to edit the Windows Client branding "
+"information, you will be able to provide EULA (End User License "
+"Agreement) and Code Signing Certificate."
+msgstr "「編集」ボタンをクリックしてWindowsクライアントのブランディング情報を編集すると、EULA（エンドユーザーライセンス契約）とコード署名証明書を提供することができます。"
+
+#: ../../chapter02.rst:442
+msgid "WINDOWS CLIENT BRANDING SETTINGS"
+msgstr "WINDOWS クライアント ブランディング設定"
+
+#: ../../chapter02.rst:445
+msgid "**EULA (1)**"
+msgstr "**エンドユーザーライセンス契約 (1)**"
+
+#: ../../chapter02.rst:447
+msgid "This will be a RTF file format as input."
+msgstr "これは入力としてのRTFファイル形式になります。"
+
+#: ../../chapter02.rst:450
+msgid "**Code Signing Certificate (2)**"
+msgstr "**コード署名証明書 (2)**"
+
+#: ../../chapter02.rst:452
+msgid ""
+"You can acquire a code signing certificate from your code signing "
+"certificate vendor. Most SSL vendor also provide code signing "
+"certificate. Make sure you use SHA 256 (SHA2) as your digital signing "
+"certificate hash algorithm."
+msgstr "コード署名証明書は、コード署名証明書ベンダーから取得できます。ほとんどのSSLベンダーもコード署名証明書を提供しています。デジタル署名証明書のハッシュアルゴリズムとしてSHA 256（SHA2）を使用するようにしてください。"
+
+#: ../../chapter02.rst:454
+msgid ""
+"If your Code Signing certificate is already installed you can also use "
+"the option - ``Sign using cert in certificate store`` **(3)**"
+msgstr "コード署名証明書が既にインストールされている場合は、``証明書ストアの証明書を使用して署名する`` **(3)** オプションも使用できます"
+
+#: ../../chapter02.rst:458 ../../chapter02.rst:877
+msgid "Mac Client"
+msgstr "Mac クライアント"
+
+#: ../../chapter02.rst:460
+msgid ""
+"You can configure the MAC client and MAC client installation package "
+"branding under here."
+msgstr "こちらでMACクライアントとMACクライアントインストールパッケージのブランディングを設定できます。"
+
+#: ../../chapter02.rst:463
+msgid "**Client Branding**"
+msgstr "**クライアントブランディング**"
+
+#: ../../chapter02.rst:468
+msgid "MAC CLIENT BRANDING"
+msgstr "MACクライアントブランディング"
+
+#: ../../chapter02.rst:470
+msgid "**Installation Package Branding**"
+msgstr "**インストールパッケージのブランディング**"
+
+#: ../../chapter02.rst:472
+msgid ""
+"You can brand the Mac software agent package as well. You will need to go"
+" to https://www.centrestack.com/, login as a partner and go to the "
+"\"Branding\" section to create a branding task. The task will be "
+"fulfilled and completed and a Mac software agent package will be "
+"available for download once the branding task completes. It may take a "
+"couple of days for the task to finish."
+msgstr "Macソフトウェアエージェントパッケージもブランド化することができます。https://www.centrestack.com/ にログインしてパートナーとしてログインし、「ブランディング」セクションに移動してブランディングタスクを作成する必要があります。タスクは履行され、完了し、ブランディングタスクが完了すると、Macソフトウェアエージェントパッケージがダウンロード可能になります。タスクが完了するまでに数日かかる場合があります。"
+
+#: ../../chapter02.rst:478
+msgid "MAC CLIENT BRANDING IN PARTNER PORTAL"
+msgstr "パートナーポータルにおけるMACクライアントのブランディング"
+
+#: ../../chapter02.rst:483
+msgid ""
+"Mac software package branding is different from the Windows software "
+"package branding because the Mac software package branding will need to "
+"be done on a Mac machine. So the task will be created on the partner "
+"portal but will be completed asynchronously on a Mac machine."
+msgstr "Macソフトウェアパッケージのブランディングは、MacソフトウェアパッケージのブランディングがMacマシン上で行う必要があるため、Windowsソフトウェアパッケージのブランディングとは異なります。したがって、タスクはパートナーポータル上で作成されますが、Macマシン上で非同期に完了されます。"
+
+#: ../../chapter02.rst:488
+msgid "Emails"
+msgstr "メール"
+
+#: ../../chapter02.rst:490
+msgid ""
+"There are many places in the Cluster Manager that need to contact the "
+"users via email. So the “Emails” tab is used to set up the email "
+"templates used for contacting users via email."
+msgstr "クラスターマネージャーには、ユーザーにメールで連絡を取る必要がある場所が多くあります。そのため、「メール」タブでは、ユーザーにメールで連絡を取るために使用するメールテンプレートを設定します。"
+
+#: ../../chapter02.rst:495
+msgid "EMAIL SETTINGS"
+msgstr "メール設定"
+
+#: ../../chapter02.rst:497
+msgid "**Welcome Email for New Tenant**"
+msgstr "**新しいテナントのためのウェルカムメール**"
+
+#: ../../chapter02.rst:499
+msgid ""
+"This is the email sent to the new tenant when the tenant is created. The "
+"email is sent to the tenant administrator."
+msgstr "これは、テナントが作成されたときに新しいテナントに送信されるメールです。このメールはテナントの管理者に送信されます。"
+
+#: ../../chapter02.rst:502
+msgid "**Welcome Email for New Team User**"
+msgstr "**新しいチームユーザー向けのウェルカムメール**"
+
+#: ../../chapter02.rst:504
+msgid ""
+"The team user is a regular user in a tenant. This is the email template "
+"that is sent to the user when the user account is created."
+msgstr "チームユーザーはテナント内の通常のユーザーです。これは、ユーザーアカウントが作成されたときにユーザーに送信されるメールテンプレートです。"
+
+#: ../../chapter02.rst:507
+msgid "**Welcome Email for New Guest User**"
+msgstr "**新規ゲストユーザー向けウェルカムメール**"
+
+#: ../../chapter02.rst:509
+msgid ""
+"Guest user is a regular user in a tenant that doesn't have a home "
+"directory associated. So the guest user can only operate within shared "
+"files and folders from other regular users. This is the email template "
+"that is sent to the guest user when the guest user's account was "
+"provisioned."
+msgstr "ゲストユーザーは、ホームディレクトリが関連付けられていないテナント内の通常のユーザーです。そのため、ゲストユーザーは他の通常のユーザーから共有されたファイルやフォルダ内でのみ操作が可能です。これは、ゲストユーザーのアカウントがプロビジョニングされたときにゲストユーザーに送信されるメールテンプレートです。"
+
+#: ../../chapter02.rst:512
+msgid "**Email for File/Folder Share**"
+msgstr "**ファイル/フォルダ共有のためのメール**"
+
+#: ../../chapter02.rst:514
+msgid ""
+"This is the email sent to a user when the user is about to receive "
+"file/folder shares."
+msgstr "これは、ユーザーがファイル/フォルダーの共有を受け取る予定の際にユーザーに送信されるメールです。"
+
+#: ../../chapter02.rst:517
+msgid "**Request a File**"
+msgstr "**ファイルをリクエストする**"
+
+#: ../../chapter02.rst:519
+msgid ""
+"This is the email sent to a user when the user is about to receive an "
+"invitation to upload a file."
+msgstr "これは、ユーザーがファイルをアップロードする招待を受け取る予定のときにユーザーに送信されるメールです。"
+
+#: ../../chapter02.rst:522
+msgid "**Notify external user that shared file changed**"
+msgstr "**共有されたファイルが変更されたことを外部ユーザーに通知する**"
+
+#: ../../chapter02.rst:524
+msgid ""
+"When a shared file/folder changed, this is the email that is sent to the "
+"user who receives file/folder shares."
+msgstr "共有されたファイル/フォルダが変更された場合、このメールがファイル/フォルダの共有を受け取るユーザーに送信されます。"
+
+#: ../../chapter02.rst:527
+msgid "**Admin Reset User Password Email**"
+msgstr "**管理者がユーザーパスワードをリセットするメール**"
+
+#: ../../chapter02.rst:529
+msgid "This is the email that sent to a user when the user's password is reset."
+msgstr "これは、ユーザーのパスワードがリセットされたときにユーザーに送信されるメールです。"
+
+#: ../../chapter02.rst:532
+msgid "**User Reset Password Email**"
+msgstr "**ユーザーパスワードリセットメール**"
+
+#: ../../chapter02.rst:534
+msgid ""
+"This is the email that sent to a user when the user resets the password "
+"for himself/herself."
+msgstr "これはユーザーが自分自身のパスワードをリセットする際にユーザーに送信されるメールです。"
+
+#: ../../chapter02.rst:537
+msgid "**New Sign-in Action Email**"
+msgstr "**新しいサインインアクションのメール**"
+
+#: ../../chapter02.rst:539
+msgid ""
+"This is the email notification sent to the user when the user logins from"
+" a specific machine."
+msgstr "これは、ユーザーが特定のマシンからログインしたときにユーザーに送信されるメール通知です。"
+
+#: ../../chapter02.rst:541
+msgid "**Settings**"
+msgstr "**設定**"
+
+#: ../../chapter02.rst:543
+msgid ""
+"This is to set the reply email address. Typically the email is sent with "
+"the SMTP service set. However, if the reply address is different, you can"
+" set it here."
+msgstr "これは返信用のメールアドレスを設定するためのものです。通常、メールは設定されたSMTPサービスを使用して送信されます。しかし、返信用のアドレスが異なる場合は、ここで設定できます。"
+
+#: ../../chapter02.rst:547
+msgid "Android Client"
+msgstr "Android クライアント"
+
+#: ../../chapter02.rst:551
+msgid ""
+"Branding the android client can now be automated from your partner portal"
+" (https://partner.centrestack.com/login/). Please go to "
+"https://partner.centrestack.com/login/ to brand the Android client."
+msgstr "パートナーポータル（https://partner.centrestack.com/login/）からAndroidクライアントのブランディングを自動化することができるようになりました。Androidクライアントをブランド化するには、https://partner.centrestack.com/login/ にアクセスしてください。"
+
+#: ../../chapter02.rst:554
+msgid ""
+"The branding of Android client and iOS client is done from "
+"www.centrestack.com, instead of from your own server."
+msgstr "AndroidクライアントとiOSクライアントのブランディングは、ご自身のサーバーではなくwww.centrestack.comから行われます。"
+
+#: ../../chapter02.rst:559
+msgid "ANDROID CLIENT BRANDING"
+msgstr "ANDROIDクライアントブランディング"
+
+#: ../../chapter02.rst:563
+msgid "iOS Client"
+msgstr "iOSクライアント"
+
+#: ../../chapter02.rst:567
+msgid ""
+"Branding of iOS client can now be automated from partner portal "
+"(https://partner.centrestack.com/login/)."
+msgstr "iOSクライアントのブランディングは、パートナーポータル(https://partner.centrestack.com/login/)から自動化することができます。"
+
+#: ../../chapter02.rst:569
+msgid ""
+"The information here in this section is preserved for legacy reference. "
+"Please go to https://partner.centrestack.com/login/ to brand iOS client."
+msgstr "このセクションの情報はレガシー参照用に保存されています。iOSクライアントをブランド化するには、https://partner.centrestack.com/login/ にアクセスしてください。"
+
+#: ../../chapter02.rst:571
+msgid ""
+"As shown in the above picture, you can generate branding task and request"
+" for Android branding and iOS branding."
+msgstr "上の画像に示されているように、AndroidのブランディングとiOSのブランディングのためのブランディングタスクを生成してリクエストすることができます。"
+
+#: ../../chapter02.rst:576
+msgid "Export/Import"
+msgstr "エクスポート/インポート"
+
+#: ../../chapter02.rst:578
+msgid ""
+"You can either export the branding settings to another cluster or you can"
+" import branding settings from another cluster in this cluster under this"
+" setting."
+msgstr "他のクラスターからブランディング設定をエクスポートすることも、この設定の下でこのクラスターに他のクラスターからブランディング設定をインポートすることもできます。"
+
+#: ../../chapter02.rst:583
+msgid "EXPORT/IMPORT SETTINGS"
+msgstr "エクスポート/インポート設定"
+
+#: ../../chapter02.rst:588
+msgid "Reports"
+msgstr "レポート"
+
+#: ../../chapter02.rst:590
+msgid "``Cluster Manager`` > ``Reports``"
+msgstr "``クラスターマネージャー`` > ``レポート``"
+
+#: ../../chapter02.rst:593
+msgid "Upload Report"
+msgstr "レポートをアップロード"
+
+#: ../../chapter02.rst:595
+msgid ""
+"Upload report tab shows you graphs for all the uploads that have taken "
+"place in the last sixty minutes, 24 hours, 30 days and a whole week."
+msgstr "アップロードレポートタブでは、過去60分間、24時間、30日間、および1週間全体にわたって行われたすべてのアップロードに関するグラフを表示します。"
+
+#: ../../chapter02.rst:601
+msgid "UPLOAD REPORT"
+msgstr "アップロードレポート"
+
+#: ../../chapter02.rst:605
+msgid "Storage Statistics"
+msgstr "ストレージ統計"
+
+#: ../../chapter02.rst:607
+msgid ""
+"Under storage statistics, you can see a quick overview of the overall "
+"storage statistics, size distribution file type distribution pie charts, "
+"and users who have used the most storage so far."
+msgstr "ストレージ統計の下では、全体的なストレージ統計、サイズ分布、ファイルタイプ分布の円グラフ、そしてこれまで最も多くのストレージを使用しているユーザーの概要をすばやく確認できます。"
+
+#: ../../chapter02.rst:613
+msgid "STORAGE STATISTICS REPORT"
+msgstr "ストレージ統計レポート"
+
+#: ../../chapter02.rst:617
+msgid "Active Users"
+msgstr "アクティブユーザー"
+
+#: ../../chapter02.rst:619
+msgid ""
+"Active users reports the activity of users on the web portal. The active "
+"users report doesn't include users from windows client or other native "
+"clients because those users are more persistent (always there). To access"
+" this report, you can click on the active users section in the panel near"
+" the top of the screen."
+msgstr "Webポータル上のユーザーの活動を報告するアクティブユーザーレポート。このアクティブユーザーレポートには、Windowsクライアントやその他のネイティブクライアントからのユーザーは含まれていません。なぜなら、それらのユーザーはより持続的（常に存在している）だからです。このレポートにアクセスするには、画面上部近くのパネル内のアクティブユーザーセクションをクリックします。"
+
+#: ../../chapter02.rst:626
+msgid "ACTIVE USERS REPORT"
+msgstr "アクティブユーザーレポート"
+
+#: ../../chapter02.rst:630
+msgid "Guest Users"
+msgstr "ゲストユーザー"
+
+#: ../../chapter02.rst:632
+msgid ""
+"Other reports are also available such as Guest Users, which are users "
+"that don't have a home directory but are invited to participate on some "
+"shared folders and shared files."
+msgstr "他のレポートも利用可能です。例えばゲストユーザーは、ホームディレクトリを持たないユーザーで、共有フォルダーや共有ファイルへの参加が招待されています。"
+
+#: ../../chapter02.rst:636
+msgid "Node Performance"
+msgstr "ノードパフォーマンス"
+
+#: ../../chapter02.rst:638
+msgid ""
+"You can use the Node Performance to check out the worker node health and "
+"the database health."
+msgstr "ノードパフォーマンスを使用して、ワーカーノードの健康状態とデータベースの健康状態を確認できます。"
+
+#: ../../chapter02.rst:644
+msgid "NODE PERFORMANCE REPORT"
+msgstr "ノードパフォーマンスレポート"
+
+#: ../../chapter02.rst:647
+msgid "**Last Reported**"
+msgstr "**最終報告**"
+
+#: ../../chapter02.rst:649
+msgid ""
+"You want to see this field has small numbers such as 6 seconds, 10 "
+"seconds. If you see sometime like 3 hours ago, that means the node is not"
+" reporting the health."
+msgstr "このフィールドには、6秒や10秒のような小さな数字が表示されることを望んでいます。もし3時間前のような時間が表示されたら、そのノードは健康状態を報告していないということです。"
+
+#: ../../chapter02.rst:652
+msgid "**Total Requests Processed**"
+msgstr "**総リクエスト処理数**"
+
+#: ../../chapter02.rst:654
+msgid ""
+"You want to see this number as big as possible. This number is cumulative"
+" since the service was last re-started. So the bigger the number, the "
+"more stable the service is. Also when you have multiple worker nodes, you"
+" want to see the Total Requests distributed evenly among the worker "
+"nodes."
+msgstr "この数字ができるだけ大きいことを望んでいます。この数字はサービスが最後に再起動されてからの累積です。したがって、数字が大きいほど、サービスは安定しています。また、複数のワーカーノードを持っている場合は、Total Requestsがワーカーノード間で均等に分散されていることを確認したいです。"
+
+#: ../../chapter02.rst:657
+msgid "**Request Executing**"
+msgstr "**リクエスト実行中**"
+
+#: ../../chapter02.rst:659
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of requests that are concurrently executing on the server. In general a "
+"number smaller than 100 is normal. Bigger than 100 is abnormal. Anything "
+"bigger than 20 will require investigation."
+msgstr "この数字はできるだけ小さい方が良いです。これはサーバー上で同時に実行されているリクエストの数を意味します。一般的に100未満の数は正常です。100を超えると異常です。20を超える場合は調査が必要です。"
+
+#: ../../chapter02.rst:662
+msgid "**Last Request Time**"
+msgstr "**最終リクエスト時間**"
+
+#: ../../chapter02.rst:664
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of milliseconds for the last request. In general, numbers smaller than "
+"3000 or 5000 are normal, which translates to below 3-5 seconds."
+msgstr "この数字はできるだけ小さい方が良いです。これは最後のリクエストのミリ秒数を意味します。一般的に、3000や5000より小さい数値は正常で、これは3〜5秒以下に相当します。"
+
+#: ../../chapter02.rst:667
+msgid "**Pending Change Notification**"
+msgstr "**保留中の変更通知**"
+
+#: ../../chapter02.rst:669
+msgid ""
+"For the files and folders that are changed, there is change notification "
+"written to the database. In general, you want to see the pending queue as"
+" short as possible."
+msgstr "変更されたファイルやフォルダには、データベースに変更通知が書き込まれます。一般的に、保留中のキューはできるだけ短い方が望ましいです。"
+
+#: ../../chapter02.rst:672
+msgid "**Active Node Request**"
+msgstr "**アクティブノードリクエスト**"
+
+#: ../../chapter02.rst:674
+msgid ""
+"These are the clients out there contacting the server. Usually it is just"
+" for reporting purposes."
+msgstr "これらはサーバーに接触しているクライアントです。通常は報告目的でのみ使用されます。"
+
+#: ../../chapter02.rst:677
+msgid "**Pending Change Polling**"
+msgstr "**保留中の変更ポーリング**"
+
+#: ../../chapter02.rst:679
+msgid ""
+"These are the clients out there polling to see whether there are files "
+"and folders that have been changed. Usually the smaller the better."
+msgstr "これらは、変更されたファイルやフォルダがあるかどうかを確認するためにポーリングしているクライアントです。通常、小さい方が良いです。"
+
+#: ../../chapter02.rst:682
+msgid "**Active Clients**"
+msgstr "**アクティブクライアント**"
+
+#: ../../chapter02.rst:684
+msgid "For reporting purpose."
+msgstr "報告目的のため。"
+
+#: ../../chapter02.rst:687
+msgid "**Pending Dir Request(H)**"
+msgstr "**保留中のディレクトリリクエスト(H)**"
+
+#: ../../chapter02.rst:689
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the high priority queue."
+msgstr "リモートクライアントからクラスターサーバーへの保留中のディレクトリリスト呼び出し。これは高優先度キューです。"
+
+#: ../../chapter02.rst:693
+msgid "**Pending Dir Request(L)**"
+msgstr "**保留中のディレクトリリクエスト(L)**"
+
+#: ../../chapter02.rst:695
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the low priority queue."
+msgstr "リモートクライアントからクラスターサーバーへの保留中のディレクトリリスト呼び出し。これは低優先度キューです。"
+
+#: ../../chapter02.rst:698
+msgid ""
+"If you don't see the node performance report, check the **Internal URL** "
+"setting of each worker node."
+msgstr "ノードのパフォーマンスレポートが表示されない場合は、各ワーカーノードの **Internal URL** 設定を確認してください。"
+
+#: ../../chapter02.rst:700
+msgid "Under reports you can look at the upload graphs and storage statistics."
+msgstr "レポートの下では、アップロードのグラフやストレージの統計を見ることができます。"
+
+#: ../../chapter02.rst:705
+msgid "Bandwidth Usage"
+msgstr "帯域幅の使用状況"
+
+#: ../../chapter02.rst:707
+msgid ""
+"This shows the overall bandwidth usage statistics as well as more "
+"granular tenant and user level statistics."
+msgstr "これにより、全体的な帯域幅使用統計だけでなく、より詳細なテナントおよびユーザーレベルの統計も表示されます。"
+
+#: ../../chapter02.rst:712
+msgid "BANDWIDTH USAGE REPORT"
+msgstr "帯域幅使用レポート"
+
+#: ../../chapter02.rst:716
+msgid "System Diagnostic Report"
+msgstr "システム診断レポート"
+
+#: ../../chapter02.rst:718
+msgid "Click the Start Scanning button to generate system diagnostic report."
+msgstr "「システム診断レポートを生成する」ボタンをクリックしてスキャンを開始します。"
+
+#: ../../chapter02.rst:723
+msgid "GENERATE REPORT"
+msgstr "レポートを生成する"
+
+#: ../../chapter02.rst:725
+msgid "A sample system diagnostic report is shown below."
+msgstr "以下に示すのは、サンプルのシステム診断レポートです。"
+
+#: ../../chapter02.rst:730
+msgid "SYSTEM DIAGNOSTIC REPORT"
+msgstr "システム診断レポート"
+
+#: ../../chapter02.rst:733
+msgid "Audit Trace"
+msgstr "監査トレース"
+
+#: ../../chapter02.rst:735
+msgid "This is a sample audit trace."
+msgstr "これはサンプルの監査跡です。"
+
+#: ../../chapter02.rst:740
+msgid "AUDIT TRACE"
+msgstr "監査トレース"
+
+#: ../../chapter02.rst:744
+msgid "Cluster Controls"
+msgstr "クラスター制御"
+
+#: ../../chapter02.rst:747
+msgid "Cluster Admin"
+msgstr "クラスタ管理者"
+
+#: ../../chapter02.rst:749
+msgid "``Cluster Manager`` > ``Cluster Admin``"
+msgstr "``クラスターマネージャー`` > ``クラスター管理者``"
+
+#: ../../chapter02.rst:751
+msgid ""
+"Cluster Admin section is to change the properties of the default "
+"administrator and also to add additional people to be the cluster "
+"administrators. You can access the Cluster Admin from your Cluster "
+"Dashboard."
+msgstr "クラスタ管理セクションは、デフォルトの管理者のプロパティを変更するためのものであり、さらに追加の人々をクラスタ管理者として追加するためのものです。クラスタ管理は、クラスタダッシュボードからアクセスできます。"
+
+#: ../../chapter02.rst:759
+msgid "CLUSTER ADMIN SETTINGS"
+msgstr "クラスタ管理者設定"
+
+#: ../../chapter02.rst:762
+msgid "Email Service"
+msgstr "メールサービス"
+
+#: ../../chapter02.rst:764
+msgid "``Cluster Manager`` > ``Email Service``"
+msgstr "``クラスターマネージャー`` > ``メールサービス``"
+
+#: ../../chapter02.rst:766
+msgid ""
+"There are many places in the |prodname| solution that the user needs to "
+"be contacted by Email. The Email service is used to set up the SMTP email"
+" service to send out the emails."
+msgstr "|prodname| ソリューション内には、ユーザーにメールで連絡を取る必要がある多くの場所があります。メールサービスは、SMTPメールサービスを設定してメールを送信するために使用されます。"
+
+#: ../../chapter02.rst:768
+msgid ""
+"By default, it works out of box using the default email service with the "
+"Cluster Server's customer support email address as the sender."
+msgstr "デフォルトでは、クラスターサーバーのカスタマーサポート用メールアドレスを送信者として使用するデフォルトのメールサービスを使って、すぐに動作します。"
+
+#: ../../chapter02.rst:770
+msgid ""
+"It is recommended that the SMTP service be setup to use your own SMTP "
+"service to send out emails."
+msgstr "SMTPサービスを設定して、自分のSMTPサービスを使用してメールを送信することをお勧めします。"
+
+#: ../../chapter02.rst:772
+msgid ""
+"In the Authenticate User field, if your SMTP service doesn't require "
+"authentication, you can put dummy email in the field."
+msgstr "「ユーザー認証」フィールドには、SMTPサービスが認証を必要としない場合、ダミーのメールアドレスを入力できます。"
+
+#: ../../chapter02.rst:776
+msgid "For example, if your email service is on Office 365,"
+msgstr "例えば、あなたのメールサービスがOffice 365にある場合、"
+
+#: ../../chapter02.rst:780
+msgid ":SMTP Server Address"
+msgstr "SMTPサーバーアドレス"
+
+#: ../../chapter02.rst:780
+msgid "``smtp.office365.com``"
+msgstr "``smtp.office365.com``"
+
+#: ../../chapter02.rst:783
+msgid ":Use SSL"
+msgstr "SSLを使用する"
+
+#: ../../chapter02.rst:783
+msgid "``True``"
+msgstr "``本当``"
+
+#: ../../chapter02.rst:785
+msgid ":SMTP Server Port"
+msgstr "SMTPサーバーポート"
+
+#: ../../chapter02.rst:786
+msgid "``587``"
+msgstr "``587``"
+
+#: ../../chapter02.rst:794
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "メールサービス設定"
+
+#: ../../chapter02.rst:798
+msgid "Application Manager"
+msgstr "アプリケーションマネージャー"
+
+#: ../../chapter02.rst:800
+msgid "``Cluster Manager`` > ``Application Manager``"
+msgstr "``クラスターマネージャー`` > ``アプリケーションマネージャー``"
+
+#: ../../chapter02.rst:802
+msgid ""
+"You can access \"Application Manager\" from Cluster Dashboard, and "
+"configure Web Apps. This will enable the users to edit documents using "
+"the web apps. The applications here only apply to web portal based "
+"editing."
+msgstr "「クラスターダッシュボード」から「アプリケーションマネージャー」にアクセスし、Webアプリを設定することができます。これにより、ユーザーはWebアプリを使用してドキュメントの編集が可能になります。ここでのアプリケーションは、Webポータルベースの編集にのみ適用されます。"
+
+#: ../../chapter02.rst:810
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "アプリケーションマネージャー設定"
+
+#: ../../chapter02.rst:813
+msgid ""
+"Once an application is enabled, you will be able to see the context menu "
+"entry from the web based file and folder manager view."
+msgstr "アプリケーションが有効になると、Webベースのファイルおよびフォルダマネージャビューからコンテキストメニューエントリを表示できるようになります。"
+
+#: ../../chapter02.rst:818
+msgid "APPLICATION CONTEXT MENU"
+msgstr "アプリケーションコンテキストメニュー"
+
+#: ../../chapter02.rst:822
+msgid "Client Version Manager"
+msgstr "クライアントバージョンマネージャ"
+
+#: ../../chapter02.rst:824
+msgid "``Cluster Manager`` > ``Client Version Manager``"
+msgstr "``クラスターマネージャー`` > ``クライアントバージョンマネージャー``"
+
+#: ../../chapter02.rst:829
+msgid "CLIENT VERSION MANAGER"
+msgstr "クライアントバージョンマネージャ"
+
+#: ../../chapter02.rst:831
+msgid ""
+"For Windows Client, Mac Client and Windows Server Agent, there is an auto"
+" client update feature. Each upgrade package contains the updated "
+"clients. By clicking on the ``Publish`` button, the newer package can be "
+"published to clients out there."
+msgstr "Windowsクライアント、Macクライアント、およびWindowsサーバーエージェントには、自動クライアント更新機能があります。各アップグレードパッケージには、更新されたクライアントが含まれています。``Publish`` ボタンをクリックすると、新しいパッケージをクライアントに公開できます。"
+
+#: ../../chapter02.rst:834
+msgid ""
+"Every new Cluster Server upgrade contains the newer Windows client, "
+"Windows Server Agent and Mac Client. The Cluster users via manual "
+"download can get the clients that are included in the Cluster Server. "
+"However, for existing users with previously installed clients, those "
+"older clients will not auto upgrade until the newer client packages are "
+"published."
+msgstr "すべての新しいクラスターサーバーのアップグレードには、新しいWindowsクライアント、Windowsサーバーエージェント、およびMacクライアントが含まれています。クラスターユーザーは手動ダウンロードにより、クラスターサーバーに含まれるクライアントを入手できます。ただし、以前にインストールされたクライアントを持つ既存のユーザーの場合、新しいクライアントパッケージが公開されるまで、それらの古いクライアントは自動的にアップグレードされません。"
+
+#: ../../chapter02.rst:842
+msgid "WINDOWS CLIENT VERSION SETTINGS"
+msgstr "Windows クライアント バージョン設定"
+
+#: ../../chapter02.rst:844
+msgid "**Daily Upgrade Limit (1)**"
+msgstr "**毎日のアップグレード制限（1）**"
+
+#: ../../chapter02.rst:846
+msgid ""
+"This is a per-worker node setting. For example, if you have 2 worker "
+"nodes, and set the daily upgrade limit to 100, maximum 200 clients will "
+"be upgraded per day."
+msgstr "これはワーカーノードごとの設定です。例えば、ワーカーノードが2つある場合、1日のアップグレード制限を100に設定すると、最大で200のクライアントが1日にアップグレードされます。"
+
+#: ../../chapter02.rst:848
+msgid "**Apply to Users (2)**"
+msgstr "**ユーザーに適用（2）**"
+
+#: ../../chapter02.rst:850
+msgid "This typically is used for testing prior to pushing the client out."
+msgstr "これは通常、クライアントをプッシュする前にテストに使用されます。"
+
+#: ../../chapter02.rst:853
+msgid "**Do Not Apply to Users (3)**"
+msgstr "**ユーザーに適用しない (3)**"
+
+#: ../../chapter02.rst:855
+msgid ""
+"This typically is used for testing prior to pushing the client out and to"
+" exclude certain users."
+msgstr "これは通常、クライアントをプッシュする前のテストや、特定のユーザーを除外するために使用されます。"
+
+#: ../../chapter02.rst:859
+msgid ""
+"The windows client out there has a process running as a background "
+"windows service. The service will periodically check for a newer upgrade "
+"in about 1-2 hour intervals. Once a newer client package is published and"
+" discovered, the newer package will be downloaded. However, if the client"
+" is still actively running, the replacement and upgrade will not happen "
+"until the client application is stopped and restarted. This usually "
+"happens when the user logs off their Windows or restarts their desktop "
+"altogether."
+msgstr "バックグラウンドで動作するプロセスを持つWindowsクライアントがあります。このサービスは、約1〜2時間ごとに新しいアップグレードを定期的にチェックします。新しいクライアントパッケージが公開されて発見されると、その新しいパッケージがダウンロードされます。しかし、クライアントがまだアクティブに動作している場合、クライアントアプリケーションが停止して再起動されるまで、置き換えとアップグレードは行われません。これは通常、ユーザーがWindowsからログオフするか、デスクトップをまるごと再起動したときに発生します。"
+
+#: ../../chapter02.rst:861
+msgid ""
+"If the Windows client software is actively running, the user may be "
+"seeing a message popup from the system tray area asking the user if they "
+"want to restart the client software and to receive the newer version."
+msgstr "Windowsクライアントソフトウェアがアクティブに実行されている場合、システムトレイエリアからメッセージポップアップが表示され、ユーザーにクライアントソフトウェアを再起動して新しいバージョンを受け取るかどうかを尋ねることがあります。"
+
+#: ../../chapter02.rst:863
+msgid ""
+"Once a client is published for client auto upgrade, you can use "
+"``Unpublish`` to stop the client auto upgrade."
+msgstr "クライアントがクライアント自動アップグレード用に公開されると、``Unpublish`` を使用してクライアントの自動アップグレードを停止することができます。"
+
+#: ../../chapter02.rst:866
+msgid "Server Agent"
+msgstr "サーバーエージェント"
+
+#: ../../chapter02.rst:868
+msgid "Windows Server Agent can be separately published for auto upgrade."
+msgstr "Windows Server Agentは、自動アップグレード用に個別に公開することができます。"
+
+#: ../../chapter02.rst:873
+msgid "SERVER AGENT AUTO UPGRADE"
+msgstr "サーバーエージェント自動アップグレード"
+
+#: ../../chapter02.rst:879
+msgid "Mac client can be separately published for auto upgrade."
+msgstr "Macクライアントは、自動アップグレードのために個別に公開することができます。"
+
+#: ../../chapter02.rst:884
+msgid "MAC CLIENT AUTO UPGRADE"
+msgstr "MACクライアント自動アップグレード"
+
+#: ../../chapter02.rst:888
+msgid "Settings"
+msgstr "設定"
+
+#: ../../chapter02.rst:893
+msgid "CLUSTER SETTINGS"
+msgstr "クラスター設定"
+
+#: ../../chapter02.rst:897
+msgid "Cluster Settings"
+msgstr "クラスター設定"
+
+#: ../../chapter02.rst:899
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Cluster Settings``"
+msgstr "``クラスターマネージャー`` > ``クラスター設定`` > ``クラスター設定``"
+
+#: ../../chapter02.rst:904
+msgid "CLUSTER SETTINGS PERMISSIONS"
+msgstr "クラスタ設定の権限"
+
+#: ../../chapter02.rst:907
+msgid "**Hide Login Failure Message**"
+msgstr "**ログイン失敗メッセージを非表示にする**"
+
+#: ../../chapter02.rst:909
+msgid ""
+"When checked, the login failed message will be replaced by a very generic"
+" “Login Failed” message. When un-checked, it may return a more meaningful"
+" login error, such as user-not-found, authentication-error and so on. "
+"This is a security feature if you don't want to give out too much "
+"information for hackers to guess a reason for authentication failure."
+msgstr "チェックされた場合、ログイン失敗のメッセージは非常に一般的な「ログイン失敗」というメッセージに置き換えられます。チェックされていない場合、user-not-found、authentication-errorなど、より意味のあるログインエラーを返すことがあります。これは、認証失敗の理由をハッカーに推測させたくない場合のセキュリティ機能です。"
+
+#: ../../chapter02.rst:912
+msgid "**Hide build number from login page**"
+msgstr "**ログインページからビルド番号を隠す**"
+
+#: ../../chapter02.rst:914
+msgid "This controls the build number on the web portal login page."
+msgstr "これはWebポータルのログインページに表示されるビルド番号を制御します。"
+
+#: ../../chapter02.rst:917
+msgid "**Hide support button**"
+msgstr "**サポートボタンを隠す**"
+
+#: ../../chapter02.rst:919
+msgid "This hides the floating support icon."
+msgstr "この操作はフローティングサポートアイコンを非表示にします。"
+
+#: ../../chapter02.rst:922
+msgid "**Hide 'Forgot your password' link on login**"
+msgstr "**ログイン時に'パスワードを忘れた場合'のリンクを非表示にする**"
+
+#: ../../chapter02.rst:924
+msgid ""
+"Most often it is used when Active Directory integration is set. The user "
+"will need to do a forget-and-change password the normal Active Directory "
+"way instead of the way CentreStack provides. In this case, it is "
+"recommend to hide the \"Forgot your password\" link."
+msgstr "通常、アクティブディレクトリの統合が設定されている場合に使用されます。ユーザーは、CentreStackが提供する方法ではなく、通常のアクティブディレクトリの方法でパスワードを忘れて変更する必要があります。この場合、「パスワードを忘れた場合」のリンクを非表示にすることをお勧めします。"
+
+#: ../../chapter02.rst:927
+msgid "**Don't retry when login failed**"
+msgstr "**ログインに失敗した場合は再試行しないでください**"
+
+#: ../../chapter02.rst:929
+msgid ""
+"Most often it is used when the Active Directory user has low failed-count"
+" on lock-out policy. When the user's password is wrong, a few retries can"
+" lock out the user's Active Directory account. The retry feature can be "
+"used when there is no Active Directory lock out or when the lock out "
+"count is high."
+msgstr "この機能は、アクティブディレクトリユーザーがロックアウトポリシーにおける失敗回数が少ない場合に最もよく使用されます。ユーザーのパスワードが間違っていると、数回の再試行でアクティブディレクトリアカウントがロックアウトされる可能性があります。リトライ機能は、アクティブディレクトリのロックアウトがない場合や、ロックアウト回数が多い場合に使用できます。"
+
+#: ../../chapter02.rst:931
+msgid "**Always display CAPTCHA on the web portal login page**"
+msgstr "**ウェブポータルのログインページに常にCAPTCHAを表示する**"
+
+#: ../../chapter02.rst:933
+msgid "**Allow multi-tenancy**"
+msgstr "**マルチテナンシーを許可する**"
+
+#: ../../chapter02.rst:935
+msgid "**Show tenant management screen after logging in**"
+msgstr "**ログイン後にテナント管理画面を表示**"
+
+#: ../../chapter02.rst:937
+msgid "**Show 'purge storage option' when delete user**"
+msgstr "**ユーザーを削除するときに「ストレージのパージオプション」を表示する**"
+
+#: ../../chapter02.rst:939
+msgid ""
+"By default, when a user is deleted, the user's home directory storage "
+"content is not touched for later use or review. If it is desired to "
+"delete the user's content when the user is deleted, this can show the "
+"purge option."
+msgstr "デフォルトでは、ユーザーが削除された場合、ユーザーのホームディレクトリのストレージ内容は、後で使用またはレビューするためにそのままにされます。ユーザーが削除されたときにユーザーのコンテンツも削除したい場合は、このオプションでパージオプションを表示できます。"
+
+#: ../../chapter02.rst:942
+msgid "**Don't send email notification to user when purge deleted content**"
+msgstr "**ユーザーが削除したコンテンツをパージするときにメール通知を送信しないでください**"
+
+#: ../../chapter02.rst:944
+msgid ""
+"When the user delete files, they are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification."
+msgstr "ユーザーがファイルを削除するとき、それらはすぐには実際に削除されません。パージは非同期であり、後でスケジュールされます。この設定は通知を制御します。"
+
+#: ../../chapter02.rst:947
+msgid "**Don't send email notification to admin when purge deleted content**"
+msgstr "**管理者に削除されたコンテンツのパージ通知メールを送信しないでください**"
+
+#: ../../chapter02.rst:949
+msgid ""
+"When the user deletes files, They are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification to the administrator."
+msgstr "ユーザーがファイルを削除すると、それらはすぐには実際に削除されません。削除処理は非同期であり、後でスケジュールされます。この設定は、管理者への通知を制御します。"
+
+#: ../../chapter02.rst:952
+msgid "**Retrieve avatar from third party service (i.e. Google)**"
+msgstr "**サードパーティサービス（例：Google）からアバターを取得する**"
+
+#: ../../chapter02.rst:954
+msgid ""
+"This is a usability feature that users's picture can be queried from "
+"Google."
+msgstr "これは、ユーザーの写真をGoogleから照会できる使いやすさを重視した機能です。"
+
+#: ../../chapter02.rst:957
+msgid "**Hide file extension in web file browser**"
+msgstr "**ウェブファイルブラウザでファイル拡張子を隠す**"
+
+#: ../../chapter02.rst:959
+msgid "This setting will hide the file extension."
+msgstr "この設定はファイル拡張子を非表示にします。"
+
+#: ../../chapter02.rst:962
+msgid "**Disable Windows Client Auto-Logon**"
+msgstr "**Windowsクライアントの自動ログオンを無効にする**"
+
+#: ../../chapter02.rst:964
+msgid ""
+"This is a security feature. The result is every time the windows client "
+"is done running, the next time the user tries to login, it will not "
+"remember the login token and the user will have to re-type the credential"
+" to get in."
+msgstr "これはセキュリティ機能です。その結果、Windowsクライアントの実行が完了するたびに、次回ユーザーがログインしようとすると、ログイントークンは記憶されず、ユーザーは資格情報を再入力してログインする必要があります。"
+
+#: ../../chapter02.rst:966
+msgid "**Allow personal data tagging**"
+msgstr "**個人データのタグ付けを許可**"
+
+#: ../../chapter02.rst:968
+msgid "**Only allow access performance information from local host**"
+msgstr "**ローカルホストからのアクセスパフォーマンス情報のみを許可する**"
+
+#: ../../chapter02.rst:970
+msgid ""
+"Only allow accessing performance data from http://localhost and not from "
+"external URL."
+msgstr "http://localhost からのパフォーマンスデータへのアクセスのみを許可し、外部URLからは許可しない。"
+
+#: ../../chapter02.rst:972
+msgid "**Allow tenant administrators to enable Team Folder backups**"
+msgstr "**テナント管理者がチームフォルダのバックアップを有効にすることを許可**"
+
+#: ../../chapter02.rst:976
+msgid "Performance and Throttling"
+msgstr "パフォーマンスとスロットリング"
+
+#: ../../chapter02.rst:978
+msgid ""
+"``Cluster Manager`` > ``Cluster Settings`` > ``Performance and "
+"Throttling``"
+msgstr "``クラスターマネージャー`` > ``クラスター設定`` > ``パフォーマンスとスロットリング``"
+
+#: ../../chapter02.rst:983
+msgid "PERFORMANCE THROTTLING"
+msgstr "パフォーマンススロットリング"
+
+#: ../../chapter02.rst:986
+msgid ""
+"**Don't show file icon preview if file size is larger than (KB, 0-No icon"
+" preview)**"
+msgstr "**ファイルサイズが（KB、0-アイコンプレビューなし）より大きい場合はファイルアイコンのプレビューを表示しないでください**"
+
+#: ../../chapter02.rst:988
+msgid ""
+"This is used to control iconview thumbnail generation in the web browser "
+"files and folders view. The generation of thumbnail takes CPU power from "
+"the Cluster Server. For big files, the generation of thumbnail may "
+"negatively affect the system performance. So it is recommended to cap the"
+" feature to a certain image size."
+msgstr "これは、ウェブブラウザのファイルおよびフォルダビューでiconviewサムネイル生成を制御するために使用されます。サムネイルの生成にはクラスターサーバーからのCPUパワーが必要です。大きなファイルの場合、サムネイルの生成がシステムパフォーマンスに悪影響を及ぼす可能性があります。そのため、特定のイメージサイズに機能を制限することをお勧めします。"
+
+#: ../../chapter02.rst:991
+msgid ""
+"**Cluster Wide Upload Bandwidth Limit (Per Worker Node, KB/Sec, 0-No "
+"Limit)**"
+msgstr "**クラスタ全体のアップロード帯域幅制限（ワーカーノードごと、KB/秒、0-制限なし）**"
+
+#: ../../chapter02.rst:993
+msgid "This is to limit upload bandwidth."
+msgstr "これはアップロード帯域幅を制限するためです。"
+
+#: ../../chapter02.rst:996
+msgid "**Cluster Wide Download Bandwidth Limit (Per Worker Node, KB/Sec)**"
+msgstr "**クラスター全体のダウンロード帯域幅制限（ワーカーノードごと、KB/秒）**"
+
+#: ../../chapter02.rst:998
+msgid "This is to limit download bandwidth."
+msgstr "これはダウンロード帯域幅を制限するためです。"
+
+#: ../../chapter02.rst:1001
+msgid "**Size limit for folder download (MB, 0-no limit)**"
+msgstr "**フォルダダウンロードのサイズ制限（MB、0-制限なし）**"
+
+#: ../../chapter02.rst:1003
+msgid ""
+"This is to prevent user downloading a very big folder and using up all "
+"the Cluster Server resources."
+msgstr "これは、ユーザーが非常に大きなフォルダをダウンロードしてクラスターサーバーのリソースをすべて使用することを防ぐためです。"
+
+#: ../../chapter02.rst:1007
+msgid "Timeouts and Limits"
+msgstr "タイムアウトと制限"
+
+#: ../../chapter02.rst:1009
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Timeouts and Limits``"
+msgstr "``クラスターマネージャー`` > ``クラスター設定`` > ``タイムアウトと制限``"
+
+#: ../../chapter02.rst:1014
+msgid "TIMEOUTS AND LIMITS"
+msgstr "タイムアウトと制限"
+
+#: ../../chapter02.rst:1016
+msgid "**Web Browser Session Timeout (minutes, 0 - never timeout)**"
+msgstr "**Webブラウザセッションタイムアウト（分、0 - タイムアウトしない）**"
+
+#: ../../chapter02.rst:1018
+msgid ""
+"This is the web browser session time out value. Default is set to 15 "
+"minutes. For default cluster administrator, we recommend increase this "
+"value to a bigger number so it is easier for web based management work "
+"not to time-out too soon."
+msgstr "これはWebブラウザセッションのタイムアウト値です。デフォルトは15分に設定されています。デフォルトのクラスタ管理者には、Webベースの管理作業が早すぎずに済むように、この値をより大きな数値に増やすことをお勧めします。"
+
+#: ../../chapter02.rst:1021
+msgid "**Native Client Token Timeout (days)**"
+msgstr "**ネイティブクライアントトークンのタイムアウト（日数）**"
+
+#: ../../chapter02.rst:1023
+msgid "For Windows client and Mac client, this defines the token time to live."
+msgstr "WindowsクライアントとMacクライアントにおいて、これはトークンの存続時間を定義します。"
+
+#: ../../chapter02.rst:1026
+msgid "**Mobile Client Token Timeout (days, 0 - never timeout)**"
+msgstr "**モバイルクライアントトークンのタイムアウト（日数、0 - タイムアウトしない）**"
+
+#: ../../chapter02.rst:1028
+msgid "**Distributed Lock Idle Timeout (minutes, 0 - never timeout)**"
+msgstr "**分散ロックのアイドルタイムアウト（分、0 - タイムアウトしない）**"
+
+#: ../../chapter02.rst:1030
+msgid ""
+"This setting is related to automatic file locking. When a file is "
+"automatically locked, the machine that has the file locked will need to "
+"maintain a healthy heart beat with the Cluster Server. If the machine is "
+"offline (idle) and can't report back to the Cluster Server for a period "
+"of time, the lock that was automatically grabbed will need to be "
+"released."
+msgstr "この設定は自動ファイルロックに関連しています。ファイルが自動的にロックされると、そのファイルをロックしているマシンはクラスターサーバーと健全なハートビートを維持する必要があります。マシンがオフライン（アイドル状態）でクラスターサーバーに一定期間報告できない場合、自動的に取得されたロックは解放される必要があります。"
+
+#: ../../chapter02.rst:1032
+msgid ""
+"If this is not desired, the user can always use manual \"Check Out\" to "
+"lock a file and that will not be subject to the timeout."
+msgstr "もしこれが望ましくない場合、ユーザーはいつでも手動で「チェックアウト」を使用してファイルをロックすることができ、それはタイムアウトの対象にはなりません。"
+
+#: ../../chapter02.rst:1034
+msgid ""
+"**Send shared file change notifications every n minutes (0 - send "
+"immediately)**"
+msgstr "**共有ファイルの変更通知をn分ごとに送信する (0 - 即時送信)**"
+
+#: ../../chapter02.rst:1036
+msgid ""
+"**Open third party web application in new window when the height of the "
+"web browser is less than**"
+msgstr "**ウェブブラウザの高さが以下の場合、新しいウィンドウでサードパーティのウェブアプリケーションを開く**"
+
+#: ../../chapter02.rst:1038
+msgid ""
+"This is a usability feature. When using third party web application to "
+"edit documents in Cluster Server web browser file and folder view, if the"
+" web browser height is too short, the third party web application may not"
+" function properly."
+msgstr "これは使いやすさを向上させる機能です。クラスターサーバーのウェブブラウザファイルおよびフォルダビューでサードパーティのウェブアプリケーションを使用してドキュメントを編集する際、ウェブブラウザの高さが不十分な場合、サードパーティのウェブアプリケーションが適切に機能しないことがあります。"
+
+#: ../../chapter02.rst:1041
+msgid "**Max Device Count (Concurrent Device Count) for Each User (0-Unlimited)**"
+msgstr "**各ユーザーの最大デバイス数（同時デバイス数）（0-無制限）**"
+
+#: ../../chapter02.rst:1043
+msgid ""
+"This is the number of concurrent devices connected to the Cluster Server "
+"for each user. The default is not limited."
+msgstr "これは、各ユーザーがクラスターサーバーに接続している同時デバイスの数です。デフォルトは無制限です。"
+
+#: ../../chapter02.rst:1045
+msgid ""
+"**Purge Device Entry n Days After Device Disconnected (0 - let system "
+"decides)**"
+msgstr "**デバイスが切断されてからn日後にデバイスエントリを消去する (0 - システムに任せる)**"
+
+#: ../../chapter02.rst:1047
+msgid "**Maximum file search results**"
+msgstr "**最大ファイル検索結果数**"
+
+#: ../../chapter02.rst:1051
+msgid "Languages"
+msgstr "言語"
+
+#: ../../chapter02.rst:1053
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Languages``"
+msgstr "``クラスターマネージャー`` > ``クラスター設定`` > ``言語``"
+
+#: ../../chapter02.rst:1058
+msgid "LANGUAGE SETTINGS"
+msgstr "言語設定"
+
+#: ../../chapter02.rst:1061
+msgid ""
+"This section sets up the web portal languages and also the client "
+"application languages for Windows client."
+msgstr "このセクションでは、Webポータルの言語とWindowsクライアント用のクライアントアプリケーションの言語を設定します。"
+
+#: ../../chapter02.rst:1064
+msgid ""
+"We have automated translation and provided the resource files that you "
+"can use to localize the web portal and clients in the language  of your "
+"choice. If there are strings that not translated yet in the language you "
+"want, just go ahead and select the string and put in the translated "
+"string in the window for the language selected."
+msgstr "ウェブポータルやクライアントをお好みの言語にローカライズするために使用できるリソースファイルを自動翻訳して提供しています。ご希望の言語でまだ翻訳されていない文字列がある場合は、その文字列を選択して、選択した言語のウィンドウに翻訳された文字列を入力してください。"
+
+#: ../../chapter02.rst:1075
+msgid "Branding"
+msgstr "ブランディング"
+
+#: ../../chapter02.rst:1077
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Branding``"
+msgstr "``クラスターマネージャー`` > ``クラスター設定`` > ``ブランディング``"
+
+#: ../../chapter02.rst:1082
+msgid "ENABLE TENANT BRANDING"
+msgstr "テナントブランディングを有効にする"
+
+#: ../../chapter02.rst:1085
+msgid "**Don't Show Tutorial Videos**"
+msgstr "**チュートリアル動画を表示しない**"
+
+#: ../../chapter02.rst:1087
+msgid ""
+"At different places in the web portal, there are tutorial videos. This "
+"setting is to hide those videos, which may have CentreStack references "
+"inside."
+msgstr "ウェブポータルの異なる場所にチュートリアルビデオがあります。この設定は、CentreStackの参照が含まれている可能性のあるそれらのビデオを非表示にするためのものです。"
+
+#: ../../chapter02.rst:1090
+msgid "**Enable Tenant Branding**"
+msgstr "**テナントブランディングを有効にする**"
+
+#: ../../chapter02.rst:1092
+msgid ""
+"Allow tenants in the system to have their own co-branding on a tenant-by-"
+"tenant basis. The branding can override the default Cluster wide branding"
+" when the solution is accessed via a specific URL. Most of the time, a "
+"wild card SSL certificate is used so the Cluster Server solution can be "
+"binded to different URL's within a common suffix."
+msgstr "システム内のテナントがテナントごとに独自のコブランディングを持つことを許可します。特定のURLを介してソリューションにアクセスした場合、ブランディングはデフォルトのクラスター全体のブランディングを上書きすることができます。ほとんどの場合、ワイルドカードSSL証明書が使用され、クラスターサーバーソリューションを共通のサフィックス内の異なるURLにバインドすることができます。"
+
+#: ../../chapter02.rst:1094
+msgid ""
+"For example \\*.mycompany.com , while tenant1.mycompany.com is for tenant"
+" 1's access."
+msgstr "例えば \*.mycompany.com は、tenant1.mycompany.com がテナント1のアクセス用です。"
+
+#: ../../chapter02.rst:1098
+msgid "Change Log"
+msgstr "変更ログ"
+
+#: ../../chapter02.rst:1100
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Change Log``"
+msgstr "``クラスターマネージャー`` > ``クラスター設定`` > ``変更ログ``"
+
+#: ../../chapter02.rst:1105
+msgid "CHANGE LOG SETTINGS"
+msgstr "変更ログ設定"
+
+#: ../../chapter02.rst:1108
+msgid "**Keep file change log for n days**"
+msgstr "**n日間ファイル変更ログを保持する**"
+
+#: ../../chapter02.rst:1110
+msgid "This is a cluster wide retention policy for the file change log."
+msgstr "これはファイル変更ログのためのクラスタ全体の保持ポリシーです。"
+
+#: ../../chapter02.rst:1112
+msgid ""
+"The file change log is in the SQL database, for deployments that are "
+"using SQL Express, it has size limitation for the database. In the "
+"deployment guide, there is option to split the file change log into MySQL"
+" database or split it to a different SQL database. This option typically "
+"is used to keep the size of SQL small."
+msgstr "ファイル変更ログはSQLデータベース内にあり、SQL Expressを使用しているデプロイメントではデータベースのサイズ制限があります。デプロイメントガイドには、ファイル変更ログをMySQLデータベースに分割するオプションや、別のSQLデータベースに分割するオプションがあります。このオプションは通常、SQLのサイズを小さく保つために使用されます。"
+
+#: ../../chapter02.rst:1116
+msgid ""
+"After the Cluster Server is running in production mode for a while, we "
+"recommend reviewing the file change log database table and the file index"
+" table to see how big those tables are."
+msgstr "クラスターサーバーが本番モードでしばらく稼働した後、ファイル変更ログのデータベーステーブルとファイルインデックステーブルの大きさを確認することをお勧めします。"
+
+#: ../../chapter02.rst:1119
+msgid "**Email Address to Receive Cloud Monitor Messages**"
+msgstr "**クラウドモニターメッセージを受信するメールアドレス**"
+
+#: ../../chapter02.rst:1121
+msgid ""
+"From time to time, the cluster monitor service may send an email about "
+"the status and alerts."
+msgstr "時々、クラスターモニターサービスはステータスとアラートに関するメールを送信することがあります。"
+
+#: ../../chapter02.rst:1124
+msgid "**Logging DB Connection String**"
+msgstr "**ログ記録用DB接続文字列**"
+
+#: ../../chapter02.rst:1126
+msgid ""
+"This is to split the file change log, device table, file index table and "
+"audit trace table out of the main database into a secondary database. The"
+" secondary database can be a Microsoft SQL Server or a MySQL Community "
+"server."
+msgstr "これは、ファイル変更ログ、デバイステーブル、ファイルインデックステーブル、および監査トレーステーブルをメインデータベースから分離し、セカンダリデータベースに移動するためのものです。セカンダリデータベースは、Microsoft SQL ServerまたはMySQL Communityサーバーにすることができます。"
+
+#: ../../chapter02.rst:1128
+msgid ""
+"The Cluster Server database is split into the core part and the logging "
+"part. The core part can store the DB connection string that connects to "
+"the secondary database. This setting used to be in the web.config file."
+msgstr "クラスターサーバーのデータベースは、コア部分とログ部分に分かれています。コア部分には、セカンダリデータベースに接続するDB接続文字列を保存できます。この設定は以前はweb.configファイルにありました。"
+
+#: ../../chapter02.rst:1131
+msgid "**Logging DB Connection String (Read-only Replica)**"
+msgstr "**ログ記録用DB接続文字列（読み取り専用レプリカ）**"
+
+#: ../../chapter02.rst:1135
+msgid "License String"
+msgstr "ライセンス文字列"
+
+#: ../../chapter02.rst:1137
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``License String``"
+msgstr "``クラスターマネージャー`` > ``クラスター設定`` > ``ライセンス文字列``"
+
+#: ../../chapter02.rst:1139
+msgid "**License String** – Reserved."
+msgstr "**ライセンス文字列** – 予約済み。"
+
+#: ../../chapter02.rst:1141
+msgid ""
+"This is for Cluster Servers that are isolated from the Internet, can't be"
+" activated online and has to use a license string for offline activation."
+msgstr "これはインターネットから隔離されたクラスターサーバー用で、オンラインでアクティベートすることができず、オフラインアクティベーションのためにライセンス文字列を使用しなければならない場合に対応しています。"
+
+#: ../../chapter02.rst:1145
+msgid "Anti Virus"
+msgstr "アンチウイルス"
+
+#: ../../chapter02.rst:1147
+msgid "``Cluster Manager`` > ``Anti Virus``"
+msgstr "``クラスターマネージャー`` > ``アンチウイルス``"
+
+#: ../../chapter02.rst:1149
+msgid ""
+"You can enable anti-virus protection which will ensure that the files "
+"being uploaded via the Cluster Server are scanned by the selected anti-"
+"virus software."
+msgstr "クラスターサーバー経由でアップロードされるファイルが選択されたアンチウイルスソフトウェアによってスキャンされることを保証するアンチウイルス保護を有効にすることができます。"
+
+#: ../../chapter02.rst:1151
+msgid ""
+"You will first need to obtain the anti-virus service that is independent "
+"from the Cluster Server, and get it directly from the anti-virus vendor. "
+"After that, you can integrate the anti-virus service into the Cluster "
+"Server."
+msgstr "まず、クラスターサーバーとは独立したアンチウイルスサービスを取得する必要があります。それをアンチウイルスベンダーから直接入手してください。その後、クラスターサーバーにアンチウイルスサービスを統合できます。"
+
+#: ../../chapter02.rst:1157
+msgid "ANTI-VIRUS SETTINGS"
+msgstr "アンチウイルス設定"
+
+#: ../../chapter02.rst:1160
+msgid "Worker Nodes"
+msgstr "ワーカーノード"
+
+#: ../../chapter02.rst:1162
+msgid "``Cluster Manager`` > ``Worker Node``"
+msgstr "``クラスターマネージャー`` > ``ワーカーノード``"
+
+#: ../../chapter02.rst:1164
+msgid ""
+"Cluster Server Farm has two types of nodes, one is “Worker Node” and the "
+"other is “Web Nodes”."
+msgstr "クラスターサーバーファームには、二種類のノードがあります。一つは「ワーカーノード」、もう一つは「ウェブノード」です。"
+
+#: ../../chapter02.rst:1170
+msgid "CLUSTER SERVER FARM NODES"
+msgstr "クラスターサーバーファームノード"
+
+#: ../../chapter02.rst:1173
+msgid ""
+"This type of node will contain services like Web Browser Based File "
+"Manager, Storage Service Connectors, and etc. Again, additional nodes can"
+" be added as the load increases. Because there is cache information "
+"located on each node, users will have an affinity to a single node once "
+"it is assigned. If the load balancer distributes users evenly to all "
+"worker nodes, the cache information may exist on all worker nodes."
+msgstr "このタイプのノードには、Webブラウザベースのファイルマネージャー、ストレージサービスコネクターなどのサービスが含まれます。また、負荷が増加するにつれて、追加のノードを追加することができます。各ノードにキャッシュ情報が存在するため、ノードが割り当てられると、ユーザーは単一のノードにアフィニティを持つことになります。ロードバランサーがユーザーをすべてのワーカーノードに均等に分散させる場合、キャッシュ情報はすべてのワーカーノードに存在する可能性があります。"
+
+#: ../../chapter02.rst:1179
+msgid "SSL NOTICE"
+msgstr "SSL 通知"
+
+#: ../../chapter02.rst:1182
+msgid "**Worker Node Settings**"
+msgstr "**ワーカーノード設定**"
+
+#: ../../chapter02.rst:1184
+msgid ""
+"There are some settings that apply to all worker nodes. After you click "
+"on the \"Settings\" icon, the Advanced Setttings panel will show."
+msgstr "全てのワーカーノードに適用される設定がいくつかあります。\"設定\"アイコンをクリックすると、詳細設定パネルが表示されます。"
+
+#: ../../chapter02.rst:1189
+msgid "WORKER NODE SETTINGS"
+msgstr "ワーカーノード設定"
+
+#: ../../chapter02.rst:1192
+msgid "**Always force SSL on Login**"
+msgstr "**ログイン時には常にSSLを強制する**"
+
+#: ../../chapter02.rst:1194
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL on Login”. When this is checked and when "
+"|prodname| detects that the incoming connection is HTTP, it will do a "
+"redirect to HTTPS. If you turn on SSL, you will need to setup SSL "
+"certificate first."
+msgstr "本番環境では、ほぼ100%の確率で「ログイン時に常にSSLを強制する」をチェックする必要があります。これがチェックされている場合、|prodname| は受信接続がHTTPであることを検出すると、HTTPSへのリダイレクトを行います。SSLを有効にする場合は、先にSSL証明書の設定が必要になります。"
+
+#: ../../chapter02.rst:1196
+msgid ""
+"However, if you have SSL-offload, such that SSL is offloaded to a "
+"hardware appliance, and after that, the incoming connection is HTTP "
+"between the hardware appliance and |prodname|. In this SSL-offload case, "
+"you will NOT check “Always force SSL on Login” because it will create an "
+"infinite redirect loop because the incoming connection is always HTTP as "
+"far as the |prodname| Server is concerned."
+msgstr "しかし、SSLオフロードを行っている場合、つまりSSLがハードウェアアプライアンスにオフロードされ、その後の接続がハードウェアアプライアンスと |prodname| の間でHTTPになる場合があります。このSSLオフロードのケースでは、「ログイン時に常にSSLを強制する」をチェックしません。なぜなら、それによって無限リダイレクトループが発生する可能性があるからです。|prodname| サーバーにとって、接続は常にHTTPとして扱われるためです。"
+
+#: ../../chapter02.rst:1199
+msgid "**Always force SSL for Native Clients**"
+msgstr "**ネイティブクライアントに対して常にSSLを強制する**"
+
+#: ../../chapter02.rst:1201
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL for Native Clients”."
+msgstr "本番環境では、ほぼ100%の確率で「ネイティブクライアントに対してSSLを常に強制する」をチェックする必要があります。"
+
+#: ../../chapter02.rst:1203
+msgid ""
+"Especially, in the case of SSL-Offload, you MUST check “Always force SSL "
+"for Native Clients”. Otherwise, the |prodname| Server may think that the "
+"incoming connection is HTTP so it will continue to encourage the native "
+"clients (such as Windows client) to use HTTP instead of using HTTPS."
+msgstr "特にSSLオフロードの場合は、「ネイティブクライアントに対して常にSSLを強制する」を必ずチェックしてください。そうしないと、|prodname| サーバーは接続がHTTPだと認識してしまい、Windowsクライアントなどのネイティブクライアントに対してHTTPの使用を続けるよう促してしまう可能性があります。HTTPSを使用する代わりにです。"
+
+#: ../../chapter02.rst:1207
+msgid ""
+"In iOS devices, the Application Transport Security may be enforced by the"
+" operating system and HTTPS must be used for an iOS Application to "
+"connect to the Cluster Server."
+msgstr "iOSデバイスでは、アプリケーション・トランスポート・セキュリティがオペレーティング・システムによって強制される場合があり、iOSアプリケーションがクラスターサーバーに接続するためにはHTTPSを使用する必要があります。"
+
+#: ../../chapter02.rst:1210
+msgid "**Disable worker-node load balance**"
+msgstr "**ワーカーノードのロードバランスを無効にする**"
+
+#: ../../chapter02.rst:1212
+msgid ""
+"When you have your own load balancer, you will disable worker-node load "
+"balancing. The Cluster Server has built-in node-affinity load balancing, "
+"which can be per-tenant or per-user. When you have your own load "
+"balancer, you may have session-affinity or just simple round-robin, "
+"either one is fine."
+msgstr "独自のロードバランサーを持っている場合、ワーカーノードのロードバランシングを無効にします。クラスターサーバーには、テナントごとまたはユーザーごとに設定可能なノードアフィニティロードバランシングが組み込まれています。独自のロードバランサーを持っている場合、セッションアフィニティを持つか、単純なラウンドロビンを使用するかのどちらかですが、どちらも問題ありません。"
+
+#: ../../chapter02.rst:1216
+msgid "How to add a worker node?"
+msgstr "ワーカーノードを追加する方法は？"
+
+#: ../../chapter02.rst:1218
+msgid ""
+"You just go ahead to install the Cluster Server during the installation "
+"and point the Cluster Server to the same database. Once the installation "
+"of the Cluster Server worker node is completed, reboot. The web portal "
+"page will pop up, asking you to add the worker node to the server farm."
+msgstr "インストール中にクラスターサーバーをそのままインストールし、同じデータベースを指すようにクラスターサーバーを設定してください。クラスターサーバーのワーカーノードのインストールが完了したら、再起動してください。Webポータルページが表示され、サーバーファームにワーカーノードを追加するよう求められます。"
+
+#: ../../chapter02.rst:1222
+msgid "What if you changed the Cluster Server's Host Name?"
+msgstr "クラスターサーバーのホスト名を変更したらどうなりますか？"
+
+#: ../../chapter02.rst:1224
+msgid ""
+"For Windows server 2012 and later Server OS, when a server is newly "
+"provisioned, it is typically named in hostname format similar (WIN-"
+"ABCDEFG). Sometimes, it is desired to change the name in the Control "
+"Panel -> Systems. If the Cluster Server is already installed, changing "
+"the name will make the Cluster Server add itself again with the new name."
+" So next time when you visit http://localhost on the Cluster Server after"
+" the server has been renamed, you will see the worker node section has "
+"both the node with the old name (which no longer exists) and the node "
+"with the new name (Which is current and good). In this case, you just "
+"need to simply remove the worker node with the old name."
+msgstr "Windows Server 2012以降のサーバーOSにおいて、新しくプロビジョニングされたサーバーは通常、(WIN-ABCDEFG)のようなホスト名形式で命名されます。時には、コントロールパネル -> システムから名前を変更したいと思うことがあります。クラスターサーバーが既にインストールされている場合、名前を変更すると、クラスターサーバーは新しい名前で自身を再度追加します。そのため、サーバーの名前を変更した後にクラスターサーバー上でhttp://localhostにアクセスすると、ワーカーノードセクションには古い名前のノード（もはや存在しない）と新しい名前のノード（現在有効）の両方が表示されます。この場合、古い名前のワーカーノードを単純に削除するだけです。"
+
+#: ../../chapter02.rst:1227
+msgid "**Worker Node Properties**"
+msgstr "**ワーカーノードのプロパティ**"
+
+#: ../../chapter02.rst:1232
+msgid "WORKER NODE PROPERTIES"
+msgstr "ワーカーノードのプロパティ"
+
+#: ../../chapter02.rst:1234
+msgid ""
+"You may need to modify the worker node properties when you setup SSL and "
+"the DNS name for the cluster."
+msgstr "クラスターのSSLとDNS名を設定する隔たり、ワーカーノードのプロパティを変更する必要があるかもしれません。"
+
+#: ../../chapter02.rst:1237
+msgid "**Node Name**"
+msgstr "**ノード名**"
+
+#: ../../chapter02.rst:1239
+msgid ""
+"The **Node Name** needs to match the worker node's hostname. Sometimes, "
+"if you rename a worker node's Windows hostname (NETBIOS name) after the "
+"Cluster Server installation, upon reboot, the Cluster Server will pop up "
+"a web page, asking you to add the new worker node. In that case, you can "
+"go ahead and add the new worker node and then delete the old worker node."
+msgstr "**ノード名** はワーカーノードのホスト名と一致する必要があります。時々、クラスターサーバーのインストール後にワーカーノードのWindowsホスト名（NETBIOS名）を変更した場合、再起動すると、クラスターサーバーが新しいワーカーノードを追加するよう求めるウェブページが表示されることがあります。その場合は、新しいワーカーノードを追加してから、古いワーカーノードを削除してください。"
+
+#: ../../chapter02.rst:1242
+msgid "**External URL**"
+msgstr "**外部URL**"
+
+#: ../../chapter02.rst:1244
+msgid ""
+"The **External URL** needs to match the worker node's external URL. In a "
+"production environment, this typically is in an https:// format with the "
+"node's DNS name."
+msgstr "**外部URL** はワーカーノードの外部URLと一致する必要があります。本番環境では、通常はhttps://形式でノードのDNS名を使用します。"
+
+#: ../../chapter02.rst:1246
+msgid ""
+"External URL is a critical property for Email templates. Once the Cluster"
+" Server installation is finished, the dashboard will have a warning "
+"message, 'External DNS has not been configured for this worker node. Some"
+" functionality may not work properly. Config Now'"
+msgstr "外部URLは、電子メールテンプレートにとって重要なプロパティです。クラスターサーバーのインストールが完了すると、ダッシュボードには警告メッセージが表示されます。「このワーカーノードには外部DNSが設定されていません。一部の機能が正常に動作しない可能性があります。今すぐ設定」"
+
+#: ../../chapter02.rst:1248
+msgid ""
+"The moment that you have finalized on the External DNS name of the "
+"Cluster Server, you must come here and configure the ExternalURL property"
+" for the Cluster Server."
+msgstr "クラスターサーバーの外部DNS名を最終決定したら、ここに来てクラスターサーバーのExternalURLプロパティを設定する必要があります。"
+
+#: ../../chapter02.rst:1251
+msgid "**Internal URL**"
+msgstr "**内部URL**"
+
+#: ../../chapter02.rst:1253
+msgid ""
+"The **Internal URL** is the node's internal URL, typically in the form of"
+" http://local-ip-address format. In later Cluster Server builds, this "
+"property is hidden and there is no need to set it any more."
+msgstr "**内部URL** はノードの内部URLで、通常はhttp://local-ip-address形式です。最新のクラスターサーバービルドでは、このプロパティは非表示になり、設定する必要はありません。"
+
+#: ../../chapter02.rst:1255
+msgid "**Disable management functionality**"
+msgstr "**管理機能を無効にする**"
+
+#: ../../chapter02.rst:1257
+msgid ""
+"You can create an internal facing worker node (that doesn't have an "
+"externalURL) and only allow management functionality on this worker node."
+" This is a security feature."
+msgstr "内部向けのワーカーノード（externalURLを持たない）を作成し、このワーカーノードでのみ管理機能を許可することができます。これはセキュリティ機能です。"
+
+#: ../../chapter02.rst:1260
+msgid "**Edit Cloud Monitor Setting**"
+msgstr "**クラウドモニター設定を編集**"
+
+#: ../../chapter02.rst:1265
+msgid "CLOUD MONITOR SETTINGS"
+msgstr "クラウドモニター設定"
+
+#: ../../chapter02.rst:1268
+msgid "**Enable Storage Scan**"
+msgstr "**ストレージスキャンを有効にする**"
+
+#: ../../chapter02.rst:1270
+msgid ""
+"Enables or disables storage scan on the worker node. On the worker node, "
+"there is a cloud monitor service. The service will be doing background "
+"monitoring and make scan storage from time to time to correct quota "
+"calculation and perform other maintenance tasks."
+msgstr "ワーカーノードでのストレージスキャンを有効または無効にします。ワーカーノードにはクラウドモニターサービスがあります。このサービスはバックグラウンドで監視を行い、定期的にストレージをスキャンしてクオータ計算を修正したり、その他のメンテナンスタスクを実行します。"
+
+#: ../../chapter02.rst:1273
+msgid "**Scan Starts Hour**"
+msgstr "**スキャン開始時刻**"
+
+#: ../../chapter02.rst:1275
+msgid ""
+"Typically you will set the scan start time to sometime in the early "
+"morning like 1AM."
+msgstr "通常、スキャン開始時間を早朝の1時のような時間に設定します。"
+
+#: ../../chapter02.rst:1278
+msgid "**Scan End Hour**"
+msgstr "**スキャン終了時刻**"
+
+#: ../../chapter02.rst:1280
+msgid ""
+"Typically you will set the scan end time to sometime in the morning like "
+"8AM before everyone comes to work. The main idea is to leverage idle time"
+" (when people are not at work) to do the scanning."
+msgstr "通常、スキャン終了時刻を、誰もが仕事に来る前の朝の8時のような時間に設定します。主な考え方は、アイドル時間（人々が仕事にいない時間）を利用してスキャンを行うことです。"
+
+#: ../../chapter02.rst:1283
+msgid "**Scan User Storage Every (n) Days**"
+msgstr "**(n)日ごとにユーザーストレージをスキャン**"
+
+#: ../../chapter02.rst:1285
+msgid ""
+"Typically you can set it to every week or every other week. so a number "
+"between 7 to 15 is reasonable."
+msgstr "通常、毎週または隔週に設定できます。したがって、7から15の間の数字が妥当です。"
+
+#: ../../chapter02.rst:1288
+msgid "**Enable Change Monitor**"
+msgstr "**変更モニターを有効にする**"
+
+#: ../../chapter02.rst:1290
+msgid ""
+"Enable change monitor monitors the attached local storage such as storage"
+" from file server network share and report file change notification to "
+"remotely connected clients. This usually is required if your users are "
+"both modifying documents directly from the backend attached network share"
+" and also from the front end Cluster access clients."
+msgstr "変更モニターを有効にすると、ファイルサーバーネットワーク共有などの接続されたローカルストレージを監視し、ファイル変更通知をリモートに接続されたクライアントに報告します。これは、ユーザーがバックエンドに接続されたネットワーク共有から直接ドキュメントを変更すると同時に、フロントエンドのクラスターアクセスクライアントからも変更を行う場合に通常必要です。"
+
+#: ../../chapter02.rst:1293
+msgid "**Index External Storage**"
+msgstr "**外部ストレージを索引付け**"
+
+#: ../../chapter02.rst:1295
+msgid ""
+"This setting will index storage services added via the \"Storage "
+"Manager\". The index will be written to the files table in the database."
+msgstr "この設定は、「ストレージマネージャー」を通じて追加されたストレージサービスをインデックス化します。インデックスはデータベースのファイルテーブルに書き込まれます。"
+
+#: ../../chapter02.rst:1298
+msgid "**Enable Storage Purge of Deleted User**"
+msgstr "**削除されたユーザーのストレージパージを有効にする**"
+
+#: ../../chapter02.rst:1300
+msgid ""
+"When a user is deleted from the system, the user's home directory is not "
+"immediately removed. And a lot of times, you don't want to delete it at "
+"all. For example, a user is deleted from the Cluster Server, but the user"
+" may still continue to use the files and folder directly from the "
+"network."
+msgstr "システムからユーザーが削除された場合、ユーザーのホームディレクトリはすぐには削除されません。そして、多くの場合、それを削除したくないことがあります。例えば、ユーザーがクラスターサーバーから削除されたが、ユーザーは引き続きファイルやフォルダをネットワークから直接使用するかもしれません。"
+
+#: ../../chapter02.rst:1303
+msgid "**Process Background Task**"
+msgstr "**バックグラウンドタスクを処理する**"
+
+#: ../../chapter02.rst:1305
+msgid "Whether this specific node will process the background task."
+msgstr "この特定のノードがバックグラウンドタスクを処理するかどうか。"
+
+#: ../../chapter02.rst:1308
+msgid "**Enable Change Monitor for Home Drive**"
+msgstr "**ホームドライブの変更モニターを有効にする**"
+
+#: ../../chapter02.rst:1310
+msgid ""
+"If Active Directory Home Drive integration is on, this will allow the "
+"Cluster Server to monitor the changes on the home drive and notify remote"
+" client agents that the files/folders have changed."
+msgstr "アクティブディレクトリホームドライブの統合がオンの場合、これによりクラスターサーバーはホームドライブの変更を監視し、ファイル/フォルダが変更されたことをリモートクライアントエージェントに通知することができます。"
+
+#: ../../chapter02.rst:1313
+msgid "**Send daily scan email**"
+msgstr "**毎日のスキャンメールを送信**"
+
+#: ../../chapter02.rst:1315
+msgid ""
+"If the storage scan is enabled, a daily scan email will be sent to the "
+"cluster administrator about the result of the scan."
+msgstr "ストレージスキャンが有効になっている場合、スキャン結果についてクラスタ管理者に毎日スキャンメールが送信されます。"
+
+#: ../../chapter02.rst:1318
+msgid "Web Node"
+msgstr "ウェブノード"
+
+#: ../../chapter02.rst:1319
+msgid "``Cluster Manager`` > ``Web Node``"
+msgstr "``クラスターマネージャー`` > ``ウェブノード``"
+
+#: ../../chapter02.rst:1322
+msgid ""
+"In a small deployment, there is no need to have web nodes. You can go "
+"straight to worker nodes since worker nodes by defaults are web nodes "
+"too."
+msgstr "小規模なデプロイメントでは、Webノードを設置する必要はありません。デフォルトでワーカーノードがWebノードも兼ねているため、直接ワーカーノードに進むことができます。"
+
+#: ../../chapter02.rst:1325
+msgid ""
+"The Account Management, Sign-in and Load-balancing services will be "
+"installed on this physical machine (or virtual machine). Depending on the"
+" load, you may need 1 to N such nodes. Normally, we recommend for every "
+"web front node, you can have 10+ worker nodes. When you have small "
+"deployments, you can skip web front nodes and combine them into worker "
+"nodes. All the installation work is the same. If you do not need web "
+"front node, you do not need to assign them in the cluster manager."
+msgstr "アカウント管理、サインイン、およびロードバランシングサービスは、この物理マシン（または仮想マシン）にインストールされます。負荷に応じて、1からNのノードが必要になる場合があります。通常、ウェブフロントノードごとに10以上のワーカーノードを推奨しています。小規模なデプロイメントの場合、ウェブフロントノードを省略し、ワーカーノードに統合することができます。すべてのインストール作業は同じです。ウェブフロントノードが不要な場合、クラスターマネージャーに割り当てる必要はありません。"
+
+#: ../../chapter02.rst:1330
+msgid "WEB NODE"
+msgstr "ウェブノード"
+
+#: ../../chapter02.rst:1332
+msgid "**Example:**"
+msgstr ""
+
+#: ../../chapter02.rst:1334
+msgid ""
+"ACME Corporation deploys two web front nodes node1.acme.com and "
+"node2.acme.com. Each node is running a copy of the Cluster Server "
+"connecting to the same SQL database."
+msgstr "ACMEコーポレーションは、node1.acme.comとnode2.acme.comの2つのウェブフロントノードを展開しています。各ノードは、同じSQLデータベースに接続するクラスターサーバーのコピーを実行しています。"
+
+#: ../../chapter02.rst:1336
+msgid ""
+"ACME Corporation acquires a domain name (DNS) of cloud.acme.com which is "
+"load balanced to node1.acme.com and node2.acme.com."
+msgstr "ACMEコーポレーションは、cloud.acme.comというドメイン名（DNS）を取得し、node1.acme.comとnode2.acme.comにロードバランスされます。"
+
+#: ../../chapter02.rst:1338
+msgid ""
+"When Users point their browsers to https://cloud.acme.com it is directed "
+"to one of the nodes login page."
+msgstr "ユーザーがブラウザでhttps://cloud.acme.comにアクセスすると、ノードのログインページにリダイレクトされます。"
+
+#: ../../chapter02.rst:1342
+msgid ""
+"NOTE 1: If you have hardware load balancing available, you do not need to"
+" use web nodes at all."
+msgstr "注意1：もしハードウェアロードバランシングが利用可能であれば、ウェブノードを一切使用する必要はありません。"
+
+#: ../../chapter02.rst:1344
+msgid ""
+"NOTE 2: Windows 2012/R2 comes with Network Load Balancing (NLB). If you "
+"use NLB, you do not need web nodes at all."
+msgstr "注記 2: Windows 2012/R2にはネットワーク負荷分散(NLB)が付属しています。NLBを使用する場合、Webノードはまったく必要ありません。"
+
+#: ../../chapter02.rst:1346
+msgid "Basically, if you have any existing load balancer, you can omit web nodes."
+msgstr "基本的に、既存のロードバランサーをお持ちの場合は、Webノードを省略できます。"
+
+#: ../../chapter02.rst:1349
+msgid "Zones"
+msgstr "ゾーン"
+
+#: ../../chapter02.rst:1351
+msgid "``Cluster Manager`` > ``Zones``"
+msgstr "``クラスターマネージャー`` > ``ゾーン``"
+
+#: ../../chapter02.rst:1353
+msgid ""
+"The concept of zone is to associate your worker nodes with the location "
+"of the storage. When you think about zones, you will think about your "
+"storage location first."
+msgstr "ゾーンの概念は、ストレージの場所とワーカーノードを関連付けることです。ゾーンについて考えるときは、まずストレージの場所を考えます。"
+
+#: ../../chapter02.rst:1356
+msgid ""
+"For example, I have storage in LA so I have an LA zone. I also have "
+"storage in NY so I have a NY Zone."
+msgstr "例えば、私はLAにストレージを持っているので、LAゾーンがあります。また、NYにもストレージを持っているので、NYゾーンがあります。"
+
+#: ../../chapter02.rst:1358
+msgid ""
+"You can have worker nodes from different zones as well and assign users "
+"to specific zone. If user's home directory is coming from LA zone, the "
+"user will need to be assigned to LA zone."
+msgstr "異なるゾーンからワーカーノードを持つこともでき、特定のゾーンにユーザーを割り当てることができます。ユーザーのホームディレクトリがLAゾーンから来ている場合、そのユーザーはLAゾーンに割り当てる必要があります。"
+
+#: ../../chapter02.rst:1364
+msgid "CONTROL PANEL STORAGE ZONES EDITOR"
+msgstr "コントロールパネル ストレージゾーン エディタ"
+
+#: ../../chapter02.rst:1369
+msgid "Default Group Policy"
+msgstr "デフォルトグループポリシー"
+
+#: ../../chapter02.rst:1371
+msgid "``Cluster Manager`` > ``Default Group Policy``"
+msgstr "``クラスターマネージャー`` > ``デフォルトグループポリシー``"
+
+#: ../../chapter02.rst:1373
+msgid ""
+"Default group policy can be applied to all tenants in the cluster. "
+"However, if the tenant also defines its own group policy, the tenant "
+"policy can over ride cluster wide default group policy."
+msgstr "デフォルトのグループポリシーは、クラスタ内のすべてのテナントに適用できます。ただし、テナントが独自のグループポリシーを定義している場合、テナントポリシーはクラスタ全体のデフォルトグループポリシーを上書きすることができます。"
+
+#: ../../chapter02.rst:1375
+msgid ""
+"Please reference the ``Group Policy`` in the tenant administrator section"
+" for full list of policy items."
+msgstr "テナント管理者セクションの ``グループポリシー`` を参照して、ポリシーアイテムの完全なリストをご確認ください。"
+
+#: ../../chapter02.rst:1381
+msgid "GROUP POLICY SETTINGS"
+msgstr "グループポリシー設定"
+

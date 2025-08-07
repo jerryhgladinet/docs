@@ -1,0 +1,4297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:5
+msgid "Tenant Administration"
+msgstr "テナント管理"
+
+#: ../../chapter03.rst:9
+msgid ""
+"A tenant is usually mapped to a company, or a division of a company, an "
+"organization or in the case of MSP managed organization, a service "
+"provider would call them clients. Basically, a tenant is a management "
+"scope that represents an organization."
+msgstr "テナントは通常、会社や会社の部門、組織、またはMSP管理組織の場合、サービスプロバイダーはそれらをクライアントと呼びます。基本的に、テナントは組織を表す管理スコープです。"
+
+#: ../../chapter03.rst:11
+msgid ""
+"Tenant manager scope is defined for tenant administrators. For a multi-"
+"tenant Cluster Server system, each tenant has an administrator. For a "
+"single-tenant Cluster Server system, the default cluster administrator is"
+" also the tenant administrator."
+msgstr "テナントマネージャーの範囲は、テナントの管理者に対して定義されています。マルチテナントのクラスターサーバーシステムでは、各テナントには管理者がいます。シングルテナントのクラスターサーバーシステムでは、デフォルトのクラスター管理者もテナントの管理者です。"
+
+#: ../../chapter03.rst:13
+msgid "Tenant Manager is completely web-based."
+msgstr "テナントマネージャーは完全にウェブベースです。"
+
+#: ../../chapter03.rst:15
+msgid ""
+"From the Cluster Manager Dashboard, you can access the Tenant Manager by "
+"clicking \"Tenants Count\"."
+msgstr "クラスターマネージャーダッシュボードから、「テナント数」をクリックすることでテナントマネージャーにアクセスできます。"
+
+#: ../../chapter03.rst:20
+msgid "CLUSTER DASHBOARD"
+msgstr "クラスターダッシュボード"
+
+#: ../../chapter03.rst:22
+msgid ""
+"You can also log in directly to the web portal as the tenant "
+"administrator instead of the default cluster administrator to get to the "
+"tenant administrator management web interface."
+msgstr "テナント管理者として直接Webポータルにログインし、デフォルトのクラスター管理者ではなくテナント管理者管理Webインターフェースにアクセスすることもできます。"
+
+#: ../../chapter03.rst:26
+msgid ""
+"At a high level, the Cluster Administrator and Tenant Manager have almost"
+" identical controls for the Tenants within their scope; however, the "
+"Tenant Manager settings will always take precedence and override Cluster "
+"Administrator settings. Tenant Managers can give permission for Cluster "
+"Administrator to manage their tenants by enabling this option in "
+"``Settings`` > ``User Account & Security`` > ``Security``. \"Allow "
+"Cluster Admin to manage my tenant\" is by default checked."
+msgstr "高いレベルで見ると、クラスター管理者とテナントマネージャーは、それぞれの範囲内のテナントに対してほぼ同一のコントロールを持っています。しかし、テナントマネージャーの設定は常に優先され、クラスター管理者の設定を上書きします。テナントマネージャーは、``設定`` > ``ユーザーアカウント＆セキュリティ`` > ``セキュリティ`` でこのオプションを有効にすることにより、クラスター管理者が自分のテナントを管理する権限を与えることができます。\"クラスター管理者による私のテナントの管理を許可する\"は、デフォルトでチェックされています。"
+
+#: ../../chapter03.rst:31
+msgid "SETTINGS > USER ACCOUNT & SECURITY > SECURITY"
+msgstr "設定 > ユーザーアカウントとセキュリティ > セキュリティ"
+
+#: ../../chapter03.rst:36
+msgid "Tenant Dashboard"
+msgstr "テナントダッシュボード"
+
+#: ../../chapter03.rst:38
+msgid "``Tenant Manager`` > ``[Tenant]`` > ``Tenant Dashboard``"
+msgstr "``テナントマネージャー`` > ``[テナント]`` > ``テナントダッシュボード``"
+
+#: ../../chapter03.rst:43
+msgid "TENANT DASHBOARD MENUS"
+msgstr "テナントダッシュボードメニュー"
+
+#: ../../chapter03.rst:45
+msgid ""
+"You can navigate to different sections of Tenant Administration from the "
+"Dashboard."
+msgstr "ダッシュボードからテナント管理の異なるセクションに移動できます。"
+
+#: ../../chapter03.rst:49
+msgid "Tenant Plan"
+msgstr "テナントプラン"
+
+#: ../../chapter03.rst:51
+msgid "``Tenant Dashboard`` > ``License/Storage Quota`` > ``Tenant Plan``"
+msgstr "``テナントダッシュボード`` > ``ライセンス/ストレージクォータ`` > ``テナントプラン``"
+
+#: ../../chapter03.rst:56 ../../chapter03.rst:64
+msgid "TENANT PLAN SETTINGS"
+msgstr "テナントプラン設定"
+
+#: ../../chapter03.rst:58
+msgid ""
+"Here in the Tenant Plan section, you can change the tenant's user plan "
+"and storage plan, and also control the bandwidth usage for the tenant."
+msgstr "テナントプランのセクションでは、テナントのユーザープランやストレージプランを変更することができるほか、テナントの帯域幅の使用状況も管理できます。"
+
+#: ../../chapter03.rst:68 ../../chapter03.rst:495 ../../chapter03.rst:537
+msgid "Team Folders"
+msgstr "チームフォルダ"
+
+#: ../../chapter03.rst:70
+msgid "``Tenant Manager`` > ``Team Folders``"
+msgstr "``テナントマネージャー`` > ``チームフォルダー``"
+
+#: ../../chapter03.rst:72
+msgid ""
+"The team folder concept is like a network share, meaning you can define a"
+" folder and then add users and groups to the folder and thus turn it into"
+" a team shared folder. The team folder will show up in the user's folder "
+"list when the user is added to the team folder."
+msgstr "チームフォルダのコンセプトはネットワーク共有のようなもので、フォルダを定義してからユーザーやグループをそのフォルダに追加することにより、チーム共有フォルダに変えることができます。ユーザーがチームフォルダに追加されると、そのフォルダはユーザーのフォルダリストに表示されます。"
+
+#: ../../chapter03.rst:77
+msgid "ENTER TEAM FOLDER SECTION"
+msgstr "チームフォルダーセクションに入る"
+
+#: ../../chapter03.rst:79
+msgid ""
+"When the server agent is in use, the team folder can be mapped directly "
+"to a network share from the server where the server agent is installed."
+msgstr "サーバーエージェントを使用している場合、チームフォルダはサーバーエージェントがインストールされているサーバーから直接ネットワーク共有にマップすることができます。"
+
+#: ../../chapter03.rst:81
+msgid ""
+"When a directly connected network share is used, a team folder can be "
+"mapped to an SMB/CIFS network share directly."
+msgstr "直接接続されたネットワーク共有が使用される場合、チームフォルダをSMB/CIFSネットワーク共有に直接マッピングできます。"
+
+#: ../../chapter03.rst:83
+msgid "You can also turn any existing folder into a team folder."
+msgstr "既存のフォルダをチームフォルダに変更することもできます。"
+
+#: ../../chapter03.rst:85
+msgid ""
+"A Team folder has a tenant administrator scope so the team folder related"
+" sharing is limited to the users inside the tenant."
+msgstr "チームフォルダにはテナント管理者のスコープがあり、チームフォルダに関連する共有はテナント内のユーザーに限定されます。"
+
+#: ../../chapter03.rst:89
+msgid ""
+"By default, the files and folders that the administrator can see is "
+"hidden away from the regular team user until those folders are published "
+"to the team users."
+msgstr "デフォルトでは、管理者が見ることができるファイルやフォルダは、それらがチームユーザーに公開されるまで通常のチームユーザーからは隠されています。"
+
+#: ../../chapter03.rst:91
+msgid ""
+"Team Folders (Shared Work Space) are used for team-share collaborations. "
+"Generally, Team Folders are converted from File Server Network shares. "
+"Other Team Folder sources can be Google Storage, Amazon S3 (or S3 "
+"Compatible), Amazon Cloud, Windows Azure Blob, WebDav, SharePoint, "
+"Rackspace (US or UK) and OpenStack or you can create new folders under "
+"the Tenant's root storage."
+msgstr "チームフォルダー（共有ワークスペース）は、チーム共有のコラボレーションに使用されます。一般的に、チームフォルダーはファイルサーバーネットワーク共有から変換されます。他のチームフォルダーのソースには、Googleストレージ、Amazon S3（またはS3互換）、Amazonクラウド、Windows Azure Blob、WebDav、SharePoint、Rackspace（米国または英国）、OpenStackがあります。または、テナントのルートストレージの下に新しいフォルダーを作成することができます。"
+
+#: ../../chapter03.rst:93
+msgid ""
+"In the \"Team Folders\" page, you can click \"Edit\" icon to manage team "
+"shares, folder permissions and the underlying storage configuration."
+msgstr "「チームフォルダ」ページでは、「編集」アイコンをクリックして、チーム共有、フォルダの権限、および基盤となるストレージ設定を管理できます。"
+
+#: ../../chapter03.rst:99
+msgid "MANAGING TEAM SHARES"
+msgstr "チーム共有の管理"
+
+#: ../../chapter03.rst:103
+msgid "Create Team Folder"
+msgstr "チームフォルダを作成する"
+
+#: ../../chapter03.rst:105
+msgid "``Tenant Manager`` >  ``Team Folders`` > ``Add New Team Folder``"
+msgstr "``テナントマネージャー`` > ``チームフォルダー`` > ``新しいチームフォルダーを追加``"
+
+#: ../../chapter03.rst:107
+msgid "You can click on the \"+\" sign to create a new team folder."
+msgstr "新しいチームフォルダを作成するには、「+」記号をクリックしてください。"
+
+#: ../../chapter03.rst:112
+msgid "ADDING A TEAM FOLDER"
+msgstr "チームフォルダの追加"
+
+#: ../../chapter03.rst:114
+msgid ""
+"Once it is clicked, it shows four main sources of team folder, among "
+"other options:"
+msgstr "クリックすると、他のオプションの中で、チームフォルダの4つの主要なソースが表示されます:"
+
+#: ../../chapter03.rst:116
+msgid "Existing Tenant Storage (default location)"
+msgstr "既存のテナントストレージ（デフォルトの場所）"
+
+#: ../../chapter03.rst:117
+msgid "File Servers in Local Area Network"
+msgstr "ローカルエリアネットワーク内のファイルサーバー"
+
+#: ../../chapter03.rst:118
+msgid "Remote File Servers"
+msgstr "リモートファイルサーバー"
+
+#: ../../chapter03.rst:119
+msgid "Cloud Storage"
+msgstr "クラウドストレージ"
+
+#: ../../chapter03.rst:124
+msgid "TEAM FOLDER LOCATIONS"
+msgstr "チームフォルダの場所"
+
+#: ../../chapter03.rst:126
+msgid "**Existing Tenant Storage (default location)**"
+msgstr "**既存のテナントストレージ（デフォルトの場所）**"
+
+#: ../../chapter03.rst:131
+msgid "EXISTING TENANT STORAGE"
+msgstr "既存のテナントストレージ"
+
+#: ../../chapter03.rst:133
+msgid ""
+"**Default Tenant Storage (1)**: The team folder will be created from the "
+"default storage from scratch with an empty team folder. Usually when you "
+"want to have a team folder that is brand new and empty, you can pick this"
+" option."
+msgstr "**デフォルトテナントストレージ(1)**: チームフォルダは、空のチームフォルダからデフォルトストレージを使用して最初から作成されます。通常、新しく空のチームフォルダを作成したい場合は、このオプションを選択します。"
+
+#: ../../chapter03.rst:135
+msgid ""
+"**Existing Folder(s) (2)**: You can pick several existing folders, which "
+"physically may not be in the same folder, but you can logically arrange "
+"them into the same team folder. For example, you may want to have a short"
+" term project that put \"Building A\", \"Blue Print A\", \"Budget A\", "
+"three different folders from three different places into one logical"
+msgstr "**既存のフォルダー(2)**: 複数の既存フォルダーを選択できます。これらは物理的には同じフォルダー内にないかもしれませんが、論理的には同じチームフォルダーに配置することができます。例えば、\"ビルA\"、\"設計図A\"、\"予算A\"という物理的には異なる場所の3つの異なるフォルダーを、一つの論理的なプロジェクトの短期間でまとめたい場合があります"
+
+#: ../../chapter03.rst:137
+msgid ""
+"**Publish Tenant Home Storage As a Team Folder (3)**: By default, the "
+"tenant's root storage folder is not published to any team user. To use an"
+" analogy, it is like a C: drive on a Windows File Server, by default it "
+"is not published as a network share to users. However, if you want to "
+"make it available to users, you can pick this option."
+msgstr "**テナントホームストレージをチームフォルダとして公開する(3)**：デフォルトでは、テナントのルートストレージフォルダはチームユーザーに公開されていません。例えば、WindowsファイルサーバーのC:ドライブは、デフォルトではユーザーにネットワーク共有として公開されていません。しかし、ユーザーに利用可能にしたい場合は、このオプションを選択できます。"
+
+#: ../../chapter03.rst:141
+msgid "**File Servers in Local Area Network**"
+msgstr "**ローカルエリアネットワーク内のファイルサーバー**"
+
+#: ../../chapter03.rst:143
+msgid ""
+"When you have files and folders from the local area network (LAN), you "
+"can convert the network share directly into a team folder in the Cluster "
+"Server. It is a one-to-one relationship between a team folder and a "
+"network share. When you pick this option, most of the time, the Active "
+"Directory server for this tenant is also in the same Local Area Network."
+msgstr "ローカルエリアネットワーク（LAN）からファイルやフォルダを持っている場合、ネットワーク共有を直接クラスターサーバーのチームフォルダに変換することができます。チームフォルダとネットワーク共有の間には一対一の関係があります。このオプションを選択すると、ほとんどの場合、このテナントのActive Directoryサーバーも同じローカルエリアネットワーク内にあります。"
+
+#: ../../chapter03.rst:148
+msgid "LAN-BASED TEAM FOLDER"
+msgstr "LANベースのチームフォルダ"
+
+#: ../../chapter03.rst:150
+msgid "**Remote File Server**"
+msgstr "**リモートファイルサーバー**"
+
+#: ../../chapter03.rst:152
+msgid ""
+"When you have server agents installed on remote file servers, those file "
+"servers will be visible and the network shares from remote file servers "
+"will be imported to the Cluster Server."
+msgstr "リモートファイルサーバーにサーバーエージェントをインストールすると、それらのファイルサーバーが表示され、リモートファイルサーバーのネットワーク共有がクラスターサーバーにインポートされます。"
+
+#: ../../chapter03.rst:157
+msgid "REMOTE TEAM FOLDER"
+msgstr "リモートチームフォルダ"
+
+#: ../../chapter03.rst:159
+msgid "**Cloud Storage**"
+msgstr "**クラウドストレージ**"
+
+#: ../../chapter03.rst:161
+msgid ""
+"You can also pick Cloud Storage as this team folder's underlying storage."
+" As shown in the following picture, you can pick Amazon S3, Windows Azure"
+" Blob, OpenStack Swift, and other cloud storage services."
+msgstr "このチームフォルダの基盤ストレージとしてクラウドストレージを選択することもできます。次の画像に示すように、Amazon S3、Windows Azure Blob、OpenStack Swift、その他のクラウドストレージサービスを選択できます。"
+
+#: ../../chapter03.rst:166
+msgid "CLOUD-BASED TEAM FOLDER"
+msgstr "クラウドベースのチームフォルダ"
+
+#: ../../chapter03.rst:169
+msgid "Team Folder Properties"
+msgstr "チームフォルダのプロパティ"
+
+#: ../../chapter03.rst:172
+msgid "Team Folder Information"
+msgstr "チームフォルダ情報"
+
+#: ../../chapter03.rst:174
+msgid ""
+"``Tenant Manager`` >  ``Team Folders`` >  ``{Pick a Team Folder}`` > "
+"``Info Icon`` > ``Team Folder Information``"
+msgstr "``テナントマネージャー`` > ``チームフォルダー`` > ``{チームフォルダーを選択}`` > ``情報アイコン`` > ``チームフォルダー情報``"
+
+#: ../../chapter03.rst:179
+msgid "TEAM FOLDER INFORMATION ACCESS"
+msgstr "チームフォルダ情報アクセス"
+
+#: ../../chapter03.rst:183
+msgid "Collaborators"
+msgstr "コラボレーター"
+
+#: ../../chapter03.rst:185
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Collaborators``"
+msgstr "``テナントマネージャー`` > ``チームフォルダー`` > ``{チームフォルダーを選択}`` > ``編集アイコン`` > ``共同作業者``"
+
+#: ../../chapter03.rst:187
+msgid "In the Collaborators section, you can define:"
+msgstr "コラボレーターセクションでは、以下を定義できます:"
+
+#: ../../chapter03.rst:189
+msgid ""
+"User List: The users and groups that are assigned to the team folder. The"
+" users with the owner flag will be able to manage the users."
+msgstr "ユーザーリスト：チームフォルダに割り当てられているユーザーとグループ。所有者フラグを持つユーザーは、ユーザーを管理することができます。"
+
+#: ../../chapter03.rst:197
+msgid "EDITING FOLDER PERMISSIONS"
+msgstr "フォルダのアクセス許可を編集"
+
+#: ../../chapter03.rst:201
+msgid "External Sharing"
+msgstr "外部共有"
+
+#: ../../chapter03.rst:203
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``External Sharing``"
+msgstr "``テナントマネージャー`` > ``チームフォルダー`` > ``{チームフォルダーを選択}`` > ``編集アイコン`` > ``外部共有``"
+
+#: ../../chapter03.rst:205
+msgid ""
+"You can see what folders and files have been shared and control access to"
+" those files from this setting."
+msgstr "この設定から、どのフォルダやファイルが共有されているかを確認し、それらのファイルへのアクセスを制御できます。"
+
+#: ../../chapter03.rst:210 ../../chapter03.rst:288
+msgid "TEAM FOLDER PERMISSION SETTINGS"
+msgstr "チームフォルダの権限設定"
+
+#: ../../chapter03.rst:214
+msgid "Access Policy"
+msgstr "アクセスポリシー"
+
+#: ../../chapter03.rst:216
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Access Policy``"
+msgstr "``テナントマネージャー`` > ``チームフォルダー`` > ``{チームフォルダーを選択}`` > ``編集アイコン`` > ``アクセスポリシー``"
+
+#: ../../chapter03.rst:218
+msgid "You can enable an access policy through this tab."
+msgstr "このタブを通じてアクセスポリシーを有効にすることができます。"
+
+#: ../../chapter03.rst:223
+msgid "ADD NEW ACCESS POLICY"
+msgstr "新しいアクセスポリシーを追加"
+
+#: ../../chapter03.rst:225
+msgid ""
+"Define customized access policies to restrict and allow access based on "
+"the device location. For example, a company can enable access from the "
+"internet to only Windows clients and web clients. IT can configure allow "
+"or deny client access policies from the following locations:"
+msgstr "デバイスの場所に基づいてアクセスを制限または許可するカスタマイズされたアクセスポリシーを定義します。例えば、企業はインターネットからWindowsクライアントとWebクライアントのみへのアクセスを有効にすることができます。ITは以下の場所からのクライアントアクセスポリシーを許可または拒否するように設定することができます:"
+
+#: ../../chapter03.rst:227 ../../chapter03.rst:245
+msgid "Access from the internet"
+msgstr "インターネットからのアクセス"
+
+#: ../../chapter03.rst:228 ../../chapter03.rst:246
+msgid "Access from local network"
+msgstr "ローカルネットワークからのアクセス"
+
+#: ../../chapter03.rst:229 ../../chapter03.rst:247
+msgid "Access from Anywhere"
+msgstr "どこからでもアクセス"
+
+#: ../../chapter03.rst:230 ../../chapter03.rst:248
+msgid "Access from customer-defined networks"
+msgstr "顧客定義のネットワークからのアクセス"
+
+#: ../../chapter03.rst:231 ../../chapter03.rst:249
+msgid "Deny access from customer defined networks"
+msgstr "顧客が定義したネットワークからのアクセスを拒否"
+
+#: ../../chapter03.rst:233
+msgid ""
+"The above allow and deny client access policies can be configured for the"
+" following clients:"
+msgstr "上記の許可および拒否クライアントアクセスポリシーは、以下のクライアントに対して設定することができます:"
+
+#: ../../chapter03.rst:235
+msgid "Web client"
+msgstr "ウェブクライアント"
+
+#: ../../chapter03.rst:236
+msgid "Web management"
+msgstr "ウェブ管理"
+
+#: ../../chapter03.rst:237
+msgid "Windows client"
+msgstr "Windowsクライアント"
+
+#: ../../chapter03.rst:238
+msgid "Mac client"
+msgstr "Mac クライアント"
+
+#: ../../chapter03.rst:239
+msgid "Mobile client"
+msgstr "モバイルクライアント"
+
+#: ../../chapter03.rst:243
+msgid ""
+"IT can also prevent data loss and data leakage of important company "
+"confidential shares by configuring 'Share Access Policies' for external "
+"users who are not company employees. Again, IT can configure allow or "
+"deny shares access policies from the following locations:"
+msgstr "IT部門は、会社の従業員ではない外部ユーザー向けに'共有アクセスポリシー'を設定することで、重要な会社の機密共有データの紛失や漏洩を防ぐこともできます。また、IT部門は以下の場所から共有アクセスポリシーを許可または拒否する設定を行うことができます:"
+
+#: ../../chapter03.rst:251
+msgid ""
+"The above allow and deny share access policies can be configured with the"
+" following conditions:"
+msgstr "上記の許可および拒否の共有アクセスポリシーは、以下の条件で設定することができます:"
+
+#: ../../chapter03.rst:253
+msgid "Visible"
+msgstr "表示"
+
+#: ../../chapter03.rst:254
+msgid "Permissions to list files"
+msgstr "ファイル一覧の権限"
+
+#: ../../chapter03.rst:255
+msgid "Permissions to read files"
+msgstr "ファイルを読み取るための権限"
+
+#: ../../chapter03.rst:256
+msgid "Permissions to create or update files and folders"
+msgstr "ファイルやフォルダを作成または更新する権限"
+
+#: ../../chapter03.rst:257
+msgid "Permissions to delete files and folders"
+msgstr "ファイルやフォルダを削除する権限"
+
+#: ../../chapter03.rst:258
+msgid "Secure data room"
+msgstr "セキュアデータルーム"
+
+#: ../../chapter03.rst:263
+msgid "SHARE ACCESS POLICY"
+msgstr "共有アクセスポリシー"
+
+#: ../../chapter03.rst:268
+msgid "ACCESS POLICY SETTINGS"
+msgstr "アクセスポリシー設定"
+
+#: ../../chapter03.rst:271 ../../chapter03.rst:499 ../../chapter03.rst:579
+msgid "Folder Permissions"
+msgstr "フォルダの権限"
+
+#: ../../chapter03.rst:273
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Folder Permissions``"
+msgstr "``テナントマネージャー`` > ``チームフォルダー`` > ``{チームフォルダーを選択}`` > ``編集アイコン`` > ``フォルダーの権限``"
+
+#: ../../chapter03.rst:275
+msgid ""
+"You can browse to different sub-folders and define the folder permission."
+" The folder permissions defined here represent the Cluster Server side of"
+" the permission."
+msgstr "異なるサブフォルダーに移動してフォルダーの権限を定義することができます。ここで定義されたフォルダーの権限は、クラスターサーバー側の権限を表しています。"
+
+#: ../../chapter03.rst:277
+msgid ""
+"If you are leveraging native Active Directory/NTFS permission from a file"
+" server, you don't need to define any permissions here."
+msgstr "ファイルサーバーからネイティブなActive Directory/NTFSの権限を利用している場合、ここで権限を定義する必要はありません。"
+
+#: ../../chapter03.rst:281
+msgid ""
+"You can think of the permissions as two different gates controlling the "
+"access to files and folders. The first gate is defined here as the "
+"``Cluster Server Folder Permission``. After this permission check, there "
+"is still a check at the file server level (which is the NTFS permission)."
+msgstr "ファイルやフォルダへのアクセスを制御する2つの異なるゲートとして、パーミッションを考えることができます。最初のゲートはここで定義されている ``クラスターサーバーフォルダパーミッション`` としています。このパーミッションチェックの後にも、ファイルサーバーレベル（NTFSパーミッション）でのチェックがあります。"
+
+#: ../../chapter03.rst:283
+msgid ""
+"In practice, usually it is done one way or the other. If you have decided"
+" to use NTFS natively, you can leave the permission settings here empty "
+"and not defined."
+msgstr "実際には、通常は一方の方法で行われます。NTFSをネイティブに使用することに決めた場合は、ここでのパーミッション設定を空のままにして、定義しないでおくことができます。"
+
+#: ../../chapter03.rst:292 ../../chapter03.rst:304 ../../chapter03.rst:607
+#: ../../chapter03.rst:931
+msgid "Settings"
+msgstr "設定"
+
+#: ../../chapter03.rst:294
+msgid ""
+"``Tenant Manager`` > ``Team Folders`` > ``{Pick a Team Folder}`` > ``Edit"
+" Icon`` > ``Settings``"
+msgstr "``テナントマネージャー`` > ``チームフォルダー`` > ``{チームフォルダーを選択}`` > ``編集アイコン`` > ``設定``"
+
+#: ../../chapter03.rst:299
+msgid "TEAM FOLDER SETTINGS OVERVIEW"
+msgstr "チームフォルダ設定の概要"
+
+#: ../../chapter03.rst:301
+msgid "Let's look at the details of the Team Folder Settings:"
+msgstr "チームフォルダー設定の詳細を見てみましょう:"
+
+#: ../../chapter03.rst:306
+msgid "**Disable further sharing**"
+msgstr "**共有をさらに無効にする**"
+
+#: ../../chapter03.rst:308
+msgid "Don't allow users to share out team folder contents."
+msgstr "チームフォルダの内容を共有できないようにします。"
+
+#: ../../chapter03.rst:310
+msgid "**Create CIFS Share**"
+msgstr "**CIFS共有を作成する**"
+
+#: ../../chapter03.rst:312
+msgid ""
+"If there are server agents connected to the tenant, create a CIFS share "
+"on the file server agent server as a standard Windows network share."
+msgstr "テナントにサーバーエージェントが接続されている場合は、ファイルサーバーエージェントサーバー上に標準のWindowsネットワーク共有としてCIFS共有を作成してください。"
+
+#: ../../chapter03.rst:314
+msgid "**Disable Offline Access**"
+msgstr "**オフラインアクセスを無効にする**"
+
+#: ../../chapter03.rst:316
+msgid ""
+"Don't allow Windows clients or Mac clients to mark their folders as "
+"offline from within the team folder."
+msgstr "チームフォルダ内でWindowsクライアントやMacクライアントがそのフォルダをオフラインとしてマークすることを許可しないでください。"
+
+#: ../../chapter03.rst:320
+msgid "Permission"
+msgstr "許可"
+
+#: ../../chapter03.rst:322
+msgid "**Hide folders to which users don't have permissions**"
+msgstr "**ユーザーに権限がないフォルダーを非表示にする**"
+
+#: ../../chapter03.rst:324
+msgid ""
+"Hide the folder instead of showing users folders that they will receive "
+"\"Access Denied\"."
+msgstr "ユーザーが「アクセス拒否」を受けるフォルダを表示する代わりに、そのフォルダを非表示にします。"
+
+#: ../../chapter03.rst:328
+msgid "Quota and Retention Policy"
+msgstr "クォータと保持ポリシー"
+
+#: ../../chapter03.rst:330
+msgid "Team folder can have a per-team folder retention policy."
+msgstr "チームフォルダには、チームごとにフォルダ保持ポリシーを設定できます。"
+
+#: ../../chapter03.rst:335
+msgid "Device Manager"
+msgstr "デバイスマネージャー"
+
+#: ../../chapter03.rst:337
+msgid "``Tenant Manager`` > ``Devices`` > ``Device Manager``"
+msgstr "``テナントマネージャー`` > ``デバイス`` > ``デバイスマネージャー``"
+
+#: ../../chapter03.rst:339
+msgid ""
+"The cluster administrator can look at the devices that have the client "
+"agent software installed and connected in the specific tenant."
+msgstr "クラスター管理者は、特定のテナントにインストールされ、接続されているクライアントエージェントソフトウェアを持つデバイスを確認できます。"
+
+#: ../../chapter03.rst:341
+msgid ""
+"This feature is used to control BYOD (Bring your own device). For some "
+"organization, they want to control who can bring what device into the "
+"system. This is the tool to control that and allow/disallow on a device "
+"by device basis."
+msgstr "この機能はBYOD（自前のデバイスを持ち込む）を管理するために使用されます。一部の組織では、どのデバイスをシステムに持ち込むことができるかを制御したいと考えています。これはその制御を行い、デバイスごとに許可・不許可を判断するツールです。"
+
+#: ../../chapter03.rst:346
+msgid "DEVICE MANAGER SETTINGS"
+msgstr "デバイスマネージャー設定"
+
+#: ../../chapter03.rst:350
+msgid "User Management"
+msgstr "ユーザー管理"
+
+#: ../../chapter03.rst:353
+msgid "Regular User"
+msgstr "一般ユーザー"
+
+#: ../../chapter03.rst:354
+msgid "``Tenant Manager`` > ``Users`` > ``User Manager``"
+msgstr "``テナントマネージャー`` > ``ユーザー`` > ``ユーザーマネージャー``"
+
+#: ../../chapter03.rst:360
+msgid "TENANT ADMIN > USER MANAGER"
+msgstr "テナント管理者 > ユーザー管理"
+
+#: ../../chapter03.rst:362
+msgid ""
+"To access the user manager, you can click the number of users on "
+"Dashboard, or click the \"Users\" on left side menu."
+msgstr "ダッシュボード上のユーザー数をクリックするか、左側のメニューにある「ユーザー」をクリックしてユーザーマネージャーにアクセスできます。"
+
+#: ../../chapter03.rst:364
+msgid ""
+"In the Documentation, the regular user is often referenced as \"Team "
+"User\"."
+msgstr "ドキュメントでは、一般ユーザーはよく「チームユーザー」として参照されます。"
+
+#: ../../chapter03.rst:366
+msgid ""
+"These are the users that have full privilege of home directory, sharing "
+"and other features."
+msgstr "これらはホームディレクトリ、共有、その他の機能の完全な権限を持つユーザーです。"
+
+#: ../../chapter03.rst:368
+msgid "User Manager also have a list view:"
+msgstr "ユーザーマネージャーにはリストビューもあります:"
+
+#: ../../chapter03.rst:374
+msgid "USER MANAGER LIST/ICON VIEW TOGGLE"
+msgstr "ユーザーマネージャーリスト/アイコンビュー切り替え"
+
+#: ../../chapter03.rst:376
+msgid ""
+"If you have Active Directory, normally these are the users in the Active "
+"Directory."
+msgstr "アクティブディレクトリをお持ちの場合、通常これらはアクティブディレクトリ内のユーザーです。"
+
+#: ../../chapter03.rst:378
+msgid "Native User"
+msgstr "ネイティブユーザー"
+
+#: ../../chapter03.rst:380
+msgid "These are the users that are created manually with an email."
+msgstr "これらはメールで手動で作成されたユーザーです。"
+
+#: ../../chapter03.rst:382
+msgid "AD User"
+msgstr "ADユーザー"
+
+#: ../../chapter03.rst:384
+msgid "These are the users that are imported from Active Directory via LDAP."
+msgstr "これらはLDAP経由でアクティブディレクトリからインポートされたユーザーです。"
+
+#: ../../chapter03.rst:386
+msgid "Proxied AD User"
+msgstr "プロキシされたADユーザー"
+
+#: ../../chapter03.rst:388
+msgid ""
+"These are the users that are imported from Server Agent, where the file "
+"server agent is remote and away from the Cluster Server in the customer's"
+" site. The customer's Active Directory domain is also remote, and the "
+"file server itself (where server agent is installed) is in the remote "
+"Active Directory."
+msgstr "これらは、ファイルサーバーエージェントがクラスターサーバーから離れた顧客のサイトにリモートであり、顧客のActive Directoryドメインもリモートであり、ファイルサーバー自体（サーバーエージェントがインストールされている）がリモートのActive Directoryにある場合に、サーバーエージェントからインポートされるユーザーです。"
+
+#: ../../chapter03.rst:391
+msgid "**User's File and Folder List**"
+msgstr "**ユーザーのファイルとフォルダのリスト**"
+
+#: ../../chapter03.rst:396
+msgid "VIEWING A USER'S FILE AND FOLDER LIST"
+msgstr "ユーザーのファイルとフォルダリストの表示"
+
+#: ../../chapter03.rst:398
+msgid ""
+"An admin can view a user's file and folder list using the drive icon "
+"**(3)** for the user in Management Console\\User Manager."
+msgstr "管理者は、Management Console\User Managerのユーザーのドライブアイコン **(3)** を使用して、ユーザーのファイルやフォルダのリストを表示できます。"
+
+#: ../../chapter03.rst:400
+msgid ""
+"First switch the icon view **(1)** to detail view **(2)** and click the "
+"drive icon **(3)** next to the user you are examining. This will open a "
+"new window **(4)** where you can view the files."
+msgstr "まず、アイコンビュー **(1)** を詳細ビュー **(2)** に切り替え、調査中のユーザーの隣にあるドライブアイコン **(3)** をクリックします。これにより、新しいウィンドウ **(4)** が開き、ファイルを表示できます。"
+
+#: ../../chapter03.rst:404 ../../chapter03.rst:1021
+msgid "Guest User"
+msgstr "ゲストユーザー"
+
+#: ../../chapter03.rst:405
+msgid "``Tenant Dashboard`` > ``Guest Users`` > ``Guest User Manager``"
+msgstr "``テナントダッシュボード`` > ``ゲストユーザー`` > ``ゲストユーザーマネージャー``"
+
+#: ../../chapter03.rst:410
+msgid "TENANT ADMIN > GUEST USER MANAGER"
+msgstr "テナント管理者 > ゲストユーザーマネージャー"
+
+#: ../../chapter03.rst:412
+msgid ""
+"Guest users are users that don't have a home directory. The only folder "
+"they have is “Files Shared with Me”. So they rely on other “Regular User”"
+" sharing files and folders with them before they can do anything. If "
+"nobody is sharing anything with a guest user, the guest user doesn't have"
+" any read/write permission to any folder."
+msgstr "ゲストユーザーはホームディレクトリを持たないユーザーです。「私と共有されたファイル」のみが彼らの持つフォルダです。従って、他の「通常ユーザー」がファイルやフォルダを共有するまで何もできません。誰もゲストユーザーと何も共有していない場合、ゲストユーザーはどのフォルダにも読み書きの権限がありません。"
+
+#: ../../chapter03.rst:414
+msgid ""
+"The primary reason for guest user to exist is to have a secure way for "
+"external user to collaborate and edit documents."
+msgstr "ゲストユーザーが存在する主な理由は、外部ユーザーが安全に協力してドキュメントを編集する方法を持つためです。"
+
+#: ../../chapter03.rst:418
+msgid "Group Manager"
+msgstr "グループマネージャー"
+
+#: ../../chapter03.rst:419
+msgid "``Tenant Dashboard`` > ``Groups`` > ``Group Manager``"
+msgstr "``テナントダッシュボード`` > ``グループ`` > ``グループマネージャー``"
+
+#: ../../chapter03.rst:424
+msgid "TENANT ADMIN > GROUP MANAGER"
+msgstr "テナント管理者 > グループマネージャー"
+
+#: ../../chapter03.rst:426
+msgid ""
+"When you have Active Directory integration, you will leverage the Active "
+"Directory group instead of using Group Manager here. This group manager "
+"is to create a group of users in a simple way. It is not as complicated "
+"as Active Directory (such as supporting nested groups) but make it easy "
+"for non-Active Directory users. This is native Cluster group. In the "
+"product, you may also see AD group from the user selection user interface"
+" and Proxied AD group from the user related interface. The AD group and "
+"the proxied AD group are not the same as the group mentioned here."
+msgstr "アクティブディレクトリの統合がある場合、ここでグループマネージャーを使用する代わりにアクティブディレクトリグループを活用します。このグループマネージャーは、ユーザーのグループを簡単な方法で作成するためのものです。それはアクティブディレクトリほど複雑ではありません（ネストされたグループのサポートなど）が、非アクティブディレクトリユーザーにとっては使いやすくなっています。これはネイティブクラスターグループです。製品では、ユーザー選択のユーザーインターフェースからADグループや、ユーザー関連のインターフェースからプロキシされたADグループも見ることができます。ここで言及されているグループとADグループ、プロキシされたADグループは同じものではありません。"
+
+#: ../../chapter03.rst:430
+msgid "Role Manager"
+msgstr "ロールマネージャー"
+
+#: ../../chapter03.rst:432
+msgid "``Tenant Dashboard`` > ``Roles`` > ``Role Manager``"
+msgstr "``テナントダッシュボード`` > ``ロール`` > ``ロールマネージャー``"
+
+#: ../../chapter03.rst:434
+msgid ""
+"The Role Manager is to provide role based administration. For example, "
+"you may want to provide read-only permissions to some users. You can also"
+" assign some group policies to some groups of users. More and more policy"
+" items are added to the role manager so in addition to only use role "
+"manager for administration, it can be also used to define policy items "
+"for users."
+msgstr "ロールマネージャーは、ロールベースの管理を提供することを目的としています。例えば、一部のユーザーに読み取り専用の権限を提供したい場合があります。また、一部のユーザーグループにグループポリシーを割り当てることもできます。ロールマネージャーにはますます多くのポリシーアイテムが追加されているため、管理のためだけでなく、ユーザーのポリシーアイテムを定義するためにも使用できます。"
+
+#: ../../chapter03.rst:439
+msgid "ROLE MANAGER ENTRY"
+msgstr "ロールマネージャーエントリ"
+
+#: ../../chapter03.rst:441
+msgid "When creating a role, there are 4 different sections"
+msgstr "ロールを作成する際には、4つの異なるセクションがあります"
+
+#: ../../chapter03.rst:443 ../../chapter03.rst:1392
+msgid "Sharing"
+msgstr "共有"
+
+#: ../../chapter03.rst:444
+msgid "Policies"
+msgstr "ポリシー"
+
+#: ../../chapter03.rst:445
+msgid "Permissions"
+msgstr "権限"
+
+#: ../../chapter03.rst:446
+msgid "Assigned Users/Groups"
+msgstr "割り当てられたユーザー/グループ"
+
+#: ../../chapter03.rst:450
+msgid "Create New Role"
+msgstr "新しい役割を作成"
+
+#: ../../chapter03.rst:452
+msgid "**Sharing**"
+msgstr "**共有**"
+
+#: ../../chapter03.rst:454
+msgid ""
+"You can define areas in the tenant administrator's management console and"
+" assign it into a role."
+msgstr "テナント管理者の管理コンソールでエリアを定義し、それをロールに割り当てることができます。"
+
+#: ../../chapter03.rst:460
+msgid "ROLE MANAGER SHARING"
+msgstr "ロールマネージャー共有"
+
+#: ../../chapter03.rst:463
+msgid "**Policies**"
+msgstr "**ポリシー**"
+
+#: ../../chapter03.rst:465
+msgid "Additional policies for the role."
+msgstr "その役割のための追加ポリシー。"
+
+#: ../../chapter03.rst:470
+msgid "ROLE MANAGER POLICIES"
+msgstr "ロールマネージャーポリシー"
+
+#: ../../chapter03.rst:472
+msgid "**Assigned Users/Groups**"
+msgstr "**割り当てられたユーザー/グループ**"
+
+#: ../../chapter03.rst:474
+msgid ""
+"After the content of the role is all set, users and groups can be "
+"assigned to a role."
+msgstr "役割の内容がすべて設定された後、ユーザーやグループを役割に割り当てることができます。"
+
+#: ../../chapter03.rst:479
+msgid "ROLE MANAGER ASSIGNED USERS/GROUPS"
+msgstr "ロールマネージャー割り当てユーザー/グループ"
+
+#: ../../chapter03.rst:484
+msgid "Reports"
+msgstr "レポート"
+
+#: ../../chapter03.rst:486
+msgid "``Tenant Manager`` > ``Reports``"
+msgstr "``テナントマネージャー`` > ``レポート``"
+
+#: ../../chapter03.rst:488
+msgid ""
+"The cluster administrator can look at the tenant specific reports for the"
+" tenant."
+msgstr "クラスター管理者は、テナント固有のレポートをテナントについて確認できます。"
+
+#: ../../chapter03.rst:490
+msgid "The Reports section has the following sub categories"
+msgstr "レポートセクションには以下のサブカテゴリがあります"
+
+#: ../../chapter03.rst:492 ../../chapter03.rst:511
+msgid "Upload Report"
+msgstr "レポートをアップロード"
+
+#: ../../chapter03.rst:493 ../../chapter03.rst:519
+msgid "Storage Statistics"
+msgstr "ストレージ統計"
+
+#: ../../chapter03.rst:494 ../../chapter03.rst:528
+msgid "Bandwidth Usage"
+msgstr "帯域幅の使用状況"
+
+#: ../../chapter03.rst:496 ../../chapter03.rst:546
+msgid "Shared Objects"
+msgstr "共有オブジェクト"
+
+#: ../../chapter03.rst:497 ../../chapter03.rst:555 ../../chapter03.rst:943
+msgid "Audit Trace"
+msgstr "監査トレース"
+
+#: ../../chapter03.rst:498
+msgid "File Change Logging"
+msgstr "ファイル変更ログ"
+
+#: ../../chapter03.rst:500 ../../chapter03.rst:588
+msgid "Distributed Locks"
+msgstr "分散ロック"
+
+#: ../../chapter03.rst:501
+msgid "Pending Purged Folders"
+msgstr "保留中の削除済みフォルダ"
+
+#: ../../chapter03.rst:507
+msgid "TENANT MANAGER REPORTS"
+msgstr "テナントマネージャーレポート"
+
+#: ../../chapter03.rst:515
+msgid "UPLOAD REPORT"
+msgstr "アップロードレポート"
+
+#: ../../chapter03.rst:524
+msgid "STORAGE STATISTICS REPORT"
+msgstr "ストレージ統計レポート"
+
+#: ../../chapter03.rst:533
+msgid "BANDWITH USAGE REPORT"
+msgstr "バンド幅使用レポート"
+
+#: ../../chapter03.rst:542
+msgid "TEAM FOLDERS REPORT"
+msgstr "チームフォルダレポート"
+
+#: ../../chapter03.rst:551
+msgid "SHARED OBJECTS REPORT"
+msgstr "共有オブジェクトレポート"
+
+#: ../../chapter03.rst:557
+msgid ""
+"Audit trace contains the management events, such as login success, login "
+"fail , shared a folder and etc."
+msgstr "監査トレースには、ログイン成功、ログイン失敗、フォルダーの共有などの管理イベントが含まれます。"
+
+#: ../../chapter03.rst:562
+msgid "AUDIT TRACE REPORT"
+msgstr "監査トレースレポート"
+
+#: ../../chapter03.rst:566
+msgid "File Change Log"
+msgstr "ファイル変更ログ"
+
+#: ../../chapter03.rst:568
+msgid ""
+"File change log is capable of search for user's file change history. It "
+"is most useful when helping user troubleshoot issues. For example, you "
+"can point to the file change log and say, you deleted this file on this "
+"day."
+msgstr "ファイル変更ログは、ユーザーのファイル変更履歴を検索できます。これは、ユーザーが問題をトラブルシューティングする際に最も役立ちます。例えば、この日にこのファイルを削除したとファイル変更ログを指摘できます。"
+
+#: ../../chapter03.rst:575
+msgid "FILE CHANGE LOGGING REPORT"
+msgstr "ファイル変更ログレポート"
+
+#: ../../chapter03.rst:584
+msgid "FOLDER PERMISSIONS REPORT"
+msgstr "フォルダの権限レポート"
+
+#: ../../chapter03.rst:593
+msgid "DISTRIBUTED LOCKS REPORT"
+msgstr "分散ロックレポート"
+
+#: ../../chapter03.rst:597
+msgid "Pending Purged Folder"
+msgstr "保留中のパージ済みフォルダ"
+
+#: ../../chapter03.rst:602
+msgid "PENDING PURGED FOLDER REPORT"
+msgstr "保留中の削除済みフォルダレポート"
+
+#: ../../chapter03.rst:611
+msgid "Active Directory"
+msgstr "アクティブディレクトリ"
+
+#: ../../chapter03.rst:612
+msgid "``Tenant Manager`` > ``Settings`` > ``Active Directory``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``アクティブディレクトリ``"
+
+#: ../../chapter03.rst:617
+msgid "ACTIVE DIRECTORY SETTINGS"
+msgstr "アクティブディレクトリ設定"
+
+#: ../../chapter03.rst:620
+msgid "Local Active Directory"
+msgstr "ローカルアクティブディレクトリ"
+
+#: ../../chapter03.rst:621
+msgid ""
+"If the tenant's infrastructure is in the same local area network as the "
+"Cluster Server, the Active Directory can be directly accessed and "
+"integrated from the \"Local Active Directory\" page. The integration is "
+"done over LDAP protocol."
+msgstr "テナントのインフラストラクチャがクラスターサーバーと同じローカルエリアネットワーク内にある場合、Active Directoryは「ローカルActive Directory」ページから直接アクセスして統合することができます。統合はLDAPプロトコルを介して行われます。"
+
+#: ../../chapter03.rst:623
+msgid ""
+"However, if the tenant's infrastructure is away from the Cluster Server, "
+"it is recommended using \"Server Agent\" to connect both the tenant's "
+"file server and Active Directory to the Cluster Server."
+msgstr "ただし、テナントのインフラストラクチャがクラスターサーバーから離れている場合は、「サーバーエージェント」を使用して、テナントのファイルサーバーとアクティブディレクトリをクラスターサーバーに接続することをお勧めします。"
+
+#: ../../chapter03.rst:627
+msgid ""
+"If your Active Directory is away from the Cluster Server over the "
+"Internet, skip the \"Local Active Directory\" section but use the "
+"\"Remote Active Directory\" instead."
+msgstr "もしActive Directoryがインターネットを介してクラスターサーバーから離れている場合は、「ローカルActive Directory」セクションをスキップして、「リモートActive Directory」を使用してください。"
+
+#: ../../chapter03.rst:629
+msgid "Use LDAP AD Setting only if the AD is in the same Local Area Network."
+msgstr "LDAP AD設定は、ADが同じローカルエリアネットワーク内にある場合にのみ使用してください。"
+
+#: ../../chapter03.rst:633
+msgid ""
+"The difference between using LDAP to connect Active Directory and using "
+"\"Server Agent\" to connect Active Directory:"
+msgstr "LDAPを使用してアクティブディレクトリに接続することと、「サーバーエージェント」を使用してアクティブディレクトリに接続することの違い:"
+
+#: ../../chapter03.rst:635
+msgid ""
+"By using LDAP to connect Active Directory, the assumption is that the "
+"LDAP is local in the local area network so the speed is very fast and "
+"also very reliable. So a lot of the calls and queries are directly "
+"passing through to Active Directory."
+msgstr "LDAPを使用してアクティブディレクトリに接続する場合、LDAPはローカルエリアネットワーク内にあり、速度が非常に速く、また非常に信頼性が高いという前提があります。したがって、多くの呼び出しやクエリはアクティブディレクトリに直接渡されます。"
+
+#: ../../chapter03.rst:637
+msgid ""
+"By Using Server Agent to connect Active Directory, the assumption is that"
+" the Active Directory is in a remote location and over the Internet so "
+"the access speed may not be fast and the Internet may not be 100 percent "
+"up and reliable. So the server agent replicates Active Directory related "
+"information over to the Cluster Server."
+msgstr "サーバーエージェントを使用してアクティブディレクトリに接続する場合、アクティブディレクトリはリモートの場所にあり、インターネット経由であるため、アクセス速度が速くない可能性があり、インターネットが100パーセント稼働しているとは限りません。そのため、サーバーエージェントはアクティブディレクトリに関連する情報をクラスターサーバーにレプリケートします。"
+
+#: ../../chapter03.rst:641
+msgid ""
+"The connection to local active directory is via LDAP over Local Area "
+"Network. If the active directory infrastructure is in the same network as"
+" the Cluster Server, this is a convenient way to connect to the active "
+"directory."
+msgstr "ローカルアクティブディレクトリへの接続は、ローカルエリアネットワーク上のLDAPを介して行われます。アクティブディレクトリのインフラストラクチャがクラスターサーバーと同じネットワーク内にある場合、これはアクティブディレクトリに接続する便利な方法です。"
+
+#: ../../chapter03.rst:644
+msgid "AD Server"
+msgstr "ADサーバー"
+
+#: ../../chapter03.rst:649
+msgid "ACTIVE DIRECTORY - AD SERVER"
+msgstr "アクティブディレクトリ - ADサーバー"
+
+#: ../../chapter03.rst:651
+msgid "**Enable Active Directory Integration**"
+msgstr "**Active Directory 連携を有効にする**"
+
+#: ../../chapter03.rst:653
+msgid "You will check this when you want to integration with Active Directory."
+msgstr "Active Directoryとの統合を行いたいときにこれを確認します。"
+
+#: ../../chapter03.rst:658
+msgid ""
+"There are two different ways to integrate with Active Directory. One way "
+"is here, using the Lightweight Directory Access Protocol (LDAP) "
+"connection. The other way is to leverage the server agent software. The "
+"server agent software is capable of connecting a remote Active Directory."
+msgstr "Active Directoryとの統合方法には2種類あります。1つは、軽量ディレクトリアクセスプロトコル（LDAP）接続を使用する方法です。もう1つは、サーバーエージェントソフトウェアを活用する方法です。サーバーエージェントソフトウェアは、リモートのActive Directoryに接続することができます。"
+
+#: ../../chapter03.rst:660
+msgid "**Domain Controller Address**"
+msgstr "**ドメインコントローラーアドレス**"
+
+#: ../../chapter03.rst:662
+msgid "The domain controller's address, typically in the form of DNS name."
+msgstr "ドメインコントローラのアドレスは、通常DNS名の形式です。"
+
+#: ../../chapter03.rst:664 ../../chapter03.rst:1919
+msgid "**User Name**"
+msgstr "**ユーザー名**"
+
+#: ../../chapter03.rst:666
+msgid ""
+"This is recommended to be a service account (password never expire, "
+"account never disable” so the user will be able to query LDAP for users "
+"and authenticate users on the login user's behave."
+msgstr "これはサービスアカウント（パスワードが期限切れにならない、アカウントが無効にならない）として推奨されます。これにより、ユーザーはLDAPをクエリしてユーザーを認証し、ログインユーザーの代わりにユーザーを認証することができます。"
+
+#: ../../chapter03.rst:668 ../../chapter03.rst:1924
+msgid "**Password**"
+msgstr "**パスワード**"
+
+#: ../../chapter03.rst:670
+msgid "This is the password for the service account for the “User Name” field."
+msgstr "これは「ユーザー名」フィールドのサービスアカウントのパスワードです。"
+
+#: ../../chapter03.rst:674
+msgid "Advanced Settings"
+msgstr "詳細設定"
+
+#: ../../chapter03.rst:679
+msgid "ACTIVE DIRECTORY - ADVANCED SETTINGS"
+msgstr "アクティブディレクトリ - 高度な設定"
+
+#: ../../chapter03.rst:682
+msgid "**Friendly Domain Name**"
+msgstr "**フレンドリードメイン名**"
+
+#: ../../chapter03.rst:684
+msgid ""
+"**(i.e. mydomain.com, the domain name you see in Active Directory "
+"tools)** This is typically the domain name you see in the Microsoft "
+"Domain and User tool. It needs to be exact match of the domain name. "
+"Otherwise, you will see error message about “referral is required” , "
+"which translates to the domain controller didn't match the domain name "
+"and need to refer you to somewhere else for another domain name."
+msgstr "**(例: mydomain.com、Active Directory ツールで表示されるドメイン名)** これは通常、Microsoft ドメインおよびユーザーツールで表示されるドメイン名です。ドメイン名と完全に一致する必要があります。そうでない場合、「リファラルが必要です」というエラーメッセージが表示されます。これは、ドメインコントローラがドメイン名と一致せず、別のドメイン名について他の場所を参照する必要があることを意味します。"
+
+#: ../../chapter03.rst:689
+msgid "FRIENDLY DOMAIN NAME EXAMPLE"
+msgstr "フレンドリードメイン名の例"
+
+#: ../../chapter03.rst:691
+msgid "**Enable LDAPS for secure access**"
+msgstr "**LDAPSを有効にして安全なアクセスを実現**"
+
+#: ../../chapter03.rst:693
+msgid ""
+"Disabled by default. Enable this if you are using SSL security on the "
+"domain."
+msgstr "デフォルトでは無効です。ドメインにSSLセキュリティを使用している場合は、これを有効にしてください。"
+
+#: ../../chapter03.rst:695
+msgid "**Only include users and groups from the following Organizational Units**"
+msgstr "**次の組織単位からユーザーとグループのみを含める**"
+
+#: ../../chapter03.rst:697
+msgid ""
+"**(e.g. OU=ou1,OU=ou2. Leave this blank to include all OUs)** When you "
+"type in the organization unit, you don't need to type the domain part any"
+" more. It just need the Organization Unit part of the string. This is "
+"allowed for only single Organization Unit specified in its "
+"distinguishedName format without the domain suffix."
+msgstr "**(例: OU=ou1,OU=ou2。すべてのOUを含める場合は、この欄を空白にしてください)** 組織単位を入力する際には、ドメイン部分を入力する必要はありません。文字列の組織単位部分のみが必要です。これは、ドメインサフィックスなしで distinguishedName 形式で指定された単一の組織単位にのみ許可されます。"
+
+#: ../../chapter03.rst:699
+msgid "**Allow Switching to Global Catalog If needed**"
+msgstr "**グローバルカタログに切り替えることを許可する場合が必要**"
+
+#: ../../chapter03.rst:701
+msgid ""
+"Disabled by default. For some organization that has multiple domain, "
+"sometimes there is a Global Catalog that stores everything inside. This "
+"may be required if you have such situation."
+msgstr "デフォルトでは無効です。複数のドメインを持つ組織の場合、すべてを内部に格納するグローバルカタログがあることがあります。このような状況がある場合は、これが必要になるかもしれません。"
+
+#: ../../chapter03.rst:703
+msgid "**Disable Nested Groups**"
+msgstr "**ネストされたグループを無効にする**"
+
+#: ../../chapter03.rst:705
+msgid ""
+"Not checked by default. **(Activating this checkbox may slow down your "
+"access to cloud)** Normally you will activate this option if you have "
+"many groups."
+msgstr "デフォルトではチェックされていません。**(このチェックボックスを有効にすると、クラウドへのアクセスが遅くなる可能性があります)** 通常、多くのグループを持っている場合にこのオプションを有効にします。"
+
+#: ../../chapter03.rst:707
+msgid "**This is the root of the AD Forest and contains multiple sub-domains**"
+msgstr "**これはADフォレストのルートであり、複数のサブドメインが含まれています**"
+
+#: ../../chapter03.rst:709
+msgid ""
+"The Cluster Server supports multiple domains in the same AD forest. You "
+"will need to point to the root of the AD and it is capable of finding all"
+" the sub-domains if you enable the **Discover domain controller IP at "
+"runtime** sub-opion."
+msgstr "クラスターサーバーは、同じADフォレスト内の複数のドメインをサポートしています。ADのルートを指定する必要があり、**ランタイム時にドメインコントローラーのIPを発見する** サブオプションを有効にすると、すべてのサブドメインを見つけることができます。"
+
+#: ../../chapter03.rst:711
+msgid "**Don't allow user auto-creation**"
+msgstr "**ユーザーの自動作成を許可しない**"
+
+#: ../../chapter03.rst:713
+msgid ""
+"By default, the Enterprise package is capable of creating users upon "
+"first login into the web portal. However, for big enterprise, they may "
+"want to control the pace of adding users to the system so they will "
+"disable this feature."
+msgstr "デフォルトでは、Enterpriseパッケージは、ウェブポータルへの初回ログイン時にユーザーを作成することができます。しかし、大企業の場合、システムにユーザーを追加するペースを制御したいため、この機能を無効にすることがあります。"
+
+#: ../../chapter03.rst:715 ../../chapter03.rst:1291
+msgid "**Publish user's home drive**"
+msgstr "**ユーザーのホームドライブを公開する**"
+
+#: ../../chapter03.rst:717
+msgid ""
+"When unchecked (default), the user home drive space will be allocated "
+"from enterprise storage. When checked, existing user home drives will be "
+"automatically published from Active Directory."
+msgstr "チェックを外す（デフォルト）と、ユーザーのホームドライブ領域はエンタープライズストレージから割り当てられます。チェックを入れると、既存のユーザーホームドライブがアクティブディレクトリから自動的に公開されます。"
+
+#: ../../chapter03.rst:722
+msgid "USER'S PROFILE HOME FOLDER SETTING"
+msgstr "ユーザーのプロファイルホームフォルダ設定"
+
+#: ../../chapter03.rst:729
+msgid "Single Sign-On (SAML Integration)"
+msgstr "シングルサインオン（SAML統合）"
+
+#: ../../chapter03.rst:731
+msgid "``Tenant Manager`` > ``Settings`` > ``Single Sign-On``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``シングルサインオン``"
+
+#: ../../chapter03.rst:733
+msgid "Single Sign on via SAML is a per-tenant setting."
+msgstr "SAMLを介したシングルサインオンは、テナントごとの設定です。"
+
+#: ../../chapter03.rst:738
+msgid "ACCESSING SINGLE SIGN ON (SSO) SETTINGS"
+msgstr "シングルサインオン(SSO)設定へのアクセス"
+
+#: ../../chapter03.rst:744
+msgid "SINGLE SIGN ON (SSO) SETTINGS"
+msgstr "シングルサインオン（SSO）設定"
+
+#: ../../chapter03.rst:747
+msgid "Single Sign-On is available using SAML authentication."
+msgstr "SAML認証を使用してシングルサインオンが利用可能です。"
+
+#: ../../chapter03.rst:749
+msgid ""
+"When it comes to Single Sign-On support via SAML, there are always two "
+"parties."
+msgstr "SAMLを介したシングルサインオンのサポートに関しては、常に二つの当事者が存在します。"
+
+#: ../../chapter03.rst:751
+msgid "One is the IdP (the identity provider)"
+msgstr "一つはIdP（アイデンティティプロバイダ）です"
+
+#: ../../chapter03.rst:752
+msgid "and the other is SP (service provider)"
+msgstr "もう一方はSP（サービスプロバイダー）です"
+
+#: ../../chapter03.rst:754
+msgid ""
+"A user will be registered with the identity provider and use the service "
+"from service provider. The setup here is to allow service provider (the "
+"Cluster Server) to use an identity provider."
+msgstr "ユーザーは、アイデンティティプロバイダーに登録され、サービスプロバイダーからサービスを利用します。ここでの設定は、サービスプロバイダー（クラスターサーバー）がアイデンティティプロバイダーを使用することを許可するためのものです。"
+
+#: ../../chapter03.rst:757
+msgid ""
+"The SAML single sign on setup is mostly about matching parameters from "
+"the identity provider to the identity consumer (service provider). As "
+"shown in the screen capture, There are three types of identity provider, "
+"\"Azure AD\" , \"AD FS\" , and \"others (generic)\" that pretty much "
+"covers the most used ones and the most generic ones."
+msgstr "SAMLシングルサインオンの設定は、ほとんどがアイデンティティプロバイダからアイデンティティコンシューマ（サービスプロバイダ）へのパラメータのマッチングに関するものです。スクリーンキャプチャに示されているように、「Azure AD」、「AD FS」、そして「その他（汎用）」の3種類のアイデンティティプロバイダがあり、これにより最も一般的に使用されるものと最も汎用性の高いものがほぼ網羅されています。"
+
+#: ../../chapter03.rst:762
+msgid "**Others (Generic SAML)**"
+msgstr "**その他（汎用SAML）**"
+
+#: ../../chapter03.rst:764
+msgid ""
+"Here, The IdP will be a public IdP such as SSOCircle and the SP will be "
+"the Cluster Server. The SSOCircle is used as an example to set up the "
+"IdP; it can work with other IdP as well."
+msgstr "ここでは、IdPはSSOCircleのような公開IdPであり、SPはクラスターサーバーになります。SSOCircleはIdPの設定例として使用されていますが、他のIdPでも機能します。"
+
+#: ../../chapter03.rst:767
+msgid ""
+"In a multi-tenant Cluster Server deployment each tenant may want to have "
+"its own SSO service. Therefore, the Single Sign On is a per-tenant "
+"setting."
+msgstr "マルチテナントクラスターサーバーの展開では、各テナントが独自のSSOサービスを持ちたい場合があります。したがって、シングルサインオンはテナントごとの設定です。"
+
+#: ../../chapter03.rst:770
+msgid "**Step 1: Register the Cluster Server at IdP**"
+msgstr "**ステップ1: IdPでクラスターサーバーを登録する**"
+
+#: ../../chapter03.rst:772
+msgid ""
+"IdP will need to register the Cluster Server as a service provider (SP) "
+"by importing the SP's meta data. You will find the Cluster's metadata at "
+"the following location (per-tenant setting)."
+msgstr "IdPは、SPのメタデータをインポートすることによってクラスターサーバーをサービスプロバイダー（SP）として登録する必要があります。クラスターのメタデータは以下の場所（テナントごとの設定）で見つけることができます。"
+
+#: ../../chapter03.rst:777
+msgid "SERVICE PROVIDER META DATA LINK"
+msgstr "サービスプロバイダーメタデータリンク"
+
+#: ../../chapter03.rst:779
+msgid ""
+"We can use the following xml to register the Cluster as an SP at "
+"SSOCircle:"
+msgstr "次のxmlを使用して、クラスタをSSOCircleのSPとして登録できます:"
+
+#: ../../chapter03.rst:784
+msgid "REGISTER CLUSTER SERVER AS AN SP AT SSOCIRCLE"
+msgstr "SSOCIRCLEでクラスターサーバーをSPとして登録"
+
+#: ../../chapter03.rst:786
+msgid "Now at the SSOCircle, need to add a new service provider:"
+msgstr "現在SSOCircleにいますが、新しいサービスプロバイダを追加する必要があります："
+
+#: ../../chapter03.rst:791
+msgid "ADD A SERVICE PROVIDER AT SSOCIRCLE"
+msgstr "SSOCIRCLEでサービスプロバイダを追加する"
+
+#: ../../chapter03.rst:793
+msgid ""
+"In the next screen we can paste in the xml from the Cluster side, set the"
+" FQDN to the URL contained within the XML, and check the 3 parameters, "
+"the FirstName, LastName and Email."
+msgstr "次の画面では、クラスター側からのxmlを貼り付け、XML内に含まれるURLにFQDNを設定し、FirstName、LastName、Emailの3つのパラメータを確認できます。"
+
+#: ../../chapter03.rst:799
+msgid "INSERT YOUR METADATA INFORMATION"
+msgstr ""
+
+#: ../../chapter03.rst:801
+msgid "Now the SSOCircle side of the registration is done."
+msgstr "これでSSOCircle側の登録が完了しました。"
+
+#: ../../chapter03.rst:803
+msgid "**Step 2: Register SSOCircle at the Cluster Server side**"
+msgstr "**ステップ2: クラスターサーバー側でSSOCircleを登録する**"
+
+#: ../../chapter03.rst:805
+msgid ""
+"The IdP registration and SP registration is a two-way I trust you and now"
+" you trust me kind of manual setup."
+msgstr "IdP登録とSP登録は、お互いに信頼するという種類の手動セットアップです。"
+
+#: ../../chapter03.rst:810
+msgid "MUTUAL TRUST SP REGISTRATION"
+msgstr "相互信頼SP登録"
+
+#: ../../chapter03.rst:812
+msgid ""
+"The meta data from the SSOCircle look like this and it can be imported to"
+" the Cluster Server."
+msgstr "SSOCircleからのメタデータはこのようになっており、クラスターサーバーにインポートすることができます。"
+
+#: ../../chapter03.rst:817
+msgid "EXAMPLE OF SSOCIRCLE META DATA"
+msgstr "SSOCIRCLEメタデータの例"
+
+#: ../../chapter03.rst:819
+msgid ""
+"Inside the meta data from SSOCircle, you will see there is a HTTP-"
+"Redirect URL, that will be the URL we use to register the IdP. And also "
+"register the 3 parameters (FirstName, LastName, EmailAddress) from the "
+"IdP."
+msgstr "SSOCircleのメタデータ内には、HTTP-Redirect URLがあります。これが私たちがIdPを登録するために使用するURLです。そして、IdPからの3つのパラメータ（FirstName、LastName、EmailAddress）も登録します。"
+
+#: ../../chapter03.rst:825
+msgid "SINGLE SIGN ON SETTINGS"
+msgstr "シングルサインオン設定"
+
+#: ../../chapter03.rst:827
+msgid "**Step 3: Login at the IdP, but use service at SP**"
+msgstr "**ステップ3：IdPでログインするが、SPでサービスを使用する**"
+
+#: ../../chapter03.rst:829
+msgid ""
+"As the summary, the IdP and SP register each other's meta data, register "
+"each other's URL and parameters. After that, it will be single signon at "
+"the IdP side. The login will be at the IdP side, and after login, it will"
+" redirect back to the SP side."
+msgstr "要約として、IdPとSPはお互いのメタデータを登録し、お互いのURLとパラメータを登録します。その後、IdP側でシングルサインオンになります。ログインはIdP側で行われ、ログイン後にSP側にリダイレクトされます。"
+
+#: ../../chapter03.rst:836
+msgid "IDP SIDE SIGLE SIGNON"
+msgstr "IDP側シングルサインオン"
+
+#: ../../chapter03.rst:839
+msgid "File Locking"
+msgstr "ファイルロッキング"
+
+#: ../../chapter03.rst:841
+msgid "``Tenant Manager`` > ``Settings`` > ``File Locking``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ファイルロッキング``"
+
+#: ../../chapter03.rst:843
+msgid ""
+"File Locking can be accessed from the \"Settings\" menu in the Tenant "
+"Dashboard."
+msgstr "ファイルロックは、テナントダッシュボードの「設定」メニューからアクセスできます。"
+
+#: ../../chapter03.rst:848
+msgid "FILE LOCKING SETTING"
+msgstr "ファイルロック設定"
+
+#: ../../chapter03.rst:850
+msgid ""
+"After you click the \"Settings\" icon in \"File Locking\" window, here is"
+" the screen for the file locking settings details."
+msgstr "「ファイルロック」ウィンドウで「設定」アイコンをクリックすると、ファイルロック設定の詳細画面が表示されます。"
+
+#: ../../chapter03.rst:855
+msgid "FILE LOCKING SETTINGS"
+msgstr "ファイルロック設定"
+
+#: ../../chapter03.rst:858
+msgid ""
+"Settings under file locking applies to all clients which include desktop "
+"clients as well as server agent clients."
+msgstr "ファイルロックに関する設定は、デスクトップクライアントおよびサーバーエージェントクライアントを含むすべてのクライアントに適用されます。"
+
+#: ../../chapter03.rst:861
+msgid "**Enable Distributed locking when accessing files**"
+msgstr "**分散ロックを使用してファイルにアクセスする際に有効にする**"
+
+#: ../../chapter03.rst:863
+msgid ""
+"In the Cluster Server, there are two ways to lock files, one is manually "
+"by right-clicking on a file and select “Check out”. The other way is "
+"automatic based on certain binary executables. For example, you can see "
+"Microsoft Office executable files like winword.exe and so on."
+msgstr "クラスターサーバーでは、ファイルをロックする方法が2つあります。1つはファイルを右クリックして「チェックアウト」を選択する手動方式です。もう1つの方法は、特定のバイナリ実行ファイルに基づいた自動方式です。例えば、winword.exeなどのMicrosoft Officeの実行ファイルを見ることができます。"
+
+#: ../../chapter03.rst:866
+msgid "**Lock file exclusively**"
+msgstr "**ファイルを排他的にロック**"
+
+#: ../../chapter03.rst:868
+msgid ""
+"When enabled, the locked file will be locked exclusively. When disabled, "
+"the other user who is trying to open the locked file will be notified "
+"about the lock status, but will still be able to open the file."
+msgstr "有効にすると、ロックされたファイルは排他的にロックされます。無効にすると、ロックされたファイルを開こうとしている他のユーザーにロック状態が通知されますが、ファイルを開くことができます。"
+
+#: ../../chapter03.rst:871
+msgid ""
+"**Automatically open file in read only mode when file is locked and "
+"\"Lock file exclusively\" is not checked.**"
+msgstr "**ファイルがロックされていて「ファイルを排他的にロックする」がチェックされていない場合、ファイルを読み取り専用モードで自動的に開く。**"
+
+#: ../../chapter03.rst:873
+msgid ""
+"When this setting is enabled (default), a second attempt to open a locked"
+" file will result in the file opening in read-only mode. If \"Lock file "
+"exclusively\" is checked, then second user will not be able to open a "
+"locked file."
+msgstr "この設定を有効にすると（デフォルト）、ロックされたファイルを開こうとする二度目の試みは、ファイルが読み取り専用モードで開くことになります。もし「ファイルを排他的にロックする」がチェックされている場合、二番目のユーザーはロックされたファイルを開くことができません。"
+
+#: ../../chapter03.rst:876
+msgid "**Delay sync until file is unlocked**"
+msgstr "**ファイルのロックが解除されるまで同期を遅らせる**"
+
+#: ../../chapter03.rst:878
+msgid ""
+"It is recommended to check this setting. Most users have the habit to "
+"save files in the middle of editing. You don't want these edits to go "
+"every time to the cloud for these intermediate saves. You want to do a "
+"save to the cloud at the end like a grand finale. So you can delay sync "
+"until the file is unlocked."
+msgstr "この設定を確認することをお勧めします。ほとんどのユーザーは編集の途中でファイルを保存する習慣があります。これらの中間保存が毎回クラウドに行くのは望ましくありません。最後にグランドフィナーレのようにクラウドに保存したいのです。したがって、ファイルがアンロックされるまで同期を遅らせることができます。"
+
+#: ../../chapter03.rst:882
+msgid "**Unlock file after file is uploaded**"
+msgstr "**アップロード後にファイルのロックを解除**"
+
+#: ../../chapter03.rst:884
+msgid "After the file is uploaded, unlock the file."
+msgstr "ファイルのアップロード後、ファイルのロックを解除してください。"
+
+#: ../../chapter03.rst:887
+msgid "**Lock file natively on network shares**"
+msgstr "**ネットワーク共有でファイルをネイティブにロック**"
+
+#: ../../chapter03.rst:889
+msgid ""
+"When a file is locked in the |prodname|, if the file is from an attached "
+"network share, the |prodname| lock will be converted into a native file "
+"system lock on the network share. This provides locking interoperability "
+"between the |prodname| and the underlying file system network share."
+msgstr "ファイルが |prodname| でロックされている場合、そのファイルがアタッチされたネットワーク共有からのものであれば、|prodname| のロックはネットワーク共有上のネイティブなファイルシステムロックに変換されます。これにより、|prodname| と基礎となるファイルシステムネットワーク共有間でのロックの相互運用性が提供されます。"
+
+#: ../../chapter03.rst:892
+msgid ""
+"**Enable scheduled sync for files with following extensions "
+"(i.e.[.mdb][.qbw]) when the file is locked\"**"
+msgstr "**ロックされているファイルに対して、以下の拡張子を持つファイルのスケジュール同期を有効にする（例：[.mdb][.qbw]）**"
+
+#: ../../chapter03.rst:894
+msgid ""
+"When files are locked, the client will consolidate multiple changes into "
+"one upload event and use Volume Shadow Copy to avoid interfering with "
+"applications that are using the files. Typically this applies to database"
+" files that are constantly in use and constantly actively writing "
+"(commit) to the database file."
+msgstr "ファイルがロックされている場合、クライアントは複数の変更を1つのアップロードイベントにまとめ、ファイルを使用しているアプリケーションの邪魔をしないようにボリュームシャドウコピーを使用します。通常、これは常に使用中で、データベースファイルに対して常にアクティブに書き込み（コミット）を行っているデータベースファイルに適用されます。"
+
+#: ../../chapter03.rst:897
+msgid "**How often to sync the files with above extensions**"
+msgstr "**上記の拡張子を持つファイルをどのくらいの頻度で同期しますか**"
+
+#: ../../chapter03.rst:899
+msgid ""
+"This setting allows you to control the interval of synchronization that "
+"takes place on the above file extensions."
+msgstr "この設定により、上記のファイル拡張子に対する同期の間隔を制御できます。"
+
+#: ../../chapter03.rst:902
+msgid "**Apply lock only to the following processes (Lower case)**"
+msgstr "**次のプロセスにのみロックを適用する（小文字）**"
+
+#: ../../chapter03.rst:904
+msgid ""
+"You can specify the processes here for which locking should be applied. "
+"By default, locking is enabled for Microsoft Word, Excel, and PowerPoint."
+msgstr "ここではロックを適用するプロセスを指定できます。デフォルトでは、Microsoft Word、Excel、PowerPointに対してロックが有効になっています。"
+
+#: ../../chapter03.rst:907
+msgid "**Apply lock only to the following MAC processes\"(Lower case)**"
+msgstr "**次のMACプロセスにのみロックを適用する（小文字）**"
+
+#: ../../chapter03.rst:909
+msgid ""
+"You can specify the processes here for which locking should be applied. "
+"By default, locking is enabled for Microsoft Word, Excel, PowerPoint and "
+"MAC text editor."
+msgstr "ここではロックを適用するプロセスを指定できます。デフォルトでは、Microsoft Word、Excel、PowerPoint、およびMACテキストエディターに対してロックが有効になっています。"
+
+#: ../../chapter03.rst:912
+msgid ""
+"**Locking is disabled for files with the following extensions "
+"(i.e.[.xml][.exe])**"
+msgstr "**ロックは以下の拡張子を持つファイルには無効です（例：[.xml][.exe]）**"
+
+#: ../../chapter03.rst:914
+msgid ""
+"You can use this setting to specify which file types will be ignored with"
+" regard to the file-locking feature."
+msgstr "この設定を使用して、ファイルロック機能に関して無視されるファイルタイプを指定できます。"
+
+#: ../../chapter03.rst:918
+msgid "Notifications"
+msgstr "通知"
+
+#: ../../chapter03.rst:920
+msgid "``Tenant Manager`` > ``Settings`` > ``Notifications``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``通知``"
+
+#: ../../chapter03.rst:922
+msgid ""
+"The cluster administrator can use the notification manager to help the "
+"tenant setup notification events. The tenant administrator will receive "
+"email notifications for the events subscribed."
+msgstr "クラスター管理者は、通知マネージャーを使用してテナントの通知イベントの設定を支援できます。テナント管理者は、購読したイベントのメール通知を受け取ります。"
+
+#: ../../chapter03.rst:928
+msgid "NOTIFICATIONS"
+msgstr "通知"
+
+#: ../../chapter03.rst:936
+msgid "NOTIFICATION SETTINGS"
+msgstr "通知設定"
+
+#: ../../chapter03.rst:938
+msgid "**Send Daily Notification Email**"
+msgstr "**毎日の通知メールを送信する**"
+
+#: ../../chapter03.rst:940
+msgid ""
+"When set, the system will send email notification daily about the events "
+"you are interested (Select below)."
+msgstr "設定すると、システムはあなたが興味を持っているイベントについて毎日メール通知を送信します（以下を選択してください）。"
+
+#: ../../chapter03.rst:942
+msgid "File Changes"
+msgstr "ファイルの変更"
+
+#: ../../chapter03.rst:944
+msgid "Users approaching the storage quota limit"
+msgstr "ストレージのクオータ制限に近づいているユーザー"
+
+#: ../../chapter03.rst:945
+msgid "Notification threshold"
+msgstr "通知閾値"
+
+#: ../../chapter03.rst:947
+msgid "**Notify tenant admin when member's sync task failed or paused**"
+msgstr "**メンバーの同期タスクが失敗したか一時停止したときにテナント管理者に通知する**"
+
+#: ../../chapter03.rst:949
+msgid "**Notify tenant admin when a member shares a folder**"
+msgstr "**テナント管理者にメンバーがフォルダーを共有したときに通知する**"
+
+#: ../../chapter03.rst:951
+msgid "**Notify me when a user account is locked out**"
+msgstr "**ユーザーアカウントがロックアウトされたときに通知する**"
+
+#: ../../chapter03.rst:953
+msgid "**Do not show file change notifications on Windows and Mac client**"
+msgstr "**WindowsおよびMacクライアントでファイル変更通知を表示しない**"
+
+#: ../../chapter03.rst:955
+msgid ""
+"**Send notification to these emails in addition to tenant admin's email "
+"(email;email2)**"
+msgstr "**テナント管理者のメールに加えて、これらのメールアドレスに通知を送信する (email;email2)**"
+
+#: ../../chapter03.rst:957
+msgid "This is used for additional administrators to receive email notification."
+msgstr "これは追加の管理者がメール通知を受け取るために使用されます。"
+
+#: ../../chapter03.rst:960
+msgid "Shared File/Folder"
+msgstr "共有されたファイル/フォルダ"
+
+#: ../../chapter03.rst:965
+msgid "SHARES SUBSCRIPTIONS"
+msgstr "シェア登録"
+
+#: ../../chapter03.rst:967
+msgid "Notification regarding modified/downloaded shared files and folders."
+msgstr "共有されたファイルやフォルダが変更されたりダウンロードされたりしたことに関する通知。"
+
+#: ../../chapter03.rst:971
+msgid "Team Folder"
+msgstr "チームフォルダ"
+
+#: ../../chapter03.rst:976
+msgid "TEAM FOLDER SUBSCRIPTIONS"
+msgstr "チームフォルダサブスクリプション"
+
+#: ../../chapter03.rst:978
+msgid ""
+"Administrators can use this setting to receive notifications when changes"
+" occur in Team Folders."
+msgstr "管理者は、チームフォルダ内で変更が発生したときに通知を受け取るためにこの設定を使用できます。"
+
+#: ../../chapter03.rst:982
+msgid "User Account & Security"
+msgstr "ユーザーアカウント & セキュリティ"
+
+#: ../../chapter03.rst:985
+msgid "Tenant Administrators"
+msgstr "テナント管理者"
+
+#: ../../chapter03.rst:987
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Tenant Administrators``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ユーザーアカウントとセキュリティ`` > ``テナント管理者``"
+
+#: ../../chapter03.rst:989
+msgid ""
+"In the administrator information page, the cluster administrator can help"
+" the tenant manager change their email and user name if they need to, and"
+" to also setup delegated administrators."
+msgstr "管理者情報ページでは、クラスター管理者はテナントマネージャーが必要に応じてメールアドレスやユーザー名を変更するのを手伝うことができ、また委任された管理者を設定することもできます。"
+
+#: ../../chapter03.rst:991
+msgid ""
+"The delegated administrators that are setup at the cluster level are "
+"users who are already in the Cluster Server and will be helping out the "
+"management of this specific tenant. Access these settings by clicking "
+"\"User Account & Security\" from \"Settings\" section, and choose the "
+"\"Tenant Administrators\" icon. You can define a group of users here to "
+"delegate the administration of tenants to other users."
+msgstr "クラスターレベルで設定されている委任管理者は、既にクラスターサーバーにいるユーザーであり、この特定のテナントの管理を支援します。これらの設定にアクセスするには、「設定」セクションから「ユーザーアカウント＆セキュリティ」をクリックし、「テナント管理者」アイコンを選択します。ここでユーザーのグループを定義して、他のユーザーにテナントの管理を委任できます。"
+
+#: ../../chapter03.rst:996
+msgid "TENANT ADMINISTRATORS"
+msgstr "テナント管理者"
+
+#: ../../chapter03.rst:1001
+msgid ""
+"Delegated administrators have two different roles. First of all, they are"
+" not the default administrator in the tenant so normally they are just "
+"normal team users in the tenant."
+msgstr "委任された管理者には2つの異なる役割があります。まず第一に、彼らはテナントのデフォルト管理者ではないので、通常はテナント内の普通のチームユーザーです。"
+
+#: ../../chapter03.rst:1005
+msgid ""
+"However, they can elevate themselves into the admin role by clicking the "
+"elevation icon that is available to delegated administrators."
+msgstr "しかし、委任された管理者は、利用可能な昇格アイコンをクリックすることで、自らを管理者ロールに昇格させることができます。"
+
+#: ../../chapter03.rst:1009
+msgid "User Account"
+msgstr "ユーザーアカウント"
+
+#: ../../chapter03.rst:1011
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``User "
+"Account``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ユーザーアカウント & セキュリティ`` > ``ユーザーアカウント``"
+
+#: ../../chapter03.rst:1013
+msgid ""
+"This is how \"User Account\" settings looks when \"2-Step Verification is"
+" not turned on by the Cluster Manager."
+msgstr "これが「クラスターマネージャーによって「2段階認証」が有効にされていない場合の「ユーザーアカウント」設定の見え方です。"
+
+#: ../../chapter03.rst:1018
+msgid "USER ACCOUNT SETTINGS"
+msgstr "ユーザーアカウント設定"
+
+#: ../../chapter03.rst:1022
+msgid "**Allow creation of guest user**"
+msgstr "**ゲストユーザーの作成を許可**"
+
+#: ../../chapter03.rst:1024
+msgid ""
+"When enabled (default), you will allow creating of guest user when team "
+"user share files or folders with external users. When disabled, the "
+"file/folder sharing is limited to regular users only or anonymous users "
+"only."
+msgstr "有効にすると（デフォルト）、チームユーザーがファイルやフォルダーを外部ユーザーと共有する際にゲストユーザーの作成を許可します。無効にすると、ファイル/フォルダーの共有は通常ユーザーのみ、または匿名ユーザーのみに限定されます。"
+
+#: ../../chapter03.rst:1027
+msgid "Account Info"
+msgstr "アカウント情報"
+
+#: ../../chapter03.rst:1028
+msgid "**Allow user to edit account info**"
+msgstr "**アカウント情報の編集をユーザーに許可する**"
+
+#: ../../chapter03.rst:1030
+msgid ""
+"When enabled (default), this setting allows users to edit their account "
+"information."
+msgstr "有効にすると（デフォルト）、この設定によりユーザーは自分のアカウント情報を編集できるようになります。"
+
+#: ../../chapter03.rst:1032
+msgid "**Allow proxied AD user to change native password (Non AD Password)**"
+msgstr "**プロキシされたADユーザーにネイティブパスワードの変更を許可する（非ADパスワード）**"
+
+#: ../../chapter03.rst:1034
+msgid ""
+"Proxied AD user refers to Active Directory users from remote server agent"
+" machine. Normally the initial password and changed password are "
+"synchronized from the server agent side periodically so the end user is "
+"always using the same Active Directory credentials to log in. However, "
+"there may be cases when you want the user to break away from the old "
+"Active Directory and setup credential natively on |prodname|."
+msgstr "プロキシされたADユーザーは、リモートサーバーエージェントマシンのActive Directoryユーザーを指します。通常、初期パスワードと変更されたパスワードは、サーバーエージェント側から定期的に同期されるため、エンドユーザーは常に同じActive Directoryの資格情報を使用してログインします。ただし、古いActive Directoryから離れて、|prodname| 上でネイティブに資格情報を設定したい場合があります。"
+
+#: ../../chapter03.rst:1041
+msgid "2-Step Verification"
+msgstr "2段階認証"
+
+#: ../../chapter03.rst:1045 ../../chapter03.rst:1088
+msgid "USER ACCOUNT SETTINGS (Cont.)"
+msgstr "ユーザーアカウント設定（続き）"
+
+#: ../../chapter03.rst:1048
+msgid "**Enforce 2-Step Verification on users**"
+msgstr "**ユーザーに2段階認証を強制する**"
+
+#: ../../chapter03.rst:1050
+msgid ""
+"Enforce 2-step verification will force the users to setup 2-step "
+"verification via Google Authenticator, Microsoft Authenticator, Amazon "
+"MFA or any app that supports the same 2-step verification algorithm."
+msgstr "2ステップ認証の強制は、ユーザーにGoogle Authenticator、Microsoft Authenticator、Amazon MFA、または同じ2ステップ認証アルゴリズムをサポートする任意のアプリを通じて2ステップ認証の設定を強いることになります。"
+
+#: ../../chapter03.rst:1052
+msgid "**Do not enforce 2-Step Verification on Windows client**"
+msgstr "**Windowsクライアントに2段階認証を強制しないでください**"
+
+#: ../../chapter03.rst:1054 ../../chapter03.rst:1062
+msgid "Tuning on windows client whether to enforce 2-step verification"
+msgstr "Windowsクライアントで2段階認証を強制するかどうかの設定"
+
+#: ../../chapter03.rst:1056
+msgid "**Do not enforce 2-Step Verification on Mac client**"
+msgstr "**Macクライアントに2段階認証を強制しないでください**"
+
+#: ../../chapter03.rst:1058
+msgid "Tuning on mac client whether to enforce 2-step verification"
+msgstr "Macクライアントで2ステップ認証を強制するかどうかの設定"
+
+#: ../../chapter03.rst:1060
+msgid "**Do not enforce 2-Step Verification on Mobile client**"
+msgstr "**モバイルクライアントに2段階認証を強制しないでください**"
+
+#: ../../chapter03.rst:1064
+msgid "**Disable 2-Step Verification**"
+msgstr "**2段階認証を無効にする**"
+
+#: ../../chapter03.rst:1066
+msgid ""
+"Disable 2-step verification. One possible use case is when 2-step "
+"verification is no longer needed or 2-step verification needs to be "
+"disabled temporarily."
+msgstr "2段階認証を無効にします。2段階認証が不要になった場合や、一時的に2段階認証を無効にする必要がある場合が考えられます。"
+
+#: ../../chapter03.rst:1069
+msgid "**Do NOT enforce 2-Step Verification on guest users**"
+msgstr "**ゲストユーザーに2段階認証を強制しないでください**"
+
+#: ../../chapter03.rst:1071
+msgid ""
+"Guest users may have a set of credentials to login to receive shared "
+"files and folders. This policy define whether to enforce 2-step "
+"verification for them."
+msgstr "ゲストユーザーは共有されたファイルやフォルダにアクセスするための資格情報を持っている場合があります。このポリシーは、それらに対して2段階認証を強制するかどうかを定義します。"
+
+#: ../../chapter03.rst:1074
+msgid "**Disable option to request 2-step verification code by email**"
+msgstr "**メールによる2段階認証コードのリクエストオプションを無効にする**"
+
+#: ../../chapter03.rst:1076
+msgid ""
+"If user doesn't have the 2-step verification app on the mobile device, "
+"the alternative is to send the code to user's email."
+msgstr "ユーザーがモバイルデバイスに2段階認証アプリを持っていない場合、代わりにコードをユーザーのメールに送信することができます。"
+
+#: ../../chapter03.rst:1078
+msgid "**Do not send verification code in email subject**"
+msgstr "**メールの件名に認証コードを送信しないでください**"
+
+#: ../../chapter03.rst:1080
+msgid ""
+"If the code has to be sent over email, don't send the code in the subject"
+" line."
+msgstr "コードをメールで送信する必要がある場合、件名にコードを記載しないでください。"
+
+#: ../../chapter03.rst:1084
+msgid "Login Control"
+msgstr "ログインコントロール"
+
+#: ../../chapter03.rst:1090
+msgid "**Account Lockout Threshold (0 - never lockout)**"
+msgstr "**アカウントロックアウトしきい値 (0 - ロックアウトしない)**"
+
+#: ../../chapter03.rst:1092
+msgid ""
+"You can specify the Account lockout threshold limit here. The limit "
+"specified will be the number of invalid logon attempts that will be "
+"allowed before an account is locked out. Default is 0 (never lockout)."
+msgstr "ここでアカウントロックアウトのしきい値を指定できます。指定された限界は、アカウントがロックアウトされる前に許可される無効なログオン試行の回数になります。デフォルトは0です（決してロックアウトしない）。"
+
+#: ../../chapter03.rst:1094
+msgid ""
+"**Enforce progressively longer waiting times after invalid logon "
+"attempts**"
+msgstr "**無効なログオン試行後に徐々に長くなる待機時間を強制する**"
+
+#: ../../chapter03.rst:1096
+msgid ""
+"Disabled by default. Under login control, you can also enforce "
+"progressively longer waiting times after invalid logon attempts."
+msgstr "デフォルトでは無効です。ログインコントロールの下では、無効なログオン試行の後に徐々に長くなる待機時間を強制することもできます。"
+
+#: ../../chapter03.rst:1098
+msgid "**Send email notification when logging in from a new location/device**"
+msgstr "**新しい場所/デバイスからログインする際にメール通知を送信する**"
+
+#: ../../chapter03.rst:1100
+msgid ""
+"Disabled by default. Another setting under login control is the 'Send "
+"email notification when login from new location/device'. This setting "
+"will send an email to users whenever a different device or location is "
+"used to login."
+msgstr "デフォルトでは無効です。ログイン制御の下にある別の設定には、「新しい場所/デバイスからログインしたときにメール通知を送信する」があります。この設定は、異なるデバイスや場所からログインが行われるたびに、ユーザーにメールを送信します。"
+
+#: ../../chapter03.rst:1102
+msgid "**Native Client Token Timeout (days, 0 - never timeout)**"
+msgstr "**ネイティブクライアントトークンのタイムアウト（日数、0 - タイムアウトしない）**"
+
+#: ../../chapter03.rst:1104
+msgid ""
+"Determines if and when the Native Client Token will timeout, in days. "
+"Default is 15 days."
+msgstr "ネイティブクライアントトークンがタイムアウトするかどうか、そしてタイムアウトするまでの日数を決定します。デフォルトは15日です。"
+
+#: ../../chapter03.rst:1106
+msgid "**Web Browser Session Timeout (minutes, 0 - never timeout)**"
+msgstr "**Webブラウザセッションタイムアウト（分、0 - タイムアウトしない）**"
+
+#: ../../chapter03.rst:1108
+msgid ""
+"Determines if and when the Web Browser Session timeout, in minutes, will "
+"occur. Default is 120 minutes."
+msgstr "Webブラウザセッションのタイムアウトが発生するか、および発生するタイミングを決定します。デフォルトは120分です。"
+
+#: ../../chapter03.rst:1112
+msgid "Password Policy"
+msgstr "パスワードポリシー"
+
+#: ../../chapter03.rst:1114
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Password Policy``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ユーザーアカウントとセキュリティ`` > ``パスワードポリシー``"
+
+#: ../../chapter03.rst:1116
+msgid "Here you can adjust your password policy settings."
+msgstr "ここでパスワードポリシーの設定を調整できます。"
+
+#: ../../chapter03.rst:1121
+msgid "PASSWORD POLICY SETTINGS"
+msgstr "パスワードポリシー設定"
+
+#: ../../chapter03.rst:1123
+msgid "**Enforce password policy for non-AD users**"
+msgstr "**非ADユーザーのパスワードポリシーを強制する**"
+
+#: ../../chapter03.rst:1125
+msgid ""
+"By default, non-AD users are not enforced to use this policy when setting"
+" their passowrd. Enable this to enforce the following rules."
+msgstr "デフォルトでは、ADユーザー以外にはこのポリシーを強制することはありません。パスワードを設定する際に以下のルールを適用するには、これを有効にしてください。"
+
+#: ../../chapter03.rst:1127
+msgid "**Minimum password length**"
+msgstr "**パスワードの最小文字数**"
+
+#: ../../chapter03.rst:1129
+msgid ""
+"Require the password to contain a certain number of characters as a "
+"minimum. Default is 8."
+msgstr "パスワードには最低限特定の文字数が含まれている必要があります。デフォルトは8です。"
+
+#: ../../chapter03.rst:1131
+msgid "**Users must change password every n days (0 - never)**"
+msgstr "**ユーザーはn日ごとにパスワードを変更する必要があります（0 - 決して変更しない）**"
+
+#: ../../chapter03.rst:1133
+msgid ""
+"Force users to change their passwords every so many days. Default is 0 "
+"(never)."
+msgstr "ユーザーにパスワードを何日ごとに変更させる。デフォルトは0（永久に変更不要）。"
+
+#: ../../chapter03.rst:1135
+msgid "**Must contain upper case characters**"
+msgstr "**大文字を含む必要があります**"
+
+#: ../../chapter03.rst:1137
+msgid ""
+"Enforce the use of upper-case characters in the password. Default is "
+"enabled."
+msgstr "パスワードに大文字の使用を強制する。デフォルトは有効です。"
+
+#: ../../chapter03.rst:1139
+msgid "**Must contain lower case characters**"
+msgstr "**小文字を含む必要があります**"
+
+#: ../../chapter03.rst:1141
+msgid ""
+"Enforce the use of lower-case characters in the password. Default is "
+"enabled."
+msgstr "パスワードに小文字の使用を強制する。デフォルトは有効です。"
+
+#: ../../chapter03.rst:1143
+msgid "**Must contain base10 digits (0-9)**"
+msgstr "**基数10の数字（0-9）を含む必要があります**"
+
+#: ../../chapter03.rst:1145
+msgid "Enforce the use of base10 digits in the password. Default is enabled."
+msgstr "パスワードに基数10の数字の使用を強制する。デフォルトは有効です。"
+
+#: ../../chapter03.rst:1147
+msgid "**Must contain non-alphanumeric characters: (e.g., ~ ! @ # $ % ^ &)**"
+msgstr "**非英数字文字を含む必要があります：（例：〜！@＃$％^＆）**"
+
+#: ../../chapter03.rst:1149
+msgid ""
+"Enforce the use of special non-alphanumeric characters when creating a "
+"password. Default is enabled."
+msgstr "パスワードを作成する際に特殊な非英数字文字の使用を強制する。デフォルトは有効。"
+
+#: ../../chapter03.rst:1154
+msgid "Access Control"
+msgstr "アクセス制御"
+
+#: ../../chapter03.rst:1156
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Access Control``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ユーザーアカウントとセキュリティ`` > ``アクセスコントロール``"
+
+#: ../../chapter03.rst:1158
+msgid ""
+"In the Admin Access Control, the cluster administrator can decide the "
+"division of work between cluster administrators and the specific tenant "
+"administrator. A lot of times, the cluster administrator will help with "
+"setting things up. In this case, the cluster administrator can take away "
+"some of the administrative work from the tenant administrator."
+msgstr "管理者アクセス制御では、クラスター管理者はクラスター管理者と特定のテナント管理者の間の業務分担を決定することができます。多くの場合、クラスター管理者は設定の支援を行います。この場合、クラスター管理者はテナント管理者からいくつかの管理作業を引き受けることができます。"
+
+#: ../../chapter03.rst:1162
+msgid ""
+"For example, if the cluster administrator is a Managed Service Provider "
+"(MSP), the tenant admin can be an admin user from a specific client "
+"(customer)."
+msgstr "たとえば、クラスター管理者がマネージドサービスプロバイダー（MSP）である場合、テナント管理者は特定のクライアント（顧客）からの管理ユーザーになることができます。"
+
+#: ../../chapter03.rst:1164
+msgid ""
+"Or, if the cluster administrator is an enterprise IT directory, the "
+"tenant admin can be a specific division of the enterprise."
+msgstr "または、クラスタ管理者がエンタープライズITディレクトリである場合、テナント管理者は企業の特定の部門になることができます。"
+
+#: ../../chapter03.rst:1169
+msgid "ACCESS CONTROL SETTINGS"
+msgstr "アクセスコントロール設定"
+
+#: ../../chapter03.rst:1171
+msgid "**Allow tenant to attach external cloud storage**"
+msgstr "**テナントが外部クラウドストレージを接続できるようにする**"
+
+#: ../../chapter03.rst:1173
+msgid ""
+"If checked, in the tenant administrator's management console, the "
+"\"Storage Manager\" will show and allow tenant administrator to mount "
+"(attach) external storage."
+msgstr "チェックされた場合、テナント管理者の管理コンソールで「ストレージマネージャー」が表示され、テナント管理者が外部ストレージをマウント（アタッチ）することを許可します。"
+
+#: ../../chapter03.rst:1175
+msgid ""
+"If the cluster administrator is setting it up for the tenant, the cluster"
+" administrator can take away this privilege."
+msgstr "クラスタ管理者がテナントのために設定している場合、クラスタ管理者はこの権限を取り消すことができます。"
+
+#: ../../chapter03.rst:1178
+msgid "**Allow tenant to edit branding settings**"
+msgstr "**テナントにブランディング設定の編集を許可する**"
+
+#: ../../chapter03.rst:1180
+msgid ""
+"The Cluster administrator can decide whether to allow tenant "
+"administrator to have its own branding."
+msgstr "クラスター管理者は、テナント管理者に独自のブランディングを許可するかどうかを決定できます。"
+
+#: ../../chapter03.rst:1183
+msgid "**Do not show GDPR consent form**"
+msgstr "**GDPR同意フォームを表示しないでください**"
+
+#: ../../chapter03.rst:1185
+msgid ""
+"The EU General Data Protection Regulation (GDPR) is the most important "
+"change in data privacy regulation in 20 years.  There are regulations "
+"about collecting user information and software needs to provide consent "
+"form. If you have customers in the EU, it is recommended to show the "
+"consent form."
+msgstr "EU一般データ保護規則（GDPR）は、20年間で最も重要なデータプライバシー規制の変更です。ユーザー情報の収集に関する規制があり、ソフトウェアは同意フォームを提供する必要があります。EUのお客様がいる場合、同意フォームを表示することをお勧めします。"
+
+#: ../../chapter03.rst:1189
+msgid "**Allow tenant to increase user plan automatically**"
+msgstr "**テナントがユーザープランを自動的に増やすことを許可する**"
+
+#: ../../chapter03.rst:1191
+msgid ""
+"The Cluster administrator can decide whether to allow the tenant to grow "
+"the user count automatically."
+msgstr "クラスター管理者は、テナントがユーザー数を自動的に増やすことを許可するかどうかを決定できます。"
+
+#: ../../chapter03.rst:1194
+msgid "**Multi AD Domain Support**"
+msgstr "**マルチADドメインサポート**"
+
+#: ../../chapter03.rst:1196
+msgid "Support multiple Active Directories in a single tenant (current tenant)."
+msgstr "単一のテナント（現在のテナント）で複数のアクティブディレクトリをサポートします。"
+
+#: ../../chapter03.rst:1198
+msgid ""
+"Multiple Active Directory forests support. This is not a common option "
+"because most of the time, the tenant has one forest (which can have "
+"multiple sub domains). In the case when the tenant has several Active "
+"Directory domains that are not related, multiple LDAP connection can be "
+"set up this way."
+msgstr "複数のアクティブディレクトリフォレストのサポート。これは一般的なオプションではありませんが、ほとんどの場合、テナントには1つのフォレストがあります（複数のサブドメインを持つことができます）。テナントに関連しない複数のアクティブディレクトリドメインがある場合、この方法で複数のLDAP接続を設定できます。"
+
+#: ../../chapter03.rst:1202
+msgid ""
+"If you have single AD forest but contains multiple sub-domain AD domain "
+"controller, you don't need to turn on Multi-AD support. Instead, you just"
+" point the LDAP to the root forest domain controller and the root forest "
+"domain controller will find and identify the sub-domains."
+msgstr "単一のADフォレストを持っているが、複数のサブドメインADドメインコントローラーが含まれている場合、マルチADサポートを有効にする必要はありません。代わりに、LDAPをルートフォレストドメインコントローラーにポイントし、ルートフォレストドメインコントローラーがサブドメインを見つけて識別します。"
+
+#: ../../chapter03.rst:1205
+msgid "**View and edit group policy**"
+msgstr "**グループポリシーの表示と編集**"
+
+#: ../../chapter03.rst:1207
+msgid ""
+"The Cluster administrator can decide whether to show the group policy "
+"section to this tenant."
+msgstr "クラスター管理者は、このテナントにグループポリシーのセクションを表示するかどうかを決定できます。"
+
+#: ../../chapter03.rst:1210
+msgid "**Disable file/folder sharing**"
+msgstr "**ファイル/フォルダの共有を無効にする**"
+
+#: ../../chapter03.rst:1212
+msgid "Disable file and folder sharing from tenant level."
+msgstr "テナントレベルでのファイルとフォルダの共有を無効にする。"
+
+#: ../../chapter03.rst:1215
+msgid "**Hide migration option**"
+msgstr "**移行オプションを隠す**"
+
+#: ../../chapter03.rst:1217
+msgid ""
+"Migration option refers to migrating remote file server(s) from remote "
+"customer location(s) to the Cluster Server. Not all clients (customers) "
+"have remote file servers, so this tenant level option may not apply all "
+"the time."
+msgstr "移行オプションとは、リモート顧客の場所にあるリモートファイルサーバーをクラスターサーバーに移行することを指します。すべてのクライアント（顧客）がリモートファイルサーバーを持っているわけではないので、このテナントレベルのオプションが常に適用されるわけではありません。"
+
+#: ../../chapter03.rst:1220
+msgid ""
+"**Show Data-At-Rest Encryption (DARE) configuration page (Requires empty "
+"storage container)**"
+msgstr "**データ保管時暗号化（DARE）の設定ページを表示する（空のストレージコンテナが必要です）**"
+
+#: ../../chapter03.rst:1222
+msgid ""
+"If the tenant has the required encryption of the data in the cloud "
+"(Cluster Server side), a DARE configuration page can be shown upon the "
+"first usage to set it up."
+msgstr "テナントがクラウド内のデータの必要な暗号化（クラスターサーバー側）を持っている場合、最初の使用時に設定するためのDARE設定ページが表示されることがあります。"
+
+#: ../../chapter03.rst:1227
+msgid "**Allow tenant to edit LDAP setting**"
+msgstr "**テナントにLDAP設定の編集を許可する**"
+
+#: ../../chapter03.rst:1229
+msgid ""
+"In the case the tenant's infrastructure is in the same LAN (Local Area "
+"Network) as the Cluster Manager, the tenant's Active Directory can be "
+"directly connected via LDAP to the Cluster Server."
+msgstr "テナントのインフラストラクチャがクラスターマネージャーと同じLAN（ローカルエリアネットワーク）内にある場合、テナントのアクティブディレクトリはLDAPを通じて直接クラスターサーバーに接続できます。"
+
+#: ../../chapter03.rst:1231
+msgid ""
+"If the cluster administrator is setting it up for the tenant, cluster "
+"administrator can take away this privilege."
+msgstr "クラスタ管理者がテナントのために設定している場合、クラスタ管理者はこの権限を取り消すことができます。"
+
+#: ../../chapter03.rst:1235
+msgid "Security"
+msgstr "セキュリティ"
+
+#: ../../chapter03.rst:1236
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > "
+"``Security``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ユーザーアカウントとセキュリティ`` > ``セキュリティ``"
+
+#: ../../chapter03.rst:1242
+msgid "SECURITY SETTINGS"
+msgstr "セキュリティ設定"
+
+#: ../../chapter03.rst:1244
+msgid "**Allow Cluster Admin to manage my tenant**"
+msgstr "**クラスター管理者に自分のテナントを管理させる**"
+
+#: ../../chapter03.rst:1246
+msgid ""
+"When enabled, the cluster-admin will be able to use the “Manage Tenant” "
+"link to manage the tenant in the tenant manager. This is very convenient "
+"for cluster administrators (typically system administrators from service "
+"providers) to provide management work to the tenant."
+msgstr "有効にすると、クラスター管理者は「テナント管理」リンクを使用してテナントマネージャーでテナントを管理できるようになります。これは、サービスプロバイダーのシステム管理者など、通常はクラスター管理者がテナントに管理作業を提供するのに非常に便利です。"
+
+#: ../../chapter03.rst:1249
+msgid "**Enable Authenticating User with Google Apps Credentials**"
+msgstr "**Google Appsの資格情報を使用したユーザー認証を有効にする**"
+
+#: ../../chapter03.rst:1251
+msgid "When enabled, users can login using Google Apps credentials."
+msgstr "有効にすると、ユーザーはGoogle Appsの資格情報を使用してログインできます。"
+
+#: ../../chapter03.rst:1254
+msgid ""
+"**When delegate admin login via server agent, impersonate as tenant "
+"admin**"
+msgstr "**サーバーエージェント経由で委任された管理者がログインする際、テナント管理者として偽装する**"
+
+#: ../../chapter03.rst:1256
+msgid ""
+"Server agents typically need to sync to the default tenant administrator."
+" It is recommended when a delegate administrator setup a server agent, it"
+" needs to impersonate the default tenant administrator."
+msgstr "サーバーエージェントは通常、デフォルトのテナント管理者と同期する必要があります。代理管理者がサーバーエージェントを設定する場合、デフォルトのテナント管理者を模倣することをお勧めします。"
+
+#: ../../chapter03.rst:1259
+msgid "**File upload and download must go through worker node**"
+msgstr "**ファイルのアップロードとダウンロードはワーカーノードを経由しなければなりません**"
+
+#: ../../chapter03.rst:1261
+msgid "(This setting may only be available from cluster administrator side)"
+msgstr "（この設定はクラスター管理者側からのみ利用可能かもしれません）"
+
+#: ../../chapter03.rst:1263
+msgid ""
+"For Amazon S3 type of cloud storage/object storage, it is recommended NOT"
+" to force file upload and download going through worker nodes, because "
+"Amazon S3 is good for offload the upload/download between the access "
+"clients and the backend Amazon S3 storage. However, for OpenStack Swift "
+"storage, depending on how it is set up, you may want to turn this on to "
+"force File Upload/Download going through worker node for security "
+"reasons."
+msgstr "Amazon S3タイプのクラウドストレージ/オブジェクトストレージの場合、アクセスクライアントとバックエンドのAmazon S3ストレージ間でのアップロード/ダウンロードをオフロードするため、ワーカーノードを介してファイルのアップロードとダウンロードを強制することは推奨されません。しかし、OpenStack Swiftストレージの場合、設定によっては、セキュリティ上の理由から、ファイルのアップロード/ダウンロードをワーカーノードを介して強制的に行うように設定することが望ましい場合があります。"
+
+#: ../../chapter03.rst:1265
+msgid ""
+"This setting may be checked by default. However, based on your "
+"configuration, it may not need to be checked."
+msgstr "この設定はデフォルトでチェックされている場合があります。しかし、あなたの設定によっては、チェックする必要がないかもしれません。"
+
+#: ../../chapter03.rst:1267
+msgid ""
+"For example, if you are using file server network share as the storage "
+"location, the upload and download has to go through worker node anyway, "
+"so there is no need to check this checkbox."
+msgstr "たとえば、ファイルサーバーのネットワーク共有をストレージの場所として使用している場合、アップロードとダウンロードはいずれにせよワーカーノードを経由する必要があるので、このチェックボックスをオンにする必要はありません。"
+
+#: ../../chapter03.rst:1269
+msgid ""
+"There may be some situations  that this setting must be checked. For "
+"example, you may be using native object storage such as Amazon S3 for "
+"storage. However, your company policy may disable direct access to Amazon"
+" S3. So in this case, you will have to route traffic through the worker "
+"node."
+msgstr "この設定を確認する必要がある状況がいくつかあります。たとえば、Amazon S3のようなネイティブオブジェクトストレージをストレージとして使用している場合があります。しかし、会社のポリシーでAmazon S3への直接アクセスが無効になっていることもあります。そのような場合、トラフィックをワーカーノードを通してルーティングする必要があります。"
+
+#: ../../chapter03.rst:1272
+msgid "Home Directory"
+msgstr "ホームディレクトリ"
+
+#: ../../chapter03.rst:1274
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``Home "
+"Directory``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ユーザーアカウント & セキュリティ`` > ``ホームディレクトリ``"
+
+#: ../../chapter03.rst:1279
+msgid "HOME DIRECTORY SETTINGS"
+msgstr "ホームディレクトリ設定"
+
+#: ../../chapter03.rst:1281
+msgid "**Default Storage quota**"
+msgstr "**デフォルトのストレージクォータ**"
+
+#: ../../chapter03.rst:1283
+msgid ""
+"This policy will not affect existing user and their quota. It can affect "
+"a newly created user for the default storage quota."
+msgstr "このポリシーは、既存のユーザーやそのクォータには影響しません。デフォルトのストレージクォータに対して新しく作成されたユーザーに影響を与える可能性があります。"
+
+#: ../../chapter03.rst:1285
+msgid "**Create default folders**"
+msgstr "**デフォルトフォルダを作成**"
+
+#: ../../chapter03.rst:1287
+msgid ""
+"When the new user account is provisioned, the default root folder is "
+"empty."
+msgstr "新しいユーザーアカウントがプロビジョニングされると、デフォルトのルートフォルダは空になります。"
+
+#: ../../chapter03.rst:1289
+msgid ""
+"“Create default folder (Documents, Pictures)” will make the root folder "
+"look less empty and more user-friendly. This hints at how to organize "
+"files and folders in the cloud."
+msgstr "「デフォルトフォルダを作成する（ドキュメント、画像）」は、ルートフォルダをより使いやすく、空っぽでないように見せます。これは、クラウド内でファイルやフォルダを整理する方法を示唆しています。"
+
+#: ../../chapter03.rst:1293
+msgid ""
+"When unchecked, the user home drive space will be allocated from "
+"enterprise storage. When checked, existing user home drives will be "
+"automatically published from Active Directory."
+msgstr "チェックを外すと、ユーザーのホームドライブスペースはエンタープライズストレージから割り当てられます。チェックすると、既存のユーザーホームドライブがアクティブディレクトリから自動的に公開されます。"
+
+#: ../../chapter03.rst:1295
+msgid "**Mount user's home drive as a top level folder**"
+msgstr "**ユーザーのホームドライブをトップレベルフォルダとしてマウント**"
+
+#: ../../chapter03.rst:1297
+msgid ""
+"Without this option, the user's home drive from active directory mapping "
+"will become the root folder in |prodname|. However, if the user also have"
+" network shares mapped into |prodname|, those network shares will appear "
+"as top level folders. So in this use case, mapping user's home folder as "
+"a top folder is more in parallel to the other network shares."
+msgstr "このオプションがない場合、アクティブディレクトリのマッピングからユーザーのホームドライブが |prodname| のルートフォルダになります。しかし、ユーザーが |prodname| にマップされたネットワークシェアも持っている場合、それらのネットワークシェアはトップレベルフォルダとして表示されます。したがって、このユースケースでは、ユーザーのホームフォルダをトップフォルダとしてマッピングすることが、他のネットワークシェアと並行してより適しています。"
+
+#: ../../chapter03.rst:1303
+msgid "Azure AD"
+msgstr "Azure AD"
+
+#: ../../chapter03.rst:1305
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``User Account & Security`` > ``Azure"
+" AD``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ユーザーアカウント & セキュリティ`` > ``Azure AD``"
+
+#: ../../chapter03.rst:1307
+msgid ""
+"Azure AD integration allows users to use their Azure AD credentials to "
+"login to the Cluster Server, including web portal and native clients."
+msgstr "Azure AD統合により、ユーザーはAzure ADの資格情報を使用してクラスターサーバーにログインできます。これにはWebポータルとネイティブクライアントが含まれます。"
+
+#: ../../chapter03.rst:1309
+msgid ""
+"You will still need to create Azure AD users as if they were local "
+"Cluster users first. After that, you can enable Azure AD integration."
+msgstr "まず、ローカルクラスタユーザーとしてAzure ADユーザーを作成する必要があります。その後、Azure AD統合を有効にすることができます。"
+
+#: ../../chapter03.rst:1311
+msgid ""
+"To enable Azure AD integration, you will need to create an Azure AD "
+"native client application."
+msgstr "Azure AD 統合を有効にするには、Azure AD ネイティブ クライアント アプリケーションを作成する必要があります。"
+
+#: ../../chapter03.rst:1317
+msgid "ENABLE AZURE AD INTEGRATION"
+msgstr "AZURE AD インテグレーションを有効にする"
+
+#: ../../chapter03.rst:1319
+msgid "You will need the client id from the Azure Native Client Application"
+msgstr "Azure ネイティブ クライアント アプリケーションからクライアント ID が必要になります"
+
+#: ../../chapter03.rst:1324
+msgid "AZURE CLIENT ID FIELD"
+msgstr "AZURE クライアントIDフィールド"
+
+#: ../../chapter03.rst:1326
+msgid ""
+"You will give the Azure Native Client Application full read permission to"
+" the following two items"
+msgstr "Azure ネイティブ クライアント アプリケーションに、以下の2つの項目に対する完全な読み取り権限を与えます"
+
+#: ../../chapter03.rst:1329
+msgid "Azure Active Directory"
+msgstr "Azure アクティブ ディレクトリ"
+
+#: ../../chapter03.rst:1330
+msgid "Microsoft Graph API"
+msgstr "マイクロソフト グラフ API"
+
+#: ../../chapter03.rst:1335
+msgid "AZURE PERMISSIONS TO OTHER APPLICATIONS"
+msgstr "他のアプリケーションへのAZURE権限"
+
+#: ../../chapter03.rst:1337
+msgid "You will also need the domain name"
+msgstr "ドメイン名も必要になります"
+
+#: ../../chapter03.rst:1342
+msgid "AZURE DOMAIN SETTING"
+msgstr "AZURE ドメイン設定"
+
+#: ../../chapter03.rst:1347
+msgid "Ransomware Protection"
+msgstr "ランサムウェア保護"
+
+#: ../../chapter03.rst:1350
+msgid "Anti Virus Settings"
+msgstr "アンチウイルス設定"
+
+#: ../../chapter03.rst:1352
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Ransomware Protection`` >  "
+"``Settings``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``ランサムウェア保護`` > ``設定``"
+
+#: ../../chapter03.rst:1357
+msgid "ANTI VIRUS SETTINGS"
+msgstr "アンチウイルス設定"
+
+#: ../../chapter03.rst:1359
+msgid ""
+"**Only allow the following processes to update files (empty: allow all, "
+"separate using semicolon (;), i.e. winword.exe;excel.exe)**"
+msgstr "**次のプロセスのみがファイルを更新できるようにします（空欄: すべて許可、セミコロン（;）を使用して区切る、例: winword.exe;excel.exe）**"
+
+#: ../../chapter03.rst:1361
+msgid ""
+"This is a white list of applications that are allowed to update files. "
+"The applications that are not in the list will not be able to upload "
+"files."
+msgstr "これはファイルを更新することが許可されているアプリケーションのホワイトリストです。リストにないアプリケーションはファイルをアップロードすることができません。"
+
+#: ../../chapter03.rst:1363
+msgid ""
+"**The following executables will not be allowed to open files directly "
+"from the cloud drive (i.e. qbw32.exe;excel.exe)**"
+msgstr "**クラウドドライブから直接ファイルを開くことが許可されていない実行ファイル（例: qbw32.exe;excel.exe）**"
+
+#: ../../chapter03.rst:1365
+msgid ""
+"This is the opposite of the above policy. The applications in this list "
+"will be denied."
+msgstr "これは上記のポリシーとは反対です。このリストにあるアプリケーションは拒否されます。"
+
+#: ../../chapter03.rst:1367
+msgid "**Disable a device if the device changes more than n files in 10 minutes**"
+msgstr "**デバイスが10分間にnファイル以上を変更した場合、そのデバイスを無効にする**"
+
+#: ../../chapter03.rst:1369
+msgid ""
+"When users are using the cloud drive in a normal way. Human speed will "
+"not be able to generate large amount of file upload."
+msgstr "ユーザーがクラウドドライブを通常の方法で使用している場合、人間の速度では大量のファイルアップロードを生成することはできません。"
+
+#: ../../chapter03.rst:1371
+msgid "**Ignore the following processes when applying the above policy**"
+msgstr "**上記のポリシーを適用する際、以下のプロセスは無視してください**"
+
+#: ../../chapter03.rst:1373
+msgid ""
+"This is a white list of files that will not be monitored for the activity"
+" described above. (e.g., qbw32.exe; excel.exe)"
+msgstr "これは上記の活動を監視されないファイルのホワイトリストです。（例：qbw32.exe; excel.exe）"
+
+#: ../../chapter03.rst:1375
+msgid ""
+"**Disable uploading of files whose named contain the following text "
+"patterns**"
+msgstr "**次のテキストパターンを含むファイルのアップロードを無効にする**"
+
+#: ../../chapter03.rst:1377
+msgid ""
+"When file name text contains the following strings, the files will not be"
+" uploaded. (e.g., badfile1; badfile2)"
+msgstr "ファイル名に次の文字列が含まれている場合、そのファイルはアップロードされません。(例: badfile1; badfile2)"
+
+#: ../../chapter03.rst:1379
+msgid ""
+"**Disable uploading of files whose names start with the following "
+"strings**"
+msgstr "**次の文字列で始まるファイル名のアップロードを無効にする**"
+
+#: ../../chapter03.rst:1381
+msgid ""
+"When the starting text of files contain these strings, the files will not"
+" be uploaded. (e.g., bad1; bad2)"
+msgstr "ファイルの開始テキストにこれらの文字列が含まれている場合、ファイルはアップロードされません。(例: bad1; bad2)"
+
+#: ../../chapter03.rst:1383
+msgid "**Disable uploading of files whose names end with the following strings**"
+msgstr "**次の文字列で終わるファイル名のアップロードを無効にする**"
+
+#: ../../chapter03.rst:1385
+msgid ""
+"When the ending text of files contain these strings, the files will not "
+"be uploaded. (e.g., bad1; bad2)"
+msgstr "ファイルの末尾のテキストにこれらの文字列が含まれている場合、ファイルはアップロードされません。(例: bad1; bad2)"
+
+#: ../../chapter03.rst:1389
+msgid "Data Leak Protection"
+msgstr "データ漏洩防止"
+
+#: ../../chapter03.rst:1394
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Data Leak Protection`` >  "
+"``Sharing``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``データ漏洩防止`` > ``共有``"
+
+#: ../../chapter03.rst:1400
+msgid "SHARING SETTINGS"
+msgstr "共有設定"
+
+#: ../../chapter03.rst:1402
+msgid ""
+"**Users must log in to access the content in 'Files shared with me' "
+"folder**"
+msgstr "**ユーザーは「私と共有されたファイル」フォルダ内のコンテンツにアクセスするためにログインする必要があります**"
+
+#: ../../chapter03.rst:1404
+msgid ""
+"When sharing files and folders with users, you can force the sharing to "
+"create guest accounts for users that are not already in the system. It is"
+" more secure when asking the receiver of the share to sign in to receive "
+"shared items. This disables anonymous sharing."
+msgstr "ファイルやフォルダをユーザーと共有する際、システムにまだ登録されていないユーザーにはゲストアカウントの作成を強制することができます。共有されたアイテムを受け取るためには、共有の受信者にサインインしてもらう方がより安全です。これにより匿名共有が無効になります。"
+
+#: ../../chapter03.rst:1406
+msgid ""
+"If this setting is not enabled, users can share files and folders to an "
+"outside email address without requiring outside users to create a guest "
+"user account."
+msgstr "この設定が有効になっていない場合、ユーザーは外部のメールアドレスにファイルやフォルダを共有できますが、外部ユーザーがゲストユーザーアカウントを作成する必要はありません。"
+
+#: ../../chapter03.rst:1409
+msgid "**Disable user's ability to share home directory content externally**"
+msgstr "**ユーザーがホームディレクトリの内容を外部に共有する機能を無効にする**"
+
+#: ../../chapter03.rst:1411
+msgid ""
+"This feature disables the ability for a regular user to share home "
+"directory contents for security reasons."
+msgstr "この機能は、セキュリティ上の理由から、通常のユーザーがホームディレクトリの内容を共有する機能を無効にします。"
+
+#: ../../chapter03.rst:1414
+msgid "**Enable Internal Public Share URL**"
+msgstr "**内部公開共有URLを有効にする**"
+
+#: ../../chapter03.rst:1416
+msgid ""
+"If you have an internal public share you can use this setting to enable "
+"it."
+msgstr "内部のパブリック共有がある場合、この設定を使用して有効にすることができます。"
+
+#: ../../chapter03.rst:1418
+msgid ""
+"When this is enabled, it will use the Internal URL property to generate a"
+" web link for shared file/folder."
+msgstr "これが有効になっていると、共有されたファイル/フォルダのウェブリンクを生成するために内部URLプロパティを使用します。"
+
+#: ../../chapter03.rst:1421
+msgid "**Disable Public Link**"
+msgstr "**パブリックリンクを無効にする**"
+
+#: ../../chapter03.rst:1423
+msgid "This will disable the public web link feature in the sharing dialog."
+msgstr "これにより、共有ダイアログでの公開ウェブリンク機能が無効になります。"
+
+#: ../../chapter03.rst:1426
+msgid "**Show guest user creation option**"
+msgstr "**ゲストユーザー作成オプションを表示**"
+
+#: ../../chapter03.rst:1428
+msgid ""
+"When enabled this shows the guest user creation option which you will see"
+" when 'Sharing' a file or folder by email. This is how you can provide "
+"full edit capability to a guest user, as they must be logged in to modify"
+" a file or folder in the |prodname|."
+msgstr "これを有効にすると、ファイルやフォルダをメールで'共有'する際にゲストユーザー作成オプションが表示されます。これにより、ゲストユーザーに完全な編集機能を提供することができます。ファイルやフォルダを変更するにはログインする必要があるため、|prodname| での変更が必要です。"
+
+#: ../../chapter03.rst:1431
+msgid ""
+"**Enable distribution group detection in file/folder sharing's user "
+"interface**"
+msgstr "**ファイル/フォルダ共有のユーザーインターフェースで配布グループ検出を有効にする**"
+
+#: ../../chapter03.rst:1433
+msgid ""
+"With active directory integration, sometimes you want to share files and "
+"folders with a distribution group. This feature allows detection of "
+"distribution group and expands the group so the sharing will be done with"
+" the users in the group, instead of using the group as a single user."
+msgstr "アクティブディレクトリー統合を使用すると、配布グループと共にファイルやフォルダを共有したい場合があります。この機能により、配布グループを検出してグループを展開し、グループを単一ユーザーとして使用する代わりに、グループ内のユーザーと共有が行われます。"
+
+#: ../../chapter03.rst:1436
+msgid "**Show user list in sharing dialog**"
+msgstr "**共有ダイアログにユーザーリストを表示**"
+
+#: ../../chapter03.rst:1438
+msgid ""
+"When enabled, the user list will be displayed in the recipient's dropdown"
+" list."
+msgstr "有効にすると、受信者のドロップダウンリストにユーザーリストが表示されます。"
+
+#: ../../chapter03.rst:1441
+msgid "**Show guest user list in sharing dialog**"
+msgstr "**共有ダイアログにゲストユーザーリストを表示**"
+
+#: ../../chapter03.rst:1443
+msgid ""
+"When this option is enabled, the guest user list will be shown in the "
+"recipient dropdown list."
+msgstr "このオプションを有効にすると、受信者ドロップダウンリストにゲストユーザーリストが表示されます。"
+
+#: ../../chapter03.rst:1446
+msgid "**Show group list in sharing dialog**"
+msgstr "**共有ダイアログにグループリストを表示**"
+
+#: ../../chapter03.rst:1448
+msgid ""
+"When this option is enabled, the group list will be shown in the "
+"recipient dropdown list."
+msgstr "このオプションを有効にすると、グループリストが受信者のドロップダウンリストに表示されます。"
+
+#: ../../chapter03.rst:1451
+msgid "**Allow user enter share name**"
+msgstr "**共有名の入力を許可する**"
+
+#: ../../chapter03.rst:1453
+msgid ""
+"By default the file name or folder name is used for the share name. "
+"However, if user has many same name folders or files. Sharing them out "
+"sometimes many not know which is which. This setting allows user to "
+"change share name. For example, when sharing out a \"Documents\" folder, "
+"it can be named \"Documents in top level folder\"."
+msgstr "デフォルトでは、ファイル名またはフォルダ名が共有名として使用されます。しかし、ユーザーが同じ名前のフォルダやファイルを多く持っている場合、それらを共有するときにどれがどれかわからないことがあります。この設定を使用すると、ユーザーは共有名を変更できます。たとえば、「ドキュメント」フォルダを共有する場合、それを「トップレベルフォルダのドキュメント」と名付けることができます。"
+
+#: ../../chapter03.rst:1455
+msgid "**Send a copy of file sharing invitation email to share owner**"
+msgstr "**ファイル共有招待メールのコピーを共有オーナーに送信する**"
+
+#: ../../chapter03.rst:1457
+msgid ""
+"When sending the file-sharing email, sending a copy (CC) to the owner of "
+"the share (usually the sender of the email)"
+msgstr "ファイル共有用のメールを送信する際、共有の所有者（通常はメールの送信者）にもコピー（CC）を送る"
+
+#: ../../chapter03.rst:1460
+msgid "**Don't append email to shared object name under 'Files Shared With Me'**"
+msgstr "**'私と共有されたファイル'の下で共有オブジェクト名にメールを追加しないでください**"
+
+#: ../../chapter03.rst:1462
+msgid ""
+"When enabled, emails won't show next to object names in 'Files Shared "
+"With Me' view."
+msgstr "有効にすると、「私と共有されたファイル」ビューでオブジェクト名の隣にメールが表示されなくなります。"
+
+#: ../../chapter03.rst:1465
+msgid "**Disable folder sharing**"
+msgstr "**フォルダ共有を無効にする**"
+
+#: ../../chapter03.rst:1467
+msgid "When enabled users will not be able to share folders."
+msgstr "有効にすると、ユーザーはフォルダーを共有できなくなります。"
+
+#: ../../chapter03.rst:1470
+msgid "**Enforce password protection**"
+msgstr "**パスワード保護を強制する**"
+
+#: ../../chapter03.rst:1472
+msgid ""
+"When enabled all users (including guest users) will be required to use "
+"complex password protection."
+msgstr "有効にすると、すべてのユーザー（ゲストユーザーを含む）に複雑なパスワード保護の使用が求められます。"
+
+#: ../../chapter03.rst:1475
+msgid "**Expiration Time for Shared Folder/File (Days):**"
+msgstr "**共有フォルダ/ファイルの有効期限（日）:**"
+
+#: ../../chapter03.rst:1477
+msgid ""
+"When set, during the file/folder sharing wizard, the expiration time "
+"dropdown selection will not be shown, it will be pre-set to expiration "
+"set in here."
+msgstr "設定されている場合、ファイル/フォルダ共有ウィザード中に有効期限のドロップダウン選択は表示されず、ここで設定された有効期限に事前設定されます。"
+
+#: ../../chapter03.rst:1480
+msgid "**Maximum Share Expiration Time (Days):**"
+msgstr "**最大共有有効期限（日数）：**"
+
+#: ../../chapter03.rst:1482
+msgid ""
+"When set, this creates an upper limit to the time a share will be "
+"available, which forces all shares to expire when this limit is reached."
+msgstr "設定すると、共有が利用可能な上限時間を作成し、この限界に達するとすべての共有が期限切れになるように強制します。"
+
+#: ../../chapter03.rst:1484
+msgid "**Notify share owner n days before share expiring (0 - do not notify)**"
+msgstr "**共有の所有者に共有が期限切れになるn日前に通知する (0 - 通知しない)**"
+
+#: ../../chapter03.rst:1486
+msgid "Notify the sender (owner) of the share before share expiration."
+msgstr "共有の有効期限が切れる前に、送信者（所有者）に通知してください。"
+
+#: ../../chapter03.rst:1488
+msgid "**Expiration Time for public links (Days):**"
+msgstr "**公開リンクの有効期限（日数）：**"
+
+#: ../../chapter03.rst:1490
+msgid ""
+"If left as zero, public link will never expires, otherwise the public "
+"link will be purged after expired."
+msgstr "ゼロのままの場合、公開リンクは決して期限切れになりません。それ以外の場合、公開リンクは期限切れ後に削除されます。"
+
+#: ../../chapter03.rst:1493
+msgid ""
+"**Don't create a guest user account if the recipient is from the "
+"following domains (i.e. company.com;company1.com)**"
+msgstr "**ゲストユーザーアカウントは、次のドメインの受信者の場合は作成しないでください（例：company.com;company1.com）**"
+
+#: ../../chapter03.rst:1495
+msgid ""
+"Blacklist guest emails from the domains listed here. Do not allow sharing"
+" to these domains."
+msgstr "ここにリストされているドメインからのゲストメールをブラックリストに登録してください。これらのドメインへの共有を許可しないでください。"
+
+#: ../../chapter03.rst:1498
+msgid "**Only allow sending shares to the specified domain**"
+msgstr "**指定されたドメインにのみ共有を送信できるようにする**"
+
+#: ../../chapter03.rst:1500
+msgid ""
+"You can further limit the sharing to some domain instead of random email."
+" For example, if your primary collaboration target is with ACME "
+"corporation and you can limit the sharing to your domain and also ACME "
+"domain."
+msgstr "特定のドメインに共有をさらに制限することができます。たとえば、主なコラボレーション対象がACME社である場合、共有を自社のドメインに加えてACME社のドメインにも制限することができます。"
+
+#: ../../chapter03.rst:1502
+msgid ""
+"**Only allow sending shares to the specified domain(s) (i.e. "
+"company.com;company1.com)**"
+msgstr "**指定されたドメイン（例：company.com;company1.com）にのみ共有を送信を許可する**"
+
+#: ../../chapter03.rst:1504
+msgid ""
+"When it is set, the external sharing can only be shared to the white-list"
+" of email domains (which represent external partners, clients and etc)"
+msgstr "設定されている場合、外部共有はホワイトリストに登録されているメールドメイン（外部のパートナー、クライアントなどを表す）にのみ共有できます"
+
+#: ../../chapter03.rst:1506 ../../chapter03.rst:1713
+msgid ""
+"**Default folder to store attachments from Outlook plugin "
+"(/folder/subfolder)**"
+msgstr "**Outlook プラグインから添付ファイルを保存するデフォルトフォルダ (/folder/subfolder)**"
+
+#: ../../chapter03.rst:1508
+msgid "Allows you to designate where Outlook attachments are saved."
+msgstr "Outlookの添付ファイルを保存する場所を指定できます。"
+
+#: ../../chapter03.rst:1512
+msgid "Clients & Applications"
+msgstr "クライアントとアプリケーション"
+
+#: ../../chapter03.rst:1515
+msgid "Client Settings"
+msgstr "クライアント設定"
+
+#: ../../chapter03.rst:1517
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Clients & Applications`` >  "
+"``Client Setting``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``クライアントとアプリケーション`` > ``クライアント設定``"
+
+#: ../../chapter03.rst:1523
+msgid "CLIENT SETTING MANAGER"
+msgstr "クライアント設定マネージャー"
+
+#: ../../chapter03.rst:1527
+msgid "Sync Throttle"
+msgstr "同期スロットル"
+
+#: ../../chapter03.rst:1532
+msgid "SYNC THROTTLE SETTINGS"
+msgstr "同期スロットル設定"
+
+#: ../../chapter03.rst:1535
+msgid "**Enable Throttle Sync**"
+msgstr "**スロットル同期を有効にする**"
+
+#: ../../chapter03.rst:1537
+msgid ""
+"When disabled (default) all Sync Throttle settings in this section are "
+"disabled. Must be enabled to activate the following settings."
+msgstr "無効に設定されている（デフォルト）場合、このセクションのすべての同期スロットル設定は無効になります。以下の設定を有効にするには、有効に設定する必要があります。"
+
+#: ../../chapter03.rst:1539
+msgid "**Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)**"
+msgstr "**同期スロットルアップロード帯域幅 (KB/秒、0-無制限)**"
+
+#: ../../chapter03.rst:1541
+msgid "This setting controls the upload bandwidth from the client machine."
+msgstr "この設定は、クライアントマシンからのアップロード帯域幅を制御します。"
+
+#: ../../chapter03.rst:1543
+msgid "**Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)**"
+msgstr "**同期スロットルダウンロード帯域幅（KB/秒、0-無制限）**"
+
+#: ../../chapter03.rst:1545
+msgid "This setting controls the download bandwidth from the client machine."
+msgstr "この設定は、クライアントマシンからのダウンロード帯域幅を制御します。"
+
+#: ../../chapter03.rst:1547
+msgid "**Full Speed Sync Stop Hour (default 7:00)**"
+msgstr "**フルスピード同期停止時間（デフォルト7:00）**"
+
+#: ../../chapter03.rst:1549
+msgid ""
+"Full speed sync means multiple thread concurrent upload or download. This"
+" is typically good for after hour activity. We recommend default setting "
+"stop at 7am so when people return to work, the full speed sync stops so "
+"to give back more bandwidth to users who may be using the Internet for "
+"other purposes."
+msgstr "フルスピード同期とは、複数のスレッドが同時にアップロードまたはダウンロードを行うことを意味します。これは通常、業務時間後の活動に適しています。私たちは、人々が仕事に戻る7時にデフォルト設定を停止することをお勧めします。そうすることで、フルスピード同期が停止し、インターネットを他の目的で使用している可能性のあるユーザーにより多くの帯域幅を返すことができます。"
+
+#: ../../chapter03.rst:1551
+msgid "**Full Speed Sync Start Hour (default 20:00)**"
+msgstr "**フルスピード同期開始時間（デフォルト20:00）**"
+
+#: ../../chapter03.rst:1553
+msgid ""
+"Similar to the above setting, we recommend start full speed sync after "
+"working hours."
+msgstr "上記の設定と同様に、フルスピードでの同期は業務時間外に開始することをお勧めします。"
+
+#: ../../chapter03.rst:1557
+msgid "Scheduled Sync"
+msgstr "スケジュールされた同期"
+
+#: ../../chapter03.rst:1558
+msgid "**Enable Scheduled Sync**"
+msgstr "**スケジュール同期を有効にする**"
+
+#: ../../chapter03.rst:1560
+msgid ""
+"On the client side, in addition to a mapped drive (or a mac mounted "
+"volume), there is also functionality about folder synchronization. This "
+"setting can control when to sync. For example, if the business has "
+"limited bandwidth to the Internet, avoid doing synchronization during the"
+" working hours can save bandwidth."
+msgstr "クライアント側では、マップされたドライブ（またはマウントされたMacのボリューム）に加えて、フォルダの同期に関する機能もあります。この設定では、いつ同期するかを制御できます。例えば、ビジネスがインターネットへの帯域幅に制限がある場合、業務時間中に同期を避けることで帯域幅を節約できます。"
+
+#: ../../chapter03.rst:1567
+msgid "SCHEDULED SYNC SETTINGS"
+msgstr "スケジュールされた同期設定"
+
+#: ../../chapter03.rst:1571
+msgid "Mapped Drive Control"
+msgstr "マップドドライブコントロール"
+
+#: ../../chapter03.rst:1575
+msgid "MAPPED DRIVE CONTROL SETTINGS"
+msgstr "マップドライブ制御設定"
+
+#: ../../chapter03.rst:1577
+msgid ""
+"**Hide Large File Download Tracker (popup progress window on the bottom-"
+"right when downloading large files)**"
+msgstr "**大きなファイルのダウンロードトラッカーを隠す（大きなファイルをダウンロードする際に右下に表示されるポップアップ進捗ウィンドウ）**"
+
+#: ../../chapter03.rst:1579
+msgid ""
+"This is usually good for usability but people may find it annoying if "
+"download is popping up a download progress dialog at the lower right "
+"corner."
+msgstr "これは通常、使い勝手には良いものですが、ダウンロードが右下の角にダウンロード進行状況ダイアログをポップアップさせると、人々はそれを煩わしいと感じるかもしれません。"
+
+#: ../../chapter03.rst:1581
+msgid "**Always Allow Picture Preview**"
+msgstr "**常に画像プレビューを許可**"
+
+#: ../../chapter03.rst:1583
+msgid ""
+"Windows Explorer may want to download pictures in the background to "
+"generate thumbnails. This consumes bandwidth and may slow system down "
+"until all the preview thumbnails are generated. By default the client "
+"program disables the preview. However you can re-enable it."
+msgstr "Windows Explorerは、サムネイルを生成するために背景で画像をダウンロードすることがあります。これにより帯域幅が消費され、すべてのプレビューサムネイルが生成されるまでシステムが遅くなる可能性があります。デフォルトではクライアントプログラムはプレビューを無効にします。ただし、再度有効にすることができます。"
+
+#: ../../chapter03.rst:1585
+msgid "**Always Allow PDF Preview**"
+msgstr "**PDFプレビューを常に許可**"
+
+#: ../../chapter03.rst:1587
+msgid ""
+"Windows Explorer may want to download PDFs in the background to generate "
+"thumbnails. This consumes bandwidth and may slow system down until all "
+"the preview thumbnails are generated. By default the client program "
+"disables the preview. However you can re-enable it."
+msgstr "Windows エクスプローラーは、サムネイルを生成するためにPDFをバックグラウンドでダウンロードすることがあります。これにより帯域幅が消費され、すべてのプレビューサムネイルが生成されるまでシステムが遅くなる可能性があります。デフォルトではクライアントプログラムはプレビューを無効にします。ただし、再度有効にすることもできます。"
+
+#: ../../chapter03.rst:1589
+msgid "**Allow shortcuts**"
+msgstr "**ショートカットを許可**"
+
+#: ../../chapter03.rst:1591
+msgid "Allow shortcuts (.lnk) files"
+msgstr "ショートカット(.lnk)ファイルを許可する"
+
+#: ../../chapter03.rst:1593
+msgid "**When starting the client, open the mounted drive automatically**"
+msgstr "**クライアントを起動するときは、マウントされたドライブを自動的に開く**"
+
+#: ../../chapter03.rst:1595
+msgid ""
+"Enabling this opens the mounted drive in Windows Explorer when the client"
+" starts."
+msgstr "この機能を有効にすると、クライアントが起動したときにWindowsエクスプローラでマウントされたドライブが開きます。"
+
+#: ../../chapter03.rst:1597
+msgid "**Do not show file change notifications**"
+msgstr "**ファイル変更通知を表示しない**"
+
+#: ../../chapter03.rst:1599
+msgid ""
+"This is another feature that shows file change notification at the lower "
+"right-hand corner of the Windows desktop. People may find it annoying if "
+"the change notification comes in quite often."
+msgstr "これは、Windowsデスクトップの右下隅にファイル変更通知を表示する別の機能です。変更通知が頻繁に来ると、人々はそれを煩わしいと感じるかもしれません。"
+
+#: ../../chapter03.rst:1601
+msgid "**Do not show file in-place editing/preview disabled notifications**"
+msgstr "**ファイルのインプレース編集/プレビュー無効通知を表示しない**"
+
+#: ../../chapter03.rst:1603
+msgid ""
+"This feature also shows file change notifications at the lower right-hand"
+" corner of the Windows desktop. People may find it annoying if the change"
+" notification comes in quite often."
+msgstr "この機能は、Windowsデスクトップの右下隅にファイル変更通知を表示します。変更通知が頻繁に来ると、人々はそれを煩わしいと感じるかもしれません。"
+
+#: ../../chapter03.rst:1605
+msgid "**Enable Inplace Open Zip File**"
+msgstr "**Zipファイルをその場で開くを有効にする**"
+
+#: ../../chapter03.rst:1607
+msgid ""
+"Windows Explorer has a zip built-in extension that can open a zip file "
+"when double-clicked on. It may be good for the local drive but for cloud "
+"drive, that means the zip file is unzipped and re-upload back into the "
+"cloud. By default client application disables opening zip files directly "
+"in the cloud drive."
+msgstr "Windows エクスプローラーには、zip ファイルをダブルクリックすると開くことができる組み込みの拡張機能があります。これはローカルドライブには適していますが、クラウドドライブの場合、zip ファイルが解凍されてクラウドに再アップロードされることを意味します。デフォルトでは、クライアントアプリケーションはクラウドドライブで直接 zip ファイルを開くことを無効にしています。"
+
+#: ../../chapter03.rst:1609
+msgid "**Enable Single Sign On with login windows user identity**"
+msgstr "**ログインWindowsユーザーIDでシングルサインオンを有効にする**"
+
+#: ../../chapter03.rst:1611
+msgid ""
+"Enable Single Sign-On with Login Windows User Identity - For a Windows "
+"client agent running on a Windows Desktop machine, the login windows "
+"user's identity will be used for single sign-on to the |prodname| "
+"account."
+msgstr "WindowsユーザーIDを使用したシングルサインオンを有効にする - Windowsデスクトップマシン上で動作するWindowsクライアントエージェントの場合、ログインしているWindowsユーザーのIDが |prodname| アカウントへのシングルサインオンに使用されます。"
+
+#: ../../chapter03.rst:1613
+msgid "**Max Size of Zip File Allowed to Open In-place (MB)**"
+msgstr "**許可されているインプレースで開くZipファイルの最大サイズ（MB）**"
+
+#: ../../chapter03.rst:1615
+msgid "Limits the size of a Zip File that can be opened in-place."
+msgstr "Zipファイルのサイズ制限を設定して、その場で開けるようにします。"
+
+#: ../../chapter03.rst:1617
+msgid "**Max Size of File Allowed to Generate Thumbnail (MB)**"
+msgstr "**サムネイルを生成するためのファイルサイズの最大値（MB）**"
+
+#: ../../chapter03.rst:1619
+msgid "Limits the size of Files that can be used in the generation of thumbnails."
+msgstr "サムネイル生成に使用できるファイルサイズの上限を設定します。"
+
+#: ../../chapter03.rst:1621
+msgid "**Cloud Drive Label**"
+msgstr "**クラウドドライブラベル**"
+
+#: ../../chapter03.rst:1623
+msgid "What do you want to call your windows client drive."
+msgstr "Windowsクライアントドライブにどのような名前を付けますか。"
+
+#: ../../chapter03.rst:1625
+msgid "**Drive Letter**"
+msgstr "**ドライブレター**"
+
+#: ../../chapter03.rst:1627
+msgid "What do you want to give the drive letter to the client application."
+msgstr "クライアントアプリケーションにどのドライブ文字を割り当てたいですか。"
+
+#: ../../chapter03.rst:1629
+msgid "**Cache Size Limit (MB)**"
+msgstr "**キャッシュサイズの制限 (MB)**"
+
+#: ../../chapter03.rst:1631
+msgid ""
+"The Windows client maintains a client-side cache of this size (0 - "
+"unlimited)"
+msgstr "Windowsクライアントは、このサイズ（0 - 無制限）のクライアント側キャッシュを維持します"
+
+#: ../../chapter03.rst:1633
+msgid "**Minimal free disk space (GB)**"
+msgstr "**最小限の空きディスク容量（GB）**"
+
+#: ../../chapter03.rst:1635
+msgid ""
+"This setting is used to establish a minimum amount of disk space used for"
+" the windows client drive."
+msgstr "この設定は、Windowsクライアントドライブに使用される最小限のディスクスペースを確保するために使用されます。"
+
+#: ../../chapter03.rst:1637
+msgid "**Purge logging db n days old (0 - don't purge)**"
+msgstr "**n日以上経過したログ記録データベースを削除する (0 - 削除しない)**"
+
+#: ../../chapter03.rst:1639
+msgid "This limits how many days of logging are kept in the Windows client cache."
+msgstr "これにより、Windowsクライアントキャッシュに保持されるログの日数が制限されます。"
+
+#: ../../chapter03.rst:1641
+msgid "**Mount Drive in global space (Windows Client Only)**"
+msgstr "**グローバルスペースでドライブをマウント（Windowsクライアントのみ）**"
+
+#: ../../chapter03.rst:1643
+msgid ""
+"A drive mounted in the global space will not be subject to UAC (User "
+"Account Control) limitations, such as when legacy applications are "
+"required to run with administrative privilege and cannot see the drive "
+"guarded by the UAC. On the other hand, drives that are mounted in the "
+"global space are visible to any other users who log in on the same "
+"Windows machine at the same time."
+msgstr "グローバルスペースにマウントされたドライブは、UAC（ユーザーアカウント制御）の制限を受けません。例えば、管理者権限で実行する必要があるレガシーアプリケーションが、UACによって保護されたドライブを認識できない場合などです。一方、グローバルスペースにマウントされたドライブは、同じWindowsマシンに同時にログインする他のユーザーにも表示されます。"
+
+#: ../../chapter03.rst:1645
+msgid "**In offline mode, only show files that are cached and available locally**"
+msgstr "**オフラインモードでは、キャッシュされてローカルに利用可能なファイルのみを表示します**"
+
+#: ../../chapter03.rst:1647
+msgid ""
+"Typically there will be place-holder files and representative icons "
+"created for all of the files in the client drive. If this setting is "
+"enabled, only locally stored files will be shown."
+msgstr "通常、クライアントドライブ内のすべてのファイルには、プレースホルダーファイルと代表的なアイコンが作成されます。この設定を有効にすると、ローカルに保存されているファイルのみが表示されます。"
+
+#: ../../chapter03.rst:1649
+msgid "**Disable \"Check Out\"**"
+msgstr "**「チェックアウト」を無効にする**"
+
+#: ../../chapter03.rst:1651
+msgid ""
+"Turn off the \"Check Out\" feature and remove it from the right-click "
+"context menu."
+msgstr "「チェックアウト」機能をオフにし、右クリックのコンテキストメニューから削除してください。"
+
+#: ../../chapter03.rst:1653
+msgid "**Encrypt Local Cache**"
+msgstr "**ローカルキャッシュを暗号化**"
+
+#: ../../chapter03.rst:1655
+msgid ""
+"Once enabled, when a file is downloaded to cache, it is encrypted in "
+"place. When an authorized user then accesses the file from the (M:) "
+"Mapped Cloud Drive, CentreStack automatically decrypts it on the fly and "
+"then returns it to the user."
+msgstr "有効にすると、ファイルがキャッシュにダウンロードされると、その場で暗号化されます。その後、権限のあるユーザーが（M:）マップされたクラウドドライブからファイルにアクセスすると、CentreStackは自動的にそのファイルを即座に復号化し、ユーザーに返します。"
+
+#: ../../chapter03.rst:1657
+msgid "**Disable AutoCad Optimization**"
+msgstr "**AutoCad最適化を無効にする**"
+
+#: ../../chapter03.rst:1659
+msgid ""
+"By default, there is an AutoCAD optimization that delays the "
+"synchronization of the updated .dwg file and schedules it to sync upwards"
+" to the cloud at a later time. Use this setting to disable this AutoCad "
+"optimization and make saving AutoCAD .dwg files act the same as saving "
+"other regular files and lets .dwg file behavior follow other policy "
+"settings."
+msgstr "デフォルトでは、更新された .dwg ファイルの同期を遅らせ、後でクラウドに同期するようにスケジュールされているAutoCAD最適化があります。この設定を使用して、このAutoCAD最適化を無効にし、AutoCAD .dwgファイルの保存を他の通常のファイルの保存と同じように動作させ、.dwgファイルの動作が他のポリシー設定に従うようにします。"
+
+#: ../../chapter03.rst:1663
+msgid "Large File Upload"
+msgstr "大容量ファイルのアップロード"
+
+#: ../../chapter03.rst:1667
+msgid "LARGE FILE UPLOAD SETTINGS"
+msgstr "大容量ファイルアップロード設定"
+
+#: ../../chapter03.rst:1669
+msgid "**Enable chunk uploading when file size larger than (MB)**"
+msgstr "**ファイルサイズが（MB）を超える場合はチャンクアップロードを有効にする**"
+
+#: ../../chapter03.rst:1671
+msgid ""
+"Uploading a single large file can be disrupted by an Internet glitch. "
+"This setting breaks large files into smaller chunks to increase the "
+"success rate."
+msgstr "インターネットの不具合により、大きなファイルを一つアップロードする際に中断されることがあります。この設定では、大きなファイルを小さなチャンクに分割して、成功率を高めます。"
+
+#: ../../chapter03.rst:1673
+msgid "**Chunk file in the unit of (MB)**"
+msgstr "**チャンクファイルの単位（MB）**"
+
+#: ../../chapter03.rst:1675
+msgid ""
+"Works with the above setting to establish what size the chunks will be in"
+" as they are transferred."
+msgstr "上記の設定と連携して、転送される際のチャンクのサイズを決定します。"
+
+#: ../../chapter03.rst:1677
+msgid "**Use Volume Shadow Copy to Upload Files being Opened**"
+msgstr "**開いているファイルをアップロードするためにボリュームシャドウコピーを使用する**"
+
+#: ../../chapter03.rst:1679
+msgid ""
+"There is pro and con of using this flag. When file is open by other "
+"application, the file usually is locked and can't be uploaded until the "
+"file is closed. However using volume shadow copy can still upload the "
+"file. The down side is when the volume shadow copy happens, the file is "
+"not known to be in a consistent state."
+msgstr "このフラグを使用することの利点と欠点があります。ファイルが他のアプリケーションによって開かれている場合、通常はファイルがロックされており、ファイルが閉じられるまでアップロードすることはできません。しかし、ボリュームシャドウコピーを使用すると、ファイルをアップロードできます。デメリットは、ボリュームシャドウコピーが行われたとき、ファイルが一貫した状態にあるとは限らないことです。"
+
+#: ../../chapter03.rst:1683
+msgid "Bandwidth Control"
+msgstr "帯域幅制御"
+
+#: ../../chapter03.rst:1687
+msgid "BANDWIDTH CONTROL SETTINGS"
+msgstr "帯域幅制御設定"
+
+#: ../../chapter03.rst:1689
+msgid "**Download Bandwidth Limit (KB/s, 0 - Unlimited)**"
+msgstr "**ダウンロード帯域幅制限 (KB/秒、0 - 無制限)**"
+
+#: ../../chapter03.rst:1691
+msgid "This is download bandwidth control."
+msgstr "これはダウンロード帯域幅の制御です。"
+
+#: ../../chapter03.rst:1693
+msgid "**Upload Bandwidth Limit (KB/s, 0 - Unlimited)**"
+msgstr "**アップロード帯域幅制限 (KB/秒、0 - 無制限)**"
+
+#: ../../chapter03.rst:1695
+msgid "This is upload bandwidth control."
+msgstr "これはアップロード帯域幅制御です。"
+
+#: ../../chapter03.rst:1697
+msgid "**Number of File Transfer Threads**"
+msgstr "**ファイル転送スレッドの数**"
+
+#: ../../chapter03.rst:1699
+msgid "This is the number of concurrent upload/download allowed (default is 5)."
+msgstr "これは許可される同時アップロード/ダウンロードの数です（デフォルトは5です）。"
+
+#: ../../chapter03.rst:1703
+msgid "Outlook Plugin"
+msgstr "Outlook プラグイン"
+
+#: ../../chapter03.rst:1707
+msgid "OUTLOOK PLUGIN SETTINGS"
+msgstr "OUTLOOK プラグイン設定"
+
+#: ../../chapter03.rst:1709
+msgid "**Prompt conversion only when file is larger than n KB (0 - unlimited)**"
+msgstr "**ファイルがn KB以上の場合にのみ変換を促す (0 - 無制限)**"
+
+#: ../../chapter03.rst:1711
+msgid ""
+"For smaller files, it may be as well to just use the native outlook "
+"attachment."
+msgstr "小さいファイルの場合は、ネイティブのOutlook添付ファイルを使用する方が良いかもしれません。"
+
+#: ../../chapter03.rst:1715
+msgid "Allows you to set a storage location for the above setting."
+msgstr "上記の設定のためのストレージ場所を設定することができます。"
+
+#: ../../chapter03.rst:1717
+msgid "**Link expiration time**"
+msgstr "**リンクの有効期限**"
+
+#: ../../chapter03.rst:1719
+msgid ""
+"Allows Outlook share link to last indefinitely or expire in a specified "
+"timeframe (e.g., never, one day, one week, one month, six months, one "
+"year)."
+msgstr "Outlookの共有リンクが無期限に持続するか、指定された時間枠で期限切れになることを許可します（例：永久、1日、1週間、1ヶ月、6ヶ月、1年）。"
+
+#: ../../chapter03.rst:1723
+msgid "Client Startup Script"
+msgstr "クライアント起動スクリプト"
+
+#: ../../chapter03.rst:1724
+msgid ""
+"After the Windows client is completely started and finished loading, a "
+"command line script can be run. You can be upload that script here. For "
+"example, a script to map an additional drive letter to a specific folder "
+"inside the cloud drive."
+msgstr "Windowsクライアントが完全に起動し、ロードが完了した後、コマンドラインスクリプトを実行できます。そのスクリプトをここにアップロードできます。例えば、クラウドドライブ内の特定のフォルダに追加のドライブレターをマッピングするスクリプトなどです。"
+
+#: ../../chapter03.rst:1728
+msgid "Client Shutdown Script"
+msgstr "クライアントシャットダウンスクリプト"
+
+#: ../../chapter03.rst:1729
+msgid ""
+"Right before the Windows client is completely shutdown and finished "
+"running, a command line script can be run. You can upload that script "
+"here. For example, a script to clean up any reference to folders and "
+"files inside the cloud drive."
+msgstr "Windowsクライアントが完全にシャットダウンして実行が終了する直前に、コマンドラインスクリプトを実行することができます。そのスクリプトをここにアップロードできます。例えば、クラウドドライブ内のフォルダやファイルへの参照をクリーンアップするスクリプトなどです。"
+
+#: ../../chapter03.rst:1733
+msgid "Mac Client Settings"
+msgstr "Mac クライアント設定"
+
+#: ../../chapter03.rst:1734
+msgid "**Do not show Mac Client sync status pop up dialog**"
+msgstr "**Macクライアントの同期状態ポップアップダイアログを表示しないでください**"
+
+#: ../../chapter03.rst:1736
+msgid ""
+"This is usually good for usability but people may find it annoying if the"
+" file status is popping up a progress dialog at the lower right corner."
+msgstr "これは通常、使い勝手には良いものですが、ファイルの状態が右下の角に進行状況のダイアログを表示していると、人々はそれを煩わしいと感じるかもしれません。"
+
+#: ../../chapter03.rst:1739
+msgid "**Start Mac Client automatically**"
+msgstr "**Macクライアントを自動的に開始**"
+
+#: ../../chapter03.rst:1741
+msgid ""
+"(Enabled by default.) If this is disabled, the Mac Client must be started"
+" manually."
+msgstr "（デフォルトで有効になっています。）これを無効にすると、Macクライアントは手動で起動する必要があります。"
+
+#: ../../chapter03.rst:1745
+msgid "Web Portal"
+msgstr "ウェブポータル"
+
+#: ../../chapter03.rst:1747
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Clients & Applications`` > ``Web "
+"Portal``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``クライアントとアプリケーション`` > ``ウェブポータル``"
+
+#: ../../chapter03.rst:1752
+msgid "WEB PORTAL SETTINGS"
+msgstr "ウェブポータル設定"
+
+#: ../../chapter03.rst:1755
+msgid "**Disable folder download from web client**"
+msgstr "**ウェブクライアントからのフォルダダウンロードを無効にする**"
+
+#: ../../chapter03.rst:1757
+msgid ""
+"Disabled by default. The folder download from web client will zip up the "
+"folder and download it. It is CPU intensive so if you don't want it to be"
+" consuming too much CPU, you can disable it using this setting."
+msgstr "デフォルトでは無効です。Webクライアントからフォルダをダウンロードする際には、フォルダを圧縮してダウンロードします。これはCPUを多く使用するため、CPUの使用量を抑えたい場合は、この設定を使用して無効にすることができます。"
+
+#: ../../chapter03.rst:1759
+msgid "**Disable Search**"
+msgstr "**検索を無効にする**"
+
+#: ../../chapter03.rst:1761
+msgid ""
+"Disabled by default. If you don't need the search by file name feature, "
+"you can check this setting to disable it."
+msgstr "デフォルトでは無効です。ファイル名での検索機能が不要な場合は、この設定をチェックして無効にすることができます。"
+
+#: ../../chapter03.rst:1763
+msgid "**Web Browser - Disable Java Uploader**"
+msgstr "**Webブラウザ - Javaアップローダーを無効にする**"
+
+#: ../../chapter03.rst:1765
+msgid ""
+"Some organization standardized on web browser, for example, all web "
+"browser are HTML5 compliant. In this case, Java Uploader is not necessary"
+" and could be confusing to support when different users have different "
+"Java version installed."
+msgstr "一部の組織では、例えば、すべてのウェブブラウザがHTML5に準拠しているなど、ウェブブラウザを標準化しています。この場合、Javaアップローダーは必要なく、異なるユーザーが異なるJavaバージョンをインストールしているとサポートが混乱する可能性があります。"
+
+#: ../../chapter03.rst:1767
+msgid "**Web Browser - Disable Flash Uploader**"
+msgstr "**Webブラウザ - Flashアップローダーを無効にする**"
+
+#: ../../chapter03.rst:1769
+msgid ""
+"Some organization standardized on web browser, for example, all web "
+"browser are HTML5 compliant. In this case, Flash Uploader is not "
+"necessary and could be confusing to support when different users have "
+"different Flash version installed. Different kind of web browser may also"
+" have different levels of Flash support, causing different behavior."
+msgstr "ある組織はウェブブラウザを標準化しており、例えば、すべてのウェブブラウザがHTML5に準拠しています。この場合、Flash Uploaderは必要なく、異なるユーザーが異なるバージョンのFlashをインストールしているとサポートが混乱する可能性があります。異なる種類のウェブブラウザでは、Flashのサポートレベルも異なり、動作が異なることがあります。"
+
+#: ../../chapter03.rst:1771
+msgid "**Web Browser - Disable Local Uploader**"
+msgstr "**Webブラウザ - ローカルアップローダーを無効にする**"
+
+#: ../../chapter03.rst:1773
+msgid ""
+"Admin can also disable local uploaded in which case the upload will "
+"happen using the browser directly."
+msgstr "管理者は、ローカルアップロードを無効にすることもできます。その場合、アップロードはブラウザを直接使用して行われます。"
+
+#: ../../chapter03.rst:1775
+msgid "**Enable Tabbed-Browsing in User Manager**"
+msgstr "**ユーザーマネージャーでタブブラウジングを有効にする**"
+
+#: ../../chapter03.rst:1777
+msgid ""
+"When enabled, the user manager will order users by their last name so if "
+"you have many users, you have an easy to access way to find the users."
+msgstr "有効にすると、ユーザーマネージャーはユーザーを姓によって順序付けするので、多くのユーザーがいる場合でも、簡単にアクセスしてユーザーを見つける方法があります。"
+
+#: ../../chapter03.rst:1779
+msgid "**Only show search interface in User Manager**"
+msgstr "**ユーザーマネージャーで検索インターフェースのみを表示**"
+
+#: ../../chapter03.rst:1781
+msgid ""
+"When you have even more users, Tabbed-Browsing can't handle it any more, "
+"you can enable search-only interface."
+msgstr "さらに多くのユーザーがいる場合、タブブラウジングでは処理できなくなりますので、検索専用インターフェイスを有効にすることができます。"
+
+#: ../../chapter03.rst:1783
+msgid "**Show tutorial page for non-admin users**"
+msgstr "**非管理ユーザー向けチュートリアルページを表示**"
+
+#: ../../chapter03.rst:1785
+msgid "Display tutorial page for regular users when they login to the web portal."
+msgstr "一般ユーザーがWebポータルにログインしたときにチュートリアルページを表示します。"
+
+#: ../../chapter03.rst:1787
+msgid "**Show team folder level permissions in team folder publishing dialog**"
+msgstr "**チームフォルダー公開ダイアログでチームフォルダーレベルの権限を表示**"
+
+#: ../../chapter03.rst:1789
+msgid ""
+"The advanced setting refers to “Create CIFS Share”, “Disable further "
+"sharing”, and “Disable Offline Access” settings."
+msgstr "高度な設定には、「CIFS共有の作成」、「さらなる共有の無効化」、「オフラインアクセスの無効化」という設定が含まれます。"
+
+#: ../../chapter03.rst:1791
+msgid "**Disable 'Publish Tenant Home Storage As a Team Folder'**"
+msgstr "**'テナントホームストレージをチームフォルダとして公開する'を無効にする**"
+
+#: ../../chapter03.rst:1793
+msgid ""
+"This feature can be hidden in Tenant Management Console > Team Folder > "
+"Add New Team Folder"
+msgstr "この機能はテナント管理コンソール > チームフォルダー > 新しいチームフォルダーを追加する で非表示にすることができます"
+
+#: ../../chapter03.rst:1795
+msgid "**Confirm before moving via drag-and-drop**"
+msgstr "**ドラッグアンドドロップで移動する前に確認してください**"
+
+#: ../../chapter03.rst:1797
+msgid ""
+"In web portal, sometimes there can be accidental drag and drop, in this "
+"case, having a confirmation dialog can help prevent accidental drag and "
+"drop."
+msgstr "ウェブポータルでは、時々誤ってドラッグアンドドロップが発生することがあります。この場合、確認ダイアログがあると、誤ったドラッグアンドドロップを防ぐのに役立ちます。"
+
+#: ../../chapter03.rst:1799
+msgid "**Show left tree view by default**"
+msgstr "**デフォルトで左のツリービューを表示**"
+
+#: ../../chapter03.rst:1801
+msgid ""
+"Disabled by default. When enabled left-tree is displayed when you log in "
+"to the web portal."
+msgstr "デフォルトでは無効です。有効にすると、Webポータルにログインしたときに左側のツリーが表示されます。"
+
+#: ../../chapter03.rst:1803
+msgid "**Do not show \"recent activities**"
+msgstr "**最近の活動を表示しないでください**"
+
+#: ../../chapter03.rst:1805
+msgid ""
+"Disabled by default. When enabled \"recent activities\" is not visible in"
+" the Show/Hide Info Panel on the right side of the Web Portal File "
+"Browser."
+msgstr "デフォルトでは無効です。有効にした場合、「最近の活動」はWebポータルファイルブラウザの右側にある情報パネルの表示/非表示で見ることができません。"
+
+#: ../../chapter03.rst:1807
+msgid "**Show 'link to local' option to non-admin user**"
+msgstr "**非管理ユーザーに'ローカルへのリンク'オプションを表示する**"
+
+#: ../../chapter03.rst:1809
+msgid ""
+"Disabled by default. When enabled, non-admin user will have access to the"
+" **\"Link to Local\"** option in the Sharing and Collaboration tab under "
+"the Show/Hide Info Panel on the right side of the Web Portal File "
+"Browser."
+msgstr "デフォルトでは無効です。有効にすると、非管理者ユーザーはWebポータルファイルブラウザの右側にある情報パネルの表示/非表示タブの共有とコラボレーションタブで **「ローカルへのリンク」** オプションにアクセスできるようになります。"
+
+#: ../../chapter03.rst:1811
+msgid "**Show max count of file/folder items**"
+msgstr "**ファイル/フォルダ項目の最大数を表示**"
+
+#: ../../chapter03.rst:1813
+msgid ""
+"Default files to show is 1,000. Some customers may have a very flat "
+"folder that has more than one thousand files. It is not recommended to "
+"have a cloud system have flat folder structure like this. But if customer"
+" has many files in a flat folder. This setting can be used to show all "
+"files by increasing this number as needed."
+msgstr "デフォルトで表示されるファイル数は1,000です。一部の顧客は、1,000を超えるファイルがある非常にフラットなフォルダを持っている場合があります。このようなフラットなフォルダ構造をクラウドシステムに持たせることは推奨されません。しかし、顧客がフラットなフォルダに多くのファイルを持っている場合、この設定を使用して、必要に応じてこの数を増やすことで、すべてのファイルを表示することができます。"
+
+#: ../../chapter03.rst:1817
+msgid "Native Client"
+msgstr "ネイティブクライアント"
+
+#: ../../chapter03.rst:1819
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Clients & Applications`` > "
+"``Native Client``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``クライアントとアプリケーション`` > ``ネイティブクライアント``"
+
+#: ../../chapter03.rst:1824
+msgid "NATIVE CLIENT SETTINGS"
+msgstr "ネイティブクライアント設定"
+
+#: ../../chapter03.rst:1826
+msgid "**Create a shortcut in the documents library**"
+msgstr "**ドキュメントライブラリにショートカットを作成する**"
+
+#: ../../chapter03.rst:1828
+msgid ""
+"Enabled by default. This is a convenience feature to add a link to "
+"documents library to the cloud drive."
+msgstr "デフォルトで有効です。これは、ドキュメントライブラリへのリンクをクラウドドライブに追加する便利な機能です。"
+
+#: ../../chapter03.rst:1830
+msgid "**Create shortcut on desktop**"
+msgstr "**デスクトップにショートカットを作成する**"
+
+#: ../../chapter03.rst:1832
+msgid "Enabled by default. Same as above but the shortcut is on the desktop."
+msgstr "デフォルトで有効。上記と同じですが、ショートカットはデスクトップ上にあります。"
+
+#: ../../chapter03.rst:1834
+msgid "**Hide Settings in Windows Client Management Console**"
+msgstr "**Windowsクライアント管理コンソールの設定を隠す**"
+
+#: ../../chapter03.rst:1836
+msgid ""
+"Disabled by default. The Settings in the Windows client may be viewed as "
+"“too much information for normal user”. If that is the case, enabling "
+"this option will hide those settings."
+msgstr "デフォルトでは無効です。Windowsクライアントの設定は「通常のユーザーには情報が多すぎる」と見なされる場合があります。そのような場合、このオプションを有効にすると、それらの設定が非表示になります。"
+
+#: ../../chapter03.rst:1838
+msgid "**Don't Allow Setting Changes in Windows Client Management Console**"
+msgstr "**Windowsクライアント管理コンソールでの設定変更を許可しない**"
+
+#: ../../chapter03.rst:1840
+msgid ""
+"Disabled by default. When disabled the Windows Client user can change the"
+" settings in the Windows Client Management Console."
+msgstr "デフォルトでは無効です。無効にすると、WindowsクライアントのユーザーはWindowsクライアント管理コンソールで設定を変更できます。"
+
+#: ../../chapter03.rst:1842
+msgid "**Disable Windows client in-place drag & drop uploading**"
+msgstr "**Windowsクライアントの場所内ドラッグ＆ドロップによるアップロードを無効にする**"
+
+#: ../../chapter03.rst:1844
+msgid ""
+"Unchecked by default. When enabled, dragging & dropping files (or "
+"folders) to the cloud drive will write files to the local cache first and"
+" then upload in the background."
+msgstr "デフォルトではチェックされていません。有効にすると、ファイル（またはフォルダ）をクラウドドライブにドラッグ＆ドロップすると、最初にローカルキャッシュにファイルを書き込み、その後バックグラウンドでアップロードします。"
+
+#: ../../chapter03.rst:1846
+msgid "**Disable Auto-Login next time**"
+msgstr "**次回の自動ログインを無効にする**"
+
+#: ../../chapter03.rst:1848
+msgid ""
+"Unchecked by default. When you want the user to type in username/password"
+" every time they login to the Windows client, you can check this to "
+"disable auto-login."
+msgstr "デフォルトではチェックされていません。ユーザーにWindowsクライアントにログインするたびにユーザー名とパスワードを入力させたい場合は、このオプションをチェックして自動ログインを無効にします。"
+
+#: ../../chapter03.rst:1850
+msgid "**Disable drag & drop handler**"
+msgstr "**ドラッグ＆ドロップハンドラを無効にする**"
+
+#: ../../chapter03.rst:1852
+msgid ""
+"Unchecked by default. If you check this option, the Windows file drag and"
+" drop will take over, this typically means the files will be copied into "
+"cache before upload, thus resulting in two copies of files being "
+"uploaded."
+msgstr "デフォルトではチェックされていません。このオプションをチェックすると、Windowsファイルのドラッグ＆ドロップが有効になり、通常はファイルがアップロード前にキャッシュにコピーされるため、結果としてファイルが2回アップロードされることになります。"
+
+#: ../../chapter03.rst:1854
+msgid "**Requiring approval for device access**"
+msgstr "**デバイスアクセスの承認が必要です**"
+
+#: ../../chapter03.rst:1856
+msgid ""
+"Disabled by default. When a user attempts to log in from a new device via"
+" native client applications, the connection will be rejected until the "
+"tenant admin approves the new device. The approval can be done from the "
+"\"Client Device Manager\""
+msgstr "デフォルトでは無効です。ユーザーがネイティブクライアントアプリケーションを介して新しいデバイスからログインしようとした場合、テナント管理者が新しいデバイスを承認するまで接続は拒否されます。承認は「クライアントデバイスマネージャー」から行うことができます"
+
+#: ../../chapter03.rst:1858
+msgid "**Enable auto-install of Outlook Plugin**"
+msgstr "**Outlook プラグインの自動インストールを有効にする**"
+
+#: ../../chapter03.rst:1860
+msgid ""
+"Disabled by default. The Cluster Server Windows Desktop client comes with"
+" an Outlook plug-in. If this option is enabled, the Outlook plugin will "
+"be enabled upon client startup."
+msgstr "デフォルトでは無効です。Cluster Server Windowsデスクトップクライアントには、Outlookプラグインが付属しています。このオプションを有効にすると、クライアント起動時にOutlookプラグインが有効になります。"
+
+#: ../../chapter03.rst:1862
+msgid "**Disable native client for guest users**"
+msgstr "**ゲストユーザーのネイティブクライアントを無効にする**"
+
+#: ../../chapter03.rst:1864
+msgid ""
+"Unchecked by default. For guest users, don't allow them to use native "
+"client, so the guest users can only use web browser files and folder "
+"view."
+msgstr "デフォルトではチェックされていません。ゲストユーザーの場合、ネイティブクライアントの使用を許可しないため、ゲストユーザーはWebブラウザのファイルやフォルダビューのみを使用できます。"
+
+#: ../../chapter03.rst:1869
+msgid "Folder & Storage"
+msgstr "フォルダーとストレージ"
+
+#: ../../chapter03.rst:1872
+msgid "Backend Storage"
+msgstr "バックエンドストレージ"
+
+#: ../../chapter03.rst:1874
+msgid ""
+"``Tenant Manager`` > ``Settings`` >  ``Folder & Storage`` > ``Backend "
+"Storage``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``フォルダーとストレージ`` > ``バックエンドストレージ``"
+
+#: ../../chapter03.rst:1876
+msgid ""
+"Each tenant has a default backend storage. Tenant user (team user)'s home"
+" storage and other shared storage space can be allocated from the default"
+" backend storage."
+msgstr "各テナントにはデフォルトのバックエンドストレージがあります。テナントユーザー（チームユーザー）のホームストレージおよびその他の共有ストレージスペースは、デフォルトのバックエンドストレージから割り当てることができます。"
+
+#: ../../chapter03.rst:1881
+msgid ""
+"You can think of the Tenant Backend Storage as a \"Black Box\" managed by"
+" the Cluster Server and you shall always use the Cluster Server interface"
+" to interact with the content inside the storage. If you can't take this "
+"\"Black Box\" approach for the tenant's root backend storage, you can use"
+" the following other methods via the team folders, such as import file "
+"server network share."
+msgstr "テナントバックエンドストレージをクラスターサーバーが管理する「ブラックボックス」と考え、そのストレージ内のコンテンツと対話する際は常にクラスターサーバーのインターフェースを使用してください。テナントのルートバックエンドストレージにこの「ブラックボックス」アプローチを取れない場合は、チームフォルダを介して、ファイルサーバーネットワークシェアをインポートするなど、他の方法を使用できます。"
+
+#: ../../chapter03.rst:1883
+msgid ""
+"However, if you already have a file server that will provide the storage,"
+" it is recommended to use \"Import Network File Shares\" to mount the "
+"file server network share to the tenant's storage space. In this case, "
+"you can leave the \"Default Storage\" as is, or point it to an empty "
+"location and treat it as a black box storage managed at the Cluster "
+"Server level."
+msgstr "しかし、ストレージを提供するファイルサーバーを既にお持ちの場合は、「インポート・ネットワーク・ファイル・シェア」を使用して、ファイルサーバーのネットワーク・シェアをテナントのストレージスペースにマウントすることをお勧めします。この場合、「デフォルト・ストレージ」はそのままにしておくか、空の場所を指定してブラックボックス・ストレージとして扱い、クラスター・サーバー・レベルで管理します。"
+
+#: ../../chapter03.rst:1888
+msgid "STORAGE MANAGER ACCESS"
+msgstr "ストレージマネージャーアクセス"
+
+#: ../../chapter03.rst:1890
+msgid ""
+"To access the Tenant Storage Manager, click \"Folder & Storage\" on "
+"\"Settings\" section. To check the backend storage information, click the"
+" dropdown at the top right corner, and select \"Edit\", to edit the "
+"storage configuration details."
+msgstr "テナントストレージマネージャーにアクセスするには、「設定」セクションの「フォルダー＆ストレージ」をクリックしてください。バックエンドストレージ情報を確認するには、右上隅のドロップダウンをクリックし、「編集」を選択して、ストレージ構成の詳細を編集します。"
+
+#: ../../chapter03.rst:1892
+msgid ""
+"If cluster admin needs to check the backend storage for multiple tenants,"
+" go to \"Tenant Manager\". Click the \"hamburger\" menu at the top right "
+"corner of each tenant, and then choose \"Edit Existing Default Storage\"."
+msgstr "クラスター管理者が複数のテナントのバックエンドストレージを確認する必要がある場合は、「テナントマネージャー」に移動します。各テナントの右上隅にある「ハンバーガー」メニューをクリックし、次に「既存のデフォルトストレージを編集」を選択します。"
+
+#: ../../chapter03.rst:1897
+msgid "STORAGE MANAGER ACCESS - MULTIPLE TENANTS"
+msgstr "ストレージマネージャーアクセス - 複数テナント"
+
+#: ../../chapter03.rst:1902
+msgid ""
+"You can mount different storage services into a single namespace (folder "
+"structure). For example, if you have multiple Amazon S3 buckets, you can "
+"mount them all in. If you have multiple OpenStack Swift accounts, you can"
+" mount them all in as well. If you have multiple file server network "
+"shares, you can add them to the storage manager."
+msgstr "異なるストレージサービスを単一のネームスペース（フォルダ構造）にマウントすることができます。例えば、複数のAmazon S3バケットを持っている場合、それらをすべてマウントすることができます。複数のOpenStack Swiftアカウントを持っている場合も、それらをすべてマウントすることができます。また、複数のファイルサーバーネットワーク共有を持っている場合は、それらをストレージマネージャーに追加することができます。"
+
+#: ../../chapter03.rst:1906
+msgid ""
+"The cluster manager can define whether or not the Storage Manager is "
+"exposed to the tenant administrator."
+msgstr "クラスターマネージャーは、ストレージマネージャーがテナント管理者に公開されるかどうかを定義できます。"
+
+#: ../../chapter03.rst:1911
+msgid "EDITING STORAGE SETTINGS"
+msgstr "ストレージ設定の編集"
+
+#: ../../chapter03.rst:1914
+msgid "Edit Local Storage"
+msgstr "ローカルストレージを編集"
+
+#: ../../chapter03.rst:1916
+msgid ""
+"This is the file server UNC path or local windows folder path that you "
+"will connect into the tenant administrator's root folder structure. The "
+"idea here is you will take this folder and mount the folder to the tenant"
+" administrator's root folder structure."
+msgstr "これはテナント管理者のルートフォルダ構造に接続するファイルサーバのUNCパスまたはローカルのWindowsフォルダパスです。ここでの考え方は、このフォルダを取り、テナント管理者のルートフォルダ構造にマウントすることです。"
+
+#: ../../chapter03.rst:1921
+msgid ""
+"The user name is the Windows username, either it being local Windows user"
+" or global Active Directory user, this is a Windows account that is "
+"capable of accessing the \"Local Storage Location\"."
+msgstr "ユーザー名は、ローカルのWindowsユーザーであろうとグローバルなActive Directoryユーザーであろうと、\"ローカルストレージの場所\"にアクセスできるWindowsアカウントです。"
+
+#: ../../chapter03.rst:1926
+msgid "This is the password for the Windows user above."
+msgstr "上記のWindowsユーザーのパスワードです。"
+
+#: ../../chapter03.rst:1930
+msgid ""
+"We recommend this Windows user and his credential be set up as a service "
+"account, meaning the password isn't subject to the maximum password days "
+"via local security policy. The reason being, that, when it is time to "
+"rotate or change the user password, the connection here may be broken "
+"until the password is updated to match."
+msgstr "このWindowsユーザーとその資格情報は、サービスアカウントとして設定されることをお勧めします。つまり、パスワードがローカルセキュリティポリシーによる最大パスワード日数の対象とならないということです。その理由は、ユーザーパスワードを変更または更新する時に、ここでの接続がパスワードが一致するまで切断される可能性があるからです。"
+
+#: ../../chapter03.rst:1933
+msgid "**“Always access the storage using logon user identity”**"
+msgstr "**「常にログオンユーザーのIDを使用してストレージにアクセスする」**"
+
+#: ../../chapter03.rst:1935
+msgid ""
+"When you have Active Directory Integration, and mount an existing file "
+"server network share in, you can select “Always access the storage using "
+"logon user identity” so the ACL (NTFS Permission) on the file server "
+"share will be used natively. The access permission will be checked "
+"natively against the user's Active Directory identity that is defined by "
+"the NTFS permission."
+msgstr "アクティブディレクトリ統合があり、既存のファイルサーバーネットワークシェアをマウントする場合、「常にログオンユーザーのIDを使用してストレージにアクセスする」を選択すると、ファイルサーバーシェアのACL（NTFSパーミッション）がネイティブに使用されます。アクセス許可は、NTFSパーミッションで定義されたユーザーのアクティブディレクトリIDに対してネイティブにチェックされます。"
+
+#: ../../chapter03.rst:1937
+msgid ""
+"This option only applies to the \"Local Storage\" such as network share, "
+"DFS share, local folder, and etc."
+msgstr "このオプションは、ネットワーク共有、DFS共有、ローカルフォルダーなどの「ローカルストレージ」にのみ適用されます。"
+
+#: ../../chapter03.rst:1939
+msgid "**“The share is from a Linux/Unix/ZFS server”**"
+msgstr "**「その共有はLinux/Unix/ZFSサーバーからのものです」**"
+
+#: ../../chapter03.rst:1941
+msgid ""
+"Most of the time, you don't want to check this flag because your file "
+"server share shall behave like a normal Windows Server share, even if it "
+"doesn't come from a Windows Server."
+msgstr "ほとんどの場合、ファイルサーバーの共有がWindowsサーバーから来ていない場合でも、通常のWindowsサーバーの共有のように動作するため、このフラグをチェックする必要はありません。"
+
+#: ../../chapter03.rst:1943
+msgid ""
+"In some small SOHO network storage devices, it may only allow one "
+"connection from one IP address, so if that is the case, you want to check"
+" this flag. Most of the time, you just don't need to check this when the "
+"network share is capable of taking multiple connections/sessions from one"
+" single machine."
+msgstr "一部の小規模SOHOネットワークストレージデバイスでは、1つのIPアドレスからの接続を1つだけ許可する場合がありますので、そのような場合はこのフラグをチェックしたいと思うでしょう。ほとんどの場合、ネットワーク共有が1台のマシンから複数の接続/セッションを取ることができる場合、このフラグをチェックする必要はありません。"
+
+#: ../../chapter03.rst:1945
+msgid "**“This share is a DFS share”**"
+msgstr "**「この共有はDFS共有です」**"
+
+#: ../../chapter03.rst:1947
+msgid ""
+"If the share is a DFS share, you will check this checkbox, because DFS "
+"share has an extra layer of translation to translate back down to normal "
+"file server shares. This flag tells the Cluster Server to do an extra DFS"
+" translation back to SMB share before connecting to the share."
+msgstr "共有がDFS共有の場合、DFS共有は通常のファイルサーバー共有に翻訳するための追加のレイヤーがあるため、このチェックボックスをオンにします。このフラグは、共有に接続する前に、クラスターサーバーにDFS翻訳をSMB共有に戻すように指示します。"
+
+#: ../../chapter03.rst:1949
+msgid "**“Enable Inplace Versioning”**"
+msgstr "**「インプレースバージョニングを有効にする」**"
+
+#: ../../chapter03.rst:1951
+msgid ""
+"The underlying file server network share may not have explicit version "
+"control (it may have volume shadow copy for other purposes). This will "
+"add Cluster Server version control to the file server network share. It "
+"is independent of and not related to the volume shadow copy."
+msgstr "基盤となるファイルサーバーのネットワーク共有には、明示的なバージョン管理がない場合があります（他の目的でボリュームシャドウコピーを持っているかもしれません）。これにより、ファイルサーバーのネットワーク共有にクラスターサーバーのバージョン管理が追加されます。これはボリュームシャドウコピーとは独立しており、関連はありません。"
+
+#: ../../chapter03.rst:1955
+msgid ""
+"In place versioning will put the older version of the file into a __ver__"
+" subfolder in the same folder structure making the name for In-Place "
+"Versioning so the folder structure is maintained as-is, while extra old "
+"copies of the file will be stored in a specific subfolder."
+msgstr "インプレースバージョニングでは、古いバージョンのファイルを同じフォルダ構造の__ver__サブフォルダに入れることで、インプレースバージョニングの名前が付けられ、フォルダ構造はそのまま維持されます。一方、古いファイルの追加コピーは特定のサブフォルダに保存されます。"
+
+#: ../../chapter03.rst:1960
+msgid "IN-PLACE VERSIONING"
+msgstr "インプレースバージョニング"
+
+#: ../../chapter03.rst:1962
+msgid ""
+"Here is a demo video showing the result of \"Enable Inplace Versioning\" "
+"when the root folder ('forward slash') is mounted with the \"Inplace "
+"versioning\" enabled."
+msgstr "こちらは「ルートフォルダ（'スラッシュ'）」に「インプレースバージョニング」を有効にしてマウントした際の「インプレースバージョニング」の結果を示すデモビデオです。"
+
+#: ../../chapter03.rst:1971
+msgid "Migrate to New Storage"
+msgstr "新しいストレージへの移行"
+
+#: ../../chapter03.rst:1976
+msgid "CLOUD STORAGE MIGRATE"
+msgstr "クラウドストレージ移行"
+
+#: ../../chapter03.rst:1978
+msgid ""
+"Once the tenant backend storage is set, we don't recommend changing it "
+"until it has to be changed (e.g., migrate to other location). However "
+"when you are just setting up the tenant, you can decide where your "
+"tenant's storage location is and can change between local file server "
+"storage or remote cloud storage service."
+msgstr "テナントのバックエンドストレージが設定されたら、変更する必要がある場合（例えば、他の場所に移行するなど）を除いて、変更することはお勧めしません。しかし、テナントを設定している最中であれば、テナントのストレージ場所を決定し、ローカルファイルサーバーストレージとリモートクラウドストレージサービスの間で変更することができます。"
+
+#: ../../chapter03.rst:1980
+msgid "There are two types of storage migrations."
+msgstr "ストレージ移行には二種類あります。"
+
+#: ../../chapter03.rst:1986
+msgid "**1.** Migrate data to a different location in the same type of storage:"
+msgstr "**1.** 同じタイプのストレージ内で異なる場所へデータを移行する:"
+
+#: ../../chapter03.rst:1983
+msgid "Identify the location of the current storage"
+msgstr "現在のストレージの場所を特定する"
+
+#: ../../chapter03.rst:1984
+msgid ""
+"Copy the content to the new location (for example, you can use xcopy *.* "
+"from the old location to the new location"
+msgstr "新しい場所にコンテンツをコピーしてください（例えば、古い場所から新しい場所に xcopy *.* を使用できます"
+
+#: ../../chapter03.rst:1985
+msgid "Login to web portal as Cluster Admin."
+msgstr "クラスター管理者としてWebポータルにログインします。"
+
+#: ../../chapter03.rst:1986
+msgid ""
+"Go to Tenant Manager -> Manage the specific Tenant -> Backend Storage and"
+" click on edit to point to the new location"
+msgstr "テナントマネージャーに移動 -> 特定のテナントを管理 -> バックエンドストレージに移動し、新しい場所を指すように編集をクリックします"
+
+#: ../../chapter03.rst:1991
+msgid "**2.**  Migrate data to a different type of storage:"
+msgstr "**2.** 異なるタイプのストレージにデータを移行する:"
+
+#: ../../chapter03.rst:1989
+msgid "Go to the registry using regedit"
+msgstr "regeditを使用してレジストリに移動します"
+
+#: ../../chapter03.rst:1990
+msgid ""
+"Go to HKLM\\\\SOFTWARE\\\\Gladinet\\\\Enterprise\\\\ and add a new string"
+" value called 'CanChangeDefaultStorage' and set the value to 'True' and "
+"reboot"
+msgstr "HKLM\\SOFTWARE\\Gladinet\\Enterprise\\ に移動し、'CanChangeDefaultStorage' という新しい文字列値を追加して、その値を 'True' に設定し、再起動してください"
+
+#: ../../chapter03.rst:1991
+msgid ""
+"Edit the storage type using new icon to edit storage under Cluster "
+"Manager\\Tenant Manager"
+msgstr "クラスターマネージャー\テナントマネージャーの下にある新しいアイコンを使用してストレージタイプを編集する"
+
+#: ../../chapter03.rst:1995
+msgid ""
+"It is not recommended that you modify registry settings. Create a backup "
+"of the registry before modifying any registry settings."
+msgstr "レジストリ設定を変更することはお勧めできません。レジストリ設定を変更する前に、レジストリのバックアップを作成してください。"
+
+#: ../../chapter03.rst:1998
+msgid "Retention Policy"
+msgstr "保持ポリシー"
+
+#: ../../chapter03.rst:2000
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Retention "
+"Policy``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``フォルダーとストレージ`` > ``保持ポリシー``"
+
+#: ../../chapter03.rst:2006
+msgid "RETENTION POLICY SETTINGS"
+msgstr "保持ポリシー設定"
+
+#: ../../chapter03.rst:2008
+msgid ""
+"The cloud monitoring service on the Cluster Server will be responsible "
+"for the retention policy. The settings of the retention policy are "
+"described below."
+msgstr "クラスターサーバーのクラウド監視サービスは、保持ポリシーを管理します。保持ポリシーの設定は以下の通りです。"
+
+#: ../../chapter03.rst:2010
+msgid "**Keep last n version(s) of files in versioned folder**"
+msgstr "**バージョン管理フォルダ内のファイルを最新のnバージョンのみ保持する**"
+
+#: ../../chapter03.rst:2012
+msgid ""
+"This setting lets you decide how many versions of files to keep in the "
+"version folder. (0 - let system decide, also apply to \"attached local "
+"folder')"
+msgstr "この設定では、バージョンフォルダにどれだけのバージョンのファイルを保持するかを決定できます。（0 - システムに任せる、\"添付されたローカルフォルダ\"にも適用）"
+
+#: ../../chapter03.rst:2014
+msgid "**Only purge versioned files that are more than n day(s) old**"
+msgstr "**バージョン管理されたファイルは、n日以上経過したもののみを削除する**"
+
+#: ../../chapter03.rst:2016
+msgid ""
+"This is a security feature. For example, there is a virus modified the "
+"same file many times so it created many versions causing good old "
+"versions to be scheduled for deletion. However, with this set, the good "
+"old versions will be kept for at least the amount of days so give enough "
+"time to recover. (0 - purge old versions once they exceed the version "
+"limit, regardless of the version lifespan)"
+msgstr "これはセキュリティ機能です。例えば、ウイルスが同じファイルを何度も変更し、多くのバージョンを作成してしまい、古い良いバージョンが削除される予定になってしまいます。しかし、この設定により、少なくとも設定された日数は良い古いバージョンを保持するので、回復するための十分な時間を確保できます。（0 - バージョンの寿命に関係なく、バージョンの限界を超えたら古いバージョンをすぐに削除します）"
+
+#: ../../chapter03.rst:2018
+msgid "**Keep deleted files in versioned folder and/or Trash Can for n day(s)**"
+msgstr "**バージョン管理フォルダおよび/またはごみ箱で削除されたファイルをn日間保持する**"
+
+#: ../../chapter03.rst:2020
+msgid ""
+"When a file is deleted in the version folder, it is not actually deleted."
+" It will be kept for several days defined here. The same policy also "
+"apply to"
+msgstr "バージョンフォルダ内でファイルが削除された場合、実際には削除されません。ここで定義された複数日間保持されます。同じポリシーが適用されます"
+
+#: ../../chapter03.rst:2022
+msgid "**Keep file change log for n day(s)**"
+msgstr "**n日間ファイル変更ログを保持する**"
+
+#: ../../chapter03.rst:2024
+msgid ""
+"File change log is the biggest database table and could be growing "
+"without trimming. You can decide how often you want to trim the table."
+msgstr "ファイル変更ログは最大のデータベーステーブルであり、トリミングせずに成長し続ける可能性があります。テーブルをどの程度の頻度でトリミングするかを決定できます。"
+
+#: ../../chapter03.rst:2028
+msgid ""
+"There is also a cluster setting about the file change log length. The "
+"cluster setting overrides the per-tenant setting."
+msgstr "ファイル変更ログの長さに関するクラスター設定もあります。このクラスター設定は、テナントごとの設定を上書きします。"
+
+#: ../../chapter03.rst:2030
+msgid "**Keep audit trace for n day(s)**"
+msgstr "**n日間の監査跡を保持する**"
+
+#: ../../chapter03.rst:2032
+msgid ""
+"Audit trace log is stored in a local device directory and keeps a record "
+"of high-level activity from a device (e.g., windows client, server "
+"agent). This setting limits the number of days that are stored in the "
+"local database file."
+msgstr "監査トレースログはローカルデバイスのディレクトリに保存され、デバイス（例えば、Windowsクライアント、サーバーエージェント）からの高レベルの活動記録を保持しています。この設定はローカルデータベースファイルに保存される日数を制限します。"
+
+#: ../../chapter03.rst:2034
+msgid ""
+"**Hide purge option from web file browser (not applicable to tenant "
+"administrator)**"
+msgstr "**Webファイルブラウザからパージオプションを隠す（テナント管理者には適用されません）**"
+
+#: ../../chapter03.rst:2036
+msgid "Do not show the purge window to users when deleting content."
+msgstr "ユーザーがコンテンツを削除するときに、パージウィンドウを表示しないでください。"
+
+#: ../../chapter03.rst:2038
+msgid "**Don't send email notifications when purging deleted content**"
+msgstr "**削除されたコンテンツをパージするときにメール通知を送信しないでください**"
+
+#: ../../chapter03.rst:2040
+msgid ""
+"There are times when an admin would not want to send or see delete email "
+"notifications for purged contents."
+msgstr "管理者が削除されたコンテンツのメール通知を送信したり、確認したくない場合があります。"
+
+#: ../../chapter03.rst:2042
+msgid "**Include deleted but not yet purged items in storage quota**"
+msgstr "**ストレージクォータに削除されたがまだパージされていないアイテムを含める**"
+
+#: ../../chapter03.rst:2044
+msgid ""
+"Allows you to decide if you want to include not visible (purged) files in"
+" the storage quota that is used."
+msgstr "ストレージクォータに使用されるストレージに、表示されていない（パージされた）ファイルを含めるかどうかを決定できます。"
+
+#: ../../chapter03.rst:2047
+msgid "Folder and Storage"
+msgstr "フォルダとストレージ"
+
+#: ../../chapter03.rst:2049
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Folder and "
+"Storage``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``フォルダーとストレージ`` > ``フォルダーとストレージ``"
+
+#: ../../chapter03.rst:2051
+msgid ""
+"These are the settings available to the tenant manager in the Folder and "
+"Storage view."
+msgstr "これらは、フォルダーとストレージビューでテナントマネージャーが利用可能な設定です。"
+
+#: ../../chapter03.rst:2056
+msgid "FOLDER AND STORAGE SETTINGS"
+msgstr "フォルダとストレージの設定"
+
+#: ../../chapter03.rst:2059
+msgid "**Allow users to attach external cloud storage**"
+msgstr "**外部クラウドストレージを接続できるようにする**"
+
+#: ../../chapter03.rst:2061
+msgid ""
+"When checked, you will allow users to see storage manager and allow them "
+"to attach external storage such as their own Amazon S3 bucket into the "
+"system."
+msgstr "チェックすると、ユーザーにストレージマネージャーを表示させ、自分のAmazon S3バケットなどの外部ストレージをシステムにアタッチすることを許可します。"
+
+#: ../../chapter03.rst:2064
+msgid "**Disable Versioned folder**"
+msgstr "**バージョン管理フォルダを無効にする**"
+
+#: ../../chapter03.rst:2066
+msgid ""
+"Normally you will NOT disable versioned folder. Because versioned folder "
+"is the supporting feature for “Two-way sync locally attached folder”. If "
+"you disable versioned folder, you will lose the two-way synchronization "
+"folder feature as well."
+msgstr "通常、バージョン管理されたフォルダは無効にしません。なぜなら、バージョン管理されたフォルダは「ローカルにアタッチされたフォルダの双方向同期」のサポート機能だからです。バージョン管理されたフォルダを無効にすると、双方向同期フォルダ機能も失われます。"
+
+#: ../../chapter03.rst:2070
+msgid "**Disable Trash Can**"
+msgstr "**ゴミ箱を無効にする**"
+
+#: ../../chapter03.rst:2072
+msgid ""
+"For folders that are not under version control, a deleted file will be "
+"moved into Trash Can. If this feature is not useful, you can disable it."
+msgstr "バージョン管理されていないフォルダにあるファイルが削除された場合、そのファイルはゴミ箱に移動されます。この機能が不要な場合は、無効にすることができます。"
+
+#: ../../chapter03.rst:2076
+msgid "**Don't show folder that user doesn't have read permission**"
+msgstr "**読み取り権限がないフォルダーは表示しない**"
+
+#: ../../chapter03.rst:2078
+msgid ""
+"With native Active Directory integration and with network share as "
+"backend storage, the user's permission to the folders are checked "
+"natively. When this option is set, for those folders that users doesn't "
+"have read permission, the folder will be hidden."
+msgstr "ネイティブのActive Directory統合とバックエンドストレージとしてのネットワークシェアを使用することで、フォルダへのユーザーの権限はネイティブにチェックされます。このオプションが設定されている場合、読み取り権限がないフォルダは、ユーザーには非表示になります。"
+
+#: ../../chapter03.rst:2082
+msgid ""
+"**Don't show team folder that the user doesn't have read permission to "
+"the underlying folder**"
+msgstr "**ユーザーが下位フォルダの読み取り権限を持っていない場合、チームフォルダを表示しない**"
+
+#: ../../chapter03.rst:2084
+msgid ""
+"In the folder listing, if the user don't have read permission, sometimes "
+"it is better off not to show the folder to the user."
+msgstr "フォルダリストにおいて、ユーザーに読み取り権限がない場合、そのフォルダをユーザーに表示しない方が良いことがあります。"
+
+#: ../../chapter03.rst:2087
+msgid "**Don't show Trash Can for non-admin user**"
+msgstr "**管理者以外のユーザーにはゴミ箱を表示しない**"
+
+#: ../../chapter03.rst:2089
+msgid ""
+"Trash Can is a virtual folder that shows up at the web browser portal "
+"only. This setting controls whether or not to show it for regular team "
+"user."
+msgstr "ゴミ箱は、ウェブブラウザポータルでのみ表示される仮想フォルダです。この設定は、通常のチームユーザーに対してそれを表示するかどうかを制御します。"
+
+#: ../../chapter03.rst:2093
+msgid "**Don't append (Team Folder) to published folders**"
+msgstr "**公開フォルダに（チームフォルダ）を追加しないでください**"
+
+#: ../../chapter03.rst:2095
+msgid ""
+"A team folder by default, when showing up in a team user's folder list, "
+"it will have “(Team Folder)” appended to the end of the folder name to "
+"signify it is a team folder. This feature allows a team folder showing up"
+" as it is without the (Team Folder) suffix. The use case is that when a "
+"network share is mounted and then turned into a team folder, since the "
+"users are already familiar with the network share in its original name, "
+"so it is not necessary to append (team folder) to the folder name. You "
+"shouldn't change this setting in the middle of operation because if users"
+" have pending upload/download, changing the name could cause those tasks "
+"to fail."
+msgstr "デフォルトでは、チームフォルダはチームユーザーのフォルダリストに表示される際に、フォルダ名の末尾に「(チームフォルダ)」と追記され、それがチームフォルダであることを示します。この機能により、チームフォルダを「(チームフォルダ)」の接尾辞なしで表示することができます。ユースケースとしては、ネットワーク共有がマウントされた後にチームフォルダに変換される場合、ユーザーは元の名前でネットワーク共有にすでに慣れているので、フォルダ名に「(チームフォルダ)」を追加する必要はありません。操作の途中でこの設定を変更するべきではありません。なぜなら、ユーザーがアップロード/ダウンロードを保留している場合、名前を変更するとそれらのタスクが失敗する可能性があるからです。"
+
+#: ../../chapter03.rst:2105
+msgid "Attached Folder"
+msgstr "添付フォルダ"
+
+#: ../../chapter03.rst:2107
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Attached "
+"Folder``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``フォルダーとストレージ`` > ``アタッチされたフォルダー``"
+
+#: ../../chapter03.rst:2112
+msgid "ATTACHED FOLDER SETTINGS"
+msgstr "添付フォルダーの設定"
+
+#: ../../chapter03.rst:2115
+msgid "**Disable backup/attach local folder from client device**"
+msgstr "**クライアントデバイスからのバックアップ/ローカルフォルダの接続を無効にする**"
+
+#: ../../chapter03.rst:2117
+msgid ""
+"Attached Local Folders are two-way synchronization folders. In order to "
+"do version backup and two-way synchronization, there are multiple folder "
+"structures created in the backend storage. Some organization doesn't need"
+" this feature and want the users to work exclusively with the cloud "
+"drive."
+msgstr "ローカルフォルダーの添付は、双方向同期フォルダーです。バージョンバックアップと双方向同期を行うために、バックエンドストレージには複数のフォルダ構造が作成されます。一部の組織ではこの機能は不要であり、ユーザーにクラウドドライブのみで作業してもらいたいと考えています。"
+
+#: ../../chapter03.rst:2122
+msgid "**Enable Snapshot backup for server agent**"
+msgstr "**サーバーエージェントのスナップショットバックアップを有効にする**"
+
+#: ../../chapter03.rst:2124
+msgid "It is a feature related to server agent on Windows 2003-2012 servers."
+msgstr "これは、Windows 2003-2012サーバー上のサーバーエージェントに関連する機能です。"
+
+#: ../../chapter03.rst:2126
+msgid "**Allow syncing empty files**"
+msgstr "**空のファイルの同期を許可**"
+
+#: ../../chapter03.rst:2128
+msgid ""
+"By default, empty file (0-byte) will be skipped for syncing in attached "
+"folder. when enabled, those files will be synchronized."
+msgstr "デフォルトでは、添付フォルダ内の空のファイル（0バイト）は同期の対象から除外されます。このオプションを有効にすると、それらのファイルも同期されます。"
+
+#: ../../chapter03.rst:2131
+msgid "**Allow syncing of hidden files**"
+msgstr "**隠しファイルの同期を許可する**"
+
+#: ../../chapter03.rst:2133
+msgid "Hidden files by default will not sync."
+msgstr "デフォルトでは隠しファイルは同期されません。"
+
+#: ../../chapter03.rst:2135
+msgid "**Allow executable files (.exe)**"
+msgstr "**実行可能ファイル(.exe)を許可する**"
+
+#: ../../chapter03.rst:2137 ../../chapter03.rst:2141
+msgid "Executable files by default will not sync."
+msgstr "実行可能ファイルはデフォルトでは同期されません。"
+
+#: ../../chapter03.rst:2139
+msgid "**Allow ISO files (.iso)**"
+msgstr "**ISOファイル（.iso）を許可**"
+
+#: ../../chapter03.rst:2143
+msgid "**Allow backup files(.bck, .bkf,.rbf, .tib)**"
+msgstr "**バックアップファイルを許可する(.bck、.bkf、.rbf、.tib)**"
+
+#: ../../chapter03.rst:2145
+msgid ""
+"**Allow VMs (.hdd, .hds, .pvm, .pvs, .vdi, .vfd, .vhd, .vmc, .vmdk, "
+".vmem, .vmsd, .vmsn, .vmss, .vmtm, .vmwarevm, .vmx, .vmxf, .vsv, .nvram, "
+".vud, .xva)**"
+msgstr "**VM（.hdd、.hds、.pvm、.pvs、.vdi、.vfd、.vhd、.vmc、.vmdk、.vmem、.vmsd、.vmsn、.vmss、.vmtm、.vmwarevm、.vmx、.vmxf、.vsv、.nvram、.vud、.xva）を許可**"
+
+#: ../../chapter03.rst:2147
+msgid "**Allow application folders**"
+msgstr "**アプリケーションフォルダを許可する**"
+
+#: ../../chapter03.rst:2149
+msgid "Application folder by default will not sync."
+msgstr "デフォルトではアプリケーションフォルダは同期されません。"
+
+#: ../../chapter03.rst:2151
+msgid "**Allow application data folders**"
+msgstr "**アプリケーションデータフォルダを許可する**"
+
+#: ../../chapter03.rst:2153
+msgid "Application data folder by default will not sync."
+msgstr "デフォルトではアプリケーションデータフォルダは同期されません。"
+
+#: ../../chapter03.rst:2155
+msgid "**Enable scheduled sync for files with following extensions**"
+msgstr "**指定した拡張子のファイルのスケジュール同期を有効にする**"
+
+#: ../../chapter03.rst:2157
+msgid ""
+"This is to help sync/upload frequently changed file such as Microsoft "
+"access database or QuickBook files. These type of files typically are "
+"constantly open (thus prevent other application to hold on to them) and "
+"also changed frequently. So you can define the time period to check back "
+"on these type of files and use volume shadow copy to upload these files."
+msgstr "これは、Microsoft Access データベースやQuickBookファイルのように頻繁に変更されるファイルの同期・アップロードを支援するためのものです。この種のファイルは通常、常に開かれている（したがって他のアプリケーションがそれらを保持するのを防ぐ）状態であり、頻繁に変更されます。したがって、この種のファイルをチェックする時間を定義し、ボリュームシャドウコピーを使用してこれらのファイルをアップロードできます。"
+
+#: ../../chapter03.rst:2166
+msgid "Filters"
+msgstr "フィルタ"
+
+#: ../../chapter03.rst:2168
+msgid "``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Filters``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``フォルダーとストレージ`` > ``フィルター``"
+
+#: ../../chapter03.rst:2173
+msgid "FILTER SETTINGS"
+msgstr "フィルタ設定"
+
+#: ../../chapter03.rst:2175
+msgid ""
+"**Files with the following extensions will be excluded from attached "
+"local folder**"
+msgstr "**次の拡張子を持つファイルは、添付されたローカルフォルダから除外されます**"
+
+#: ../../chapter03.rst:2177
+msgid ""
+"You can stop certain file types from being uploaded. For example .pst "
+"files. These are local outlook email files, which is not necessary to "
+"upload into the cloud storage because usually it is backed up by an "
+"exchange server."
+msgstr "特定のファイルタイプのアップロードを停止することができます。例えば、.pstファイルです。これらはローカルのOutlookメールファイルであり、通常はExchangeサーバーによってバックアップされているため、クラウドストレージにアップロードする必要はありません。"
+
+#: ../../chapter03.rst:2182
+msgid ""
+"**Files with following extensions will be excluded from directory listing"
+" (i.e.[.qbw])**"
+msgstr "**ディレクトリリストから除外されるファイルの拡張子は次のとおりです（例：[.qbw]）**"
+
+#: ../../chapter03.rst:2184
+msgid ""
+"You can specify the executables which should not be listed under a user's"
+" directory."
+msgstr "ユーザーのディレクトリに表示されないようにする実行ファイルを指定できます。"
+
+#: ../../chapter03.rst:2187
+msgid ""
+"**In-place editing/Preview is disabled for files with following "
+"extension**"
+msgstr "**場所を変えずに編集/プレビューは、以下の拡張子を持つファイルに対して無効です**"
+
+#: ../../chapter03.rst:2189
+msgid ""
+"Windows Explorer has a habit to peek into large files to generate "
+"thumbnail and present other information. It may not be a good fit for "
+"cloud drive files because each peek will generate a download from cloud."
+msgstr "Windows エクスプローラーは、サムネイルを生成したり他の情報を提示するために大きなファイルを覗き見る習慣があります。これはクラウドドライブのファイルには適していないかもしれません。なぜなら、覗き見るたびにクラウドからのダウンロードが発生するからです。"
+
+#: ../../chapter03.rst:2193
+msgid "**Allow file without file name extension**"
+msgstr "**ファイル名拡張子のないファイルを許可**"
+
+#: ../../chapter03.rst:2195
+msgid "Allow files without extension suffix to synchronize."
+msgstr "拡張子のないファイルの同期を許可する。"
+
+#: ../../chapter03.rst:2198
+msgid "**Allow syncing empty file**"
+msgstr "**空のファイルの同期を許可**"
+
+#: ../../chapter03.rst:2200
+msgid "This is the same setting as in the \"Attached Folder\" section."
+msgstr "これは「添付されたフォルダ」セクションと同じ設定です。"
+
+#: ../../chapter03.rst:2204
+msgid "Background Tasks"
+msgstr "バックグラウンドタスク"
+
+#: ../../chapter03.rst:2206
+msgid ""
+"``Tenant Manager`` > ``Settings`` > ``Folder & Storage`` > ``Background "
+"Tasks``"
+msgstr "``テナントマネージャー`` > ``設定`` > ``フォルダーとストレージ`` > ``バックグラウンドタスク``"
+
+#: ../../chapter03.rst:2208
+msgid ""
+"There are three different kind of background tasks that may take a long "
+"time to finish:"
+msgstr "長時間を要する可能性がある3種類のバックグラウンドタスクがあります:"
+
+#: ../../chapter03.rst:2210
+msgid "Data Seeding - copying data into |prodname|"
+msgstr "データシーディング - |prodname| へのデータコピー"
+
+#: ../../chapter03.rst:2211
+msgid "Storage Scan - do a full scan to calculate storage consumption"
+msgstr "ストレージスキャン - ストレージ使用量を計算するために全体スキャンを実施する"
+
+#: ../../chapter03.rst:2212
+msgid ""
+"Tenant Storage Migration - move tenant storage from location A to "
+"location B"
+msgstr "テナントストレージの移行 - テナントストレージを場所Aから場所Bへ移動"
+
+#: ../../chapter03.rst:2213
+msgid "Anchor Migration -  move data out of Anchor and into |prodname|"
+msgstr "アンカーマイグレーション - Anchorからデータを移動して、|prodname| に入れる"
+
+#: ../../chapter03.rst:2219
+msgid "BACKGROUND TASKS"
+msgstr "バックグラウンドタスク"
+
+#: ../../chapter03.rst:2221
+msgid ""
+"The cluster administrator can help the tenant seed the data. For example "
+"take data into a USB drive and take it to the same local area network as "
+"the Cluster Server and see the data into the tenant storage."
+msgstr "クラスター管理者は、テナントがデータをシードするのを手伝うことができます。例えば、データをUSBドライブに入れて、クラスターサーバーと同じローカルエリアネットワークに持っていき、テナントのストレージにデータをシードします。"
+
+#: ../../chapter03.rst:2224
+msgid "**Add New Data Seeding Task**"
+msgstr "**新しいデータシーディングタスクを追加**"
+
+#: ../../chapter03.rst:2226
+msgid "``Background Tasks`` > ``+`` > ``Add New Data Seeding Task``"
+msgstr "``バックグラウンドタスク`` > ``+`` > ``新しいデータシーディングタスクを追加``"
+
+#: ../../chapter03.rst:2231
+msgid "DATA SEEDING"
+msgstr "データシーディング"
+
+#: ../../chapter03.rst:2233
+msgid ""
+"Data Seeding is to take a folder from a source location and seed it into "
+"a team folder."
+msgstr "データシーディングとは、ソースロケーションからフォルダを取得し、チームフォルダにシードすることです。"
+
+#: ../../chapter03.rst:2235
+msgid "On the left of the dialog, it is the source folder path information."
+msgstr "ダイアログの左側には、ソースフォルダのパス情報が表示されます。"
+
+#: ../../chapter03.rst:2237
+msgid "On the right side of the dialog, it is the target team folder information."
+msgstr "ダイアログの右側には、対象のチームフォルダ情報が表示されます。"
+
+#: ../../chapter03.rst:2239
+msgid ""
+"If you are seeding the data into a brand new team folder, you will first "
+"go into the team folder area and create a new team folder with empty "
+"content inside, and then come back to data seeding page and select it "
+"from the team folder drop down."
+msgstr "新しいチームフォルダにデータをシードする場合、まずチームフォルダエリアに移動して新しいチームフォルダを作成し、中身を空にしてから、データシードページに戻り、ドロップダウンからそのチームフォルダを選択します。"
+
+#: ../../chapter03.rst:2244
+msgid "Tenant Branding"
+msgstr "テナントブランディング"
+
+#: ../../chapter03.rst:2246
+msgid "``Tenant Manager`` > ``Branding`` > ``Tenant Branding``"
+msgstr "``テナントマネージャー`` > ``ブランディング`` > ``テナントブランディング``"
+
+#: ../../chapter03.rst:2248
+msgid ""
+"The cluster administrator can help the tenant do the tenant-specific "
+"branding in the partner portal."
+msgstr "クラスター管理者は、パートナーポータルでテナント固有のブランディングをテナントが行うのを支援できます。"
+
+#: ../../chapter03.rst:2250
+msgid ""
+"The branding is applied by the customized URL. You can think of the "
+"customized URL as a primary key to retrieve all tenant related branding "
+"information."
+msgstr "ブランディングはカスタマイズされたURLによって適用されます。カスタマイズされたURLを、すべてのテナント関連のブランディング情報を取得するためのプライマリキーと考えることができます。"
+
+#: ../../chapter03.rst:2255
+msgid ""
+"If per-tenant branding is enabled, The tenant branding section will be "
+"available."
+msgstr "テナントごとのブランディングが有効になっている場合、テナントブランディングセクションが利用可能になります。"
+
+#: ../../chapter03.rst:2260
+msgid "PER-TENANT BRANDING OPTIONS"
+msgstr "テナントごとのブランディングオプション"
+
+#: ../../chapter03.rst:2262
+msgid "**Customized URL for your business**"
+msgstr "**ビジネス用カスタマイズURL**"
+
+#: ../../chapter03.rst:2264
+msgid ""
+"Typically the customize URL is a sub domain of the Cluster Server. For "
+"example, if the Cluster Server is at https://cloud.mycompany.com, the sub"
+" domain can be https://acme1.mycompany.com"
+msgstr "通常、カスタマイズされたURLはクラスターサーバーのサブドメインです。例えば、クラスターサーバーがhttps://cloud.mycompany.comにある場合、サブドメインはhttps://acme1.mycompany.comになることができます"
+
+#: ../../chapter03.rst:2266
+msgid ""
+"In Windows 2012 and above (the server that has the Cluster Server "
+"running), it also allows SNI (Server name indicator) in the SSL "
+"certificate binding. So it is possible to bind multiple SSL certificates "
+"to the same IIS server. In this case, the Customized URL can be a fully "
+"qualified domain name."
+msgstr "Windows 2012 以降（クラスターサーバーが稼働しているサーバー）では、SSL証明書のバインディングにSNI（サーバー名指示）も可能です。したがって、同じIISサーバーに複数のSSL証明書をバインドすることができます。この場合、カスタマイズされたURLは完全修飾ドメイン名であることができます。"
+
+#: ../../chapter03.rst:2270
+msgid ""
+"If you set up per-tenant branding, make sure the customized URL is "
+"specific to each tenant and also the URL is different from the default "
+"URL."
+msgstr "テナントごとのブランディングを設定する場合、カスタマイズされたURLが各テナントに固有であり、またそのURLがデフォルトURLと異なることを確認してください。"
+
+#: ../../chapter03.rst:2272
+msgid ""
+"If you don't want to setup per-tenant branding, disable it in cluster "
+"settings and setup cluster-wide branding instead."
+msgstr "テナントごとのブランディングを設定したくない場合は、クラスター設定で無効にし、代わりにクラスター全体のブランディングを設定してください。"
+

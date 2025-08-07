@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter05.rst:2
+msgid "Active Directory Integration"
+msgstr "アクティブディレクトリ統合"
+
+#: ../../chapter05.rst:4
+msgid "There are three ways to connect Active Directory into CentreStack."
+msgstr "CentreStackにActive Directoryを接続する方法は3つあります。"
+
+#: ../../chapter05.rst:8
+msgid "1. LDAP"
+msgstr "LDAP"
+
+#: ../../chapter05.rst:10
+msgid ""
+"For the first way, if the Active Directory is in the same Local Area "
+"Network (LAN), then a direct LDAP/LDAPS connection is recommended."
+msgstr "最初の方法として、Active Directoryが同じローカルエリアネットワーク（LAN）内にある場合は、直接的なLDAP/LDAPS接続が推奨されます。"
+
+#: ../../chapter05.rst:15
+msgid "2. Server Agent Proxy"
+msgstr "2. サーバーエージェントプロキシ"
+
+#: ../../chapter05.rst:17
+msgid ""
+"For the Second way, if the Active Directory is in a remote office, such "
+"as on a customer's premise, away from the CentreStack server, then a "
+"client agent software called, \"File Server Agent\" can be installed on "
+"the remote file server to help import Active Directory users over to "
+"CentreStack."
+msgstr "第二の方法として、アクティブディレクトリがリモートオフィスにある場合、例えば顧客の拠点でCentreStackサーバーから離れた場所にある場合は、「File Server Agent」と呼ばれるクライアントエージェントソフトウェアをリモートファイルサーバーにインストールして、アクティブディレクトリのユーザーをCentreStackにインポートする手助けをすることができます。"
+
+#: ../../chapter05.rst:23
+msgid "CentreStack allows you to connect to multiple active directory services."
+msgstr "CentreStackでは、複数のアクティブディレクトリサービスに接続できます。"
+
+#: ../../chapter05.rst:26
+msgid "3. Azure AD Support"
+msgstr "3. Azure AD サポート"
+
+#: ../../chapter05.rst:27
+msgid ""
+"Via the Azure AD support, you can setup Azure AD so users can be "
+"authenticated by Azure AD instead of from a local Active Directory."
+msgstr "Azure ADサポートを通じて、ユーザーがローカルのActive Directoryの代わりにAzure ADによって認証されるようにAzure ADを設定できます。"
+
+#: ../../chapter05.rst:31
+msgid "**\"Proxied AD User\"**"
+msgstr "**「プロキシされたADユーザー」**"
+
+#: ../../chapter05.rst:33
+msgid ""
+"It is also possible to use the Active Directory from a remote location "
+"where the server agent (included client software) is used. In this case "
+"\"Proxied AD User\" will be referred to users imported from server "
+"agent's side of the Active Directory."
+msgstr "サーバーエージェント（クライアントソフトウェアが含まれています）を使用してリモートロケーションからアクティブディレクトリを使用することも可能です。この場合、「プロキシADユーザー」とは、サーバーエージェント側のアクティブディレクトリからインポートされたユーザーを指します。"
+
+#: ../../chapter05.rst:36
+msgid "**\"AD User\"**"
+msgstr "**「ADユーザー」**"
+
+#: ../../chapter05.rst:38
+msgid ""
+"The \"AD user\" is reserved to refer to users from local LDAP Active "
+"Directory."
+msgstr "「ADユーザー」はローカルLDAPアクティブディレクトリのユーザーを指すために予約されています。"
+
+#: ../../chapter05.rst:43
+msgid ""
+"When should you use LDAP, and when should you use \"Server Agent\" for AD"
+" integration?"
+msgstr "LDAPをいつ使用し、AD統合に「サーバーエージェント」をいつ使用すべきですか？"
+
+#: ../../chapter05.rst:45
+msgid "If AD is local to the CentreStack server, then LDAP is recommended."
+msgstr "CentreStackサーバーにADがローカルに存在する場合は、LDAPが推奨されます。"
+
+#: ../../chapter05.rst:47
+msgid "If AD is remote, then Server Agent is recommended."
+msgstr "ADがリモートの場合は、サーバーエージェントの使用を推奨します。"
+

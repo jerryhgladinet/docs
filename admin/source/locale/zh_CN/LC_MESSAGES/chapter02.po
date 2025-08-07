@@ -1,0 +1,2430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Administration
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Administration Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-31 22:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Cluster Administration"
+msgstr "集群管理"
+
+#: ../../chapter02.rst:7
+msgid "The Basics"
+msgstr "基础知识"
+
+#: ../../chapter02.rst:9
+msgid ""
+"To access your Cluster Administration features, log in to the Web Portal "
+"on the server. **The description in this guide presumes that you are "
+"signed in as the Master Administrator** (aka., Cluster Administrator, "
+"Server Administrator). Some of the options listed may not be available if"
+" you are logged in with different permissions (e.g. Delegated "
+"Administrator). In this document the |prodname| will also be referred to "
+"as simply, Cluster Server."
+msgstr "要访问您的集群管理功能，请登录服务器上的Web门户。**本指南中的描述假设您以主管理员身份登录** （又名，集群管理员，服务器管理员）。如果您以不同的权限登录（例如，委派管理员），可能无法使用某些列出的选项。在本文档中，|prodname| 也将简称为集群服务器。"
+
+#: ../../chapter02.rst:13
+msgid ""
+"The Web Portal URL is the server's DNS name, the IP Address or local host"
+" if you are on the server console."
+msgstr "Web门户的URL是服务器的DNS名称、IP地址或者如果您在服务器控制台上的本地主机。"
+
+#: ../../chapter02.rst:18
+msgid "**LOGIN SCREEN**"
+msgstr "**登录屏幕**"
+
+#: ../../chapter02.rst:22
+msgid ""
+"At the bottom of the Login screen, there is version information, which "
+"will be useful to see which version you have installed."
+msgstr "在登录屏幕的底部，有版本信息，这将有助于查看您安装了哪个版本。"
+
+#: ../../chapter02.rst:25
+msgid ""
+"The following graphic describes the various icons and components of the "
+"Administrator Dashboard and its sub-sections. Please refer to it as you "
+"read this guide to determine how to access various features."
+msgstr "以下图形描述了管理员控制台及其子部分的各种图标和组件。请在阅读本指南时参考它，以确定如何访问各种功能。"
+
+#: ../../chapter02.rst:30
+msgid "**CLUSTER MANAGER DASHBOARD**"
+msgstr "**集群管理仪表板**"
+
+#: ../../chapter02.rst:32
+msgid ""
+"After logging in, you can access the Cluster Manager Dashboard by "
+"clicking \"Cluster Dashboard\" icon **(1)**."
+msgstr "登录后，您可以通过点击“集群仪表板”图标 **(1)** 来访问集群管理仪表板。"
+
+#: ../../chapter02.rst:34
+msgid ""
+"By clicking the folder icon **(2)** In the top right of the interface you"
+" can toggle between the File Browser and Cluster Manager views.  The "
+"**File Browser** (My Files) view of the interface gives you access to "
+"your shared and unshared folders. This is also where you can create "
+"folders and upload files and folders for access. When the cluster "
+"administrator clicks the folder icon to get into the files and folder's "
+"view, the files and folders belong to the default tenant."
+msgstr "通过点击界面右上角的文件夹图标 **(2)**，您可以在文件浏览器和集群管理器视图之间切换。**文件浏览器** （我的文件）视图允许您访问您的共享和非共享文件夹。这也是您可以创建文件夹以及上传文件和文件夹以供访问的地方。当集群管理员点击文件夹图标进入文件和文件夹视图时，所显示的文件和文件夹属于默认租户。"
+
+#: ../../chapter02.rst:39
+msgid ""
+"The cluster administrator will not be able to access files and folders "
+"that are not in the scope of the default tenant. To access files and "
+"folders that belong to a specific tenant, the web portal login has to be "
+"that of the tenant. So basically the cluster administrator can do "
+"administration work for a tenant that is under management. However, it is"
+" not easy for the cluster administrator to see the files and folders for "
+"that specific tenant until he/she gets the permission and the login "
+"credentials."
+msgstr "集群管理员将无法访问不在默认租户范围内的文件和文件夹。要访问属于特定租户的文件和文件夹，Web门户登录必须是该租户的。所以基本上集群管理员可以为其管理下的租户进行管理工作。然而，集群管理员要查看特定租户的文件和文件夹并不容易，直到他/她获得权限和登录凭证。"
+
+#: ../../chapter02.rst:43
+msgid ""
+"The Cluster Manager (aka., Dashboard) allows you to manage Tenants "
+"**(3)**, Cluster Branding **(4)**, Reports **(5)**, and Group Policies "
+"**(6)**."
+msgstr "集群管理器（又名，仪表板）允许您管理租户 **(3)**、集群品牌 **(4)**、报告 **(5)** 和组策略 **(6)**。"
+
+#: ../../chapter02.rst:47
+msgid ""
+"At a high level, the |prodname| web browser management interface allows "
+"you to manage clients (Tenants) and the overall system performance and "
+"statistics reports."
+msgstr "在较高层面上，|prodname| 网页浏览器管理界面允许您管理客户端（租户）以及整体系统性能和统计报告。"
+
+#: ../../chapter02.rst:51
+msgid "**EXTERNAL DNS**"
+msgstr "**外部DNS**"
+
+#: ../../chapter02.rst:53
+msgid ""
+"External DNS (External URL) is a very important property. It is used in "
+"directing how outside remote clients connect to the Cluster Server. It is"
+" also used in various email templates. If this property is not properly "
+"configured, the email template may be using IP address or NETBIOS name as"
+" the URL link."
+msgstr "外部 DNS（外部 URL）是一个非常重要的属性。它用于指导外部远程客户端如何连接到集群服务器。它也用于各种电子邮件模板。如果此属性配置不当，电子邮件模板可能会使用 IP 地址或 NETBIOS 名称作为 URL 链接。"
+
+#: ../../chapter02.rst:55
+msgid ""
+"To configure this setting, you must have a DNS name and SSL certificate "
+"setup; therefore, you can postpone the configuration of your DNS until "
+"you are ready."
+msgstr "要配置此设置，您必须拥有DNS名称和SSL证书设置；因此，您可以推迟DNS配置，直到您准备就绪。"
+
+#: ../../chapter02.rst:57
+msgid "**Related tasks**"
+msgstr "**相关任务**"
+
+#: ../../chapter02.rst:59
+msgid ""
+"Configure the DNS registration to point a DNS name to the public static "
+"IP address of the Cluster Server."
+msgstr "将DNS注册配置为将DNS名称指向群集服务器的公共静态IP地址。"
+
+#: ../../chapter02.rst:60
+msgid "Configure the IIS “Default Web Site” to bind to an SSL certificate."
+msgstr "配置IIS的“默认网站”以绑定SSL证书。"
+
+#: ../../chapter02.rst:65
+msgid "Tenant Manager"
+msgstr "租户管理器"
+
+#: ../../chapter02.rst:67 ../../chapter02.rst:122
+msgid "``Cluster Manager`` > ``Tenant Manager``"
+msgstr "``集群管理器`` > ``租户管理器``"
+
+#: ../../chapter02.rst:71
+msgid ""
+"A tenant is usually mapped to a client of yours, a company, or a division"
+" of a company."
+msgstr "租户通常对应于您的客户、一家公司或公司的一个部门。"
+
+#: ../../chapter02.rst:73
+msgid ""
+"The Cluster Server is multi-tenant capable, but can also be used for a "
+"single Tenant. To add or manage your tenants, click \"Tenants Count\" in "
+"your Dashboard to access Tenant Manager."
+msgstr "集群服务器支持多租户功能，但也可用于单个租户。要添加或管理您的租户，请在仪表板中点击“租户数量”以访问租户管理器。"
+
+#: ../../chapter02.rst:78
+msgid "TENANT MANAGER"
+msgstr "租户管理器"
+
+#: ../../chapter02.rst:80
+msgid ""
+"You can access other important settings from context menu (Each tenant "
+"block has a tenant specific context menu):"
+msgstr "您可以从上下文菜单访问其他重要设置（每个租户块都有特定于租户的上下文菜单）："
+
+#: ../../chapter02.rst:82
+msgid "Manage Tenant"
+msgstr "管理租户"
+
+#: ../../chapter02.rst:83
+msgid "Force full scan for storage quota usage,"
+msgstr "强制全盘扫描以获取存储配额使用情况,"
+
+#: ../../chapter02.rst:84
+msgid "Change Tenant Admin Password,"
+msgstr "更改租户管理员密码,"
+
+#: ../../chapter02.rst:85
+msgid "Edit Existing Default Storage"
+msgstr "编辑现有的默认存储"
+
+#: ../../chapter02.rst:86
+msgid "Delete Tenant"
+msgstr "删除租户"
+
+#: ../../chapter02.rst:88
+msgid "**Manage Tenant**"
+msgstr "**管理租户**"
+
+#: ../../chapter02.rst:90
+msgid ""
+"This will drill deeper into the per-tenant management page view. By "
+"clicking the “Manage Tenant” option, the Cluster Admin sees the Tenant "
+"Dashboard as well as additional options to configure the Tenant settings."
+msgstr "这将深入探讨每个租户的管理页面视图。通过点击“管理租户”选项，集群管理员可以看到租户仪表板以及配置租户设置的其他选项。"
+
+#: ../../chapter02.rst:92
+msgid "**Force full scan for storage quota usage**"
+msgstr "**强制全面扫描存储配额使用情况**"
+
+#: ../../chapter02.rst:94
+msgid ""
+"This will start a full scan of storage usage for the Tenant. As files are"
+" uploaded, modified or deleted during daily operation, the Tenant Quota "
+"is calculated. To ensure that the quota value shown for the tenant is "
+"accurate, it is important that you occasionally force a full scan of the "
+"tenant's quota usage."
+msgstr "这将启动对租户存储使用情况的全面扫描。随着文件在日常操作中被上传、修改或删除，租户配额也会被计算。为了确保显示给租户的配额值是准确的，偶尔强制进行全面扫描租户的配额使用情况是很重要的。"
+
+#: ../../chapter02.rst:96
+msgid "**Change Tenant Admin Password**"
+msgstr "**更改租户管理员密码**"
+
+#: ../../chapter02.rst:98
+msgid ""
+"Provides a method for the Cluster Administrator to assist the Tenant "
+"Administrator with resetting passwords."
+msgstr "为集群管理员提供一种方法，以协助租户管理员重置密码。"
+
+#: ../../chapter02.rst:100
+msgid "**Edit Existing default storage**"
+msgstr "**编辑现有的默认存储**"
+
+#: ../../chapter02.rst:102
+msgid ""
+"When a Tenant outgrows their allocation of storage space or needs to move"
+" to a different storage location, this setting allows the Cluster "
+"Administrator to change the storage location."
+msgstr "当租户超出其分配的存储空间或需要迁移到不同的存储位置时，此设置允许集群管理员更改存储位置。"
+
+#: ../../chapter02.rst:106
+msgid ""
+"When changing a storage location for a Tenant, you typically manually "
+"copy the folder to the new location then re-configure the default storage"
+" location."
+msgstr "当您为租户更改存储位置时，通常需要手动将文件夹复制到新位置，然后重新配置默认存储位置。"
+
+#: ../../chapter02.rst:110
+msgid ""
+"If you want to change the tenant's default storage location, make sure "
+"you copy tenant's file AS-IS from the source folder to its destination "
+"folder before you change the storage location here."
+msgstr "如果您想要更改租户的默认存储位置，请确保在此处更改存储位置之前，将租户的文件从源文件夹原样复制到目标文件夹。"
+
+#: ../../chapter02.rst:112
+msgid "**Delete Tenant**"
+msgstr "**删除租户**"
+
+#: ../../chapter02.rst:114
+msgid "Deletes the tenant."
+msgstr "删除租户。"
+
+#: ../../chapter02.rst:118
+msgid ""
+"Please reference the :ref:`tenant_administration` section for more "
+"details about the Tenant Management."
+msgstr "请参考 :ref:`tenant_administration` 部分以获取有关租户管理的更多详情。"
+
+#: ../../chapter02.rst:121
+msgid "Create a New Tenant"
+msgstr "创建新租户"
+
+#: ../../chapter02.rst:124
+msgid ""
+"Click on the \"Plus\" sign in the ``New Tenant`` to start the creation of"
+" a new tenant."
+msgstr "点击 ``新租户`` 中的\"加号\"开始创建新租户。"
+
+#: ../../chapter02.rst:130
+msgid "CREATING A NEW TENANT"
+msgstr "创建新租户"
+
+#: ../../chapter02.rst:132
+msgid ""
+"The first screen under \"New Tenant\" is asking for \"Start from "
+"Scratch\" or \"Import and migrate data from  Anchor\"."
+msgstr "“新租户”下的第一个屏幕询问是要“从头开始”还是“从Anchor导入和迁移数据”。"
+
+#: ../../chapter02.rst:134
+msgid ""
+"When you select \"Add New Tenant from Scratch\", The next screen is "
+"asking for a few parameters related to who the tenant is."
+msgstr "当您选择“从头开始添加新租户”时，下一个屏幕将询问与租户身份相关的一些参数。"
+
+#: ../../chapter02.rst:140
+msgid "TENANT MANAGER SETTINGS 1"
+msgstr "租户管理器设置 1"
+
+#: ../../chapter02.rst:142
+msgid ""
+"**\"Create with Default Settings\"** will get it done and the tenant will"
+" be granted all default settings, including the storage location "
+"allocation."
+msgstr "**\"使用默认设置创建\"** 将完成此操作，并且租户将获得所有默认设置，包括存储位置分配。"
+
+#: ../../chapter02.rst:144
+msgid ""
+"**\"Continue\"** allows you to customize the settings and storage "
+"location."
+msgstr "**\"继续\"** 允许您自定义设置和存储位置。"
+
+#: ../../chapter02.rst:146
+msgid "If you pick **\"Continue\"**,"
+msgstr "如果您选择 **\"继续\"**,"
+
+#: ../../chapter02.rst:148
+msgid ""
+"The second screen under \"Add Tenant from Scratch\" is asking for the "
+"division of work between the cluster administrator and the tenant "
+"administrator."
+msgstr "“从零开始添加租户”的第二个屏幕询问集群管理员和租户管理员之间的工作分配。"
+
+#: ../../chapter02.rst:153
+msgid "TENANT MANAGER SETTINGS 2"
+msgstr "租户管理器设置 2"
+
+#: ../../chapter02.rst:155
+msgid ""
+"The third screen under \"Add Tenant\" is asking where the root storage "
+"for the tenant will be at."
+msgstr "“添加租户”下的第三个屏幕询问租户的根存储位置在哪里。"
+
+#: ../../chapter02.rst:161
+msgid "ADD TENANT STORAGE OPTIONS 1"
+msgstr "添加租户存储选项 1"
+
+#: ../../chapter02.rst:163
+msgid "**Automatically assign a sub-folder from cluster default tenant**"
+msgstr "**自动从集群默认租户分配子文件夹**"
+
+#: ../../chapter02.rst:165
+msgid ""
+"When selected, the tenant's default storage will be a sub-folder inside "
+"the cluster default tenant's storage folder. It is easier to manage when "
+"you don't need per-tenant storage access credentials. This is the easiest"
+" option because if every tenant is allocated a sub-folder from the "
+"default tenant, then the default tenant storage location is a single "
+"place to take care of all of your storage needs. The storage location is "
+"sandboxed away from the default tenant so even though from a physical "
+"location's perspective, it is a sub folder of the default tenant, but the"
+" default tenant will not be able to see the folder from |prodname|."
+msgstr "当选中时，租户的默认存储将是集群默认租户存储文件夹内的一个子文件夹。当您不需要每个租户的存储访问凭证时，这种管理方式更为简便。这是最简单的选项，因为如果每个租户都从默认租户那里分配一个子文件夹，那么默认租户存储位置就是照顾您所有存储需求的单一地点。存储位置与默认租户隔离开，所以即使从物理位置的角度看，它是默认租户的一个子文件夹，但默认租户将无法从 |prodname| 看到该文件夹。"
+
+#: ../../chapter02.rst:168
+msgid "**Use existing file server or local disk as default storage**"
+msgstr "**使用现有文件服务器或本地磁盘作为默认存储**"
+
+#: ../../chapter02.rst:170
+#, python-format
+msgid ""
+"Using this option, you can connect the tenant's root folder to a file "
+"server network share. If you want the tenant users to continue to share "
+"file server network share outside of |prodname|, it is recommended you "
+"use the \"Import Network Share\" feature in \"Team Folder\" instead of "
+"pointing the default storage to the file server share, because the "
+"Cluster Server will assume it has 100% of the control of the storage "
+"location."
+msgstr "使用此选项，您可以将租户的根文件夹连接到文件服务器网络共享。如果您希望租户用户继续在 |prodname| 外部共享文件服务器网络共享，建议您使用“团队文件夹”中的“导入网络共享”功能，而不是将默认存储指向文件服务器共享，因为集群服务器将假设它对存储位置有100%的控制权。"
+
+#: ../../chapter02.rst:175
+msgid "ADD TENANT STORAGE OPTIONS 2"
+msgstr "添加租户存储选项 2"
+
+#: ../../chapter02.rst:177
+msgid "**Use Cloud Storage as default storage**"
+msgstr "**将云存储作为默认存储**"
+
+#: ../../chapter02.rst:179
+msgid ""
+"When using this option, you can connect the tenant's root folder to "
+"Amazon S3, Windows Azure Blob, OpenStack storage as well as others."
+msgstr "使用此选项时，您可以将租户的根文件夹连接到Amazon S3、Windows Azure Blob、OpenStack存储以及其他存储系统。"
+
+#: ../../chapter02.rst:184
+msgid "CLOUD STORAGE SETTINGS"
+msgstr "云存储设置"
+
+#: ../../chapter02.rst:186
+msgid "**Using Amazon S3 bucket for tenant storage**"
+msgstr "**使用亚马逊S3存储桶作为租户存储**"
+
+#: ../../chapter02.rst:188
+msgid ""
+"``Tenant Manager`` > ``{Create New Tenant}`` > ``Use Cloud Storage as "
+"Default Storage`` > ``Amazon S3``"
+msgstr "``租户管理器`` > ``{创建新租户}`` > ``使用云存储作为默认存储`` > ``亚马逊S3``"
+
+#: ../../chapter02.rst:190
+msgid ""
+"You can pick Amazon S3 as the target storage for the tenant if you want "
+"to."
+msgstr "如果您愿意，可以选择亚马逊S3作为租户的目标存储。"
+
+#: ../../chapter02.rst:195
+msgid "AMAZON S3"
+msgstr "亚马逊S3"
+
+#: ../../chapter02.rst:197
+msgid ""
+"After you pick the Amazon S3, the first screen will be asking for "
+"``Access Key`` and ``Secret Key``."
+msgstr "在您选择了Amazon S3之后，首个界面将会询问您的 ``Access Key`` 和 ``Secret Key``。"
+
+#: ../../chapter02.rst:200
+msgid ""
+"You will need to log into your AWS console to get the access key and "
+"secret key. You can use master access key and secret key, by default the "
+"master key has default access to all buckets. You can also create an IAM "
+"user and use the key from a specific IAM user. However, by default, the "
+"IAM user is locked out of access to any bucket until bucket access policy"
+" is created and attached to the IAM user."
+msgstr "您需要登录到您的AWS控制台以获取访问密钥和密钥。您可以使用主访问密钥和密钥，默认情况下主密钥可以访问所有存储桶。您也可以创建一个IAM用户，并使用特定IAM用户的密钥。然而，默认情况下，IAM用户被禁止访问任何存储桶，直到创建并附加了存储桶访问策略到IAM用户。"
+
+#: ../../chapter02.rst:202
+msgid ""
+"If you use IAM user, here is a sample S3 Bucket access policy to grant an"
+" IAM user to a specific bucket. As shown below, the policy gives an IAM "
+"user the ability to use bucket \"user3onlybucket\""
+msgstr "如果您使用IAM用户，以下是一个示例S3 Bucket访问策略，用于授权IAM用户访问特定的存储桶。如下所示，该策略允许IAM用户使用名为\"user3onlybucket\"的存储桶"
+
+#: ../../chapter02.rst:256
+msgid ""
+"After it is all setup properly, you can use the IAM user's access key id "
+"and secret access key to connect to the Amazon S3 bucket."
+msgstr "在全部设置正确之后，您可以使用IAM用户的访问密钥ID和密钥访问密钥来连接到Amazon S3存储桶。"
+
+#: ../../chapter02.rst:261
+msgid "AMAZON S3 USER'S ACCESS KEY"
+msgstr "亚马逊S3用户的访问密钥"
+
+#: ../../chapter02.rst:263
+msgid ""
+"When the correct access credentials are given, the next screen is to "
+"select a bucket from Amazon S3."
+msgstr "当提供正确的访问凭证后，下一个屏幕是从Amazon S3选择一个存储桶。"
+
+#: ../../chapter02.rst:268
+msgid "AMAZON S3 SELECTING A BUCKET"
+msgstr "亚马逊S3选择一个存储桶"
+
+#: ../../chapter02.rst:270
+msgid ""
+"You can pre-create a bucket in Amazon S3 and then pick the bucket in the "
+"current page. After that, it will take a short while for the system to be"
+" ready for the new tenant created."
+msgstr "您可以在Amazon S3中预先创建一个存储桶，然后在当前页面选择该存储桶。之后，系统将在短时间内为新创建的租户做好准备。"
+
+#: ../../chapter02.rst:275
+msgid "FINISHING AMAZON S3 CONFIGURATION"
+msgstr "完成亚马逊S3配置"
+
+#: ../../chapter02.rst:277
+msgid ""
+"After the tenant is created, you will be looking at the dashboard of the "
+"tenant."
+msgstr "租户创建后，您将看到租户的仪表板。"
+
+#: ../../chapter02.rst:280
+msgid "**Using Windows Azure Blob Storage for tenant storage**"
+msgstr "**使用Windows Azure Blob存储作为租户存储**"
+
+#: ../../chapter02.rst:282
+msgid ""
+"In addition to Amazon S3 bucket, you can also use Windows Azure Blob "
+"Storage as the tenant's back end storage."
+msgstr "除了Amazon S3存储桶，您还可以使用Windows Azure Blob Storage作为租户的后端存储。"
+
+#: ../../chapter02.rst:284
+msgid ""
+"Similar to the above Amazon S3 setup process, you can pick \"Windows "
+"Azure Blob\" as the option during the tenant creation process."
+msgstr "与上述Amazon S3设置过程类似，在租户创建过程中，您可以选择“Windows Azure Blob”作为选项。"
+
+#: ../../chapter02.rst:289
+msgid "WINDOWS AZURE BLOB SETUP"
+msgstr "WINDOWS AZURE BLOB 设置"
+
+#: ../../chapter02.rst:291
+msgid "The next screen will be asking for ``Blob URL`` and the ``Primary key``."
+msgstr "下一个屏幕将会询问 ``Blob URL`` 和 ``Primary key``。"
+
+#: ../../chapter02.rst:296
+msgid "AZURE BLOB URL AND PRIMARY KEY"
+msgstr "AZURE BLOB URL 和主要密钥"
+
+#: ../../chapter02.rst:298
+msgid "You can get this information from the Azure Portal."
+msgstr "您可以从Azure门户获取此信息。"
+
+#: ../../chapter02.rst:303
+msgid "AZURE BLOB ACCESS KEYS"
+msgstr "AZURE BLOB 访问密钥"
+
+#: ../../chapter02.rst:305
+msgid ""
+"Here is a simple mapping between Azure portal and the parameters it asks "
+"for."
+msgstr "这是Azure门户与它所要求的参数之间的简单映射。"
+
+#: ../../chapter02.rst:310
+msgid "AZURE BLOB ACCOUNT SETTINGS"
+msgstr "AZURE BLOB 账户设置"
+
+#: ../../chapter02.rst:312
+msgid ""
+"After you put in the account information, the next screen asks to pick a "
+"container to use."
+msgstr "在您输入账户信息后，下一个屏幕会提示您选择一个要使用的容器。"
+
+#: ../../chapter02.rst:317
+msgid "AZURE BLOB ACCOUNT INFORMATION"
+msgstr "AZURE BLOB 账户信息"
+
+#: ../../chapter02.rst:319
+msgid ""
+"After the container information is all set, the tenant account will be "
+"created."
+msgstr "在容器信息全部设置完成后，租户账户将被创建。"
+
+#: ../../chapter02.rst:324
+msgid "Cluster Branding"
+msgstr "集群品牌"
+
+#: ../../chapter02.rst:326
+msgid "``Cluster Manager`` > ``Cluster Branding``"
+msgstr "``集群管理器`` > ``集群品牌化``"
+
+#: ../../chapter02.rst:328
+msgid ""
+"Cluster Branding is for changing the logo, bitmaps and other branding "
+"related information. There are two branding supports. One is self-service"
+" built-in branding, which is completely controlled by the “Cluster "
+"Branding” settings on the “Cluster Manager”. The other is full-branding "
+"service. Both rely on the “Cluster Branding” to change the look-and-feel "
+"of the web portal."
+msgstr "集群品牌化用于更改徽标、位图和其他与品牌相关的信息。有两种品牌支持。一种是自助式内置品牌，完全由“集群管理器”上的“集群品牌化”设置控制。另一种是全方位品牌服务。两者都依赖于“集群品牌化”来改变Web门户的外观和感觉。"
+
+#: ../../chapter02.rst:331
+msgid ""
+"Built-in branding will work with white-label clients, which upon the "
+"first connection to the cluster, will download the branding related "
+"information and  use the branding related information. As compared to "
+"full-branding service, the full branding clients will have artworks, logo"
+" bitmaps and related information burned into the client binaries."
+msgstr "内置品牌将与白标客户端一起工作，在首次连接到集群时，将下载与品牌相关的信息并使用该品牌信息。与完整品牌服务相比，完整品牌客户端将在客户端二进制文件中烧录艺术作品、logo位图和相关信息。"
+
+#: ../../chapter02.rst:334
+msgid "General"
+msgstr "常规"
+
+#: ../../chapter02.rst:336
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``General``"
+msgstr "``集群管理器`` > ``集群品牌化`` > ``通用``"
+
+#: ../../chapter02.rst:338
+msgid ""
+"Under the ``General`` tab you can specify the name and other settings as "
+"specified below."
+msgstr "在 ``通用`` 标签下，您可以指定名称和下面指定的其他设置。"
+
+#: ../../chapter02.rst:343
+msgid "CLUSTER BRANDING"
+msgstr "集群品牌"
+
+#: ../../chapter02.rst:345
+msgid "**Product Name (1)**"
+msgstr "**产品名称 (1)**"
+
+#: ../../chapter02.rst:347
+msgid ""
+"This is where you will specify what you would like to call the product. "
+"This is the name that users will see when they login either in web portal"
+" or the client applications. To access branding settings click \"Cluster "
+"Branding\" in Dashboard then \"EDIT\" and change the setting you want. "
+"Don't forget to save your settings. You can also choose a color theme "
+"which you would like your users to see when they login to the portal. You"
+" can choose a color theme that is close to your company colors."
+msgstr "这是您指定产品名称的地方。这是用户在登录网页门户或客户端应用程序时看到的名称。要访问品牌设置，请在仪表板中点击\"集群品牌\"，然后点击\"编辑\"并更改您想要的设置。不要忘记保存您的设置。您还可以选择一个颜色主题，供用户在登录门户时看到。您可以选择一个接近贵公司颜色的颜色主题。"
+
+#: ../../chapter02.rst:349
+msgid "**Home Page URL (2)**"
+msgstr "**首页网址（2）**"
+
+#: ../../chapter02.rst:351
+msgid "This is the URL of your 'Home Page' page."
+msgstr "这是您的'首页'页面的URL。"
+
+#: ../../chapter02.rst:356
+msgid "HOME PAGE URL AND COPYRIGHT STATEMENT"
+msgstr "首页网址和版权声明"
+
+#: ../../chapter02.rst:359
+msgid "**'Copyright' Statement (3)**"
+msgstr "**'版权'声明（3）**"
+
+#: ../../chapter02.rst:361
+msgid "This is the contents of your 'Copyright' statement."
+msgstr "这是您的'版权'声明的内容。"
+
+#: ../../chapter02.rst:364
+msgid "Web Portal"
+msgstr "网页门户"
+
+#: ../../chapter02.rst:366
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Web Portal``"
+msgstr "``集群管理器`` > ``集群品牌化`` > ``网页门户``"
+
+#: ../../chapter02.rst:370
+msgid ""
+"In previous builds, the best way to get icons to work is by putting the "
+"icon files on the same server and reference the icons via a relative "
+"link."
+msgstr "在之前的版本中，要想让图标正常工作的最佳方式是将图标文件放在同一服务器上，并通过相对链接来引用这些图标。"
+
+#: ../../chapter02.rst:372
+msgid ""
+"For example, you can create a sub folder under the Install Folder of the "
+"Cluster Server, such as under root/imagetest folder. The dimensions for "
+"all icons for each setting under web portal should match what is "
+"displayed for each setting. The branding of the icons and images require "
+"the icons and images with the same width/height as specified or same "
+"aspect ratio if the resolution is higher."
+msgstr "例如，您可以在集群服务器的安装文件夹下创建一个子文件夹，比如在root/imagetest文件夹下。网页门户中每个设置的所有图标尺寸应与每个设置显示的尺寸相匹配。图标和图片的品牌化要求图标和图片的宽度/高度与指定的相同，或者如果分辨率更高，则宽高比相同。"
+
+#: ../../chapter02.rst:374
+msgid ""
+"In later builds, the icons used are what-you-see-is-what-you-get and you "
+"can upload those icon sets."
+msgstr "在后续版本中，所使用的图标是所见即所得的，您可以上传这些图标集。"
+
+#: ../../chapter02.rst:379
+msgid "WEB PORTAL SETTINGS"
+msgstr "网页门户设置"
+
+#: ../../chapter02.rst:382
+msgid "**Application Icon (1)**"
+msgstr "**应用程序图标 (1)**"
+
+#: ../../chapter02.rst:384
+msgid ""
+"From the Web portal section of cluster branding, you can change the "
+"application icon. This is the image that is displayed next to the product"
+" name in the web portal."
+msgstr "从集群品牌的Web门户部分，您可以更改应用程序图标。这是在web门户中紧挨产品名称显示的图像。"
+
+#: ../../chapter02.rst:386
+msgid "**Tenant Logo (2)**"
+msgstr "**租户标志（2）**"
+
+#: ../../chapter02.rst:388
+msgid "This is where the logo that represents each tenant should be uploaded."
+msgstr "这是应该上传代表每个租户的标志的位置。"
+
+#: ../../chapter02.rst:390
+msgid "**Drive Icon (3)**"
+msgstr "**驱动器图标 (3)**"
+
+#: ../../chapter02.rst:392
+msgid ""
+"This is the icon that will be used for the cloud drive. For example in "
+"the web portal tree view."
+msgstr "这是将用于云驱动的图标。例如在网页门户的树状视图中。"
+
+#: ../../chapter02.rst:394
+msgid "**Logo Url (4) & Login Page Left Image (5)**"
+msgstr "**Logo Url (4) & 登录页面左侧图片 (5)**"
+
+#: ../../chapter02.rst:396
+msgid ""
+"Please follow the same steps for branding settings for 'Login Background "
+"Image', 'File Share Stamp Icon', 'IOS Client App ID', 'Login Page Note', "
+"'Change Password URL', 'Tutorial Page URL'."
+msgstr "请按照相同的步骤进行品牌设置，包括'登录背景图片'、'文件共享印章图标'、'IOS客户端应用程序ID'、'登录页面备注'、'更改密码URL'、'教程页面URL'。"
+
+#: ../../chapter02.rst:400
+msgid "Client Download"
+msgstr "客户端下载"
+
+#: ../../chapter02.rst:402
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Client Download``"
+msgstr "``集群管理器`` > ``集群品牌化`` > ``客户端下载``"
+
+#: ../../chapter02.rst:404
+msgid "You can choose not to show the download link for some clients here."
+msgstr "您可以选择不在此处为某些客户显示下载链接。"
+
+#: ../../chapter02.rst:409
+msgid "CLIENT DOWNLOAD SETTINGS"
+msgstr "客户端下载设置"
+
+#: ../../chapter02.rst:412
+msgid "**Mobile Clients Download Links**"
+msgstr "**移动客户端下载链接**"
+
+#: ../../chapter02.rst:414
+msgid ""
+"Once you brand your own iOS client and/or Android Client you can point "
+"the download link to your own AppStore and Google Play locations."
+msgstr "一旦您为自己的iOS客户端和/或Android客户端定制品牌后，您可以将下载链接指向您自己的AppStore和Google Play位置。"
+
+#: ../../chapter02.rst:420
+msgid "CLIENT DOWNLOAD LINKS SETTINGS"
+msgstr "客户端下载链接设置"
+
+#: ../../chapter02.rst:424 ../../chapter02.rst:837
+msgid "Windows Client"
+msgstr "Windows 客户端"
+
+#: ../../chapter02.rst:426
+msgid "``Cluster Manager`` > ``Cluster Branding`` > ``Windows Client``"
+msgstr "``集群管理器`` > ``集群品牌化`` > ``Windows 客户端``"
+
+#: ../../chapter02.rst:428
+msgid ""
+"The application icon and drive icon URLs can be specified here. Also, you"
+" can put in your company name under 'Manufacturer Name' along with the "
+"'Contact Info' email. You also have the option here to create your own "
+"branded MSI Windows client. You can also use your own code signing "
+"certificate in order to digitally sign the MSI package. The advantage of "
+"creating your own MSI client package is that when users download and "
+"install the Windows Client you provide, they will see your company name "
+"along with your branding during the client installation."
+msgstr "您可以在此处指定应用程序图标和驱动器图标的URL。同时，您还可以在'制造商名称'下填写您的公司名称以及'联系信息'电子邮件。您还可以在此处创建您自己品牌的MSI Windows客户端。您也可以使用自己的代码签名证书来对MSI包进行数字签名。创建您自己的MSI客户端包的优势在于，当用户下载并安装您提供的Windows客户端时，他们将在客户端安装过程中看到您公司的名称以及您的品牌。"
+
+#: ../../chapter02.rst:430
+msgid ""
+"Windows client supports multiple languages. Some language packs are "
+"included and shipped with CentreStack. If you need to run the Windows "
+"client under a different language, you can set the UI Language there."
+msgstr "Windows 客户端支持多种语言。一些语言包已包含在 CentreStack 中并随之提供。如果您需要在不同的语言环境下运行 Windows 客户端，您可以在那里设置 UI 语言。"
+
+#: ../../chapter02.rst:435
+msgid "WINDOWS CLIENT BRANDING"
+msgstr "Windows 客户端品牌化"
+
+#: ../../chapter02.rst:437
+msgid ""
+"Once you clicked the \"Edit\" button to edit the Windows Client branding "
+"information, you will be able to provide EULA (End User License "
+"Agreement) and Code Signing Certificate."
+msgstr "一旦您点击了“编辑”按钮来编辑Windows客户端的品牌信息，您将能够提供EULA（最终用户许可协议）和代码签名证书。"
+
+#: ../../chapter02.rst:442
+msgid "WINDOWS CLIENT BRANDING SETTINGS"
+msgstr "WINDOWS 客户端品牌设置"
+
+#: ../../chapter02.rst:445
+msgid "**EULA (1)**"
+msgstr "**最终用户许可协议（1）**"
+
+#: ../../chapter02.rst:447
+msgid "This will be a RTF file format as input."
+msgstr "这将是一个RTF文件格式的输入。"
+
+#: ../../chapter02.rst:450
+msgid "**Code Signing Certificate (2)**"
+msgstr "**代码签名证书 (2)**"
+
+#: ../../chapter02.rst:452
+msgid ""
+"You can acquire a code signing certificate from your code signing "
+"certificate vendor. Most SSL vendor also provide code signing "
+"certificate. Make sure you use SHA 256 (SHA2) as your digital signing "
+"certificate hash algorithm."
+msgstr "您可以从代码签名证书供应商那里获取代码签名证书。大多数SSL供应商也提供代码签名证书。确保您使用SHA 256（SHA2）作为数字签名证书的哈希算法。"
+
+#: ../../chapter02.rst:454
+msgid ""
+"If your Code Signing certificate is already installed you can also use "
+"the option - ``Sign using cert in certificate store`` **(3)**"
+msgstr "如果您的代码签名证书已经安装，您也可以使用选项 - ``使用证书存储中的证书签名`` **(3)**"
+
+#: ../../chapter02.rst:458 ../../chapter02.rst:877
+msgid "Mac Client"
+msgstr "Mac 客户端"
+
+#: ../../chapter02.rst:460
+msgid ""
+"You can configure the MAC client and MAC client installation package "
+"branding under here."
+msgstr "您可以在此处配置MAC客户端和MAC客户端安装包的品牌。"
+
+#: ../../chapter02.rst:463
+msgid "**Client Branding**"
+msgstr "**客户品牌化**"
+
+#: ../../chapter02.rst:468
+msgid "MAC CLIENT BRANDING"
+msgstr "MAC 客户端品牌化"
+
+#: ../../chapter02.rst:470
+msgid "**Installation Package Branding**"
+msgstr "**安装包品牌化**"
+
+#: ../../chapter02.rst:472
+msgid ""
+"You can brand the Mac software agent package as well. You will need to go"
+" to https://www.centrestack.com/, login as a partner and go to the "
+"\"Branding\" section to create a branding task. The task will be "
+"fulfilled and completed and a Mac software agent package will be "
+"available for download once the branding task completes. It may take a "
+"couple of days for the task to finish."
+msgstr "您也可以对Mac软件代理包进行品牌定制。您需要访问https://www.centrestack.com/，以合作伙伴身份登录，然后前往“品牌定制”部分创建一个品牌定制任务。定制任务完成后，将提供一个Mac软件代理包供下载。品牌定制任务可能需要几天时间才能完成。"
+
+#: ../../chapter02.rst:478
+msgid "MAC CLIENT BRANDING IN PARTNER PORTAL"
+msgstr "合作伙伴门户中的MAC客户端品牌"
+
+#: ../../chapter02.rst:483
+msgid ""
+"Mac software package branding is different from the Windows software "
+"package branding because the Mac software package branding will need to "
+"be done on a Mac machine. So the task will be created on the partner "
+"portal but will be completed asynchronously on a Mac machine."
+msgstr "Mac软件包的品牌与Windows软件包的品牌不同，因为Mac软件包的品牌需要在Mac机器上完成。所以任务将在合作伙伴门户上创建，但将在Mac机器上异步完成。"
+
+#: ../../chapter02.rst:488
+msgid "Emails"
+msgstr "电子邮件"
+
+#: ../../chapter02.rst:490
+msgid ""
+"There are many places in the Cluster Manager that need to contact the "
+"users via email. So the “Emails” tab is used to set up the email "
+"templates used for contacting users via email."
+msgstr "在集群管理器中有许多地方需要通过电子邮件与用户联系。因此，“电子邮件”标签页用于设置用于通过电子邮件联系用户的电子邮件模板。"
+
+#: ../../chapter02.rst:495
+msgid "EMAIL SETTINGS"
+msgstr "电子邮件设置"
+
+#: ../../chapter02.rst:497
+msgid "**Welcome Email for New Tenant**"
+msgstr "**新租户欢迎邮件**"
+
+#: ../../chapter02.rst:499
+msgid ""
+"This is the email sent to the new tenant when the tenant is created. The "
+"email is sent to the tenant administrator."
+msgstr "这是在创建租户时发送给新租户的电子邮件。该邮件发送给租户管理员。"
+
+#: ../../chapter02.rst:502
+msgid "**Welcome Email for New Team User**"
+msgstr "**新团队用户的欢迎邮件**"
+
+#: ../../chapter02.rst:504
+msgid ""
+"The team user is a regular user in a tenant. This is the email template "
+"that is sent to the user when the user account is created."
+msgstr "团队用户是租户中的普通用户。这是在创建用户账户时发送给用户的电子邮件模板。"
+
+#: ../../chapter02.rst:507
+msgid "**Welcome Email for New Guest User**"
+msgstr "**欢迎新访客用户的电子邮件**"
+
+#: ../../chapter02.rst:509
+msgid ""
+"Guest user is a regular user in a tenant that doesn't have a home "
+"directory associated. So the guest user can only operate within shared "
+"files and folders from other regular users. This is the email template "
+"that is sent to the guest user when the guest user's account was "
+"provisioned."
+msgstr "访客用户是租户中的普通用户，但没有关联的主目录。因此，访客用户只能操作其他普通用户共享的文件和文件夹。这是在访客用户的账户被创建时发送给访客用户的电子邮件模板。"
+
+#: ../../chapter02.rst:512
+msgid "**Email for File/Folder Share**"
+msgstr "**电子邮件用于文件/文件夹共享**"
+
+#: ../../chapter02.rst:514
+msgid ""
+"This is the email sent to a user when the user is about to receive "
+"file/folder shares."
+msgstr "这是当用户即将收到文件/文件夹共享时发送给用户的电子邮件。"
+
+#: ../../chapter02.rst:517
+msgid "**Request a File**"
+msgstr "**请求文件**"
+
+#: ../../chapter02.rst:519
+msgid ""
+"This is the email sent to a user when the user is about to receive an "
+"invitation to upload a file."
+msgstr "这是发送给用户的电子邮件，当用户即将收到上传文件的邀请时。"
+
+#: ../../chapter02.rst:522
+msgid "**Notify external user that shared file changed**"
+msgstr "**通知外部用户共享文件已更改**"
+
+#: ../../chapter02.rst:524
+msgid ""
+"When a shared file/folder changed, this is the email that is sent to the "
+"user who receives file/folder shares."
+msgstr "当共享的文件/文件夹发生变化时，这是发送给接收文件/文件夹共享的用户的电子邮件。"
+
+#: ../../chapter02.rst:527
+msgid "**Admin Reset User Password Email**"
+msgstr "**管理员重置用户密码邮件**"
+
+#: ../../chapter02.rst:529
+msgid "This is the email that sent to a user when the user's password is reset."
+msgstr "这是在用户密码被重置时发送给用户的电子邮件。"
+
+#: ../../chapter02.rst:532
+msgid "**User Reset Password Email**"
+msgstr "**用户重置密码邮件**"
+
+#: ../../chapter02.rst:534
+msgid ""
+"This is the email that sent to a user when the user resets the password "
+"for himself/herself."
+msgstr "这是当用户为自己重置密码时发送给用户的电子邮件。"
+
+#: ../../chapter02.rst:537
+msgid "**New Sign-in Action Email**"
+msgstr "**新的登录活动邮件**"
+
+#: ../../chapter02.rst:539
+msgid ""
+"This is the email notification sent to the user when the user logins from"
+" a specific machine."
+msgstr "这是当用户从特定机器登录时发送给用户的电子邮件通知。"
+
+#: ../../chapter02.rst:541
+msgid "**Settings**"
+msgstr "**设置**"
+
+#: ../../chapter02.rst:543
+msgid ""
+"This is to set the reply email address. Typically the email is sent with "
+"the SMTP service set. However, if the reply address is different, you can"
+" set it here."
+msgstr "此处用于设置回复电子邮件地址。通常，电子邮件是通过设置的SMTP服务发送的。然而，如果回复地址有所不同，您可以在这里进行设置。"
+
+#: ../../chapter02.rst:547
+msgid "Android Client"
+msgstr "安卓客户端"
+
+#: ../../chapter02.rst:551
+msgid ""
+"Branding the android client can now be automated from your partner portal"
+" (https://partner.centrestack.com/login/). Please go to "
+"https://partner.centrestack.com/login/ to brand the Android client."
+msgstr "现在可以通过您的合作伙伴门户网站（https://partner.centrestack.com/login/）自动化定制安卓客户端。请访问 https://partner.centrestack.com/login/ 来定制安卓客户端。"
+
+#: ../../chapter02.rst:554
+msgid ""
+"The branding of Android client and iOS client is done from "
+"www.centrestack.com, instead of from your own server."
+msgstr "Android 客户端和 iOS 客户端的品牌化是从 www.centrestack.com 完成的，而不是从您自己的服务器。"
+
+#: ../../chapter02.rst:559
+msgid "ANDROID CLIENT BRANDING"
+msgstr "安卓客户端品牌化"
+
+#: ../../chapter02.rst:563
+msgid "iOS Client"
+msgstr "iOS 客户端"
+
+#: ../../chapter02.rst:567
+msgid ""
+"Branding of iOS client can now be automated from partner portal "
+"(https://partner.centrestack.com/login/)."
+msgstr "iOS 客户端的品牌化现在可以通过合作伙伴门户网站（https://partner.centrestack.com/login/）自动完成。"
+
+#: ../../chapter02.rst:569
+msgid ""
+"The information here in this section is preserved for legacy reference. "
+"Please go to https://partner.centrestack.com/login/ to brand iOS client."
+msgstr "此部分的信息保留作为遗留参考。请访问 https://partner.centrestack.com/login/ 以自定义iOS客户端。"
+
+#: ../../chapter02.rst:571
+msgid ""
+"As shown in the above picture, you can generate branding task and request"
+" for Android branding and iOS branding."
+msgstr "如上图所示，您可以生成品牌任务，并请求 Android 品牌化和 iOS 品牌化。"
+
+#: ../../chapter02.rst:576
+msgid "Export/Import"
+msgstr "导出/导入"
+
+#: ../../chapter02.rst:578
+msgid ""
+"You can either export the branding settings to another cluster or you can"
+" import branding settings from another cluster in this cluster under this"
+" setting."
+msgstr "您可以将品牌设置从此集群导出到另一个集群，或者您可以在此设置下将其他集群的品牌设置导入此集群。"
+
+#: ../../chapter02.rst:583
+msgid "EXPORT/IMPORT SETTINGS"
+msgstr "导出/导入设置"
+
+#: ../../chapter02.rst:588
+msgid "Reports"
+msgstr "报告"
+
+#: ../../chapter02.rst:590
+msgid "``Cluster Manager`` > ``Reports``"
+msgstr "``集群管理器`` > ``报告``"
+
+#: ../../chapter02.rst:593
+msgid "Upload Report"
+msgstr "上传报告"
+
+#: ../../chapter02.rst:595
+msgid ""
+"Upload report tab shows you graphs for all the uploads that have taken "
+"place in the last sixty minutes, 24 hours, 30 days and a whole week."
+msgstr "上传报告标签页显示了过去六十分钟、24小时、30天以及整个星期内发生的所有上传的图表。"
+
+#: ../../chapter02.rst:601
+msgid "UPLOAD REPORT"
+msgstr "上传报告"
+
+#: ../../chapter02.rst:605
+msgid "Storage Statistics"
+msgstr "存储统计"
+
+#: ../../chapter02.rst:607
+msgid ""
+"Under storage statistics, you can see a quick overview of the overall "
+"storage statistics, size distribution file type distribution pie charts, "
+"and users who have used the most storage so far."
+msgstr "在存储统计下，您可以快速查看整体存储统计、大小分布、文件类型分布饼图，以及到目前为止使用最多存储的用户。"
+
+#: ../../chapter02.rst:613
+msgid "STORAGE STATISTICS REPORT"
+msgstr "存储统计报告"
+
+#: ../../chapter02.rst:617
+msgid "Active Users"
+msgstr "活跃用户"
+
+#: ../../chapter02.rst:619
+msgid ""
+"Active users reports the activity of users on the web portal. The active "
+"users report doesn't include users from windows client or other native "
+"clients because those users are more persistent (always there). To access"
+" this report, you can click on the active users section in the panel near"
+" the top of the screen."
+msgstr "活跃用户报告显示了用户在网页门户上的活动情况。活跃用户报告不包括来自Windows客户端或其他原生客户端的用户，因为这些用户更为持久（始终存在）。要访问此报告，您可以点击屏幕顶部附近面板中的活跃用户部分。"
+
+#: ../../chapter02.rst:626
+msgid "ACTIVE USERS REPORT"
+msgstr "活跃用户报告"
+
+#: ../../chapter02.rst:630
+msgid "Guest Users"
+msgstr "访客用户"
+
+#: ../../chapter02.rst:632
+msgid ""
+"Other reports are also available such as Guest Users, which are users "
+"that don't have a home directory but are invited to participate on some "
+"shared folders and shared files."
+msgstr "其他报告也可用，例如访客用户，这些用户没有主目录，但被邀请参与一些共享文件夹和共享文件。"
+
+#: ../../chapter02.rst:636
+msgid "Node Performance"
+msgstr "节点性能"
+
+#: ../../chapter02.rst:638
+msgid ""
+"You can use the Node Performance to check out the worker node health and "
+"the database health."
+msgstr "您可以使用节点性能来检查工作节点的健康状况以及数据库的健康状况。"
+
+#: ../../chapter02.rst:644
+msgid "NODE PERFORMANCE REPORT"
+msgstr "节点性能报告"
+
+#: ../../chapter02.rst:647
+msgid "**Last Reported**"
+msgstr "**最后报告**"
+
+#: ../../chapter02.rst:649
+msgid ""
+"You want to see this field has small numbers such as 6 seconds, 10 "
+"seconds. If you see sometime like 3 hours ago, that means the node is not"
+" reporting the health."
+msgstr "您希望看到此字段显示较小的数字，例如6秒、10秒。如果您看到像3小时前这样的时间，那意味着节点没有报告其健康状况。"
+
+#: ../../chapter02.rst:652
+msgid "**Total Requests Processed**"
+msgstr "**处理的总请求量**"
+
+#: ../../chapter02.rst:654
+msgid ""
+"You want to see this number as big as possible. This number is cumulative"
+" since the service was last re-started. So the bigger the number, the "
+"more stable the service is. Also when you have multiple worker nodes, you"
+" want to see the Total Requests distributed evenly among the worker "
+"nodes."
+msgstr "您希望看到这个数字尽可能大。这个数字是自服务上次重新启动以来的累积值。因此，数字越大，服务越稳定。同时，当您有多个工作节点时，您希望看到总请求在各个工作节点之间均匀分布。"
+
+#: ../../chapter02.rst:657
+msgid "**Request Executing**"
+msgstr "**请求执行中**"
+
+#: ../../chapter02.rst:659
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of requests that are concurrently executing on the server. In general a "
+"number smaller than 100 is normal. Bigger than 100 is abnormal. Anything "
+"bigger than 20 will require investigation."
+msgstr "您希望看到这个数字尽可能小。这意味着同时在服务器上执行的请求数量。通常情况下，小于100的数字是正常的。大于100则不正常。任何大于20的数字都需要进行调查。"
+
+#: ../../chapter02.rst:662
+msgid "**Last Request Time**"
+msgstr "**最后请求时间**"
+
+#: ../../chapter02.rst:664
+msgid ""
+"You want to see this number as small as possible. This means the number "
+"of milliseconds for the last request. In general, numbers smaller than "
+"3000 or 5000 are normal, which translates to below 3-5 seconds."
+msgstr "您希望看到这个数字尽可能小。这意味着最后一个请求的毫秒数。通常，小于3000或5000的数字是正常的，相当于低于3-5秒。"
+
+#: ../../chapter02.rst:667
+msgid "**Pending Change Notification**"
+msgstr "**待处理的更改通知**"
+
+#: ../../chapter02.rst:669
+msgid ""
+"For the files and folders that are changed, there is change notification "
+"written to the database. In general, you want to see the pending queue as"
+" short as possible."
+msgstr "对于已更改的文件和文件夹，会有更改通知写入数据库。通常，您希望看到待处理队列尽可能短。"
+
+#: ../../chapter02.rst:672
+msgid "**Active Node Request**"
+msgstr "**活动节点请求**"
+
+#: ../../chapter02.rst:674
+msgid ""
+"These are the clients out there contacting the server. Usually it is just"
+" for reporting purposes."
+msgstr "这些是在外面联系服务器的客户端。通常这仅仅是为了报告目的。"
+
+#: ../../chapter02.rst:677
+msgid "**Pending Change Polling**"
+msgstr "**待处理的更改轮询**"
+
+#: ../../chapter02.rst:679
+msgid ""
+"These are the clients out there polling to see whether there are files "
+"and folders that have been changed. Usually the smaller the better."
+msgstr "这些是在外面轮询的客户端，用来检查是否有文件和文件夹发生了变化。通常情况下，越小越好。"
+
+#: ../../chapter02.rst:682
+msgid "**Active Clients**"
+msgstr "**活跃客户端**"
+
+#: ../../chapter02.rst:684
+msgid "For reporting purpose."
+msgstr "用于报告目的。"
+
+#: ../../chapter02.rst:687
+msgid "**Pending Dir Request(H)**"
+msgstr "**待处理的目录请求(H)**"
+
+#: ../../chapter02.rst:689
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the high priority queue."
+msgstr "来自远程客户端到集群服务器的待处理目录列表调用。这是高优先级队列。"
+
+#: ../../chapter02.rst:693
+msgid "**Pending Dir Request(L)**"
+msgstr "**待处理的目录请求(L)**"
+
+#: ../../chapter02.rst:695
+msgid ""
+"The pending directory listing calls from the remote clients to the "
+"Cluster Server. This is the low priority queue."
+msgstr "来自远程客户端到集群服务器的待处理目录列表调用。这是低优先级队列。"
+
+#: ../../chapter02.rst:698
+msgid ""
+"If you don't see the node performance report, check the **Internal URL** "
+"setting of each worker node."
+msgstr "如果您没有看到节点性能报告，请检查每个工作节点的 **内部 URL** 设置。"
+
+#: ../../chapter02.rst:700
+msgid "Under reports you can look at the upload graphs and storage statistics."
+msgstr "在报告下您可以查看上传图表和存储统计数据。"
+
+#: ../../chapter02.rst:705
+msgid "Bandwidth Usage"
+msgstr "带宽使用情况"
+
+#: ../../chapter02.rst:707
+msgid ""
+"This shows the overall bandwidth usage statistics as well as more "
+"granular tenant and user level statistics."
+msgstr "这显示了总体带宽使用统计信息以及更细致的租户和用户级别统计信息。"
+
+#: ../../chapter02.rst:712
+msgid "BANDWIDTH USAGE REPORT"
+msgstr "带宽使用报告"
+
+#: ../../chapter02.rst:716
+msgid "System Diagnostic Report"
+msgstr "系统诊断报告"
+
+#: ../../chapter02.rst:718
+msgid "Click the Start Scanning button to generate system diagnostic report."
+msgstr "点击“开始扫描”按钮生成系统诊断报告。"
+
+#: ../../chapter02.rst:723
+msgid "GENERATE REPORT"
+msgstr "生成报告"
+
+#: ../../chapter02.rst:725
+msgid "A sample system diagnostic report is shown below."
+msgstr "下面显示了一个示例系统诊断报告。"
+
+#: ../../chapter02.rst:730
+msgid "SYSTEM DIAGNOSTIC REPORT"
+msgstr "系统诊断报告"
+
+#: ../../chapter02.rst:733
+msgid "Audit Trace"
+msgstr "审计追踪"
+
+#: ../../chapter02.rst:735
+msgid "This is a sample audit trace."
+msgstr "这是一个样本审计追踪。"
+
+#: ../../chapter02.rst:740
+msgid "AUDIT TRACE"
+msgstr "审计跟踪"
+
+#: ../../chapter02.rst:744
+msgid "Cluster Controls"
+msgstr "集群控制"
+
+#: ../../chapter02.rst:747
+msgid "Cluster Admin"
+msgstr "集群管理员"
+
+#: ../../chapter02.rst:749
+msgid "``Cluster Manager`` > ``Cluster Admin``"
+msgstr "``集群管理器`` > ``集群管理员``"
+
+#: ../../chapter02.rst:751
+msgid ""
+"Cluster Admin section is to change the properties of the default "
+"administrator and also to add additional people to be the cluster "
+"administrators. You can access the Cluster Admin from your Cluster "
+"Dashboard."
+msgstr "集群管理员部分用于更改默认管理员的属性，同时添加其他人成为集群管理员。您可以从集群仪表板访问集群管理员。"
+
+#: ../../chapter02.rst:759
+msgid "CLUSTER ADMIN SETTINGS"
+msgstr "集群管理员设置"
+
+#: ../../chapter02.rst:762
+msgid "Email Service"
+msgstr "电子邮件服务"
+
+#: ../../chapter02.rst:764
+msgid "``Cluster Manager`` > ``Email Service``"
+msgstr "``集群管理器`` > ``电子邮件服务``"
+
+#: ../../chapter02.rst:766
+msgid ""
+"There are many places in the |prodname| solution that the user needs to "
+"be contacted by Email. The Email service is used to set up the SMTP email"
+" service to send out the emails."
+msgstr "在 |prodname| 解决方案中有许多地方需要通过电子邮件联系用户。电子邮件服务用于设置SMTP电子邮件服务以发送邮件。"
+
+#: ../../chapter02.rst:768
+msgid ""
+"By default, it works out of box using the default email service with the "
+"Cluster Server's customer support email address as the sender."
+msgstr "默认情况下，它可以直接使用默认的电子邮件服务，并以集群服务器的客户支持电子邮件地址作为发件人。"
+
+#: ../../chapter02.rst:770
+msgid ""
+"It is recommended that the SMTP service be setup to use your own SMTP "
+"service to send out emails."
+msgstr "建议将SMTP服务设置为使用您自己的SMTP服务来发送电子邮件。"
+
+#: ../../chapter02.rst:772
+msgid ""
+"In the Authenticate User field, if your SMTP service doesn't require "
+"authentication, you can put dummy email in the field."
+msgstr "在“认证用户”字段中，如果您的SMTP服务不需要认证，您可以在该字段中填入虚拟邮箱。"
+
+#: ../../chapter02.rst:776
+msgid "For example, if your email service is on Office 365,"
+msgstr "例如，如果您的电子邮件服务位于Office 365，"
+
+#: ../../chapter02.rst:780
+msgid ":SMTP Server Address"
+msgstr "SMTP服务器地址"
+
+#: ../../chapter02.rst:780
+msgid "``smtp.office365.com``"
+msgstr "``smtp.office365.com``"
+
+#: ../../chapter02.rst:783
+msgid ":Use SSL"
+msgstr "使用SSL"
+
+#: ../../chapter02.rst:783
+msgid "``True``"
+msgstr "``真``"
+
+#: ../../chapter02.rst:785
+msgid ":SMTP Server Port"
+msgstr "SMTP服务器端口"
+
+#: ../../chapter02.rst:786
+msgid "``587``"
+msgstr "``587``"
+
+#: ../../chapter02.rst:794
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "电子邮件服务设置"
+
+#: ../../chapter02.rst:798
+msgid "Application Manager"
+msgstr "应用程序管理器"
+
+#: ../../chapter02.rst:800
+msgid "``Cluster Manager`` > ``Application Manager``"
+msgstr "``集群管理器`` > ``应用程序管理器``"
+
+#: ../../chapter02.rst:802
+msgid ""
+"You can access \"Application Manager\" from Cluster Dashboard, and "
+"configure Web Apps. This will enable the users to edit documents using "
+"the web apps. The applications here only apply to web portal based "
+"editing."
+msgstr "您可以从集群仪表板访问“应用程序管理器”，并配置Web应用程序。这将使用户能够使用web应用程序编辑文档。这里的应用程序仅适用于基于web门户的编辑。"
+
+#: ../../chapter02.rst:810
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "应用程序管理器设置"
+
+#: ../../chapter02.rst:813
+msgid ""
+"Once an application is enabled, you will be able to see the context menu "
+"entry from the web based file and folder manager view."
+msgstr "一旦应用程序启用，您将能够从基于网络的文件和文件夹管理器视图中看到上下文菜单条目。"
+
+#: ../../chapter02.rst:818
+msgid "APPLICATION CONTEXT MENU"
+msgstr "应用程序上下文菜单"
+
+#: ../../chapter02.rst:822
+msgid "Client Version Manager"
+msgstr "客户端版本管理器"
+
+#: ../../chapter02.rst:824
+msgid "``Cluster Manager`` > ``Client Version Manager``"
+msgstr "``集群管理器`` > ``客户端版本管理器``"
+
+#: ../../chapter02.rst:829
+msgid "CLIENT VERSION MANAGER"
+msgstr "客户端版本管理器"
+
+#: ../../chapter02.rst:831
+msgid ""
+"For Windows Client, Mac Client and Windows Server Agent, there is an auto"
+" client update feature. Each upgrade package contains the updated "
+"clients. By clicking on the ``Publish`` button, the newer package can be "
+"published to clients out there."
+msgstr "对于Windows客户端、Mac客户端和Windows服务器代理，有一个自动客户端更新功能。每个升级包都包含了更新后的客户端。通过点击 ``发布`` 按钮，可以将更新包发布给外面的客户端。"
+
+#: ../../chapter02.rst:834
+msgid ""
+"Every new Cluster Server upgrade contains the newer Windows client, "
+"Windows Server Agent and Mac Client. The Cluster users via manual "
+"download can get the clients that are included in the Cluster Server. "
+"However, for existing users with previously installed clients, those "
+"older clients will not auto upgrade until the newer client packages are "
+"published."
+msgstr "每个新的集群服务器升级都包含更新的Windows客户端、Windows服务器代理和Mac客户端。集群用户可以通过手动下载获取包含在集群服务器中的客户端。然而，对于那些已经安装了旧客户端的现有用户来说，这些旧客户端不会自动升级，直到新的客户端包发布后才会升级。"
+
+#: ../../chapter02.rst:842
+msgid "WINDOWS CLIENT VERSION SETTINGS"
+msgstr "Windows 客户端版本设置"
+
+#: ../../chapter02.rst:844
+msgid "**Daily Upgrade Limit (1)**"
+msgstr "**每日升级限制（1）**"
+
+#: ../../chapter02.rst:846
+msgid ""
+"This is a per-worker node setting. For example, if you have 2 worker "
+"nodes, and set the daily upgrade limit to 100, maximum 200 clients will "
+"be upgraded per day."
+msgstr "这是每个工作节点的设置。例如，如果您有2个工作节点，并将每日升级限制设置为100，则每天最多可升级200个客户端。"
+
+#: ../../chapter02.rst:848
+msgid "**Apply to Users (2)**"
+msgstr "**适用于用户 (2)**"
+
+#: ../../chapter02.rst:850
+msgid "This typically is used for testing prior to pushing the client out."
+msgstr "这通常用于在推出客户端之前进行测试。"
+
+#: ../../chapter02.rst:853
+msgid "**Do Not Apply to Users (3)**"
+msgstr "**不适用于用户 (3)**"
+
+#: ../../chapter02.rst:855
+msgid ""
+"This typically is used for testing prior to pushing the client out and to"
+" exclude certain users."
+msgstr "这通常用于在推送客户端之前进行测试，以排除某些用户。"
+
+#: ../../chapter02.rst:859
+msgid ""
+"The windows client out there has a process running as a background "
+"windows service. The service will periodically check for a newer upgrade "
+"in about 1-2 hour intervals. Once a newer client package is published and"
+" discovered, the newer package will be downloaded. However, if the client"
+" is still actively running, the replacement and upgrade will not happen "
+"until the client application is stopped and restarted. This usually "
+"happens when the user logs off their Windows or restarts their desktop "
+"altogether."
+msgstr "Windows 客户端在后台有一个作为Windows服务运行的进程。该服务将每隔大约1-2小时检查一次是否有新的更新。一旦发现并下载了新的客户端安装包，如果客户端应用程序仍在运行，那么替换和升级将不会发生，直到客户端应用程序停止并重新启动。这通常发生在用户注销Windows或完全重启桌面时。"
+
+#: ../../chapter02.rst:861
+msgid ""
+"If the Windows client software is actively running, the user may be "
+"seeing a message popup from the system tray area asking the user if they "
+"want to restart the client software and to receive the newer version."
+msgstr "如果Windows客户端软件正在运行中，用户可能会在系统托盘区域看到一个弹出消息，询问用户是否想要重启客户端软件以更新到较新的版本。"
+
+#: ../../chapter02.rst:863
+msgid ""
+"Once a client is published for client auto upgrade, you can use "
+"``Unpublish`` to stop the client auto upgrade."
+msgstr "一旦客户端发布用于客户端自动升级，您可以使用 ``Unpublish`` 来停止客户端自动升级。"
+
+#: ../../chapter02.rst:866
+msgid "Server Agent"
+msgstr "服务器代理"
+
+#: ../../chapter02.rst:868
+msgid "Windows Server Agent can be separately published for auto upgrade."
+msgstr "Windows Server 代理可以单独发布以进行自动升级。"
+
+#: ../../chapter02.rst:873
+msgid "SERVER AGENT AUTO UPGRADE"
+msgstr "服务器代理自动升级"
+
+#: ../../chapter02.rst:879
+msgid "Mac client can be separately published for auto upgrade."
+msgstr "Mac 客户端可以单独发布以进行自动升级。"
+
+#: ../../chapter02.rst:884
+msgid "MAC CLIENT AUTO UPGRADE"
+msgstr "MAC 客户端自动升级"
+
+#: ../../chapter02.rst:888
+msgid "Settings"
+msgstr "设置"
+
+#: ../../chapter02.rst:893
+msgid "CLUSTER SETTINGS"
+msgstr "集群设置"
+
+#: ../../chapter02.rst:897
+msgid "Cluster Settings"
+msgstr "集群设置"
+
+#: ../../chapter02.rst:899
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Cluster Settings``"
+msgstr "``集群管理器`` > ``集群设置`` > ``集群设置``"
+
+#: ../../chapter02.rst:904
+msgid "CLUSTER SETTINGS PERMISSIONS"
+msgstr "集群设置权限"
+
+#: ../../chapter02.rst:907
+msgid "**Hide Login Failure Message**"
+msgstr "**隐藏登录失败消息**"
+
+#: ../../chapter02.rst:909
+msgid ""
+"When checked, the login failed message will be replaced by a very generic"
+" “Login Failed” message. When un-checked, it may return a more meaningful"
+" login error, such as user-not-found, authentication-error and so on. "
+"This is a security feature if you don't want to give out too much "
+"information for hackers to guess a reason for authentication failure."
+msgstr "当选中此项时，登录失败信息将被替换为一个非常通用的“登录失败”消息。当未选中时，它可能会返回更有意义的登录错误信息，例如 user-not-found（用户未找到）、authentication-error（认证错误）等。如果您不希望为黑客提供过多信息以猜测认证失败的原因，这是一个安全特性。"
+
+#: ../../chapter02.rst:912
+msgid "**Hide build number from login page**"
+msgstr "**隐藏登录页面的构建编号**"
+
+#: ../../chapter02.rst:914
+msgid "This controls the build number on the web portal login page."
+msgstr "这控制了网页门户登录页面上的构建编号。"
+
+#: ../../chapter02.rst:917
+msgid "**Hide support button**"
+msgstr "**隐藏支持按钮**"
+
+#: ../../chapter02.rst:919
+msgid "This hides the floating support icon."
+msgstr "这会隐藏浮动的支持图标。"
+
+#: ../../chapter02.rst:922
+msgid "**Hide 'Forgot your password' link on login**"
+msgstr "**隐藏登录时的'忘记密码'链接**"
+
+#: ../../chapter02.rst:924
+msgid ""
+"Most often it is used when Active Directory integration is set. The user "
+"will need to do a forget-and-change password the normal Active Directory "
+"way instead of the way CentreStack provides. In this case, it is "
+"recommend to hide the \"Forgot your password\" link."
+msgstr "它通常在设置Active Directory集成时使用。用户将需要通过常规Active Directory的方式进行忘记密码和更改密码，而不是CentreStack提供的方式。在这种情况下，建议隐藏“忘记密码”链接。"
+
+#: ../../chapter02.rst:927
+msgid "**Don't retry when login failed**"
+msgstr "**登录失败时不要重试**"
+
+#: ../../chapter02.rst:929
+msgid ""
+"Most often it is used when the Active Directory user has low failed-count"
+" on lock-out policy. When the user's password is wrong, a few retries can"
+" lock out the user's Active Directory account. The retry feature can be "
+"used when there is no Active Directory lock out or when the lock out "
+"count is high."
+msgstr "通常在Active Directory用户的锁定策略失败次数较低时使用。当用户的密码错误时，几次重试可能会锁定用户的Active Directory账户。在没有Active Directory锁定或锁定次数较高时，可以使用重试功能。"
+
+#: ../../chapter02.rst:931
+msgid "**Always display CAPTCHA on the web portal login page**"
+msgstr "**始终在网页门户登录页面显示验证码**"
+
+#: ../../chapter02.rst:933
+msgid "**Allow multi-tenancy**"
+msgstr "**允许多租户**"
+
+#: ../../chapter02.rst:935
+msgid "**Show tenant management screen after logging in**"
+msgstr "**登录后显示租户管理界面**"
+
+#: ../../chapter02.rst:937
+msgid "**Show 'purge storage option' when delete user**"
+msgstr "**在删除用户时显示'清除存储选项'**"
+
+#: ../../chapter02.rst:939
+msgid ""
+"By default, when a user is deleted, the user's home directory storage "
+"content is not touched for later use or review. If it is desired to "
+"delete the user's content when the user is deleted, this can show the "
+"purge option."
+msgstr "默认情况下，当用户被删除时，用户的主目录存储内容不会被触及，以供日后使用或审查。如果希望在删除用户时删除用户的内容，可以显示清除选项。"
+
+#: ../../chapter02.rst:942
+msgid "**Don't send email notification to user when purge deleted content**"
+msgstr "**不要在清除已删除内容时向用户发送电子邮件通知**"
+
+#: ../../chapter02.rst:944
+msgid ""
+"When the user delete files, they are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification."
+msgstr "当用户删除文件时，它们实际上并不会立即被删除。清除操作是异步的，并且会安排在稍后进行。此设置用于控制通知。"
+
+#: ../../chapter02.rst:947
+msgid "**Don't send email notification to admin when purge deleted content**"
+msgstr "**不要在清除已删除内容时向管理员发送电子邮件通知**"
+
+#: ../../chapter02.rst:949
+msgid ""
+"When the user deletes files, They are not actually deleted immediately. "
+"The purge is asynchronous and scheduled at a later time. This setting "
+"controls the notification to the administrator."
+msgstr "当用户删除文件时，它们实际上并不会立即被删除。清除操作是异步的，并且安排在稍后进行。此设置用于控制对管理员的通知。"
+
+#: ../../chapter02.rst:952
+msgid "**Retrieve avatar from third party service (i.e. Google)**"
+msgstr "**从第三方服务（例如 Google）检索头像**"
+
+#: ../../chapter02.rst:954
+msgid ""
+"This is a usability feature that users's picture can be queried from "
+"Google."
+msgstr "这是一个可用性功能，可以从Google查询用户的图片。"
+
+#: ../../chapter02.rst:957
+msgid "**Hide file extension in web file browser**"
+msgstr "**在网页文件浏览器中隐藏文件扩展名**"
+
+#: ../../chapter02.rst:959
+msgid "This setting will hide the file extension."
+msgstr "此设置将隐藏文件扩展名。"
+
+#: ../../chapter02.rst:962
+msgid "**Disable Windows Client Auto-Logon**"
+msgstr "**禁用Windows客户端自动登录**"
+
+#: ../../chapter02.rst:964
+msgid ""
+"This is a security feature. The result is every time the windows client "
+"is done running, the next time the user tries to login, it will not "
+"remember the login token and the user will have to re-type the credential"
+" to get in."
+msgstr "这是一个安全功能。其结果是，每当Windows客户端运行完毕后，下次用户尝试登录时，系统不会记住登录令牌，用户将必须重新输入凭证才能登录。"
+
+#: ../../chapter02.rst:966
+msgid "**Allow personal data tagging**"
+msgstr "**允许个人数据标记**"
+
+#: ../../chapter02.rst:968
+msgid "**Only allow access performance information from local host**"
+msgstr "**仅允许从本地主机访问性能信息**"
+
+#: ../../chapter02.rst:970
+msgid ""
+"Only allow accessing performance data from http://localhost and not from "
+"external URL."
+msgstr "仅允许从 http://localhost 访问性能数据，不允许从外部URL访问。"
+
+#: ../../chapter02.rst:972
+msgid "**Allow tenant administrators to enable Team Folder backups**"
+msgstr "**允许租户管理员启用团队文件夹备份**"
+
+#: ../../chapter02.rst:976
+msgid "Performance and Throttling"
+msgstr "性能和限流"
+
+#: ../../chapter02.rst:978
+msgid ""
+"``Cluster Manager`` > ``Cluster Settings`` > ``Performance and "
+"Throttling``"
+msgstr "``集群管理器`` > ``集群设置`` > ``性能和限流``"
+
+#: ../../chapter02.rst:983
+msgid "PERFORMANCE THROTTLING"
+msgstr "性能限制"
+
+#: ../../chapter02.rst:986
+msgid ""
+"**Don't show file icon preview if file size is larger than (KB, 0-No icon"
+" preview)**"
+msgstr "**如果文件大小超过（KB，0-无图标预览）则不显示文件图标预览**"
+
+#: ../../chapter02.rst:988
+msgid ""
+"This is used to control iconview thumbnail generation in the web browser "
+"files and folders view. The generation of thumbnail takes CPU power from "
+"the Cluster Server. For big files, the generation of thumbnail may "
+"negatively affect the system performance. So it is recommended to cap the"
+" feature to a certain image size."
+msgstr "此功能用于控制网页浏览器文件和文件夹视图中的图标视图缩略图生成。生成缩略图会占用集群服务器的CPU资源。对于大文件，生成缩略图可能会对系统性能产生负面影响。因此，建议将此功能限制在一定的图像大小范围内。"
+
+#: ../../chapter02.rst:991
+msgid ""
+"**Cluster Wide Upload Bandwidth Limit (Per Worker Node, KB/Sec, 0-No "
+"Limit)**"
+msgstr "**集群范围上传带宽限制（每个工作节点，KB/秒，0-无限制）**"
+
+#: ../../chapter02.rst:993
+msgid "This is to limit upload bandwidth."
+msgstr "这是为了限制上传带宽。"
+
+#: ../../chapter02.rst:996
+msgid "**Cluster Wide Download Bandwidth Limit (Per Worker Node, KB/Sec)**"
+msgstr "**集群范围下载带宽限制（每个工作节点，KB/秒）**"
+
+#: ../../chapter02.rst:998
+msgid "This is to limit download bandwidth."
+msgstr "这是为了限制下载带宽。"
+
+#: ../../chapter02.rst:1001
+msgid "**Size limit for folder download (MB, 0-no limit)**"
+msgstr "**文件夹下载大小限制（MB，0-无限制）**"
+
+#: ../../chapter02.rst:1003
+msgid ""
+"This is to prevent user downloading a very big folder and using up all "
+"the Cluster Server resources."
+msgstr "这是为了防止用户下载一个非常大的文件夹，从而耗尽所有集群服务器资源。"
+
+#: ../../chapter02.rst:1007
+msgid "Timeouts and Limits"
+msgstr "超时和限制"
+
+#: ../../chapter02.rst:1009
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Timeouts and Limits``"
+msgstr "``集群管理器`` > ``集群设置`` > ``超时与限制``"
+
+#: ../../chapter02.rst:1014
+msgid "TIMEOUTS AND LIMITS"
+msgstr "超时与限制"
+
+#: ../../chapter02.rst:1016
+msgid "**Web Browser Session Timeout (minutes, 0 - never timeout)**"
+msgstr "**网页浏览器会话超时（分钟，0 - 永不超时）**"
+
+#: ../../chapter02.rst:1018
+msgid ""
+"This is the web browser session time out value. Default is set to 15 "
+"minutes. For default cluster administrator, we recommend increase this "
+"value to a bigger number so it is easier for web based management work "
+"not to time-out too soon."
+msgstr "这是网页浏览器会话超时值。默认设置为15分钟。对于默认的集群管理员，我们建议将此值增加到更大的数字，以便基于网页的管理工作不会太快超时。"
+
+#: ../../chapter02.rst:1021
+msgid "**Native Client Token Timeout (days)**"
+msgstr "**本地客户端令牌超时（天数）**"
+
+#: ../../chapter02.rst:1023
+msgid "For Windows client and Mac client, this defines the token time to live."
+msgstr "对于Windows客户端和Mac客户端，这定义了令牌的生存时间。"
+
+#: ../../chapter02.rst:1026
+msgid "**Mobile Client Token Timeout (days, 0 - never timeout)**"
+msgstr "**移动客户端令牌超时（天数，0 - 永不超时）**"
+
+#: ../../chapter02.rst:1028
+msgid "**Distributed Lock Idle Timeout (minutes, 0 - never timeout)**"
+msgstr "**分布式锁空闲超时（分钟，0 - 永不超时）**"
+
+#: ../../chapter02.rst:1030
+msgid ""
+"This setting is related to automatic file locking. When a file is "
+"automatically locked, the machine that has the file locked will need to "
+"maintain a healthy heart beat with the Cluster Server. If the machine is "
+"offline (idle) and can't report back to the Cluster Server for a period "
+"of time, the lock that was automatically grabbed will need to be "
+"released."
+msgstr "此设置与自动文件锁定有关。当文件被自动锁定时，持有文件锁定的机器需要与集群服务器保持正常的心跳。如果机器处于离线（空闲）状态并且在一段时间内无法向集群服务器报告，则自动获得的锁将需要被释放。"
+
+#: ../../chapter02.rst:1032
+msgid ""
+"If this is not desired, the user can always use manual \"Check Out\" to "
+"lock a file and that will not be subject to the timeout."
+msgstr "如果用户不希望这样，他们可以随时使用手动的\"Check Out\"来锁定一个文件，这样就不会受到超时的限制。"
+
+#: ../../chapter02.rst:1034
+msgid ""
+"**Send shared file change notifications every n minutes (0 - send "
+"immediately)**"
+msgstr "**每隔n分钟发送共享文件更改通知（0 - 立即发送）**"
+
+#: ../../chapter02.rst:1036
+msgid ""
+"**Open third party web application in new window when the height of the "
+"web browser is less than**"
+msgstr "**当网页浏览器的高度小于时，在新窗口中打开第三方网络应用程序**"
+
+#: ../../chapter02.rst:1038
+msgid ""
+"This is a usability feature. When using third party web application to "
+"edit documents in Cluster Server web browser file and folder view, if the"
+" web browser height is too short, the third party web application may not"
+" function properly."
+msgstr "这是一个可用性功能。当在集群服务器网页浏览器的文件和文件夹视图中使用第三方Web应用程序编辑文档时，如果网页浏览器的高度过低，第三方Web应用程序可能无法正常工作。"
+
+#: ../../chapter02.rst:1041
+msgid "**Max Device Count (Concurrent Device Count) for Each User (0-Unlimited)**"
+msgstr "**每个用户的最大设备数（并发设备数）（0-无限制）**"
+
+#: ../../chapter02.rst:1043
+msgid ""
+"This is the number of concurrent devices connected to the Cluster Server "
+"for each user. The default is not limited."
+msgstr "这是每个用户连接到集群服务器的并发设备数量。默认值是不受限制的。"
+
+#: ../../chapter02.rst:1045
+msgid ""
+"**Purge Device Entry n Days After Device Disconnected (0 - let system "
+"decides)**"
+msgstr "**清除设备条目 n 天后设备断开连接 (0 - 让系统决定)**"
+
+#: ../../chapter02.rst:1047
+msgid "**Maximum file search results**"
+msgstr "**最大文件搜索结果**"
+
+#: ../../chapter02.rst:1051
+msgid "Languages"
+msgstr "语言"
+
+#: ../../chapter02.rst:1053
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Languages``"
+msgstr "``集群管理器`` > ``集群设置`` > ``语言``"
+
+#: ../../chapter02.rst:1058
+msgid "LANGUAGE SETTINGS"
+msgstr "语言设置"
+
+#: ../../chapter02.rst:1061
+msgid ""
+"This section sets up the web portal languages and also the client "
+"application languages for Windows client."
+msgstr "本节设置Web门户语言以及Windows客户端的客户端应用程序语言。"
+
+#: ../../chapter02.rst:1064
+msgid ""
+"We have automated translation and provided the resource files that you "
+"can use to localize the web portal and clients in the language  of your "
+"choice. If there are strings that not translated yet in the language you "
+"want, just go ahead and select the string and put in the translated "
+"string in the window for the language selected."
+msgstr "我们已经实现了自动翻译，并提供了资源文件，您可以使用这些资源文件将网络门户和客户端本地化为您选择的语言。如果您想要的语言中还有未翻译的字符串，只需选择该字符串并在所选语言的窗口中输入翻译后的字符串即可。"
+
+#: ../../chapter02.rst:1075
+msgid "Branding"
+msgstr "品牌"
+
+#: ../../chapter02.rst:1077
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Branding``"
+msgstr "``集群管理器`` > ``集群设置`` > ``品牌化``"
+
+#: ../../chapter02.rst:1082
+msgid "ENABLE TENANT BRANDING"
+msgstr "启用租户品牌"
+
+#: ../../chapter02.rst:1085
+msgid "**Don't Show Tutorial Videos**"
+msgstr "**不要显示教程视频**"
+
+#: ../../chapter02.rst:1087
+msgid ""
+"At different places in the web portal, there are tutorial videos. This "
+"setting is to hide those videos, which may have CentreStack references "
+"inside."
+msgstr "在网页门户的不同位置，有教学视频。此设置是为了隐藏这些视频，视频中可能含有CentreStack的参考内容。"
+
+#: ../../chapter02.rst:1090
+msgid "**Enable Tenant Branding**"
+msgstr "**启用租户品牌化**"
+
+#: ../../chapter02.rst:1092
+msgid ""
+"Allow tenants in the system to have their own co-branding on a tenant-by-"
+"tenant basis. The branding can override the default Cluster wide branding"
+" when the solution is accessed via a specific URL. Most of the time, a "
+"wild card SSL certificate is used so the Cluster Server solution can be "
+"binded to different URL's within a common suffix."
+msgstr "允许系统中的租户在每个租户的基础上拥有自己的共同品牌。当通过特定URL访问解决方案时，品牌可以覆盖默认的集群范围品牌。大多数时候，会使用通配符SSL证书，因此集群服务器解决方案可以绑定到具有公共后缀的不同URL。"
+
+#: ../../chapter02.rst:1094
+msgid ""
+"For example \\*.mycompany.com , while tenant1.mycompany.com is for tenant"
+" 1's access."
+msgstr "例如 \*.mycompany.com，而 tenant1.mycompany.com 用于租户1的访问。"
+
+#: ../../chapter02.rst:1098
+msgid "Change Log"
+msgstr "更新日志"
+
+#: ../../chapter02.rst:1100
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``Change Log``"
+msgstr "``集群管理器`` > ``集群设置`` > ``更改日志``"
+
+#: ../../chapter02.rst:1105
+msgid "CHANGE LOG SETTINGS"
+msgstr "更改日志设置"
+
+#: ../../chapter02.rst:1108
+msgid "**Keep file change log for n days**"
+msgstr "**保留文件更改日志 n 天**"
+
+#: ../../chapter02.rst:1110
+msgid "This is a cluster wide retention policy for the file change log."
+msgstr "这是一个针对文件更改日志的集群范围保留策略。"
+
+#: ../../chapter02.rst:1112
+msgid ""
+"The file change log is in the SQL database, for deployments that are "
+"using SQL Express, it has size limitation for the database. In the "
+"deployment guide, there is option to split the file change log into MySQL"
+" database or split it to a different SQL database. This option typically "
+"is used to keep the size of SQL small."
+msgstr "文件更改日志存储在SQL数据库中，对于使用SQL Express的部署，其数据库大小有限制。在部署指南中，有选项可以将文件更改日志分割到MySQL数据库或分割到不同的SQL数据库。这个选项通常用于保持SQL的大小较小。"
+
+#: ../../chapter02.rst:1116
+msgid ""
+"After the Cluster Server is running in production mode for a while, we "
+"recommend reviewing the file change log database table and the file index"
+" table to see how big those tables are."
+msgstr "在集群服务器以生产模式运行一段时间后，我们建议审查文件更改日志数据库表和文件索引表，以了解这些表的大小。"
+
+#: ../../chapter02.rst:1119
+msgid "**Email Address to Receive Cloud Monitor Messages**"
+msgstr "**接收云监控消息的电子邮件地址**"
+
+#: ../../chapter02.rst:1121
+msgid ""
+"From time to time, the cluster monitor service may send an email about "
+"the status and alerts."
+msgstr "不时地，集群监控服务可能会发送有关状态和警报的电子邮件。"
+
+#: ../../chapter02.rst:1124
+msgid "**Logging DB Connection String**"
+msgstr "**记录数据库连接字符串**"
+
+#: ../../chapter02.rst:1126
+msgid ""
+"This is to split the file change log, device table, file index table and "
+"audit trace table out of the main database into a secondary database. The"
+" secondary database can be a Microsoft SQL Server or a MySQL Community "
+"server."
+msgstr "这是为了将文件更改日志、设备表、文件索引表和审计跟踪表从主数据库中分离出来，放到一个辅助数据库中。辅助数据库可以是 Microsoft SQL Server 或者 MySQL Community 服务器。"
+
+#: ../../chapter02.rst:1128
+msgid ""
+"The Cluster Server database is split into the core part and the logging "
+"part. The core part can store the DB connection string that connects to "
+"the secondary database. This setting used to be in the web.config file."
+msgstr "集群服务器数据库被分为核心部分和日志部分。核心部分可以存储连接到辅助数据库的DB连接字符串。这个设置过去在web.config文件中。"
+
+#: ../../chapter02.rst:1131
+msgid "**Logging DB Connection String (Read-only Replica)**"
+msgstr "**日志数据库连接字符串（只读副本）**"
+
+#: ../../chapter02.rst:1135
+msgid "License String"
+msgstr "许可证字符串"
+
+#: ../../chapter02.rst:1137
+msgid "``Cluster Manager`` > ``Cluster Settings`` > ``License String``"
+msgstr "``集群管理器`` > ``集群设置`` > ``许可证字符串``"
+
+#: ../../chapter02.rst:1139
+msgid "**License String** – Reserved."
+msgstr "**许可证字符串** – 保留。"
+
+#: ../../chapter02.rst:1141
+msgid ""
+"This is for Cluster Servers that are isolated from the Internet, can't be"
+" activated online and has to use a license string for offline activation."
+msgstr "这适用于与互联网隔离的集群服务器，无法在线激活，必须使用许可证字符串进行离线激活。"
+
+#: ../../chapter02.rst:1145
+msgid "Anti Virus"
+msgstr "防病毒"
+
+#: ../../chapter02.rst:1147
+msgid "``Cluster Manager`` > ``Anti Virus``"
+msgstr "``集群管理器`` > ``防病毒``"
+
+#: ../../chapter02.rst:1149
+msgid ""
+"You can enable anti-virus protection which will ensure that the files "
+"being uploaded via the Cluster Server are scanned by the selected anti-"
+"virus software."
+msgstr "您可以启用防病毒保护，确保通过集群服务器上传的文件会被选定的防病毒软件扫描。"
+
+#: ../../chapter02.rst:1151
+msgid ""
+"You will first need to obtain the anti-virus service that is independent "
+"from the Cluster Server, and get it directly from the anti-virus vendor. "
+"After that, you can integrate the anti-virus service into the Cluster "
+"Server."
+msgstr "您首先需要获取独立于集群服务器的防病毒服务，并直接从防病毒供应商处获得。之后，您可以将防病毒服务集成到集群服务器中。"
+
+#: ../../chapter02.rst:1157
+msgid "ANTI-VIRUS SETTINGS"
+msgstr "防病毒设置"
+
+#: ../../chapter02.rst:1160
+msgid "Worker Nodes"
+msgstr "工作节点"
+
+#: ../../chapter02.rst:1162
+msgid "``Cluster Manager`` > ``Worker Node``"
+msgstr "``集群管理器`` > ``工作节点``"
+
+#: ../../chapter02.rst:1164
+msgid ""
+"Cluster Server Farm has two types of nodes, one is “Worker Node” and the "
+"other is “Web Nodes”."
+msgstr "集群服务器场有两种类型的节点，一种是“工作节点”，另一种是“Web节点”。"
+
+#: ../../chapter02.rst:1170
+msgid "CLUSTER SERVER FARM NODES"
+msgstr "集群服务器场节点"
+
+#: ../../chapter02.rst:1173
+msgid ""
+"This type of node will contain services like Web Browser Based File "
+"Manager, Storage Service Connectors, and etc. Again, additional nodes can"
+" be added as the load increases. Because there is cache information "
+"located on each node, users will have an affinity to a single node once "
+"it is assigned. If the load balancer distributes users evenly to all "
+"worker nodes, the cache information may exist on all worker nodes."
+msgstr "这种类型的节点将包含诸如基于Web浏览器的文件管理器、存储服务连接器等服务。同样，随着负载的增加，可以添加额外的节点。由于每个节点上都有缓存信息，一旦分配，用户将对单个节点产生亲和力。如果负载均衡器将用户均匀分配到所有工作节点，那么缓存信息可能存在于所有工作节点上。"
+
+#: ../../chapter02.rst:1179
+msgid "SSL NOTICE"
+msgstr "SSL 通知"
+
+#: ../../chapter02.rst:1182
+msgid "**Worker Node Settings**"
+msgstr "**工作节点设置**"
+
+#: ../../chapter02.rst:1184
+msgid ""
+"There are some settings that apply to all worker nodes. After you click "
+"on the \"Settings\" icon, the Advanced Setttings panel will show."
+msgstr "有些设置适用于所有工作节点。点击“设置”图标后，高级设置面板将显示。"
+
+#: ../../chapter02.rst:1189
+msgid "WORKER NODE SETTINGS"
+msgstr "工作节点设置"
+
+#: ../../chapter02.rst:1192
+msgid "**Always force SSL on Login**"
+msgstr "**始终在登录时强制使用SSL**"
+
+#: ../../chapter02.rst:1194
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL on Login”. When this is checked and when "
+"|prodname| detects that the incoming connection is HTTP, it will do a "
+"redirect to HTTPS. If you turn on SSL, you will need to setup SSL "
+"certificate first."
+msgstr "在生产环境中，几乎100%的情况下您需要勾选“登录时始终强制SSL”。当选中此项且 |prodname| 检测到传入连接为HTTP时，它将会重定向到HTTPS。如果您启用了SSL，您需要先设置SSL证书。"
+
+#: ../../chapter02.rst:1196
+msgid ""
+"However, if you have SSL-offload, such that SSL is offloaded to a "
+"hardware appliance, and after that, the incoming connection is HTTP "
+"between the hardware appliance and |prodname|. In this SSL-offload case, "
+"you will NOT check “Always force SSL on Login” because it will create an "
+"infinite redirect loop because the incoming connection is always HTTP as "
+"far as the |prodname| Server is concerned."
+msgstr "然而，如果您有SSL卸载，即SSL卸载到硬件设备上，在硬件设备和 |prodname| 之间的传入连接是HTTP。在这种SSL卸载情况下，您不会勾选“始终强制登录时使用SSL”，因为这会造成无限重定向循环，因为就 |prodname| 服务器而言，传入连接始终是HTTP。"
+
+#: ../../chapter02.rst:1199
+msgid "**Always force SSL for Native Clients**"
+msgstr "**始终为本机客户端强制使用SSL**"
+
+#: ../../chapter02.rst:1201
+#, python-format
+msgid ""
+"In a production environment, almost 100% of the time you will need to "
+"check “Always force SSL for Native Clients”."
+msgstr "在生产环境中，几乎100%的情况下您需要勾选“始终为本地客户端强制使用SSL”。"
+
+#: ../../chapter02.rst:1203
+msgid ""
+"Especially, in the case of SSL-Offload, you MUST check “Always force SSL "
+"for Native Clients”. Otherwise, the |prodname| Server may think that the "
+"incoming connection is HTTP so it will continue to encourage the native "
+"clients (such as Windows client) to use HTTP instead of using HTTPS."
+msgstr "特别是在SSL-Offload的情况下，您必须勾选“始终强制本地客户端使用SSL”。否则，|prodname| 服务器可能会认为传入的连接是HTTP，因此它将继续鼓励本地客户端（例如Windows客户端）使用HTTP而不是使用HTTPS。"
+
+#: ../../chapter02.rst:1207
+msgid ""
+"In iOS devices, the Application Transport Security may be enforced by the"
+" operating system and HTTPS must be used for an iOS Application to "
+"connect to the Cluster Server."
+msgstr "在iOS设备中，操作系统可能会强制执行应用程序传输安全性，iOS应用程序必须使用HTTPS才能连接到集群服务器。"
+
+#: ../../chapter02.rst:1210
+msgid "**Disable worker-node load balance**"
+msgstr "**禁用工作节点负载均衡**"
+
+#: ../../chapter02.rst:1212
+msgid ""
+"When you have your own load balancer, you will disable worker-node load "
+"balancing. The Cluster Server has built-in node-affinity load balancing, "
+"which can be per-tenant or per-user. When you have your own load "
+"balancer, you may have session-affinity or just simple round-robin, "
+"either one is fine."
+msgstr "当您拥有自己的负载均衡器时，您将禁用工作节点负载均衡。集群服务器具有内置的节点亲和性负载均衡，可以是每个租户或每个用户。当您拥有自己的负载均衡器时，您可能有会话亲和性或者只是简单的轮询，两者都可以。"
+
+#: ../../chapter02.rst:1216
+msgid "How to add a worker node?"
+msgstr "如何添加工作节点？"
+
+#: ../../chapter02.rst:1218
+msgid ""
+"You just go ahead to install the Cluster Server during the installation "
+"and point the Cluster Server to the same database. Once the installation "
+"of the Cluster Server worker node is completed, reboot. The web portal "
+"page will pop up, asking you to add the worker node to the server farm."
+msgstr "您只需在安装过程中继续安装集群服务器，并将集群服务器指向同一个数据库。集群服务器工作节点安装完成后，重启。网页门户将会弹出，提示您将工作节点添加到服务器场。"
+
+#: ../../chapter02.rst:1222
+msgid "What if you changed the Cluster Server's Host Name?"
+msgstr "如果您更改了群集服务器的主机名会怎样？"
+
+#: ../../chapter02.rst:1224
+msgid ""
+"For Windows server 2012 and later Server OS, when a server is newly "
+"provisioned, it is typically named in hostname format similar (WIN-"
+"ABCDEFG). Sometimes, it is desired to change the name in the Control "
+"Panel -> Systems. If the Cluster Server is already installed, changing "
+"the name will make the Cluster Server add itself again with the new name."
+" So next time when you visit http://localhost on the Cluster Server after"
+" the server has been renamed, you will see the worker node section has "
+"both the node with the old name (which no longer exists) and the node "
+"with the new name (Which is current and good). In this case, you just "
+"need to simply remove the worker node with the old name."
+msgstr "对于Windows Server 2012及更高版本的服务器操作系统，当一台服务器新配置时，它通常以类似于(WIN-ABCDEFG)的主机名格式命名。有时，用户可能希望在控制面板 -> 系统中更改名称。如果集群服务器已经安装，更改名称将导致集群服务器再次以新名称添加自己。因此，当您在服务器更名后下次访问集群服务器上的http://localhost时，您会看到工作节点部分同时存在旧名称的节点（已不再存在）和新名称的节点（是当前且有效的）。在这种情况下，您只需简单地移除带有旧名称的工作节点即可。"
+
+#: ../../chapter02.rst:1227
+msgid "**Worker Node Properties**"
+msgstr "**工作节点属性**"
+
+#: ../../chapter02.rst:1232
+msgid "WORKER NODE PROPERTIES"
+msgstr "工作节点属性"
+
+#: ../../chapter02.rst:1234
+msgid ""
+"You may need to modify the worker node properties when you setup SSL and "
+"the DNS name for the cluster."
+msgstr "在您为集群设置SSL和DNS名称时，可能需要修改工作节点属性。"
+
+#: ../../chapter02.rst:1237
+msgid "**Node Name**"
+msgstr "**节点名称**"
+
+#: ../../chapter02.rst:1239
+msgid ""
+"The **Node Name** needs to match the worker node's hostname. Sometimes, "
+"if you rename a worker node's Windows hostname (NETBIOS name) after the "
+"Cluster Server installation, upon reboot, the Cluster Server will pop up "
+"a web page, asking you to add the new worker node. In that case, you can "
+"go ahead and add the new worker node and then delete the old worker node."
+msgstr "节点名称（ **Node Name** ）需要与工作节点的主机名相匹配。有时，如果您在安装集群服务器后重命名了工作节点的Windows主机名（NETBIOS名称），重启后，集群服务器会弹出一个网页，提示您添加新的工作节点。在这种情况下，您可以继续添加新的工作节点，然后删除旧的工作节点。"
+
+#: ../../chapter02.rst:1242
+msgid "**External URL**"
+msgstr "**外部URL**"
+
+#: ../../chapter02.rst:1244
+msgid ""
+"The **External URL** needs to match the worker node's external URL. In a "
+"production environment, this typically is in an https:// format with the "
+"node's DNS name."
+msgstr "外部URL需要与工作节点的外部URL匹配。在生产环境中，这通常是以https://格式和节点的DNS名称出现。"
+
+#: ../../chapter02.rst:1246
+msgid ""
+"External URL is a critical property for Email templates. Once the Cluster"
+" Server installation is finished, the dashboard will have a warning "
+"message, 'External DNS has not been configured for this worker node. Some"
+" functionality may not work properly. Config Now'"
+msgstr "外部URL是电子邮件模板的一个关键属性。集群服务器安装完成后，仪表板将出现一个警告消息，'此工作节点尚未配置外部DNS。某些功能可能无法正常工作。立即配置'"
+
+#: ../../chapter02.rst:1248
+msgid ""
+"The moment that you have finalized on the External DNS name of the "
+"Cluster Server, you must come here and configure the ExternalURL property"
+" for the Cluster Server."
+msgstr "在您确定了群集服务器的外部DNS名称的那一刻，您必须来到这里配置群集服务器的ExternalURL属性。"
+
+#: ../../chapter02.rst:1251
+msgid "**Internal URL**"
+msgstr "**内部网址**"
+
+#: ../../chapter02.rst:1253
+msgid ""
+"The **Internal URL** is the node's internal URL, typically in the form of"
+" http://local-ip-address format. In later Cluster Server builds, this "
+"property is hidden and there is no need to set it any more."
+msgstr "内部URL是节点的内部URL，通常以http://local-ip-address格式出现。在后续的集群服务器构建中，此属性被隐藏，无需再进行设置。"
+
+#: ../../chapter02.rst:1255
+msgid "**Disable management functionality**"
+msgstr "**禁用管理功能**"
+
+#: ../../chapter02.rst:1257
+msgid ""
+"You can create an internal facing worker node (that doesn't have an "
+"externalURL) and only allow management functionality on this worker node."
+" This is a security feature."
+msgstr "您可以创建一个内部面向的工作节点（该节点没有externalURL），并且只允许在此工作节点上进行管理功能。这是一项安全功能。"
+
+#: ../../chapter02.rst:1260
+msgid "**Edit Cloud Monitor Setting**"
+msgstr "**编辑云监控设置**"
+
+#: ../../chapter02.rst:1265
+msgid "CLOUD MONITOR SETTINGS"
+msgstr "云监控设置"
+
+#: ../../chapter02.rst:1268
+msgid "**Enable Storage Scan**"
+msgstr "**启用存储扫描**"
+
+#: ../../chapter02.rst:1270
+msgid ""
+"Enables or disables storage scan on the worker node. On the worker node, "
+"there is a cloud monitor service. The service will be doing background "
+"monitoring and make scan storage from time to time to correct quota "
+"calculation and perform other maintenance tasks."
+msgstr "启用或禁用工作节点上的存储扫描。在工作节点上，有一个云监控服务。该服务将进行后台监控，并不时扫描存储以纠正配额计算并执行其他维护任务。"
+
+#: ../../chapter02.rst:1273
+msgid "**Scan Starts Hour**"
+msgstr "**扫描开始时间**"
+
+#: ../../chapter02.rst:1275
+msgid ""
+"Typically you will set the scan start time to sometime in the early "
+"morning like 1AM."
+msgstr "通常，您会将扫描开始时间设置在清晨，例如凌晨1点。"
+
+#: ../../chapter02.rst:1278
+msgid "**Scan End Hour**"
+msgstr "**扫描结束时间**"
+
+#: ../../chapter02.rst:1280
+msgid ""
+"Typically you will set the scan end time to sometime in the morning like "
+"8AM before everyone comes to work. The main idea is to leverage idle time"
+" (when people are not at work) to do the scanning."
+msgstr "通常，您会将扫描结束时间设置在早上某个时间，比如工作前的8点。主要思想是利用闲暇时间（当人们不在工作时）来进行扫描。"
+
+#: ../../chapter02.rst:1283
+msgid "**Scan User Storage Every (n) Days**"
+msgstr "**每隔（n）天扫描用户存储**"
+
+#: ../../chapter02.rst:1285
+msgid ""
+"Typically you can set it to every week or every other week. so a number "
+"between 7 to 15 is reasonable."
+msgstr "通常您可以将其设置为每周或每两周一次。因此，7到15之间的数字是合理的。"
+
+#: ../../chapter02.rst:1288
+msgid "**Enable Change Monitor**"
+msgstr "**启用更改监控**"
+
+#: ../../chapter02.rst:1290
+msgid ""
+"Enable change monitor monitors the attached local storage such as storage"
+" from file server network share and report file change notification to "
+"remotely connected clients. This usually is required if your users are "
+"both modifying documents directly from the backend attached network share"
+" and also from the front end Cluster access clients."
+msgstr "启用变更监控会监视连接的本地存储，例如来自文件服务器网络共享的存储，并向远程连接的客户端报告文件更改通知。如果您的用户既直接从后端连接的网络共享修改文档，也从前端集群访问客户端修改文档，通常需要这样做。"
+
+#: ../../chapter02.rst:1293
+msgid "**Index External Storage**"
+msgstr "**索引外部存储**"
+
+#: ../../chapter02.rst:1295
+msgid ""
+"This setting will index storage services added via the \"Storage "
+"Manager\". The index will be written to the files table in the database."
+msgstr "此设置将索引通过“存储管理器”添加的存储服务。索引将被写入数据库中的文件表。"
+
+#: ../../chapter02.rst:1298
+msgid "**Enable Storage Purge of Deleted User**"
+msgstr "**启用已删除用户的存储清除**"
+
+#: ../../chapter02.rst:1300
+msgid ""
+"When a user is deleted from the system, the user's home directory is not "
+"immediately removed. And a lot of times, you don't want to delete it at "
+"all. For example, a user is deleted from the Cluster Server, but the user"
+" may still continue to use the files and folder directly from the "
+"network."
+msgstr "当一个用户从系统中删除时，用户的主目录不会立即被移除。很多时候，你根本不想删除它。例如，一个用户从集群服务器中被删除，但用户可能仍然继续直接通过网络使用文件和文件夹。"
+
+#: ../../chapter02.rst:1303
+msgid "**Process Background Task**"
+msgstr "**处理后台任务**"
+
+#: ../../chapter02.rst:1305
+msgid "Whether this specific node will process the background task."
+msgstr "此特定节点是否会处理后台任务。"
+
+#: ../../chapter02.rst:1308
+msgid "**Enable Change Monitor for Home Drive**"
+msgstr "**启用家庭驱动器的更改监控**"
+
+#: ../../chapter02.rst:1310
+msgid ""
+"If Active Directory Home Drive integration is on, this will allow the "
+"Cluster Server to monitor the changes on the home drive and notify remote"
+" client agents that the files/folders have changed."
+msgstr "如果启用了Active Directory主目录集成，这将允许集群服务器监控主目录上的更改，并通知远程客户端代理文件/文件夹已更改。"
+
+#: ../../chapter02.rst:1313
+msgid "**Send daily scan email**"
+msgstr "**发送每日扫描邮件**"
+
+#: ../../chapter02.rst:1315
+msgid ""
+"If the storage scan is enabled, a daily scan email will be sent to the "
+"cluster administrator about the result of the scan."
+msgstr "如果启用了存储扫描，集群管理员将会收到一封关于扫描结果的每日扫描电子邮件。"
+
+#: ../../chapter02.rst:1318
+msgid "Web Node"
+msgstr "网页节点"
+
+#: ../../chapter02.rst:1319
+msgid "``Cluster Manager`` > ``Web Node``"
+msgstr "``集群管理器`` > ``Web节点``"
+
+#: ../../chapter02.rst:1322
+msgid ""
+"In a small deployment, there is no need to have web nodes. You can go "
+"straight to worker nodes since worker nodes by defaults are web nodes "
+"too."
+msgstr "在一个小型部署中，没有必要拥有web节点。您可以直接使用工作节点，因为工作节点默认也是web节点。"
+
+#: ../../chapter02.rst:1325
+msgid ""
+"The Account Management, Sign-in and Load-balancing services will be "
+"installed on this physical machine (or virtual machine). Depending on the"
+" load, you may need 1 to N such nodes. Normally, we recommend for every "
+"web front node, you can have 10+ worker nodes. When you have small "
+"deployments, you can skip web front nodes and combine them into worker "
+"nodes. All the installation work is the same. If you do not need web "
+"front node, you do not need to assign them in the cluster manager."
+msgstr "账户管理、登录和负载均衡服务将被安装在这台物理机器（或虚拟机）上。根据负载情况，您可能需要1到N个这样的节点。通常情况下，我们推荐每个Web前端节点可以有10个以上的工作节点。当您有小型部署时，您可以跳过Web前端节点，并将它们合并到工作节点中。所有安装工作都是相同的。如果您不需要Web前端节点，那么在集群管理器中也不需要为它们分配。"
+
+#: ../../chapter02.rst:1330
+msgid "WEB NODE"
+msgstr "WEB 节点"
+
+#: ../../chapter02.rst:1332
+msgid "**Example:**"
+msgstr ""
+
+#: ../../chapter02.rst:1334
+msgid ""
+"ACME Corporation deploys two web front nodes node1.acme.com and "
+"node2.acme.com. Each node is running a copy of the Cluster Server "
+"connecting to the same SQL database."
+msgstr "ACME公司部署了两个web前端节点node1.acme.com和node2.acme.com。每个节点都运行着一个集群服务器的副本，连接到同一个SQL数据库。"
+
+#: ../../chapter02.rst:1336
+msgid ""
+"ACME Corporation acquires a domain name (DNS) of cloud.acme.com which is "
+"load balanced to node1.acme.com and node2.acme.com."
+msgstr "ACME公司获取了一个域名（DNS）cloud.acme.com，它被负载均衡到node1.acme.com和node2.acme.com。"
+
+#: ../../chapter02.rst:1338
+msgid ""
+"When Users point their browsers to https://cloud.acme.com it is directed "
+"to one of the nodes login page."
+msgstr "当用户将浏览器指向 https://cloud.acme.com 时，它会被引导至其中一个节点的登录页面。"
+
+#: ../../chapter02.rst:1342
+msgid ""
+"NOTE 1: If you have hardware load balancing available, you do not need to"
+" use web nodes at all."
+msgstr "注意 1：如果您有硬件负载均衡可用，您根本不需要使用Web节点。"
+
+#: ../../chapter02.rst:1344
+msgid ""
+"NOTE 2: Windows 2012/R2 comes with Network Load Balancing (NLB). If you "
+"use NLB, you do not need web nodes at all."
+msgstr "注意 2：Windows 2012/R2 自带网络负载均衡（NLB）。如果您使用 NLB，您根本不需要网络节点。"
+
+#: ../../chapter02.rst:1346
+msgid "Basically, if you have any existing load balancer, you can omit web nodes."
+msgstr "基本上，如果您有任何现有的负载均衡器，您可以省略Web节点。"
+
+#: ../../chapter02.rst:1349
+msgid "Zones"
+msgstr "区域"
+
+#: ../../chapter02.rst:1351
+msgid "``Cluster Manager`` > ``Zones``"
+msgstr "``集群管理器`` > ``区域``"
+
+#: ../../chapter02.rst:1353
+msgid ""
+"The concept of zone is to associate your worker nodes with the location "
+"of the storage. When you think about zones, you will think about your "
+"storage location first."
+msgstr "区域的概念是将您的工作节点与存储位置关联起来。当您考虑区域时，您首先会想到您的存储位置。"
+
+#: ../../chapter02.rst:1356
+msgid ""
+"For example, I have storage in LA so I have an LA zone. I also have "
+"storage in NY so I have a NY Zone."
+msgstr "例如，我在洛杉矶有存储空间，所以我有一个洛杉矶区域。我在纽约也有存储空间，所以我有一个纽约区域。"
+
+#: ../../chapter02.rst:1358
+msgid ""
+"You can have worker nodes from different zones as well and assign users "
+"to specific zone. If user's home directory is coming from LA zone, the "
+"user will need to be assigned to LA zone."
+msgstr "您可以拥有来自不同区域的工作节点，并将用户分配到特定区域。如果用户的主目录来自LA区域，那么需要将该用户分配到LA区域。"
+
+#: ../../chapter02.rst:1364
+msgid "CONTROL PANEL STORAGE ZONES EDITOR"
+msgstr "控制面板存储区域编辑器"
+
+#: ../../chapter02.rst:1369
+msgid "Default Group Policy"
+msgstr "默认组策略"
+
+#: ../../chapter02.rst:1371
+msgid "``Cluster Manager`` > ``Default Group Policy``"
+msgstr "``集群管理器`` > ``默认组策略``"
+
+#: ../../chapter02.rst:1373
+msgid ""
+"Default group policy can be applied to all tenants in the cluster. "
+"However, if the tenant also defines its own group policy, the tenant "
+"policy can over ride cluster wide default group policy."
+msgstr "默认群组策略可以应用于集群中的所有租户。然而，如果租户也定义了自己的群组策略，租户策略可以覆盖集群范围的默认群组策略。"
+
+#: ../../chapter02.rst:1375
+msgid ""
+"Please reference the ``Group Policy`` in the tenant administrator section"
+" for full list of policy items."
+msgstr "请参考租户管理员部分的 ``组策略`` 以获取策略项目的完整列表。"
+
+#: ../../chapter02.rst:1381
+msgid "GROUP POLICY SETTINGS"
+msgstr "组策略设置"
+

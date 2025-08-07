@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter4.rst:3
+msgid "Different Scope of Users"
+msgstr "Diversi Ambiti degli Utenti"
+
+#: ../../chapter4.rst:7
+msgid "Tenant Administrator"
+msgstr "Amministratore del Tenant"
+
+#: ../../chapter4.rst:9
+msgid ""
+"Tenant is a management scope that typically map to a company or a group "
+"of users that collaborates on a set of documents. In |prodname|, it is "
+"referred to as the Tenant Account as well."
+msgstr "Tenant è un ambito di gestione che di solito corrisponde a un'azienda o a un gruppo di utenti che collaborano su un insieme di documenti. In |prodname|, è anche noto come Account Tenant."
+
+#: ../../chapter4.rst:11
+msgid ""
+"On a per-tenant basis, you can create team users inside the tenant; you "
+"can setup Active Directory connection per-tenant; you can setup team "
+"folder to share among users inside the tenant."
+msgstr "Su base per ogni tenant, è possibile creare utenti del team all'interno del tenant; è possibile configurare la connessione ad Active Directory per ogni tenant; è possibile impostare una cartella di team da condividere tra gli utenti all'interno del tenant."
+
+#: ../../chapter4.rst:13
+msgid ""
+"As a |prodname| administrator, you can think of a tenant as a company, "
+"who is your client/customer, which in turn may have some of its own users"
+" too."
+msgstr "Come amministratore di |prodname|, puoi pensare a un tenant come a un'azienda, che è il tuo cliente, che a sua volta può avere anche alcuni dei propri utenti."
+
+#: ../../chapter4.rst:17
+msgid "Team User"
+msgstr "Utente del Team"
+
+#: ../../chapter4.rst:19
+msgid ""
+"Team user are users inside a tenant scope. They have credentials to login"
+" to |prodname|. They are regular users in a tenant that have home "
+"directory and storage quota assigned. If a tenant is a company, the team "
+"user are employees in the company."
+msgstr "Gli utenti del team sono utenti all'interno di un ambito tenant. Hanno le credenziali per accedere a |prodname|. Sono utenti regolari in un tenant che hanno una directory personale e una quota di archiviazione assegnata. Se un tenant è un'azienda, gli utenti del team sono dipendenti dell'azienda."
+
+#: ../../chapter4.rst:23
+msgid "Delegate Administrator"
+msgstr "Delega Amministratore"
+
+#: ../../chapter4.rst:25
+msgid ""
+"A delegated administrator is a team user most of the time. However, "
+"delegated administrators can be elevated to full tenant administrators by"
+" clicking on the \"Manage Team Cloud\" link. This link is only visible if"
+" you are logged in as a Delegate Administrator. To create this type of "
+"administrator follow these steps as Tenant Admin."
+msgstr "Un amministratore delegato è un utente del team nella maggior parte dei casi. Tuttavia, gli amministratori delegati possono essere promossi a pieni amministratori del tenant cliccando sul link \"Gestisci Team Cloud\". Questo link è visibile solo se si è loggati come Amministratore Delegato. Per creare questo tipo di amministratore segui questi passaggi come Amministratore del Tenant."
+
+#: ../../chapter4.rst:27
+msgid ""
+"Logged in as Tenant Admin, you can delegate administrators through the "
+"Control Panel of the Tenant Dashboard (1)."
+msgstr "Accedendo come Amministratore del Tenant, puoi delegare gli amministratori tramite il Pannello di Controllo della Dashboard del Tenant (1)."
+
+#: ../../chapter4.rst:32
+msgid "TENANT ADMINISTRATORS SETTINGS"
+msgstr "IMPOSTAZIONI DEGLI AMMINISTRATORI DEL TENANT"
+
+#: ../../chapter4.rst:34
+msgid ""
+"In the Tenant Administrators panel you can choose a user you want to add "
+"from the field upon clicking the \"Edit\" option (2). Choose \"Update\" "
+"(3) when finished."
+msgstr "Nel pannello degli Amministratori Tenant puoi scegliere un utente da aggiungere dal campo dopo aver cliccato l'opzione \"Modifica\" (2). Scegli \"Aggiorna\" (3) quando hai terminato."
+
+#: ../../chapter4.rst:36
+msgid ""
+"Tenant administrators can be removed by clearing the field given in the "
+"\"Edit\" option."
+msgstr "Gli amministratori del tenant possono essere rimossi cancellando il campo fornito nell'opzione \"Modifica\"."
+
+#: ../../chapter4.rst:41
+msgid "DELEGATED ADMINISTRATORS"
+msgstr "AMMINISTRATORI DELEGATI"
+
+#: ../../chapter4.rst:43
+msgid ""
+"When a team user (with delegate administrator assignment) logs in, there "
+"will be a \"Manage Team Cloud\" link available (4)."
+msgstr "Quando un utente del team (con incarico di amministratore delegato) effettua l'accesso, sarà disponibile un link \"Gestisci Cloud del Team\" (4)."
+
+#: ../../chapter4.rst:48
+msgid "MANAGE TEAM CLOUD ACCESS"
+msgstr "GESTIRE L'ACCESSO AL CLOUD DEL TEAM"
+
+#: ../../chapter4.rst:50
+msgid ""
+"And when the delegate administrator is finished managing the team cloud, "
+"they can return to their normal File Browser view by clicking \"Return To"
+" My Cloud\" (5)."
+msgstr "E quando l'amministratore delegato ha finito di gestire il cloud del team, può tornare alla sua normale visualizzazione del File Browser cliccando su \"Ritorna al Mio Cloud\" (5)."
+
+#: ../../chapter4.rst:55
+msgid "Guest User"
+msgstr "Utente Ospite"
+
+#: ../../chapter4.rst:57
+msgid ""
+"Guest user are users that have credentials to login to |prodname|, but "
+"these users don't have home directory."
+msgstr "Gli utenti ospiti sono utenti che hanno le credenziali per accedere a |prodname|, ma questi utenti non dispongono di una directory personale."
+
+#: ../../chapter4.rst:60
+msgid "Anonymous User"
+msgstr "Utente Anonimo"
+
+#: ../../chapter4.rst:62
+msgid ""
+"If the public link and anonymous (no login required) sharing is enabled, "
+"users can use a link to come to the web portal and see files and folders "
+"that are shared."
+msgstr "Se il collegamento pubblico e la condivisione anonima (nessun accesso richiesto) sono abilitati, gli utenti possono utilizzare un link per accedere al portale web e visualizzare i file e le cartelle condivisi."
+
+#: ../../chapter4.rst:70
+msgid "PUBLIC LINK"
+msgstr "LINK PUBBLICO"
+

@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../access_upload.rst:2
+msgid "Accessing Folders and Files"
+msgstr "Adgang til mapper og filer"
+
+#: ../../access_upload.rst:5
+msgid ""
+"After logging in, users will see the files and folders they have access "
+"to, as shown on the following screen."
+msgstr "Efter at have logget ind vil brugerne se de filer og mapper, de har adgang til, som vist på følgende skærm."
+
+#: ../../access_upload.rst:9
+msgid ""
+"Tap on a folder to see the files and subfolders it contains. Tapping on "
+"the 3 vertical dots icon for any item will display edit and collaboration"
+" options."
+msgstr "Tryk på en mappe for at se de filer og undermapper, den indeholder. Hvis du trykker på ikonet med de 3 lodrette prikker for et element, vises redigerings- og samarbejdsmuligheder."
+
+#: ../../access_upload.rst:11
+msgid ""
+"Which are **Copy, Cut, Rename, Delete, Share, Share Manager and More "
+"Info**. Detailed explanations are given in later sections."
+msgstr "Hvilke er **Kopier, Klip, Omdøb, Slet, Del, Delingsadministrator og Mere Info**. Detaljerede forklaringer gives i senere afsnit."
+
+#: ../../access_upload.rst:15
+msgid ""
+"Users can also long press to make multiple selection, then copy, cut or "
+"delete on selected folders and files using the icons in the top menu."
+msgstr "Brugere kan også trykke og holde nede for at foretage flere valg, derefter kopiere, klippe eller slette på udvalgte mapper og filer ved hjælp af ikonerne i topmenuen."
+
+#: ../../access_upload.rst:21
+msgid "Top Menu Icons"
+msgstr "Topmenuikoner"
+
+#: ../../access_upload.rst:23
+msgid "Here are the icons of the top menu bar."
+msgstr "Her er ikonerne i den øverste menubjælke."
+
+#: ../../access_upload.rst:28
+msgid "Refresh"
+msgstr "Opdater"
+
+#: ../../access_upload.rst:30
+msgid ""
+"To refresh a screen, swipe down or touch the **Refresh** (1) button in "
+"the top menu, and the screen will be refreshed automatically."
+msgstr "For at opdatere en skærm skal du swipe ned eller røre ved **Opdater** (1) knappen i topmenuen, og skærmen vil blive opdateret automatisk."
+
+#: ../../access_upload.rst:33
+msgid "Show Deleted Folders and Files"
+msgstr "Vis slettede mapper og filer"
+
+#: ../../access_upload.rst:35
+msgid ""
+"Tap on the second icon (2) to switch between **Show Deleted Files** and "
+"**Hide Deleted Files**. The default mode is **Hide Deleted Files**."
+msgstr "Tryk på det andet ikon (2) for at skifte mellem **Vis slettede filer** og **Skjul slettede filer**. Standardtilstanden er **Skjul slettede filer**."
+
+#: ../../access_upload.rst:40
+msgid "Change View Mode"
+msgstr "Skift visningstilstand"
+
+#: ../../access_upload.rst:42
+msgid ""
+"Press the third icon (3) to switch view mode between **List View** and "
+"**Grid View**. The default view mode is **List View**."
+msgstr "Tryk på det tredje ikon (3) for at skifte visningstilstand mellem **Listevisning** og **Gittervisning**. Standardvisningstilstanden er **Listevisning**."
+
+#: ../../access_upload.rst:47
+msgid "Sort Menu"
+msgstr "Sortér menu"
+
+#: ../../access_upload.rst:49
+msgid ""
+"The **Sort Menu** (4) allows user to change the order in which the files "
+"are displayed."
+msgstr "Den **Sortér-menuen** (4) giver brugeren mulighed for at ændre rækkefølgen, som filerne vises i."
+
+#: ../../access_upload.rst:53
+msgid "**Z-A** displays the files in reverse alphabetical order."
+msgstr "**Z-A** viser filerne i omvendt alfabetisk rækkefølge."
+
+#: ../../access_upload.rst:55
+msgid "**A-Z** displays the files in alphabetical order."
+msgstr "**A-Z** viser filerne i alfabetisk rækkefølge."
+
+#: ../../access_upload.rst:57
+msgid ""
+"**Last Modified** displays the files in the order in which they were last"
+" edited."
+msgstr "**Sidst ændret** viser filerne i den rækkefølge, de sidst blev redigeret."
+
+#: ../../access_upload.rst:59
+msgid ""
+"**Oldest** displays the files that were added first at the top of the "
+"file browser."
+msgstr "**Ældste** viser de filer, der blev tilføjet først, øverst i filbrowseren."
+
+#: ../../access_upload.rst:61
+msgid ""
+"**Largest** displays the files in the order that the largest files appear"
+" first."
+msgstr "**Størst** viser filerne i den rækkefølge, hvor de største filer vises først."
+
+#: ../../access_upload.rst:63
+msgid ""
+"**Smallest** displays the files in the order that the smallest files "
+"appear first."
+msgstr "**Mindste** viser filerne i den rækkefølge, hvor de mindste filer kommer først."
+
+#: ../../access_upload.rst:65
+msgid ""
+"**Extension A-Z** displays the files in the alphabetical order of their "
+"extension."
+msgstr "**Extension A-Z** viser filerne i alfabetisk rækkefølge efter deres filtype."
+
+#: ../../access_upload.rst:67
+msgid ""
+"**Extension Z-A** displays the files in the reverse order of the alphabet"
+" by their extension."
+msgstr "**Extension Z-A** viser filerne i omvendt alfabetisk rækkefølge efter deres filtype."
+
+#: ../../access_upload.rst:71
+msgid "Main operations"
+msgstr "Primære operationer"
+
+#: ../../access_upload.rst:73
+msgid ""
+"Tapping on the plus (+) icon will give users several options for the "
+"folder they are in: **Upload Files** (1), **Upload Media** (2), **Take "
+"Photo to Upload or Scan** (3), **Create New Folder** (4) and **Create New"
+" File** (5)."
+msgstr "Ved at trykke på plus (+) ikonet vil brugerne få flere muligheder for den mappe, de befinder sig i: **Upload Filer** (1), **Upload Medier** (2), **Tag Foto til Upload eller Scan** (3), **Opret Ny Mappe** (4) og **Opret Ny Fil** (5)."
+
+#: ../../access_upload.rst:79
+msgid "Upload Files"
+msgstr "Upload filer"
+
+#: ../../access_upload.rst:81
+msgid ""
+"By selecting the **Upload Files** icon, user can add existing files from "
+"the phone storage. It will be redirected to a phone storage screen where "
+"can navigate and select a file to upload."
+msgstr "Ved at vælge ikonet **Upload filer**, kan brugeren tilføje eksisterende filer fra telefonens lager. Det vil blive omdirigeret til en skærm med telefonlager, hvor man kan navigere og vælge en fil til upload."
+
+#: ../../access_upload.rst:83
+msgid ""
+"User can also long press files to multi-select, then press **SELECT** to "
+"complete the upload."
+msgstr "Brugeren kan også trykke længe på filer for at multivælge, og derefter trykke på **VÆLG** for at fuldføre uploadet."
+
+#: ../../access_upload.rst:88
+msgid "Uploading Media"
+msgstr "Upload af medier"
+
+#: ../../access_upload.rst:90
+msgid ""
+"User can directly access media files from the Media apps by selecting the"
+" **Upload Media** icon, and add existing files from those apps."
+msgstr "Brugeren kan direkte få adgang til mediefiler fra Medie-apps ved at vælge ikonet **Upload Media**, og tilføje eksisterende filer fra disse apps."
+
+#: ../../access_upload.rst:95
+msgid "Take Photo to Upload or Scan"
+msgstr "Tag billede for at uploade eller scanne"
+
+#: ../../access_upload.rst:97
+msgid ""
+"User will be prompted for media files permission if CentreStack app have "
+"not previously been granted this permission."
+msgstr "Brugeren vil blive bedt om tilladelse til mediefiler, hvis CentreStack-appen ikke tidligere har fået denne tilladelse."
+
+#: ../../access_upload.rst:102
+msgid "Take Photo to Upload"
+msgstr "Tag billede for at uploade"
+
+#: ../../access_upload.rst:104
+msgid "Take and upload new photo when select the **Camera** (1) icon."
+msgstr "Tag og upload nyt foto, når du vælger **Kamera** (1) ikonet."
+
+#: ../../access_upload.rst:109
+msgid "Take Photo to Scan"
+msgstr "Tag billede for at scanne"
+
+#: ../../access_upload.rst:111
+msgid ""
+"Take a new photo and scan to upload it when tapping on the **Scan** (2) "
+"icon."
+msgstr "Tag et nyt foto og scan for at uploade det, når du trykker på **Scan** (2) ikonet."
+
+#: ../../access_upload.rst:113
+msgid "First, crop the photo to the ideal shape, and touch **NEXT**."
+msgstr "Først beskær billedet til den ideelle form, og tryk på **NÆSTE**."
+
+#: ../../access_upload.rst:117
+msgid ""
+"On the second page, change the color filter applied to the photo. Tap on "
+"**SAVE** to upload the photo."
+msgstr "På den anden side, skift farvefilteret, der er anvendt på billedet. Tryk på **GEM** for at uploade billedet."
+
+#: ../../access_upload.rst:122
+msgid "Create New Folders"
+msgstr "Opret nye mapper"
+
+#: ../../access_upload.rst:124
+msgid ""
+"To create new folders, press the plus (+) icon at the bottom right of the"
+" screen. Then select the **Add Folder** icon."
+msgstr "For at oprette nye mapper skal du trykke på plus (+) ikonet nederst til højre på skærmen. Vælg derefter ikonet **Tilføj mappe**."
+
+#: ../../access_upload.rst:126
+msgid ""
+"After entering the name of the folder and tapping on the **CREATE** "
+"button, a new folder will be created."
+msgstr "Efter indtastning af navnet på mappen og tryk på **OPRET** knappen, vil en ny mappe blive oprettet."
+
+#: ../../access_upload.rst:131
+msgid "Create New Files"
+msgstr "Opret nye filer"
+
+#: ../../access_upload.rst:133
+msgid ""
+"The **New File** icon allows to create a blank new Office file. User can "
+"choose between an Excel, Word, PowerPoint or a Text file."
+msgstr "Ikonen **Ny fil** giver mulighed for at oprette en ny, tom Office-fil. Brugeren kan vælge mellem en Excel-, Word-, PowerPoint- eller en tekstfil."
+
+#: ../../access_upload.rst:137
+msgid ""
+"Choose the type of file and enter the name in the text box. Then touch "
+"**CREATE** to save."
+msgstr "Vælg typen af fil og indtast navnet i tekstboksen. Derefter rør ved **OPRET** for at gemme."
+

@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../manage_edit.rst:2
+msgid "Manage and Edit"
+msgstr "Gérer et Éditer"
+
+#: ../../manage_edit.rst:6
+msgid "Managing Files and Folders"
+msgstr "Gestion des fichiers et dossiers"
+
+#: ../../manage_edit.rst:8
+msgid ""
+"User can tap on a folder to open it for browsing and on a file to preview"
+" it."
+msgstr "L'utilisateur peut appuyer sur un dossier pour l'ouvrir et naviguer, et sur un fichier pour l'apercevoir."
+
+#: ../../manage_edit.rst:10
+msgid ""
+"Various operations can be performed in the menus, in the main list of "
+"files and folders, and in the preview itself."
+msgstr "Diverses opérations peuvent être effectuées dans les menus, dans la liste principale des fichiers et des dossiers, et dans l'aperçu lui-même."
+
+#: ../../manage_edit.rst:14
+msgid "Preview"
+msgstr "Aperçu"
+
+#: ../../manage_edit.rst:16
+msgid ""
+"In the preview there is a 3-dot menu in the lower right corner that "
+"allows to perform some actions for the file."
+msgstr "Dans l'aperçu, il y a un menu à 3 points dans le coin inférieur droit qui permet d'effectuer certaines actions pour le fichier."
+
+#: ../../manage_edit.rst:20
+msgid "**Open** the file in other applications."
+msgstr "**Ouvrez** le fichier dans d'autres applications."
+
+#: ../../manage_edit.rst:22
+msgid "**Download** a copy of the file to a folder on the device."
+msgstr "**Téléchargez** une copie du fichier dans un dossier sur l'appareil."
+
+#: ../../manage_edit.rst:24
+msgid "**Rename** allows to rename the file if user have the permission to do so."
+msgstr "**Renommer** permet de renommer le fichier si l'utilisateur a la permission de le faire."
+
+#: ../../manage_edit.rst:26
+msgid "**Delete** files from the folder if user have the permission."
+msgstr "**Supprimer** les fichiers du dossier si l'utilisateur a la permission."
+
+#: ../../manage_edit.rst:28
+msgid ""
+"**Share** allows to send access information to people with an email "
+"address."
+msgstr "**Partager** permet d'envoyer des informations d'accès aux personnes possédant une adresse e-mail."
+
+#: ../../manage_edit.rst:30
+msgid ""
+"**Share Via** let the user share the file with a third-party application."
+" For example, by email or WhatsApp."
+msgstr "**Partager via** permet à l'utilisateur de partager le fichier avec une application tierce. Par exemple, par e-mail ou WhatsApp."
+
+#: ../../manage_edit.rst:32
+msgid ""
+"**Get Public Link** gives user a link that anyone can use to access the "
+"file."
+msgstr "**Obtenir le lien public** donne à l'utilisateur un lien que tout le monde peut utiliser pour accéder au fichier."
+
+#: ../../manage_edit.rst:34
+msgid ""
+"**Share Manager** gives access to all the shares that exist for the file,"
+" where user can modify, delete, or add new shares."
+msgstr "**Gestionnaire de partage** donne accès à tous les partages existants pour le fichier, où l'utilisateur peut modifier, supprimer ou ajouter de nouveaux partages."
+
+#: ../../manage_edit.rst:37
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../../manage_edit.rst:39
+msgid ""
+"A file can be downloaded using the **Download** option. Select Download "
+"from the context menu to download a file and select a folder from the "
+"phone storage of user's choice."
+msgstr "Un fichier peut être téléchargé en utilisant l'option **Télécharger**. Sélectionnez Télécharger dans le menu contextuel pour télécharger un fichier et sélectionnez un dossier depuis le stockage du téléphone de votre choix."
+
+#: ../../manage_edit.rst:47
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../../manage_edit.rst:49
+msgid ""
+"A file can be deleted using the **Delete** option. Select it from the "
+"context menu to delete a file. Once the file is removed, it is no longer "
+"visible in the cloud drive."
+msgstr "Un fichier peut être supprimé en utilisant l'option **Supprimer**. Sélectionnez-la dans le menu contextuel pour supprimer un fichier. Une fois le fichier retiré, il n'est plus visible dans le lecteur cloud."
+
+#: ../../manage_edit.rst:54
+msgid "Rename"
+msgstr "Renommer"
+
+#: ../../manage_edit.rst:56
+msgid ""
+"User can rename a file or folder using the **Rename** option. When "
+"pressing **Rename**, a field appears where user can enter the new name."
+msgstr "L'utilisateur peut renommer un fichier ou un dossier en utilisant l'option **Renommer**. Lorsqu'on appuie sur **Renommer**, un champ apparaît où l'utilisateur peut saisir le nouveau nom."
+
+#: ../../manage_edit.rst:61
+msgid "Copy and Cut"
+msgstr "Copier et Couper"
+
+#: ../../manage_edit.rst:63
+msgid ""
+"The **Copy** option lets user copy a file and paste it into another "
+"folder of choice. The **Cut** option allows to remove a file from a "
+"certain folder and paste it into another."
+msgstr "L'option **Copier** permet à l'utilisateur de copier un fichier et de le coller dans un autre dossier de son choix. L'option **Couper** permet de retirer un fichier d'un certain dossier et de le coller dans un autre."
+
+#: ../../manage_edit.rst:69
+msgid "More Info"
+msgstr "Plus d'informations"
+
+#: ../../manage_edit.rst:71
+msgid ""
+"The **More Info** option allows to view the details of the file which are"
+" working on or viewing."
+msgstr "L'option **Plus d'infos** permet de voir les détails du fichier sur lequel vous travaillez ou que vous consultez."
+
+#: ../../manage_edit.rst:79
+msgid "Marking As Favorite"
+msgstr "Marquage comme favori"
+
+#: ../../manage_edit.rst:82
+msgid "Adding to Favorite"
+msgstr "Ajout aux Favoris"
+
+#: ../../manage_edit.rst:84
+msgid ""
+"User can add a file to the Favorites by pressing the **Star** icon. When "
+"adding a folder or a file to the Favorites, it will be marked with a "
+"green checkmark and will be accessible offline."
+msgstr "L'utilisateur peut ajouter un fichier aux Favoris en appuyant sur l'icône **Étoile**. Lors de l'ajout d'un dossier ou d'un fichier aux Favoris, il sera marqué d'une coche verte et sera accessible hors ligne."
+
+#: ../../manage_edit.rst:90
+msgid "Open Favorite Files"
+msgstr "Ouvrir les fichiers favoris"
+
+#: ../../manage_edit.rst:92
+msgid ""
+"To open files from offline favorites, tap on the hamburger menu at the "
+"top left and select **Favorites**."
+msgstr "Pour ouvrir des fichiers depuis les favoris hors ligne, appuyez sur le menu hamburger en haut à gauche et sélectionnez **Favoris**."
+
+#: ../../manage_edit.rst:96
+msgid ""
+"In the **Offline Favorites** view, open a file by pressing the 3-dot "
+"button and selecting **Open File Locally**."
+msgstr "Dans la vue **Favoris hors ligne**, ouvrez un fichier en appuyant sur le bouton à 3 points et en sélectionnant **Ouvrir le fichier localement**."
+
+#: ../../manage_edit.rst:100
+msgid ""
+"After selecting the option, a list of applications that can open the file"
+" will be displayed."
+msgstr "Après avoir sélectionné l'option, une liste d'applications pouvant ouvrir le fichier sera affichée."
+
+#: ../../manage_edit.rst:105
+msgid "Remove from Favorite"
+msgstr "Retirer des favoris"
+
+#: ../../manage_edit.rst:107
+msgid ""
+"To remove files from offline favorites, user can touch the yellow "
+"**Star** icon directly in the folders."
+msgstr "Pour retirer des fichiers des favoris hors ligne, l'utilisateur peut toucher l'icône **Étoile** jaune directement dans les dossiers."
+
+#: ../../manage_edit.rst:111
+msgid "Or press the hamburger menu at the top left and select **Favorites**."
+msgstr "Ou appuyez sur le menu hamburger en haut à gauche et sélectionnez **Favoris**."
+
+#: ../../manage_edit.rst:115
+msgid ""
+"In the **Offline Favorites** view, user can remove files by pressing the "
+"3-dot button. Once the file is removed, it is no longer available "
+"offline."
+msgstr "Dans la vue **Favoris hors ligne**, l'utilisateur peut supprimer des fichiers en appuyant sur le bouton à 3 points. Une fois le fichier supprimé, il n'est plus disponible hors ligne."
+

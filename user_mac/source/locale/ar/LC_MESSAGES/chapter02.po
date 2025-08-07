@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "2 Installation"
+msgstr "2 التثبيت"
+
+#: ../../chapter02.rst:5
+msgid "Login to your |prodname| web portal ."
+msgstr "تسجيل الدخول إلى بوابة الويب الخاصة بـ |prodname| ."
+
+#: ../../chapter02.rst:9
+msgid ""
+"Click the **User Icon (1)** then select the **Download Client (2)** "
+"button."
+msgstr "انقر على **أيقونة المستخدم (1)** ثم اختر زر **تحميل العميل (2)**."
+
+#: ../../chapter02.rst:13
+msgid ""
+"You will then see the **\"Download Native Clients\"** page. Choose the "
+"**Installer Package (3)** for your system. Click the Downloads link on "
+"the top-right of the window and double-click on the **Mac Client .dmg "
+"file (4)** to start the Cloud Drive Installer."
+msgstr "سترى بعد ذلك صفحة **\"تحميل العملاء الأصليين\"**. اختر **حزمة التثبيت (3)** المناسبة لنظامك. انقر على رابط التحميلات في أعلى يمين النافذة وانقر مرتين على **ملف Mac Client .dmg (4)** لبدء تثبيت Cloud Drive."
+
+#: ../../chapter02.rst:17
+msgid ""
+"Double click on the **\"Cloud Drive\" volume (1)**. Click **\"Continue\" "
+"(2)**, then **\"Agree\" (3)** to the License Agreement to continue."
+msgstr "انقر نقرًا مزدوجًا على مجلد **\"Cloud Drive\" (1)**. انقر على **\"متابعة\" (2)**، ثم **\"موافق\" (3)** على اتفاقية الترخيص للمتابعة."
+
+#: ../../chapter02.rst:21
+msgid "Select **\"Continue\" (4)**."
+msgstr "اختر **\"متابعة\" (4)**."
+
+#: ../../chapter02.rst:23
+msgid ""
+"Enter username and password for the MAC machine and select **\"Install "
+"Software\"**."
+msgstr "أدخل اسم المستخدم وكلمة المرور لجهاز الماك واختر **\"تثبيت البرنامج\"**."
+
+#: ../../chapter02.rst:27
+msgid "Select 'Continue'."
+msgstr "اختر 'متابعة'."
+
+#: ../../chapter02.rst:29
+msgid ""
+"Once the software is installed, on the MAC machine go to ``Finder`` > "
+"``Applications`` and double click on the **\"Cloud Drive Mac Client\"** "
+"icon."
+msgstr "بمجرد تثبيت البرنامج، على جهاز MAC انتقل إلى ``Finder`` > ``Applications`` وانقر مرتين على أيقونة **\"عميل Cloud Drive لنظام Mac\"**."
+
+#: ../../chapter02.rst:31
+msgid ""
+"Login to the Cloud Drive using your |prodname| \"User Name\" and "
+"\"Password\". Ensure that the Access point is set to the proper domain or"
+" IP address. and click **\"Login\"**. These credentials will authorize "
+"your Cloud Drive Client and connect it to your |prodname| user account."
+msgstr "تسجيل الدخول إلى القرص السحابي باستخدام \"اسم المستخدم\" و\"كلمة المرور\" الخاصين بـ |prodname|. تأكد من ضبط نقطة الوصول على النطاق أو عنوان IP الصحيح، وانقر على **\"تسجيل الدخول\"**. ستُخول هذه البيانات عميل القرص السحابي الخاص بك وتربطه بحساب المستخدم الخاص بك في |prodname|."
+
+#: ../../chapter02.rst:35
+msgid ""
+"Once you have logged in, you can see the Cloud drive as a mounted Volume "
+"in the Finder."
+msgstr "بمجرد تسجيل الدخول، يمكنك رؤية القرص السحابي كمجلد مركب في Finder."
+
+#: ../../chapter02.rst:39
+msgid ""
+"The cloud drive icon  will appear on the MAC machine's  main screen. You "
+"can also double click on the icon to access the cloud drive."
+msgstr "سيظهر رمز القرص السحابي على الشاشة الرئيسية لجهاز الماك. يمكنك أيضًا النقر مرتين على الرمز للوصول إلى القرص السحابي."
+
+#: ../../chapter02.rst:46
+msgid "Primary Use Cases"
+msgstr "الاستخدامات الأساسية"
+
+#: ../../chapter02.rst:48
+msgid "Collaborative access to the Cloud Drive"
+msgstr "الوصول التعاوني إلى القرص السحابي"
+
+#: ../../chapter02.rst:50
+msgid ""
+"The Drive based random access is one of the primary way of accessing "
+"files and folders in the cloud drive."
+msgstr "إن الوصول العشوائي المعتمد على القرص هو أحد الطرق الأساسية للوصول إلى الملفات والمجلدات في القرص السحابي."
+
+#: ../../chapter02.rst:52
+msgid "Syncing local folders to the Cloud Drive for remote access"
+msgstr "مزامنة المجلدات المحلية مع القرص السحابي للوصول عن بعد"
+
+#: ../../chapter02.rst:54
+msgid ""
+"Another primary use case is users want to continue to work in a local "
+"folder, and then attach that folder to the |prodname| account so the "
+"content of the folder (or folders) will be synchronized in a 2-way "
+"fashion between the local Mac folder and the remote |prodname| folder."
+msgstr "حالة استخدام أساسية أخرى هي رغبة المستخدمين في الاستمرار بالعمل داخل مجلد محلي، ثم ربط ذلك المجلد بحساب |prodname| حتى يتم مزامنة محتوى المجلد (أو المجلدات) بطريقة ثنائية الاتجاه بين المجلد المحلي على جهاز Mac والمجلد البعيد في |prodname|."
+
+#: ../../chapter02.rst:56
+msgid ""
+"After the installation is completed, a system tray icon will appear that "
+"allows you to open your |prodname| Drive."
+msgstr "بعد اكتمال التثبيت، ستظهر أيقونة في منطقة الإشعارات تتيح لك فتح محرك الأقراص |prodname| الخاص بك."
+
+#: ../../chapter02.rst:60
+msgid ""
+"you can access the managemnt console for |prodname| Drive and you can "
+"also perform a quick check of your system status."
+msgstr "يمكنك الوصول إلى وحدة التحكم الإدارية لـ |prodname| Drive ويمكنك أيضًا إجراء فحص سريع لحالة نظامك."
+

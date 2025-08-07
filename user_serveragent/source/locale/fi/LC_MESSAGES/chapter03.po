@@ -1,0 +1,1317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Administration and Configuration"
+msgstr "3 Hallinto ja konfigurointi"
+
+#: ../../chapter03.rst:6
+msgid ""
+"|prodname| File Server Agent runs as a Windows Service in the background."
+" Since it is a background service, it always runs regardless of the users"
+" logging into the server."
+msgstr "|prodname| Tiedostopalvelimen agentti toimii taustapalveluna Windows-palvelussa. Koska se on taustapalvelu, se on aina käynnissä riippumatta siitä, kirjautuvatko käyttäjät palvelimeen."
+
+#: ../../chapter03.rst:8
+msgid ""
+"The administration of the File Server Agent is done via a Windows "
+"application (the Cloud Server Console). Most of the time, the Cloud "
+"Server Console will launch into the web browser based administration "
+"console."
+msgstr "File Server Agentin hallinta tapahtuu Windows-sovelluksen kautta (Cloud Server Console). Suurimman osan ajasta Cloud Server Console avautuu web-pohjaiseen hallintakonsoliin."
+
+#: ../../chapter03.rst:10
+msgid ""
+"There are two consoles, one on the Web Portal and the other one runs "
+"natively on a local machine. The one on the Web Portal is for general "
+"administration such as managing settings. The native console is for "
+"advanced troubleshooting such as collecting audit traces."
+msgstr "On olemassa kaksi konsolia, yksi Web-portaalissa ja toinen toimii natiivisti paikallisella koneella. Web-portaalissa oleva on yleistä hallintaa varten, kuten asetusten hallintaa. Natiivi konsoli on tarkoitettu edistyneeseen vianmääritykseen, kuten auditointijälkien keräämiseen."
+
+#: ../../chapter03.rst:12
+msgid ""
+"You need to log into the Windows server's console to use the |prodname| "
+"Server Agent Management Console for administration-related tasks. If you "
+"manage the Windows Server from remote locations, you can use Remote "
+"Desktop, or other remote control tools to access to the Windows server "
+"before you start the |prodname| Server Agent Management Console."
+msgstr "Sinun on kirjauduttava Windows-palvelimen konsoliin käyttääksesi |prodname| Server Agent Management Consolea hallintatehtäviin. Jos hallinnoit Windows-palvelinta etäältä, voit käyttää Remote Desktopia tai muita etähallintatyökaluja päästäksesi Windows-palvelimeen ennen kuin aloitat |prodname| Server Agent Management Consolen."
+
+#: ../../chapter03.rst:17
+msgid "3.1 File Server Agent Components"
+msgstr "3.1 Tiedostopalvelimen agenttikomponentit"
+
+#: ../../chapter03.rst:19
+msgid "There are 3 windows services and 1 windows Application"
+msgstr "Kolme Windows-palvelua ja yksi Windows-sovellus"
+
+#: ../../chapter03.rst:21
+msgid "Cloud Access Service (gladgroupsvc.exe) - This is the main sync service"
+msgstr "Pilvipalvelun käyttöoikeuspalvelu (gladgroupsvc.exe) - Tämä on pääsynkronointipalvelu"
+
+#: ../../chapter03.rst:23
+msgid ""
+"File Monitor Service (GladFileMonSvc) - This is responsible for Server "
+"Agent auto upgrade"
+msgstr "Tiedostovalvontapalvelu (GladFileMonSvc) - Tämä vastaa palvelimen agentin automaattisesta päivityksestä"
+
+#: ../../chapter03.rst:25
+msgid ""
+"File System Mounter (gladrmountsvc) - This is mount the Cloud File System"
+" for the Gateway mode"
+msgstr "Tiedostojärjestelmän kiinnitysohjelma (gladrmountsvc) - Tämä kiinnittää pilvitiedostojärjestelmän yhdyskäytävän tilaa varten"
+
+#: ../../chapter03.rst:27
+msgid ""
+"Management Console (GtaskMMC.exe) - This is responsible talking to the "
+"background servicer and provide management feedback"
+msgstr "Hallintakonsoli (GtaskMMC.exe) - Tämä vastaa taustapalvelimen kanssa kommunikoinnista ja tarjoaa hallinnollista palautetta"
+
+#: ../../chapter03.rst:31
+msgid ""
+"If GtaskMMC.exe is run with /runlocal /server command line parameter, it "
+"will launch into the local native management console. Otherwise the "
+"/server flag alone will launch the web based console."
+msgstr "Jos GtaskMMC.exe ajetaan /runlocal /server-komentoriviparametrin kanssa, se käynnistää paikallisen natiivin hallintakonsolin. Muussa tapauksessa pelkkä /server-lippu käynnistää web-pohjaisen konsolin."
+
+#: ../../chapter03.rst:36
+msgid "GLADINET CLOUD ACCESS (GCA) SERVICE"
+msgstr "GLADINETIN PILVIPALVELUN KÄYTTÖÖNOTTO (GCA)"
+
+#: ../../chapter03.rst:38
+msgid ""
+"By default the File Server Agent background windows service runs as a "
+"local system account."
+msgstr "Oletusarvoisesti File Server Agent -taustapalvelu toimii paikallisena järjestelmätilinä."
+
+#: ../../chapter03.rst:43
+msgid "GCA LOCAL SYSTEM ACCOUNT SERVICE"
+msgstr "GCA PAIKALLINEN JÄRJESTELMÄTILIN PALVELU"
+
+#: ../../chapter03.rst:48
+msgid ""
+"Sometimes the LOCAL SYSTEM account doesn't have permission for the "
+"folders it wants to sync. In this case, the Log-on-as account for the "
+"Cloud Access Service (GladGroupSvc.exe) needs to be changed to a service "
+"account that has full control (read, write, delete, list) permission to "
+"the folder that it wants to sync."
+msgstr "Joskus PAIKALLISELLA JÄRJESTELMÄTILILLÄ ei ole oikeuksia kansioihin, joita sen halutaan synkronoivan. Tässä tapauksessa Pilvipalvelun käyttöoikeustilin (GladGroupSvc.exe) tulee vaihtaa palvelutiliksi, jolla on täydet hallinta-oikeudet (luku, kirjoitus, poisto, listaus) kansioon, jota halutaan synkronoida."
+
+#: ../../chapter03.rst:50
+msgid ""
+"In an Active Directory environment, this normally can be changed to a "
+"Domain Admin Service Account."
+msgstr "Aktiivihakemistoympäristössä tämä voidaan yleensä vaihtaa Domain Admin -palvelutiliksi."
+
+#: ../../chapter03.rst:55
+msgid "3.2 Cloud Server Console - Web View"
+msgstr "3.2 Pilvipalvelimen hallintakonsoli - Web-näkymä"
+
+#: ../../chapter03.rst:57
+msgid ""
+"|prodname| Cloud Server Console will launch automatically after the "
+"reboot using the Tenant Admin credentials that were used to install the "
+"software."
+msgstr "|prodname| Pilvipalvelimen hallintakonsoli käynnistyy automaattisesti uudelleenkäynnistyksen jälkeen käyttäen asennuksessa käytettyjä Tenant Admin -käyttäjätietoja."
+
+#: ../../chapter03.rst:61
+msgid ""
+"File Server Agent is tied to each Tenant, so the Tenant Admin's "
+"credential shall be used to link the File Server Agent to a specific "
+"Tenant."
+msgstr "Tiedostopalvelimen agentti on kytketty kuhunkin vuokraajaan, joten vuokraajan pääkäyttäjän tunnistetiedot tulee käyttää kytkettäessä tiedostopalvelimen agentti tiettyyn vuokraajaan."
+
+#: ../../chapter03.rst:63
+msgid ""
+"The cluster admin is also the Tenant Admin for the very first Tenant in "
+"the |prodname| system so by default it is a Tenant Admin as well."
+msgstr "Klusterialla on myös ensimmäisen Tenantin Tenant Admin |prodname| järjestelmässä, joten oletusarvoisesti se on myös Tenant Admin."
+
+#: ../../chapter03.rst:67
+msgid ""
+"File Server agent is managed at Tenant level (not per-user level, nor "
+"cluster-level either)"
+msgstr "Tiedostopalvelimen agentti hallitaan tenant-tasolla (ei käyttäjäkohtaisesti, eikä klusteritasolla)"
+
+#: ../../chapter03.rst:70
+msgid "|prodname| Cloud Server Management Console Login:"
+msgstr "|prodname| Pilvipalvelimen hallintakonsolin kirjautuminen:"
+
+#: ../../chapter03.rst:75
+msgid "MANAGEMENT CONSOLE LOGIN"
+msgstr "HALLINTAKONSOLIN KIRJAUTUMINEN"
+
+#: ../../chapter03.rst:77
+msgid ""
+"|prodname| Cloud Server Management Console can also be launched from "
+"Windows Start Programs Menu:"
+msgstr "|prodname| Pilvipalvelimen hallintakonsoli voidaan käynnistää myös Windowsin Käynnistä-valikon ohjelmista:"
+
+#: ../../chapter03.rst:79
+msgid "Launch the Console from the Start Menu."
+msgstr "Käynnistä Konsoli Käynnistä-valikosta."
+
+#: ../../chapter03.rst:84
+msgid "LAUNCH THE CONSOLE"
+msgstr "KÄYNNISTÄ KONSOLI"
+
+#: ../../chapter03.rst:86
+msgid ""
+"After launch, you see several options and tabs at the top of the view, "
+"Device Info is shown below."
+msgstr "Käynnistyksen jälkeen näet useita vaihtoehtoja ja välilehtiä näkymän yläosassa, alla näkyy Laiteinfo."
+
+#: ../../chapter03.rst:91 ../../chapter03.rst:109
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE INFO"
+msgstr "ASIAKKAANHALLINTAKONSOLI - LAITETIEDOT"
+
+#: ../../chapter03.rst:93
+msgid "You can click on the left tab in the console to see more management items."
+msgstr "Voit napsauttaa konsolin vasemmassa välilehdessä nähdäksesi lisää hallintakohteita."
+
+#: ../../chapter03.rst:98
+msgid "ACCESSING THE CONSOLE MENU"
+msgstr "KONSOLIVALIKON KÄYTTÖ"
+
+#: ../../chapter03.rst:102
+msgid "3.2.1 Device Info"
+msgstr "3.2.1 Laitetiedot"
+
+#: ../../chapter03.rst:104
+msgid ""
+"The default web console view is the device information panel. It shows "
+"the basic device information such as device name, device operating "
+"system, device version and etc."
+msgstr "Oletusarvoinen web-konsolin näkymä on laitetietopaneeli. Se näyttää peruslaitetiedot, kuten laitenimi, laitteen käyttöjärjestelmä, laiteversio ja niin edelleen."
+
+#: ../../chapter03.rst:112
+msgid ""
+"**Monitor Device Connect Status** - The device may get disconnected from "
+"the Internet for whatever reason, including but not limited to Internet "
+"outage, software crash, background service not running and etc. If the "
+"device is not connected to generate a healthy heart beat connection to "
+"the |prodname| server side software, this setting will generate an email "
+"alert if the device is not actively connected to the tenant acacount. "
+"When this alert is received, it needs to be investigated at high priority"
+" because it will lead to synchronization break-down."
+msgstr "**Seuraa laitteen yhteystilaa** - Laite voi menettää yhteyden Internetiin monista syistä, mukaan lukien mutta ei rajoittuen Internet-katkoksiin, ohjelmiston kaatumiseen, taustapalvelun toimimattomuuteen ja niin edelleen. Jos laite ei ole yhteydessä luodakseen terveellisen sydämen syke -yhteyden |prodname| palvelinohjelmistoon, tämä asetus luo sähköpostihälytyksen, jos laite ei ole aktiivisesti yhteydessä vuokraajatiliin. Kun tämä hälytys vastaanotetaan, se on tutkittava korkealla prioriteetilla, koska se johtaa synkronoinnin katkeamiseen."
+
+#: ../../chapter03.rst:120
+msgid "3.2.2 CIFS Shares"
+msgstr "3.2.2 CIFS-osakkeet"
+
+#: ../../chapter03.rst:122
+msgid ""
+"CIFS (Common Internet File System) shares refers to Windows Network "
+"Shares that are available on the File Server Agent machine. CIFS shares "
+"or SMB (Server Message Block) shares are used interchangably here."
+msgstr "CIFS (Common Internet File System) -osuudet viittaavat Windows-verkkojakoihin, jotka ovat saatavilla File Server Agent -koneessa. CIFS-osuuksia tai SMB (Server Message Block) -osuuksia käytetään tässä vaihtokelpoisesti."
+
+#: ../../chapter03.rst:127
+msgid "CIFS SHARES"
+msgstr "CIFS-JAKOT"
+
+#: ../../chapter03.rst:129
+msgid ""
+"You can start migrating file server network shares from the current "
+"machine to |prodname|."
+msgstr "Voit aloittaa tiedostopalvelimen verkkolevyjen siirtämisen nykyisestä koneesta |prodname|."
+
+#: ../../chapter03.rst:133
+msgid ""
+"Migration means setup two-way synchronization between the local folder "
+"and the remote |prodname| Server. It is a hybrid cloud configuration "
+"started by default. Over time, you may want to stop the local folder and "
+"go cloud only. That is reserved for future if you select to do so. Out of"
+" the box it is setup as a two-way synchronization folder for each CIFS "
+"share selected."
+msgstr "Migraatio tarkoittaa kaksisuuntaisen synkronoinnin asettamista paikallisen kansion ja etäisen |prodname| Serverin välille. Se on oletuksena käynnistyvä hybridipilvikonfiguraatio. Ajan myötä saatat haluta lopettaa paikallisen kansion käytön ja siirtyä pelkästään pilveen. Tämä on varattu tulevaisuutta varten, jos päätät niin tehdä. Oletusarvoisesti se on asetettu kaksisuuntaiseksi synkronointikansioksi jokaiselle valitulle CIFS-jaolle."
+
+#: ../../chapter03.rst:139
+msgid "MIGRATE A SHARE"
+msgstr "SIIRRÄ JAKO"
+
+#: ../../chapter03.rst:143
+msgid ""
+"The net result of migration is that you can access the files and folders "
+"from both the local file server and also the |prodname| side. Files "
+"changes on both side will synchronize to the other side. It is a hybrid "
+"local/cloud mode. Also when migration works on CIFS share (network "
+"share), optionally the local folder's NTFS permission can be replicated "
+"and synchronized to cloud side, while the local Active Directory users "
+"can be synchronized to cloud side."
+msgstr "Migraation lopputuloksena voit käyttää tiedostoja ja kansioita sekä paikalliselta tiedostopalvelimelta että myös |prodname| puolelta. Tiedostojen muutokset molemmilla puolilla synkronoidaan toiselle puolelle. Se on hybridi paikallinen/pilvi-tila. Lisäksi kun migraatio toimii CIFS-jaossa (verkkojaossa), paikallisen kansion NTFS-oikeudet voidaan valinnaisesti kopioida ja synkronoida pilvipuolelle, samalla kun paikalliset Active Directory -käyttäjät voidaan synkronoida pilvipuolelle."
+
+#: ../../chapter03.rst:148
+msgid "Migrate"
+msgstr "Siirrä"
+
+#: ../../chapter03.rst:150
+msgid ""
+"Clicking on the migrate link button will start the migration process on a"
+" specific network share. Normally when the File Server Agent and the "
+"|prodname| Server are on two completely different locations, the "
+"**\"Direct Access\"** option will not be shown. The **\"Two Way Sync\"** "
+"will be the only option."
+msgstr "Napsauttamalla siirtolinkkipainiketta käynnistetään siirtoprosessi tietyssä verkkoresurssissa. Yleensä kun Tiedostopalvelimen Agentti ja |prodname| Palvelin ovat kahdessa täysin eri sijainnissa, **\"Suora pääsy\"** -vaihtoehtoa ei näytetä. Ainoa vaihtoehto on **\"Kaksisuuntainen synkronointi\"**."
+
+#: ../../chapter03.rst:155
+msgid "MIGRATION OF DATA AND PERMISSIONS"
+msgstr "TIETOJEN JA OIKEUKSIEN SIIRTO"
+
+#: ../../chapter03.rst:159
+msgid "3.2.3 Attached Folders"
+msgstr "3.2.3 Liitetyt kansiot"
+
+#: ../../chapter03.rst:162
+msgid "How to Attach a Folder"
+msgstr "Kuinka liittää kansio"
+
+#: ../../chapter03.rst:164
+msgid ""
+"Attached folders, are folders on the local machine and can be "
+"synchronized to |prodname| and kept synchronized in a bi-directional way."
+msgstr "Liitetyt kansiot ovat paikallisen koneen kansioita, ja ne voidaan synkronoida |prodname|-palveluun ja pitää synkronoituna kaksisuuntaisesti."
+
+#: ../../chapter03.rst:166
+msgid ""
+"The Attached Folder section allows you to browse into the machine's file "
+"structure and pick a folder to synchronize. In the Console drop-down "
+"menu, select **\"Attached Folders\"**."
+msgstr "Liitetty kansio -osio mahdollistaa sinun selaamisen koneen tiedostorakenteeseen ja valita kansion synkronoitavaksi. Konsoli-pudotusvalikosta valitse **\"Liitetyt Kansiot\"**."
+
+#: ../../chapter03.rst:171
+msgid "ATTACHED FOLDERS"
+msgstr "LIITETYT KANSIOT"
+
+#: ../../chapter03.rst:173
+msgid "In the new view click the Attach Folder icon."
+msgstr "Uudessa näkymässä klikkaa Liitä kansio -kuvaketta."
+
+#: ../../chapter03.rst:178
+msgid "ATTACH FOLDER BUTTON"
+msgstr "LIITÄ KANSIO -PAINIKE"
+
+#: ../../chapter03.rst:181
+msgid ""
+"In the folder selection view **(1)**, double click the drive **(2)** and "
+"navigate to the folder you wish to share. When you choose a folder, its "
+"path will appear in the Location field **(3)** and you should enter a "
+"name for your share in the Name field **(4)**. Click **\"ATTACH\"** to "
+"complete the process."
+msgstr "Kansioiden valintanäkymässä **(1)**, kaksoisnapsauta asemaa **(2)** ja siirry kansioon, jonka haluat jakaa. Kun valitset kansion, sen polku näkyy Sijainti-kentässä **(3)** ja sinun tulee syöttää jaettavalle kansiolle nimi Nimi-kenttään **(4)**. Napsauta **\"LIITÄ\"** prosessin päättämiseksi."
+
+#: ../../chapter03.rst:186
+msgid "ATTACHING A FOLDER"
+msgstr "KANSION LIITTÄMINEN"
+
+#: ../../chapter03.rst:189
+msgid "Filter Button"
+msgstr "Suodatinnappi"
+
+#: ../../chapter03.rst:191
+msgid ""
+"Using the Filter Button **(1)**, you can set some of your folders to be "
+"excluded from being synchronized. To accomplish this, after you click the"
+" **Filter** button, click the **(+)** button **(2)** and explore to a "
+"folder you wish to exclude. In this example, it is a sub-folder **(3)** "
+"of the **SA Share** folder."
+msgstr "Suodattimen painikkeen **(1)** avulla voit asettaa joitakin kansioitasi poissuljettaviksi synkronoinnista. Tämän toteuttamiseksi, kun napsautat **Suodatin**-painiketta, klikkaa **(+)**-painiketta **(2)** ja selaa kansioon, jonka haluat jättää pois. Tässä esimerkissä se on alikansio **(3)** **SA Share** -kansiosta."
+
+#: ../../chapter03.rst:196
+msgid "FILTER BUTTON"
+msgstr "SUODATINPAINIKE"
+
+#: ../../chapter03.rst:199
+msgid "Diagnostic Button"
+msgstr "Diagnostiikkapainike"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Diagnostic Button **(2)** can be used to **\"Compare\"** the cloud "
+"folder and the local network folder to determine if the y are the same. "
+"This is important to make sure that the local folder has been completely "
+"mirrored to the cloud."
+msgstr "Diagnostiikkapainiketta **(2)** voidaan käyttää **\"Vertailemaan\"** pilvikansiota ja paikallista verkkokansiota, jotta voidaan määrittää, ovatko ne samat. Tämä on tärkeää varmistaa, että paikallinen kansio on täysin peilattu pilveen."
+
+#: ../../chapter03.rst:206
+msgid "DIAGNOSTIC BUTTON"
+msgstr "DIAGNOSTIIKKAPAINIKE"
+
+#: ../../chapter03.rst:210
+msgid "Stop-Sync Button"
+msgstr "Pysäytä-synkronointi -painike"
+
+#: ../../chapter03.rst:212
+msgid ""
+"The Stop-Sync Button can be used to stop the synchronization between the "
+"folder from the Server Agent and the attached folder in the cloud. This "
+"is something you might want to do when all the users are accessing the "
+"folder from the cloud and no longer need local network access to the "
+"original folder. After the stop-sync, the local file changes are local "
+"changes, not related to cloud; and vise-versa, the file changes in the "
+"cloud will not be related to the local files, they are just two separate "
+"independent entities."
+msgstr "Stop-Sync-painiketta voidaan käyttää synkronoinnin pysäyttämiseen Server Agentin kansiosta ja pilveen liitetystä kansiosta. Tämä voi olla tarpeellista, kun kaikki käyttäjät käyttävät kansiota pilvestä eivätkä enää tarvitse paikallisverkon pääsyä alkuperäiseen kansioon. Synkronoinnin pysäyttämisen jälkeen paikalliset tiedostomuutokset ovat paikallisia muutoksia, eivät liity pilveen; ja päinvastoin, tiedostomuutokset pilvessä eivät liity paikallisiin tiedostoihin, ne ovat vain kaksi erillistä itsenäistä kokonaisuutta."
+
+#: ../../chapter03.rst:217
+msgid ""
+"Stop-Sync is different from detach a previously attached folder. When a "
+"folder is detached, not only it stop-sync, but also the cloud side folder"
+" will be hidden and subject to retention policy for purge in the near "
+"future. So if your use case is to continue to use the files and folders "
+"from the cloud side and cloud side only, you want to do a stop-sync "
+"instead of doing a detach-folder."
+msgstr "Stop-Sync eroaa kansion irrottamisesta, joka on aiemmin liitetty. Kun kansio irrotetaan, se ei ainoastaan lopeta synkronointia, vaan myös pilvipuolen kansio piilotetaan ja se on alisteinen säilytyskäytännölle poistoa varten lähitulevaisuudessa. Joten jos käyttötapauksesi on jatkaa tiedostojen ja kansioiden käyttöä vain pilvipuolelta, haluat tehdä stop-syncin detach-folderin sijaan."
+
+#: ../../chapter03.rst:227
+msgid "STOP-SYNC BUTTON"
+msgstr "LOPETA-SYNKRONOINTI-PAINIKE"
+
+#: ../../chapter03.rst:232
+msgid ""
+"What is the difference between Import a CIFS Share and attach a folder to"
+" |prodname|?"
+msgstr "Mikä on ero CIFS-osuuden tuomisen ja kansion liittämisen välillä |prodname|?"
+
+#: ../../chapter03.rst:234
+msgid ""
+"First of all, both maintain bi-directional synchronization. The key "
+"difference is \"Import CIFS Share\" will also import folder permission to"
+" |prodname|, while Attached Folder only synchronize folders without "
+"synchronize permissions."
+msgstr "Ensinnäkin molemmat ylläpitävät kaksisuuntaista synkronointia. Keskeinen ero on siinä, että \"Tuo CIFS-jako\" tuo myös kansioiden käyttöoikeudet |prodname|-palveluun, kun taas Liitetty kansio synkronoi vain kansiot ilman käyttöoikeuksien synkronointia."
+
+#: ../../chapter03.rst:236
+msgid "Under the hood, both are **\"Attached Folders\"**."
+msgstr "Taustalla molemmat ovat **\"Liitetyt Kansiot\"**."
+
+#: ../../chapter03.rst:238
+msgid "\"Import CIFS Share\" = \"Attached Folder\" + \"Sync NTFS Permission\""
+msgstr "\"Tuo CIFS-jako\" = \"Liitetty kansio\" + \"Synkronoi NTFS-oikeudet\""
+
+#: ../../chapter03.rst:242 ../../chapter03.rst:600
+msgid "Offline Folders"
+msgstr "Offline-kansiot"
+
+#: ../../chapter03.rst:244
+msgid ""
+"You can mark folders as offline. Offline folders will be pre-fetched to "
+"the local machine. Files changed remotely in the offline folders will "
+"also be pre-fetched to local machine."
+msgstr "Voit merkitä kansioita offline-tilaan. Offline-kansiot noudetaan ennakkoon paikalliselle koneelle. Etäältä muutetut tiedostot offline-kansioissa noudetaan myös ennakkoon paikalliselle koneelle."
+
+#: ../../chapter03.rst:246
+msgid ""
+"To access this feature, click the **\"Offline Folders\"** icon **(1)**. "
+"Then click he **(+)** icon **(2)** on the right side of the Offline "
+"Folders screen. In the explorer, navigate to the folder you wish to "
+"\"Offline\" and select it **(3)**. Then click **\"ENABLE OFFLINE "
+"ACCESS\"** **(4)** to complete the process."
+msgstr "Tämän toiminnon käyttämiseksi napsauta **\"Offline-kansiot\"** -kuvaketta **(1)**. Sen jälkeen napsauta **(+)** -kuvaketta **(2)** Offline-kansioiden näytön oikealla puolella. Etsi Resurssienhallinnassa kansio, jonka haluat ottaa \"Offline\"-käyttöön ja valitse se **(3)**. Lopuksi napsauta **\"OTA OFFLINE-KÄYTTÖ KÄYTTÖÖN\"** **(4)** prosessin viimeistelemiseksi."
+
+#: ../../chapter03.rst:251
+msgid "CHOOSING A FOLDER FOR OFFLINE ACCESS"
+msgstr "KANSION VALITSEMINEN OFFLINE-KÄYTTÖÄ VARTEN"
+
+#: ../../chapter03.rst:255
+msgid "When to use offline folder?"
+msgstr "Milloin käyttää offline-kansiota?"
+
+#: ../../chapter03.rst:257
+msgid ""
+"When you have files and folders that you use frequently, you want to keep"
+" them local to the local file server, you can enable offline folder."
+msgstr "Kun sinulla on tiedostoja ja kansioita, joita käytät usein, ja haluat pitää ne paikallisena paikallisella tiedostopalvelimella, voit ottaa käyttöön offline-kansion."
+
+#: ../../chapter03.rst:260
+#, python-format
+msgid ""
+"Usually you use the offline folder for the gateway mode. When you use "
+"\"Migrate CIFS share\" or when you use \"Attach Folder\", the files and "
+"folders by default are local so there is no need to enable offline folder"
+" for this use case since files are 100% off-line from attached folders."
+msgstr "Yleensä käytät offline-kansiota yhdyskäytävätilassa. Kun käytät \"Siirrä CIFS-jakoa\" tai kun käytät \"Liitä kansio\", tiedostot ja kansiot ovat oletusarvoisesti paikallisia, joten tässä tapauksessa ei ole tarvetta ottaa offline-kansiota käyttöön, koska tiedostot ovat 100% offline-tilassa liitetyistä kansioista."
+
+#: ../../chapter03.rst:266
+msgid "Local File Lock"
+msgstr "Paikallinen tiedoston lukitus"
+
+#: ../../chapter03.rst:268
+msgid "Local File Lock section will show locked files from the local file server."
+msgstr "Paikallinen tiedoston lukitus -osio näyttää paikalliselta tiedonpalvelimelta lukitut tiedostot."
+
+#: ../../chapter03.rst:273 ../../chapter03.rst:284
+msgid "LOCKED FILES"
+msgstr "LUKITTUJA TIEDOSTOJA"
+
+#: ../../chapter03.rst:277
+msgid "Locked Files"
+msgstr "Lukitut tiedostot"
+
+#: ../../chapter03.rst:279
+msgid ""
+"Locked files section will show locked files from the |prodname| Server, "
+"and provides information about who owns the file that is locked. "
+"Information shown includes: File Owner, File Path, Locked From, Type and "
+"Locked Time."
+msgstr "Lukittujen tiedostojen osio näyttää lukitut tiedostot |prodname| palvelimelta ja tarjoaa tietoa siitä, kuka omistaa lukitun tiedoston. Näytettäviä tietoja ovat: Tiedoston omistaja, Tiedostopolku, Lukittu paikasta, Tyyppi ja Lukitusaika."
+
+#: ../../chapter03.rst:288
+msgid "Pending Check-ins"
+msgstr "Odottavat sisäänkirjaukset"
+
+#: ../../chapter03.rst:290
+msgid ""
+"Pending check-ins will show files that are manually checked out from the "
+"local machine but haven't checked-in yet."
+msgstr "Odottavat sisäänkirjaukset näyttävät tiedostot, jotka on manuaalisesti uloskirjattu paikalliselta koneelta, mutta joita ei ole vielä kirjattu sisään."
+
+#: ../../chapter03.rst:295
+msgid "PENDING CHECK-INS"
+msgstr "ODOTTAVAT SISÄÄNKIRJAUTUMISET"
+
+#: ../../chapter03.rst:299
+msgid "3.2.4 Settings"
+msgstr "3.2.4 Asetukset"
+
+#: ../../chapter03.rst:301
+msgid ""
+"Settings Manager section will show client settings that can be changed "
+"and managed from the web console."
+msgstr "Asetusten hallinta -osio näyttää asiakasasetukset, joita voidaan muuttaa ja hallita web-konsolista."
+
+#: ../../chapter03.rst:306
+msgid "SETTINGS MANAGER"
+msgstr "ASETUSTENHALLINTA"
+
+#: ../../chapter03.rst:310
+msgid "3.2.5 Task Manager"
+msgstr "3.2.5 Tehtävienhallinta"
+
+#: ../../chapter03.rst:312
+msgid ""
+"Task Manager section will show the synchronization tasks that are running"
+" on the local machine. If there is a number on **\"Pending Tasks\"** or "
+"**\"Failed Tasks\"** you can click the text links next to those numbers "
+"to open a window that shows the tasks currently in progress. There are "
+"**\"PAUSE\"** and **\"START\"** buttons available on the left side of "
+"each of the task bars as well."
+msgstr "Tehtävienhallinnan osio näyttää paikallisella koneella käynnissä olevat synkronointitehtävät. Jos **\"Odottavat tehtävät\"** tai **\"Epäonnistuneet tehtävät\"** -kohdassa on numero, voit klikata näiden numeroiden vieressä olevia tekstilinkkejä avataksesi ikkunan, joka näyttää parhaillaan käynnissä olevat tehtävät. Kunkin tehtäväpalkin vasemmalla puolella on myös **\"TAUKO\"**- ja **\"KÄYNNISTÄ\"**-painikkeet."
+
+#: ../../chapter03.rst:317
+msgid "TASK MANAGER"
+msgstr "TEHTÄVIENHALLINTA"
+
+#: ../../chapter03.rst:321
+msgid "3.2.6 Migrate CIFS SHARES"
+msgstr "3.2.6 Siirrä CIFS-JAKOJA"
+
+#: ../../chapter03.rst:323
+msgid ""
+"Migrate CIFS Shares can be accessed from the Console menu or the "
+"**\"MIGRATE CIFS SHARES\"** text link. You can pick a network share on "
+"the local server and synchronize it to the cluster server. As explained "
+"above, this is how you migrate a folder and its NTFS permissions at the "
+"same time."
+msgstr "Siirrä CIFS-osakkeita voidaan käyttää Konsoli-valikosta tai **\"SIIRRÄ CIFS-OSAKKEITA\"** tekstilinkistä. Voit valita verkkoresurssin paikalliselta palvelimelta ja synkronoida sen klusteripalvelimelle. Kuten yllä selitettiin, näin siirrät kansion ja sen NTFS-oikeudet samanaikaisesti."
+
+#: ../../chapter03.rst:328
+msgid "MIGRATE CIFS SHARES"
+msgstr "SIIRRÄ CIFS-JAKOJA"
+
+#: ../../chapter03.rst:332
+msgid "3.2.7 Migrate Users"
+msgstr "3.2.7 Siirrä käyttäjiä"
+
+#: ../../chapter03.rst:334
+msgid ""
+"Migrate users can import Active Directory users or local users to the "
+"|prodname| side as cloud users, while maintaining the same credentials as"
+" the local user."
+msgstr "Migrate-käyttäjät voivat tuoda Active Directory -käyttäjiä tai paikallisia käyttäjiä |prodname| puolelle pilvikäyttäjinä, säilyttäen samalla paikallisen käyttäjän tunnistetiedot."
+
+#: ../../chapter03.rst:339
+msgid "MIGRATE USERS"
+msgstr "SIIRRÄ KÄYTTÄJIÄ"
+
+#: ../../chapter03.rst:344
+msgid "3.3 Cloud Server Console - Native"
+msgstr "3.3 Pilvipalvelimen konsoli - Natiivi"
+
+#: ../../chapter03.rst:346
+msgid ""
+"You can launch the native management console from the program's "
+"installation folder. From the Command Prompt use the following command, "
+"``C:\\\\Program Files\\\\Gladinet\\\\Cloud Server Agent>gtaskmmc "
+"/runlocal /server``"
+msgstr "Voit käynnistää natiivin hallintakonsolin ohjelman asennuskansiosta. Komentoriviltä käytä seuraavaa komentoa, ``C:\Program Files\Gladinet\Cloud Server Agent>gtaskmmc /runlocal /server``"
+
+#: ../../chapter03.rst:351
+msgid "LAUNCHING THE NATIVE MANAGEMENT CONSOLE"
+msgstr "KÄYNNISTETÄÄN NATIIVI HALLINTAKONSOLI"
+
+#: ../../chapter03.rst:353
+msgid ""
+"Once you have logged in the Native Console will open. This gives you "
+"local access to Server Agent settings."
+msgstr "Kun olet kirjautunut sisään, Native Console avautuu. Tämä antaa sinulle paikallisen pääsyn Server Agent -asetuksiin."
+
+#: ../../chapter03.rst:358
+msgid "NATIVE MANAGEMENT CONSOLE"
+msgstr "NATIIVINEN HALLINTAKONSOLI"
+
+#: ../../chapter03.rst:362
+msgid "3.3.1 Task Manager"
+msgstr "3.3.1 Tehtävienhallinta"
+
+#: ../../chapter03.rst:364
+msgid "Task Manager shows all the system related tasks."
+msgstr "Tehtävienhallinta näyttää kaikki järjestelmään liittyvät tehtävät."
+
+#: ../../chapter03.rst:366
+msgid "You can also use the **\"Open My Cloud\"** link to access the Login Panel."
+msgstr "Voit myös käyttää **\"Open My Cloud\"** -linkkiä päästäksesi kirjautumispaneeliin."
+
+#: ../../chapter03.rst:368
+msgid ""
+"Each of the Task Manager sections below include a series of tabs that "
+"include the following:"
+msgstr "Tehtävienhallinnan alla olevat osiot sisältävät seuraavat välilehdet:"
+
+#: ../../chapter03.rst:370
+msgid "**'Summary'**"
+msgstr "**'Yhteenveto'**"
+
+#: ../../chapter03.rst:372
+msgid ""
+"This tab shows a summary of all the **\"System Update Tasks\"**. It shows"
+" the **\"Task Type\"** where the type is the name of the task. It shows "
+"the 'Status' as **\"Pending\"** which means that the **\"System Update "
+"Task\"** is always looking for changes and is always in **\"Pending\"** "
+"state in case there are any updates that needs to occur."
+msgstr "Tämä välilehti näyttää yhteenvedon kaikista **\"Järjestelmäpäivitystehtävistä\"**. Se näyttää **\"Tehtävän Tyypin\"**, jossa tyyppi on tehtävän nimi. Se näyttää 'Tilan' **\"Odottaa\"**, mikä tarkoittaa, että **\"Järjestelmäpäivitystehtävä\"** on aina muutosten varalta ja on aina **\"Odottaa\"**-tilassa, jos päivityksiä tarvitsee suorittaa."
+
+#: ../../chapter03.rst:374
+msgid "Summary also shows the following:"
+msgstr "Yhteenveto näyttää myös seuraavaa:"
+
+#: ../../chapter03.rst:376
+msgid "**'Last Run Time'**"
+msgstr "**'Viimeinen suoritusaika'**"
+
+#: ../../chapter03.rst:378
+msgid ""
+"This shows the time when the Server Agent software last detected the "
+"changes on the local file system and ran to update the files in the "
+"cloud."
+msgstr "Tämä näyttää ajan, jolloin Server Agent -ohjelmisto viimeksi havaitsi muutokset paikallisessa tiedostojärjestelmässä ja suoritti päivityksen pilvessä oleviin tiedostoihin."
+
+#: ../../chapter03.rst:380
+msgid "**'Next Start Time'**"
+msgstr "**'Seuraava aloitusaika'**"
+
+#: ../../chapter03.rst:382
+msgid ""
+"This shows the time when the **\"Update Task\"** will run next. The "
+"counter increments every 15 seconds. The software will run the update "
+"tasks right away. You can also use the **\"Pause\"** option to stop the "
+"update Administrator can force the updates by clicking on **\"Start "
+"Now\"** option in which case the task from updating local changes to the "
+"cloud. **\"Delete Task\"** option allows to delete any tasks for which "
+"updates are not desired. **\"Refresh\"** will refresh all the counters on"
+" the 'Summary' tab."
+msgstr "Tämä näyttää ajan, jolloin **\"Päivitystehtävä\"** suoritetaan seuraavan kerran. Laskuri kasvaa joka 15. sekunti. Ohjelmisto suorittaa päivitystehtävät heti. Voit myös käyttää **\"Tauko\"**-vaihtoehtoa pysäyttääksesi päivityksen. Ylläpitäjä voi pakottaa päivitykset klikkaamalla **\"Aloita nyt\"** -vaihtoehtoa, jolloin tehtävä päivittää paikalliset muutokset pilveen. **\"Poista tehtävä\"** -vaihtoehto mahdollistaa minkä tahansa tehtävän poistamisen, joiden päivityksiä ei haluta. **\"Päivitä\"** päivittää kaikki laskurit 'Yhteenveto'-välilehdellä."
+
+#: ../../chapter03.rst:384
+msgid "**'Completed Subtasks'**"
+msgstr "**'Valmiit alitehtävät'**"
+
+#: ../../chapter03.rst:386
+msgid "This shows the number of upload subtasks that have been completed."
+msgstr "Tämä näyttää valmistuneiden latauksen alitehtävien määrän."
+
+#: ../../chapter03.rst:388
+msgid "**'Running Subtasks'**"
+msgstr "**'Käynnissä olevat alitehtävät'**"
+
+#: ../../chapter03.rst:390
+msgid ""
+"This shows how many subtasks are currently running. (See Tab for more "
+"info)"
+msgstr "Tämä näyttää, kuinka monta alitehtävää on parhaillaan käynnissä. (Katso lisätietoja välilehdeltä)"
+
+#: ../../chapter03.rst:392
+msgid "**'Pending Subtasks'**"
+msgstr "**'Odottavat alitehtävät'**"
+
+#: ../../chapter03.rst:394
+msgid ""
+"This shows the subtasks which are in pending state and waiting for their "
+"turn to get uploaded to the cloud. (See Tab for more info)"
+msgstr "Tämä näyttää alitehtävät, jotka ovat odottavassa tilassa ja odottavat vuoroaan päästäkseen pilveen. (Katso lisätietoja välilehdeltä)"
+
+#: ../../chapter03.rst:396
+msgid "**'Pending Retry Subtasks'**"
+msgstr "**'Odottavat uudelleenyritystehtävät'**"
+
+#: ../../chapter03.rst:398
+msgid ""
+"This shows the number of any tasks which are pending retry meaning for "
+"some reason the changes for some files were not uploaded to the cloud and"
+" hence they are in the **\"Pending Retry Subtasks\"** queue and as soon "
+"as their turn comes the changes for files in **\"Pending Retry "
+"Subtasks**\" will also be uploaded to the cloud. (See Tab for more info)"
+msgstr "Tämä näyttää määrän tehtäviä, jotka ovat uudelleenyrityksen odotustilassa, mikä tarkoittaa, että jostain syystä joitakin tiedostoja ei ole ladattu pilveen, ja siksi ne ovat **\"Uudelleenyrityksen odottavat alitehtävät\"** -jonossa ja heti kun niiden vuoro tulee, myös **\"Uudelleenyrityksen odottavat alitehtävät**\" -jonossa olevien tiedostojen muutokset ladataan pilveen. (Katso välilehti lisätietoja varten)"
+
+#: ../../chapter03.rst:400
+msgid "**'Trace'**"
+msgstr "**'Jäljitä'**"
+
+#: ../../chapter03.rst:402
+msgid "This tab provides trace information about tasks. (See Tab for more info)"
+msgstr "Tämä välilehti tarjoaa jäljitietoja tehtävistä. (Katso lisätietoja välilehdeltä)"
+
+#: ../../chapter03.rst:408
+msgid "SYSTEM SYNC TASK - TRACE"
+msgstr "JÄRJESTELMÄN SYNKRONOINTITEHTÄVÄ - JÄLJITYS"
+
+#: ../../chapter03.rst:410
+msgid ""
+"The **\"Trace\"** tab in the **\"System Sync Task\"** lists all the "
+"uploading, downloading, and monitoring tasks."
+msgstr "Välilehti **\"Jäljitä\"** **\"Järjestelmän synkronointitehtävässä\"** listaa kaikki lataus-, lataus- ja valvontatehtävät."
+
+#: ../../chapter03.rst:413
+msgid "System Related Tasks"
+msgstr "Järjestelmään liittyvät tehtävät"
+
+#: ../../chapter03.rst:418
+msgid "SYSTEM RELATED TASKS"
+msgstr "JÄRJESTELMÄÄN LIITTYVÄT TEHTÄVÄT"
+
+#: ../../chapter03.rst:421
+msgid "System Sync Task"
+msgstr "Järjestelmän synkronointitehtävä"
+
+#: ../../chapter03.rst:426
+msgid "SYSTEM SYNC TASK"
+msgstr "JÄRJESTELMÄN SYNKRONOINTITEHTÄVÄ"
+
+#: ../../chapter03.rst:428
+msgid ""
+"It is the master sync task and its job is to keep an eye on both local "
+"file changes and file changes that are done in the cloud. This is the "
+"task which triggers the **\"System Update Task\"** or the **\"System Sync"
+" Down Task\"**."
+msgstr "Se on pääsynkronointitehtävä, jonka tehtävänä on tarkkailla sekä paikallisia tiedostomuutoksia että pilvessä tehtyjä tiedostomuutoksia. Tämä on tehtävä, joka käynnistää **\"Järjestelmäpäivitystehtävän\"** tai **\"Järjestelmän synkronointitehtävän alas\"**."
+
+#: ../../chapter03.rst:431
+msgid "System Sync Down Task"
+msgstr "Järjestelmän synkronointitehtävä alas"
+
+#: ../../chapter03.rst:436
+msgid "SYSTEM SYNC DOWN TASK"
+msgstr "JÄRJESTELMÄN SYNKRONOINNIN ALASAJOTEHTÄVÄ"
+
+#: ../../chapter03.rst:438
+msgid ""
+"It performs the exact same tasks as the **\"System Update Task\"** but "
+"its job is to ensure that the changes that are done to the files in the "
+"cloud are automatically synced down to the file server. The **\"System "
+"Update Task\"** and the **\"System Sync Down Task\"** are what provides "
+"the mirroring or two-way sync between the local files on the cloud server"
+" and the files in the cloud."
+msgstr "Se suorittaa täsmälleen samat tehtävät kuin **\"Järjestelmäpäivitystehtävä\"**, mutta sen tehtävänä on varmistaa, että pilvessä tehtyihin tiedostoihin tehdyt muutokset synkronoidaan automaattisesti alas tiedostopalvelimelle. **\"Järjestelmäpäivitystehtävä\"** ja **\"Järjestelmän synkronointitehtävä alaspäin\"** ovat ne, jotka tarjoavat peilaamisen tai kaksisuuntaisen synkronoinnin paikallisten tiedostojen välillä pilvipalvelimella ja pilvessä olevien tiedostojen välillä."
+
+#: ../../chapter03.rst:441
+msgid "System Update Task"
+msgstr "Järjestelmän päivitystehtävä"
+
+#: ../../chapter03.rst:446
+msgid "SYSTEM UPDATE TASK"
+msgstr "JÄRJESTELMÄN PÄIVITYSTEHTÄVÄ"
+
+#: ../../chapter03.rst:448
+msgid ""
+"It shows all system related update tasks. Server Agent software checks "
+"the local file system every 15 seconds and when it notices the changes to"
+" the files, the changed files will be added to the upload queue. The real"
+" upload time depends on how big the upload queue is and if there is only "
+"one file with the changes, the changes to the file will be uploaded to "
+"the cloud in 15 seconds."
+msgstr "Se näyttää kaikki järjestelmään liittyvät päivitystehtävät. Server Agent -ohjelmisto tarkistaa paikallisen tiedostojärjestelmän joka 15. sekunti ja kun se huomaa muutoksia tiedostoissa, muuttuneet tiedostot lisätään latausjonoon. Todellinen latausaika riippuu latausjonon koosta ja jos jonossa on vain yksi muuttunut tiedosto, tiedoston muutokset ladataan pilveen 15 sekunnissa."
+
+#: ../../chapter03.rst:451
+msgid "Edit Account Information"
+msgstr "Muokkaa tilin tietoja"
+
+#: ../../chapter03.rst:456
+msgid "EDIT ACCOUNT INFORMATION"
+msgstr "MUOKKAA TILITIETOJA"
+
+#: ../../chapter03.rst:458
+msgid ""
+"This link at the bottom allows you to **Login with different "
+"credentials** to launch the Cloud Server Console and perform management "
+"related tasks."
+msgstr "Tämä linkki alhaalla mahdollistaa sinun **Kirjautua eri tunnuksilla** käynnistääksesi Pilvipalvelimen Hallintakonsolin ja suorittaaksesi hallintaan liittyviä tehtäviä."
+
+#: ../../chapter03.rst:462
+msgid "3.3.2 File Server"
+msgstr "3.3.2 Tiedostopalvelin"
+
+#: ../../chapter03.rst:467
+msgid "FILE SERVER"
+msgstr "TIEDOSTOPALVELIN"
+
+#: ../../chapter03.rst:469
+msgid ""
+"**\"File Server\"** shows all the data that have been uploaded to the "
+"cloud and the files and folder structure. It lists folder structure which"
+" includes sub-folders as well. The local folders that are attached either"
+" from the file server or a user's machine have the machine name in "
+"parenthesis."
+msgstr "**\"Tiedostopalvelin\"** näyttää kaikki pilveen ladatut tiedot sekä tiedostot ja kansioiden rakenteen. Se listaa kansion rakenteen, joka sisältää myös alikansiot. Paikalliset kansiot, jotka on liitetty joko tiedostopalvelimesta tai käyttäjän koneelta, sisältävät koneen nimen suluissa."
+
+#: ../../chapter03.rst:471
+msgid ""
+"An Administrator can create a new sub-folder below selected node or can "
+"attach additional local folders using the **\"Attach Local Folder\"** "
+"option under **\"Actions\"**. Attaching a local folder to |prodname| "
+"Cloud using the **\"Attach Local Folder\"** option allows immediate "
+"access to the local content from anywhere using any device. **\"Attached "
+"Local Folder\"** will be synchronized upwards to the cloud first and also"
+" the changes in the cloud will be sync down to the local file server."
+msgstr "Ylläpitäjä voi luoda uuden alikansion valitun solmun alle tai liittää lisää paikallisia kansioita käyttämällä **\"Liitä paikallinen kansio\"** -vaihtoehtoa **\"Toiminnot\"**-valikossa. Paikallisen kansion liittäminen |prodname| Pilveen **\"Liitä paikallinen kansio\"** -vaihtoehdolla mahdollistaa välittömän pääsyn paikalliseen sisältöön mistä tahansa laitteella. **\"Liitetty paikallinen kansio\"** synkronoidaan ensin ylöspäin pilveen ja myös pilvessä tapahtuvat muutokset synkronoidaan alas paikalliselle tiedostopalvelimelle."
+
+#: ../../chapter03.rst:473
+msgid ""
+"Administrator can also highlight an existing cloud folder and create new "
+"sub-folders underneath that highlighted folder."
+msgstr "Ylläpitäjä voi myös korostaa olemassa olevaa pilvikansiota ja luoda uusia alikansioita kyseisen korostetun kansion alle."
+
+#: ../../chapter03.rst:476
+msgid ""
+"The two-way synchronization feature of the **\"Attach Local Folder\"** "
+"only applies to local folders such as those on the C: drive, D: drive and"
+" local hard drives in general. It won't work for network share. The two-"
+"way synchronization depends on the local file system's event change "
+"notification about files and folders. These changes will be detected and "
+"synchronization will happen based on the changes."
+msgstr "Kaksisuuntaisen synkronoinnin ominaisuus **\"Liitä paikallinen kansio\"** koskee vain paikallisia kansioita, kuten niitä C: asemassa, D: asemassa ja yleensä paikallisilla kiintolevyillä. Se ei toimi verkkolevyillä. Kaksisuuntainen synkronointi riippuu paikallisen tiedostojärjestelmän tapahtumamuutoksen ilmoituksesta tiedostoista ja kansioista. Nämä muutokset havaitaan ja synkronointi tapahtuu muutosten perusteella."
+
+#: ../../chapter03.rst:478
+msgid ""
+"An administrator can also manage the folder using Web Portal by using the"
+" **\"Manage\"** option. This will allow an admin to convert any folders "
+"that have been attached to the cloud or are in the cloud to convert them "
+"into **\"Team Folders\"** for collaboration etc. Highlight the folder and"
+" select **\"Manage\"** under **\"Actions\"**."
+msgstr "Ylläpitäjä voi hallita kansiota myös Web Portalin kautta käyttämällä **\"Hallitse\"**-vaihtoehtoa. Tämä mahdollistaa ylläpitäjän muuntaa mitä tahansa pilveen liitettyjä tai pilvessä olevia kansioita **\"Tiimikansioiksi\"** yhteistyötä varten jne. Valitse kansio ja valitse **\"Hallitse\"** kohdasta **\"Toiminnot\"**."
+
+#: ../../chapter03.rst:483
+msgid "FILE SERVER - MANAGE FOLDER IN WEB PORTAL"
+msgstr "TIEDOSTOPALVELIN - KANSION HALLINTA WEB-PORTAALISSA"
+
+#: ../../chapter03.rst:485
+msgid ""
+"In the Manage Folder view, you must add collaborators to make this a team"
+" folder. The pop-up lets you choose a source for your users/groups; "
+"either Existing User/Group or AD."
+msgstr "Hallintakansion näkymässä sinun on lisättävä yhteistyökumppaneita, jotta tästä tulee tiimikansio. Ponnahdusikkuna antaa sinun valita käyttäjiesi/ryhmiesi lähteen; joko Olemassa oleva käyttäjä/ryhmä tai AD."
+
+#: ../../chapter03.rst:490
+msgid "ADDING COLLABORATION"
+msgstr "LISÄTÄÄN YHTEISTYÖTÄ"
+
+#: ../../chapter03.rst:496
+msgid "ACCESS TEAM FOLDER SETTINGS"
+msgstr "PÄÄSY TIIMIKANSION ASETUKSIIN"
+
+#: ../../chapter03.rst:499
+msgid ""
+"Once you have added your users/groups, click the Disk icon to save your "
+"changes. Click the Settings tab to modify settings for this share."
+msgstr "Kun olet lisännyt käyttäjäsi/ryhmäsi, napsauta Levyn kuvaketta tallentaaksesi muutoksesi. Napsauta Asetukset-välilehteä muokataksesi tämän jaon asetuksia."
+
+#: ../../chapter03.rst:501
+msgid ""
+"In the Settings tab view, you can modify the settings for this share "
+"including: Basic Settings, Permissions, Secure Data Room, IP White List "
+"and Quota and Retention Policy. Under the **(+)** Settings sub-menu you "
+"have access to: Disable further sharing, Create CIFS Share and Disable "
+"Offline Access options."
+msgstr "Asetukset-välilehden näkymässä voit muokata tämän jaon asetuksia, mukaan lukien: Perusasetukset, Käyttöoikeudet, Turvallinen datatila, IP-sallittujen listan sekä Kiintiö- ja säilytyskäytännöt. **(+)** Asetukset-alavalikosta pääset käsiksi seuraaviin toimintoihin: Jaa edelleen -toiminnon poistaminen käytöstä, Luo CIFS-jako ja Poista offline-käyttö käytöstä."
+
+#: ../../chapter03.rst:506
+msgid "TEAM FOLDER SETTINGS"
+msgstr "TIIMIKANSION ASETUKSET"
+
+#: ../../chapter03.rst:508
+msgid ""
+"That diversion shows you how you can create, access and modify folders "
+"and settings from within the Web Portal of |prodname|. Now we return back"
+" to the File Server section of the Server Console in Server Agent. "
+"**\"Enable Background Prefetch\" (1)** makes the contents of the selected"
+" folder available offline."
+msgstr "Tuo ohjaus näyttää, kuinka voit luoda, käyttää ja muokata kansioita ja asetuksia |prodname|:n Web-portaalin kautta. Nyt palaamme takaisin palvelimen konsolin Tiedostopalvelin-osioon Server Agentissa. **\"Ota taustan esihaku käyttöön\" (1)** tekee valitun kansion sisällön saataville offline-tilassa."
+
+#: ../../chapter03.rst:513 ../../chapter03.rst:520
+msgid "FOLDER ACTIONS"
+msgstr "KANSIOTOIMINNOT"
+
+#: ../../chapter03.rst:515
+msgid ""
+"**\"Delete\"** does not remove the content of the folder from local "
+"storage; however, it does detach the selected folder and its contents "
+"from the cloud. If you go to the Web Portal and re-create a folder with "
+"exactly the same name (including the machine's name and the parenthesis),"
+" the folder can be shown with a cloud-only context without any local "
+"machine relationship."
+msgstr "**\"Poista\"** ei poista kansion sisältöä paikallisesta tallennustilasta; se kuitenkin irrottaa valitun kansion ja sen sisällön pilvestä. Jos menet web-portaaliin ja luot uudelleen kansion täsmälleen samalla nimellä (mukaan lukien koneen nimi ja sulkeet), kansion voi näyttää pilviyhteydessä ilman paikallisen koneen suhdetta."
+
+#: ../../chapter03.rst:523
+msgid ""
+"**\"Attach a Folder to Backup\"** (see above) allows an administrator to "
+"attach and two-way synchronize a local folder to the cloud. The default "
+"view shows all the \"Attached-Folders\" on the local machine that are "
+"attached to the cloud. To add a folder click the browse icon **(...)** "
+"and search for a folder to sync to the cloud."
+msgstr "**\"Liitä kansio varmuuskopiointiin\"** (katso yllä) mahdollistaa ylläpitäjän liittää ja kaksisuuntaisesti synkronoida paikallisen kansion pilveen. Oletusnäkymä näyttää kaikki paikalliskoneen \"Liitetyt-Kansiot\", jotka on liitetty pilveen. Lisätäksesi kansion, napsauta selauspainiketta **(...)** ja etsi kansio, jonka haluat synkronoida pilveen."
+
+#: ../../chapter03.rst:528
+msgid "ATTACH LOCAL FOLDER"
+msgstr "LIITÄ PAIKALLINEN KANSIO"
+
+#: ../../chapter03.rst:530
+msgid ""
+"Once a folder is attached, you can take advantage of one of the Folder "
+"Actions **\"Manage\"** that allows you to quickly open a Web Portal to "
+"edit Sharing and Collaboration settings for the folder."
+msgstr "Kun kansio on liitetty, voit hyödyntää yhtä kansioon liitetyistä toiminnoista **\"Hallitse\"**, joka mahdollistaa nopean Web-portaalin avaamisen muokataksesi kansion jakamis- ja yhteistyöasetuksia."
+
+#: ../../chapter03.rst:535
+msgid "MANAGE FOLDER FROM WEB PORTAL"
+msgstr "HALLINNOI KANSIOITA VERKKOPORTAALIN KAUTTA"
+
+#: ../../chapter03.rst:540
+msgid "SELECT SHARING AND COLLABORATION"
+msgstr "VALITSE JAKAMINEN JA YHTEISTYÖ"
+
+#: ../../chapter03.rst:544
+msgid "3.3.3 Attach/Backup"
+msgstr "3.3.3 Liitä/Backup"
+
+#: ../../chapter03.rst:546
+msgid ""
+"Clicking the Attach/Backup button shows all of the folders currently "
+"attached."
+msgstr "Napsauttamalla Liitä/Varmuuskopioi -painiketta näkyviin tulevat kaikki tällä hetkellä liitetyt kansiot."
+
+#: ../../chapter03.rst:551
+msgid "ALL FOLDERS WITHIN ADMIN'S ROOT FOLDER"
+msgstr "KAIKKI KANSIOT ADMININ JUURIKANSIOSSA"
+
+#: ../../chapter03.rst:553
+msgid ""
+"By clicking the double-down-arrow icon on the right of each share you can"
+" see the details of the folder and if the folder is linked to a local "
+"folder you will see **\"Link to local\"**. If it is already linked you "
+"will see **\"Stop Sync\"**. As shown below, you can also **Detach** the "
+"folder in this location."
+msgstr "Napsauttamalla kunkin jaon oikealla puolella olevaa kaksoisalasnuolen kuvaketta näet kansion tiedot, ja jos kansio on linkitetty paikalliseen kansioon, näet **\"Linkitä paikalliseen\"**. Jos se on jo linkitetty, näet **\"Lopeta synkronointi\"**. Kuten alla on näytetty, voit myös **Irtisanoa** kansion tässä sijainnissa."
+
+#: ../../chapter03.rst:558
+msgid "ATTACH/BACKUP SETTINGS"
+msgstr "LIITÄ/VARMUUSKOPIOINTIASETUKSET"
+
+#: ../../chapter03.rst:562
+msgid "Link to Local Folder"
+msgstr "Linkitä paikalliseen kansioon"
+
+#: ../../chapter03.rst:564
+msgid ""
+"You can take a folder that is in the cloud and sync it down to a local "
+"folder and then maintain two-way synchronization."
+msgstr "Voit ottaa kansion, joka on pilvessä ja synkronoida sen paikalliseen kansioon ja ylläpitää sitten kaksisuuntaista synkronointia."
+
+#: ../../chapter03.rst:567
+msgid "Stop Sync"
+msgstr "Lopeta Synkronointi"
+
+#: ../../chapter03.rst:569
+msgid ""
+"You can break the two-way sync between a local folder and a folder in the"
+" cloud. After stop sync, the two sides continue to exist but there is no "
+"relationship between them any longer."
+msgstr "Voit keskeyttää kaksisuuntaisen synkronoinnin paikallisen kansion ja pilvessä olevan kansion välillä. Synkronoinnin lopettamisen jälkeen molemmat puolet jatkavat olemassaoloaan, mutta niiden välillä ei ole enää yhteyttä."
+
+#: ../../chapter03.rst:572
+msgid "Detach"
+msgstr "Irrota"
+
+#: ../../chapter03.rst:574
+msgid ""
+"Detach is the reverse of Attach. Attach means attach a local folder to "
+"the cloud under version control. Detach means remove it from the version "
+"control. Detach is an operation detaching the cloud side of the folder "
+"from version control. After detach, the local folder (if it is related to"
+" a local folder) is not affected at all. However, the folder in the cloud"
+" will disappear."
+msgstr "Irrottautuminen on kiinnittämisen vastakohta. Kiinnittäminen tarkoittaa paikallisen kansion liittämistä pilveen versionhallinnan alaisuuteen. Irrottautuminen tarkoittaa sen poistamista versionhallinnasta. Irrottautuminen on toimenpide, jossa kansion pilvipuoli irrotetaan versionhallinnasta. Irrottautumisen jälkeen paikallinen kansio (jos se liittyy paikalliseen kansioon) ei muutu lainkaan. Pilvessä oleva kansio kuitenkin katoaa."
+
+#: ../../chapter03.rst:577
+msgid ""
+"If you want the cloud side of the folder to reappear, you can use \"Show "
+"Deleted\" in the Web Portal to show the deleted folder and bring it back."
+" Or you can create a same name folder from scratch to inherit the folder "
+"back."
+msgstr "Jos haluat, että kansion pilvipuoli tulee uudelleen näkyviin, voit käyttää \"Näytä poistetut\" -toimintoa Web-portaalissa näyttääksesi poistetun kansion ja tuodaksesi sen takaisin. Tai voit luoda samannimisen kansion alusta, jotta perit kansion takaisin."
+
+#: ../../chapter03.rst:581
+msgid "3.3.4 Audit Trace"
+msgstr "3.3.4 Tarkastusjälki"
+
+#: ../../chapter03.rst:583
+msgid ""
+"Audit trace shows the history of all the tasks that have taken place. "
+"Administrators can query the **\"Audit Trace\"** to see the history of "
+"uploads, downloads, changes, and monitoring on the files in the cloud. "
+"You can also filter the tasks you would like to query by using the "
+"**\"Only Show Traces Containing\"** field **(1)**."
+msgstr "Audit-loki näyttää kaikkien suoritettujen tehtävien historian. Ylläpitäjät voivat hakea **\"Audit-lokista\"** tietoja pilvessä olevien tiedostojen latausten, lataamisten, muutosten ja valvonnan historiasta. Voit myös suodattaa kyselyssä näkyviä tehtäviä käyttämällä **\"Näytä vain lokit, jotka sisältävät\"** -kenttää **(1)**."
+
+#: ../../chapter03.rst:585
+msgid ""
+"As an administrator you can also specify the times that you would like to"
+" run the query for **(2)**. Additionally, you can specify the amount of "
+"traces you would like to query **(3)** where **\"0\"** means unlimited "
+"traces."
+msgstr "Ylläpitäjänä voit myös määrittää ajankohdat, jolloin haluat suorittaa kyselyn **(2)**. Lisäksi voit määrittää kyseltävien jälkien määrän **(3)**, missä **\"0\"** tarkoittaa rajoittamatonta määrää jälkiä."
+
+#: ../../chapter03.rst:590
+msgid "AUDIT TRACE QUERY"
+msgstr "TARKASTUSJÄLJEN KYSYMINEN"
+
+#: ../../chapter03.rst:594
+msgid "3.3.5 Settings Manager"
+msgstr "3.3.5 Asetusten hallinta"
+
+#: ../../chapter03.rst:595
+msgid ""
+"Server Agent administrators can customize and configure many settings at "
+"the Server Console level by modifying the contents of the Settings "
+"Manager section."
+msgstr "Palvelinagentin ylläpitäjät voivat mukauttaa ja konfiguroida monia asetuksia Palvelinkonsolitasolla muokkaamalla Asetusten Hallinnan osion sisältöä."
+
+#: ../../chapter03.rst:597
+msgid "From here you can also access the **\"Offline Folders\"** tab."
+msgstr "Täältä voit myös käyttää **\"Offline Kansiot\"** -välilehteä."
+
+#: ../../chapter03.rst:602
+msgid ""
+"This section lists all the cloud folders which have been enabled for "
+"**\"Offline Access\"**, meaning users who have access to offline folders "
+"can access and edit the contents of such folders even when they are not "
+"online. All the changes done to files in offline folders will be "
+"automatically synced as soon as the users come back online."
+msgstr "Tämä osio listaa kaikki pilvikansiot, jotka on otettu käyttöön **\"Offline Access\"** -toiminnolle, mikä tarkoittaa, että käyttäjät, joilla on pääsy offline-kansioihin, voivat käyttää ja muokata kyseisten kansioiden sisältöä, vaikka he eivät olisi verkossa. Kaikki offline-kansioissa tehdyt muutokset synkronoidaan automaattisesti, kun käyttäjät palaavat verkossa."
+
+#: ../../chapter03.rst:607
+msgid "OFFLINE FOLDERS"
+msgstr "OFFLINE-KANSIOT"
+
+#: ../../chapter03.rst:609
+msgid ""
+"**\"Add New Offline Folder\"** You can click this link to configure a "
+"folder as an Offline Folder."
+msgstr "**\"Lisää uusi offline-kansio\"** Voit napsauttaa tätä linkkiä määrittääksesi kansion offline-kansioksi."
+
+#: ../../chapter03.rst:612
+msgid "Settings Tab"
+msgstr "Asetukset-välilehti"
+
+#: ../../chapter03.rst:615
+msgid "Bandwidth Control"
+msgstr "Kaistanhallinta"
+
+#: ../../chapter03.rst:617
+msgid ""
+"As an administrator you have full control over how much bandwidth should "
+"be consumed for uploading contents to the cloud and also for downloading "
+"contents from the cloud. You can also control how many consequent uploads"
+" and downloads are allowed at any one time."
+msgstr "Ylläpitäjänä sinulla on täysi hallinta siitä, kuinka paljon kaistanleveyttä saa käyttää sisältöjen lataamiseen pilveen ja myös sisältöjen lataamiseen pilvestä. Voit myös säätää, kuinka monta peräkkäistä latausta ja lataamista on sallittu kerrallaan."
+
+#: ../../chapter03.rst:622
+msgid "SETTINGS MANAGER - BANDWIDTH CONTROL"
+msgstr "ASETUSTENHALLINTA - KAISTANHALLINTA"
+
+#: ../../chapter03.rst:624
+msgid ""
+"**\"Download Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. This setting is applied to the local machine (Server Agent). "
+"Usually something > 100KB/s is good. If it is too small, it can "
+"negatively affect performance and usability."
+msgstr "**\"Latauskaistan leveysrajoitus (KB/s, 0 - rajaton)\"** Oletusarvo on **\"0\"**. Tämä asetus on sovellettu paikalliselle koneelle (Server Agent). Yleensä yli 100KB/s on hyvä. Jos se on liian pieni, se voi vaikuttaa negatiivisesti suorituskykyyn ja käytettävyyteen."
+
+#: ../../chapter03.rst:626
+msgid ""
+"**\"Upload Bandwidth Limit (KB/s, 0-Unlimited)\"** Default is **\"0\"**. "
+"This setting is applied to the local machine (Server Agent). Usually "
+"something > 100KB/s is good."
+msgstr "**\"Lähetyskaistan leveysrajoitus (KB/s, 0 - rajaton)\"** Oletusarvo on **\"0\"**. Tämä asetus on sovellettu paikalliselle koneelle (Server Agent). Yleensä yli 100KB/s on hyvä."
+
+#: ../../chapter03.rst:628
+msgid ""
+"**\"Number of Upload/Download Threads\"** Default is **\"5\"**. Set this "
+"from 5-10 in general. In some case, if you set it to a very big number "
+"such as 20, it may negatively affect performance. For example, if you are"
+" using Amazon S3 and Amazon S3 or other Cloud services may have per-"
+"client thread policy so if you have too many concurrent upload/download, "
+"it may get regulated outside of the Server Agent."
+msgstr "**\"Lataus-/latauslankojen määrä\"** Oletusarvo on **\"5\"**. Aseta tämä yleensä 5-10. Joissakin tapauksissa, jos asetat sen hyvin suureksi numeroksi, kuten 20, se voi vaikuttaa suorituskykyyn kielteisesti. Esimerkiksi, jos käytät Amazon S3:ta ja Amazon S3:lla tai muilla pilvipalveluilla voi olla asiakaskohtainen lankapolitiikka, joten jos sinulla on liian monta samanaikaista latausta/latausta, se voi tulla säännellyksi Server Agentin ulkopuolella."
+
+#: ../../chapter03.rst:631
+msgid "Cache"
+msgstr "Välimuisti"
+
+#: ../../chapter03.rst:636
+msgid "SETTINGS MANAGER - CACHE SETTINGS"
+msgstr "ASETUSTENHALLINTA - VÄLIMUISTIN ASETUKSET"
+
+#: ../../chapter03.rst:638
+msgid ""
+"You can change the location of Cache (for files downloaded locally from "
+"cloud). You can also set the cache size."
+msgstr "Voit vaihtaa välimuistin sijaintia (paikallisesti pilvestä ladatuille tiedostoille). Voit myös asettaa välimuistin koon."
+
+#: ../../chapter03.rst:643
+msgid "Sync Control"
+msgstr "Synkronointihallinta"
+
+#: ../../chapter03.rst:648
+msgid "SETTINGS MANAGER - SYNC CONTROL"
+msgstr "ASETUSTENHALLINTA - SYNKRONOINNIN HALLINTA"
+
+#: ../../chapter03.rst:650
+msgid ""
+"**\"Throttle Sync\"** Default is **\"False\"**. If you set this flag to "
+"**\"True\"** it will stop and start the sync depending on the available "
+"bandwidth."
+msgstr "**\"Kaistan rajoitus\"** Oletusarvo on **\"Epätosi\"**. Jos asetat tämän lipun **\"Tosi\"**-asentoon, se pysäyttää ja käynnistää synkronoinnin riippuen käytettävissä olevasta kaistanleveydestä."
+
+#: ../../chapter03.rst:652
+msgid ""
+"**\"Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"upload sync."
+msgstr "**\"Synkronoinnin rajoitettu lähetyskaista (KB/s, 0-Rajoittamaton)\"** Oletusarvo on **\"0\"**. Missä **\"0\"** tarkoittaa, että lähetysynkronointiin on käytettävissä rajoittamaton kaistanleveys."
+
+#: ../../chapter03.rst:654
+msgid ""
+"**\"Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)\"** Default is "
+"**\"0\"**. Where **\"0\"** means unlimited bandwidth is available for "
+"download sync."
+msgstr "**\"Synkronoinnin rajoitettu latauskaista (KB/s, 0-Rajaton)\"** Oletusarvo on **\"0\"**. Missä **\"0\"** tarkoittaa, että lataussynkronoinnille on käytettävissä rajaton kaistanleveys."
+
+#: ../../chapter03.rst:656
+msgid ""
+"**\"Full Speed Sync Stop Hour (dafault 7:00)\"** Default is **\"7\"**. "
+"Use this setting to set when full sync stops, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"Täyden synkronoinnin pysäytystunti (oletus 7:00)\"** Oletusarvo on **\"7\"**. Käytä tätä asetusta määrittääksesi, milloin täysi synkronointi pysähtyy, jotta järjestelmäsi ei kuormitu liikaa työaikana."
+
+#: ../../chapter03.rst:658
+msgid ""
+"**\"Full Speed Sync Start Hour (dafault 20:00)\"** Default is **\"20\"**."
+"  Use this setting to set when full sync starts, to prevent bogging down "
+"your system during business hours."
+msgstr "**\"Täyden synkronoinnin aloitustunti (oletus 20:00)\"** Oletusarvo on **\"20\"**. Käytä tätä asetusta määrittääksesi, milloin täysi synkronointi alkaa, jotta järjestelmäsi ei hidastu liikaa työaikana."
+
+#: ../../chapter03.rst:660
+msgid ""
+"**\"Scan local files and sync up to cloud as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" local file system and make sure that everything which is not synced to "
+"the cloud is truly synced."
+msgstr "**\"Skannaa paikalliset tiedostot ja synkronoi tarvittaessa pilveen\"** Oletusarvo on **\"False\"**. Aseta tämä **\"True\"**-arvoon, jos haluat agentin skannaavan paikallisen tiedostojärjestelmän ja varmistavan, että kaikki, mikä ei ole synkronoitu pilveen, on todella synkronoitu."
+
+#: ../../chapter03.rst:662
+msgid ""
+"**\"Scan cloud files and sync up to local as necessary\"** Default is "
+"**\"False\"**. Set this to **\"True\"** if you want the agent to scan the"
+" cloud and make sure that everything which is not synced to the local "
+"file system is truly synced."
+msgstr "**\"Skannaa pilvitiedostot ja synkronoi tarvittaessa paikalliseen järjestelmään\"** Oletusarvo on **\"False\"**. Aseta tämä **\"True\"**-arvoon, jos haluat agentin skannaavan pilven ja varmistavan, että kaikki, mikä ei ole synkronoitu paikalliseen tiedostojärjestelmään, on todella synkronoitu."
+
+#: ../../chapter03.rst:664
+msgid ""
+"**\"Optimize Sync Down Notification\"** Default is **\"False\"**. If you "
+"want to see sync down notifications, then set this to **\"True\"**."
+msgstr "**\"Optimoi synkronoinnin alas ilmoitukset\"** Oletusarvo on **\"Epätosi\"**. Jos haluat nähdä synkronoinnin alas ilmoitukset, aseta tämä **\"Tosiksi\"**."
+
+#: ../../chapter03.rst:666
+msgid ""
+"**\"Ignore file dummy change notification\"** Default is **\"False\"**. "
+"If you don't want to see dummy file change notifications, then set this "
+"to **\"True\"**."
+msgstr "**\"Ohita tyhjän tiedoston muutosilmoitukset\"** Oletusarvo on **\"False\"**. Jos et halua nähdä tyhjien tiedostojen muutosilmoituksia, aseta tämä arvoksi **\"True\"**."
+
+#: ../../chapter03.rst:668
+msgid ""
+"**\"Enable sync folder permission in attached folder\"** Default is "
+"**\"False\"**."
+msgstr "**\"Ota käyttöön synkronointikansion oikeudet liitetyssä kansiossa\"** Oletusarvo on **\"False\"**."
+
+#: ../../chapter03.rst:672
+msgid "Advanced"
+msgstr "Edistynyt"
+
+#: ../../chapter03.rst:674
+msgid ""
+"Administrator can locate the cache directory under **\"Advanced\"** "
+"option in settings. Using the **\"Cache Size Limit (MB)\"** field can "
+"specify the size limit for the cache file."
+msgstr "Ylläpitäjä voi paikantaa välimuistikansion **\"Edistyneet\"**-asetusten alta. **\"Välimuistin koon raja (MB)\"** -kentän avulla voi määrittää välimuistitiedoston suurimman sallitun koon."
+
+#: ../../chapter03.rst:680
+msgid "SETTINGS MANAGER - ADVANCED"
+msgstr "ASETUSTENHALLINTA - EDISTYNYT"
+
+#: ../../chapter03.rst:682
+msgid ""
+"**\"Do not Mount Drive\"** Default is **\"False\"**. When you set this to"
+" **\"True\"** local drive on the Server Agent is unmounted."
+msgstr "**\"Älä liitä asemaa\"** Oletusarvo on **\"Epätosi\"**. Kun asetat tämän arvoksi **\"Tosi\"**, paikallinen asema Palvelinagentissa irrotetaan."
+
+#: ../../chapter03.rst:684
+msgid "**\"Domain Controller IP or Hostname\"** This setting is empty by default."
+msgstr "**\"Domain Controller IP tai isäntänimi\"** Tämä asetus on oletusarvoisesti tyhjä."
+
+#: ../../chapter03.rst:686
+msgid ""
+"**\"Enable In-place Open Zip File\"** Default is **\"False\"**. This "
+"field enables in-place editing on files which are in zipped folders in "
+"the cloud. You can also specify the maximum size for zipped files that "
+"are allowed for In-place editing."
+msgstr "**\"Ota käyttöön paikan päällä avattava Zip-tiedosto\"** Oletusarvo on **\"False\"**. Tämä kenttä mahdollistaa tiedostojen paikan päällä tapahtuvan muokkauksen pilvessä olevissa zip-kansioissa. Voit myös määrittää suurimman sallitun koon zip-tiedostoille, joita saa muokata paikan päällä."
+
+#: ../../chapter03.rst:688
+msgid ""
+"**\"Max Size of Zip File Allowed to Open Inplace\"** This is **\"20\"** "
+"by default. Use this field to set the maximum size of Zip Files that can "
+"be opened inside the Cloud Drive in MB."
+msgstr "**\"Zip-tiedoston suurin sallittu koko paikan päällä avattavaksi\"** Oletusarvo on **\"20\"**. Käytä tätä kenttää asettaaksesi suurimman koon Zip-tiedostoille, jotka voidaan avata Pilviasemassa MB-muodossa."
+
+#: ../../chapter03.rst:690
+msgid ""
+"**\"Ignore Settings in Group Policy\"** Default is **\"False\"**. When "
+"you set this flag to **\"True\"**, the configured settings in the Web "
+"Portal will be ignored and the settings configured here under "
+"``Settings`` > ``Advanced`` will take precedence."
+msgstr "**\"Ohita ryhmäkäytäntöasetukset\"** Oletusarvo on **\"False\"**. Kun asetat tämän lipun arvoon **\"True\"**, Web-portaalissa määritetyt asetukset ohitetaan ja täällä ``Asetukset`` > ``Lisäasetukset`` määritetyt asetukset ovat ensisijaisia."
+
+#: ../../chapter03.rst:692
+msgid ""
+"**\"Interval to Keep Group Relationship in Cache (Min)\"** The default is"
+" **\"60\"** minutes. This field is a performance optimization setting. "
+"The Server Agent will check the remote requests against the ACL (Access "
+"Control) set on the local files. Most of the times it involves Active "
+"Directory or NT domain group membership checking. The group membership "
+"checking is a CPU intensive work so the result is cached to improve "
+"performance. This controls how long the result will be cached. If users "
+"are not changing group frequently, you can set the interval to a long "
+"period of time."
+msgstr "**\"Välimuistissa pidettävän ryhmäsuhteen aikaväli (min)\"** Oletusarvo on **\"60\"** minuuttia. Tämä kenttä on suorituskyvyn optimointiasetus. Palvelinagentti tarkistaa etäpyynnöt paikallisten tiedostojen ACL:ää (käyttöoikeuksien hallinta) vasten. Useimmiten se sisältää Active Directoryn tai NT-verkoston ryhmäjäsenyyksien tarkistamista. Ryhmäjäsenyyksien tarkistaminen on prosessoriintensiivistä työtä, joten tulos välimuistitetaan suorituskyvyn parantamiseksi. Tämä asetus määrittää, kuinka kauan tulos pysyy välimuistissa. Jos käyttäjät eivät vaihda ryhmää usein, voit asettaa ajanjakson pitkäksi aikaa."
+
+#: ../../chapter03.rst:694
+msgid ""
+"**\"Purge File Sys DB Upon Start\"** The default is **\"False\"**. If you"
+" change this setting to True, upon startup the client will purge the "
+"cached cloud storage state file. This allows the client to rebuild the "
+"database as if it is being started for the first time."
+msgstr "**\"Puhdista tiedostojärjestelmän tietokanta käynnistyksen yhteydessä\"** Oletusarvo on **\"False\"**. Jos muutat tämän asetuksen todeksi, asiakasohjelma tyhjentää välimuistissa olevan pilvitallennustilan tilatiedoston käynnistyksen yhteydessä. Tämä mahdollistaa asiakasohjelman tietokannan uudelleenrakentamisen kuin se käynnistettäisiin ensimmäistä kertaa."
+
+#: ../../chapter03.rst:696
+msgid ""
+"**\"Upload Hidden Files\"** The default is **\"False\"**. If this flag is"
+" set to **\"True\"** then hidden files will also be uploaded to the "
+"cloud."
+msgstr "**\"Lataa piilotetut tiedostot\"** Oletusarvo on **\"False\"**. Jos tämä lippu asetetaan **\"True\"**-arvoon, myös piilotetut tiedostot ladataan pilveen."
+
+#: ../../chapter03.rst:698
+msgid ""
+"**\"Upload System Files\"** The default is **\"False\"**. If this flag "
+"when set to **\"True\"** then system files will also be uploaded to the "
+"cloud."
+msgstr "**\"Lataa järjestelmätiedostot\"** Oletusarvo on **\"Epätosi\"**. Jos tämä lippu asetetaan **\"Tosi\"**-arvoon, myös järjestelmätiedostot ladataan pilveen."
+
+#: ../../chapter03.rst:701
+msgid "Trace"
+msgstr "Jäljitä"
+
+#: ../../chapter03.rst:703
+msgid ""
+"The audit trace log can grow exponentially if not kept under control. As "
+"an administrator you can specify the number of days to keep the audit "
+"trace. **\"Days of Audit Trace to Keep\"** setting is the field to "
+"specify the duration to keep the trace for."
+msgstr "Valvontajäljen loki voi kasvaa eksponentiaalisesti, jos sitä ei pidetä hallinnassa. Ylläpitäjänä voit määrittää, kuinka monta päivää valvontajälkeä säilytetään. **\"Valvontajäljen säilytyspäivien määrä\"** -asetus on kenttä, jossa voit määrittää, kuinka kauan jälkeä säilytetään."
+
+#: ../../chapter03.rst:705
+msgid ""
+"Trace Level when set to **\"0\"** which is the default does not collect "
+"any traces meaning it is disabled."
+msgstr "Jäljitystason ollessa asetettuna arvoon **\"0\"**, joka on oletusarvo, jäljityksiä ei kerätä, mikä tarkoittaa, että se on poissa käytöstä."
+
+#: ../../chapter03.rst:707
+msgid "Trace Level 1 – error will collect all the error traces."
+msgstr "Trace Level 1 – virhe kerää kaikki virheiden jäljet."
+
+#: ../../chapter03.rst:709
+msgid "Trace Level 2 – warning will collect warning traces along with errors."
+msgstr "Trace Level 2 – varoitus kerää varoituksia sekä virheitä."
+
+#: ../../chapter03.rst:711
+msgid ""
+"Trace Level 3 – info will collect errors, warnings, as well as info "
+"traces."
+msgstr "Trace Level 3 – info kerää virheet, varoitukset sekä tiedotusjäljet."
+
+#: ../../chapter03.rst:713
+msgid ""
+"Trace Level 100 – verbose helps developers to collect detailed traces "
+"which helps them when debugging issues."
+msgstr "Jäljitystaso 100 – yksityiskohtainen auttaa kehittäjiä keräämään tarkkoja jäljityksiä, jotka auttavat heitä virheiden jäljittämisessä."
+
+#: ../../chapter03.rst:716
+msgid ""
+"When it is necessary to collect DebugView trace for debugging purpose, "
+"the Trace Level typically is set to 101."
+msgstr "Kun on tarpeen kerätä DebugView-jäljitystä vianmääritystarkoituksiin, Jäljitystason tyypillisesti asetetaan arvoon 101."
+
+#: ../../chapter03.rst:721
+msgid "SETTINGS MANAGER - TRACE"
+msgstr "ASETUSTENHALLINTA - JÄLJITYS"
+

@@ -1,0 +1,289 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../faq.rst:3
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+#: ../../faq.rst:4
+msgid "Frequently Asked Questions about CentreStack"
+msgstr "الأسئلة الشائعة حول CentreStack"
+
+#: ../../faq.rst:7
+msgid "General"
+msgstr "عام"
+
+#: ../../faq.rst:10
+msgid "What is CentreStack?"
+msgstr "ما هو CentreStack؟"
+
+#: ../../faq.rst:11
+msgid ""
+"CentreStack is Gladinet's enterprise solution, formerly known as Gladinet"
+" Cloud Enterprise. As more enterprises adopted the product and the "
+"company shifted focus toward enterprise solutions, the name "
+"\"CentreStack\" was chosen to better reflect its purpose."
+msgstr "CentreStack هو الحل المؤسسي لشركة Gladinet، والذي كان يُعرف سابقًا باسم Gladinet Cloud Enterprise. مع تبني المزيد من الشركات للمنتج وتحول تركيز الشركة نحو الحلول المؤسسية، تم اختيار اسم \"CentreStack\" ليعكس الغرض منه بشكل أفضل."
+
+#: ../../faq.rst:13
+msgid ""
+"CentreStack packages all file sync and share access infrastructure into a"
+" single solution that enterprises or managed service providers (MSPs) can"
+" deploy on-premises or in a DMZ. This provides full control, robust "
+"security, and optional native Active Directory integration. You can set "
+"any storage (including your own file servers) as the default cloud "
+"storage and make it available to your users or clients."
+msgstr "يقوم CentreStack بتجميع كل بنية تحتية لمزامنة الملفات ومشاركتها في حل واحد يمكن للشركات أو مقدمي الخدمات المُدارة (MSPs) نشره داخليًا أو في منطقة DMZ. هذا يوفر سيطرة كاملة، أمان قوي، وخيار دمج أصلي مع Active Directory. يمكنك تعيين أي تخزين (بما في ذلك خوادم الملفات الخاصة بك) كتخزين سحابي افتراضي وجعله متاحًا لمستخدميك أو عملائك."
+
+#: ../../faq.rst:16
+msgid "What can I do with CentreStack?"
+msgstr "ما الذي يمكنني فعله مع CentreStack؟"
+
+#: ../../faq.rst:17
+msgid ""
+"CentreStack Server can be installed on-premises, close to your existing "
+"storage. It supports access via web browsers, mobile apps, desktop "
+"clients, and various devices. For example, if you have file server or SAN"
+" storage and want to add modern cloud-style file sync, sharing, and "
+"collaboration interfaces, CentreStack makes it possible."
+msgstr "يمكن تثبيت خادم CentreStack في الموقع، بالقرب من التخزين الحالي الخاص بك. يدعم الوصول عبر متصفحات الويب، التطبيقات المحمولة، عملاء سطح المكتب، ومختلف الأجهزة. على سبيل المثال، إذا كان لديك خادم ملفات أو تخزين SAN وترغب في إضافة واجهات مزامنة ملفات عصرية على غرار السحابة، ومشاركة، وتعاون، فإن CentreStack يجعل ذلك ممكنًا."
+
+#: ../../faq.rst:20
+msgid "What problem does CentreStack solve?"
+msgstr "ما المشكلة التي يحلها CentreStack؟"
+
+#: ../../faq.rst:21
+msgid ""
+"CentreStack addresses the growing concern of data leakage in business "
+"environments. While CIOs are focused on protecting data and ensuring "
+"regulatory compliance, end users are drawn to the simplicity of tools "
+"like Dropbox. CentreStack bridges this gap by offering a Dropbox-like "
+"experience that CIOs can control using their own secure storage."
+msgstr "يعالج CentreStack المخاوف المتزايدة بشأن تسرب البيانات في بيئات الأعمال. بينما يركز المدراء التنفيذيون للمعلومات على حماية البيانات وضمان الامتثال التنظيمي، ينجذب المستخدمون النهائيون إلى بساطة الأدوات مثل Dropbox. يقوم CentreStack بتوفير جسر هذه الفجوة من خلال تقديم تجربة مشابهة لـ Dropbox يمكن للمدراء التنفيذيين للمعلومات التحكم بها باستخدام تخزينهم الآمن الخاص."
+
+#: ../../faq.rst:23
+msgid ""
+"Data remains within the company's secure infrastructure, compliant with "
+"regulations"
+msgstr "البيانات تظل ضمن بنية الشركة الآمنة، متوافقة مع اللوائح"
+
+#: ../../faq.rst:24
+msgid ""
+"End users continue enjoying the convenience of cloud access and "
+"collaboration tools"
+msgstr "يواصل المستخدمون النهائيون الاستمتاع براحة الوصول إلى السحابة وأدوات التعاون"
+
+#: ../../faq.rst:27
+msgid "How can I get started?"
+msgstr "كيف يمكنني البدء؟"
+
+#: ../../faq.rst:28
+msgid ""
+"CentreStack offers a free download with a built-in 30-day trial. Simply "
+"click \"`Try CentreStack Free "
+"<https://partner.centrestack.com/signup/>`_\" at `centrestack.com "
+"<https://www.centrestack.com/>`_ or contact enterprise@gladinet.com to "
+"get started."
+msgstr "يقدم CentreStack تنزيلًا مجانيًا مع تجربة مجانية مدمجة لمدة 30 يومًا. ببساطة انقر على \"`جرب CentreStack مجانًا <https://partner.centrestack.com/signup/>`_\" في `centrestack.com <https://www.centrestack.com/ar/>`_ أو اتصل بـ enterprise@gladinet.com للبدء."
+
+#: ../../faq.rst:31
+msgid "Technical"
+msgstr "فني"
+
+#: ../../faq.rst:34
+msgid "What is the best way to try CentreStack features?"
+msgstr "ما هي أفضل طريقة لتجربة ميزات CentreStack؟"
+
+#: ../../faq.rst:35
+msgid ""
+"The quickest option is to log in to the partner portal and create a free "
+"Hosted Tenant trial on sync4share.com. This allows you to explore end-"
+"user features in 3-5 minutes."
+msgstr "أسرع خيار هو تسجيل الدخول إلى بوابة الشركاء وإنشاء تجربة مجانية لـ Hosted Tenant على sync4share.com. هذا يتيح لك استكشاف ميزات المستخدم النهائي في 3-5 دقائق."
+
+#: ../../faq.rst:37
+msgid ""
+"However, for full evaluation, we recommend installing CentreStack "
+"directly using the 30-day free trial. Just prepare a clean Windows Server"
+" (2025, 2022, 2019, or 2016), download the 7MB installer, and within 20 "
+"minutes, CentreStack will be up and running."
+msgstr "ومع ذلك، للتقييم الكامل، نوصي بتثبيت CentreStack مباشرةً باستخدام النسخة التجريبية المجانية لمدة 30 يومًا. فقط قم بإعداد Windows Server نظيف (2025، 2022، 2019، أو 2016)، وقم بتنزيل المثبت بحجم 7 ميغابايت، وخلال 20 دقيقة، سيكون CentreStack جاهزًا ويعمل."
+
+#: ../../faq.rst:39
+msgid ""
+"We suggest trying both methods. Once you're familiar with the features, "
+"you can compare the self-hosted CentreStack against the Gladinet Cloud "
+"(on gladinet.com) and see how it fits within your infrastructure."
+msgstr "نقترح تجربة كلا الطريقتين. بمجرد أن تصبح ملمًا بالميزات، يمكنك مقارنة CentreStack المستضاف ذاتيًا مع Gladinet Cloud (على gladinet.com) ورؤية كيف يتناسب ذلك مع بنيتك التحتية."
+
+#: ../../faq.rst:42
+msgid "Can I brand CentreStack with my (company) name?"
+msgstr "هل يمكنني تسمية CentreStack باسم (شركتي)؟"
+
+#: ../../faq.rst:43
+msgid ""
+"Yes. CentreStack includes a white-labeled web portal and desktop client "
+"to support most branding needs. For full branding on iOS and Android "
+"apps, Gladinet also offers consulting services to help with publishing to"
+" the Apple App Store and Google Play Store."
+msgstr "نعم. يتضمن CentreStack بوابة ويب وعميل سطح مكتب بعلامة بيضاء لدعم معظم احتياجات العلامة التجارية. للحصول على علامة تجارية كاملة على تطبيقات iOS وAndroid، تقدم Gladinet أيضًا خدمات استشارية للمساعدة في النشر على متجر تطبيقات Apple ومتجر Google Play."
+
+#: ../../faq.rst:46
+msgid "What server operating systems can be used to install CentreStack?"
+msgstr "ما هي أنظمة تشغيل الخوادم التي يمكن استخدامها لتثبيت CentreStack؟"
+
+#: ../../faq.rst:47
+msgid "We recommend Windows Server 2025, 2022, 2019 or 2016."
+msgstr "نوصي باستخدام Windows Server 2025، 2022، 2019 أو 2016."
+
+#: ../../faq.rst:50
+msgid "Where can I deploy CentreStack?"
+msgstr "أين يمكنني نشر CentreStack؟"
+
+#: ../../faq.rst:51
+msgid ""
+"You can deploy CentreStack wherever Windows Server is supported (Windows "
+"Server 2025, 2022, 2019 or 2016). We recommend using a virtual machine "
+"environment to simplify upgrades and enable multi-node scaling. Most "
+"customers install CentreStack within their own data centers, often in "
+"VMware environments."
+msgstr "يمكنك نشر CentreStack في أي مكان يتم فيه دعم Windows Server (Windows Server 2025، 2022، 2019 أو 2016). نوصي باستخدام بيئة الآلة الافتراضية لتبسيط عمليات الترقية وتمكين التوسع متعدد العقد. يقوم معظم العملاء بتثبيت CentreStack داخل مراكز بياناتهم الخاصة، غالبًا في بيئات VMware."
+
+#: ../../faq.rst:54
+msgid "How scalable is CentreStack?"
+msgstr "ما مدى قابلية CentreStack للتوسع؟"
+
+#: ../../faq.rst:55
+msgid ""
+"CentreStack supports scalable deployments with a farm of server nodes. "
+"Each node can support up to 1,000 concurrent users (or 5,000 named users)"
+" on a configuration similar to an Amazon EC2 medium instance. To support "
+"10,000 users, for example, you can deploy a farm of 10 CentreStack nodes."
+" Load balancing can be handled by CentreStack's built-in capabilities or "
+"an external load balancer."
+msgstr "يدعم CentreStack عمليات التوسع القابلة للتطوير مع مزرعة من عقد الخادم. يمكن لكل عقدة أن تدعم ما يصل إلى 1000 مستخدم متزامن (أو 5000 مستخدم مسمى) على تكوين مشابه لمثيل Amazon EC2 متوسط. على سبيل المثال، لدعم 10000 مستخدم، يمكنك نشر مزرعة من 10 عقد CentreStack. يمكن التعامل مع التوازن بين الأحمال من خلال القدرات المدمجة في CentreStack أو موازن تحميل خارجي."
+
+#: ../../faq.rst:58
+msgid "Can I use my own storage with CentreStack?"
+msgstr "هل يمكنني استخدام مساحة التخزين الخاصة بي مع CentreStack؟"
+
+#: ../../faq.rst:59
+msgid ""
+"Yes. CentreStack supports your own file server storage, SAN storage, "
+"private cloud storage, and public cloud storage."
+msgstr "نعم. يدعم CentreStack تخزين خادم الملفات الخاص بك، وتخزين SAN، وتخزين السحابة الخاصة، وتخزين السحابة العامة."
+
+#: ../../faq.rst:62
+msgid "Can I integrate Active Directory with CentreStack?"
+msgstr "هل يمكنني دمج الدليل النشط مع CentreStack؟"
+
+#: ../../faq.rst:63
+msgid ""
+"Yes. CentreStack integrates with your existing Active Directory "
+"infrastructure."
+msgstr "نعم. يتكامل CentreStack مع بنية الدليل النشط الحالية الخاصة بك."
+
+#: ../../faq.rst:66
+msgid "What are the differences between the two package options?"
+msgstr "ما الفروق بين خياري الحزمتين؟"
+
+#: ../../faq.rst:67
+msgid "CentreStack offers two installation packages:"
+msgstr "يقدم CentreStack حزمتي تثبيت:"
+
+#: ../../faq.rst:69
+msgid ""
+"Single Tenant - Ideal for one company with a single Active Directory "
+"forest."
+msgstr "مستأجر واحد - مثالي لشركة واحدة لديها غابة دليل نشط واحدة."
+
+#: ../../faq.rst:70
+msgid ""
+"Service Provider - Designed for MSPs managing multiple customer "
+"environments."
+msgstr "مزود الخدمة - مصمم لمزودي خدمات الإدارة الذين يديرون بيئات متعددة للعملاء."
+
+#: ../../faq.rst:73
+msgid "Licensing"
+msgstr "الترخيص"
+
+#: ../../faq.rst:76
+msgid "How is CentreStack licensed?"
+msgstr "كيف يتم ترخيص CentreStack؟"
+
+#: ../../faq.rst:77
+msgid "CentreStack is licensed by the number of users. Two models are available:"
+msgstr "يتم ترخيص CentreStack بناءً على عدد المستخدمين. هناك نموذجان متاحان:"
+
+#: ../../faq.rst:79
+msgid "Monthly recurring subscription"
+msgstr "اشتراك شهري متكرر"
+
+#: ../../faq.rst:80
+msgid "One-time perpetual license"
+msgstr "ترخيص دائم لمرة واحدة"
+
+#: ../../faq.rst:82
+msgid "For details, contact enterprise@gladinet.com."
+msgstr "لمزيد من التفاصيل، يرجى التواصل على enterprise@gladinet.com."
+
+#: ../../faq.rst:85
+msgid "Security"
+msgstr "الأمان"
+
+#: ../../faq.rst:88
+msgid "What are CentreStack's security features?"
+msgstr "ما هي ميزات الأمان في CentreStack؟"
+
+#: ../../faq.rst:89
+msgid "**1. Infrastructure Security**"
+msgstr "**1. أمان البنية التحتية**"
+
+#: ../../faq.rst:91
+msgid ""
+"You install and host CentreStack yourself, giving you full control over "
+"data storage and infrastructure security. You determine where data "
+"resides and how it is protected."
+msgstr "تقوم بتثبيت CentreStack بنفسك واستضافته، مما يمنحك السيطرة الكاملة على تخزين البيانات وأمان البنية التحتية. أنت تحدد مكان تواجد البيانات وكيفية حمايتها."
+
+#: ../../faq.rst:93
+msgid "**2. Secure Data Transmission**"
+msgstr "**2. نقل البيانات الآمن**"
+
+#: ../../faq.rst:95
+msgid ""
+"All data is transferred over SSL/HTTPS connections, ensuring end-to-end "
+"encryption during transmission."
+msgstr "يتم نقل جميع البيانات عبر اتصالات SSL/HTTPS، مما يضمن التشفير من طرف إلى طرف أثناء النقل."
+
+#: ../../faq.rst:97
+msgid "**3. Data-at-Rest Encryption**"
+msgstr "**3. تشفير البيانات أثناء الراحة**"
+
+#: ../../faq.rst:99
+msgid ""
+"You can enable AES-256 encryption on a per-team or per-tenant basis. Each"
+" team or tenant can manage its own encryption keys, securing data file by"
+" file."
+msgstr "يمكنك تمكين تشفير AES-256 على أساس كل فريق أو كل مستأجر. يمكن لكل فريق أو مستأجر إدارة مفاتيح التشفير الخاصة به، مما يؤمن البيانات ملفًا تلو الملف."
+

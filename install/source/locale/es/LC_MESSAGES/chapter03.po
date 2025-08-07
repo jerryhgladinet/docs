@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "Initial Configuration"
+msgstr "Configuración Inicial"
+
+#: ../../chapter03.rst:5
+msgid ""
+"After the machine reboots, the Default administration configuration page "
+"will be displayed."
+msgstr "Después de reiniciar la máquina, se mostrará la página de configuración de administración predeterminada."
+
+#: ../../chapter03.rst:7
+msgid "First, setup the cluster administrator account."
+msgstr "Primero, configure la cuenta del administrador del clúster."
+
+#: ../../chapter03.rst:11
+msgid ""
+"After setting up the cluster administrator account, the cluster "
+"administrator's dashboard will appear by default."
+msgstr "Después de configurar la cuenta del administrador del clúster, el panel de control del administrador del clúster aparecerá de forma predeterminada."
+
+#: ../../chapter03.rst:15
+msgid ""
+"Once you see the dashboard, the |prodname| side of the setup is finished "
+"successfully. We will continue to check the storage configuration and "
+"make sure all components are fully functional."
+msgstr "Una vez que veas el panel de control, la configuración del lado de |prodname| se ha completado con éxito. Continuaremos revisando la configuración de almacenamiento y nos aseguraremos de que todos los componentes estén completamente funcionales."
+

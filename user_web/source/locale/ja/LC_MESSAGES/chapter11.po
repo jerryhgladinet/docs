@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter11.rst:3
+msgid "Tenant Administrator"
+msgstr "テナント管理者"
+
+#: ../../chapter11.rst:5
+msgid ""
+"Please reference the `Admin Guide`__ for full documentation of the tenant"
+" administration. Here we will go over several commonly touched areas for "
+"tenant administrators."
+msgstr "テナント管理の完全なドキュメントについては、`管理者ガイド`__ を参照してください。ここでは、テナント管理者がよく触れるいくつかの領域について説明します。"
+
+#: ../../chapter11.rst:10
+msgid ""
+"After you enter the \"management console\", you will be in the tenant "
+"manager. You can access the tenant by clicking on the desired tenant from"
+" the options."
+msgstr "「管理コンソール」に入ると、テナントマネージャーに入ります。オプションから希望のテナントをクリックすることで、テナントにアクセスできます。"
+
+#: ../../chapter11.rst:15
+msgid ""
+"Under Management Console, an admin can configure storage, monitor shared "
+"objects, create and manage team folders, manage users, configure granular"
+" group policies, add new tenant administrators, look at different "
+"reports, and under advanced configure AD etc."
+msgstr "管理コンソールでは、管理者はストレージを設定し、共有オブジェクトを監視し、チームフォルダを作成・管理し、ユーザーを管理し、詳細なグループポリシーを設定し、新しいテナント管理者を追加し、さまざまなレポートを確認し、高度な設定でADなどを構成できます。"
+
+#: ../../chapter11.rst:17
+msgid ""
+"After you click a tenant, you will be in the tenant dashboard. You can "
+"click through to different managers. You can manage users **(1)** and "
+"folders **(2)**. If you are using an Active Directory for importing users"
+" and permissions you can connect to your Active Directory by clicking the"
+" \"Configure Now\" **(3)**."
+msgstr "テナントをクリックすると、テナントダッシュボードに入ります。異なるマネージャーにクリックして進むことができます。ユーザー **(1)** とフォルダー **(2)** を管理できます。Active Directoryを使用してユーザーや権限をインポートする場合は、「今すぐ設定」 **(3)** をクリックしてActive Directoryに接続できます。"
+
+#: ../../chapter11.rst:22
+msgid "MANAGE USERS AND FILES"
+msgstr "ユーザーとファイルを管理する"
+
+#: ../../chapter11.rst:27
+msgid "User Manager"
+msgstr "ユーザーマネージャー"
+
+#: ../../chapter11.rst:29
+msgid ""
+"You can access the user manager by clicking one of these items in the "
+"Tenant Dashboard."
+msgstr "テナントダッシュボードのこれらの項目のいずれかをクリックすることでユーザーマネージャーにアクセスできます。"
+
+#: ../../chapter11.rst:34
+msgid "ACCESSING THE USER MANAGER"
+msgstr "ユーザーマネージャーにアクセスする"
+
+#: ../../chapter11.rst:38
+msgid "Active Directory - LDAP"
+msgstr "アクティブディレクトリ - LDAP"
+
+#: ../../chapter11.rst:40
+msgid ""
+"When you \"Create or Migrate User\" **(1)** in user manager, there are "
+"some options for adding new users. Click \"Active Directory\" **(2)**, "
+"you can add your local AD settings. Select \"Enable Active Directory "
+"Integration\" **(3)**."
+msgstr "ユーザーマネージャーで「ユーザーの作成または移行」 **(1)** を行う際には、新規ユーザーを追加するためのいくつかのオプションがあります。 「アクティブディレクトリ」 **(2)** をクリックすると、ローカルADの設定を追加できます。「アクティブディレクトリの統合を有効にする」 **(3)** を選択します。"
+
+#: ../../chapter11.rst:45
+msgid "CONNECTING TO ACTIVE DIRECTORY (AD)"
+msgstr "ACTIVE DIRECTORY (AD) への接続"
+
+#: ../../chapter11.rst:47
+msgid ""
+"This gives you access to all the settings fields and the Advanced "
+"Settings Tab **(4)**. Once you have filled in the settings with an "
+"Administrator User account from your Active Directory, click **APPLY** to"
+" accept your changes."
+msgstr "これにより、すべての設定フィールドと **詳細設定タブ (4)** にアクセスできます。Active Directoryの管理者ユーザーアカウントで設定を行ったら、変更を受け入れるために **APPLY** をクリックしてください。"
+
+#: ../../chapter11.rst:51
+msgid "Add Users"
+msgstr "ユーザーを追加"
+
+#: ../../chapter11.rst:53
+msgid ""
+"You can add users from within the User Manager by clicking the \"Create "
+"or Migrate User\" button to open the **\"Options for Adding New Users\"**"
+" panel. In that panel you have several options: add a Native User, Batch "
+"Create Users, import Active Directory users and permissions, and if you "
+"have Server Agents actively connected, you will also see those servers "
+"listed here as well."
+msgstr "ユーザーマネージャー内からユーザーを追加するには、**「新規ユーザー追加のオプション」** パネルを開くために「ユーザーの作成または移行」ボタンをクリックします。そのパネルでは、ネイティブユーザーを追加、ユーザーを一括作成、Active Directoryユーザーと権限をインポートするなど、いくつかのオプションがあります。また、サーバーエージェントがアクティブに接続されている場合は、ここにそれらのサーバーもリストされます。"
+
+#: ../../chapter11.rst:58
+msgid "ADDING USERS"
+msgstr "ユーザーの追加"
+
+#: ../../chapter11.rst:60
+msgid "**Native User**"
+msgstr "**ネイティブユーザー**"
+
+#: ../../chapter11.rst:62
+msgid ""
+"Native user refers to |prodname| user that is not related to any Active "
+"Directory."
+msgstr "ネイティブユーザーとは、Active Directoryに関連しない |prodname| ユーザーのことを指します。"
+
+#: ../../chapter11.rst:65
+msgid "**Batch create users**"
+msgstr "**バッチでユーザーを作成する**"
+
+#: ../../chapter11.rst:67
+msgid ""
+"These are native users in a comma separated file that can be paste into a"
+" text area so the users can be batch created."
+msgstr "これらは、テキストエリアに貼り付けて一括作成できる、コンマ区切りファイル内のネイティブユーザーです。"
+
+#: ../../chapter11.rst:70
+msgid "**Active Directory**"
+msgstr "**アクティブディレクトリ**"
+
+#: ../../chapter11.rst:72
+msgid ""
+"Active Directory means users from Local Area Network (LAN) that is in the"
+" same network as the |prodname| server."
+msgstr "Active Directoryとは、|prodname| サーバーと同じネットワーク内にあるローカルエリアネットワーク（LAN）からのユーザーを指します。"
+
+#: ../../chapter11.rst:75
+msgid "**Server-Agent-Name**"
+msgstr "**サーバーエージェント名**"
+
+#: ../../chapter11.rst:77
+msgid ""
+"If you already have the \"Server Agent\" installed and the server agent "
+"is actively connected to |prodname|, you will also see the server agents "
+"listed by name in the Add User page."
+msgstr "すでに「サーバーエージェント」をインストールしており、そのサーバーエージェントが |prodname| にアクティブに接続されている場合は、ユーザー追加ページにサーバーエージェントが名前でリスト表示されます。"
+
+#: ../../chapter11.rst:83
+msgid "Native Users"
+msgstr "ネイティブユーザー"
+
+#: ../../chapter11.rst:85
+msgid ""
+"When a new user is created, the administrator will specify the amount of "
+"cloud storage that the new user is allowed to use. The email address will"
+" send a welcome email to the new user and will serve as his/her username."
+msgstr "新しいユーザーが作成されると、管理者はその新しいユーザーが使用できるクラウドストレージの容量を指定します。メールアドレスは新しいユーザーにウェルカムメールを送信し、そのメールアドレスがユーザー名として機能します。"
+
+#: ../../chapter11.rst:90
+msgid "ADDING A NATIVE USER"
+msgstr "ネイティブユーザーの追加"
+
+#: ../../chapter11.rst:94
+msgid ""
+"When quota is left as zero, it means no limitation until the tenant quota"
+" limit is hit."
+msgstr "クォータがゼロのままの場合、テナントのクォータ制限に達するまで制限はありません。"
+
+#: ../../chapter11.rst:97
+msgid "Active Directory Users from LDAP"
+msgstr "LDAPからのアクティブディレクトリユーザー"
+
+#: ../../chapter11.rst:99
+msgid ""
+"If the Active Directory (LDAP) is not already configured, you will need "
+"to configure it first. You can from \"Settings\" > \"Active Directory\", "
+"or \"Create or Migrate User\" > \"Active Directory\" to access the "
+"settings."
+msgstr "アクティブディレクトリ（LDAP）がまだ設定されていない場合は、最初に設定する必要があります。\"設定\" > \"アクティブディレクトリ\"、または \"ユーザーの作成または移行\" > \"アクティブディレクトリ\" から設定にアクセスできます。"
+
+#: ../../chapter11.rst:104
+msgid "CONFIGURE YOUR ACTIVE DIRECTORY SETTINGS"
+msgstr "アクティブディレクトリ設定を構成する"
+
+#: ../../chapter11.rst:106
+msgid ""
+"If the Active Directory (LDAP) is already configured, you will see the "
+"Active Directory name at the bottom of the AD icon in the \"Add User\" "
+"view."
+msgstr "Active Directory (LDAP)が既に設定されている場合は、「ユーザー追加」ビューのADアイコンの下部にActive Directory名が表示されます。"
+
+#: ../../chapter11.rst:108
+msgid "Add Active Directory Users where those users are from local area network."
+msgstr "ローカルエリアネットワークからのユーザーであるActive Directoryユーザーを追加します。"
+
+#: ../../chapter11.rst:113
+msgid "ADDING ACTIVE DIRECTORY USERS"
+msgstr "アクティブディレクトリユーザーの追加"
+
+#: ../../chapter11.rst:116
+msgid ""
+"After the Active Directory is configured, you can use the Add User wizard"
+" to import Active Directory users into |prodname|."
+msgstr "Active Directoryが設定された後、Add Userウィザードを使用してActive Directoryユーザーを |prodname| にインポートできます。"
+
+#: ../../chapter11.rst:121
+msgid ""
+"For best practice, you will only configure Active Directory via LDAP if "
+"the file server is also local in the same network as the Active Directory"
+" server."
+msgstr "ベストプラクティスとして、ファイルサーバーがActive Directoryサーバーと同じネットワーク内にある場合にのみ、LDAPを介してActive Directoryを設定します。"
+
+#: ../../chapter11.rst:126
+msgid "Active Directory Users from Server Agent"
+msgstr "サーバーエージェントからのアクティブディレクトリユーザー"
+
+#: ../../chapter11.rst:128
+msgid ""
+"When the Server Agent is available and connects to the specific tenant in"
+" |prodname|, the Server Agent will show up with the server's name at the "
+"bottom of the icon."
+msgstr "サーバーエージェントが利用可能で、|prodname| の特定のテナントに接続すると、サーバーエージェントはアイコンの下部にサーバーの名前と共に表示されます。"
+
+#: ../../chapter11.rst:132
+msgid ""
+"Click through the Server Agent icon, you will see the \"Add User\" wizard"
+" and complete the wizard to add users. This is very similar to the add AD"
+" user from local LDAP process above."
+msgstr "サーバーエージェントのアイコンをクリックすると、「ユーザー追加」ウィザードが表示されます。ウィザードに従ってユーザーを追加してください。これは上記のローカルLDAPからADユーザーを追加するプロセスと非常に似ています。"
+
+#: ../../chapter11.rst:136
+msgid ""
+"When the Active Directory is at a remote location, not directly connected"
+" to |prodname| server, Server Agent can be used to facilitate the "
+"communication. Server Agent doesn't need to be installed directly on a "
+"remote Active Directory server, the Server Agent needs to be installed on"
+" a remote file server that is part of the remote Active Directory domain."
+msgstr "アクティブディレクトリがリモートの場所にあり、|prodname| サーバーに直接接続されていない場合、サーバーエージェントを使用して通信を容易にすることができます。サーバーエージェントはリモートのアクティブディレクトリサーバーに直接インストールする必要はありませんが、リモートのファイルサーバーにインストールする必要があります。そのファイルサーバーはリモートのアクティブディレクトリドメインの一部である必要があります。"
+
+#: ../../chapter11.rst:140
+msgid "Deleting Users"
+msgstr "ユーザーの削除"
+
+#: ../../chapter11.rst:142
+msgid ""
+"When a user leaves the team, administrators can delete the user's login. "
+"Just click the Delete icon in 'User Manager' window."
+msgstr "ユーザーがチームを離れると、管理者はユーザーのログインを削除できます。'ユーザーマネージャー'ウィンドウで削除アイコンをクリックしてください。"
+
+#: ../../chapter11.rst:147
+msgid "DELETING A USER"
+msgstr "ユーザーの削除"
+
+#: ../../chapter11.rst:151
+msgid "Managing User Quotas"
+msgstr "ユーザークォータの管理"
+
+#: ../../chapter11.rst:153
+msgid ""
+"Administrators can assign a quota to each user. A user will not be "
+"allowed to upload files to |prodname| once their quota has been reached."
+msgstr "管理者は各ユーザーにクォータを割り当てることができます。クォータに達したユーザーは、|prodname| へのファイルのアップロードが許可されません。"
+
+#: ../../chapter11.rst:155
+msgid ""
+"If the quota is 0 for the user, there is no limit on how much storage the"
+" user can use."
+msgstr "ユーザーのクォータが0の場合、ユーザーが使用できるストレージ容量に制限はありません。"
+
+#: ../../chapter11.rst:157
+msgid ""
+"Click the 'Management Console' and select 'Users'. Click the \"Edit\" "
+"icon on an user to manage. On \"Storage\" tab, select \"Edit\" icon for "
+"storage quota."
+msgstr "「管理コンソール」をクリックし、「ユーザー」を選択します。ユーザーの「編集」アイコンをクリックして管理します。「ストレージ」タブで、ストレージクォータの「編集」アイコンを選択します。"
+
+#: ../../chapter11.rst:162
+msgid "EDITING STORAGE QUOTA"
+msgstr "ストレージクォータの編集"
+
+#: ../../chapter11.rst:166
+msgid "Managing User Credentials"
+msgstr "ユーザー資格情報の管理"
+
+#: ../../chapter11.rst:168
+msgid "Admins can change user passwords and login emails, if needed."
+msgstr "管理者は必要に応じて、ユーザーのパスワードやログイン用メールアドレスを変更できます。"
+
+#: ../../chapter11.rst:170
+msgid "Click 'Management Console' and select 'User Manager'"
+msgstr "「管理コンソール」をクリックして、「ユーザーマネージャ」を選択してください"
+
+#: ../../chapter11.rst:171
+msgid "Click the \"manage user\" menu icon in the user block"
+msgstr "「ユーザーブロック」で「ユーザー管理」メニューアイコンをクリックしてください"
+
+#: ../../chapter11.rst:172
+msgid "After that, can use \"Reset Password\" link to help the user."
+msgstr "その後、ユーザーを支援するために「パスワードをリセット」リンクを使用できます。"
+
+#: ../../chapter11.rst:177
+msgid "RESET USER PASSWORD"
+msgstr "ユーザーパスワードをリセット"
+
+#: ../../chapter11.rst:180
+msgid ""
+"After changing the login password, an email will be sent to notify the "
+"user of the change. Admins can choose to include the new password in the "
+"email, or exclude the new password from the email. If the password is not"
+" included, the admin will need to convey the new password to the user in "
+"some other way."
+msgstr "ログインパスワードを変更した後、変更をユーザーに通知するためのメールが送信されます。管理者は、新しいパスワードをメールに含めるか、またはメールから新しいパスワードを除外するかを選択できます。パスワードが含まれていない場合、管理者は何らかの他の方法でユーザーに新しいパスワードを伝える必要があります。"
+
+#: ../../chapter11.rst:185
+msgid "PASSWORD OPTIONS"
+msgstr "パスワードオプション"
+
+#: ../../chapter11.rst:188
+msgid ""
+"When either the email or password is changed, please update the "
+"corresponding login credentials in the |prodname| Cloud Desktop or Cloud "
+"Server."
+msgstr "メールアドレスまたはパスワードが変更された場合は、|prodname| クラウドデスクトップまたはクラウドサーバーの対応するログイン情報を更新してください。"
+
+#: ../../chapter11.rst:192
+msgid ""
+"This only applies to a native |prodname| user. If you have Active "
+"Directory users, you will need to manage user's credential the Active "
+"Directory way."
+msgstr "これはネイティブの |prodname| ユーザーにのみ適用されます。Active Directoryユーザーをお持ちの場合は、ユーザーの資格情報をActive Directoryの方法で管理する必要があります。"
+
+#: ../../chapter11.rst:196
+msgid "Team Folders"
+msgstr "チームフォルダ"
+
+#: ../../chapter11.rst:198
+msgid ""
+"Adding files and folders can be accomplished by clicking \"Add a new team"
+" folder\" (**+**) icon on \"Team Folders\" page. Once the **\"Team Folder"
+" Storage Locations\"** view opens you can choose from many options: "
+"Existing Tenant Storage, File Servers in Local Area Network, Remote File "
+"Servers or Cloud Storage."
+msgstr "ファイルやフォルダを追加するには、「チームフォルダ」ページで「新しいチームフォルダを追加」(**+**) アイコンをクリックします。**「チームフォルダのストレージ場所」** ビューが開いたら、既存のテナントストレージ、ローカルエリアネットワーク内のファイルサーバー、リモートファイルサーバー、またはクラウドストレージなど、多くのオプションから選択できます。"
+
+#: ../../chapter11.rst:203
+msgid "WAYS TO ADD STORAGE LOCATIONS"
+msgstr "ストレージ場所を追加する方法"
+
+#: ../../chapter11.rst:206
+msgid "**File Servers**"
+msgstr "**ファイルサーバー**"
+
+#: ../../chapter11.rst:208
+msgid ""
+"If you have an existing file server in the Local Area Network (LAN), you "
+"can import the network share directly to |prodname| **(1)**. Under Remote"
+" File Servers, you can install the Server Agent client **(2)** and access"
+" your file server remotely."
+msgstr "既存のファイルサーバーがローカルエリアネットワーク（LAN）内にある場合、そのネットワーク共有を直接 |prodname| **(1)** にインポートすることができます。リモートファイルサーバーでは、サーバーエージェントクライアント **(2)** をインストールして、ファイルサーバーにリモートアクセスすることができます。"
+
+#: ../../chapter11.rst:213
+msgid "ADDING REMOTE FILES"
+msgstr "リモートファイルの追加"
+
+#: ../../chapter11.rst:218
+msgid ""
+"The Server Agent is only required when the remote file server doesn't "
+"have direct LAN (local area network) access"
+msgstr "サーバーエージェントは、リモートファイルサーバーが直接LAN（ローカルエリアネットワーク）アクセスを持たない場合のみ必要です"
+
+#: ../../chapter11.rst:218
+msgid ""
+"to |prodname|. The Server Agent will be used in this case to facilitate "
+"communication between the |prodname| server to the remote file server."
+msgstr "を |prodname| へ。この場合、Server Agentは、|prodname| サーバーとリモートファイルサーバー間の通信を容易にするために使用されます。"
+
+#: ../../chapter11.rst:221
+msgid ""
+"|prodname| enables the creation of team folders which are owned by the "
+"administrator and published to other |prodname| users."
+msgstr "|prodname| は、管理者が所有し、他の |prodname| ユーザーに公開されるチームフォルダの作成を可能にします。"
+
+#: ../../chapter11.rst:223
+msgid ""
+"Once a folder is published, it is displayed as a team folder to the users"
+" who have access permissions. Users can access these folders from "
+"|prodname| Web or other client agents. The published folder will appear "
+"under the user's root folder, and its name will be appended with \"(Team "
+"Folder)\"."
+msgstr "フォルダが公開されると、アクセス権限を持つユーザーにチームフォルダとして表示されます。ユーザーは |prodname| Webやその他のクライアントエージェントからこれらのフォルダにアクセスできます。公開されたフォルダはユーザーのルートフォルダの下に表示され、「(チームフォルダ)」という名前が付けられます。"
+
+#: ../../chapter11.rst:229
+msgid "TEAM FOLDER TAG"
+msgstr "チームフォルダタグ"
+
+#: ../../chapter11.rst:233
+msgid ""
+"Different upload methods may have different advantage and disadvantage on"
+" different web browsers and different web browser configuration, such as "
+"whether it is HTML5 enabled, Java enabled or Flash enabled."
+msgstr "異なるアップロード方法には、それがHTML5対応、Java対応、またはFlash対応かどうかなど、異なるウェブブラウザやウェブブラウザの設定によって、異なる利点と欠点があります。"
+
+#: ../../chapter11.rst:236
+msgid ""
+"By default, only one upload method was exposed in the web user interface."
+" However, the tenant administrator, based on the kind of web browser the "
+"company is using and the kind of configuration the web browser has, can "
+"decide which upload method to expose to the end user (Team User)."
+msgstr "デフォルトでは、Webユーザーインターフェースには1つのアップロード方法のみが露出していました。しかし、テナント管理者は、会社が使用しているWebブラウザの種類とWebブラウザの設定に基づいて、エンドユーザー（チームユーザー）に露出するアップロード方法を決定することができます。"
+
+#: ../../chapter11.rst:239
+msgid ""
+"Below is the Settings -> Clients & Applications -> Web Portal setting "
+"administrator can control."
+msgstr "以下は、管理者が制御できる設定 -> クライアントとアプリケーション -> Webポータルの設定です。"
+
+#: ../../chapter11.rst:244
+msgid "UPLOADER METHOD OPTIONS"
+msgstr "アップローダーメソッドオプション"
+
+#: ../../chapter11.rst:246
+msgid "Web Browser - Disable Java Uploader"
+msgstr "ウェブブラウザ - Javaアップローダーを無効にする"
+
+#: ../../chapter11.rst:248
+msgid ""
+"Deselect this if your companies' desktop system web browsers use a Java "
+"Uploader."
+msgstr "会社のデスクトップシステムのWebブラウザがJavaアップローダーを使用している場合は、これを選択解除してください。"
+
+#: ../../chapter11.rst:250
+msgid "Web Browser - Disable Flash Uploader"
+msgstr "ウェブブラウザ - Flashアップローダーを無効にする"
+
+#: ../../chapter11.rst:252
+msgid ""
+"Deselect this if your company uses browsers that require Flash uploader "
+"functionality."
+msgstr "お使いの会社がFlashアップローダー機能を必要とするブラウザを使用している場合は、これを選択解除してください。"
+
+#: ../../chapter11.rst:254
+msgid "Web Browser - Disable Local Uploader"
+msgstr "ウェブブラウザ - ローカルアップローダーを無効にする"
+
+#: ../../chapter11.rst:256
+msgid ""
+"Deselect this if your company allows the use of a local executable to "
+"upload files."
+msgstr "会社がローカル実行ファイルを使用してファイルをアップロードすることを許可している場合は、これを選択解除してください。"
+
+#: ../../chapter11.rst:260
+msgid "Sharing Security"
+msgstr "共有セキュリティ"
+
+#: ../../chapter11.rst:263
+msgid "Preventing Users From Sharing"
+msgstr "ユーザーによる共有を防止する"
+
+#: ../../chapter11.rst:265
+msgid ""
+"Sometimes for security reasons, users should not be allowed to share "
+"files/folders."
+msgstr "セキュリティ上の理由から、ユーザーによるファイル/フォルダーの共有を許可しないことがあります。"
+
+#: ../../chapter11.rst:267
+msgid "There are two types of files and folders a user can access."
+msgstr "ユーザーがアクセスできるファイルとフォルダには、二つのタイプがあります。"
+
+#: ../../chapter11.rst:269
+msgid ""
+"User's own folders, including versioned folders and attached local "
+"folders from the user's desktop."
+msgstr "ユーザー自身のフォルダ、バージョン管理されたフォルダやユーザーのデスクトップから添付されたローカルフォルダを含む。"
+
+#: ../../chapter11.rst:271
+msgid ""
+"When an administrator creates new users, he/she can disable sharing home "
+"directory content with external party, to prevent the newly created user "
+"from sharing his/her own files and folders."
+msgstr "管理者が新しいユーザーを作成する際、外部の者とホームディレクトリの内容を共有することを禁止することができます。これにより、新しく作成されたユーザーが自分のファイルやフォルダーを共有することを防ぎます。"
+
+#: ../../chapter11.rst:277
+msgid "MANAGE USER SETTINGS"
+msgstr "ユーザー設定を管理する"
+
+#: ../../chapter11.rst:279
+msgid ""
+"In the Manage User panel, access the \"Storage\" settings (4). Once you "
+"are in the Storage View you can select (5) the \"Disable external sharing"
+" of this user's home directory content\" option."
+msgstr "「ユーザー管理」パネルで、「ストレージ」設定(4)にアクセスします。ストレージビューに入ると、このユーザーのホームディレクトリの内容の外部共有を無効にする(5)オプションを選択できます。"
+
+#: ../../chapter11.rst:284
+msgid "DISABLE EXTERNAL SHARING"
+msgstr "外部共有を無効にする"
+
+#: ../../chapter11.rst:287
+msgid ""
+"When publishing a team folder, administrator can check 'Disable further "
+"sharing', to prevent users from sharing anything in the team folder. You "
+"can access this setting after choosing your storage location. Click the "
+"\"Create Team Folder\" **(+)** icon (1) and select your storage type (2),"
+" \"New Team Folder\" window opens, click \"Settings\" icon (3), then "
+"select the \"Disable further sharing\" option (4)."
+msgstr "チームフォルダを公開する際、管理者は「さらなる共有を禁止する」をチェックして、チームフォルダ内のあらゆる共有を防ぐことができます。この設定には、ストレージの場所を選んだ後でアクセスできます。「チームフォルダの作成」 **(+)** アイコン(1)をクリックし、ストレージタイプを選択(2)します。「新しいチームフォルダ」ウィンドウが開いたら、「設定」アイコン(3)をクリックし、「さらなる共有を禁止する」オプション(4)を選択します。"
+
+#: ../../chapter11.rst:292
+msgid "DISABLE FURTHER SHARING"
+msgstr "それ以上の共有を無効にする"
+
+#: ../../chapter11.rst:296
+msgid "Protecting Shares By Requiring Login"
+msgstr "ログインを要求することで共有を保護する"
+
+#: ../../chapter11.rst:298
+msgid ""
+"When a user shares a file or folder, |prodname| will generate a URL. By "
+"default, anyone can use the URL to access the share."
+msgstr "ユーザーがファイルまたはフォルダーを共有すると、|prodname| はURLを生成します。デフォルトでは、誰でもそのURLを使用して共有にアクセスできます。"
+
+#: ../../chapter11.rst:300
+msgid ""
+"Administrators can protect shares by requiring login credentials. Once "
+"enabled, when a user accesses the share URL, he /she will be prompted to "
+"login to the |prodname| Cloud. After login, the user can view the "
+"file/folder shared with him/her under 'Files shared with me'."
+msgstr "管理者は、ログイン資格情報を要求することで共有を保護できます。有効にすると、ユーザーが共有URLにアクセスすると、|prodname| クラウドにログインするように求められます。ログイン後、ユーザーは「私と共有されたファイル」の下で彼または彼女と共有されたファイル/フォルダを閲覧できます。"
+
+#: ../../chapter11.rst:303
+msgid ""
+"To access this setting use the \"Settings\" menu (1) and in the \"Data "
+"Leak Protection\" (2) -> \"Sharing\" (3) panel, select the \"Users must "
+"log in to access the content in 'Files shared with me' folder\" setting "
+"(4)."
+msgstr "この設定にアクセスするには、「設定」メニュー(1)から「データ漏洩防止」(2) -> 「共有」(3)パネルを選択し、「共有されたファイル」フォルダ内のコンテンツにアクセスするためにはユーザーがログインする必要があります」設定(4)を選択します。"
+
+#: ../../chapter11.rst:308
+msgid "SECURING SHARED FILES AND FOLDERS"
+msgstr "共有ファイルとフォルダのセキュリティ"
+

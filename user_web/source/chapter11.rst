@@ -139,7 +139,7 @@ Click through the Server Agent icon, you will see the "Add User" wizard and comp
 Deleting Users
 -------------------
 
-When a user leaves the team, administrators can delete the user’s login. Just click the Delete icon in ‘User Manager’ window.
+When a user leaves the team, administrators can delete the user's login. Just click the Delete icon in 'User Manager' window.
 
 .. figure:: _static/image_s12_1_4-03192025.png
     :align: center
@@ -154,7 +154,7 @@ Administrators can assign a quota to each user. A user will not be allowed to up
 
 If the quota is 0 for the user, there is no limit on how much storage the user can use.
 
-Click the ‘Management Console’ and select ‘Users’. Click the "Edit" icon on an user to manage. On "Storage" tab, select "Edit" icon for storage quota.
+Click the 'Management Console' and select 'Users'. Click the "Edit" icon on an user to manage. On "Storage" tab, select "Edit" icon for storage quota.
 
 .. figure:: _static/image_s12_1_5-03192025.png
     :align: center
@@ -167,7 +167,7 @@ Managing User Credentials
 
 Admins can change user passwords and login emails, if needed.
 
-* Click ‘Management Console’ and select ‘User Manager’
+* Click 'Management Console' and select 'User Manager'
 * Click the "manage user" menu icon in the user block
 * After that, can use "Reset Password" link to help the user.
 

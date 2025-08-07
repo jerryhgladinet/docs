@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../sharing_collaborating.rst:2
+msgid "Sharing and Collaborating"
+msgstr "Delen en Samenwerken"
+
+#: ../../sharing_collaborating.rst:4
+msgid "User can select the files or folders to share from the Android devices."
+msgstr "Gebruiker kan de bestanden of mappen selecteren om te delen vanaf de Android-apparaten."
+
+#: ../../sharing_collaborating.rst:10
+msgid "Share"
+msgstr "Delen"
+
+#: ../../sharing_collaborating.rst:12
+msgid ""
+"User will be redirected to the **Share/Invite User** screen. There, add "
+"the email addresses of the users and select different options for "
+"sharing. Press the \">\" icon to add users to the share."
+msgstr "Gebruiker wordt doorgestuurd naar het **Delen/Uitnodigen Gebruiker** scherm. Voeg daar de e-mailadressen van de gebruikers toe en selecteer verschillende opties voor het delen. Druk op het \">\" icoon om gebruikers toe te voegen aan de deelactie."
+
+#: ../../sharing_collaborating.rst:17
+msgid ""
+"On the next screen, touch the yellow arrow to select \"**Continue as it "
+"is now**\" (read-only access). Or select \"**Add user as a Guest User**\""
+" to get access to other settings."
+msgstr "Op het volgende scherm raak je de gele pijl aan om \"**Doorgaan zoals het nu is**\" te selecteren (alleen-lezen toegang). Of selecteer \"**Gebruiker toevoegen als Gastgebruiker**\" om toegang te krijgen tot andere instellingen."
+
+#: ../../sharing_collaborating.rst:21
+msgid ""
+"Before sending email share notification, specify how the user(s) can "
+"access the file or folder."
+msgstr "Voordat u een e-mail deelnotificatie verzendt, specificeer hoe de gebruiker(s) toegang kunnen krijgen tot het bestand of de map."
+
+#: ../../sharing_collaborating.rst:23
+msgid "Set the expiration time for the share."
+msgstr "Stel de vervaltijd in voor de share."
+
+#: ../../sharing_collaborating.rst:24
+msgid "Select \"Read Only\" or \"Full Control\"."
+msgstr "Selecteer \"Alleen lezen\" of \"Volledige controle\"."
+
+#: ../../sharing_collaborating.rst:25
+msgid "Select \"View only (no Download)\" if desired."
+msgstr "Selecteer \"Alleen bekijken (geen download)\" indien gewenst."
+
+#: ../../sharing_collaborating.rst:26
+msgid "Select \"Password Protection\" and enter a password."
+msgstr "Selecteer \"Wachtwoordbeveiliging\" en voer een wachtwoord in."
+
+#: ../../sharing_collaborating.rst:27
+msgid ""
+"Disable password protection and allow the user to create their own "
+"password from the link in the email they receive."
+msgstr "Schakel wachtwoordbeveiliging uit en sta de gebruiker toe om hun eigen wachtwoord aan te maken via de link in de e-mail die ze ontvangen."
+
+#: ../../sharing_collaborating.rst:29
+msgid "When selected the sharing options, tap on \"Share\" at the top right."
+msgstr "Wanneer de deelopties geselecteerd zijn, tik op 'Delen' rechtsboven."
+
+#: ../../sharing_collaborating.rst:34
+msgid ""
+"Sharing with an email user creates a **Guest User**. Each licensed user "
+"can create 3 guest user accounts. If there are 3 licensed users, then a "
+"total of 9 guest users can be added for that tenant. If the number of "
+"guest users has reached the limit, and the tenant is set up to auto grow "
+"the number of licensed users, then one more license will be added to the "
+"tenant."
+msgstr "Delen met een e-mailgebruiker creëert een **Gastgebruiker**. Elke gelicentieerde gebruiker kan 3 gastgebruiker accounts aanmaken. Als er 3 gelicentieerde gebruikers zijn, dan kunnen in totaal 9 gastgebruikers worden toegevoegd voor die tenant. Als het aantal gastgebruikers de limiet heeft bereikt, en de tenant is ingesteld om het aantal gelicentieerde gebruikers automatisch te verhogen, dan zal er één extra licentie worden toegevoegd aan de tenant."
+
+#: ../../sharing_collaborating.rst:38
+msgid "Share Via"
+msgstr "Delen Via"
+
+#: ../../sharing_collaborating.rst:40
+msgid ""
+"User can share the file with a third-party application such as Gmail or "
+"WhatsApp."
+msgstr "Gebruiker kan het bestand delen met een externe applicatie zoals Gmail of WhatsApp."
+
+#: ../../sharing_collaborating.rst:46
+msgid "Get Public Link"
+msgstr "Openbare link ophalen"
+
+#: ../../sharing_collaborating.rst:48
+msgid ""
+"A URL will be provided that can be used to paste into an email or other "
+"field to share public read-only access to the file."
+msgstr "Er zal een URL worden verstrekt die gebruikt kan worden om in een e-mail of ander veld te plakken om openbare alleen-lezen toegang tot het bestand te delen."
+
+#: ../../sharing_collaborating.rst:54
+msgid "Share Manager"
+msgstr "Deelbeheer"
+
+#: ../../sharing_collaborating.rst:56
+msgid ""
+"User will be taken to a view and will see a list of all shares associated"
+" with the item. Tap on on a shared user, to resend the **share email** "
+"(1) and **get public link** (2)."
+msgstr "Gebruiker wordt naar een overzicht geleid en ziet een lijst van alle gedeelde items. Tik op een gedeelde gebruiker, om de **deel e-mail** (1) opnieuw te verzenden en **openbare link verkrijgen** (2)."
+
+#: ../../sharing_collaborating.rst:58
+msgid ""
+"To delete a user share, press the **trash can** (3) icon next to the "
+"share. This will remove the share and prevent access by that user."
+msgstr "Om een gebruikersshare te verwijderen, druk op het **prullenbak** (3) icoon naast de share. Dit zal de share verwijderen en de toegang door die gebruiker voorkomen."
+
+#: ../../sharing_collaborating.rst:60
+msgid ""
+"Touching the Share Menu button at the bottom right of the screen will "
+"give more options. **Add more users** (4) to the share list, **Share "
+"Via** (5) this file, **copy public (read-only) link** (2) to the "
+"clipboard, **refresh the list** (6)."
+msgstr "Als u op de knop 'Delen Menu' rechtsonder op het scherm drukt, krijgt u meer opties. **Voeg meer gebruikers** (4) toe aan de deellijst, **Deel Via** (5) dit bestand, **kopieer openbare (alleen-lezen) link** (2) naar het klembord, **ververs de lijst** (6)."
+
+#: ../../sharing_collaborating.rst:67
+msgid "Request a File"
+msgstr "Vraag een bestand aan"
+
+#: ../../sharing_collaborating.rst:69
+msgid ""
+"This option is available only for folders. Selecting **Request a file** "
+"will take to a screen where user can share a link with another user so "
+"they can upload files to a specific folder."
+msgstr "Deze optie is alleen beschikbaar voor mappen. Als u **Een bestand aanvragen** selecteert, wordt u naar een scherm geleid waar de gebruiker een link kan delen met een andere gebruiker zodat ze bestanden kunnen uploaden naar een specifieke map."
+
+#: ../../sharing_collaborating.rst:77
+msgid "Files Shared with Me"
+msgstr "Met mij gedeelde bestanden"
+
+#: ../../sharing_collaborating.rst:79
+msgid ""
+"User can access files shared by other users from **Files Shared with Me**"
+" from the side menu."
+msgstr "Gebruiker kan toegang krijgen tot bestanden die door andere gebruikers zijn gedeeld vanuit **Bestanden die met mij zijn gedeeld** in het zijmenu."
+

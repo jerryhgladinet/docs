@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../settings.rst:2
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: ../../settings.rst:4
+msgid ""
+"Here users can make changes for the app settings. If the user have set up"
+" a profile photo via the web portal, can see it through the person icon."
+msgstr "Her kan brugerne foretage ændringer for appindstillingerne. Hvis brugeren har opsat et profilfoto via webportalen, kan det ses gennem personikonet."
+
+#: ../../settings.rst:8
+msgid "Personal Information"
+msgstr "Personlige oplysninger"
+
+#: ../../settings.rst:10
+msgid "Under **Personal Information** User basic details will be shown."
+msgstr "Under **Personlige oplysninger** vil brugerens grundlæggende detaljer blive vist."
+
+#: ../../settings.rst:15
+msgid "Name"
+msgstr "Navn"
+
+#: ../../settings.rst:17
+msgid ""
+"Displays the username, which can be edited by touching the pencil button."
+" After updated, touch in the green icon to save the change."
+msgstr "Viser brugernavnet, som kan redigeres ved at røre ved blyantknappen. Efter opdatering skal du røre ved det grønne ikon for at gemme ændringen."
+
+#: ../../settings.rst:25
+msgid "Email"
+msgstr "E-mail"
+
+#: ../../settings.rst:27
+msgid ""
+"Shows the user's email address, which can be edited by touching the "
+"pencil button. Then, touch on the green icon to save the change."
+msgstr "Viser brugerens e-mailadresse, som kan redigeres ved at røre ved blyantknappen. Rør derefter på det grønne ikon for at gemme ændringen."
+
+#: ../../settings.rst:33
+msgid "The login password can also be updated by touching on the key button."
+msgstr "Loginadgangskoden kan også opdateres ved at røre ved nøgleknappen."
+
+#: ../../settings.rst:38
+msgid "Quota Used"
+msgstr "Kvote Brugt"
+
+#: ../../settings.rst:40
+msgid "Here users can view the information about his used quota."
+msgstr "Her kan brugerne se oplysninger om deres brugte kvote."
+
+#: ../../settings.rst:45
+msgid "Theme"
+msgstr "Tema"
+
+#: ../../settings.rst:47
+msgid ""
+"To change the theme color of the App, choose the preferred one from the "
+"list provided. The default color for Cloud Drive app is **Blue**."
+msgstr "For at ændre temaets farve på App'en, vælg den foretrukne fra listen. Standardfarven for Cloud Drive appen er **Blå**."
+
+#: ../../settings.rst:52
+msgid "Security"
+msgstr "Sikkerhed"
+
+#: ../../settings.rst:54
+msgid ""
+"More security can be added to the app. When closing and reopening, a PIN "
+"or Biometrics check can be added to prevent accessing the root files."
+msgstr "Der kan tilføjes mere sikkerhed til appen. Når man lukker og åbner igen, kan en PIN-kode eller biometrisk kontrol tilføjes for at forhindre adgang til rod-filerne."
+
+#: ../../settings.rst:57
+msgid "PIN Code"
+msgstr "PIN-kode"
+
+#: ../../settings.rst:60
+msgid "Enable PIN Code"
+msgstr "Aktivér PIN-kode"
+
+#: ../../settings.rst:62
+msgid "Enable PIN Code by touching the corresponding switch:"
+msgstr "Aktivér PIN-kode ved at røre ved den tilsvarende kontakt:"
+
+#: ../../settings.rst:66
+msgid ""
+"Then, a dialog box will appear where can enter PIN Code. A PIN Code is a "
+"4-digit number."
+msgstr "Derefter vises en dialogboks, hvor du kan indtaste PIN-kode. En PIN-kode er et 4-cifret nummer."
+
+#: ../../settings.rst:70
+msgid ""
+"Once confirmed the PIN, will return to the Settings page and see that the"
+" PIN Code is enabled."
+msgstr "Når PIN-koden er bekræftet, vil du vende tilbage til Indstillinger-siden og se, at PIN-koden er aktiveret."
+
+#: ../../settings.rst:74
+msgid ""
+"When closing and reopening the app, a dialog box will appear asking for "
+"the PIN Code. Users can also close this dialog box and enter the user "
+"password instead."
+msgstr "Når du lukker og genåbner appen, vil der fremkomme en dialogboks, der beder om PIN-koden. Brugere kan også lukke denne dialogboks og indtaste brugeradgangskoden i stedet."
+
+#: ../../settings.rst:76
+msgid "After authenticated, can access all files and folders."
+msgstr "Efter godkendelse kan alle filer og mapper tilgås."
+
+#: ../../settings.rst:83
+msgid "Reset PIN"
+msgstr "Nulstil PIN-kode"
+
+#: ../../settings.rst:85
+msgid "Reset the PIN is possible by tapping the **Reset PIN** button:"
+msgstr "Nulstilling af PIN-koden er mulig ved at trykke på **Nulstil PIN**-knappen:"
+
+#: ../../settings.rst:89
+msgid ""
+"To reset PIN, first enter the old PIN and then enter the new PIN twice to"
+" confirm. Once the new PIN is activated, can use the new PIN to access "
+"the app."
+msgstr "For at nulstille PIN-koden skal du først indtaste den gamle PIN-kode og derefter indtaste den nye PIN-kode to gange for at bekræfte. Når den nye PIN-kode er aktiveret, kan bruge den nye PIN-kode til at få adgang til appen."
+
+#: ../../settings.rst:94
+msgid "Remove PIN"
+msgstr "Fjern PIN-kode"
+
+#: ../../settings.rst:96
+msgid ""
+"The PIN Code can be removed by touching the switch or by tapping on "
+"**Reset PIN** and use **Remove PIN**."
+msgstr "PIN-koden kan fjernes ved at røre ved kontakten eller ved at trykke på **Nulstil PIN** og bruge **Fjern PIN**."
+
+#: ../../settings.rst:102
+msgid "Enter the PIN Code to remove it:"
+msgstr "Indtast PIN-koden for at fjerne den:"
+
+#: ../../settings.rst:106
+msgid "Touch **Use Password** to use the user password to remove the PIN:"
+msgstr "Tryk på **Brug adgangskode** for at bruge brugeradgangskoden til at fjerne PIN-koden:"
+
+#: ../../settings.rst:111
+msgid "Biometrics Sign in"
+msgstr "Biometrisk log ind"
+
+#: ../../settings.rst:114
+msgid "Enable Biometrics"
+msgstr "Aktivér biometri"
+
+#: ../../settings.rst:116
+msgid "Enable Biometrics by tapping this switch:"
+msgstr "Aktivér biometri ved at trykke på denne kontakt:"
+
+#: ../../settings.rst:120
+msgid ""
+"If a yellow warning message is shown, it means the device does not have "
+"any biometrics enrolled. Go to the Settings and set this up."
+msgstr "Hvis der vises en gul advarselsbesked, betyder det, at enheden ikke har nogen biometriske data registreret. Gå til Indstillinger og opsæt dette."
+
+#: ../../settings.rst:124
+msgid ""
+"After tapping on the switch, will see a dialog box where can authenticate"
+" the biometrics. The biometrics can be a fingerprint or a face ID."
+msgstr "Efter at have trykket på kontakten, vil se en dialogboks, hvor kan godkende biometrien. Biometrien kan være et fingeraftryk eller ansigtsgenkendelse."
+
+#: ../../settings.rst:128
+msgid ""
+"When closing and reopening the app, a dialog box appears asking for "
+"Biometrics Authentication. Can also close this dialog and enter the user "
+"password instead."
+msgstr "Når du lukker og genåbner appen, vises en dialogboks, der beder om biometrisk godkendelse. Du kan også lukke denne dialog og indtaste brugeradgangskoden i stedet."
+
+#: ../../settings.rst:130
+msgid "After authentication, user can access the files and folders."
+msgstr "Efter godkendelse kan brugeren få adgang til filer og mapper."
+
+#: ../../settings.rst:137
+msgid "Remove Biometrics"
+msgstr "Fjern biometri"
+
+#: ../../settings.rst:139
+msgid "Remove Biometrics by touching the switch:"
+msgstr "Fjern biometri ved at røre ved kontakten:"
+
+#: ../../settings.rst:143
+msgid "Authenticate to remove biometrics:"
+msgstr "Godkend for at fjerne biometri:"
+
+#: ../../settings.rst:147
+msgid ""
+"Or tap in **Use Password** to use the user password to remove the "
+"biometrics:"
+msgstr "Eller tryk på **Brug adgangskode** for at bruge brugeradgangskoden til at fjerne biometrien:"
+
+#: ../../settings.rst:152
+msgid "Only enable either PIN Code or Biometrics at the same time."
+msgstr "Aktivér kun enten PIN-kode eller biometri på samme tid."
+
+#: ../../settings.rst:155
+msgid "Notification Center"
+msgstr "Notifikationscenter"
+
+#: ../../settings.rst:157
+msgid ""
+"In this section, can enable notifications for the app while uploading and"
+" downloading."
+msgstr "I dette afsnit kan aktivere notifikationer for appen under upload og download."
+
+#: ../../settings.rst:161
+msgid ""
+"Enable **All Notifications** gives the CentreStack app permission to send"
+" all notifications."
+msgstr "Aktivering af **Alle notifikationer** giver CentreStack-appen tilladelse til at sende alle notifikationer."
+
+#: ../../settings.rst:163
+msgid ""
+"Also enable other notifications by selecting **File Synced Up**, **File "
+"Synced Down**, and **Cache Updated**."
+msgstr "Aktivér også andre notifikationer ved at vælge **Fil Synkroniseret Op**, **Fil Synkroniseret Ned**, og **Cache Opdateret**."
+
+#: ../../settings.rst:166
+msgid "Media Backup"
+msgstr "Mediebackup"
+
+#: ../../settings.rst:168
+msgid ""
+"Set up a **Media Backup** folder to synchronize media files from the "
+"local phone storage."
+msgstr "Opret en **Media Backup** mappe for at synkronisere mediefiler fra den lokale telefontilstand."
+
+#: ../../settings.rst:171
+msgid "Set up Backup Folder"
+msgstr "Opsæt sikkerhedskopi-mappe"
+
+#: ../../settings.rst:173
+msgid ""
+"Touch the pencil button to set a name for the backup folder, and tap the "
+"green check mark button to save."
+msgstr "Tryk på blyantknappen for at sætte et navn til backup-mappen, og tryk på den grønne fluebenknap for at gemme."
+
+#: ../../settings.rst:179
+msgid ""
+"Tap on the switch to enable **Media Backup**. If permission to media "
+"files are not granted for the app, a dialog will appear asking to allow "
+"the app to access media files."
+msgstr "Tryk på kontakten for at aktivere **Media Backup**. Hvis der ikke er givet tilladelse til mediefiler for appen, vil der dukke en dialogboks op, der beder om at tillade appen at få adgang til mediefiler."
+
+#: ../../settings.rst:183
+msgid ""
+"If the name of an existing folder matches the backup folder name, will "
+"receive a warning to either change to a different backup folder name or "
+"use that folder as the backup folder."
+msgstr "Hvis navnet på en eksisterende mappe matcher navnet på backupmappen, vil modtage en advarsel om enten at ændre til et andet backupmappenavn eller bruge den mappe som backupmappe."
+
+#: ../../settings.rst:187
+msgid ""
+"Go back to the root directory and check the media backup folder with an "
+"attached folder icon. The backup media files are located in the folder "
+"under the device type name."
+msgstr "Gå tilbage til rodmappen og tjek mediebackupmappen med et tilknyttet mappeikon. Backupmediefilerne er placeret i mappen under navnet på enhedstypen."
+
+#: ../../settings.rst:194
+msgid "Backup Folder Disconnection"
+msgstr "Sikkerhedskopieringsmappeafbrydelse"
+
+#: ../../settings.rst:196
+msgid ""
+"To disconnect from the Media Backup folder, just tap on the switch to "
+"close it."
+msgstr "For at afbryde forbindelsen til Media Backup-mappen skal du blot trykke på kontakten for at lukke den."
+
+#: ../../settings.rst:201
+msgid "Wi-Fi Only"
+msgstr "Kun Wi-Fi"
+
+#: ../../settings.rst:203
+msgid ""
+"If this switch is enabled, media files can only be synchronized under Wi-"
+"Fi connection."
+msgstr "Hvis denne kontakt er aktiveret, kan mediefiler kun synkroniseres under Wi-Fi-forbindelse."
+
+#: ../../settings.rst:208
+msgid "Cache"
+msgstr "Cache"
+
+#: ../../settings.rst:210
+msgid ""
+"The Cache size is calculated from temporary files, icons and previews. "
+"This can be cleared using the button below."
+msgstr "Cachestørrelsen beregnes ud fra midlertidige filer, ikoner og forhåndsvisninger. Dette kan ryddes ved hjælp af knappen nedenfor."
+
+#: ../../settings.rst:217
+msgid "Favorite Files cannot be removed when the File Cache is cleared."
+msgstr "Favoritfiler kan ikke fjernes, når filcachen ryddes."
+

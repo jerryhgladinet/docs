@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "Getting Started"
+msgstr "入门"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the Triofox Web Portal User Guide. This guide describes web "
+"portal functionality for users as well as administrators in Triofox."
+msgstr "欢迎使用Triofox Web门户用户指南。本指南描述了Triofox中用户和管理员的Web门户功能。"
+
+#: ../../index.rst:11
+msgid ""
+"Triofox helps businesses mobilize their file servers by enhancing "
+"existing Windows file servers with secure remote acccess, mobile file "
+"sharing, data protection and cloud migration, while addressing business "
+"concerns about security, privacy, compliance and control."
+msgstr "Triofox 通过增强现有的 Windows 文件服务器，为其提供安全的远程访问、移动文件共享、数据保护和云迁移功能，帮助企业实现文件服务器的移动化，同时解决了企业对安全性、隐私、合规性和控制的担忧。"
+
+#: ../../index.rst:14
+msgid ""
+"Triofox adds ransomware protection and automatic alert mechanism to your "
+"file servers. It continously monitors all the Triofox clients for any "
+"unusual activity and will automatically shut them down if it sees a "
+"possible attack."
+msgstr "Triofox 为您的文件服务器增加了勒索软件保护和自动警报机制。它持续监控所有 Triofox 客户端的任何异常活动，如果发现可能的攻击，将自动将它们关闭。"
+
+#: ../../index.rst:17
+msgid ""
+"Triofox removes any need for businesses to rely on a VPN or a company "
+"computer to securely access files. With Triofox, data sprawl is "
+"eliminated as data stays on local file servers and mobile productivity is"
+" balanced by centralized management and access controls."
+msgstr "Triofox消除了企业依赖VPN或公司计算机安全访问文件的需求。通过Triofox，数据扩散被消除，因为数据保留在本地文件服务器上，而移动生产力通过集中管理和访问控制得到平衡。"
+
+#: ../../index.rst:20
+msgid ""
+"Triofox natively integrates with Active Directory and maintains all the "
+"existing NTFS permissions and there is no need to recreate any user "
+"identities. With military grade encryption and secure connections, use "
+"existing users and permissions to save setup time and money. files stay "
+"on local file servers and encrypted at the end point cache."
+msgstr "Triofox 本地集成了 Active Directory，并保留了所有现有的 NTFS 权限，无需重新创建任何用户身份。通过军用级别的加密和安全连接，使用现有的用户和权限来节省设置时间和金钱。文件保留在本地文件服务器上，并在端点缓存处加密。"
+
+#: ../../index.rst:24
+msgid ""
+"Triofox includes the backend Triofox server, which runs on Windows server"
+" platform, and front end client applications for Microsoft Windows, Mac "
+"OSx, and mobile clients for the Android and Apple iOS operating systems."
+msgstr "Triofox包括后端Triofox服务器，该服务器运行在Windows服务器平台上，以及前端客户端应用程序，支持Microsoft Windows、Mac OSx，以及针对Android和Apple iOS操作系统的移动客户端。"
+
+#: ../../index.rst:28
+msgid ""
+"The Web portal is an important part of the solution for the following "
+"reasons:"
+msgstr "Web门户是解决方案的重要组成部分，原因如下："
+
+#: ../../index.rst:30
+msgid "most of the management work is done on the web portal."
+msgstr "大部分管理工作都是在网页门户上完成的。"
+
+#: ../../index.rst:31
+msgid ""
+"downloading other native client agent softwares starts from the web "
+"portal."
+msgstr "从网页门户开始下载其他原生客户端代理软件。"
+
+#: ../../index.rst:32
+msgid ""
+"web browser file manager have rich and responsive feature to manage "
+"files, sharing and collaboration."
+msgstr "网页浏览器文件管理器具有丰富且响应迅速的功能，用于管理文件、共享和协作。"
+
+#: ../../index.rst:34
+msgid ""
+"Other important features and functions of the web portal are also covered"
+" in this document."
+msgstr "本文档还涵盖了网页门户的其他重要功能和特性。"
+
+#: ../../index.rst:39
+msgid "The web portal user guide is updated for version |release|"
+msgstr "网页门户用户指南已针对版本 |release| 进行了更新"
+

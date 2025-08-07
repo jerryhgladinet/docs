@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter12.rst:3
+msgid "Advanced Topics"
+msgstr "Avancerade ämnen"
+
+#: ../../chapter12.rst:5
+msgid ""
+"These advanced topics require changes to the web.config file which is "
+"critical for the smooth operation of CentreStack, therefore, it is not "
+"recommended that you change the web.config file without first consulting "
+"Gladinet support."
+msgstr "Dessa avancerade ämnen kräver ändringar i web.config-filen som är avgörande för CentreStacks smidiga funktion, därför rekommenderas det inte att du ändrar web.config-filen utan att först rådgöra med Gladinet support."
+
+#: ../../chapter12.rst:10
+msgid "Split Database"
+msgstr "Dela upp databas"
+
+#: ../../chapter12.rst:12
+msgid "The database contains two types of information."
+msgstr "Databasen innehåller två typer av information."
+
+#: ../../chapter12.rst:14
+msgid ""
+"The first type of information is the configuration data that is "
+"relatively static. For example, user name, user email, user's published "
+"shared files and folder etc. This type of information is relatively "
+"small. It can be estimated at 5000 bytes per user. So if you have 2000 "
+"users, it can be estimated at 10 MB."
+msgstr "Den första typen av information är konfigurationsdata som är relativt statisk. Till exempel användarnamn, användarens e-post, användarens publicerade delade filer och mappar etc. Denna typ av information är relativt liten. Den kan uppskattas till 5000 byte per användare. Så om du har 2000 användare kan det uppskattas till 10 MB."
+
+#: ../../chapter12.rst:17
+msgid ""
+"The second type of information is relatively more volatile. For example, "
+"the file change log, the audit trace and the file list for index. It can "
+"be estimated at 100 file changes per user per day and each file change "
+"can be estimated at 1000 bytes for database storage. So for a 15 day "
+"(Default change log history), it can be estimated at 100*1000*15 = 1.5MB "
+"per user for 15 day period. If you need HIPPA compliance, the default "
+"change log history can be significantly longer so this part of the "
+"database will be much bigger."
+msgstr "Den andra typen av information är relativt mer flyktig. Till exempel filändringsloggen, revisionsspåret och filförteckningen för indexering. Det kan uppskattas till 100 filändringar per användare och dag och varje filändring kan uppskattas till 1000 byte för databaslagring. Så för en 15 dagars period (standardhistorik för ändringslogg), kan det uppskattas till 100*1000*15 = 1,5 MB per användare för en 15-dagarsperiod. Om du behöver HIPPA-efterlevnad kan standardhistoriken för ändringslogg vara avsevärt längre så den här delen av databasen kommer att vara mycket större."
+
+#: ../../chapter12.rst:23
+msgid ""
+"For performance and regulatory reasons, it is recommended to split the "
+"database into two separate databases, one that contains static "
+"information and one that contains relatively more volatile information."
+msgstr "Av prestanda- och regleringsskäl rekommenderas det att dela upp databasen i två separata databaser, en som innehåller statisk information och en som innehåller relativt mer flyktig information."
+
+#: ../../chapter12.rst:26
+msgid ""
+"The secondary database (for more volatile data) can be either MySQL "
+"Database or Micrsoft SQL Database."
+msgstr "Den sekundära databasen (för mer flyktiga data) kan vara antingen MySQL-databas eller Microsoft SQL-databas."
+
+#: ../../chapter12.rst:28
+msgid ""
+"To split the database, first create a new database that will be used to "
+"store the volatile information. Create a database user and allow this "
+"user full access to the database (equivalent to db_owner). Once the "
+"database and user are created, sign into the CentreStack management "
+"console as the cluster admin and navigate to Cluster Dashboard > Cluster "
+"Settings > Change Log. Update the \"Logging DB Connection String\" "
+"setting using an appropriate connection string:"
+msgstr "För att dela upp databasen, börja med att skapa en ny databas som kommer att användas för att lagra den flyktiga informationen. Skapa en databasanvändare och ge denna användare fullständig åtkomst till databasen (motsvarande db_owner). När databasen och användaren är skapade, logga in på CentreStacks administrationskonsol som klusteradministratör och navigera till Klusterinstrumentpanel > Klusterinställningar > Ändringslogg. Uppdatera inställningen för \"Logging DB Connection String\" med en lämplig anslutningssträng:"
+
+#: ../../chapter12.rst:34
+msgid "**Connection String Example for MySQL Database**"
+msgstr "**Exempel på anslutningssträng för MySQL-databas**"
+
+#: ../../chapter12.rst:42
+msgid "**Connection String Example for Microsoft SQL Database**"
+msgstr "**Exempel på anslutningssträng för Microsoft SQL-databas**"
+
+#: ../../chapter12.rst:52
+msgid "Change Authentication Algorithm to Version 2"
+msgstr "Ändra autentiseringsalgoritm till version 2"
+
+#: ../../chapter12.rst:54
+msgid ""
+"If you have a new installation of CentreStack without any legacy user, we"
+" recommend you hard code the authentication algorithm to version 2."
+msgstr "Om du har en ny installation av CentreStack utan någon äldre användare rekommenderar vi att du hårdkodar autentiseringsalgoritmen till version 2."
+
+#: ../../chapter12.rst:57
+msgid ""
+"You can locate the web.config file in the root folder of the installation"
+" directory (same web.config file as referenced in the previous section) "
+"and add a line inside the <appSettings file=\"branding.config\"> section."
+msgstr "Du kan hitta web.config-filen i rotmappen för installationskatalogen (samma web.config-fil som refererades i föregående avsnitt) och lägga till en rad inuti <appSettings file=\"branding.config\">-sektionen."
+
+#: ../../chapter12.rst:66
+msgid "Change the Synchronized Uploader to Asynchronized Uploader"
+msgstr "Ändra den synkroniserade uppladdaren till asynkron uppladdare"
+
+#: ../../chapter12.rst:68
+msgid ""
+"Under the C:\\Program Files (x86)\\CentreStack\\ (or the installation "
+"directory), look into the UploadDownloadProxy and identify the web.config"
+" file. Find the line with the SyncedStorageProxiedPutUploadHandler and "
+"change it to StorageProxiedPutUploadHandler."
+msgstr "Under mappen C:\Program Files (x86)\CentreStack\ (eller installationskatalogen), leta efter UploadDownloadProxy och identifiera web.config-filen. Hitta raden med SyncedStorageProxiedPutUploadHandler och ändra den till StorageProxiedPutUploadHandler."
+
+#: ../../chapter12.rst:72
+msgid ""
+"This optimization might not work on all systems, therefore, it is "
+"recommend you test web portal Drag and Drop upload after you make the "
+"change. If it does not work for your IIS, you can revert the change back "
+"or consult Gladinet support."
+msgstr "Denna optimering kanske inte fungerar på alla system, därför rekommenderas att du testar webbportalens Dra och släpp-uppladdning efter att du har gjort ändringen. Om det inte fungerar för din IIS kan du ångra ändringen eller kontakta Gladinet support."
+
+#: ../../chapter12.rst:83
+msgid "Zone Support"
+msgstr "Zonstöd"
+
+#: ../../chapter12.rst:85
+msgid ""
+"If you have two independent CentreStack clusters, for example, one "
+"cluster in US and one cluster in UK, you can use the zone support to "
+"connect the two clusters together. The advantage of using zones is the "
+"end user login request will automatically be redirected to the zone the "
+"user belongs to."
+msgstr "Om du har två oberoende CentreStack-kluster, till exempel ett kluster i USA och ett kluster i Storbritannien, kan du använda zonstödet för att koppla samman de två klustren. Fördelen med att använda zoner är att slutanvändarens inloggningsförfrågan automatiskt kommer att omdirigeras till den zon användaren tillhör."
+
+#: ../../chapter12.rst:90
+msgid "Scalability Tuning"
+msgstr "Skalbarhetsjustering"
+
+#: ../../chapter12.rst:92
+msgid ""
+"CentreStack is built on top of ASP.NET and WCF. By default, both ASP.NET "
+"and WCF has throttle control parameters that we can tune and remove. "
+"Please reference this MSDN article for performance tuning:"
+msgstr "CentreStack är byggt ovanpå ASP.NET och WCF. Som standard har både ASP.NET och WCF styrparametrar för begränsning som vi kan justera och ta bort. Vänligen se denna MSDN-artikel för prestandajustering:"
+
+#: ../../chapter12.rst:95
+msgid "http://msdn.microsoft.com/en-us/library/ff647813.aspx"
+msgstr "http://msdn.microsoft.com/sv-se/library/ff647813.aspx"
+
+#: ../../chapter12.rst:99 ../../chapter12.rst:103
+msgid "(image source: http://msdn.microsoft.com/en-us/library/ff647813.aspx)"
+msgstr "(bildkälla: http://msdn.microsoft.com/en-us/library/ff647813.aspx)"
+
+#: ../../chapter12.rst:106
+msgid "Tuning #1 – namespace/web.config"
+msgstr "Optimering #1 – namespace/web.config"
+
+#: ../../chapter12.rst:108
+msgid ""
+"There are three parameters about max concurrent calls, concurrent "
+"sessions and concurrent instances."
+msgstr "Det finns tre parametrar som rör maximalt antal samtidiga samtal, samtidiga sessioner och samtidiga instanser."
+
+#: ../../chapter12.rst:117
+msgid "This is set in the <CENTRESTACKInstallDir>\\\\namespace\\\\web.config file"
+msgstr "Detta ställs in i <CENTRESTACKInstallDir>\\namespace\\web.config-filen"
+
+#: ../../chapter12.rst:119
+msgid ""
+"There may be existing blocks of serviceBehaviors and behavior blocks "
+"there. You can simply add the serviceThrottling block."
+msgstr "Det kan redan finnas befintliga block av serviceBehaviors och beteendeblock där. Du kan helt enkelt lägga till blocket för serviceThrottling."
+
+#: ../../chapter12.rst:134
+msgid "Tuning #2 – aspnet.config"
+msgstr "Trimning #2 – aspnet.config"
+
+#: ../../chapter12.rst:136
+msgid ""
+"The aspnet.config is under "
+"c:\\\\windows\\\\Microsoft.NET\\\\Framework64\\\\v4.0.30319"
+msgstr "aspnet.config ligger under c:\\windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+
+#: ../../chapter12.rst:138
+msgid ""
+"system.web is an element of <configuration> so you can add it inside the "
+"<configuration> block."
+msgstr "system.web är ett element i <configuration> så du kan lägga till det inuti <configuration>-blocket."
+
+#: ../../chapter12.rst:150
+msgid "Tuning #3 – machine.config"
+msgstr "Trimning #3 – machine.config"
+
+#: ../../chapter12.rst:152
+msgid ""
+"Machine.config is at "
+"%windir%\\\\Microsoft.NET\\\\Framework64\\\\[version]\\\\config\\\\machine.config"
+msgstr "Machine.config finns i %windir%\\Microsoft.NET\\Framework64\\[version]\\config\\machine.config"
+
+#: ../../chapter12.rst:154
+msgid ""
+"(%windir% typically is c:\\\\windows. [version] is 4.0.30319 for .NET "
+"framework 4)"
+msgstr "(%windir% är vanligtvis c:\\windows. [version] är 4.0.30319 för .NET framework 4)"
+
+#: ../../chapter12.rst:156
+msgid "**processModel**"
+msgstr "**processmodell**"
+
+#: ../../chapter12.rst:158
+msgid ""
+"processModel is under <system.web> and <system.web> is under "
+"<configuration>. Most likely the processModel block is there alredy but "
+"with autoConfig set to true. We can change it to set to false and with "
+"the attributes set below."
+msgstr "processModel finns under <system.web> och <system.web> är under <configuration>. Det är troligt att processModel-blocket redan finns men med autoConfig inställt på true. Vi kan ändra det till att vara inställt på false och med attributen inställda nedan."
+
+#: ../../chapter12.rst:171
+msgid "**connectionManagement**"
+msgstr "**anslutningshantering**"
+
+#: ../../chapter12.rst:173
+msgid ""
+"<system.net> is a block below <configuration>. Typically if <system.net> "
+"doesn't already exist, the block can be added to the bottom of the config"
+" file, right before the closing tag of <configuration>."
+msgstr "<system.net> är ett block under <configuration>. Vanligtvis om <system.net> inte redan finns kan blocket läggas till längst ner i konfigurationsfilen, precis innan avslutande taggen för <configuration>."
+
+#: ../../chapter12.rst:185
+msgid "Tuning #4 – appConcurrentRequestLimit"
+msgstr "Tuning #4 – appConcurrentRequestLimit"
+
+#: ../../chapter12.rst:193
+msgid "Need More Information?"
+msgstr "Behöver du mer information?"
+
+#: ../../chapter12.rst:195
+msgid "Contact Gladinet Support (support@gladinet.com) for more information."
+msgstr "Kontakta Gladinet Support (support@gladinet.com) för mer information."
+

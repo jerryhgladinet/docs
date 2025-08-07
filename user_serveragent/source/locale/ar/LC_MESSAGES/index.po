@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "1 Introduction"
+msgstr "1 مقدمة"
+
+#: ../../index.rst:6
+msgid ""
+"|prodname| File Server Agent is a client agent software that runs on "
+"Windows machines and connect network shares on the Windows machine to "
+"|prodname|."
+msgstr "|prodname| عامل خادم الملفات هو برنامج وكيل عميل يعمل على أجهزة ويندوز ويربط المشاركات الشبكية على جهاز ويندوز بـ |prodname|."
+
+#: ../../index.rst:10
+msgid ""
+"It is a file server enablement to allow remote and mobile access, while "
+"at the same time, provide business continuity through file "
+"synchronization and version control."
+msgstr "إنه تمكين لخادم الملفات للسماح بالوصول عن بُعد ومن خلال الأجهزة المحمولة، وفي الوقت نفسه، يوفر استمرارية الأعمال من خلال مزامنة الملفات والتحكم بالإصدارات."
+
+#: ../../index.rst:12
+msgid ""
+"It is also a hybrid cloud setup that allows files and folders to be "
+"accessed from both local area network (file server map drive) and from "
+"remote locations/Cloud/Internet (via virtual mapped drive)."
+msgstr "إنها أيضًا إعداد سحابي مختلط يسمح بالوصول إلى الملفات والمجلدات من شبكة المنطقة المحلية (خريطة محرك الخادم الملفات) ومن المواقع البعيدة/السحابة/الإنترنت (عبر محرك الأقراص المعين افتراضيًا)."
+
+#: ../../index.rst:16
+msgid "This is |prodname| File Server Agent Administration Guide."
+msgstr "هذا هو دليل إدارة وكيل خادم الملفات |prodname|."
+
+#: ../../index.rst:20
+msgid "**File Server Agent** version 9.7.2576 or later"
+msgstr "**وكيل خادم الملفات** الإصدار 9.7.2576 أو أحدث"
+
+#: ../../index.rst:25
+msgid "1.1 Background"
+msgstr "1.1 الخلفية"
+
+#: ../../index.rst:29
+msgid "Security or Mobility?"
+msgstr "الأمان أم الحركة؟"
+
+#: ../../index.rst:31
+msgid ""
+"Businesses need ways to access local file server over the Internet from "
+"mobile devices and remote locations for productivity gain. This trend is "
+"pushing local file server content outward towards public file-sharing "
+"services such as Dropbox and OneDrive. Employees are using 3rd-party "
+"file-sharing services on their own to improve productivity."
+msgstr "تحتاج الشركات إلى طرق للوصول إلى خادم الملفات المحلي عبر الإنترنت من الأجهزة المحمولة والمواقع البعيدة لزيادة الإنتاجية. هذا الاتجاه يدفع محتوى خادم الملفات المحلي نحو الخدمات العامة لمشاركة الملفات مثل Dropbox وOneDrive. يستخدم الموظفون خدمات مشاركة الملفات الخارجية بأنفسهم لتحسين الإنتاجية."
+
+#: ../../index.rst:33
+msgid ""
+"Security and control is a big concern for businesses that are sensitive "
+"to regulation and data leakage problems. The lack of granular permissions"
+" and control over file sharing in public file-sharing services is forcing"
+" companies to give up on these 3rd-party services."
+msgstr "الأمان والتحكم هو مصدر قلق كبير للشركات التي تكون حساسة للتنظيم ومشاكل تسرب البيانات. إن عدم وجود أذونات دقيقة وتحكم في مشاركة الملفات في خدمات مشاركة الملفات العامة يجبر الشركات على التخلي عن هذه الخدمات الخارجية."
+
+#: ../../index.rst:35
+msgid ""
+"They then revert to the use of virtual private networks (VPNs) to provide"
+" remote access to corporate data. However, VPN has its own problems; it "
+"is not a good fit for the modern mobility, nor is it productivity "
+"friendly. Most of the time, VPN is a headache for managed service "
+"providers and company IT department, for the number of VPN related "
+"support tickets."
+msgstr "ثم يعودون إلى استخدام الشبكات الخاصة الافتراضية (VPNs) لتوفير الوصول عن بعد إلى بيانات الشركة. ومع ذلك، فإن VPN له مشاكله الخاصة؛ فهو ليس مناسبًا للحركية العصرية، ولا هو ملائم للإنتاجية. معظم الوقت، يكون VPN صداعًا لمقدمي الخدمات المدارة وقسم تكنولوجيا المعلومات بالشركة، بسبب عدد تذاكر الدعم المتعلقة بـVPN."
+
+#: ../../index.rst:39
+msgid "Security + Mobility"
+msgstr "الأمان + الحركة والتنقل"
+
+#: ../../index.rst:41
+msgid ""
+"This is why you need |prodname|; resolving issues between file-sharing "
+"requirements, mobility and remote access, while preventing the leakage of"
+" your critical data through security and control. |prodname| takes care "
+"of the following objectives:"
+msgstr "هذا هو السبب في حاجتك إلى |prodname| ؛ حل المشكلات بين متطلبات مشاركة الملفات، والتنقل والوصول عن بعد، مع منع تسرب بياناتك الحساسة من خلال الأمان والتحكم. |prodname| يعتني بالأهداف التالية:"
+
+#: ../../index.rst:43
+msgid "Make the Windows file server mobility and remote-access friendly"
+msgstr "جعل خادم ملفات ويندوز يدعم الحركة والوصول عن بُعد"
+
+#: ../../index.rst:44
+msgid "Maintain file-server accessing paradigm for local and remote access"
+msgstr "الحفاظ على نموذج الوصول إلى خادم الملفات للوصول المحلي والبعيد"
+
+#: ../../index.rst:46
+msgid "Provide NTFS security permissions"
+msgstr "توفير أذونات أمان NTFS"
+
+#: ../../index.rst:47
+msgid "Allow Active Directory integration"
+msgstr "السماح بتكامل Active Directory"
+
+#: ../../index.rst:48
+msgid "Drive Mapping and on-demand access"
+msgstr "تعيين الأقراص والوصول حسب الطلب"
+
+#: ../../index.rst:50
+msgid ""
+"File sync and share features integrated into a traditional Windows file "
+"server network share"
+msgstr "ميزات مزامنة الملفات ومشاركتها مدمجة في مشاركة شبكة خادم الملفات التقليدية لنظام Windows"
+
+#: ../../index.rst:54
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: ../../index.rst:56
+msgid ""
+"|prodname| is the overall solution, and the File Server Agent client "
+"application is software that connects file servers to the |prodname| "
+"file-sharing solution."
+msgstr "|prodname| هو الحل الشامل، وتطبيق عميل وكيل خادم الملفات هو البرنامج الذي يربط خوادم الملفات بحل مشاركة الملفات الخاص بـ |prodname|."
+
+#: ../../index.rst:58
+msgid ""
+"The |prodname| File Server Agent is client-agent software that runs on "
+"Windows machines as a background service, while connecting to |prodname| "
+"servers (typically setup in a data center away from the file server)."
+msgstr "برنامج وكيل خادم الملفات |prodname| هو برنامج عميل يعمل على أجهزة ويندوز كخدمة في الخلفية، بينما يتصل بخوادم |prodname| (التي يتم إعدادها عادة في مركز بيانات بعيدًا عن خادم الملفات)."
+
+#: ../../index.rst:60
+msgid ""
+"File Server Agent allows you to turn your file servers into cloud-"
+"friendly servers to migrate the file server shares to the |prodname| "
+"environment, while maintaining the two-way synchronization for as long as"
+" you need it to be. During this process, the existing share permissions "
+"are also migrated to |prodname|. This allows the Windows file server "
+"network share to be used locally without change, and at the same time, "
+"the network shares are synchronizing with |prodname| Server to form a "
+"Hybrid Cloud solution."
+msgstr "يتيح لك وكيل خادم الملفات تحويل خوادم الملفات الخاصة بك إلى خوادم متوافقة مع السحابة لنقل مشاركات خادم الملفات إلى بيئة |prodname|، مع الحفاظ على التزامن الثنائي طالما احتجت إليه. خلال هذه العملية، يتم أيضًا نقل أذونات المشاركة الموجودة إلى |prodname|. يسمح هذا باستخدام مشاركة الشبكة لخادم الملفات الخاص بنظام Windows محليًا دون تغيير، وفي الوقت نفسه، تتم مزامنة المشاركات مع خادم |prodname| لتشكيل حل السحابة الهجينة."
+
+#: ../../index.rst:62
+msgid ""
+"File Server Agent technology turns any Windows file server into a private"
+" cloud storage that can be accessed from anywhere using any device, while"
+" maintaining existing identities and permissions."
+msgstr "تقنية وكيل خادم الملفات تحول أي خادم ملفات ويندوز إلى تخزين سحابي خاص يمكن الوصول إليه من أي مكان باستخدام أي جهاز، مع الحفاظ على الهويات والأذونات الحالية."
+
+#: ../../index.rst:66
+msgid "As a Summary"
+msgstr "كملخص"
+
+#: ../../index.rst:68
+msgid ""
+"File Server Agent can sync folders and files between the local file "
+"server and the remote |prodname| Server."
+msgstr "يمكن لوكيل خادم الملفات مزامنة المجلدات والملفات بين خادم الملفات المحلي وخادم |prodname| البعيد."
+
+#: ../../index.rst:69
+msgid ""
+"File Server Agent can sync NTFS folder permissions from a local file "
+"server to the remote |prodname| Server."
+msgstr "يمكن لوكيل خادم الملفات مزامنة أذونات مجلد NTFS من خادم ملفات محلي إلى خادم |prodname| البعيد."
+
+#: ../../index.rst:70
+msgid ""
+"File Server Agent can export users to the remote |prodname| Server from a"
+" user's local Active Directory."
+msgstr "يمكن لوكيل خادم الملفات تصدير المستخدمين إلى خادم |prodname| البعيد من دليل Active Directory المحلي للمستخدم."
+
+#: ../../index.rst:71
+msgid ""
+"File Server Agent activity runs as a Windows background service on the "
+"local file server."
+msgstr "نشاط وكيل خادم الملفات يعمل كخدمة خلفية لنظام ويندوز على خادم الملفات المحلي."
+
+#: ../../index.rst:72
+msgid ""
+"Users use their local Active Directory identity to access files locally "
+"and from the |prodname| Server."
+msgstr "يستخدم المستخدمون هويتهم المحلية في الدليل النشط للوصول إلى الملفات محليًا ومن خادم |prodname|."
+
+#: ../../index.rst:77
+msgid "|prodname| ACCESS FROM LOCAL FILE SERVER"
+msgstr "|prodname| الوصول من خادم الملفات المحلي"
+
+#: ../../index.rst:81
+msgid ""
+"When should you use File Server Agent to connect your file server to "
+"|prodname|?"
+msgstr "متى يجب عليك استخدام وكيل خادم الملفات لربط خادم الملفات الخاص بك بـ |prodname|؟"
+
+#: ../../index.rst:83
+msgid ""
+"When should you use a direct server message block (SMB) network share "
+"connection?"
+msgstr "متى يجب عليك استخدام اتصال مشاركة الشبكة المباشرة لخادم الرسائل القصيرة (SMB)؟"
+
+#: ../../index.rst:85
+msgid ""
+"Typically, when a file server is away not in the same data center or "
+"network, we recommend using Server Agent. (e.g. there is no physical "
+"connection between |prodname| and the \"Server Agent\" target system)"
+msgstr "عادةً، عندما يكون خادم الملفات بعيدًا وليس في نفس مركز البيانات أو الشبكة، نوصي باستخدام وكيل الخادم. (على سبيل المثال، لا توجد اتصال مادي بين |prodname| ونظام الهدف \"وكيل الخادم\")"
+
+#: ../../index.rst:87
+msgid ""
+"For file servers in the same data center, but in a different VLAN, we "
+"recommend opening up the VLAN so the |prodname| can direct access the "
+"file server without using a Server Agent since both are already in the "
+"same data center."
+msgstr "لخوادم الملفات الموجودة في نفس مركز البيانات ولكن في VLAN مختلف، نوصي بفتح VLAN حتى يتمكن |prodname| من الوصول المباشر إلى خادم الملفات دون استخدام وكيل الخادم نظرًا لأن كلاهما موجودان بالفعل في نفس مركز البيانات."
+
+#: ../../index.rst:92
+msgid "How it solves the problem?"
+msgstr "كيف يحل المشكلة؟"
+
+#: ../../index.rst:94
+msgid ""
+"You or your managed service provider (MSP) owns the |prodname| software. "
+"File data is either located on the local file server or the |prodname| "
+"Server. Either way, you control the data to prevent unauthorized access."
+msgstr "أنت أو مزود الخدمة المُدارة (MSP) الخاص بك يمتلك برنامج |prodname|. تقع بيانات الملفات إما على خادم الملفات المحلي أو على خادم |prodname|. في كلتا الحالتين، أنت تتحكم في البيانات لمنع الوصول غير المصرح به."
+
+#: ../../index.rst:96
+msgid ""
+"|prodname| Server is operating from a data center or local office, behind"
+" a firewall connected to the Internet. Typical SMB protocol shares are "
+"not available to the Internet; however, the HTTPS communication (Internet"
+" facing) capability of the |prodname| Server makes it friendly to mobile "
+"and remote devices."
+msgstr "|prodname| Server يعمل من مركز بيانات أو مكتب محلي، خلف جدار حماية متصل بالإنترنت. عادةً لا تتوفر مشاركات بروتوكول SMB النموذجية للإنترنت؛ ومع ذلك، تجعل قدرة الاتصال بـ HTTPS (المواجهة للإنترنت) لـ |prodname| Server مناسبة للأجهزة المحمولة والبعيدة."
+
+#: ../../index.rst:98
+msgid ""
+"|prodname| Server either directly leverages the local Active Directory "
+"and NTFS permission or replicates these features to maintain a local-"
+"file-server access paradigm."
+msgstr "|prodname| Server يستفيد مباشرةً من دليل Active Directory المحلي وأذونات NTFS أو يقوم بمحاكاة هذه الميزات للحفاظ على نمط الوصول لخادم الملفات المحلي."
+
+#: ../../index.rst:102
+msgid "What is a typical way to use File Server Agent?"
+msgstr "ما هو الاستخدام النموذجي لوكيل خادم الملفات؟"
+
+#: ../../index.rst:104
+msgid ""
+"When your client needs to store files in local-network shared folders, "
+"Server Agent can be helpful for connecting these shares to |prodname|. "
+"This typically happens when there is a lot of users in the local office, "
+"or the Internet speed is ok but not great coming into the office."
+msgstr "عندما يحتاج العميل إلى تخزين الملفات في مجلدات مشتركة على الشبكة المحلية، يمكن أن يكون عامل الخادم مفيدًا لربط هذه المشاركات بـ |prodname|. هذا يحدث عادةً عندما يكون هناك الكثير من المستخدمين في المكتب المحلي، أو أن سرعة الإنترنت جيدة ولكن ليست ممتازة الواردة إلى المكتب."
+
+#: ../../index.rst:106
+msgid ""
+"One typical use case is you have remote workers or a branch office that "
+"have need to access the file server network share without using the VPN. "
+"You don't want to copy the file server content out just for the remote "
+"workers because that will create too many copies and lost track of which "
+"side has the newer version. Setting it up in a hybrid mode, and with two-"
+"way synchronization between local file server and remote |prodname| "
+"Server is a better way to go."
+msgstr "أحد الاستخدامات النموذجية هو عندما يكون لديك عمال عن بعد أو مكتب فرعي يحتاج إلى الوصول إلى مشاركة الشبكة لخادم الملفات دون استخدام شبكة VPN. لا ترغب في نسخ محتوى خادم الملفات خارجاً فقط من أجل العمال عن بعد لأن ذلك سيخلق العديد من النسخ ويفقد تتبع أي جانب يحتوي على النسخة الأحدث. إعداده في وضع هجين، ومع التزامن الثنائي الاتجاه بين خادم الملفات المحلي وخادم |prodname| عن بعد هو الطريقة الأفضل للقيام بذلك."
+

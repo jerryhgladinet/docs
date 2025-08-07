@@ -9,7 +9,7 @@ There are two ways to share files and folders in |prodname|  – publishing and 
 
 *  **Publishing:** 
  
-    Only available for the administrator who can share any tenant-wide folder. It will only work with team-users in a specific |prodname| account (tenant account). Publishing a team folder can’t go outside of the tenant scope.
+    Only available for the administrator who can share any tenant-wide folder. It will only work with team-users in a specific |prodname| account (tenant account). Publishing a team folder can't go outside of the tenant scope.
 
 *  **Sharing:** 
  
@@ -31,7 +31,7 @@ To share a file, click it and select the Share icon (1)revealed in the header of
 
     SHARING FILES
 
-After clicking ‘Share’ above, in ‘Invite People’ window, click the email field (4) and enter email addresses seperated by semicolons (;) for anyone that needs access to the file. You can also add notes (5) if required. Click CONTINUE (6). 
+After clicking 'Share' above, in 'Invite People' window, click the email field (4) and enter email addresses seperated by semicolons (;) for anyone that needs access to the file. You can also add notes (5) if required. Click CONTINUE (6). 
 
 .. figure:: _static/image_s15_1_2.png
     :align: center
@@ -57,7 +57,7 @@ You can access previously shared items by clicking the share icon (2) on a folde
 Folder Sharing
 ---------------
 
-In this example, the icon view has been changed to detailed view (1) of the files in this folder. To share a folder, mouse-over it and select the Share icon (2) in its row. You can also right click the file and select ‘Share’ in the context menu.
+In this example, the icon view has been changed to detailed view (1) of the files in this folder. To share a folder, mouse-over it and select the Share icon (2) in its row. You can also right click the file and select 'Share' in the context menu.
 
 .. figure:: _static/image_s15_1_5.png
     :align: center
@@ -85,8 +85,8 @@ Accessing 'Files/Folders Shared With Me'
 
 When a file or folder is shared with the user, he/she will get an email. The link in the email can be used to open the file or folder.
 
-If the user has a |prodname|  account with the given email address, the shared files and folders will appear under the ‘Files shared with
-me’ folder, in both the |prodname| Web Portal and |prodname| Desktop App.
+If the user has a |prodname|  account with the given email address, the shared files and folders will appear under the 'Files shared with
+me' folder, in both the |prodname| Web Portal and |prodname| Desktop App.
 
 Web Portal
 ----------------------

@@ -1,0 +1,571 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "Manage Tenant"
+msgstr "Hantera hyresgäst"
+
+#: ../../chapter03.rst:5
+msgid ""
+"By default, the |prodname| partner account holder has the \"Single-pane-"
+"of-glass\" view of all his tenants in the partner portal and can manage "
+"the Tenants in \"Registered Tenants\" section.."
+msgstr "Som standard har |prodname| partnerkontoinnehavaren en \"Single-pane-of-glass\"-vy över alla sina hyresgäster i partnerportalen och kan hantera hyresgästerna i avsnittet \"Registrerade hyresgäster\"."
+
+#: ../../chapter03.rst:10
+msgid "MANAGE TENANT OPTION"
+msgstr "HANTERA HYRESGÄSTALTERNATIV"
+
+#: ../../chapter03.rst:12
+msgid ""
+"After you click through to the \"Manage\" option, the tenant dashboard "
+"will show."
+msgstr "Efter att du klickat dig vidare till alternativet \"Hantera\" kommer hyresgästens instrumentpanel att visas."
+
+#: ../../chapter03.rst:15
+msgid "Tenant Dashboard"
+msgstr "Hyresgästens instrumentpanel"
+
+#: ../../chapter03.rst:17
+msgid ""
+"The dashboard contains the two most important assets: the ``users`` and "
+"the ``Team Folders``."
+msgstr "Instrumentpanelen innehåller de två viktigaste tillgångarna: ``användarna`` och ``Team Mappar``."
+
+#: ../../chapter03.rst:21
+msgid ""
+"Basically from a management perspective, you are helping the tenant "
+"manage their users and their common work areas - the Team Folders."
+msgstr "I grund och botten hjälper du från ett ledningsperspektiv hyresgästen att hantera deras användare och deras gemensamma arbetsområden - Teammapparna."
+
+#: ../../chapter03.rst:26
+msgid "TENANT DASHBOARD"
+msgstr "HYRESGÄSTINSTRUMENTBRÄDA"
+
+#: ../../chapter03.rst:28
+msgid ""
+"There is also a Quick Access panel on the dashboard that you can see the "
+"second level of details on the tenant management scope."
+msgstr "Det finns också en Snabbåtkomst-panel på instrumentpanelen där du kan se andra nivån av detaljer om förvaltningsomfånget för hyresgästen."
+
+#: ../../chapter03.rst:33
+msgid "QUICK ACCESS PANEL"
+msgstr "SNABBÅTKOMSTPANEL"
+
+#: ../../chapter03.rst:36
+msgid "Reports"
+msgstr "Rapporter"
+
+#: ../../chapter03.rst:38
+msgid "In ``REPORTS``, you can see reports related to the tenant."
+msgstr "I ``RAPPORTER`` kan du se rapporter relaterade till hyresgästen."
+
+#: ../../chapter03.rst:43
+msgid "REPORTS"
+msgstr "RAPPORTER"
+
+#: ../../chapter03.rst:45
+msgid ""
+"Once you click the **\"Reports\"** button you will see the **\"Upload "
+"Report\"** by default. You can use the tab at the top to choose other "
+"report options."
+msgstr "När du klickar på **\"Rapporter\"**-knappen kommer du som standard att se **\"Ladda upp rapport\"**. Du kan använda fliken längst upp för att välja andra rapportalternativ."
+
+#: ../../chapter03.rst:50
+msgid "REPORTS MENU"
+msgstr "RAPPORTMENY"
+
+#: ../../chapter03.rst:52
+msgid "Upload Report"
+msgstr "Ladda upp rapport"
+
+#: ../../chapter03.rst:54
+msgid ""
+"the number of files uploaded into hosted |prodname| in the last 30 days "
+"or last week."
+msgstr "antalet filer som laddats upp i värd |prodname| under de senaste 30 dagarna eller förra veckan."
+
+#: ../../chapter03.rst:56
+msgid "Storage Statistics"
+msgstr "Lagringsstatistik"
+
+#: ../../chapter03.rst:58
+msgid ""
+"The files and folder number and size and other statistics of files and "
+"folders."
+msgstr "Filer och mappars antal, storlek och andra statistik över filer och mappar."
+
+#: ../../chapter03.rst:60
+msgid "Team Folders"
+msgstr "Team Mappar"
+
+#: ../../chapter03.rst:62
+msgid "All the Team Folders in the tenant."
+msgstr "Alla Teammappar i klienten."
+
+#: ../../chapter03.rst:64 ../../chapter03.rst:372
+msgid "Shared Objects"
+msgstr "Delade objekt"
+
+#: ../../chapter03.rst:66
+msgid "All the peer-to-peer share objects in the tenant."
+msgstr "Alla peer-to-peer delningsobjekt i klienten."
+
+#: ../../chapter03.rst:68
+msgid "Audit Trace"
+msgstr "Granskningslogg"
+
+#: ../../chapter03.rst:70
+msgid "The management scope events in the tenant."
+msgstr "Händelser för hanteringsomfånget i klienten."
+
+#: ../../chapter03.rst:72
+msgid "File Change Logging"
+msgstr "Förändringslogg för filer"
+
+#: ../../chapter03.rst:74
+msgid "The file change events in the tenant."
+msgstr "Filändelsehändelserna i klienten."
+
+#: ../../chapter03.rst:78
+msgid "Tenant Branding"
+msgstr "Hyresgästvarumärkning"
+
+#: ../../chapter03.rst:80
+msgid ""
+"After you setup default branding and apply to the tenants, you can "
+"continue to fine tune the branding on a per-tenant basis."
+msgstr "Efter att du har konfigurerat standardprofilering och tillämpat den på klienterna kan du fortsätta att finjustera profileringen på en klientbasis."
+
+#: ../../chapter03.rst:85
+msgid "TENANT BRANDING"
+msgstr "HYRESGÄSTANPASSNING"
+
+#: ../../chapter03.rst:87
+msgid ""
+"In the ``TENANT BRANDING`` section, you can setup and change tenant "
+"specific branding information."
+msgstr "I avsnittet ``TENANT BRANDING`` kan du ställa in och ändra specifik varumärkesinformation för hyresgäster."
+
+#: ../../chapter03.rst:93
+msgid "BRANDING OPTIONS"
+msgstr "BRANDALTERNATIV"
+
+#: ../../chapter03.rst:95
+msgid "Customized URL for your business"
+msgstr "Anpassad URL för ditt företag"
+
+#: ../../chapter03.rst:97
+msgid ""
+"Upon creating the tenant, the tenant is assigned a random string of "
+"digits for the custom site. You can change the URL so that it is more "
+"related to the customer's business name."
+msgstr "När du skapar en hyresgäst tilldelas hyresgästen en slumpmässig sträng siffror för den anpassade webbplatsen. Du kan ändra URL:en så att den är mer relaterad till kundens företagsnamn."
+
+#: ../../chapter03.rst:103
+msgid "GENERAL OPTIONS"
+msgstr "ALLMÄNNA ALTERNATIV"
+
+#: ../../chapter03.rst:107
+msgid ""
+"The ``Customized URL`` field is very important for the tenant branding. "
+"It is like a key to a list of information belonging to the tenant. For "
+"tenant branding to work, the tenant will need to login to the specific "
+"URL that is assigned to them."
+msgstr "Fältet ``Anpassad URL`` är mycket viktigt för hyresgästens varumärkesprofilering. Det är som en nyckel till en lista med information som tillhör hyresgästen. För att varumärkesprofileringen för hyresgästen ska fungera måste hyresgästen logga in på den specifika URL som tilldelats dem."
+
+#: ../../chapter03.rst:110
+msgid "Group Policy"
+msgstr "Grupprincip"
+
+#: ../../chapter03.rst:115
+msgid "GROUP POLICY"
+msgstr "GRUPPRICHTLINJER"
+
+#: ../../chapter03.rst:117
+msgid ""
+"``GROUP POLICY`` is documented in the |prodname| Admin Guide. Look for "
+"the group policy section in the |prodname| Admin Guide. Please see the "
+"`Documentation Page`__ for more information."
+msgstr "``GRUPPPOLICY`` är dokumenterad i |prodname| administratörsguide. Sök efter avsnittet om grupppolicy i |prodname| administratörsguide. Vänligen se `Dokumentationssidan`__ för mer information."
+
+#: ../../chapter03.rst:125
+msgid "DOCUMENTATION WEB PAGE"
+msgstr "DOKUMENTATION WEBBSIDA"
+
+#: ../../chapter03.rst:128
+msgid "Control Panel"
+msgstr "Kontrollpanel"
+
+#: ../../chapter03.rst:133
+msgid "CONTROL PANEL"
+msgstr "KONTROLLPANEL"
+
+#: ../../chapter03.rst:135
+msgid "In the ``CONTROL PANEL`` section, you will see the following sections."
+msgstr "I avsnittet ``KONTROLLPANELEN`` kommer du att se följande avsnitt."
+
+#: ../../chapter03.rst:140
+msgid "CONTROL PANEL SETTINGS"
+msgstr "KONTROLLPANELINSTÄLLNINGAR"
+
+#: ../../chapter03.rst:143
+msgid "Tenant Administrators"
+msgstr "Hyresgästadministratörer"
+
+#: ../../chapter03.rst:148
+msgid "TENANT ADMINISTRATORS"
+msgstr "HYRESGÄSTADMINISTRATÖRER"
+
+#: ../../chapter03.rst:150
+msgid ""
+"You can change the tenant's administrator information here and also "
+"define delegate administrators."
+msgstr "Du kan ändra informationen för hyresgästens administratör här och även definiera delegerade administratörer."
+
+#: ../../chapter03.rst:155
+msgid "TENANT ADMINISTRATOR SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR HYRESVÄRDSADMINISTRATÖR"
+
+#: ../../chapter03.rst:158
+msgid "Single Sign-On"
+msgstr "Single Sign-On"
+
+#: ../../chapter03.rst:163
+msgid "SINGLE SIGN ON"
+msgstr "ENKEL INLOGGNING"
+
+#: ../../chapter03.rst:165
+msgid ""
+"It is recommended to setup tenant specific ``custom URL`` before setting "
+"up the Single Sign-On since this is a tenant-specific Single Sign-On "
+"setting."
+msgstr "Det rekommenderas att konfigurera en ``anpassad URL`` specifik för hyresgästen innan du konfigurerar enkel inloggning eftersom detta är en inställning för enkel inloggning specifik för hyresgästen."
+
+#: ../../chapter03.rst:171
+msgid "SINGLE SIGN-ON SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR ENKEL INLOGGNING"
+
+#: ../../chapter03.rst:173 ../../chapter03.rst:191
+msgid "Check the |prodname| Admin Guide for more details."
+msgstr "Kontrollera |prodname| Administrationsguide för mer information."
+
+#: ../../chapter03.rst:176
+msgid "Azure AD"
+msgstr "Azure AD"
+
+#: ../../chapter03.rst:181
+msgid "AZURE AD"
+msgstr "AZURE AD"
+
+#: ../../chapter03.rst:183
+msgid ""
+"In Azure AD, you can setup the tenant to login using credentials from "
+"Azure AD."
+msgstr "I Azure AD kan du ställa in klienten för att logga in med hjälp av inloggningsuppgifter från Azure AD."
+
+#: ../../chapter03.rst:189
+msgid "AZURE AD SETTINGS"
+msgstr "AZURE AD-INSTÄLLNINGAR"
+
+#: ../../chapter03.rst:194
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: ../../chapter03.rst:199
+msgid "NOTIFICATIONS"
+msgstr "AVISERINGAR"
+
+#: ../../chapter03.rst:201
+msgid ""
+"The Notification section defines what kind of notifications the tenant "
+"wants to configure."
+msgstr "Meddelandesectionen definierar vilken typ av notifikationer som hyresgästen vill konfigurera."
+
+#: ../../chapter03.rst:206
+msgid "NOTIFICATIONS SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR NOTISER"
+
+#: ../../chapter03.rst:209
+msgid "Device Manager"
+msgstr "Enhetschef"
+
+#: ../../chapter03.rst:214
+msgid "DEVICE MANAGER"
+msgstr "ENHETSHANTERARE"
+
+#: ../../chapter03.rst:219
+msgid "DEVICE MANAGER SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR ENHETSHANTERAREN"
+
+#: ../../chapter03.rst:222
+msgid "Application Manager"
+msgstr "Applikationshanterare"
+
+#: ../../chapter03.rst:227
+msgid "APPLICATION MANAGER"
+msgstr "APPLIKATIONSHANTERARE"
+
+#: ../../chapter03.rst:232
+msgid "APPLICATION MANAGER SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR APPLIKATIONSHANTERAREN"
+
+#: ../../chapter03.rst:235
+msgid "Sharepoint Online"
+msgstr "Sharepoint Online"
+
+#: ../../chapter03.rst:240
+msgid "SHAREPOINT ONLINE"
+msgstr "SHAREPOINT ONLINE"
+
+#: ../../chapter03.rst:245
+msgid "SHAREPOINT ONLINE SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR SHAREPOINT ONLINE"
+
+#: ../../chapter03.rst:248
+msgid "Email Service"
+msgstr "E-posttjänst"
+
+#: ../../chapter03.rst:253
+msgid "EMAIL SERVICE"
+msgstr "E-POSTTJÄNST"
+
+#: ../../chapter03.rst:258
+msgid "EMAIL SERVICE SETTINGS"
+msgstr "E-POSTTJÄNSTINSTÄLLNINGAR"
+
+#: ../../chapter03.rst:261
+msgid "User Manager"
+msgstr "Användarhanterare"
+
+#: ../../chapter03.rst:266
+msgid "USER MANAGER"
+msgstr "ANVÄNDARHANTERING"
+
+#: ../../chapter03.rst:268
+msgid "User manager is where to manage the users for the tenant."
+msgstr "Användarhanteraren är där du hanterar användarna för klienten."
+
+#: ../../chapter03.rst:273
+msgid "USER MANAGER SETTINGS"
+msgstr "ANVÄNDARHANTERING INSTÄLLNINGAR"
+
+#: ../../chapter03.rst:276
+msgid "Add User"
+msgstr "Lägg till användare"
+
+#: ../../chapter03.rst:278
+msgid ""
+"Users can be created directly with user name and email. If the Server "
+"Agent is used, users can also be created from the Server Agent where "
+"Active Directory users from a remote Server Agent can be imported into "
+"|prodname|."
+msgstr "Användare kan skapas direkt med användarnamn och e-post. Om Server Agent används kan användare också skapas från Server Agent där Active Directory-användare från en fjärrserveragent kan importeras till |prodname|."
+
+#: ../../chapter03.rst:283
+msgid "ADDING USERS"
+msgstr "LÄGGA TILL ANVÄNDARE"
+
+#: ../../chapter03.rst:285
+msgid ""
+"Before the Server Agent is used, there are two options: \"Native User\" "
+"and \"Batch create users\". If you use Server Agent to connect a remote "
+"file server to this specific tenant, the remote Active Directory will "
+"also show up."
+msgstr "Innan Server Agent används finns det två alternativ: \"Native User\" och \"Batch create users\". Om du använder Server Agent för att ansluta en fjärrfilserver till denna specifika klient, kommer även den fjärranslutna Active Directory att visas."
+
+#: ../../chapter03.rst:290
+msgid "CLICK TO CREATE OR MIGRATE A USER"
+msgstr "KLICKA FÖR ATT SKAPA ELLER MIGRERA EN ANVÄNDARE"
+
+#: ../../chapter03.rst:292
+msgid ""
+"Guest users are those users that don't have home directory storage, but "
+"can receive file and folder shares from regular users."
+msgstr "Gästanvändare är de användare som inte har lagring i hemkatalogen, men kan ta emot delningar av filer och mappar från vanliga användare."
+
+#: ../../chapter03.rst:297
+msgid "SOURCES OF USERS"
+msgstr "ANVÄNDARNAS KÄLLOR"
+
+#: ../../chapter03.rst:300
+msgid "Group Manager"
+msgstr "Gruppchef"
+
+#: ../../chapter03.rst:302
+msgid ""
+"You can create native |prodname| groups to help manage the assignment of "
+"users to folders and files for read and write permission."
+msgstr "Du kan skapa inhemska |prodname| grupper för att hjälpa till med att hantera tilldelningen av användare till mappar och filer för läs- och skrivrättigheter."
+
+#: ../../chapter03.rst:304
+msgid ""
+"If you have the Server Agent connected, the Server Agent can import Proxy"
+" Active Directory group instead."
+msgstr "Om du har Server Agent ansluten kan Server Agent istället importera Proxy Active Directory-grupp."
+
+#: ../../chapter03.rst:309
+msgid "GROUPS"
+msgstr "GRUPPER"
+
+#: ../../chapter03.rst:312
+msgid "Role Manager"
+msgstr "Rollhanterare"
+
+#: ../../chapter03.rst:314
+msgid ""
+"Role manager can further define what each users in the tenant can do and "
+"what they have access to."
+msgstr "Rollhanteraren kan ytterligare definiera vad varje användare i klienten kan göra och vad de har tillgång till."
+
+#: ../../chapter03.rst:319
+msgid "ROLES"
+msgstr "ROLLER"
+
+#: ../../chapter03.rst:324
+msgid "CREATING A NEW ROLE"
+msgstr "SKAPA EN NY ROLL"
+
+#: ../../chapter03.rst:329
+msgid ""
+"Collaboration is centered around storage folders and assigning users to "
+"folders with specific permissions."
+msgstr "Samarbete kretsar kring lagringsmappar och att tilldela användare till mappar med specifika behörigheter."
+
+#: ../../chapter03.rst:332
+msgid "Team Folder"
+msgstr "Team-mapp"
+
+#: ../../chapter03.rst:337
+msgid "TEAM FOLDERS"
+msgstr "TEAM MAPPAR"
+
+#: ../../chapter03.rst:339
+msgid ""
+"The idea of a Team Folder is similar to that of a local network share. "
+"Users can be assigned to a Team Folder with read and write permissions at"
+" the share level. Inside the folder, at the sub-folder level, each sub-"
+"folder can define its own folder level permissions."
+msgstr "Tanken med en Team-mapp är liknande den med en lokal nätverksdelning. Användare kan tilldelas en Team-mapp med läs- och skrivrättigheter på delningsnivån. Inuti mappen, på undermappsnivån, kan varje undermapp definiera sina egna mappnivåbehörigheter."
+
+#: ../../chapter03.rst:342
+msgid "Add a Team Folder"
+msgstr "Lägg till en teammapp"
+
+#: ../../chapter03.rst:347
+msgid "CREATING A TEAM FOLDER"
+msgstr "SKAPA EN TEAMMAPP"
+
+#: ../../chapter03.rst:349
+msgid ""
+"In the hosted |prodname| environment, you can create Team Folders in "
+"several different ways."
+msgstr "I den värdtjänstbaserade |prodname|-miljön kan du skapa Team-mappar på flera olika sätt."
+
+#: ../../chapter03.rst:352
+msgid "Default Storage"
+msgstr "Standardlagring"
+
+#: ../../chapter03.rst:352
+msgid ""
+"Create a new Team Folder from scratch using the default storage. It will "
+"be empty to start with and you can put files and folders inside later."
+msgstr "Skapa en ny Team-mapp från grunden med standardlagringen. Den kommer att vara tom från början och du kan lägga till filer och mappar i den senare."
+
+#: ../../chapter03.rst:355
+msgid "Existing Folder(s)"
+msgstr "Befintlig(a) mapp(ar)"
+
+#: ../../chapter03.rst:355
+msgid ""
+"Create a new folder by selecting one or more existing folders. Those "
+"selected folders will show up inside the Team Folder."
+msgstr "Skapa en ny mapp genom att välja en eller flera befintliga mappar. De valda mapparna kommer att visas inuti Teammappen."
+
+#: ../../chapter03.rst:358
+msgid "Publish Tenant Home Storage As a Team Folder"
+msgstr "Publicera Tenant Home Storage som en teammapp"
+
+#: ../../chapter03.rst:358
+msgid ""
+"The tenant's home storage will be published to users in the same tenant "
+"so they can see file and folder contents from the home storage. Some "
+"specialized folders such as folders from remote file servers or remote "
+"cloud storage services are not included in this scope."
+msgstr "Hyresgästens hemlagring kommer att publiceras för användare i samma hyresgäst så att de kan se fil- och mappinnehåll från hemlagringen. Vissa specialmappar såsom mappar från fjärrfilservrar eller fjärrmolnlagringstjänster ingår inte i detta omfång."
+
+#: ../../chapter03.rst:362
+msgid "Remote File Server (with Server Agent)"
+msgstr "Fjärrfilserver (med Serveragent)"
+
+#: ../../chapter03.rst:361
+msgid ""
+"Once you install the Server Agent on your remote server, you can create a"
+" Team Folder here."
+msgstr "När du har installerat Server Agent på din fjärrserver kan du skapa en Team-mapp här."
+
+#: ../../chapter03.rst:364
+msgid ""
+"Initially without remote Server Agent installed, the Remote server "
+"section is empty. If there is at least one Server Agent installed, the "
+"remote file server will show up under the \"Remote File Servers\" section"
+" and you will be able to import file servers from a remote location, "
+"together with Active Directory Identities and the corresponding folder "
+"level NTFS permissions."
+msgstr "Ursprungligen utan fjärrserveragent installerad är avsnittet Fjärrservrar tomt. Om det finns minst en Server Agent installerad kommer den fjärranslutna filservern att visas under avsnittet \"Fjärranslutna filservrar\" och du kommer att kunna importera filservrar från en avlägsen plats, tillsammans med Active Directory-identiteter och motsvarande mappnivå NTFS-behörigheter."
+
+#: ../../chapter03.rst:369
+msgid "TEAM FOLDER SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR TEAMMAPP"
+
+#: ../../chapter03.rst:377
+msgid "REPORTS > SHARED OBJECTS"
+msgstr "RAPPORTER > DELADE OBJEKT"
+
+#: ../../chapter03.rst:379
+msgid ""
+"In |prodname|, you can share files and folders from your file browser. "
+"Once a something has been shared it will show up in the Shared Objects "
+"view of the Reports section of the portal. The shares can be read-only or"
+" full access, and can be controlled by date or shared as a public link. "
+"This is how Guest Users are created in |prodname|."
+msgstr "I |prodname| kan du dela filer och mappar från din filbläddrare. När något har delats kommer det att visas i vyen för Delade Objekt i rapportsektionen av portalen. Delningarna kan vara skrivskyddade eller ha full åtkomst, och kan kontrolleras efter datum eller delas som en offentlig länk. Det är så här Gästanvändare skapas i |prodname|."
+
+#: ../../chapter03.rst:384
+msgid "SHARED OBJECT SETTINGS"
+msgstr "INSTÄLLNINGAR FÖR DELAT OBJEKT"
+
+#: ../../chapter03.rst:389
+msgid "Storage Manager"
+msgstr "Lagringshanterare"
+
+#: ../../chapter03.rst:394
+msgid "SETTING UP BACKEND STORAGE"
+msgstr "KONFIGURERA BAKGRUNDLAGRING"
+
+#: ../../chapter03.rst:396
+msgid ""
+"Storage Manager is where you can define more secondary storage services "
+"and mount them into |prodname| so you can access them all from one single"
+" location."
+msgstr "Lagringshanteraren är där du kan definiera fler sekundära lagringstjänster och montera dem i |prodname| så att du kan komma åt dem alla från en enda plats."
+

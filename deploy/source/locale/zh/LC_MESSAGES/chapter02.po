@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:2
+msgid "Infrastructure Components"
+msgstr "基础设施组件"
+
+#: ../../chapter02.rst:4
+msgid ""
+"There are three different infrastructure components (logical components "
+"that can co-exist in the same server). In the smallest deployment unit, "
+"the different components can co-exist in one single machine (all-in-one "
+"deployment)."
+msgstr "有三个不同的基础设施组件（逻辑组件可以共存于同一服务器中）。在最小的部署单元中，不同的组件可以共存于一台机器中（一体化部署）。"
+
+#: ../../chapter02.rst:9
+msgid "1. Worker Node Component"
+msgstr "工作节点组件"
+
+#: ../../chapter02.rst:11
+msgid ""
+"Worker node contains services like Web Browser Based File Manager, "
+"Storage Service Connectors, Active Directory connector and other key "
+"components. It is responsible for data related activities such as file "
+"upload and download, permission, control and change notification. Since "
+"the data upload and download usually go through worker node, thus it is "
+"called a \"worker\" for data transfer."
+msgstr "工作节点包含服务，如基于Web浏览器的文件管理器、存储服务连接器、Active Directory连接器以及其他关键组件。它负责数据相关活动，例如文件上传和下载、权限控制和变更通知。由于数据上传和下载通常通过工作节点进行，因此它被称为数据传输的“工作者”。"
+
+#: ../../chapter02.rst:17
+msgid "Additional nodes can be added as the load increases."
+msgstr "随着负载的增加，可以添加额外的节点。"
+
+#: ../../chapter02.rst:21
+msgid "2. Database Component"
+msgstr "2. 数据库组件"
+
+#: ../../chapter02.rst:23
+msgid ""
+"The database contains persistent information for the system. Database is "
+"a critical component for the smooth operation of the CentreStack server "
+"farm. Local database with latency less than 10 milliseconds is "
+"recommended."
+msgstr "数据库包含系统的持久信息。数据库是CentreStack服务器场平稳运行的关键组件。推荐使用延迟小于10毫秒的本地数据库。"
+
+#: ../../chapter02.rst:27
+msgid ""
+"In order for all worker nodes be in the same server farm, they need to "
+"point to the same database."
+msgstr "为了让所有工作节点位于同一个服务器场，它们需要指向同一个数据库。"
+
+#: ../../chapter02.rst:32
+msgid "3. Storage Component"
+msgstr "3. 存储组件"
+
+#: ../../chapter02.rst:34
+msgid ""
+"The storage component is the persistent storage location for files and "
+"folders. There are two different types of storage services. One is "
+"managed by CentreStack, such as the default storage for the cluster and "
+"the default storage for tenants. The other is imported storage, for "
+"example, having existing file server network shares that aren't managed "
+"by CentreStack but can be imported into CentreStack for remote and mobile"
+" access."
+msgstr "存储组件是文件和文件夹的持久存储位置。有两种不同类型的存储服务。一种是由CentreStack管理的，例如集群的默认存储和租户的默认存储。另一种是导入的存储，例如，拥有现有的文件服务器网络共享，这些共享不由CentreStack管理，但可以导入到CentreStack中，以实现远程和移动访问。"
+

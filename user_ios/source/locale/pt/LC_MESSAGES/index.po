@@ -1,0 +1,486 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the CentreStack iOS
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CentreStack iOS User Guide 2025.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-05 18:17-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "CentreStack iOS Client User Guide"
+msgstr "Guia do Usuário do Cliente iOS CentreStack"
+
+#: ../../index.rst:7
+msgid "Getting Started"
+msgstr "Introdução"
+
+#: ../../index.rst:9
+msgid ""
+"Welcome to the CentreStack iOS Client User Guide. This guide describes "
+"the iOS client application for CentreStack, the managed file "
+"synchronization, and sharing solution."
+msgstr "Bem-vindo ao Guia do Usuário do Cliente iOS CentreStack. Este guia descreve o aplicativo cliente iOS para o CentreStack, a solução gerenciada de sincronização e compartilhamento de arquivos."
+
+#: ../../index.rst:11
+msgid ""
+"Users can access CentreStack cloud files using any device of their choice"
+" as CentreStack has clients for Windows, Mac, iPhone, iPad, Android, "
+"Windows 8+, and more. We have created a native IOS application that you "
+"can download from the App Store. This provides access to files and "
+"folders in your CentreStack account."
+msgstr "Os usuários podem acessar os arquivos em nuvem do CentreStack usando qualquer dispositivo de sua escolha, pois o CentreStack possui clientes para Windows, Mac, iPhone, iPad, Android, Windows 8+ e mais. Criamos um aplicativo nativo para IOS que você pode baixar na App Store. Isso proporciona acesso a arquivos e pastas na sua conta do CentreStack."
+
+#: ../../index.rst:13
+msgid ""
+"The white-labeled CentreStack iOS app called \"Cloud Drive\" by Gladinet "
+"that can be distributed by service providers and enterprises to their "
+"users."
+msgstr "O aplicativo iOS CentreStack com marca branca chamado \"Cloud Drive\" da Gladinet que pode ser distribuído por provedores de serviços e empresas para seus usuários."
+
+#: ../../index.rst:15
+msgid ""
+"If you have the fully branded CentreStack iOS client, the look and feel "
+"of the app may be different but the functionality is the same. You can "
+"obtain a fully branded CentreStack IOS Client with your company name and "
+"product logo from https://partner.centrestack.com/login/ (partner "
+"portal)."
+msgstr "Se você possui o cliente iOS CentreStack totalmente personalizado, a aparência do aplicativo pode ser diferente, mas a funcionalidade é a mesma. Você pode obter um cliente iOS CentreStack totalmente personalizado com o nome da sua empresa e o logotipo do produto em https://partner.centrestack.com/login/ (portal do parceiro)."
+
+#: ../../index.rst:19
+msgid "Download & Install"
+msgstr "Baixar & Instalar"
+
+#: ../../index.rst:21
+msgid ""
+"Search for Gladinet, Inc. as a publisher in 'App Store' to start the "
+"download and installation."
+msgstr "Pesquise por Gladinet, Inc. como publicador na 'App Store' para iniciar o download e a instalação."
+
+#: ../../index.rst:26
+msgid ""
+"After the install open the app from its icon. Login using your "
+"credentials."
+msgstr "Após a instalação, abra o aplicativo pelo ícone. Faça login com suas credenciais."
+
+#: ../../index.rst:31
+msgid ""
+"Enter Access Point (if not filled automatically) and your Username and "
+"tap \"CONTINUE\"."
+msgstr "Insira o Ponto de Acesso (se não for preenchido automaticamente) e o seu Nome de Usuário e toque em \"CONTINUAR\"."
+
+#: ../../index.rst:35
+msgid ""
+"On the following screen, enter your Password and tap \"SIGN IN\", to log "
+"in to your server."
+msgstr "Na tela seguinte, insira sua Senha e toque em \"SIGN IN\", para entrar no seu servidor."
+
+#: ../../index.rst:39
+msgid "Access, Upload and Create"
+msgstr "Acessar, Fazer Upload e Criar"
+
+#: ../../index.rst:41
+msgid ""
+"Once logged in users will see the files and folders they have access to "
+"like shown in the screen below."
+msgstr "Uma vez autenticados, os usuários verão os arquivos e pastas aos quais têm acesso, conforme mostrado na tela abaixo."
+
+#: ../../index.rst:45
+msgid "Tap on the folder to see the files and sub-folders inside."
+msgstr "Toque na pasta para ver os arquivos e subpastas dentro."
+
+#: ../../index.rst:51
+msgid "Sort Menu"
+msgstr "Ordenar Menu"
+
+#: ../../index.rst:53
+msgid ""
+"In the sort menu, you can change the order of which your files are "
+"displayed."
+msgstr "No menu de ordenação, você pode alterar a ordem pela qual seus arquivos são exibidos."
+
+#: ../../index.rst:55
+msgid ""
+"**Name (A to Z)** is when your files are displayed in the order of the "
+"alphabet."
+msgstr "**Nome (A a Z)** é quando seus arquivos são exibidos em ordem alfabética."
+
+#: ../../index.rst:57
+msgid ""
+"**Name (Z to A)** lets you display your files opposite of the "
+"alphabetical order."
+msgstr "**Nome (Z a A)** permite que você exiba seus arquivos em ordem alfabética inversa."
+
+#: ../../index.rst:59
+msgid ""
+"**Size (1 to 9)** lets your files be displayed in the order of which "
+"files are the smallest."
+msgstr "**Tamanho (1 a 9)** permite que seus arquivos sejam exibidos na ordem em que os arquivos são os menores."
+
+#: ../../index.rst:61
+msgid ""
+"**Size (9 to 1)** displays your files in the order of which the largest "
+"files are shown first."
+msgstr "**Tamanho (9 para 1)** exibe seus arquivos na ordem em que os maiores arquivos são mostrados primeiro."
+
+#: ../../index.rst:63
+msgid ""
+"**Date (Old to New)** displays files that were added first at the top of "
+"your file browser."
+msgstr "**Data (Antiga para Nova)** exibe os arquivos que foram adicionados primeiro no topo do seu navegador de arquivos."
+
+#: ../../index.rst:65
+msgid ""
+"**Date (New to Old)** displays your files in the order of which the most "
+"recently worked on files are shown first."
+msgstr "**Data (Novos para Antigos)** exibe seus arquivos na ordem em que os arquivos trabalhados mais recentemente são mostrados primeiro."
+
+#: ../../index.rst:71
+msgid "Main Operations"
+msgstr "Operações Principais"
+
+#: ../../index.rst:74
+msgid "Camera"
+msgstr "Câmera"
+
+#: ../../index.rst:75
+msgid ""
+"The camera icon allows you to insert media from your phone. You can "
+"either take a new picture or video or you can insert one from your camera"
+" library."
+msgstr "O ícone da câmera permite que você insira mídia do seu telefone. Você pode tirar uma nova foto ou vídeo ou pode inserir uma da sua biblioteca da câmera."
+
+#: ../../index.rst:82
+msgid "Creating New Folders"
+msgstr "Criando Novas Pastas"
+
+#: ../../index.rst:84
+msgid ""
+"To create new folders, click the **plus icon** at the bottom of the "
+"screen and it will let you create a name for the folder. Once a name is "
+"created the folder is created."
+msgstr "Para criar novas pastas, clique no **ícone de mais** na parte inferior da tela e isso permitirá que você crie um nome para a pasta. Uma vez criado o nome, a pasta é criada."
+
+#: ../../index.rst:90
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../../index.rst:91
+msgid ""
+"In the settings section you can change a number of options including the "
+"theme of the mobile application."
+msgstr "Na seção de configurações, você pode alterar uma série de opções, incluindo o tema do aplicativo móvel."
+
+#: ../../index.rst:97
+msgid "Log Out"
+msgstr "Sair"
+
+#: ../../index.rst:99
+msgid ""
+"To logout, click the icon on the top-left of the app and press the "
+"**\"Sign Out\"** icon at the bottom of the menu."
+msgstr "Para sair, clique no ícone no canto superior esquerdo do aplicativo e pressione o ícone **\"Sign Out\"** na parte inferior do menu."
+
+#: ../../index.rst:103
+msgid "You can also log out from the navigation pane at the bottom of the screen."
+msgstr "Você também pode sair pelo painel de navegação na parte inferior da tela."
+
+#: ../../index.rst:109
+msgid "Manage and Edit"
+msgstr "Gerenciar e Editar"
+
+#: ../../index.rst:111
+msgid ""
+"You can tap a folder to enter it for browsing, and tap a file to open it "
+"in a file previewer."
+msgstr "Você pode tocar em uma pasta para entrar e navegar, e tocar em um arquivo para abri-lo em um visualizador de arquivos."
+
+#: ../../index.rst:113
+msgid "Multiple operations can be carried out by accessing the menu."
+msgstr "Várias operações podem ser realizadas acessando o menu."
+
+#: ../../index.rst:118
+msgid "Preview"
+msgstr "Pré-visualização"
+
+#: ../../index.rst:120
+msgid ""
+"To preview a file, you can simply click on the file you want to see and "
+"it will open inside of the Cloud Drive application. For example, you can "
+"preview an excel file in Excel or in the Cloud Drive application."
+msgstr "Para visualizar um arquivo, você pode simplesmente clicar no arquivo que deseja ver e ele será aberto dentro do aplicativo Cloud Drive. Por exemplo, você pode visualizar um arquivo excel no Excel ou no aplicativo Cloud Drive."
+
+#: ../../index.rst:124
+msgid ""
+"You can also go into a folder and preview a file with multiple images. "
+"Once you click into the preview you can scroll through all the pictures "
+"in that screen as well as saving the picture to your phone."
+msgstr "Você também pode entrar em uma pasta e pré-visualizar um arquivo com várias imagens. Uma vez que você clique na pré-visualização, você pode rolar por todas as imagens naquela tela, bem como salvar a imagem no seu telefone."
+
+#: ../../index.rst:130
+msgid "Delete"
+msgstr "Excluir"
+
+#: ../../index.rst:132
+msgid ""
+"A file can be deleted using the **'Delete'** option. Select **'Delete'** "
+"from the context menu to delete a file. Once the file has been deleted it"
+" will no longer be visible in the cloud drive."
+msgstr "Um arquivo pode ser excluído usando a opção **'Excluir'**. Selecione **'Excluir'** no menu de contexto para deletar um arquivo. Uma vez que o arquivo tenha sido excluído, ele não será mais visível na unidade de nuvem."
+
+#: ../../index.rst:137
+msgid "Rename"
+msgstr "Renomear"
+
+#: ../../index.rst:139
+msgid ""
+"You can rename a file or a folder using the **'Rename'** option. Pressing"
+" **'Rename'** will display a field to type in the new name."
+msgstr "Você pode renomear um arquivo ou uma pasta usando a opção **'Renomear'**. Ao pressionar **'Renomear'**, será exibido um campo para digitar o novo nome."
+
+#: ../../index.rst:145
+msgid "Copy and Cut"
+msgstr "Copiar e Cortar"
+
+#: ../../index.rst:147
+msgid ""
+"The 'copy' option allows you to copy a file and paste it into a another "
+"folder of your choosing. The 'cut' option allows you to remove a file "
+"from a certain folder and paste it into another."
+msgstr "A opção 'copy' permite que você copie um arquivo e o cole em outra pasta de sua escolha. A opção 'cut' permite que você remova um arquivo de uma determinada pasta e o cole em outra."
+
+#: ../../index.rst:152
+msgid ""
+"The 'Move' option allows you to move the file you select from one folder "
+"to another."
+msgstr "A opção 'Mover' permite que você mova o arquivo selecionado de uma pasta para outra."
+
+#: ../../index.rst:156
+msgid "Comments"
+msgstr ""
+
+#: ../../index.rst:158
+msgid ""
+"The \"Comments' option allows you to see any comments made by people who "
+"have access to the file. It also lets you create a comment so others who "
+"have access to it can see your comment."
+msgstr "A opção \"Comentários\" permite que você veja quaisquer comentários feitos por pessoas que têm acesso ao arquivo. Ela também permite que você crie um comentário para que outros que tenham acesso possam ver o seu comentário."
+
+#: ../../index.rst:162
+msgid "More Info"
+msgstr "Mais Informações"
+
+#: ../../index.rst:164
+msgid ""
+"The 'More Info' option allows you to look at the specifics of the file "
+"you are working on or looking at."
+msgstr "A opção 'Mais Informações' permite que você veja os detalhes do arquivo com o qual está trabalhando ou que está visualizando."
+
+#: ../../index.rst:170
+msgid "Offline Access"
+msgstr "Acesso Offline"
+
+#: ../../index.rst:173
+msgid "Enable Offline"
+msgstr "Ativar Offline"
+
+#: ../../index.rst:175
+msgid ""
+"You can enable a file offline access by pressing the three vertical "
+"ellipses icon to the right of the file. Once you click on that it will "
+"drop down a menu where you can then \"Enable Offline\" this file."
+msgstr "Você pode habilitar o acesso offline de um arquivo pressionando o ícone de três elipses verticais à direita do arquivo. Uma vez que você clicar nele, será exibido um menu onde você pode então \"Habilitar Offline\" este arquivo."
+
+#: ../../index.rst:181
+msgid "Disable Offline"
+msgstr "Desativar Offline"
+
+#: ../../index.rst:183
+msgid ""
+"To remove files from your **Offline Access**, go to top-left menu, and "
+"choose **Offline Access**. Or use the Offline Access icon at the Bottom "
+"Bar."
+msgstr "Para remover arquivos do seu **Acesso Offline**, vá ao menu superior esquerdo e escolha **Acesso Offline**. Ou use o ícone de Acesso Offline na Barra Inferior."
+
+#: ../../index.rst:187
+msgid ""
+"In the **Offline Access** view you can remove files by clicking the three"
+" vertical ellipses icon and selecting **Disable Offline**."
+msgstr "Na visualização **Acesso Offline**, você pode remover arquivos clicando no ícone de três elipses verticais e selecionando **Desativar Offline**."
+
+#: ../../index.rst:193
+msgid "Sharing and Collaborating"
+msgstr "Compartilhamento e Colaboração"
+
+#: ../../index.rst:195
+msgid ""
+"You can select the files or folders that you want to share from your iOS "
+"devices."
+msgstr "Você pode selecionar os arquivos ou pastas que deseja compartilhar a partir de seus dispositivos iOS."
+
+#: ../../index.rst:200
+msgid "Share Via"
+msgstr "Compartilhar Via"
+
+#: ../../index.rst:201
+msgid ""
+"You will be allowed to share the file to a third party application such "
+"as gmail, or WhatsApp."
+msgstr "Você terá permissão para compartilhar o arquivo com um aplicativo de terceiros, como o Gmail ou o WhatsApp."
+
+#: ../../index.rst:206
+msgid "Share Manager"
+msgstr "Gerenciador de Compartilhamento"
+
+#: ../../index.rst:207
+msgid ""
+"You will be taken to a view and will see a list of any shares associated "
+"with this file/folder. You can add new shares there or delete previous "
+"shares to revoke access."
+msgstr "Você será levado para uma visualização e verá uma lista de todos os compartilhamentos associados a este arquivo/pasta. Você pode adicionar novos compartilhamentos lá ou excluir compartilhamentos anteriores para revogar o acesso."
+
+#: ../../index.rst:209
+msgid ""
+"To delete a user share, swipe the row to the left. This removes the share"
+" and prevents access by that user."
+msgstr "Para excluir um compartilhamento de usuário, deslize a linha para a esquerda. Isso remove o compartilhamento e impede o acesso por esse usuário."
+
+#: ../../index.rst:211
+msgid ""
+"At the bottom can find options to Add new shares, enable/disable and copy"
+" Public Link and Request a File. To refresh the list swipe down."
+msgstr "Na parte inferior, pode encontrar opções para Adicionar novos compartilhamentos, ativar/desativar e copiar Link Público e Solicitar um Arquivo. Para atualizar a lista, deslize para baixo."
+
+#: ../../index.rst:216
+msgid "Sharing a File"
+msgstr "Compartilhando um Arquivo"
+
+#: ../../index.rst:217
+msgid ""
+"You will be taken to the \"Specify User\" screen. There you can add user "
+"emails and next select various options for sharing."
+msgstr "Você será levado para a tela \"Especificar Usuário\". Lá você pode adicionar e-mails de usuários e em seguida selecionar várias opções para compartilhamento."
+
+#: ../../index.rst:221
+msgid ""
+"Before sending your email share notification, you can control how the "
+"guest user(s) can access the file or folder."
+msgstr "Antes de enviar a sua notificação de compartilhamento por e-mail, você pode controlar como o(s) usuário(s) convidado(s) podem acessar o arquivo ou pasta."
+
+#: ../../index.rst:223
+msgid "Specify share expiration time"
+msgstr "Especificar tempo de expiração do compartilhamento"
+
+#: ../../index.rst:226
+msgid "Set access type"
+msgstr "Definir tipo de acesso"
+
+#: ../../index.rst:225
+msgid "View/Read-Only Access"
+msgstr "Acesso de Visualização/Apenas Leitura"
+
+#: ../../index.rst:226
+msgid "View Only (download will be disabled)"
+msgstr "Visualização Apenas (download será desativado)"
+
+#: ../../index.rst:227
+msgid "Edit / Full Control Access"
+msgstr "Editar / Acesso Total de Controle"
+
+#: ../../index.rst:231
+msgid "Other Options"
+msgstr "Outras Opções"
+
+#: ../../index.rst:229
+msgid "Send email notification when file is downloaded"
+msgstr "Enviar notificação por e-mail quando o arquivo for baixado"
+
+#: ../../index.rst:230
+msgid "Send email notification when file is uploaded"
+msgstr "Enviar notificação por email quando o arquivo for carregado"
+
+#: ../../index.rst:231
+msgid "Notify user when file/folder is changed"
+msgstr "Notificar usuário quando arquivo/pasta for alterado"
+
+#: ../../index.rst:236
+msgid "Public Link"
+msgstr "Link Público"
+
+#: ../../index.rst:237
+msgid ""
+"Enable the public link option will display the public URL which can also "
+"be sent to the users so they can access the share from the URL or you can"
+" copy the share URL in an email. Click the \"Link\" icon at the bottom of"
+" screen."
+msgstr "Ativar a opção de link público exibirá o URL público que também pode ser enviado aos usuários para que eles possam acessar o compartilhamento a partir do URL ou você pode copiar o URL do compartilhamento em um e-mail. Clique no ícone \"Link\" na parte inferior da tela."
+
+#: ../../index.rst:242
+msgid "There is a \"Settings\" icon you can click to configure the Public Link."
+msgstr "Existe um ícone \"Configurações\" que você pode clicar para configurar o Link Público."
+
+#: ../../index.rst:246
+msgid ""
+"Once the Public Link is enabled, you can click \"COPY TO CLIPBOARD\" icon"
+" to copy the public link to your clipboard so it can be pasted into a "
+"field, email or document."
+msgstr "Uma vez que o Link Público está ativado, você pode clicar no ícone \"COPIAR PARA A ÁREA DE TRANSFERÊNCIA\" para copiar o link público para a sua área de transferência, para que ele possa ser colado em um campo, e-mail ou documento."
+
+#: ../../index.rst:251
+msgid "Request a File"
+msgstr "Solicitar um Arquivo"
+
+#: ../../index.rst:253
+msgid ""
+"This option is only available for folders. Once you select \"Request a "
+"File\" icon at the bottom right, it will take you to a screen where you "
+"can share a link with a user to allow him to upload files to the specific"
+" folder."
+msgstr "Esta opção está disponível apenas para pastas. Uma vez que você selecione o ícone \"Solicitar um Arquivo\" no canto inferior direito, ele o levará para uma tela onde você pode compartilhar um link com um usuário para permitir que ele faça upload de arquivos para a pasta específica."
+
+#: ../../index.rst:260
+msgid "Working with Office Applications"
+msgstr "Trabalhando com Aplicações Office"
+
+#: ../../index.rst:262
+msgid ""
+"To edit existing files from an office application, open the Office App "
+"first, then you can select Open and access Files App. Once you do that, "
+"you can select your drive and choose a file from there. It will then open"
+" it directly into the app, edit and save."
+msgstr "Para editar arquivos existentes de um aplicativo do Office, abra primeiro o aplicativo do Office, depois você pode selecionar Abrir e acessar o Aplicativo de Arquivos. Uma vez feito isso, você pode selecionar seu drive e escolher um arquivo a partir daí. Ele será então aberto diretamente no aplicativo, permitindo que você edite e salve."
+
+#: ../../index.rst:264
+msgid ""
+"You can refer to this knowledge based article: "
+"https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App"
+msgstr "Você pode consultar este artigo da base de conhecimento: https://support.centrestack.com/hc/en-us/articles/360034712773-Opening-and-Saving-Documents-using-the-iOS-App"
+
+#: ../../index.rst:269
+msgid "Conclusion"
+msgstr "Conclusão"
+
+#: ../../index.rst:271
+msgid ""
+"Gladinet's vision is to enable access to enterprise data from anywhere "
+"using any device including mobile devices like Android, iPhones, and "
+"iPads. The iOS CentreStack application is feature-rich which allows "
+"enterprise users to not only access the data but also sync and "
+"collaborate on that data. Users can access, share, edit, and perform "
+"other functions on the data when accessing from iOS devices just like "
+"they do when they access it from Windows or MAC clients."
+msgstr "A visão da Gladinet é possibilitar o acesso a dados empresariais de qualquer lugar usando qualquer dispositivo, incluindo dispositivos móveis como Android, iPhones e iPads. O aplicativo CentreStack para iOS é rico em recursos, o que permite que os usuários empresariais não apenas acessem os dados, mas também sincronizem e colaborem neles. Os usuários podem acessar, compartilhar, editar e realizar outras funções nos dados ao acessar de dispositivos iOS, assim como fazem quando acessam de clientes Windows ou MAC."
+

@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "1 Introduction"
+msgstr "1 引言"
+
+#: ../../index.rst:6
+msgid ""
+"|prodname| File Server Agent is a client agent software that runs on "
+"Windows machines and connect network shares on the Windows machine to "
+"|prodname|."
+msgstr "|prodname| 文件服务器代理是一款运行在Windows机器上的客户端软件，它将Windows机器上的网络共享连接到 |prodname|。"
+
+#: ../../index.rst:10
+msgid ""
+"It is a file server enablement to allow remote and mobile access, while "
+"at the same time, provide business continuity through file "
+"synchronization and version control."
+msgstr "它是一个文件服务器启用功能，允许远程和移动访问，同时通过文件同步和版本控制提供业务连续性。"
+
+#: ../../index.rst:12
+msgid ""
+"It is also a hybrid cloud setup that allows files and folders to be "
+"accessed from both local area network (file server map drive) and from "
+"remote locations/Cloud/Internet (via virtual mapped drive)."
+msgstr "它也是一种混合云设置，允许从局域网（文件服务器映射驱动器）和远程位置/云/互联网（通过虚拟映射驱动器）访问文件和文件夹。"
+
+#: ../../index.rst:16
+msgid "This is |prodname| File Server Agent Administration Guide."
+msgstr "这是 |prodname| 文件服务器代理管理指南。"
+
+#: ../../index.rst:20
+msgid "**File Server Agent** version 9.7.2576 or later"
+msgstr "**文件服务器代理** 版本 9.7.2576 或更高版本"
+
+#: ../../index.rst:25
+msgid "1.1 Background"
+msgstr "1.1 背景"
+
+#: ../../index.rst:29
+msgid "Security or Mobility?"
+msgstr "安全还是便携性？"
+
+#: ../../index.rst:31
+msgid ""
+"Businesses need ways to access local file server over the Internet from "
+"mobile devices and remote locations for productivity gain. This trend is "
+"pushing local file server content outward towards public file-sharing "
+"services such as Dropbox and OneDrive. Employees are using 3rd-party "
+"file-sharing services on their own to improve productivity."
+msgstr "企业需要通过互联网从移动设备和远程位置访问本地文件服务器，以提高生产力。这一趋势正将本地文件服务器的内容推向Dropbox和OneDrive等公共文件共享服务。员工正在自行使用第三方文件共享服务来提高生产力。"
+
+#: ../../index.rst:33
+msgid ""
+"Security and control is a big concern for businesses that are sensitive "
+"to regulation and data leakage problems. The lack of granular permissions"
+" and control over file sharing in public file-sharing services is forcing"
+" companies to give up on these 3rd-party services."
+msgstr "对于那些对监管和数据泄露问题敏感的企业来说，安全性和控制是一个大问题。公共文件共享服务中缺乏细粒度的权限和对文件共享的控制，迫使公司放弃这些第三方服务。"
+
+#: ../../index.rst:35
+msgid ""
+"They then revert to the use of virtual private networks (VPNs) to provide"
+" remote access to corporate data. However, VPN has its own problems; it "
+"is not a good fit for the modern mobility, nor is it productivity "
+"friendly. Most of the time, VPN is a headache for managed service "
+"providers and company IT department, for the number of VPN related "
+"support tickets."
+msgstr "然后他们又恢复使用虚拟私人网络（VPN）来提供远程访问企业数据。然而，VPN有自己的问题；它不适合现代移动性，也不利于生产力。大多数时候，VPN对于托管服务提供商和公司IT部门来说是一个头疼的问题，因为VPN相关支持票据的数量。"
+
+#: ../../index.rst:39
+msgid "Security + Mobility"
+msgstr "安全性 + 移动性"
+
+#: ../../index.rst:41
+msgid ""
+"This is why you need |prodname|; resolving issues between file-sharing "
+"requirements, mobility and remote access, while preventing the leakage of"
+" your critical data through security and control. |prodname| takes care "
+"of the following objectives:"
+msgstr "这就是您需要 |prodname| 的原因；在文件共享需求、移动性和远程访问之间解决问题，同时通过安全和控制防止您的关键数据泄露。|prodname| 负责以下目标："
+
+#: ../../index.rst:43
+msgid "Make the Windows file server mobility and remote-access friendly"
+msgstr "使Windows文件服务器具备移动性和远程访问友好性"
+
+#: ../../index.rst:44
+msgid "Maintain file-server accessing paradigm for local and remote access"
+msgstr "保持文件服务器的访问模式，以便本地和远程访问"
+
+#: ../../index.rst:46
+msgid "Provide NTFS security permissions"
+msgstr "提供NTFS安全权限"
+
+#: ../../index.rst:47
+msgid "Allow Active Directory integration"
+msgstr "允许集成活动目录"
+
+#: ../../index.rst:48
+msgid "Drive Mapping and on-demand access"
+msgstr "驱动器映射和按需访问"
+
+#: ../../index.rst:50
+msgid ""
+"File sync and share features integrated into a traditional Windows file "
+"server network share"
+msgstr "将文件同步和共享功能集成到传统的Windows文件服务器网络共享中"
+
+#: ../../index.rst:54
+msgid "Overview"
+msgstr "概览"
+
+#: ../../index.rst:56
+msgid ""
+"|prodname| is the overall solution, and the File Server Agent client "
+"application is software that connects file servers to the |prodname| "
+"file-sharing solution."
+msgstr "|prodname| 是一个全面的解决方案，而文件服务器代理客户端应用程序是将文件服务器连接到 |prodname| 文件共享解决方案的软件。"
+
+#: ../../index.rst:58
+msgid ""
+"The |prodname| File Server Agent is client-agent software that runs on "
+"Windows machines as a background service, while connecting to |prodname| "
+"servers (typically setup in a data center away from the file server)."
+msgstr "The |prodname| 文件服务器代理是在Windows机器上作为后台服务运行的客户端代理软件，同时连接到 |prodname| 服务器（通常设置在远离文件服务器的数据中心）。"
+
+#: ../../index.rst:60
+msgid ""
+"File Server Agent allows you to turn your file servers into cloud-"
+"friendly servers to migrate the file server shares to the |prodname| "
+"environment, while maintaining the two-way synchronization for as long as"
+" you need it to be. During this process, the existing share permissions "
+"are also migrated to |prodname|. This allows the Windows file server "
+"network share to be used locally without change, and at the same time, "
+"the network shares are synchronizing with |prodname| Server to form a "
+"Hybrid Cloud solution."
+msgstr "文件服务器代理允许您将文件服务器转变为云友好型服务器，以便将文件服务器共享迁移到 |prodname| 环境中，同时保持双向同步，直到您需要为止。在此过程中，现有的共享权限也会迁移到 |prodname|。这允许Windows文件服务器网络共享在本地无需更改即可使用，同时，网络共享正在与 |prodname| 服务器同步，形成混合云解决方案。"
+
+#: ../../index.rst:62
+msgid ""
+"File Server Agent technology turns any Windows file server into a private"
+" cloud storage that can be accessed from anywhere using any device, while"
+" maintaining existing identities and permissions."
+msgstr "文件服务器代理技术将任何Windows文件服务器转变为私有云存储，可以从任何地方使用任何设备访问，同时保持现有的身份验证和权限。"
+
+#: ../../index.rst:66
+msgid "As a Summary"
+msgstr "总结"
+
+#: ../../index.rst:68
+msgid ""
+"File Server Agent can sync folders and files between the local file "
+"server and the remote |prodname| Server."
+msgstr "文件服务器代理可以同步本地文件服务器和远程 |prodname| 服务器之间的文件夹和文件。"
+
+#: ../../index.rst:69
+msgid ""
+"File Server Agent can sync NTFS folder permissions from a local file "
+"server to the remote |prodname| Server."
+msgstr "文件服务器代理可以将本地文件服务器的NTFS文件夹权限同步到远程 |prodname| 服务器。"
+
+#: ../../index.rst:70
+msgid ""
+"File Server Agent can export users to the remote |prodname| Server from a"
+" user's local Active Directory."
+msgstr "文件服务器代理可以将用户从本地活动目录导出到远程的 |prodname| 服务器。"
+
+#: ../../index.rst:71
+msgid ""
+"File Server Agent activity runs as a Windows background service on the "
+"local file server."
+msgstr "文件服务器代理活动作为Windows后台服务在本地文件服务器上运行。"
+
+#: ../../index.rst:72
+msgid ""
+"Users use their local Active Directory identity to access files locally "
+"and from the |prodname| Server."
+msgstr "用户使用他们本地的Active Directory身份来本地访问文件以及从 |prodname| 服务器访问文件。"
+
+#: ../../index.rst:77
+msgid "|prodname| ACCESS FROM LOCAL FILE SERVER"
+msgstr "|prodname| 从本地文件服务器访问"
+
+#: ../../index.rst:81
+msgid ""
+"When should you use File Server Agent to connect your file server to "
+"|prodname|?"
+msgstr "您应该在何时使用文件服务器代理将您的文件服务器连接到 |prodname|？"
+
+#: ../../index.rst:83
+msgid ""
+"When should you use a direct server message block (SMB) network share "
+"connection?"
+msgstr "您应该在何时使用直接服务器消息块（SMB）网络共享连接？"
+
+#: ../../index.rst:85
+msgid ""
+"Typically, when a file server is away not in the same data center or "
+"network, we recommend using Server Agent. (e.g. there is no physical "
+"connection between |prodname| and the \"Server Agent\" target system)"
+msgstr "通常情况下，当文件服务器不在同一数据中心或网络中时，我们推荐使用服务器代理。（例如，|prodname| 和 \"服务器代理\" 目标系统之间没有物理连接）"
+
+#: ../../index.rst:87
+msgid ""
+"For file servers in the same data center, but in a different VLAN, we "
+"recommend opening up the VLAN so the |prodname| can direct access the "
+"file server without using a Server Agent since both are already in the "
+"same data center."
+msgstr "对于位于同一数据中心但不同VLAN的文件服务器，我们建议打开VLAN，以便 |prodname| 可以直接访问文件服务器，而无需使用服务器代理，因为两者已经位于同一数据中心。"
+
+#: ../../index.rst:92
+msgid "How it solves the problem?"
+msgstr "它是如何解决问题的？"
+
+#: ../../index.rst:94
+msgid ""
+"You or your managed service provider (MSP) owns the |prodname| software. "
+"File data is either located on the local file server or the |prodname| "
+"Server. Either way, you control the data to prevent unauthorized access."
+msgstr "您或您的托管服务提供商（MSP）拥有 |prodname| 软件。文件数据位于本地文件服务器或 |prodname| 服务器上。无论哪种方式，您都可以控制数据以防止未经授权的访问。"
+
+#: ../../index.rst:96
+msgid ""
+"|prodname| Server is operating from a data center or local office, behind"
+" a firewall connected to the Internet. Typical SMB protocol shares are "
+"not available to the Internet; however, the HTTPS communication (Internet"
+" facing) capability of the |prodname| Server makes it friendly to mobile "
+"and remote devices."
+msgstr "|prodname| 服务器运行在数据中心或本地办公室，位于防火墙之后并连接到互联网。典型的SMB协议共享在互联网上是不可用的；然而，|prodname| 服务器的HTTPS通信（面向互联网的）能力使其对移动和远程设备友好。"
+
+#: ../../index.rst:98
+msgid ""
+"|prodname| Server either directly leverages the local Active Directory "
+"and NTFS permission or replicates these features to maintain a local-"
+"file-server access paradigm."
+msgstr "|prodname| 服务器直接利用本地 Active Directory 和 NTFS 权限或复制这些功能，以维护本地文件服务器访问范式。"
+
+#: ../../index.rst:102
+msgid "What is a typical way to use File Server Agent?"
+msgstr "通常使用文件服务器代理的方式是什么？"
+
+#: ../../index.rst:104
+msgid ""
+"When your client needs to store files in local-network shared folders, "
+"Server Agent can be helpful for connecting these shares to |prodname|. "
+"This typically happens when there is a lot of users in the local office, "
+"or the Internet speed is ok but not great coming into the office."
+msgstr "当您的客户需要将文件存储在本地网络共享文件夹中时，服务器代理可以帮助将这些共享连接到 |prodname|。这通常发生在本地办公室有很多用户，或者办公室的互联网速度尚可但不是非常快的情况下。"
+
+#: ../../index.rst:106
+msgid ""
+"One typical use case is you have remote workers or a branch office that "
+"have need to access the file server network share without using the VPN. "
+"You don't want to copy the file server content out just for the remote "
+"workers because that will create too many copies and lost track of which "
+"side has the newer version. Setting it up in a hybrid mode, and with two-"
+"way synchronization between local file server and remote |prodname| "
+"Server is a better way to go."
+msgstr "一个典型的用例是，您有远程工作者或分支机构需要在不使用VPN的情况下访问文件服务器网络共享。您不想仅仅为了远程工作者而复制文件服务器内容，因为这会创建太多副本，并且无法跟踪哪一边拥有更新的版本。将其设置为混合模式，并在本地文件服务器与远程 |prodname| 服务器之间进行双向同步，是更好的方法。"
+

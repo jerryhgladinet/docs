@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Hosted CentreStack
+# Admin Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted CentreStack Admin Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter01.rst:3
+msgid "Overview of |prodname|"
+msgstr "Descripción general de |prodname|"
+
+#: ../../chapter01.rst:5
+msgid ""
+"|prodname| is a managed file sync and share solution. It differentiates "
+"from other file sync and share solutions by focusing primarily on "
+"security, control and team collaboration. |prodname| does really well in "
+"the following areas:"
+msgstr "|prodname| es una solución gestionada de sincronización y compartición de archivos. Se diferencia de otras soluciones de sincronización y compartición de archivos al centrarse principalmente en la seguridad, el control y la colaboración en equipo. |prodname| destaca especialmente en las siguientes áreas:"
+
+#: ../../chapter01.rst:7
+msgid ""
+"maintain Active Directory security and NTFS permission on files and "
+"folders"
+msgstr "mantener la seguridad de Active Directory y el permiso NTFS en archivos y carpetas"
+
+#: ../../chapter01.rst:8
+msgid ""
+"provide on-demand access that honors read-only, and write permission in "
+"real-time"
+msgstr "proporcionar acceso bajo demanda que respeta los permisos de solo lectura y escritura en tiempo real"
+
+#: ../../chapter01.rst:9
+msgid "mirror local network share to team collaboration in the cloud"
+msgstr "replicar compartición de red local para colaboración en equipo en la nube"
+
+#: ../../chapter01.rst:13
+msgid "Self-Hosted |prodname|"
+msgstr "Autogestionado |prodname|"
+
+#: ../../chapter01.rst:15
+msgid ""
+"|prodname| is pure software that is built on top of the Microsoft Web "
+"Platform and is to be deployed on a Microsoft Server."
+msgstr "|prodname| es un software puro que se construye sobre la Plataforma Web de Microsoft y debe implementarse en un Servidor Microsoft."
+
+#: ../../chapter01.rst:17
+msgid ""
+"This option gives Managed Service Providers and Enterprise IT maximum "
+"control and flexibility on how they want to combine the traditional file "
+"server security, control and the ease of use from an internet-facing file"
+" sharing solution."
+msgstr "Esta opción brinda a los Proveedores de Servicios Gestionados y a la TI Empresarial el máximo control y flexibilidad sobre cómo desean combinar la seguridad y el control del servidor de archivos tradicional con la facilidad de uso de una solución de compartición de archivos accesible desde Internet."
+
+#: ../../chapter01.rst:20
+msgid "Hosted |prodname|"
+msgstr "Alojado |prodname|"
+
+#: ../../chapter01.rst:22
+msgid ""
+"The same |prodname| software is already deployed and maintained in Amazon"
+" Web Services (EC2 + S3)."
+msgstr "El mismo software |prodname| ya está desplegado y mantenido en Amazon Web Services (EC2 + S3)."
+
+#: ../../chapter01.rst:24
+msgid ""
+"This option gives a Managed Service Provider the easiest on-ramp to a "
+"|prodname| solution without the hassle of setting up |prodname| "
+"themselves."
+msgstr "Esta opción ofrece al Proveedor de Servicios Gestionados la forma más fácil de incorporarse a una solución |prodname| sin la molestia de configurar |prodname| por sí mismos."
+
+#: ../../chapter01.rst:29
+msgid ""
+"This guide is about Hosted-|prodname|. Please reference the |prodname| "
+"`Admin Guide`__ for self-hosted |prodname|."
+msgstr "Esta guía trata sobre Hosted-|prodname|. Por favor, consulte la `Guía de Administración`__ de |prodname| para el |prodname| autoalojado."
+

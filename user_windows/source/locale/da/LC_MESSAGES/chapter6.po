@@ -1,0 +1,856 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Windows Client
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows Client Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:34-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter6.rst:3
+msgid "Client Side Management Console"
+msgstr "Klient Side Management Konsol"
+
+#: ../../chapter6.rst:6
+msgid "Client Side Management Console - Native"
+msgstr "Klient Side Management Konsol - Nativ"
+
+#: ../../chapter6.rst:9
+msgid ""
+"The desktop client has a management console that controls the client side"
+" of the behavior. The management console can be started from the system "
+"tray icon **(1)**. In the Client Menu, click on the management console "
+"icon **(2)**."
+msgstr "Desktopklienten har en administrationskonsol, der styrer klientens adfærd. Administrationskonsollen kan startes fra systembakkeikonet **(1)**. I klientmenuen skal du klikke på ikonet for administrationskonsollen **(2)**."
+
+#: ../../chapter6.rst:15
+msgid "WINDOWS CLIENT MANAGEM ENT CONSOLE"
+msgstr "WINDOWS KLIENTSTYRING KONSOLE"
+
+#: ../../chapter6.rst:17
+msgid "The management console has seven sections:"
+msgstr "Administrationskonsollen har syv sektioner:"
+
+#: ../../chapter6.rst:20
+msgid "Section Name"
+msgstr ""
+
+#: ../../chapter6.rst:20
+msgid "Description"
+msgstr ""
+
+#: ../../chapter6.rst:22
+msgid "Dashboard (3)"
+msgstr "Dashboard (3)"
+
+#: ../../chapter6.rst:22
+msgid ""
+"Dashboard shows whether it is windows client/server agent, the access "
+"point URL and the version."
+msgstr "Dashboardet viser, om det er en Windows-klient/server-agent, adgangspunktets URL og versionen."
+
+#: ../../chapter6.rst:25
+msgid "Attached Folders (4)"
+msgstr "Vedhæftede mapper (4)"
+
+#: ../../chapter6.rst:25
+msgid ""
+"You will attach local folder to sync with Cloud, and also you can scan "
+"attached folder."
+msgstr "Du vil tilknytte en lokal mappe til synkronisering med Cloud, og du kan også scanne den tilknyttede mappe."
+
+#: ../../chapter6.rst:28
+msgid "Offline Folders (5)"
+msgstr "Offline mapper (5)"
+
+#: ../../chapter6.rst:28
+msgid ""
+"All offline folders will be listed here. You also can enable offline "
+"access to a folder in this section."
+msgstr "Alle offline mapper vil blive listet her. Du kan også aktivere offline adgang til en mappe i dette afsnit."
+
+#: ../../chapter6.rst:32
+msgid "Locked Files (6)"
+msgstr "Låste filer (6)"
+
+#: ../../chapter6.rst:32
+msgid "All locked files will be listed here."
+msgstr "Alle låste filer vil blive listet her."
+
+#: ../../chapter6.rst:35
+msgid "Pending Check-ins (7)"
+msgstr "Afventende Check-ins (7)"
+
+#: ../../chapter6.rst:35
+msgid ""
+"All checked-out files will be listed here. You also can check-out a file "
+"in this section."
+msgstr "Alle udtjekkede filer vil blive listet her. Du kan også tjekke en fil ud i dette afsnit."
+
+#: ../../chapter6.rst:38
+msgid "Settings (8)"
+msgstr "Indstillinger (8)"
+
+#: ../../chapter6.rst:38
+msgid "Settings Manager stores the different client-side settings"
+msgstr "Indstillingshåndteringen gemmer de forskellige klient-side indstillinger"
+
+#: ../../chapter6.rst:41
+msgid "Sync Status (9)"
+msgstr "Synkroniseringsstatus (9)"
+
+#: ../../chapter6.rst:41
+msgid ""
+"Show sync status. You can pause the sync here. You observe summary of all"
+" the sync tasks from task manager in this section."
+msgstr "Vis synkroniseringsstatus. Du kan pause synkroniseringen her. Du ser en oversigt over alle synkroniseringsopgaver fra opgavechefen i dette afsnit."
+
+#: ../../chapter6.rst:48 ../../chapter6.rst:403
+msgid "Attached Folders"
+msgstr "Vedhæftede mapper"
+
+#: ../../chapter6.rst:50
+msgid ""
+"You can attach local (from your Client Device) folders to |prodname| by "
+"clicking the \"Attached Folders\" button **(1)**. In the main view, and "
+"then click \"Attach a Local Folder to the Cloud\" **(2)**. This will open"
+" a wizard. Type in the location of the folder in the provided field or "
+"click the \"...\" button **(3)** to explore to a folder you wish to "
+"attach **(4)**. Click \"Attach\" to complete the process."
+msgstr "Du kan vedhæfte lokale mapper (fra din klientenhed) til |prodname| ved at klikke på knappen \"Vedhæftede Mapper\" **(1)** i hovedvinduet, og derefter klikke på \"Vedhæft en Lokal Mappe til Skyen\" **(2)**. Dette vil åbne en guide. Indtast placeringen af mappen i det angivne felt eller klik på knappen \"...\" **(3)** for at navigere til en mappe, du ønsker at vedhæfte **(4)**. Klik på \"Vedhæft\" for at fuldføre processen."
+
+#: ../../chapter6.rst:55
+msgid "ATTACH A FOLDER TO BACKUP"
+msgstr "VEDHÆFT EN MAPPE TIL BACKUP"
+
+#: ../../chapter6.rst:59
+msgid "Settings Explained"
+msgstr "Indstillinger Forklaret"
+
+#: ../../chapter6.rst:61
+msgid ""
+"There are many settings under the Settings Manager in the desktop client."
+" To access them click the Settings tab."
+msgstr "Der er mange indstillinger under Indstillingsmanageren i desktopklienten. For at få adgang til dem skal du klikke på fanen Indstillinger."
+
+#: ../../chapter6.rst:66
+msgid "SETTINGS TAB - SETTINGS MANAGER"
+msgstr "INDSTILLINGER FANE - INDSTILLINGER MANAGER"
+
+#: ../../chapter6.rst:70
+msgid "Sync Throttle"
+msgstr "Synkroniseringstakt"
+
+#: ../../chapter6.rst:72
+msgid ""
+"False (default) - If true, the Upload and Download Throttling control "
+"defined under this settings."
+msgstr "Falsk (standard) - Hvis sandt, vil kontrol af upload- og downloadbegrænsning defineret under disse indstillinger."
+
+#: ../../chapter6.rst:75
+msgid "Sync Throttled Upload Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Synkroniseret begrænset uploadbåndbredde (KB/s, 0-Ubegrænset)"
+
+#: ../../chapter6.rst:77 ../../chapter6.rst:82
+msgid ""
+"0 (default) - The default setting is unlimited KB/s, enter a number here "
+"to reduce the bandwidth consummed to the set limit."
+msgstr "0 (standard) - Standardindstillingen er ubegrænset KB/s, indtast et tal her for at reducere det forbrugte båndbredde til den angivne grænse."
+
+#: ../../chapter6.rst:80
+msgid "Sync Throttled Download Bandwidth (KB/s, 0-Unlimited)"
+msgstr "Synkroniseret begrænset downloadbåndbredde (KB/s, 0-Ubegrænset)"
+
+#: ../../chapter6.rst:85
+msgid "Full Speed Sync Stop Hour (default 7:00)"
+msgstr "Fuld Hastighed Synkronisering Stop Time (standard 7:00)"
+
+#: ../../chapter6.rst:87
+msgid ""
+"7 (default) - This setting represents the hour (24 hour clock) of the day"
+" when Full Speed synchronization will stop - Usually it is desired to "
+"have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "7 (standard) - Denne indstilling repræsenterer timen (24-timers ur) på dagen, hvor fuld hastighedssynkronisering vil stoppe - Normalt ønskes det at have fuld hastighedssynkronisering natten over, når internetudnyttelsen er lav."
+
+#: ../../chapter6.rst:90
+msgid "Full Speed Sync Start Hour (default 20:00)"
+msgstr "Fuld Hastighed Synkronisering Start Time (standard 20:00)"
+
+#: ../../chapter6.rst:92
+msgid ""
+"20 (default) - This setting represents the hour (24 hour clock) of the "
+"day when Full Speed synchronization will begin - Usually it is desired to"
+" have full speed synchronization overnight when the Internet utilization "
+"is low."
+msgstr "20 (standard) - Denne indstilling repræsenterer timen (24-timers ur) på dagen, hvor fuld hastighedssynkronisering vil begynde - Normalt ønskes det at have fuld hastighedssynkronisering natten over, når internetudnyttelsen er lav."
+
+#: ../../chapter6.rst:95
+msgid "Scan local files and sync-up to cloud as necessary"
+msgstr "Scan lokale filer og synkroniser med skyen efter behov"
+
+#: ../../chapter6.rst:97
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" local files are more accurate than the information in the cloud."
+msgstr "Falsk (standard) - Desktopklienten opbygger en tilstandsdatabase, der beskriver, hvilke filer der er synkroniseret, og hvilke der ikke er. I tilfældet hvor desktopklienten bliver geninstalleret, kan tilstandsinformationen gå tabt. Denne indstilling kan bruges til at scanne lokale filer og uploade dem til skyen efter behov. Dette er en hurtig måde at genopbygge tilstandsinformation på, når de lokale filer er mere nøjagtige end oplysningerne i skyen."
+
+#: ../../chapter6.rst:100
+msgid "Scan cloud files and sync-down to local as necessary"
+msgstr "Scan skyfiler og synkroniser ned til lokal efter behov"
+
+#: ../../chapter6.rst:102
+msgid ""
+"False (default) - The desktop client builds up a state database that "
+"describes which files are in sync and which files are not. In the case "
+"where the desktop client is re-imaged, the state information may be lost."
+" This option can be used to scan local files and upload them to the cloud"
+" as necessary. This is a quick way to re-build state information when the"
+" cloud files are more accurate than the local files."
+msgstr "Falsk (standard) - Desktopklienten opbygger en tilstandsdatabase, der beskriver, hvilke filer der er synkroniseret, og hvilke der ikke er. I tilfældet hvor desktopklienten bliver geninstalleret, kan tilstandsinformationen gå tabt. Denne indstilling kan bruges til at scanne lokale filer og uploade dem til skyen efter behov. Dette er en hurtig måde at genopbygge tilstandsinformation på, når filerne i skyen er mere nøjagtige end de lokale filer."
+
+#: ../../chapter6.rst:105
+msgid "Allow shortcuts to sync"
+msgstr "Tillad genveje til at synkronisere"
+
+#: ../../chapter6.rst:107
+msgid ""
+"False (default) - By default, the Windows Client does not support "
+"file/folder shortcuts, as we cannot guarantee that the shortcuts in the "
+"cloud are always valid. If a user creates a shortcut from a computer and "
+"links to a local file. The shortcut is then uploaded to the cloud. If the"
+" user accesses the Windows Client from another computer, the shortcut "
+"will not work unless both computers have exactly the same files and "
+"folder structures. If the shortcut is broken, Windows Explorer will "
+"aggressively try to resolve the broken shortcut paths, which will slow "
+"down the Windows Client. If users only access their cloud files from the "
+"same computer/device, they may still want to save their shortcuts to the "
+"cloud. In this case, you should enable the \"Allow shortcuts to sync\" "
+"setting."
+msgstr "Falsk (standard) - Som standard understøtter Windows-klienten ikke fil-/mappegenveje, da vi ikke kan garantere, at genvejene i skyen altid er gyldige. Hvis en bruger opretter en genvej fra en computer og linker til en lokal fil. Genvejen bliver derefter uploadet til skyen. Hvis brugeren får adgang til Windows-klienten fra en anden computer, vil genvejen ikke fungere, medmindre begge computere har nøjagtigt de samme filer og mappestrukturer. Hvis genvejen er brudt, vil Windows Stifinder aggressivt forsøge at løse de brudte genvejstier, hvilket vil sænke Windows-klienten. Hvis brugere kun tilgår deres skyfiler fra den samme computer/enhed, vil de måske stadig ønske at gemme deres genveje i skyen. I dette tilfælde bør du aktivere indstillingen \"Tillad synkronisering af genveje\"."
+
+#: ../../chapter6.rst:110
+msgid "Disable file-change logs for dummy files (zero byte files)"
+msgstr "Deaktiver filændringslogfiler for dummyfiler (nul byte filer)"
+
+#: ../../chapter6.rst:112
+msgid ""
+"False (default) - When set to True, sync will ignore file change log for "
+"empty files."
+msgstr "Falsk (standard) - Når den er sat til Sand, vil synkronisering ignorere filændringsloggen for tomme filer."
+
+#: ../../chapter6.rst:115
+msgid "Scheduled Sync"
+msgstr "Planlagt Synkronisering"
+
+#: ../../chapter6.rst:118
+msgid "Enable Scheduled Sync"
+msgstr "Aktivér planlagt synkronisering"
+
+#: ../../chapter6.rst:120
+msgid ""
+"False (default) - If true, the synchronization and transferring of files "
+"will follow the schedule defined in this section."
+msgstr "Falsk (standard) - Hvis sandt, vil synkronisering og overførsel af filer følge den tidsplan, der er defineret i dette afsnit."
+
+#: ../../chapter6.rst:123
+msgid "Pause Sync Start Hour (default 7:00)"
+msgstr "Pause Sync Start Time (standard 7:00)"
+
+#: ../../chapter6.rst:125
+msgid ""
+"7 (default) - This setting represents the hour (24-hour clock) of the day"
+" when synchronization will pause."
+msgstr "7 (standard) - Denne indstilling repræsenterer timen (24-timers ur) på dagen, hvor synkroniseringen vil pause."
+
+#: ../../chapter6.rst:128
+msgid "Pause Sync End Hour (default 20:00)"
+msgstr "Pause Sync Sluttime (standard 20:00)"
+
+#: ../../chapter6.rst:130
+msgid ""
+"20 (default) - This setting represents the hour (24-hour clock) of the "
+"day when synchronization will start."
+msgstr "20 (standard) - Denne indstilling repræsenterer timen (24-timers ur) på dagen, hvor synkronisering vil starte."
+
+#: ../../chapter6.rst:133
+msgid "Mapped Drive Control"
+msgstr "Mappede Drev Kontrol"
+
+#: ../../chapter6.rst:136
+msgid "Always allow PDF preview"
+msgstr "Tillad altid PDF forhåndsvisning"
+
+#: ../../chapter6.rst:138
+msgid ""
+"False (default) - If true, always allow windows client to show PDF file "
+"preview."
+msgstr "Falsk (standard) - Hvis sandt, tillad altid Windows-klienten at vise PDF-fil forhåndsvisning."
+
+#: ../../chapter6.rst:141
+msgid "Do not show storage quota"
+msgstr "Vis ikke lagerkvote"
+
+#: ../../chapter6.rst:143
+msgid ""
+"False (default) - If true, do not show the user's storage quota on "
+"windows client drive."
+msgstr "Falsk (standard) - Hvis sandt, vis ikke brugerens lagerkvote på Windows-klientdrevet."
+
+#: ../../chapter6.rst:146
+msgid "When starting up the client, open the mounted drive automatically"
+msgstr "Når klienten startes, åbn det monterede drev automatisk"
+
+#: ../../chapter6.rst:148
+msgid ""
+"True (default) - When starting up the client, automatically open File "
+"Explorer to show the windows client drive."
+msgstr "Sandt (standard) - Når klienten startes op, åbnes Stifinder automatisk for at vise drevet i Windows-klienten."
+
+#: ../../chapter6.rst:151
+msgid "Cloud drive label"
+msgstr "Skydrevetiket"
+
+#: ../../chapter6.rst:153
+msgid ""
+"My Cloud Drive (default) - This is the drive label you can see from the "
+"Windows Explorer."
+msgstr "Min Cloud Drev (standard) - Dette er drevetiketten, du kan se fra Windows Stifinder."
+
+#: ../../chapter6.rst:156
+msgid "Drive Letter"
+msgstr "Drevbogstav"
+
+#: ../../chapter6.rst:158
+msgid "M (default) - This is the drive letter assignment."
+msgstr "M (standard) - Dette er tildelingen af drevbogstavet."
+
+#: ../../chapter6.rst:161
+msgid "In offline-mode, only show files that are cached and available locally"
+msgstr "I offline-tilstand, vis kun filer, der er cachelagret og tilgængelige lokalt"
+
+#: ../../chapter6.rst:163
+msgid ""
+"False (default) - If true, when working in offline mode, only show files "
+"that are already in cache. Hide any files are not in cache."
+msgstr "Falsk (standard) - Hvis sandt, når der arbejdes i offline-tilstand, vis kun filer, der allerede er i cachen. Skjul eventuelle filer, der ikke er i cachen."
+
+#: ../../chapter6.rst:166
+msgid "Disable \"check-out\" on files and folders"
+msgstr "Deaktiver \"check-out\" på filer og mapper"
+
+#: ../../chapter6.rst:168
+msgid "False (default) - If true, disable manual file lock/unlock."
+msgstr "Falsk (standard) - Hvis sandt, deaktiver manuel fil lås/oplåsning."
+
+#: ../../chapter6.rst:171
+msgid "Use Windows' default browser to open files and folders"
+msgstr "Brug Windows' standardbrowser til at åbne filer og mapper"
+
+#: ../../chapter6.rst:173
+msgid ""
+"False (default) - If true, on windows client drive, when right click "
+"file/folder and select Open in Web Browser, open default browser to show "
+"the selected files."
+msgstr "Falsk (standard) - Hvis sandt, på windows klientdrev, når højreklik på fil/mappe og vælg Åbn i webbrowser, åbn standardbrowser for at vise de valgte filer."
+
+#: ../../chapter6.rst:176
+msgid "Always sync folder meta-data when browsing with Windows Explorer"
+msgstr "Synkroniser altid mappe-metadata, når du browser med Windows Stifinder"
+
+#: ../../chapter6.rst:178
+msgid ""
+"False (default) - If true, when visiting cloud folder in windows client "
+"drive, the client will ignore local folder listing cahe. It will always "
+"get latest folder listing cache from cloud. It will generate high dir "
+"request to the server."
+msgstr "Falsk (standard) - Hvis sandt, når man besøger cloud-mappe i windows-klientdrevet, vil klienten ignorere lokal mappefortegnelse cache. Den vil altid hente den seneste mappefortegnelse cache fra skyen. Det vil generere høj mappeanmodning til serveren."
+
+#: ../../chapter6.rst:181
+msgid "Disable drive mounting"
+msgstr "Deaktiver drevmontering"
+
+#: ../../chapter6.rst:183
+msgid ""
+"False (default) - If true, no Cloud Drive will be mounted under My "
+"Computer for the Windows Client."
+msgstr "Falsk (standard) - Hvis sandt, vil der ikke blive monteret noget Cloud Drive under Denne computer for Windows-klienten."
+
+#: ../../chapter6.rst:186
+msgid "Create cloud drive shortcut under My Documents"
+msgstr "Opret genvej til cloud-drev under Mine dokumenter"
+
+#: ../../chapter6.rst:188
+msgid ""
+"True (default) - If true, there is a shortcut to the Cloud Drive under "
+"the My Documents' folder."
+msgstr "True (standard) - Hvis sandt, findes der en genvej til Cloud Drive under mappen Mine dokumenter."
+
+#: ../../chapter6.rst:191
+msgid "Large File Upload"
+msgstr "Stor Filoverførsel"
+
+#: ../../chapter6.rst:194
+msgid "Enable \"chunking\" when uploading files larger than a specific size (MB)"
+msgstr "Aktivér \"chunking\" ved upload af filer større end en bestemt størrelse (MB)"
+
+#: ../../chapter6.rst:196
+msgid ""
+"15 (default) - When uploading large file, the client can split the file "
+"in small chunks and upload small chunks in parallel. It can improve the "
+"upload speed. Also if a chunk fails, only need to retry the chunk. This "
+"setting defines how large the file size is to enable the chunk feature."
+msgstr "15 (standard) - Når du uploader en stor fil, kan klienten opdele filen i små bidder og uploade små bidder parallelt. Det kan forbedre uploadhastigheden. Også hvis en bid fejler, behøver kun at genoptage upload af den bid. Denne indstilling definerer, hvor stor filstørrelsen skal være for at aktivere chunk-funktionen."
+
+#: ../../chapter6.rst:199
+msgid "Default file chunk unit size (MB)"
+msgstr "Standardstørrelse for filklumpenhed (MB)"
+
+#: ../../chapter6.rst:201
+msgid "20 (default) - This setting defines the chunk size."
+msgstr "20 (standard) - Denne indstilling definerer størrelsen på datastykker."
+
+#: ../../chapter6.rst:204
+msgid "Bandwidth Control"
+msgstr "Båndbreddekontrol"
+
+#: ../../chapter6.rst:207
+msgid "Download Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Download båndbreddebegrænsning (KB/s, 0-Ubegrænset)"
+
+#: ../../chapter6.rst:209
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your download bandwidth to the number you enter in Kilobytes."
+msgstr "0 (standard) - Denne indstilling er som standard ubegrænset. Ændre dette for at begrænse din download båndbredde til det antal du indtaster i Kilobytes."
+
+#: ../../chapter6.rst:212
+msgid "Upload Bandwidth Limit (KB/s, 0-Unlimited)"
+msgstr "Upload båndbreddebegrænsning (KB/s, 0-Ubegrænset)"
+
+#: ../../chapter6.rst:214
+msgid ""
+"0 (default) - This setting is defaulted to unlimited. Change this to "
+"limit your upload bandwidth to the number you enter in Kilobytes."
+msgstr "0 (standard) - Denne indstilling er som standard ubegrænset. Ændre dette for at begrænse din upload båndbredde til det antal du indtaster i Kilobytes."
+
+#: ../../chapter6.rst:217
+msgid "Maximum number of file transfert threads"
+msgstr "Maksimalt antal filoverførselstråde"
+
+#: ../../chapter6.rst:219
+msgid ""
+"5 (default) - Use this setting to restrict the number of threads used "
+"during synchronization."
+msgstr "5 (standard) - Brug denne indstilling til at begrænse antallet af tråde, der bruges under synkronisering."
+
+#: ../../chapter6.rst:222
+msgid "Local Cache"
+msgstr "Lokal cache"
+
+#: ../../chapter6.rst:225
+msgid "Cache Directory"
+msgstr "Cache-mappe"
+
+#: ../../chapter6.rst:227
+msgid ""
+"C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\gteamclient\\\\cache "
+"(default) - Use this setting to change the default location of the cache."
+msgstr "C:\\Brugere\\brugernavn\\AppData\\Local\\gteamclient\\cache (standard) - Brug denne indstilling til at ændre standardplaceringen af cachen."
+
+#: ../../chapter6.rst:230
+msgid "Cache Size Limit (MB)"
+msgstr "Cache Størrelsesgrænse (MB)"
+
+#: ../../chapter6.rst:232
+msgid ""
+"0 (default) - The default setting is zero which is unlimited. Set this to"
+" a different number to limit the cache to that size in MB. You can "
+"disable the cache (not recommended) using the Web Portal's Tenant "
+"Dashboard > Roles settings."
+msgstr "0 (standard) - Standardindstillingen er nul, hvilket er ubegrænset. Indstil dette til et andet tal for at begrænse cachen til den størrelse i MB. Du kan deaktivere cachen (ikke anbefalet) ved at bruge Webportalens Lejer Dashboard > Roller indstillinger."
+
+#: ../../chapter6.rst:235
+msgid "Minimum free disk space (GB)"
+msgstr "Minimum fri diskplads (GB)"
+
+#: ../../chapter6.rst:237
+msgid ""
+"5 (default) - The cache will leave defined free disk space on the disk. "
+"This can prevent the cached files use the entire disk. If zero, the cache"
+" can take entire disk space."
+msgstr "5 (standard) - Cachen vil efterlade defineret fri diskplads på disken. Dette kan forhindre, at de cachelagrede filer bruger hele diskpladsen. Hvis nul, kan cachen tage hele diskpladsen."
+
+#: ../../chapter6.rst:240
+msgid "Outlook Plugin"
+msgstr "Outlook-plugin"
+
+#: ../../chapter6.rst:243
+msgid "Prompt for conversion when a file is larger than a specific size (KB)"
+msgstr "Bed om konvertering, når en fil er større end en bestemt størrelse (KB)"
+
+#: ../../chapter6.rst:245
+msgid ""
+"0 (default) - Default to never prompt. This setting defines how large the"
+" attachment file size is to use the Outlook plugin to automatically "
+"upload the file to Centrestack cloud."
+msgstr "0 (standard) - Standardindstillingen er aldrig at bede om det. Denne indstilling definerer, hvor stor vedhæftet filstørrelse skal være for at bruge Outlook-pluginnet til automatisk at uploade filen til Centrestack-skyen."
+
+#: ../../chapter6.rst:248
+msgid "Attachments cache folder"
+msgstr "Vedhæftede cache-mappe"
+
+#: ../../chapter6.rst:250
+msgid "Outlook plugin will upload file to the defined folder."
+msgstr "Outlook-plugin vil uploade filen til den definerede mappe."
+
+#: ../../chapter6.rst:253
+msgid "Link expiration time"
+msgstr "Link udløbstid"
+
+#: ../../chapter6.rst:255
+msgid ""
+"Never (default) - When attaching a file to an Outlook email, the Windows "
+"Client can upload the file to the cloud and generate a link to access the"
+" file. The link is added in the email, to reduce email size. This setting"
+" defines how long the link will expire."
+msgstr "Aldrig (standard) - Når du vedhæfter en fil til en Outlook-e-mail, kan Windows-klienten uploade filen til skyen og generere et link til at få adgang til filen. Linket tilføjes i e-mailen for at reducere e-mailens størrelse. Denne indstilling definerer, hvor længe linket vil udløbe."
+
+#: ../../chapter6.rst:258
+msgid "Notifications"
+msgstr "Notifikationer"
+
+#: ../../chapter6.rst:261
+msgid "Disable offline-mode notification"
+msgstr "Deaktiver offline-tilstand notifikation"
+
+#: ../../chapter6.rst:263
+msgid ""
+"False (default) - A system that goes into offline mode will send a "
+"notification by default. Change this to True to hide that notification."
+msgstr "Falsk (standard) - Et system, der går i offline-tilstand, sender som standard en notifikation. Ændr dette til Sandt for at skjule den notifikation."
+
+#: ../../chapter6.rst:266
+msgid "Disable File-change notification"
+msgstr "Deaktiver filændringsnotifikation"
+
+#: ../../chapter6.rst:268
+msgid ""
+"False (default) - When files are modified by other people or by the same "
+"user but from another machine, there is a file change notification. "
+"Change this setting to True to turn off that notification."
+msgstr "Falsk (standard) - Når filer ændres af andre personer eller af den samme bruger, men fra en anden maskine, er der en filændringsmeddelelse. Ændr denne indstilling til Sand for at slå den meddelelse fra."
+
+#: ../../chapter6.rst:271
+msgid "Disable large file-download tracker window"
+msgstr "Deaktiver sporing af vindue for download af store filer"
+
+#: ../../chapter6.rst:273
+msgid ""
+"False (default) - When Windows Explorer is downloading a large file in "
+"the background, by default there is a large file download progress dialog"
+" showing. This setting allows you to turn off that notification."
+msgstr "Falsk (standard) - Når Windows Stifinder downloader en stor fil i baggrunden, vises der som standard en dialogboks med fremskridt for stor fil-download. Denne indstilling giver dig mulighed for at slå den notifikation fra."
+
+#: ../../chapter6.rst:276
+msgid "Disable automatic task tracker for scheduled tasks"
+msgstr "Deaktiver automatisk opgavesporing for planlagte opgaver"
+
+#: ../../chapter6.rst:278
+msgid ""
+"False (default) - By default, there is an automatic task tracker for "
+"scheduled tasks. This setting allows you to turn off the tracker."
+msgstr "Falsk (standard) - Som standard er der en automatisk opgavetracker for planlagte opgaver. Denne indstilling giver dig mulighed for at slå tracker fra."
+
+#: ../../chapter6.rst:281
+msgid "Disable in-place-editing and preview-disabled notifications"
+msgstr "Deaktiver in-place-redigering og notifikationer for deaktiveret forhåndsvisning"
+
+#: ../../chapter6.rst:283
+msgid ""
+"False (default) - When in-place-editing zip/exe file and preview-"
+"disabled, by default, the system will send a notification. This setting "
+"allows you to turn off that notification."
+msgstr "Falsk (standard) - Når zip-/exe-fil redigeres på stedet og forhåndsvisning er deaktiveret, sender systemet som standard en notifikation. Denne indstilling giver dig mulighed for at slå den notifikation fra."
+
+#: ../../chapter6.rst:286
+msgid "Disable shut-down confirmation"
+msgstr "Deaktiver bekræftelse ved nedlukning"
+
+#: ../../chapter6.rst:288
+msgid ""
+"False (default) - When shutdown the desktop client, there is a shutdown "
+"confirmation window. This setting controls whether that confirmation "
+"dialog will be shown. Set this to True to hide the confirmation dialog."
+msgstr "Falsk (standard) - Når du lukker desktopklienten, vises der et bekræftelsesvindue for lukning. Denne indstilling styrer, om den bekræftelsesdialog vises. Sæt dette til Sand for at skjule bekræftelsesdialogen."
+
+#: ../../chapter6.rst:291
+msgid "Disable folder move confirmation"
+msgstr "Deaktiver bekræftelse af mappen flytning"
+
+#: ../../chapter6.rst:293
+msgid ""
+"False (default) - When moving a folder within windows client drive, by "
+"default, the system will show a confirmation dialog. This setting allows "
+"you to turn off that confirmation dialog."
+msgstr "Falsk (standard) - Når du flytter en mappe inden for Windows-klientdrevet, vil systemet som standard vise en bekræftelsesdialog. Denne indstilling giver dig mulighed for at slå den bekræftelsesdialog fra."
+
+#: ../../chapter6.rst:296
+msgid "Advanced Settings"
+msgstr "Avancerede indstillinger"
+
+#: ../../chapter6.rst:299
+msgid "Enable in-place opening of zip and exe files"
+msgstr "Aktivér åbning af zip- og exe-filer på stedet"
+
+#: ../../chapter6.rst:301
+msgid ""
+"False (default) - By default, Windows Client doesn't allow a user to open"
+" zip files in mounted M drive directly. This is because opening a zip "
+"file means to download the whole zip file to cache first. When the zip "
+"file is big, the download will generate high network traffic and cause "
+"windows explorer to slow down. Change this to True if you want users to "
+"be able to open Zip files within the M drive. The next setting determines"
+" the size limit of this feature."
+msgstr "Falsk (standard) - Som standard tillader Windows-klienten ikke en bruger at åbne zip-filer direkte i det monterede M-drev. Dette skyldes, at åbning af en zip-fil betyder at downloade hele zip-filen til cachen først. Når zip-filen er stor, vil downloadet generere høj netværkstrafik og få Windows Stifinder til at køre langsomt. Skift dette til Sandt, hvis du ønsker, at brugere skal kunne åbne Zip-filer inden i M-drevet. Den næste indstilling bestemmer størrelsesgrænsen for denne funktion."
+
+#: ../../chapter6.rst:304
+msgid "Max size of zip files allowed to open in-place (MB)"
+msgstr "Maksimal størrelse af zip-filer tilladt at åbne på stedet (MB)"
+
+#: ../../chapter6.rst:306
+msgid ""
+"20 (default) - This defines the size limit for the zip file the user is "
+"allowed to open. It is designed to prevent user/windows explorer from "
+"downloading very large zip files. By default, it is 20M. When admin "
+"enables inplace zip file opening, only files within 20M can be opened."
+msgstr "20 (standard) - Dette definerer størrelsesgrænsen for zip-filen, som brugeren har tilladelse til at åbne. Det er designet til at forhindre bruger/windows stifinder i at downloade meget store zip-filer. Som standard er det 20M. Når administratoren aktiverer åbning af zip-fil på stedet, kan kun filer inden for 20M åbnes."
+
+#: ../../chapter6.rst:309
+msgid "Max size of files for thumbnail generation (MB)"
+msgstr "Maksimal størrelse af filer til generering af miniaturebilleder (MB)"
+
+#: ../../chapter6.rst:311
+msgid "0 (default) - This defines the file size limit for generating thumbnail."
+msgstr "0 (standard) - Dette definerer filstørrelsesgrænsen for generering af miniaturebillede."
+
+#: ../../chapter6.rst:314
+msgid "Always allow picture previews"
+msgstr "Tillad altid billedforhåndsvisninger"
+
+#: ../../chapter6.rst:316
+msgid ""
+"False (default) - If this is turned on preview thumbnails will be "
+"generated for your local files. This consumes a lot of bandwidth for "
+"unnecessary downloading of image files."
+msgstr "Falsk (standard) - Hvis dette er slået til, vil der blive genereret forhåndsvisningstumbnails til dine lokale filer. Dette forbruger en masse båndbredde til unødvendig download af billedfiler."
+
+#: ../../chapter6.rst:319
+msgid "Enable slow network mode"
+msgstr "Aktivér langsom netværkstilstand"
+
+#: ../../chapter6.rst:321
+msgid "False (default) - No further information."
+msgstr "Falsk (standard) - Ingen yderligere information."
+
+#: ../../chapter6.rst:324
+msgid "Prevent computer from falling asleep during sync"
+msgstr "Forhindre computeren i at gå i dvale under synkronisering"
+
+#: ../../chapter6.rst:326
+msgid ""
+"True (default) - Nighttime is typically a good time to transfer files at "
+"full speed. However, the machine may go into a sleeping state, preventing"
+" the transfer of files. This setting can prevent the sleep mode from "
+"activating."
+msgstr "True (standard) - Natten er typisk et godt tidspunkt at overføre filer med fuld hastighed. Men maskinen kan gå i en sovende tilstand, hvilket forhindrer overførsel af filer. Denne indstilling kan forhindre at sovetilstanden aktiveres."
+
+#: ../../chapter6.rst:329
+msgid "Mount drive in global space"
+msgstr "Monter drev i globalt rum"
+
+#: ../../chapter6.rst:331
+msgid "False (default) - No furter information."
+msgstr "Falsk (standard) - Ingen yderligere information."
+
+#: ../../chapter6.rst:334
+msgid "Upload hidden files"
+msgstr "Upload skjulte filer"
+
+#: ../../chapter6.rst:336
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"Hidden Files to the cloud."
+msgstr "Falsk (standard) - Ændr denne indstilling til Sand, hvis du ønsker at uploade skjulte filer til skyen."
+
+#: ../../chapter6.rst:339
+msgid "Upload system files"
+msgstr "Upload systemfiler"
+
+#: ../../chapter6.rst:341
+msgid ""
+"False (default) - Change this setting to True if you want to upload "
+"System Files to the cloud."
+msgstr "Falsk (standard) - Ændr denne indstilling til Sand, hvis du ønsker at uploade Systemfiler til skyen."
+
+#: ../../chapter6.rst:344
+msgid "Use Volume Shadow-Copy to upload files that are constantly accessed"
+msgstr "Brug Volume Shadow-Copy til at uploade filer, der konstant tilgås"
+
+#: ../../chapter6.rst:346
+msgid ""
+"False (default) - By default an actively opened file will not be uploaded"
+" until it has been closed. This setting can override that behavior, "
+"uploading all of the files regardless of their open status."
+msgstr "Falsk (standard) - Som standard vil en aktivt åbnet fil ikke blive uploadet, før den er lukket. Denne indstilling kan tilsidesætte denne opførsel og uploade alle filerne uanset deres åbne status."
+
+#: ../../chapter6.rst:349
+msgid "Disable AutoCAD optimization"
+msgstr "Deaktiver AutoCAD-optimering"
+
+#: ../../chapter6.rst:351
+msgid ""
+"False (default) - By default, windows client will delay the sync of "
+"AutoCAD files by combining several changes into a single change. This is "
+"specific for users who save frequently or have the AutoCAD autosave "
+"feature enabled with short intervals. The file change will not be "
+"uploaded to the cloud immediately after the file saving. Leave it Uncheck"
+" if only one person is working on the AutoCAD files. When the setting is "
+"checked, windows client will sync the file to cloud as soon as the file "
+"is saved. Check the setting if the user needs the change to be uploaded "
+"to cloud as soon as possible. When multiple users are working on same set"
+" of AutoCAD files, check the setting."
+msgstr "Falsk (standard) - Som standard vil Windows-klienten forsinke synkroniseringen af AutoCAD-filer ved at kombinere flere ændringer til en enkelt ændring. Dette er specifikt for brugere, der gemmer ofte eller har AutoCAD's autosave-funktion aktiveret med korte intervaller. Filændringen vil ikke blive uploadet til skyen umiddelbart efter filgemningen. Lad den være uafkrydset, hvis kun én person arbejder på AutoCAD-filerne. Når indstillingen er afkrydset, vil Windows-klienten synkronisere filen til skyen, så snart filen er gemt. Afkryds indstillingen, hvis brugeren har brug for, at ændringen uploades til skyen så hurtigt som muligt. Når flere brugere arbejder på det samme sæt AutoCAD-filer, afkryds indstillingen."
+
+#: ../../chapter6.rst:354
+msgid "Diagnostics"
+msgstr "Diagnostik"
+
+#: ../../chapter6.rst:357
+msgid "Days of audit trace to keep"
+msgstr "Dage til at beholde revisionslog"
+
+#: ../../chapter6.rst:359
+msgid "5 (default) - This setting defines how many days to keep the audit trace."
+msgstr "5 (standard) - Denne indstilling definerer, hvor mange dage revisionsporet skal opbevares."
+
+#: ../../chapter6.rst:362
+msgid "Trace Level (0-Disable, 1-error, 2-warning, 3-info, 100-verbose)"
+msgstr "Sporingsniveau (0-Deaktiver, 1-fejl, 2-advarsel, 3-info, 100-udførlig)"
+
+#: ../../chapter6.rst:364
+msgid ""
+"0 (default) - By default, the trace level is 0. It can be changed to the "
+"levels shown, or 101 for maximum debug trace."
+msgstr "0 (standard) - Som standard er sporingsniveauet 0. Det kan ændres til de viste niveauer, eller 101 for maksimal fejlsøgningssporing."
+
+#: ../../chapter6.rst:368
+msgid "Sync Status"
+msgstr "Synkroniseringsstatus"
+
+#: ../../chapter6.rst:371
+msgid "Task Manager"
+msgstr "Opgaveadministrator"
+
+#: ../../chapter6.rst:373
+msgid ""
+"Click on the Task Manager icon on top right corner of client menu to open"
+" Task Manager. You can see the summary for all the sync tasks."
+msgstr "Klik på ikonet Task Manager i øverste højre hjørne af klientmenuen for at åbne Task Manager. Du kan se oversigten for alle synkroniseringsopgaverne."
+
+#: ../../chapter6.rst:378
+msgid "TASK MANAGER"
+msgstr "OPGAVESTYRER"
+
+#: ../../chapter6.rst:382
+msgid "Client Side Management Console - Web Portal"
+msgstr "Klient Side Management Konsol - Webportal"
+
+#: ../../chapter6.rst:384
+msgid ""
+"Click the system tray icon (1) open the tray menu. From the three-dots "
+"(2) you can access other functions. By choosing \"Web Portal\" (3), the "
+"Windows client web portal will be opened in a default web browser. Click "
+"\"Management Console\" icon (4) to access management console from web."
+msgstr "Klik på systembakkeikonet (1) for at åbne bakke menuen. Fra de tre prikker (2) kan du få adgang til andre funktioner. Ved at vælge \"Webportal\" (3), vil Windows klientens webportal blive åbnet i en standardwebbrowser. Klik på ikonet \"Administrationskonsol\" (4) for at få adgang til administrationskonsollen fra web."
+
+#: ../../chapter6.rst:389
+msgid "ACCESS MANAGEMENT CONSOLE WEB PORTAL"
+msgstr "ADGANGSSTYRINGSKONSOL WEBPORTAL"
+
+#: ../../chapter6.rst:392
+msgid "Device Information"
+msgstr "Enhedsinformation"
+
+#: ../../chapter6.rst:394
+msgid ""
+"Device Manager has an overview of the device including details such as "
+"Device Owner, Device Type, OS Type, Device Client Version (software build"
+" number), Last Login Time, Sync Status, Cache Size, Last Report Time, and"
+" more. Click \"Manage\" icon to see Device details."
+msgstr "Enhedsadministrator har et overblik over enheden, herunder detaljer såsom Enhedsejer, Enhedstype, Operativsystemtype, Enhedsklientversion (softwarebygnummer), Sidste login tid, Synkroniseringsstatus, Cachestørrelse, Sidste rapporttid og mere. Klik på \"Administrer\"-ikonet for at se Enhedsdetaljer."
+
+#: ../../chapter6.rst:399
+msgid "CLIENT MANAGEMENT CONSOLE - DEVICE MANAGER"
+msgstr "KUNDESTYRINGSPANEL - ENHEDSHÅNDTERING"
+
+#: ../../chapter6.rst:405
+msgid ""
+"Attached Folders are local folders that are maintaining a two-way "
+"synchronization relationship with cloud storage."
+msgstr "Vedhæftede mapper er lokale mapper, der opretholder et tovejs synkroniseringsforhold med cloud-lagring."
+
+#: ../../chapter6.rst:410
+msgid "ATTACHING A FOLDER TO THE CLOUD"
+msgstr "VEDHÆFTNING AF EN MAPPE TIL SKYEN"
+
+#: ../../chapter6.rst:413
+msgid "Locked Files"
+msgstr "Låste filer"
+
+#: ../../chapter6.rst:415
+msgid ""
+"A file that is in use is locked. In the image below, the user has opened "
+"the document **(1)** in Word. When a user is editing a Word Document, "
+"that file will remain locked while it is open in Word. Sometimes you will"
+" need to click the \"Refresh\" text **(2)** to see files that are locked "
+"in the Locked Files view. These are locked files from the local device. "
+"The locked files include automatically locked files (e.g., opened in "
+"Word) and manually locked files (e.g., right-clicked and locked in "
+"context menu). If you need to force-unlock a file, this can be done using"
+" the lock icon **(3)**."
+msgstr "En fil, der er i brug, er låst. På billedet nedenfor har brugeren åbnet dokumentet **(1)** i Word. Når en bruger redigerer et Word-dokument, forbliver den fil låst, mens den er åben i Word. Nogle gange skal du klikke på teksten \"Opdater\" **(2)** for at se filer, der er låst i visningen over låste filer. Disse er låste filer fra den lokale enhed. De låste filer inkluderer automatisk låste filer (f.eks. åbnet i Word) og manuelt låste filer (f.eks. højreklikket og låst i kontekstmenuen). Hvis du har brug for at tvinge en fil op låsning, kan dette gøres ved hjælp af låseikonet **(3)**."
+
+#: ../../chapter6.rst:420
+msgid "LOCKED FILES VIEW"
+msgstr "VISNING AF LÅSTE FILER"
+
+#: ../../chapter6.rst:423
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: ../../chapter6.rst:425
+msgid "Settings are settings that can be applied to the current device."
+msgstr "Indstillinger er indstillinger, der kan anvendes på den aktuelle enhed."
+
+#: ../../chapter6.rst:430
+msgid "CONSOLE SETTINGS"
+msgstr "KONSOLINDSTILLINGER"
+

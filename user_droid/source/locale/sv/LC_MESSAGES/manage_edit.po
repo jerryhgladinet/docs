@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Android User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Android User Guide 12.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 12:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../manage_edit.rst:2
+msgid "Manage and Edit"
+msgstr "Hantera och redigera"
+
+#: ../../manage_edit.rst:6
+msgid "Managing Files and Folders"
+msgstr "Hantera filer och mappar"
+
+#: ../../manage_edit.rst:8
+msgid ""
+"User can tap on a folder to open it for browsing and on a file to preview"
+" it."
+msgstr "Användaren kan trycka på en mapp för att öppna den för att bläddra och på en fil för att förhandsgranska den."
+
+#: ../../manage_edit.rst:10
+msgid ""
+"Various operations can be performed in the menus, in the main list of "
+"files and folders, and in the preview itself."
+msgstr "Olika operationer kan utföras i menyerna, i huvudlistan över filer och mappar samt i förhandsvisningen själv."
+
+#: ../../manage_edit.rst:14
+msgid "Preview"
+msgstr "Förhandsgranskning"
+
+#: ../../manage_edit.rst:16
+msgid ""
+"In the preview there is a 3-dot menu in the lower right corner that "
+"allows to perform some actions for the file."
+msgstr "I förhandsgranskningen finns det en 3-prickars meny i det nedre högra hörnet som tillåter att utföra vissa åtgärder för filen."
+
+#: ../../manage_edit.rst:20
+msgid "**Open** the file in other applications."
+msgstr "**Öppna** filen i andra applikationer."
+
+#: ../../manage_edit.rst:22
+msgid "**Download** a copy of the file to a folder on the device."
+msgstr "**Ladda ner** en kopia av filen till en mapp på enheten."
+
+#: ../../manage_edit.rst:24
+msgid "**Rename** allows to rename the file if user have the permission to do so."
+msgstr "**Byt namn** tillåter att byta namn på filen om användaren har behörighet att göra det."
+
+#: ../../manage_edit.rst:26
+msgid "**Delete** files from the folder if user have the permission."
+msgstr "**Radera** filer från mappen om användaren har behörighet."
+
+#: ../../manage_edit.rst:28
+msgid ""
+"**Share** allows to send access information to people with an email "
+"address."
+msgstr "**Dela** tillåter att skicka åtkomstinformation till personer med en e-postadress."
+
+#: ../../manage_edit.rst:30
+msgid ""
+"**Share Via** let the user share the file with a third-party application."
+" For example, by email or WhatsApp."
+msgstr "**Dela Via** låter användaren dela filen med en tredjepartsapplikation. Till exempel via e-post eller WhatsApp."
+
+#: ../../manage_edit.rst:32
+msgid ""
+"**Get Public Link** gives user a link that anyone can use to access the "
+"file."
+msgstr "**Få offentlig länk** ger användaren en länk som vem som helst kan använda för att komma åt filen."
+
+#: ../../manage_edit.rst:34
+msgid ""
+"**Share Manager** gives access to all the shares that exist for the file,"
+" where user can modify, delete, or add new shares."
+msgstr "**Share Manager** ger tillgång till alla delningar som finns för filen, där användaren kan ändra, radera eller lägga till nya delningar."
+
+#: ../../manage_edit.rst:37
+msgid "Download"
+msgstr "Ladda ner"
+
+#: ../../manage_edit.rst:39
+msgid ""
+"A file can be downloaded using the **Download** option. Select Download "
+"from the context menu to download a file and select a folder from the "
+"phone storage of user's choice."
+msgstr "En fil kan laddas ner genom att använda alternativet **Ladda ner**. Välj Ladda ner från snabbmenyn för att ladda ner en fil och välj en mapp från användarens telefons lagring efter eget val."
+
+#: ../../manage_edit.rst:47
+msgid "Delete"
+msgstr "Radera"
+
+#: ../../manage_edit.rst:49
+msgid ""
+"A file can be deleted using the **Delete** option. Select it from the "
+"context menu to delete a file. Once the file is removed, it is no longer "
+"visible in the cloud drive."
+msgstr "En fil kan raderas genom att använda alternativet **Radera**. Välj det från snabbmenyn för att ta bort en fil. När filen är borttagen syns den inte längre i molnlagringen."
+
+#: ../../manage_edit.rst:54
+msgid "Rename"
+msgstr "Byt namn"
+
+#: ../../manage_edit.rst:56
+msgid ""
+"User can rename a file or folder using the **Rename** option. When "
+"pressing **Rename**, a field appears where user can enter the new name."
+msgstr "Användaren kan byta namn på en fil eller mapp med hjälp av alternativet **Byt namn**. När man trycker på **Byt namn** visas ett fält där användaren kan ange det nya namnet."
+
+#: ../../manage_edit.rst:61
+msgid "Copy and Cut"
+msgstr "Kopiera och klipp ut"
+
+#: ../../manage_edit.rst:63
+msgid ""
+"The **Copy** option lets user copy a file and paste it into another "
+"folder of choice. The **Cut** option allows to remove a file from a "
+"certain folder and paste it into another."
+msgstr "Alternativet **Kopiera** låter användaren kopiera en fil och klistra in den i en annan valfri mapp. Alternativet **Klipp ut** möjliggör att ta bort en fil från en viss mapp och klistra in den i en annan."
+
+#: ../../manage_edit.rst:69
+msgid "More Info"
+msgstr "Mer information"
+
+#: ../../manage_edit.rst:71
+msgid ""
+"The **More Info** option allows to view the details of the file which are"
+" working on or viewing."
+msgstr "Alternativet **Mer information** gör det möjligt att visa detaljerna för filen som bearbetas eller visas."
+
+#: ../../manage_edit.rst:79
+msgid "Marking As Favorite"
+msgstr "Markera som favorit"
+
+#: ../../manage_edit.rst:82
+msgid "Adding to Favorite"
+msgstr "Lägg till i Favoriter"
+
+#: ../../manage_edit.rst:84
+msgid ""
+"User can add a file to the Favorites by pressing the **Star** icon. When "
+"adding a folder or a file to the Favorites, it will be marked with a "
+"green checkmark and will be accessible offline."
+msgstr "Användaren kan lägga till en fil i Favoriter genom att trycka på **Stjärn** ikonen. När man lägger till en mapp eller en fil i Favoriter kommer den att markeras med en grön bock och vara tillgänglig offline."
+
+#: ../../manage_edit.rst:90
+msgid "Open Favorite Files"
+msgstr "Öppna favoritfiler"
+
+#: ../../manage_edit.rst:92
+msgid ""
+"To open files from offline favorites, tap on the hamburger menu at the "
+"top left and select **Favorites**."
+msgstr "För att öppna filer från offline-favoriter, tryck på hamburgermenyn längst upp till vänster och välj **Favoriter**."
+
+#: ../../manage_edit.rst:96
+msgid ""
+"In the **Offline Favorites** view, open a file by pressing the 3-dot "
+"button and selecting **Open File Locally**."
+msgstr "I vyn **Offline Favorites** öppnar du en fil genom att trycka på 3-pricksknappen och välja **Öppna fil lokalt**."
+
+#: ../../manage_edit.rst:100
+msgid ""
+"After selecting the option, a list of applications that can open the file"
+" will be displayed."
+msgstr "Efter att ha valt alternativet visas en lista över applikationer som kan öppna filen."
+
+#: ../../manage_edit.rst:105
+msgid "Remove from Favorite"
+msgstr "Ta bort från Favoriter"
+
+#: ../../manage_edit.rst:107
+msgid ""
+"To remove files from offline favorites, user can touch the yellow "
+"**Star** icon directly in the folders."
+msgstr "För att ta bort filer från offline-favoriter kan användaren röra vid den gula **Stjärn** ikonen direkt i mapparna."
+
+#: ../../manage_edit.rst:111
+msgid "Or press the hamburger menu at the top left and select **Favorites**."
+msgstr "Eller tryck på hamburgermenyn längst upp till vänster och välj **Favoriter**."
+
+#: ../../manage_edit.rst:115
+msgid ""
+"In the **Offline Favorites** view, user can remove files by pressing the "
+"3-dot button. Once the file is removed, it is no longer available "
+"offline."
+msgstr "I **Offline Favoriter** -vyn kan användaren ta bort filer genom att trycka på 3-punktsknappen. När filen är borttagen är den inte längre tillgänglig offline."
+

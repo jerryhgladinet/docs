@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Mac Client User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mac Client User Guide 9.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 11:25-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter03.rst:3
+msgid "3 Connecting To The Cloud"
+msgstr "3 连接到云端"
+
+#: ../../chapter03.rst:5
+msgid ""
+"You can access the cloud drive  from the main screen of your Mac by "
+"clicking on the Cloud Drive icon."
+msgstr "您可以通过点击 Mac 主屏幕上的云盘图标来访问云驱动器。"
+
+#: ../../chapter03.rst:11
+msgid ""
+"You can access the cloud drive menu from the top panel by clicking on the"
+" |prodname| Cloud Drive icon."
+msgstr "您可以通过点击顶部面板上的 |prodname| 云盘图标来访问云盘菜单。"
+
+#: ../../chapter03.rst:17
+msgid "Transferring Files"
+msgstr "传输文件"
+
+#: ../../chapter03.rst:19
+msgid ""
+"Now you can use the Cloud Storage as if it were a real drive on the Mac "
+"system. Simply drag-and-drop to copy local documents to the Cloud "
+"Storage."
+msgstr "现在您可以像使用Mac系统上的真实驱动器一样使用云存储。只需拖放即可将本地文档复制到云存储。"
+
+#: ../../chapter03.rst:23
+msgid ""
+"|prodname| Cloud Drive makes it very easy to move data into cloud storage"
+" or extract data from cloud storage."
+msgstr "|prodname| 云盘让数据迁移到云存储或从云存储中提取数据变得非常容易。"
+
+#: ../../chapter03.rst:27
+msgid "Attaching Local Folders"
+msgstr "附加本地文件夹"
+
+#: ../../chapter03.rst:29
+msgid ""
+"The virtual drive provides on-demand access to files and folders from the"
+" |prodname| Cloud storage account."
+msgstr "虚拟驱动器提供对 |prodname| 云存储账户中文件和文件夹的按需访问。"
+
+#: ../../chapter03.rst:31
+msgid ""
+"Sometimes it is also desirable to work inside a local folder, and have "
+"the local folder synchronize with the |prodname| Cloud storage account."
+msgstr "有时候，用户也可能希望在本地文件夹内工作，并且让该本地文件夹与 |prodname| 云存储账户同步。"
+
+#: ../../chapter03.rst:33
+msgid ""
+"To attach a folder click the Cloud Drive icon **(1)** then click the "
+"Console Settings gear icon **(2)**. A browser window will open showing "
+"the Device Info for your Mac. The menu button **(3)** gives you access to"
+" the Attached Folders button **(4)**. When you click that, you can add a "
+"folder from your hard drive by clicking the Add Folder button **(5)**, "
+"then explore to the folder you want to attach **(6)** and set the "
+"\"Name\" **(7)** you want to use for that folder when accessing it from "
+"the Web Portal."
+msgstr "要附加一个文件夹，请点击云盘图标 **(1)**，然后点击控制台设置齿轮图标 **(2)**。一个浏览器窗口将打开，显示您的Mac的设备信息。菜单按钮 **(3)** 让您可以访问已附加文件夹按钮 **(4)**。当您点击该按钮时，您可以通过点击添加文件夹按钮 **(5)**，然后浏览到您想要附加的文件夹 **(6)** 并设置在Web门户访问时想要使用的“名称” **(7)**。"
+
+#: ../../chapter03.rst:39
+msgid "Settings Web Page"
+msgstr "设置网页"
+
+#: ../../chapter03.rst:41
+msgid "You can get access to the settings web page from the settings button."
+msgstr "您可以通过设置按钮访问设置网页。"
+
+#: ../../chapter03.rst:45
+msgid "After it is clicked, a web page will lauch into your default web browser."
+msgstr "点击后，一个网页将在您的默认网络浏览器中打开。"
+
+#: ../../chapter03.rst:51
+msgid "Device Information"
+msgstr "设备信息"
+
+#: ../../chapter03.rst:53
+msgid "The first section in the settings page is the \"Device Info\" section."
+msgstr "设置页面的第一部分是“设备信息”部分。"
+
+#: ../../chapter03.rst:55
+msgid ""
+"In the device info section, you can see the device name, logged in user, "
+"Device Type, OS Type and other information."
+msgstr "在设备信息部分，您可以看到设备名称、登录用户、设备类型、操作系统类型以及其他信息。"
+
+#: ../../chapter03.rst:58
+msgid "Attached Folders"
+msgstr "已附加文件夹"
+
+#: ../../chapter03.rst:60
+msgid ""
+"Attach Folder means attach a local folder to cloud (|prodname| account). "
+"The end result is to setup a bi-directional synchronization between the "
+"local folder and the cloud so the changes from within the local folder "
+"will synchronize to cloud and changes from cloud in that specific folder "
+"will sync back to local folder."
+msgstr "附加文件夹意味着将本地文件夹附加到云端（|prodname| 账户）。最终结果是在本地文件夹和云端之间建立双向同步，这样本地文件夹内的更改将同步到云端，并且云端该特定文件夹中的更改将同步回本地文件夹。"
+
+#: ../../chapter03.rst:62
+msgid ""
+"To set this up from the Console, you click the pulldown menu and choose "
+"**\"Attached Folders\" (1)**. In the new view you click the **Add (2)** "
+"button and then explore by double-clicking (drill down) to the folder you"
+" wish to attach **(3)**. Once you have selected the folder, enter the "
+"**\"Name\" (4)** you want to use for that folder and click **\"ATTACH\"**"
+" to complete the process. In this example, the folder is on the Desktop "
+"of the Mac computer."
+msgstr "要从控制台进行设置，您需要点击下拉菜单并选择 **“附加文件夹”（1）**。在新视图中，您点击 **添加（2）** 按钮，然后通过双击（向下钻取）来浏览您希望附加的文件夹 **（3）**。选择文件夹后，输入您想为该文件夹使用的 **“名称”（4）**，然后点击 **“附加”** 以完成过程。在此示例中，文件夹位于Mac电脑的桌面上。"
+
+#: ../../chapter03.rst:66
+msgid "Once it is attached, you can see it in a list."
+msgstr "一旦它被附加，您可以在列表中看到它。"
+
+#: ../../chapter03.rst:70
+msgid ""
+"You can also verify that the local folder is attached by logging into the"
+" web portal where you will see it listed in your ``FILE BROWSER`` view."
+msgstr "您也可以通过登录网页门户来验证本地文件夹是否已连接，在您的 ``文件浏览器`` 视图中将看到它被列出。"
+
+#: ../../chapter03.rst:74
+msgid ""
+"As shown in the example here, the local folder named \"Mac User 1 "
+"Attached\" is now synchronized with cloud."
+msgstr "如示例所示，名为“Mac User 1 Attached”的本地文件夹现在已与云同步。"
+
+#: ../../chapter03.rst:78
+msgid "Offline Folders"
+msgstr "离线文件夹"
+
+#: ../../chapter03.rst:80
+msgid ""
+"You can mark certain folders as offline. The folders that are marked as "
+"offline will pre-fetch the content of the folder and cache it locally. To"
+" accomplish this you first click the **\"+\" plus (1)** icon. Then choose"
+" a folder that you would like to have access to while offline. Once a "
+"folder has been marked as offline, it will show in this list **(2)**."
+msgstr "您可以将某些文件夹标记为离线状态。标记为离线的文件夹将预先获取文件夹内容并将其缓存到本地。要做到这一点，您首先点击 **\"+\" 加号 (1)** 图标。然后选择一个您希望在离线时也能访问的文件夹。一旦文件夹被标记为离线，它将显示在此列表中 **(2)**。"
+
+#: ../../chapter03.rst:86
+msgid "Locked Files"
+msgstr "锁定的文件"
+
+#: ../../chapter03.rst:88
+msgid ""
+"If any of the files are currently in **\"Locked\"** status, you will see "
+"it in this view."
+msgstr "如果任何文件当前处于 **\"锁定\"** 状态，您将在此视图中看到。"
+
+#: ../../chapter03.rst:93
+msgid "Pending Check-Ins"
+msgstr "待处理的签入"
+
+#: ../../chapter03.rst:95
+msgid ""
+"If any of the files are currently **Checked Out** you will see them "
+"listed in this view."
+msgstr "如果任何文件当前处于 **Checked Out** 状态，您将在此视图中看到它们被列出。"
+

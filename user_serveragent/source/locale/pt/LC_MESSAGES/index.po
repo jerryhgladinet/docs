@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the File Server Agent
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: File Server Agent User Guide 9.7.5645\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-06 16:16-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:3
+msgid "1 Introduction"
+msgstr "1 Introdução"
+
+#: ../../index.rst:6
+msgid ""
+"|prodname| File Server Agent is a client agent software that runs on "
+"Windows machines and connect network shares on the Windows machine to "
+"|prodname|."
+msgstr "O Agente de Servidor de Arquivos |prodname| é um software cliente que opera em máquinas Windows e conecta compartilhamentos de rede na máquina Windows ao |prodname|."
+
+#: ../../index.rst:10
+msgid ""
+"It is a file server enablement to allow remote and mobile access, while "
+"at the same time, provide business continuity through file "
+"synchronization and version control."
+msgstr "É um habilitador de servidor de arquivos para permitir acesso remoto e móvel, ao mesmo tempo que oferece continuidade de negócios por meio de sincronização de arquivos e controle de versão."
+
+#: ../../index.rst:12
+msgid ""
+"It is also a hybrid cloud setup that allows files and folders to be "
+"accessed from both local area network (file server map drive) and from "
+"remote locations/Cloud/Internet (via virtual mapped drive)."
+msgstr "É também uma configuração de nuvem híbrida que permite o acesso a arquivos e pastas tanto da rede local (unidade mapeada do servidor de arquivos) quanto de locais remotos/Nuvem/Internet (via unidade mapeada virtual)."
+
+#: ../../index.rst:16
+msgid "This is |prodname| File Server Agent Administration Guide."
+msgstr "Este é o Guia de Administração do Agente de Servidor de Arquivos |prodname|."
+
+#: ../../index.rst:20
+msgid "**File Server Agent** version 9.7.2576 or later"
+msgstr "**Agente do Servidor de Arquivos** versão 9.7.2576 ou posterior"
+
+#: ../../index.rst:25
+msgid "1.1 Background"
+msgstr "1.1 Contexto"
+
+#: ../../index.rst:29
+msgid "Security or Mobility?"
+msgstr "Segurança ou Mobilidade?"
+
+#: ../../index.rst:31
+msgid ""
+"Businesses need ways to access local file server over the Internet from "
+"mobile devices and remote locations for productivity gain. This trend is "
+"pushing local file server content outward towards public file-sharing "
+"services such as Dropbox and OneDrive. Employees are using 3rd-party "
+"file-sharing services on their own to improve productivity."
+msgstr "As empresas precisam de formas de acessar o servidor de arquivos local pela Internet a partir de dispositivos móveis e locais remotos para ganho de produtividade. Essa tendência está empurrando o conteúdo do servidor de arquivos local para serviços públicos de compartilhamento de arquivos, como Dropbox e OneDrive. Os funcionários estão usando serviços de compartilhamento de arquivos de terceiros por conta própria para melhorar a produtividade."
+
+#: ../../index.rst:33
+msgid ""
+"Security and control is a big concern for businesses that are sensitive "
+"to regulation and data leakage problems. The lack of granular permissions"
+" and control over file sharing in public file-sharing services is forcing"
+" companies to give up on these 3rd-party services."
+msgstr "A segurança e o controle são grandes preocupações para empresas que são sensíveis a regulamentações e problemas de vazamento de dados. A falta de permissões granulares e controle sobre o compartilhamento de arquivos em serviços públicos de compartilhamento de arquivos está forçando as empresas a desistirem desses serviços de terceiros."
+
+#: ../../index.rst:35
+msgid ""
+"They then revert to the use of virtual private networks (VPNs) to provide"
+" remote access to corporate data. However, VPN has its own problems; it "
+"is not a good fit for the modern mobility, nor is it productivity "
+"friendly. Most of the time, VPN is a headache for managed service "
+"providers and company IT department, for the number of VPN related "
+"support tickets."
+msgstr "Eles então recorrem ao uso de redes privadas virtuais (VPNs) para fornecer acesso remoto aos dados corporativos. No entanto, a VPN tem seus próprios problemas; não é adequada para a mobilidade moderna, nem é amigável à produtividade. Na maioria das vezes, a VPN é uma dor de cabeça para os provedores de serviços gerenciados e o departamento de TI da empresa, pelo número de tickets de suporte relacionados à VPN."
+
+#: ../../index.rst:39
+msgid "Security + Mobility"
+msgstr "Segurança + Mobilidade"
+
+#: ../../index.rst:41
+msgid ""
+"This is why you need |prodname|; resolving issues between file-sharing "
+"requirements, mobility and remote access, while preventing the leakage of"
+" your critical data through security and control. |prodname| takes care "
+"of the following objectives:"
+msgstr "É por isso que você precisa do |prodname|; resolvendo questões entre requisitos de compartilhamento de arquivos, mobilidade e acesso remoto, ao mesmo tempo em que previne o vazamento de seus dados críticos através de segurança e controle. O |prodname| cuida dos seguintes objetivos:"
+
+#: ../../index.rst:43
+msgid "Make the Windows file server mobility and remote-access friendly"
+msgstr "Tornar o servidor de arquivos Windows amigável para mobilidade e acesso remoto"
+
+#: ../../index.rst:44
+msgid "Maintain file-server accessing paradigm for local and remote access"
+msgstr "Manter o paradigma de acesso ao servidor de arquivos para acesso local e remoto"
+
+#: ../../index.rst:46
+msgid "Provide NTFS security permissions"
+msgstr "Fornecer permissões de segurança NTFS"
+
+#: ../../index.rst:47
+msgid "Allow Active Directory integration"
+msgstr "Permitir integração com o Active Directory"
+
+#: ../../index.rst:48
+msgid "Drive Mapping and on-demand access"
+msgstr "Mapeamento de Unidade e acesso sob demanda"
+
+#: ../../index.rst:50
+msgid ""
+"File sync and share features integrated into a traditional Windows file "
+"server network share"
+msgstr "Funcionalidades de sincronização e compartilhamento de arquivos integradas a um compartilhamento de rede de servidor de arquivos Windows tradicional"
+
+#: ../../index.rst:54
+msgid "Overview"
+msgstr "Visão Geral"
+
+#: ../../index.rst:56
+msgid ""
+"|prodname| is the overall solution, and the File Server Agent client "
+"application is software that connects file servers to the |prodname| "
+"file-sharing solution."
+msgstr "|prodname| é a solução geral, e o aplicativo cliente File Server Agent é um software que conecta servidores de arquivos à solução de compartilhamento de arquivos |prodname|."
+
+#: ../../index.rst:58
+msgid ""
+"The |prodname| File Server Agent is client-agent software that runs on "
+"Windows machines as a background service, while connecting to |prodname| "
+"servers (typically setup in a data center away from the file server)."
+msgstr "O Agente de Servidor de Arquivos |prodname| é um software cliente-agente que funciona em máquinas Windows como um serviço em segundo plano, enquanto se conecta aos servidores |prodname| (geralmente configurados em um centro de dados distante do servidor de arquivos)."
+
+#: ../../index.rst:60
+msgid ""
+"File Server Agent allows you to turn your file servers into cloud-"
+"friendly servers to migrate the file server shares to the |prodname| "
+"environment, while maintaining the two-way synchronization for as long as"
+" you need it to be. During this process, the existing share permissions "
+"are also migrated to |prodname|. This allows the Windows file server "
+"network share to be used locally without change, and at the same time, "
+"the network shares are synchronizing with |prodname| Server to form a "
+"Hybrid Cloud solution."
+msgstr "O Agente de Servidor de Arquivos permite que você transforme seus servidores de arquivos em servidores amigáveis à nuvem para migrar os compartilhamentos do servidor de arquivos para o ambiente |prodname|, mantendo a sincronização bidirecional pelo tempo que for necessário. Durante esse processo, as permissões de compartilhamento existentes também são migradas para |prodname|. Isso permite que o compartilhamento de rede do servidor de arquivos Windows seja usado localmente sem alterações e, ao mesmo tempo, os compartilhamentos de rede estão sincronizando com o Servidor |prodname| para formar uma solução de Nuvem Híbrida."
+
+#: ../../index.rst:62
+msgid ""
+"File Server Agent technology turns any Windows file server into a private"
+" cloud storage that can be accessed from anywhere using any device, while"
+" maintaining existing identities and permissions."
+msgstr "A tecnologia do Agente de Servidor de Arquivos transforma qualquer servidor de arquivos Windows em um armazenamento em nuvem privado que pode ser acessado de qualquer lugar usando qualquer dispositivo, mantendo as identidades e permissões existentes."
+
+#: ../../index.rst:66
+msgid "As a Summary"
+msgstr ""
+
+#: ../../index.rst:68
+msgid ""
+"File Server Agent can sync folders and files between the local file "
+"server and the remote |prodname| Server."
+msgstr "O Agente do Servidor de Arquivos pode sincronizar pastas e arquivos entre o servidor de arquivos local e o Servidor |prodname| remoto."
+
+#: ../../index.rst:69
+msgid ""
+"File Server Agent can sync NTFS folder permissions from a local file "
+"server to the remote |prodname| Server."
+msgstr "O Agente de Servidor de Arquivos pode sincronizar permissões de pastas NTFS de um servidor de arquivos local para o Servidor |prodname| remoto."
+
+#: ../../index.rst:70
+msgid ""
+"File Server Agent can export users to the remote |prodname| Server from a"
+" user's local Active Directory."
+msgstr "O Agente do Servidor de Arquivos pode exportar usuários para o Servidor |prodname| remoto a partir do Active Directory local de um usuário."
+
+#: ../../index.rst:71
+msgid ""
+"File Server Agent activity runs as a Windows background service on the "
+"local file server."
+msgstr "A atividade do Agente do Servidor de Arquivos funciona como um serviço em segundo plano do Windows no servidor de arquivos local."
+
+#: ../../index.rst:72
+msgid ""
+"Users use their local Active Directory identity to access files locally "
+"and from the |prodname| Server."
+msgstr "Os usuários utilizam sua identidade do Active Directory local para acessar arquivos localmente e a partir do Servidor |prodname|."
+
+#: ../../index.rst:77
+msgid "|prodname| ACCESS FROM LOCAL FILE SERVER"
+msgstr "|prodname| ACESSO A PARTIR DO SERVIDOR DE ARQUIVOS LOCAL"
+
+#: ../../index.rst:81
+msgid ""
+"When should you use File Server Agent to connect your file server to "
+"|prodname|?"
+msgstr "Quando deve usar o Agente de Servidor de Arquivos para conectar seu servidor de arquivos ao |prodname|?"
+
+#: ../../index.rst:83
+msgid ""
+"When should you use a direct server message block (SMB) network share "
+"connection?"
+msgstr "Quando deve usar uma conexão de compartilhamento de rede direta via server message block (SMB)?"
+
+#: ../../index.rst:85
+msgid ""
+"Typically, when a file server is away not in the same data center or "
+"network, we recommend using Server Agent. (e.g. there is no physical "
+"connection between |prodname| and the \"Server Agent\" target system)"
+msgstr "Normalmente, quando um servidor de arquivos não está no mesmo data center ou rede, recomendamos o uso do Server Agent. (por exemplo, não há conexão física entre |prodname| e o sistema alvo \"Server Agent\")"
+
+#: ../../index.rst:87
+msgid ""
+"For file servers in the same data center, but in a different VLAN, we "
+"recommend opening up the VLAN so the |prodname| can direct access the "
+"file server without using a Server Agent since both are already in the "
+"same data center."
+msgstr "Para servidores de arquivos no mesmo data center, mas em uma VLAN diferente, recomendamos abrir a VLAN para que o |prodname| possa acessar diretamente o servidor de arquivos sem usar um Agente de Servidor, já que ambos estão no mesmo data center."
+
+#: ../../index.rst:92
+msgid "How it solves the problem?"
+msgstr "Como resolve o problema?"
+
+#: ../../index.rst:94
+msgid ""
+"You or your managed service provider (MSP) owns the |prodname| software. "
+"File data is either located on the local file server or the |prodname| "
+"Server. Either way, you control the data to prevent unauthorized access."
+msgstr "Você ou o seu provedor de serviços gerenciados (MSP) é o proprietário do software |prodname|. Os dados dos arquivos estão localizados no servidor de arquivos local ou no Servidor |prodname|. De qualquer forma, você controla os dados para evitar o acesso não autorizado."
+
+#: ../../index.rst:96
+msgid ""
+"|prodname| Server is operating from a data center or local office, behind"
+" a firewall connected to the Internet. Typical SMB protocol shares are "
+"not available to the Internet; however, the HTTPS communication (Internet"
+" facing) capability of the |prodname| Server makes it friendly to mobile "
+"and remote devices."
+msgstr "|prodname| Server opera a partir de um centro de dados ou escritório local, protegido por um firewall e conectado à Internet. Compartilhamentos de protocolo SMB típicos não estão disponíveis na Internet; no entanto, a capacidade de comunicação HTTPS (voltada para a Internet) do |prodname| Server torna-o amigável para dispositivos móveis e remotos."
+
+#: ../../index.rst:98
+msgid ""
+"|prodname| Server either directly leverages the local Active Directory "
+"and NTFS permission or replicates these features to maintain a local-"
+"file-server access paradigm."
+msgstr "|prodname| Server utiliza diretamente o Active Directory local e a permissão NTFS ou replica esses recursos para manter um paradigma de acesso semelhante ao de um servidor de arquivos local."
+
+#: ../../index.rst:102
+msgid "What is a typical way to use File Server Agent?"
+msgstr "Qual é a maneira típica de usar o Agente de Servidor de Arquivos?"
+
+#: ../../index.rst:104
+msgid ""
+"When your client needs to store files in local-network shared folders, "
+"Server Agent can be helpful for connecting these shares to |prodname|. "
+"This typically happens when there is a lot of users in the local office, "
+"or the Internet speed is ok but not great coming into the office."
+msgstr "Quando o seu cliente precisa armazenar arquivos em pastas compartilhadas na rede local, o Server Agent pode ser útil para conectar esses compartilhamentos ao |prodname|. Isso geralmente acontece quando há muitos usuários no escritório local, ou a velocidade da Internet é aceitável, mas não excelente, chegando ao escritório."
+
+#: ../../index.rst:106
+msgid ""
+"One typical use case is you have remote workers or a branch office that "
+"have need to access the file server network share without using the VPN. "
+"You don't want to copy the file server content out just for the remote "
+"workers because that will create too many copies and lost track of which "
+"side has the newer version. Setting it up in a hybrid mode, and with two-"
+"way synchronization between local file server and remote |prodname| "
+"Server is a better way to go."
+msgstr "Um caso de uso típico é quando você tem trabalhadores remotos ou um escritório filial que precisam acessar o compartilhamento de rede do servidor de arquivos sem usar VPN. Você não quer copiar o conteúdo do servidor de arquivos apenas para os trabalhadores remotos porque isso criaria muitas cópias e perderia o controle de qual lado tem a versão mais recente. Configurá-lo em um modo híbrido, e com sincronização bidirecional entre o servidor de arquivos local e o servidor remoto |prodname| é uma maneira melhor de proceder."
+

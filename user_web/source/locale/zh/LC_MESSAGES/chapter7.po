@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Web Portal User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Web Portal User Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 10:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter7.rst:3
+msgid "Folder Legends in Web Interface"
+msgstr "网页界面中的文件夹图例"
+
+#: ../../chapter7.rst:5
+msgid "There are many different folders in the web interface."
+msgstr "在网页界面中有许多不同的文件夹。"
+
+#: ../../chapter7.rst:7
+msgid "Here is a list of them."
+msgstr "以下是它们的列表。"
+
+#: ../../chapter7.rst:9
+msgid "**Mounted Storage**"
+msgstr "**已挂载存储**"
+
+#: ../../chapter7.rst:15
+msgid ""
+"This folder represents mounted/attached storage. For example, a mounted "
+"file server network share or a connected Amazon S3 bucket will look like "
+"this."
+msgstr "此文件夹代表已挂载/已连接的存储。例如，一个挂载的文件服务器网络共享或一个已连接的Amazon S3存储桶将显示如此。"
+
+#: ../../chapter7.rst:17
+msgid "**Sync From Remote**"
+msgstr "**从远程同步**"
+
+#: ../../chapter7.rst:23
+msgid ""
+"This folder represents synchronization folders from remote PCs or Server "
+"Agents."
+msgstr "此文件夹代表来自远程PC或服务器代理的同步文件夹。"
+
+#: ../../chapter7.rst:25
+msgid "**Received Shares**"
+msgstr "**接收到的共享**"
+
+#: ../../chapter7.rst:31
+msgid ""
+"This folder represents the root folder of all the shared files and "
+"folders from other users."
+msgstr "此文件夹代表了其他用户共享的所有文件和文件夹的根目录。"
+
+#: ../../chapter7.rst:33
+msgid "**Regular Folder**"
+msgstr "**常规文件夹**"
+
+#: ../../chapter7.rst:39
+msgid "This folder represents a single shared folder received from other users."
+msgstr "此文件夹代表从其他用户处接收的单个共享文件夹。"
+
+#: ../../chapter7.rst:41
+msgid "**Team Folder**"
+msgstr "**团队文件夹**"
+
+#: ../../chapter7.rst:47
+msgid ""
+"This folder represent a team folder that is published to users and viewed"
+" from the users who received the team folder."
+msgstr "此文件夹代表一个发布给用户并由接收团队文件夹的用户查看的团队文件夹。"
+
+#: ../../chapter7.rst:49
+msgid "**Version Control**"
+msgstr "**版本控制**"
+
+#: ../../chapter7.rst:55
+msgid ""
+"Version folder represents folders that every files inside is under "
+"version control."
+msgstr "版本文件夹代表每个文件都在版本控制之下的文件夹。"
+
+#: ../../chapter7.rst:59
+msgid ""
+"If a folder doesn't have the version folder icon, doesn't mean it is not "
+"a version folder."
+msgstr "如果一个文件夹没有版本文件夹图标，并不意味着它不是一个版本文件夹。"
+
+#: ../../chapter7.rst:61
+msgid ""
+"As long as one of the parent folder is a version folder, everything "
+"inside is under version control."
+msgstr "只要其中一个父文件夹是版本文件夹，里面的所有内容都处于版本控制之下。"
+
+#: ../../chapter7.rst:63
+msgid ""
+"If the administrator setup the user as version control from the root, the"
+" team user may not see the version folder icon either when version "
+"control is on by default."
+msgstr "如果管理员从根目录设置用户为版本控制，当版本控制默认开启时，团队用户可能也看不到版本文件夹图标。"
+

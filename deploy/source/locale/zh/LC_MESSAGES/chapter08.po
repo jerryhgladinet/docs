@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Deployment Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deployment Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 16:11-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Deployment Options"
+msgstr "部署选项"
+
+#: ../../chapter08.rst:5
+msgid ""
+"As documented above, CentreStack has three logical components, the "
+"database, the worker node and the storage. This section will go through "
+"different deployment options."
+msgstr "如上所述，CentreStack具有三个逻辑组件：数据库、工作节点和存储。本节将介绍不同的部署选项。"
+
+#: ../../chapter08.rst:9
+msgid "All-In-One Deployment"
+msgstr "全能部署"
+
+#: ../../chapter08.rst:11
+msgid ""
+"This is the simplest deployment. The database , the worker nodes are all "
+"on the same machine as the storage. When you are serving < 1000 users or "
+"you are doing Proof-of-Concept (POC), this is the ideal deployment "
+"because of its simplicity. You can have the CentreStack installer install"
+" the SQL Express/MySQL on the same machine before installing CentreStack "
+"software and then pointing the database to localhost\\\\SQLEXPRESS or "
+"local MySQL. In the All-In-One deployment, the storage location is "
+"typically set to a folder on local C: drive or local D: drive."
+msgstr "这是最简单的部署方式。数据库、工作节点都位于与存储相同的机器上。当您服务的用户少于1000人或您正在进行概念验证（POC）时，由于其简单性，这是理想的部署方式。您可以让CentreStack安装程序在安装CentreStack软件之前，在同一台机器上安装SQL Express/MySQL，然后将数据库指向localhost\\SQLEXPRESS或本地MySQL。在All-In-One部署中，存储位置通常设置在本地C:驱动器或本地D:驱动器上的一个文件夹。"
+
+#: ../../chapter08.rst:17
+msgid ""
+"The installer can install SQL EXPRESS so it is a one-click installation "
+"for convenience. No need to do a separate SQL EXPRESS installation."
+msgstr "安装程序可以安装SQL EXPRESS，因此它是一种方便的一键安装。无需进行单独的SQL EXPRESS安装。"
+
+#: ../../chapter08.rst:22
+msgid ""
+"If this is the first time you are installing CentreStack, this is the "
+"recommended setup because it is the easiest to setup and only takes 15-30"
+" minutes on a clean machine. The installer will take care of all the "
+"installation without other manual steps."
+msgstr "如果这是您第一次安装CentreStack，这是推荐的设置，因为它是最容易设置的，且在一台干净的机器上只需15-30分钟。安装程序将处理所有安装步骤，无需其他手动操作。"
+
+#: ../../chapter08.rst:26
+msgid ""
+"In the latest CentreStack installer, the installer is capable of doing "
+"the all-in-one installation without asking you to setup database "
+"separately."
+msgstr "在最新的CentreStack安装程序中，安装程序能够进行一体化安装，无需您单独设置数据库。"
+
+#: ../../chapter08.rst:29
+msgid "Single-Server Deployment"
+msgstr "单服务器部署"
+
+#: ../../chapter08.rst:31
+msgid ""
+"This is another simple deployment. It is very similar to the All-In-One "
+"deployment. The only difference is that the file storage is off the "
+"machine instead of on the machine."
+msgstr "这是另一种简单的部署方式。它与All-In-One部署非常相似。唯一的区别是文件存储不在机器上，而是在机器外。"
+
+#: ../../chapter08.rst:33
+msgid ""
+"The external file storage can be file storage on a UNC path or it can "
+"also be an object storage service."
+msgstr "外部文件存储可以是UNC路径上的文件存储，也可以是对象存储服务。"
+
+#: ../../chapter08.rst:35
+msgid ""
+"In this deployment, the database and the Worker Node/Web Node are still "
+"deployed on the same machine."
+msgstr "在这种部署中，数据库和工作节点/网络节点仍然部署在同一台机器上。"
+
+#: ../../chapter08.rst:40
+msgid "Two-Server Deployment"
+msgstr "双服务器部署"
+
+#: ../../chapter08.rst:42
+msgid ""
+"In the two server deployment, the database is installed in its own "
+"server; away from the CentreStack worker node. Usually, this is an "
+"intermediate step leading to the \"Three-Server Deployment\" and a step "
+"towards scaling up the server farm."
+msgstr "在两台服务器的部署中，数据库安装在自己的服务器上；远离CentreStack工作节点。通常，这是向“三服务器部署”迈进的中间步骤，也是扩展服务器场的一个步骤。"
+
+#: ../../chapter08.rst:49
+msgid "Three-Server Deployment for Redundancy"
+msgstr "三服务器部署以实现冗余"
+
+#: ../../chapter08.rst:51
+msgid ""
+"The 3-machine deployment is another simple deployment. The database node "
+"is installed separately. Two CentreStack worker nodes are installed. The "
+"\"External URL\" field for each node is the same, such as "
+"\"cloud.acme.com\". The load balancer will do a round robin load "
+"balancing to either node. A variation of the deployment is to set "
+"\"External URL\" field differently for the two worker nodes. When "
+"\"External URL\" field is the same as the load balancer URL, everything "
+"is round robin. When \"External URL\" is different, such as "
+"node1.acme.com and node2.acme.com, the users will have affinity to one of"
+" the node. For example, if user1 is assigned to node1.acme.com, he will "
+"continue to use node1.acme.com. In this deployment, the size of the "
+"cluster is supporting 2000 concurrent-users per node. The benefit is that"
+" if one node is down, there is another node for redundancy."
+msgstr "3台机器部署是另一种简单的部署方式。数据库节点单独安装。安装了两个CentreStack工作节点。每个节点的“外部URL”字段都是相同的，例如“cloud.acme.com”。负载均衡器将对任一节点进行轮询负载均衡。部署的一个变种是为两个工作节点设置不同的“外部URL”字段。当“外部URL”字段与负载均衡器URL相同时，所有操作都是轮询的。当“外部URL”不同时，例如node1.acme.com和node2.acme.com，用户将对其中一个节点产生亲和性。例如，如果user1被分配到node1.acme.com，他将继续使用node1.acme.com。在这种部署中，集群的大小支持每个节点2000个并发用户。其优势在于，如果一个节点宕机，还有另一个节点可以提供冗余。"
+
+#: ../../chapter08.rst:65
+msgid "Multiple-Machine Deployment for Scalability"
+msgstr "多机部署以实现可伸缩性"
+
+#: ../../chapter08.rst:67
+msgid ""
+"In this deployment, you will have clear separation of database , storage "
+"service, and the worker nodes in a farm of servers."
+msgstr "在这种部署中，您将在一组服务器的场中清晰地分离数据库、存储服务和工作节点。"
+
+#: ../../chapter08.rst:70
+msgid ""
+"The database  is not a CentreStack worker node; it is just a server that "
+"runs SQL Server or MySQL."
+msgstr "数据库不是CentreStack的工作节点；它只是一个运行SQL Server或MySQL的服务器。"
+
+#: ../../chapter08.rst:72
+msgid ""
+"The worker nodes are all CentreStack nodes which run the same software. "
+"Most of the time, in the multiple-machine deployment, a hardware load "
+"balancer is used to distribute the load evenly."
+msgstr "工作节点都是运行相同软件的CentreStack节点。在多机部署中，大多数情况下会使用硬件负载均衡器来均匀分配负载。"
+
+#: ../../chapter08.rst:77
+msgid ""
+"Inside a worker node, there is further division of work between a 'web "
+"node' and the rest 'worker node'."
+msgstr "在一个工作节点内部，工作进一步分配给'web节点'和其他的'工作节点'。"
+
+#: ../../chapter08.rst:79
+msgid ""
+"The web  nodes are used for user login. After login, the user will be re-"
+"directed to the corresponding worker node. (The web  node can be omitted "
+"if you have an existing Load Balancer)."
+msgstr "Web节点用于用户登录。登录后，用户将被重定向到相应的工作节点。（如果您有现有的负载均衡器，可以省略Web节点。）"
+
+#: ../../chapter08.rst:82
+msgid ""
+"For the load balancing to work, all the worker nodes have to be on the "
+"same DNS domain and same level of sub domain (for example, they can be "
+"covered by same SSL wildcard certificate, such as \\*.acme.com).  The "
+"load balancing requires at least two worker nodes."
+msgstr "为了使负载均衡工作，所有工作节点必须位于相同的DNS域和相同级别的子域（例如，它们可以被相同的SSL通配符证书覆盖，如\*.acme.com）。负载均衡至少需要两个工作节点。"
+
+#: ../../chapter08.rst:85
+msgid ""
+"Install the CentreStack server on the first worker node machine. Reboot "
+"and setup the cluster admin account."
+msgstr "在第一个工作节点机器上安装CentreStack服务器。重启并设置集群管理员账户。"
+
+#: ../../chapter08.rst:89
+msgid ""
+"We recommend you setup and configure the first node and make sure it runs"
+" smoothly first, before you setup and install the second node."
+msgstr "我们建议您首先设置并配置第一个节点，并确保它首先运行顺畅，然后再设置并安装第二个节点。"
+
+#: ../../chapter08.rst:92
+msgid "Install the CentreStack server on all the other work nodes."
+msgstr "在所有其他工作节点上安装CentreStack服务器。"
+
+#: ../../chapter08.rst:94
+msgid ""
+"On the database configuration window, use the same database server as the"
+" first installation."
+msgstr "在数据库配置窗口中，使用与第一次安装相同的数据库服务器。"
+
+#: ../../chapter08.rst:97
+msgid ""
+"Please DO NOT add web nodes to the Cluster Worker Node list. Most of the "
+"time when you have a multi-worker-node design, you are servicing many "
+"users, and most of the time you have your own load balancer. In the case "
+"when you have your own load balancer, the web node functionality is "
+"merged into worker node. So you can have a zero-web-node configuration."
+msgstr "请不要将 web 节点添加到集群工作节点列表中。大多数情况下，当您有一个多工作节点设计时，您正在服务于许多用户，而且大多数情况下您有自己的负载均衡器。在您有自己的负载均衡器的情况下，web 节点功能合并到工作节点中。所以您可以有一个零 web 节点配置。"
+
+#: ../../chapter08.rst:102
+msgid "Setup DNS Load balancing for all worker nodes."
+msgstr "为所有工作节点设置DNS负载均衡。"
+
+#: ../../chapter08.rst:104
+msgid ""
+"Most of the time you set up a firewall or a load balancer and point the "
+"DNS to the load balancer. The load balancer will then forward to the "
+"CentreStack worker node."
+msgstr "大多数情况下，您会设置一个防火墙或负载均衡器，并将DNS指向负载均衡器。然后负载均衡器会将请求转发到CentreStack工作节点。"
+
+#: ../../chapter08.rst:109
+msgid ""
+"If you are using hardware load balancer, you can skip web-nodes and have "
+"an all-worker-node cluster."
+msgstr "如果您正在使用硬件负载均衡器，您可以跳过web节点，直接拥有一个全部是工作节点的集群。"
+
+#: ../../chapter08.rst:112
+msgid "Typical Deployment in Enterprises"
+msgstr "企业中的典型部署"
+
+#: ../../chapter08.rst:114
+msgid ""
+"Here is a typical deployment schema in Visio Diagram for very big "
+"deployments in large enterprises. In this deployment, the management "
+"functionality can be separated to internal management node (A property of"
+" worker node). When management functionality is separated to internal DNS"
+" names, the management web portal is internal only and thus more secure."
+msgstr "这是一个典型的Visio图表部署架构，用于大型企业中的非常大型部署。在这种部署中，管理功能可以分离到内部管理节点（工作节点的一个属性）。当管理功能分离到内部DNS名称时，管理Web门户仅限内部使用，因此更加安全。"
+
+#: ../../chapter08.rst:121
+msgid "High Availability Deployment"
+msgstr "高可用性部署"
+
+#: ../../chapter08.rst:123
+msgid ""
+"For high availability, you can prepare the high availability deployment "
+"in three different layers and make sure it is high availability within "
+"each layer."
+msgstr "为了高可用性，您可以在三个不同的层面上准备高可用性部署，并确保每个层面都具有高可用性。"
+
+#: ../../chapter08.rst:126
+msgid "Storage"
+msgstr "存储"
+
+#: ../../chapter08.rst:128
+msgid ""
+"If you are using Microsoft File Server Share as your storage, you can "
+"prepare it to be replicated, for example using DFS."
+msgstr "如果您使用的是Microsoft文件服务器共享作为您的存储，您可以准备它进行复制，例如使用DFS。"
+
+#: ../../chapter08.rst:130
+msgid ""
+"If you are using Amazon S3 or Windows Azure Blob, by default it is "
+"redundant and high availability."
+msgstr "如果您使用的是Amazon S3或Windows Azure Blob，默认情况下它是冗余的并且具有高可用性。"
+
+#: ../../chapter08.rst:132
+msgid "Database"
+msgstr "数据库"
+
+#: ../../chapter08.rst:134
+msgid ""
+"You can use the Microsoft SQL Server Availability Group Clustering or "
+"Availability Group Fail Over to make database high availability."
+msgstr "您可以使用 Microsoft SQL Server 可用性组群集或可用性组故障转移来实现数据库的高可用性。"
+
+#: ../../chapter08.rst:137
+msgid "CentreStack Worker Node"
+msgstr "CentreStack 工作节点"
+
+#: ../../chapter08.rst:139
+msgid ""
+"You can have multiple centrestack worker nodes in a round robin load "
+"balancing setup to provide high availability."
+msgstr "您可以在循环轮询负载均衡设置中拥有多个centrestack工作节点，以提供高可用性。"
+

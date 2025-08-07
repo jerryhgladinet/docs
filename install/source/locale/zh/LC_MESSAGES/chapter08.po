@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter08.rst:3
+msgid "Verify External URL, Internal URL and the Node Name"
+msgstr "验证外部URL、内部URL和节点名称"
+
+#: ../../chapter08.rst:6
+msgid "Verify External URL"
+msgstr "验证外部 URL"
+
+#: ../../chapter08.rst:8
+msgid ""
+"It is very straight forward to verify whether or not your external URL is"
+" set correctly. You just need to point your web browser to the external "
+"URL and verify that the Login Page shows up and there is no SSL warnings."
+msgstr "验证您的外部URL是否设置正确非常简单。您只需将网络浏览器指向外部URL，并确认登录页面出现且没有SSL警告。"
+
+#: ../../chapter08.rst:10
+msgid ""
+"You can also verify the External URL by doing a file share to your own "
+"email address outside of the |prodname| system. A file sharing invitation"
+" will be sent to that Email address. After you receive the Email, click "
+"on the link included in the Email and make sure the link points to the "
+"External URL."
+msgstr "您也可以通过向 |prodname| 系统外部的自己的电子邮件地址共享文件来验证外部URL。一个文件共享邀请将被发送到那个电子邮件地址。收到电子邮件后，点击邮件中包含的链接，并确保链接指向外部URL。"
+
+#: ../../chapter08.rst:14
+msgid ""
+"The external URL is used in the email sharing template. So a simple file "
+"sharing test will verify whether the External URL is setup correctly."
+msgstr "外部URL用于电子邮件共享模板中。因此，一个简单的文件共享测试将验证外部URL是否正确设置。"
+
+#: ../../chapter08.rst:17
+msgid "Verify Internal URL"
+msgstr "验证内部网址"
+
+#: ../../chapter08.rst:19
+msgid ""
+"For the verification of Internal URL, you can use the Node Performance "
+"page to make sure the node performance information shows up. (Cluster "
+"Dashboard -> Reports -> Node Performance)."
+msgstr "要验证内部 URL，您可以使用节点性能页面来确保节点性能信息显示出来。（集群仪表板 -> 报告 -> 节点性能）。"
+
+#: ../../chapter08.rst:24
+msgid "Verify Node Name"
+msgstr "验证节点名称"
+
+#: ../../chapter08.rst:26
+msgid ""
+"To verify that the node name is correct, you can go on \"File Browser\", "
+"click on \"More Actions\" (three-dot) on a folder and use the "
+"**\"Share\"** option to verify that the email has been received and is "
+"correctly pointing to an external URL."
+msgstr "要验证节点名称是否正确，您可以进入“文件浏览器”，点击文件夹上的“更多操作”（三点），然后使用 **“共享”** 选项来验证是否收到了邮件，并且正确指向了一个外部URL。"
+

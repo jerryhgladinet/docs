@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Installation Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Installation Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-04 09:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../chapter02.rst:3
+msgid "Installation"
+msgstr "Instalación"
+
+#: ../../chapter02.rst:7
+msgid ""
+"If this is the very first time you are installing |prodname| server, it "
+"is recommended that you do the all-in-one installation by preparing a "
+"clean Windows 2025/2022/2019/2016 virtual machine and installing with all"
+" the default parameters. The All-in-one deployment is the smallest fully "
+"functional setup and can be used for production environment with < 1000 "
+"users."
+msgstr "Si esta es la primera vez que instala el servidor |prodname|, se recomienda que realice la instalación todo en uno preparando una máquina virtual Windows 2025/2022/2019/2016 limpia e instalando con todos los parámetros predeterminados. La implementación Todo en uno es la configuración completamente funcional más pequeña y se puede utilizar para entornos de producción con < 1000 usuarios."
+
+#: ../../chapter02.rst:11
+msgid "Step 1: Prepare the File Storage"
+msgstr "Paso 1: Preparar el Almacenamiento de Archivos"
+
+#: ../../chapter02.rst:13
+msgid ""
+"|prodname| server is about to cloudify your file storage and enable "
+"remote and mobile access, with sync and share capability. So, the first "
+"question is: What is your file storage solution?"
+msgstr "|prodname| server está a punto de llevar su almacenamiento de archivos a la nube y habilitar el acceso remoto y móvil, con capacidad de sincronización y compartición. Entonces, la primera pregunta es: ¿Cuál es su solución de almacenamiento de archivos?"
+
+#: ../../chapter02.rst:15
+msgid ""
+"Your file storage can be a Windows File Server network share or any "
+"storage devices that supports CIFS/SMB protocol. It can also be from "
+"iSCSI devices that you can mount storage directly as a drive letter in "
+"the |prodname| server. It can also be a container inside a private "
+"instance of OpenStack Swift, a bucket in Amazon S3 compatible storage, or"
+" a container from Windows Azure blob storage. You will need the basic "
+"access information ready. For example,"
+msgstr "Su almacenamiento de archivos puede ser un recurso compartido de red de Servidor de Archivos de Windows o cualquier dispositivo de almacenamiento que soporte el protocolo CIFS/SMB. También puede provenir de dispositivos iSCSI que le permiten montar el almacenamiento directamente como una letra de unidad en el servidor |prodname|. También puede ser un contenedor dentro de una instancia privada de OpenStack Swift, un bucket en un almacenamiento compatible con Amazon S3 o un contenedor de almacenamiento de blobs de Windows Azure. Necesitará tener a mano la información básica de acceso. Por ejemplo,"
+
+#: ../../chapter02.rst:17
+msgid "**Windows File Server**"
+msgstr "**Servidor de Archivos de Windows**"
+
+#: ../../chapter02.rst:19
+msgid ""
+"If it is a Windows File Server, you will need the UNC path to the network"
+" share and the user credentials for accessing the folder."
+msgstr "Si se trata de un Servidor de Archivos Windows, necesitará la ruta UNC al recurso compartido de red y las credenciales de usuario para acceder a la carpeta."
+
+#: ../../chapter02.rst:21
+msgid ""
+"If it is from a local C: drive or local D: drive, you will need a local "
+"user credential that has full permission to the local folder."
+msgstr "Si proviene de una unidad local C: o una unidad local D:, necesitará una credencial de usuario local que tenga permiso completo para la carpeta local."
+
+#: ../../chapter02.rst:23
+msgid "**OpenStack Swift**"
+msgstr "**OpenStack Swift**"
+
+#: ../../chapter02.rst:25
+msgid ""
+"If it is OpenStack Swift, you will need the authentication URL and "
+"credentials and understand the version of your authentication setup, such"
+" as KeyStone V2 or KeyStone V3 or just the classic authentication."
+msgstr "Si se trata de OpenStack Swift, necesitará la URL de autenticación y las credenciales y comprender la versión de su configuración de autenticación, como KeyStone V2 o KeyStone V3 o simplemente la autenticación clásica."
+
+#: ../../chapter02.rst:27
+msgid "**Amazon S3**"
+msgstr "**Amazon S3**"
+
+#: ../../chapter02.rst:29
+msgid ""
+"If it is Amazon S3, you will need the Access Key and Secret Key and a "
+"Bucket Name. If the Access Key and Secret Key is from an IAM user, you "
+"will need to make sure the IAM user has full permission to the bucket."
+msgstr "Si se trata de Amazon S3, necesitará la Clave de Acceso y la Clave Secreta, así como un Nombre de Bucket. Si la Clave de Acceso y la Clave Secreta pertenecen a un usuario IAM, deberá asegurarse de que el usuario IAM tenga permisos completos sobre el bucket."
+
+#: ../../chapter02.rst:31
+msgid "**Windows Azure Blob Storage**"
+msgstr "**Almacenamiento de Objetos en Azure de Windows**"
+
+#: ../../chapter02.rst:33
+msgid ""
+"You will need the \"Storage Account Name\" and the \"Primary Key\" and a "
+"container name."
+msgstr "Necesitará el \"Nombre de la Cuenta de Almacenamiento\" y la \"Clave Primaria\" y un nombre de contenedor."
+
+#: ../../chapter02.rst:37
+msgid ""
+"The initial deployment of |prodname| configures the back end storage to "
+"use the ``C:\\CentreStack`` directory on the |prodname| server. This "
+"default back end storage location can be changed to another location at a"
+" later time by modifying the back end storage of the default tenant. Each"
+" |prodname| tenant can be configured for different back end storage "
+"locations."
+msgstr "La implementación inicial de |prodname| configura el almacenamiento back end para usar el directorio ``C:\CentreStack`` en el servidor de |prodname|. Esta ubicación de almacenamiento back end predeterminada puede cambiarse a otra ubicación más adelante modificando el almacenamiento back end del inquilino predeterminado. Cada inquilino de |prodname| puede configurarse para diferentes ubicaciones de almacenamiento back end."
+
+#: ../../chapter02.rst:40
+msgid "Step 2: Prepare Active Directory (Optional)"
+msgstr "Paso 2: Preparar Active Directory (Opcional)"
+
+#: ../../chapter02.rst:42
+msgid ""
+"If you are integrating Active Directory, you will need the following "
+"information:"
+msgstr "Si está integrando Active Directory, necesitará la siguiente información:"
+
+#: ../../chapter02.rst:44
+msgid "The DNS name (or IP address) of an Active Directory Domain Controller."
+msgstr "El nombre DNS (o dirección IP) de un Controlador de Dominio de Active Directory."
+
+#: ../../chapter02.rst:45
+msgid "A service account that can access the Active Directory."
+msgstr "Una cuenta de servicio que puede acceder al Directorio Activo."
+
+#: ../../chapter02.rst:46
+msgid "The DNS name of the Active Directory Domain."
+msgstr "El nombre DNS del Dominio de Active Directory."
+
+#: ../../chapter02.rst:50
+msgid ""
+"If your Active Directory or the client's Active Directory is remotely "
+"located with regard to the |prodname| Server, then you should use Server "
+"Agent software to connect the Active Directory instead of using LDAP to "
+"connect Active Directory."
+msgstr "Si su Active Directory o el Active Directory del cliente está ubicado de manera remota con respecto al Servidor |prodname|, entonces debería usar el software Server Agent para conectar el Active Directory en lugar de usar LDAP para conectar Active Directory."
+
+#: ../../chapter02.rst:54
+msgid ""
+"If you are using Single Sign-On service such as Azure AD, Active "
+"Directory Federation Service, OneLogin or OKTA, you can confige SAML "
+"based authentication instead of using Active Directory directly. Normally"
+" those identity service providers are connected to the corporate Active "
+"Directory anyway."
+msgstr "Si utiliza un servicio de inicio de sesión único como Azure AD, Active Directory Federation Service, OneLogin o OKTA, puede configurar la autenticación basada en SAML en lugar de utilizar directamente Active Directory. Normalmente, esos proveedores de servicios de identidad están conectados de todos modos al Active Directory corporativo."
+
+#: ../../chapter02.rst:57
+msgid "Step 3: Prepare the Database Server"
+msgstr "Paso 3: Preparar el Servidor de Base de Datos"
+
+#: ../../chapter02.rst:61
+msgid ""
+"If you are installing the all-in-one instance, you can skip this step "
+"because the all-in-one installer will install a PostgreSQL and configure "
+"the database accordingly. See `Step 5: Start Installation`_ below for "
+"more about the all-in-one installation."
+msgstr "Si está instalando la instancia todo en uno, puede omitir este paso ya que el instalador todo en uno instalará un PostgreSQL y configurará la base de datos en consecuencia. Vea `Paso 5: Iniciar la instalación`_ a continuación para más información sobre la instalación todo en uno."
+
+#: ../../chapter02.rst:63
+msgid ""
+"This step is only for installation that has a separate database node "
+"which is not installed by default with any worker node."
+msgstr "Este paso es solo para la instalación que tiene un nodo de base de datos separado que no se instala de manera predeterminada con ningún nodo de trabajo."
+
+#: ../../chapter02.rst:65
+msgid ""
+"All |prodname| servers in a cluster will share one single centralized "
+"database."
+msgstr "Todos los servidores |prodname| en un clúster compartirán una única base de datos centralizada."
+
+#: ../../chapter02.rst:69
+msgid ""
+"With the release of the |prodname| version 9.5.5409.41172, the default "
+"database engine for the \"all in one\" deployment has switched to "
+"PostgreSQL as opposed to Microsoft SQL Server Express Edition. The main "
+"reason to make this switch was to avoid the built-in limitations of SQL "
+"Server Express Edition (1 GB RAM and 10 GB max database file size)."
+msgstr "Con el lanzamiento de la versión |prodname| 9.5.5409.41172, el motor de base de datos predeterminado para la implementación \"todo en uno\" ha cambiado a PostgreSQL en lugar de Microsoft SQL Server Express Edition. La principal razón para hacer este cambio fue evitar las limitaciones incorporadas de SQL Server Express Edition (1 GB de RAM y tamaño máximo de archivo de base de datos de 10 GB)."
+
+#: ../../chapter02.rst:71
+msgid ""
+"There are two places that store persistent information. The first place "
+"is the File Storage mentioned in Step 1. The second place is the "
+"|prodname| database. There is configuration information such as user "
+"name, team folder, shared folder, login token in the database. There is "
+"also runtime information such as audit trace and file change log in the "
+"database."
+msgstr "Hay dos lugares que almacenan información persistente. El primer lugar es el Almacenamiento de Archivos mencionado en el Paso 1. El segundo lugar es la base de datos de |prodname|. Hay información de configuración como nombre de usuario, carpeta de equipo, carpeta compartida, token de inicio de sesión en la base de datos. También hay información de ejecución como rastro de auditoría y registro de cambios de archivo en la base de datos."
+
+#: ../../chapter02.rst:73
+msgid ""
+"The default |prodname| deployment utilizes a PostgreSQL local database on"
+" the |prodname| Server. We provide this option to allow the trial "
+"installation to be as simple as possible."
+msgstr "La implementación predeterminada de |prodname| utiliza una base de datos local PostgreSQL en el Servidor |prodname|. Ofrecemos esta opción para que la instalación de prueba sea lo más sencilla posible."
+
+#: ../../chapter02.rst:75
+msgid ""
+"Currently |prodname| supports PostgreSQL, MySQL or Microsoft SQL Server "
+"Database Management Systems (DBMS). Some good reasons for deploying an "
+"external database server are performance, scalability and/or high "
+"availability."
+msgstr "Actualmente |prodname| es compatible con los sistemas de gestión de bases de datos (DBMS) PostgreSQL, MySQL o Microsoft SQL Server. Algunas buenas razones para implementar un servidor de base de datos externo son el rendimiento, la escalabilidad y/o la alta disponibilidad."
+
+#: ../../chapter02.rst:78
+msgid "Microsoft SQL Server"
+msgstr "Microsoft SQL Server"
+
+#: ../../chapter02.rst:79
+msgid ""
+"If you are using an external Microsoft SQL Server as opposed to the "
+"default MySQL all-in-one deployment, then you must ensure the **SQL "
+"Server Authentication is configured for Mixed Mode Authentication**. The "
+"|prodname| Server connection requires the use of a SQL account, not a "
+"Windows integrated authentication account."
+msgstr "Si está utilizando un Microsoft SQL Server externo en lugar de la implementación predeterminada de MySQL todo en uno, entonces debe asegurarse de que la **Autenticación de SQL Server esté configurada para la Autenticación de Modo Mixto**. La conexión del servidor |prodname| requiere el uso de una cuenta SQL, no de una cuenta de autenticación integrada de Windows."
+
+#: ../../chapter02.rst:81
+msgid ""
+"During the setup of the first worker node, the installer will need to "
+"create a database, create tables inside the database and create stored "
+"procedures in the database. Therefore, it requires a SQL security account"
+" that has enough privileges for the installation."
+msgstr "Durante la configuración del primer nodo trabajador, el instalador necesitará crear una base de datos, crear tablas dentro de la base de datos y crear procedimientos almacenados en la base de datos. Por lo tanto, requiere una cuenta de seguridad SQL que tenga suficientes privilegios para la instalación."
+
+#: ../../chapter02.rst:83
+msgid ""
+"If the database server is external to the |prodname| server, make sure "
+"TCP protocol is enabled and firewall is opened to accept SQL connections."
+" Default TCP port is 1433 and that port needs to be opened on firewall. "
+"If you have SQL Server listening on a different port, that port will need"
+" to be opened as well."
+msgstr "Si el servidor de base de datos está externo al servidor de |prodname|, asegúrese de que el protocolo TCP esté habilitado y que el firewall esté abierto para aceptar conexiones SQL. El puerto TCP predeterminado es 1433 y ese puerto necesita estar abierto en el firewall. Si tiene SQL Server escuchando en un puerto diferente, ese puerto también necesitará estar abierto."
+
+#: ../../chapter02.rst:86
+msgid "MySQL Server"
+msgstr "Servidor MySQL"
+
+#: ../../chapter02.rst:87
+msgid ""
+"MySQL typically listens on TCP port 3306. Make sure this port is opened "
+"on the firewall."
+msgstr "MySQL normalmente escucha en el puerto TCP 3306. Asegúrese de que este puerto esté abierto en el cortafuegos."
+
+#: ../../chapter02.rst:90
+msgid "PostgreSQL Server"
+msgstr "Servidor PostgreSQL"
+
+#: ../../chapter02.rst:91
+msgid ""
+"PostgreSQL usually is the default option for the all-in-one installation."
+" The default port is 5679 but most of the time the database is running on"
+" the \"localhost\", same as the |prodname| server."
+msgstr "PostgreSQL suele ser la opción predeterminada para la instalación todo en uno. El puerto predeterminado es 5679, pero la mayoría de las veces la base de datos está funcionando en el \"localhost\", igual que el servidor |prodname|."
+
+#: ../../chapter02.rst:95
+msgid "Step 4: Prepare the |prodname| Server"
+msgstr "Paso 4: Preparar el servidor |prodname|"
+
+#: ../../chapter02.rst:97
+msgid ""
+"The easiest way to prepare the |prodname| server is to have a clean "
+"Windows Server 2025/2022/2019/2016 OS with English locale and make sure "
+"the worker nodes are all in the same time zone."
+msgstr "La manera más fácil de preparar el servidor |prodname| es tener un sistema operativo Windows Server 2025/2022/2019/2016 limpio con configuración regional en inglés y asegurarse de que los nodos de trabajo estén todos en la misma zona horaria."
+
+#: ../../chapter02.rst:99
+msgid ""
+"We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a "
+"preferred server OS running on a virtual machine."
+msgstr "Recomendamos Windows Server 2025, 2022, 2019 o Windows Server 2016 como sistema operativo de servidor preferido que se ejecuta en una máquina virtual."
+
+#: ../../chapter02.rst:105
+msgid "**Supported Operating Systems**"
+msgstr "**Sistemas Operativos Soportados**"
+
+#: ../../chapter02.rst:102
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../chapter02.rst:103
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
+
+#: ../../chapter02.rst:104
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
+
+#: ../../chapter02.rst:105
+msgid "Windows Server 2016"
+msgstr "Windows Server 2016"
+
+#: ../../chapter02.rst:109
+msgid "**Supported CPU**"
+msgstr "**CPU Compatible**"
+
+#: ../../chapter02.rst:108
+msgid "64-bit Intel or AMD x64 architecture"
+msgstr "Arquitectura x64 de Intel o AMD de 64 bits"
+
+#: ../../chapter02.rst:109
+msgid "2 - virtual CPUs minimum (4 - virtual CPUs or more are recommended)"
+msgstr "2 - CPUs virtuales como mínimo (se recomiendan 4 - CPUs virtuales o más)"
+
+#: ../../chapter02.rst:112
+msgid "**Memory**"
+msgstr "**Memoria**"
+
+#: ../../chapter02.rst:112
+msgid "8GB RAM minimum (16 GB or more is preferred)"
+msgstr "Se requiere un mínimo de 8 GB de RAM (se prefiere 16 GB o más)"
+
+#: ../../chapter02.rst:115
+msgid "**Hard Disk space**"
+msgstr "**Espacio en disco duro**"
+
+#: ../../chapter02.rst:115
+msgid ""
+"100 GB minimum, preferably SSD. This assumes back end file storage is not"
+" located on the |prodname| server itself."
+msgstr "100 GB como mínimo, preferiblemente SSD. Esto asume que el almacenamiento de archivos de back end no está ubicado en el servidor |prodname| en sí."
+
+#: ../../chapter02.rst:118
+msgid "Step 5: Start Installation"
+msgstr "Paso 5: Iniciar la instalación"
+
+#: ../../chapter02.rst:120
+msgid ""
+"You can get the |prodname| installation package from the |prodname| "
+"partner portal (by logging in to https://partner.centrestack.com/login/) "
+"and going to the Self-Hosted |prodname| section."
+msgstr "Puede obtener el paquete de instalación de |prodname| desde el portal de socios de |prodname| (iniciando sesión en https://partner.centrestack.com/login/) y accediendo a la sección Self-Hosted |prodname|."
+
+#: ../../chapter02.rst:124
+msgid ""
+"Sign into the |prodname| server console (RDP or physical console are "
+"fine) with administrator rights. Once you click the **\"Download\"** "
+"button on the Partner Portal, the installer will appear either in "
+"downloads or as a link at the bottom of your browser. Click the "
+"executable file to begin the installation."
+msgstr "Inicie sesión en la consola del servidor |prodname| (RDP o consola física están bien) con derechos de administrador. Una vez que haga clic en el botón **\"Descargar\"** en el Portal de Socios, el instalador aparecerá en descargas o como un enlace en la parte inferior de su navegador. Haga clic en el archivo ejecutable para comenzar la instalación."
+
+#: ../../chapter02.rst:126
+msgid "You will see the welcome screen."
+msgstr "Verás la pantalla de bienvenida."
+
+#: ../../chapter02.rst:130 ../../chapter02.rst:136
+msgid "Click 'Next'"
+msgstr "Haga clic en 'Siguiente'"
+
+#: ../../chapter02.rst:132
+msgid "And accept the EULA"
+msgstr "Y acepte el EULA"
+
+#: ../../chapter02.rst:140
+msgid "And Click Install."
+msgstr "Y haga clic en Instalar."
+
+#: ../../chapter02.rst:144
+msgid ""
+"After the installation has been completed successfully, a reboot is "
+"required. Click 'Restart'."
+msgstr "Después de que la instalación se haya completado con éxito, es necesario reiniciar. Haga clic en 'Reiniciar'."
+
+#: ../../chapter02.rst:148
+msgid ""
+"|prodname| will install and then you will need to restart your system to "
+"complete the installation."
+msgstr "|prodname| se instalará y luego necesitará reiniciar su sistema para completar la instalación."
+
+#: ../../chapter02.rst:152
+msgid ""
+"|prodname| is a multi-tenant solution. The Tenant Manager scope is "
+"defined for a tenant administrator. For a multi-tenant Cluster Server "
+"system, each tenant has an administrator. For a single-tenant Cluster "
+"Server system, the default cluster administrator is also the tenant "
+"administrator."
+msgstr "|prodname| es una solución multiinquilino. El ámbito del Administrador de inquilinos está definido para un administrador de inquilino. En un sistema de Servidor de Clúster multiinquilino, cada inquilino tiene un administrador. Para un sistema de Servidor de Clúster de un solo inquilino, el administrador predeterminado del clúster también es el administrador del inquilino."
+
+#: ../../chapter02.rst:156
+msgid ""
+"After the reboot and login to the Windows session again with the same "
+"Windows admin user credential, it may take 3-5 minutes before all the "
+"windows services start and a web browser page will pop-up."
+msgstr "Después de reiniciar e iniciar sesión de nuevo en la sesión de Windows con las mismas credenciales de usuario administrador de Windows, puede tardar de 3 a 5 minutos antes de que todos los servicios de Windows se inicien y aparezca una página del navegador web."
+
+#: ../../chapter02.rst:159
+msgid ""
+"For the next screen, if you have an existing database use the pull-down "
+"menu to select a different option otherwise use the default which will "
+"also install the PostgreSQL Community Edition database."
+msgstr "Para la siguiente pantalla, si tiene una base de datos existente, use el menú desplegable para seleccionar una opción diferente, de lo contrario, use la opción predeterminada que también instalará la base de datos PostgreSQL Community Edition."
+
+#: ../../chapter02.rst:163
+msgid ""
+"In the next screen, enter your Partner Account login credentials to "
+"complete the installation."
+msgstr "En la siguiente pantalla, introduzca sus credenciales de inicio de sesión de la Cuenta de Socio para completar la instalación."
+

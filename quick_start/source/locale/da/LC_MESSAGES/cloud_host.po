@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 - Gladinet, Inc. All Rights Reserved
+# This file is distributed under the same license as the Quick Start Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start Guide 16.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-03 10:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"Language-Team: da <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../cloud_host.rst:3
+msgid "\"Cloud SaaS-Hosted\" Quick Start"
+msgstr "\"Cloud SaaS-Hosted\" Hurtig start"
+
+#: ../../cloud_host.rst:6
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: ../../cloud_host.rst:8
+msgid ""
+"Similar to a Data-Center MSP-Hosted environment, CentreStack has a Cloud "
+"version that is readily hosted."
+msgstr "Ligesom et Data-Center MSP-Hosted miljø har CentreStack en Cloud version, der allerede er hosted."
+
+#: ../../cloud_host.rst:10
+msgid ""
+"This works well for managed service providers who have smaller clients "
+"here and there. Because of the smaller number of total clients, the Data-"
+"Center MSP-Hosted overhead is relatively high. MSPs can use the Cloud "
+"version since it is readily deployed and ready to use."
+msgstr "Dette fungerer godt for administrerede tjenesteudbydere, der har mindre klienter hist og her. På grund af det mindre antal samlede klienter er overhead for Data-Center MSP-Hosted forholdsvis højt. MSP'er kan bruge Cloud-versionen, da den er hurtigt udrullet og klar til brug."
+
+#: ../../cloud_host.rst:17
+msgid "Preparation"
+msgstr "Forberedelse"
+
+#: ../../cloud_host.rst:19
+msgid ""
+"Since you don't need to prepare the CentreStack server installation any "
+"more (it is hosted by CentreStack.com), all that you need to do is create"
+" hosted tenants. A tenant, based on business requirement,  is mapped to"
+msgstr "Da du ikke længere behøver at forberede installationen af CentreStack-serveren (den hostes af CentreStack.com), er alt, hvad du skal gøre, at oprette hostede lejere. En lejer, baseret på forretningskrav, er kortlagt til"
+
+#: ../../cloud_host.rst:22
+msgid "a client of yours"
+msgstr "en klient af dig"
+
+#: ../../cloud_host.rst:23
+msgid "a company"
+msgstr "en virksomhed"
+
+#: ../../cloud_host.rst:24
+msgid "an organization in a bigger company"
+msgstr "en organisation i et større firma"
+
+#: ../../cloud_host.rst:29
+msgid "Create Tenant"
+msgstr "Opret lejer"
+
+#: ../../cloud_host.rst:31
+msgid "You can create tenants directly from the Hosted-CentreStack."
+msgstr "Du kan oprette lejere direkte fra Hosted-CentreStack."
+
+#: ../../cloud_host.rst:36
+msgid "Please reference Server Agent User Guide for File Server Migration:"
+msgstr "Henvis venligst til Server Agent Brugervejledning for filservermigration:"
+
+#: ../../cloud_host.rst:38
+msgid ""
+"`Server Agent User Guide "
+"<http://www.centrestack.com/Library/ServerAgentGuide/index.html>`_"
+msgstr "`Server Agent Brugervejledning <http://www.centrestack.com/Library/ServerAgentGuide/index.html>`_"
+
