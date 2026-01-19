@@ -44,16 +44,16 @@ msgid "Server OS"
 msgstr "服务器操作系统"
 
 #: ../../chapter02.rst:17
-msgid "Windows 2022"
-msgstr "Windows 2022"
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
 
 #: ../../chapter02.rst:18
-msgid "Windows 2019"
-msgstr "Windows 2019"
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
 
 #: ../../chapter02.rst:19
-msgid "Windows 2016"
-msgstr "Windows 2016"
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
 
 #: ../../chapter02.rst:21
 msgid "Client OS"
@@ -90,15 +90,15 @@ msgstr "2.2 准备工作"
 #: ../../chapter02.rst:35
 msgid ""
 "File Server Agent depends on .NET framework 2.0 or later. If you are "
-"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"installing the file Server Agent on Windows Server 2025/2022/2019, you "
 "need to prepare the .NET environment. This usually can be done from the "
 "Windows Server Manager > Manage Roles and Features and then in the "
 "features section, select .NET Framework 3.5"
-msgstr "文件服务器代理依赖 .NET 框架 2.0 或更高版本。如果您在 Windows Server 2022/2019/2016 上安装文件服务器代理，您需要准备 .NET 环境。通常可以通过 Windows 服务器管理器 > 管理角色和功能，然后在功能部分，选择 .NET Framework 3.5 来完成此操作"
+msgstr "文件服务器代理依赖 .NET 框架 2.0 或更高版本。如果您在 Windows Server 2025/2022/2019 上安装文件服务器代理，您需要准备 .NET 环境。通常可以通过 Windows 服务器管理器 > 管理角色和功能，然后在功能部分，选择 .NET Framework 3.5 来完成此操作"
 
 #: ../../chapter02.rst:40
-msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
-msgstr "WINDOWS SERVER 2016 .NET 框架特性"
+msgid ".NET FRAMEWORK FEATURE"
+msgstr ".NET 框架特性"
 
 #: ../../chapter02.rst:43
 msgid ""

@@ -55,23 +55,23 @@ msgid "The base operating system can be either:"
 msgstr "基础操作系统可以是："
 
 #: ../../chapter04.rst:14
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../chapter04.rst:15
 msgid "Windows Server 2022"
 msgstr "Windows Server 2022"
 
-#: ../../chapter04.rst:15
+#: ../../chapter04.rst:16
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../chapter04.rst:16
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
 #: ../../chapter04.rst:18
 msgid ""
-"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"We recommend Windows Server 2025/2022/2019 since .Net Framework 4.5+ "
 "comes directly with these newer server OS platforms. It is easier and "
-"faster to install CentreStack software on Windows Server 2022/2019/2016."
-msgstr "我们推荐使用Windows Server 2022/2019/2016，因为.Net Framework 4.5+ 直接随这些新版服务器操作系统提供。在Windows Server 2022/2019/2016上安装CentreStack软件更加容易和快捷。"
+"faster to install CentreStack software on Windows Server 2025/2022/2019."
+msgstr "我们推荐使用Windows Server 2025/2022/2019，因为.Net Framework 4.5+ 直接随这些新版服务器操作系统提供。在Windows Server 2025/2022/2019上安装CentreStack软件更加容易和快捷。"
 
 #: ../../chapter04.rst:23
 msgid ""
@@ -87,8 +87,8 @@ msgid ""
 msgstr "无需对机器进行任何准备，只需保持基本操作系统软件的干净状态即可。"
 
 #: ../../chapter04.rst:29
-msgid "Windows Server 2022, 2019, 2016"
-msgstr "Windows Server 2022、2019、2016"
+msgid "Windows Server 2025, 2022, 2019"
+msgstr "Windows Server 2025、2022、2019"
 
 #: ../../chapter04.rst:31
 msgid ""
@@ -225,8 +225,8 @@ msgid "Operating System"
 msgstr "操作系统"
 
 #: ../../chapter04.rst:101
-msgid "Windows 2022, Windows 2019, Windows 2016"
-msgstr "Windows 2022、Windows 2019、Windows 2016"
+msgid "Windows Server 2025, Windows Server 2022, Windows Server 2019"
+msgstr "Windows Server 2025、Windows Server 2022、Windows Server 2019"
 
 #: ../../chapter04.rst
 msgid "CPU"
@@ -326,7 +326,7 @@ msgstr "我们建议您如果可能的话，使用自己的负载均衡设备。
 msgid ""
 "If you have a hardware load balancer such as F5, you can skip web nodes, "
 "and have F5 directly load balance to a farm of worker nodes. You can also"
-" use the Network Load Balancing feature which is included in Windows "
-"2022/2019/2016 for load balancing."
-msgstr "如果您有硬件负载均衡器，比如F5，您可以跳过Web节点，直接使用F5对一组工作节点进行负载均衡。您也可以使用包含在Windows 2022/2019/2016中的网络负载均衡功能进行负载均衡。"
+" use the Network Load Balancing feature which is included in Windows Server "
+"2025/2022/2019 for load balancing."
+msgstr "如果您有硬件负载均衡器，比如F5，您可以跳过Web节点，直接使用F5对一组工作节点进行负载均衡。您也可以使用包含在Windows Server 2025/2022/2019中的网络负载均衡功能进行负载均衡。"
 

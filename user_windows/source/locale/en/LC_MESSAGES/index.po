@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../index.rst:22
 msgid ""
-"Normally on windows server type machine such as 2025/2022/2019/2016, use "
+"Normally on Windows Server type machine such as 2025/2022/2019, use "
 "server agent instead of client agent. However, the client agent can run "
 "as desktop application on Windows Server OS as well.  For example, if you"
 " plan to have the desktop agent run in a terminal server environment, you"

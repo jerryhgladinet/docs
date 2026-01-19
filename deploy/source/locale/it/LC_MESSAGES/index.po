@@ -525,23 +525,23 @@ msgid "The base operating system can be either:"
 msgstr "Il sistema operativo di base può essere:"
 
 #: ../../index.rst:260
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../index.rst:261
 msgid "Windows Server 2022"
 msgstr "Windows Server 2022"
 
-#: ../../index.rst:261
+#: ../../index.rst:262
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../index.rst:262
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
 #: ../../index.rst:264
 msgid ""
-"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"We recommend Windows Server 2025/2022/2019 since .Net Framework 4.5+ "
 "comes directly with these newer server OS platforms. It is easier and "
-"faster to install CentreStack software on Windows Server 2022/2019/2016."
-msgstr "Si consiglia Windows Server 2022/2019/2016 poiché .Net Framework 4.5+ è direttamente incluso in queste nuove piattaforme di server OS. È più semplice e veloce installare il software CentreStack su Windows Server 2022/2019/2016."
+"faster to install CentreStack software on Windows Server 2025/2022/2019."
+msgstr "Si consiglia Windows Server 2025/2022/2019 poiché .Net Framework 4.5+ è direttamente incluso in queste nuove piattaforme di server OS. È più semplice e veloce installare il software CentreStack su Windows Server 2025/2022/2019."
 
 #: ../../index.rst:269
 msgid ""
@@ -557,8 +557,8 @@ msgid ""
 msgstr "Non c'è bisogno di preparare la macchina oltre allo stato pulito del software di base del Sistema Operativo."
 
 #: ../../index.rst:275
-msgid "Windows Server 2022, 2019, 2016"
-msgstr "Windows Server 2022, 2019, 2016"
+msgid "Windows Server 2025, 2022, 2019"
+msgstr "Windows Server 2025, 2022, 2019"
 
 #: ../../index.rst:277
 msgid ""
@@ -695,8 +695,8 @@ msgid "Operating System"
 msgstr "Sistema Operativo"
 
 #: ../../index.rst:347
-msgid "Windows 2022, Windows 2019, Windows 2016"
-msgstr "Windows 2022, Windows 2019, Windows 2016"
+msgid "Windows Server 2025, Windows Server 2022, Windows Server 2019"
+msgstr "Windows Server 2025, Windows Server 2022, Windows Server 2019"
 
 #: ../../index.rst
 msgid "CPU"
@@ -796,9 +796,9 @@ msgstr "La nostra raccomandazione è di avere un proprio dispositivo di bilancia
 msgid ""
 "If you have a hardware load balancer such as F5, you can skip web nodes, "
 "and have F5 directly load balance to a farm of worker nodes. You can also"
-" use the Network Load Balancing feature which is included in Windows "
-"2022/2019/2016 for load balancing."
-msgstr "Se disponi di un bilanciatore di carico hardware come F5, puoi saltare i nodi web e far bilanciare direttamente il carico a un insieme di nodi worker da parte di F5. Puoi anche utilizzare la funzione di Bilanciamento del Carico di Rete che è inclusa in Windows 2022/2019/2016 per il bilanciamento del carico."
+" use the Network Load Balancing feature which is included in Windows Server "
+"2025/2022/2019 for load balancing."
+msgstr "Se disponi di un bilanciatore di carico hardware come F5, puoi saltare i nodi web e far bilanciare direttamente il carico a un insieme di nodi worker da parte di F5. Puoi anche utilizzare la funzione di Bilanciamento del Carico di Rete che è inclusa in Windows Server 2025/2022/2019 per il bilanciamento del carico."
 
 #: ../../index.rst:401
 msgid "Active Directory Integration"
@@ -984,10 +984,10 @@ msgstr "Privato On-premise"
 
 #: ../../index.rst:503
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "È possibile preparare un server Windows Server 2022/2019/2016 e installare CentreStack. In questo scenario, di solito Active Directory si trova nello stesso sito e lo storage primario proviene da server di file o storage NAS."
+msgstr "È possibile preparare un server Windows Server 2025/2022/2019 e installare CentreStack. In questo scenario, di solito Active Directory si trova nello stesso sito e lo storage primario proviene da server di file o storage NAS."
 
 #: ../../index.rst:506
 msgid ""
@@ -1044,8 +1044,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "In questo scenario di distribuzione, si dispiegherebbe la soluzione CentreStack in un ambiente di cloud privato virtuale come Amazon EC2. CentreStack è disponibile anche sotto forma di immagine AMI per facilitare la creazione di istanze EC2. In questo scenario di distribuzione, la connessione tipica allo storage primario è allo storage Amazon S3. È possibile anche configurare la soluzione CentreStack in un ambiente come HP Helion (OpenStack) Cloud, con un Windows Server 2022/2019/2016 che si connette allo storage OpenStack Swift."
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "In questo scenario di distribuzione, si dispiegherebbe la soluzione CentreStack in un ambiente di cloud privato virtuale come Amazon EC2. CentreStack è disponibile anche sotto forma di immagine AMI per facilitare la creazione di istanze EC2. In questo scenario di distribuzione, la connessione tipica allo storage primario è allo storage Amazon S3. È possibile anche configurare la soluzione CentreStack in un ambiente come HP Helion (OpenStack) Cloud, con un Windows Server 2025/2022/2019 che si connette allo storage OpenStack Swift."
 
 #: ../../index.rst:544
 msgid "Multi-Site Deployment"

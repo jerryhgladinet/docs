@@ -85,7 +85,7 @@ msgid "The quickest option is to log in to the partner portal and create a free 
 msgstr ""
 
 #: ../../faq.rst:37
-msgid "However, for full evaluation, we recommend installing CentreStack directly using the 30-day free trial. Just prepare a clean Windows Server (2025, 2022, 2019, or 2016), download the 7MB installer, and within 20 minutes, CentreStack will be up and running."
+msgid "However, for full evaluation, we recommend installing CentreStack directly using the 30-day free trial. Just prepare a clean Windows Server (2025, 2022, or 2019), download the 7MB installer, and within 20 minutes, CentreStack will be up and running."
 msgstr ""
 
 #: ../../faq.rst:39
@@ -105,7 +105,7 @@ msgid "What server operating systems can be used to install CentreStack?"
 msgstr ""
 
 #: ../../faq.rst:47
-msgid "We recommend Windows Server 2025, 2022, 2019 or 2016."
+msgid "We recommend Windows Server 2025, 2022, or 2019."
 msgstr ""
 
 #: ../../faq.rst:50
@@ -113,7 +113,7 @@ msgid "Where can I deploy CentreStack?"
 msgstr ""
 
 #: ../../faq.rst:51
-msgid "You can deploy CentreStack wherever Windows Server is supported (Windows Server 2025, 2022, 2019 or 2016). We recommend using a virtual machine environment to simplify upgrades and enable multi-node scaling. Most customers install CentreStack within their own data centers, often in VMware environments."
+msgid "You can deploy CentreStack wherever Windows Server is supported (Windows Server 2025, 2022, or 2019). We recommend using a virtual machine environment to simplify upgrades and enable multi-node scaling. Most customers install CentreStack within their own data centers, often in VMware environments."
 msgstr ""
 
 #: ../../faq.rst:54

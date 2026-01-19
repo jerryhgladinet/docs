@@ -34,7 +34,7 @@ remote client agents to backend file servers. Here are a list of items to prepar
 
     1. A dedicated Windows Server machine: 
 
-        - Operating System (2025 / 2022 / 2019 / 2016)
+        - Operating System (2025 / 2022 / 2019)
         - 8G memory
         - Dual core or more cores (vCPU or CPU)
         - 100G hard drive space.

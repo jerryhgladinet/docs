@@ -29,7 +29,7 @@ The CentreStack server is a web server, passing file and folder access between
 remote client agents to backend file servers. Here is a list of items to prepare ahead of time.
 
     1. a dedicated Windows Server machine: 
-        - Operating System (2022 / 2019 / 2016)
+        - Operating System (2025 / 2022 / 2019)
         - 8G memory
         - Dual core or more cores (vCPU or CPU)
         - 100G hard drive space.

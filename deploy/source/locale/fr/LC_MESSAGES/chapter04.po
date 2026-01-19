@@ -55,23 +55,23 @@ msgid "The base operating system can be either:"
 msgstr "Le système d'exploitation de base peut être soit :"
 
 #: ../../chapter04.rst:14
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../chapter04.rst:15
 msgid "Windows Server 2022"
 msgstr "Windows Server 2022"
 
-#: ../../chapter04.rst:15
+#: ../../chapter04.rst:16
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../chapter04.rst:16
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
 #: ../../chapter04.rst:18
 msgid ""
-"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"We recommend Windows Server 2025/2022/2019 since .Net Framework 4.5+ "
 "comes directly with these newer server OS platforms. It is easier and "
-"faster to install CentreStack software on Windows Server 2022/2019/2016."
-msgstr "Nous recommandons Windows Server 2022/2019/2016 car .Net Framework 4.5+ est directement inclus avec ces plateformes de serveur OS plus récentes. Il est plus facile et plus rapide d'installer le logiciel CentreStack sur Windows Server 2022/2019/2016."
+"faster to install CentreStack software on Windows Server 2025/2022/2019."
+msgstr "Nous recommandons Windows Server 2025/2022/2019 car .Net Framework 4.5+ est directement inclus avec ces plateformes de serveur OS plus récentes. Il est plus facile et plus rapide d'installer le logiciel CentreStack sur Windows Server 2025/2022/2019."
 
 #: ../../chapter04.rst:23
 msgid ""
@@ -87,8 +87,8 @@ msgid ""
 msgstr "Il n'est pas nécessaire de préparer la machine au-delà de l'état propre du logiciel de système d'exploitation de base."
 
 #: ../../chapter04.rst:29
-msgid "Windows Server 2022, 2019, 2016"
-msgstr "Windows Server 2022, 2019, 2016"
+msgid "Windows Server 2025, 2022, 2019"
+msgstr "Windows Server 2025, 2022, 2019"
 
 #: ../../chapter04.rst:31
 msgid ""
@@ -225,8 +225,8 @@ msgid "Operating System"
 msgstr "Système d'exploitation"
 
 #: ../../chapter04.rst:101
-msgid "Windows 2022, Windows 2019, Windows 2016"
-msgstr "Windows 2022, Windows 2019, Windows 2016"
+msgid "Windows Server 2025, Windows Server 2022, Windows Server 2019"
+msgstr "Windows Server 2025, Windows Server 2022, Windows Server 2019"
 
 #: ../../chapter04.rst
 msgid "CPU"
@@ -326,7 +326,7 @@ msgstr "Notre recommandation est d'avoir votre propre dispositif de répartition
 msgid ""
 "If you have a hardware load balancer such as F5, you can skip web nodes, "
 "and have F5 directly load balance to a farm of worker nodes. You can also"
-" use the Network Load Balancing feature which is included in Windows "
-"2022/2019/2016 for load balancing."
-msgstr "Si vous disposez d'un équilibreur de charge matériel tel que F5, vous pouvez ignorer les nœuds web et faire en sorte que F5 équilibre directement la charge vers un groupe de nœuds de travail. Vous pouvez également utiliser la fonctionnalité de répartition de charge réseau incluse dans Windows 2022/2019/2016 pour l'équilibrage de charge."
+" use the Network Load Balancing feature which is included in Windows Server "
+"2025/2022/2019 for load balancing."
+msgstr "Si vous disposez d'un équilibreur de charge matériel tel que F5, vous pouvez ignorer les nœuds web et faire en sorte que F5 équilibre directement la charge vers un groupe de nœuds de travail. Vous pouvez également utiliser la fonctionnalité de répartition de charge réseau incluse dans Windows Server 2025/2022/2019 pour l'équilibrage de charge."
 

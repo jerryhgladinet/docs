@@ -44,16 +44,16 @@ msgid "Server OS"
 msgstr "サーバーOS"
 
 #: ../../chapter02.rst:17
-msgid "Windows 2022"
-msgstr "Windows 2022"
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
 
 #: ../../chapter02.rst:18
-msgid "Windows 2019"
-msgstr "Windows 2019"
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
 
 #: ../../chapter02.rst:19
-msgid "Windows 2016"
-msgstr "Windows 2016"
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
 
 #: ../../chapter02.rst:21
 msgid "Client OS"
@@ -90,15 +90,15 @@ msgstr "2.2 準備"
 #: ../../chapter02.rst:35
 msgid ""
 "File Server Agent depends on .NET framework 2.0 or later. If you are "
-"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"installing the file Server Agent on Windows Server 2025/2022/2019, you "
 "need to prepare the .NET environment. This usually can be done from the "
 "Windows Server Manager > Manage Roles and Features and then in the "
 "features section, select .NET Framework 3.5"
-msgstr "ファイルサーバーエージェントは、.NET Framework 2.0以降に依存しています。Windows Server 2022/2019/2016にファイルサーバーエージェントをインストールする場合、.NET環境を準備する必要があります。これは通常、Windowsサーバーマネージャー > 役割と機能の管理から行い、機能セクションで.NET Framework 3.5を選択することで行えます"
+msgstr "ファイルサーバーエージェントは、.NET Framework 2.0以降に依存しています。Windows Server 2025/2022/2019にファイルサーバーエージェントをインストールする場合、.NET環境を準備する必要があります。これは通常、Windowsサーバーマネージャー > 役割と機能の管理から行い、機能セクションで.NET Framework 3.5を選択することで行えます"
 
 #: ../../chapter02.rst:40
-msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
-msgstr "WINDOWS SERVER 2016 .NET フレームワーク機能"
+msgid ".NET FRAMEWORK FEATURE"
+msgstr ".NET フレームワーク機能"
 
 #: ../../chapter02.rst:43
 msgid ""

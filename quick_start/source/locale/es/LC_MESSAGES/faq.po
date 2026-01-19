@@ -124,9 +124,9 @@ msgstr "La opción más rápida es iniciar sesión en el portal de socios y crea
 msgid ""
 "However, for full evaluation, we recommend installing CentreStack "
 "directly using the 30-day free trial. Just prepare a clean Windows Server"
-" (2025, 2022, 2019, or 2016), download the 7MB installer, and within 20 "
+" (2025, 2022, or 2019), download the 7MB installer, and within 20 "
 "minutes, CentreStack will be up and running."
-msgstr "Sin embargo, para una evaluación completa, recomendamos instalar CentreStack directamente utilizando la prueba gratuita de 30 días. Solo prepare un Windows Server limpio (2025, 2022, 2019 o 2016), descargue el instalador de 7MB y en aproximadamente 20 minutos, CentreStack estará funcionando."
+msgstr "Sin embargo, para una evaluación completa, recomendamos instalar CentreStack directamente utilizando la prueba gratuita de 30 días. Solo prepare un Windows Server limpio (2025, 2022, o 2019), descargue el instalador de 7MB y en aproximadamente 20 minutos, CentreStack estará funcionando."
 
 #: ../../faq.rst:39
 msgid ""
@@ -152,8 +152,8 @@ msgid "What server operating systems can be used to install CentreStack?"
 msgstr "¿Qué sistemas operativos de servidor se pueden utilizar para instalar CentreStack?"
 
 #: ../../faq.rst:47
-msgid "We recommend Windows Server 2025, 2022, 2019 or 2016."
-msgstr "Recomendamos Windows Server 2025, 2022, 2019 o 2016."
+msgid "We recommend Windows Server 2025, 2022, or 2019."
+msgstr "Recomendamos Windows Server 2025, 2022, o 2019."
 
 #: ../../faq.rst:50
 msgid "Where can I deploy CentreStack?"
@@ -162,11 +162,11 @@ msgstr "¿Dónde puedo implementar CentreStack?"
 #: ../../faq.rst:51
 msgid ""
 "You can deploy CentreStack wherever Windows Server is supported (Windows "
-"Server 2025, 2022, 2019 or 2016). We recommend using a virtual machine "
+"Server 2025, 2022, or 2019). We recommend using a virtual machine "
 "environment to simplify upgrades and enable multi-node scaling. Most "
 "customers install CentreStack within their own data centers, often in "
 "VMware environments."
-msgstr "Puede implementar CentreStack donde sea que se admita Windows Server (Windows Server 2025, 2022, 2019 o 2016). Recomendamos utilizar un entorno de máquina virtual para simplificar las actualizaciones y habilitar el escalado multinodo. La mayoría de los clientes instalan CentreStack dentro de sus propios centros de datos, a menudo en entornos VMware."
+msgstr "Puede implementar CentreStack donde sea que se admita Windows Server (Windows Server 2025, 2022, o 2019). Recomendamos utilizar un entorno de máquina virtual para simplificar las actualizaciones y habilitar el escalado multinodo. La mayoría de los clientes instalan CentreStack dentro de sus propios centros de datos, a menudo en entornos VMware."
 
 #: ../../faq.rst:54
 msgid "How scalable is CentreStack?"

@@ -30,10 +30,10 @@ msgstr "Privato On-premise"
 
 #: ../../chapter07.rst:7
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "È possibile preparare un server Windows Server 2022/2019/2016 e installare CentreStack. In questo scenario, di solito Active Directory si trova nello stesso sito e lo storage primario proviene da server di file o storage NAS."
+msgstr "È possibile preparare un server Windows Server 2025/2022/2019 e installare CentreStack. In questo scenario, di solito Active Directory si trova nello stesso sito e lo storage primario proviene da server di file o storage NAS."
 
 #: ../../chapter07.rst:10
 msgid ""
@@ -90,8 +90,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "In questo scenario di distribuzione, si dispiegherebbe la soluzione CentreStack in un ambiente di cloud privato virtuale come Amazon EC2. CentreStack è disponibile anche sotto forma di immagine AMI per facilitare la creazione di istanze EC2. In questo scenario di distribuzione, la connessione tipica allo storage primario è allo storage Amazon S3. È possibile anche configurare la soluzione CentreStack in un ambiente come HP Helion (OpenStack) Cloud, con un Windows Server 2022/2019/2016 che si connette allo storage OpenStack Swift."
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "In questo scenario di distribuzione, si dispiegherebbe la soluzione CentreStack in un ambiente di cloud privato virtuale come Amazon EC2. CentreStack è disponibile anche sotto forma di immagine AMI per facilitare la creazione di istanze EC2. In questo scenario di distribuzione, la connessione tipica allo storage primario è allo storage Amazon S3. È possibile anche configurare la soluzione CentreStack in un ambiente come HP Helion (OpenStack) Cloud, con un Windows Server 2025/2022/2019 che si connette allo storage OpenStack Swift."
 
 #: ../../chapter07.rst:48
 msgid "Multi-Site Deployment"

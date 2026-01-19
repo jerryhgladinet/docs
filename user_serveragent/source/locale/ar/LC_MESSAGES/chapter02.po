@@ -45,16 +45,16 @@ msgid "Server OS"
 msgstr "نظام التشغيل الخادم"
 
 #: ../../chapter02.rst:17
-msgid "Windows 2022"
-msgstr "ويندوز 2022"
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
 
 #: ../../chapter02.rst:18
-msgid "Windows 2019"
-msgstr "ويندوز 2019"
+msgid "Windows Server 2022"
+msgstr "Windows Server 2022"
 
 #: ../../chapter02.rst:19
-msgid "Windows 2016"
-msgstr "ويندوز 2016"
+msgid "Windows Server 2019"
+msgstr "Windows Server 2019"
 
 #: ../../chapter02.rst:21
 msgid "Client OS"
@@ -91,15 +91,15 @@ msgstr "2.2 التحضير"
 #: ../../chapter02.rst:35
 msgid ""
 "File Server Agent depends on .NET framework 2.0 or later. If you are "
-"installing the file Server Agent on Windows Server 2022/2019/2016, you "
+"installing the file Server Agent on Windows Server 2025/2022/2019, you "
 "need to prepare the .NET environment. This usually can be done from the "
 "Windows Server Manager > Manage Roles and Features and then in the "
 "features section, select .NET Framework 3.5"
-msgstr "يعتمد وكيل خادم الملفات على إطار عمل .NET الإصدار 2.0 أو الأحدث. إذا كنت تقوم بتثبيت وكيل خادم الملفات على Windows Server 2022/2019/2016، فأنت بحاجة إلى تجهيز بيئة .NET. عادةً ما يمكن إنجاز ذلك من خلال Windows Server Manager > Manage Roles and Features ثم في قسم الميزات، اختر .NET Framework 3.5"
+msgstr "يعتمد وكيل خادم الملفات على إطار عمل .NET الإصدار 2.0 أو الأحدث. إذا كنت تقوم بتثبيت وكيل خادم الملفات على Windows Server 2025/2022/2019، فأنت بحاجة إلى تجهيز بيئة .NET. عادةً ما يمكن إنجاز ذلك من خلال Windows Server Manager > Manage Roles and Features ثم في قسم الميزات، اختر .NET Framework 3.5"
 
 #: ../../chapter02.rst:40
-msgid "WINDOWS SERVER 2016 .NET FRAMEWORK FEATURE"
-msgstr "ميزة إطار عمل .NET لويندوز سيرفر 2016"
+msgid ".NET FRAMEWORK FEATURE"
+msgstr "ميزة إطار عمل .NET"
 
 #: ../../chapter02.rst:43
 msgid ""

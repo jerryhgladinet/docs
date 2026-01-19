@@ -60,12 +60,12 @@ msgstr "نظام التشغيل - ويندوز XP، فيستا، 7/8/8.1/10"
 
 #: ../../index.rst:22
 msgid ""
-"Normally on windows server type machine such as 2025/2022/2019/2016, use "
+"Normally on Windows Server type machine such as 2025/2022/2019, use "
 "server agent instead of client agent. However, the client agent can run "
 "as desktop application on Windows Server OS as well.  For example, if you"
 " plan to have the desktop agent run in a terminal server environment, you"
 " need to install desktop agent instead of server agent."
-msgstr "عادةً على أجهزة الخادم من نوع ويندوز مثل 2025/2022/2019/2016، استخدم وكيل الخادم بدلاً من وكيل العميل. ومع ذلك، يمكن أيضًا تشغيل وكيل العميل كتطبيق سطح مكتب على نظام التشغيل ويندوز سيرفر. على سبيل المثال، إذا كنت تخطط لتشغيل وكيل سطح المكتب في بيئة خادم طرفية، فأنت بحاجة إلى تثبيت وكيل سطح المكتب بدلاً من وكيل الخادم."
+msgstr "عادةً على أجهزة الخادم من نوع ويندوز مثل 2025/2022/2019، استخدم وكيل الخادم بدلاً من وكيل العميل. ومع ذلك، يمكن أيضًا تشغيل وكيل العميل كتطبيق سطح مكتب على نظام التشغيل ويندوز سيرفر. على سبيل المثال، إذا كنت تخطط لتشغيل وكيل سطح المكتب في بيئة خادم طرفية، فأنت بحاجة إلى تثبيت وكيل سطح المكتب بدلاً من وكيل الخادم."
 
 #: ../../index.rst:24
 msgid "Hard Drive - 100MB"

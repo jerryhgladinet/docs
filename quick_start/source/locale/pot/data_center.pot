@@ -77,7 +77,7 @@ msgid "A dedicated Windows Server machine:"
 msgstr ""
 
 #: ../../data_center.rst:37
-msgid "Operating System (2025 / 2022 / 2019 / 2016)"
+msgid "Operating System (2025 / 2022 / 2019)"
 msgstr ""
 
 #: ../../data_center.rst:38

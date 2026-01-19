@@ -31,10 +31,10 @@ msgstr "خاص داخل المؤسسة"
 
 #: ../../chapter07.rst:7
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "يمكنك تجهيز خادم ويندوز سيرفر 2022/2019/2016 وتثبيت CentreStack. في هذا السيناريو، يكون دليل التفعيل عادة في نفس الموقع والتخزين الأساسي يأتي من خادم الملفات أو التخزين المتصل بالشبكة (NAS)."
+msgstr "يمكنك تجهيز خادم ويندوز سيرفر 2025/2022/2019 وتثبيت CentreStack. في هذا السيناريو، يكون دليل التفعيل عادة في نفس الموقع والتخزين الأساسي يأتي من خادم الملفات أو التخزين المتصل بالشبكة (NAS)."
 
 #: ../../chapter07.rst:10
 msgid ""
@@ -91,8 +91,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "في سيناريو التوزيع هذا، ستقوم بنشر حل CentreStack في بيئة السحابة الخاصة الافتراضية مثل Amazon EC2. CentreStack متوفر أيضًا على شكل صورة AMI لتسهيل إنشاء نماذج EC2. في سيناريو التوزيع هذا، الاتصال الأساسي النموذجي بالتخزين هو إلى تخزين Amazon S3. يمكنك أيضًا إعداد حل CentreStack في بيئة مثل سحابة HP Helion (OpenStack)، مع خادم Windows Server 2022/2019/2016 يتصل بتخزين OpenStack Swift."
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "في سيناريو التوزيع هذا، ستقوم بنشر حل CentreStack في بيئة السحابة الخاصة الافتراضية مثل Amazon EC2. CentreStack متوفر أيضًا على شكل صورة AMI لتسهيل إنشاء نماذج EC2. في سيناريو التوزيع هذا، الاتصال الأساسي النموذجي بالتخزين هو إلى تخزين Amazon S3. يمكنك أيضًا إعداد حل CentreStack في بيئة مثل سحابة HP Helion (OpenStack)، مع خادم Windows Server 2025/2022/2019 يتصل بتخزين OpenStack Swift."
 
 #: ../../chapter07.rst:48
 msgid "Multi-Site Deployment"

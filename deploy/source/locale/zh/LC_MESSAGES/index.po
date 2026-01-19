@@ -525,23 +525,23 @@ msgid "The base operating system can be either:"
 msgstr "基础操作系统可以是："
 
 #: ../../index.rst:260
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../index.rst:261
 msgid "Windows Server 2022"
 msgstr "Windows Server 2022"
 
-#: ../../index.rst:261
+#: ../../index.rst:262
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../index.rst:262
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
 #: ../../index.rst:264
 msgid ""
-"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"We recommend Windows Server 2025/2022/2019 since .Net Framework 4.5+ "
 "comes directly with these newer server OS platforms. It is easier and "
-"faster to install CentreStack software on Windows Server 2022/2019/2016."
-msgstr "我们推荐使用Windows Server 2022/2019/2016，因为.Net Framework 4.5+ 直接随这些新版服务器操作系统提供。在Windows Server 2022/2019/2016上安装CentreStack软件更加容易和快捷。"
+"faster to install CentreStack software on Windows Server 2025/2022/2019."
+msgstr "我们推荐使用Windows Server 2025/2022/2019，因为.Net Framework 4.5+ 直接随这些新版服务器操作系统提供。在Windows Server 2025/2022/2019上安装CentreStack软件更加容易和快捷。"
 
 #: ../../index.rst:269
 msgid ""
@@ -557,8 +557,8 @@ msgid ""
 msgstr "无需对机器进行任何准备，只需保持基本操作系统软件的干净状态即可。"
 
 #: ../../index.rst:275
-msgid "Windows Server 2022, 2019, 2016"
-msgstr "Windows Server 2022、2019、2016"
+msgid "Windows Server 2025, 2022, 2019"
+msgstr "Windows Server 2025、2022、2019"
 
 #: ../../index.rst:277
 msgid ""
@@ -695,8 +695,8 @@ msgid "Operating System"
 msgstr "操作系统"
 
 #: ../../index.rst:347
-msgid "Windows 2022, Windows 2019, Windows 2016"
-msgstr "Windows 2022、Windows 2019、Windows 2016"
+msgid "Windows Server 2025, Windows Server 2022, Windows Server 2019"
+msgstr "Windows Server 2025、Windows Server 2022、Windows Server 2019"
 
 #: ../../index.rst
 msgid "CPU"
@@ -796,9 +796,9 @@ msgstr "我们建议您如果可能的话，使用自己的负载均衡设备。
 msgid ""
 "If you have a hardware load balancer such as F5, you can skip web nodes, "
 "and have F5 directly load balance to a farm of worker nodes. You can also"
-" use the Network Load Balancing feature which is included in Windows "
-"2022/2019/2016 for load balancing."
-msgstr "如果您有硬件负载均衡器，比如F5，您可以跳过Web节点，直接使用F5对一组工作节点进行负载均衡。您也可以使用包含在Windows 2022/2019/2016中的网络负载均衡功能进行负载均衡。"
+" use the Network Load Balancing feature which is included in Windows Server "
+"2025/2022/2019 for load balancing."
+msgstr "如果您有硬件负载均衡器，比如F5，您可以跳过Web节点，直接使用F5对一组工作节点进行负载均衡。您也可以使用包含在Windows Server 2025/2022/2019中的网络负载均衡功能进行负载均衡。"
 
 #: ../../index.rst:401
 msgid "Active Directory Integration"
@@ -984,10 +984,10 @@ msgstr "私有本地部署"
 
 #: ../../index.rst:503
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "您可以准备一台Windows Server 2022/2019/2016，并安装CentreStack。在这种情况下，Active Directory通常位于同一站点，主存储来自文件服务器或NAS存储。"
+msgstr "您可以准备一台Windows Server 2025/2022/2019，并安装CentreStack。在这种情况下，Active Directory通常位于同一站点，主存储来自文件服务器或NAS存储。"
 
 #: ../../index.rst:506
 msgid ""
@@ -1044,8 +1044,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "在这种部署场景中，您将在如亚马逊EC2这样的虚拟私有云环境中部署CentreStack解决方案。CentreStack也以AMI镜像的形式提供，以便于创建EC2实例。在这种部署场景中，典型的主存储连接是到亚马逊S3存储。您也可以在类似HP Helion（OpenStack）云的环境中设置CentreStack解决方案，使用Windows Server 2022/2019/2016连接到OpenStack Swift存储。"
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "在这种部署场景中，您将在如亚马逊EC2这样的虚拟私有云环境中部署CentreStack解决方案。CentreStack也以AMI镜像的形式提供，以便于创建EC2实例。在这种部署场景中，典型的主存储连接是到亚马逊S3存储。您也可以在类似HP Helion（OpenStack）云的环境中设置CentreStack解决方案，使用Windows Server 2025/2022/2019连接到OpenStack Swift存储。"
 
 #: ../../index.rst:544
 msgid "Multi-Site Deployment"

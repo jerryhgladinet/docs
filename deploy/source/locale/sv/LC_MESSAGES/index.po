@@ -525,23 +525,23 @@ msgid "The base operating system can be either:"
 msgstr "Basoperativsystemet kan vara något av följande:"
 
 #: ../../index.rst:260
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../index.rst:261
 msgid "Windows Server 2022"
 msgstr "Windows Server 2022"
 
-#: ../../index.rst:261
+#: ../../index.rst:262
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../index.rst:262
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
 #: ../../index.rst:264
 msgid ""
-"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"We recommend Windows Server 2025/2022/2019 since .Net Framework 4.5+ "
 "comes directly with these newer server OS platforms. It is easier and "
-"faster to install CentreStack software on Windows Server 2022/2019/2016."
-msgstr "Vi rekommenderar Windows Server 2022/2019/2016 eftersom .Net Framework 4.5+ kommer direkt med dessa nyare server OS-plattformar. Det är enklare och snabbare att installera CentreStack-programvara på Windows Server 2022/2019/2016."
+"faster to install CentreStack software on Windows Server 2025/2022/2019."
+msgstr "Vi rekommenderar Windows Server 2025/2022/2019 eftersom .Net Framework 4.5+ kommer direkt med dessa nyare server OS-plattformar. Det är enklare och snabbare att installera CentreStack-programvara på Windows Server 2025/2022/2019."
 
 #: ../../index.rst:269
 msgid ""
@@ -557,8 +557,8 @@ msgid ""
 msgstr "Det finns inget behov av att förbereda maskinen utöver det rena tillståndet hos den grundläggande operativsystemsmjukvaran."
 
 #: ../../index.rst:275
-msgid "Windows Server 2022, 2019, 2016"
-msgstr "Windows Server 2022, 2019, 2016"
+msgid "Windows Server 2025, 2022, 2019"
+msgstr "Windows Server 2025, 2022, 2019"
 
 #: ../../index.rst:277
 msgid ""
@@ -695,8 +695,8 @@ msgid "Operating System"
 msgstr "Operativsystem"
 
 #: ../../index.rst:347
-msgid "Windows 2022, Windows 2019, Windows 2016"
-msgstr "Windows 2022, Windows 2019, Windows 2016"
+msgid "Windows Server 2025, Windows Server 2022, Windows Server 2019"
+msgstr "Windows Server 2025, Windows Server 2022, Windows Server 2019"
 
 #: ../../index.rst
 msgid "CPU"
@@ -796,9 +796,9 @@ msgstr "Vår rekommendation är att ha en egen lastbalanseringsenhet om möjligt
 msgid ""
 "If you have a hardware load balancer such as F5, you can skip web nodes, "
 "and have F5 directly load balance to a farm of worker nodes. You can also"
-" use the Network Load Balancing feature which is included in Windows "
-"2022/2019/2016 for load balancing."
-msgstr "Om du har en hårdvarulastbalanserare som F5 kan du hoppa över webbnoder och låta F5 direkt lastbalansera till en grupp av arbetsnoder. Du kan också använda funktionen för nätverkslastbalansering som ingår i Windows 2022/2019/2016 för lastbalansering."
+" use the Network Load Balancing feature which is included in Windows Server "
+"2025/2022/2019 for load balancing."
+msgstr "Om du har en hårdvarulastbalanserare som F5 kan du hoppa över webbnoder och låta F5 direkt lastbalansera till en grupp av arbetsnoder. Du kan också använda funktionen för nätverkslastbalansering som ingår i Windows Server 2025/2022/2019 för lastbalansering."
 
 #: ../../index.rst:401
 msgid "Active Directory Integration"
@@ -984,10 +984,10 @@ msgstr "Privat På-plats"
 
 #: ../../index.rst:503
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "Du kan förbereda en Windows Server 2022/2019/2016 och installera CentreStack. I detta scenario är Active Directory vanligtvis på samma plats och primär lagring kommer från filserver eller NAS-lagring."
+msgstr "Du kan förbereda en Windows Server 2025/2022/2019 och installera CentreStack. I detta scenario är Active Directory vanligtvis på samma plats och primär lagring kommer från filserver eller NAS-lagring."
 
 #: ../../index.rst:506
 msgid ""
@@ -1044,8 +1044,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "I detta distributionscenario skulle du distribuera CentreStack-lösningen i en virtuell privat molnmiljö som Amazon EC2. CentreStack finns också tillgänglig i form av AMI-bild för att underlätta skapandet av EC2-instanser. I detta distributionsscenario är den typiska primära lagringsanslutningen till Amazon S3-lagring. Du kan också ställa in CentreStack-lösningen i en miljö som HP Helion (OpenStack) Cloud, med en Windows Server 2022/2019/2016 som ansluter till OpenStack Swift-lagring."
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "I detta distributionscenario skulle du distribuera CentreStack-lösningen i en virtuell privat molnmiljö som Amazon EC2. CentreStack finns också tillgänglig i form av AMI-bild för att underlätta skapandet av EC2-instanser. I detta distributionsscenario är den typiska primära lagringsanslutningen till Amazon S3-lagring. Du kan också ställa in CentreStack-lösningen i en miljö som HP Helion (OpenStack) Cloud, med en Windows Server 2025/2022/2019 som ansluter till OpenStack Swift-lagring."
 
 #: ../../index.rst:544
 msgid "Multi-Site Deployment"

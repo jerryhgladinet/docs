@@ -28,11 +28,11 @@ msgstr "Installatie"
 msgid ""
 "If this is the very first time you are installing |prodname| server, it "
 "is recommended that you do the all-in-one installation by preparing a "
-"clean Windows 2025/2022/2019/2016 virtual machine and installing with all"
+"clean Windows 2025/2022/2019 virtual machine and installing with all"
 " the default parameters. The All-in-one deployment is the smallest fully "
 "functional setup and can be used for production environment with < 1000 "
 "users."
-msgstr "Als dit de allereerste keer is dat u de |prodname| server installeert, wordt aanbevolen dat u de all-in-one installatie uitvoert door een schone Windows 2025/2022/2019/2016 virtuele machine voor te bereiden en te installeren met alle standaardparameters. De All-in-one implementatie is de kleinste volledig functionele opstelling en kan worden gebruikt voor productieomgeving met < 1000 gebruikers."
+msgstr "Als dit de allereerste keer is dat u de |prodname| server installeert, wordt aanbevolen dat u de all-in-one installatie uitvoert door een schone Windows 2025/2022/2019 virtuele machine voor te bereiden en te installeren met alle standaardparameters. De All-in-one implementatie is de kleinste volledig functionele opstelling en kan worden gebruikt voor productieomgeving met < 1000 gebruikers."
 
 #: ../../chapter02.rst:11
 msgid "Step 1: Prepare the File Storage"
@@ -269,15 +269,15 @@ msgstr "Stap 4: Bereid de |prodname| Server voor"
 #: ../../chapter02.rst:97
 msgid ""
 "The easiest way to prepare the |prodname| server is to have a clean "
-"Windows Server 2025/2022/2019/2016 OS with English locale and make sure "
+"Windows Server 2025/2022/2019 OS with English locale and make sure "
 "the worker nodes are all in the same time zone."
-msgstr "De eenvoudigste manier om de |prodname| server voor te bereiden is door te zorgen voor een schone Windows Server 2025/2022/2019/2016 OS met Engelse locale en ervoor te zorgen dat de werk nodes zich allemaal in dezelfde tijdzone bevinden."
+msgstr "De eenvoudigste manier om de |prodname| server voor te bereiden is door te zorgen voor een schone Windows Server 2025/2022/2019 OS met Engelse locale en ervoor te zorgen dat de werk nodes zich allemaal in dezelfde tijdzone bevinden."
 
 #: ../../chapter02.rst:99
 msgid ""
-"We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a "
+"We recommend Windows server 2025, 2022, or 2019 as a "
 "preferred server OS running on a virtual machine."
-msgstr "We raden Windows Server 2025, 2022, 2019 of Windows Server 2016 aan als het voorkeursserverbesturingssysteem dat op een virtuele machine draait."
+msgstr "Wij raden Windows Server 2025, 2022 of 2019 aan als het meest geschikte serverbesturingssysteem voor gebruik op een virtuele machine."
 
 #: ../../chapter02.rst:105
 msgid "**Supported Operating Systems**"
@@ -295,11 +295,7 @@ msgstr "Windows Server 2022"
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../chapter02.rst:105
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
-#: ../../chapter02.rst:109
+#: ../../chapter02.rst:107
 msgid "**Supported CPU**"
 msgstr "**Ondersteunde CPU**"
 
@@ -311,7 +307,7 @@ msgstr "64-bit Intel of AMD x64-architectuur"
 msgid "2 - virtual CPUs minimum (4 - virtual CPUs or more are recommended)"
 msgstr "2 - virtuele CPU's minimum (4 - virtuele CPU's of meer worden aanbevolen)"
 
-#: ../../chapter02.rst:112
+#: ../../chapter02.rst:111
 msgid "**Memory**"
 msgstr "**Geheugen**"
 

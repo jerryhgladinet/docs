@@ -30,10 +30,10 @@ msgstr "Yksityinen paikan päällä"
 
 #: ../../chapter07.rst:7
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "Voit valmistella Windows Server 2022/2019/2016 -palvelimen ja asentaa CentreStackin. Tässä skenaariossa Active Directory on tyypillisesti samalla sivustolla ja ensisijainen tallennustila tulee tiedostopalvelimelta tai NAS-tallennuslaitteelta."
+msgstr "Voit valmistella Windows Server 2025/2022/2019 -palvelimen ja asentaa CentreStackin. Tässä skenaariossa Active Directory on tyypillisesti samalla sivustolla ja ensisijainen tallennustila tulee tiedostopalvelimelta tai NAS-tallennuslaitteelta."
 
 #: ../../chapter07.rst:10
 msgid ""
@@ -90,8 +90,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "Tässä käyttöönoton skenaariossa asennat CentreStack-ratkaisun virtuaaliseen yksityispilviympäristöön, kuten Amazon EC2:een. CentreStack on saatavilla myös AMI-kuvan muodossa, jotta EC2-instanssien luominen olisi helpompaa. Tässä skenaariossa tyypillinen ensisijainen tallennusyhteys on Amazon S3 -tallennukseen. Voit myös asentaa CentreStack-ratkaisun ympäristöön kuten HP Helion (OpenStack) Cloudiin, jossa on Windows Server 2022/2019/2016 yhdistettynä OpenStack Swift -tallennukseen."
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "Tässä käyttöönoton skenaariossa asennat CentreStack-ratkaisun virtuaaliseen yksityispilviympäristöön, kuten Amazon EC2:een. CentreStack on saatavilla myös AMI-kuvan muodossa, jotta EC2-instanssien luominen olisi helpompaa. Tässä skenaariossa tyypillinen ensisijainen tallennusyhteys on Amazon S3 -tallennukseen. Voit myös asentaa CentreStack-ratkaisun ympäristöön kuten HP Helion (OpenStack) Cloudiin, jossa on Windows Server 2025/2022/2019 yhdistettynä OpenStack Swift -tallennukseen."
 
 #: ../../chapter07.rst:48
 msgid "Multi-Site Deployment"

@@ -21,7 +21,7 @@ msgid "Installation"
 msgstr ""
 
 #: ../chapter02.rst:7
-msgid "If this is the very first time you are installing |prodname| server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2025/2022/2019/2016 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users."
+msgid "If this is the very first time you are installing |prodname| server, it is recommended that you do the all-in-one installation by preparing a clean Windows 2025/2022/2019 virtual machine and installing with all the default parameters. The All-in-one deployment is the smallest fully functional setup and can be used for production environment with < 1000 users."
 msgstr ""
 
 #: ../chapter02.rst:11
@@ -173,11 +173,11 @@ msgid "Step 4: Prepare the |prodname| Server"
 msgstr ""
 
 #: ../chapter02.rst:97
-msgid "The easiest way to prepare the |prodname| server is to have a clean Windows Server 2025/2022/2019/2016 OS with English locale and make sure the worker nodes are all in the same time zone."
+msgid "The easiest way to prepare the |prodname| server is to have a clean Windows Server 2025/2022/2019 OS with English locale and make sure the worker nodes are all in the same time zone."
 msgstr ""
 
 #: ../chapter02.rst:99
-msgid "We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a preferred server OS running on a virtual machine."
+msgid "We recommend Windows server 2025, 2022, or 2019 as a preferred server OS running on a virtual machine."
 msgstr ""
 
 #: ../chapter02.rst:105
@@ -196,11 +196,7 @@ msgstr ""
 msgid "Windows Server 2019"
 msgstr ""
 
-#: ../chapter02.rst:105
-msgid "Windows Server 2016"
-msgstr ""
-
-#: ../chapter02.rst:109
+#: ../chapter02.rst:107
 msgid "**Supported CPU**"
 msgstr ""
 
@@ -212,7 +208,7 @@ msgstr ""
 msgid "2 - virtual CPUs minimum (4 - virtual CPUs or more are recommended)"
 msgstr ""
 
-#: ../chapter02.rst:112
+#: ../chapter02.rst:111
 msgid "**Memory**"
 msgstr ""
 

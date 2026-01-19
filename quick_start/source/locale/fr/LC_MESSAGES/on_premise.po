@@ -73,8 +73,8 @@ msgid "a dedicated Windows Server machine:"
 msgstr "une machine dédiée Windows Server :"
 
 #: ../../on_premise.rst:32
-msgid "Operating System (2022 / 2019 / 2016)"
-msgstr "Système d'exploitation (2022 / 2019 / 2016)"
+msgid "Operating System (2025 / 2022 / 2019)"
+msgstr "Système d'exploitation (2025 / 2022 / 2019)"
 
 #: ../../on_premise.rst:33
 msgid "8G memory"

@@ -59,12 +59,12 @@ msgstr "操作系统 - Windows XP、Vista、7/8/8.1/10"
 
 #: ../../index.rst:22
 msgid ""
-"Normally on windows server type machine such as 2025/2022/2019/2016, use "
+"Normally on Windows Server type machine such as 2025/2022/2019, use "
 "server agent instead of client agent. However, the client agent can run "
 "as desktop application on Windows Server OS as well.  For example, if you"
 " plan to have the desktop agent run in a terminal server environment, you"
 " need to install desktop agent instead of server agent."
-msgstr "通常在如2025/2022/2019/2016这类Windows服务器类型的机器上，使用服务器代理而不是客户端代理。然而，客户端代理也可以作为桌面应用程序在Windows Server操作系统上运行。例如，如果您计划在终端服务器环境中运行桌面代理，您需要安装桌面代理而不是服务器代理。"
+msgstr "通常在如2025/2022/2019这类Windows服务器类型的机器上，使用服务器代理而不是客户端代理。然而，客户端代理也可以作为桌面应用程序在Windows Server操作系统上运行。例如，如果您计划在终端服务器环境中运行桌面代理，您需要安装桌面代理而不是服务器代理。"
 
 #: ../../index.rst:24
 msgid "Hard Drive - 100MB"

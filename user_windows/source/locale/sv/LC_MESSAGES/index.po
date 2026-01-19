@@ -59,12 +59,12 @@ msgstr "OS - Windows XP, Vista, 7/8/8.1/10"
 
 #: ../../index.rst:22
 msgid ""
-"Normally on windows server type machine such as 2025/2022/2019/2016, use "
+"Normally on Windows Server type machine such as 2025/2022/2019, use "
 "server agent instead of client agent. However, the client agent can run "
 "as desktop application on Windows Server OS as well.  For example, if you"
 " plan to have the desktop agent run in a terminal server environment, you"
 " need to install desktop agent instead of server agent."
-msgstr "Normalt på en server av typen Windows Server, som 2025/2022/2019/2016, använd serveragent istället för klientagent. Klientagenten kan dock också köras som ett skrivbordsprogram på Windows Server OS. Till exempel, om du planerar att ha skrivbordsagenten igång i en terminalservermiljö, behöver du installera skrivbordsagenten istället för serveragenten."
+msgstr "Normalt på en server av typen Windows Server, som 2025/2022/2019, använd serveragent istället för klientagent. Klientagenten kan dock också köras som ett skrivbordsprogram på Windows Server OS. Till exempel, om du planerar att ha skrivbordsagenten igång i en terminalservermiljö, behöver du installera skrivbordsagenten istället för serveragenten."
 
 #: ../../index.rst:24
 msgid "Hard Drive - 100MB"

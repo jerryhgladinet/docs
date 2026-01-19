@@ -50,7 +50,7 @@ master_doc = 'contents'
 
 # General information about the project.
 #en
-#project = 'Windows Client Guide'
+project = 'Windows Client Guide'
 
 #ar
 #project = 'دليل عميل Windows'
@@ -86,7 +86,7 @@ master_doc = 'contents'
 #project = 'Windows-klientguide'
 
 #zh
-project = 'Windows 客户端指南'
+#project = 'Windows 客户端指南'
 
 copyright = '2025 - Gladinet, Inc. All Rights Reserved'
 author = 'Gladinet, Inc.'

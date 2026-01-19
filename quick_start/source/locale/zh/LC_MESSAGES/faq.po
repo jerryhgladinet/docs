@@ -124,9 +124,9 @@ msgstr "最快的选项是登录合作伙伴门户，在sync4share.com上创建�
 msgid ""
 "However, for full evaluation, we recommend installing CentreStack "
 "directly using the 30-day free trial. Just prepare a clean Windows Server"
-" (2025, 2022, 2019, or 2016), download the 7MB installer, and within 20 "
+" (2025, 2022, or 2019), download the 7MB installer, and within 20 "
 "minutes, CentreStack will be up and running."
-msgstr "然而，为了进行全面评估，我们建议直接使用30天免费试用版安装CentreStack。只需准备一台干净的Windows服务器（2025、2022、2019或2016版），下载7MB的安装程序，在20分钟内，CentreStack将启动并运行。"
+msgstr "然而，为了进行全面评估，我们建议直接使用30天免费试用版安装CentreStack。只需准备一台干净的Windows服务器（2025、2022、或2019版），下载7MB的安装程序，在20分钟内，CentreStack将启动并运行。"
 
 #: ../../faq.rst:39
 msgid ""
@@ -152,8 +152,8 @@ msgid "What server operating systems can be used to install CentreStack?"
 msgstr "哪些服务器操作系统可以用来安装CentreStack？"
 
 #: ../../faq.rst:47
-msgid "We recommend Windows Server 2025, 2022, 2019 or 2016."
-msgstr "我们推荐使用Windows Server 2025、2022、2019或2016。"
+msgid "We recommend Windows Server 2025, 2022, or 2019."
+msgstr "我们推荐使用Windows Server 2025、2022、或2019。"
 
 #: ../../faq.rst:50
 msgid "Where can I deploy CentreStack?"
@@ -162,11 +162,11 @@ msgstr "我可以在哪里部署CentreStack？"
 #: ../../faq.rst:51
 msgid ""
 "You can deploy CentreStack wherever Windows Server is supported (Windows "
-"Server 2025, 2022, 2019 or 2016). We recommend using a virtual machine "
+"Server 2025, 2022, or 2019). We recommend using a virtual machine "
 "environment to simplify upgrades and enable multi-node scaling. Most "
 "customers install CentreStack within their own data centers, often in "
 "VMware environments."
-msgstr "您可以在任何支持Windows Server的环境中部署CentreStack（Windows Server 2025、2022、2019或2016）。我们建议使用虚拟机环境以简化升级过程并实现多节点扩展。大多数客户会在自己的数据中心内安装CentreStack，通常是在VMware环境中。"
+msgstr "您可以在任何支持Windows Server的环境中部署CentreStack（Windows Server 2025、2022、或2019）。我们建议使用虚拟机环境以简化升级过程并实现多节点扩展。大多数客户会在自己的数据中心内安装CentreStack，通常是在VMware环境中。"
 
 #: ../../faq.rst:54
 msgid "How scalable is CentreStack?"

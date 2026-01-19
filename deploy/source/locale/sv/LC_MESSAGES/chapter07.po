@@ -30,10 +30,10 @@ msgstr "Privat På-plats"
 
 #: ../../chapter07.rst:7
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "Du kan förbereda en Windows Server 2022/2019/2016 och installera CentreStack. I detta scenario är Active Directory vanligtvis på samma plats och primär lagring kommer från filserver eller NAS-lagring."
+msgstr "Du kan förbereda en Windows Server 2025/2022/2019 och installera CentreStack. I detta scenario är Active Directory vanligtvis på samma plats och primär lagring kommer från filserver eller NAS-lagring."
 
 #: ../../chapter07.rst:10
 msgid ""
@@ -90,8 +90,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "I detta distributionscenario skulle du distribuera CentreStack-lösningen i en virtuell privat molnmiljö som Amazon EC2. CentreStack finns också tillgänglig i form av AMI-bild för att underlätta skapandet av EC2-instanser. I detta distributionsscenario är den typiska primära lagringsanslutningen till Amazon S3-lagring. Du kan också ställa in CentreStack-lösningen i en miljö som HP Helion (OpenStack) Cloud, med en Windows Server 2022/2019/2016 som ansluter till OpenStack Swift-lagring."
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "I detta distributionscenario skulle du distribuera CentreStack-lösningen i en virtuell privat molnmiljö som Amazon EC2. CentreStack finns också tillgänglig i form av AMI-bild för att underlätta skapandet av EC2-instanser. I detta distributionsscenario är den typiska primära lagringsanslutningen till Amazon S3-lagring. Du kan också ställa in CentreStack-lösningen i en miljö som HP Helion (OpenStack) Cloud, med en Windows Server 2025/2022/2019 som ansluter till OpenStack Swift-lagring."
 
 #: ../../chapter07.rst:48
 msgid "Multi-Site Deployment"

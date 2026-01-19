@@ -53,7 +53,7 @@ msgid "a dedicated Windows Server machine:"
 msgstr ""
 
 #: ../on_premise.rst:32
-msgid "Operating System (2022 / 2019 / 2016)"
+msgid "Operating System (2025 / 2022 / 2019)"
 msgstr ""
 
 #: ../on_premise.rst:33

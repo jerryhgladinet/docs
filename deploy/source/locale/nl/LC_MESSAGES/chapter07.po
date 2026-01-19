@@ -30,10 +30,10 @@ msgstr "Privé On-premise"
 
 #: ../../chapter07.rst:7
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "U kunt een Windows Server 2022/2019/2016 voorbereiden en CentreStack installeren. In dit scenario bevindt Active Directory zich doorgaans op dezelfde locatie en is de primaire opslag afkomstig van een bestandsserver of NAS-opslag."
+msgstr "U kunt een Windows Server 2025/2022/2019 voorbereiden en CentreStack installeren. In dit scenario bevindt Active Directory zich doorgaans op dezelfde locatie en is de primaire opslag afkomstig van een bestandsserver of NAS-opslag."
 
 #: ../../chapter07.rst:10
 msgid ""
@@ -90,8 +90,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "In dit implementatiescenario zou u de CentreStack-oplossing implementeren in een virtuele privécloudomgeving zoals Amazon EC2. CentreStack is ook beschikbaar in de vorm van een AMI-image om het creëren van EC2-instanties te vergemakkelijken. In dit implementatiescenario is de typische primaire opslagverbinding met de Amazon S3-opslag. U kunt ook de CentreStack-oplossing instellen in een omgeving zoals HP Helion (OpenStack) Cloud, met een Windows Server 2022/2019/2016 die verbinding maakt met OpenStack Swift-opslag."
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "In dit implementatiescenario zou u de CentreStack-oplossing implementeren in een virtuele privécloudomgeving zoals Amazon EC2. CentreStack is ook beschikbaar in de vorm van een AMI-image om het creëren van EC2-instanties te vergemakkelijken. In dit implementatiescenario is de typische primaire opslagverbinding met de Amazon S3-opslag. U kunt ook de CentreStack-oplossing instellen in een omgeving zoals HP Helion (OpenStack) Cloud, met een Windows Server 2025/2022/2019 die verbinding maakt met OpenStack Swift-opslag."
 
 #: ../../chapter07.rst:48
 msgid "Multi-Site Deployment"

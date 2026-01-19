@@ -28,11 +28,11 @@ msgstr "インストール"
 msgid ""
 "If this is the very first time you are installing |prodname| server, it "
 "is recommended that you do the all-in-one installation by preparing a "
-"clean Windows 2025/2022/2019/2016 virtual machine and installing with all"
+"clean Windows 2025/2022/2019 virtual machine and installing with all"
 " the default parameters. The All-in-one deployment is the smallest fully "
 "functional setup and can be used for production environment with < 1000 "
 "users."
-msgstr "もしこれが |prodname| サーバーをインストールするのが初めてであれば、クリーンなWindows 2025/2022/2019/2016の仮想マシンを準備して、すべてのデフォルトパラメータでインストールすることをお勧めします。オールインワンデプロイメントは最小限で完全に機能するセットアップであり、< 1000ユーザーの本番環境に使用できます。"
+msgstr "もしこれが |prodname| サーバーをインストールするのが初めてであれば、クリーンなWindows 2025/2022/2019の仮想マシンを準備して、すべてのデフォルトパラメータでインストールすることをお勧めします。オールインワンデプロイメントは最小限で完全に機能するセットアップであり、< 1000ユーザーの本番環境に使用できます。"
 
 #: ../../chapter02.rst:11
 msgid "Step 1: Prepare the File Storage"
@@ -269,15 +269,15 @@ msgstr "ステップ 4: |prodname| サーバーの準備をする"
 #: ../../chapter02.rst:97
 msgid ""
 "The easiest way to prepare the |prodname| server is to have a clean "
-"Windows Server 2025/2022/2019/2016 OS with English locale and make sure "
+"Windows Server 2025/2022/2019 OS with English locale and make sure "
 "the worker nodes are all in the same time zone."
-msgstr "最も簡単な |prodname| サーバーの準備方法は、クリーンなWindows Server 2025/2022/2019/2016 OSを英語ロケールで用意し、ワーカーノードがすべて同じタイムゾーンにあることを確認することです。"
+msgstr "最も簡単な |prodname| サーバーの準備方法は、クリーンなWindows Server 2025/2022/2019 OSを英語ロケールで用意し、ワーカーノードがすべて同じタイムゾーンにあることを確認することです。"
 
 #: ../../chapter02.rst:99
 msgid ""
-"We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a "
+"We recommend Windows server 2025, 2022, or 2019 as a "
 "preferred server OS running on a virtual machine."
-msgstr "私たちは、仮想マシン上で実行される推奨サーバーOSとして、Windows Server 2025、2022、2019、またはWindows Server 2016を推奨します。"
+msgstr "仮想マシン上で動作するサーバーOSとしては、Windows Server 2025、2022、または2019を推奨します。"
 
 #: ../../chapter02.rst:105
 msgid "**Supported Operating Systems**"
@@ -295,11 +295,7 @@ msgstr "Windows Server 2022"
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../chapter02.rst:105
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
-#: ../../chapter02.rst:109
+#: ../../chapter02.rst:107
 msgid "**Supported CPU**"
 msgstr "**サポートされているCPU**"
 
@@ -311,7 +307,7 @@ msgstr "64ビット IntelまたはAMD x64アーキテクチャ"
 msgid "2 - virtual CPUs minimum (4 - virtual CPUs or more are recommended)"
 msgstr "2 - 仮想CPUが最低限必要です（4 - 仮想CPU以上を推奨）"
 
-#: ../../chapter02.rst:112
+#: ../../chapter02.rst:111
 msgid "**Memory**"
 msgstr "**メモリ**"
 

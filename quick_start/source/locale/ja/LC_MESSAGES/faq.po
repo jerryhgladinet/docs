@@ -124,9 +124,9 @@ msgstr "最も迅速なオプションは、パートナーポータルにログ
 msgid ""
 "However, for full evaluation, we recommend installing CentreStack "
 "directly using the 30-day free trial. Just prepare a clean Windows Server"
-" (2025, 2022, 2019, or 2016), download the 7MB installer, and within 20 "
+" (2025, 2022, or 2019), download the 7MB installer, and within 20 "
 "minutes, CentreStack will be up and running."
-msgstr "しかし、完全な評価のためには、30日間の無料トライアルを使用してCentreStackを直接インストールすることをお勧めします。クリーンなWindows Server（2025、2022、2019、または2016）を準備し、7MBのインストーラーをダウンロードして、20分以内にCentreStackが稼働するようになります。"
+msgstr "しかし、完全な評価のためには、30日間の無料トライアルを使用してCentreStackを直接インストールすることをお勧めします。クリーンなWindows Server（2025、2022、または2019）を準備し、7MBのインストーラーをダウンロードして、20分以内にCentreStackが稼働するようになります。"
 
 #: ../../faq.rst:39
 msgid ""
@@ -152,8 +152,8 @@ msgid "What server operating systems can be used to install CentreStack?"
 msgstr "CentreStackをインストールするために使用できるサーバーのオペレーティングシステムは何ですか？"
 
 #: ../../faq.rst:47
-msgid "We recommend Windows Server 2025, 2022, 2019 or 2016."
-msgstr "Windows Server 2025、2022、2019、または2016を推奨します。"
+msgid "We recommend Windows Server 2025, 2022, or 2019."
+msgstr "Windows Server 2025、2022、または2019を推奨します。"
 
 #: ../../faq.rst:50
 msgid "Where can I deploy CentreStack?"
@@ -162,11 +162,11 @@ msgstr "CentreStackはどこにデプロイできますか？"
 #: ../../faq.rst:51
 msgid ""
 "You can deploy CentreStack wherever Windows Server is supported (Windows "
-"Server 2025, 2022, 2019 or 2016). We recommend using a virtual machine "
+"Server 2025, 2022, or 2019). We recommend using a virtual machine "
 "environment to simplify upgrades and enable multi-node scaling. Most "
 "customers install CentreStack within their own data centers, often in "
 "VMware environments."
-msgstr "Windows Serverがサポートされている場所ならどこでもCentreStackをデプロイできます（Windows Server 2025、2022、2019、または2016）。アップグレードを簡素化し、マルチノードスケーリングを可能にするために、仮想マシン環境の使用をお勧めします。ほとんどのお客様は、VMware環境で自社のデータセンター内にCentreStackをインストールしています。"
+msgstr "Windows Serverがサポートされている場所ならどこでもCentreStackをデプロイできます（Windows Server 2025、2022、または2019）。アップグレードを簡素化し、マルチノードスケーリングを可能にするために、仮想マシン環境の使用をお勧めします。ほとんどのお客様は、VMware環境で自社のデータセンター内にCentreStackをインストールしています。"
 
 #: ../../faq.rst:54
 msgid "How scalable is CentreStack?"

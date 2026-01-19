@@ -11,7 +11,7 @@ has three primary components:
     *	The |prodname| Cluster (Server Farm) - at the center 
     *	The |prodname| access client agents - to the left
 
-.. image:: _static/image001.png
+.. image:: _static/image001-01162026.png
 
 The web portal belongs to the client tier on the left. Web portal functionality includes
 

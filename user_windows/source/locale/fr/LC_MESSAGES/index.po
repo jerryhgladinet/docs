@@ -59,12 +59,12 @@ msgstr "OS - Windows XP, Vista, 7/8/8.1/10"
 
 #: ../../index.rst:22
 msgid ""
-"Normally on windows server type machine such as 2025/2022/2019/2016, use "
+"Normally on Windows Server type machine such as 2025/2022/2019, use "
 "server agent instead of client agent. However, the client agent can run "
 "as desktop application on Windows Server OS as well.  For example, if you"
 " plan to have the desktop agent run in a terminal server environment, you"
 " need to install desktop agent instead of server agent."
-msgstr "Normalement sur une machine de type serveur Windows telle que 2025/2022/2019/2016, utilisez l'agent serveur au lieu de l'agent client. Cependant, l'agent client peut également fonctionner comme application de bureau sur le système d'exploitation Windows Server. Par exemple, si vous prévoyez de faire fonctionner l'agent de bureau dans un environnement de serveur terminal, vous devez installer l'agent de bureau au lieu de l'agent serveur."
+msgstr "Normalement sur une machine de type serveur Windows telle que 2025/2022/2019, utilisez l'agent serveur au lieu de l'agent client. Cependant, l'agent client peut également fonctionner comme application de bureau sur le système d'exploitation Windows Server. Par exemple, si vous prévoyez de faire fonctionner l'agent de bureau dans un environnement de serveur terminal, vous devez installer l'agent de bureau au lieu de l'agent serveur."
 
 #: ../../index.rst:24
 msgid "Hard Drive - 100MB"

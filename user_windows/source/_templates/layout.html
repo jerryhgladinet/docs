@@ -177,7 +177,7 @@
 	      <select id="languageSwitcher" onchange="changeLanguage()">
     		{{ _('Languages') }}
         	    {% for the_language, lan_code in languages %}
-          		<option value="{{ lan_code }}" {% if lan_code=='zh' %}selected{% endif %}>{{ the_language }}</option>
+          		<option value="{{ lan_code }}" {% if lan_code=='en' %}selected{% endif %}>{{ the_language }}</option>
         	    {% endfor %}
 	      </select>
 	      <br><br>

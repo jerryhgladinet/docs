@@ -55,23 +55,23 @@ msgid "The base operating system can be either:"
 msgstr "O sistema operacional base pode ser:"
 
 #: ../../chapter04.rst:14
+msgid "Windows Server 2025"
+msgstr "Windows Server 2025"
+
+#: ../../chapter04.rst:15
 msgid "Windows Server 2022"
 msgstr "Windows Server 2022"
 
-#: ../../chapter04.rst:15
+#: ../../chapter04.rst:16
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../chapter04.rst:16
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
 #: ../../chapter04.rst:18
 msgid ""
-"We recommend Windows Server 2022/2019/2016 since .Net Framework 4.5+ "
+"We recommend Windows Server 2025/2022/2019 since .Net Framework 4.5+ "
 "comes directly with these newer server OS platforms. It is easier and "
-"faster to install CentreStack software on Windows Server 2022/2019/2016."
-msgstr "Recomendamos o Windows Server 2022/2019/2016, pois o .Net Framework 4.5+ já vem diretamente com essas plataformas de servidor mais recentes. É mais fácil e rápido instalar o software CentreStack no Windows Server 2022/2019/2016."
+"faster to install CentreStack software on Windows Server 2025/2022/2019."
+msgstr "Recomendamos o Windows Server 2025/2022/2019, pois o .Net Framework 4.5+ já vem diretamente com essas plataformas de servidor mais recentes. É mais fácil e rápido instalar o software CentreStack no Windows Server 2025/2022/2019."
 
 #: ../../chapter04.rst:23
 msgid ""
@@ -87,8 +87,8 @@ msgid ""
 msgstr "Não há necessidade de preparar a máquina além do estado limpo do software básico do Sistema Operacional."
 
 #: ../../chapter04.rst:29
-msgid "Windows Server 2022, 2019, 2016"
-msgstr "Windows Server 2022, 2019, 2016"
+msgid "Windows Server 2025, 2022, 2019"
+msgstr "Windows Server 2025, 2022, 2019"
 
 #: ../../chapter04.rst:31
 msgid ""
@@ -225,8 +225,8 @@ msgid "Operating System"
 msgstr "Sistema Operacional"
 
 #: ../../chapter04.rst:101
-msgid "Windows 2022, Windows 2019, Windows 2016"
-msgstr "Windows 2022, Windows 2019, Windows 2016"
+msgid "Windows Server 2025, Windows Server 2022, Windows Server 2019"
+msgstr "Windows Server 2025, Windows Server 2022, Windows Server 2019"
 
 #: ../../chapter04.rst
 msgid "CPU"
@@ -326,7 +326,7 @@ msgstr "A nossa recomendação é ter o seu próprio dispositivo de balanceament
 msgid ""
 "If you have a hardware load balancer such as F5, you can skip web nodes, "
 "and have F5 directly load balance to a farm of worker nodes. You can also"
-" use the Network Load Balancing feature which is included in Windows "
-"2022/2019/2016 for load balancing."
-msgstr "Se você possui um balanceador de carga de hardware como o F5, pode ignorar os nós da web e fazer com que o F5 balanceie a carga diretamente para um conjunto de nós trabalhadores. Você também pode usar o recurso de Balanceamento de Carga de Rede que está incluído no Windows 2022/2019/2016 para balanceamento de carga."
+" use the Network Load Balancing feature which is included in Windows Server "
+"2025/2022/2019 for load balancing."
+msgstr "Se você possui um balanceador de carga de hardware como o F5, pode ignorar os nós da web e fazer com que o F5 balanceie a carga diretamente para um conjunto de nós trabalhadores. Você também pode usar o recurso de Balanceamento de Carga de Rede que está incluído no Windows Server 2025/2022/2019 para balanceamento de carga."
 

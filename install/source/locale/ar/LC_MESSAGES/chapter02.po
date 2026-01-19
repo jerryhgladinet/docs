@@ -29,11 +29,11 @@ msgstr "التثبيت"
 msgid ""
 "If this is the very first time you are installing |prodname| server, it "
 "is recommended that you do the all-in-one installation by preparing a "
-"clean Windows 2025/2022/2019/2016 virtual machine and installing with all"
+"clean Windows 2025/2022/2019 virtual machine and installing with all"
 " the default parameters. The All-in-one deployment is the smallest fully "
 "functional setup and can be used for production environment with < 1000 "
 "users."
-msgstr "إذا كانت هذه هي المرة الأولى التي تقوم فيها بتثبيت |prodname| server، يُنصح بأن تقوم بالتثبيت الشامل عن طريق إعداد جهاز افتراضي نظيف بنظام ويندوز 2025/2022/2019/2016 والتثبيت باستخدام جميع الإعدادات الافتراضية. التثبيت الشامل هو أصغر تجهيز كامل الوظائف ويمكن استخدامه لبيئة الإنتاج لأقل من 1000 مستخدم."
+msgstr "إذا كانت هذه هي المرة الأولى التي تقوم فيها بتثبيت |prodname| server، يُنصح بأن تقوم بالتثبيت الشامل عن طريق إعداد جهاز افتراضي نظيف بنظام ويندوز 2025/2022/2019 والتثبيت باستخدام جميع الإعدادات الافتراضية. التثبيت الشامل هو أصغر تجهيز كامل الوظائف ويمكن استخدامه لبيئة الإنتاج لأقل من 1000 مستخدم."
 
 #: ../../chapter02.rst:11
 msgid "Step 1: Prepare the File Storage"
@@ -270,15 +270,15 @@ msgstr "الخطوة 4: إعداد خادم |prodname|"
 #: ../../chapter02.rst:97
 msgid ""
 "The easiest way to prepare the |prodname| server is to have a clean "
-"Windows Server 2025/2022/2019/2016 OS with English locale and make sure "
+"Windows Server 2025/2022/2019 OS with English locale and make sure "
 "the worker nodes are all in the same time zone."
-msgstr "أسهل طريقة لإعداد خادم |prodname| هي امتلاك نظام تشغيل Windows Server 2025/2022/2019/2016 نظيف بالإعدادات المحلية الإنجليزية والتأكد من أن جميع العقد العاملة في نفس المنطقة الزمنية."
+msgstr "أسهل طريقة لإعداد خادم |prodname| هي امتلاك نظام تشغيل Windows Server 2025/2022/2019 نظيف بالإعدادات المحلية الإنجليزية والتأكد من أن جميع العقد العاملة في نفس المنطقة الزمنية."
 
 #: ../../chapter02.rst:99
 msgid ""
-"We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a "
+"We recommend Windows server 2025, 2022, or 2019 as a "
 "preferred server OS running on a virtual machine."
-msgstr "نوصي باستخدام نظام التشغيل Windows server 2025، 2022، 2019 أو Windows server 2016 كنظام تشغيل خادم مفضل يعمل على جهاز افتراضي."
+msgstr "نوصي باستخدام نظام التشغيل Windows Server 2025 أو 2022 أو 2019 كنظام تشغيل مفضل للخادم يعمل على جهاز افتراضي."
 
 #: ../../chapter02.rst:105
 msgid "**Supported Operating Systems**"
@@ -296,11 +296,7 @@ msgstr "ويندوز سيرفر 2022"
 msgid "Windows Server 2019"
 msgstr "ويندوز سيرفر 2019"
 
-#: ../../chapter02.rst:105
-msgid "Windows Server 2016"
-msgstr "ويندوز سيرفر 2016"
-
-#: ../../chapter02.rst:109
+#: ../../chapter02.rst:107
 msgid "**Supported CPU**"
 msgstr "**المعالجات المدعومة**"
 
@@ -312,7 +308,7 @@ msgstr "معمارية إنتل أو AMD x64 بت 64"
 msgid "2 - virtual CPUs minimum (4 - virtual CPUs or more are recommended)"
 msgstr "2 - وحدات المعالجة الافتراضية كحد أدنى (يُنصح بـ 4 - وحدات المعالجة الافتراضية أو أكثر)"
 
-#: ../../chapter02.rst:112
+#: ../../chapter02.rst:111
 msgid "**Memory**"
 msgstr "**ذاكرة**"
 

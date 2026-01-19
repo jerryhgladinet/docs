@@ -28,11 +28,11 @@ msgstr "Installation"
 msgid ""
 "If this is the very first time you are installing |prodname| server, it "
 "is recommended that you do the all-in-one installation by preparing a "
-"clean Windows 2025/2022/2019/2016 virtual machine and installing with all"
+"clean Windows 2025/2022/2019 virtual machine and installing with all"
 " the default parameters. The All-in-one deployment is the smallest fully "
 "functional setup and can be used for production environment with < 1000 "
 "users."
-msgstr "Si c'est la toute première fois que vous installez le serveur |prodname|, il est recommandé de procéder à une installation tout-en-un en préparant une machine virtuelle Windows 2025/2022/2019/2016 vierge et en installant avec tous les paramètres par défaut. Le déploiement tout-en-un est la configuration entièrement fonctionnelle la plus petite et peut être utilisé pour un environnement de production avec < 1000 utilisateurs."
+msgstr "Si c'est la toute première fois que vous installez le serveur |prodname|, il est recommandé de procéder à une installation tout-en-un en préparant une machine virtuelle Windows 2025/2022/2019 vierge et en installant avec tous les paramètres par défaut. Le déploiement tout-en-un est la configuration entièrement fonctionnelle la plus petite et peut être utilisé pour un environnement de production avec < 1000 utilisateurs."
 
 #: ../../chapter02.rst:11
 msgid "Step 1: Prepare the File Storage"
@@ -269,15 +269,15 @@ msgstr "Étape 4 : Préparer le serveur |prodname|"
 #: ../../chapter02.rst:97
 msgid ""
 "The easiest way to prepare the |prodname| server is to have a clean "
-"Windows Server 2025/2022/2019/2016 OS with English locale and make sure "
+"Windows Server 2025/2022/2019 OS with English locale and make sure "
 "the worker nodes are all in the same time zone."
-msgstr "La manière la plus simple de préparer le serveur |prodname| est d'avoir un système d'exploitation Windows Server 2025/2022/2019/2016 propre avec paramètres régionaux anglais et de s'assurer que les nœuds de traitement sont tous dans le même fuseau horaire."
+msgstr "La manière la plus simple de préparer le serveur |prodname| est d'avoir un système d'exploitation Windows Server 2025/2022/2019 propre avec paramètres régionaux anglais et de s'assurer que les nœuds de traitement sont tous dans le même fuseau horaire."
 
 #: ../../chapter02.rst:99
 msgid ""
-"We recommend Windows server 2025, 2022, 2019 or Windows server 2016 as a "
+"We recommend Windows server 2025, 2022, or 2019 as a "
 "preferred server OS running on a virtual machine."
-msgstr "Nous recommandons Windows Server 2025, 2022, 2019 ou Windows Server 2016 comme système d'exploitation de serveur préféré fonctionnant sur une machine virtuelle."
+msgstr "Nous recommandons Windows Server 2025, 2022 ou 2019 comme système d'exploitation serveur privilégié, exécuté sur une machine virtuelle."
 
 #: ../../chapter02.rst:105
 msgid "**Supported Operating Systems**"
@@ -295,11 +295,7 @@ msgstr "Windows Server 2022"
 msgid "Windows Server 2019"
 msgstr "Windows Server 2019"
 
-#: ../../chapter02.rst:105
-msgid "Windows Server 2016"
-msgstr "Windows Server 2016"
-
-#: ../../chapter02.rst:109
+#: ../../chapter02.rst:107
 msgid "**Supported CPU**"
 msgstr "**Processeur pris en charge**"
 
@@ -311,7 +307,7 @@ msgstr "Architecture Intel ou AMD x64 de 64 bits"
 msgid "2 - virtual CPUs minimum (4 - virtual CPUs or more are recommended)"
 msgstr "2 - CPU virtuels minimum (4 - CPU virtuels ou plus sont recommandés)"
 
-#: ../../chapter02.rst:112
+#: ../../chapter02.rst:111
 msgid "**Memory**"
 msgstr "**Mémoire**"
 

@@ -34,7 +34,7 @@ What is the best way to try CentreStack features?
 +++++++++++++++++++++++++++++++++++++++++++++++++++ 
 The quickest option is to log in to the partner portal and create a free Hosted Tenant trial on sync4share.com. This allows you to explore end-user features in 3-5 minutes.
 
-However, for full evaluation, we recommend installing CentreStack directly using the 30-day free trial. Just prepare a clean Windows Server (2025, 2022, 2019, or 2016), download the 7MB installer, and within 20 minutes, CentreStack will be up and running.
+However, for full evaluation, we recommend installing CentreStack directly using the 30-day free trial. Just prepare a clean Windows Server (2025, 2022, or 2019), download the 7MB installer, and within 20 minutes, CentreStack will be up and running.
 
 We suggest trying both methods. Once you're familiar with the features, you can compare the self-hosted CentreStack against the Gladinet Cloud (on gladinet.com) and see how it fits within your infrastructure.
 
@@ -44,11 +44,11 @@ Yes. CentreStack includes a white-labeled web portal and desktop client to suppo
 
 What server operating systems can be used to install CentreStack?
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-We recommend Windows Server 2025, 2022, 2019 or 2016.
+We recommend Windows Server 2025, 2022, or 2019.
 
 Where can I deploy CentreStack?
 ++++++++++++++++++++++++++++++++
-You can deploy CentreStack wherever Windows Server is supported (Windows Server 2025, 2022, 2019 or 2016). We recommend using a virtual machine environment to simplify upgrades and enable multi-node scaling. Most customers install CentreStack within their own data centers, often in VMware environments.
+You can deploy CentreStack wherever Windows Server is supported (Windows Server 2025, 2022, or 2019). We recommend using a virtual machine environment to simplify upgrades and enable multi-node scaling. Most customers install CentreStack within their own data centers, often in VMware environments.
 
 How scalable is CentreStack?
 +++++++++++++++++++++++++++++

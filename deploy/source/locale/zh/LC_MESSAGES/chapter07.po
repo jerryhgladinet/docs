@@ -30,10 +30,10 @@ msgstr "私有本地部署"
 
 #: ../../chapter07.rst:7
 msgid ""
-"You can prepare a Windows Server 2022/2019/2016 and install CentreStack. "
+"You can prepare a Windows Server 2025/2022/2019 and install CentreStack. "
 "In this scenario, Active Directory is typically at the same site and "
 "primary storage is from file server or NAS storage."
-msgstr "您可以准备一台Windows Server 2022/2019/2016，并安装CentreStack。在这种情况下，Active Directory通常位于同一站点，主存储来自文件服务器或NAS存储。"
+msgstr "您可以准备一台Windows Server 2025/2022/2019，并安装CentreStack。在这种情况下，Active Directory通常位于同一站点，主存储来自文件服务器或NAS存储。"
 
 #: ../../chapter07.rst:10
 msgid ""
@@ -90,8 +90,8 @@ msgid ""
 "instances. In this deployment scenario, the typical primary storage "
 "connection is to the Amazon S3 storage. You can also setup CentreStack "
 "solution in an environment like HP Helion (OpenStack) Cloud, with a "
-"Windows Server 2022/2019/2016 connecting to OpenStack Swift storage."
-msgstr "在这种部署场景中，您将在如亚马逊EC2这样的虚拟私有云环境中部署CentreStack解决方案。CentreStack也以AMI镜像的形式提供，以便于创建EC2实例。在这种部署场景中，典型的主存储连接是到亚马逊S3存储。您也可以在类似HP Helion（OpenStack）云的环境中设置CentreStack解决方案，使用Windows Server 2022/2019/2016连接到OpenStack Swift存储。"
+"Windows Server 2025/2022/2019 connecting to OpenStack Swift storage."
+msgstr "在这种部署场景中，您将在如亚马逊EC2这样的虚拟私有云环境中部署CentreStack解决方案。CentreStack也以AMI镜像的形式提供，以便于创建EC2实例。在这种部署场景中，典型的主存储连接是到亚马逊S3存储。您也可以在类似HP Helion（OpenStack）云的环境中设置CentreStack解决方案，使用Windows Server 2025/2022/2019连接到OpenStack Swift存储。"
 
 #: ../../chapter07.rst:48
 msgid "Multi-Site Deployment"
